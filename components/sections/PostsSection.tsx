@@ -1,0 +1,44 @@
+import Link from "next/link";
+import type { Post, PostsSection as Posts } from "@/lib/types";
+import { Photo } from "@/components/ui/Photo";
+import { formatDate } from "@/lib/text";
+import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
+
+export function PostCard({ post, index = 0 }: { post: Post; index?: number }) {
+  return (
+    <Link
+      href={`/blog/${post.slug}/`}
+      className="card group flex h-full min-w-0 flex-col overflow-hidden transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]"
+      data-reveal
+      style={{ ["--i" as string]: index % 3 }}
+    >
+      {post.image ? (
+        <div className="relative aspect-[16/9] overflow-hidden bg-tint">
+          <Photo image={post.image} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-500 group-hover:scale-[1.04]" />
+        </div>
+      ) : null}
+      <div className="flex flex-1 flex-col p-6">
+        {post.date ? <p className="eyebrow mb-2">{formatDate(post.date)}</p> : null}
+        <h3 className="font-display text-h3 font-semibold text-navy">{post.title}</h3>
+        {post.excerpt ? <p className="mt-2 line-clamp-3 text-[0.975rem] leading-relaxed">{post.excerpt}</p> : null}
+        <span className="mt-auto pt-4 font-display text-[0.95rem] font-semibold text-blue-deep">Read more</span>
+      </div>
+    </Link>
+  );
+}
+
+export function PostsSection({ section: s, posts }: { section: Posts; posts: Post[] }) {
+  const list = posts.slice(0, s.limit ?? 3);
+  if (!list.length) return null;
+  return (
+    <SectionShell tone={s.tone}>
+      <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {list.map((p, i) => (
+          <PostCard key={p.slug} post={p} index={i} />
+        ))}
+      </div>
+      <CtaRow ctas={s.ctas?.length ? s.ctas : [{ label: "Read the blog", href: "/blog/" }]} />
+    </SectionShell>
+  );
+}
