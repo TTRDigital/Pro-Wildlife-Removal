@@ -9,7 +9,7 @@ type Field = "name" | "phone" | "email" | "zip" | "address" | "property" | "serv
 type Values = Record<Field, string>;
 type Errors = Partial<Record<Field | "consent", string>>;
 
-/* Client checks; public/api/lead.php checks the same on the server. */
+/* Client checks; app/api/lead/route.ts checks the same on the server. */
 const validators: Record<Field, (v: string) => string | undefined> = {
   name: (v) => (v.trim().length < 2 ? "Please enter your name." : undefined),
   phone: (v) => (v.replace(/\D/g, "").length < 10 ? "Please enter a phone number with area code." : undefined),
@@ -26,8 +26,8 @@ const empty: Values = { name: "", phone: "", email: "", zip: "", address: "", pr
 const chevron = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230e2a47' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E\")";
 
 /**
- * Inspection / estimate request form. Posts JSON to /api/lead.php (PHP on
- * SiteGround), which checks it again and forwards it to GoHighLevel.
+ * Inspection / estimate request form. Posts JSON to /api/lead/ (app/api/lead/route.ts),
+ * which checks it again and forwards it to GoHighLevel.
  * Compact mode (the navy CTA band) asks only what is needed to call back.
  */
 export function LeadForm({
@@ -97,7 +97,7 @@ export function LeadForm({
     const honeypot = (formRef.current?.elements.namedItem("hp_pw") as HTMLInputElement | null)?.value ?? "";
 
     try {
-      const res = await fetch("/api/lead.php", {
+      const res = await fetch("/api/lead/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

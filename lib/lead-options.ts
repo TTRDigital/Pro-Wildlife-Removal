@@ -1,4 +1,4 @@
-/* Constants for the estimate form. public/api/lead.php repeats the options: keep them in sync. */
+/* Constants for the inspection form, also used by app/api/lead/route.ts. */
 
 export const serviceOptions = [
   "Bat removal",

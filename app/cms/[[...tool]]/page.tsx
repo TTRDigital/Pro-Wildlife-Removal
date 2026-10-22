@@ -4,7 +4,7 @@ import { projectId } from "../../../sanity/env";
 
 export const dynamic = "force-static";
 
-// Static export: one page at /cms/. Inner studio URLs are sent to it by public/.htaccess.
+// One prerendered page at /cms/; inner studio URLs (/cms/structure/...) are rendered on first request and cached.
 export function generateStaticParams() {
   return [{ tool: [] }];
 }

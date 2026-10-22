@@ -1,5 +1,5 @@
 /*
- * next/image loader for the static export (no image server on SiteGround).
+ * next/image loader: pre-made WebP copies instead of an image server.
  * - Local photos: WebP copies at fixed widths, made before the build by
  *   scripts/optimize-images.mjs (public/images/x.jpg -> /_img/images/x-640.webp).
  * - Sanity photos: Sanity's own image CDN resizes them.
