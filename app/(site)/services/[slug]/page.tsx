@@ -29,9 +29,9 @@ export default async function ServicePage(props: PageProps<"/services/[slug]">) 
     <>
       <JsonLd data={serviceSchema(service, path)} />
       <PageView
-        hero={service.hero}
-        sections={service.sections}
+        page={service}
         settings={settings}
+        path={path}
         crumbs={[
           { label: "Services", href: "/services/" },
           { label: service.group === "removal" ? service.title : `${service.title} (${groupLabels[service.group]})`, href: path },

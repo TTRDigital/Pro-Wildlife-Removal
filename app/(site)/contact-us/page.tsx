@@ -13,5 +13,5 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page() {
   const [page, settings] = await Promise.all([getPage("contact"), getSiteSettings()]);
   // The contact form is on the page already, so no closing band with a second form.
-  return <PageView hero={page.hero} sections={page.sections} settings={settings} crumbs={[{ label: "Contact Us", href: PATH }]} closing={false} />;
+  return <PageView page={page} settings={settings} path={PATH} crumbs={[{ label: "Contact Us", href: PATH }]} closing={false} />;
 }

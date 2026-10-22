@@ -4,6 +4,2929 @@ import type { Post } from "../types";
 
 export const fallbackPosts: Post[] = [
  {
+  "slug": "raccoon-mating-season-in-florida",
+  "title": "Raccoon Mating Season in Florida",
+  "excerpt": "If you have heard chittering or found nesting material in a crawl space recently, raccoon mating season in Florida is likely the reason.",
+  "date": "2026-10-21T19:37:30+00:00",
+  "modified": "2026-10-21T19:37:30+00:00",
+  "author": "Taroneh homberg",
+  "image": images.featured1787590802042,
+  "body": [
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Why raccoon mating season in Florida matters to homeowners",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If you have heard chittering or found nesting material in a crawl space recently, ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "raccoon mating season in Florida",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " is likely the reason. Female raccoons often seek sheltered dens in spring to give birth to kits. That creates a short window when exclusion or trapping can accidentally separate dependent young from their mother. Homeowners who act without checking occupancy commonly face higher cleanup and repair bills later.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Several site investigations show inspection fees typically range from ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$75 to $250",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " and targeted removal work is commonly quoted between ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$150 and $600",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ". For severe contamination or insulation replacement some homeowners reported cleanup costs reaching as high as ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$11,000",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ". Those figures make careful timing important when dealing with denning raccoons.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "When is raccoon mating season in Florida",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Raccoons in Florida usually breed in late winter. Most mating activity occurs from January through March, with conception often concentrated in February. After a gestation period of about ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "60 to 65 days",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ", female raccoons give birth to litters of roughly ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "3 to 5 kits",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ", commonly arriving from March through May. In warmer parts of the state some births can be earlier or spread out, so local sightings in late winter and spring deserve attention.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How seasonal timing changes behavior",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "During mating season male raccoons increase roaming behavior and may appear more often in yards. Females focus on finding secure dens. In urban or suburban areas that means attics, soffits, chimneys, and under-deck cavities become prime real estate. If a female has chosen your home for a den she will often return consistently until kits are mobile.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Common den sites and signs a female is nesting",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Raccoons pick dens that are concealed, dry, and close to food. Typical places in Florida include roof cavities, attics, soffits, chimneys, and under decks. If you suspect a den, look for these signs before attempting any exclusion work.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Daytime noises:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Chirps, high-pitched cries, or frequent vocalizations can indicate kits inside a den.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Nesting material:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Shredded insulation, paper, or plant material gathered near an entry point.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Feces and tracks:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Fresh droppings and paw prints around access points.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Persistent nocturnal activity:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Regular visits after dusk and before dawn.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Where to learn more about common den locations",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If your den is under a porch or deck, our guide on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "raccoons under deck",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " explains why those spaces are attractive and how professionals handle exclusions without harming dependent young. For attic situations, our post on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "why raccoons choose attics",
+      "marks": [
+       "l1"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " describes typical entry points and inspection checklists.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/raccoons-under-deck/"
+     },
+     {
+      "_type": "link",
+      "_key": "l1",
+      "href": "/blog/raccoons-in-attic-why-they-choose-your-home-guide/"
+     }
+    ]
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "What to do when you suspect a den during mating season",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Acting carefully reduces the risk to kits and avoids legal or welfare problems. Follow this order of steps when you suspect raccoon denning on your property.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Document first:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Take photos, notes about noise times, and, if possible, set a trail camera to confirm occupancy without disturbing animals.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Remove attractants:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Secure trash, bring pet food indoors, and stop leaving compost or fruit accessible. Removing food dramatically reduces repeated visits.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Do not seal openings immediately:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Sealing a den while kits are present often results in orphaned young and heavier cleanup. Professionals will confirm when it is safe to exclude.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Call a licensed wildlife professional:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " A trained inspector can confirm presence of dependent young and recommend a timed exclusion method. See our ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "wildlife removal services",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " page for local options and documented scopes of work.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/services/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Short monitoring windows and humane exclusion",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "When the mother is confirmed to be absent during the day, many technicians use one-way exclusion devices or carefully timed live trapping. That staged approach reduces the chance of leaving kits behind. Site reports recommend a monitoring window after exclusion so technicians can ensure the family has relocated before permanent repairs are installed.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Risks and common homeowner mistakes during mating season",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Homeowners often try quick fixes that make problems worse. Three recurring mistakes are sealing vents too early, attempting DIY live trapping without permits, and ignoring attractants that lure new raccoons later.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Premature sealing:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Blocking entry points while kits are present can cause orphaning and later decomposition problems that increase sanitation costs.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "DIY trapping:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Unsecured or infrequently checked traps can lead to non-target captures and stressed animals. Professionals know local rules and humane handling.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Neglecting follow up:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Exclusion must be paired with sanitation and attractant removal. Otherwise new animals or the same family may return.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Costs, timelines, and what to expect from a professional",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Budgeting with real numbers from regional service reports helps you plan. Expect inspections to cost between ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$75 and $250",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ", targeted removal or live trapping between ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$150 and $600",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ", and under-deck exclusion work from roughly ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$200 to $1,500",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " depending on materials and access. Sanitation and flea or tick remediation commonly range from ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$300 to $2,000",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ", and in extreme attic contamination cases documented jobs have reached about ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$11,000",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " for full insulation replacement and cleanup.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Timelines vary. Inspections are often same day to one week. Removal and exclusion can take one to 14 days depending on strategy and whether dependent young are present. Contractors typically separate line items for inspection, removal, exclusion, and sanitation so you can compare quotes transparently.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "For a deeper look at cleanup costs after occupancy, review our article on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "attic wildlife cleanup costs",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ", which outlines typical scopes and price ranges.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+     }
+    ]
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Preventing raccoon denning next season",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Prevention reduces the chance you will face a denning dilemma next spring. Key actions include sealing small gaps before winter, trimming tree branches away from rooflines, and removing food attractants year round. Durable materials such as galvanized hardware cloth and properly capped chimneys are reliable long-term fixes.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Neighborhood coordination multiplies effectiveness. If nearby yards keep pet food or unsecured trash, raccoons will keep returning. Discuss shared prevention steps with neighbors to reduce local denning options.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Frequently Asked Questions",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "When are raccoon kits usually born in Florida?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Most kits are born in spring after mating in late winter. Expect births roughly two months after mating, commonly between March and May. In warmer microclimates births can start earlier and be spread over a longer window. If you find signs of nesting in early spring, treat the situation as a potential den until a professional confirms otherwise.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How can I tell if baby raccoons are inside my attic or under my deck?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Kits make high-pitched chirps and cry more often than adults. You may hear repetitive vocalizations during the day, find shredded nesting material, or notice frequent trips by an adult at dusk. A trail camera or a licensed inspection will confirm whether dependent young are present before any exclusion work.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Is it legal to trap and relocate raccoons during mating season?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Local regulations vary by county and municipality. Many areas require licensed wildlife control for live trapping and relocation. Unpermitted relocation can be illegal and harmful to the animals. Contact local animal control or a licensed professional who understands your local rules and humane handling requirements.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "What should I do if I find orphaned raccoon kits?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If you suspect kits are orphaned, do not attempt to feed or handle them. Contact a licensed wildlife rehabilitator or local animal control immediately. Professionals will assess whether the mother is likely to return and provide appropriate care for the kits if they are truly orphaned.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Can I use lights or noise to scare raccoons away during mating season?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Deterrents such as motion lights or sound devices can encourage temporary departures but rarely solve a denning problem. If a female has nested, deterrents may simply stress the animals or cause the female to move kits to another risky location. Use deterrents only as a short-term measure while arranging a professional inspection.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "When is it safe to seal entry points after removal?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Professionals usually wait until the technician confirms adults and young have left and monitors the site for a short period. This may be a few days to a couple of weeks depending on strategy. Sealing too early is the main cause of orphaned kits, so rely on an inspector to determine the right timing.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Conclusion",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Understanding ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "raccoon mating season in Florida",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " helps you protect your home and the animals involved. Late winter mating followed by spring births creates a narrow period when careful assessment matters most. Document signs, remove attractants, and call a licensed wildlife professional before attempting exclusion. That approach minimizes harm to kits and reduces the chance of costly cleanup and repeat visits.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If you need an inspection to confirm a den or to get an itemized plan for removal, exclusion, and sanitation, start with a documented visit through our ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "wildlife removal services",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ". A staged plan avoids common mistakes during mating season and keeps both your family and wildlife safe.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/services/"
+     }
+    ]
+   }
+  ],
+  "seo": {
+   "title": "Raccoon Mating Season in Florida | Pro Wildlife Removal",
+   "description": "If you have heard chittering or found nesting material in a crawl space recently, raccoon mating season in Florida is likely the reason. Female raccoons often"
+  }
+ },
+ {
+  "slug": "signs-of-raccoons-in-your-home",
+  "title": "Signs of Raccoons in Your Home",
+  "excerpt": "If you are seeing strange noises at night, shredded insulation, or tracks around your foundation, those are common signs of raccoons in your home.",
+  "date": "2026-10-17T19:36:16+00:00",
+  "modified": "2026-10-17T19:36:16+00:00",
+  "author": "Pro Wildlife Removal",
+  "image": images.featured1787592003862,
+  "body": [
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Why signs of raccoons in your home matter",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If you are seeing strange noises at night, shredded insulation, or tracks around your foundation, those are common ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "signs of raccoons in your home",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ". Homeowners who ignore early indicators often end up with chewed wiring, heavy sanitation bills, and families of animals trapped inside walls or attics. The sooner you identify the specific signs and act correctly, the lower the chance of extensive repairs and health risks.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Common visual and sensory signs to look for",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Start with a simple, systematic sweep of likely problem areas. Raccoons leave a handful of repeatable clues that differ from rodents, squirrels, or opossums.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Droppings and urine smells:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Raccoon droppings are larger than rat droppings and often appear near entry points or under eaves. Strong ammonia or musty odors in attics and crawl spaces can indicate long-term occupancy.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Shredded nesting material:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Torn insulation, pulled-up attic batting, and ripped cardboard inside wall cavities point to denning. Several documented jobs show insulation replacement as a major cost when animals have nested for months.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Tracks and tail marks:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " In soft soil or snow you may see five-fingered handlike prints. Tail drag marks near foundation vents or deck skirting are another clue.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Damage to soffits and vent screens:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Raccoons commonly pry open weakened soffits and roof vent boots. Check for sagging or torn areas along the eaves and around chimneys.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Noises at night:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Heavy thumps, tearing, and kit vocalizations during dusk to dawn are strong signs of raccoon activity in attics or roofs. For more on sounds and how to interpret them see our guide on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "raccoon noises at night",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ".",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/raccoon-noises-at-night/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How professionals and homeowners document occupancy",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Before sealing or attempting removal, document what you find. This protects you legally and ensures the right method is used.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Trail cameras:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " A short motion-triggered camera session can confirm species and activity times without human risk. Community posts repeatedly recommend cameras to avoid mistaken identification.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Photograph damage and droppings:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " These images help inspectors determine whether sanitation or insulation replacement is necessary.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Time logs:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Note when you hear or see activity. Raccoons are nocturnal; repeated sounds between dusk and dawn raise odds they are present rather than just a transient visitor.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "What raccoons in the home usually cost and why",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Costs vary by location and the damage level, but specific ranges help you prepare. Inspections are commonly in the ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$75 to $250",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " range. Targeted removal visits often start around ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$150 to $600",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ". Sanitation and pest remediation after extended occupancy frequently range from ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$300 to $2,000",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ", and in extreme attic contamination cases homeowners have reported bills up to ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "$11,000",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " for full cleanup and insulation replacement. Getting itemized quotes is essential so you can compare inspection, removal, exclusion, and sanitation separately.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Why a staged approach prevents the worst outcomes",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Experienced technicians follow three distinct steps: confirm occupancy, exclude animals humanely, then remediate contamination and repair damage. Skipping any step increases the chance of trapped young, unresolved attractants, or incomplete cleanup that causes recurring problems.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Step 1: Confirm occupancy and identify entry points",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Inspections check soffits, chimney caps, roof vent boots, and areas under decks or porches. One homeowner traced repeated attic visits to an apple tree about ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "15 feet",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " from the roofline. Small overlooked gaps are why inspections pay for themselves.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Step 2: Remove or exclude animals legally and humanely",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Depending on local law and whether dependent young are present, professionals use one-way exclusion devices, targeted trapping, or temporary deterrents. Do not seal holes until you are sure no dependent young remain. Community accounts warn that premature sealing often leads to trapped kits and a worse cleanup job.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Step 3: Sanitation and repairs",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "When raccoons have nested, removal of contaminated insulation, cleaning of droppings, and HVAC duct checks are common. If fleas or ticks surface after discovery, pest remediation may be necessary. Ask providers to list sanitation as a separate line item so you understand scope and cost.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Immediate safety actions you can take",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "While you arrange inspection, do these low-risk actions to reduce harm to people and animals.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Secure attractants:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Bring pet food indoors, secure trash, and remove bird seed to reduce repeated visits. Site case studies show removing food often dramatically reduces return activity.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Limit access to effected rooms:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Keep children and pets away from rooms under active attics or crawl spaces.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Do not seal holes immediately:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Blocking exits while animals are inside can trap young and create decomposing remains that dramatically increase cleanup costs.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Document sounds and sightings:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " Use short videos or notes to help the inspector determine timing and potential breeding status.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "DIY versus professional removal: where DIY commonly fails",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "DIY exclusion and trapping can work for simple, clear-cut problems, but homeowners frequently make mistakes that increase costs or risk animal welfare. Common DIY failures include sealing during breeding season, using improper materials that raccoons quickly breach, and attempting sanitation without proper PPE. Hiring a licensed wildlife removal provider reduces legal and safety risks and usually includes warranties on exclusion work. For a comparison of costs and when to call pros see our post on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "how much wildlife removal costs",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ".",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/how-much-does-wildlife-removal-cost/"
+     }
+    ]
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Internal links for further reading",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If you want deeper, related guidance, these pages on our site are the most relevant next reads. They explain entry points, attic selection, and under-deck denning in detail.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How raccoons enter homes",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " — step-by-step entry point checklist and photos.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/how-raccoons-enter-homes/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Raccoons under deck",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " — why decks attract raccoons and safe exclusion methods.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/raccoons-under-deck/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Attic wildlife cleanup costs",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " — itemized sanitation and insulation replacement examples.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Uncomfortable truths and caveats",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Not every noisy night means a raccoon family. Squirrels and large rodents can create similar sounds, and transient raccoons sometimes investigate roofs without denning. Conversely, passive deterrents like lights or recorded noise rarely solve the problem if entry points remain. Several documented community cases show animals return within weeks when repairs are incomplete or attractants stay in place.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Signs that require immediate professional attention",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Call a licensed specialist immediately if you see any of the following: chewed electrical wiring or flickering circuits, brown stains or sagging ceiling areas, strong ammonia odors, visible fleas or tick spikes, or loud thumping that suggests structural damage. These issues indicate hazards beyond nuisance activity and justify urgent inspection and remediation.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Frequently Asked Questions",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How do I keep raccoons out from under my deck without harming them?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Remove food and shelter attractants first and document activity with photos or a camera. If no dependent young are present, install durable skirting such as galvanized hardware cloth anchored to joists. Many homeowners report success combining attractant removal with professional exclusion. If you are unsure about breeding status, contact a licensed wildlife removal provider first.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Can I seal attic vents or soffits myself if I hear noises at night?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "No. Sealing vents or soffits while animals are inside can trap dependent young and create legal and sanitation problems. Document the sounds and schedule an inspection. A professional will confirm occupancy and use one-way exclusion methods or trapping where allowed before permanent sealing.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "What does raccoon poop look like and where will it be found?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Raccoon droppings are larger than rodent droppings and may contain undigested bits of fruit, seeds, or insect remains. Look for droppings near entry points, along rooflines, under eaves, and around crawl space openings. Photograph samples for the inspector rather than handling them directly.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How long does it take to remove raccoons from an attic and finish repairs?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Inspection is often same day to one week. Removal strategies take one to 14 days depending on whether one-way devices or trapping are used. Exclusion repairs typically take one to seven days. Sanitation timelines depend on contamination severity and whether insulation replacement is required.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Will raccoons come back after I install skirting or repair soffits?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "They can if attractants remain or a secondary access point is missed. A permanent solution combines sturdy exclusion materials, trimming branches that give roof access, and removing food sources. Ask your installer for a short monitoring window and a written warranty on exclusion work.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "What should I do if I find baby raccoons under a porch or in an attic?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Contact a licensed wildlife rehabilitator or local animal control immediately. Removing a den with dependent young can be illegal and often leads to mortality. Professionals assess whether the mother will return and advise on appropriate timing for safe exclusion.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Conclusion",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Recognizing the signs of raccoons in your home lets you act before damage and sanitation costs accumulate. Look for droppings, shredded insulation, nocturnal thumping, and damaged soffits or vents. Document evidence, secure attractants, and schedule a professional inspection that separates inspection, humane removal, exclusion repairs, and sanitation into clear line items. Addressing the problem correctly reduces the chance of repeated visits and costly remediation.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   }
+  ],
+  "seo": {
+   "title": "Signs of Raccoons in Your Home | Pro Wildlife Removal",
+   "description": "If you are seeing strange noises at night, shredded insulation, or tracks around your foundation, those are common signs of raccoons in your home. Homeowners"
+  }
+ },
+ {
+  "slug": "opossums-in-attics",
+  "title": "Opossums in Attics",
+  "excerpt": "If you suspect opossums in attics, you are not alone.",
+  "date": "2026-10-14T19:34:37+00:00",
+  "modified": "2026-10-14T19:34:37+00:00",
+  "author": "Taroneh homberg",
+  "image": images.featured1787604003727,
+  "body": [
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Why opossums in attics are a hidden, urgent problem",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If you suspect opossums in attics, you are not alone. The site search returned two related posts on opossum removal and locations, and the sitemap shows fifty site pages covering attic wildlife, exclusion, and cleanup.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "This article explains how to confirm an opossum in your attic, the humane and legal removal options, cleanup and repair priorities, and prevention steps that stop repeat visits.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How to tell if opossums are in your attic",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Opossums are not typical attic residents, but they do end up inside attics, crawl spaces, and soffits when they can find an entry point. Look for these signs.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Noises:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " soft scraping or slow thumping at night or early morning. Opossums move more deliberately than raccoons; sounds are often heavier and less constant than rodent scurries.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Odor:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " a sour, musky smell from urine or a hidden carcass. Opossums in tight spaces can create persistent odors that cleaning alone will not remove.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Droppings and tracks:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " larger, tubular droppings than mice and visible paw prints in dust or insulation.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Damage:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " torn insulation or nesting material pushed into corners, and small tear marks near soffits and vents where an opossum could have squeezed through.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If you hear slow, infrequent movement and find larger droppings rather than tiny pellets, an opossum should be on your list of suspects. Avoid poking or shining bright lights into the attic; that can scare a sleeping animal into a dangerous exit route or deeper into the structure.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Immediate safety steps to take tonight",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Before you call a professional, take these actions to reduce risk and preserve evidence that helps removal.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Close interior doors to confine the animal to one general area and keep pets and people away from attic access points.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "number",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Turn off attic fans and avoid using power tools that could startle the animal into moving unpredictably.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "number",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Note the times you hear noises and where the sound seems loudest. This helps a technician find the entry point faster.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "number",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Do not attempt to trap or handle the opossum yourself. Many jurisdictions restrict relocation, and improper handling risks injury to you and stress to the animal.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "number",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Why professional removal and exclusion matter",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "A wildlife pro does three things you cannot skip: locate and seal the entry point, remove the animal humanely or coordinate with a rehabilitator when needed, and perform or recommend cleanup and insulation replacement if contamination exists. That three-step approach is the standard recommended throughout the site’s attic and wildlife posts.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Attempting DIY exclusion without removing the animal first can trap an opossum inside. That often leads to worse odors, damage, and more costly repair work. If you are considering a pro, see our guide on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "what to expect during a wildlife removal inspection",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " for realistic timelines and cost drivers.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/wildlife-removal-inspection-what-to-expect-costs/"
+     }
+    ]
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Humane removal options and legal caveats",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Opossums are handled differently depending on state and local laws. In many places, trapping and relocating wildlife requires a permit. Even where relocation is allowed, moving an opossum can reduce its survival chances. That is why humane exclusion and one-way exits paired with monitoring are often safer.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "One-way exclusion devices:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " let an opossum leave but not re-enter. These are effective when the animal is free to exit and nests are not occupied by dependent young.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Live trapping with licensed transfer:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " used when exclusion is not possible. A licensed trapper or rehabilitator will follow local regulations and health guidelines.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Cooperation with rehabilitators:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " necessary if you find young opossums or an injured adult. The site’s resources recommend contacting licensed rehabilitators rather than handling young animals yourself.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "For more on humane options and why DIY can go wrong, read ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "The Dangers of DIY Wildlife Removal",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ". That post highlights legal risks, disease exposure, and how incomplete exclusion leads to repeat visits.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/dangers-of-diy-wildlife-removal/"
+     }
+    ]
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Cleaning, decontamination, and attic repair priorities",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "After removal, cleanup is the urgent task. Opossums carry ticks, fleas, and parasites, and their droppings and urine can soak insulation and create odors that standard household cleaning cannot remove. Priorities are clear.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Remove contaminated insulation:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " insulation saturated with urine or feces should be removed and replaced. This prevents lingering odors and health risks.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Sanitize surfaces:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " a professional crew will use appropriate PPE and disinfectants for guano, droppings, and urine.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Repair entry points:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " replace damaged soffits, vent screens, or roof flashings. Proper materials and techniques prevent re-entry.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "See the site’s article on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "attic wildlife cleanup cost in Florida",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " for typical scope items and why cleanup often equals more than the initial removal fee.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+     }
+    ]
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How to prevent opossums from returning",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Prevention is a mix of habitat modification and small repairs. Opossums are opportunistic. Remove the reasons they choose your property.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Secure food sources:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " remove outdoor pet food at night, secure trash with tight lids, and remove fallen fruit or compost that is accessible overnight.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Close small openings:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " screen vents, seal gaps in soffits, and use heavy gauge hardware cloth on exposed crawlspaces. Small openings invite not only opossums but also rodents and snakes.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Eliminate easy shelter:",
+      "marks": [
+       "strong"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": " stack wood away from the foundation, clear brush piles, and secure under-deck storage so opossums do not nest nearby.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "When an opossum has young: what to do",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Opossums sometimes leave young behind while foraging. If you find dependent babies, do not attempt to move them. Contact a licensed wildlife rehabilitator immediately. The site’s content recommends observation from a distance for a few hours if the animal is not injured; often a parent will return. If you find injured or obviously abandoned young, call professionals for species-specific instructions.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Cost considerations and timeline",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Costs vary widely by region and by whether cleanup and repairs are required. Expect the following phases in the timeline.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Inspection and detection: same day to two days depending on scheduling.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "number",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Removal or exclusion: typically scheduled within 24 to 72 hours after inspection if the animal is active and accessible.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "number",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Cleanup and repairs: can extend the project by several days to a week depending on contamination and repair scope.",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "number",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "For ballpark figures and line items that drive cost, consult the site article on ",
+      "marks": []
+     },
+     {
+      "_type": "span",
+      "text": "how much wildlife removal costs",
+      "marks": [
+       "l0"
+      ]
+     },
+     {
+      "_type": "span",
+      "text": ". That page explains inspection fees, exclusion device costs, and the premium for full attic decontamination and insulation replacement.",
+      "marks": []
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/how-much-does-wildlife-removal-cost/"
+     }
+    ]
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Internal links that help you next",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "These related posts on the site are useful for readers dealing with attic wildlife and opossums. Each link provides step by step guidance for the issue mentioned.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How to Get Rid of Opossums — prevention and humane options",
+      "marks": [
+       "l0"
+      ]
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/how-to-get-rid-of-opossums/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Opossums Under House and Crawl Space Removal",
+      "marks": [
+       "l0"
+      ]
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/opossums-under-house-crawl-space-removal/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "The Dangers of DIY Wildlife Removal — why call a pro",
+      "marks": [
+       "l0"
+      ]
+     }
+    ],
+    "markDefs": [
+     {
+      "_type": "link",
+      "_key": "l0",
+      "href": "/blog/dangers-of-diy-wildlife-removal/"
+     }
+    ],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Frequently Asked Questions",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How can I tell if the noise in my attic is an opossum or a raccoon?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Opossums tend to move slowly and make heavier, less frequent thumps. Raccoons create louder, more active scratching and can be seen at night on roofs or in soffits. If droppings are present, opossum droppings are tubular and larger than mouse pellets. A professional inspection will identify the species quickly and recommend the right exclusion method.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Can I trap and relocate an opossum myself?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Trapping and relocating wildlife is regulated in many areas and is not recommended without a permit. Relocated opossums often fail to survive in unfamiliar territory. The more humane and effective approach is professional live-capture followed by release by licensed personnel or exclusion that allows the animal to leave on its own when allowed by local law.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "What if I hear opossum noises at night but do not see entry points?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Noisy activity without obvious entry often means the animal is using soffits, ridge vents, or weak roofline seals. Schedule a professional inspection. Technicians use binoculars, thermal cameras, and attic checks to find small gaps and soft materials that animals exploit for entry.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "How long after removal should I wait to replace insulation?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "If insulation is contaminated by urine, feces, or nesting material, replace it as soon as possible. Leaving contaminated insulation risks lingering odors and parasitic infestations. A sanitized time window is not reliable; replacement is typically recommended immediately after removal and disinfection.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Are opossums dangerous to pets and people?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Opossums are generally nonaggressive and can actually reduce tick populations. However, they can carry fleas and parasites and will defend themselves if cornered. Keep pets away from infested areas until a professional has cleared the attic and treated for parasites if necessary.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h3",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Why are there so few Reddit threads about opossums in attics?",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "During research, a targeted Reddit search returned no prominent threads about opossums in attics. Homeowners often discuss this in local Facebook or neighborhood groups instead. That lack of broad threads means you may find faster, region-specific advice by contacting local wildlife control or community pages rather than national forums.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Conclusion",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Opossums in attics are an unsettling problem, but you can manage and prevent it with the right sequence: confirm signs, follow immediate safety steps, hire a licensed pro for humane removal and exclusion, and complete cleanup and repairs. The site’s sitemap shows many related resources, including guides on opossums under crawl spaces and wildlife cleanup costs that will help you plan the full remediation. If you suspect an infestation, prioritize a professional inspection. Acting quickly reduces damage, health risk, and long-term costs while keeping removal humane and legal.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   }
+  ],
+  "seo": {
+   "title": "Opossums in Attics | Pro Wildlife Removal",
+   "description": "If you suspect opossums in attics, you are not alone. The site search returned two related posts on opossum removal and locations, and the sitemap shows fifty"
+  }
+ },
+ {
   "slug": "how-long-can-rats-live-in-an-attic",
   "title": "How Long Can Rats Live in an Attic?",
   "excerpt": "How long can rats live in an attic depends on food, water, shelter, and whether you interrupt their access.",

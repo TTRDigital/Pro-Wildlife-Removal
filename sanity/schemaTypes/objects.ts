@@ -95,6 +95,38 @@ export const richText = defineType({
   ],
 });
 
+const bgOptions = [
+  { title: "Navy", value: "navy" },
+  { title: "Blue", value: "blue" },
+  { title: "Beige", value: "beige" },
+  { title: "White", value: "white" },
+  { title: "Light grey", value: "light" },
+  { title: "Light blue", value: "ice" },
+  { title: "Black", value: "dark" },
+];
+const colorOptions = ["beige", "blue", "black", "white", "charcoal", "navy", "grey", "slate", "ink", "red", "orange"];
+const color = (name: string, title: string) => defineField({ name, title, type: "string", options: { list: colorOptions } });
+
+/** Look of a section on the old designs (classic and 2025 template pages): background colour or photo and text colours. */
+export const sectionStyle = defineType({
+  name: "sectionStyle",
+  title: "Look",
+  type: "object",
+  options: { collapsible: true, collapsed: true },
+  fields: [
+    defineField({ name: "bg", title: "Background", type: "string", options: { list: bgOptions } }),
+    defineField({ name: "image", title: "Background photo", type: "altImage", description: "Page headers: the full-width photo behind the heading." }),
+    defineField({ name: "overlay", title: "Darken the photo (0-1)", type: "number", validation: (r) => r.min(0).max(1) }),
+    color("heading", "Heading colour"),
+    color("text", "Text colour"),
+    color("link", "Link colour"),
+    color("divider", "Divider bar colour"),
+    color("frame", "Photo frame colour"),
+    defineField({ name: "align", title: "Heading alignment", type: "string", options: { list: ["left", "center"], layout: "radio" } }),
+    defineField({ name: "headingAbove", title: "Heading above the photo and text (instead of beside the photo)", type: "boolean" }),
+  ],
+});
+
 export const pageHero = defineType({
   name: "pageHero",
   title: "Page header",
@@ -107,6 +139,9 @@ export const pageHero = defineType({
     defineField({ name: "image", title: "Photo", type: "altImage" }),
     defineField({ name: "badges", title: "Small tags under the intro", type: "array", of: [defineArrayMember({ type: "string" })] }),
     defineField({ name: "ctas", title: "Buttons", type: "array", of: [defineArrayMember({ type: "cta" })], description: "First button = main button. The phone number button is added automatically.", validation: (r) => r.max(2) }),
+    defineField({ name: "rotator", title: "Typed words under the heading", type: "array", of: [defineArrayMember({ type: "string" })], description: "Home page: the animal names typed one after another." }),
+    defineField({ name: "rotatorSuffix", title: "Word after the typed words", type: "string", description: "e.g. Removal" }),
+    defineField({ name: "style", title: "Look", type: "sectionStyle" }),
   ],
 });
 
@@ -127,4 +162,4 @@ export const card = defineType({
   preview: { select: { title: "title", subtitle: "subtitle", media: "image" } },
 });
 
-export const objectTypes = [seo, altImage, icon, cta, table, richText, pageHero, card];
+export const objectTypes = [seo, altImage, icon, cta, table, richText, sectionStyle, pageHero, card];

@@ -7,6 +7,15 @@ const groups = [
 ];
 const seoField = defineField({ name: "seo", title: "SEO", type: "seo", group: "seo" });
 const heroField = defineField({ name: "hero", title: "Page header", type: "pageHero", group: "content" });
+const designField = defineField({
+  name: "design",
+  title: "Design",
+  type: "string",
+  group: "content",
+  description: "How the page is drawn, as on the old site.",
+  options: { list: [{ title: "Old site (2019)", value: "classic" }, { title: "2025 template", value: "refresh" }, { title: "Bat-removal design", value: "new" }], layout: "radio" },
+  initialValue: "classic",
+});
 
 /* ---------- Singletons ---------- */
 
@@ -68,7 +77,7 @@ const pageDoc = (name: string, title: string) =>
     title,
     type: "document",
     groups,
-    fields: [heroField, sectionsField, seoField],
+    fields: [designField, heroField, sectionsField, seoField],
     preview: { prepare: () => ({ title }) },
   });
 
@@ -100,6 +109,7 @@ export const service = defineType({
     defineField({ name: "order", type: "number", group: "content" }),
     defineField({ name: "summary", title: "Card text", type: "text", rows: 2, group: "content" }),
     defineField({ name: "cardImage", title: "Card photo", type: "altImage", group: "content", description: "Leave empty to use the page header photo." }),
+    designField,
     heroField,
     sectionsField,
     seoField,
@@ -127,6 +137,7 @@ export const location = defineType({
     defineField({ name: "county", type: "string", group: "content", description: "County name without the word County, e.g. Pinellas." }),
     defineField({ name: "order", type: "number", group: "content" }),
     defineField({ name: "summary", type: "text", rows: 2, group: "content" }),
+    designField,
     heroField,
     sectionsField,
     seoField,

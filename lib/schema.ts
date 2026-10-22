@@ -95,3 +95,20 @@ export function articleSchema(post: Post, path: string) {
     publisher: { "@id": `${siteUrl}/#business` },
   };
 }
+
+/** WebPage with its sections as parts (name + #anchor), so each section of a page is indexed on its own. */
+export function webPageSchema(path: string, name: string, description: string | undefined, sections: { name: string; id: string }[]) {
+  const url = absoluteUrl(path);
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    ...(description ? { description } : {}),
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website`, url: `${siteUrl}/`, name: "Pro Wildlife Removal" },
+    about: { "@id": `${siteUrl}/#business` },
+    inLanguage: "en-US",
+    ...(sections.length ? { hasPart: sections.map((s) => ({ "@type": "WebPageElement", name: s.name, url: `${url}#${s.id}` })) } : {}),
+  };
+}

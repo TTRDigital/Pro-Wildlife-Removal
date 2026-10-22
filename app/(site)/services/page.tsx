@@ -12,5 +12,5 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Page() {
   const [page, settings] = await Promise.all([getPage("services"), getSiteSettings()]);
-  return <PageView hero={page.hero} sections={page.sections} settings={settings} crumbs={[{ label: "Services", href: PATH }]} />;
+  return <PageView page={page} settings={settings} path={PATH} crumbs={[{ label: "Services", href: PATH }]} />;
 }

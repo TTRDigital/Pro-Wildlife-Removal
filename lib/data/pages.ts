@@ -4,58 +4,36 @@ import type { PageContent } from "../types";
 
 export const fallbackPages = {
  "home": {
+  "design": "classic",
   "hero": {
-   "eyebrow": "Licensed & Insured Wildlife Removal",
-   "heading": "Professional Wildlife Removal Experts in Central Florida",
-   "highlight": "Wildlife Removal Experts",
-   "text": [
+   "heading": "PROFESSIONAL Wildlife Removal Experts in Central Florida",
+   "image": images.certifiedWildlifeRemovalExpertsInTampaFl,
+   "ctas": [
     {
-     "_type": "block",
-     "style": "normal",
-     "markDefs": [],
-     "children": [
-      {
-       "_type": "span",
-       "text": "Pro Wildlife Removal is a Full Service Licensed and Insured Wildlife Removal & Remediation Company serving residential and commercial properties across the Central Florida Area.",
-       "marks": []
-      }
-     ]
+     "label": "727-594-7705",
+     "href": "tel:+17275947705",
+     "style": "outline"
     }
    ],
-   "badges": [
+   "rotator": [
     "Raccoon",
     "Opossum",
     "Mole",
     "Snake",
     "Armadillo",
     "Bat",
-    "Rat"
+    "Rat",
+    "Wildlife Animal"
    ],
-   "image": images.proWildlifeRemovalTeam
+   "style": {
+    "bg": "navy",
+    "image": images.certifiedWildlifeRemovalExpertsInTampaFl,
+    "heading": "white",
+    "align": "center"
+   },
+   "rotatorSuffix": "Removal"
   },
   "sections": [
-   {
-    "_type": "trustBar",
-    "items": [
-     {
-      "icon": "badge-check",
-      "label": "Licensed & Insured"
-     },
-     {
-      "icon": "building",
-      "label": "Residential & Commercial"
-     },
-     {
-      "icon": "balance",
-      "label": "One-Time Fees"
-     },
-     {
-      "icon": "search",
-      "label": "Free Estimates"
-     }
-    ],
-    "_key": "s0"
-   },
    {
     "_type": "splitSection",
     "heading": "Your Central Florida Wildlife Removal and Remediation Company",
@@ -91,10 +69,17 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "white",
-    "_key": "s1",
     "image": images.prowildlifeRemovalAgentHoldingAnIguanaa,
-    "imageSide": "right"
+    "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "red",
+     "divider": "blue",
+     "frame": "white"
+    },
+    "_key": "s0"
    },
    {
     "_type": "cardsSection",
@@ -288,8 +273,13 @@ export const fallbackPages = {
       "href": "/services/rat-removal/"
      }
     ],
-    "tone": "tint",
-    "_key": "s2"
+    "style": {
+     "bg": "beige",
+     "heading": "navy",
+     "text": "grey",
+     "divider": "blue"
+    },
+    "_key": "s1"
    },
    {
     "_type": "cardsSection",
@@ -370,8 +360,14 @@ export const fallbackPages = {
       "image": images.exclusion2
      }
     ],
-    "tone": "white",
-    "_key": "s3"
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "ink",
+     "divider": "white",
+     "headingAbove": true
+    },
+    "_key": "s2"
    },
    {
     "_type": "splitSection",
@@ -440,9 +436,16 @@ export const fallbackPages = {
       "style": "outline"
      }
     ],
-    "tone": "tint",
     "imageSide": "left",
-    "_key": "s4"
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "red",
+     "divider": "blue",
+     "frame": "white"
+    },
+    "_key": "s3"
    },
    {
     "_type": "cardsSection",
@@ -461,7 +464,7 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "variant": "numbered",
+    "variant": "plain",
     "columns": 3,
     "cards": [
      {
@@ -479,8 +482,7 @@ export const fallbackPages = {
         ],
         "markDefs": []
        }
-      ],
-      "number": "01"
+      ]
      },
      {
       "title": "Exclusion",
@@ -497,8 +499,7 @@ export const fallbackPages = {
         ],
         "markDefs": []
        }
-      ],
-      "number": "02"
+      ]
      },
      {
       "title": "Clean-up Services",
@@ -515,38 +516,30 @@ export const fallbackPages = {
         ],
         "markDefs": []
        }
-      ],
-      "number": "03"
+      ]
      }
     ],
-    "tone": "white",
-    "_key": "s5"
+    "style": {
+     "bg": "beige",
+     "heading": "navy",
+     "text": "grey",
+     "divider": "blue",
+     "align": "center"
+    },
+    "_key": "s4"
    },
    {
     "_type": "reviewsSection",
     "heading": "Excellence PROVEN By Our Clients",
-    "tone": "tint",
-    "_key": "s6",
-    "highlight": "PROVEN"
+    "style": {
+     "bg": "blue"
+    },
+    "_key": "s5"
    },
    {
-    "_type": "locationsSection",
-    "tone": "white",
-    "heading": "Pro Wildlife Removal Areas We Serve",
-    "_key": "s7"
-   },
-   {
-    "_type": "postsSection",
-    "tone": "tint",
-    "heading": "Our Blog",
-    "limit": 3,
-    "_key": "s8"
-   },
-   {
-    "_type": "ctaSection",
+    "_type": "splitSection",
     "heading": "Need Help? Reach Out To Us.",
-    "highlight": "Reach Out To Us.",
-    "text": [
+    "body": [
      {
       "_type": "block",
       "style": "normal",
@@ -622,8 +615,17 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "showForm": true,
-    "_key": "s9"
+    "image": images.joshHoldingRaccon,
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "navy",
+     "text": "grey",
+     "link": "white",
+     "divider": "blue",
+     "frame": "white"
+    },
+    "_key": "s6"
    }
   ],
   "seo": {
@@ -632,21 +634,28 @@ export const fallbackPages = {
   }
  },
  "services": {
+  "design": "refresh",
   "hero": {
    "eyebrow": "Protect Your Property Today!",
    "heading": "Expert Wildlife Removal Services in Central Florida",
-   "image": images.ratRemovalImage2,
+   "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
      "label": "(727) 594-7705",
      "href": "tel:+17275947705",
      "style": "outline"
     }
-   ]
+   ],
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "align": "center"
+   }
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "eyebrow": "Florida's Wildlife Experts",
     "heading": "Tampa Bay's Trusted Wildlife Removal Experts",
     "body": [
@@ -675,6 +684,7 @@ export const fallbackPages = {
       ]
      }
     ],
+    "image": images.ratRemovalImage2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -682,7 +692,12 @@ export const fallbackPages = {
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "left",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -723,8 +738,12 @@ export const fallbackPages = {
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s1"
    },
    {
@@ -745,13 +764,17 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
     "_type": "servicesSection",
     "heading": "Explore Our Wildlife Removal Services",
-    "tone": "tint",
     "_key": "s3"
    },
    {
@@ -946,7 +969,13 @@ export const fallbackPages = {
       "href": "/services/snake-removal/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "link": "white",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -1042,7 +1071,11 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -1402,7 +1435,12 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -1524,8 +1562,11 @@ export const fallbackPages = {
       "style": "outline"
      }
     ],
-    "tone": "tint",
     "imageSide": "right",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal"
+    },
     "_key": "s7"
    },
    {
@@ -1652,13 +1693,20 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s8"
    },
    {
     "_type": "reviewsSection",
     "heading": "See Why Tampa Bay Loves Us",
-    "tone": "tint",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s9"
    },
    {
@@ -1938,7 +1986,11 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "align": "center"
+    },
     "_key": "s10"
    },
    {
@@ -1967,20 +2019,27 @@ export const fallbackPages = {
   }
  },
  "serviceArea": {
+  "design": "refresh",
   "hero": {
    "heading": "Pro Wildlife Removal Areas We Serve",
-   "image": images.ratRemovalImage2,
+   "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
      "label": "(727) 594-7705",
      "href": "tel:+17275947705",
      "style": "outline"
     }
-   ]
+   ],
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "align": "center"
+   }
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "eyebrow": "Expert Rat Control",
     "heading": "Trusted Wildlife Control in Tampa Bay for Over 15 Years",
     "body": [
@@ -1997,6 +2056,7 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
+    "image": images.ratRemovalImage2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -2004,7 +2064,12 @@ export const fallbackPages = {
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -2481,7 +2546,13 @@ export const fallbackPages = {
      }
     ],
     "image": images.tampaBayFlMapLarge1,
-    "tone": "tint",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -2728,7 +2799,13 @@ export const fallbackPages = {
       "href": "/services/bee-removal/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "link": "white",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -2823,7 +2900,12 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -2899,7 +2981,12 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -2919,13 +3006,19 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white"
+    },
     "_key": "s5"
    },
    {
     "_type": "locationsSection",
-    "tone": "white",
     "heading": "All Service Areas",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s6"
    },
    {
@@ -3035,7 +3128,11 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -3064,6 +3161,7 @@ export const fallbackPages = {
   }
  },
  "about": {
+  "design": "classic",
   "hero": {
    "heading": "About Pro WildLife Removal",
    "text": [
@@ -3122,7 +3220,16 @@ export const fallbackPages = {
      "href": "tel:+17275947705",
      "style": "outline"
     }
-   ]
+   ],
+   "style": {
+    "bg": "beige",
+    "heading": "grey",
+    "text": "grey",
+    "link": "red",
+    "divider": "navy",
+    "frame": "navy",
+    "headingAbove": true
+   }
   },
   "sections": [
    {
@@ -3437,14 +3544,24 @@ export const fallbackPages = {
      }
     ],
     "image": images.ourInspectionProcess,
-    "tone": "white",
     "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
     "_type": "reviewsSection",
     "heading": "Testimonies That Prove Our Excellence",
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "navy",
+     "divider": "blue",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -3510,6 +3627,7 @@ export const fallbackPages = {
   }
  },
  "howWeWork": {
+  "design": "classic",
   "hero": {
    "heading": "Pro Wildlife Removal Service Process",
    "text": [
@@ -3545,7 +3663,15 @@ export const fallbackPages = {
      "href": "tel:+17275947705",
      "style": "outline"
     }
-   ]
+   ],
+   "style": {
+    "bg": "beige",
+    "heading": "grey",
+    "text": "grey",
+    "divider": "navy",
+    "frame": "navy",
+    "headingAbove": true
+   }
   },
   "sections": [
    {
@@ -3600,7 +3726,14 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "grey",
+     "text": "grey",
+     "divider": "navy",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -3633,8 +3766,15 @@ export const fallbackPages = {
      }
     ],
     "image": images.joshHoldingRaccon,
-    "tone": "tint",
     "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "navy",
+     "frame": "white",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -3716,7 +3856,13 @@ export const fallbackPages = {
       "image": images.homeRepairs
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "blue",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -3736,13 +3882,24 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "navy",
+     "text": "grey",
+     "link": "white",
+     "divider": "blue"
+    },
     "_key": "s3"
    },
    {
     "_type": "reviewsSection",
     "heading": "Another Happy Customer",
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "divider": "navy",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -3790,8 +3947,9 @@ export const fallbackPages = {
   }
  },
  "contact": {
+  "design": "classic",
   "hero": {
-   "heading": "Wildlife Removal Services",
+   "heading": "WIldlife Removal Services",
    "text": [
     {
      "_type": "block",
@@ -3832,21 +3990,82 @@ export const fallbackPages = {
      "href": "tel:+17275947705",
      "style": "outline"
     }
-   ]
+   ],
+   "style": {
+    "bg": "beige",
+    "heading": "grey",
+    "text": "grey",
+    "link": "white",
+    "divider": "navy",
+    "frame": "navy",
+    "headingAbove": true
+   }
   },
   "sections": [
    {
+    "_type": "proseSection",
+    "body": [
+     {
+      "_type": "block",
+      "style": "normal",
+      "children": [
+       {
+        "_type": "span",
+        "text": "Monday – Saturday: 8AM – 7PM",
+        "marks": [
+         "strong"
+        ]
+       }
+      ],
+      "markDefs": []
+     },
+     {
+      "_type": "block",
+      "style": "normal",
+      "children": [
+       {
+        "_type": "span",
+        "text": "Saturday: 8AM – 2PM Sunday: Closed",
+        "marks": [
+         "strong"
+        ]
+       }
+      ],
+      "markDefs": []
+     }
+    ],
+    "style": {
+     "bg": "beige",
+     "heading": "grey",
+     "text": "grey",
+     "link": "white",
+     "divider": "navy",
+     "frame": "navy",
+     "headingAbove": true
+    },
+    "_key": "s0"
+   },
+   {
     "_type": "contactSection",
-    "tone": "white",
     "form": true,
     "map": true,
-    "_key": "s0"
+    "style": {
+     "bg": "beige",
+     "heading": "navy",
+     "text": "grey",
+     "divider": "blue"
+    },
+    "_key": "s1"
    },
    {
     "_type": "reviewsSection",
     "heading": "Customer Reviews",
-    "tone": "tint",
-    "_key": "s1"
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "align": "center"
+    },
+    "_key": "s2"
    }
   ],
   "seo": {
@@ -3855,8 +4074,16 @@ export const fallbackPages = {
   }
  },
  "privacy": {
+  "design": "classic",
   "hero": {
-   "heading": "Welcome to our Privacy Policy"
+   "heading": "Welcome to our Privacy Policy",
+   "style": {
+    "bg": "beige",
+    "heading": "slate",
+    "text": "grey",
+    "link": "white",
+    "divider": "navy"
+   }
   },
   "sections": [
    {
@@ -3942,7 +4169,13 @@ export const fallbackPages = {
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "slate",
+     "text": "grey",
+     "link": "white",
+     "divider": "navy"
+    },
     "_key": "s0"
    },
    {
@@ -3974,7 +4207,13 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "slate",
+     "text": "grey",
+     "link": "white",
+     "divider": "navy"
+    },
     "_key": "s1"
    },
    {
@@ -3994,7 +4233,13 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "slate",
+     "text": "grey",
+     "link": "white",
+     "divider": "navy"
+    },
     "_key": "s2"
    },
    {
@@ -4014,7 +4259,13 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "slate",
+     "text": "grey",
+     "link": "white",
+     "divider": "navy"
+    },
     "_key": "s3"
    },
    {
@@ -4046,7 +4297,13 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "slate",
+     "text": "grey",
+     "link": "white",
+     "divider": "navy"
+    },
     "_key": "s4"
    },
    {
@@ -4066,7 +4323,13 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "slate",
+     "text": "grey",
+     "link": "white",
+     "divider": "navy"
+    },
     "_key": "s5"
    }
   ],
@@ -4076,6 +4339,7 @@ export const fallbackPages = {
   }
  },
  "terms": {
+  "design": "classic",
   "hero": {
    "heading": "Pro Wildlife Removal: Terms of Service",
    "text": [
@@ -4115,7 +4379,13 @@ export const fallbackPages = {
      ],
      "markDefs": []
     }
-   ]
+   ],
+   "style": {
+    "bg": "navy",
+    "heading": "beige",
+    "text": "beige",
+    "divider": "blue"
+   }
   },
   "sections": [
    {
@@ -4183,7 +4453,12 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "blue"
+    },
     "_key": "s0"
    },
    {
@@ -4215,7 +4490,12 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "blue"
+    },
     "_key": "s1"
    },
    {
@@ -4247,7 +4527,12 @@ export const fallbackPages = {
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "blue"
+    },
     "_key": "s2"
    }
   ],
@@ -4257,6 +4542,7 @@ export const fallbackPages = {
   }
  },
  "sitemap": {
+  "design": "classic",
   "hero": {
    "heading": "Sitemap"
   },
@@ -4267,6 +4553,7 @@ export const fallbackPages = {
   }
  },
  "blog": {
+  "design": "classic",
   "hero": {
    "heading": "Our Blog"
   },

@@ -23,10 +23,13 @@ const IMG = `{ "src": asset->url, alt, "width": asset->metadata.dimensions.width
 /** Portable Text with images resolved to { src, alt }. */
 const RICH = `[]{ _type == "altImage" => { "_type": "altImage", _key, caption, "image": ${IMG} }, _type != "altImage" => @ }`;
 const SEO = `seo{ title, description, noIndex, "image": ogImage${IMG} }`;
-const HERO = `hero{ eyebrow, heading, highlight, "text": text${RICH}, "image": image${IMG}, badges, ctas[]{ label, href, style } }`;
+/** Look of a section on the old designs (colours, background photo). */
+const STYLE = `style{ ..., "image": image${IMG} }`;
+const HERO = `hero{ eyebrow, heading, highlight, "text": text${RICH}, "image": image${IMG}, badges, ctas[]{ label, href, style }, rotator, rotatorSuffix, "style": ${STYLE} }`;
 const SECTIONS = `sections[]{
   ...,
   "image": image${IMG},
+  "style": ${STYLE},
   "intro": intro${RICH},
   "body": body${RICH},
   "outro": outro${RICH},
@@ -34,7 +37,7 @@ const SECTIONS = `sections[]{
   cards[]{ ..., "image": image${IMG}, "text": text${RICH} },
   "items": select(_type == "faqSection" => items[]->{ question, "answer": answer${RICH} }, items)
 }`;
-const PAGE = `${HERO}, ${SECTIONS}, ${SEO}`;
+const PAGE = `design, ${HERO}, ${SECTIONS}, ${SEO}`;
 
 /* ---------- Settings & reviews ---------- */
 

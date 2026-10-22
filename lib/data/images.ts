@@ -224,6 +224,18 @@ export const images = {
   "width": 1536,
   "height": 512
  },
+ "featured1787590802042": {
+  "src": "/images/blog/featured-1787590802042.jpg",
+  "alt": "Raccoon mother and kits nesting by a shed while two inspectors take notes",
+  "width": 1536,
+  "height": 512
+ },
+ "featured1787592003862": {
+  "src": "/images/blog/featured-1787592003862.jpg",
+  "alt": "Raccoon tracks across attic flooring under a torn-open roof vent",
+  "width": 1536,
+  "height": 512
+ },
  "featured1787593203612": {
   "src": "/images/blog/featured-1787593203612.jpg",
   "alt": "Inspector in an attic watching bats leave at dusk",
@@ -275,6 +287,12 @@ export const images = {
  "featured1787602801897": {
   "src": "/images/blog/featured-1787602801897.jpg",
   "alt": "Person watching bats leave a roofline vent at dusk",
+  "width": 1536,
+  "height": 512
+ },
+ "featured1787604003727": {
+  "src": "/images/blog/featured-1787604003727.jpg",
+  "alt": "Opossum in attic insulation while a technician inspects with a flashlight",
   "width": 1536,
   "height": 512
  },
@@ -379,6 +397,18 @@ export const images = {
   "alt": "Squirrel climbing into a gap at the edge of a shingle roof",
   "width": 768,
   "height": 1152
+ },
+ "img1ArmadilloRemovalTampaServices": {
+  "src": "/images/photos/1-armadillo-removal-tampa-services.jpg",
+  "alt": "",
+  "width": 960,
+  "height": 720
+ },
+ "img1RaccoonRemovalTampaServices": {
+  "src": "/images/photos/1-raccoon-removal-tampa-services.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 553
  },
  "img1TrustedLeaderInOpossumRemovalInTampaFl": {
   "src": "/images/photos/1-trusted-leader-in-opossum-removal-in-tampa-fl.jpg",
@@ -584,6 +614,12 @@ export const images = {
   "width": 290,
   "height": 197
  },
+ "bestWildlifeRemovalNewPortRicheyBanner": {
+  "src": "/images/photos/best-wildlife-removal-new-port-richey-banner.jpg",
+  "alt": "",
+  "width": 1024,
+  "height": 582
+ },
  "blvHelp": {
   "src": "/images/photos/blv-help.png",
   "alt": "Pro Wildlife Removal technician holding a captured animal on a porch",
@@ -637,6 +673,18 @@ export const images = {
   "alt": "Road map of Central Florida with a pin near Tampa",
   "width": 500,
   "height": 350
+ },
+ "certifiedWildlifeRemovalExpertsInTampaFl": {
+  "src": "/images/photos/certified-wildlife-removal-experts-in-tampa-fl.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 694
+ },
+ "chamberOfCommerceGreaterDadeCity": {
+  "src": "/images/photos/chamber-of-commerce-greater-dade-city.jpg",
+  "alt": "",
+  "width": 1600,
+  "height": 533
  },
  "clearwaterFlorida": {
   "src": "/images/photos/clearwater-florida.jpg",
@@ -733,6 +781,12 @@ export const images = {
   "alt": "Opossum caught in a live cage trap",
   "width": 394,
   "height": 285
+ },
+ "expertBatRemovalTampaFlServicesAvailable247": {
+  "src": "/images/photos/expert-bat-removal-tampa-fl-services-available-24-7.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 600
  },
  "expertInRemovingAllTypesOfTampasStingingInsects": {
   "src": "/images/photos/expert-in-removing-all-types-of-tampas-stinging-insects.jpg",
@@ -854,11 +908,23 @@ export const images = {
   "width": 400,
   "height": 533
  },
+ "hudsonWildlifeRemoval": {
+  "src": "/images/photos/hudson-wildlife-removal.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 576
+ },
  "image11": {
   "src": "/images/photos/image-1-1.png",
   "alt": "Single-story Florida home with mature trees and landscaping",
   "width": 1510,
   "height": 1278
+ },
+ "image12": {
+  "src": "/images/photos/image-1-2.png",
+  "alt": "Pro Wildlife Removal technician holding a captured iguana beside a company truck",
+  "width": 1321,
+  "height": 720
  },
  "image1": {
   "src": "/images/photos/image-1.jpg",
@@ -878,7 +944,7 @@ export const images = {
   "width": 581,
   "height": 584
  },
- "image12": {
+ "image122": {
   "src": "/images/photos/image-12.png",
   "alt": "Pro Wildlife Removal technician holding a captured iguana beside a company truck",
   "width": 581,
@@ -1015,6 +1081,12 @@ export const images = {
   "alt": "Opossum in an enclosure",
   "width": 540,
   "height": 540
+ },
+ "licensedDeadAnimalRemovalTampaFl": {
+  "src": "/images/photos/licensed-dead-animal-removal-tampa-fl.jpg",
+  "alt": "",
+  "width": 1000,
+  "height": 529
  },
  "may142024RaccoonRemoval2": {
   "src": "/images/photos/may14-2024-raccoon-removal-2.jpg",
@@ -1244,6 +1316,12 @@ export const images = {
   "width": 700,
   "height": 381
  },
+ "professionalBeeRemovalTampaFl": {
+  "src": "/images/photos/professional-bee-removal-tampa-fl.jpg",
+  "alt": "",
+  "width": 1000,
+  "height": 667
+ },
  "prowildlifeBlogGraphicImage2": {
   "src": "/images/photos/prowildlife-blog-graphic-image-2.jpg",
   "alt": "Opossum looking at the camera",
@@ -1267,6 +1345,12 @@ export const images = {
   "alt": "Pro Wildlife Removal technician holding a captured iguana beside a company truck",
   "width": 540,
   "height": 684
+ },
+ "prowildliferemovalBannerImage": {
+  "src": "/images/photos/prowildliferemoval-banner-image.png",
+  "alt": "",
+  "width": 1440,
+  "height": 768
  },
  "prowildremovalTeamImage": {
   "src": "/images/photos/prowildremoval-team-image.png",
@@ -1490,6 +1574,12 @@ export const images = {
   "width": 700,
   "height": 642
  },
+ "snakeRemovalTampaFlLicensedAnimalTrapper": {
+  "src": "/images/photos/snake-removal-tampa-fl-licensed-animal-trapper.jpg",
+  "alt": "Garter snake among leaves",
+  "width": 1400,
+  "height": 788
+ },
  "snakeRemoval": {
   "src": "/images/photos/snake-removal.jpg",
   "alt": "Garter snake among leaves",
@@ -1513,6 +1603,12 @@ export const images = {
   "alt": "Close-up of a patterned python",
   "width": 290,
   "height": 197
+ },
+ "springHillFloridaBanner": {
+  "src": "/images/photos/spring-hill-florida-banner.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 589
  },
  "springHillFloridaBatRemoval": {
   "src": "/images/photos/spring-hill-florida-bat-removal.jpg",
@@ -1622,6 +1718,12 @@ export const images = {
   "width": 400,
   "height": 533
  },
+ "stPetersburgFl": {
+  "src": "/images/photos/st-petersburg-fl.jpg",
+  "alt": "",
+  "width": 1920,
+  "height": 1236
+ },
  "tampaBayFlMapLarge1": {
   "src": "/images/photos/tampa-bay-fl-map-large-1.jpg",
   "alt": "Map of the Tampa Bay area",
@@ -1657,6 +1759,18 @@ export const images = {
   "alt": "Garter snake among leaves",
   "width": 700,
   "height": 642
+ },
+ "topAuthorityInTampaSquirrelRemoval": {
+  "src": "/images/photos/top-authority-in-tampa-squirrel-removal.jpg",
+  "alt": "",
+  "width": 800,
+  "height": 600
+ },
+ "topFullServiceWildlifeRemovalClearwaterFlBanner": {
+  "src": "/images/photos/top-full-service-wildlife-removal-clearwater-fl-banner.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 612
  },
  "trappingRemovalBrooksville": {
   "src": "/images/photos/trapping-removal-brooksville.jpg",
@@ -1736,6 +1850,12 @@ export const images = {
   "width": 300,
   "height": 250
  },
+ "trinityWildlifeRemovalBanner": {
+  "src": "/images/photos/trinity-wildlife-removal-banner.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 675
+ },
  "trinityWildlifeRemovalIntroduction": {
   "src": "/images/photos/trinity-wildlife-removal-introduction.jpg",
   "alt": "Trinity community entrance sign",
@@ -1796,11 +1916,23 @@ export const images = {
   "width": 700,
   "height": 394
  },
+ "wildlifeRemovalDunedin": {
+  "src": "/images/photos/wildlife-removal-dunedin.jpg",
+  "alt": "Historic downtown Dunedin, Florida collage",
+  "width": 1200,
+  "height": 564
+ },
  "wildlifeRemovalHillsboroughCounty": {
   "src": "/images/photos/wildlife-removal-hillsborough-county.jpg",
   "alt": "Opossum on a wooden fence",
   "width": 1120,
   "height": 630
+ },
+ "wildlifeRemovalHolidayFlBanner": {
+  "src": "/images/photos/wildlife-removal-holiday-fl-banner.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 548
  },
  "wildlifeRemovalHolidayFlIntroduction": {
   "src": "/images/photos/wildlife-removal-holiday-fl-introduction.jpg",
@@ -1820,6 +1952,12 @@ export const images = {
   "width": 700,
   "height": 715
  },
+ "wildlifeRemovalOdessaFl": {
+  "src": "/images/photos/wildlife-removal-odessa-fl.jpg",
+  "alt": "Two-story home with a front lawn in Odessa, Florida",
+  "width": 1200,
+  "height": 600
+ },
  "wildlifeRemovalOrlandoFlImage1": {
   "src": "/images/photos/wildlife-removal-orlando-fl-image-1.jpg",
   "alt": "Litter of baby opossums",
@@ -1831,6 +1969,12 @@ export const images = {
   "alt": "Beekeeper in a protective suit removing bees from the wall of a building",
   "width": 750,
   "height": 563
+ },
+ "wildlifeRemovalPalmHarbor": {
+  "src": "/images/photos/wildlife-removal-palm-harbor.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 582
  },
  "wildlifeRemovalPascoCountyFlImage": {
   "src": "/images/photos/wildlife-removal-pasco-county-fl-image.jpg",
@@ -1849,6 +1993,12 @@ export const images = {
   "alt": "Bats roosting under a wooden board",
   "width": 550,
   "height": 367
+ },
+ "wildlifeRemovalSafetyHarborBanner": {
+  "src": "/images/photos/wildlife-removal-safety-harbor-banner.jpg",
+  "alt": "",
+  "width": 1200,
+  "height": 506
  },
  "wildlifeRemovalSafetyHarborIntroduction": {
   "src": "/images/photos/wildlife-removal-safety-harbor-introduction.jpg",

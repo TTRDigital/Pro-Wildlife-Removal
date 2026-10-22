@@ -14,6 +14,29 @@ export type Rich = (PortableTextBlock | RichImage | RichTable)[];
 
 export type Tone = "white" | "tint";
 
+/** Which design a page uses: the 2019 site ("classic"), the 2025 template ("refresh") or the bat-removal design ("new"). */
+export type Design = "classic" | "refresh" | "new";
+
+export type BgKey = "navy" | "blue" | "beige" | "white" | "light" | "ice" | "dark";
+export type ColorKey = "beige" | "blue" | "black" | "white" | "charcoal" | "navy" | "grey" | "slate" | "ink" | "red" | "orange";
+
+/** Look of a section on the old designs, taken from the live page: background, photo, colours. */
+export type SectionStyle = {
+  bg?: BgKey;
+  image?: Img;
+  /** 0-1 darkening over the background photo */
+  overlay?: number;
+  heading?: ColorKey;
+  text?: ColorKey;
+  link?: ColorKey;
+  divider?: ColorKey;
+  /** border colour of framed photos */
+  frame?: ColorKey;
+  align?: "left" | "center";
+  /** split sections: heading in its own row above the photo and text (otherwise in the text column) */
+  headingAbove?: boolean;
+};
+
 export type Hero = {
   eyebrow?: string;
   heading: string;
@@ -23,6 +46,11 @@ export type Hero = {
   image?: Img;
   badges?: string[];
   ctas?: Cta[];
+  /** words cycling under the heading (classic home page) */
+  rotator?: string[];
+  /** fixed word after the cycling words ("Removal") */
+  rotatorSuffix?: string;
+  style?: SectionStyle;
 };
 
 export type Card = {
@@ -40,6 +68,7 @@ export type Faq = { question: string; answer: Rich };
 
 type SectionBase = {
   _key: string;
+  style?: SectionStyle;
   tone?: Tone;
   eyebrow?: string;
   heading?: string;
@@ -48,7 +77,7 @@ type SectionBase = {
   ctas?: Cta[];
 };
 
-export type TrustBarSection = { _type: "trustBar"; _key: string; items: { icon?: IconName; label: string; text?: string }[] };
+export type TrustBarSection = { _type: "trustBar"; _key: string; style?: SectionStyle; items: { icon?: IconName; label: string; text?: string }[] };
 export type SplitSection = SectionBase & { _type: "splitSection"; body?: Rich; checklist?: string[]; image?: Img; imageSide?: "left" | "right" };
 export type CardsSection = SectionBase & {
   _type: "cardsSection";
@@ -66,7 +95,7 @@ export type AreasSection = SectionBase & {
   groups: { title?: string; href?: string; items: { label: string; href?: string }[] }[];
   note?: string;
 };
-export type CtaSection = { _type: "ctaSection"; _key: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string; showForm?: boolean };
+export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string; showForm?: boolean };
 export type ContactSection = SectionBase & { _type: "contactSection"; map?: boolean; form?: boolean };
 export type ServicesSection = SectionBase & { _type: "servicesSection"; group?: "removal" | "control" | "tampa" | "all" };
 export type LocationsSection = SectionBase & { _type: "locationsSection" };
@@ -86,7 +115,7 @@ export type Section =
   | LocationsSection
   | PostsSection;
 
-export type PageContent = { hero: Hero; sections: Section[]; seo: Seo };
+export type PageContent = { design?: Design; hero: Hero; sections: Section[]; seo: Seo };
 
 export type ServiceGroup = "removal" | "control" | "tampa";
 

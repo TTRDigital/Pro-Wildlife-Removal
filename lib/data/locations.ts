@@ -8,6 +8,7 @@ export const fallbackLocations: Location[] = [
   "name": "Central Florida",
   "kind": "region",
   "summary": "Are you tired of dealing with unwanted wildlife intrusions on your property?",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Central Florida",
    "text": [
@@ -24,7 +25,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.centralfloridawildlifeQfqirdce0vnqjbjzslttj175gk,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -32,11 +33,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Central Florida"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Understanding Florida's Wildlife Diversity",
     "body": [
      {
@@ -64,7 +73,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.centralfloridawildlifeQfqirdce0vnqjbjzslttj175gk,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -316,7 +335,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige"
+    },
     "_key": "s1"
    },
    {
@@ -697,7 +721,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s2"
    },
    {
@@ -1150,7 +1179,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "beige",
+     "divider": "beige"
+    },
     "_key": "s3"
    },
    {
@@ -1209,8 +1244,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -1242,7 +1285,15 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -1318,7 +1369,11 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "divider": "beige"
+    },
     "_key": "s6"
    }
   ],
@@ -1334,9 +1389,10 @@ export const fallbackLocations: Location[] = [
   "kind": "county",
   "county": "Citrus",
   "summary": "Welcome to Pro Wildlife Removal, a name synonymous with trusted and professional wildlife management in Citrus County.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Citrus County, FL",
-   "image": images.prowildlifeBlogGraphicImage2,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -1344,11 +1400,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Citrus County, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Pro Wildlife Removal IN CITRUS COUNTY, At Your Service",
     "body": [
      {
@@ -1364,7 +1427,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.prowildlifeBlogGraphicImage2,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -1391,7 +1464,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -1708,7 +1789,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -1870,7 +1958,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -2021,7 +2116,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -2131,7 +2233,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -2192,9 +2299,10 @@ export const fallbackLocations: Location[] = [
   "kind": "county",
   "county": "Hernando",
   "summary": "Are you dealing with unwanted wildlife problems in Hernando County, Florida?",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Hernando County, FL",
-   "image": images.ratImage,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -2202,11 +2310,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Hernando County, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Trusted #1 Wildlife Control & Rat Removal in Hudson, FL",
     "body": [
      {
@@ -2246,7 +2361,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.ratImage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -2285,7 +2410,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -2540,7 +2673,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -2699,7 +2838,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -2834,7 +2979,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -2885,7 +3036,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -2969,9 +3126,10 @@ export const fallbackLocations: Location[] = [
   "kind": "county",
   "county": "Hillsborough",
   "summary": "Welcome to your trusted choice for professional wildlife removal in Hillsborough County.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Hillsborough County, FL",
-   "image": images.wildlifeRemovalHillsboroughCounty,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -2979,11 +3137,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Hillsborough County, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Hillsborough County’s Premier Wildlife Management Provider",
     "body": [
      {
@@ -2999,7 +3164,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalHillsboroughCounty,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -3020,8 +3195,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.proWildlifeRemovalTeam,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -3251,7 +3434,13 @@ export const fallbackLocations: Location[] = [
       "level": 1
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -3479,7 +3668,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -3645,7 +3840,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -3738,7 +3940,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -3758,7 +3965,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    }
   ],
@@ -3774,9 +3987,10 @@ export const fallbackLocations: Location[] = [
   "kind": "county",
   "county": "Pasco",
   "summary": "Pro Wildlife Removal proudly delivers professional wildlife removal services throughout Pasco County, FL.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Pasco County, FL",
-   "image": images.wildlifeRemovalPascoCountyFlImage,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -3784,11 +3998,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Pasco County, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Professional Wildlife Control Services in Pasco County, Florida",
     "body": [
      {
@@ -3804,7 +4025,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalPascoCountyFlImage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -3825,8 +4056,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.squirrelTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -3847,8 +4086,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.raccoonTrappingProWildifeRemoval,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -3940,7 +4187,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -4147,7 +4400,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -4180,8 +4439,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.holidayRatRemoval,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -4297,7 +4564,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -4390,7 +4663,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -4443,8 +4721,10 @@ export const fallbackLocations: Location[] = [
   "kind": "county",
   "county": "Pinellas",
   "summary": "Pro Wildlife Removal provides professional wildlife removal services in Pinellas County, Florida.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Pinellas County, FL",
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -4452,6 +4732,13 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Pinellas County, FL"
   },
   "sections": [
@@ -4472,7 +4759,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "align": "center"
+    },
     "_key": "s0"
    },
    {
@@ -4618,7 +4911,13 @@ export const fallbackLocations: Location[] = [
       "level": 1
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -4705,7 +5004,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -5173,7 +5478,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -5362,7 +5673,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -5400,7 +5718,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -5561,7 +5886,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    }
   ],
@@ -5577,9 +5907,10 @@ export const fallbackLocations: Location[] = [
   "kind": "county",
   "county": "Polk",
   "summary": "Welcome to Pro Wildlife Removal, your trusted partner for wildlife removal services in Polk County, FL.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Polk County, FL",
-   "image": images.gmb3000x200023,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -5587,11 +5918,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Polk County, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Expert Solution for Wildlife Control Services",
     "body": [
      {
@@ -5607,7 +5945,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.gmb3000x200023,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -5749,7 +6097,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -5958,7 +6312,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -6146,7 +6506,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -6185,8 +6551,17 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.gmb3000x200021,
-    "tone": "white",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -6347,7 +6722,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s5"
    }
   ],
@@ -6363,9 +6743,10 @@ export const fallbackLocations: Location[] = [
   "kind": "county",
   "county": "Sumter",
   "summary": "Welcome to Pro Wildlife Removal, the most trusted name in wildlife control and removal services in Sumter County, Florida.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Sumter County, FL",
-   "image": images.batRemovalImage,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -6373,11 +6754,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Sumter County, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Pro Wildlife Removal: Sumter County Pest Control Solutions",
     "body": [
      {
@@ -6393,7 +6781,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.batRemovalImage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -6432,7 +6830,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -6775,7 +7181,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -7072,7 +7484,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -7293,7 +7712,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -7434,7 +7859,13 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -7454,7 +7885,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -7489,9 +7926,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Hernando",
   "summary": "If you discover unwelcome wildlife in your home, it’s essential to call in the wildlife control experts.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Brooksville, FL",
-   "image": images.brooksvilleRatImage,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -7499,11 +7937,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Brooksville, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "The Pro Wildlife REMOVAL IN BROOKSVILLE, FL Standard Setting the Bar High",
     "body": [
      {
@@ -7531,7 +7976,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.brooksvilleRatImage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -7674,7 +8129,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -7753,7 +8216,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -7936,7 +8405,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -8053,7 +8528,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -8251,7 +8732,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -8335,6 +8823,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pinellas",
   "summary": "Wildlife removal Clearwater FL locals trust!",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Clearwater, FL",
    "text": [
@@ -8351,7 +8840,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.clearwaterFlorida,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -8359,11 +8848,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Clearwater, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Wildlife Removal Clearwater FL: Our Animal Removal Services",
     "body": [
      {
@@ -8523,7 +9020,18 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.clearwaterFlorida,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -8610,8 +9118,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.beeRemoval2,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -8717,8 +9233,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.batRemoval,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -8800,8 +9324,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy"
+    },
     "_key": "s3"
    },
    {
@@ -8900,8 +9429,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.snakeRemoval,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -9005,8 +9542,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.ratRemoval,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -9081,8 +9626,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.squirrelRemoval,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s6"
    },
    {
@@ -9176,8 +9729,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.raccoonRemoval2,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s7"
    },
    {
@@ -9290,8 +9851,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s8"
    },
    {
@@ -9386,7 +9955,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s9"
    },
    {
@@ -9466,7 +10043,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s10"
    }
   ],
@@ -9482,6 +10065,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pasco",
   "summary": "We are the leading wildlife removal Dade City experts and are fully licensed, certified, and insured.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Dade City, FL",
    "text": [
@@ -9498,7 +10082,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.courtHouseDadeCity,
+   "image": images.chamberOfCommerceGreaterDadeCity,
    "ctas": [
     {
      "label": "352-618-2911",
@@ -9506,11 +10090,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.chamberOfCommerceGreaterDadeCity,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Dade City, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Pro Wildlife Removal is available 24/7 For Any Wildlife Removal in Dade City!",
     "body": [
      {
@@ -9679,13 +10271,22 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.courtHouseDadeCity,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "link": "white",
+     "divider": "white",
+     "frame": "white",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
     "_type": "servicesSection",
     "heading": "Our Wildlife Removal Dade City Services",
-    "tone": "tint",
     "_key": "s1"
    },
    {
@@ -9898,7 +10499,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "text": "black",
+     "link": "white",
+     "frame": "navy"
+    },
     "_key": "s2"
    },
    {
@@ -10545,7 +11151,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -10597,7 +11212,15 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -10658,6 +11281,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pinellas",
   "summary": "PPro Wildlife Removal is the top authority for wildlife removal in Dunedin services.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Dunedin, FL",
    "text": [
@@ -10674,7 +11298,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.wildlifeRemovalDunedinIntro,
+   "image": images.wildlifeRemovalDunedin,
    "ctas": [
     {
      "label": "727-496-7702",
@@ -10682,11 +11306,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalDunedin,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Dunedin, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -10786,7 +11418,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalDunedinIntro,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -11418,7 +12057,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -11497,7 +12145,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -11594,6 +12249,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pasco",
   "summary": "Pro Wildlife Removal is dedicated to alleviating wildlife infestations from homes and businesses.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Holiday, FL",
    "text": [
@@ -11610,7 +12266,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.wildlifeRemovalHolidayFlIntroduction,
+   "image": images.wildlifeRemovalHolidayFlBanner,
    "ctas": [
     {
      "label": "727-496-7677",
@@ -11618,11 +12274,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalHolidayFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Holiday, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -11722,7 +12386,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalHolidayFlIntroduction,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -12410,7 +13081,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -12548,7 +13228,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    }
   ],
@@ -12564,6 +13251,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pasco",
   "summary": "Pro Wildlife Removal is the number one authority in Hudson wildlife removal for over a decade now.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Hudson, FL",
    "text": [
@@ -12580,6 +13268,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
+   "image": images.hudsonWildlifeRemoval,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -12587,7 +13276,14 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
-   "image": images.batRemovalServicesProWildifeRemoval,
+   "style": {
+    "bg": "beige",
+    "image": images.hudsonWildlifeRemoval,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Hudson, FL"
   },
   "sections": [
@@ -12701,7 +13397,12 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -13356,7 +14057,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -13452,7 +14162,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    }
   ],
@@ -13468,9 +14185,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Lake",
   "summary": "Welcome to Pro Wildlife Removal, your trusted wildlife trappers serving the Lady Lake, FL community in Central Florida.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal in Lady Lake, FL",
-   "image": images.ladyLakeWildlifeRemoval,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -13478,11 +14196,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Lady Lake, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Expert Solution for EFFICIENT Wildlife Control Services",
     "body": [
      {
@@ -13510,7 +14235,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.ladyLakeWildlifeRemoval,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -13590,7 +14325,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -13839,7 +14580,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -14039,7 +14787,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -14264,7 +15018,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -14299,8 +15060,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.ladyLakeDucks,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -14461,7 +15230,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    }
   ],
@@ -14477,6 +15251,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pasco",
   "summary": "Pro Wildlife Removal in Land O Lakes is the best wildlife removal and animal remediation in town.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Land O’ Lakes, FL",
    "text": [
@@ -14541,7 +15316,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.ratInACage,
+   "image": images.wildlifeRemovalSafetyHarborBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -14549,11 +15324,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalSafetyHarborBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Land O’ Lakes, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -14592,7 +15375,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.ratInACage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -14994,7 +15783,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -15032,7 +15830,13 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige"
+    },
     "_key": "s2"
    },
    {
@@ -15091,9 +15895,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Citrus",
   "summary": "Experience wildlife issues on your property in Lecanto, FL?",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal in Lecanto, FL",
-   "image": images.prowildlifeOpossumImage,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "352-329-3368",
@@ -15101,11 +15906,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Lecanto, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -15132,7 +15944,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.prowildlifeOpossumImage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -15228,7 +16046,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -15409,7 +16233,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -15543,7 +16374,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -15596,7 +16433,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -15844,7 +16687,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s5"
    }
   ],
@@ -15860,6 +16710,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pasco",
   "summary": "Pro Wildlife Removal New Port Richey is the top authority in wildlife control in the area.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in New Port Richey, FL",
    "text": [
@@ -15925,7 +16776,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.wildlifeRemovalNewPortRichey,
+   "image": images.bestWildlifeRemovalNewPortRicheyBanner,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -15933,11 +16784,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.bestWildlifeRemovalNewPortRicheyBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "New Port Richey, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -16081,7 +16940,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalNewPortRichey,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -16799,7 +17665,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -16843,7 +17718,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -16863,7 +17744,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -16922,6 +17809,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pasco",
   "summary": "Pro Wildlife Removal is the leader for wildlife removal in Odessa Fl.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal in Odessa, FL",
    "text": [
@@ -16938,7 +17826,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.wildlifeRemovalOdessaFlIntroduction,
+   "image": images.wildlifeRemovalOdessaFl,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -16946,11 +17834,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalOdessaFl,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Odessa, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -17039,7 +17935,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalOdessaFlIntroduction,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -17761,7 +18664,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -17815,7 +18727,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    }
   ],
@@ -17831,9 +18749,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Orange",
   "summary": "Welcome to Pro Wildlife Removal, your trusted partner for expert wildlife removal services in Orlando, Florida.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Orlando, FL",
-   "image": images.wildlifeRemovalOrlandoFlImage2,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -17841,11 +18760,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Orlando, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "#1 Orlando Wildlife Removal Professionals",
     "body": [
      {
@@ -17861,7 +18787,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalOrlandoFlImage2,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -17895,7 +18831,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -17974,7 +18916,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -18272,7 +19220,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -18688,7 +19642,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -18838,7 +19798,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -18929,8 +19895,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.wildlifeRemovalOrlandoFlImage1,
-    "tone": "white",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "beige",
+     "divider": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s6"
    }
   ],
@@ -18946,6 +19920,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pinellas",
   "summary": "Pro Wildlife Removal Palm Harbor is the most trusted wildlife control team in the area.",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Palm Harbor, FL",
    "text": [
@@ -18962,7 +19937,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.palmHarbor,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7688",
@@ -18970,11 +19945,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Palm Harbor, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -19039,7 +20022,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.palmHarbor,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -19140,8 +20129,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.squirrelTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -19235,8 +20232,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.raccoonTrappingProWildifeRemoval,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -19325,8 +20330,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.opossumTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -19397,8 +20410,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.hogTrapping,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -19492,8 +20512,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.snakeTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -19570,8 +20598,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.armadilloTrapping,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s6"
    },
    {
@@ -19662,8 +20698,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s7"
    },
    {
@@ -19721,8 +20765,13 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.duckTrapping,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige"
+    },
     "_key": "s8"
    },
    {
@@ -19823,8 +20872,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.batTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s9"
    },
    {
@@ -19920,8 +20977,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -19953,7 +21018,13 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s11"
    }
   ],
@@ -19969,9 +21040,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Citrus",
   "summary": "Welcome to Pro Wildlife Removal, your trusted experts in efficient and effective Citrus County animal services in Pine Ridge, Central Florida.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Pine Ridge, FL",
-   "image": images.wildlifeRemovalPineRidgeImage,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -19979,11 +21051,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Pine Ridge, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "#1 Citrus County Animal Services",
     "body": [
      {
@@ -20011,7 +21090,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalPineRidgeImage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -20108,7 +21197,13 @@ export const fallbackLocations: Location[] = [
       "level": 1
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -20503,7 +21598,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -20706,7 +21808,13 @@ export const fallbackLocations: Location[] = [
       "level": 1
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -20958,7 +22066,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -21062,7 +22176,13 @@ export const fallbackLocations: Location[] = [
       "level": 1
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -21135,8 +22255,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.wildlifeRemovalPineRidgeImage1,
-    "tone": "white",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "beige",
+     "divider": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s6"
    }
   ],
@@ -21152,9 +22280,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pinellas",
   "summary": "Welcome to Pro Wildlife Removal, your trusted partner in efficient and effective wildlife management solutions in Pinellas Park, FL.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Pinellas Park, FL",
-   "image": images.may142024RaccoonRemoval,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7722",
@@ -21162,11 +22291,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Pinellas Park, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Go-To Wildlife Control in Central Florida",
     "body": [
      {
@@ -21194,7 +22330,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.may142024RaccoonRemoval,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -21358,7 +22504,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -21529,7 +22681,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -21753,7 +22911,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -21924,7 +23088,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -22038,8 +23208,17 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.proWildlifeArmadillo,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -22162,7 +23341,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -22218,7 +23403,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s7"
    }
   ],
@@ -22234,6 +23426,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pinellas",
   "summary": "Pro Wildlife Removal is the authority in wildlife removal Safety Harbor.",
+  "design": "classic",
   "hero": {
    "heading": "Expert Wildlife Removal in Safety Harbor FL",
    "text": [
@@ -22250,7 +23443,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.wildlifeRemovalSafetyHarborIntroduction,
+   "image": images.wildlifeRemovalSafetyHarborBanner,
    "ctas": [
     {
      "label": "727-594-7718",
@@ -22258,11 +23451,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalSafetyHarborBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Safety Harbor FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -22331,7 +23532,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.wildlifeRemovalSafetyHarborIntroduction,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -23005,7 +24213,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -23089,7 +24306,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    }
   ],
@@ -23105,6 +24329,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pinellas",
   "summary": "Wildlife removal St Petersburg, FL locals trust!",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal in Saint Petersburg, FL",
    "text": [
@@ -23121,7 +24346,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.blvHelp,
+   "image": images.stPetersburgFl,
    "ctas": [
     {
      "label": "727-594-7704",
@@ -23129,6 +24354,14 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.stPetersburgFl,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Saint Petersburg, FL"
   },
   "sections": [
@@ -23148,11 +24381,18 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s0"
    },
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Understanding Wildlife Control Problems in Saint Petersburg",
     "body": [
      {
@@ -23168,7 +24408,16 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "image": images.blvHelp,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -23188,7 +24437,12 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s2"
    },
    {
@@ -23208,7 +24462,12 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s3"
    },
    {
@@ -23228,7 +24487,12 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s4"
    },
    {
@@ -23248,7 +24512,12 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s5"
    },
    {
@@ -23460,7 +24729,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -23597,8 +24872,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.proWildlifeRemovalTeam,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s7"
    },
    {
@@ -23677,7 +24960,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s8"
    }
   ],
@@ -23693,9 +24983,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Sarasota",
   "summary": "Tired of pesky wildlife invading your Sarasota, FL property?",
+  "design": "classic",
   "hero": {
    "heading": "Expert Wildlife Removal Service In Sarasota, FL",
-   "image": images.prowildlifeOpossumImage,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -23703,11 +24994,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Sarasota, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Most Reliable Wildlife Control in Sarasota",
     "body": [
      {
@@ -23735,7 +25033,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.prowildlifeOpossumImage,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "beige",
+     "divider": "white",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -23756,8 +25064,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.proWildlifeRemovalTeam,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -23907,7 +25223,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -24090,7 +25412,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -24363,7 +25691,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -24584,7 +25918,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -24619,6 +25959,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Hernando",
   "summary": "When you need fast and reliable wildlife removal Spring Hill Fl services, there’s only one company to call: Pro Wildlife Removal",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Spring Hill, FL",
    "text": [
@@ -24635,7 +25976,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.springHillFloridaIntroduction,
+   "image": images.springHillFloridaBanner,
    "ctas": [
     {
      "label": "352-675-3338",
@@ -24643,11 +25984,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.springHillFloridaBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Spring Hill, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -24753,7 +26102,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.springHillFloridaIntroduction,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -25587,7 +26943,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -25663,9 +27028,10 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Hillsborough",
   "summary": "Are you having problems with wild animal invasions on your Tampa, FL property?",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Tampa, FL",
-   "image": images.tampaFlImageQblfb4uwqqrs5ocjz4zcg075j7t21uf83ie0,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -25673,11 +27039,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Tampa, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Professional Wildlife REMOVAL in Tampa, Florida",
     "body": [
      {
@@ -25705,7 +27078,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.tampaFlImageQblfb4uwqqrs5ocjz4zcg075j7t21uf83ie0,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -25936,7 +27319,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -26179,7 +27570,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s2"
    },
    {
@@ -26230,7 +27626,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige"
+    },
     "_key": "s3"
    },
    {
@@ -26269,7 +27670,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s4"
    },
    {
@@ -26344,7 +27750,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige"
+    },
     "_key": "s5"
    },
    {
@@ -26364,7 +27775,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige"
+    },
     "_key": "s6"
    },
    {
@@ -26454,7 +27871,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige"
+    },
     "_key": "s7"
    }
   ],
@@ -26470,6 +27893,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Sumter",
   "summary": "The Villages is a census-designated place in Sumter County, Covered by Pro Wildlife Remover It shares its name with a broader master-planned age-restricted community…",
+  "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in The Villages, FL",
    "text": [
@@ -26486,7 +27910,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.villagessign01,
+   "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
      "label": "352-670-2297",
@@ -26494,11 +27918,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.wildlifeRemovalPalmHarbor,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "The Villages, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -26520,7 +27952,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.villagessign01,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -26603,8 +28041,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.squirrelTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -26680,8 +28125,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.raccoonTrappingProWildifeRemoval,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -26757,8 +28209,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.opossumTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -26829,8 +28288,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.hogTrapping,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -26918,8 +28384,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.snakeTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -26978,8 +28451,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.armadilloTrapping,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s6"
    },
    {
@@ -27057,8 +28537,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s7"
    },
    {
@@ -27116,8 +28603,13 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.duckTrapping,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige"
+    },
     "_key": "s8"
    },
    {
@@ -27200,8 +28692,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.batTrapping,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "headingAbove": true
+    },
     "_key": "s9"
    },
    {
@@ -27279,8 +28778,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -27311,7 +28817,11 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey"
+    },
     "_key": "s11"
    }
   ],
@@ -27327,6 +28837,7 @@ export const fallbackLocations: Location[] = [
   "kind": "city",
   "county": "Pasco",
   "summary": "We have extensive knowledge of Trinity wildlife removal.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Trinity, FL",
    "text": [
@@ -27343,7 +28854,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.trinityWildlifeRemovalIntroduction,
+   "image": images.trinityWildlifeRemovalBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -27351,11 +28862,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.trinityWildlifeRemovalBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Trinity, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "body": [
      {
       "_type": "block",
@@ -27479,7 +28998,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.trinityWildlifeRemovalIntroduction,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "text": "beige",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -28027,7 +29553,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.trinityDuckHandling,
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "orange",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -28072,7 +29607,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -28104,7 +29646,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -28124,7 +29673,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -28162,7 +29718,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -28194,7 +29757,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -28226,7 +29796,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -28246,7 +29823,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s8"
    },
    {
@@ -28302,7 +29886,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s9"
    },
    {
@@ -28334,7 +29925,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s10"
    },
    {
@@ -28390,7 +29988,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s11"
    },
    {
@@ -28437,9 +30042,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Hernando",
   "summary": "If you’re dealing with a rat problem in Brooksville, FL, you can count on Pro Wildlife Removal for expert wildlife removal and pest control services.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in Brooksville, FL",
-   "image": images.trappingRemovalBrooksville,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -28447,11 +30053,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Brooksville, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Expert Rat Removal in Brooksville, FL",
     "body": [
      {
@@ -28467,7 +30080,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.trappingRemovalBrooksville,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -28740,7 +30363,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -29082,7 +30713,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s2"
    },
    {
@@ -29372,7 +31008,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige"
+    },
     "_key": "s3"
    },
    {
@@ -29515,7 +31156,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s4"
    },
    {
@@ -29667,7 +31313,11 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "divider": "beige"
+    },
     "_key": "s5"
    },
    {
@@ -29706,7 +31356,13 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige"
+    },
     "_key": "s6"
    },
    {
@@ -29786,6 +31442,7 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pinellas",
   "summary": "For several years Pro Wildlife Removal has been the industry leader in rat removal in Clearwater and around Central Florida area.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in Clearwater, FL",
    "text": [
@@ -29802,7 +31459,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.img5gtlhuNewRat1000000000000000000028,
+   "image": images.trappingRemoval,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -29810,6 +31467,14 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.trappingRemoval,
+    "overlay": 0.68,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Clearwater, FL"
   },
   "sections": [
@@ -29842,7 +31507,12 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "align": "center"
+    },
     "_key": "s0"
    },
    {
@@ -30042,11 +31712,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Taking Action: Rat Removal and Prevention",
     "body": [
      {
@@ -30086,7 +31762,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.img5gtlhuNewRat1000000000000000000028,
+    "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -30162,8 +31848,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -30225,7 +31919,15 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -30275,7 +31977,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -30308,7 +32017,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -30358,7 +32074,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s7"
    }
   ],
@@ -30374,10 +32097,11 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pasco",
   "summary": "Rats can quickly turn from a minor nuisance into a serious problem, causing property damage and posing health risks to your home or business.",
+  "design": "refresh",
   "hero": {
    "eyebrow": "#1 Rat Removal Services",
    "heading": "Professional Rat Removal in Dade City FL",
-   "image": images.ratRemovalImage2,
+   "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
      "label": "(727) 594-7705",
@@ -30385,11 +32109,17 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Dade City FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "eyebrow": "Expert Rat Control",
     "heading": "Schedule Rat Removal in Dade City Today!",
     "body": [
@@ -30406,6 +32136,7 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
+    "image": images.ratRemovalImage2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -30413,7 +32144,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -30434,8 +32170,14 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.imageRatInfestation,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -30456,8 +32198,12 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.prowildlifeBlogGraphicImage,
-    "tone": "white",
     "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s2"
    },
    {
@@ -30532,7 +32278,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -30609,7 +32360,11 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.imageRatCage,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s4"
    },
    {
@@ -30719,7 +32474,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -30747,8 +32507,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
     "imageSide": "left",
+    "style": {
+     "bg": "white",
+     "heading": "ink",
+     "text": "slate"
+    },
     "_key": "s6"
    },
    {
@@ -30876,13 +32640,21 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "link": "white",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
     "_type": "reviewsSection",
     "heading": "See Why Central Florida Chooses Pro Wildlife Removal",
-    "tone": "white",
+    "style": {
+     "bg": "white"
+    },
     "_key": "s8"
    },
    {
@@ -30992,13 +32764,21 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.imageInfestation,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s9"
    },
    {
     "_type": "proseSection",
     "heading": "Proudly Serving the Tampa Bay Area",
-    "tone": "white",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal",
+     "align": "center"
+    },
     "_key": "s10"
    },
    {
@@ -31120,8 +32900,11 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
     "imageSide": "right",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal"
+    },
     "_key": "s11"
    },
    {
@@ -31156,8 +32939,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pinellas",
   "summary": "Welcome to Pro Wildlife Removal, your premier company for rat control in Dunedin, FL.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in Dunedin, FL",
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -31165,6 +32950,13 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Dunedin, FL"
   },
   "sections": [
@@ -31197,7 +32989,15 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -31392,7 +33192,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -31583,7 +33391,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s2"
    },
    {
@@ -31680,7 +33493,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige"
+    },
     "_key": "s3"
    },
    {
@@ -31887,7 +33705,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s4"
    },
    {
@@ -32134,7 +33957,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige"
+    },
     "_key": "s5"
    },
    {
@@ -32236,6 +34064,7 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pasco",
   "summary": "For several years Pro Wildlife Removal has been the industry leader in rat removal in the Central Florida area.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in Hudson, FL",
    "text": [
@@ -32252,7 +34081,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.ratImage,
+   "image": images.trappingRemoval,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -32260,11 +34089,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.trappingRemoval,
+    "overlay": 0.68,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Hudson, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Rat Removal In Hudson, FL",
     "body": [
      {
@@ -32323,6 +34160,7 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
+    "image": images.ratImage,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -32330,7 +34168,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s0"
    },
    {
@@ -32350,7 +34197,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -32383,8 +34237,15 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.img5gtlhuNewRat1000000000000000000028,
-    "tone": "white",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -32560,7 +34421,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -32676,7 +34543,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "white",
+     "divider": "white",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -32828,7 +34701,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -32866,7 +34745,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -32934,7 +34820,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s7"
    }
   ],
@@ -32950,9 +34843,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pasco",
   "summary": "Welcome to Pro Wildlife Removal, your trusted partner for professional rat removal and pest control services in New Port Richey, FL.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in New Port Richey, FL",
-   "image": images.ratRemovalNewPortRichey,
+   "image": images.ratRemovalNewPortRicheyImage,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -32960,6 +34854,13 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.ratRemovalNewPortRicheyImage,
+    "overlay": 0.68,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "New Port Richey, FL"
   },
   "sections": [
@@ -33027,7 +34928,11 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "text": "white",
+     "link": "white"
+    },
     "_key": "s0"
    },
    {
@@ -33143,7 +35048,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -33235,11 +35146,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Understanding Rat Infestations in New Port Richey",
     "body": [
      {
@@ -33747,6 +35664,7 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
+    "image": images.ratRemovalNewPortRichey,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -33754,7 +35672,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s3"
    }
   ],
@@ -33770,9 +35697,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pinellas",
   "summary": "Are you struggling with a rat infestation in your Palm Harbor home or business?",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal in Palm Harbor, Florida",
-   "image": images.ratRemovalNewPortRicheyImage,
+   "image": images.ratRemovalNewPortRichey,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -33780,11 +35708,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.ratRemovalNewPortRichey,
+    "overlay": 0.68,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Palm Harbor, Fl"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Let Our Rodent Control Experts Help!",
     "body": [
      {
@@ -33818,7 +35753,17 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.ratRemovalNewPortRicheyImage,
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -33934,7 +35879,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -34071,7 +36022,13 @@ export const fallbackLocations: Location[] = [
       "level": 1
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -34224,7 +36181,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    }
   ],
@@ -34240,9 +36204,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pinellas",
   "summary": "Rats are more than just a nuisance; they pose serious health risks and can cause extensive damage to your property.",
+  "design": "classic",
   "hero": {
    "heading": "#1 Rat Removal in Safety Harbor, Florida",
-   "image": images.ratRemovalTrinityImage,
+   "image": images.ratRemovalBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -34250,11 +36215,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.ratRemovalBanner,
+    "overlay": 0.68,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Safety Harbor, Fl"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Trusted Rodent Control",
     "body": [
      {
@@ -34288,7 +36260,17 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.ratRemovalTrinityImage,
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -34392,7 +36374,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -34496,7 +36484,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -34576,7 +36570,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -34738,7 +36738,14 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    }
   ],
@@ -34754,9 +36761,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Hernando",
   "summary": "Dealing with a persistent rat infestation or rodent control issue in Spring Hill, FL?",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in Spring Hill, FL",
-   "image": images.springHillFloridaIntroduction,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -34764,11 +36772,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Spring Hill, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Full-Service Rat Control & Wildlife Removal Solutions",
     "body": [
      {
@@ -34820,7 +36835,18 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.springHillFloridaIntroduction,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -35003,7 +37029,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -35160,7 +37195,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s2"
    },
    {
@@ -35292,7 +37332,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige"
+    },
     "_key": "s3"
    },
    {
@@ -35376,7 +37421,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s4"
    },
    {
@@ -35556,7 +37606,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige"
+    },
     "_key": "s5"
    }
   ],
@@ -35572,6 +37628,7 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pinellas",
   "summary": "Rat Removal in St.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in St. Petersburg, FL",
    "text": [
@@ -35588,7 +37645,7 @@ export const fallbackLocations: Location[] = [
      "markDefs": []
     }
    ],
-   "image": images.odessaRatHandlers,
+   "image": images.trappingRemoval,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -35596,11 +37653,19 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.trappingRemoval,
+    "overlay": 0.68,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "St. Petersburg, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Rat Removal IN St. Petersburg FL",
     "body": [
      {
@@ -35740,6 +37805,7 @@ export const fallbackLocations: Location[] = [
       "level": 1
      }
     ],
+    "image": images.odessaRatHandlers,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -35747,7 +37813,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s0"
    },
    {
@@ -35792,8 +37866,16 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.img5gtlhuNewRat1000000000000000000028,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -35833,8 +37915,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -36046,7 +38136,13 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -36131,7 +38227,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    }
   ],
@@ -36147,9 +38250,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Sumter",
   "summary": "Facing a stubborn rat infestation or rodent control problem in The Villages, FL?",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal in The Villages, FL",
-   "image": images.villagesFlorida,
+   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -36157,11 +38261,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
+    "overlay": 0.7,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "The Villages, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Full-Service Rat Pest Control Company",
     "body": [
      {
@@ -36189,7 +38300,17 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.villagesFlorida,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -36330,7 +38451,15 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -36452,7 +38581,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s2"
    },
    {
@@ -36574,7 +38708,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige"
+    },
     "_key": "s3"
    },
    {
@@ -36746,7 +38885,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black"
+    },
     "_key": "s4"
    },
    {
@@ -36841,7 +38985,13 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "beige",
+     "divider": "beige"
+    },
     "_key": "s5"
    }
   ],
@@ -36857,9 +39007,10 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Pasco",
   "summary": "Dealing with a rat infestation can be a daunting and stressful experience for homeowners and businesses in Trinity, FL.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Rat Removal Services in Trinity, FL",
-   "image": images.ratRemovalTrinityImage,
+   "image": images.ratRemovalBanner,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -36867,11 +39018,18 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.ratRemovalBanner,
+    "overlay": 0.68,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Trinity, FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Our Efficient Wild Animal Removal Process",
     "body": [
      {
@@ -36887,7 +39045,16 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.ratRemovalTrinityImage,
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "white",
+     "divider": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -37031,7 +39198,14 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -37152,7 +39326,14 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -37377,8 +39558,16 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -37523,7 +39712,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    }
   ],
@@ -37539,10 +39733,11 @@ export const fallbackLocations: Location[] = [
   "kind": "rat",
   "county": "Polk",
   "summary": "Dealing with a rat infestation?",
+  "design": "refresh",
   "hero": {
    "eyebrow": "#1 Rat Removal Services",
    "heading": "Rat Removal in Winter Haven FL",
-   "image": images.ratRemovalImage2,
+   "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
      "label": "(727) 594-7705",
@@ -37550,11 +39745,17 @@ export const fallbackLocations: Location[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Winter Haven FL"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "eyebrow": "Expert Rat Control",
     "heading": "Your Winter Haven Pest Control Experts",
     "body": [
@@ -37583,6 +39784,7 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
+    "image": images.ratRemovalImage2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -37590,7 +39792,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -37717,7 +39924,11 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.imageInfestation,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s1"
    },
    {
@@ -37827,7 +40038,12 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -37937,7 +40153,13 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -38066,7 +40288,12 @@ export const fallbackLocations: Location[] = [
      }
     ],
     "image": images.imageRatCage,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "link": "white"
+    },
     "_key": "s4"
    },
    {
@@ -38094,8 +40321,12 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
     "imageSide": "left",
+    "style": {
+     "bg": "white",
+     "heading": "ink",
+     "text": "slate"
+    },
     "_key": "s5"
    },
    {
@@ -38223,13 +40454,21 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "link": "white",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
     "_type": "reviewsSection",
     "heading": "See Why Central Florida Chooses Pro Wildlife Removal",
-    "tone": "tint",
+    "style": {
+     "bg": "white"
+    },
     "_key": "s7"
    },
    {
@@ -38368,13 +40607,21 @@ export const fallbackLocations: Location[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "align": "center"
+    },
     "_key": "s8"
    },
    {
     "_type": "proseSection",
     "heading": "Pro Wildlife Removal Tampa Bay",
-    "tone": "tint",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal",
+     "align": "center"
+    },
     "_key": "s9"
    },
    {
@@ -38496,8 +40743,11 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
     "imageSide": "right",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal"
+    },
     "_key": "s10"
    },
    {

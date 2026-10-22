@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ArrowUp } from "lucide-react";
+import { ChevronUp } from "lucide-react";
+import { chatWidgetId } from "@/lib/chat";
 
-/** Round back-to-top button, shown after scrolling one screen. Sits left of the chat widget. */
+/** Grey square back-to-top button of the old site, shown after scrolling one screen. Sits left of the chat widget. */
 export function BackToTop() {
   const [show, setShow] = useState(false);
   useEffect(() => {
@@ -18,9 +19,9 @@ export function BackToTop() {
       onClick={() => window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" })}
       aria-label="Back to top"
       tabIndex={show ? 0 : -1}
-      className={`fixed bottom-20 right-4 z-40 md:bottom-6 md:right-24 flex h-13 w-13 items-center justify-center rounded-full border border-line bg-white text-navy shadow-[var(--shadow-card)] transition-[opacity,transform,background-color] duration-300 hover:bg-blue hover:text-white ${show ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-3 opacity-0"}`}
+      className={`fixed right-4 bottom-20 z-40 flex h-11 w-11 items-center justify-center rounded-[2px] bg-[#555]/80 text-white transition-[opacity,transform,background-color] duration-300 hover:bg-old-navy md:bottom-5 ${chatWidgetId ? "md:right-24" : "md:right-5"} ${show ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-3 opacity-0"}`}
     >
-      <ArrowUp className="h-5 w-5" strokeWidth={2.25} aria-hidden="true" />
+      <ChevronUp className="h-6 w-6" strokeWidth={2.5} aria-hidden="true" />
     </button>
   );
 }

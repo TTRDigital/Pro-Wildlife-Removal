@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import type { Rich, RichImage, RichTable } from "@/lib/types";
+import { slugify } from "@/lib/text";
 import { Photo } from "@/components/ui/Photo";
 
 const isInternal = (href: string) => href.startsWith("/") || href.startsWith("#");
@@ -29,7 +30,10 @@ const components: PortableTextComponents = {
     altImage: ({ value }: { value: RichImage }) =>
       value?.image?.src ? (
         <figure className="my-8">
-          <div className="relative overflow-hidden rounded-[var(--radius-card)]" style={{ aspectRatio: value.image.width && value.image.height ? `${value.image.width} / ${value.image.height}` : "4 / 3" }}>
+          <div
+            className="relative overflow-hidden rounded-[var(--radius-card)]"
+            style={{ aspectRatio: value.image.width && value.image.height ? `${value.image.width} / ${value.image.height}` : "4 / 3" }}
+          >
             <Photo image={value.image} sizes="(min-width: 1024px) 720px, 100vw" />
           </div>
           {value.caption ? <figcaption className="mt-2 text-sm text-meta">{value.caption}</figcaption> : null}
@@ -39,10 +43,10 @@ const components: PortableTextComponents = {
       const rows = value?.rows ?? [];
       const [head, ...body] = value?.hasHeader ? rows : [null, ...rows];
       return (
-        <div className="my-8 overflow-x-auto rounded-[var(--radius-card)] border border-line">
+        <div className="rt-table my-8 overflow-x-auto">
           <table className="w-full min-w-[520px] border-collapse text-left text-[0.95rem]">
             {head ? (
-              <thead className="bg-tint font-display text-navy">
+              <thead className="rt-head">
                 <tr>
                   {head.cells.map((c, i) => (
                     <th key={i} scope="col" className="px-4 py-3 font-semibold">
@@ -54,9 +58,9 @@ const components: PortableTextComponents = {
             ) : null}
             <tbody>
               {body.map((r, ri) => (
-                <tr key={ri} className="border-t border-line align-top">
+                <tr key={ri} className="align-top">
                   {r?.cells.map((c, i) => (
-                    <td key={i} className={`px-4 py-3 ${i === 0 ? "font-semibold text-navy" : ""}`}>
+                    <td key={i} className={`px-4 py-3 ${i === 0 ? "rt-key" : ""}`}>
                       {c}
                     </td>
                   ))}
@@ -70,12 +74,24 @@ const components: PortableTextComponents = {
   },
 };
 
-/** Portable Text from the CMS or the built-in content. */
-export function RichText({ value, className = "" }: { value?: Rich; className?: string }) {
+const blockText = (value: unknown) => ((value as { children?: { text?: string }[] })?.children ?? []).map((c) => c.text ?? "").join("");
+
+/** Blog posts keep their h2/h3 levels (the post title is the h1); each h2 gets an anchor id. */
+const articleComponents: PortableTextComponents = {
+  ...components,
+  block: {
+    h2: ({ children, value }) => <h2 id={slugify(blockText(value)) || undefined}>{children}</h2>,
+    h3: ({ children }) => <h3>{children}</h3>,
+    h4: ({ children }) => <h4>{children}</h4>,
+  },
+};
+
+/** Portable Text from the CMS or the built-in content. `base` is the text style: prose-pw (bat-removal design), o-rich (old theme) or r-rich (2025 template). */
+export function RichText({ value, className = "", base = "prose-pw", article = false }: { value?: Rich; className?: string; base?: "prose-pw" | "o-rich" | "r-rich"; article?: boolean }) {
   if (!value?.length) return null;
   return (
-    <div className={`prose-pw ${className}`}>
-      <PortableText value={value as never} components={components} />
+    <div className={`${base} ${className}`}>
+      <PortableText value={value as never} components={article ? articleComponents : components} />
     </div>
   );
 }

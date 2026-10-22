@@ -2,8 +2,11 @@ import { defineArrayMember, defineField, defineType } from "sanity";
 import { Columns2, FileText, Grid2x2, HelpCircle, LayoutList, MapPin, Megaphone, MessageSquareQuote, Newspaper, PhoneCall, ShieldCheck, Wrench } from "lucide-react";
 
 /*
- * Page sections. Each matches a block of the bat-removal page design and a
- * component in components/sections. Pages are built by stacking them.
+ * Page sections. Pages are built by stacking them. Each page is drawn in
+ * its design (document field "design"): the old theme (components/old/
+ * Classic.tsx), the 2025 template (components/old/Refresh.tsx) or the
+ * bat-removal design (components/sections). "Look" holds a section's colours
+ * on the old designs; "Background" (tone) is used by the bat-removal design.
  */
 
 const tone = defineField({ name: "tone", title: "Background", type: "string", options: { list: [{ title: "White", value: "white" }, { title: "Light blue", value: "tint" }], layout: "radio" }, initialValue: "white" });
@@ -12,7 +15,8 @@ const heading = defineField({ name: "heading", type: "string" });
 const highlight = defineField({ name: "highlight", title: "Words of the heading shown in blue", type: "string" });
 const intro = defineField({ name: "intro", title: "Intro", type: "richText" });
 const ctas = defineField({ name: "ctas", title: "Buttons", type: "array", of: [defineArrayMember({ type: "cta" })], validation: (r) => r.max(2) });
-const head = [tone, eyebrow, heading, highlight, intro];
+const style = defineField({ name: "style", title: "Look (colours and background)", type: "sectionStyle" });
+const head = [tone, eyebrow, heading, highlight, intro, style];
 const titled = (fallback: string) => ({ select: { title: "heading", subtitle: "eyebrow" }, prepare: ({ title, subtitle }: { title?: string; subtitle?: string }) => ({ title: title || fallback, subtitle: [fallback, subtitle].filter(Boolean).join(" · ") }) });
 
 export const trustBar = defineType({
@@ -133,6 +137,8 @@ export const ctaSection = defineType({
     defineField({ name: "area", title: "Service area line", type: "string", description: "Leave empty to use the one from Site settings." }),
     defineField({ name: "image", type: "altImage", description: "Without a photo, the inspection form is shown." }),
     defineField({ name: "showForm", title: "Show the form instead of the photo", type: "boolean" }),
+    ctas,
+    style,
   ],
   preview: titled("Call to action"),
 });
@@ -182,5 +188,5 @@ export const sectionsField = defineField({
   type: "array",
   group: "content",
   of: sectionTypes.map((t) => defineArrayMember({ type: t.name })),
-  description: "The page, top to bottom. Every page ends with the navy call-to-action band (the default one if none is added).",
+  description: "The page, top to bottom. Pages in the bat-removal design end with the navy call-to-action band (the default one if none is added).",
 });

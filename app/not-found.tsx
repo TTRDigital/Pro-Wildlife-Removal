@@ -1,25 +1,23 @@
 import Link from "next/link";
 import { SiteShell } from "@/components/layout/SiteShell";
-import { Button } from "@/components/ui/Button";
+import { classicVars } from "@/components/old/theme";
 import "./globals.css";
 
+/** 404 in the old theme: beige band, uppercase heading, divider bar. */
 export default function NotFound() {
   return (
     <SiteShell>
-      <section className="section bg-tint">
-        <div className="wrap max-w-[760px] text-center">
-          <p className="eyebrow mb-3">Error 404</p>
-          <h1 className="text-h1 font-bold">This page has gone back into the wild</h1>
-          <p className="mt-5 text-lead">The page you are looking for has moved or does not exist.</p>
-          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-            <Button href="/">Back to home</Button>
-            <Button href="/services/" variant="outline">
-              Our services
-            </Button>
+      <section className="o-sec" style={classicVars({ bg: "beige", heading: "navy", text: "grey", divider: "blue" })}>
+        <div className="o-wrap max-w-[860px]">
+          <p className="font-old text-lg font-semibold uppercase">Error 404</p>
+          <h1 className="o-h1 mt-2">This page has gone back into the wild</h1>
+          <span className="o-bar" aria-hidden="true" />
+          <div className="o-rich">
+            <p>The page you are looking for has moved or does not exist.</p>
+            <p>
+              Go back to the <Link href="/">home page</Link>, see <Link href="/services/">our services</Link> or the <Link href="/sitemap/">sitemap</Link>.
+            </p>
           </div>
-          <p className="mt-8">
-            Or see the <Link href="/sitemap/" className="font-semibold text-blue-deep underline">sitemap</Link>.
-          </p>
         </div>
       </section>
     </SiteShell>

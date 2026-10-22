@@ -16,7 +16,7 @@ import { createHash } from "node:crypto";
 import { createReadStream, existsSync, readFileSync } from "node:fs";
 import { basename, join } from "node:path";
 import { createClient } from "@sanity/client";
-import type { Card, Cta, Hero, Img, PageContent, Rich, Section, Seo } from "../lib/types";
+import type { Card, Cta, Hero, Img, PageContent, Rich, Section, SectionStyle, Seo } from "../lib/types";
 import { fallbackSettings } from "../lib/data/site.ts";
 import { fallbackPages } from "../lib/data/pages.ts";
 import { fallbackServices } from "../lib/data/services.ts";
@@ -100,8 +100,26 @@ async function rich(blocks?: Rich) {
 const ctas = (list?: Cta[]) => list?.map((c) => ({ _type: "cta", _key: key(), ...c }));
 const seo = (s: Seo) => ({ _type: "seo", title: s.title, description: s.description });
 
+async function style(st?: SectionStyle) {
+  if (!st) return undefined;
+  const { image, ...rest } = st;
+  return { _type: "sectionStyle", ...rest, ...(image ? { image: await altImage(image) } : {}) };
+}
+
 async function hero(h: Hero) {
-  return { _type: "pageHero", eyebrow: h.eyebrow, heading: h.heading, highlight: h.highlight, text: await rich(h.text), image: await altImage(h.image), badges: h.badges, ctas: ctas(h.ctas) };
+  return {
+    _type: "pageHero",
+    eyebrow: h.eyebrow,
+    heading: h.heading,
+    highlight: h.highlight,
+    text: await rich(h.text),
+    image: await altImage(h.image),
+    badges: h.badges,
+    ctas: ctas(h.ctas),
+    rotator: h.rotator,
+    rotatorSuffix: h.rotatorSuffix,
+    style: await style(h.style),
+  };
 }
 
 /* FAQ library: one document per distinct question + answer, referenced from the pages. */
@@ -128,6 +146,7 @@ async function sections(list: Section[], category: string) {
       if (x[f]) base[f] = await rich(x[f] as Rich);
     }
     if (x.image) base.image = await altImage(x.image as Img);
+    if (x.style) base.style = await style(x.style as SectionStyle);
     if (x.ctas) base.ctas = ctas(x.ctas as Cta[]);
     if (s._type === "cardsSection") base.cards = await Promise.all(s.cards.map(card));
     if (s._type === "trustBar") base.items = s.items.map((i) => ({ _type: "trustItem", _key: key(), ...i }));
@@ -140,7 +159,7 @@ async function sections(list: Section[], category: string) {
 }
 
 async function pageFields(p: PageContent, category: string) {
-  return { hero: await hero(p.hero), sections: await sections(p.sections, category), seo: seo(p.seo) };
+  return { design: p.design, hero: await hero(p.hero), sections: await sections(p.sections, category), seo: seo(p.seo) };
 }
 
 /* ---------- documents ---------- */

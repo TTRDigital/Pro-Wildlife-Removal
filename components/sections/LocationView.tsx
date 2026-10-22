@@ -10,9 +10,9 @@ export function LocationView({ location, settings }: { location: Location; setti
     <>
       <JsonLd data={locationSchema(location, path)} />
       <PageView
-        hero={location.hero}
-        sections={location.sections}
+        page={location}
         settings={settings}
+        path={path}
         crumbs={[
           { label: "Service Area", href: "/about-us/service-area/" },
           { label: location.name, href: path },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getPage, getSiteSettings } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
-import { LegalView } from "@/components/sections/LegalView";
+import { PageView } from "@/components/sections/PageView";
 
 const PATH = "/privacy-policy/";
 
@@ -11,5 +11,5 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Page() {
   const [page, settings] = await Promise.all([getPage("privacy"), getSiteSettings()]);
-  return <LegalView page={page} settings={settings} path={PATH} label="Privacy Policy" />;
+  return <PageView page={page} settings={settings} path={PATH} crumbs={[{ label: "Privacy Policy", href: PATH }]} />;
 }

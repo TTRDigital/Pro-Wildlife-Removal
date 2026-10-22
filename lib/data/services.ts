@@ -11,6 +11,7 @@ export const fallbackServices: Service[] = [
   "order": 1,
   "summary": "Bats play a crucial role in ecosystems, but their presence in residential or commercial buildings can lead to issues.",
   "cardImage": images.batRemoval2,
+  "design": "new",
   "hero": {
    "eyebrow": "BAT REMOVAL & EXCLUSION",
    "heading": "Professional Bat Removal & Exclusion in Tampa",
@@ -1094,6 +1095,7 @@ export const fallbackServices: Service[] = [
   "order": 2,
   "summary": "Rats are known carriers of diseases and can cause extensive damage.",
   "cardImage": images.ratRemoval2,
+  "design": "new",
   "hero": {
    "eyebrow": "RAT REMOVAL & RODENT CONTROL",
    "heading": "Professional Rat Removal & Rodent Control in Tampa, FL",
@@ -2482,6 +2484,7 @@ export const fallbackServices: Service[] = [
   "order": 3,
   "summary": "Raccoons can cause significant damage to your property and pose potential health risks.",
   "cardImage": images.raccoonRemoval,
+  "design": "new",
   "hero": {
    "eyebrow": "RACCOON REMOVAL & EXCLUSION",
    "heading": "Professional Raccoon Removal in Tampa & West-Central Florida",
@@ -4094,6 +4097,7 @@ export const fallbackServices: Service[] = [
   "order": 4,
   "summary": "Squirrels can create havoc in attics, crawl spaces, and other areas of your home.",
   "cardImage": images.squirrelRemoval2,
+  "design": "new",
   "hero": {
    "eyebrow": "SQUIRREL REMOVAL & EXCLUSION",
    "heading": "Professional Squirrel Removal in Tampa & West-Central Florida",
@@ -5649,6 +5653,7 @@ export const fallbackServices: Service[] = [
   "order": 5,
   "summary": "Snakes can be a cause of concern, especially if they are venomous or pose a threat to humans and pets.",
   "cardImage": images.snakeRemoval3,
+  "design": "new",
   "hero": {
    "eyebrow": "SNAKE REMOVAL & IDENTIFICATION",
    "heading": "Professional Snake Removal in Tampa & West-Central Florida",
@@ -7066,6 +7071,7 @@ export const fallbackServices: Service[] = [
   "order": 6,
   "summary": "Opossums can cause damage and create disturbances in residential areas.",
   "cardImage": images.opossumRemoval4,
+  "design": "new",
   "hero": {
    "eyebrow": "OPOSSUM REMOVAL & EXCLUSION",
    "heading": "Professional Opossum Removal in Tampa & West-Central Florida",
@@ -9026,6 +9032,7 @@ export const fallbackServices: Service[] = [
   "order": 7,
   "summary": "If armadillos have become a nuisance on your property, our experts can safely and efficiently remove them, ensuring the well-being of both the animals and your property.",
   "cardImage": images.armadilloRemoval2,
+  "design": "new",
   "hero": {
    "eyebrow": "ARMADILLO REMOVAL & PROPERTY DAMAGE CONTROL",
    "heading": "Professional Armadillo Removal in Tampa & West-Central Florida",
@@ -10729,6 +10736,7 @@ export const fallbackServices: Service[] = [
   "order": 8,
   "summary": "Bees are essential pollinators, but when they establish hives in unwanted areas, they can pose risks, especially to those with allergies.",
   "cardImage": images.beeRemoval,
+  "design": "new",
   "hero": {
    "eyebrow": "BEE REMOVAL & COLONY INSPECTION",
    "heading": "Professional Bee Removal in Tampa & Hillsborough County",
@@ -11902,6 +11910,7 @@ export const fallbackServices: Service[] = [
   "order": 9,
   "summary": "The presence of dead animals can not only be unpleasant but also hazardous.",
   "cardImage": images.deadAnimalRemoval,
+  "design": "classic",
   "hero": {
    "heading": "Licensed Dead Animal Removal in Tampa, FL",
    "text": [
@@ -11918,6 +11927,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
+   "image": images.licensedDeadAnimalRemovalTampaFl,
    "ctas": [
     {
      "label": "+1-727-594-7705",
@@ -11925,7 +11935,14 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
-   "image": images.img3SignsYouNeedAnExpertService,
+   "style": {
+    "bg": "beige",
+    "image": images.licensedDeadAnimalRemovalTampaFl,
+    "overlay": 0.7,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Dead Animal Removal"
   },
   "sections": [
@@ -12037,7 +12054,15 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -12152,8 +12177,16 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.img3SignsYouNeedAnExpertService,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "link": "white",
+     "divider": "black",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -12262,7 +12295,14 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -12357,8 +12397,16 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.callInTheCertifiedProfessionals,
-    "tone": "tint",
     "imageSide": "right",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -12371,7 +12419,11 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -12416,8 +12468,16 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.weOffer247AnimalRemovalServices,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "black",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
@@ -12473,7 +12533,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "divider": "white",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -12494,6 +12560,7 @@ export const fallbackServices: Service[] = [
   "animal": "bat",
   "order": 10,
   "summary": "Expert Bat Removal Backed by Florida Wildlife Law Compliance",
+  "design": "refresh",
   "hero": {
    "heading": "Expert Tampa Bay Bat Removal Backed by Florida Wildlife Law Compliance",
    "text": [
@@ -12510,12 +12577,19 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.ourBatRemovalTampaProsAreCertifiedAnimalTrappers,
+   "image": images.prowildliferemovalBannerImage,
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Bat Removal"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Tampa Bay Bat Removal Specialists",
     "body": [
      {
@@ -12543,6 +12617,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.ourBatRemovalTampaProsAreCertifiedAnimalTrappers,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -12550,7 +12625,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -12570,7 +12650,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -12655,7 +12740,13 @@ export const fallbackServices: Service[] = [
       "href": "/services/squirrel-removal/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -12765,7 +12856,13 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -12888,7 +12985,11 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s4"
    },
    {
@@ -12908,7 +13009,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -12990,7 +13096,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -13054,7 +13165,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -13439,7 +13555,14 @@ export const fallbackServices: Service[] = [
       "number": "05"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s8"
    },
    {
@@ -13599,7 +13722,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "white",
+     "align": "center"
+    },
     "_key": "s9"
    },
    {
@@ -13637,7 +13766,14 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -13809,7 +13945,14 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -13904,7 +14047,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s12"
    },
    {
@@ -14039,7 +14188,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s13"
    },
    {
@@ -14059,14 +14213,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s14"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s15"
    },
    {
@@ -14105,7 +14265,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s16"
    },
    {
@@ -14301,7 +14466,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s17"
    }
   ],
@@ -14317,6 +14486,7 @@ export const fallbackServices: Service[] = [
   "animal": "rat",
   "order": 11,
   "summary": "CLAIM YOUR FREE SNAKE REMOVAL QUOTE & SAME-DAY INSPECTION!",
+  "design": "refresh",
   "hero": {
    "heading": "Trusted & Licensed Rat Removal Services in the Tampa Bay Area",
    "text": [
@@ -14333,7 +14503,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.ratRemovalImage2,
+   "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
      "label": "(727) 594-7705",
@@ -14347,11 +14517,18 @@ export const fallbackServices: Service[] = [
     "Exclusion",
     "Cleanup"
    ],
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Rat Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Local Rat Control Experts of Tampa Bay",
     "body": [
      {
@@ -14381,6 +14558,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.ratRemovalImage2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -14388,7 +14566,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -14408,7 +14591,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -14504,7 +14692,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image11,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -14617,7 +14810,11 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -14779,7 +14976,11 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s4"
    },
    {
@@ -14817,7 +15018,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -14899,7 +15106,13 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -14981,7 +15194,13 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -15083,7 +15302,14 @@ export const fallbackServices: Service[] = [
       "number": "03"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s8"
    },
    {
@@ -15225,7 +15451,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s9"
    },
    {
@@ -15245,7 +15476,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -15417,7 +15654,13 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -15512,7 +15755,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s12"
    },
    {
@@ -15697,7 +15946,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s13"
    },
    {
@@ -15717,14 +15971,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s14"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s15"
    },
    {
@@ -15763,7 +16023,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s16"
    },
    {
@@ -15941,7 +16206,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s17"
    }
   ],
@@ -15957,6 +16226,7 @@ export const fallbackServices: Service[] = [
   "animal": "raccoon",
   "order": 12,
   "summary": "Proudly Serving Central Florida With Expert Raccoon Control and Remediation Trapping | Removal | Exclusion | Cleanup GET YOUR FREE RACCOON REMOVAL QUOTE & INSPECTION",
+  "design": "refresh",
   "hero": {
    "heading": "Trusted Licensed Raccoon Removal Services in the Tampa Bay Area",
    "text": [
@@ -15997,7 +16267,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.may142024RaccoonRemoval2,
+   "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
      "label": "(727) 594-7705",
@@ -16005,11 +16275,18 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Raccoon Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Local Raccoon Control Experts of Tampa Bay",
     "body": [
      {
@@ -16037,6 +16314,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.may142024RaccoonRemoval2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -16044,7 +16322,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -16064,7 +16347,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -16143,7 +16431,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image11,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -16239,7 +16532,11 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -16265,7 +16562,10 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.trinityRaccoonHandling,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue"
+    },
     "_key": "s4"
    },
    {
@@ -16392,7 +16692,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s5"
    },
    {
@@ -16412,7 +16716,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -16512,7 +16821,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -16612,7 +16926,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s8"
    },
    {
@@ -17011,7 +17330,14 @@ export const fallbackServices: Service[] = [
       "number": "05"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s9"
    },
    {
@@ -17153,7 +17479,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s10"
    },
    {
@@ -17173,7 +17504,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -17345,7 +17682,13 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s12"
    },
    {
@@ -17440,7 +17783,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s13"
    },
    {
@@ -17575,7 +17924,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s14"
    },
    {
@@ -17595,14 +17949,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s15"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s16"
    },
    {
@@ -17641,7 +18001,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s17"
    },
    {
@@ -17837,7 +18202,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s18"
    }
   ],
@@ -17853,6 +18222,7 @@ export const fallbackServices: Service[] = [
   "animal": "squirrel",
   "order": 13,
   "summary": "Expert Tampa Bay Squirrel Removal Backed\nby Florida Wildlife Law Compliance",
+  "design": "refresh",
   "hero": {
    "heading": "Licensed & Professional Squirrel Removal Services in Tampa",
    "text": [
@@ -17869,12 +18239,19 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.squirrelRemoval3,
+   "image": images.prowildliferemovalBannerImage,
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Squirrel Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Local Squirrel Removal Specialists",
     "body": [
      {
@@ -17902,6 +18279,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.squirrelRemoval3,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -17909,7 +18287,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -17929,7 +18312,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -17977,7 +18365,13 @@ export const fallbackServices: Service[] = [
       "href": "/services/rat-removal/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -18073,7 +18467,11 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -18226,7 +18624,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue"
+    },
     "_key": "s4"
    },
    {
@@ -18246,7 +18649,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -18328,7 +18736,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -18410,7 +18823,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -18781,7 +19199,14 @@ export const fallbackServices: Service[] = [
       "number": "05"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s8"
    },
    {
@@ -18906,7 +19331,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s9"
    },
    {
@@ -18939,7 +19369,14 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -19111,7 +19548,14 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -19206,7 +19650,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s12"
    },
    {
@@ -19341,7 +19791,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s13"
    },
    {
@@ -19361,14 +19816,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s14"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s15"
    },
    {
@@ -19407,7 +19868,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s16"
    },
    {
@@ -19603,7 +20069,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s17"
    }
   ],
@@ -19619,6 +20089,7 @@ export const fallbackServices: Service[] = [
   "animal": "snake",
   "order": 14,
   "summary": "CLAIM YOUR FREE SNAKE REMOVAL QUOTE & SAME-DAY INSPECTION!",
+  "design": "refresh",
   "hero": {
    "heading": "Trusted & Licensed Snake Removal Services in the Tampa Bay Area",
    "text": [
@@ -19635,7 +20106,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.easternDiamondbackRattlesnake,
+   "image": images.image12,
    "ctas": [
     {
      "label": "(727) 594-7705",
@@ -19649,11 +20120,19 @@ export const fallbackServices: Service[] = [
     "Exclusion",
     "Cleanup"
    ],
+   "style": {
+    "bg": "dark",
+    "image": images.image12,
+    "overlay": 0.79,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Snake Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Local Snake Removal Experts of Tampa Bay",
     "body": [
      {
@@ -19683,6 +20162,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.easternDiamondbackRattlesnake,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -19690,7 +20170,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -19710,7 +20195,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -19806,7 +20296,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image11,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -19826,7 +20321,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -19865,7 +20366,13 @@ export const fallbackServices: Service[] = [
       "href": "/services/bee-removal-tampa/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -19886,7 +20393,7 @@ export const fallbackServices: Service[] = [
      },
      {
       "title": "Cottonmouth (Water Moccasin)",
-      "image": images.image12
+      "image": images.image122
      },
      {
       "title": "Coral Snake",
@@ -19894,7 +20401,11 @@ export const fallbackServices: Service[] = [
       "href": "/services/squirrel-removal/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -19943,7 +20454,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image14,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "headingAbove": true
+    },
     "_key": "s6"
    },
    {
@@ -19956,7 +20472,11 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "navy",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -20083,7 +20603,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s8"
    },
    {
@@ -20103,7 +20627,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s9"
    },
    {
@@ -20167,7 +20696,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s10"
    },
    {
@@ -20231,7 +20765,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s11"
    },
    {
@@ -20333,7 +20872,14 @@ export const fallbackServices: Service[] = [
       "number": "03"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s12"
    },
    {
@@ -20473,7 +21019,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s13"
    },
    {
@@ -20493,7 +21044,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s14"
    },
    {
@@ -20665,7 +21222,13 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s15"
    },
    {
@@ -20760,7 +21323,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s16"
    },
    {
@@ -20920,7 +21489,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s17"
    },
    {
@@ -20940,14 +21514,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s18"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s19"
    },
    {
@@ -20986,7 +21566,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s20"
    },
    {
@@ -21148,7 +21733,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s21"
    }
   ],
@@ -21164,6 +21753,7 @@ export const fallbackServices: Service[] = [
   "animal": "opossum",
   "order": 15,
   "summary": "Proudly Serving Tampa Bay Homes & Businesses with Safe & Effective Opossum Control",
+  "design": "refresh",
   "hero": {
    "heading": "Licensed & Professional Opossum Removal Services in Tampa",
    "text": [
@@ -21180,12 +21770,19 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.needOpossumRemovalTampaServices,
+   "image": images.prowildliferemovalBannerImage,
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Opossum Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Get Rid of Opossums Quickly and Safely",
     "body": [
      {
@@ -21213,6 +21810,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.needOpossumRemovalTampaServices,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -21220,7 +21818,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -21252,7 +21855,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -21362,7 +21970,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "grey",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -21502,7 +22115,11 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s3"
    },
    {
@@ -21522,7 +22139,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -21618,7 +22240,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -21714,7 +22341,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -22066,7 +22698,14 @@ export const fallbackServices: Service[] = [
       "number": "05"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s7"
    },
    {
@@ -22191,7 +22830,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s8"
    },
    {
@@ -22211,7 +22855,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s9"
    },
    {
@@ -22383,7 +23033,13 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -22478,7 +23134,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -22613,7 +23275,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s12"
    },
    {
@@ -22633,14 +23300,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s13"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s14"
    },
    {
@@ -22679,7 +23352,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s15"
    },
    {
@@ -22875,7 +23553,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s16"
    }
   ],
@@ -22891,6 +23573,7 @@ export const fallbackServices: Service[] = [
   "animal": "armadillo",
   "order": 16,
   "summary": "CLAIM YOUR FREE ARMADILLO REMOVAL QUOTE & SAME-DAY INSPECTION!",
+  "design": "refresh",
   "hero": {
    "heading": "Trusted Licensed Armadillo Removal Services in the Tampa Bay Area",
    "text": [
@@ -22907,7 +23590,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.proWildlifeArmadillo2,
+   "image": images.image11,
    "ctas": [
     {
      "label": "(727) 594-7705",
@@ -22921,11 +23604,19 @@ export const fallbackServices: Service[] = [
     "Exclusion",
     "Cleanup"
    ],
+   "style": {
+    "bg": "dark",
+    "image": images.image11,
+    "overlay": 0.79,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Armadillo Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Local Armadillo Control Experts of Tampa Bay",
     "body": [
      {
@@ -22955,6 +23646,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.proWildlifeArmadillo2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -22962,7 +23654,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -22982,7 +23679,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -23078,7 +23780,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image11,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -23191,7 +23898,11 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -23336,7 +24047,11 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s4"
    },
    {
@@ -23356,7 +24071,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -23392,7 +24112,12 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -23442,7 +24167,12 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -23544,7 +24274,14 @@ export const fallbackServices: Service[] = [
       "number": "03"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s8"
    },
    {
@@ -23686,7 +24423,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s9"
    },
    {
@@ -23706,7 +24448,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -23880,7 +24628,13 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -23975,7 +24729,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s12"
    },
    {
@@ -24110,7 +24870,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s13"
    },
    {
@@ -24130,14 +24895,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s14"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s15"
    },
    {
@@ -24176,7 +24947,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s16"
    },
    {
@@ -24286,7 +25062,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s17"
    }
   ],
@@ -24302,6 +25082,7 @@ export const fallbackServices: Service[] = [
   "animal": "bee",
   "order": 17,
   "summary": "Fast, Safe, and Legal Bee Removal Solutions for Tampa Bay Homes & Businesses",
+  "design": "refresh",
   "hero": {
    "heading": "Licensed & Professional Bee Removal Services in Tampa",
    "text": [
@@ -24318,12 +25099,19 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.beeTrapping,
+   "image": images.prowildliferemovalBannerImage,
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Bee Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Tampa’s Most Trusted Bee Removal Specialists",
     "body": [
      {
@@ -24351,6 +25139,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.beeTrapping,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -24358,7 +25147,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -24378,7 +25172,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -24463,7 +25262,13 @@ export const fallbackServices: Service[] = [
       "href": "/services/squirrel-removal/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -24573,7 +25378,13 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -24695,13 +25506,17 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue"
+    },
     "_key": "s4"
    },
    {
     "_type": "proseSection",
     "heading": "Health & Property Risks of Bee Infestations in Tampa",
-    "tone": "tint",
     "body": [
      {
       "_type": "block",
@@ -24733,7 +25548,6 @@ export const fallbackServices: Service[] = [
    {
     "_type": "proseSection",
     "heading": "Property Risks",
-    "tone": "white",
     "body": [
      {
       "_type": "block",
@@ -25048,7 +25862,14 @@ export const fallbackServices: Service[] = [
       "number": "05"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s7"
    },
    {
@@ -25159,7 +25980,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s8"
    },
    {
@@ -25192,7 +26018,14 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s9"
    },
    {
@@ -25364,7 +26197,14 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s10"
    },
    {
@@ -25459,7 +26299,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -25594,20 +26440,31 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s12"
    },
    {
     "_type": "reviewsSection",
     "heading": "See What Our Clients Have to Say",
-    "tone": "tint",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s13"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s14"
    },
    {
@@ -25646,7 +26503,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s15"
    },
    {
@@ -25842,7 +26704,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s16"
    }
   ],
@@ -25858,9 +26724,18 @@ export const fallbackServices: Service[] = [
   "animal": "mole",
   "order": 18,
   "summary": "Trapping Extraction Exclusion Lawn Restoration CLAIM YOUR FREE MOLE REMOVAL QUOTE & INSPECTION!",
+  "design": "refresh",
   "hero": {
    "heading": "Trusted Licensed Mole Removal Services in the Tampa Bay Area",
-   "image": images.moleRemovalScaled1,
+   "image": images.image12,
+   "style": {
+    "bg": "dark",
+    "image": images.image12,
+    "overlay": 0.79,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Mole Removal Services"
   },
   "sections": [
@@ -25944,11 +26819,18 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "dark",
+     "image": images.image12,
+     "overlay": 0.79,
+     "heading": "white",
+     "text": "white",
+     "align": "center"
+    },
     "_key": "s0"
    },
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Your Local Mole Control Experts of Tampa Bay",
     "body": [
      {
@@ -25978,6 +26860,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.moleRemovalScaled1,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -25985,7 +26868,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate"
+    },
     "_key": "s1"
    },
    {
@@ -26005,7 +26893,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -26084,7 +26977,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image11,
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -26180,7 +27078,11 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.image2,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s4"
    },
    {
@@ -26307,7 +27209,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s5"
    },
    {
@@ -26327,7 +27234,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s6"
    },
    {
@@ -26389,7 +27301,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s7"
    },
    {
@@ -26467,7 +27384,12 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s8"
    },
    {
@@ -26569,7 +27491,14 @@ export const fallbackServices: Service[] = [
       "number": "03"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "light",
+     "heading": "blue",
+     "text": "slate",
+     "link": "blue",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s9"
    },
    {
@@ -26711,7 +27640,12 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s10"
    },
    {
@@ -26731,7 +27665,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s11"
    },
    {
@@ -26903,7 +27843,13 @@ export const fallbackServices: Service[] = [
       "image": images.moleRemoval644x6521
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s12"
    },
    {
@@ -27015,7 +27961,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s13"
    },
    {
@@ -27175,7 +28127,12 @@ export const fallbackServices: Service[] = [
       "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s14"
    },
    {
@@ -27195,14 +28152,20 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "ice"
+    },
     "_key": "s15"
    },
    {
     "_type": "contactSection",
     "heading": "Pro Wildlife Removal",
     "map": true,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "divider": "blue"
+    },
     "_key": "s16"
    },
    {
@@ -27243,7 +28206,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s17"
    },
    {
@@ -27353,7 +28321,11 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "blue",
+     "align": "center"
+    },
     "_key": "s18"
    }
   ],
@@ -27369,6 +28341,7 @@ export const fallbackServices: Service[] = [
   "animal": "bat",
   "order": 19,
   "summary": "There are 13 species of bats living in Florida, 5 of which are found in the Central Florida area.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Bat Removal Services in Tampa and Central FL",
    "text": [
@@ -27385,7 +28358,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.ourBatRemovalTampaProsAreCertifiedAnimalTrappers,
+   "image": images.expertBatRemovalTampaFlServicesAvailable247,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -27393,6 +28366,14 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.expertBatRemovalTampaFlServicesAvailable247,
+    "overlay": 0.42,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Bat Removal Services"
   },
   "sections": [
@@ -27502,9 +28483,13 @@ export const fallbackServices: Service[] = [
         "href": "tel:+1-727-594-7705"
        }
       ]
+     },
+     {
+      "_type": "altImage",
+      "image": images.youCanTrustTheLicensedWildlifeExpertsAtProWildli
      }
     ],
-    "image": images.youCanTrustTheLicensedWildlifeExpertsAtProWildli,
+    "image": images.ourBatRemovalTampaProsAreCertifiedAnimalTrappers,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -27512,8 +28497,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
     "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -27680,8 +28674,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -27774,8 +28777,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
     "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -27844,8 +28856,17 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.proWildlifeRemovalsProvenBatExclusionAndRemovalP,
-    "tone": "tint",
     "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -27937,7 +28958,14 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    }
   ],
@@ -27953,9 +28981,10 @@ export const fallbackServices: Service[] = [
   "animal": "rat",
   "order": 20,
   "summary": "Tampa’s warm climate and urban environment create the perfect conditions for rat infestations, making them a common issue for homes and businesses across the area.",
+  "design": "refresh",
   "hero": {
    "heading": "Tampa FL Rat Control: Your Local Rodent Control Experts",
-   "image": images.ratRemovalImage2,
+   "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
      "label": "(727) 594-7705",
@@ -27963,11 +28992,17 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "white",
+    "image": images.prowildliferemovalBannerImage,
+    "heading": "white",
+    "align": "center"
+   },
    "highlight": "Rat Control"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "eyebrow": "Expert Rat Control",
     "heading": "Keeping Tampa Homes & Businesses Rat-Free",
     "body": [
@@ -27984,6 +29019,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.ratRemovalImage2,
     "ctas": [
      {
       "label": "(727) 594-7705",
@@ -27991,7 +29027,12 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "right",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s0"
    },
    {
@@ -28103,7 +29144,12 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -28196,7 +29242,11 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.imageInfestation,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate"
+    },
     "_key": "s2"
    },
    {
@@ -28343,7 +29393,13 @@ export const fallbackServices: Service[] = [
       "href": "/blog/effective-rat-control-tips/"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "link": "white",
+     "align": "center"
+    },
     "_key": "s3"
    },
    {
@@ -28472,7 +29528,12 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.imageRatCage,
-    "tone": "white",
+    "style": {
+     "bg": "white",
+     "heading": "charcoal",
+     "text": "slate",
+     "link": "white"
+    },
     "_key": "s4"
    },
    {
@@ -28701,13 +29762,21 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "ice",
+     "heading": "charcoal",
+     "text": "slate",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s5"
    },
    {
     "_type": "reviewsSection",
     "heading": "See Why Tampa FL Chooses Pro Wildlife Removal",
-    "tone": "white",
+    "style": {
+     "bg": "white"
+    },
     "_key": "s6"
    },
    {
@@ -28742,6 +29811,7 @@ export const fallbackServices: Service[] = [
   "animal": "raccoon",
   "order": 21,
   "summary": "For over a decade, the residents of the Central Florida area have relied on just one company to take care of their raccoon removal needs: Pro Wildlife Removal.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Raccoon Control and Removal in Tampa, FL",
    "text": [
@@ -28782,7 +29852,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.proWildlifeRemovalsDedicatedProfessionals,
+   "image": images.img1RaccoonRemovalTampaServices,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -28790,11 +29860,19 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.img1RaccoonRemovalTampaServices,
+    "overlay": 0.42,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Raccoon Control"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Pro Wildlife Removal’s dedicated professionals",
     "body": [
      {
@@ -28876,6 +29954,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.proWildlifeRemovalsDedicatedProfessionals,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -28883,7 +29962,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -29020,8 +30109,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -29129,8 +30227,16 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.areYouATampaHomeownerLookOutForPropertyDamageCau,
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -29217,8 +30323,16 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.healthRisksRaccoonsCarry,
-    "tone": "tint",
     "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    }
   ],
@@ -29234,6 +30348,7 @@ export const fallbackServices: Service[] = [
   "animal": "squirrel",
   "order": 22,
   "summary": "The only Central Florida squirrel removal you can trust.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Squirrel Removal in Tampa, FL",
    "text": [
@@ -29250,7 +30365,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.proWildlifeRemovalIsAtYourService,
+   "image": images.topAuthorityInTampaSquirrelRemoval,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -29258,11 +30373,19 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.topAuthorityInTampaSquirrelRemoval,
+    "overlay": 0.42,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Squirrel Removal"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Pro Wildlife Removal Is At Your Service!",
     "body": [
      {
@@ -29296,7 +30419,15 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "image": images.proWildlifeRemovalIsAtYourService,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "frame": "white"
+    },
     "_key": "s0"
    },
    {
@@ -29403,8 +30534,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -29496,7 +30636,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "navy",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -29609,8 +30755,17 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.howCanProWildlifeRemovalHelpWithYourTampaSquirre,
-    "tone": "tint",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "navy",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -29750,7 +30905,13 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "align": "center"
+    },
     "_key": "s4"
    }
   ],
@@ -29766,6 +30927,7 @@ export const fallbackServices: Service[] = [
   "animal": "snake",
   "order": 23,
   "summary": "It can be a scary situation when running into a snake, especially if the encounter takes place at your home, where you don’t expect to find a snake.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Snake Removal in Tampa, FL",
    "text": [
@@ -29782,7 +30944,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.proWildlifeRemovalRanks1InTampaSnakeRemoval,
+   "image": images.snakeRemovalTampaFlLicensedAnimalTrapper,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -29790,6 +30952,14 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.snakeRemovalTampaFlLicensedAnimalTrapper,
+    "overlay": 0.42,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Snake Removal"
   },
   "sections": [
@@ -29886,9 +31056,13 @@ export const fallbackServices: Service[] = [
         "href": "/"
        }
       ]
+     },
+     {
+      "_type": "altImage",
+      "image": images.evenNonVenomousSnakesBitesCanBePainfulAndCauseWo
      }
     ],
-    "image": images.evenNonVenomousSnakesBitesCanBePainfulAndCauseWo,
+    "image": images.proWildlifeRemovalRanks1InTampaSnakeRemoval,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -29896,8 +31070,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
     "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -29981,8 +31164,17 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.snakeInYourHouseCallOurSnakeRemovalTampaExpertsR,
-    "tone": "tint",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -30040,8 +31232,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
     "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -30234,7 +31435,16 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -30254,7 +31464,16 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s4"
    },
    {
@@ -30487,8 +31706,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
     "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s5"
    }
   ],
@@ -30504,6 +31732,7 @@ export const fallbackServices: Service[] = [
   "animal": "opossum",
   "order": 24,
   "summary": "Pro Wildlife Removal is your top authority Opossum Removal services in the Central Florida area for both homes and businesses.",
+  "design": "classic",
   "hero": {
    "heading": "Professional Opossum Removal Services in Tampa, FL",
    "text": [
@@ -30520,7 +31749,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.needOpossumRemovalTampaServices,
+   "image": images.img1TrustedLeaderInOpossumRemovalInTampaFl,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -30528,11 +31757,19 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.img1TrustedLeaderInOpossumRemovalInTampaFl,
+    "overlay": 0.42,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Opossum Removal Services"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Need Opossum Removal in Central Florida?",
     "body": [
      {
@@ -30644,6 +31881,7 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
+    "image": images.needOpossumRemovalTampaServices,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -30651,7 +31889,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -30816,7 +32064,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "tint",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s1"
    },
    {
@@ -30928,8 +32182,16 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.whyTampaOpossumRemovalIsAJobForTrainedProfession,
-    "tone": "white",
     "imageSide": "left",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -30993,8 +32255,16 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.trustProWildlifeRemovalForEmergencyOpossumRemova,
-    "tone": "tint",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    }
   ],
@@ -31010,6 +32280,7 @@ export const fallbackServices: Service[] = [
   "animal": "armadillo",
   "order": 25,
   "summary": "For several years Pro Wildlife Removal has been the industry leader in wildlife removal in the Central Florida area.",
+  "design": "classic",
   "hero": {
    "heading": "#1 Armadillo Removal Central Florida",
    "text": [
@@ -31026,7 +32297,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.proWildlifeRemovalIsYourIndustryLeaderInArmadill,
+   "image": images.img1ArmadilloRemovalTampaServices,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -31034,11 +32305,19 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.img1ArmadilloRemovalTampaServices,
+    "overlay": 0.68,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Armadillo Removal"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Pro Wildlife Removal Is Your Central Florida Area Industry Leader in Armadillo Removal",
     "body": [
      {
@@ -31066,6 +32345,7 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
+    "image": images.proWildlifeRemovalIsYourIndustryLeaderInArmadill,
     "ctas": [
      {
       "label": "727-594-7705",
@@ -31073,7 +32353,16 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -31131,8 +32420,17 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.whatTypeOfDamageCanArmadillosCauseToYourTampaPro,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -31194,7 +32492,13 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "divider": "black",
+     "align": "center"
+    },
     "_key": "s2"
    },
    {
@@ -31306,8 +32610,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -31510,7 +32823,14 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "navy",
+     "heading": "white",
+     "text": "white",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    }
   ],
@@ -31526,6 +32846,7 @@ export const fallbackServices: Service[] = [
   "animal": "bee",
   "order": 26,
   "summary": "There are more than 300 species of bees in Florida!",
+  "design": "classic",
   "hero": {
    "heading": "Professional Bee Removal in Tampa, FL",
    "text": [
@@ -31542,7 +32863,7 @@ export const fallbackServices: Service[] = [
      "markDefs": []
     }
    ],
-   "image": images.beeRemovalTampaLocalsTrust,
+   "image": images.professionalBeeRemovalTampaFl,
    "ctas": [
     {
      "label": "727-594-7705",
@@ -31550,11 +32871,19 @@ export const fallbackServices: Service[] = [
      "style": "outline"
     }
    ],
+   "style": {
+    "bg": "beige",
+    "image": images.professionalBeeRemovalTampaFl,
+    "overlay": 0.42,
+    "heading": "white",
+    "text": "white",
+    "align": "center"
+   },
    "highlight": "Bee Removal"
   },
   "sections": [
    {
-    "_type": "proseSection",
+    "_type": "splitSection",
     "heading": "Bee Removal Central Florida Locals Trust!",
     "body": [
      {
@@ -31624,7 +32953,18 @@ export const fallbackServices: Service[] = [
       "markDefs": []
      }
     ],
-    "tone": "white",
+    "image": images.beeRemovalTampaLocalsTrust,
+    "imageSide": "left",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "frame": "white",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s0"
    },
    {
@@ -31682,8 +33022,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s1"
    },
    {
@@ -31939,8 +33288,17 @@ export const fallbackServices: Service[] = [
       "style": "outline"
      }
     ],
-    "tone": "white",
-    "imageSide": "right",
+    "imageSide": "left",
+    "style": {
+     "bg": "navy",
+     "heading": "beige",
+     "text": "beige",
+     "link": "orange",
+     "divider": "beige",
+     "frame": "beige",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s2"
    },
    {
@@ -31979,8 +33337,17 @@ export const fallbackServices: Service[] = [
      }
     ],
     "image": images.whatToDoWhenYouFindABeesNestAtYourHome,
-    "tone": "tint",
-    "imageSide": "left",
+    "imageSide": "right",
+    "style": {
+     "bg": "beige",
+     "heading": "black",
+     "text": "grey",
+     "link": "white",
+     "divider": "black",
+     "frame": "navy",
+     "align": "center",
+     "headingAbove": true
+    },
     "_key": "s3"
    },
    {
@@ -32074,7 +33441,14 @@ export const fallbackServices: Service[] = [
       ]
      }
     ],
-    "tone": "white",
+    "style": {
+     "bg": "blue",
+     "heading": "beige",
+     "text": "beige",
+     "link": "white",
+     "divider": "beige",
+     "align": "center"
+    },
     "_key": "s4"
    }
   ],
