@@ -11,7 +11,7 @@ export function SectionHeader({ eyebrow, heading, highlight, intro, align = "cen
   if (!eyebrow && !heading && !intro?.length) return null;
   const center = align === "center";
   return (
-    <div className={`mb-10 md:mb-12 ${center ? "mx-auto max-w-[860px] text-center" : "max-w-[860px]"}`} data-reveal>
+    <div className={`mb-10 md:mb-12 ${center ? "mx-auto max-w-[1100px] text-center" : "max-w-[860px]"}`} data-reveal>
       {eyebrow ? <p className="eyebrow mb-3">{eyebrow}</p> : null}
       {heading ? <Heading text={heading} highlight={highlight} className="text-h2 font-bold" /> : null}
       {intro?.length ? <RichText value={intro} className={`mt-4 ${center ? "mx-auto max-w-[680px] [&_ul]:text-left [&_ol]:text-left" : ""}`} /> : null}
