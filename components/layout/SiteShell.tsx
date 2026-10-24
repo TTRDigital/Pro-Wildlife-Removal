@@ -10,6 +10,7 @@ import { Footer } from "@/components/layout/Footer";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { ChatWidget } from "@/components/layout/ChatWidget";
 import { Analytics } from "@/components/layout/Analytics";
+import { ReviewBar } from "@/components/layout/ReviewBar";
 import { HydrationSignal } from "@/components/layout/HydrationSignal";
 import { AttributionCapture } from "@/components/forms/AttributionCapture";
 
@@ -63,6 +64,7 @@ export async function SiteShell({ children }: { children: ReactNode }) {
       <AttributionCapture />
       <HydrationSignal />
       <Analytics />
+      <ReviewBar />
       <script dangerouslySetInnerHTML={{ __html: revealScript }} />
     </>
   );

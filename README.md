@@ -44,6 +44,7 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 | `NEXT_PUBLIC_SITE_URL` | `https://prowildliferemoval.net` |
 | `GHL_WEBHOOK_URL` | the GoHighLevel inbound webhook for the form. Without it, leads are accepted but not sent. |
 | `NEXT_PUBLIC_GHL_CHAT_WIDGET_ID` | optional: GoHighLevel chat widget ID. Without it the chat stays hidden. |
+| `NEXT_PUBLIC_TTR_SITE_KEY` | TTR OS website tracker key (public; from TTR OS). Counts visits by source and form leads. Empty or `off` = not loaded. |
 | `NEXT_PUBLIC_GTM_ID` | optional: Google Tag Manager container (the old site used `GTM-K458279`) |
 
    The Sanity project ID and dataset are built in (`sanity/env.ts`); don't set them unless you change projects.
