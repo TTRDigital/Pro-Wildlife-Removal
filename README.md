@@ -32,7 +32,13 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 
 1. **Sanity project:** `5prlo93h`, dataset `production` (defaults in `sanity/env.ts`, no env var needed). Add CORS origins in sanity.io/manage > API > CORS origins: `https://prowildliferemoval.net`, `https://www.prowildliferemoval.net` and `http://localhost:3000`, each **with credentials allowed**.
 2. **Local env:** copy `.env.example` to `.env.local`.
-3. **Load the content into Sanity (once):** create an Editor token (sanity.io/manage > API > Tokens), put it in `.env.local` as `SANITY_WRITE_TOKEN`, then `npm install && npm run seed`. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 24 reviews and the FAQ library. Running it again only adds missing documents; `npm run seed -- --force` overwrites the CMS with the built-in content, `npm run seed -- --dry-run` checks everything without writing. Delete the token from `.env.local` (and revoke it) when done.
+3. **Load the content into Sanity (once, after the content PRs are merged):** all in the browser, nothing to install.
+   1. sanity.io/manage > 5prlo93h > API > Tokens > Add API token, permission **Editor**.
+   2. GitHub: Settings > Secrets and variables > Actions > New repository secret, name `SANITY_WRITE_TOKEN`.
+   3. Actions > "Load content into Sanity" > Run workflow: **dry-run** first (checks, writes nothing), then **add-missing**. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 24 reviews and the FAQ library. **overwrite** replaces the CMS with the built-in content. The log shows counts only.
+   4. **Right after:** delete the token in Sanity **and** delete the GitHub secret. Secrets live in Vercel or TTR OS; this one may only exist for the few minutes of the run.
+
+   Once Sanity has content, the site shows the CMS copy instead of `lib/data`, so changes to `lib/data` after the seed only show after an **overwrite** run (or an edit in /cms).
 4. **Run:** `npm run dev`, then open http://localhost:3000 and http://localhost:3000/cms.
 
 ## Hosting on Vercel

@@ -1,0 +1,60 @@
+# ONE-TIME: loads the site's built-in content and photos into Sanity (project
+# 5prlo93h / production), so /cms starts full. Run it from the browser:
+# Actions > "Load content into Sanity" > Run workflow. Nothing to install.
+#
+# Before: add an Editor token from sanity.io/manage > 5prlo93h > API > Tokens
+# as the repository secret SANITY_WRITE_TOKEN (Settings > Secrets and
+# variables > Actions). Run dry-run first, then add-missing.
+# RIGHT AFTER the run: delete the token in Sanity AND delete the GitHub
+# secret. TTR keeps secrets in Vercel or encrypted in TTR OS; this one may
+# only exist for the few minutes of the run.
+#
+# The log shows counts only (photos, documents per type), never content.
+name: Load content into Sanity
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run: check only, write nothing. add-missing: only create what is not in Sanity yet. overwrite: replace the CMS with the built-in content."
+        type: choice
+        options: [dry-run, add-missing, overwrite]
+        default: dry-run
+
+permissions:
+  contents: read
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Load content
+        env:
+          SANITY_WRITE_TOKEN: ${{ secrets.SANITY_WRITE_TOKEN }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          if [ -z "$SANITY_WRITE_TOKEN" ] && [ "$MODE" != "dry-run" ]; then
+            echo "::error::Add the SANITY_WRITE_TOKEN secret first (Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
+          case "$MODE" in
+            overwrite) npm run seed -- --force ;;
+            add-missing) npm run seed ;;
+            *) npm run seed -- --dry-run ;;
+          esac
+
+      - name: Reminder
+        if: always() && inputs.mode != 'dry-run'
+        run: echo "::warning::Now delete the Editor token in sanity.io/manage AND the SANITY_WRITE_TOKEN secret in GitHub."
