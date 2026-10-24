@@ -1,10 +1,12 @@
 import { MIN_FILL_MS, propertyOptions, serviceOptions } from "@/lib/lead-options";
+import { TTR_ORIGIN, TTR_SITE_KEY } from "@/lib/ttr";
 
 /*
  * Inspection form handler (Vercel function). Validates the lead like the
- * form does, filters spam and posts it as flat JSON to the GoHighLevel
- * inbound webhook in the GHL_WEBHOOK_URL environment variable. Without it,
- * leads are validated and accepted but not sent anywhere (logged as a warning).
+ * form does, filters spam, then sends it to TTR OS's form endpoint (the same
+ * fields its tracker script sends; the form is marked data-ttr-skip so the
+ * script doesn't send it a second time). The old GoHighLevel webhook is kept
+ * as an optional second destination: it only runs when GHL_WEBHOOK_URL is set.
  */
 
 export const dynamic = "force-dynamic";
@@ -84,15 +86,66 @@ export async function POST(request: Request) {
   if (trapFilled && tooFast) return reply(200, { ok: true });
   const spamCheck = trapFilled ? "suspect: hidden field filled" : tooFast ? `suspect: sent in ${elapsed} ms` : "ok";
 
+  const attribution: Record<string, string> = {};
+  for (const k of ["page_url", "landing_page", "referrer", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"]) {
+    attribution[k] = text(input[k], 1000);
+  }
+
+  const sends: Promise<boolean>[] = [];
+  if (TTR_SITE_KEY) sends.push(sendToTtr(lead, attribution, spamCheck));
   const webhook = (process.env.GHL_WEBHOOK_URL ?? "").trim();
-  if (!webhook) {
-    console.warn("[lead] GHL_WEBHOOK_URL is not set: lead accepted but NOT sent.");
+  if (webhook) sends.push(sendToGhl(webhook, lead, attribution, spamCheck));
+  if (!sends.length) {
+    console.warn("[lead] TTR OS is off and GHL_WEBHOOK_URL is not set: lead accepted but NOT sent.");
     return reply(200, { ok: true, delivered: false });
   }
+  if ((await Promise.all(sends)).some(Boolean)) return reply(200, { ok: true, delivered: true });
+
+  // Nothing saved the lead: tell the visitor so they can call instead.
+  return reply(502, { ok: false, error: "We could not send your request. Please call us instead." });
+}
+
+type Lead = { name: string; phone: string; email: string; zip: string; address: string; property: string; service: string; message: string };
+
+/** POST with one retry for rate limits, server errors and network failures. */
+async function deliver(label: string, url: string, init: RequestInit) {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    let status = 0;
+    try {
+      const res = await fetch(url, { ...init, method: "POST", signal: AbortSignal.timeout(8000) });
+      status = res.status;
+      if (res.ok) return true;
+      console.error(`[lead] ${label} answered ${status}: ${(await res.text()).slice(0, 300)}`);
+    } catch (e) {
+      console.error(`[lead] ${label} failed:`, e);
+    }
+    if (status !== 0 && status !== 429 && status < 500) break;
+    await new Promise((r) => setTimeout(r, 600));
+  }
+  return false;
+}
+
+/** TTR OS form endpoint: form-encoded k (site key), p (page path), r (first referrer), u (landing URL) and f_* fields, like its tracker script. */
+function sendToTtr(lead: Lead, attribution: Record<string, string>, spamCheck: string) {
+  let path = "/";
+  try {
+    path = new URL(attribution.page_url).pathname;
+  } catch {
+    /* no page URL: the home page */
+  }
+  const body = new URLSearchParams({ k: TTR_SITE_KEY, p: path, r: attribution.referrer, u: attribution.landing_page || attribution.page_url });
+  for (const [k, v] of Object.entries(lead)) if (v) body.set(`f_${k}`, v);
+  for (const k of ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"]) if (attribution[k]) body.set(`f_${k}`, attribution[k]);
+  if (spamCheck !== "ok") body.set("f_spam_check", spamCheck);
+  return deliver("TTR OS", `${TTR_ORIGIN}/api/site/form`, { body });
+}
+
+/** GoHighLevel inbound webhook (flat JSON). Only used when GHL_WEBHOOK_URL is set. */
+function sendToGhl(webhook: string, lead: Lead, attribution: Record<string, string>, spamCheck: string) {
   // https only; plain http is allowed for localhost so the form can be tested against a local webhook.
   if (!/^https:\/\//.test(webhook) && !/^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?\//.test(webhook)) {
-    console.error("[lead] GHL_WEBHOOK_URL is not https: lead accepted but NOT sent.");
-    return reply(200, { ok: true, delivered: false });
+    console.error("[lead] GHL_WEBHOOK_URL is not https: not sent to GoHighLevel.");
+    return Promise.resolve(false);
   }
 
   // E.164 for US numbers.
@@ -102,7 +155,7 @@ export async function POST(request: Request) {
   const slug = lead.service.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const tags = ["website-lead", `service-${slug}`, ...(spamCheck !== "ok" ? ["suspected-spam"] : [])];
 
-  const payload: Record<string, unknown> = {
+  const payload = {
     source: "Website form",
     submitted_at: new Date().toISOString(),
     name: lead.name,
@@ -119,31 +172,10 @@ export async function POST(request: Request) {
     message: lead.message,
     tags,
     spam_check: spamCheck,
+    ...attribution,
   };
-  for (const k of ["page_url", "landing_page", "referrer", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"]) {
-    payload[k] = text(input[k], 1000);
-  }
-
-  // One retry for rate limits, server errors and network failures.
-  for (let attempt = 0; attempt < 2; attempt++) {
-    let status = 0;
-    try {
-      const res = await fetch(webhook, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify(payload),
-        signal: AbortSignal.timeout(8000),
-      });
-      status = res.status;
-      if (res.ok) return reply(200, { ok: true, delivered: true });
-      console.error(`[lead] GoHighLevel webhook answered ${status}: ${(await res.text()).slice(0, 300)}`);
-    } catch (e) {
-      console.error("[lead] GoHighLevel webhook failed:", e);
-    }
-    if (status !== 0 && status !== 429 && status < 500) break;
-    await new Promise((r) => setTimeout(r, 600));
-  }
-
-  // Nothing saved the lead: tell the visitor so they can call instead.
-  return reply(502, { ok: false, error: "We could not send your request. Please call us instead." });
+  return deliver("GoHighLevel webhook", webhook, {
+    headers: { "Content-Type": "application/json", Accept: "application/json" },
+    body: JSON.stringify(payload),
+  });
 }
