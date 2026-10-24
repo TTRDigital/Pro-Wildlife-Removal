@@ -10,7 +10,8 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
 
-export const dynamicParams = false;
+// Posts not in the build (a new draft opened from a TTR OS preview link) render on request; unknown slugs still 404.
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   return (await getPosts()).map((p) => ({ slug: p.slug }));

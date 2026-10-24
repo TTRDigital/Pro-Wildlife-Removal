@@ -1,12 +1,17 @@
 import Script from "next/script";
+import { TTR_ORIGIN, TTR_SITE_KEY } from "@/lib/ttr";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
 
-/** Google Analytics 4 and/or Tag Manager. Nothing loads when the env vars are empty. */
-export function Analytics() {
+/**
+ * Google Analytics 4 and/or Tag Manager (nothing loads when the env vars are empty), plus the TTR OS tracker
+ * (visits by source and form leads; no personal data). The tracker stays off in draft preview so previews don't count as visits.
+ */
+export function Analytics({ preview = false }: { preview?: boolean }) {
   return (
     <>
+      {TTR_SITE_KEY && !preview ? <script async src={`${TTR_ORIGIN}/api/site/script`} data-site={TTR_SITE_KEY} /> : null}
       {GTM_ID ? (
         <Script id="gtm" strategy="lazyOnload">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');`}

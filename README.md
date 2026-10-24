@@ -9,7 +9,8 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
   - Each page's design is the "Design" field in /cms; each section's colours and background photo (as on the live page) are under its "Look". Tokens are in `app/globals.css`.
 - **SEO:** same URLs, titles, meta descriptions and canonicals as the live site; every page is prerendered HTML (tabs and FAQ answers included). Each section has an anchor id from its heading (e.g. `/services/rat-control/#tampa-bays-growing-rat-problem`), listed in the page's WebPage schema; plus LocalBusiness (PestControl), Service, BlogPosting, FAQPage and BreadcrumbList schema, `sitemap.xml` and `robots.txt`. Lighthouse SEO: 100 on every page.
 - **Content:** the live site's own text, photos, FAQs and reviews, at the **same URLs** (every page and post in the old `page-sitemap.xml` and `post-sitemap.xml`). Everything is editable in `/cms`; until Sanity has content (or when a field is empty), the site shows the built-in content from `lib/data`, so it never breaks.
-- **Leads:** the inspection form posts to `/api/lead/` (`app/api/lead/route.ts`, a Vercel function), which validates it, filters spam and forwards it to the GoHighLevel inbound webhook in `GHL_WEBHOOK_URL`.
+- **Leads:** the inspection form posts to `/api/lead/` (`app/api/lead/route.ts`, a Vercel function), which validates it, filters spam and sends it to TTR OS (`/api/site/form` on ttr-portal.vercel.app, with the site key in `lib/ttr.ts`). The old GoHighLevel webhook only runs if `GHL_WEBHOOK_URL` is set.
+- **TTR OS:** the tracker (`components/layout/Analytics.tsx`) counts visits by source on every page; the "Suggest a change" bar loads on Vercel previews only; `/api/preview` opens signed draft-preview links from TTR OS.
 
 ## Pages
 
@@ -42,8 +43,11 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 | Variable | Value |
 |---|---|
 | `NEXT_PUBLIC_SITE_URL` | `https://prowildliferemoval.net` |
-| `GHL_WEBHOOK_URL` | the GoHighLevel inbound webhook for the form. Without it, leads are accepted but not sent. |
+| `PREVIEW_SECRET` | shared secret for TTR OS draft-preview links (same value in TTR OS's SEO setup). Without it, previews are refused. |
+| `SANITY_READ_TOKEN` | Sanity Viewer token, used only by draft previews to read unpublished drafts. |
+| `GHL_WEBHOOK_URL` | optional, off: the old GoHighLevel webhook. Leads go to TTR OS without it. |
 | `NEXT_PUBLIC_GHL_CHAT_WIDGET_ID` | optional: GoHighLevel chat widget ID. Without it the chat stays hidden. |
+| `NEXT_PUBLIC_TTR_SITE_KEY` | optional: overrides the built-in TTR OS site key (public). `off` turns the tracker and lead sending off. |
 | `NEXT_PUBLIC_GTM_ID` | optional: Google Tag Manager container (the old site used `GTM-K458279`) |
 
    The Sanity project ID and dataset are built in (`sanity/env.ts`); don't set them unless you change projects.
