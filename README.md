@@ -9,7 +9,8 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
   - Each page's design is the "Design" field in /cms; each section's colours and background photo (as on the live page) are under its "Look". Tokens are in `app/globals.css`.
 - **SEO:** same URLs, titles, meta descriptions and canonicals as the live site; every page is prerendered HTML (tabs and FAQ answers included). Each section has an anchor id from its heading (e.g. `/services/rat-control/#tampa-bays-growing-rat-problem`), listed in the page's WebPage schema; plus LocalBusiness (PestControl), Service, BlogPosting, FAQPage and BreadcrumbList schema, `sitemap.xml` and `robots.txt`. Lighthouse SEO: 100 on every page.
 - **Content:** the live site's own text, photos, FAQs and reviews, at the **same URLs** (every page and post in the old `page-sitemap.xml` and `post-sitemap.xml`). Everything is editable in `/cms`; until Sanity has content (or when a field is empty), the site shows the built-in content from `lib/data`, so it never breaks.
-- **Leads:** the inspection form posts to `/api/lead/` (`app/api/lead/route.ts`, a Vercel function), which validates it, filters spam and forwards it to the GoHighLevel inbound webhook in `GHL_WEBHOOK_URL`.
+- **Leads:** the inspection form posts to `/api/lead/` (`app/api/lead/route.ts`, a Vercel function), which validates it, filters spam and sends it to TTR OS (`/api/site/form` on ttr-portal.vercel.app, with the site key in `lib/ttr.ts`). The old GoHighLevel webhook only runs if `GHL_WEBHOOK_URL` is set.
+- **TTR OS:** the tracker (`components/layout/Analytics.tsx`) counts visits by source on every page; the "Suggest a change" bar loads on Vercel previews only; `/api/preview` opens signed draft-preview links from TTR OS.
 
 ## Pages
 
@@ -31,7 +32,13 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 
 1. **Sanity project:** `5prlo93h`, dataset `production` (defaults in `sanity/env.ts`, no env var needed). Add CORS origins in sanity.io/manage > API > CORS origins: `https://prowildliferemoval.net`, `https://www.prowildliferemoval.net` and `http://localhost:3000`, each **with credentials allowed**.
 2. **Local env:** copy `.env.example` to `.env.local`.
-3. **Load the content into Sanity (once):** create an Editor token (sanity.io/manage > API > Tokens), put it in `.env.local` as `SANITY_WRITE_TOKEN`, then `npm install && npm run seed`. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 24 reviews and the FAQ library. Running it again only adds missing documents; `npm run seed -- --force` overwrites the CMS with the built-in content, `npm run seed -- --dry-run` checks everything without writing. Delete the token from `.env.local` (and revoke it) when done.
+3. **Load the content into Sanity (once, after the content PRs are merged):** all in the browser, nothing to install.
+   1. sanity.io/manage > 5prlo93h > API > Tokens > Add API token, permission **Editor**.
+   2. GitHub: Settings > Secrets and variables > Actions > New repository secret, name `SANITY_WRITE_TOKEN`.
+   3. Actions > "Load content into Sanity" > Run workflow: **dry-run** first (checks, writes nothing), then **add-missing**. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 24 reviews and the FAQ library. **overwrite** replaces the CMS with the built-in content. The log shows counts only.
+   4. **Right after:** delete the token in Sanity **and** delete the GitHub secret. Secrets live in Vercel or TTR OS; this one may only exist for the few minutes of the run.
+
+   Once Sanity has content, the site shows the CMS copy instead of `lib/data`, so changes to `lib/data` after the seed only show after an **overwrite** run (or an edit in /cms).
 4. **Run:** `npm run dev`, then open http://localhost:3000 and http://localhost:3000/cms.
 
 ## Hosting on Vercel
@@ -42,8 +49,11 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 | Variable | Value |
 |---|---|
 | `NEXT_PUBLIC_SITE_URL` | `https://prowildliferemoval.net` |
-| `GHL_WEBHOOK_URL` | the GoHighLevel inbound webhook for the form. Without it, leads are accepted but not sent. |
+| `PREVIEW_SECRET` | shared secret for TTR OS draft-preview links (same value in TTR OS's SEO setup). Without it, previews are refused. |
+| `SANITY_READ_TOKEN` | Sanity Viewer token, used only by draft previews to read unpublished drafts. |
+| `GHL_WEBHOOK_URL` | optional, off: the old GoHighLevel webhook. Leads go to TTR OS without it. |
 | `NEXT_PUBLIC_GHL_CHAT_WIDGET_ID` | optional: GoHighLevel chat widget ID. Without it the chat stays hidden. |
+| `NEXT_PUBLIC_TTR_SITE_KEY` | optional: overrides the built-in TTR OS site key (public). `off` turns the tracker and lead sending off. |
 | `NEXT_PUBLIC_GTM_ID` | optional: Google Tag Manager container (the old site used `GTM-K458279`) |
 
    The Sanity project ID and dataset are built in (`sanity/env.ts`); don't set them unless you change projects.

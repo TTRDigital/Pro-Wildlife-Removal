@@ -37,17 +37,21 @@ const oldUrls: [string, string][] = [
   ["/page-sitemap.xml", "/sitemap.xml"],
   ["/post-sitemap.xml", "/sitemap.xml"],
   ["/sitemap_index.xml", "/sitemap.xml"],
+  ["/index.php", "/"],
+  ["/category/:path*", "/blog/"],
+  ["/tag/:path*", "/blog/"],
+  ["/author/:path*", "/blog/"],
 ];
 
 // Third parties: Google Tag Manager / Analytics / Ads, Microsoft Clarity, Sanity images,
-// Google Maps, the GoHighLevel (LeadConnector) chat widget. Add domains here for new GTM tags.
+// Google Maps, the GoHighLevel (LeadConnector) chat widget, the TTR OS tracker and review bar (ttr-portal.vercel.app). Add domains here for new GTM tags.
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://*.google.com https://www.gstatic.com https://googleads.g.doubleclick.net https://*.clarity.ms https://*.leadconnectorhq.com https://*.msgsndr.com https://challenges.cloudflare.com https://va.vercel-scripts.com",
+  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://*.google.com https://www.gstatic.com https://googleads.g.doubleclick.net https://*.clarity.ms https://*.leadconnectorhq.com https://*.msgsndr.com https://challenges.cloudflare.com https://va.vercel-scripts.com https://ttr-portal.vercel.app",
   "style-src 'self' 'unsafe-inline' https://*.leadconnectorhq.com https://*.msgsndr.com https://fonts.googleapis.com https://fonts.bunny.net",
   "img-src 'self' data: blob: https:",
   "font-src 'self' data: https://*.leadconnectorhq.com https://*.msgsndr.com https://fonts.gstatic.com https://fonts.bunny.net",
-  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.google.com https://*.doubleclick.net https://*.clarity.ms https://*.leadconnectorhq.com https://*.msgsndr.com wss://*.leadconnectorhq.com https://*.googleapis.com https://challenges.cloudflare.com",
+  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.google.com https://*.doubleclick.net https://*.clarity.ms https://*.leadconnectorhq.com https://*.msgsndr.com wss://*.leadconnectorhq.com https://*.googleapis.com https://challenges.cloudflare.com https://ttr-portal.vercel.app",
   "frame-src 'self' https://www.googletagmanager.com https://www.google.com https://maps.google.com https://td.doubleclick.net https://*.leadconnectorhq.com https://*.msgsndr.com https://challenges.cloudflare.com",
   "media-src 'self' blob: https:",
   "worker-src 'self' blob:",

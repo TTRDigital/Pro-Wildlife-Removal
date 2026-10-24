@@ -19,6 +19,9 @@ function to24h(t: string) {
 }
 
 /** PestControl (a LocalBusiness) for the whole site. */
+/** Counties are administrative areas, cities are cities, and regions like "Central Florida" are plain places. */
+const areaType = (l: Location) => (l.kind === "county" ? "AdministrativeArea" : l.kind === "region" ? "Place" : "City");
+
 export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = [], locations: Location[] = []) {
   const hours = s.hours
     .map((h) => {
@@ -41,7 +44,7 @@ export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = []
     priceRange: "$$",
     address: { "@type": "PostalAddress", streetAddress: s.address.street, addressLocality: s.address.city, addressRegion: s.address.region, postalCode: s.address.postalCode, addressCountry: "US" },
     openingHoursSpecification: hours,
-    areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": l.kind === "county" ? "AdministrativeArea" : "City", name: `${l.name}, FL` })),
+    areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": areaType(l), name: `${l.name}, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
     ...(s.googleRating && s.reviewCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: s.googleRating, reviewCount: s.reviewCount, bestRating: "5" } } : {}),
@@ -76,7 +79,7 @@ export function locationSchema(location: Location, path: string) {
     description: location.seo.description,
     url: absoluteUrl(path),
     provider: { "@id": `${siteUrl}/#business` },
-    areaServed: { "@type": location.kind === "county" ? "AdministrativeArea" : "City", name: `${location.name}, FL` },
+    areaServed: { "@type": areaType(location), name: `${location.name}, FL` },
   };
 }
 

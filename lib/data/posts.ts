@@ -12105,7 +12105,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/onehealth/basics/zoonotic-diseases.html"
+      "href": "https://www.cdc.gov/one-health/about/about-zoonotic-diseases.html"
      }
     ],
     "listItem": "bullet",
@@ -12869,12 +12869,12 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/onehealth/basics/zoonotic-diseases.html"
+      "href": "https://www.cdc.gov/one-health/about/about-zoonotic-diseases.html"
      },
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.humanesociety.org/resources/what-do-about-raccoon"
+      "href": "https://www.humaneworld.org/en/resources/what-do-about-raccoons"
      },
      {
       "_type": "link",
@@ -16518,7 +16518,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/cleaning/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html"
      }
     ],
     "listItem": "bullet",
@@ -16933,7 +16933,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      },
      {
       "_type": "link",
@@ -17130,12 +17130,12 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.epa.gov/radon/rodent-control-and-wildlife"
+      "href": "https://www.epa.gov/rodenticides/identify-and-prevent-rodent-infestations"
      },
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ]
    },
@@ -19053,7 +19053,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ]
    },
@@ -19696,7 +19696,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.cdc.gov/rodents/cleaning/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html"
      }
     ]
    },
@@ -20069,12 +20069,12 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      },
      {
       "_type": "link",
       "_key": "l2",
-      "href": "https://www.epa.gov/radon/rodent-control-and-wildlife"
+      "href": "https://www.epa.gov/rodenticides/identify-and-prevent-rodent-infestations"
      }
     ]
    }
@@ -20185,7 +20185,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ]
    },
@@ -21108,12 +21108,12 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      },
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://ento.psu.edu/extension/factsheets/rodent-exclusion"
+      "href": "https://extension.psu.edu/is-there-a-mouse-in-the-house-eliminate-mice-with-ipm"
      },
      {
       "_type": "link",
@@ -23469,7 +23469,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/fleas/index.html"
+      "href": "https://www.cdc.gov/fleas/about/index.html"
      }
     ],
     "listItem": "bullet",
@@ -24168,7 +24168,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/fleas/index.html"
+      "href": "https://www.cdc.gov/fleas/about/index.html"
      }
     ]
    },
@@ -24349,7 +24349,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/fleas/index.html"
+      "href": "https://www.cdc.gov/fleas/about/index.html"
      },
      {
       "_type": "link",
@@ -25521,7 +25521,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/fungal/diseases/histoplasmosis/index.html"
+      "href": "https://www.cdc.gov/histoplasmosis/about/index.html"
      },
      {
       "_type": "link",
@@ -26340,7 +26340,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rabies/bats/index.html"
+      "href": "https://www.cdc.gov/rabies/prevention/bats.html"
      }
     ]
    },
@@ -26556,12 +26556,12 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://myfwc.com/wildlifehabitats/profiles/mammals/bats/"
+      "href": "https://myfwc.com/conservation/you-conserve/wildlife/bats/"
      },
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.fws.gov/species/bat"
+      "href": "https://www.fws.gov/species/florida-bonneted-bat-eumops-floridanus"
      }
     ]
    },
@@ -27043,7 +27043,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rabies/prevention/animals/bats.html"
+      "href": "https://www.cdc.gov/rabies/prevention/bats.html"
      }
     ],
     "listItem": "bullet",
@@ -27349,7 +27349,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://myfwc.com/wildlifehabitats/profiles/mammals/bats/"
+      "href": "https://myfwc.com/conservation/you-conserve/wildlife/bats/"
      }
     ]
    },
@@ -27496,7 +27496,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.nfpa.org/Public-Education/Fire-causes-and-risks/Top-fire-causes/Electrical-failure"
+      "href": "https://www.nfpa.org/education-and-research/home-fire-safety/electrical-safety-in-the-home"
      }
     ]
    },
@@ -27599,7 +27599,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ],
     "listItem": "bullet",
@@ -28643,7 +28643,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ]
    },
@@ -29552,7 +29552,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.nationalgeographic.com/animals/mammals/facts/flying-squirrel"
+      "href": "https://www.nationalgeographic.com/animals/mammals/facts/flying-squirrels"
      }
     ]
    },
@@ -32158,12 +32158,12 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/parasites/baylisascaris/"
+      "href": "https://www.cdc.gov/baylisascaris/about/index.html"
      },
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.cdc.gov/hantavirus/"
+      "href": "https://www.cdc.gov/hantavirus/about/index.html"
      }
     ]
    },
@@ -32624,7 +32624,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      },
      {
       "_type": "link",
@@ -33445,7 +33445,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.audubon.org/news/poisons-used-kill-rodents-have-safer-alternatives"
+      "href": "https://www.audubon.org/magazine/poisons-used-kill-rodents-have-safer-alternatives"
      },
      {
       "_type": "link",
@@ -34891,7 +34891,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      },
      {
       "_type": "link",
@@ -36123,7 +36123,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ],
     "listItem": "bullet",
@@ -37308,7 +37308,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      },
      {
       "_type": "link",
@@ -37357,7 +37357,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.audubon.org/news/poisons-used-kill-rodents-have-safer-alternatives"
+      "href": "https://www.audubon.org/magazine/poisons-used-kill-rodents-have-safer-alternatives"
      },
      {
       "_type": "link",
@@ -38520,7 +38520,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/index.html"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ],
     "listItem": "bullet",
@@ -38675,7 +38675,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.osha.gov/biological-hazards"
+      "href": "https://www.osha.gov/hantavirus/prevention"
      }
     ]
    },
@@ -39393,12 +39393,12 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/hantavirus/"
+      "href": "https://www.cdc.gov/hantavirus/about/index.html"
      },
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.cdc.gov/parasites/baylisascaris/"
+      "href": "https://www.cdc.gov/baylisascaris/about/index.html"
      }
     ]
    },
@@ -39584,7 +39584,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.orkin.com/rodents/rat-pictures"
+      "href": "https://www.orkin.com/pests/rodents/rats/what-does-a-rat-look-like"
      }
     ]
    },
@@ -40283,7 +40283,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/fungal/diseases/histoplasmosis/index.html"
+      "href": "https://www.cdc.gov/histoplasmosis/about/index.html"
      }
     ]
    },
@@ -40900,7 +40900,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/fungal/diseases/histoplasmosis/"
+      "href": "https://www.cdc.gov/histoplasmosis/about/index.html"
      }
     ]
    },
@@ -41384,7 +41384,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "https://www.cdc.gov/rodents/diseases/"
+      "href": "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
      }
     ]
    },

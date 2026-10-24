@@ -189,7 +189,7 @@ export function LeadForm({
   );
 
   return (
-    <form ref={formRef} onSubmit={onSubmit} noValidate aria-describedby={`${uid}-summary`}>
+    <form ref={formRef} onSubmit={onSubmit} noValidate data-ttr-skip aria-describedby={`${uid}-summary`}>
       <p id={`${uid}-summary`} role="alert" aria-live="assertive" className={summary ? `mb-5 text-sm font-semibold ${tone.error}` : "sr-only"}>
         {summary}
       </p>

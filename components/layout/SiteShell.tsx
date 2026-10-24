@@ -10,6 +10,9 @@ import { Footer } from "@/components/layout/Footer";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { ChatWidget } from "@/components/layout/ChatWidget";
 import { Analytics } from "@/components/layout/Analytics";
+import { ReviewBar } from "@/components/layout/ReviewBar";
+import { PreviewBanner } from "@/components/layout/PreviewBanner";
+import { isPreview } from "@/lib/sanity/fetch";
 import { HydrationSignal } from "@/components/layout/HydrationSignal";
 import { AttributionCapture } from "@/components/forms/AttributionCapture";
 
@@ -47,6 +50,7 @@ function buildNav(services: Service[], locations: Location[]): NavItem[] {
 /** Header, footer and site-wide behaviors. Used by the site layout and the 404 page. */
 export async function SiteShell({ children }: { children: ReactNode }) {
   const [settings, services, testimonials, locations] = await Promise.all([getSiteSettings(), getServices(), getTestimonials(), getLocations()]);
+  const preview = await isPreview();
   return (
     <>
       <JsonLd data={businessSchema(settings, testimonials, locations)} />
@@ -62,7 +66,9 @@ export async function SiteShell({ children }: { children: ReactNode }) {
       <ChatWidget />
       <AttributionCapture />
       <HydrationSignal />
-      <Analytics />
+      <Analytics preview={preview} />
+      {preview ? <PreviewBanner /> : null}
+      <ReviewBar />
       <script dangerouslySetInnerHTML={{ __html: revealScript }} />
     </>
   );
