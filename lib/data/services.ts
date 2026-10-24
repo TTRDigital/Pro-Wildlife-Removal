@@ -15013,7 +15013,7 @@ export const fallbackServices: Service[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "https://www.floridahealth.gov/environmental-health/rodents/index.html"
+        "href": "https://www.floridahealth.gov/diseases-and-conditions/?category=rodents"
        }
       ]
      }
@@ -30041,7 +30041,7 @@ export const fallbackServices: Service[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "http://www.southfloridawildlifecenter.org/a-second-chance-for-orphaned-baby-raccoons"
+        "href": "https://www.southfloridawildlifecenter.org/found-an-animal/"
        }
       ]
      },

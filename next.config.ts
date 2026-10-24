@@ -37,6 +37,10 @@ const oldUrls: [string, string][] = [
   ["/page-sitemap.xml", "/sitemap.xml"],
   ["/post-sitemap.xml", "/sitemap.xml"],
   ["/sitemap_index.xml", "/sitemap.xml"],
+  ["/index.php", "/"],
+  ["/category/:path*", "/blog/"],
+  ["/tag/:path*", "/blog/"],
+  ["/author/:path*", "/blog/"],
 ];
 
 // Third parties: Google Tag Manager / Analytics / Ads, Microsoft Clarity, Sanity images,
