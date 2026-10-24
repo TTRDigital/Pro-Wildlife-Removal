@@ -76,7 +76,8 @@ export function Header({ nav, phone, phoneHref, logo, social, countyLines }: { n
       </div>
 
       {/* Menu bar */}
-      <div className="relative bg-old-blue shadow-[0_0_10px_rgb(0_0_0/0.5)]">
+      {/* Darker than the brand blue so white menu text passes contrast (5.4:1; beige on #519dce was 2.4:1). */}
+      <div className="relative bg-[#2f6f9f] shadow-[0_0_10px_rgb(0_0_0/0.5)]">
         <div className="relative mx-auto flex h-[75px] w-full max-w-[1240px] px-5 items-center justify-between md:h-[74px]">
           <Link href="/" className="relative z-10 block shrink-0 md:absolute md:-top-7 md:left-5" aria-label="Pro Wildlife Removal, home">
             <Image src={logo.src} alt="Pro Wildlife Removal logo" width={logo.width ?? 480} height={logo.height ?? 442} priority className="h-[70px] w-auto md:h-[150px]" sizes="(min-width: 768px) 163px, 76px" />
@@ -88,7 +89,7 @@ export function Header({ nav, phone, phoneHref, logo, social, countyLines }: { n
                 <li key={item.label} className="group relative">
                   <Link
                     href={item.href}
-                    className={`flex h-[74px] items-center gap-1.5 px-[15px] text-beige transition-colors hover:text-white ${active(item.label) ? "bg-old-navy text-white" : ""}`}
+                    className={`flex h-[74px] items-center gap-1.5 px-[15px] text-white transition-colors hover:text-beige ${active(item.label) ? "bg-old-navy text-white" : ""}`}
                     aria-current={pathname === item.href ? "page" : undefined}
                   >
                     {item.label}

@@ -667,7 +667,7 @@ html[data-reveal-ready] [data-reveal]:not([data-in]) {
     --t: #ebe7e4;
     --h: #ff6600;
     --l: #ff6600;
-    --lu: none;
+    --lu: underline;
   }
   .o-post h2,
   .o-post h3,

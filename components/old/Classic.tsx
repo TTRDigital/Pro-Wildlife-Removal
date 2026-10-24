@@ -416,9 +416,17 @@ function CtaBand({ s, id, bg, join, settings }: { s: CtaSection; id: string; bg:
           <Head heading={s.heading} style={style} />
           <RichText value={s.text} base="o-rich" />
         </div>
-        <div className="flex justify-center md:pt-2">
-          <PhoneButton cta={tel} />
-        </div>
+        {s.showForm ? (
+          <div id="estimate" className="bg-white p-6 text-body sm:p-8">
+            <h3 className="mb-1 font-old text-2xl font-semibold uppercase text-old-navy">Request a Free Inspection</h3>
+            <p className="mb-6 text-[0.95rem]">Tell us what you are seeing or hearing and we will get back to you.</p>
+            <LeadForm phone={settings.phone} phoneHref={settings.phoneHref} businessName={settings.name} compact />
+          </div>
+        ) : (
+          <div className="flex justify-center md:pt-2">
+            <PhoneButton cta={tel} />
+          </div>
+        )}
       </div>
     </Band>
   );

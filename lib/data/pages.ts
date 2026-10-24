@@ -82,6 +82,27 @@ export const fallbackPages = {
     "_key": "s0"
    },
    {
+    "_type": "ctaSection",
+    "_key": "homeForm",
+    "heading": "Get a Free Inspection",
+    "text": [
+     {
+      "_type": "block",
+      "_key": "homeFormText",
+      "style": "normal",
+      "children": [
+       {
+        "_type": "span",
+        "text": "Hearing noises in the attic or seeing signs of animals around your home? Send us a few details and we will call you back to set up your free inspection. Need help now? Call us any time during business hours.",
+        "marks": []
+       }
+      ],
+      "markDefs": []
+     }
+    ],
+    "showForm": true
+   },
+   {
     "_type": "cardsSection",
     "heading": "Wildlife Removal Services We Offer",
     "intro": [
