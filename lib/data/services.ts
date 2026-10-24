@@ -15013,7 +15013,7 @@ export const fallbackServices: Service[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "https://monroe.floridahealth.gov/programs-and-services/environmental-public-health/rodents/"
+        "href": "https://www.floridahealth.gov/diseases-and-conditions/?category=rodents"
        }
       ]
      }
@@ -30041,7 +30041,7 @@ export const fallbackServices: Service[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "https://www.southfloridawildlifecenter.org/wild-talks-at-the-park-duplicate-11716/"
+        "href": "https://www.southfloridawildlifecenter.org/found-an-animal/"
        }
       ]
      },

@@ -23,11 +23,11 @@ export async function GET() {
   const text = [
     `# ${s.name}`,
     "",
-    `> Licensed and insured wildlife removal and remediation company in ${s.address.city}, ${s.address.region}. ${clean(s.serviceAreaText)}`,
+    // No street address or licence claim until the client confirms them (the address may be a mailbox).
+    `> Wildlife removal and remediation company ${clean(s.serviceAreaText).replace(/^Serving/, "serving")}`,
     "",
     `- Phone: ${s.phone}${s.tollFree ? ` (toll free ${s.tollFree})` : ""}`,
     `- Email: ${s.email}`,
-    `- Address: ${s.address.street}, ${s.address.city}, ${s.address.region} ${s.address.postalCode}`,
     `- Hours: ${s.hours.map((h) => `${clean(h.label)} ${clean(h.value)}`).join("; ")}`,
     ...(s.googleRating && s.reviewCount ? [`- Google rating: ${s.googleRating} from ${s.reviewCount} reviews`] : []),
     `- Free inspection requests: ${absoluteUrl("/contact-us/")}`,
