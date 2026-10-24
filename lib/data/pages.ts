@@ -391,7 +391,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "FACT: Wildlife infestations by rodents, pests, birds, and/or animals destroy/contaminate enough food to feed more than 200 million people annually. More than this, rodents and pests carry many hazardous pathogens and parasites with them. They can serve as a major vector for the spread of diseases that could bring harm to you and your family. Rat fleas served to propagate the bubonic plague which nearly whipped out Europe in the 14th century.",
+        "text": "FACT: Wildlife infestations by rodents, pests, birds, and/or animals destroy/contaminate enough food to feed more than 200 million people annually. More than this, rodents and pests carry many hazardous pathogens and parasites with them. They can serve as a major vector for the spread of diseases that could bring harm to you and your family. Rat fleas served to propagate the bubonic plague which nearly wiped out Europe in the 14th century.",
         "marks": []
        }
       ],
@@ -630,7 +630,7 @@ export const fallbackPages = {
   ],
   "seo": {
    "title": "Wildlife Removal in Central Florida | Pro Wildlife Removal",
-   "description": "Professional wildlife removal and control services across Central Florida. Get expert help removing nuisance animals from your property. Call us for a free quote!"
+   "description": "Wildlife removal and control across Central Florida. Expert help removing nuisance animals from homes and businesses. Call us for a free quote!"
   }
  },
  "services": {
@@ -3949,7 +3949,7 @@ export const fallbackPages = {
  "contact": {
   "design": "classic",
   "hero": {
-   "heading": "WIldlife Removal Services",
+   "heading": "Contact Pro Wildlife Removal",
    "text": [
     {
      "_type": "block",
@@ -4070,7 +4070,7 @@ export const fallbackPages = {
   ],
   "seo": {
    "title": "Contact Us | Wildlife Removal Support | Pro Wildlife Removal",
-   "description": "Contact Pro Wildlife Removal today for expert wildlife control services in Tampa, Florida and sorrounding areas. Call us for safe and professional removal."
+   "description": "Contact Pro Wildlife Removal today for expert wildlife control services in Tampa, Florida and surrounding areas. Call us for safe and professional removal."
   }
  },
  "privacy": {
