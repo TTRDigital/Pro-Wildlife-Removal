@@ -267,7 +267,7 @@ export function LeadForm({
             }}
             aria-invalid={errors.consent ? true : undefined}
             aria-describedby={errors.consent ? `${uid}-consent-err` : undefined}
-            className="mt-0.5 h-5 w-5 shrink-0 accent-[#1e9bf0]"
+            className="h-6 w-6 shrink-0 accent-[#1e9bf0]"
           />
           <span>
             I agree to the{" "}
