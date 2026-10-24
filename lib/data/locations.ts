@@ -12354,36 +12354,6 @@ export const fallbackLocations: Location[] = [
         "href": "https://www.tripadvisor.com.ph/Attraction_Review-g34293-d2259047-Reviews-Key_Vista_Nature_Park-Holiday_Florida.html"
        }
       ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "A well-known landmark in Holiday, FL is the ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "Holiday Pacific and Southern Tower",
-        "marks": [
-         "l0"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ", a 1,538-foot radio antenna mast.",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "https://en.wikipedia.org/wiki/Holiday,_Florida"
-       }
-      ]
      }
     ],
     "image": images.wildlifeRemovalHolidayFlIntroduction,

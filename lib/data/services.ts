@@ -16216,7 +16216,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Rat Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Licensed rat removal in the Tampa Bay area: trapping, removal, exclusion and cleanup. Claim your free rat removal quote and same-day inspection."
+   "description": "Rat removal in the Tampa Bay area: trapping, removal, exclusion and cleanup. Claim your free rat removal quote and same-day inspection."
   }
  },
  {
@@ -18212,7 +18212,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Raccoon Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Licensed raccoon removal in the Tampa Bay area: trapping, exclusion, cleanup and remediation, with flat-rate pricing. Call for your free inspection."
+   "description": "Raccoon removal in the Tampa Bay area: trapping, exclusion, cleanup and remediation, with flat-rate pricing. Call now for your free inspection."
   }
  },
  {
@@ -20079,7 +20079,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Squirrel Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Licensed squirrel removal in Tampa that follows Florida wildlife law: trapping, exclusion and cleanup, with same-day service. Get a free inspection."
+   "description": "Squirrel removal in Tampa that follows Florida wildlife law: trapping, exclusion and cleanup for homes and businesses. Call for a free inspection."
   }
  },
  {
@@ -21743,7 +21743,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Snake Removal Tampa | Pro Wildlife Removal",
-   "description": "Licensed snake removal in the Tampa Bay area: identification, safe removal and prevention. Claim your free snake removal quote and same-day inspection."
+   "description": "Snake removal in the Tampa Bay area: identification, safe removal and prevention. Claim your free snake removal quote and same-day inspection."
   }
  },
  {
@@ -23563,7 +23563,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Opossum Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Safe, licensed opossum removal for Tampa Bay homes and businesses: trapping, exclusion and cleanup, with same-day service. Call for a free inspection."
+   "description": "Safe, effective opossum removal for Tampa Bay homes and businesses: trapping, exclusion and cleanup. Call today for your free inspection."
   }
  },
  {
@@ -25072,7 +25072,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Armadillo Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Licensed armadillo removal in the Tampa Bay area for lawns and foundations: trapping, exclusion and prevention. Claim your free quote and inspection."
+   "description": "Armadillo removal in the Tampa Bay area for lawns and foundations: trapping, exclusion and prevention. Claim your free quote and inspection."
   }
  },
  {
@@ -28331,7 +28331,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Mole Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Expert mole control across Tampa Bay: trapping, removal, lawn restoration and prevention, with transparent pricing. Claim your free mole inspection."
+   "description": "Expert Mole Control & Lawn Protection Across Tampa Bay"
   }
  },
  {
