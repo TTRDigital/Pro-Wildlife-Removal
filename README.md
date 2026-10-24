@@ -35,7 +35,7 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 3. **Load the content into Sanity (once, after the content PRs are merged):** all in the browser, nothing to install.
    1. sanity.io/manage > 5prlo93h > API > Tokens > Add API token, permission **Editor**.
    2. GitHub: Settings > Secrets and variables > Actions > New repository secret, name `SANITY_WRITE_TOKEN`.
-   3. Actions > "Load content into Sanity" > Run workflow: **dry-run** first (checks, writes nothing), then **add-missing**. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 24 reviews and the FAQ library. **overwrite** replaces the CMS with the built-in content. The log shows counts only.
+   3. Actions > "Load content into Sanity" > Run workflow: **dry-run** first (checks, writes nothing), then **add-missing**. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 23 reviews and the FAQ library. **overwrite** replaces the CMS with the built-in content. The log shows counts only.
    4. **Right after:** delete the token in Sanity **and** delete the GitHub secret. Secrets live in Vercel or TTR OS; this one may only exist for the few minutes of the run.
 
    Once Sanity has content, the site shows the CMS copy instead of `lib/data`, so changes to `lib/data` after the seed only show after an **overwrite** run (or an edit in /cms).
