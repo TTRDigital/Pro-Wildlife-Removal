@@ -69,12 +69,6 @@ export const fallbackTestimonials: Testimonial[] = [
   "source": "Facebook"
  },
  {
-  "name": "Ani Murphy Robinson",
-  "quote": "Josh Holmberg is the best. He responds to calls in a very timely manor, most of the time on the same day we refer people to him. Our customers say he is excellent, courteous, and professional! Thank you for everything! From: Couch’s Pest Patrol",
-  "rating": 5,
-  "source": "Facebook"
- },
- {
   "name": "Phil Hess",
   "quote": "Steve, did an excellent job getting rid of the squirrels in my attic. He installed a one way valve for the squirrels to exit and they couldn't get back in. They were gone in less than a week. He also patched the hole and disinfected the attic when he was done. Job well done. Would highly recommend Pro Wildlife Removal!!",
   "rating": 5,

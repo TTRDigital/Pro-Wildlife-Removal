@@ -69,6 +69,9 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
               ))}
             </ul>
             <p>
+              {/* Year from the build: every publish rebuilds the site. */}
+              &copy; {new Date().getFullYear()} {settings.name}
+              {" | "}
               {legal.map((l) => (
                 <span key={l.href}>
                   <Link href={l.href} className="hover:underline">
