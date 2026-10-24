@@ -1084,7 +1084,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Bat Removal in Tampa & West-Central Florida | Legal Bat Exclusion",
-   "description": "Bats in your attic or roof? Pro Wildlife Removal provides professional bat inspection, legal exclusion, guano cleanup and entry-point sealing in Tampa and across West-Central Florida. Request an inspection."
+   "description": "Bats in your attic or roof? We provide legal bat exclusion, guano cleanup and entry-point sealing in Tampa and West-Central Florida. Request an inspection."
   }
  },
  {
@@ -2473,7 +2473,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Rat Removal in Tampa, FL | Attic Rat & Rodent Control",
-   "description": "Professional rat removal and rodent control for homes and businesses in Tampa and across West-Central Florida. Inspection, trapping, exclusion, cleanup and damage remediation. Request an inspection from Pro Wildlife Removal."
+   "description": "Rat removal and rodent control for Tampa and West-Central Florida homes and businesses: inspection, trapping, exclusion, cleanup and damage repair."
   }
  },
  {
@@ -4085,8 +4085,8 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Raccoon Removal in Tampa & West-Central Florida | Pro Wildlife Removal",
-   "description": "Raccoons in your attic, roof or crawlspace? Pro Wildlife Removal provides professional raccoon removal, exclusion, cleanup and damage repair in Tampa and across West-Central Florida. Request an inspection."
+   "title": "Raccoon Removal in Tampa & West-Central FL | Pro Wildlife Removal",
+   "description": "Raccoons in your attic, roof or crawlspace? We provide raccoon removal, exclusion, cleanup and damage repair in Tampa and West-Central Florida."
   }
  },
  {
@@ -5641,8 +5641,8 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Squirrel Removal in Tampa & West-Central Florida | Pro Wildlife Removal",
-   "description": "Hear squirrels in your attic? Pro Wildlife Removal provides professional squirrel removal, exclusion, attic cleanup and damage repair in Tampa and across West-Central Florida. Request an inspection."
+   "title": "Squirrel Removal: Tampa & West-Central FL | Pro Wildlife Removal",
+   "description": "Hear squirrels in your attic? We provide squirrel removal, exclusion, attic cleanup and damage repair in Tampa and West-Central Florida."
   }
  },
  {
@@ -7059,8 +7059,8 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Snake Removal in Tampa & West-Central Florida | Pro Wildlife Removal",
-   "description": "Professional snake removal in Tampa and West-Central Florida for snakes in homes, garages, pools, yards and businesses. Identification, removal, entry-point inspection and prevention solutions."
+   "title": "Snake Removal in Tampa & West-Central FL | Pro Wildlife Removal",
+   "description": "Snake removal in Tampa and West-Central Florida for homes, garages, pools, yards and businesses: identification, safe removal and prevention."
   }
  },
  {
@@ -9020,8 +9020,8 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Opossum Removal in Tampa & West-Central Florida | Pro Wildlife Removal",
-   "description": "Professional opossum removal in Tampa and West-Central Florida. Inspection, removal, exclusion, cleanup and wildlife damage repair for attics, crawlspaces, garages and homes."
+   "title": "Opossum Removal in Tampa & West-Central FL | Pro Wildlife Removal",
+   "description": "Opossum removal in Tampa and West-Central Florida: inspection, removal, exclusion, cleanup and damage repair for attics, crawlspaces and garages."
   }
  },
  {
@@ -10724,8 +10724,8 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Armadillo Removal in Tampa & West-Central Florida | Pro Wildlife Removal",
-   "description": "Professional armadillo removal for lawns, gardens, foundations, patios and commercial properties across Tampa and West-Central Florida. Inspection, trapping, damage assessment and prevention."
+   "title": "Armadillo Removal: Tampa & West-Central FL | Pro Wildlife Removal",
+   "description": "Armadillo removal for lawns, gardens, foundations and patios across Tampa and West-Central Florida: inspection, trapping and prevention."
   }
  },
  {
@@ -11898,8 +11898,8 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Bee Removal in Tampa & Hillsborough County, FL | Pro Wildlife Removal",
-   "description": "Professional bee removal in Tampa, Hillsborough County and West-Central Florida for swarms and colonies in walls, soffits, attics, roofs and yards. Inspection, colony removal, cleanup and bee-proofing."
+   "title": "Bee Removal in Tampa & Hillsborough County | Pro Wildlife Removal",
+   "description": "Bee removal in Tampa and West-Central Florida for swarms and colonies in walls, soffits, attics and roofs: colony removal, cleanup and bee-proofing."
   }
  },
  {
@@ -12549,7 +12549,7 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Dead Animal Removal in Tampa, FL | Pro Wildllife Removal",
+   "title": "Dead Animal Removal in Tampa, FL | Pro Wildlife Removal",
    "description": "Need professional dead animal removal in Tampa, FL? Pro Wildlife Removal offers 24/7 emeergency services to remove and decontaminate your property. Call us now!"
   }
  },
@@ -14476,7 +14476,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Bat Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Expert Bat Removal Backed by Florida Wildlife Law Compliance"
+   "description": "Bat removal in Tampa Bay that follows Florida wildlife law: inspection, legal exclusion, guano cleanup and sealing, with follow-up inspections included."
   }
  },
  {
@@ -14485,7 +14485,7 @@ export const fallbackServices: Service[] = [
   "group": "control",
   "animal": "rat",
   "order": 11,
-  "summary": "CLAIM YOUR FREE SNAKE REMOVAL QUOTE & SAME-DAY INSPECTION!",
+  "summary": "CLAIM YOUR FREE RAT REMOVAL QUOTE & SAME-DAY INSPECTION!",
   "design": "refresh",
   "hero": {
    "heading": "Trusted & Licensed Rat Removal Services in the Tampa Bay Area",
@@ -14496,7 +14496,7 @@ export const fallbackServices: Service[] = [
      "children": [
       {
        "_type": "span",
-       "text": "CLAIM YOUR FREE SNAKE REMOVAL QUOTE & SAME-DAY INSPECTION!",
+       "text": "CLAIM YOUR FREE RAT REMOVAL QUOTE & SAME-DAY INSPECTION!",
        "marks": []
       }
      ],
@@ -16216,7 +16216,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Rat Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "CLAIM YOUR FREE SNAKE REMOVAL QUOTE & SAME-DAY INSPECTION!"
+   "description": "Licensed rat removal in the Tampa Bay area: trapping, removal, exclusion and cleanup. Claim your free rat removal quote and same-day inspection."
   }
  },
  {
@@ -18212,7 +18212,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Raccoon Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Proudly Serving Central Florida With Expert Raccoon Control and Remediation"
+   "description": "Licensed raccoon removal in the Tampa Bay area: trapping, exclusion, cleanup and remediation, with flat-rate pricing. Call for your free inspection."
   }
  },
  {
@@ -20079,7 +20079,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Squirrel Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Expert Tampa Bay Squirrel Removal Backedby Florida Wildlife Law Compliance"
+   "description": "Licensed squirrel removal in Tampa that follows Florida wildlife law: trapping, exclusion and cleanup, with same-day service. Get a free inspection."
   }
  },
  {
@@ -21743,7 +21743,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Snake Removal Tampa | Pro Wildlife Removal",
-   "description": "CLAIM YOUR FREE SNAKE REMOVAL QUOTE & SAME-DAY INSPECTION!"
+   "description": "Licensed snake removal in the Tampa Bay area: identification, safe removal and prevention. Claim your free snake removal quote and same-day inspection."
   }
  },
  {
@@ -23563,7 +23563,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Opossum Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Proudly Serving Tampa Bay Homes & Businesses with Safe & Effective Opossum Control"
+   "description": "Safe, licensed opossum removal for Tampa Bay homes and businesses: trapping, exclusion and cleanup, with same-day service. Call for a free inspection."
   }
  },
  {
@@ -25072,7 +25072,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Armadillo Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "CLAIM YOUR FREE ARMADILLO REMOVAL QUOTE & SAME-DAY INSPECTION!"
+   "description": "Licensed armadillo removal in the Tampa Bay area for lawns and foundations: trapping, exclusion and prevention. Claim your free quote and inspection."
   }
  },
  {
@@ -26714,7 +26714,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Bee Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Fast, Safe, and Legal Bee Removal Solutions for Tampa Bay Homes & Businesses"
+   "description": "Fast, safe and legal bee removal for Tampa Bay homes and businesses: swarms and hives removed, cleanup and prevention. Call for your free inspection."
   }
  },
  {
@@ -28331,7 +28331,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Mole Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Expert Mole Control & Lawn Protection Across Tampa Bay"
+   "description": "Expert mole control across Tampa Bay: trapping, removal, lawn restoration and prevention, with transparent pricing. Claim your free mole inspection."
   }
  },
  {
@@ -28970,7 +28970,7 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Bat Removal in Tampa and Central FL | Pro Wildllife Removal",
+   "title": "Bat Removal in Tampa and Central FL | Pro Wildlife Removal",
    "description": "Trust Pro Wildlife's experts for bat removal services in Central Florida. Safely and professionally handle bat issues. Contact us for effective solution!"
   }
  },
@@ -29800,8 +29800,8 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Rat Control | Rat Removal, Pest Trapping in Florida | Pro Wildlife Removal",
-   "description": "Pro Wildlife's rat control and removal services in Tampa, FL, is tailored to protect your home or business. Safe solutions to eliminate rats and rodents infestations."
+   "title": "Rat Removal & Trapping in Tampa, FL | Pro Wildlife Removal",
+   "description": "Rat control and removal in Tampa, FL, tailored to protect your home or business. Safe trapping and exclusion to end rat and rodent infestations."
   }
  },
  {
@@ -30337,7 +30337,7 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Raccoon Control & Removal in Central Florida | Pro Wildlife Removal",
+   "title": "Raccoon Control & Removal in Tampa, FL | Pro Wildlife Removal",
    "description": "Professional raccoon removal & control services in Tampa, FL. Safely remove raccoons from your property with Pro Wildlife Removal. Contact us today for expert help."
   }
  },
@@ -30916,7 +30916,7 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Squirrel Removal in Tampa and Central FL | Pro Wildllife Removal",
+   "title": "Squirrel Removal in Tampa and Central FL | Pro Wildlife Removal",
    "description": "Pro Wildlife: Your trusted choice for squirrel removal in Central Florida. Expert solutions to safeguard your property. Get rid of squirrels with us now!"
   }
  },
@@ -32108,9 +32108,7 @@ export const fallbackServices: Service[] = [
        {
         "_type": "span",
         "text": "Opossums",
-        "marks": [
-         "l0"
-        ]
+        "marks": []
        },
        {
         "_type": "span",
@@ -32118,13 +32116,7 @@ export const fallbackServices: Service[] = [
         "marks": []
        }
       ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "https://www.pinellascounty.org/animalservices/wildlife-opossums.htm"
-       }
-      ]
+      "markDefs": []
      },
      {
       "_type": "block",
@@ -32835,7 +32827,7 @@ export const fallbackServices: Service[] = [
    }
   ],
   "seo": {
-   "title": "Armadillo Removal in Tampa and Central FL | Pro Wildllife Removal",
+   "title": "Armadillo Removal in Tampa and Central FL | Pro Wildlife Removal",
    "description": "Experience expert armadillo removal in Central Florida by Pro Wildlife Removal. Safeguard your property from armadillo damage. Contact us now!"
   }
  },

@@ -12927,7 +12927,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Raccoons Under Deck: Identification, Removal & Prevention | Pro Wildlife Removal",
+   "title": "Raccoons Under Deck: Identification, Removal & Prevention",
    "description": "If you have raccoons under deck or raccoons under porch areas, the problem is more than noisy nights. These spaces are ideal den sites: they are sheltered,"
   }
  },
@@ -16828,7 +16828,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Rat Activity Summer Florida: Prevent, Inspect, Repair | Pro Wildlife Removal",
+   "title": "Rat Activity Summer Florida: Prevent, Inspect, Repair",
    "description": "If you have noticed more noise in the attic, fresh droppings along eaves, or chewed insulation, rat activity summer Florida explains why those signs often"
   }
  },
@@ -17817,7 +17817,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Rat Exclusion Services: Prevent Reinfestation and Damage | Pro Wildlife Removal",
+   "title": "Rat Exclusion Services: Prevent Reinfestation and Damage",
    "description": "If you have dealt with attic activity, chewed wiring, or repeated sightings, rat exclusion services are the single most effective way to stop rats from coming"
   }
  },
@@ -18921,7 +18921,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Rat Damage Electrical Wiring: Prevention and Repair Guide | Pro Wildlife Removal",
+   "title": "Rat Damage Electrical Wiring: Prevention and Repair Guide",
    "description": "If you have noticed unexplained circuit trips, scorch marks, or chewed insulation in ceilings or crawl spaces, rat damage electrical wiring may be the"
   }
  },
@@ -20080,7 +20080,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Norway Rat vs Roof Rat: Florida Identification Guide | Pro Wildlife Removal",
+   "title": "Norway Rat vs Roof Rat: Florida Identification Guide",
    "description": "The question norway rat vs roof rat matters for Florida homeowners because the two species behave differently, leave distinct signs, and require different"
   }
  },
@@ -21124,7 +21124,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Rat Entry Points: How to Find and Seal Holes Quickly | Pro Wildlife Removal",
+   "title": "Rat Entry Points: How to Find and Seal Holes Quickly",
    "description": "If you are troubleshooting rodent activity, rat entry points are the first things to find and fix. Start with a professional inspection from our wildlife"
   }
  },
@@ -22221,7 +22221,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "How Fast Do Rats Reproduce: Rat Breeding Cycle Guide | Pro Wildlife Removal",
+   "title": "How Fast Do Rats Reproduce: Rat Breeding Cycle Guide",
    "description": "If you have seen one rat in a wall or heard scratching at night, you are right to ask how fast do rats reproduce. A single pregnant female can turn a minor"
   }
  },
@@ -23140,7 +23140,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Raccoons in Attic: Why They Choose Your Home (Guide) | Pro Wildlife Removal",
+   "title": "Raccoons in Attic: Why They Choose Your Home (Guide)",
    "description": "Finding raccoons in attic can feel like a household emergency. You hear thumps at night, insulation is shredded, and the smell travels through return vents."
   }
  },
@@ -24384,7 +24384,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Opossums Under House: Crawl Space Removal & Prevention | Pro Wildlife Removal",
+   "title": "Opossums Under House: Crawl Space Removal & Prevention",
    "description": "If you are finding opossums under house, you are not alone. Homeowners commonly discover nesting, foul smells, or the sound of young in crawl spaces and under"
   }
  },
@@ -25392,7 +25392,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Bat Colonies Attic Removal: Complete Costs, Risks, Cleanup | Pro Wildlife Removal",
+   "title": "Bat Colonies Attic Removal: Complete Costs, Risks, Cleanup",
    "description": "If you found droppings on your soffit or hear fluttering at dusk, bat colonies attic infestations can cause structural damage, foul odors, and health risks."
   }
  },
@@ -25489,12 +25489,12 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ". OSHA and EPA also recommend treating heavily contaminated material as a biological hazard and using appropriate containment and personal protective equipment during cleanup: ",
+      "text": ". NIOSH and EPA also recommend treating heavily contaminated material as a biological hazard and using appropriate containment and personal protective equipment during cleanup: ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "OSHA Biological Hazards",
+      "text": "NIOSH: Preventing Histoplasma Exposures",
       "marks": [
        "l1"
       ]
@@ -25526,7 +25526,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l1",
-      "href": "https://www.osha.gov/biological-hazards"
+      "href": "https://www.cdc.gov/niosh/histoplasmosis/prevention/index.html"
      },
      {
       "_type": "link",
@@ -26235,7 +26235,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Bat Guano Cleanup: Complete Attic Removal, Costs & Guide | Pro Wildlife Removal",
+   "title": "Bat Guano Cleanup: Complete Attic Removal, Costs & Guide",
    "description": "If you see staining, smell ammonia near vents, or find piles of droppings in an attic, you need a professional bat guano cleanup assessment right away. Start"
   }
  },
@@ -27415,7 +27415,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Florida Bat Laws: Homeowner Guide to Removal & Rules | Pro Wildlife Removal",
+   "title": "Florida Bat Laws: Homeowner Guide to Removal & Rules",
    "description": "If you own a home in Florida and have discovered bats in your attic, soffit, or wall voids, your first question is likely about safety and legality. This"
   }
  },
@@ -28514,7 +28514,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Squirrel Insulation Damage: Repair, Costs & Prevention | Pro Wildlife Removal",
+   "title": "Squirrel Insulation Damage: Repair, Costs & Prevention",
    "description": "If you have noticed rustling in the rafters or gaps in soffits, squirrel insulation damage can be the hidden reason your heating and cooling bills climbed and"
   }
  },
@@ -29393,7 +29393,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Squirrels Chewing Wires: Expert Guide to Damage & Repair | Pro Wildlife Removal",
+   "title": "Squirrels Chewing Wires: Expert Guide to Damage & Repair",
    "description": "Squirrels chewing wires is a common cause of sudden electrical faults, damaged outdoor lighting, and costly car repairs. If you have seen frayed cables in"
   }
  },
@@ -30305,7 +30305,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Flying Squirrels Florida: Identification and Prevention | Pro Wildlife Removal",
+   "title": "Flying Squirrels Florida: Identification and Prevention",
    "description": "If you live in Florida and have ever heard a soft scrape at dusk or found a small, wide-eyed mammal on your porch, you have a real chance of encountering"
   }
  },
@@ -31273,7 +31273,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Raccoon Roof Damage: Complete Cleanup, Costs and Repair | Pro Wildlife Removal",
+   "title": "Raccoon Roof Damage: Complete Cleanup, Costs and Repair",
    "description": "If you are seeing signs of raccoon roof damage the risk is not only holes in shingles. Raccoons create access points that let water, pests, and wind into your"
   }
  },
@@ -32515,7 +32515,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Raccoons in Soffits: Why They Tear Them Open & Fixes | Pro Wildlife Removal",
+   "title": "Raccoons in Soffits: Why They Tear Them Open & Fixes",
    "description": "If you are seeing signs of raccoons in soffits, act quickly. Raccoons exploit weak soffit corners and unboxed roof pockets to enter attics, tear insulation,"
   }
  },
@@ -33652,7 +33652,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Rats Entering Soffits: How They Get In & What to Do | Pro Wildlife Removal",
+   "title": "Rats Entering Soffits: How They Get In & What to Do",
    "description": "If you are seeing signs of rats entering soffits or suspect soffit rat entry at your property, start with a documented exclusion inspection from a licensed"
   }
  },
@@ -34774,7 +34774,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Rats in Attic Signs: 9 Clear Warning Signs & What to Do | Pro Wildlife Removal",
+   "title": "Rats in Attic Signs: 9 Clear Warning Signs & What to Do",
    "description": "If you suspect rats in attic signs are the reason for weird noises, odors, or damaged wiring, start with a professional inspection right away. Our rat removal"
   }
  },
@@ -35966,7 +35966,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Florida Roof Rats: Identification, Control & Costs | Pro Wildlife Removal",
+   "title": "Florida Roof Rats: Identification, Control & Costs",
    "description": "If you suspect florida roof rats in your attic or roofline, start with a professional inspection from our wildlife removal services team so you know what you"
   }
  },
@@ -36846,7 +36846,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Can Wildlife Come Back After Removal? Exclusion Guide | Pro Wildlife Removal",
+   "title": "Can Wildlife Come Back After Removal? Exclusion Guide",
    "description": "Yes, wildlife can come back after removal if the original access points were not properly sealed. If you have already booked professional wildlife removal"
   }
  },
@@ -37824,7 +37824,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Wildlife Exclusion vs Trapping: Differences for Homeowners | Pro Wildlife Removal",
+   "title": "Wildlife Exclusion vs Trapping: Differences for Homeowners",
    "description": "If you are weighing wildlife exclusion vs wildlife trapping for a home or business, the choice affects cost, legality, timeline, and long-term results. Start"
   }
  },
@@ -38195,7 +38195,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Wildlife Removal Inspection: What to Expect & Costs | Pro Wildlife Removal",
+   "title": "Wildlife Removal Inspection: What to Expect & Costs",
    "description": "Wildlife removal inspection is the single step that converts uncertain attic noises or visible droppings into a clear, prioritized plan for exclusion,"
   }
  },
@@ -39276,7 +39276,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Wildlife Damage Repair: 12 Signs You Need Repairs Now | Pro Wildlife Removal",
+   "title": "Wildlife Damage Repair: 12 Signs You Need Repairs Now",
    "description": "If you recently had a raccoon, squirrel, rat, or bat removed from your home, your next question is likely whether you also need wildlife damage repair. That"
   }
  },
@@ -40178,7 +40178,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Raccoon vs Rats in the Attic: How to Tell the Difference | Pro Wildlife Removal",
+   "title": "Raccoon vs Rats in the Attic: How to Tell the Difference",
    "description": "If you suspect a raccoon in the attic vs rats in the attic, the sounds, droppings, and damage tell very different stories. If you want professional help,"
   }
  },
@@ -41291,7 +41291,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Bat Guano in the Attic: Risks, Cleanup, Insulation | Pro Wildlife Removal",
+   "title": "Bat Guano in the Attic: Risks, Cleanup, Insulation",
    "description": "If you have bat guano in the attic you are not just looking at a mess. Guano is a biological contaminant that can seed fungal spores that cause histoplasmosis"
   }
  },
@@ -42555,7 +42555,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Attic Wildlife Cleanup Cost in Florida: Prices & Tips | Pro Wildlife Removal",
+   "title": "Attic Wildlife Cleanup Cost in Florida: Prices & Tips",
    "description": "If you have animals in your attic, the first call should be to a licensed wildlife removal services provider who will remove animals safely and outline"
   }
  },
@@ -44376,7 +44376,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "The Dangers of DIY Wildlife Removal: Why You Should Call a Professional | Pro Wildlife Removal",
+   "title": "Dangers of DIY Wildlife Removal: Why to Call a Professional",
    "description": "Learn why DIY wildlife removal can be risky and dangerous. Pro Wildlife Removal offers safe and professional solutions to protect your home & family. Call us today!"
   }
  },
@@ -45852,7 +45852,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "How Wildlife Infestations Escalate | Tampa Wildlife Control Experts",
+   "title": "How Wildlife Infestations Escalate | Pro Wildlife Removal",
    "description": "Discover the dangers of ignoring wildlife infestations in Tampa. Learn how they escalate & why professional wildlife control is essential. Call Pro Wildlife Removal!"
   }
  },
@@ -46794,7 +46794,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "The Dangers of Ignoring Wildlife in Your Attic | Pro Wildlife Removal",
+   "title": "The Dangers of Ignoring Wildlife in Your Attic",
    "description": "Tampa’s warm climate and lush surroundings make it a magnet for unwelcome wildlife intrusions. Animals like raccoons, bats, squirrels, and rodents are"
   }
  },
@@ -51261,7 +51261,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Who to Call for Bat Removal | Pro Wildllife Removal",
+   "title": "Who to Call for Bat Removal | Pro Wildlife Removal",
    "description": "Unsure who to call for bat removal experts? Read our blog post to learn who to call for safe & professional bat removal services. Contact Pro Wildlife Removal today!"
   }
  },
@@ -52230,7 +52230,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Comprehensive Guide: How to Catch Rats in Your Florida Home | Pro Wildllife Removal",
+   "title": "Comprehensive Guide: How to Catch Rats in Your Florida Home",
    "description": "Get expert tips on effectively catching rats in your home. This comprehensive guide is tailored for Florida homeowners seeking professional pest control solutions."
   }
  },
@@ -53328,7 +53328,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Rat Bait Stations and Safety | Pro Wildllife Removal",
+   "title": "Rat Bait Stations and Safety | Pro Wildlife Removal",
    "description": "Pro Wildlife Removal provides a complete guide on rat bait stations and their safety. Learn how to use them effectively and get effective rodent control solutions."
   }
  },
@@ -55366,7 +55366,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Squirrel Poop vs. Rat Poop: Spotting the Key Differences | Pro Wildllife Removal",
+   "title": "Squirrel Poop vs. Rat Poop: Spotting the Key Differences",
    "description": "Learn to differentiate between squirrel and rat droppings. Understanding the differences can help you take professional measures to address wildlife issues."
   }
  },
@@ -58373,7 +58373,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "What Keeps Rats Away? | Pro Wildllife Removal",
+   "title": "What Keeps Rats Away? | Pro Wildlife Removal",
    "description": "Discover effective methods to keep rats away from your home. Pro Wildlife Removal shares expert tips on preventing rodent infestations. Learn more from our experts!"
   }
  },
@@ -58760,7 +58760,7 @@ export const fallbackPosts: Post[] = [
    }
   ],
   "seo": {
-   "title": "Identifying Rat Infestations: Key Signs Your Home May Have Rats | Pro Wildllife Removal",
+   "title": "Identifying Rat Infestations: Key Signs Your Home May Have Rats",
    "description": "Think you have rats in your house? Pro Wildlife's blog outlines the top 6 signs of rat infestation so you can identify and address the issue. Read more!"
   }
  }
