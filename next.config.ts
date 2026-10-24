@@ -74,8 +74,8 @@ const nextConfig: NextConfig = {
     loader: "custom",
     loaderFile: "./lib/image-loader.ts",
     // Keep in sync with WIDTHS in scripts/optimize-images.mjs.
-    deviceSizes: [640, 828, 1200, 1920],
-    imageSizes: [96, 256, 384],
+    deviceSizes: [640, 750, 828, 1200, 1920],
+    imageSizes: [96, 160, 256, 384],
   },
   async redirects() {
     return [
