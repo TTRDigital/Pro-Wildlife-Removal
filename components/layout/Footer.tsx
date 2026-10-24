@@ -20,7 +20,7 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
       <div className="mx-auto grid w-full max-w-[1100px] gap-8 px-5 py-8 sm:grid-cols-2 lg:grid-cols-[180px_1fr_1.6fr] lg:gap-10">
         <div>
           <Link href="/" aria-label={`${settings.name}, home`} className="inline-block border-[3px] border-white p-1">
-            {settings.logo ? <Image src={settings.logo.src} alt="" width={settings.logo.width ?? 480} height={settings.logo.height ?? 442} className="h-[130px] w-auto" sizes="141px" /> : null}
+            {settings.logo ? <Image src={settings.logo.src} alt="Pro Wildlife Removal" width={settings.logo.width ?? 480} height={settings.logo.height ?? 442} className="h-[130px] w-auto" sizes="141px" /> : null}
           </Link>
         </div>
         <div>

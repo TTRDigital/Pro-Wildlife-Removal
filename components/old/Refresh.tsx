@@ -107,7 +107,7 @@ export function RefreshHero({ hero, settings }: { hero: Hero; settings: SiteSett
   const tel = hero.ctas?.find((c) => c.href.startsWith("tel:")) ?? { label: settings.phone, href: settings.phoneHref };
   return (
     <section id="top" className="relative isolate overflow-hidden bg-[#1d2a36] py-24 text-center md:py-32">
-      {image ? <Photo image={{ ...image, alt: "" }} priority sizes="100vw" className="-z-20" /> : null}
+      {image ? <Photo image={image} priority sizes="100vw" className="-z-20" /> : null}
       <div className="absolute inset-0 -z-10 bg-black" style={{ opacity: st.overlay ?? 0.5 }} aria-hidden="true" />
       <div className="r-wrap">
         <Chip text={hero.eyebrow} dark />

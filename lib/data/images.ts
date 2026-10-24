@@ -400,13 +400,13 @@ export const images = {
  },
  "img1ArmadilloRemovalTampaServices": {
   "src": "/images/photos/1-armadillo-removal-tampa-services.jpg",
-  "alt": "",
+  "alt": "Armadillo caught in a live cage trap",
   "width": 960,
   "height": 720
  },
  "img1RaccoonRemovalTampaServices": {
   "src": "/images/photos/1-raccoon-removal-tampa-services.jpg",
-  "alt": "",
+  "alt": "Raccoon peeking out from under a wooden deck",
   "width": 1200,
   "height": 553
  },
@@ -616,7 +616,7 @@ export const images = {
  },
  "bestWildlifeRemovalNewPortRicheyBanner": {
   "src": "/images/photos/best-wildlife-removal-new-port-richey-banner.jpg",
-  "alt": "",
+  "alt": "Aerial view of a waterfront neighborhood",
   "width": 1024,
   "height": 582
  },
@@ -676,13 +676,13 @@ export const images = {
  },
  "certifiedWildlifeRemovalExpertsInTampaFl": {
   "src": "/images/photos/certified-wildlife-removal-experts-in-tampa-fl.jpg",
-  "alt": "",
+  "alt": "Pro Wildlife Removal trucks parked outside a two-story home with palm trees",
   "width": 1200,
   "height": 694
  },
  "chamberOfCommerceGreaterDadeCity": {
   "src": "/images/photos/chamber-of-commerce-greater-dade-city.jpg",
-  "alt": "",
+  "alt": "Greater Dade City Chamber of Commerce building",
   "width": 1600,
   "height": 533
  },
@@ -784,7 +784,7 @@ export const images = {
  },
  "expertBatRemovalTampaFlServicesAvailable247": {
   "src": "/images/photos/expert-bat-removal-tampa-fl-services-available-24-7.jpg",
-  "alt": "",
+  "alt": "Colony of bats hanging from a rock ceiling",
   "width": 1200,
   "height": 600
  },
@@ -910,7 +910,7 @@ export const images = {
  },
  "hudsonWildlifeRemoval": {
   "src": "/images/photos/hudson-wildlife-removal.jpg",
-  "alt": "",
+  "alt": "Calm water and a sandy shoreline with palm trees",
   "width": 1200,
   "height": 576
  },
@@ -1084,7 +1084,7 @@ export const images = {
  },
  "licensedDeadAnimalRemovalTampaFl": {
   "src": "/images/photos/licensed-dead-animal-removal-tampa-fl.jpg",
-  "alt": "",
+  "alt": "Animal remains scattered among dead brush",
   "width": 1000,
   "height": 529
  },
@@ -1318,7 +1318,7 @@ export const images = {
  },
  "professionalBeeRemovalTampaFl": {
   "src": "/images/photos/professional-bee-removal-tampa-fl.jpg",
-  "alt": "",
+  "alt": "Wasps on a paper nest in a wooden corner",
   "width": 1000,
   "height": 667
  },
@@ -1348,7 +1348,7 @@ export const images = {
  },
  "prowildliferemovalBannerImage": {
   "src": "/images/photos/prowildliferemoval-banner-image.png",
-  "alt": "",
+  "alt": "Pro Wildlife Removal trucks parked outside a client's home",
   "width": 1440,
   "height": 768
  },
@@ -1606,7 +1606,7 @@ export const images = {
  },
  "springHillFloridaBanner": {
   "src": "/images/photos/spring-hill-florida-banner.jpg",
-  "alt": "",
+  "alt": "Single-story home with a large front lawn",
   "width": 1200,
   "height": 589
  },
@@ -1720,7 +1720,7 @@ export const images = {
  },
  "stPetersburgFl": {
   "src": "/images/photos/st-petersburg-fl.jpg",
-  "alt": "",
+  "alt": "Long historic building reflected in still water",
   "width": 1920,
   "height": 1236
  },
@@ -1762,13 +1762,13 @@ export const images = {
  },
  "topAuthorityInTampaSquirrelRemoval": {
   "src": "/images/photos/top-authority-in-tampa-squirrel-removal.jpg",
-  "alt": "",
+  "alt": "Pro Wildlife Removal service truck with its removal equipment",
   "width": 800,
   "height": 600
  },
  "topFullServiceWildlifeRemovalClearwaterFlBanner": {
   "src": "/images/photos/top-full-service-wildlife-removal-clearwater-fl-banner.jpg",
-  "alt": "",
+  "alt": "Palm trees and beachgoers on a white sand beach",
   "width": 1200,
   "height": 612
  },
@@ -1852,7 +1852,7 @@ export const images = {
  },
  "trinityWildlifeRemovalBanner": {
   "src": "/images/photos/trinity-wildlife-removal-banner.jpg",
-  "alt": "",
+  "alt": "Aerial view of homes beside a lake",
   "width": 1200,
   "height": 675
  },
@@ -1930,7 +1930,7 @@ export const images = {
  },
  "wildlifeRemovalHolidayFlBanner": {
   "src": "/images/photos/wildlife-removal-holiday-fl-banner.jpg",
-  "alt": "",
+  "alt": "City skyline reflected in a lake with palm trees",
   "width": 1200,
   "height": 548
  },
@@ -1972,7 +1972,7 @@ export const images = {
  },
  "wildlifeRemovalPalmHarbor": {
   "src": "/images/photos/wildlife-removal-palm-harbor.jpg",
-  "alt": "",
+  "alt": "Boats docked at a marina",
   "width": 1200,
   "height": 582
  },
@@ -1996,7 +1996,7 @@ export const images = {
  },
  "wildlifeRemovalSafetyHarborBanner": {
   "src": "/images/photos/wildlife-removal-safety-harbor-banner.jpg",
-  "alt": "",
+  "alt": "Aerial view of a waterfront with a fishing pier",
   "width": 1200,
   "height": 506
  },
