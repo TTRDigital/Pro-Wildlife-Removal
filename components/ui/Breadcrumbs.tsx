@@ -11,7 +11,7 @@ export function Breadcrumbs({ items, visible = true }: { items: Crumb[]; visible
   return (
     <>
       {visible ? (
-        <nav aria-label="Breadcrumb" className="mb-6">
+        <nav aria-label="Breadcrumb" className="-mt-2.5 mb-3">
           <ol className="flex flex-wrap items-center gap-1.5 font-display text-[0.8125rem] font-medium text-meta">
             {all.map((c, i) => (
               <li key={c.href} className="flex items-center gap-1.5">
@@ -21,7 +21,7 @@ export function Breadcrumbs({ items, visible = true }: { items: Crumb[]; visible
                     {c.label}
                   </span>
                 ) : (
-                  <Link href={c.href} className="hover:text-blue-deep">
+                  <Link href={c.href} className="inline-flex min-h-11 items-center hover:text-blue-deep">
                     {c.label}
                   </Link>
                 )}

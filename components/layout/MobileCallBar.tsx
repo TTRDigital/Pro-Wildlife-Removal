@@ -14,7 +14,7 @@ export function MobileCallBar({ phone, phoneHref }: { phone: string; phoneHref: 
         >
           <Phone className="h-5 w-5 flex-none" strokeWidth={2.25} aria-hidden="true" />
           Call {phone}
-          <span className="ml-1 inline-flex items-center gap-1.5 rounded-full bg-white/15 px-2 py-0.5 text-xs font-semibold">
+          <span className="ml-1 inline-flex items-center gap-1.5 rounded-full bg-black/20 px-2 py-0.5 text-xs font-semibold">
             <span className="live-dot !h-2 !w-2" aria-hidden="true" />
             24/7
           </span>

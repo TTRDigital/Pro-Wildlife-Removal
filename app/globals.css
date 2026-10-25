@@ -20,7 +20,7 @@
   --color-tint: #eaf4fc;
   --color-tint-2: #f7fafd;
   --color-body: #42566b;
-  --color-meta: #6a7f93;
+  --color-meta: #5c7086; /* 5.1:1 on white (the lighter #6a7f93 was 4.3:1) */
   --color-line: #e3ebf2;
   --color-line-2: #eef3f8;
   --color-star: #f5a623;

@@ -15,7 +15,7 @@ export function AreasSection({ section: s }: { section: Areas }) {
               <div className="border-b border-line bg-tint-2 px-5 py-[18px] md:p-[22px]">
                 <h3 className="flex items-center gap-2.5 font-display text-[clamp(15px,1.55vw,18px)] font-semibold leading-tight text-navy before:h-[18px] before:w-1 before:flex-none before:rounded-sm before:bg-blue before:content-['']">
                   {g.href ? (
-                    <Link href={g.href} className="-my-1.5 inline-block py-1.5 hover:text-blue-deep">
+                    <Link href={g.href} className="-my-3 inline-flex min-h-11 items-center hover:text-blue-deep">
                       {g.title}
                     </Link>
                   ) : (
