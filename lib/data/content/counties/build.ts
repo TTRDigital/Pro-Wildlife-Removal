@@ -27,6 +27,9 @@ export type CountyInput = {
   localHeading: string;
   localIntro: string;
   local: Card[];
+  /** "Who to call for what": county animal services, the county health department, FWC. Numbers from each agency's own page. */
+  contacts?: Card[];
+  contactsIntro?: string;
   servicesIntro: string;
   faqs: Faq[];
   ctaHeading: string;
@@ -57,6 +60,9 @@ export function countyPage(c: CountyInput): Location {
       { _type: "answerSection", _key: "answer", heading: c.answerHeading, text: p(c.answer), points: c.points },
       { _type: "areasSection", _key: "towns", eyebrow: "Towns covered", heading: c.townsHeading, intro: p(c.townsIntro), groups: c.towns, ...(c.townsNote ? { note: c.townsNote } : {}) },
       { _type: "cardsSection", _key: "local", tone: "tint", eyebrow: "Common problems here", heading: c.localHeading, intro: p(c.localIntro), variant: "icon", columns: 3, cards: c.local },
+      ...(c.contacts?.length
+        ? [{ _type: "cardsSection" as const, _key: "contacts", eyebrow: "Who to call", heading: `Who to call for what in ${c.name}`, intro: p(c.contactsIntro ?? ""), variant: "plain" as const, columns: 3, cards: c.contacts }]
+        : []),
       { _type: "servicesSection", _key: "services", eyebrow: "Services", heading: `Animals we remove in ${c.name}`, intro: p(c.servicesIntro), group: "removal" },
       { _type: "reviewsSection", _key: "reviews", eyebrow: "Reviews", heading: "What customers say" },
       { _type: "faqSection", _key: "faq", tone: "tint", eyebrow: "FAQ", heading: `${c.name} wildlife questions`, items: c.faqs },
