@@ -3,6 +3,7 @@ import { absoluteUrl, siteUrl } from "@/lib/site";
 import { images } from "@/lib/data/images";
 import { real } from "@/lib/placeholders";
 
+const WEEK = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 const DAYS: Record<string, string[]> = {
   "monday – friday": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
   "monday - friday": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -23,13 +24,17 @@ function to24h(t: string) {
 const areaType = (l: Location) => (l.kind === "county" ? "AdministrativeArea" : l.kind === "region" ? "Place" : "City");
 
 export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = [], locations: Location[] = []) {
-  const hours = s.hours
-    .map((h) => {
-      const days = DAYS[h.label.toLowerCase()];
-      const [open, close] = h.value.split(/\s*[–-]\s*/).map(to24h);
-      return days && open && close ? { "@type": "OpeningHoursSpecification", dayOfWeek: days, opens: open, closes: close } : null;
-    })
-    .filter(Boolean);
+  // "24 hours a day, 7 days a week" (the client's hours) is every day, midnight to midnight.
+  const allDay = s.hours.some((h) => /24 hours|24\/7/i.test(h.value));
+  const hours = allDay
+    ? [{ "@type": "OpeningHoursSpecification", dayOfWeek: WEEK, opens: "00:00", closes: "23:59" }]
+    : s.hours
+        .map((h) => {
+          const days = DAYS[h.label.toLowerCase()];
+          const [open, close] = h.value.split(/\s*[–-]\s*/).map(to24h);
+          return days && open && close ? { "@type": "OpeningHoursSpecification", dayOfWeek: days, opens: open, closes: close } : null;
+        })
+        .filter(Boolean);
   const license = real(s.license);
   return {
     "@context": "https://schema.org",
@@ -42,7 +47,6 @@ export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = []
     logo: absoluteUrl(images.logo.src),
     image: absoluteUrl(images.prowildlifeRemovalAgentHoldingAnIguanaa.src),
     priceRange: "$$",
-    address: { "@type": "PostalAddress", streetAddress: s.address.street, addressLocality: s.address.city, addressRegion: s.address.region, postalCode: s.address.postalCode, addressCountry: "US" },
     openingHoursSpecification: hours,
     areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": areaType(l), name: `${l.name}, FL` })),
     sameAs: s.social.map((x) => x.href),

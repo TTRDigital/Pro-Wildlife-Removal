@@ -26,12 +26,13 @@ import type {
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { LeadForm } from "@/components/forms/LeadForm";
 import { richText } from "@/lib/text";
 import { real } from "@/lib/placeholders";
 import { classicVars, sectionIds } from "./theme";
 import { TypedWords } from "./TypedWords";
 import { ReviewTabs } from "./ReviewTabs";
+import { getSiteSettings } from "@/lib/content";
+import { callCtas } from "@/lib/cta";
 
 /*
  * The old theme (the 2019 Elementor site) that most pages use: full-width
@@ -81,8 +82,10 @@ function PhoneButton({ cta, className = "" }: { cta: Cta; className?: string }) 
   );
 }
 
-function Buttons({ ctas, center }: { ctas?: Cta[]; center?: boolean }) {
-  if (!ctas?.length) return null;
+async function Buttons({ ctas: given, center }: { ctas?: Cta[]; center?: boolean }) {
+  const settings = await getSiteSettings();
+  const ctas = callCtas(given, settings.phone, settings.phoneHref);
+  if (!ctas.length) return null;
   return (
     <div className={`mt-8 flex flex-wrap gap-4 ${center ? "justify-center" : ""}`}>
       {ctas.map((c, i) => (
@@ -424,13 +427,13 @@ function CtaBand({ s, id, bg, join, settings }: { s: CtaSection; id: string; bg:
   );
 }
 
+/** Call-only contact block: the client takes requests by phone, is open 24/7 and has no public street address. */
 function Contact({ s, id, bg, join, settings }: { s: ContactSection; id: string; bg: BgKey; join: boolean; settings: SiteSettings }) {
-  const a = settings.address;
   const license = real(settings.license);
   return (
     <Band id={id} style={s.style} bg={bg} join={join}>
       {s.heading ? <Head heading={s.heading} style={s.style} /> : null}
-      <div className="grid items-start gap-10 lg:grid-cols-[1fr_1.15fr]">
+      <div className="grid items-start gap-10 lg:grid-cols-[1.15fr_1fr]">
         <div className="o-rich min-w-0">
           <h2 className="o-h3 !text-[var(--h)]">{settings.name}</h2>
           <p>
@@ -444,11 +447,6 @@ function Contact({ s, id, bg, join, settings }: { s: ContactSection; id: string;
               {settings.email}
             </a>
           </p>
-          <address className="not-italic">
-            {a.street}
-            <br />
-            {a.city}, {a.region} {a.postalCode}
-          </address>
           <dl className="grid grid-cols-[auto_1fr] gap-x-4 font-semibold">
             {settings.hours.map((h) => (
               <div key={h.label} className="contents">
@@ -474,19 +472,17 @@ function Contact({ s, id, bg, join, settings }: { s: ContactSection; id: string;
             </>
           ) : null}
         </div>
-        {s.form ? (
-          <div id="estimate" className="bg-white p-6 text-body sm:p-8">
-            <h2 className="mb-1 font-old text-2xl font-semibold uppercase text-old-navy">Request an Inspection</h2>
-            <p className="mb-6 text-[0.95rem]">Tell us what you are seeing or hearing and we will get back to you.</p>
-            <LeadForm phone={settings.phone} phoneHref={settings.phoneHref} businessName={settings.name} />
-          </div>
-        ) : null}
-      </div>
-      {s.map && settings.mapEmbedUrl ? (
-        <div className="o-frame relative mt-10 h-[360px] overflow-hidden">
-          <iframe title={`Map of ${settings.name}`} src={settings.mapEmbedUrl} className="absolute inset-0 h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+        <div className="order-first bg-white p-6 text-center text-body sm:p-8">
+          <p className="font-old text-lg font-semibold uppercase text-old-navy">Call us, open 24/7</p>
+          <PhoneButton cta={{ label: settings.phone.replace(/[()]/g, "").replace(" ", "-"), href: settings.phoneHref }} className="mt-5" />
+          {settings.hours.map((h) => (
+            <p key={h.label} className="mt-5 font-semibold text-old-navy">
+              {h.label} {h.value}
+            </p>
+          ))}
+          <p className="mt-2 text-[0.95rem]">{settings.serviceAreaText}</p>
         </div>
-      ) : null}
+      </div>
     </Band>
   );
 }

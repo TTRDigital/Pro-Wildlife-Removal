@@ -1,12 +1,13 @@
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, Phone } from "lucide-react";
 import type { ContactSection as Contact, SiteSettings } from "@/lib/types";
-import { LeadForm } from "@/components/forms/LeadForm";
 import { real } from "@/lib/placeholders";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
-/** Contact details, office hours, county phone lines, map and (optionally) the estimate form. */
+/**
+ * Call-only contact block (the client takes requests by phone, has no public street address and is open 24/7):
+ * a big tap-to-call card with the hours and service area, beside the email, hours and county phone lines.
+ */
 export function ContactSection({ section: s, settings }: { section: Contact; settings: SiteSettings }) {
-  const a = settings.address;
   const license = real(settings.license);
   const info = (
     <div className="card p-8" data-reveal>
@@ -30,16 +31,6 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
           <a href={`mailto:${settings.email}`} className="self-center break-all font-semibold text-navy hover:text-blue-deep">
             {settings.email}
           </a>
-        </li>
-        <li className="flex gap-3">
-          <span className="ico h-10 w-10">
-            <MapPin className="h-5 w-5" strokeWidth={2} aria-hidden="true" />
-          </span>
-          <address className="self-center not-italic">
-            {a.street}
-            <br />
-            {a.city}, {a.region} {a.postalCode}
-          </address>
         </li>
         <li className="flex gap-3">
           <span className="ico h-10 w-10">
@@ -76,25 +67,26 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
   return (
     <SectionShell tone={s.tone} id="contact">
       <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />
-      <div className={`grid items-start gap-8 ${s.form ? "lg:grid-cols-[1fr_1.15fr]" : "lg:grid-cols-2"}`}>
-        {info}
-        {s.form ? (
-          <div id="estimate" className="card p-6 sm:p-8" data-reveal>
-            <h3 className="mb-1 font-display text-h3 font-semibold text-navy">Request an inspection</h3>
-            <p className="mb-6 text-[0.95rem]">Tell us what you are seeing or hearing and we will get back to you.</p>
-            <LeadForm phone={settings.phone} phoneHref={settings.phoneHref} businessName={settings.name} />
-          </div>
-        ) : s.map && settings.mapEmbedUrl ? (
-          <div className="card relative h-[380px] overflow-hidden lg:h-full lg:min-h-[460px]" data-reveal>
-            <iframe title={`Map of ${settings.name}`} src={settings.mapEmbedUrl} className="absolute inset-0 h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-          </div>
-        ) : null}
-      </div>
-      {s.form && s.map && settings.mapEmbedUrl ? (
-        <div className="card relative mt-8 h-[360px] overflow-hidden" data-reveal>
-          <iframe title={`Map of ${settings.name}`} src={settings.mapEmbedUrl} className="absolute inset-0 h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+      <div className="grid items-start gap-8 lg:grid-cols-2">
+        <div className="card flex flex-col items-center p-8 text-center sm:p-10" data-reveal>
+          <p className="font-display text-sm font-semibold uppercase tracking-[1.5px] text-blue-deep">Call us, open 24/7</p>
+          <a
+            href={settings.phoneHref}
+            data-track="click_to_call"
+            className="mt-3 inline-flex min-h-14 items-center gap-3 font-display text-[clamp(1.75rem,1.3rem+2vw,2.5rem)] font-bold text-navy hover:text-blue-deep"
+          >
+            <Phone className="h-8 w-8 flex-none" strokeWidth={2} aria-hidden="true" />
+            {settings.phone}
+          </a>
+          {settings.hours.map((h) => (
+            <p key={h.label} className="mt-2 font-semibold text-navy">
+              {h.label} {h.value}
+            </p>
+          ))}
+          <p className="mt-3 max-w-[460px] text-[0.95rem]">{settings.serviceAreaText}</p>
         </div>
-      ) : null}
+        {info}
+      </div>
       <CtaRow ctas={s.ctas} />
     </SectionShell>
   );

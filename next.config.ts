@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 /*
- * Hosted on Vercel. Every page is still prerendered at build time
- * (generateStaticParams); the only server code is the form handler at
- * app/api/lead/route.ts.
+ * Hosted on Vercel. Every page is prerendered at build time
+ * (generateStaticParams); the only server code is the draft preview at
+ * app/api/preview. There are no forms: the client takes requests by phone.
  *
  * - images: WebP copies made before the build by scripts/optimize-images.mjs,
  *   picked by lib/image-loader.ts (no Vercel image optimization needed)

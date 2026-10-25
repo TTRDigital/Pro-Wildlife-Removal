@@ -12136,7 +12136,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Monday – Saturday: 8AM – 7PM\nSunday: Closed",
+          "text": "Open 24 hours a day, 7 days a week",
           "marks": []
          }
         ],
@@ -32760,20 +32760,6 @@ export const fallbackLocations: Location[] = [
       "style": "normal",
       "listItem": "bullet",
       "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Address: 1324 Seven Springs Blvd, Trinity, FL 34655",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
       "markDefs": [
        {
         "_type": "link",
@@ -32812,52 +32798,8 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Monday to Friday: 8:00 AM – 7:00 PM",
+        "text": "Open 24 hours a day, 7 days a week",
         "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Saturday: 8:00 AM – 2:00 PM",
-        "marks": [
-         "l0"
-        ]
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Sunday: Closed",
-        "marks": [
-         "l0"
-        ]
        }
       ]
      }
@@ -40603,20 +40545,6 @@ export const fallbackLocations: Location[] = [
       "style": "normal",
       "listItem": "bullet",
       "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Address: 1324 Seven Springs Blvd, Trinity, FL 34655",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
       "markDefs": [
        {
         "_type": "link",
@@ -40655,52 +40583,8 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Monday to Friday: 8:00 AM – 7:00 PM",
+        "text": "Open 24 hours a day, 7 days a week",
         "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Saturday: 8:00 AM – 2:00 PM",
-        "marks": [
-         "l0"
-        ]
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Sunday: Closed",
-        "marks": [
-         "l0"
-        ]
        }
       ]
      }

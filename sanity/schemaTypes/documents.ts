@@ -29,15 +29,10 @@ export const siteSettings = defineType({
     defineField({ name: "tollFree", title: "Vanity / toll-free number", type: "string" }),
     defineField({ name: "email", type: "string" }),
     defineField({
-      name: "address",
-      type: "object",
-      fields: [defineField({ name: "street", type: "string" }), defineField({ name: "city", type: "string" }), defineField({ name: "region", title: "State", type: "string" }), defineField({ name: "postalCode", title: "ZIP", type: "string" })],
-    }),
-    defineField({
       name: "hours",
       type: "array",
       of: [defineArrayMember({ name: "hoursRow", type: "object", fields: [defineField({ name: "label", title: "Day(s)", type: "string" }), defineField({ name: "value", title: "Hours", type: "string" })], preview: { select: { title: "label", subtitle: "value" } } })],
-      description: "e.g. Monday – Friday / 8AM – 7PM",
+      description: "e.g. Open / 24 hours a day, 7 days a week, or Monday – Friday / 8AM – 7PM",
     }),
     defineField({ name: "announcement", title: "Strip under the header", type: "string" }),
     defineField({ name: "serviceAreaText", title: "Service area line", type: "text", rows: 2 }),

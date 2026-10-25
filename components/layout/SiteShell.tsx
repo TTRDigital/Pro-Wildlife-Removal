@@ -14,7 +14,6 @@ import { ReviewBar } from "@/components/layout/ReviewBar";
 import { PreviewBanner } from "@/components/layout/PreviewBanner";
 import { isPreview } from "@/lib/sanity/fetch";
 import { HydrationSignal } from "@/components/layout/HydrationSignal";
-import { AttributionCapture } from "@/components/forms/AttributionCapture";
 
 /** Same menu as the live site: About (about, how we work, blog), Service Area (counties), Services (removal pages). */
 function buildNav(services: Service[], locations: Location[]): NavItem[] {
@@ -64,7 +63,6 @@ export async function SiteShell({ children }: { children: ReactNode }) {
       <Footer settings={settings} services={services} />
       <BackToTop />
       <ChatWidget />
-      <AttributionCapture />
       <HydrationSignal />
       <Analytics preview={preview} />
       {preview ? <PreviewBanner /> : null}

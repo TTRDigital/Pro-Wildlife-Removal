@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import { getSiteSettings } from "@/lib/content";
+import { callCtas } from "@/lib/cta";
 import type { Cta, Rich, Tone } from "@/lib/types";
 import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
@@ -19,8 +21,10 @@ export function SectionHeader({ eyebrow, heading, highlight, intro, align = "cen
   );
 }
 
-export function CtaRow({ ctas, align = "center", className = "mt-12" }: { ctas?: Cta[]; align?: "center" | "left"; className?: string }) {
-  if (!ctas?.length) return null;
+export async function CtaRow({ ctas: given, align = "center", className = "mt-12" }: { ctas?: Cta[]; align?: "center" | "left"; className?: string }) {
+  const settings = await getSiteSettings();
+  const ctas = callCtas(given, settings.phone, settings.phoneHref);
+  if (!ctas.length) return null;
   return (
     <div className={`flex flex-col gap-4 sm:flex-row sm:flex-wrap ${align === "center" ? "sm:justify-center" : ""} ${className}`}>
       {ctas.map((c, i) => (

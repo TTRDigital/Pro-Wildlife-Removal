@@ -1,5 +1,6 @@
 import type { Cta, Hero, PageContent, SiteSettings } from "@/lib/types";
 import { getLocations, getPosts, getServices, getTestimonials } from "@/lib/content";
+import { callCtas } from "@/lib/cta";
 import { webPageSchema } from "@/lib/schema";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 import { JsonLd } from "@/components/ui/JsonLd";
@@ -16,7 +17,7 @@ export function heroCtas(hero: Hero, settings: SiteSettings, primary?: Cta): Cta
   const main = primary ?? own.find((c) => !c.href.startsWith("tel:")) ?? settings.headerCta;
   const tel = own.find((c) => c.href.startsWith("tel:"));
   const phone = tel ? { label: /\d{3}.*\d{4}/.test(tel.label) ? tel.label : settings.phone, href: tel.href } : { label: settings.phone, href: settings.phoneHref };
-  return [main, phone];
+  return callCtas([main, phone], settings.phone, settings.phoneHref);
 }
 
 async function oldDesignData(settings: SiteSettings): Promise<ClassicData> {

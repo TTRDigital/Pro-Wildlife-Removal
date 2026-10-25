@@ -95,8 +95,8 @@ export type AreasSection = SectionBase & {
   groups: { title?: string; href?: string; items: { label: string; href?: string }[] }[];
   note?: string;
 };
-export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string; showForm?: boolean };
-export type ContactSection = SectionBase & { _type: "contactSection"; map?: boolean; form?: boolean };
+export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string };
+export type ContactSection = SectionBase & { _type: "contactSection" };
 export type ServicesSection = SectionBase & { _type: "servicesSection"; group?: "removal" | "control" | "tampa" | "all" };
 export type LocationsSection = SectionBase & { _type: "locationsSection" };
 export type PostsSection = SectionBase & { _type: "postsSection"; limit?: number };
@@ -162,7 +162,6 @@ export type SiteSettings = {
   phoneHref: string;
   tollFree?: string;
   email: string;
-  address: { street: string; city: string; region: string; postalCode: string };
   hours: Hours[];
   announcement: string;
   serviceAreaText: string;

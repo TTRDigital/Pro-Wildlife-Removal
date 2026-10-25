@@ -43,7 +43,7 @@ const PAGE = `design, ${HERO}, ${SECTIONS}, ${SEO}`;
 
 export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
   const cms = await sanityFetch<Partial<SiteSettings>>(
-    `*[_id == "siteSettings"][0]{ name, phone, tollFree, email, address, hours[]{ label, value }, announcement, serviceAreaText, license, googleRating, reviewCount, reviewsUrl, mapEmbedUrl,
+    `*[_id == "siteSettings"][0]{ name, phone, tollFree, email, hours[]{ label, value }, announcement, serviceAreaText, license, googleRating, reviewCount, reviewsUrl, mapEmbedUrl,
       social[]{ network, href }, countyLines[]{ county, phone, href }, headerCta{ label, href }, defaultCta{ heading, highlight, text }, "logo": logo${IMG} }`,
     {},
     ["siteSettings"],

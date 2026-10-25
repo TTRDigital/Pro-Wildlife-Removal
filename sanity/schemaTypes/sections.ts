@@ -135,8 +135,7 @@ export const ctaSection = defineType({
     highlight,
     defineField({ name: "text", type: "richText" }),
     defineField({ name: "area", title: "Service area line", type: "string", description: "Leave empty to use the one from Site settings." }),
-    defineField({ name: "image", type: "altImage", description: "Without a photo, the inspection form is shown." }),
-    defineField({ name: "showForm", title: "Show the form instead of the photo", type: "boolean" }),
+    defineField({ name: "image", type: "altImage", description: "Without a photo, a call card is shown." }),
     ctas,
     style,
   ],
@@ -148,7 +147,7 @@ export const contactSection = defineType({
   title: "Contact details",
   type: "object",
   icon: PhoneCall,
-  fields: [...head, defineField({ name: "form", title: "Show the inspection form", type: "boolean" }), defineField({ name: "map", title: "Show the map", type: "boolean" }), ctas],
+  fields: [...head, ctas],
   preview: titled("Contact details"),
 });
 

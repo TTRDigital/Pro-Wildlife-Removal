@@ -606,7 +606,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Monday – Friday: 8AM – 7PM\nSaturday: 8AM – 2PM\nSunday: Closed",
+        "text": "Open 24 hours a day, 7 days a week",
         "marks": [
          "strong"
         ]
@@ -1452,20 +1452,6 @@ export const fallbackPages = {
       "style": "normal",
       "listItem": "bullet",
       "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Address: 1324 Seven Springs Blvd, Trinity, FL 34655",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
       "markDefs": [
        {
         "_type": "link",
@@ -1504,52 +1490,8 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Monday to Friday: 8:00 AM – 7:00 PM",
+        "text": "Open 24 hours a day, 7 days a week",
         "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Saturday: 8:00 AM – 2:00 PM",
-        "marks": [
-         "l0"
-        ]
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Sunday: Closed",
-        "marks": [
-         "l0"
-        ]
        }
       ]
      }
@@ -2093,20 +2035,6 @@ export const fallbackPages = {
       "style": "normal",
       "listItem": "bullet",
       "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Address: 1324 Seven Springs Blvd, Trinity, FL 34655",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
       "markDefs": [
        {
         "_type": "link",
@@ -2145,52 +2073,8 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Monday to Friday: 8:00 AM – 7:00 PM",
+        "text": "Open 24 hours a day, 7 days a week",
         "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Saturday: 8:00 AM – 2:00 PM",
-        "marks": [
-         "l0"
-        ]
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "tel:(727)%20594-7705"
-       }
-      ],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Sunday: Closed",
-        "marks": [
-         "l0"
-        ]
        }
       ]
      },
@@ -4011,21 +3895,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Monday – Saturday: 8AM – 7PM",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Saturday: 8AM – 2PM Sunday: Closed",
+        "text": "Open 24 hours a day, 7 days a week",
         "marks": [
          "strong"
         ]
@@ -4047,8 +3917,6 @@ export const fallbackPages = {
    },
    {
     "_type": "contactSection",
-    "form": true,
-    "map": true,
     "style": {
      "bg": "beige",
      "heading": "navy",
@@ -4096,7 +3964,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal is located at:",
+        "text": "Pro Wildlife Removal serves the Tampa Bay area of Florida. You can reach us at:",
         "marks": []
        }
       ],
@@ -4108,7 +3976,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "1324 Seven Springs Blvd., Suite 178, Trinity, FL 34655.\nFlorida, United States 727-594-7705",
+        "text": "727-594-7705",
         "marks": []
        }
       ],
