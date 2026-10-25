@@ -6,7 +6,7 @@ import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 export const groupLabels: Record<Service["group"], string> = {
   removal: "Wildlife removal",
-  attic: "Animals in the attic",
+  attic: "In the attic",
   control: "Wildlife control",
   tampa: "Tampa services",
 };

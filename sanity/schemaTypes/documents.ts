@@ -99,7 +99,7 @@ export const service = defineType({
   fields: [
     defineField({ name: "title", title: "Name", type: "string", group: "content", validation: (r) => r.required() }),
     defineField({ name: "slug", title: "URL", type: "slug", group: "content", description: "The page lives at /services/<this>/. Do not change it after launch.", options: { source: "title" }, validation: (r) => r.required() }),
-    defineField({ name: "group", type: "string", group: "content", options: { list: [{ title: "Wildlife removal", value: "removal" }, { title: "Animals in the attic", value: "attic" }, { title: "Wildlife control", value: "control" }, { title: "Tampa services", value: "tampa" }] }, validation: (r) => r.required() }),
+    defineField({ name: "group", type: "string", group: "content", options: { list: [{ title: "Wildlife removal", value: "removal" }, { title: "In the attic", value: "attic" }, { title: "Wildlife control", value: "control" }, { title: "Tampa services", value: "tampa" }] }, validation: (r) => r.required() }),
     defineField({ name: "animal", type: "string", group: "content" }),
     defineField({ name: "order", type: "number", group: "content" }),
     defineField({ name: "summary", title: "Card text", type: "text", rows: 2, group: "content" }),
