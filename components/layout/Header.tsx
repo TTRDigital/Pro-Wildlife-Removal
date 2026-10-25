@@ -8,7 +8,15 @@ import { ChevronDown, Menu, Phone, X } from "lucide-react";
 import type { CountyLine, Img } from "@/lib/types";
 import { SocialIcon } from "@/components/ui/SocialIcon";
 
-export type NavItem = { label: string; href: string; children?: { label: string; href: string }[] };
+export type NavLink = { label: string; href: string; group?: string };
+export type NavItem = { label: string; href: string; children?: NavLink[] };
+
+/** Sub-links in their groups (e.g. Counties, Cities), in order; links without a group come last. */
+function groups(links: NavLink[]) {
+  const named = [...new Set(links.map((l) => l.group).filter((g): g is string => Boolean(g)))].map((g) => ({ title: g, links: links.filter((l) => l.group === g) }));
+  const rest = links.filter((l) => !l.group);
+  return { named, rest };
+}
 
 /**
  * The live site's header: navy top bar (social links, county phone lines,
@@ -95,7 +103,36 @@ export function Header({ nav, phone, phoneHref, logo, social, countyLines }: { n
                     {item.label}
                     {item.children ? <ChevronDown className="h-4 w-4" strokeWidth={2.25} aria-hidden="true" /> : null}
                   </Link>
-                  {item.children ? (
+                  {item.children?.some((c) => c.group) ? (
+                    <div className="invisible absolute top-full left-1/2 z-50 -translate-x-1/2 opacity-0 transition-opacity duration-150 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100">
+                      {/* Two columns: the first group (counties), then the second (cities, in two short columns). */}
+                      <div className="grid w-[600px] grid-cols-[200px_1fr] bg-old-navy py-2 text-xs tracking-[0.6px]">
+                        {groups(item.children).named.map((g, gi) => (
+                          <div key={g.title} className={gi ? "border-l border-white/10" : ""}>
+                            <p className="px-[15px] pt-2 pb-1 font-semibold text-old-blue">{g.title}</p>
+                            <ul className={gi ? "columns-2 gap-0" : ""}>
+                              {g.links.map((c) => (
+                                <li key={c.href} className="break-inside-avoid">
+                                  <Link href={c.href} className={`block px-[15px] py-2 leading-snug text-white hover:bg-white/10 ${pathname === c.href ? "bg-white/10" : ""}`}>
+                                    {c.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                        <ul className="col-span-2 mt-1 border-t border-white/10 pt-1">
+                          {groups(item.children).rest.map((c) => (
+                            <li key={c.href}>
+                              <Link href={c.href} className="block px-[15px] py-2 leading-snug text-white hover:bg-white/10">
+                                {c.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ) : item.children ? (
                     <div className="invisible absolute top-full left-0 z-50 opacity-0 transition-opacity duration-150 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100">
                       <ul className="w-[200px] bg-old-navy py-1 text-xs tracking-[0.6px]">
                         {item.children.map((c) => (
@@ -142,8 +179,9 @@ export function Header({ nav, phone, phoneHref, logo, social, countyLines }: { n
                     </div>
                     {sub === item.label ? (
                       <ul className="pb-2 pl-4 text-sm">
-                        {item.children.map((c) => (
+                        {item.children.map((c, i) => (
                           <li key={c.href}>
+                            {c.group && c.group !== item.children?.[i - 1]?.group ? <p className="pt-3 pb-1 text-xs font-semibold text-old-blue">{c.group}</p> : null}
                             <Link href={c.href} onClick={() => setOpen(false)} className="flex min-h-11 items-center">
                               {c.label}
                             </Link>

@@ -5,7 +5,7 @@ import { countyGroups } from "../areas.ts";
 
 /*
  * Dead animal removal. Target search: "dead animal removal Tampa".
- * The slug keeps the old "tampla" spelling until Wade checks clicks and decides on a redirect.
+ * The old dead-animal-tampla-fl URL 301s here (lib/service-urls.ts).
  */
 
 const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
@@ -13,7 +13,7 @@ const CDC_DISPOSAL = "https://www.cdc.gov/natural-disasters/safety/safety-guidel
 const FL_DOH_RABIES = "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html";
 
 export const deadAnimalRemoval: Service = {
-  slug: "dead-animal-tampla-fl",
+  slug: "dead-animal-removal",
   title: "Dead Animal Removal",
   group: "removal",
   animal: "dead-animal",

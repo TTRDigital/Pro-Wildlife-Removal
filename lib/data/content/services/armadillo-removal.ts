@@ -6,14 +6,14 @@ import { countyGroups } from "../areas.ts";
 /*
  * Armadillo removal. Target search: "armadillo removal Tampa" (Polk County also searches for it).
  * Replaces today's three armadillo pages (armadillo-removal-2, armadillo-control,
- * armadillo-removal-tampa). The slug stays armadillo-removal-2 until Wade decides on a clean URL.
+ * armadillo-removal-tampa); those 301 here (lib/service-urls.ts).
  */
 
 const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
 const FLYER = "https://myfwc.com/media/2hshpfdc/living-with-armadillos.pdf";
 
 export const armadilloRemoval: Service = {
-  slug: "armadillo-removal-2",
+  slug: "armadillo-removal",
   title: "Armadillo Removal",
   group: "removal",
   animal: "armadillo",

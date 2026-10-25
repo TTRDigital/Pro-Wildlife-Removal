@@ -38,7 +38,7 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
     { county: "Polk County", phone: "863-208-5050", href: "/about-us/service-area/wildlife-removal-polk-county/" },
     { county: "Manatee County", phone: "727-594-7705" },
   ],
-  headerCta: { label: "Request an Inspection", href: "/contact-us/" },
+  headerCta: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   // From the home page's closing section on the live site.
   defaultCta: {
     heading: "Need Help? Reach Out To Us.",
