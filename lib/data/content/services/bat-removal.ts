@@ -27,7 +27,6 @@ export const batRemoval: Service = {
     text: p("Bats in the attic, soffit or tile roof, moved out the legal way: one-way doors, then every gap sealed and the guano cleaned up."),
     image: images.batRemoval2,
     badges: ["Open 24/7", "Exclusion only, never poison", "Follows FWC bat rules"],
-    ctas: [CALL],
   },
   sections: [
     {

@@ -24,7 +24,6 @@ export const home: PageContent = {
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
     badges: ["Open 24/7", "9 counties", "Calls answered day and night"],
-    ctas: [CALL],
   },
   sections: [
     {

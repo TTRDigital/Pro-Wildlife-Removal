@@ -28,7 +28,6 @@ export const ratRemoval: Service = {
     text: p("Scratching in the ceiling at night? We find how the rats get in, close every gap, trap the ones still inside and clean the attic."),
     image: images.ratRemoval2,
     badges: ["Open 24/7", "Entry points sealed", "Attic cleanup"],
-    ctas: [CALL],
   },
   sections: [
     {

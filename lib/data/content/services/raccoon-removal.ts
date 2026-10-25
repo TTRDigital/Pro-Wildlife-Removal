@@ -27,7 +27,6 @@ export const raccoonRemoval: Service = {
     text: p("Thumping in the attic or a torn soffit? We get the raccoons out, babies included, repair the way in and clean up what they left."),
     image: images.raccoonRemoval,
     badges: ["Open 24/7", "Mothers and young kept together", "Entry repaired and sealed"],
-    ctas: [CALL],
   },
   sections: [
     {
