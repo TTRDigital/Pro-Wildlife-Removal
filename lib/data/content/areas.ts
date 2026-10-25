@@ -73,10 +73,12 @@ export const countyGroups: AreasSection["groups"] = [
   },
   {
     title: "Manatee County: 727-594-7705",
-    items: [{ label: "Bradenton" }, { label: "Palmetto" }, { label: "Parrish" }],
+    href: "/about-us/service-area/wildlife-removal-manatee-county-fl/",
+    items: [{ label: "Bradenton" }, { label: "Palmetto" }, { label: "Anna Maria Island" }],
   },
   {
     title: "Osceola County: 727-594-7705",
+    href: "/about-us/service-area/wildlife-removal-osceola-county-fl/",
     items: [{ label: "Kissimmee" }, { label: "St. Cloud" }],
   },
 ];
