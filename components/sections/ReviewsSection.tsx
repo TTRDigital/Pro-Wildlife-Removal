@@ -1,6 +1,6 @@
 import type { ReviewsSection as Reviews, SiteSettings, Testimonial } from "@/lib/types";
 import { Stars } from "@/components/ui/Stars";
-import { initials } from "@/lib/text";
+import { formatDate, initials } from "@/lib/text";
 import { RatingChip } from "./PageHero";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
@@ -39,7 +39,11 @@ export function ReviewsSection({ section: s, testimonials, settings, limit = 3 }
               </span>
               <div className="min-w-0">
                 <p className="font-display text-base font-bold leading-snug text-navy">{t.name}</p>
-                {t.source ? <p className="mt-0.5 font-display text-xs font-semibold uppercase tracking-[1px] text-meta">{t.source} review</p> : null}
+                {t.source || t.date ? (
+                  <p className="mt-0.5 font-display text-xs font-semibold tracking-[0.5px] text-meta">
+                    {[t.source ? `${t.source} review` : "", t.date ? formatDate(t.date) : ""].filter(Boolean).join(" · ")}
+                  </p>
+                ) : null}
               </div>
             </div>
           </li>
