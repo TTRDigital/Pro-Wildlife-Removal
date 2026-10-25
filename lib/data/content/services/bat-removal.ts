@@ -43,7 +43,7 @@ export const batRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs you have bats",
-      intro: p("A colony can live in a roof for months before anyone notices. These are the clues, roughly in the order people spot them."),
+      intro: p("A colony can live in a roof for months before anyone notices. These are the clues, roughly in the order people spot them. More on [bats in the attic](/services/bats-in-attic/)."),
       variant: "icon",
       columns: 3,
       cards: [

@@ -44,7 +44,7 @@ export const squirrelRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs you have squirrels",
-      intro: p("Squirrels keep daylight hours, which is the easiest way to tell them from rats in the attic."),
+      intro: p("Squirrels keep daylight hours, which is the easiest way to tell them from rats in the attic. More on [squirrels in the attic](/services/squirrels-in-attic/)."),
       variant: "icon",
       columns: 3,
       cards: [
@@ -266,6 +266,7 @@ export const squirrelRemoval: Service = {
     { title: "FWC: Squirrel profile (gray squirrel active by day; breeding up to twice a year; litters average one to four; sometimes nest in attics)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/squirrels/" },
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state; black faces, white noses and ears)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
     { title: "FWC: Trap types and trapping rules (24-hour inspections; from Dec 31, 2026: remote-monitored traps physically checked within 12 hours of notification, no animal in a trap longer than 24 hours, relocate or kill within 12 hours of inspection, free Wildlife Trapping Permit after trapping education)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/" },
+    { title: "UF/IFAS Gardening Solutions: Cavity dwellers (southern flying squirrels are nocturnal, heard in the first hours after sunset)", url: "https://gardeningsolutions.ifas.ufl.edu/design/gardening-with-wildlife/cavity-dwellers/" },
   ],
   clientQuestions: [
     "Squirrels: one-way doors, cage traps or both? How often are traps checked? Where are squirrels released?",

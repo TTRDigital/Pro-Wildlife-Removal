@@ -43,7 +43,7 @@ export const raccoonRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs you have raccoons",
-      intro: p("Raccoons are big, strong and not subtle. If one is living in your house, you'll usually know."),
+      intro: p("Raccoons are big, strong and not subtle. If one is living in your house, you'll usually know. More on [raccoons in the attic](/services/raccoons-in-attic/)."),
       variant: "icon",
       columns: 3,
       cards: [

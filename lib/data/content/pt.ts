@@ -50,3 +50,6 @@ export const h3 = (text: string): Rich => [block(text, "h3")] as Rich;
 export const rich = (...parts: Rich[]): Rich => parts.flat();
 /** One FAQ item; the answer is one or more paragraphs. */
 export const faq = (question: string, ...answer: string[]): Faq => ({ question, answer: p(...answer) });
+/** Table; the first row is the header. */
+export const table = (...rows: string[][]): Rich =>
+  [{ _type: "table" as const, _key: key(), hasHeader: true, rows: rows.map((cells) => ({ _type: "row" as const, _key: key(), cells })) }] as Rich;

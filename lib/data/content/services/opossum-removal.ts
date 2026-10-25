@@ -45,7 +45,7 @@ export const opossumRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs you have an opossum",
-      intro: p("Opossums are mostly out at night, so the signs usually show up by morning."),
+      intro: p("Opossums are mostly out at night, so the signs usually show up by morning. More on [opossums in the attic](/services/opossums-in-attic/)."),
       variant: "icon",
       columns: 3,
       cards: [

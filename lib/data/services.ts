@@ -10,6 +10,11 @@ import { opossumRemoval } from "./content/services/opossum-removal.ts";
 import { armadilloRemoval } from "./content/services/armadillo-removal.ts";
 import { beeRemoval } from "./content/services/bee-removal.ts";
 import { deadAnimalRemoval } from "./content/services/dead-animal-removal.ts";
+import { ratsInAttic } from "./content/attic/rats-in-attic.ts";
+import { batsInAttic } from "./content/attic/bats-in-attic.ts";
+import { raccoonsInAttic } from "./content/attic/raccoons-in-attic.ts";
+import { squirrelsInAttic } from "./content/attic/squirrels-in-attic.ts";
+import { opossumsInAttic } from "./content/attic/opossums-in-attic.ts";
 
 export const fallbackServices: Service[] = [
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/services/bat-removal.ts
@@ -30,6 +35,12 @@ export const fallbackServices: Service[] = [
  beeRemoval,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/services/dead-animal-removal.ts
  deadAnimalRemoval,
+ // "In the attic" pages (Cole, Oct 2026): lib/data/content/attic/
+ ratsInAttic,
+ batsInAttic,
+ raccoonsInAttic,
+ squirrelsInAttic,
+ opossumsInAttic,
  {
   "slug": "bat-control",
   "title": "Bat Control",

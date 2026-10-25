@@ -44,7 +44,7 @@ export const ratRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs you have rats",
-      intro: p("Rats are active mostly at night, so most people never see one. They see what the rats leave behind."),
+      intro: p("Rats are active mostly at night, so most people never see one. They see what the rats leave behind. More on [rats in the attic](/services/rats-in-attic/)."),
       variant: "icon",
       columns: 3,
       cards: [
