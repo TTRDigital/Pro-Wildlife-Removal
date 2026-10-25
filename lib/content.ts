@@ -5,6 +5,7 @@ import { merge } from "@/lib/merge";
 import { fallbackSettings } from "@/lib/data/site";
 import { fallbackPages, type PageKey } from "@/lib/data/pages";
 import { fallbackServices } from "@/lib/data/services";
+import { movedServices } from "@/lib/service-urls";
 import { fallbackLocations } from "@/lib/data/locations";
 import { fallbackPosts } from "@/lib/data/posts";
 import { fallbackTestimonials } from "@/lib/data/testimonials";
@@ -88,7 +89,8 @@ export const getServices = cache(async (): Promise<Service[]> => {
     ["service"],
   );
   const list = mergeList(fallbackServices, cms, (s) => s.slug, (c): Service => ({ slug: c.slug ?? "", title: c.title ?? "", group: "removal", animal: "", order: 99, hero: { heading: c.title ?? "" }, sections: [], seo: { title: c.title ?? "", description: "" } }));
-  return list.sort((a, b) => a.order - b.order);
+  // One page per animal: retired copies stay out of the site, menus and sitemap (they 301, see next.config.ts).
+  return list.filter((s) => !(s.slug in movedServices)).sort((a, b) => a.order - b.order);
 });
 
 export async function getService(slug: string) {
