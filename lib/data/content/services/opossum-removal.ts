@@ -2,6 +2,7 @@ import { images } from "../../images.ts";
 import type { Service } from "../../../types";
 import { faq, p, rich, ul } from "../pt.ts";
 import { countyGroups } from "../areas.ts";
+import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
  * Opossum removal. Target searches: "opossum removal Tampa", "possum in attic".
@@ -110,7 +111,7 @@ export const opossumRemoval: Service = {
           "**Opossums are native and can be removed as nuisance animals** when they cause or are about to cause damage, threaten public safety, or cause a problem in, under or on a building (rule 68A-9.010).",
           "**Live traps must be checked at least once every 24 hours.** Any other animal caught by mistake has to be let go right there.",
           "**A trapped opossum can be released on site, released on 40+ acres in the same county with written permission, or humanely killed.** Nowhere else.",
-          "**Tighter trapping rules start December 31, 2026.** From then, FWC requires a free Wildlife Trapping Permit (earned through its trapping course), an in-person check within 12 hours of a camera alert, no more than 24 hours in a trap, and release or humane euthanasia within 12 hours of finding the animal.",
+          TRAP_RULES_2026,
           "**Steel traps need an FWC permit,** and shooting one at night needs a Gun and Light at Night Permit. Leave both to professionals.",
         ),
         p("Read FWC's [Living with Opossums](" + FLYER + ") and our posts on [opossums in attics](/blog/opossums-in-attics/) and [opossums under the house](/blog/opossums-under-house-crawl-space-removal/)."),
@@ -226,6 +227,7 @@ export const opossumRemoval: Service = {
     { title: "UF/IFAS EDIS WEC426 (UW471): Wildlife of Florida Factsheet, Virginia Opossum (most young born February to June, breeding through November; nocturnal; nearly immune to rabies; omnivores)", url: UW471 },
     { title: "FWC: Trap types and trapping rules (from Dec 31, 2026: free Wildlife Trapping Permit after trapping education; physical check within 12 hours of notification; no animal in a trap over 24 hours; relocate or kill within 12 hours of inspection)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources; wash bites, see a provider)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
+    TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
     "Opossums: one-way doors, live traps or both? Where are they released?",

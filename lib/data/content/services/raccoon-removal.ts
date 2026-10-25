@@ -2,6 +2,7 @@ import { images } from "../../images.ts";
 import type { Service } from "../../../types";
 import { faq, p, rich, ul } from "../pt.ts";
 import { countyGroups } from "../areas.ts";
+import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
  * Raccoon removal. Target search: "raccoon removal Tampa" (position 11 today).
@@ -144,6 +145,7 @@ export const raccoonRemoval: Service = {
           "**A trap can't sit for days.** Florida requires every trap to be inspected at least once every 24 hours, and an animal caught alive has to be released legally or humanely put down within 24 hours of capture or inspection.",
           "**Three legal outcomes, and only three.** Under Florida's nuisance wildlife rule (68A-9.010), a trapped raccoon may be released on the same property, released on at least 40 contiguous acres in the same county with the landowner's written permission, or humanely put down.",
           "**No park drop-offs.** Letting a raccoon go in a park, or on any land without the owner's written permission, is illegal. FWC's roundworm page goes further and says not to relocate raccoons at all.",
+          TRAP_RULES_2026,
           "**Don't feed them.** Florida rule 68A-4.001 bans putting out food or garbage in a way that attracts raccoons and creates, or is likely to create, a public nuisance. Pet food left out at night draws raccoons in.",
         ),
         p(
@@ -273,6 +275,7 @@ export const raccoonRemoval: Service = {
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     { title: "Purdue Extension: How do I properly relocate raccoons from my attic? (be absolutely sure the raccoon is out before excluding; it will likely try to get back in)", url: "https://www.purdue.edu/fnr/extension/question-how-do-i-properly-relocate-raccoons-in-my-attic/" },
     { title: "Washington Dept. of Fish and Wildlife: Evicting animals from buildings (don't seal if young are present; they will be separated from their mother)", url: "https://wdfw.wa.gov/species-habitats/living/nuisance-wildlife/evicting" },
+    TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
     "How do you handle a mother raccoon with kits (reunite by hand, heated box, one-way door, live trap)? Where do you release raccoons, and do you have written permission for any 40+ acre release sites?",

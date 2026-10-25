@@ -2,6 +2,7 @@ import { images } from "../images.ts";
 import type { PageContent } from "../../types";
 import { faq, p } from "./pt.ts";
 import { countyGroups } from "./areas.ts";
+import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "./notes.ts";
 
 /*
  * Home page. Target search: "wildlife removal Tampa Bay".
@@ -181,6 +182,7 @@ export const home: PageContent = {
         faq(
           "Can I trap and move the animal myself?",
           "Florida allows a property owner to trap many nuisance animals, but the rules are strict. Traps must be checked at least every 24 hours. A native animal can be released on the same property, or on land of at least 40 contiguous acres in the same county with the landowner's written permission. Non-native animals can't be released at all. Bats can't be trapped or relocated. Many people call us because of those rules.",
+          TRAP_RULES_2026,
         ),
         faq(
           "Do you seal the entry points?",
@@ -222,6 +224,7 @@ export const home: PageContent = {
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (roof rats live in trees and upper levels of homes; trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
     { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats: up to 6 litters a year)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
+    TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
     "What does the follow-up include (return visit, seal check, warranty on sealing) and for how long?",

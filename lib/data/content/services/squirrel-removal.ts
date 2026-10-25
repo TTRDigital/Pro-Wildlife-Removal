@@ -2,6 +2,7 @@ import { images } from "../../images.ts";
 import type { Service } from "../../../types";
 import { faq, p, rich, ul } from "../pt.ts";
 import { countyGroups } from "../areas.ts";
+import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
  * Squirrel removal. Target searches: "squirrel removal Tampa" (position 24 today), "squirrels in attic".
@@ -147,7 +148,7 @@ export const squirrelRemoval: Service = {
           "**Cage traps are allowed, and must be checked at least every 24 hours.** Any other animal caught by mistake has to be let go on the spot.",
           "**A trapped squirrel has three legal outcomes:** released on the same property, released on land of 40 acres or more in the same county with the owner's written permission, or humanely put down.",
           "**Fox squirrels are different.** These big, often black-faced squirrels are protected from hunting statewide, and the Big Cypress fox squirrel, a state-threatened subspecies, can't be trapped or removed without a permit. If you think yours is a fox squirrel, tell us when you call.",
-          "**New rules from December 31, 2026.** A trap watched by camera must be physically checked within 12 hours of an alert, no animal may stay in a trap longer than 24 hours, and a trapped animal must be relocated or humanely killed within 12 hours of that check. Anyone trapping will also need a free FWC Wildlife Trapping Permit, which requires FWC's trapping education course.",
+          TRAP_RULES_2026,
         ),
         p("Read FWC's [Living with Squirrels](" + FLYER + ") flyer, and our post on [why squirrels return after removal](/blog/why-squirrels-return-after-removal/)."),
       ),
@@ -267,6 +268,7 @@ export const squirrelRemoval: Service = {
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state; black faces, white noses and ears)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
     { title: "FWC: Trap types and trapping rules (24-hour inspections; from Dec 31, 2026: remote-monitored traps physically checked within 12 hours of notification, no animal in a trap longer than 24 hours, relocate or kill within 12 hours of inspection, free Wildlife Trapping Permit after trapping education)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/" },
     { title: "UF/IFAS Gardening Solutions: Cavity dwellers (southern flying squirrels are nocturnal, heard in the first hours after sunset)", url: "https://gardeningsolutions.ifas.ufl.edu/design/gardening-with-wildlife/cavity-dwellers/" },
+    TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
     "Squirrels: one-way doors, cage traps or both? How often are traps checked? Where are squirrels released?",

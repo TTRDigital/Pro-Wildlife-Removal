@@ -2,6 +2,7 @@ import { images } from "../../images.ts";
 import type { Service } from "../../../types";
 import { faq, p, rich, ul } from "../pt.ts";
 import { countyGroups } from "../areas.ts";
+import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
  * Armadillo removal. Target search: "armadillo removal Tampa" (Polk County also searches for it).
@@ -18,7 +19,7 @@ export const armadilloRemoval: Service = {
   group: "removal",
   animal: "armadillo",
   order: 7,
-  summary: "Armadillos digging up the lawn or burrowing under the patio, driveway or shed, trapped where Florida allows and kept out with buried fencing.",
+  summary: "Armadillos digging up the lawn or burrowing under the patio, driveway or shed, trapped at the burrow and released or handled the way Florida allows.",
   cardImage: images.armadilloRemoval2,
   design: "new",
   hero: {
@@ -27,7 +28,7 @@ export const armadilloRemoval: Service = {
     highlight: "Armadillo Removal",
     text: p("Holes all over the lawn, or a burrow under the patio or shed? We trap the armadillo and help you keep the next one from moving in."),
     image: images.armadilloRemoval2,
-    badges: ["Burrows and lawn damage", "Exclusion fencing"],
+    badges: ["Burrows and lawn damage", "Trapped at the burrow"],
   },
   sections: [
     {
@@ -35,9 +36,9 @@ export const armadilloRemoval: Service = {
       _key: "answer",
       heading: "How do I get rid of an armadillo in my yard in Florida?",
       text: p(
-        "Trap it at its burrow and keep others out with a fence buried 18 inches deep. Poison and repellents aren't an option: none is registered for armadillos in Florida. A trapped armadillo may only be released on site or on 40+ acres in the same county with written permission. Call (727) 594-7705.",
+        "Trap it at its active burrow, then make the yard less inviting. Poison baits are illegal, and no repellents or fumigants are registered for armadillos in Florida. A trapped armadillo must be released on site, on 40 or more contiguous acres in the same county with the landowner's written permission, or humanely put down. Call (727) 594-7705.",
       ),
-      points: ["Trap at the burrow", "Fence 18 inches deep", "No legal repellents", "Strict release rules"],
+      points: ["Trap at the burrow", "Poison baits illegal", "No registered repellents", "Strict release rules"],
     },
     {
       _type: "cardsSection",
@@ -69,7 +70,7 @@ export const armadilloRemoval: Service = {
         ul(
           "**Your slab and driveway.** A burrow under a driveway or patio can undermine it, according to UF/IFAS.",
           "**The lawn and beds.** Night after night of rooting can wreck sod and landscaping.",
-          "**Disease, handled with care.** The CDC says some armadillos naturally carry the bacteria that cause leprosy (Hansen's disease), but the risk is very low and most people who come into contact with them won't get it. Still, don't handle armadillos with bare hands.",
+          "**Disease, handled with care.** The CDC says some armadillos naturally carry the bacteria that cause leprosy (Hansen's disease), but the risk is very low and most people who come into contact with them are unlikely to get leprosy. As a simple precaution, wear gloves and don't handle armadillos bare-handed.",
         ),
       ),
       image: images.armadilloRemoval2,
@@ -87,7 +88,7 @@ export const armadilloRemoval: Service = {
         { number: "1", title: "Find the active burrow", text: p("We look for fresh digging and tracks to find the burrow the armadillo is using now, and its travel routes along fences and walls.") },
         { number: "2", title: "Set traps where it walks", text: p("Live traps go at the burrow entrance or along a fence or wall, with boards or fencing to guide the armadillo in. Traps are checked at least every 24 hours.", "[PLACEHOLDER: ask the client: confirm your trap setup for armadillos and how often a technician checks traps]") },
         { number: "3", title: "Release where the law allows", text: p("A caught armadillo may be released on the property, or on 40 contiguous acres or more in the same county with the landowner's written permission. Otherwise it must be humanely put down.") },
-        { number: "4", title: "Close the burrow and fence", text: p("Once the armadillo is gone, the burrow is filled and the area protected with fencing or wire buried below ground, so the next one can't dig under.") },
+        { number: "4", title: "Close the burrow", text: p("Once the armadillo is gone, the burrow is filled. UF/IFAS and FWC recommend buried fencing or wire to stop the next one digging in.", "[PLACEHOLDER: ask the client: do you install exclusion fencing or wire along foundations?]") },
       ],
     },
     {
@@ -101,7 +102,8 @@ export const armadilloRemoval: Service = {
           "**Armadillos are treated as native in Florida.** FWC considers them naturalized: they spread here from the southwest. That means they're covered by the nuisance wildlife rule, 68A-9.010.",
           "**Live traps must be checked at least once every 24 hours,** and any other animal caught has to be released on the spot.",
           "**Release only on site, or on 40+ contiguous acres in the same county with written permission.** On public land, you need the land manager's written permission. FWC adds that relocating armadillos is seldom biologically sound.",
-          "**No poison, no repellents.** UF/IFAS says poison baits are illegal and ineffective, and no chemical repellents or fumigants are registered for armadillos in Florida.",
+          "**No poison, no repellents.** UF/IFAS says poison baits are illegal, and no repellents or fumigants are registered for armadillos in Florida.",
+          TRAP_RULES_2026,
         ),
         p("Read FWC's [Living with Armadillos](" + FLYER + ")."),
       ),
@@ -136,7 +138,7 @@ export const armadilloRemoval: Service = {
         { title: "How many armadillos", text: p("One animal, or several using the same yard.") },
         { title: "Trapping time", text: p("Armadillos are slow to trap, so the number of visits varies.") },
         { title: "Where the burrow is", text: p("Open yard, or under a slab, shed or A/C pad.") },
-        { title: "Exclusion work", text: p("Buried fencing or wire along the foundation, patio or garden.") },
+        { title: "Prevention work", text: p("[PLACEHOLDER: ask the client: confirm whether you install buried fencing or wire, so this cost factor can stay]") },
       ],
       outro: p("[PLACEHOLDER: ask the client: is the inspection free, and can the site show a price range for armadillo removal?]"),
     },
@@ -163,7 +165,7 @@ export const armadilloRemoval: Service = {
       items: [
         faq(
           "Can I get leprosy from an armadillo?",
-          "It's possible but very unlikely. The CDC says some armadillos naturally carry the bacteria, but the risk is very low and most people who come into contact with armadillos won't get leprosy. Wear gloves and don't handle them.",
+          "It's possible but very unlikely. The CDC says some armadillos naturally carry the bacteria, but the risk is very low and most people who come into contact with armadillos are unlikely to get leprosy. As a simple precaution, wear gloves if you ever have to touch one.",
         ),
         faq(
           "Why is an armadillo digging up my lawn?",
@@ -212,7 +214,7 @@ export const armadilloRemoval: Service = {
   seo: {
     title: "Armadillo Removal in Tampa Bay | Armadillo Trapping | Pro Wildlife Removal",
     description:
-      "Armadillo digging up the lawn or burrowing under your patio, driveway or shed? Armadillo trapping and exclusion fencing in Tampa Bay and 9 Florida counties. Call 24/7: (727) 594-7705.",
+      "Armadillo digging up the lawn or burrowing under your patio, driveway or shed? Armadillo trapping and Florida's rules for homeowners in Tampa Bay and 9 counties. Call 24/7: (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Armadillos flyer, Dec 2025 (naturalized native; several burrows per acre; holes up to a foot across; mostly nocturnal, poor eyesight, eat grubs, spiders, cockroaches; less water and fertilizer, morning irrigation; fence 2 ft high, 18 in deep; fermenting fruit; light or radio at burrow; 68A-9.010; 24-hour checks; release on site or 40+ contiguous acres same county with written permission; removing one doesn't stop others)", url: FLYER },
@@ -221,6 +223,7 @@ export const armadilloRemoval: Service = {
     { title: "UF/IFAS EDIS WEC411 (UW456): Wildlife of Florida Factsheet, Nine-banded Armadillo (burrows up to 7 ft deep and 20 ft long; about ten burrows; breed in summer, give birth in spring; mostly nocturnal)", url: "https://ask.ifas.ufl.edu/publication/UW456" },
     { title: "UF/IFAS EDIS WEC317 (UW362): Baiting the Nine-Banded Armadillo (very short perceptual distance; trap placement matters more than bait; near burrows, along fences, with guiding boards)", url: "https://ask.ifas.ufl.edu/publication/UW362" },
     { title: "CDC: About leprosy (some armadillos naturally infected; risk very low)", url: "https://www.cdc.gov/leprosy/about/index.html" },
+    TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
     "Armadillos: your trap setup and how often traps are checked? Do you install exclusion fencing or wire along foundations? Where are armadillos released?",

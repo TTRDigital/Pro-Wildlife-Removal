@@ -23,16 +23,16 @@ export const beeRemoval: Service = {
   group: "removal",
   animal: "bee",
   order: 8,
-  summary: "Honey bees in a wall, soffit, shed or meter box handled safely, the comb taken out so it can't melt or rot, and the gap sealed.",
+  summary: "Honey bees in a wall, soffit, shed or meter box: what Florida law allows, why the comb matters, and what to do until help arrives.",
   cardImage: images.beeRemoval,
   design: "new",
   hero: {
     eyebrow: "BEE REMOVAL",
     heading: "Bee Removal in Tampa Bay",
     highlight: "Bee Removal",
-    text: p("Bees going in and out of a wall, soffit or shed? Keep people and pets back and call. We deal with the colony, the comb and the hole they used."),
+    text: p("Bees going in and out of a wall, soffit or shed? Keep people and pets back, leave the opening alone, and call."),
     image: images.beeRemoval,
-    badges: ["Walls, soffits and sheds", "Comb removed, gap sealed"],
+    badges: ["Walls, soffits and sheds", "Don't seal the hole"],
   },
   sections: [
     {
@@ -87,7 +87,7 @@ export const beeRemoval: Service = {
           "Honey bees matter, and a swarm passing through is usually better left alone. A colony living in your house or next to where people walk is different, especially in Tampa Bay.",
         ),
         ul(
-          "**African honey bees are here.** UF/IFAS says African bees were first found in Florida in 2001 near the Port of Tampa and have spread through the southern half of the state, mixing with European honey bees.",
+          "**African honey bees are here.** UF/IFAS says African bees were first documented in Florida in 2001 near the Port of Tampa and have spread through the southern half of the state, mixing with European honey bees.",
           "**They defend hard.** UF/IFAS says an African colony may send out hundreds or thousands of bees in response to a disturbance and chase an intruder 400 yards or more.",
           "**Sealing the hole backfires.** UF/IFAS warns that closing an active opening forces bees further into the wall and possibly into the living space.",
           "**Comb left behind causes damage.** Honey, wax and dead brood left in a wall can melt, stain, smell and draw wax moths, beetles and other pests, according to UF/IFAS.",
@@ -120,8 +120,8 @@ export const beeRemoval: Service = {
       cards: [
         { number: "1", title: "Look and listen", text: p("We find where the bees go in, whether it's a swarm or a colony, and where the comb sits. In a wall, that can mean feeling for warmth and listening for the hum, as UF/IFAS describes.") },
         { number: "2", title: "Agree the plan with you", text: p("Live removal or eradication, how the wall or soffit will be opened, and how it gets closed again, all settled before work starts.", "[PLACEHOLDER: ask the client: how you handle bees (live removal by a registered beekeeper, eradication, or both) and who does the work; this decides what the page can say]") },
-        { number: "3", title: "Remove the colony and the comb", text: p("UF/IFAS says a job isn't finished until the entire nest is out: bees, comb, honey and brood. Leaving it in the wall invites the next problem.") },
-        { number: "4", title: "Bee-proof the gap", text: p("Once the cavity is empty, the opening is sealed so a new swarm can't move into the same space.") },
+        { number: "3", title: "The colony and the comb", text: p("UF/IFAS says a job isn't finished until the entire nest is out: bees, comb, honey and brood. Leaving it in the wall invites the next problem.", "[PLACEHOLDER: ask the client: who removes the colony and comb, and how]") },
+        { number: "4", title: "Bee-proof the gap", text: p("Once the cavity is empty, UF/IFAS advises sealing the opening so a new swarm can't move into the same space.", "[PLACEHOLDER: ask the client: do you seal and repair the opening after a bee job?]") },
       ],
     },
     {
@@ -132,8 +132,8 @@ export const beeRemoval: Service = {
       heading: "Who can remove bees in Florida",
       body: rich(
         ul(
-          "**Live removal is for registered beekeepers.** Under Florida's rules, a registered beekeeper may remove a swarm or colony alive, as long as no pesticides or other pest control devices are used.",
-          "**Killing a colony is pest control.** Eradication has to be done by a licensed pest control operator.",
+          "**Live removal by a registered beekeeper.** A beekeeper registered with the Florida Department of Agriculture and Consumer Services (FDACS) may remove and relocate bees alive without a pest control license (Rule 5E-14.151, F.A.C.). UF/IFAS lists a registered beekeeper or a trained pest control operator for live removal.",
+          "**Everything else is pest control.** Anyone else removing bees, and anyone killing them, is doing pest control, which needs a licensed pest control company (Chapter 482, Florida Statutes).",
           "**The property owner is responsible.** UF/IFAS says dealing with an unwanted swarm or colony is up to the owner of the property.",
           "**Neither is required to kill or save.** There's no Florida law that forces either a live removal or an eradication. Colonies that are defensive, near people or animals, or have stung someone may be better eradicated, UF/IFAS says.",
         ),
@@ -182,7 +182,7 @@ export const beeRemoval: Service = {
       _key: "areas",
       eyebrow: "Areas served",
       heading: "Bee removal in 9 counties",
-      intro: p("African honey bees were first found in Florida at the Port of Tampa. We take bee calls across the bay area and the counties around it."),
+      intro: p("African honey bees were first documented in Florida in 2001 near the Port of Tampa. We take bee calls across the bay area and the counties around it."),
       groups: countyGroups,
     },
     {
@@ -212,7 +212,7 @@ export const beeRemoval: Service = {
         ),
         faq(
           "What do I do if bees attack?",
-          "UF/IFAS says run in a straight line to shelter, cover your face as you go, and get inside a house, shed or car. Don't jump into water, don't hide in bushes and don't swat. Call 911 if someone is being stung. Pull stingers out as fast as you can: the method doesn't matter.",
+          "UF/IFAS says run in a straight line to shelter, cover your face as you go, and get inside a house, shed or car. Don't jump into water, don't hide in bushes and don't swat. Call 911 if someone is being attacked. Pull stingers out as fast as you can: the method doesn't matter.",
         ),
         faq(
           "Are the bees at my house African honey bees?",
@@ -249,7 +249,7 @@ export const beeRemoval: Service = {
   seo: {
     title: "Bee Removal in Tampa Bay | Honey Bees in Walls | Pro Wildlife Removal",
     description:
-      "Honey bees in a wall, soffit or shed? Safe bee colony and comb removal and bee-proofing in Tampa Bay and 9 Florida counties. Don't seal the hole. Call 24/7: (727) 594-7705.",
+      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb has to come out, and what to do until help arrives, in Tampa Bay and 9 counties. Don't seal the hole. Call 24/7: (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS ENY-170 (IN1205): Living with the African Honey Bee (first found 2001 near the Port of Tampa; spread through southern half of Florida; hundreds or thousands of defenders, chase 400+ yards; nest sites; attack advice; who removes colonies; owner responsible; beekeepers can't use pesticides)", url: IN1205 },
@@ -258,8 +258,11 @@ export const beeRemoval: Service = {
     { title: "UF/IFAS Gardening Solutions: Nesting Bees and What You Should Do (swarms stay a few hours to a few days; registered beekeepers remove alive without pest control devices; eradication by licensed PCO; FDACS Bee Removal or Eradication List; defensive colonies may be better eradicated)", url: NESTING },
     { title: "UF/IFAS EDIS ENY-266 (IG119): Powderpost Beetles and Other Wood-Infesting Insects (carpenter bees resemble bumble bees, shiny metallic abdomen, 1/2-inch drilled holes, tunnels 3-6 inches in weather boarding, railings, trim; replace infested wood)", url: "https://ask.ifas.ufl.edu/publication/IG119" },
     { title: "UF/IFAS EDIS EENY-050 (IN207): Bumble Bees of Florida (five species nest at or below ground; old rodent burrows, crevices by foundations, dense grass; colony cycle late winter to early winter)", url: "https://ask.ifas.ufl.edu/publication/IN207" },
+    { title: "UF/IFAS EDIS ENY-145 (IN778): registered beekeepers remove colonies alive under Rule 5E-14.151, F.A.C.; eradication by a licensed PCO", url: "https://ask.ifas.ufl.edu/publication/in778" },
+    { title: "Florida Statutes Chapter 482, Structural Pest Control Act (482.071: unlawful to operate an unlicensed pest control business; 482.021 defines pests to include arthropods)", url: "https://www.flsenate.gov/Laws/Statutes/2025/Chapter482/All" },
   ],
   clientQuestions: [
+    "Who removes the bee colony and comb, and how? Do you seal and repair the opening after a bee job?",
     "Which stinging insects do you handle: honey bees, carpenter bees, bumble bees, wasps or yellow jackets?",
     "IMPORTANT: How do you handle bees? Live removal (by a registered beekeeper on staff or a partner), eradication (by a licensed pest control operator), or both? Florida's beekeeping and pest control rules decide who may do which. The page can't describe your method until we know, and per the brief it won't show license details either way.",
     "Do you repair the wall or soffit you open, or does the homeowner arrange it?",
