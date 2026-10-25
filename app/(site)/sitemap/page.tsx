@@ -14,6 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 function Group({ title, links }: { title: string; links: { label: string; href: string }[] }) {
+  if (!links.length) return null;
   return (
     <div className="break-inside-avoid pb-8">
       <h2 className="mb-3 font-sans text-xl font-bold text-[#333]">{title}</h2>
