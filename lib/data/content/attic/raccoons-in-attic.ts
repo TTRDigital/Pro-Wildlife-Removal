@@ -52,6 +52,20 @@ export const raccoonsInAttic: Service = {
       ],
     },
     {
+      _type: "cardsSection",
+      _key: "sounds",
+      eyebrow: "Listen",
+      heading: "A raccoon's night, as heard from below",
+      variant: "plain",
+      columns: 2,
+      cards: [
+        { title: "Late afternoon to dusk", text: p("FWC says raccoons usually become active in the late afternoon. Heavy steps toward the entry and a scramble at the roofline as one heads out.") },
+        { title: "Through the night", text: p("Quieter while the adults are out foraging, unless there are kits in the attic waiting for their mother.") },
+        { title: "Toward morning", text: p("UF/IFAS says raccoons stay active until morning. A return trip, more thumping, and settling into the den.") },
+        { title: "Spring, any hour", text: p("Chirping, whimpering and chattering from one spot: kits. Most Florida raccoons are born in March and April.") },
+      ],
+    },
+    {
       _type: "proseSection",
       _key: "compare",
       tone: "tint",
@@ -70,6 +84,23 @@ export const raccoonsInAttic: Service = {
     },
     {
       _type: "splitSection",
+      _key: "damage",
+      tone: "tint",
+      eyebrow: "What they do up there",
+      heading: "What a raccoon does to an attic",
+      body: rich(
+        ul(
+          "**The way in.** UF/IFAS lists torn screens, soffits and open chimneys among common raccoon entries. A hole a raccoon made lets rain into the roof and other animals into the attic.",
+          "**Insulation.** An 8 to 15 pound animal walking, nesting and raising young crushes insulation flat and soils it, which cuts how well it keeps the heat out.",
+          "**The latrine.** Raccoons go in the same spot again and again. FWC says raccoon roundworm appears widespread in Florida at low levels, and the CDC says people can be infected by swallowing the eggs by accident.",
+          "**Rabies.** Florida's Department of Health names raccoons as one of the two main wildlife sources of rabies in the state. UF/IFAS puts exposure in wild raccoons at fewer than 1 in 200. Never corner one.",
+        ),
+      ),
+      image: images.raccoonRemoval,
+      imageSide: "right",
+    },
+    {
+      _type: "splitSection",
       _key: "dont",
       eyebrow: "What not to do",
       heading: "Three mistakes that make it worse",
@@ -84,13 +115,41 @@ export const raccoonsInAttic: Service = {
       imageSide: "right",
     },
     {
+      _type: "cardsSection",
+      _key: "urgent",
+      eyebrow: "When it can't wait",
+      heading: "Call right away if",
+      variant: "icon",
+      columns: 3,
+      cards: [
+        { icon: "critter", title: "A raccoon is in the living space", text: p("Get people and pets out of the room, close the door and open an outside door if it's safe. Don't try to corner it.") },
+        { icon: "sound", title: "Kits are crying", text: p("Kits crying with no sign of their mother need help fast. Don't climb up to handle them yourself.") },
+        { icon: "odor", title: "A smell from one spot", text: p("A strong smell from one area can be the latrine, or an animal that died in the attic. Either way, it needs to come out.") },
+      ],
+    },
+    {
+      _type: "cardsSection",
+      _key: "timeline",
+      tone: "tint",
+      eyebrow: "What it usually takes",
+      heading: "How a raccoon-in-the-attic job runs",
+      variant: "numbered",
+      columns: 4,
+      cards: [
+        { number: "1", title: "Inspect for kits", text: p("Find the entry, the den and whether young are there before anything else.") },
+        { number: "2", title: "Get the family out", text: p("Adults and young removed together, by the method that fits the house and the season.") },
+        { number: "3", title: "Rebuild the entry", text: p("The torn soffit, vent or roof edge is rebuilt stronger, and the chimney capped if needed.") },
+        { number: "4", title: "Clean the attic", text: p("Latrine first, then soiled insulation, then treatment and new insulation.", "[PLACEHOLDER: ask the client: how long a typical raccoon job takes, start to finish]") },
+      ],
+    },
+    {
       _type: "splitSection",
       _key: "cleanup",
       tone: "tint",
       eyebrow: "Attic cleanup",
       heading: "Cleaning up after raccoons",
       body: p(
-        "With the raccoons out and the entry rebuilt, the attic needs cleaning. The CDC advises removing raccoon droppings promptly, before the roundworm eggs in them become infectious, so the latrine comes out first.",
+        "With the raccoons out and the entry rebuilt, the attic needs cleaning. The CDC says raccoon roundworm eggs aren't infectious the moment they're passed, and advises removing droppings promptly, before they become infectious. So the latrine comes out first. FWC's advice for a latrine is gloves, and burning or burying the droppings. In an attic, that means bagging the droppings and the soiled insulation around them, treating the area, and only then putting in new insulation.",
       ),
       checklist: [
         "Latrine removed by technicians in protective gear",
@@ -120,6 +179,18 @@ export const raccoonsInAttic: Service = {
         faq(
           "Can I scare it out?",
           "UF/IFAS describes one-way devices for raccoons without young, and for a mother with kits, putting cloth soaked in male raccoon or predator urine near the den so she moves them. These need the family out before anything is sealed. If you're unsure, call us.",
+        ),
+        faq(
+          "The mother is gone and the babies are still up there. What now?",
+          "Don't seal anything, and don't handle the kits yourself. Call us. Young left alone in an attic need to be found and taken care of quickly and carefully.",
+        ),
+        faq(
+          "Can I clean up the raccoon droppings myself?",
+          "In a yard, FWC and the CDC advise gloves, prompt removal, and burning or burying the droppings or bagging them for the landfill, then washing your hands. In an attic, with insulation and tight spaces, it's safer to have it done.",
+        ),
+        faq(
+          "How do I keep raccoons out of the attic for good?",
+          "Rebuild the entry with strong materials, cap the chimney and keep branches off the roof. Don't put out food or garbage in a way that draws them: Florida rule 68A-4.001 bans doing that when it creates a nuisance. See [raccoon removal](/services/raccoon-removal/).",
         ),
         faq(
           "Is a raccoon in the attic dangerous?",
@@ -164,8 +235,10 @@ export const raccoonsInAttic: Service = {
     { title: "CDC: About Baylisascaris (remove feces promptly, before eggs become infectious)", url: "https://www.cdc.gov/baylisascaris/about/index.html" },
     { title: "UF/IFAS EDIS ENY-224 (roof rats: under a pound; night activity; half-inch gaps) and FWC squirrel profile (gray squirrel 17-20 inches; active by day)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
+    { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
   ],
   clientQuestions: [
+    "How long does a typical raccoon job take, start to finish?",
     "How do you treat a raccoon latrine and replace insulation, and is it quoted separately?",
     "Real photos: a raccoon-torn soffit, kits in an attic, a rebuilt entry.",
   ],

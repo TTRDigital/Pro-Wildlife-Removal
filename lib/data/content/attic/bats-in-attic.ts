@@ -54,6 +54,21 @@ export const batsInAttic: Service = {
       ],
     },
     {
+      _type: "cardsSection",
+      _key: "sounds",
+      eyebrow: "Listen",
+      heading: "What a bat colony sounds like",
+      intro: p("Bats are quieter than rats or raccoons. The timing is what gives them away."),
+      variant: "plain",
+      columns: 2,
+      cards: [
+        { title: "Around sunset", text: p("Light scratching or chirping as the colony stirs, then the bats leave the roost one after another to feed.") },
+        { title: "Before sunrise", text: p("The bats return to the roost around dawn, and you may hear them rustle as they settle.") },
+        { title: "Through the night", text: p("Mostly quiet. Florida's bats are out hunting night-flying insects.") },
+        { title: "In the day", text: p("Bats are roosting, so the attic is mostly quiet. Steady daytime noise is more likely [squirrels](/services/squirrels-in-attic/).") },
+      ],
+    },
+    {
       _type: "proseSection",
       _key: "calendar",
       tone: "tint",
@@ -87,13 +102,42 @@ export const batsInAttic: Service = {
       imageSide: "right",
     },
     {
+      _type: "cardsSection",
+      _key: "urgent",
+      eyebrow: "When it can't wait",
+      heading: "Call right away if",
+      variant: "icon",
+      columns: 3,
+      cards: [
+        { icon: "critter", title: "Someone woke up with a bat", text: p("Don't let it go. The CDC says to call animal control or the health department so the bat can be captured and tested, because bat bites can be too small to notice.") },
+        { icon: "home", title: "Bats keep turning up indoors", text: p("One bat can wander in through a door. Repeated bats in the living space mean the roost has a way into the house.") },
+        { icon: "search", title: "A bat on the floor or in daylight", text: p("Never pick one up bare-handed. FWC's brochure says rabies in bats is rare, but bites are avoided by not touching them.") },
+      ],
+    },
+    {
+      _type: "cardsSection",
+      _key: "timeline",
+      tone: "tint",
+      eyebrow: "What it usually takes",
+      heading: "From the first call to a clean attic",
+      variant: "numbered",
+      columns: 5,
+      cards: [
+        { number: "1", title: "Inspection", text: p("Any time of year: confirm the colony, find every opening and check the guano.") },
+        { number: "2", title: "Wait, if needed", text: p("Between April 16 and August 14, the exclusion waits for August 15 unless FWC issues a permit.") },
+        { number: "3", title: "One-way devices", text: p("Up on the active exits for at least four nights, with lows forecast at 50°F or warmer.") },
+        { number: "4", title: "Seal", text: p("When no bats are left, the devices come down and the openings are sealed.") },
+        { number: "5", title: "Clean", text: p("Guano and soiled insulation come out last.", "[PLACEHOLDER: ask the client: how long a typical bat job takes once the exclusion starts]") },
+      ],
+    },
+    {
       _type: "splitSection",
       _key: "cleanup",
       tone: "tint",
       eyebrow: "Attic cleanup",
       heading: "Cleaning an attic after bats",
       body: p(
-        "Once the colony is out and the gaps are sealed, the attic can be cleaned. How much work that is depends on how long the bats were there. A roost that has been used for years can mean replacing the insulation under it.",
+        "Cleanup comes after the colony is out and the gaps are sealed, never before, or the bats just move back in. How much work it is depends on how long they were there. FWC notes that guano in a dry, unused space can usually be left undisturbed, but most attics hold ductwork, wiring and stored things, and people go up there. In that case the guano comes out. The CDC recommends a respirator in a confined space with bat droppings, so this is work for protective gear, not a dust mask. Insulation under an old roost is usually soaked through and gets bagged and replaced.",
       ),
       checklist: [
         "Work done in respirators and protective suits",
@@ -122,6 +166,19 @@ export const batsInAttic: Service = {
         faq(
           "Will the bats leave in winter?",
           "Plan the exclusion instead of waiting. Book it for the legal window, August 15 to April 15, and make sure overnight lows are forecast at 50°F or warmer so the bats are active and actually leave.",
+        ),
+        faq(
+          "Can I get rabies from bats in my attic?",
+          "Only through a bite or scratch, which is why bats shouldn't be handled. FWC's brochure calls rabies in bats rare. Florida's Department of Health still names bats as one of the state's two main wildlife sources of rabies, so any contact with a bat needs a call to your county health department.",
+        ),
+        faq(
+          "Can bats get from the attic into my living space?",
+          "Sometimes a single bat does. FWC notes that a maternity colony is usually not found in rooms where people live or work, because the mothers need a warm, undisturbed roost. Repeated bats indoors point to a gap between the attic and the house.",
+        ),
+        faq(
+          "Do I need to replace the insulation?",
+          "Usually only under the roost, where guano has built up. It depends on how long the bats were there.",
+          "[PLACEHOLDER: ask the client: how you decide how much insulation to replace after bats]",
         ),
         faq(
           "Are bats in the attic a health risk?",
@@ -169,8 +226,11 @@ export const batsInAttic: Service = {
     { title: "FWC: Bats (illegal to kill; no poison; Brazilian free-tailed bat common in buildings)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/" },
     { title: "CDC: About histoplasmosis (spores from soil mixed with bird or bat droppings)", url: "https://www.cdc.gov/histoplasmosis/about/index.html" },
     { title: "CDC: Bats and rabies (not all bats carry rabies; bites can be tiny)", url: "https://www.cdc.gov/rabies/exposure/animals/bats.html" },
+    { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
   ],
   clientQuestions: [
+    "How long does a typical bat job take once the exclusion starts?",
+    "How do you decide how much insulation to replace after bats?",
     "How do you handle guano cleanup and insulation replacement, and is it quoted separately?",
     "Real photos: a dusk emergence from a client roof, guano on attic insulation, a cleaned attic.",
   ],

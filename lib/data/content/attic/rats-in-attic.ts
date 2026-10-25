@@ -60,15 +60,30 @@ export const ratsInAttic: Service = {
       eyebrow: "Rats or something else?",
       heading: "Is it rats, or squirrels?",
       body: rich(
-        p("Rats and squirrels are the two most common attic noises, and the timing usually settles it."),
+        p("Rats and squirrels are easy to confuse from below, and the timing usually settles it."),
         table(
           ["", "Roof rats", "Gray squirrels"],
           ["When you hear them", "At night, most in the first half of the night", "In the day"],
-          ["Way in", "A gap as small as 1/2 inch", "A chewed hole in the soffit, fascia or roof edge"],
+          ["Way in", "A gap as small as 1/2 inch", "Damaged soffits, vents, roof tiles"],
           ["Breeding", "6 to 8 young, up to 6 litters a year", "1 to 4 young, spring and autumn"],
         ),
         p("If the noise is in the day, read about [squirrels in the attic](/services/squirrels-in-attic/). If it's a heavy thump at night, it may be [raccoons](/services/raccoons-in-attic/)."),
       ),
+    },
+    {
+      _type: "cardsSection",
+      _key: "sounds",
+      eyebrow: "Listen",
+      heading: "What you hear, and when",
+      intro: p("UF/IFAS says rats are active mostly at night and are rarely seen in the day. The pattern of the noise tells you a lot."),
+      variant: "plain",
+      columns: 2,
+      cards: [
+        { title: "Soon after dark", text: p("Rats are busiest in the first half of the night when food is easy to find. Scratching and quick runs across the ceiling after you turn in are the classic start.") },
+        { title: "Late at night", text: p("Gnawing, a steady scratch in one spot, and the odd scuffle. UF/IFAS notes rodents moving at night often scratch, gnaw and fight.") },
+        { title: "Squeaking from one place", text: p("High squeaks from the same corner, night after night, usually mean a nest of young.") },
+        { title: "Noise in the daytime", text: p("Rats out in daylight usually means a large population, food running short, or sick or poisoned rats. That's a reason to act now, not later.") },
+      ],
     },
     {
       _type: "splitSection",
@@ -88,6 +103,21 @@ export const ratsInAttic: Service = {
     },
     {
       _type: "cardsSection",
+      _key: "urgent",
+      tone: "tint",
+      eyebrow: "When it can't wait",
+      heading: "Call right away if you notice",
+      variant: "icon",
+      columns: 2,
+      cards: [
+        { icon: "critter", title: "A rat in the living space", text: p("A rat in the kitchen, a bedroom or a cabinet means they've found a way down from the attic or walls. Close the room off and call.") },
+        { icon: "wrench", title: "Chewed wiring", text: p("Bare or chewed wires in the attic are a fire risk, according to UF/IFAS. Have an electrician check the circuit, and get the rats out.") },
+        { icon: "odor", title: "A dead smell", text: p("A rat that dies in a wall or attic leaves a strong smell. Our [dead animal removal](/services/dead-animal-removal/) page covers finding it.") },
+        { icon: "droppings", title: "Droppings near food", text: p("UF/IFAS Extension advises throwing out food you think rodents have touched, and keeping young children, pregnant people and anyone with a weak immune system away from soiled areas.") },
+      ],
+    },
+    {
+      _type: "cardsSection",
       _key: "process",
       eyebrow: "Getting them out",
       heading: "How rats get out of an attic for good",
@@ -101,13 +131,27 @@ export const ratsInAttic: Service = {
       ],
     },
     {
+      _type: "cardsSection",
+      _key: "timeline",
+      eyebrow: "What it usually takes",
+      heading: "A typical rats-in-the-attic job, start to finish",
+      variant: "numbered",
+      columns: 4,
+      cards: [
+        { number: "1", title: "Inspection", text: p("The roof, attic and outside walls are checked for every gap and the extent of the droppings.") },
+        { number: "2", title: "Sealing", text: p("Openings are closed with rodent-resistant materials, all of them, so no new rats get in.") },
+        { number: "3", title: "Trapping and checks", text: p("Rats shut inside are trapped. UF/IFAS warns rats probe new seals in the first two weeks, so the work is checked often then.") },
+        { number: "4", title: "Cleanup", text: p("When the activity stops, the attic is cleaned and re-insulated.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, from inspection to cleanup]") },
+      ],
+    },
+    {
       _type: "splitSection",
       _key: "cleanup",
       tone: "tint",
       eyebrow: "Attic cleanup",
       heading: "Cleaning an attic after rats",
       body: p(
-        "For a few droppings in a garage, the CDC's steps work: air the space out, glove up, soak the droppings in disinfectant or 1 part bleach to 9 parts water, wait five minutes and wipe up with paper towels. An attic is a bigger job: heat, tight spaces, and droppings spread through inches of insulation.",
+        "The CDC's steps for rodent droppings start with airing the space out for 30 minutes and putting on rubber or plastic gloves. Don't sweep or vacuum: soak the droppings and nesting in disinfectant or 1 part bleach to 9 parts water, wait five minutes, wipe up with paper towels, then disinfect the surfaces and wash your hands. That works for a garage shelf. An attic is a bigger job: heat, tight spaces and droppings spread through inches of insulation, which can't be wiped clean. Soiled insulation is bagged and removed, the attic floor and framing are cleaned and disinfected, and new insulation goes in once the space is sealed and clear.",
       ),
       checklist: [
         "Soiled insulation bagged and removed",
@@ -141,6 +185,19 @@ export const ratsInAttic: Service = {
         faq(
           "Are rats in the attic dangerous?",
           "They can be. UF/IFAS links chewed wiring to house fires, and the CDC links rodent droppings and urine to disease. Don't sweep or vacuum droppings, and keep children out of the attic.",
+        ),
+        faq(
+          "Can rats get from the attic into the house?",
+          "Yes. UF/IFAS says rats climb wires, pipes and rough walls, squeeze through cracks half an inch wide, and can even come up through toilets. A rat seen indoors means the attic problem has spread.",
+        ),
+        faq(
+          "Is it safe to sleep with rats in the attic?",
+          "The bigger risks are the wiring and the droppings, not a bite. UF/IFAS warns chewed wires can start fires, and the CDC links rodent droppings and urine to disease. Get it dealt with soon, and keep the attic hatch closed meanwhile.",
+        ),
+        faq(
+          "How much does attic cleanup after rats cost?",
+          "It depends on how much insulation is soiled and how big the attic is. See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for what drives the price.",
+          "[PLACEHOLDER: ask the client: can the site show a price range for attic cleanup?]",
         ),
         faq(
           "Can I just put poison in the attic?",
@@ -183,8 +240,11 @@ export const ratsInAttic: Service = {
     { title: "CDC: Controlling wild rodent infestations (diseases via droppings, urine, saliva, bites)", url: "https://www.cdc.gov/healthy-pets/rodent-control/index.html" },
     { title: "CDC: How to clean up after rodents (ventilate, gloves, bleach 1:9, 5 minutes, paper towels, no sweeping or vacuuming)", url: "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (rodenticides last resort, tamper-resistant stations)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
+    { title: "UF/IFAS Extension Sarasota County: What to do about rodents (discard possibly contaminated food; keep vulnerable people away from contaminated areas)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
   ],
   clientQuestions: [
+    "How long does a typical rat job take, from inspection to cleanup?",
+    "Can the site show a price range for attic cleanup?",
     "What insulation do you install after an attic cleanup, and is attic restoration quoted separately?",
     "Real photos: rat droppings and runways in a client attic, a cleaned and re-insulated attic.",
   ],
