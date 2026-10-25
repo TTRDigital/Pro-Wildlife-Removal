@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CalendarDays, Tag, UserRound } from "lucide-react";
-import { getPost, getPosts } from "@/lib/content";
+import { getPost, getPosts, getSiteSettings } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { articleSchema, webPageSchema } from "@/lib/schema";
 import { formatDate, slugify } from "@/lib/text";
@@ -40,7 +40,7 @@ function headings(post: NonNullable<Awaited<ReturnType<typeof getPost>>>) {
 /** Blog post in the old theme: navy page, photo beside the title, orange headings. */
 export default async function PostPage(props: PageProps<"/blog/[slug]">) {
   const { slug } = await props.params;
-  const post = await getPost(slug);
+  const [post, settings] = await Promise.all([getPost(slug), getSiteSettings()]);
   if (!post) notFound();
   const path = `/blog/${slug}/`;
   const parts = headings(post).map((name) => ({ name, id: slugify(name) }));
@@ -82,6 +82,10 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
                 Blog
               </li>
             </ul>
+            {/* Calls only (the client's choice): the number is one tap away at the top of every post. */}
+            <a href={settings.phoneHref} data-track="click_to_call" className="o-btn mt-7">
+              Call {settings.phone}
+            </a>
           </div>
         </header>
         <div className="o-wrap">

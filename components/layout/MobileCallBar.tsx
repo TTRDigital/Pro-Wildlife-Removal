@@ -1,7 +1,7 @@
 import { Phone } from "lucide-react";
 import { chatWidgetId } from "@/lib/chat";
 
-/** Sticky orange "Call" bar on phones, as on the live bat-removal page. Leaves room for the chat bubble when the chat is on. */
+/** Sticky orange "Call" bar on phones, on every page. Leaves room for the chat bubble when the chat is on. */
 export function MobileCallBar({ phone, phoneHref }: { phone: string; phoneHref: string }) {
   return (
     <>
