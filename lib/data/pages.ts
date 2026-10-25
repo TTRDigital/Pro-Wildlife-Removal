@@ -18,7 +18,6 @@ export const fallbackPages = {
    "rotator": [
     "Raccoon",
     "Opossum",
-    "Mole",
     "Snake",
     "Armadillo",
     "Bat",

@@ -9247,94 +9247,6 @@ export const fallbackLocations: Location[] = [
    },
    {
     "_type": "splitSection",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Florida is a duck haven. Clearwater is no exception. Migratory and domestic ducks can be seen almost everywhere.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Being surrounded by water, it is no wonder ducks love it here. One particular invasive duck species that is causing havoc for home and business owners are the Muscovy ducks.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Muscovy ducks have invaded Florida and have become a nuisance pest. ",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": "They leave droppings on almost anything – decks, driveways, backyards, pools, patios, etc..",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "These ducks can be aggressive when protecting themselves and their young and can cause damage to your property. It’s best not to attempt to handle them yourself.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Because they are an invasive species, it is illegal under Florida law to relocate them within the state.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.duckRemoval,
-    "ctas": [
-     {
-      "label": "727-594-7722",
-      "href": "tel:+17275947722",
-      "style": "outline"
-     }
-    ],
-    "imageSide": "right",
-    "style": {
-     "bg": "beige",
-     "text": "black",
-     "divider": "black",
-     "frame": "navy"
-    },
-    "_key": "s3"
-   },
-   {
-    "_type": "splitSection",
     "heading": "Snake Removal",
     "body": [
      {
@@ -10700,79 +10612,6 @@ export const fallbackLocations: Location[] = [
       "image": images.floridaLawProhibitsBatRemovalOrExclusion
      },
      {
-      "title": "Q: These ducks are cute, can I let them stay in the yard?",
-      "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Ducks may look cute but they are pests. ",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": "They populate fast, destroy gardens, attics, and porches, and leave droppings everywhere.",
-          "marks": [
-           "em"
-          ]
-         }
-        ],
-        "markDefs": []
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "When left to thrive, they will be ",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": "hard to remove in the long run",
-          "marks": [
-           "strong"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ". Ducks are Dade City’s most common city wildlife control problems.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "The most common species in Dade City is the Muscovy ducks. They are",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": " invasive and hard to control",
-          "marks": [
-           "underline",
-           "em"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ". Strict Florida laws determine how these animals can be handled, trapped, and removed, so avoid handling them yourself.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       }
-      ]
-     },
-     {
       "title": "Q: What type of animals do you remove?",
       "text": [
        {
@@ -11573,49 +11412,6 @@ export const fallbackLocations: Location[] = [
           "href": "tel:727-496-7702"
          }
         ]
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Ducks leave droppings everywhere. In Dunedin, Muscovy ",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": "ducks are big pest control problems",
-          "marks": [
-           "strong"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ". Their droppings cause damage to properties as well as health risks to the residents.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Florida law prohibits harming or killing Muscovy ducks",
-          "marks": [
-           "em"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ".",
-          "marks": []
-         }
-        ],
-        "markDefs": []
        }
       ],
       "image": images.batControl
@@ -12582,32 +12378,6 @@ export const fallbackLocations: Location[] = [
           "href": "/services/bee-removal-tampa/"
          }
         ]
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Muscovy ducks are considered pests",
-          "marks": [
-           "strong"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": " in Holiday. They are one of Florida’s top invasive wildlife. ",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": "They are overpopulated and leave droppings everywhere.",
-          "marks": [
-           "em"
-          ]
-         }
-        ],
-        "markDefs": []
        },
        {
         "_type": "block",
@@ -13596,25 +13366,6 @@ export const fallbackLocations: Location[] = [
           "href": "/services/bee-removal-tampa/"
          }
         ]
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Ducks may seem harmless, but they can cause damage to properties if they are not controlled",
-          "marks": [
-           "em"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ". They populate fast and leave droppings everywhere contaminating pools, yards, and attics.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
        },
        {
         "_type": "block",
@@ -15029,7 +14780,7 @@ export const fallbackLocations: Location[] = [
       "markDefs": []
      }
     ],
-    "image": images.ladyLakeDucks,
+    "image": images.ladyLakeWildlifeRemoval,
     "imageSide": "right",
     "style": {
      "bg": "beige",
@@ -15433,18 +15184,6 @@ export const fallbackLocations: Location[] = [
           "href": "/about-us/"
          }
         ]
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Ducks, especially Muscovy ducks, are becoming a big problem in Land O Lakes. They leave droppings everywhere in residential and commercial areas, causing costly damage to properties.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
        }
       ],
       "image": images.safetyHarborBatTrapping
@@ -17246,30 +16985,6 @@ export const fallbackLocations: Location[] = [
           "href": "/services/bee-removal-tampa/"
          }
         ]
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Ducks, especially Muscovy ducks, have ",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": "become a big nuisance in the last few years",
-          "marks": [
-           "em"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ", and residents are not pleased.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
        }
       ],
       "image": images.beeTrappers
@@ -18074,37 +17789,6 @@ export const fallbackLocations: Location[] = [
           "href": "/services/bee-removal-tampa/"
          }
         ]
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Ducks, specifically Muscovy ducks",
-          "marks": [
-           "strong"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ", are a top Florida pest control problem. ",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": "They overpopulate in a short period of time and they leave feces all over residential and commercial property surfaces",
-          "marks": [
-           "em"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ". It can accumulate quickly if not taken care of.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
        }
       ],
       "image": images.odessaBeeHandlers
@@ -20679,70 +20363,6 @@ export const fallbackLocations: Location[] = [
      "headingAbove": true
     },
     "_key": "s7"
-   },
-   {
-    "_type": "splitSection",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Ducks are a common sight in Florida. In fact, they have become quite a nuisance. Duck overpopulation has caused issues for property owners everywhere.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "One notorious duck species, the Muscovy duck, has become an invasive species in Florida",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". They are a nuisance to home-owners and business owners alike.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Ducks leave droppings everywhere",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " – decks, roofs, gutters, car windows, and anything else with a surface. Duck droppings can carry dangerous bacteria, so it should be avoided.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.duckTrapping,
-    "imageSide": "left",
-    "style": {
-     "bg": "blue",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "beige"
-    },
-    "_key": "s8"
    },
    {
     "_type": "splitSection",
@@ -26766,37 +26386,6 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Ducks in Spring Hill, Florida are relatively harmless, but they can be an annoyance to you around your home",
-          "marks": [
-           "em"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ". They can also tend to be very territorial wildlife. ",
-          "marks": []
-         },
-         {
-          "_type": "span",
-          "text": "Ducks leave fecal matter around your property",
-          "marks": [
-           "strong"
-          ]
-         },
-         {
-          "_type": "span",
-          "text": ", which is not safe if you have pets or small children running around your yard.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       },
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
           "text": "They are harmful wildlife to any gardens or landscaping you may have in Spring Hill",
           "marks": []
          }
@@ -28520,70 +28109,6 @@ export const fallbackLocations: Location[] = [
    },
    {
     "_type": "splitSection",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Ducks are a common sight in Florida. In fact, they have become quite a nuisance. Duck overpopulation has caused issues for property owners everywhere.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "One notorious duck species, the Muscovy duck, has become an invasive species in Florida",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". They are a nuisance to home-owners and business owners alike.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Ducks leave droppings everywhere",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " – decks, roofs, gutters, car windows, and anything else with a surface. Duck droppings can carry dangerous bacteria, so it should be avoided.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.duckTrapping,
-    "imageSide": "left",
-    "style": {
-     "bg": "blue",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "beige"
-    },
-    "_key": "s8"
-   },
-   {
-    "_type": "splitSection",
     "heading": "Bat Trapping",
     "body": [
      {
@@ -29522,7 +29047,7 @@ export const fallbackLocations: Location[] = [
       "style": "outline"
      }
     ],
-    "image": images.trinityDuckHandling,
+    "image": images.trinityRaccoonHandling,
     "style": {
      "bg": "beige",
      "heading": "black",

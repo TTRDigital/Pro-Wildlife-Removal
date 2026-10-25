@@ -41,6 +41,8 @@ const oldUrls: [string, string][] = [
   ["/category/:path*", "/blog/"],
   ["/tag/:path*", "/blog/"],
   ["/author/:path*", "/blog/"],
+  // The client does not do mole removal (Oct 25, 2026): the page is gone.
+  ["/services/mole-control", "/services/"],
 ];
 
 // Third parties: Google Tag Manager / Analytics / Ads, Microsoft Clarity, Sanity images,
