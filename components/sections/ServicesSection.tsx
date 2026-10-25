@@ -6,6 +6,7 @@ import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 export const groupLabels: Record<Service["group"], string> = {
   removal: "Wildlife removal",
+  attic: "Animals in the attic",
   control: "Wildlife control",
   tampa: "Tampa services",
 };
@@ -38,7 +39,7 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
 
 /** Grid of service pages, from the service collection. */
 export function ServicesSection({ section: s, services }: { section: Svc; services: Service[] }) {
-  const groups: Service["group"][] = s.group && s.group !== "all" ? [s.group] : ["removal", "control", "tampa"];
+  const groups: Service["group"][] = s.group && s.group !== "all" ? [s.group] : ["removal", "attic", "control", "tampa"];
   return (
     <SectionShell tone={s.tone}>
       <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />

@@ -100,7 +100,7 @@ export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionSty
 export type ContactSection = SectionBase & { _type: "contactSection" };
 /** The 40 to 60 word answer under the hero that AI search quotes: the question as heading, the answer, up to four short facts. */
 export type AnswerSection = SectionBase & { _type: "answerSection"; text: Rich; points?: string[] };
-export type ServicesSection = SectionBase & { _type: "servicesSection"; group?: "removal" | "control" | "tampa" | "all" };
+export type ServicesSection = SectionBase & { _type: "servicesSection"; group?: "removal" | "attic" | "control" | "tampa" | "all" };
 export type LocationsSection = SectionBase & { _type: "locationsSection" };
 /** match: only posts whose title or slug mention this word (e.g. "bat"), falling back to the latest. */
 export type PostsSection = SectionBase & { _type: "postsSection"; limit?: number; match?: string };
@@ -134,7 +134,8 @@ export type PageContent = {
   clientQuestions?: string[];
 };
 
-export type ServiceGroup = "removal" | "control" | "tampa";
+/** "attic": the "[animal] in the attic" pages, listed apart from the animal removal grid. */
+export type ServiceGroup = "removal" | "attic" | "control" | "tampa";
 
 export type Service = PageContent & {
   slug: string;

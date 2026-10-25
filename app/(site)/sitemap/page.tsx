@@ -55,7 +55,7 @@ export default async function SitemapPage() {
             <h1 className="mb-8 font-sans text-[clamp(2rem,1.5rem+1.5vw,2.75rem)] font-bold text-[#333]">{page.hero.heading}</h1>
             <div className="md:columns-2 md:gap-12">
               <Group title="Pages" links={pages} />
-              {(["removal", "control", "tampa"] as const).map((g) => (
+              {(["removal", "attic", "control", "tampa"] as const).map((g) => (
                 <Group key={g} title={groupLabels[g]} links={services.filter((s) => s.group === g).map((s) => ({ label: s.title, href: `/services/${s.slug}/` }))} />
               ))}
               <Group title="Service areas" links={locations.map((l) => ({ label: l.hero.heading, href: `/${l.path}/` }))} />

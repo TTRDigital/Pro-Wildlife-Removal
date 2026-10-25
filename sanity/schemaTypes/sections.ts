@@ -156,7 +156,7 @@ export const servicesSection = defineType({
   title: "Services grid",
   type: "object",
   icon: Wrench,
-  fields: [...head, defineField({ name: "group", type: "string", options: { list: ["all", "removal", "control", "tampa"] }, initialValue: "all" }), ctas],
+  fields: [...head, defineField({ name: "group", type: "string", options: { list: ["all", "removal", "attic", "control", "tampa"] }, initialValue: "all" }), ctas],
   preview: titled("Services grid"),
 });
 
