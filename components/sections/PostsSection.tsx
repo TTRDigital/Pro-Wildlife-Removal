@@ -8,13 +8,13 @@ export function PostCard({ post, index = 0 }: { post: Post; index?: number }) {
   return (
     <Link
       href={`/blog/${post.slug}/`}
-      className="card group flex h-full min-w-0 flex-col overflow-hidden transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]"
+      className="card group flex h-full min-w-0 flex-col overflow-hidden rounded-[20px] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]"
       data-reveal
       style={{ ["--i" as string]: index % 3 }}
     >
       {post.image ? (
         <div className="relative aspect-[16/9] overflow-hidden bg-tint">
-          <Photo image={post.image} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-500 group-hover:scale-[1.04]" />
+          <Photo image={post.image} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
         </div>
       ) : null}
       <div className="flex flex-1 flex-col p-6">
@@ -28,17 +28,19 @@ export function PostCard({ post, index = 0 }: { post: Post; index?: number }) {
 }
 
 export function PostsSection({ section: s, posts }: { section: Posts; posts: Post[] }) {
-  const list = posts.slice(0, s.limit ?? 3);
+  const word = s.match?.trim().toLowerCase();
+  const matching = word ? posts.filter((p) => `${p.title} ${p.slug}`.toLowerCase().includes(word)) : [];
+  const list = (matching.length ? matching : posts).slice(0, s.limit ?? 3);
   if (!list.length) return null;
   return (
     <SectionShell tone={s.tone}>
       <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="swipe">
         {list.map((p, i) => (
           <PostCard key={p.slug} post={p} index={i} />
         ))}
       </div>
-      <CtaRow ctas={s.ctas?.length ? s.ctas : [{ label: "Read the blog", href: "/blog/" }]} />
+      <CtaRow ctas={s.ctas?.length ? s.ctas : [{ label: "Read the blog", href: "/blog/", style: "outline" }]} />
     </SectionShell>
   );
 }

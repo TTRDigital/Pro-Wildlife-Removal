@@ -10,7 +10,7 @@ export function AreasSection({ section: s }: { section: Areas }) {
       <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />
       <div className={`grid gap-6 sm:grid-cols-2 ${n >= 4 ? "lg:grid-cols-4" : n === 3 ? "lg:grid-cols-3" : ""}`}>
         {s.groups.map((g, gi) => (
-          <div key={`${g.title}-${gi}`} className="card flex flex-col overflow-hidden" data-reveal style={{ ["--i" as string]: gi % 4 }}>
+          <div key={`${g.title}-${gi}`} className="card flex flex-col overflow-hidden rounded-[20px]" data-reveal style={{ ["--i" as string]: gi % 4 }}>
             {g.title ? (
               <div className="border-b border-line bg-tint-2 px-5 py-[18px] md:p-[22px]">
                 <h3 className="flex items-center gap-2.5 font-display text-[clamp(15px,1.55vw,18px)] font-semibold leading-tight text-navy before:h-[18px] before:w-1 before:flex-none before:rounded-sm before:bg-blue before:content-['']">

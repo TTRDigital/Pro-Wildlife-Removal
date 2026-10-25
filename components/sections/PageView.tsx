@@ -58,8 +58,7 @@ export async function PageView({
     return (
       <>
         {schema}
-        <p className="bg-navy py-2.5 text-center font-display text-xs font-medium tracking-[0.4px] text-white">{settings.announcement}</p>
-        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} />
+        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
         <Sections sections={page.sections} ids={ids} closing={closing} />
       </>
     );

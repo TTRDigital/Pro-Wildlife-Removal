@@ -12,7 +12,7 @@ import { siteUrl } from "@/lib/site";
 const roboto = Roboto({ subsets: ["latin"], display: "swap", variable: "--font-roboto", weight: ["400", "500", "600", "700", "800", "900"], style: ["normal", "italic"] });
 const openSans = Open_Sans({ subsets: ["latin"], display: "swap", variable: "--font-open-sans", weight: ["400", "600", "700"], style: ["normal", "italic"] });
 // The 2025 template pages (Cal Sans, Righteous, Nunito, DM Sans) and the bat-removal design (Inter): not preloaded, only some pages use them.
-const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter", weight: ["400", "500", "600", "700"], preload: false });
+const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter", weight: ["400", "500", "600", "700", "800"], preload: false });
 const calSans = Cal_Sans({ subsets: ["latin"], display: "swap", variable: "--font-cal", weight: "400", preload: false, adjustFontFallback: false });
 const righteous = Righteous({ subsets: ["latin"], display: "swap", variable: "--font-righteous", weight: "400", preload: false });
 const nunito = Nunito({ subsets: ["latin"], display: "swap", variable: "--font-nunito", weight: ["600", "700"], preload: false });

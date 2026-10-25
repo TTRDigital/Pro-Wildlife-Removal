@@ -4,7 +4,7 @@ import type { PageContent } from "../types";
 
 export const fallbackPages = {
  "home": {
-  "design": "classic",
+  "design": "new",
   "hero": {
    "heading": "PROFESSIONAL Wildlife Removal Experts in Central Florida",
    "image": images.certifiedWildlifeRemovalExpertsInTampaFl,

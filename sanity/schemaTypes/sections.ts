@@ -92,7 +92,7 @@ export const reviewsSection = defineType({
   type: "object",
   icon: MessageSquareQuote,
   description: "Shows the first reviews from the Reviews list.",
-  fields: [...head, ctas],
+  fields: [...head, defineField({ name: "match", title: "Show reviews mentioning this word first", type: "string", description: "For example: bat" }), ctas],
   preview: titled("Reviews"),
 });
 
@@ -175,11 +175,25 @@ export const postsSection = defineType({
   title: "Latest blog posts",
   type: "object",
   icon: Newspaper,
-  fields: [...head, defineField({ name: "limit", type: "number", initialValue: 3 }), ctas],
+  fields: [...head, defineField({ name: "limit", type: "number", initialValue: 3 }), defineField({ name: "match", title: "Only posts about", type: "string", description: "A word in the post title, for example: bat" }), ctas],
   preview: titled("Latest blog posts"),
 });
 
-export const sectionTypes = [trustBar, splitSection, cardsSection, proseSection, faqSection, reviewsSection, areasSection, ctaSection, contactSection, servicesSection, locationsSection, postsSection];
+export const answerSection = defineType({
+  name: "answerSection",
+  title: "Short answer (for AI search)",
+  type: "object",
+  icon: MessageSquareQuote,
+  description: "40 to 60 words right under the page header: the question as the heading, then the answer.",
+  fields: [
+    ...head.filter((f) => f.name !== "intro"),
+    defineField({ name: "text", title: "Answer", type: "richText" }),
+    defineField({ name: "points", title: "Short facts", type: "array", of: [defineArrayMember({ type: "string" })], validation: (r) => r.max(4) }),
+  ],
+  preview: titled("Short answer"),
+});
+
+export const sectionTypes = [answerSection, trustBar, splitSection, cardsSection, proseSection, faqSection, reviewsSection, areasSection, ctaSection, contactSection, servicesSection, locationsSection, postsSection];
 
 export const sectionsField = defineField({
   name: "sections",
