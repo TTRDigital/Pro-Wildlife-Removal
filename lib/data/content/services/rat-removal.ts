@@ -74,9 +74,9 @@ export const ratRemoval: Service = {
           text: p("UF/IFAS notes roof rats live in citrus trees and gnaw the fruit. Gnawed oranges on the tree or under it mean rats nearby, often with a short trip to your roof."),
         },
         {
-          icon: "critter",
-          title: "A rat in daylight",
-          text: p("Seeing a rat during the day often means a large population, food running short or sick rats."),
+          icon: "search",
+          title: "Burrows by the foundation",
+          text: p("Norway rats dig. UF/IFAS describes burrows along walls and under slabs and rubbish, with about 3-inch openings, fresh dirt scattered in front and worn runways leading in."),
         },
       ],
     },
@@ -227,6 +227,10 @@ export const ratRemoval: Service = {
         faq(
           "Should I put out poison?",
           "We don't recommend it as a first step. UF/IFAS Extension calls rodenticides a last resort, to be used only in tamper-resistant stations away from children and pets. Poison also does nothing about the holes.",
+        ),
+        faq(
+          "I saw a rat during the day. Is that bad?",
+          "Usually it means more rats than you think. UF/IFAS says daytime sightings point to a large population, a food shortage, or sick or poisoned rats, since rats are mostly active at night.",
         ),
         faq(
           "How long does it take to get rid of rats?",

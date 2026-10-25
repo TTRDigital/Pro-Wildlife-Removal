@@ -104,34 +104,34 @@ export const squirrelRemoval: Service = {
       _key: "process",
       eyebrow: "How we remove squirrels",
       heading: "How a squirrel job works",
-      intro: p("The aim is simple: every squirrel out, none sealed inside, and no way back in."),
+      intro: p("Remove, seal, clean: three jobs, done in that order, after a careful look for babies."),
       variant: "numbered",
       columns: 4,
       cards: [
         {
           number: "1",
-          title: "Inspect the roofline",
+          title: "Inspect and check for babies",
           text: p(
-            "We find the main hole and every other weak spot. FWC's list of common squirrel entries is a good map: damaged soffits, broken screens, roof tiles, gaps where the roof meets the wall, and attic vents.",
+            "We find the main hole and every weak spot, using FWC's list of common squirrel entries: damaged soffits, broken screens, roof tiles, gaps where the roof meets the wall, and attic vents. In spring and autumn, we look for a litter before anything is closed.",
           ),
         },
         {
           number: "2",
-          title: "Check for babies",
-          text: p("In spring and autumn, we look for a nest of young before anything is closed. Sealing a mother out would cut the litter off from her."),
-        },
-        {
-          number: "3",
-          title: "Get them out",
+          title: "Remove the squirrels",
           text: p(
-            "Usually a one-way door on the main hole lets the squirrels leave and not return, while the other gaps are closed. Where that won't work, cage traps are set and checked at least every 24 hours.",
+            "Usually a one-way door on the main hole lets the squirrels leave and not return. Where that won't work, cage traps are set and checked at least every 24 hours.",
             "[PLACEHOLDER: ask the client: confirm your usual method (one-way doors, cage traps or both) and how often traps are checked]",
           ),
         },
         {
+          number: "3",
+          title: "Seal every entry",
+          text: p("With the attic empty, chewed openings are rebuilt and covered with metal or other material squirrels can't gnaw, and branches touching the roof get flagged for trimming."),
+        },
+        {
           number: "4",
-          title: "Repair and seal",
-          text: p("Once the attic is empty, the chewed openings are rebuilt and covered with metal or other materials squirrels can't gnaw through, and branches that touch the roof get flagged for trimming."),
+          title: "Clean up",
+          text: p("Nests, droppings and flattened or soiled insulation come out, so nothing is left to draw the next squirrel."),
         },
       ],
     },
