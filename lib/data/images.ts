@@ -675,7 +675,7 @@ export const images = {
   "height": 350
  },
  "certifiedWildlifeRemovalExpertsInTampaFl": {
-  "src": "/images/photos/certified-wildlife-removal-experts-in-tampa-fl.jpg",
+  "src": "/images/photos/wildlife-removal-truck-tampa-bay.jpg",
   "alt": "Pro Wildlife Removal trucks parked outside a two-story home with palm trees",
   "width": 1200,
   "height": 694

@@ -28,7 +28,7 @@ export const opossumRemoval: Service = {
     highlight: "Opossum Removal",
     text: p("An opossum living under the house, in the crawl space or in the attic? We remove it humanely, young included, and close the way in."),
     image: images.opossumRemoval4,
-    badges: ["Open 24/7", "Mother and young kept together", "Openings closed"],
+    badges: ["Under houses, decks and sheds", "Openings closed with mesh"],
   },
   sections: [
     {
@@ -70,7 +70,7 @@ export const opossumRemoval: Service = {
         ul(
           "**Mess and smell.** Droppings, urine and nesting material build up under the floor or in the insulation.",
           "**Damage.** Torn screens and vents where they push their way in.",
-          "**Pets and chickens.** A cornered opossum hisses, growls and bites to defend itself. FWC also notes opossums take chickens and eggs at night.",
+          "**Pets and chickens.** A cornered opossum hisses, growls and may bite. FWC also notes opossums take chickens and eggs at night.",
           "**Horses.** FWC says opossums are one of the main sources of the parasite that causes EPM in horses. Barn owners should cover feed and keep wildlife out of hay storage.",
         ),
       ),
@@ -110,6 +110,7 @@ export const opossumRemoval: Service = {
           "**Opossums are native and can be removed as nuisance animals** when they cause or are about to cause damage, threaten public safety, or cause a problem in, under or on a building (rule 68A-9.010).",
           "**Live traps must be checked at least once every 24 hours.** Any other animal caught by mistake has to be let go right there.",
           "**A trapped opossum can be released on site, released on 40+ acres in the same county with written permission, or humanely killed.** Nowhere else.",
+          "**Tighter trapping rules start December 31, 2026.** From then, FWC requires a free Wildlife Trapping Permit (earned through its trapping course), an in-person check within 12 hours of a camera alert, no more than 24 hours in a trap, and release or humane euthanasia within 12 hours of finding the animal.",
           "**Steel traps need an FWC permit,** and shooting one at night needs a Gun and Light at Night Permit. Leave both to professionals.",
         ),
         p("Read FWC's [Living with Opossums](" + FLYER + ") and our posts on [opossums in attics](/blog/opossums-in-attics/) and [opossums under the house](/blog/opossums-under-house-crawl-space-removal/)."),
@@ -172,7 +173,7 @@ export const opossumRemoval: Service = {
       items: [
         faq(
           "Do opossums carry rabies?",
-          "It's rare. UF/IFAS describes opossums as nearly immune to rabies. That doesn't make them safe to handle: a frightened opossum hisses, growls and bites.",
+          "It's rare. UF/IFAS describes opossums as nearly immune to rabies. In Florida, rabies mostly comes from raccoons and bats, but wash any animal bite or scratch and see a doctor. A frightened opossum hisses, growls and may bite, so don't handle one.",
         ),
         faq(
           "I saw an opossum in the daytime. Is it sick?",
@@ -184,7 +185,7 @@ export const opossumRemoval: Service = {
         ),
         faq(
           "When do opossums have babies in Florida?",
-          "UF/IFAS says most young are born between February and June, though breeding can continue into November. FWC says females have at least two litters a year, and the young ride on their mother's back once they leave the pouch at about 80 days.",
+          "UF/IFAS says most young are born between February and June, though breeding can continue into November. UF/IFAS says females usually have one or two litters a year, and FWC says the young ride on their mother's back once they leave the pouch at about 80 days.",
         ),
         faq(
           "Can I trap the opossum and take it to the woods?",
@@ -214,7 +215,7 @@ export const opossumRemoval: Service = {
       _key: "cta",
       heading: "Opossum under the house?",
       highlight: "under the house?",
-      text: p("Call (727) 594-7705, 24 hours a day. We'll get it out and close the gap."),
+      text: p("Ring (727) 594-7705 whenever you find one. We'll get it out and close the gap."),
       ctas: [CALL],
     },
   ],
@@ -227,6 +228,8 @@ export const opossumRemoval: Service = {
     { title: "FWC: Living with Opossums (only marsupial; mostly nocturnal, daytime activity normal; hiss, drool, growl, play dead with foul smell; don't pick up; scavengers, partly immune to snake venom, eat ticks; secure trash, pet food, seed, fruit, chickens; close access points, wire mesh, motion sprinkler; EPM in horses; 68A-9.010 nuisance take; 24-hour checks; release on site or 40+ acres same county with written permission, or humanely kill; steel trap permit; Gun and Light at Night Permit; removing one doesn't stop others)", url: FLYER },
     { title: "FWC: Opossum profile (at least 2 litters a year; 7-11 young in the pouch; ride on mother's back at about 80 days)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/opossum/" },
     { title: "UF/IFAS EDIS WEC426 (UW471): Wildlife of Florida Factsheet, Virginia Opossum (most young born February to June, breeding through November; nocturnal; nearly immune to rabies; omnivores)", url: UW471 },
+    { title: "FWC: Trap types and trapping rules (from Dec 31, 2026: free Wildlife Trapping Permit after trapping education; physical check within 12 hours of notification; no animal in a trap over 24 hours; relocate or kill within 12 hours of inspection)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/" },
+    { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources; wash bites, see a provider)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
   ],
   clientQuestions: [
     "Opossums: one-way doors, live traps or both? Where are they released?",

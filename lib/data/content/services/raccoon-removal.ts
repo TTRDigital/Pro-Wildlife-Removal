@@ -35,7 +35,7 @@ export const raccoonRemoval: Service = {
       eyebrow: "The short answer",
       heading: "How do you get a raccoon out of the attic in Florida?",
       body: p(
-        "Find out whether there are babies, remove the raccoons by live trap, one-way door or by hand, keeping mother and young together, then repair and seal the entry. In spring, assume a mother with kits. Florida only allows release on the same property or on approved land in the same county. Call (727) 594-7705.",
+        "Find out whether there are babies, remove the raccoons by live trap, one-way door or by hand, keeping mother and young together, then repair and seal the entry. In spring, assume a mother with kits. A trapped raccoon may only be released on site or on 40+ contiguous acres in the same county with written permission. Call (727) 594-7705.",
       ),
     },
     {
@@ -120,8 +120,11 @@ export const raccoonRemoval: Service = {
         },
         {
           number: "3",
-          title: "Release where the law allows",
-          text: p("Raccoons are released only where Florida rules allow: on the property where they were caught, or on 40 or more contiguous acres in the same county with the landowner's written permission."),
+          title: "Follow the release rules",
+          text: p(
+            "Florida allows three outcomes for a trapped raccoon: release on the property where it was caught, release on at least 40 contiguous acres in the same county with the landowner's written permission, or humane euthanasia. FWC's roundworm guidance also says not to relocate raccoons.",
+            "[PLACEHOLDER: ask the client: what you do with trapped raccoons (release on site, release on permitted land, or euthanasia)]",
+          ),
         },
         {
           number: "4",
@@ -139,9 +142,9 @@ export const raccoonRemoval: Service = {
       body: rich(
         ul(
           "**A trap can't sit for days.** Florida requires every trap to be inspected at least once every 24 hours, and an animal caught alive has to be released legally or humanely put down within 24 hours of capture or inspection.",
-          "**Release only on the same property, or on approved land.** A native animal like a raccoon may be let go on the property where it was caught. Anywhere else, the land has to be at least 40 contiguous acres, in the same county, with the landowner's written permission.",
-          "**Moving live raccoons is otherwise illegal.** FWC says transporting live, wild-caught raccoons within, into or out of Florida requires FWC authorization. You can't drive one across town and let it go in a park.",
-          "**Don't feed them.** Florida rule 68A-4.001 prohibits placing food in a way that attracts raccoons. Pet food left out at night counts as an invitation.",
+          "**Three legal outcomes, and only three.** Under Florida's nuisance wildlife rule (68A-9.010), a trapped raccoon may be released on the same property, released on at least 40 contiguous acres in the same county with the landowner's written permission, or humanely put down.",
+          "**No park drop-offs.** Letting a raccoon go in a park, or on any land without the owner's written permission, is illegal. FWC's roundworm page goes further and says not to relocate raccoons at all.",
+          "**Don't feed them.** Florida rule 68A-4.001 bans putting out food or garbage in a way that attracts raccoons and creates, or is likely to create, a public nuisance. Pet food left out at night draws raccoons in.",
         ),
         p(
           "FWC's [nuisance wildlife FAQs](https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/) cover the trapping rules in full. For the season, read [raccoon mating season in Florida](/blog/raccoon-mating-season-in-florida/).",
@@ -212,7 +215,7 @@ export const raccoonRemoval: Service = {
         ),
         faq(
           "Can I trap the raccoon and take it somewhere else?",
-          "Not just anywhere. Florida allows release on the property where it was caught, or on at least 40 contiguous acres in the same county with the landowner's written permission. Moving a live raccoon any other way needs FWC authorization, and a set trap has to be looked at no less than once a day.",
+          "Not just anywhere. Florida allows release on the property where it was caught, or on at least 40 contiguous acres in the same county with the landowner's written permission. Releasing it anywhere else, like a park, is illegal, and a set trap has to be checked at least once every 24 hours.",
         ),
         faq(
           "Why not just close the hole while the raccoon is out at night?",

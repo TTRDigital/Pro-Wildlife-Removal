@@ -27,7 +27,7 @@ export const squirrelRemoval: Service = {
     highlight: "Squirrel Removal",
     text: p("Running and gnawing in the attic in the morning? We get the squirrels out, repair the hole they chewed and close the roofline so they stay out."),
     image: images.squirrelRemoval2,
-    badges: ["Open 24/7", "Chewed entries repaired", "Follows FWC rules"],
+    badges: ["Chewed entries repaired", "Babies checked for first"],
   },
   sections: [
     {
@@ -51,7 +51,7 @@ export const squirrelRemoval: Service = {
         {
           icon: "sunset",
           title: "Noise in the morning and afternoon",
-          text: p("Gray squirrels are active by day. Running and scratching overhead during the day points to squirrels. Rats are mostly active at night."),
+          text: p("Gray squirrels keep daylight hours, so running and scratching overhead during the day points to them. Noise after dark points to rats, or to flying squirrels, which come out at night."),
         },
         {
           icon: "wrench",
@@ -143,11 +143,11 @@ export const squirrelRemoval: Service = {
       heading: "What Florida allows for squirrels",
       body: rich(
         ul(
-          "**Gray and flying squirrels can be removed as nuisance animals** when they're damaging property or causing a problem in, under or on a building (rule 68A-9.010).",
+          "**Only gray and flying squirrels can be removed as nuisance animals,** when they're damaging property or causing a problem in, under or on a building (rule 68A-9.010).",
           "**Cage traps are allowed, and must be checked at least every 24 hours.** Any other animal caught by mistake has to be let go on the spot.",
           "**A trapped squirrel has three legal outcomes:** released on the same property, released on land of 40 acres or more in the same county with the owner's written permission, or humanely put down.",
-          "**Fox squirrels are different.** These big, often black-faced squirrels are protected from hunting statewide, and the Big Cypress fox squirrel can't be trapped or removed without a permit. If you think yours is a fox squirrel, tell us when you call.",
-          "**New rules from December 31, 2026.** A trap watched by camera must be physically checked within 12 hours of an alert, and no animal may stay in a trap longer than 24 hours.",
+          "**Fox squirrels are different.** These big, often black-faced squirrels are protected from hunting statewide, and the Big Cypress fox squirrel, a state-threatened subspecies, can't be trapped or removed without a permit. If you think yours is a fox squirrel, tell us when you call.",
+          "**New rules from December 31, 2026.** A trap watched by camera must be physically checked within 12 hours of an alert, no animal may stay in a trap longer than 24 hours, and a trapped animal must be relocated or humanely killed within 12 hours of that check. Anyone trapping will also need a free FWC Wildlife Trapping Permit, which requires FWC's trapping education course.",
         ),
         p("Read FWC's [Living with Squirrels](" + FLYER + ") flyer, and our post on [why squirrels return after removal](/blog/why-squirrels-return-after-removal/)."),
       ),
@@ -210,7 +210,7 @@ export const squirrelRemoval: Service = {
       items: [
         faq(
           "How do I know it's squirrels and not rats?",
-          "Timing is the easiest clue. Gray squirrels are active in the day, so noise in the morning and afternoon points to squirrels, and noise after dark points to rats. See [squirrel insulation damage](/blog/squirrel-insulation-damage/) for what they do inside.",
+          "Timing is the easiest clue. Gray squirrels keep daylight hours. Noise after dark points to rats, or to flying squirrels, which come out at night. See [squirrel insulation damage](/blog/squirrel-insulation-damage/) for what they do inside.",
         ),
         faq(
           "When do squirrels have babies in Florida?",
@@ -256,7 +256,7 @@ export const squirrelRemoval: Service = {
       _key: "cta",
       heading: "Squirrels running in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705, 24 hours a day. We'll find the hole and close it properly."),
+      text: p("Call (727) 594-7705 any time, day or night. We'll find the hole and close it properly."),
       ctas: [CALL],
     },
   ],
@@ -269,7 +269,7 @@ export const squirrelRemoval: Service = {
     { title: "FWC: Living with Squirrels flyer, June 2026 (three native species; breed twice a year, spring and autumn; teeth grow constantly; common entry points; trim limbs; squirrel in the house; 68A-9.010 nuisance take of gray and flying squirrels; cage traps; 24-hour checks; release on site or 40+ acres same county with written permission, or euthanize; Big Cypress fox squirrel needs a permit; Dec 31, 2026 rule change)", url: FLYER },
     { title: "FWC: Squirrel profile (gray squirrel active by day; breeding up to twice a year; litters average one to four; sometimes nest in attics)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/squirrels/" },
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state; black faces, white noses and ears)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
-    { title: "FWC: Trap types and trapping rules (24-hour inspections; from Dec 31, 2026, remote-monitored traps physically checked within 12 hours of notification, no animal in a trap longer than 24 hours)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/" },
+    { title: "FWC: Trap types and trapping rules (24-hour inspections; from Dec 31, 2026: remote-monitored traps physically checked within 12 hours of notification, no animal in a trap longer than 24 hours, relocate or kill within 12 hours of inspection, free Wildlife Trapping Permit after trapping education)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/" },
   ],
   clientQuestions: [
     "Squirrels: one-way doors, cage traps or both? How often are traps checked? Where are squirrels released?",

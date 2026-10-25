@@ -28,7 +28,7 @@ export const snakeRemoval: Service = {
     highlight: "Snake Removal",
     text: p("A snake in the house, garage or lanai? Keep your distance and call. We remove it safely, find how it got in and close the gap."),
     image: images.snakeRemoval3,
-    badges: ["Open 24/7", "Venomous and nonvenomous", "Entry points sealed"],
+    badges: ["Know the venomous four", "Entry points sealed"],
   },
   sections: [
     {
@@ -46,7 +46,7 @@ export const snakeRemoval: Service = {
       eyebrow: "Venomous snakes",
       heading: "The venomous snakes you may meet in Tampa Bay",
       intro: p(
-        "FWC's guide to Florida's venomous snakes lists six species. Four of them live throughout Florida, including all nine counties we serve. Learn them, then leave identification of any snake you're unsure about to us.",
+        "FWC's guide to Florida's venomous snakes lists six species. Three are found in every Florida county, and the coral snake lives throughout the state. Learn them, then leave identification of any snake you're unsure about to us.",
       ),
       variant: "icon",
       columns: 2,
@@ -106,7 +106,7 @@ export const snakeRemoval: Service = {
       columns: 4,
       cards: [
         { number: "1", title: "Tell us what you see", text: p("Where the snake is, how big it looks, its colors, and whether it's still in sight. If you can, take a photo from a safe distance. Keep the door to that room closed.") },
-        { number: "2", title: "Safe capture", text: p("The technician identifies the snake and removes it with tools made for the job, without handling it bare-handed or harming it.") },
+        { number: "2", title: "Safe capture", text: p("The technician identifies the snake and removes it with tools made for the job.", "[PLACEHOLDER: ask the client: describe how you capture snakes, venomous and not]") },
         { number: "3", title: "Release or removal", text: p("Native snakes are released where Florida rules allow. Protected species, like the eastern indigo snake, are left unharmed.", "[PLACEHOLDER: ask the client: where you release snakes, and how you handle venomous ones]") },
         { number: "4", title: "Find the way in", text: p("We look for the gap the snake used, and for what drew it: rodents, a pond or cover next to the house. Then we close the gaps and tell you what else to change.") },
       ],
@@ -192,7 +192,7 @@ export const snakeRemoval: Service = {
         ),
         faq(
           "What do I do if someone is bitten?",
-          "Call 911. UF/IFAS's snakebite plan says to get away from the snake, keep the bitten arm or leg still and below the heart, remove rings and watches, and wash the bite with soap and water. Don't use a tourniquet, ice, cutting or suction, and don't try to catch the snake. You don't need to identify it for treatment. The Poison Control hotline is 1-800-222-1222.",
+          "Call 911. UF/IFAS's snakebite plan says to get away from the snake, keep the bitten arm or leg still, in a comfortable, neutral position (the CDC's current wording), remove rings and watches, and wash the bite with soap and water. Don't use a tourniquet, ice, cutting or suction, and don't try to catch the snake. You don't need to identify it for treatment. The Poison Control hotline is 1-800-222-1222.",
         ),
         faq(
           "There's a snake in my garage. What do I do?",
@@ -245,6 +245,7 @@ export const snakeRemoval: Service = {
     { title: "FWC: Florida's Venomous Snakes guide (diamondback, pygmy rattlesnake and cottonmouth in every county; coral snake throughout Florida; canebrake mainly northern Florida; copperhead rare in a few northwest counties; ID features; coral vs scarlet kingsnake)", url: "https://myfwc.com/media/3179/guide-to-venomous-snakes-in-fl.pdf" },
     { title: "UF/IFAS EDIS WEC221 (UW260): Dealing with Snakes in Florida's Residential Areas, Preventing Encounters (pencil-size openings; rat snakes follow rodents; door sweeps, garage seals, hardware cloth, vent stacks, crawl space doors; repellents don't work; snake in the garage)", url: UW260 },
     { title: "UF/IFAS EDIS WEC 200 (UW226): Emergency Snakebite Action Plan (call 911; immobilize below the heart; no tourniquet, ice, incision or suction; no need to identify the snake; Poison Control 1-800-222-1222)", url: "https://ask.ifas.ufl.edu/publication/UW226/pdf" },
+    { title: "CDC/NIOSH: Venomous snakes (keep the bite in a neutral position of comfort; remove rings and watches; wash with soap and water)", url: "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html" },
     { title: "FWC: Eastern indigo snake (bluish-black, up to eight feet, non-venomous, no aggression when approached; threatened under the federal ESA)", url: "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/eastern-indigo-snake/" },
   ],
   clientQuestions: [

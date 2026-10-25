@@ -32,7 +32,7 @@ export const home: PageContent = {
       eyebrow: "The short answer",
       heading: "Who we are and how it works",
       body: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in Tampa Bay and nine central and west Florida counties. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705, 24/7.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in nine counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705, 24/7.",
       ),
     },
     {
@@ -92,7 +92,7 @@ export const home: PageContent = {
       _key: "areas",
       eyebrow: "Service area",
       heading: "Wildlife removal in 9 Florida counties",
-      intro: p("Call the number for your county, or the main line at (727) 594-7705. Every line is answered 24/7."),
+      intro: p("Call the number for your county, or the main line at (727) 594-7705. [PLACEHOLDER: ask the client: are all county lines answered 24/7?]"),
       groups: countyGroups,
     },
     {
@@ -105,8 +105,9 @@ export const home: PageContent = {
         "Wildlife work in Florida comes with rules: when bats can be excluded, how often traps must be checked, where a trapped animal may be released. We follow them on every job, and we explain them to you, so you know why a job is done the way it is.",
       ),
       checklist: [
-        "Open 24 hours a day, 7 days a week, including weekends and holidays",
-        "Wildlife removal is all we do",
+        "Open 24 hours a day, 7 days a week",
+        "[PLACEHOLDER: ask the client: confirm weekends and holidays]",
+        "[PLACEHOLDER: ask the client: confirm wildlife removal is all you do (no general pest control)]",
         "Humane methods that follow Florida Fish and Wildlife Conservation Commission rules",
         "Entry points sealed and the mess cleaned up, not just the animal taken away",
         "[PLACEHOLDER: ask the client: years in business]",
@@ -145,7 +146,7 @@ export const home: PageContent = {
         {
           title: "Roof rats: any month",
           text: p(
-            "Roof rats are climbers that live high in trees and in the upper levels of homes, and they don't keep to one season. Branches touching the roof are their bridge in, so keep limbs trimmed back. See [signs of rats in the attic](/blog/rats-in-attic-signs/).",
+            "Roof rats are climbers that live high in trees and in the upper levels of homes. UF/IFAS says a roof rat can have up to 6 litters a year, so they can turn up in any month. Branches touching the roof are their bridge in, so keep limbs trimmed back. See [signs of rats in the attic](/blog/rats-in-attic-signs/).",
           ),
         },
         {
@@ -219,6 +220,7 @@ export const home: PageContent = {
     { title: "FWC: FAQs, nuisance wildlife (24-hour trap checks, release on same property or 40+ contiguous acres in the same county with written permission, native species only)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; dens in attics and crawl spaces)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (roof rats live in trees and upper levels of homes; trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats: up to 6 litters a year)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
   ],
   clientQuestions: [

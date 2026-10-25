@@ -90,7 +90,7 @@ export const batRemoval: Service = {
           "Florida has 13 resident bat species, and all of them eat night-flying insects. The state protects them for good reason. The trouble starts when a colony moves into a building. Here is what the health agencies actually say, without the scare talk.",
         ),
         ul(
-          "**Rabies.** Florida's Department of Health names raccoons and bats as the main wildlife sources of rabies in the state. Most bats don't carry it, but the CDC warns that bat bites can be so small you may not know you were bitten.",
+          "**Rabies.** Florida's Department of Health names raccoons and bats as the main wildlife sources of rabies in the state. Not all bats carry rabies, but the CDC warns that bat bites can be so small you may not know you were bitten.",
           "**Histoplasmosis.** This lung infection comes from a fungus that grows in soil mixed with bird and bat droppings, and people catch it by breathing in the spores. FWC notes that no case from bat guano in a building has been reported in Florida, and the CDC still recommends a respirator in a confined space with guano.",
           "**The house itself.** Bats don't chew or tear up a building the way rats and raccoons do. The damage is the guano piling up on the insulation, the stains and the smell.",
         ),
@@ -149,7 +149,7 @@ export const batRemoval: Service = {
       body: rich(
         ul(
           "**Bats can't be killed.** It's illegal under Florida Administrative Code rule 68A-4.001.",
-          "**No poison, no pesticides, no fumigants.** Rule 68A-9.010 bans using them to harm, kill or drive off bats.",
+          "**No poison, no pesticides, no fumigants.** Rule 68A-9.010 bans pesticides and poisons used to harm, kill or drive off bats, and FWC says fumigants are illegal on bats too.",
           "**No trapping or relocating.** FWC says capturing and moving bats is illegal and doesn't work anyway.",
           "**No exclusion in maternity season without a permit.** April 16 to August 14 is when most Florida bats give birth and raise their young. April 15 is the last legal day without a permit, and exclusion opens again on August 15.",
           "**Exclusion has to be done right.** Devices on the key exits, left up at least four nights, with overnight lows forecast at 50°F or above.",
@@ -249,7 +249,7 @@ export const batRemoval: Service = {
         ),
         faq(
           "Will a bat house get them out of my attic?",
-          "No. FWC says a bat house isn't a substitute for exclusion. Put one up after the exclusion, mounted on a pole or the side of a building, and it can give the colony somewhere else to go.",
+          "No. FWC says a bat house isn't a substitute for exclusion. But it can help: put one up before the exclusion starts, close to the roost and in the bats' flight path, on a pole or a building rather than a tree, so the colony has somewhere else to go.",
         ),
       ],
     },
