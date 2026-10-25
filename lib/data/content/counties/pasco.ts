@@ -44,6 +44,13 @@ export const pasco = countyPage({
     { icon: "leaf", title: "Preserves next door", text: p("Starkey Wilderness Preserve covers about 18,000 acres of pine flatwoods, cypress domes, marsh, sandhill and scrub east of New Port Richey. Homes along its edge share a fence line with a lot of wildlife.") },
     { icon: "map-pin", title: "The Green Swamp", text: p("Part of the 560,000-acre Green Swamp reaches into Pasco. Homes on the rural east side sit close to big stretches of woods and wetland, and the animals that live there.") },
     { icon: "home", title: "New neighborhoods", text: p("Fresh construction and cleared land move animals around. A new roofline with an unsealed gap is an easy first home for a squirrel or a rat.") },
+    { icon: "leaf", title: "Wood stork colonies", text: p("FWC's Little Gator Creek Wildlife and Environmental Area protects wood stork and wading bird colonies on about 566 acres in Pasco, and opens to visitors only from September through January.") },
+  ],
+  contactsIntro: "Some calls belong to a public agency instead of us. Here's who handles what in Pasco, from each agency's own page.",
+  contacts: [
+    { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. After-hours emergencies (5 pm to 8 am): (727) 847-8102, option 7, for loose biting animals and badly injured stray pets.") },
+    { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4, to report a bite or scratch, as DOH-Pasco asked in its July 2026 rabies advisory.") },
+    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("For a bear problem, FWC's Southwest Region in Lakeland: 863-648-3200. For a nuisance alligator, the statewide hotline: 866-392-4286 (866-FWC-GATOR).") },
   ],
   servicesIntro: "All nine services are available across Pasco, coast to country. Tap an animal for the details.",
   faqs: [
@@ -63,6 +70,14 @@ export const pasco = countyPage({
     faq(
       "Can I release a trapped animal at Starkey Preserve?",
       "No. Florida only allows a trapped nuisance animal to be released on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Public land needs the land manager's written permission.",
+    ),
+    faq(
+      "Does Pasco Animal Services handle wildlife?",
+      "Its emergency service covers domestic stray animals, such as loose dogs that have bitten someone or badly injured strays. For animals living in or under your home, call a wildlife removal company.",
+    ),
+    faq(
+      "Who do I call about an alligator in Pasco?",
+      "FWC's Nuisance Alligator Hotline: 866-FWC-GATOR. Generally an alligator counts as a nuisance at 4 feet or longer when it threatens people, pets or property.",
     ),
   ],
   ctaHeading: "Wildlife problem in Pasco?",
@@ -84,6 +99,11 @@ export const pasco = countyPage({
     { title: "SWFWMD: Green Swamp (about 560,000 acres; parts of Pasco, Polk, Lake, Sumter, Hernando)", url: "https://www.swfwmd.state.fl.us/watersheds/green-swamp" },
     { title: "SWFWMD: Starkey Wilderness Preserve (about 18,000 acres; habitats)", url: "https://www.swfwmd.state.fl.us/recreation/starkey-wilderness-preserve" },
     S.trapping,
+    { title: "Pasco County: Animal Services (813-929-1212; after hours (727) 847-8102 option 7; emergency care for domestic strays)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
+    { title: "FWC: Little Gator Creek WEA (about 566 acres; wood stork colonies; open Sept 1 to Jan 31)", url: "https://myfwc.com/news/all-news/gator-creek/" },
+    { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
+    { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
   clientQuestions: ["Typical response time in Pasco County?", "Real job photos and reviews from Pasco customers."],
 });

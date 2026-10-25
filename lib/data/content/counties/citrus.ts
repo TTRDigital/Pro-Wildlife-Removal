@@ -37,6 +37,13 @@ export const citrus = countyPage({
     { icon: "map-pin", title: "Springs and rivers", text: p("Crystal River, Kings Bay and Homosassa are first-magnitude springs, and several serve as warm-water refuges for manatees in winter. Waterfront homes share the shoreline with plenty of wildlife.") },
     { icon: "critter", title: "Rabid stray cats", text: p("Citrus rabies alerts have mostly involved cats: a stray kitten in Floral City in July 2026 and a cat in Inverness in June 2025. The Department of Health also counted a rabid bat in the county in 2024.") },
     { icon: "search", title: "Bear country, a little", text: p("Citrus is in FWC's Big Bend bear area, home to a remnant group near Chassahowitzka. If a bear visits, secure the trash and contact FWC.") },
+    { icon: "leaf", title: "Scrub-jays at Potts Preserve", text: p("The water district's Potts Preserve in northeastern Citrus links the Tsala Apopka Chain of Lakes and the Withlacoochee River, and holds a small population of threatened Florida scrub-jays.") },
+  ],
+  contactsIntro: "In Citrus, animal control is the Sheriff's Office and the shelter is the county. Here's who handles what, from their own pages.",
+  contacts: [
+    { icon: "users", title: "CCSO Animal Control", text: p("352-249-2790 (Sheriff's dispatch) for bites, strays and other domestic animal calls. Its page says nuisance wildlife must be referred to a nuisance trapper.") },
+    { icon: "phone", title: "Animal bites: DOH-Citrus", text: p("352-527-0068, the number DOH-Citrus gives for reporting bites in its rabies alerts.") },
+    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Citrus is in FWC's North Central Region: 386-758-0525 in Lake City for bears. Alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available in Citrus County. Choose the animal to see the signs and how we handle it.",
   faqs: [
@@ -56,6 +63,14 @@ export const citrus = countyPage({
     faq(
       "Has rabies been found in Citrus County?",
       "Yes, mostly in cats. The Department of Health issued alerts after a rabid stray kitten in Floral City (July 2026) and a rabid cat in Inverness (June 2025), and counted a rabid bat in 2024. Report bites and keep pets vaccinated.",
+    ),
+    faq(
+      "Will Citrus County Animal Control remove a raccoon or opossum?",
+      "No. The Sheriff's Office says its officers don't respond to wildlife calls unless the animal is sick or injured and no FWC-approved rescue group can respond, and that nuisance wildlife must be referred to a nuisance trapper.",
+    ),
+    faq(
+      "Which FWC office covers Citrus County?",
+      "The North Central Region office in Lake City, 386-758-0525. Nuisance alligators go to the statewide hotline, 866-FWC-GATOR.",
     ),
   ],
   ctaHeading: "Wildlife problem in Citrus County?",
@@ -78,6 +93,13 @@ export const citrus = countyPage({
     { title: "SWFWMD: Springs Coast overview and Learn about west-central Florida's springs (Crystal River/Kings Bay and Homosassa; warm-water refuges for manatees)", url: "https://www.swfwmd.state.fl.us/projects/springs/learn-about-west-central-floridas-springs" },
     { title: "FWC: Big Bend bear management unit", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/bmu/big-bend/" },
     { title: "FWC: Eastern indigo snake (non-venomous, no aggression; federally threatened)", url: "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/eastern-indigo-snake/" },
+    { title: "Citrus County Sheriff's Office: Animal Control (352-249-2790; domestic animals and livestock only; nuisance wildlife referred to a nuisance trapper)", url: "https://www.sheriffcitrus.org/programs___services/animal_control.php" },
+    { title: "Citrus County: Animal Services shelter ((352) 746-8400)", url: "https://www.citrusbocc.com/departments/community_services/animal_services/" },
+    { title: "DOH-Citrus (352-527-0068 for reporting; same number in the July 2026 rabies alert)", url: "https://citrus.floridahealth.gov/" },
+    { title: "SWFWMD: Potts Preserve (Tsala Apopka and Withlacoochee systems; threatened Florida scrub-jays)", url: "https://www.swfwmd.state.fl.us/recreation/potts-preserve" },
+    { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
+    { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
   clientQuestions: ["Typical response time in Citrus County?", "Real job photos and reviews from Citrus customers."],
 });

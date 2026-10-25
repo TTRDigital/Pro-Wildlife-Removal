@@ -38,6 +38,13 @@ export const hillsborough = countyPage({
     { icon: "leaf", title: "Protected land all around", text: p("The county has bought more than 63,400 acres of sensitive wildlife habitat and corridors through its ELAPP land program. Homes along those corridors live right next to raccoons, opossums and snakes.") },
     { icon: "building", title: "Stray cats and rabies", text: p("DOH-Hillsborough issued rabies alerts for rabid stray or unvaccinated cats in Town 'N' Country (April 2025) and Gibsonton (September 2026). Feeding strays outdoors also feeds raccoons.") },
     { icon: "home", title: "Older Tampa homes", text: p("Older roofs, soffits and gable vents wear out, and every gap is an invitation to roof rats, squirrels and bats.") },
+    { icon: "map-pin", title: "River wilderness", text: p("The water district's Lower Hillsborough Wilderness Preserve lets you paddle the Hillsborough River among wading birds, turtles and alligators, with over 60 miles of forest trails.") },
+  ],
+  contactsIntro: "Here's who to call for the problems we don't handle in Hillsborough, with each number from the agency's own site.",
+  contacts: [
+    { icon: "users", title: "Hillsborough County Animal Control", text: p("(813) 744-5660. Part of Code Enforcement: sick or injured stray pets, animal bite investigations, dangerous dogs and neglect, including in Tampa, Temple Terrace and Plant City.") },
+    { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("813-307-8059, Environmental Public Health, to report an animal bite.") },
+    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office, 863-648-3200, takes bear conflicts. Alligators go to 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available across Hillsborough. Choose the animal to read about the signs and how we handle it.",
   faqs: [
@@ -57,6 +64,14 @@ export const hillsborough = countyPage({
     faq(
       "Do you cover Brandon and Riverview?",
       "Yes, and the rest of the county. See the towns listed above, or call and ask about your address.",
+    ),
+    faq(
+      "Who handles a stray or injured pet in Hillsborough?",
+      "Hillsborough County Animal Control, (813) 744-5660. It transports sick or injured stray pets and investigates animal bites. Wild animals in your attic, walls or yard are a job for a wildlife company.",
+    ),
+    faq(
+      "Is there a number for nuisance alligators in Hillsborough?",
+      "Yes: FWC's statewide hotline, 866-FWC-GATOR (866-392-4286). An alligator 4 feet or longer that threatens people, pets or property generally qualifies.",
     ),
   ],
   ctaHeading: "Wildlife problem in Hillsborough?",
@@ -79,6 +94,12 @@ export const hillsborough = countyPage({
     { title: "Florida DOH: Hillsborough rabies alert, April 14, 2025 (rabid stray cat, Town 'N' Country)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/alert-hillsborough-dade-4-14-2025.pdf" },
     { title: "Hillsborough County: ELAPP (more than 63,400 acres of environmentally sensitive wildlife habitat and corridors)", url: "https://hcfl.gov/residents/parks-and-leisure/conservation-lands/elapp" },
     S.bats,
+    { title: "Hillsborough County: Animal Control ((813) 744-5660; stray pets, bites, dangerous dogs)", url: "https://hcfl.gov/locations/animal-control" },
+    { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
+    { title: "SWFWMD: Lower Hillsborough Wilderness Preserve (wading birds, turtles, alligators; over 60 miles of trails)", url: "https://www.swfwmd.state.fl.us/recreation/lower-hillsborough-wilderness-preserve" },
+    { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
+    { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
   clientQuestions: ["Typical response time in Hillsborough County?", "Real job photos and reviews from Hillsborough customers."],
 });

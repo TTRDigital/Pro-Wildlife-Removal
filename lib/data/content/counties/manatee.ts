@@ -30,6 +30,13 @@ export const manatee = countyPage({
     { icon: "leaf", title: "Big preserves to the east", text: p("Duette Preserve, at over 21,000 acres, is the largest preserve in Manatee County. Homes on the growing east side sit closer to wild land.") },
     { icon: "critter", title: "Rabies: rare here lately", text: p("The Department of Health's last Manatee rabies alert was in May 2023, after a rabid cat in the Palm View area of Palmetto, and it counted no rabid animals in Manatee in 2024 or 2025. Rare doesn't mean never: don't handle wildlife.") },
     { icon: "search", title: "South Central bear area", text: p("FWC places Manatee in its South Central bear area. Bears are FWC's department: lock up the trash and give them a call.") },
+    { icon: "map-pin", title: "Marine strandings", text: p("Manatee County refers sick, injured or dead marine mammals and sea turtles to Mote Marine Laboratory's stranding program, which responds 24 hours a day: 888-345-2335.") },
+  ],
+  contactsIntro: "These are Manatee County's public numbers for animal problems, taken from the county's and agencies' own pages.",
+  contacts: [
+    { icon: "users", title: "Manatee County Animal Services", text: p("941-742-5933: option 1 to report cruelty, abuse or neglect, option 2 for lost and found pets.") },
+    { icon: "phone", title: "Animal bites: DOH-Manatee", text: p("941-748-0747, option 4, to report an animal bite.") },
+    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Manatee is in FWC's Southwest Region: 863-648-3200. For alligators, call 866-FWC-GATOR (866-392-4286).") },
   ],
   servicesIntro: "Choose the animal to read the signs, Florida's rules for it and how we handle it.",
   faqs: [
@@ -45,6 +52,14 @@ export const manatee = countyPage({
     faq(
       "Is rabies a concern in Manatee County?",
       "Recent cases have been rare. The last Manatee rabies alert on the state's list was in May 2023, after a rabid cat in Palmetto, and none were counted in 2024 or 2025. Report any wildlife bite to the health department.",
+    ),
+    faq(
+      "Who helps injured wildlife in Manatee County?",
+      "The county's animal contacts page lists Wildlife Rescue at 941-778-6324 and FWC's Wildlife Alert Hotline at 1-888-404-3922. Sick or stranded marine mammals and sea turtles go to Mote Marine Laboratory, 888-345-2335.",
+    ),
+    faq(
+      "Where do I report an animal bite in Manatee?",
+      "The Florida Department of Health in Manatee County: 941-748-0747, option 4.",
     ),
   ],
   ctaHeading: "Wildlife problem in Manatee County?",
@@ -66,6 +81,12 @@ export const manatee = countyPage({
     { title: "UF/IFAS Extension Manatee: Talking trash, rodent prevention, May 29, 2026 (trash supplies rodents food, water, shelter; Manatee provides large lidded carts)", url: "https://blogs.ifas.ufl.edu/manateeco/2026/05/29/talking-trash-rodent-prevention/" },
     { title: "Manatee County: Preserves (Duette Preserve, over 21,000 acres, largest in the county)", url: "https://mymanatee.org/departments/natural_resources/preserves" },
     { title: "FWC: South Central bear management unit", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/bmu/south-central/" },
+    { title: "Manatee County: Important animal contacts (Animal Services 941-742-5933; Wildlife Rescue 941-778-6324; FWC 1-888-404-3922)", url: "https://www.mymanatee.org/services-and-amenities/service-listing/service-details/find-important-animal-contacts" },
+    { title: "DOH-Manatee: Animal bites and scratches (941-748-0747, option 4)", url: "https://manatee.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/" },
+    { title: "Manatee County: Stranding investigation program (Mote Marine Laboratory, 24-hour response, 888-345-2335)", url: "https://www.mymanatee.org/services-and-amenities/service-listing/service-details/stranding-investigation-program" },
+    { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
+    { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
   clientQuestions: [
     "Which Manatee County towns do you serve, and is there a Manatee phone number?",

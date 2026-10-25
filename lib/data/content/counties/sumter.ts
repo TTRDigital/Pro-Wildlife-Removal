@@ -36,6 +36,13 @@ export const sumter = countyPage({
     { icon: "leaf", title: "Green Swamp and Richloam", text: p("FWC's Green Swamp area spans over 50,000 acres across Lake, Polk and Sumter, and lists armadillos, wild hogs and alligators. The Richloam tract, over 58,000 acres, lists gray squirrels and gopher tortoises.") },
     { icon: "critter", title: "Rabid cats on record", text: p("The Department of Health has issued Sumter rabies alerts after rabid cats near Webster (June 2026) and Sumterville (June 2024). Feeding outdoor cats also feeds raccoons.") },
     { icon: "search", title: "Ocala bear range", text: p("FWC places Sumter in its Central bear area, around the Ocala population. Secure trash and pet food, and contact FWC about bears.") },
+    { icon: "leaf", title: "Half Moon WMA", text: p("FWC's Half Moon WMA sits east of Inverness in Sumter County, where wading birds gather along marsh and pond edges and scrub-jay habitat is being restored.") },
+  ],
+  contactsIntro: "Sumter's own website is clear about who does what. These numbers come from the county's and the agencies' pages.",
+  contacts: [
+    { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400: option 3 for animal control complaints, option 9 after hours. The county says Animal Services generally deals only with domestic animals.") },
+    { icon: "phone", title: "Animal bites: DOH-Sumter", text: p("352-569-3102, the number DOH-Sumter gave for reporting bites in its June 2026 rabies alert.") },
+    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Sumter is in FWC's Northeast Region: 352-732-1225 in Ocala. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "All nine services are available in Sumter County and The Villages. Each card opens the full page for that animal.",
   faqs: [
@@ -55,6 +62,14 @@ export const sumter = countyPage({
     faq(
       "There's an armadillo digging up my yard in The Villages. What can I do?",
       "Water less and in the morning, pick up fallen fruit, and call us to trap it at the burrow. Florida's rules on where a trapped armadillo can go are on our [armadillo removal](/services/armadillo-removal/) page.",
+    ),
+    faq(
+      "Will Sumter County Animal Services remove wildlife?",
+      "Generally not. The county says Animal Services deals only with domestic animals, gives residents referrals to private trappers for nuisance wildlife, and lists raccoons, opossums, foxes, coyotes, skunks and snakes as examples.",
+    ),
+    faq(
+      "Which FWC office covers Sumter County?",
+      "FWC's Northeast Region office in Ocala, 352-732-1225, which the county also lists for nuisance wildlife questions.",
     ),
   ],
   ctaHeading: "Wildlife problem in Sumter County?",
@@ -77,6 +92,13 @@ export const sumter = countyPage({
     { title: "FWC: Richloam WMA (over 58,000 acres; wild hogs, gopher tortoises, gray squirrels)", url: "https://myfwc.com/recreation/cooperative/richloam/" },
     { title: "FWC: Central bear management unit", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/bmu/central/" },
     { title: "FWC: Living with Armadillos", url: "https://myfwc.com/media/2hshpfdc/living-with-armadillos.pdf" },
+    { title: "Sumter County: Animal Services contact (352-689-4400, option 3; option 9 after hours)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
+    { title: "Sumter County: Nuisance wildlife (Animal Services deals only with domestic animals; FWC Ocala 352-732-1225; referrals to private trappers)", url: "https://www.sumtercountyfl.gov/1180/Nuisance-Wildlife" },
+    { title: "DOH-Sumter: Rabies alert, June 26, 2026 (report bites at 352-569-3102)", url: "https://sumter.floridahealth.gov/2026/06/26/doh-sumter-issues-rabies-alert-2/" },
+    { title: "FWC: Half Moon WMA (Sumter County; wading birds; scrub-jay habitat)", url: "https://myfwc.com/recreation/lead/half-moon/" },
+    { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
+    { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
   clientQuestions: ["Typical response time in Sumter County and The Villages?", "Real job photos and reviews from Sumter and Villages customers."],
 });

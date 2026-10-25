@@ -38,6 +38,13 @@ export const polk = countyPage({
     { icon: "critter", title: "Bats and raccoons with rabies", text: p("In 2024, Florida's Department of Health counted three rabid bats, a raccoon and a cat in Polk. Rabid raccoons led to alerts near West Frostproof (2024) and north Lakeland (2023).") },
     { icon: "leaf", title: "Green Swamp and the Kissimmee lakes", text: p("Part of the 560,000-acre Green Swamp is in Polk, and FWC's Kissimmee Chain of Lakes area spans 21,000 acres in Polk and Osceola. Big wild areas mean wildlife is never far from town.") },
     { icon: "search", title: "Bears, occasionally", text: p("FWC places Polk in its South Central bear area. Bears are FWC's responsibility: secure the trash and contact FWC if one visits.") },
+    { icon: "map-pin", title: "Alligators at Circle B Bar", text: p("At the county's Circle B Bar Reserve on Lake Hancock, often called the headwaters of the Peace River, Polk County says alligators are close to a sure sighting.") },
+  ],
+  contactsIntro: "In Polk, Animal Control is part of the Sheriff's Office. Here's who handles what, from each agency's own page.",
+  contacts: [
+    { icon: "users", title: "PCSO Animal Control", text: p("(863) 577-1762, toll-free 1-888-275-8941. Bites, dangerous dogs, sick or injured dogs and cats, and bites by possible rabies carriers like raccoons and bats.") },
+    { icon: "phone", title: "Animal bites: DOH-Polk", text: p("863-519-8300, the number the department's rabies prevention page gives for reports.") },
+    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office is in Lakeland: 863-648-3200 for bears. Alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available across Polk. Open any card for the signs, the rules and our process.",
   faqs: [
@@ -61,6 +68,14 @@ export const polk = countyPage({
     faq(
       "Can I release a trapped raccoon at a lake park?",
       "No. A trapped nuisance animal may only be released on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission.",
+    ),
+    faq(
+      "Will Polk County Animal Control remove nuisance wildlife?",
+      "No. The Sheriff's Office FAQ says Animal Control responds to wildlife only when there's a bite or attack, and doesn't respond to nuisance wildlife calls or remove trapped nuisance wildlife.",
+    ),
+    faq(
+      "What about an alligator in my Polk County lake or pool?",
+      "The Sheriff's Office refers alligator calls to FWC's hotline, 1-866-392-4286 (866-FWC-GATOR).",
     ),
   ],
   ctaHeading: "Wildlife problem in Polk County?",
@@ -86,6 +101,13 @@ export const polk = countyPage({
     { title: "FWC: Kissimmee Chain of Lakes Area (21,000 acres in Polk and Osceola)", url: "https://myfwc.com/recreation/cooperative/kcol/" },
     { title: "FWC: South Central bear management unit", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/bmu/south-central/" },
     S.trapping,
+    { title: "Polk County Sheriff's Office: Animal Services ((863) 577-1762; 1-888-275-8941)", url: "https://www.polksheriff.org/animal-services" },
+    { title: "Polk County Sheriff's Office: Animal Services FAQ (no nuisance wildlife calls; alligators to FWC)", url: "https://www.polksheriff.org/animal-services/frequently-asked-questions" },
+    { title: "DOH-Polk: Rabies prevention program (863-519-8300)", url: "https://polk.floridahealth.gov/programs-and-services/environmental-public-health/rabies-prevention-program/" },
+    { title: "Polk County: Circle B Bar Reserve (alligators in Lake Hancock)", url: "https://www.polkfl.gov/park/circle-b-bar-reserve/" },
+    { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
+    { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
   clientQuestions: ["Typical response time in Polk County?", "Real job photos and reviews from Polk customers.", "Lakeland and Winter Haven city pages are planned: any jobs or reviews from there?"],
 });
