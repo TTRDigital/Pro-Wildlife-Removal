@@ -115,7 +115,19 @@ export type Section =
   | LocationsSection
   | PostsSection;
 
-export type PageContent = { design?: Design; hero: Hero; sections: Section[]; seo: Seo };
+/** A source a page's facts come from (FWC, CDC, UF/IFAS, Florida statutes). Kept with the page for fact checks; not shown unless a template chooses to. */
+export type Source = { title: string; url: string };
+
+export type PageContent = {
+  design?: Design;
+  hero: Hero;
+  sections: Section[];
+  seo: Seo;
+  /** Where the page's facts about animals, health, law and safety come from. Not rendered. */
+  sources?: Source[];
+  /** Questions only the client can answer; the matching text on the page is a [PLACEHOLDER: ask the client: ...]. Not rendered. */
+  clientQuestions?: string[];
+};
 
 export type ServiceGroup = "removal" | "control" | "tampa";
 
