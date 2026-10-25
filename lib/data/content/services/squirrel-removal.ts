@@ -92,7 +92,7 @@ export const squirrelRemoval: Service = {
           "A squirrel has to chew. FWC explains that its front teeth grow constantly and chewing keeps them filed down. Outside, that's bark and nuts. Inside your attic, it's whatever is there.",
         ),
         ul(
-          "**Wiring and pipes.** FWC lists chewed wires among the most common squirrel complaints and suggests covering PVC and electrical wires where squirrels can reach them.",
+          "**Wiring and pipes.** FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering PVC and electrical wires where squirrels can reach them.",
           "**The roof.** A chewed opening lets in rain, and it's a ready-made door for the next animal.",
           "**More squirrels.** FWC says Florida squirrels tend to breed twice a year, with litters averaging one to four young. A pair in the attic in winter can be a family by spring.",
         ),
@@ -144,10 +144,10 @@ export const squirrelRemoval: Service = {
       heading: "What Florida allows for squirrels",
       body: rich(
         ul(
-          "**Only gray and flying squirrels can be removed as nuisance animals,** when they're damaging property or causing a problem in, under or on a building (rule 68A-9.010).",
+          "**Gray and flying squirrels can be taken as nuisance animals** when they're damaging property or causing a problem in, under or on a building (rule 68A-9.010).",
           "**Cage traps are allowed, and must be checked at least every 24 hours.** Any other animal caught by mistake has to be let go on the spot.",
           "**A trapped squirrel has three legal outcomes:** released on the same property, released on land of 40 acres or more in the same county with the owner's written permission, or humanely put down.",
-          "**Fox squirrels are different.** These big, often black-faced squirrels are protected from hunting statewide, and the Big Cypress fox squirrel, a state-threatened subspecies, can't be trapped or removed without a permit. If you think yours is a fox squirrel, tell us when you call.",
+          "**Fox squirrels are different.** These big, often black-faced squirrels can't be hunted in Florida, and the threatened Big Cypress fox squirrel can't be trapped or removed without a permit. If you think yours is a fox squirrel, tell us when you call.",
           TRAP_RULES_2026,
         ),
         p("Read FWC's [Living with Squirrels](" + FLYER + ") flyer, and our post on [why squirrels return after removal](/blog/why-squirrels-return-after-removal/)."),
@@ -157,13 +157,13 @@ export const squirrelRemoval: Service = {
       _type: "splitSection",
       _key: "sealing",
       eyebrow: "Repairs and cleanup",
-      heading: "Closing the roof for good",
+      heading: "Closing the roof",
       body: p(
         "Squirrels that lived in an attic know the way back, and a patch of wood is just something new to chew. The repair has to be stronger than the material they chewed through, and it has to cover the other weak spots too, or they'll open the next one.",
       ),
       checklist: [
         "Chewed fascia, soffit and roof edges rebuilt",
-        "Openings covered with metal or other chew-resistant material",
+        "Openings covered with chew-resistant material [PLACEHOLDER: ask the client: what material you use]",
         "Attic vents and gable screens checked and reinforced",
         "Nest material and droppings removed from the attic",
         "Insulation the squirrels flattened or soiled replaced where needed",

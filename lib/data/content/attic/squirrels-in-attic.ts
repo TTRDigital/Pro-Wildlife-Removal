@@ -89,7 +89,7 @@ export const squirrelsInAttic: Service = {
       heading: "What squirrels do to an attic",
       body: rich(
         ul(
-          "**Chewed wiring.** FWC lists chewing on wires among the most common squirrel complaints and suggests covering wires and PVC where squirrels reach them.",
+          "**Chewed wiring.** FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering wires and PVC where squirrels reach them.",
           "**Nesting.** FWC notes gray squirrels sometimes nest in attics when they can get in, and the insulation gets flattened and soiled.",
           "**A bigger family.** FWC says Florida squirrels tend to breed twice a year. A winter squatter can be a mother with young by spring.",
           "**An open roof.** Every chewed opening lets in rain and the next animal.",
@@ -118,7 +118,7 @@ export const squirrelsInAttic: Service = {
       eyebrow: "Florida rules",
       heading: "The rules if you're thinking of trapping",
       body: ul(
-        "**Only gray and flying squirrels can be taken as nuisance animals.** Fox squirrels are protected from hunting statewide.",
+        "**Gray and flying squirrels can be taken as nuisance animals.** Fox squirrels can't be hunted in Florida, and the threatened Big Cypress fox squirrel can't be trapped or removed without a permit.",
         "**Cage traps must be checked at least once every 24 hours.**",
         "**A trapped squirrel can be released on site, on 40+ acres in the same county with the landowner's written permission, or humanely put down.** Releasing it at a park isn't allowed.",
         TRAP_RULES_2026,
@@ -149,7 +149,7 @@ export const squirrelsInAttic: Service = {
         "Once the squirrels are gone, the chewed openings have to be rebuilt stronger than the wood they chewed through, or they'll chew through the patch. Then the attic gets cleaned. Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves. Soiled insulation is bagged and replaced. The full process is on our [squirrel removal](/services/squirrel-removal/) page.",
       ),
       checklist: [
-        "Chewed fascia, soffit and roof edges rebuilt and covered with chew-resistant material",
+        "Chewed fascia, soffit and roof edges rebuilt [PLACEHOLDER: ask the client: what material you use to cover squirrel repairs]",
         "Attic vents and screens checked",
         "Nests and droppings removed",
         "Insulation replaced where needed",
@@ -179,7 +179,7 @@ export const squirrelsInAttic: Service = {
         ),
         faq(
           "Can squirrels chew through wiring?",
-          "Yes. FWC lists chewed wires among the most common squirrel complaints and suggests covering wires and PVC pipe where squirrels can reach them. If you see bare wire in the attic, have it checked. See [squirrels chewing wires](/blog/squirrels-chewing-wires-expert-guide/).",
+          "Yes. FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering wires and PVC pipe where squirrels can reach them. If you see bare wire in the attic, have it checked. See [squirrels chewing wires](/blog/squirrels-chewing-wires-expert-guide/).",
         ),
         faq(
           "Do squirrels carry diseases?",
@@ -191,7 +191,7 @@ export const squirrelsInAttic: Service = {
         ),
         faq(
           "Can I trap the squirrel myself?",
-          "Florida allows cage traps for nuisance gray and flying squirrels, checked at least once every 24 hours. A trapped squirrel can only be released on site, on 40 acres or more in the same county with written permission, or humanely put down. Fox squirrels are protected. See the rules above.",
+          "Florida allows cage traps for nuisance gray and flying squirrels, checked at least once every 24 hours. A trapped squirrel can only be released on site, on 40 acres or more in the same county with written permission, or humanely put down. Fox squirrels can't be hunted, and the threatened Big Cypress fox squirrel can't be trapped without a permit. See the rules above.",
         ),
         faq(
           "What if the squirrel is inside the house, not the attic?",
@@ -219,7 +219,7 @@ export const squirrelsInAttic: Service = {
       _key: "cta",
       heading: "Squirrels in the ceiling?",
       highlight: "the ceiling?",
-      text: p("Call (727) 594-7705. We'll find the way in and check for babies first."),
+      text: p("Call (727) 594-7705, any time. Mention the season, so babies are part of the plan."),
       ctas: [CALL],
     },
   ],

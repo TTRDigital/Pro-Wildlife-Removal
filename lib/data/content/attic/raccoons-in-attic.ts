@@ -1,6 +1,7 @@
 import { images } from "../../images.ts";
 import type { Service } from "../../../types";
 import { faq, p, rich, table, ul } from "../pt.ts";
+import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
  * Raccoons in the attic. Target searches: "raccoon in attic", "raccoons in attic Tampa".
@@ -108,7 +109,8 @@ export const raccoonsInAttic: Service = {
         ul(
           "**Sealing the hole while the raccoon is inside.** UF/IFAS says chasing a raccoon out and sealing the entry frequently causes even more damage because the raccoon often returns. With kits inside, it also separates the family.",
           "**Moving it yourself.** A trapped raccoon may only be released on the same property, or on at least 40 contiguous acres in the same county with the landowner's written permission. FWC's roundworm guidance says not to relocate raccoons at all.",
-          "**Cleaning the latrine bare-handed.** Raccoon droppings can carry roundworm eggs. FWC and the CDC both advise gloves and burning or burying the droppings, or bagging them for the landfill.",
+          TRAP_RULES_2026,
+          "**Cleaning the latrine bare-handed.** Raccoon droppings can carry roundworm eggs. FWC advises gloves. FWC and the CDC both say to burn or bury the droppings, and the CDC adds sending them to a landfill.",
         ),
       ),
       image: images.post1776984844429,
@@ -137,7 +139,7 @@ export const raccoonsInAttic: Service = {
       columns: 4,
       cards: [
         { number: "1", title: "Inspect for kits", text: p("Find the entry, the den and whether young are there before anything else.") },
-        { number: "2", title: "Get the family out", text: p("Adults and young removed together, by the method that fits the house and the season.") },
+        { number: "2", title: "Get the family out", text: p("Adults and young removed together, by the method that fits the house and the season.", "[PLACEHOLDER: ask the client: confirm how you remove a raccoon family]") },
         { number: "3", title: "Rebuild the entry", text: p("The torn soffit, vent or roof edge is rebuilt stronger, and the chimney capped if needed.") },
         { number: "4", title: "Clean the attic", text: p("Latrine first, then soiled insulation, then treatment and new insulation.", "[PLACEHOLDER: ask the client: how long a typical raccoon job takes, start to finish]") },
       ],
@@ -152,7 +154,7 @@ export const raccoonsInAttic: Service = {
         "With the raccoons out and the entry rebuilt, the attic needs cleaning. The CDC says raccoon roundworm eggs aren't infectious the moment they're passed, and advises removing droppings promptly, before they become infectious. So the latrine comes out first. FWC's advice for a latrine is gloves, and burning or burying the droppings. In an attic, that means bagging the droppings and the soiled insulation around them, treating the area, and only then putting in new insulation.",
       ),
       checklist: [
-        "Latrine removed by technicians in protective gear",
+        "Latrine removed first [PLACEHOLDER: ask the client: confirm your protective gear and latrine cleanup method]",
         "Crushed and soiled insulation bagged and taken out",
         "Attic treated and deodorized",
         "Insulation replaced where it had to go",
@@ -189,7 +191,7 @@ export const raccoonsInAttic: Service = {
           "In a yard, FWC and the CDC advise gloves, prompt removal, and burning or burying the droppings or bagging them for the landfill, then washing your hands. In an attic, with insulation and tight spaces, it's safer to have it done.",
         ),
         faq(
-          "How do I keep raccoons out of the attic for good?",
+          "How do I keep raccoons out of the attic?",
           "Rebuild the entry with strong materials, cap the chimney and keep branches off the roof. Don't put out food or garbage in a way that draws them: Florida rule 68A-4.001 bans doing that when it creates a nuisance. See [raccoon removal](/services/raccoon-removal/).",
         ),
         faq(
@@ -218,7 +220,7 @@ export const raccoonsInAttic: Service = {
       _key: "cta",
       heading: "Something big in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705. We'll check for kits first and plan the removal around them."),
+      text: p("Call (727) 594-7705, 24/7. In spring, ask about kits when you call."),
       ctas: [CALL],
     },
   ],
@@ -236,8 +238,10 @@ export const raccoonsInAttic: Service = {
     { title: "UF/IFAS EDIS ENY-224 (roof rats: under a pound; night activity; half-inch gaps) and FWC squirrel profile (gray squirrel 17-20 inches; active by day)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
+    TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
+    "How do you remove a raccoon family, and what protective gear and latrine cleanup method do you use?",
     "How long does a typical raccoon job take, start to finish?",
     "How do you treat a raccoon latrine and replace insulation, and is it quoted separately?",
     "Real photos: a raccoon-torn soffit, kits in an attic, a rebuilt entry.",

@@ -234,7 +234,7 @@ export const opossumsInAttic: Service = {
       _key: "cta",
       heading: "Possum in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705. We'll get it out and close the gap behind it."),
+      text: p("Call (727) 594-7705, 24/7, and tell us where you hear it."),
       ctas: [CALL],
     },
   ],

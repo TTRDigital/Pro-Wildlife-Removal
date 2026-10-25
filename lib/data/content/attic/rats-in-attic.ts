@@ -33,7 +33,7 @@ export const ratsInAttic: Service = {
       _key: "answer",
       heading: "How do I know if I have rats in my attic?",
       text: p(
-        "Listen at night and look in the attic. Scratching and scurrying after dark, half-inch pointed droppings, greasy smudges on rafters and chewed wires mean rats, almost always roof rats in Florida. The fix is sealing every gap, then trapping: see [rat removal](/services/rat-removal/). Call (727) 594-7705.",
+        "Listen at night and look in the attic. Scratching and scurrying after dark, half-inch pointed droppings, greasy smudges on rafters and chewed wires mean rats, usually roof rats, which UF/IFAS says thrive in attics. The fix is sealing every gap, then trapping: see [rat removal](/services/rat-removal/). Call (727) 594-7705.",
       ),
       points: ["Noise after dark", "Half-inch droppings", "Greasy rub marks", "Seal, then trap"],
     },
@@ -120,7 +120,7 @@ export const ratsInAttic: Service = {
       _type: "cardsSection",
       _key: "process",
       eyebrow: "Getting them out",
-      heading: "How rats get out of an attic for good",
+      heading: "How to get rats out of an attic and keep them out",
       intro: p("The full process is on our [rat removal](/services/rat-removal/) page. In short:"),
       variant: "numbered",
       columns: 3,
@@ -192,7 +192,7 @@ export const ratsInAttic: Service = {
         ),
         faq(
           "Is it safe to sleep with rats in the attic?",
-          "The bigger risks are the wiring and the droppings, not a bite. UF/IFAS warns chewed wires can start fires, and the CDC links rodent droppings and urine to disease. Get it dealt with soon, and keep the attic hatch closed meanwhile.",
+          "The main risks are chewed wiring, droppings and, less often, bites; UF/IFAS notes rats sometimes bite sleeping children. UF/IFAS warns chewed wires can start fires, and the CDC links rodent droppings and urine to disease. Get it dealt with soon, and keep the attic hatch closed meanwhile.",
         ),
         faq(
           "How much does attic cleanup after rats cost?",
