@@ -29538,7 +29538,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "cardsSection",
-    "heading": "Pro Willdlife Removal in Tampa FL",
+    "heading": "Pro Wildlife Removal in Tampa FL",
     "variant": "plain",
     "columns": 3,
     "cards": [
