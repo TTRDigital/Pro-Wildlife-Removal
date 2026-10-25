@@ -43,6 +43,9 @@ const oldUrls: [string, string][] = [
   ["/author/:path*", "/blog/"],
   // The client does not do mole removal (Oct 25, 2026): the page is gone.
   ["/services/mole-control", "/services/"],
+  // Photo renamed by Cole (no certification claims in URLs). Ships with his content branch, where the new file lives.
+  ["/images/photos/certified-wildlife-removal-experts-in-tampa-fl.jpg", "/images/photos/wildlife-removal-truck-tampa-bay.jpg"],
+  ["/_img/images/photos/certified-wildlife-removal-experts-in-tampa-fl-:w(\\d+).webp", "/_img/images/photos/wildlife-removal-truck-tampa-bay-:w.webp"],
 ];
 
 // Third parties: Google Tag Manager / Analytics / Ads, Microsoft Clarity, Sanity images,
