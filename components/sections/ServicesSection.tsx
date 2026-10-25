@@ -15,13 +15,13 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
   return (
     <Link
       href={`/services/${s.slug}/`}
-      className="card group flex h-full min-w-0 flex-col overflow-hidden transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]"
+      className="card group flex h-full min-w-0 flex-col overflow-hidden rounded-[20px] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]"
       data-reveal
       style={{ ["--i" as string]: index % 4 }}
     >
       {img ? (
         <div className="relative aspect-[4/3] overflow-hidden">
-          <Photo image={img} sizes="(min-width: 1024px) 300px, (min-width: 640px) 50vw, 100vw" className="transition-transform duration-500 group-hover:scale-[1.04]" />
+          <Photo image={img} sizes="(min-width: 1024px) 300px, (min-width: 640px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
         </div>
       ) : null}
       <div className="flex flex-1 flex-col p-6">

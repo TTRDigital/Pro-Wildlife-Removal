@@ -19,6 +19,14 @@ export function heroCtas(hero: Hero, settings: SiteSettings, primary?: Cta): Cta
   return callCtas([main, phone], settings.phone, settings.phoneHref);
 }
 
+/** A page with its own phone line (a county page's hero call button) shows that number in its hero and closing band. */
+function pageLine(hero: Hero, settings: SiteSettings): SiteSettings {
+  const tel = hero.ctas?.find((c) => c.href.startsWith("tel:"));
+  const d = tel?.href.replace(/\D/g, "").replace(/^1(?=\d{10}$)/, "");
+  if (!tel || !d || d.length !== 10 || settings.phoneHref.replace(/\D/g, "").endsWith(d)) return settings;
+  return { ...settings, phone: `(${d.slice(0, 3)}) ${d.slice(3, 6)}-${d.slice(6)}`, phoneHref: `tel:+1${d}` };
+}
+
 async function oldDesignData(settings: SiteSettings): Promise<ClassicData> {
   const [testimonials, services, locations, posts] = await Promise.all([getTestimonials(), getServices(), getLocations(), getPosts()]);
   return { settings, testimonials, services, locations, posts };
@@ -55,12 +63,12 @@ export async function PageView({
   const schema = <JsonLd data={webPageSchema(path, page.seo.title, page.seo.description, parts)} />;
 
   if (design === "new") {
+    const local = pageLine(page.hero, settings);
     return (
       <>
         {schema}
-        <p className="bg-navy py-2.5 text-center font-display text-xs font-medium tracking-[0.4px] text-white">{settings.announcement}</p>
-        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} />
-        <Sections sections={page.sections} ids={ids} closing={closing} />
+        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, local, primary)} settings={local} />
+        <Sections sections={page.sections} ids={ids} closing={closing} settings={local} />
       </>
     );
   }

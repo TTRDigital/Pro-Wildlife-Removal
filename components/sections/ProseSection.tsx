@@ -11,7 +11,7 @@ export function ProseSection({ section: s }: { section: Prose }) {
     <SectionShell tone={s.tone}>
       <div className={`mx-auto max-w-[860px] ${center ? "text-center" : ""}`} data-reveal>
         {s.eyebrow ? <p className="eyebrow mb-3">{s.eyebrow}</p> : null}
-        {s.heading ? <Heading text={s.heading} highlight={s.highlight} className="text-h2 font-bold" /> : null}
+        {s.heading ? <Heading text={s.heading} highlight={s.highlight} className="text-h2 font-extrabold tracking-[-0.02em]" /> : null}
         <RichText value={s.intro} className="mt-4" />
         <RichText value={s.body} className={`${s.heading ? "mt-5" : ""} ${center ? "[&_ul]:text-left [&_ol]:text-left" : ""}`} />
         <CtaRow ctas={s.ctas} align={center ? "center" : "left"} className="mt-8" />

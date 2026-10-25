@@ -89,7 +89,8 @@ export type CardsSection = SectionBase & {
 };
 export type ProseSection = SectionBase & { _type: "proseSection"; body?: Rich; align?: "left" | "center" };
 export type FaqSection = SectionBase & { _type: "faqSection"; items: Faq[] };
-export type ReviewsSection = SectionBase & { _type: "reviewsSection" };
+/** match: show reviews that mention this word first (e.g. "bat"), then the latest. */
+export type ReviewsSection = SectionBase & { _type: "reviewsSection"; match?: string };
 export type AreasSection = SectionBase & {
   _type: "areasSection";
   groups: { title?: string; href?: string; items: { label: string; href?: string }[] }[];
@@ -97,9 +98,12 @@ export type AreasSection = SectionBase & {
 };
 export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string };
 export type ContactSection = SectionBase & { _type: "contactSection" };
+/** The 40 to 60 word answer under the hero that AI search quotes: the question as heading, the answer, up to four short facts. */
+export type AnswerSection = SectionBase & { _type: "answerSection"; text: Rich; points?: string[] };
 export type ServicesSection = SectionBase & { _type: "servicesSection"; group?: "removal" | "control" | "tampa" | "all" };
 export type LocationsSection = SectionBase & { _type: "locationsSection" };
-export type PostsSection = SectionBase & { _type: "postsSection"; limit?: number };
+/** match: only posts whose title or slug mention this word (e.g. "bat"), falling back to the latest. */
+export type PostsSection = SectionBase & { _type: "postsSection"; limit?: number; match?: string };
 
 export type Section =
   | TrustBarSection
@@ -111,6 +115,7 @@ export type Section =
   | AreasSection
   | CtaSection
   | ContactSection
+  | AnswerSection
   | ServicesSection
   | LocationsSection
   | PostsSection;
