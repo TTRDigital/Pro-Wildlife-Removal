@@ -13,8 +13,7 @@ const UW033 = "https://ask.ifas.ufl.edu/publication/UW033";
 export const raccoonsInAttic: Service = {
   slug: "raccoons-in-attic",
   title: "Raccoons in the Attic",
-  // Temporary group until Jade adds "attic" to ServiceGroup; keeps these out of the 9-animal grid.
-  group: "control",
+  group: "attic",
   animal: "raccoon",
   order: 23,
   summary: "A raccoon in the attic: how to tell, why spring means babies, what not to do, and how the latrine gets cleaned.",

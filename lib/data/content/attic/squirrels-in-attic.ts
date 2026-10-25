@@ -13,8 +13,7 @@ const FLYER = "https://myfwc.com/media/tydhegay/livingwithsquirrels.pdf";
 export const squirrelsInAttic: Service = {
   slug: "squirrels-in-attic",
   title: "Squirrels in the Attic",
-  // Temporary group until Jade adds "attic" to ServiceGroup; keeps these out of the 9-animal grid.
-  group: "control",
+  group: "attic",
   animal: "squirrel",
   order: 24,
   summary: "Running overhead in the daytime? How to confirm squirrels in the attic, when babies are likely, and how the roofline gets repaired.",

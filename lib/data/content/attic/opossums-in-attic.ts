@@ -14,8 +14,7 @@ const UW471 = "https://ask.ifas.ufl.edu/publication/UW471";
 export const opossumsInAttic: Service = {
   slug: "opossums-in-attic",
   title: "Opossums in the Attic",
-  // Temporary group until Jade adds "attic" to ServiceGroup; keeps these out of the 9-animal grid.
-  group: "control",
+  group: "attic",
   animal: "opossum",
   order: 25,
   summary: "A possum in the attic or crawl space: how to tell it from a raccoon, what not to do, and how to keep the next one out.",

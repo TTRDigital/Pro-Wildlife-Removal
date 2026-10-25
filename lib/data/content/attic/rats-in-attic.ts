@@ -13,8 +13,7 @@ const ENY224 = "https://journals.flvc.org/edis/article/view/136514";
 export const ratsInAttic: Service = {
   slug: "rats-in-attic",
   title: "Rats in the Attic",
-  // Temporary group until Jade adds "attic" to ServiceGroup; keeps these out of the 9-animal grid.
-  group: "control",
+  group: "attic",
   animal: "rat",
   order: 21,
   summary: "Scratching overhead at night? How to tell it's rats in the attic, what they damage, and how the attic gets cleaned up.",

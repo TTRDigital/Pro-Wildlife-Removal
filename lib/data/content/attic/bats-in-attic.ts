@@ -14,8 +14,7 @@ const RELEASE = "https://myfwc.com/news/all-news/bat-maternity-0426/";
 export const batsInAttic: Service = {
   slug: "bats-in-attic",
   title: "Bats in the Attic",
-  // Temporary group until Jade adds "attic" to ServiceGroup; keeps these out of the 9-animal grid.
-  group: "control",
+  group: "attic",
   animal: "bat",
   order: 22,
   summary: "Bats in the attic: how to confirm a colony, what you can legally do this month, and how the guano gets cleaned up.",
