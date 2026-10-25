@@ -37,6 +37,7 @@ export const structure: StructureResolver = (S) =>
             .title("Services")
             .items([
               S.listItem().title("Wildlife removal").child(S.documentList().title("Wildlife removal").filter('_type == "service" && group == "removal"').defaultOrdering([{ field: "order", direction: "asc" }])),
+              S.listItem().title("Animals in the attic").child(S.documentList().title("Animals in the attic").filter('_type == "service" && group == "attic"').defaultOrdering([{ field: "order", direction: "asc" }])),
               S.listItem().title("Wildlife control").child(S.documentList().title("Wildlife control").filter('_type == "service" && group == "control"').defaultOrdering([{ field: "order", direction: "asc" }])),
               S.listItem().title("Tampa services").child(S.documentList().title("Tampa services").filter('_type == "service" && group == "tampa"').defaultOrdering([{ field: "order", direction: "asc" }])),
               S.divider(),

@@ -34,7 +34,7 @@ export default async function ServicePage(props: PageProps<"/services/[slug]">) 
         path={path}
         crumbs={[
           { label: "Services", href: "/services/" },
-          { label: service.group === "removal" ? service.title : `${service.title} (${groupLabels[service.group]})`, href: path },
+          { label: service.group === "removal" || service.group === "attic" ? service.title : `${service.title} (${groupLabels[service.group]})`, href: path },
         ]}
       />
     </>
