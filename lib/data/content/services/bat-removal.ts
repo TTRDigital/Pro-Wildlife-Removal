@@ -26,17 +26,17 @@ export const batRemoval: Service = {
     highlight: "Bat Removal",
     text: p("Bats in the attic, soffit or tile roof, moved out the legal way: one-way doors, then every gap sealed and the guano cleaned up."),
     image: images.batRemoval2,
-    badges: ["Open 24/7", "Exclusion only, never poison", "Follows FWC bat rules"],
+    badges: ["Exclusion, never poison", "Guano cleanup"],
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "How do you get bats out of a house in Florida?",
-      body: p(
+      text: p(
         "In Florida, bats are removed by exclusion: one-way devices on the exits let the bats fly out at night and stop them coming back, then the openings are sealed. It's legal from August 15 to April 15. Killing, trapping or poisoning bats is illegal. Call (727) 594-7705 for an inspection.",
       ),
+      points: ["Exclusion only", "Aug 15 to April 15", "No poison or trapping", "Gaps sealed after"],
     },
     {
       _type: "cardsSection",
@@ -209,6 +209,7 @@ export const batRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "bat",
       eyebrow: "Reviews",
       heading: "What customers say",
     },
@@ -254,17 +255,12 @@ export const batRemoval: Service = {
       ],
     },
     {
-      _type: "cardsSection",
+      _type: "postsSection",
       _key: "related",
       eyebrow: "Read more",
       heading: "Bat guides",
-      variant: "plain",
-      columns: 3,
-      cards: [
-        { title: "Bat maternity season guide", href: "/blog/bat-maternity-season-guide/", text: p("Why bat jobs pause from April 16 to August 14, and what to do meanwhile.") },
-        { title: "How bats get into homes", href: "/blog/how-bats-enter-homes/", text: p("The small gaps bats use, and where to look on your roof.") },
-        { title: "Bat guano cleanup", href: "/blog/bat-guano-cleanup-complete-guide/", text: p("What cleanup involves after the colony is gone.") },
-      ],
+      limit: 3,
+      match: "bat",
     },
     {
       _type: "ctaSection",

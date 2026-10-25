@@ -27,17 +27,17 @@ export const armadilloRemoval: Service = {
     highlight: "Armadillo Removal",
     text: p("Holes all over the lawn, or a burrow under the patio or shed? We trap the armadillo and help you keep the next one from moving in."),
     image: images.armadilloRemoval2,
-    badges: ["Open 24/7", "Burrows and lawn damage", "Exclusion fencing"],
+    badges: ["Burrows and lawn damage", "Exclusion fencing"],
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "How do I get rid of an armadillo in my yard in Florida?",
-      body: p(
+      text: p(
         "Trap it at its burrow and keep others out with a fence buried 18 inches deep. Poison and repellents aren't an option: none is registered for armadillos in Florida. A trapped armadillo may only be released on site or on 40+ acres in the same county with written permission. Call (727) 594-7705.",
       ),
+      points: ["Trap at the burrow", "Fence 18 inches deep", "No legal repellents", "Strict release rules"],
     },
     {
       _type: "cardsSection",
@@ -151,6 +151,7 @@ export const armadilloRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "armadillo",
       eyebrow: "Reviews",
       heading: "What customers say",
     },

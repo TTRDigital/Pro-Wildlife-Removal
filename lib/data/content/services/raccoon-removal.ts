@@ -26,17 +26,17 @@ export const raccoonRemoval: Service = {
     highlight: "Raccoon Removal",
     text: p("Thumping in the attic or a torn soffit? We get the raccoons out, babies included, repair the way in and clean up what they left."),
     image: images.raccoonRemoval,
-    badges: ["Open 24/7", "Mothers and young kept together", "Entry repaired and sealed"],
+    badges: ["Babies checked for first", "Entry repaired and sealed"],
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "How do you get a raccoon out of the attic in Florida?",
-      body: p(
+      text: p(
         "Find out whether there are babies, remove the raccoons by live trap, one-way door or by hand, keeping mother and young together, then repair and seal the entry. In spring, assume a mother with kits. A trapped raccoon may only be released on site or on 40+ contiguous acres in the same county with written permission. Call (727) 594-7705.",
       ),
+      points: ["Check for babies", "Births March to April", "Strict release rules", "Entry repaired"],
     },
     {
       _type: "cardsSection",
@@ -200,6 +200,7 @@ export const raccoonRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "raccoon",
       eyebrow: "Reviews",
       heading: "What customers say",
     },
@@ -241,17 +242,12 @@ export const raccoonRemoval: Service = {
       ],
     },
     {
-      _type: "cardsSection",
+      _type: "postsSection",
       _key: "related",
       eyebrow: "Read more",
       heading: "Raccoon guides",
-      variant: "plain",
-      columns: 3,
-      cards: [
-        { title: "Raccoon noises at night", href: "/blog/raccoon-noises-at-night/", text: p("What the sounds in your attic can tell you.") },
-        { title: "How raccoons get into homes", href: "/blog/how-raccoons-enter-homes/", text: p("The roof spots raccoons pull open, and how to check yours.") },
-        { title: "Raccoon or rats?", href: "/blog/raccoon-vs-rats-in-the-attic-how-to-tell-the-difference/", text: p("How to tell which one is in your attic.") },
-      ],
+      limit: 3,
+      match: "raccoon",
     },
     {
       _type: "ctaSection",

@@ -32,13 +32,13 @@ export const opossumRemoval: Service = {
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "How do I get rid of an opossum under my house in Florida?",
-      body: p(
+      text: p(
         "Remove what draws it (pet food, trash, fallen fruit), make sure the opossum is out, then close the opening with wire mesh. If it won't leave, it can be live-trapped and released only on site or on approved land in the same county. Removing one doesn't stop the next. Call (727) 594-7705.",
       ),
+      points: ["Nearly immune to rabies", "Remove food first", "Wire mesh on gaps", "Strict release rules"],
     },
     {
       _type: "cardsSection",
@@ -162,6 +162,7 @@ export const opossumRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "opossum",
       eyebrow: "Reviews",
       heading: "What customers say",
     },
@@ -198,17 +199,12 @@ export const opossumRemoval: Service = {
       ],
     },
     {
-      _type: "cardsSection",
+      _type: "postsSection",
       _key: "related",
       eyebrow: "Read more",
       heading: "Opossum guides",
-      variant: "plain",
-      columns: 3,
-      cards: [
-        { title: "Opossums in attics", href: "/blog/opossums-in-attics/", text: p("What to do when an opossum moves in overhead.") },
-        { title: "Opossums under the house", href: "/blog/opossums-under-house-crawl-space-removal/", text: p("Crawl space removal and keeping them out.") },
-        { title: "Animals found under the house", href: "/blog/types-of-animals-found-under-the-house/", text: p("How to tell who's living under your floor.") },
-      ],
+      limit: 3,
+      match: "opossum",
     },
     {
       _type: "ctaSection",

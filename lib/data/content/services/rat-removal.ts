@@ -27,17 +27,17 @@ export const ratRemoval: Service = {
     highlight: "Rat Removal",
     text: p("Scratching in the ceiling at night? We find how the rats get in, close every gap, trap the ones still inside and clean the attic."),
     image: images.ratRemoval2,
-    badges: ["Open 24/7", "Entry points sealed", "Attic cleanup"],
+    badges: ["Entry points sealed", "Attic cleanup"],
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "How do you get rid of rats in the attic in Florida?",
-      body: p(
+      text: p(
         "Seal every gap a rat can use, then trap the rats left inside. Traps alone don't work while the openings stay open, because new rats keep coming in. In Florida it's usually roof rats, which climb trees and wires to reach the roof. Call (727) 594-7705 for an inspection.",
       ),
+      points: ["Usually roof rats", "Seal, then trap", "Half-inch gaps matter", "No poison first"],
     },
     {
       _type: "cardsSection",
@@ -202,6 +202,7 @@ export const ratRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "rat",
       eyebrow: "Reviews",
       heading: "From customers who had rats",
     },
@@ -243,17 +244,12 @@ export const ratRemoval: Service = {
       ],
     },
     {
-      _type: "cardsSection",
+      _type: "postsSection",
       _key: "related",
       eyebrow: "Read more",
       heading: "Rat guides",
-      variant: "plain",
-      columns: 3,
-      cards: [
-        { title: "Signs of rats in the attic", href: "/blog/rats-in-attic-signs/", text: p("What to look and listen for before you call.") },
-        { title: "Florida roof rats", href: "/blog/florida-roof-rats-identification-control-costs/", text: p("How to identify roof rats and what control involves.") },
-        { title: "Rat entry points", href: "/blog/rat-entry-points/", text: p("Where rats get into Tampa Bay homes.") },
-      ],
+      limit: 3,
+      match: "rat",
     },
     {
       _type: "ctaSection",

@@ -32,13 +32,13 @@ export const snakeRemoval: Service = {
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "What should I do about a snake in my house in Florida?",
-      body: p(
+      text: p(
         "Keep children and pets away, watch where it goes from a safe distance, and don't try to catch or kill it. Only 6 of Florida's 50 snake species are venomous, but a bite from any snake hurts. Call (727) 594-7705, any hour, and we'll remove it and close the way in.",
       ),
+      points: ["6 of 50 venomous", "Don't catch or kill", "Snakes follow rodents", "Repellents don't work"],
     },
     {
       _type: "cardsSection",
@@ -173,6 +173,7 @@ export const snakeRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "snake",
       eyebrow: "Reviews",
       heading: "What customers say",
     },

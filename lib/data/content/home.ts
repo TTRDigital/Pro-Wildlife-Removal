@@ -23,17 +23,17 @@ export const home: PageContent = {
       "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind. Call any time, day or night.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
-    badges: ["Open 24/7", "9 counties", "Calls answered day and night"],
+    badges: ["9 counties", "Removal, sealing and cleanup"],
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "Who we are and how it works",
-      body: p(
+      text: p(
         "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in nine counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705, 24/7.",
       ),
+      points: ["9 counties", "Open 24/7", "Humane, legal methods", "Entry points sealed"],
     },
     {
       _type: "servicesSection",

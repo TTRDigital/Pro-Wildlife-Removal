@@ -31,13 +31,13 @@ export const squirrelRemoval: Service = {
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "How do you get squirrels out of the attic in Florida?",
-      body: p(
+      text: p(
         "Check for a nest of young first, then get the squirrels out with a one-way door or cage traps, and repair every gap along the roofline. Florida squirrels have litters in spring and autumn. A trapped squirrel can only be released on site or on approved land in the same county. Call (727) 594-7705.",
       ),
+      points: ["Daytime noise", "Litters spring and fall", "Gray and flying only", "Roofline repaired"],
     },
     {
       _type: "cardsSection",
@@ -199,6 +199,7 @@ export const squirrelRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "squirrel",
       eyebrow: "Reviews",
       heading: "What customers say",
     },
@@ -239,17 +240,12 @@ export const squirrelRemoval: Service = {
       ],
     },
     {
-      _type: "cardsSection",
+      _type: "postsSection",
       _key: "related",
       eyebrow: "Read more",
       heading: "Squirrel guides",
-      variant: "plain",
-      columns: 3,
-      cards: [
-        { title: "Squirrels chewing wires", href: "/blog/squirrels-chewing-wires-expert-guide/", text: p("Why squirrels chew wiring and what to check.") },
-        { title: "Why squirrels come back", href: "/blog/why-squirrels-return-after-removal/", text: p("What brings squirrels back to a house, and how to stop it.") },
-        { title: "Soffit damage", href: "/blog/soffit-damage-and-wildlife-intrusions/", text: p("How chewed soffits let wildlife in.") },
-      ],
+      limit: 3,
+      match: "squirrel",
     },
     {
       _type: "ctaSection",

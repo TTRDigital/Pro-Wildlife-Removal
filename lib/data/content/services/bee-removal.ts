@@ -32,17 +32,17 @@ export const beeRemoval: Service = {
     highlight: "Bee Removal",
     text: p("Bees going in and out of a wall, soffit or shed? Keep people and pets back and call. We deal with the colony, the comb and the hole they used."),
     image: images.beeRemoval,
-    badges: ["Open 24/7", "Walls, soffits and sheds", "Comb removed, gap sealed"],
+    badges: ["Walls, soffits and sheds", "Comb removed, gap sealed"],
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "What should I do about bees in my wall in Florida?",
-      body: p(
+      text: p(
         "Don't spray them and don't seal the hole: blocking it drives the bees deeper into the house. In Florida, a colony should be removed alive by a registered beekeeper or eradicated by a licensed pest control operator, and the comb taken out. Keep people and pets away and call (727) 594-7705.",
       ),
+      points: ["Don't seal the hole", "Don't spray", "Comb must come out", "Swarms move on"],
     },
     {
       _type: "cardsSection",
@@ -159,6 +159,7 @@ export const beeRemoval: Service = {
     {
       _type: "reviewsSection",
       _key: "reviews",
+      match: "bee",
       eyebrow: "Reviews",
       heading: "What customers say",
     },

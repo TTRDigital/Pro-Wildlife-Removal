@@ -27,17 +27,17 @@ export const deadAnimalRemoval: Service = {
     highlight: "Dead Animal Removal",
     text: p("A smell you can't place, or an animal that died in a wall, attic, crawl space or engine bay? We find it, remove it and treat the area."),
     image: images.deadAnimalRemoval,
-    badges: ["Open 24/7", "Walls, attics, crawl spaces", "Odor treatment"],
+    badges: ["Walls, attics, crawl spaces", "Odor treatment"],
   },
   sections: [
     {
-      _type: "proseSection",
+      _type: "answerSection",
       _key: "answer",
-      eyebrow: "The short answer",
       heading: "How do you get rid of a dead animal smell in the house?",
-      body: p(
+      text: p(
         "Find the animal and remove it. Air fresheners only cover the smell, and in Florida heat it gets worse fast. The source is usually in a wall, attic, crawl space or vent. We locate it, bag and remove it, clean and deodorize the spot, and find how the animal got in. Call (727) 594-7705.",
       ),
+      points: ["Find the source", "Gloves and bags", "Clean and deodorize", "Find the way in"],
     },
     {
       _type: "cardsSection",
