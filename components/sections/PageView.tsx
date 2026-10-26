@@ -7,6 +7,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@/components/old/Classic";
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
+import { MobileCallBar } from "@/components/layout/MobileCallBar";
 import { PageHero } from "./PageHero";
 import { Sections } from "./Sections";
 
@@ -16,6 +17,8 @@ export function heroCtas(hero: Hero, settings: SiteSettings, primary?: Cta): Cta
   const main = primary ?? own.find((c) => !c.href.startsWith("tel:")) ?? settings.headerCta;
   const tel = own.find((c) => c.href.startsWith("tel:"));
   const phone = tel ? { label: /\d{3}.*\d{4}/.test(tel.label) ? tel.label : settings.phone, href: tel.href } : { label: settings.phone, href: settings.phoneHref };
+  // A page with its own line (a county page) shows that one call button, not the site's main number beside it.
+  if (!primary && tel && main.href.startsWith("tel:")) return callCtas([phone], settings.phone, settings.phoneHref);
   return callCtas([main, phone], settings.phone, settings.phoneHref);
 }
 
@@ -69,6 +72,7 @@ export async function PageView({
         {schema}
         <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, local, primary)} settings={local} />
         <Sections sections={page.sections} ids={ids} closing={closing} settings={local} />
+        {local !== settings ? <MobileCallBar phone={local.phone} phoneHref={local.phoneHref} local /> : null}
       </>
     );
   }

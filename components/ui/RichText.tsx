@@ -53,9 +53,29 @@ const components: PortableTextComponents = {
     table: ({ value }: { value: RichTable }) => {
       const rows = value?.rows ?? [];
       const [head, ...body] = value?.hasHeader ? rows : [null, ...rows];
+      // Phones: a table with a header and 3+ columns becomes one small card per row ("Header: value"), so nothing is cut off.
+      const stack = Boolean(head && head.cells.length >= 3);
       return (
-        <div className="rt-table my-8 overflow-x-auto">
-          <table className="w-full min-w-[520px] border-collapse text-left text-[0.95rem]">
+        <>
+          {stack ? (
+            <ul className="my-8 grid gap-3 sm:hidden">
+              {body.map((r, ri) => (
+                <li key={ri} className="rounded-2xl border border-line bg-white p-4 shadow-[0_2px_10px_rgb(14_42_71/0.05)]">
+                  <p className="font-display text-base font-bold text-navy">{r?.cells[0]}</p>
+                  <dl className="mt-2 grid gap-2">
+                    {r?.cells.slice(1).map((c, i) => (
+                      <div key={i}>
+                        <dt className="font-display text-xs font-bold tracking-[0.5px] text-meta uppercase">{head?.cells[i + 1]}</dt>
+                        <dd className="text-[0.95rem] leading-relaxed">{c}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </li>
+              ))}
+            </ul>
+          ) : null}
+          <div className={`rt-table my-8 overflow-x-auto ${stack ? "hidden sm:block" : ""}`}>
+          <table className={`w-full border-collapse text-left text-[0.95rem] ${((head ?? body[0])?.cells.length ?? 0) > 2 ? "min-w-[520px]" : ""}`}>
             {head ? (
               <thead className="rt-head">
                 <tr>
@@ -79,7 +99,8 @@ const components: PortableTextComponents = {
               ))}
             </tbody>
           </table>
-        </div>
+          </div>
+        </>
       );
     },
   },
