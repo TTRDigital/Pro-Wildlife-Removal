@@ -2510,7 +2510,7 @@ const migratedLocations: Location[] = [
    }
   ],
   "seo": {
-   "title": "Top Wildlife Removal in Lady Lake, FL | Pro Wildlife Removal",
+   "title": "Wildlife Removal in Lady Lake, FL | Pro Wildlife Removal",
    "description": "Professional wildlife removal in Lady Lake, FL. Contact Pro Wildlife Removal for expert animal control solutions. Keep your property wildlife-free."
   },
   "order": 15
