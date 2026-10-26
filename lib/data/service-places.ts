@@ -15,6 +15,9 @@ import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-re
 import { raccoonRemovalSpringHill } from "./content/service-places/raccoon-removal/spring-hill-fl.ts";
 import { batRemovalBrooksville } from "./content/service-places/bat-removal/brooksville-fl.ts";
 import { squirrelRemovalBrooksville } from "./content/service-places/squirrel-removal/brooksville-fl.ts";
+import { raccoonRemovalBrooksville } from "./content/service-places/raccoon-removal/brooksville-fl.ts";
+import { batRemovalHudson } from "./content/service-places/bat-removal/hudson-fl.ts";
+import { batRemovalLandOLakes } from "./content/service-places/bat-removal/land-o-lakes-fl.ts";
 import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
 import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
 import { squirrelRemovalPinellasCounty } from "./content/service-places/squirrel-removal/pinellas-county-fl.ts";
@@ -47,6 +50,11 @@ export const fallbackServicePlaces: ServicePlace[] = [
   // Brooksville (Nia)
   batRemovalBrooksville,
   squirrelRemovalBrooksville,
+  raccoonRemovalBrooksville,
+  // Hudson (Nia)
+  batRemovalHudson,
+  // Land O' Lakes (Nia)
+  batRemovalLandOLakes,
   // Pinellas County (Rhea)
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,
