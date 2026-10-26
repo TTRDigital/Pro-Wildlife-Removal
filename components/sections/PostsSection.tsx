@@ -52,6 +52,8 @@ export function PostCard({
         >
           <Photo
             image={img}
+            // The featured card is the blog list's largest paint on phones: load it first (LCP).
+            priority={featured}
             sizes={
               featured
                 ? "(min-width: 768px) 60vw, 100vw"
