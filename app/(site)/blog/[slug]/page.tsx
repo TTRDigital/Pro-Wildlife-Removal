@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CalendarDays, Tag, UserRound } from "lucide-react";
-import { getPost, getPosts, getSiteSettings } from "@/lib/content";
+import { getPost, getPosts, getServices, getSiteSettings } from "@/lib/content";
+import { relatedLinks } from "@/lib/post-links";
 import { pageMetadata } from "@/lib/seo";
 import { articleSchema, webPageSchema } from "@/lib/schema";
 import { formatDate, slugify } from "@/lib/text";
@@ -12,6 +13,7 @@ import { Photo } from "@/components/ui/Photo";
 import { Button } from "@/components/ui/Button";
 import { CtaSection } from "@/components/sections/CtaSection";
 import { FaqSection } from "@/components/sections/FaqSection";
+import { AreasSection } from "@/components/sections/AreasSection";
 
 // Posts not in the build (a new draft opened from a TTR OS preview link) render on request; unknown slugs still 404.
 export const dynamicParams = true;
@@ -48,7 +50,7 @@ function headings(post: NonNullable<Awaited<ReturnType<typeof getPost>>>) {
  */
 export default async function PostPage(props: PageProps<"/blog/[slug]">) {
   const { slug } = await props.params;
-  const [post, settings] = await Promise.all([getPost(slug), getSiteSettings()]);
+  const [post, settings, posts, services] = await Promise.all([getPost(slug), getSiteSettings(), getPosts(), getServices()]);
   if (!post) notFound();
   const path = `/blog/${slug}/`;
   const parts = headings(post).map((name) => ({ name, id: slugify(name) }));
@@ -112,6 +114,7 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
           </aside>
         </div>
       </article>
+      <AreasSection section={relatedLinks(post, posts, services)} />
       {post.faq?.length ? <FaqSection section={{ _type: "faqSection", _key: "faq", tone: "tint", heading: "Frequently Asked Questions", items: post.faq }} /> : null}
       <CtaSection settings={settings} />
     </>
