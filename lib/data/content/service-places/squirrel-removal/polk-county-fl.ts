@@ -2,7 +2,8 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 import { TRAP_RULES_SOURCE } from "../../notes.ts";
 
-/*
+/* HELD (Ben, Oct 26): fewer than 6 local-problem facts under the local-problem rule; not registered in service-places.ts.
+
  * Squirrel removal in Polk County (TTR-738, Owen). Every card names squirrels at a
  * Polk place, from FWC, SWFWMD and Polk County park pages, plus DOH's rabies tables
  * for Polk. Sourced below.

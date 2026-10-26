@@ -2,7 +2,8 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 import { TRAP_RULES_SOURCE } from "../../notes.ts";
 
-/*
+/* HELD (Ben, Oct 26): fewer than 6 local-problem facts under the local-problem rule; not registered in service-places.ts.
+
  * Raccoon removal in Palm Harbor (TTR-738, Owen). Palm Harbor facts: the county's
  * Lake Tarpon West Management Area page and two Tampa Bay 28 news reports (labeled as
  * news). Pinellas facts: the DOH 2025 table, county code Sec. 14-30 and the county's
