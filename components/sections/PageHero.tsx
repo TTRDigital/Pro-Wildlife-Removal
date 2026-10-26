@@ -5,6 +5,7 @@ import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
 import { Button } from "@/components/ui/Button";
 import { HeroSlides } from "@/components/ui/HeroSlides";
+import { TileLife } from "@/components/ui/TileLife";
 import { Photo } from "@/components/ui/Photo";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 
@@ -59,7 +60,7 @@ export function heroSlides(hero: Hero, animal?: Img[]) {
   return (animal ? animal : [hero.image, ...teamPhotos]).filter((x, k, all): x is Img => Boolean(x) && all.findIndex((y) => shot(y) === shot(x)) === k).slice(0, 4);
 }
 
-export function PageHero({ hero, crumbs, ctas, settings, animal }: { hero: Hero; crumbs?: Crumb[]; ctas: Cta[]; settings: SiteSettings; animal?: Img[] }) {
+export function PageHero({ hero, crumbs, ctas, settings, animal, animalKey }: { hero: Hero; crumbs?: Crumb[]; ctas: Cta[]; settings: SiteSettings; animal?: Img[]; animalKey?: string }) {
   // An animal's service page shows only photos of that animal (Kia); other pages add the team photos.
   const slides = heroSlides(hero, animal);
   return (
@@ -100,6 +101,12 @@ export function PageHero({ hero, crumbs, ctas, settings, animal }: { hero: Hero;
         </div>
         <div className="relative h-[250px] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)] ring-1 ring-navy/5 sm:h-[340px] min-[900px]:h-[460px]">
           <HeroSlides images={slides} sizes="(min-width: 900px) 46vw, 100vw" />
+          {/* on an animal's page, that animal crosses the banner now and then (Kia: make it live) */}
+          {animalKey ? (
+            <div className="hero-critter">
+              <TileLife animal={animalKey} photos={[]} sizes="1px" />
+            </div>
+          ) : null}
         </div>
       </div>
     </section>

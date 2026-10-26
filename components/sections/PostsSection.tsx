@@ -48,7 +48,7 @@ export function PostCard({
     >
       {img ? (
         <div
-          className={`photo-look relative overflow-hidden bg-tint ${featured ? "aspect-[16/9] md:aspect-auto md:min-h-[320px]" : "aspect-[16/9]"}`}
+          className={`photo-look relative overflow-hidden bg-tint ${video ? "" : `post-shot post-shot-${(nth ?? index) % 4}`} ${featured ? "aspect-[16/9] md:aspect-auto md:min-h-[320px]" : "aspect-[16/9]"}`}
         >
           <Photo
             image={img}

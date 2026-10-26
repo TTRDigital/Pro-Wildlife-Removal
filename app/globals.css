@@ -678,6 +678,20 @@
     animation-name: pw-tile-fly;
     animation-duration: 6s;
   }
+  /* In the banner the animal is smaller and crosses more slowly, above the slide dots. */
+  .hero-critter .tile-critter {
+    width: 17%;
+    animation-duration: 9s;
+  }
+  .hero-critter .tile-critter-run {
+    bottom: 14%;
+    animation-name: pw-hero-run;
+  }
+  .hero-critter .tile-critter-fly {
+    width: 19%;
+    animation-name: pw-hero-fly;
+    animation-duration: 8s;
+  }
   /* Photos that slowly drift, so the page feels alive. */
   .photo-live img {
     animation: pw-drift 18s ease-in-out infinite alternate;
@@ -811,6 +825,54 @@ a:focus-visible .logo-live .logo-lid {
   animation: pw-peek 9s ease-in-out infinite;
   animation-delay: calc(var(--i, 0) * -1.7s);
   transform-origin: 50% 70%;
+}
+/* Blog cards: each card's photo moves like a short camera shot, a different move per card (Kia). */
+.post-shot img {
+  animation: pw-shot-0 8s ease-in-out infinite alternate;
+  animation-delay: calc(var(--i, 0) * -2.3s);
+}
+.post-shot-1 img {
+  animation-name: pw-shot-1;
+  transform-origin: 30% 40%;
+}
+.post-shot-2 img {
+  animation-name: pw-shot-2;
+  transform-origin: 70% 60%;
+}
+.post-shot-3 img {
+  animation-name: pw-shot-3;
+}
+@keyframes pw-shot-0 {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.18) translate3d(-3%, -2%, 0);
+  }
+}
+@keyframes pw-shot-1 {
+  from {
+    transform: scale(1.18) translate3d(3%, 0, 0);
+  }
+  to {
+    transform: scale(1.05) translate3d(-2%, 1%, 0);
+  }
+}
+@keyframes pw-shot-2 {
+  from {
+    transform: scale(1.12) translate3d(-4%, 2%, 0);
+  }
+  to {
+    transform: scale(1.12) translate3d(4%, -2%, 0);
+  }
+}
+@keyframes pw-shot-3 {
+  from {
+    transform: scale(1.06) translate3d(0, 3%, 0);
+  }
+  to {
+    transform: scale(1.2) translate3d(1%, -3%, 0);
+  }
 }
 @keyframes pw-peek {
   0%,
@@ -1031,6 +1093,33 @@ a:focus-visible .logo-live .logo-lid {
     transform: translate(-110%, 10%);
   }
 }
+@keyframes pw-hero-run {
+  0% {
+    transform: translateX(620%);
+  }
+  55%,
+  100% {
+    transform: translateX(-110%);
+  }
+}
+@keyframes pw-hero-fly {
+  0% {
+    transform: translate(540%, 30%);
+  }
+  14% {
+    transform: translate(420%, -30%);
+  }
+  28% {
+    transform: translate(290%, 20%);
+  }
+  42% {
+    transform: translate(140%, -25%);
+  }
+  55%,
+  100% {
+    transform: translate(-110%, 10%);
+  }
+}
 @keyframes pw-scurry {
   to {
     transform: translateY(-2px);
@@ -1105,6 +1194,7 @@ a:focus-visible .logo-live .logo-lid {
   .hero-pan img,
   .icon-bob,
   .photo-look img,
+  .post-shot img,
   .logo-lid,
   .logo-glance,
   .logo-bat-fly,
