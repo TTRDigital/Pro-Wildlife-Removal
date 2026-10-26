@@ -14,8 +14,9 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   // The client: open 24/7, and no street address anywhere (Oct 25, 2026). The business is described by its service area.
   // Hours are not shown on the site or in the structured data until the client confirms them (Ben, Oct 26, 2026).
   hours: [{ label: "Open", value: "24 hours a day, 7 days a week" }],
-  announcement: "Serving Tampa Bay & West-Central Florida",
-  serviceAreaText: "Serving Tampa, Hillsborough County, Hernando County, Pasco County, Pinellas County and surrounding West-Central Florida communities.",
+  announcement: "Serving Central Florida",
+  // The service region is "Central Florida" (Kia, Oct 26, 2026); the counties are the 7 confirmed ones.
+  serviceAreaText: "Serving Central Florida: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter and Polk counties.",
   license: "[PLACEHOLDER: Florida license / FWC permit number]",
   googleRating: "4.7",
   reviewCount: "273",

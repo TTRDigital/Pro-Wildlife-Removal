@@ -44,7 +44,8 @@ export function businessSchema(s: SiteSettings, locations: Location[] = []) {
     logo: absoluteUrl(images.logo.src),
     image: absoluteUrl(images.prowildlifeRemovalAgentHoldingAnIguanaa.src),
     priceRange: "$$",
-    areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": areaType(l), name: `${l.name}, FL` })),
+    // The confirmed counties only, by name (Ben, Oct 26, 2026): no vague region, and cities sit inside their county.
+    areaServed: locations.filter((l) => l.kind === "county").map((l) => ({ "@type": "AdministrativeArea", name: `${l.name}, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
   };
