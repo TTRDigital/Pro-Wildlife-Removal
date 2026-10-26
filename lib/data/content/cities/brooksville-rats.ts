@@ -80,9 +80,9 @@ export const brooksvilleRats = countyPage({
   ctaHeading: "Rats in your Brooksville home?",
   ctaText: "One call to (727) 594-7705 starts with an inspection of the roof and attic. ",
   seo: {
-    title: "Rat Removal in Brooksville, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in Brooksville, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Brooksville, FL: roof rats in attics and walls, entry points sealed, rats trapped and droppings cleaned up. Who handles what in Brooksville. Call (727) 594-7705.",
+      "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed, rats trapped and droppings cleaned up. Call us at (727) 594-7705.",
   },
   sources: [
     S.edr,

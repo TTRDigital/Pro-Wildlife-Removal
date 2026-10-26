@@ -217,9 +217,9 @@ export const opossumRemoval: Service = {
     },
   ],
   seo: {
-    title: "Opossum Removal in Tampa Bay | Possum Under the House | Pro Wildlife Removal",
+    title: "Opossum Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Opossum under the house, deck or in the attic? Humane opossum removal, mother and young together, and openings sealed, in Tampa Bay and 9 Florida counties. Call (727) 594-7705.",
+      "Opossum under the house, deck or in the attic? Humane removal with mother and young together, and the openings sealed, across Tampa Bay. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Opossums (only marsupial; mostly nocturnal, daytime activity normal; hiss, drool, growl, play dead with foul smell; don't pick up; scavengers, partly immune to snake venom, eat ticks; secure trash, pet food, seed, fruit, chickens; close access points, wire mesh, motion sprinkler; EPM in horses; 68A-9.010 nuisance take; 24-hour checks; release on site or 40+ acres same county with written permission, or humanely kill; steel trap permit; Gun and Light at Night Permit; removing one doesn't stop others)", url: FLYER },

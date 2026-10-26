@@ -34,9 +34,9 @@ export const wildlifeRemovalCost: Post = {
     h3("Typical jobs, from simplest to biggest"),
     ul(
       "**A one-time visit:** a snake in the house, a single animal in a yard or garage, or a [dead animal](/services/dead-animal-removal/) that needs finding and removing.",
-      "**Trapping with return visits:** raccoons, opossums and armadillos, with traps checked at least every 24 hours as Florida law requires.",
+      "**Trapping with return visits:** raccoons, opossums and armadillos, with traps checked at least every 24 hours as Florida law requires. See [raccoon trapping in Florida](/blog/raccoon-trapping-florida/).",
       "**Exclusion and sealing:** squirrels and bats leave through one-way doors, then the roof is closed up. Bats can only be excluded from August 15 to April 15.",
-      "**Seal, trap and clean:** roof rats in the attic, where every gap is closed, the rats inside are trapped, and the attic is cleaned.",
+      "**Seal, trap and clean:** roof rats in the attic, where every gap is closed, the rats inside are trapped, and the attic is cleaned. More on [rats in the attic](/services/rats-in-attic/).",
       "**Full attic restoration:** an animal that lived in the attic for a long time, with insulation removed and replaced.",
     ),
     p("For two of the most common jobs, see the detailed guides: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/) and [animal in the attic removal and cleanup cost](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/)."),
@@ -45,7 +45,7 @@ export const wildlifeRemovalCost: Post = {
       "**Bats:** no harming, poison, trapping or relocating, and no exclusion from April 16 to August 14 without an FWC permit. A summer bat call may become an inspection now and an exclusion later.",
       "**Trapping:** traps checked at least once every 24 hours, so trapping jobs mean return visits.",
       "**Release:** native animals can only go back on the same property or on 40+ contiguous acres in the same county with the landowner's written permission. Non-native animals like rats can't be released at all.",
-      "**New rules from December 31, 2026:** FWC's updated trapping rules change check times and add registration and training for most trappers.",
+      "**New rules from December 31, 2026:** FWC's updated trapping rules change check times and add registration and training for most trappers. Our [Florida trapping rules guide](/blog/florida-wildlife-trapping-rules/) explains them.",
     ),
     h3("Ways to keep the cost down"),
     ul(
@@ -63,12 +63,12 @@ export const wildlifeRemovalCost: Post = {
     p("Only if it includes the same work. A low price that removes the animal but skips sealing usually means paying again when the next one moves in."),
     h3("Does homeowners insurance pay for wildlife removal?"),
     p("It depends on your policy and the damage. Check with your insurer before the work starts, and keep the inspection report and photos."),
-    p("Find your animal on our [services page](/services/), or call (727) 594-7705."),
+    p("Find your animal on our [services page](/services/), or call (727) 594-7705. County pages for [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), [Pasco](/about-us/service-area/wildlife-removal-in-pasco-county-fl/) and [Hernando](/about-us/service-area/wildlife-removal-in-hernando-county-fl/) list who handles what locally."),
   ),
   seo: {
-    title: "How Much Does Wildlife Removal Cost in Tampa Bay? | Pro Wildlife Removal",
+    title: "Wildlife Removal Cost in Tampa Bay | Pro Wildlife Removal",
     description:
-      "What sets wildlife removal cost in Tampa Bay: the animal and Florida's rules, where it is, sealing the way in, and cleanup. With links to the bat and attic cost guides.",
+      "What sets wildlife removal cost in Tampa Bay: the animal and Florida's rules, where it is, sealing the way in and cleanup, with bat and attic cost guides.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (bat exclusion Aug 15 to April 15; permits during the season)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

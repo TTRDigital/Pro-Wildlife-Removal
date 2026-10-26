@@ -72,9 +72,9 @@ export const trinity = countyPage({
   ctaHeading: "Wildlife problem in Trinity?",
   ctaText: "Trinity homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Trinity, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Trinity, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Trinity, FL: raccoons, rats, squirrels, snakes, opossums and armadillos next to the Starkey wilderness. Who to call for what in Trinity. Call (727) 594-7705.",
+      "Wildlife removal in Trinity, FL: raccoons, rats, squirrels, snakes, opossums and armadillos by the Starkey wilderness, and who to call. (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Trinity CDP, 11,924)", url: CENSUS },

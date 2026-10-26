@@ -72,9 +72,9 @@ export const dunedin = countyPage({
   ctaHeading: "Wildlife problem in Dunedin?",
   ctaText: "Dunedin homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Dunedin, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Dunedin, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Dunedin, FL: raccoons, rats, squirrels, opossums and snakes near Hammock Park and Honeymoon Island. Who to call for what in Dunedin. Call (727) 594-7705.",
+      "Wildlife removal in Dunedin, FL: raccoons, rats, squirrels, opossums and snakes near Hammock Park and Honeymoon Island, and who to call. (727) 594-7705.",
   },
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Dunedin 35,742)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },

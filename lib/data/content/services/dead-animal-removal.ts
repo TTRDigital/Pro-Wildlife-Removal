@@ -210,9 +210,9 @@ export const deadAnimalRemoval: Service = {
     },
   ],
   seo: {
-    title: "Dead Animal Removal in Tampa Bay | Odor Removal | Pro Wildlife Removal",
+    title: "Dead Animal Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Dead animal smell in a wall, attic, crawl space or vent? We find and remove it, clean and deodorize, and find how it got in. Tampa Bay and 9 Florida counties. Call (727) 594-7705.",
+      "Dead animal smell in a wall, attic, crawl space or vent? We find and remove it, clean and deodorize, and find how it got in. Tampa Bay: (727) 594-7705.",
   },
   sources: [
     { title: "CDC: Safety guidelines for disposing of dead animals (gloves; bag over hand, turn and seal; shovel for larger animals; call animal control; wash hands; risk from carcasses low with proper precautions)", url: CDC_DISPOSAL },

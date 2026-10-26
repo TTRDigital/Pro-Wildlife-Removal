@@ -59,9 +59,9 @@ export const atticCleanupCost: Post = {
     ul(
       "**Droppings spread across the insulation,** not just in one corner. Rats use the same paths every night, so long-term activity shows as trails and scattered droppings.",
       "**A latrine.** Raccoons go in the same spot again and again, and the CDC advises removing their droppings promptly.",
-      "**A deep pile of guano** under a bat roost.",
+      "**A deep pile of guano** under a bat roost. Our [bat removal cost guide](/blog/how-much-does-bat-removal-cost-in-florida/) covers that job.",
       "**Flattened or tunneled insulation,** where animals have walked, nested and raised young.",
-      "**A smell that reaches the rooms below,** or chewed wires near the entry.",
+      "**A smell that reaches the rooms below,** or chewed wires near the entry. A smell alone can mean a [dead animal](/services/dead-animal-removal/) in a wall or vent.",
     ),
     h3("How to get an accurate quote"),
     ul(
@@ -85,12 +85,12 @@ export const atticCleanupCost: Post = {
     p("[PLACEHOLDER: ask the client: how long a typical attic cleanup takes, from removing insulation to re-insulating]"),
     h3("Why is cleanup sometimes more than the removal?"),
     p("Because the mess builds up the longer the animal stays. A raccoon caught the week it moved in leaves little behind. A rat colony that lived in the attic for a year can mean replacing the insulation across the whole attic."),
-    p("See the animal pages for details: [rats in the attic](/services/rats-in-attic/), [bats in the attic](/services/bats-in-attic/), [raccoons in the attic](/services/raccoons-in-attic/), [squirrels in the attic](/services/squirrels-in-attic/) and [opossums in the attic](/services/opossums-in-attic/). Or call (727) 594-7705."),
+    p("See the animal pages for details: [rats in the attic](/services/rats-in-attic/), [bats in the attic](/services/bats-in-attic/), [raccoons in the attic](/services/raccoons-in-attic/), [squirrels in the attic](/services/squirrels-in-attic/) and [opossums in the attic](/services/opossums-in-attic/). Or call (727) 594-7705. We do attic work from [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) to [Polk](/about-us/service-area/wildlife-removal-polk-county/) and [Citrus](/about-us/service-area/wildlife-removal-in-citrus-county-fl/)."),
   ),
   seo: {
-    title: "Animal in Attic Removal and Cleanup Cost in Florida | Pro Wildlife Removal",
+    title: "Attic Animal Removal and Cleanup Cost | Pro Wildlife Removal",
     description:
-      "What decides the cost of removing an animal from your attic in Florida: the animal, how long it lived there, sealing, insulation replacement and cleanup. Rats, bats, raccoons, squirrels.",
+      "What sets the cost of removing an animal from a Florida attic: the animal, how long it lived there, sealing, insulation and cleanup. Rats, bats, raccoons.",
   },
   sources: [
     { title: "CDC: How to clean up after rodents (ventilate 30 minutes, gloves, bleach 1:9, 5 minutes, paper towels, no sweeping or vacuuming)", url: CDC_CLEAN },

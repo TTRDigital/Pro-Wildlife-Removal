@@ -83,9 +83,9 @@ export const pasco = countyPage({
   ctaHeading: "Wildlife problem in Pasco?",
   ctaText: "Anywhere in Pasco, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Pasco County, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Pasco County, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Pasco County: New Port Richey, Trinity, Land O' Lakes, Wesley Chapel, Zephyrhills and Dade City. Raccoons, rats, bats, snakes and more. Call (727) 594-7705.",
+      "Wildlife removal in Pasco County: New Port Richey, Land O' Lakes, Wesley Chapel, Zephyrhills and Dade City. Raccoons, rats, bats, snakes: (727) 594-7705.",
   },
   sources: [
     S.censusPop,

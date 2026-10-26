@@ -82,9 +82,9 @@ export const pinellas = countyPage({
   ctaHeading: "Wildlife problem in Pinellas?",
   ctaText: "Anywhere in Pinellas, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Pinellas County, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Pinellas County | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel and snake removal in Pinellas County: St. Petersburg, Clearwater, Largo, Dunedin, Palm Harbor and more. Sealing and cleanup. Call (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel and snake removal in Pinellas County: St. Petersburg, Clearwater, Largo, Dunedin, Palm Harbor and more. Call (727) 594-7705.",
   },
   sources: [
     { title: "Pinellas County: About Pinellas, facts (280 square miles; 588 miles of coastline; 3,425 people per square mile; Clearwater is the county seat; St. Petersburg largest city)", url: "https://pinellas.gov/about-pinellas-facts/" },

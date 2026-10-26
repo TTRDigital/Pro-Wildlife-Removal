@@ -65,9 +65,9 @@ export const osceola = countyPage({
   ctaHeading: "Wildlife problem in Osceola County?",
   ctaText: "Osceola County homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Osceola County, FL | Pro Wildlife Removal",
+    title: "Wildlife Removal in Osceola County | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Osceola County, FL: bats, rats, raccoons, squirrels, snakes, opossums and more. Rabies alerts, who to call for what, and help with animals around Kissimmee, St. Cloud and the lakes. Call (727) 594-7705.",
+      "Wildlife removal in Osceola County near Kissimmee and St. Cloud: bats, rats, raccoons, snakes and more, plus rabies alerts and who to call: (727) 594-7705.",
   },
   sources: [
     S.censusPop,

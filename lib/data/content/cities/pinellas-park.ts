@@ -70,9 +70,9 @@ export const pinellasPark = countyPage({
   ctaHeading: "Wildlife problem in Pinellas Park?",
   ctaText: "Pinellas Park homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Pinellas Park, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Pinellas Park, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums and snakes. Who to call for what in Pinellas Park, plus garbage days and local parks. Call (727) 594-7705.",
+      "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums and snakes, who to call for what, garbage days and local parks. (727) 594-7705.",
   },
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Pinellas Park 55,055)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },

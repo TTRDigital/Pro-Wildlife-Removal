@@ -72,9 +72,9 @@ export const odessa = countyPage({
   ctaHeading: "Wildlife problem in Odessa?",
   ctaText: "Odessa homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Odessa, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Odessa, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes and opossums on both sides of the Pasco and Hillsborough line. Who to call for what. Call (727) 594-7705.",
+      "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes and opossums on both sides of the Pasco and Hillsborough line. Call us at (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Odessa CDP, 8,080, entirely in Pasco County)", url: CENSUS },

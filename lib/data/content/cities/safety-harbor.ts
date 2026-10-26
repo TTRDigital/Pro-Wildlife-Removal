@@ -71,9 +71,9 @@ export const safetyHarbor = countyPage({
   ctaHeading: "Wildlife problem in Safety Harbor?",
   ctaText: "Safety Harbor homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Safety Harbor, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Safety Harbor, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Safety Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Philippe Park and Old Tampa Bay. Who to call for what. Call (727) 594-7705.",
+      "Wildlife removal in Safety Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Philippe Park and Old Tampa Bay. Who to call: (727) 594-7705.",
   },
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Safety Harbor 16,808)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },

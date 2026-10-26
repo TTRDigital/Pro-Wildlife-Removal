@@ -214,7 +214,7 @@ export const home: PageContent = {
   seo: {
     title: "Wildlife Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal in Tampa Bay and 9 central and west Florida counties. Humane removal, sealing and cleanup. Call (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across Tampa Bay and 9 Florida counties, with sealing and cleanup. Free inspection: (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

@@ -73,9 +73,9 @@ export const clearwater = countyPage({
   ctaHeading: "Wildlife problem in Clearwater?",
   ctaText: "Clearwater homeowners can reach us at (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Clearwater, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Clearwater, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes and opossums. Who handles what in Clearwater (county, FWC, city), plus local rules. Call (727) 594-7705.",
+      "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes and opossums, who handles what in the city, and local rules. (727) 594-7705.",
   },
   sources: [
     S.edr,

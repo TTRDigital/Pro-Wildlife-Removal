@@ -74,9 +74,9 @@ export const safetyHarborRats = countyPage({
   ctaHeading: "Rats in your Safety Harbor home?",
   ctaText: "For rats in Safety Harbor, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Safety Harbor, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in Safety Harbor, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Safety Harbor, FL: rats sealed out and trapped, plus what the city says about rat poison, glue traps and owls. Call (727) 594-7705.",
+      "Rat removal in Safety Harbor, FL: rats sealed out and trapped inside, plus what the city says about rat poison, glue traps and owls. Call (727) 594-7705.",
   },
   sources: [
     { title: "City of Safety Harbor: Protecting our wildlife (no safe rat poison; poison increases rodent population long term; kills dogs and cats and predators; never glue or sticky traps; snap traps or electronic zappers; owl nest box, 1,400 rodents a year; keep bins closed, remove pet food, birdseed, fallen fruit; safer rodenticides and preventive measures)", url: WILDLIFE },

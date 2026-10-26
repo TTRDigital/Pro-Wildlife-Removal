@@ -73,7 +73,7 @@ export const stPetersburgRats = countyPage({
   ctaHeading: "Rats in your St. Petersburg home?",
   ctaText: "For rats in St. Pete, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in St. Petersburg, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in St. Petersburg, FL | Pro Wildlife Removal",
     description:
       "Rat removal in St. Petersburg, FL: rats sealed out and trapped inside, plus the city's own tips on firewood, bird feeders and trash. Call (727) 594-7705.",
   },

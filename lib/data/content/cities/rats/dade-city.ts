@@ -73,9 +73,9 @@ export const dadeCityRats = countyPage({
   ctaHeading: "Rats in your Dade City home?",
   ctaText: "For rats in Dade City, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Dade City, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in Dade City, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Dade City, FL: rats sealed out of homes, barns and sheds and trapped inside, plus Dade City's animal-proof container rule. Call (727) 594-7705.",
+      "Rat removal in Dade City, FL: rats sealed out of homes, barns and sheds and trapped inside, plus Dade City's animal-proof container rule. (727) 594-7705.",
   },
   sources: [
     { title: "City of Dade City: Garbage and recycle services (Waste Pro collects within city limits; animal proof containers with tight fitting lids; 35 gallons and 50 pounds max; within 4 feet of the curb; recycling Wednesdays; limbs under 4 feet and 6 inches; Public Works (352) 523-5050; Waste Pro 352-523-5051)", url: TRASH },

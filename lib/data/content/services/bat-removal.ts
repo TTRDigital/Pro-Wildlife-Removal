@@ -271,9 +271,9 @@ export const batRemoval: Service = {
     },
   ],
   seo: {
-    title: "Bat Removal in Tampa Bay | Legal Bat Exclusion | Pro Wildlife Removal",
+    title: "Bat Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Bats in the attic? Legal bat exclusion with one-way doors, sealing and guano cleanup in Tampa Bay and 9 Florida counties, outside maternity season. Call (727) 594-7705.",
+      "Bats in the attic? Legal bat exclusion with one-way doors, sealing and guano cleanup across Tampa Bay, outside Florida's maternity season. (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026: bat maternity season April 16 to Aug. 14; April 15 last day without a permit; exclusion legal Aug. 15 to April 15; four nights; 50°F", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

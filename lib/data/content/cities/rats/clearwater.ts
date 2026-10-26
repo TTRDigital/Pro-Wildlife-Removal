@@ -75,9 +75,9 @@ export const clearwaterRats = countyPage({
   ctaHeading: "Rats in your Clearwater home?",
   ctaText: "For rats in Clearwater, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Clearwater, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in Clearwater, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Clearwater, FL: roof rats sealed out, trapped and cleaned up. What Clearwater's code says about rat harborage, plus trash rules. Call (727) 594-7705.",
+      "Rat removal in Clearwater, FL: roof rats sealed out, trapped and cleaned up, plus what Clearwater's code says about rat harborage. Call (727) 594-7705.",
   },
   sources: [
     { title: "City of Clearwater: Citizens Guide to Code Compliance (CO 24.27 & 32.283: garbage or debris so that rats may be afforded food or harborage; Clearwater Community Development Code Sec. 3-1503.B.5–B.8: debris likely to contain rodents, reptiles or other vermin; grass over 12 inches; Code Compliance (727) 562-4720)", url: GUIDE },

@@ -39,14 +39,14 @@ export const batRemovalCost: Post = {
     h3("Why timing matters in Florida"),
     p(
       `FWC's April 2026 announcement sets bat maternity season at April 16 through August 14. April 15 is the last day to exclude bats without a permit, and exclusion is legal again from August 15. The exclusion itself has rules too: devices on the key exits, left up at least four nights, with overnight lows forecast at 50°F or warmer. ([FWC](${RELEASE}))`,
-      "That doesn't change what an exclusion costs, but it changes when you pay for it. A summer call usually means an inspection and some sealing of gaps the bats aren't using, then the exclusion once the season opens.",
+      "Our [bat maternity season guide](/blog/bat-maternity-season-guide/) has the full calendar. That doesn't change what an exclusion costs, but it changes when you pay for it. A summer call usually means an inspection and some sealing of gaps the bats aren't using, then the exclusion once the season opens.",
     ),
     h3("What a bat removal job usually includes"),
     ul(
       "**Inspection** of the whole roofline and attic to find every opening, the roost and the extent of the guano.",
       "**One-way exclusion devices** on the active exits, left up until no bats are left.",
       "**Sealing** of every opening once the bats are out.",
-      "**Guano cleanup** and, where needed, insulation removal and replacement.",
+      "**Guano cleanup** and, where needed, insulation removal and replacement. Our guide to [attic cleanup costs](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) covers that part.",
     ),
     p("[PLACEHOLDER: ask the client: what your bat job includes as standard (inspection fee, follow-up visit, warranty on the sealing) and what is priced separately]"),
     h3("Doing it yourself versus calling a pro"),
@@ -77,7 +77,7 @@ export const batRemovalCost: Post = {
     ul(
       "**Call early.** A young roost leaves less guano behind than one that has been there for years.",
       "**Plan around the calendar.** Book the inspection in spring or summer so the exclusion can start soon after August 15.",
-      "**Don't block the exits yourself.** Trapped bats mean dead bats in the walls and a second bill for odor and removal.",
+      "**Don't block the exits yourself.** Trapped bats mean dead bats in the walls and a second bill for [odor and dead animal removal](/services/dead-animal-removal/).",
       "**Put up a bat house before the exclusion.** FWC suggests one close to the roost, in the bats' flight path, on a pole or building. It doesn't replace exclusion, but gives the colony somewhere to go.",
     ),
     h3("Common questions"),
@@ -87,12 +87,12 @@ export const batRemovalCost: Post = {
     p("It depends entirely on your policy. Ask your insurer before the work starts, and keep the inspection report."),
     h3("Can I just buy a one-way device and do it myself?"),
     p("You can, but the rules still apply: no exclusion in maternity season without a permit, devices on every key exit for at least four nights, and every other gap sealed. A missed gap means paying twice."),
-    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, or call (727) 594-7705."),
+    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (727) 594-7705. We exclude bats across [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) and seven more counties."),
   ),
   seo: {
-    title: "How Much Does Bat Removal Cost in Florida? (2026 Guide) | Pro Wildlife Removal",
+    title: "Bat Removal Cost in Florida (2026) | Pro Wildlife Removal",
     description:
-      "What decides bat removal cost in Florida: number of exits, roof height, how long the colony has been there, guano cleanup and the April 16 to August 14 maternity season.",
+      "What sets bat removal cost in Florida: number of exits, roof height, how long the colony has been there, guano cleanup and the April 16 to Aug 14 season.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; four nights; 50°F; permits during the season)", url: RELEASE },

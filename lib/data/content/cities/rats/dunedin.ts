@@ -73,9 +73,9 @@ export const dunedinRats = countyPage({
   ctaHeading: "Rats in your Dunedin home?",
   ctaText: "For rats in Dunedin, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Dunedin, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in Dunedin, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Dunedin, FL: rats sealed out of attics and walls and trapped inside, plus Dunedin's own garbage advice for keeping rodents away. Call (727) 594-7705.",
+      "Rat removal in Dunedin, FL: rats sealed out of attics and walls and trapped inside, plus Dunedin's own garbage advice to keep rodents away. (727) 594-7705.",
   },
   sources: [
     { title: "City of Dunedin: Residential trash, yard and bulk waste (once a week; bag household garbage to avoid attracting bugs and rodents; carts off the curb by 7 a.m. the day after; Solid Waste (727) 298-3215)", url: TRASH },

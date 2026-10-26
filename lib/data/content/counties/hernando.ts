@@ -74,9 +74,9 @@ export const hernando = countyPage({
   ctaHeading: "Wildlife problem in Hernando?",
   ctaText: "Anywhere in Hernando, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Hernando County, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Hernando County | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Hernando County: Spring Hill, Brooksville, Weeki Wachee and Hernando Beach. Raccoons, rats, bats, squirrels, snakes and more. Call (727) 594-7705.",
+      "Wildlife removal in Hernando County: Spring Hill, Brooksville, Weeki Wachee and Hernando Beach. Raccoons, rats, bats, squirrels and snakes. (727) 594-7705.",
   },
   sources: [
     S.censusPop,

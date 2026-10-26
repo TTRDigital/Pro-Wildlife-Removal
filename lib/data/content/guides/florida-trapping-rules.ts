@@ -49,6 +49,7 @@ export const floridaTrappingRules: Post = {
       "**Bears.** Report bear conflicts to your FWC regional office.",
     ),
     h3("Animal by animal"),
+    p("Each animal has its own page with the details: [raccoon removal](/services/raccoon-removal/), [opossum removal](/services/opossum-removal/), [squirrel removal](/services/squirrel-removal/), [armadillo removal](/services/armadillo-removal/) and [rat removal](/services/rat-removal/)."),
     table(
       ["Animal", "Native?", "What the rules mean"],
       ["Raccoon", "Yes", "Release on site or on 40+ acres in the same county with permission; UF/IFAS recommends euthanasia over relocation"],
@@ -74,7 +75,7 @@ export const floridaTrappingRules: Post = {
       "**6. Fix the reason it came:** seal the entry and remove food and shelter.",
     ),
     h3("Should you trap it yourself?"),
-    p("Trapping is legal, but it's the easy half. You still have to check the trap every day, deal with what you catch within the deadline, and close the hole the animal used, or the next one moves in. Many homeowners call a professional for exactly those reasons. See [raccoon trapping](/blog/raccoon-trapping-florida/) for a worked example, or call (727) 594-7705."),
+    p("Trapping is legal, but it's the easy half. You still have to check the trap every day, deal with what you catch within the deadline, and close the hole the animal used, or the next one moves in. Many homeowners call a professional for exactly those reasons. See [raccoon trapping](/blog/raccoon-trapping-florida/) for a worked example, or call (727) 594-7705. Our county pages, such as [Pasco](/about-us/service-area/wildlife-removal-in-pasco-county-fl/) and [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), list the local agencies to call."),
     h3("Common questions"),
     h3("Do I need a permit to trap a raccoon on my property in Florida?"),
     p("Not for a live trap on your own property under today's rules. From December 31, 2026, FWC's new rules require registration and training for most trappers, with an exemption for a homeowner using one regular-size cage trap on their own property."),
@@ -84,9 +85,9 @@ export const floridaTrappingRules: Post = {
     p("Release it right away at the spot where you caught it. If it's a bobcat, it must be released."),
   ),
   seo: {
-    title: "Florida Wildlife Trapping Rules for Homeowners (2026) | Pro Wildlife Removal",
+    title: "Florida Wildlife Trapping Rules 2026 | Pro Wildlife Removal",
     description:
-      "Florida's nuisance wildlife trapping rules in plain words: who can trap, 24-hour checks, where animals can be released, animals you can't trap, and the rules that start December 31, 2026.",
+      "Florida's nuisance wildlife trapping rules in plain words: who can trap, trap checks, where animals can be released, and rules starting December 31, 2026.",
   },
   sources: [
     { title: "FWC: FAQs, nuisance wildlife (definition; property owners may take nuisance wildlife; no FWC notice for most; owner consent; methods; steel trap permit; Gun and Light at Night Permit; 24-hour checks; release rules; non-native no release; bobcats; non-targets)", url: FAQS },
