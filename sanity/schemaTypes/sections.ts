@@ -120,6 +120,7 @@ export const areasSection = defineType({
       ],
     }),
     defineField({ name: "note", type: "text", rows: 2 }),
+    defineField({ name: "display", type: "string", description: "Map: the counties on a map of Central Florida, without the city list.", options: { list: [{ title: "County cards with cities", value: "cards" }, { title: "Map", value: "map" }], layout: "radio" }, initialValue: "cards" }),
     ctas,
   ],
   preview: titled("Areas list"),

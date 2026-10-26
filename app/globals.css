@@ -409,10 +409,17 @@
   .logo-bat-fly-3 {
     animation: pw-bat-fly-3 6.5s ease-in-out infinite;
   }
-  .logo-bat-flap {
+  .bat-wing-r,
+  .bat-wing-l {
     transform-box: fill-box;
-    transform-origin: 46% 56%;
-    animation: pw-flap 0.42s ease-in-out infinite alternate;
+    animation: pw-wing-r 0.36s ease-in-out infinite alternate;
+  }
+  .bat-wing-r {
+    transform-origin: 0% 75%;
+  }
+  .bat-wing-l {
+    transform-origin: 100% 75%;
+    animation-name: pw-wing-l;
   }
   .logo-smoke {
     opacity: 0;
@@ -426,6 +433,16 @@
   }
   .swipe-steps::-webkit-scrollbar {
     display: none;
+  }
+  /* The service-area map: each served county lights up in turn; a ping grows from its pin. */
+  .map-county {
+    animation: pw-county 4.8s ease-in-out infinite;
+    cursor: pointer;
+  }
+  .map-ping {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pw-map-ping 4.8s ease-out infinite;
   }
   /* County cards: a swipe row on phones, four across on desktop. */
   .swipe.swipe-areas {
@@ -685,9 +702,20 @@ a:focus-visible .logo-live .logo-lid {
     transform: translateY(-2px) scale(1.06);
   }
 }
-@keyframes pw-flap {
+@keyframes pw-wing-r {
+  from {
+    transform: rotate(-32deg);
+  }
   to {
-    transform: scaleY(0.38);
+    transform: rotate(30deg) scaleX(0.9);
+  }
+}
+@keyframes pw-wing-l {
+  from {
+    transform: rotate(32deg);
+  }
+  to {
+    transform: rotate(-30deg) scaleX(0.9);
   }
 }
 @keyframes pw-bat-fly {
@@ -754,6 +782,27 @@ a:focus-visible .logo-live .logo-lid {
     background-position: 130% 0;
   }
 }
+@keyframes pw-county {
+  0%,
+  16%,
+  100% {
+    filter: none;
+  }
+  8% {
+    filter: brightness(1.35) drop-shadow(0 0 10px rgb(92 194 255 / 0.8));
+  }
+}
+@keyframes pw-map-ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  20%,
+  100% {
+    transform: scale(4.5);
+    opacity: 0;
+  }
+}
 @keyframes pw-marquee {
   to {
     transform: translateX(-50%);
@@ -790,6 +839,8 @@ a:focus-visible .logo-live .logo-lid {
   .call-shine::before,
   .step-track::after,
   .marquee-row,
+  .map-county,
+  .map-ping,
   .phone-ring,
   .tag-nudge,
   .photo-live img,
@@ -801,7 +852,8 @@ a:focus-visible .logo-live .logo-lid {
   .logo-bat-fly,
   .logo-bat-fly-2,
   .logo-bat-fly-3,
-  .logo-bat-flap,
+  .bat-wing-r,
+  .bat-wing-l,
   .logo-live {
     animation: none;
   }

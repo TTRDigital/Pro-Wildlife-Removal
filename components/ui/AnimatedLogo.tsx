@@ -11,16 +11,34 @@ const EYES = [
   { cx: 282, sx: 277.5 },
 ];
 /*
- * The three bats, cut out of logo.png into their own images (placed where they were drawn) so
- * they can fly and flap; logo-live.png is logo.png without them, the shield blue filled in
- * behind the two small ones. The chimney top is at x 324-366, y 0.
+ * The three bats, removed from logo-live.png (logo.png with the shield blue filled in behind
+ * the two small ones) and redrawn as vector bats whose wings beat up and down from the
+ * shoulder. Each bat is drawn in a 100x40 box (body at x 50) and placed where the logo had it.
+ * The chimney top is at x 324-366, y 0.
  */
 const BASE = "/images/brand/logo.png";
+const BAT_INK = "#1f2023";
 const BATS = [
-  { src: "/images/brand/logo-bat.png", x: 370, y: 2, w: 94, h: 50, fly: "logo-bat-fly", flap: "0.42s", delay: "0s" },
-  { src: "/images/brand/logo-bat-2.png", x: 64, y: 129, w: 64, h: 33, fly: "logo-bat-fly-2", flap: "0.34s", delay: "-0.2s" },
-  { src: "/images/brand/logo-bat-3.png", x: 59, y: 163, w: 55, h: 28, fly: "logo-bat-fly-3", flap: "0.3s", delay: "-0.1s" },
+  { at: "translate(371 4) rotate(-8 50 20) scale(0.92)", fly: "logo-bat-fly", flap: "0.36s", delay: "0s" },
+  { at: "translate(64 128) scale(0.62)", fly: "logo-bat-fly-2", flap: "0.3s", delay: "-0.12s" },
+  { at: "translate(59 163) scale(0.54)", fly: "logo-bat-fly-3", flap: "0.27s", delay: "-0.05s" },
 ];
+const WING_R = "M53 16 C62 6 78 2 98 6 C92 10 90 15 91 21 C86 17 81 18 78 24 C74 19 68 20 65 26 C62 21 57 21 53 24 Z";
+const WING_L = "M47 16 C38 6 22 2 2 6 C8 10 10 15 9 21 C14 17 19 18 22 24 C26 19 32 20 35 26 C38 21 43 21 47 24 Z";
+
+/** One bat: body, head and ears, and two wings that flap from the shoulders. */
+function Bat({ at, flap, delay }: { at: string; flap: string; delay: string }) {
+  const beat = { animationDuration: flap, animationDelay: delay };
+  return (
+    <g transform={at} fill={BAT_INK}>
+      <path className="bat-wing-l" d={WING_L} style={beat} />
+      <path className="bat-wing-r" d={WING_R} style={beat} />
+      <ellipse cx={50} cy={21} rx={4.5} ry={8} />
+      <circle cx={50} cy={12.5} r={4} />
+      <path d="M46.5 10.5 L45.5 4 L49 9 Z M53.5 10.5 L54.5 4 L51 9 Z" />
+    </g>
+  );
+}
 const SMOKE = [0, 1, 2, 3];
 const FUR = "#938d8d";
 const DARK = "#2c2b29";
@@ -28,7 +46,7 @@ const DARK = "#2c2b29";
 /**
  * The logo, alive: the raccoon blinks now and then (grey lids drop over the eyes and lift)
  * and its eyes glance around (the sparkles move inside the pupils). Hovering or tapping the
- * logo makes it blink at once. The bats flap and flit about, and smoke puffs out of the
+ * logo makes it blink at once. The bats beat their wings and flit about, and smoke puffs out of the
  * chimney. Drawn over the real logo, so the artwork itself is untouched.
  * Still for people who ask for less motion.
  */
@@ -56,8 +74,8 @@ export function AnimatedLogo({ logo, className = "", sizes, priority = false }: 
             ))}
             {/* the bats: each drifts in its own loop and beats its wings */}
             {BATS.map((b) => (
-              <g key={b.src} className={b.fly}>
-                <image className="logo-bat-flap" href={b.src} x={b.x} y={b.y} width={b.w} height={b.h} style={{ animationDuration: b.flap, animationDelay: b.delay }} />
+              <g key={b.fly} className={b.fly}>
+                <Bat at={b.at} flap={b.flap} delay={b.delay} />
               </g>
             ))}
           </>
