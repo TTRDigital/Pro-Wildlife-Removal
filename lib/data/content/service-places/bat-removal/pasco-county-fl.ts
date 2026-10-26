@@ -36,7 +36,7 @@ export const batRemovalPascoCounty = servicePlacePage({
     { icon: "map-pin", title: "Rare, but on the record", text: p("Pasco counted 24 rabid animals from 2013 to 2023, and one was a bat. The state's county tables listed no rabid bats for Pasco in 2024 or 2025, while their statewide totals listed 30 bats and then 42.") },
     { icon: "home", title: "Keep them out of living space", text: p("DOH-Pasco's July 30, 2026 rabies advisory, issued after two rabid raccoons on the east side of the county, told residents to keep wildlife, bats included, out of living quarters and other occupied spaces.") },
     { icon: "leaf", title: "Pups in summer", text: p("FWC sets bat maternity season from April 16 to August 14. Exclusion devices can't go on a Pasco roof in that window without a permit.") },
-    { icon: "drop", title: "Bat houses for the evicted", text: p("After the Sunlake exclusion, WUFT reported, students planned two bat houses, built from four 2-by-2-foot boxes that should each hold about 200 to 300 bats, mounted on telephone poles 15 to 20 feet up, one behind a baseball field and one near a cypress swamp. In Hudson, bat boxes alone hadn't kept the colony out of the station.") },
+    { icon: "drop", title: "Bat houses for the evicted", text: p("After the 2014 Sunlake exclusion, WUFT reported, students planned two bat houses, built from four 2-by-2-foot boxes that should each hold about 200 to 300 bats, mounted on telephone poles 15 to 20 feet up, one behind a baseball field and one near a cypress swamp. In Hudson, bat boxes alone hadn't kept the colony out of the station.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Pasco, from each agency's own page.",
   contacts: [
