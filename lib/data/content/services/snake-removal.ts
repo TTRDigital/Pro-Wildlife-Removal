@@ -166,7 +166,7 @@ export const snakeRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Snake removal in 9 counties",
+      heading: "Snake removal in 7 counties",
       intro: p("From lakefront homes in Polk to pool cages in Pinellas, we remove snakes across central and west Florida."),
       groups: countyGroups,
     },
