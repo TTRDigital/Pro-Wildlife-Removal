@@ -33,7 +33,7 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
   local: [
     { icon: "critter", title: "A rabid raccoon and a family dog", text: p("In November 2014, Bay News 9 reported that Pasco officials issued a 60-day rabies alert in Land O' Lakes after a raccoon that attacked a vaccinated family dog tested positive.") },
     { icon: "map-pin", title: "The 2014 alert area", text: p("The alert ran from Marchmont Boulevard east to U.S. 41, and from Falling Rock Drive and Lake Vienna Drive north to Mitchelle Lane and Champions Avenue.") },
-    { icon: "search", title: "Most of Pasco's rabid animals", text: p("From 2013 to 2023, 17 of the 24 rabid animals Pasco County recorded were raccoons, the county's rabies awareness page says.") },
+    { icon: "search", title: "Raccoons: 17 of 24 rabid animals", text: p("From 2013 to 2023, 17 of the 24 rabid animals Pasco County recorded were raccoons, the county's rabies awareness page says.") },
     { icon: "phone", title: "Two more in 2026", text: p("DOH-Pasco issued a rabies advisory on July 30, 2026, after two raccoons on the east side of the county tested positive, and asked residents not to draw wildlife in with pet food or open garbage.") },
     { icon: "home", title: "Backyard hens need a secure coop", text: p("Since November 2025, Pasco lets most homeowners keep up to four hens, with a covered, predator-secure coop and feed in predator-proof containers. UF/IFAS notes that poultry in pens are among the raccoon's prey.") },
     { icon: "leaf", title: "The state tables", text: p("The state's 2024 table listed one rabid raccoon for Pasco; its 2025 table listed none.") },

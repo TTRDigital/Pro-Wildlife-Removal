@@ -28,7 +28,7 @@ export const ratRemovalPalmHarbor = servicePlacePage({
   localIntro: "The Palm Harbor facts below come from the state's restaurant inspection records. The rest come from Pinellas County and UF/IFAS Extension Pinellas.",
   local: [
     { icon: "search", title: "21 closures in four years", text: p("Florida DBPR's emergency closure records for 2022 through 2025 list 21 closures of Palm Harbor food businesses where the conditions named rodents, at 12 different businesses. That is our count of the state's files.") },
-    { icon: "map-pin", title: "Mostly along US 19 and Alt 19", text: p("Of those 21 Palm Harbor closures, 11 were at addresses on US 19 and six on Alternate 19. The rest were on Tarpon Woods Boulevard, East Lake Road South and Curlew Road.") },
+    { icon: "map-pin", title: "Along US 19 and Alt 19", text: p("Of those 21 Palm Harbor closures, 11 were at addresses on US 19 and six on Alternate 19. The rest were on Tarpon Woods Boulevard, East Lake Road South and Curlew Road.") },
     { icon: "critter", title: "Year by year", text: p("By year, the Palm Harbor rodent closures in the state's files ran four in 2022, five in 2023, five in 2024 and seven in 2025.") },
     { icon: "home", title: "Some came back", text: p("Five of those 12 Palm Harbor businesses were closed for rodent activity more than once in the four years.") },
     { icon: "users", title: "Landlords and rats", text: p("Pinellas County's landlord-tenant page says that unless the lease says otherwise, the landlord is required to exterminate rats, bugs and wood-destroying organisms.") },
@@ -48,7 +48,7 @@ export const ratRemovalPalmHarbor = servicePlacePage({
     ),
     faq(
       "Do state records show rodents in Palm Harbor?",
-      "Florida DBPR ordered 21 emergency closures of Palm Harbor food businesses for conditions naming rodents from 2022 through 2025, most along US 19 and Alternate 19. These are restaurant inspection records, not home reports.",
+      "Florida DBPR ordered 21 emergency closures of Palm Harbor food businesses for conditions naming rodents from 2022 through 2025, 17 of them along US 19 and Alternate 19. These are restaurant inspection records, not home reports.",
     ),
     faq(
       "Should I use rat poison around my Palm Harbor home?",

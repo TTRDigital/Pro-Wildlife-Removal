@@ -84,6 +84,7 @@ export const fallbackServicePlaces: ServicePlace[] = [
   batRemovalHernandoCounty,
   raccoonRemovalHernandoCounty,
   squirrelRemovalHernandoCounty,
+  // The Villages and Marion County bat (Nia): HELD by Ben, Oct 26, 2026, until they clear fact check
   // Pinellas County (Rhea)
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,

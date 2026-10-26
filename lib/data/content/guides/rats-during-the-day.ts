@@ -20,13 +20,13 @@ export const ratsDuringTheDay: Post = {
     ),
     h3("When rats are normally active"),
     p(
-      `Florida DOH says roof rats, the climbers that nest in attics, are most active in the hour after sunset and the hour before dawn, and that Norway rats are mainly nocturnal and start moving about dusk ([Florida DOH](${DOH})). UF/IFAS Extension notes that because rats are busiest at night, droppings and urine stains are usually the first signs people find, not the rats themselves ([UF/IFAS](${SANTAROSA})).`,
+      `Florida DOH says roof rats, the climbers that favor attics, are most active in the hour after sunset and the hour before dawn, and that Norway rats are mainly nocturnal and start moving about dusk ([Florida DOH](${DOH})). UF/IFAS Extension notes that because rats are busiest at night, droppings and urine stains are usually the first signs people find, not the rats themselves ([UF/IFAS](${SANTAROSA})).`,
     ),
     h3("Why you might see one by day"),
     ul(
       `**Crowding.** Florida DOH says some Norway rats come out in daylight when the population is high ([Florida DOH](${DOH})). UF/IFAS puts it plainly: rodents seen repeatedly during the day point to an established population.`,
       "**Disturbance.** DOH lists disturbance such as a change in the weather or construction nearby as another reason rats show up by day.",
-      "**Food under threat.** DOH also names a threatened food source: a cleaned-out shed, a new trash routine or a neighbor's cleanup can push rats out at odd hours.",
+      "**Food under threat.** DOH also names a threatened food source. That could be a cleaned-out shed, a new trash routine or a neighbor's cleanup.",
     ),
     h3("What to check next"),
     ul(
@@ -38,7 +38,7 @@ export const ratsDuringTheDay: Post = {
     p("Our guides to [signs your house has rats](/blog/signs-that-your-house-has-rats/), [rats in the attic](/blog/rats-in-attic-signs/) and [what animal is in your attic](/blog/what-animal-is-in-my-attic/) help confirm it."),
     h3("What to do about it"),
     p(
-      `One daytime sighting doesn't prove an infestation, but repeated ones usually mean there are more rats than you're seeing. UF/IFAS Extension says rodent-proofing has to block every possible entry point, then sanitation and trapping take care of the rest ([UF/IFAS](${SANTAROSA})). Our guides on [how to catch a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/) and [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/) explain why waiting makes it harder. See [rat removal](/services/rat-removal/), or call (727) 594-7705.`,
+      `One daytime sighting doesn't prove an infestation, but repeated ones usually mean there are more rats than you're seeing. UF/IFAS Extension describes three steps: rodent-proofing that blocks all possible entry points, sanitation, then reducing the population with traps and baits ([UF/IFAS](${SANTAROSA})). Our guides on [how to catch a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/) and [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/) explain why waiting makes it harder. See [rat removal](/services/rat-removal/), or call (727) 594-7705.`,
     ),
   ),
   faq: [
@@ -67,7 +67,7 @@ export const ratsDuringTheDay: Post = {
   sources: [
     { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (droppings or urine stains usually the first signs because rats are active at night; rodents seen repeatedly during the day indicate an established population; block all possible entry points)", url: SANTAROSA },
     { title: "Florida DOH Gadsden: Rodent control (roof rats most active one hour after sunset and one hour before dawn; Norway rats primarily nocturnal, active about dusk; some active by day when population is high, when disturbed, or when food is threatened; gnawing and grease stains)", url: DOH },
-    { title: "CDC: Controlling wild rodent infestations (droppings present after cleaning indicate an active rodent population)", url: CDC },
+    { title: "CDC: Controlling wild rodent infestations (droppings present after cleaning indicate active rodent presence)", url: CDC },
   ],
   clientQuestions: [],
 };
