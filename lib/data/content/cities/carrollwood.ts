@@ -49,8 +49,17 @@ export const carrollwood = countyPage({
     { icon: "search", title: "Rabid raccoon near Tannery Avenue, 2018 (news)", text: p("In March 2018, Patch reported a raccoon near the Tannery Avenue area that fought a dog on March 9 and tested positive for rabies. The dog killed the raccoon.") },
     { icon: "map-pin", title: "A 60-day raccoon alert (news)", text: p("That raccoon set off a 60-day rabies alert bounded by County Line Road to the north, the Veterans Expressway to the west, Interstate 75 to the east and Kennedy Boulevard to the south.") },
     { icon: "users", title: "Keep pets from raccoons and bats (news)", text: p("When a domestic cat tested positive near Pinnacle Heights Circle in June 2017, the health department's Carrollwood alert warned residents to keep themselves and their pets away from raccoons and bats in particular.") },
-    { icon: "leaf", title: "Rodent closures", text: p("Florida DBPR's emergency closure records list two Carrollwood food businesses closed for conditions naming rodents, in July 2023 and August 2024. Both list their city as Tampa; we placed the addresses in Carrollwood with the Census geocoder.") },
   ],
+  rats: {
+    heading: "Rodent closures in Carrollwood",
+    intro: "State restaurant inspections are Carrollwood's local rat record, and the same spots turn up more than once.",
+    cards: [
+    { icon: "leaf", title: "Rodent closures", text: p("Florida DBPR's emergency closure records list two Carrollwood food businesses closed for conditions naming rodents, in July 2023 and August 2024. Both list their city as Tampa; we placed the addresses in Carrollwood with the Census geocoder.") },
+      { icon: "search", title: "Dale Mabry, twice", text: p("The North Dale Mabry Highway business closed in July 2023 had also been closed for rodent activity in September 2019, under the same license and an earlier name.") },
+      { icon: "building", title: "Four since 2019", text: p("By our count of DBPR's closure files, 4 rodent closures at 3 food businesses inside Carrollwood from 2015 through 2025, including one on Gunn Highway in February 2021, and none so far in 2026.") },
+    ],
+    link: { label: "rat removal across Hillsborough County", href: "/services/rat-removal/hillsborough-county-fl/" },
+  },
   contactsHeading: "Hillsborough contacts for Carrollwood homes",
   contactsIntro: "Carrollwood is unincorporated, so county and state numbers apply. Here they are, from each agency's own page.",
   contacts: [
@@ -87,6 +96,7 @@ export const carrollwood = countyPage({
       "Wildlife removal in Carrollwood, FL: raccoons, rats, squirrels and bats out of homes near Lake Carroll and Carrollwood Village. Call (727) 594-7705 today.",
   },
   sources: [
+    { title: "Florida DBPR: Emergency closures by calendar year, 2015-2025, and 2026 weekly extracts through Oct. 25 (Tampa, Lutz and Odessa rodent rows placed in Carrollwood CDP with the Census Geocoder: 4 closures at 3 businesses, 2019, 2021, 2023, 2024; N Dale Mabry Hwy Sept. 25, 2019; Gunn Hwy Feb. 2, 2021; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },
     { title: "U.S. Census Bureau TIGERweb, 2020 Census, Census Designated Places (Carrollwood CDP: 34,352 residents; Northdale CDP: 23,033)", url: TIGER },
     { title: "Hillsborough County Water Atlas (USF and Hillsborough County): Lake Carroll (210 acres; private lake; Sweetwater Creek watershed; earliest sample 11/04/1970)", url: "https://hillsborough.wateratlas.usf.edu/waterbodies/lakes/5187/" },
     { title: "Hillsborough County: Faces behind the places, Matt Jetton (founded Carrollwood in 1959 beside spring-fed Lake Carroll; 925 homes on curving streets following the lake)", url: "https://hcfl.gov/about-hillsborough/history/faces-behind-the-places/faces-behind-the-places-matt-jetton" },
