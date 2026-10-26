@@ -6,13 +6,10 @@ import { squirrelRemovalTampa } from "./content/service-places/squirrel-removal/
 import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
 import { raccoonRemovalPolkCounty } from "./content/service-places/raccoon-removal/polk-county-fl.ts";
 import { ratRemovalPolkCounty } from "./content/service-places/rat-removal/polk-county-fl.ts";
-import { squirrelRemovalPolkCounty } from "./content/service-places/squirrel-removal/polk-county-fl.ts";
 import { batRemovalHillsboroughCounty } from "./content/service-places/bat-removal/hillsborough-county-fl.ts";
 import { raccoonRemovalHillsboroughCounty } from "./content/service-places/raccoon-removal/hillsborough-county-fl.ts";
 import { ratRemovalHillsboroughCounty } from "./content/service-places/rat-removal/hillsborough-county-fl.ts";
-import { squirrelRemovalHillsboroughCounty } from "./content/service-places/squirrel-removal/hillsborough-county-fl.ts";
 import { ratRemovalPalmHarbor } from "./content/service-places/rat-removal/palm-harbor-fl.ts";
-import { raccoonRemovalPalmHarbor } from "./content/service-places/raccoon-removal/palm-harbor-fl.ts";
 import { ratRemovalPinellasPark } from "./content/service-places/rat-removal/pinellas-park-fl.ts";
 import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
 import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
@@ -54,15 +51,15 @@ export const fallbackServicePlaces: ServicePlace[] = [
   ratRemovalPolkCounty,
   batRemovalPolkCounty,
   raccoonRemovalPolkCounty,
-  squirrelRemovalPolkCounty,
+  // HELD (Ben, Oct 26, local-problem rule): squirrelRemovalPolkCounty
   // Hillsborough County (Owen)
   ratRemovalHillsboroughCounty,
   batRemovalHillsboroughCounty,
   raccoonRemovalHillsboroughCounty,
-  squirrelRemovalHillsboroughCounty,
+  // HELD (Ben, Oct 26, local-problem rule): squirrelRemovalHillsboroughCounty
   // Palm Harbor (Owen)
   ratRemovalPalmHarbor,
-  raccoonRemovalPalmHarbor,
+  // HELD (Ben, Oct 26, local-problem rule): raccoonRemovalPalmHarbor
   // Pinellas Park (Owen)
   ratRemovalPinellasPark,
   // Pasco (Nia)

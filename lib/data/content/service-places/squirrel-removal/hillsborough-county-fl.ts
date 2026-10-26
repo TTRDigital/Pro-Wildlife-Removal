@@ -2,7 +2,8 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 import { TRAP_RULES_SOURCE } from "../../notes.ts";
 
-/*
+/* HELD (Ben, Oct 26): fewer than 6 local-problem facts under the local-problem rule; not registered in service-places.ts.
+
  * Squirrel removal in Hillsborough County (TTR-738, Owen). County-wide and non-Tampa
  * facts that name squirrels: state park plans (Hillsborough River, Alafia River,
  * Little Manatee River), a county nature preserve page, the 2010 Alafia River Corridor
