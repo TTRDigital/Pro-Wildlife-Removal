@@ -48,7 +48,8 @@ export function businessSchema(s: SiteSettings, locations: Location[] = []) {
       { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
     ],
     // The confirmed counties only, by name (Ben, Oct 26, 2026): no vague region, and cities sit inside their county.
-    areaServed: locations.filter((l) => l.kind === "county").map((l) => ({ "@type": "AdministrativeArea", name: `${l.name}, FL` })),
+    // Fixed in settings (Ben, Oct 26, 2026): a county stays here even while its page is held back.
+    areaServed: (s.serviceCounties ?? locations.filter((l) => l.kind === "county").map((l) => l.name.replace(/ County$/, ""))).map((c) => ({ "@type": "AdministrativeArea", name: `${c} County, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
   };

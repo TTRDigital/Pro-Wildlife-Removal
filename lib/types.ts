@@ -215,6 +215,8 @@ export type SiteSettings = {
   hours: Hours[];
   announcement: string;
   serviceAreaText: string;
+  /** The counties the business serves, by name: the structured data's areaServed, whether or not each has its own page yet. */
+  serviceCounties?: string[];
   license?: string;
   googleRating?: string;
   reviewCount?: string;

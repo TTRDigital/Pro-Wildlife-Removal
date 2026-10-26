@@ -17,6 +17,7 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   announcement: "Serving Central Florida",
   // The service region is "Central Florida" (Kia, Oct 26, 2026); the counties are the 8 the client targets (Marion added Oct 26, 2026).
   serviceAreaText: "Serving Central Florida: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion counties.",
+  serviceCounties: ["Pasco", "Pinellas", "Hillsborough", "Hernando", "Citrus", "Sumter", "Polk", "Marion"],
   license: "[PLACEHOLDER: Florida license / FWC permit number]",
   googleRating: "4.7",
   reviewCount: "273",
