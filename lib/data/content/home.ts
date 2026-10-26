@@ -95,6 +95,7 @@ export const home: PageContent = {
       heading: "Wildlife removal in 9 Florida counties",
       intro: p("One number covers all nine counties: (727) 594-7705."),
       groups: countyGroups,
+      display: "map",
     },
     {
       _type: "splitSection",

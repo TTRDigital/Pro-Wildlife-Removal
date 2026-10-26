@@ -95,6 +95,8 @@ export type AreasSection = SectionBase & {
   _type: "areasSection";
   groups: { title?: string; href?: string; items: { label: string; href?: string }[] }[];
   note?: string;
+  /** "map": the counties on a map of Central Florida instead of the city list (the home page). */
+  display?: "cards" | "map";
 };
 export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string };
 export type ContactSection = SectionBase & { _type: "contactSection" };

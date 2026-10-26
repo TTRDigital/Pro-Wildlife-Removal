@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { MapPin } from "lucide-react";
 import type { AreasSection as Areas } from "@/lib/types";
+import { AreaMap } from "@/components/ui/AreaMap";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 type Item = Areas["groups"][number]["items"][number];
@@ -46,9 +47,26 @@ function Chip({
  * (they pause under the pointer; the second copy that makes the loop seamless is hidden from
  * screen readers), then one compact card per county with its cities as small tags. The cards
  * swipe sideways on phones. A single untitled group is a centred row of tags instead.
- * Every city stays a real link for search engines.
+ * Every city stays a real link for search engines. With display "map" (the home page) the
+ * counties show on a map of Central Florida instead (AreaMap), without the city list.
  */
 export function AreasSection({ section: s }: { section: Areas }) {
+  if (s.display === "map")
+    return (
+      <SectionShell tone={s.tone ?? "tint"}>
+        <SectionHeader
+          eyebrow={s.eyebrow}
+          heading={s.heading}
+          highlight={s.highlight}
+          intro={s.intro}
+        />
+        <AreaMap groups={s.groups} />
+        {s.note ? (
+          <p className="mx-auto mt-12 max-w-[860px] text-center">{s.note}</p>
+        ) : null}
+        <CtaRow ctas={s.ctas} />
+      </SectionShell>
+    );
   const all = s.groups.flatMap((g) => g.items);
   const rows =
     all.length >= 10
