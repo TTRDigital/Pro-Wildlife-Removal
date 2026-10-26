@@ -57,7 +57,7 @@ export const theVillages = countyPage({
   contacts: [
     { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400. The county says it generally deals only with domestic animals.") },
     { icon: "phone", title: "Bites: DOH-Sumter", text: p("352-569-3102, the number in DOH-Sumter's June 2026 rabies alert.") },
-    { icon: "map-pin", title: "Bears and wildlife questions: FWC", text: p("FWC's Northeast Region office in Ocala, 352-732-1225.") },
+    { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service we offer is available in The Villages. Choose an animal to learn more.",
   servicesHeading: "Animals we remove in The Villages",
@@ -109,6 +109,7 @@ export const theVillages = countyPage({
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
     { title: "U.S. Census Bureau: 2020 place codes (The Villages CDP in Marion and Sumter counties)", url: "https://www2.census.gov/geo/docs/reference/codes2020/place/st12_fl_place2020.txt" },
     { title: "FWC: Regional offices (Northeast Region, Ocala, 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    { title: "FWC: Nuisance alligators (866-FWC-GATOR)", url: "https://myfwc.com/conservation/you-conserve/wildlife/alligators/" },
   ],
   clientQuestions: ["Typical response time in The Villages?", "Real job photos and reviews from customers in The Villages."],
 });
