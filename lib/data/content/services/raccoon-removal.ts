@@ -255,14 +255,14 @@ export const raccoonRemoval: Service = {
       _key: "cta",
       heading: "Raccoon in the attic?",
       highlight: "attic?",
-      text: p("Call (727) 594-7705, day or night. We'll check for babies before anything else."),
+      text: p("Call (727) 594-7705. We'll check for babies before anything else."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Raccoon Removal in Tampa Bay | Raccoons in the Attic | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic or soffit? Humane removal with mothers and young kept together, repairs, sealing and latrine cleanup in Tampa Bay and 9 Florida counties. Call 24/7: (727) 594-7705.",
+      "Raccoon in the attic or soffit? Humane removal with mothers and young kept together, repairs, sealing and latrine cleanup in Tampa Bay and 9 Florida counties. Call (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; litters 3-4, up to 7; dens in attics, crawl spaces, under mobile homes and decks; open chimneys are common entry points; fewer than 1 in 200 wild raccoons exposed to rabies)", url: "https://ask.ifas.ufl.edu/publication/UW033" },

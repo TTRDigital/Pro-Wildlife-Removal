@@ -9,7 +9,7 @@ export const manatee = countyPage({
   order: 9,
   phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   summary: "Wildlife removal in Manatee County: bats, rats, raccoons, squirrels, snakes and more, from the Bradenton area to the county's rural east.",
-  heroText: "Barrier-island beaches on the west, Bradenton and Palmetto in the middle, ranch land and preserves to the east. Call us any time, day or night.",
+  heroText: "Barrier-island beaches on the west, Bradenton and Palmetto in the middle, ranch land and preserves to the east. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife removal in Manatee County?",
   answer:
     "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect, remove the animal the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705, 24 hours a day.",
@@ -63,11 +63,11 @@ export const manatee = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Manatee County?",
-  ctaText: "Call (727) 594-7705, day or night.",
+  ctaText: "Manatee County homeowners can call (727) 594-7705.",
   seo: {
     title: "Wildlife Removal in Manatee County, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Manatee County, FL: bats, rats, raccoons, squirrels, snakes, opossums and more. Wildlife help from Bradenton to the barrier islands, plus who to call for bites, strays and alligators. Call 24/7: (727) 594-7705.",
+      "Wildlife removal in Manatee County, FL: bats, rats, raccoons, squirrels, snakes, opossums and more. Wildlife help from Bradenton to the barrier islands, plus who to call for bites, strays and alligators. Call (727) 594-7705.",
   },
   sources: [
     S.censusPop,

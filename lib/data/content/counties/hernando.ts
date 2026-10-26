@@ -8,10 +8,10 @@ export const hernando = countyPage({
   order: 3,
   phone: { label: "Call 352-612-3336", href: "tel:+13526123336" },
   summary: "Wildlife removal in Hernando County: Spring Hill, Brooksville, Weeki Wachee and the rural areas around them.",
-  heroText: "Springs, forest and long rural roads, with most people living in Spring Hill and the neighborhoods around it. Call the Hernando line any time.",
+  heroText: "Springs, forest and long rural roads, with most people living in Spring Hill and the neighborhoods around it. Call the Hernando line, 352-612-3336.",
   answerHeading: "Who removes wildlife in Hernando County?",
   answer:
-    "Pro Wildlife Removal handles raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals in Hernando County, from Spring Hill and Weeki Wachee to Brooksville and the rural east. We find how the animal gets in, remove it legally, seal the gap and clean up. Call 352-612-3336, 24/7.",
+    "Pro Wildlife Removal handles raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals in Hernando County, from Spring Hill and Weeki Wachee to Brooksville and the rural east. We find how the animal gets in, remove it legally, seal the gap and clean up. Call 352-612-3336.",
   points: ["Hernando line 352-612-3336", "Spring Hill to Brooksville", "Raccoon rabies on record"],
   townsHeading: "Hernando towns we cover",
   townsIntro: "Brooksville is the county seat and the only city. About 95% of Hernando residents live outside city limits, mostly in and around Spring Hill.",
@@ -72,11 +72,11 @@ export const hernando = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Hernando?",
-  ctaText: "Call the Hernando line, 352-612-3336, day or night.",
+  ctaText: "Anywhere in Hernando, call 352-612-3336.",
   seo: {
     title: "Wildlife Removal in Hernando County, FL | Call 352-612-3336 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Hernando County: Spring Hill, Brooksville, Weeki Wachee and Hernando Beach. Raccoons, rats, bats, squirrels, snakes and more. Call 24/7: 352-612-3336.",
+      "Wildlife removal in Hernando County: Spring Hill, Brooksville, Weeki Wachee and Hernando Beach. Raccoons, rats, bats, squirrels, snakes and more. Call 352-612-3336.",
   },
   sources: [
     S.censusPop,

@@ -63,7 +63,7 @@ export const wildlifeRemovalCost: Post = {
     p("Only if it includes the same work. A low price that removes the animal but skips sealing usually means paying again when the next one moves in."),
     h3("Does homeowners insurance pay for wildlife removal?"),
     p("It depends on your policy and the damage. Check with your insurer before the work starts, and keep the inspection report and photos."),
-    p("Find your animal on our [services page](/services/), or call (727) 594-7705, 24/7."),
+    p("Find your animal on our [services page](/services/), or call (727) 594-7705."),
   ),
   seo: {
     title: "How Much Does Wildlife Removal Cost in Tampa Bay? | Pro Wildlife Removal",

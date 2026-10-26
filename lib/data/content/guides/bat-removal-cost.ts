@@ -87,7 +87,7 @@ export const batRemovalCost: Post = {
     p("It depends entirely on your policy. Ask your insurer before the work starts, and keep the inspection report."),
     h3("Can I just buy a one-way device and do it myself?"),
     p("You can, but the rules still apply: no exclusion in maternity season without a permit, devices on every key exit for at least four nights, and every other gap sealed. A missed gap means paying twice."),
-    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, or call (727) 594-7705, 24/7."),
+    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, or call (727) 594-7705."),
   ),
   seo: {
     title: "How Much Does Bat Removal Cost in Florida? (2026 Guide) | Pro Wildlife Removal",

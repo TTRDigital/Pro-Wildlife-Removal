@@ -242,14 +242,14 @@ export const beeRemoval: Service = {
       _key: "cta",
       heading: "Bees in a wall or soffit?",
       highlight: "wall or soffit?",
-      text: p("Keep everyone back and call (727) 594-7705, any hour."),
+      text: p("Keep everyone back and call (727) 594-7705."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Bee Removal in Tampa Bay | Honey Bees in Walls | Pro Wildlife Removal",
     description:
-      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb has to come out, and what to do until help arrives, in Tampa Bay and 9 counties. Don't seal the hole. Call 24/7: (727) 594-7705.",
+      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb has to come out, and what to do until help arrives, in Tampa Bay and 9 counties. Don't seal the hole. Call (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS ENY-170 (IN1205): Living with the African Honey Bee (first found 2001 near the Port of Tampa; spread through southern half of Florida; hundreds or thousands of defenders, chase 400+ yards; nest sites; attack advice; who removes colonies; owner responsible; beekeepers can't use pesticides)", url: IN1205 },

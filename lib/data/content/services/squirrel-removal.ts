@@ -253,14 +253,14 @@ export const squirrelRemoval: Service = {
       _key: "cta",
       heading: "Squirrels running in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705 any time, day or night. We'll find the hole and close it properly."),
+      text: p("Call (727) 594-7705. We'll find the hole and close it properly."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Squirrel Removal in Tampa Bay | Squirrels in the Attic | Pro Wildlife Removal",
     description:
-      "Squirrels in the attic? We check for babies, remove the squirrels the way Florida law allows, repair the chewed entry and seal the roofline. 9 counties. Call 24/7: (727) 594-7705.",
+      "Squirrels in the attic? We check for babies, remove the squirrels the way Florida law allows, repair the chewed entry and seal the roofline. 9 counties. Call (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Squirrels flyer, June 2026 (three native species; breed twice a year, spring and autumn; teeth grow constantly; common entry points; trim limbs; squirrel in the house; 68A-9.010 nuisance take of gray and flying squirrels; cage traps; 24-hour checks; release on site or 40+ acres same county with written permission, or euthanize; Big Cypress fox squirrel needs a permit; Dec 31, 2026 rule change)", url: FLYER },

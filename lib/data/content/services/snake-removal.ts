@@ -36,7 +36,7 @@ export const snakeRemoval: Service = {
       _key: "answer",
       heading: "What should I do about a snake in my house in Florida?",
       text: p(
-        "Keep children and pets away, watch where it goes from a safe distance, and don't try to catch or kill it. Only 6 of Florida's 50 snake species are venomous, but a bite from any snake hurts. Call (727) 594-7705, any hour, and we'll remove it and close the way in.",
+        "Keep children and pets away, watch where it goes from a safe distance, and don't try to catch or kill it. Only 6 of Florida's 50 snake species are venomous, but a bite from any snake hurts. Call (727) 594-7705 and we'll remove it and close the way in.",
       ),
       points: ["6 of 50 venomous", "Don't catch or kill", "Snakes follow rodents", "Repellents don't work"],
     },
@@ -239,7 +239,7 @@ export const snakeRemoval: Service = {
   seo: {
     title: "Snake Removal in Tampa Bay | Venomous and Nonvenomous | Pro Wildlife Removal",
     description:
-      "Snake in the house, garage or pool cage? Safe snake removal in Tampa Bay and 9 Florida counties, plus sealing the way in. Know Florida's venomous snakes. Call 24/7: (727) 594-7705.",
+      "Snake in the house, garage or pool cage? Safe snake removal in Tampa Bay and 9 Florida counties, plus sealing the way in. Know Florida's venomous snakes. Call (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Snakes (6 of 50 species venomous; leave snakes alone; no good reason to kill except immediate danger; snakes near homes may mean rodents; clear debris and spilled seed; indigo snake protected; venomous reptiles possessed only under license)", url: FWC_SNAKES },
