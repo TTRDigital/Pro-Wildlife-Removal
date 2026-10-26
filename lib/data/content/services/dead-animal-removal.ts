@@ -82,7 +82,7 @@ export const deadAnimalRemoval: Service = {
       columns: 4,
       cards: [
         { number: "1", title: "Follow the smell", text: p("We trace the odor, flies and stains to the spot, then check the attic, crawl space, walls and vents near it.") },
-        { number: "2", title: "Remove the animal", text: p("Gloved, bagged and sealed, following the CDC's handling steps. If it's inside a finished wall, we make the smallest opening that gets it out, and tell you before cutting.", "[PLACEHOLDER: ask the client: do you cut and patch drywall yourselves, or does the owner arrange the repair?]") },
+        { number: "2", title: "Remove the animal", text: p("Gloved, bagged and sealed, following the CDC's handling steps. If it's inside a finished wall, we make the smallest opening that gets it out, and tell you before cutting.", "We don't patch drywall: the owner arranges that repair with a contractor.") },
         { number: "3", title: "Clean and deodorize", text: p("The spot is cleaned and sanitized, soiled insulation removed, and the area treated for odor.") },
         { number: "4", title: "Find the way in", text: p("We look for how the animal got inside, so you're not doing this again next month. If it's a rat, squirrel or bat problem, we tell you and quote the fix.") },
       ],

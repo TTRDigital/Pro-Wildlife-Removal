@@ -166,7 +166,7 @@ export const raccoonRemoval: Service = {
         "Chimney capped where raccoons used it",
         "Latrine, nesting and soiled insulation removed by technicians in protective gear",
         "Area treated and deodorized, insulation replaced where needed",
-        "[PLACEHOLDER: ask the client: is there a warranty on raccoon repairs and sealing, and how long?]",
+        "[PLACEHOLDER: ask the client: is there a warranty on raccoon sealing work, and how long?]",
       ],
       image: images.raccoonRemoval,
       imageSide: "left",

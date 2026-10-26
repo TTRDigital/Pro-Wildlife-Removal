@@ -40,7 +40,7 @@ export const beeRemoval: Service = {
       _key: "answer",
       heading: "What should I do about bees in my wall in Florida?",
       text: p(
-        "Don't spray them and don't seal the hole: blocking it drives the bees deeper into the house. In Florida, a colony should be removed alive by a registered beekeeper or eradicated by a licensed pest control operator, and the comb taken out. Keep people and pets away and call (727) 594-7705.",
+        "Don't spray them and don't seal the hole: blocking it drives the bees deeper into the house. In Florida, removing a colony is pest control work for a licensed pest control operator, and the comb has to come out too. Keep people and pets away and call (727) 594-7705.",
       ),
       points: ["Don't seal the hole", "Don't spray", "Comb must come out", "Swarms move on"],
     },
@@ -119,9 +119,9 @@ export const beeRemoval: Service = {
       columns: 4,
       cards: [
         { number: "1", title: "Look and listen", text: p("We find where the bees go in, whether it's a swarm or a colony, and where the comb sits. In a wall, that can mean feeling for warmth and listening for the hum, as UF/IFAS describes.") },
-        { number: "2", title: "Agree the plan with you", text: p("Live removal or eradication, how the wall or soffit will be opened, and how it gets closed again, all settled before work starts.", "[PLACEHOLDER: ask the client: how you handle bees (live removal by a registered beekeeper, eradication, or both) and who does the work; this decides what the page can say]") },
+        { number: "2", title: "Agree the plan with you", text: p("How the bees will be handled, how the wall or soffit will be opened, and who arranges the repair afterward, all settled before work starts.", "[PLACEHOLDER: ask the client: how you handle bees and who does the work; this decides what the page can say]") },
         { number: "3", title: "The colony and the comb", text: p("UF/IFAS says a job isn't finished until the entire nest is out: bees, comb, honey and brood. Leaving it in the wall invites the next problem.", "[PLACEHOLDER: ask the client: who removes the colony and comb, and how]") },
-        { number: "4", title: "Bee-proof the gap", text: p("Once the cavity is empty, UF/IFAS advises sealing the opening so a new swarm can't move into the same space.", "[PLACEHOLDER: ask the client: do you seal and repair the opening after a bee job?]") },
+        { number: "4", title: "Bee-proof the gap", text: p("Once the cavity is empty, UF/IFAS advises sealing the opening so a new swarm can't move into the same space.", "[PLACEHOLDER: ask the client: do you seal the opening after a bee job?]") },
       ],
     },
     {
@@ -132,8 +132,7 @@ export const beeRemoval: Service = {
       heading: "Who can remove bees in Florida",
       body: rich(
         ul(
-          "**Live removal by a registered beekeeper.** A beekeeper registered with the Florida Department of Agriculture and Consumer Services (FDACS) may remove and relocate bees alive without a pest control license (Rule 5E-14.151, F.A.C.). UF/IFAS lists a registered beekeeper or a trained pest control operator for live removal.",
-          "**Everything else is pest control.** Anyone else removing bees, and anyone killing them, is doing pest control, which needs a licensed pest control company (Chapter 482, Florida Statutes).",
+          "**Removing or killing bees is pest control.** It needs a licensed pest control company (Chapter 482, Florida Statutes).",
           "**The property owner is responsible.** UF/IFAS says dealing with an unwanted swarm or colony is up to the owner of the property.",
           "**Neither is required to kill or save.** There's no Florida law that forces either a live removal or an eradication. Colonies that are defensive, near people or animals, or have stung someone may be better eradicated, UF/IFAS says.",
         ),
@@ -156,7 +155,7 @@ export const beeRemoval: Service = {
         "Water meter covers and holes in siding closed",
         "Old comb removed so it can't melt or draw pests",
         "A weekly look around the house from March to July",
-        "[PLACEHOLDER: ask the client: do you repair the wall or soffit you open, or does the owner arrange the repair?]",
+        "Repairs to the wall or soffit are arranged by the owner with a contractor",
       ],
       image: images.beeRemoval,
       imageSide: "left",

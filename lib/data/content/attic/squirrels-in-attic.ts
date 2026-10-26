@@ -149,12 +149,12 @@ export const squirrelsInAttic: Service = {
         "Once the squirrels are gone, the chewed openings have to be rebuilt stronger than the wood they chewed through, or they'll chew through the patch. Then the attic gets cleaned. Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves. Soiled insulation is bagged and replaced. The full process is on our [squirrel removal](/services/squirrel-removal/) page.",
       ),
       checklist: [
-        "Chewed fascia, soffit and roof edges rebuilt [PLACEHOLDER: ask the client: what material you use to cover squirrel repairs]",
+        "Chewed fascia, soffit and roof edges rebuilt [PLACEHOLDER: ask the client: what material you use to seal squirrel entry points]",
         "Attic vents and screens checked",
         "Nests and droppings removed",
         "Insulation replaced where needed",
         "Overhanging branches flagged for trimming",
-        "[PLACEHOLDER: ask the client: is attic cleanup after squirrels quoted separately from the removal and repairs?]",
+        "[PLACEHOLDER: ask the client: is attic cleanup after squirrels quoted separately from the removal and sealing?]",
       ],
       image: images.squirrelRemoval2,
       imageSide: "left",
@@ -242,7 +242,7 @@ export const squirrelsInAttic: Service = {
   ],
   clientQuestions: [
     "How long does a typical squirrel job take?",
-    "Is attic cleanup after squirrels quoted separately from the removal and repairs?",
+    "Is attic cleanup after squirrels quoted separately from the removal and sealing?",
     "Real photos: a chewed roof-edge hole before and after repair.",
   ],
 };

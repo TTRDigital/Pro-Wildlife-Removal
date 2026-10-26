@@ -167,7 +167,7 @@ export const squirrelRemoval: Service = {
         "Attic vents and gable screens checked and reinforced",
         "Nest material and droppings removed from the attic",
         "Insulation the squirrels flattened or soiled replaced where needed",
-        "[PLACEHOLDER: ask the client: is there a warranty on squirrel repairs, and how long?]",
+        "[PLACEHOLDER: ask the client: is there a warranty on squirrel sealing work, and how long?]",
       ],
       image: images.squirrelRemoval2,
       imageSide: "left",
