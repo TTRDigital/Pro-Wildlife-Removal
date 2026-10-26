@@ -58,15 +58,15 @@ export const marion = countyPage({
     {
       name: "Summerfield",
       text: [
-        "Summerfield fell inside a warning area the Marion and Sumter health departments drew in December 2019, after a raccoon found near The Villages tested positive for rabies, Villages-News reported.",
-        "That zone stretched from Sumter County Road 202 down to SE Highway 42, and from SE 76th Champion Avenue across to County Road 200, covering the Summerfield and Oxford area.",
+        "In December 2019, the Marion and Sumter health departments warned residents of the Summerfield and Oxford area after a raccoon found near The Villages tested positive for rabies, Villages-News reported.",
+        "The zone they named ran from SE Highway 42 south to Sumter County Road 202, between Sumter County Road 200 and SE 76th Champion Avenue.",
       ],
     },
     {
       name: "Dunnellon",
       text: [
         "Part of Dunnellon lies inside the Rainbow Springs Aquatic Preserve, which follows the Rainbow River 5.7 miles to the Withlacoochee.",
-        "Raccoons, gray squirrels and Sherman's fox squirrels are all on the species list in the state's 2016 plan for the preserve. FWC now calls that fox squirrel the southern fox squirrel and keeps it on its Imperiled Species Management Plan.",
+        "Raccoons, gray squirrels and Sherman's fox squirrels are among the species documented in the state's 2016 plan for the preserve. FWC rules say fox squirrels may not be taken or pursued.",
       ],
     },
   ],
@@ -111,9 +111,9 @@ export const marion = countyPage({
     { ...S.doh2025, title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Marion: 1 cat, 1 coyote, 1 fox, 6 raccoons; total 9)" },
     { title: "DOH-Marion: Rabies alert, May 14, 2026 (raccoon killed off SE 8th St., Ocala area, May 11, 2026; 60 days; NE 8th St., SE 22nd Road, SE 22nd Loop, SW 4th Ave.; DOH-Marion 352-629-0137; Animal Services 352-671-8727)", url: OCALA_ALERT },
     { title: "DOH-Marion: Rabies advisory, March 2, 2026 (single confirmed case; raccoon killed off U.S. Route 441 and SE 132 St. Rd., Belleview area, southeast Marion, Feb. 24, 2026; rabies may be present; outdoor pet food, open garbage cans; keep bats out of living quarters)", url: BELLEVIEW },
-    { title: "Villages-News, Dec. 4, 2019: Residents warned after raccoon found near The Villages tests positive for rabies (Marion and Sumter health departments; Summerfield/Oxford area and northwest Villages; County Road 202 north, SE Highway 42 south, SE 76th Champion Avenue west, County Road 200 east)", url: SUMMERFIELD },
+    { title: "Villages-News, Dec. 4, 2019: Residents warned after raccoon found near The Villages tests positive for rabies (Marion and Sumter health departments; Summerfield/Oxford area and northwest Villages; zone from SE Highway 42 to Sumter County Road 202, between County Road 200 and SE 76th Champion Avenue)", url: SUMMERFIELD },
     { title: "Florida DEP: Rainbow Springs Aquatic Preserve Management Plan, June 2016 (encompasses a portion of the city of Dunnellon; 5.7 miles of Rainbow River to the Withlacoochee; documented species include raccoon, grey squirrel, Sherman's fox squirrel)", url: RSAP },
-    { title: "FWC: Southern fox squirrel profile (previously Sherman's fox squirrel; remains on the Imperiled Species Management Plan)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/southern-fox-squirrel/" },
+    { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: "https://myfwc.com/hunting/regulations/nongame/" },
     { title: "DOH-Marion: Rabies advisory, July 31, 2026 (raccoon killed off U.S. Route 441 and West Highway 316 in Reddick on July 26)", url: "https://marion.floridahealth.gov/2026/07/31/doh-marion-issues-rabies-advisory-3/" },
     { title: "Florida DOH: DOH-Marion rabies advisory, March 25, 2026 (second confirmed case of 2026; raccoon died in the Huntington area off State Highway 35 on March 20, 2026)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/04/rabies-advisory-marion-3-25-2026.pdf" },
     { title: "Florida DOH: DOH-Marion rabies advisory, Sept. 18, 2026 (newest Marion notice: bobcat, Rainbow Park area, Sept. 15, 2026)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/09/rabies-advisory-marion-9-18-26.pdf" },
