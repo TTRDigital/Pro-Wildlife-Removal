@@ -31082,18 +31082,6 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for soffit rat exclusion and attic cleanup]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "Ask for a written scope separating inspection, exclusion materials and labor, monitoring, sanitation, and trades referrals. That separation protects you against surprise costs later.",
       "marks": []
      }
@@ -31279,7 +31267,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "How long after exclusion should I expect to be rat-free?",
+      "text": "How long is a home monitored after exclusion?",
       "marks": []
      }
     ],
@@ -31291,7 +31279,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Professionals often monitor for a while after exclusion to confirm no re-entry. If young were present at the time of exclusion, your provider should follow legal and ethical guidelines for timing.",
+      "text": "Monitoring periods vary by provider and by what the inspection finds; the purpose is to check for signs of re-entry. Ask for the monitoring plan in writing, and if young were present at the time of exclusion, your provider should follow legal and ethical guidelines for timing.",
       "marks": []
      }
     ],
@@ -39013,7 +39001,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Raccoons often cause significant damage to insulation, electrical wiring, and other structural elements in the home. A professional service will not only handle the removal but also assist with necessary repairs. They will clean up raccoon droppings and urine, which can be hazardous to your health, and properly dispose of any contaminated materials.",
+      "text": "Raccoons often tear apart insulation, ductwork and wiring. A professional service will not only handle the removal but also assist with necessary repairs. They will clean up raccoon droppings and urine, which can be hazardous to your health, and properly dispose of any contaminated materials.",
       "marks": []
      }
     ],
@@ -39124,7 +39112,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ": Raccoons are known carriers of rabies, which can be transmitted through bites or saliva. The Florida Department of Health calls rabies very deadly, with nearly 100% fatal illness in humans, and names raccoons and bats as the main wildlife sources of rabies in Florida.",
+      "text": ": Raccoons are known carriers of rabies, which can be transmitted through bites or saliva. The Florida Department of Health says rabies is nearly always fatal in humans. It names raccoons and bats as the main wildlife sources of rabies in Florida.",
       "marks": []
      }
     ],
@@ -39393,7 +39381,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ": Raccoons often cause significant damage to insulation, wiring, and other parts of your home. Many professionals also offer clean-up and repair services.",
+      "text": ": They often tear apart insulation, ductwork and wiring. Many professionals also offer clean-up and repair services.",
       "marks": []
      }
     ],
@@ -39686,7 +39674,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A key advantage of hiring a professional is their ability to prevent future infestations. DIY attempts may temporarily solve the problem, but without addressing the root cause, the animals often come back. Professionals not only remove wildlife but also identify and seal entry points so animals have a harder time getting back in.",
+      "text": "A key advantage of hiring a professional is their ability to prevent future infestations. DIY attempts may temporarily solve the problem, but without addressing the root cause, the animals often come back. Professionals not only remove wildlife but also identify and seal entry points to make it harder for them to return.",
       "marks": []
      }
     ],
@@ -39809,7 +39797,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ": A potentially fatal disease transmitted through bites or scratches.",
+      "text": ": A potentially fatal disease, spread usually through a bite, or when saliva gets into a wound or the eyes, nose or mouth.",
       "marks": []
      }
     ],
@@ -40089,7 +40077,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After removing an animal, it’s crucial to locate and seal any entry points to prevent future intrusions. Failing to do so can result in a recurring problem. DIYers often neglect this important step, allowing wildlife to return. A professional will thoroughly inspect your property, identify entry points, and seal them to keep animals from re-entering your home.",
+      "text": "After removing an animal, it’s crucial to locate and seal any entry points to prevent future intrusions. Failing to do so can result in a recurring problem. DIYers often neglect this important step, allowing wildlife to return. A professional will thoroughly inspect your property, identify entry points, and seal them to make it harder for animals to come back inside.",
       "marks": []
      }
     ],
@@ -40167,7 +40155,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When dealing with wildlife, especially dead animals, ignoring the associated health risks is a critical mistake. Decomposing animals can spread diseases and attract pests like flies and maggots. Attempting to clean up the mess without proper knowledge or tools can expose you to contamination. Professionals are trained in safely removing carcasses and thoroughly cleaning and sanitizing affected areas to eliminate health risks.",
+      "text": "When dealing with wildlife, especially dead animals, ignoring the associated health risks is a critical mistake. Decomposing animals can spread diseases and attract pests like flies and maggots. Attempting to clean up the mess without proper knowledge or tools can expose you to contamination. Professionals are trained in safely removing carcasses and cleaning and disinfecting the affected areas to reduce health risks.",
       "marks": []
      }
     ],
@@ -40271,7 +40259,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Once the animals are removed, the area needs to be cleaned and disinfected. Animal waste, urine, and nesting materials can carry harmful pathogens, and it’s essential to eliminate these contaminants to avoid future health risks. Professionals will sanitize and deodorize affected areas, leaving your home safe and clean.",
+      "text": "Once the animals are removed, the area needs to be cleaned and disinfected. Animal waste, urine, and nesting materials can carry harmful pathogens, and removing these contaminants helps reduce health risks. Professionals handle cleaning and disinfecting the affected areas.",
       "marks": []
      }
     ],
@@ -40297,7 +40285,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After the wildlife is removed, the next critical step is preventing future intrusions. The removal team will seal the identified entry points to keep animals from getting back in. This may involve repairing holes, adding protective mesh around vents and chimneys, and securing areas where animals could easily enter.",
+      "text": "After the wildlife is removed, the next critical step is preventing future intrusions. The removal team will seal the identified entry points to make it harder for them to return to the house. This may involve repairing holes, adding protective mesh around vents and chimneys, and securing areas where animals could easily enter.",
       "marks": []
      }
     ],
@@ -40323,7 +40311,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Many professional wildlife removal services offer ongoing monitoring to ensure that no new animals attempt to infiltrate your home. This may include periodic inspections or setting up additional barriers or traps as a precaution. The goal is to give you peace of mind knowing your home is protected from future wildlife issues.",
+      "text": "Many professional wildlife removal services offer ongoing monitoring to watch for new activity. This may include periodic inspections or setting up additional barriers or traps as a precaution. The goal is to give you peace of mind knowing your home is protected from future wildlife issues.",
       "marks": []
      }
     ],
@@ -40796,7 +40784,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "White, streaky droppings could mean birds or bats have taken up residence.",
+      "text": "White, streaky droppings point to birds. Bat guano looks like small dark pellets that crumble when dry.",
       "marks": []
      }
     ],
@@ -40876,7 +40864,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Dug-up gardens or burrows near your home’s foundation, pointing to armadillos or snakes.",
+      "text": "Dug-up gardens or burrows near your home’s foundation, pointing to armadillos.",
       "marks": []
      }
     ],
@@ -41405,7 +41393,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If left unaddressed, this damage can compromise your home’s structural integrity. Professional wildlife removal services can prevent these issues before they become overwhelming.",
+      "text": "If left unaddressed, this damage can compromise your home’s structural integrity. Professional wildlife removal services can help stop these issues before they become overwhelming.",
       "marks": []
      }
     ],
@@ -41704,7 +41692,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Engaging professional wildlife pest control services is an effective way to manage infestations and protect your home. Professionals bring a deep understanding of animal behavior and provide comprehensive solutions that go beyond removal. They ensure your home is thoroughly inspected, cleaned, and secured to prevent future issues. Choosing professional wildlife removal in Central Florida means your home is inspected, the problem is handled safely, and preventative measures are put in place to help keep wildlife out. Here’s why working with wildlife removal experts is a smart choice:",
+      "text": "Engaging professional wildlife pest control services is an effective way to manage infestations and protect your home. Professionals bring a deep understanding of animal behavior and provide comprehensive solutions that go beyond removal. Choosing professional wildlife removal in Central Florida means your home is inspected, the problem is handled safely, and preventative measures are put in place to help keep wildlife out. Here’s why working with wildlife removal experts is a smart choice:",
       "marks": []
      }
     ],
@@ -42126,7 +42114,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Wildlife, especially rodents and squirrels, are notorious for chewing through wires, insulation, and wooden beams. This not only weakens the integrity of your home but also creates potential fire hazards. Many homeowners in Tampa discover the costly damage too late, emphasizing the importance of early intervention. Act quickly at the first signs of rodent activity by seeking rodent removal services in Tampa, FL",
+      "text": "Wildlife, especially rodents and squirrels, are notorious for chewing through wires, insulation, and wooden beams. This not only weakens the integrity of your home but also creates potential fire hazards. Many homeowners in Tampa discover the costly damage too late, emphasizing the importance of early intervention. Act quickly at the first signs of rodent activity by seeking rodent removal services in Tampa, FL.",
       "marks": []
      }
     ],
@@ -42443,7 +42431,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Tampa’s subtropical climate allows wildlife to remain active throughout the year. Unlike colder regions, animals like raccoons, squirrels, and rodents don’t hibernate here, leading to year-round risks of intrusion. This makes wildlife removal in Tampa FL a year-round necessity for many homeowners.",
+      "text": "Tampa’s mild winters keep raccoons, squirrels and rodents active all year. This makes wildlife removal in Tampa FL a year-round necessity for many homeowners.",
       "marks": []
      }
     ],
@@ -42521,7 +42509,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Hurricane season in Tampa often forces wildlife to seek refuge in homes. High winds and heavy rains can destroy their natural habitats, driving them into attics and other secure spaces. Many homeowners turn to Tampa wildlife pest control services to address these seasonal surges.",
+      "text": "Storms can push wildlife to look for shelter in homes. High winds and heavy rains can destroy their natural habitats, driving them into attics and other secure spaces. Many homeowners turn to Tampa wildlife pest control services to address these seasonal surges.",
       "marks": []
      }
     ],
@@ -42777,7 +42765,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call Pro Wildlife Removal today to schedule an animal control inspection and take the first step toward a wildlife-free home. Let us protect your property with our",
+      "text": "Call Pro Wildlife Removal today to schedule an animal control inspection and take the first step toward getting the animals out. Let us protect your property with our",
       "marks": []
      },
      {
@@ -42898,7 +42886,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats are masters of squeezing through the tiniest gaps. Even a gap of about half an inch, or a hole the size of a quarter, is enough space for a rat to slip inside your home. That’s why the first step in rat control is thoroughly inspecting your property for any potential entry points. Check for gaps around windows and doors, cracks in the foundation, broken vents, and spaces around utility pipes.",
+      "text": "Rats are masters of squeezing through the tiniest gaps. Even a gap of about half an inch (UF/IFAS) is enough space for a rat to slip inside your home. That’s why the first step in rat control is thoroughly inspecting your property for any potential entry points. Check for gaps around windows and doors, cracks in the foundation, broken vents, and spaces around utility pipes.",
       "marks": []
      }
     ],
@@ -43220,7 +43208,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Instead, focus on traps or exclusion techniques, and only use poison baits as a last resort in outdoor settings, where the risks of secondary contamination are lower.",
+      "text": "Instead, focus on traps or exclusion techniques, and only use poison baits as a last resort, and only in tamper-resistant bait stations outdoors. Poisoned rats can still harm owls, hawks and pets.",
       "marks": []
      }
     ],
@@ -43346,7 +43334,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats are becoming more of a problem in Central Florida as the population grows. It’s important to recognize the signs so they don’t become a problem for you.",
+      "text": "Rats are a common problem in Central Florida. It’s important to recognize the signs so they don’t become a problem for you.",
       "marks": []
      }
     ],
@@ -43389,7 +43377,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ": Rat droppings are small, dark, and often resemble rice grains. You’ll usually find them near food sources, behind appliances, in cupboards, or along walls. Fresh droppings are moist and dark, while older ones become dry and gray.",
+      "text": ": Rat droppings are dark and capsule-shaped, up to 3/4 inch long with blunt ends for Norway rats and about 1/2 inch with pointed ends for roof rats (ICWDM). You’ll usually find them near food sources, behind appliances, in cupboards, or along walls. Fresh droppings are moist and dark, while older ones become dry and gray.",
       "marks": []
      }
     ],
@@ -43452,7 +43440,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ": Rats build nests using soft materials like shredded paper, fabric, and insulation. Check hidden corners of your attic, basement, or garage for piles of shredded materials that could indicate nesting activity.",
+      "text": ": Rats build nests using soft materials like shredded paper, fabric, and insulation. Check hidden corners of your attic, crawl space, or garage for piles of shredded materials that could indicate nesting activity.",
       "marks": []
      }
     ],
@@ -43546,7 +43534,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " requires a combination of vigilance and the right rodent control strategies. By following these 10 professional tips from Pro Wildlife Removal, you’ll have a solid foundation for effective rat control and prevention. Remember, rats are persistent, so staying proactive is key to keeping your property safe and pest-free.",
+      "text": " requires a combination of vigilance and the right rodent control strategies. By following these 10 professional tips from Pro Wildlife Removal, you’ll have a solid foundation for effective rat control and prevention. Remember, rats are persistent, so staying proactive is key to keeping your property safe.",
       "marks": []
      }
     ],
@@ -43752,7 +43740,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Start by inspecting areas where rats tend to hide: basements, attics, crawl spaces, and behind appliances. Look for these common indicators:",
+      "text": "Start by inspecting areas where rats tend to hide: attics, crawl spaces, garages, and behind appliances. Look for these common indicators:",
       "marks": []
      }
     ],
@@ -43771,7 +43759,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " An obvious sign. Rat droppings are typically dark brown, shaped like a grain of rice, and can be found near food sources or nesting areas.",
+      "text": " An obvious sign. Rat droppings are dark and capsule-shaped: Norway rat droppings run up to 3/4 inch long with blunt ends, while roof rat droppings are about 1/2 inch with pointed ends (ICWDM). Look near food sources or nesting areas.",
       "marks": []
      }
     ],
@@ -43902,7 +43890,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Once you’ve confirmed there are rats in your home, the next step is to stop them from coming and going freely. Rats are known for their ability to squeeze through tiny openings, often as small as half an inch, about the size of a quarter, so it’s crucial to inspect your home for any potential entry points and seal them off. This step not only prevents new rats from entering but also helps trap the ones already inside, making it easier to remove them.",
+      "text": "Once you’ve confirmed there are rats in your home, the next step is to stop them from coming and going freely. Rats are known for their ability to squeeze through tiny openings, often as small as half an inch, according to UF/IFAS Extension, so it’s crucial to inspect your home for any potential entry points and seal them off. This step not only prevents new rats from entering but also helps trap the ones already inside, making it easier to remove them.",
       "marks": []
      }
     ],
@@ -43998,7 +43986,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Inspect door frames, garage doors, and basement windows for any openings.",
+      "text": " Inspect door frames, garage doors, and crawl space openings for any gaps.",
       "marks": []
      }
     ],
@@ -44264,7 +44252,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats tend to run along walls and edges of rooms, so position traps perpendicular to the walls. Focus on areas where you’ve noticed signs of activity, such as droppings or gnaw marks.",
+      "text": "Rats tend to run along walls and edges of rooms. Set traps at right angles to the wall with the trigger end nearly touching it. If you set them parallel to the wall, use pairs to catch rats coming from either direction. Focus on areas where you’ve noticed signs of activity, such as droppings or gnaw marks.",
       "marks": []
      }
     ],
@@ -44325,7 +44313,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Wear gloves when handling traps to avoid transferring human scent, which can make rats wary of the traps. Regularly check the traps and reposition them as needed for better results.",
+      "text": " Wear disposable gloves to handle dead rats, and wash thoroughly after handling traps (UC IPM). Regularly check the traps and reposition them as needed for better results.",
       "marks": []
      }
     ],
@@ -44752,7 +44740,7 @@ const migratedPosts: Post[] = [
   ],
   "seo": {
    "title": "How to Get Rid of Rats in the House | Pro Wildlife Removal",
-   "description": "Learn how to effectively eliminate rats from your home and secure professional rat removal services in Central Florida to keep your space rodent-free."
+   "description": "Learn how to get rats out of your home, with tips on sealing entry points and setting traps, and find professional rat removal services in Central Florida."
   }
  },
  {
@@ -45204,7 +45192,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Squirrels may take up residence under houses to escape predators and harsh weather.",
+      "text": "Squirrels usually nest in trees and attics but may shelter in crawl spaces.",
       "marks": []
      }
     ],
@@ -45436,7 +45424,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Potential Risks and Damage Caused: Bats can carry rabies, and the CDC says the fungus that causes histoplasmosis also spreads in bird and bat droppings that mix in soil. Their droppings can also cause unpleasant odors.",
+      "text": "Potential Risks and Damage Caused: Bats can carry rabies. Bat droppings can carry the fungus that causes histoplasmosis (CDC). Their droppings can also cause unpleasant odors.",
       "marks": []
      }
     ],
@@ -45676,7 +45664,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Animals under your house can pose significant health risks. Many wild animals carry diseases and parasites that can be transmitted to humans and pets. For instance, raccoons can carry rabies and roundworms, while rodents are known to spread diseases such as hantavirus and leptospirosis. Additionally, droppings from bats can harbor histoplasmosis, a respiratory disease caused by fungal spores. Fleas, ticks, and mites carried by these animals can also spread to your pets and home, leading to further health issues.",
+      "text": "Animals under your house can pose significant health risks. Many wild animals carry diseases and parasites that can be transmitted to humans and pets. For instance, raccoons can carry rabies and roundworms, while rodents are known to spread diseases such as hantavirus and leptospirosis. Additionally, bat droppings can carry the fungus behind histoplasmosis, a respiratory disease. Fleas, ticks, and mites carried by these animals can also spread to your pets and home, leading to further health issues.",
       "marks": []
      }
     ],
@@ -45702,7 +45690,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Wildlife can cause extensive structural damage to your home. Rodents and raccoons often chew through electrical wires, which not only damages your electrical system but also poses a serious fire hazard. Animals like raccoons and opossums can tear up insulation to create nests, reducing your home’s energy efficiency and increasing your heating and cooling costs. They may also damage wooden structures, ducts, and pipes, leading to costly repairs.",
+      "text": "Wildlife can cause extensive structural damage to your home. Rodents often chew through electrical wires, and raccoons can tear up wiring and ducts. Animals like raccoons and opossums can tear up insulation to create nests, reducing your home’s energy efficiency and increasing your heating and cooling costs. They may also damage wooden structures, ducts, and pipes, leading to costly repairs.",
       "marks": []
      }
     ],
@@ -47407,7 +47395,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Identifying rat poop is a crucial skill for homeowners concerned about potential rodent infestations. Understanding the size, shape, color, texture, and location of rat droppings can help you take action to address the issue. Remember that rats can multiply rapidly, so early detection and effective pest control measures are essential for maintaining a healthy and pest-free home. If you suspect a rat infestation, it’s advisable to contact professional pest control services to safely and efficiently address the problem and prevent future occurrences.",
+      "text": " Identifying rat poop is a crucial skill for homeowners concerned about potential rodent infestations. Understanding the size, shape, color, texture, and location of rat droppings can help you take action to address the issue. Remember that rats can multiply rapidly, so early detection and effective pest control measures are essential for protecting your home. If you suspect a rat infestation, it’s advisable to contact professional pest control services to safely and efficiently address the problem and prevent future occurrences.",
       "marks": []
      }
     ],
@@ -47739,7 +47727,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rat feces may contain the bacteria responsible for leptospirosis. Contact with contaminated water, soil, or surfaces can lead to infection. Leptospirosis can cause symptoms such as high fever, headache, muscle aches, and jaundice. In severe cases, it can result in organ failure and death.",
+      "text": "Rat urine can carry the bacteria that cause leptospirosis. People catch it through contact with water, soil or plants contaminated by the urine of infected animals (Florida DOH).",
       "marks": []
      }
     ],
@@ -47765,7 +47753,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Although more commonly transmitted through rat bites or scratches, rat-bite fever can also be contracted through contact with rat feces or urine. This disease is characterized by fever, muscle pain, joint pain, and a rash. Without prompt treatment with antibiotics, rat-bite fever can become severe and life-threatening.",
+      "text": "Although more commonly transmitted through rat bites or scratches, rat-bite fever can also be contracted by eating or drinking food or water contaminated with rat droppings. This disease is characterized by fever, muscle pain, joint pain, and a rash. Without prompt treatment with antibiotics, rat-bite fever can become severe and life-threatening.",
       "marks": []
      }
     ],
@@ -47829,33 +47817,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "1. Coccidiosis",
-      "marks": [
-       "strong"
-      ]
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Squirrel feces may contain the protozoan parasite responsible for coccidiosis. This parasite can infect humans through contact with contaminated feces or surfaces. Infection can lead to symptoms such as diarrhea, abdominal pain, and dehydration.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "h3",
-    "children": [
-     {
-      "_type": "span",
-      "text": "2. Allergic Reactions",
+      "text": "1. Allergic Reactions",
       "marks": [
        "strong"
       ]
@@ -47881,7 +47843,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "3. Salmonella",
+      "text": "2. Salmonella",
       "marks": [
        "strong"
       ]
@@ -47896,32 +47858,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Squirrels can carry Salmonella bacteria, and their feces can be a potential source of contamination. Ingesting or touching squirrel feces can lead to salmonellosis, with symptoms such as diarrhea, vomiting, and fever.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "h3",
-    "children": [
-     {
-      "_type": "span",
-      "text": "4. Fungal Infections",
-      "marks": [
-       "strong"
-      ]
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "In some cases, squirrel droppings may harbor fungal spores, which, when inhaled, can cause respiratory infections. Though rare, these infections can lead to symptoms such as coughing, fever, and difficulty breathing.",
       "marks": []
      }
     ],
@@ -50056,7 +49992,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A common sign of a rat infestation is the presence of rat droppings. Rat feces are typically small, dark, and pellet-shaped, resembling grains of rice. You may find them in areas where rats frequent, such as kitchens, pantries, basements, or along their travel paths. Fresh droppings will be moist and dark, while older ones will be dry and crumbly. If you notice these droppings in your home, it’s a clear indication that rats have taken up residence.",
+      "text": "A common sign of a rat infestation is the presence of rat droppings. Rat feces are dark and capsule-shaped, about 1/2 inch long with pointed ends from roof rats and up to 3/4 inch with blunt ends from Norway rats (ICWDM). You may find them in areas where rats frequent, such as kitchens, pantries, garages, or along their travel paths. Fresh droppings will be moist and dark, while older ones will be dry and crumbly. If you notice these droppings in your home, it’s a clear indication that rats have taken up residence.",
       "marks": []
      }
     ],
@@ -50296,7 +50232,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Peppermint oil is a popular home remedy, but it doesn't hold up. University of California rodent experts say no plants have been proven to deter rats. A peppermint spray may make a room smell nice, but rats with food nearby and a way in will keep coming. Sealing the entry points does more than any scent.",
+      "text": "Peppermint oil is a popular home remedy, but it doesn't hold up. UC IPM says rats have an initial aversion to some odors and tastes, but no repellents have been found to solve a rat problem for more than a very short time. A peppermint spray may make a room smell nice, but rats with food nearby and a way in will keep coming. Sealing the entry points does more than any scent.",
       "marks": []
      }
     ],
@@ -50332,7 +50268,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "People like cayenne pepper because it is a kitchen spice rather than a poison, and it can be sprinkled around potential entry points, nesting areas, or places where rats are commonly seen. Keep expectations modest, though. UC IPM says rats have an initial aversion to some odors and tastes, but no repellents have been found to solve a rat problem for more than a very short time.",
+      "text": "People like cayenne pepper because it is a kitchen spice rather than a poison, and it can be sprinkled around potential entry points, nesting areas, or places where rats are commonly seen. Keep expectations modest, though: the same UC IPM caution about repellents applies here.",
       "marks": []
      }
     ],
@@ -50778,7 +50714,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rat droppings are an unmistakable indicator of a rat infestation. These small, cylindrical pellets are often found in areas where rats frequent, such as places where food is stored, including pet food. They can appear anywhere rats traverse, such as along walls, in corners, and near potential nesting spots. The sight of rat droppings should prompt you to take immediate action.",
+      "text": "Rat droppings are a strong indicator of a rat infestation. These small, cylindrical pellets are often found in areas where rats frequent, such as places where food is stored, including pet food. They can appear anywhere rats traverse, such as along walls, in corners, and near potential nesting spots. The sight of rat droppings should prompt you to take immediate action.",
       "marks": []
      }
     ],
@@ -50790,7 +50726,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Make sure to wear gloves and a mask when cleaning up rodent droppings to avoid any potential health risks. Using a disinfectant solution, thoroughly clean the affected areas to eliminate any traces of bacteria or pathogens. Additionally, take note of the locations with the highest concentration of droppings, as they are likely high-traffic areas for the rodents.",
+      "text": "Wear rubber or plastic gloves and don't sweep or vacuum. Spray the droppings with disinfectant or a bleach solution until very wet, let it soak 5 minutes, then wipe up with paper towels (CDC). Additionally, take note of the locations with the highest concentration of droppings, as they are likely high-traffic areas for the rodents.",
       "marks": []
      }
     ],
@@ -50818,7 +50754,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rodents, including rats, have a natural instinct to gnaw on objects to keep their teeth from growing too long. Gnaw marks on furniture, walls, wires, and even cardboard boxes are clear indications of rodent presence. Rat teeth marks may vary in size and depth, depending on the rat’s size and age.",
+      "text": "Rodents, including rats, have a natural instinct to gnaw on objects to keep their teeth from growing too long. Gnaw marks on furniture, walls, wires, and even cardboard boxes are a strong indicator of rodent presence. Rat teeth marks may vary in size and depth, depending on the rat’s size and age.",
       "marks": []
      }
     ],
@@ -50858,7 +50794,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats are resourceful when it comes to building their nests. They use shredded materials like paper, fabrics, and insulation to create cozy hiding spots. These nests are often located in hidden corners of your home, such as attics, crawl spaces, and basements. To address the issue of rat nests, perform a methodical search of these areas. Look for compact piles of shredded materials and other nesting debris.",
+      "text": "Rats are resourceful when it comes to building their nests. They use shredded materials like paper, fabrics, and insulation to create cozy hiding spots. These nests are often located in hidden corners of your home, such as attics, crawl spaces, and garages. To address the issue of rat nests, perform a methodical search of these areas. Look for compact piles of shredded materials and other nesting debris.",
       "marks": []
      }
     ],

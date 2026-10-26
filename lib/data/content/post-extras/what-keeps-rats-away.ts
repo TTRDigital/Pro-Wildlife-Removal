@@ -5,6 +5,8 @@ const UC_RATS = "https://ipm.ucanr.edu/home-and-landscape/rats/";
 const IFAS_SANTA_ROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/";
 const IFAS_SARASOTA = "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/";
 const IFAS_PINELLAS = "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/";
+const ICWDM_ROOF = "https://icwdm.org/species/rodents/roof-rats/";
+const ICWDM_NORWAY = "https://icwdm.org/species/rodents/norway-rats/";
 
 export const extra_whatKeepsRatsAway: PostExtra = {
   slug: "what-keeps-rats-away",
@@ -35,6 +37,8 @@ export const extra_whatKeepsRatsAway: PostExtra = {
     ),
   ],
   sources: [
+    { title: "ICWDM: Roof Rats (droppings about 1/2 inch long with pointed ends)", url: ICWDM_ROOF },
+    { title: "ICWDM: Norway Rats (droppings as large as 3/4 inch long with blunt ends)", url: ICWDM_NORWAY },
     { title: "UC IPM Pest Notes: Rats (rats get used to repeated sounds, so ultrasonic devices are ineffective; never use lightweight chicken wire; 1/2-inch galvanized mesh for vent covers; no repellents have solved a rat problem for more than a very short time; glue traps not generally recommended for nonprofessional use; pea-sized bait of nuts, dried fruit, bacon, dry pet food or peanut butter)", url: UC_RATS },
     { title: "UF/IFAS Extension Santa Rosa County: Controlling Rats and Mice around the Farm (rats jump vertically three feet and horizontally four feet; climb wires, cables, vines and trees)", url: IFAS_SANTA_ROSA },
     { title: "UF/IFAS Extension Sarasota County: Wondering About Wildlife: What to Do About Rodents (rodents can use as little as a bottle cap full of water; over-irrigating creates standing water)", url: IFAS_SARASOTA },

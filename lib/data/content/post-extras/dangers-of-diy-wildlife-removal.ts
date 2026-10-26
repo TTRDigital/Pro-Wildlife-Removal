@@ -18,7 +18,7 @@ export const extra_dangersOfDiyWildlifeRemoval: PostExtra = {
   faq: [
     faq(
       "Will I need FWC registration to trap an animal at my house?",
-      "Possibly, starting Dec. 31, 2026. FWC's February 2026 news release says that, with few exceptions, its new rules require annual registration and training at no cost for anyone using traps to capture wildlife. FWC's trapping rules page exempts homeowners trapping on their own property with only one regular-sized cage trap (20 inches wide and 28 inches high) aimed at nonnative or nuisance wildlife.",
+      "Possibly, starting Dec. 31, 2026. FWC's February 2026 news release says that, with few exceptions, its new rules require annual registration and training at no cost for anyone using traps to capture wildlife. Under those rules, FWC says homeowners trapping on their own property with only one regular-sized cage trap (20 inches wide and 28 inches high) aimed at nonnative species or nuisance wildlife would be exempt from registration, training and reporting.",
     ),
     faq(
       "What should I do if a raccoon or other wild animal bites me?",
@@ -36,7 +36,7 @@ export const extra_dangersOfDiyWildlifeRemoval: PostExtra = {
   sources: [
     { title: "FWC news release, Feb. 4, 2026: final trapping rule amendments (effective Dec. 31, 2026; with few exceptions, annual registration and training at no cost for anyone using traps)", url: FWC_NEWS },
     { title: "FWC: Wildlife trapping rules (homeowners on their own property using only one regular-sized 20\" wide by 28\" high cage trap for nonnative or nuisance wildlife exempt from registration, training and reporting)", url: FWC_TRAP_RULES },
-    { title: "Florida Department of Health: Rabies (if an animal bites, scrub the wound with soap and running water for five to ten minutes; see a health care provider; call the county health department or animal control)", url: DOH_RABIES },
+    { title: "Florida Department of Health: Rabies (virus shed in saliva, passed usually through a bite, or when saliva enters open wounds, the mouth, nose or eyes; if an animal bites, scrub the wound with soap and running water for five to ten minutes; see a health care provider; call the county health department or animal control)", url: DOH_RABIES },
     { title: "EPA: Restrictions on rodenticide products (second-generation anticoagulants not registered for consumer products; consumer products are ready-to-use bait stations with block or paste bait)", url: EPA_RODENTICIDES },
     { title: "CDC: How to clean up after rodents (don't vacuum or sweep urine, droppings or nesting materials; gloves; spray with bleach solution or EPA-registered disinfectant until very wet)", url: CDC_CLEANUP },
     { title: "FWC: Relocating wildlife (native nuisance wildlife may be released off site only within the county of capture, on a minimum of 40 contiguous acres, with written permission from the release site owner; public lands need the land manager's written permission)", url: FWC_RELOCATE },

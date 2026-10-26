@@ -34,7 +34,7 @@ export const extra_whatToDoAboutRaccoons: PostExtra = {
   sources: [
     { title: "FWC: Feeding Wildlife (68A-4.001 F.A.C. prohibits placing food in a manner that attracts raccoons; fed wildlife loses fear of people)", url: FWC_FEEDING },
     { title: "FWC: FAQs: Nuisance Wildlife (release of native nuisance wildlife on the capture property or 40+ contiguous acres in the same county with written permission; rabies alerts)", url: FWC_NUISANCE },
-    { title: "Florida Department of Health: Rabies (very deadly, with nearly 100% fatal illness in humans; raccoons and bats are the main wildlife sources of rabies in Florida)", url: FDOH_RABIES },
+    { title: "Florida Department of Health: Rabies (nearly 100% fatal illness in humans; raccoons and bats are the main wildlife sources of rabies in Florida)", url: FDOH_RABIES },
     { title: "FWC: Raccoon Roundworm (people may ingest eggs after working or playing where raccoon feces are present; can damage the central nervous system)", url: FWC_ROUNDWORM },
     { title: "FWC: Raccoon profile (active from late afternoon through the night, varying with food availability)", url: FWC_RACCOON },
   ],

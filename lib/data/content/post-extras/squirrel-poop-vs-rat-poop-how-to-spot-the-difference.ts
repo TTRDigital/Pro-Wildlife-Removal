@@ -6,6 +6,7 @@ const ICWDM_NORWAY = "https://icwdm.org/species/rodents/norway-rats/";
 const CDC_CLEANUP = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html";
 const CDC_RODENTS = "https://www.cdc.gov/healthy-pets/rodent-control/index.html";
 const FWC_SQUIRRELS = "https://myfwc.com/media/tydhegay/livingwithsquirrels.pdf";
+const FDOH_LEPTO = "https://www.floridahealth.gov/diseases-and-conditions/disease/leptospirosis/";
 
 export const extra_squirrelPoopVsRatPoopHowToSpotTheDifference: PostExtra = {
   slug: "squirrel-poop-vs-rat-poop-how-to-spot-the-difference",
@@ -41,5 +42,6 @@ export const extra_squirrelPoopVsRatPoopHowToSpotTheDifference: PostExtra = {
     { title: "CDC: How to Clean Up After Rodents (do not sweep or vacuum; 1 part bleach to 9 parts water; soak 5 minutes)", url: CDC_CLEANUP },
     { title: "CDC: Controlling Wild Rodent Infestations (droppings found after cleaning indicate active rodents)", url: CDC_RODENTS },
     { title: "FWC: Living with Squirrels (nuisance take of gray and flying squirrels under 68A-9.010 F.A.C.; Big Cypress fox squirrel excluded)", url: FWC_SQUIRRELS },
+    { title: "Florida Department of Health: Leptospirosis (infection through contact with water, soil, or vegetation contaminated with the urine of infected animals)", url: FDOH_LEPTO },
   ],
 };

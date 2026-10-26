@@ -5,6 +5,7 @@ const CDC_RODENTS = "https://www.cdc.gov/healthy-pets/rodent-control/index.html"
 const UC_RATS = "https://ipm.ucanr.edu/home-and-landscape/rats/";
 const IFAS_SANTA_ROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/";
 const FDOH_LEPTO = "https://www.floridahealth.gov/diseases-and-conditions/disease/leptospirosis/";
+const CDC_CLEAN = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html";
 
 export const extra_signsThatYourHouseHasRats: PostExtra = {
   slug: "signs-that-your-house-has-rats",
@@ -34,6 +35,7 @@ export const extra_signsThatYourHouseHasRats: PostExtra = {
     ),
   ],
   sources: [
+    { title: "CDC: How to Clean Up After Rodents (rubber or plastic gloves; don't sweep or vacuum; spray until very wet, soak 5 minutes, wipe with paper towels)", url: CDC_CLEAN },
     { title: "CDC: Controlling Wild Rodent Infestations (if droppings are present after cleaning, this indicates an active rodent presence)", url: CDC_RODENTS },
     { title: "UF/IFAS Extension Santa Rosa County: Controlling Rats and Mice around the Farm (rodents seen repeatedly during the day indicate an established population; likely 20 to 50 unseen for every one seen around barns and poultry houses)", url: IFAS_SANTA_ROSA },
     { title: "UC IPM Pest Notes: Rats (rat tooth marks 1/6 inch (4 mm) vs mouse 1/12 inch (2 mm); rats on utility lines or fence tops at dusk; burrows, woodpile nests, gnawed fruit)", url: UC_RATS },
