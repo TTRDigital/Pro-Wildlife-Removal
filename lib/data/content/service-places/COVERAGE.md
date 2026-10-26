@@ -28,7 +28,7 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Holiday | Nia | N | N | N | H | raccoon held: under 6 town facts |
 | Dade City | Nia | E | N | N | N |  |
 | Dunedin | Rhea | E | N | N | F |  |
-| Safety Harbor | Rhea | E | N | N | N |  |
+| Safety Harbor | Rhea | E | N | N | F | raccoon written by Nia for Rhea's Pinellas set |
 | Palm Harbor | Rhea | N | N | N | N | old rat page redirected |
 | Pinellas Park | Rhea | N | N | N | N |  |
 | The Villages | Nia | E | N | N | N | confirmed target (Kia, Oct 26); old rat page now linked; city page rewrite first |
@@ -47,12 +47,12 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Status | Rat | Bat | Squirrel | Raccoon | Total |
 |---|---|---|---|---|---|
 | live, fact-checked | 5 | 6 | 5 | 10 | 26 |
-| in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
+| in bundle, in fact check | 1 | 3 | 1 | 3 | 8 |
 | fixes pending | 0 | 0 | 0 | 0 | 0 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
 | held | 1 | 1 | 3 | 2 | 7 |
 | skipped | 2 | 3 | 3 | 2 | 10 |
-| not started | 14 | 20 | 21 | 17 | 72 |
+| not started | 14 | 20 | 21 | 16 | 71 |
 | **all cells** | 33 | 33 | 33 | 33 | 132 |
 
 Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Cheval, Keystone, Lake Magdalene and Greater Northdale are named on the Hillsborough County page rather than getting pages. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
