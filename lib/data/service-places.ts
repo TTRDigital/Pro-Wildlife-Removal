@@ -4,7 +4,6 @@ import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-
 import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
 import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
 import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
-import { squirrelRemovalPascoCounty } from "./content/service-places/squirrel-removal/pasco-county-fl.ts";
 import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
 
 /*
@@ -21,7 +20,6 @@ export const fallbackServicePlaces: ServicePlace[] = [
   ratRemovalPascoCounty,
   batRemovalPascoCounty,
   raccoonRemovalPascoCounty,
-  squirrelRemovalPascoCounty,
   raccoonRemovalNewPortRichey,
 ];
 

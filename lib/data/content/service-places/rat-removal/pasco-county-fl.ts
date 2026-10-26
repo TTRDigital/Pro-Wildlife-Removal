@@ -30,7 +30,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
   localHeading: "What to know about rats in Pasco County",
   localIntro: "Pasco runs from Gulf shoreline to citrus country, and rats do well in both. These local rules and facts shape a rat job here.",
   local: [
-    { icon: "home", title: "Your hauler, not the county", text: p("Pasco County says it does not pick up trash. In unincorporated Pasco you hire a private hauler for curbside service, which runs twice a week, so a missed pickup is a call to your hauler.") },
+    { icon: "home", title: "Your hauler, not the county", text: p("Pasco County says it does not pick up trash. In unincorporated Pasco you hire a private hauler for curbside service, which runs twice a week. UF/IFAS says Norway rats thrive where garbage isn't stored properly, so a missed pickup is worth a call to your hauler.") },
     { icon: "wrench", title: "Bags waiting for a trip", text: p("Homes without a hauler may haul up to 8 bags of household garbage a day, free, to the West Pasco Resource Recovery Facility or the East Pasco Transfer Station. Bags that sit by the garage until the next trip are an easy rat meal.") },
     { icon: "critter", title: "Hen feed must be rat-proof", text: p("Pasco's backyard hen ordinance, adopted in November 2025, allows up to four hens at most homes. It requires all feed to be kept in rodent- and predator-proof containers and coops to be kept up so rodents don't move in.") },
     { icon: "search", title: "No junk piles in the yard", text: p("County code bars using a yard to store junk, appliances or other nuisance items, or as a garbage dump. Those piles are exactly the cover UF/IFAS tells homeowners to clear away to keep rats from nesting.") },
@@ -66,7 +66,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "How soon can you come out for rats in Pasco County?",
-      "Same-day rat inspections are often available in Pasco County. Call (727) 594-7705.",
+      "Same-day appointments for rats are often available in Pasco County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a rat call in Pasco County]",
     ),
   ],

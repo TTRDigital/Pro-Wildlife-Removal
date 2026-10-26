@@ -66,7 +66,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "How soon can you come out for a raccoon in Pasco County?",
-      "Same-day raccoon inspections are often available in Pasco County. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Pasco County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Pasco County]",
     ),
   ],
