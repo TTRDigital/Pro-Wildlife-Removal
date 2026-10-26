@@ -49,6 +49,8 @@ export const cityCopies: Record<string, { service: string; place: string }> = {
   "wildlife-removal-services/bat-removal-tampa": { service: "bat-removal", place: "tampa-fl" },
   "wildlife-removal-services/rat-removal-tampa": { service: "rat-removal", place: "tampa-fl" },
   "wildlife-removal-services/raccoon-removal-tampa": { service: "raccoon-removal", place: "tampa-fl" },
+  // The old Palm Harbor rat page (retired, see movedLocations) has a rat place page now (Oct 26, 2026).
+  "about-us/service-area/rat-removal-palm-harbor": { service: "rat-removal", place: "palm-harbor-fl" },
 };
 
 /** Where a service slug lives now (itself if it never moved). */

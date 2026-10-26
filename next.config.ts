@@ -99,7 +99,7 @@ const nextConfig: NextConfig = {
       ...oldUrls.map(([source, destination]) => ({ source, destination: cityTarget(source, destination), statusCode: 301 as const })),
       // One page per animal: retired service pages go straight to the page that replaced them.
       ...Object.entries(movedServices).map(([from, to]) => ({ source: `/services/${from}`, destination: cityTarget(`/services/${from}`, `/services/${to}/`), statusCode: 301 as const })),
-      ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: `/${to}/`, statusCode: 301 as const })),
+      ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: cityTarget(`/${from}`, `/${to}/`), statusCode: 301 as const })),
     ];
   },
   async headers() {
