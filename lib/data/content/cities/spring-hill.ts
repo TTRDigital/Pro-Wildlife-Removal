@@ -38,7 +38,6 @@ export const springHill = countyPage({
   localIntro: "Spring Hill's western neighborhoods sit right beside a large coastal preserve, so wildlife is close at hand.",
   local: [
     { icon: "leaf", title: "Weekiwachee Preserve next door", text: p("The water district's draft management plan for Weekiwachee Preserve notes that Spring Hill borders a large part of the preserve's eastern boundary.") },
-    { icon: "search", title: "Bears at the edge of town", text: p("The same plan says a small number of Florida black bears live on the preserve and flags the potential for human-bear conflict where it meets neighborhoods. FWC estimates the Chassahowitzka group at about 30 bears. Bears are FWC's job, not ours.") },
     { icon: "critter", title: "Don't feed the raccoons", text: p("UF/IFAS Extension in Hernando reminds residents that intentionally feeding raccoons is illegal. Feeding draws them to the house. Separately, in June 2026 an unvaccinated Spring Hill cat that a raccoon had attacked tested positive for rabies.") },
     { icon: "home", title: "Twice-a-week garbage", text: p("Spring Hill's mandatory collection area gets garbage pickup twice a week, per Hernando County. Bins kept shut between pickups mean less for rats and raccoons to find.") },
   ],
@@ -54,10 +53,6 @@ export const springHill = countyPage({
   servicesHeading: "Animals we remove in Spring Hill",
   reviewsIntro: "[PLACEHOLDER: reviews from Spring Hill customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
-    faq(
-      "A bear wandered into my Spring Hill yard. Who handles that?",
-      "FWC. The water district's plan for Weekiwachee Preserve notes a small number of black bears on the preserve, which borders Spring Hill. Report conflicts to FWC's Southwest Region office, 863-648-3200, and secure trash and pet food.",
-    ),
     faq(
       "Does the county remove raccoons or opossums from Spring Hill homes?",
       "Public animal services for Spring Hill come from the Hernando County Sheriff's Office. For a raccoon in the attic or an opossum under the house, call a wildlife removal company rather than an exterminator: the animal is removed under FWC's rules and the way in is sealed. See [raccoons in the attic](/services/raccoons-in-attic/).",

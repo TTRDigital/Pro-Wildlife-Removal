@@ -36,7 +36,6 @@ export const citrus = countyPage({
     { icon: "leaf", title: "Sandhills and state forest", text: p("FWC's Citrus tract of the Withlacoochee State Forest covers nearly 50,000 acres west of Inverness, with high-quality sandhills, fox squirrels, gopher tortoises, indigo snakes and deer.") },
     { icon: "map-pin", title: "Springs and rivers", text: p("Crystal River, Kings Bay and Homosassa are first-magnitude springs, and several serve as warm-water refuges for manatees in winter. Waterfront homes share the shoreline with plenty of wildlife.") },
     { icon: "critter", title: "Rabid stray cats", text: p("Citrus rabies alerts have mostly involved cats: a stray kitten in Floral City in July 2026 and a cat in Inverness in June 2025. The Department of Health also counted a rabid bat in the county in 2024.") },
-    { icon: "search", title: "Bear country, a little", text: p("Citrus is in FWC's Big Bend bear area, home to a remnant group near Chassahowitzka. If a bear visits, secure the trash and contact FWC.") },
     { icon: "leaf", title: "Scrub-jays at Potts Preserve", text: p("The water district's Potts Preserve in northeastern Citrus has wetlands that play a role in both the Tsala Apopka Chain of Lakes and the Withlacoochee River systems, and holds a small population of threatened Florida scrub-jays.") },
   ],
   contactsHeading: "Citrus numbers: CCSO, DOH-Citrus and FWC",

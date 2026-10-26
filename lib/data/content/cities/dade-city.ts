@@ -32,10 +32,10 @@ export const dadeCity = countyPage({
       ],
     },
   ],
-  localHeading: "River, swamp and bears",
+  localHeading: "River and swamp",
   localIntro: "East Pasco is wilder than the coast. The Withlacoochee River and the Green Swamp are both a short drive from downtown.",
   local: [
-    { icon: "leaf", title: "Green Swamp", text: p("FWC's Great Florida Birding Trail says the 560,000-acre Green Swamp spans four counties, and that Florida black bears live on its 36,649-acre West Tract, off Ranch Road in Dade City.") },
+    { icon: "leaf", title: "Green Swamp", text: p("FWC's Great Florida Birding Trail says the 560,000-acre Green Swamp spans four counties, and that its 36,649-acre West Tract has a Dade City address.") },
     { icon: "map-pin", title: "Withlacoochee River Park", text: p("Pasco County describes this wilderness park as 406 acres on Withlacoochee Boulevard. The Birding Trail lists sandhill cranes, swallow-tailed kites, limpkins, and barred and great horned owls.") },
     { icon: "critter", title: "Rabies alerts nearby", text: p("In February 2026, DOH-Pasco issued a rabies alert for the Zephyrhills area after a rabid raccoon was found there. In July, it advised of two more rabid raccoons in east Pasco.") },
     { icon: "home", title: "Overgrown lots", text: p("Dade City code enforcement handles complaints about excessive trash or debris. If an overgrown lot isn't cleaned up, the city says it will do the work and place a lien on the property.") },
@@ -52,10 +52,6 @@ export const dadeCity = countyPage({
   servicesHeading: "Animals we remove in Dade City",
   reviewsIntro: "[PLACEHOLDER: reviews from Dade City customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
-    faq(
-      "Are there bears near Dade City?",
-      "Yes. The Great Florida Birding Trail says Florida black bears live on the Green Swamp's West Tract, which has a Dade City address. Report bear conflicts to FWC, 863-648-3200, and keep trash and pet food secured.",
-    ),
     faq(
       "Does Dade City have animal control?",
       "Not its own. Pasco County Animal Services covers pets and strays (813-929-1212). Wildlife in your attic or walls needs a private wildlife company.",

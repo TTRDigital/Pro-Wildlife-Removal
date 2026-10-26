@@ -18,7 +18,7 @@ export const hudson = countyPage({
   answerHeading: "Who handles wildlife problems in Hudson?",
   answer:
     "Hudson is unincorporated Pasco County, and county Animal Services focuses on pets and strays. Raccoons, opossums, rats or snakes in or under your home are a job for a private company, and bears are FWC's. Pro Wildlife Removal works across Hudson. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Unincorporated Pasco", "Bears: call FWC"],
+  points: ["Call (727) 594-7705", "Unincorporated Pasco", "Rabid raccoons, 2001"],
   townsHeading: "Hudson and nearby",
   townsIntro: "Hudson is a coastal community of about 12,900 people, as of the 2020 Census, at the north end of Pasco's Gulf coast.",
   towns: [
@@ -39,9 +39,8 @@ export const hudson = countyPage({
   local: [
     { icon: "map-pin", title: "The preserve's southern line", text: p("The district's draft plan lists Old Dixie Highway and the town of Hudson as the preserve's southern boundary. Coastal neighborhoods sit right against protected land.") },
     { icon: "leaf", title: "Aripeka Sandhills", text: p("The 209-acre Aripeka Sandhills tract, on Aripeka Road with a Hudson address, protects hardwood swamp and pine sandhill. It's open for hiking, birding and fishing, and hunting isn't allowed.") },
-    { icon: "search", title: "Bear country starts here", text: p("The plan places the Chassahowitzka black bear subpopulation on land west of US 19, from the Aripeka Sandhills tract north to the Withlacoochee State Forest's Homosassa Tract. The plan describes the bears on the preserve as a small number.") },
     { icon: "phone", title: "Rabid raccoons, 2001", text: p("In late April 2001, rabid raccoons attacked two dogs in Hudson, one of them in the Parkwood Acres neighborhood, Pasco County Animal Control told the St. Petersburg Times. Both dogs had been exposed to rabies and had to be destroyed.") },
-    { icon: "critter", title: "Locked lids matter", text: p("The district flags human-bear conflict where the preserve meets homes. Secured garbage and pet food also take away what draws raccoons and opossums to a yard.") },
+    { icon: "critter", title: "Locked lids matter", text: p("Homes back right onto the preserve here. Secured garbage and pet food take away what draws raccoons and opossums from it into a yard.") },
   ],
   rats: { heading: hudsonRatsInput.localHeading, intro: hudsonRatsInput.localIntro, cards: [...hudsonRatsInput.local, ...(hudsonRatsInput.contacts ?? [])], link: { label: "rat removal across Pasco County", href: "/services/rat-removal/pasco-county-fl/" } },
   contactsHeading: "Pasco Animal Services, DOH-Pasco and FWC for Hudson",
@@ -55,10 +54,6 @@ export const hudson = countyPage({
   servicesHeading: "Animals we remove in Hudson",
   reviewsIntro: "[PLACEHOLDER: reviews from Hudson customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
-    faq(
-      "Are there bears in Hudson, FL?",
-      "They can be. The water district says the Chassahowitzka bear subpopulation's range reaches south to the Aripeka Sandhills tract, which has a Hudson address. Report bear conflicts to FWC's Southwest Region, 863-648-3200. We don't handle bears.",
-    ),
     faq(
       "Who removes a raccoon or opossum from under my Hudson home?",
       "A private wildlife company. Pasco County Animal Services focuses on pets and strays. See [opossum removal](/services/opossum-removal/) and [raccoon removal](/services/raccoon-removal/).",

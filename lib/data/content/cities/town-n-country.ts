@@ -48,7 +48,6 @@ export const townNCountry = countyPage({
     { icon: "map-pin", title: "Upper Tampa Bay Trail", text: p("The trail starts at a trailhead off Memorial Highway and Montague Street and runs along the west shore of Channel A, past Waters Avenue and Linebaugh Avenue, before heading north.") },
     { icon: "home", title: "Town 'N Country Park", text: p("The county's Town 'N Country Park covers 25.74 acres with no staff on site, with courts, a softball field and a playground.") },
     { icon: "search", title: "Rodent closures, 2022 to 2025", text: p("Florida DBPR's emergency closure records list seven closures of Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025, three of them on West Hillsborough Avenue. That is our count, matching listed addresses to the Census place.") },
-    { icon: "users", title: "A bear in May 2024 (news)", text: p("FOX 13 reported in May 2024 that a black bear spotted in Town 'n' Country had moved on to Carrollwood, according to FWC.") },
     { icon: "drop", title: "Upper Tampa Bay Conservation Park, next door", text: p("Nearby, the county's 596-acre peninsula park, founded in 1982, protects mangroves, salt marshes and pine flatwoods. The county lists bobcats, otters, gopher tortoises, dolphins and manatees among its wildlife.") },
   ],
   contactsHeading: "Hillsborough and FWC contacts for Town 'n' Country",
@@ -69,10 +68,6 @@ export const townNCountry = countyPage({
     faq(
       "Are there rodent problems in Town 'n' Country?",
       "State inspection records show some. By our count, Florida DBPR closed seven Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025.",
-    ),
-    faq(
-      "Do bears come into Town 'n' Country?",
-      "It has happened. FOX 13 reported one in May 2024 that went on to Carrollwood. Report bears to FWC's Southwest Region office at 863-648-3200, and keep garbage secured.",
     ),
     faq(
       "Do you work near Channel A and the upper bay?",

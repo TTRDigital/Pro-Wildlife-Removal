@@ -281,7 +281,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": "We believe that informed customers make better decisions. We’ll explain the removal process, share insights about local wildlife, and provide recommendations for maintaining a wildlife-free environment.",
+        "text": "We believe that informed customers make better decisions. We’ll explain the removal process, share insights about local wildlife, and suggest ways to make your home less inviting to wildlife.",
         "marks": []
        }
       ],
@@ -337,7 +337,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "With Pro Wildlife Removal, you’re not just hiring a service; you’re partnering with a team that respects the environment, values the careful handling of wildlife, and places your property’s well-being at the forefront. Our experienced professionals are well-versed in the intricacies of central Florida’s wildlife, making us the ideal choice for addressing any wildlife-related challenges you may face.",
+        "text": "With Pro Wildlife Removal, you’re not just hiring a service; you’re partnering with a team that respects the environment, values the careful handling of wildlife, and places your property’s well-being at the forefront. Our professionals know central Florida’s wildlife and the state rules that govern removing it.",
         "marks": []
        }
       ],
@@ -910,7 +910,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " ensures these animals are safely captured and relocated, preventing further destruction.",
+        "text": " means the animals are safely captured and handled under Florida's release rules, and the way in is sealed.",
         "marks": []
        }
       ],
@@ -1045,7 +1045,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " ensures these creatures are captured and relocated without harm. We prioritize the safety of both humans and snakes.",
+        "text": " means the snake is captured and removed from the house. We prioritize the safety of both people and snakes.",
         "marks": []
        }
       ],
@@ -1090,7 +1090,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " involves relocating hives to ensure the well-being of both bees and humans.",
+        "text": " means removing the colony and its comb from the wall, soffit or shed.",
         "marks": []
        }
       ],
@@ -1193,7 +1193,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Effective rodent control is a vital component of maintaining a safe and healthy living environment. Ethical wildlife control measures are essential to prevent the proliferation of diseases and the potential nuisance of pest-related odors. Our comprehensive wildlife control service not only eradicates the invading rodents but also ensures the elimination of potential health risks while upholding hygienic and pristine surroundings for you and your family.",
+        "text": "Effective rodent control is a vital component of maintaining a safe and healthy living environment. Ethical wildlife control measures are essential to prevent the proliferation of diseases and the potential nuisance of pest-related odors. Our rat removal service finds how the rodents get in, seals those openings and traps the ones inside, for you and your family.",
         "marks": []
        }
       ],
@@ -1218,7 +1218,7 @@ const migratedLocations: Location[] = [
    },
    {
     "_type": "splitSection",
-    "heading": "Trusted Wildlife Removal in Central Florida",
+    "heading": "Wildlife Removal in Central Florida",
     "body": [
      {
       "_type": "block",
@@ -1467,7 +1467,7 @@ const migratedLocations: Location[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "Your Expert Solution for EFFICIENT Wildlife Control Services",
+    "heading": "Wildlife Control Services in Lady Lake",
     "body": [
      {
       "_type": "block",
@@ -1487,7 +1487,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our team of trained professionals is dedicated to providing exceptional, thorough service, ensuring that your Lady Lake property or business remains free from wildlife intrusions. Whether you’re dealing with raccoons, squirrels, bats, or any other wildlife, Pro Wildlife Removal is here to help. We handle wildlife issues in Lady Lake with care.",
+        "text": "Our team of trained professionals is dedicated to thorough service for Lady Lake homes and businesses. Whether you’re dealing with raccoons, squirrels, bats, or any other wildlife, Pro Wildlife Removal is here to help. We handle wildlife issues in Lady Lake with care.",
         "marks": []
        }
       ],
@@ -1747,7 +1747,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " focus on safely relocating bees to appropriate habitats, minimizing disruption and ensuring safety.",
+        "text": " focus on removing the colony and its comb safely, with as little disruption as possible.",
         "marks": []
        }
       ],
@@ -2203,7 +2203,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our goal is not only to remove wildlife but also to prevent future infestations. We implement comprehensive exclusion and preventive measures, ensuring long-term protection for your property. Our team gives advice on keeping animals from returning.",
+        "text": "Our goal is not only to remove wildlife but also to prevent future infestations. We seal the entry points the animals used and point out other weak spots. Our team gives advice on keeping animals from returning.",
         "marks": []
        }
       ],
@@ -2297,7 +2297,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Don’t wait for a wildlife problem to escalate. Contact Pro Wildlife Removal today to schedule an inspection or to learn more about our comprehensive wild animal removal services and locations. Whether you’re dealing with raccoons, squirrels, bats, bees, snakes, or rodents, we have the expertise to handle it all. Let us help you protect your Lad Lake property and ensure peace of mind.",
+        "text": "Don’t wait for a wildlife problem to escalate. Contact Pro Wildlife Removal today to schedule an inspection or to learn more about our comprehensive wild animal removal services and locations. Whether you’re dealing with raccoons, squirrels, bats, bees, snakes, or rodents, we have the expertise to handle it all. Let us help you protect your Lady Lake property.",
         "marks": []
        }
       ],
@@ -2500,7 +2500,7 @@ const migratedLocations: Location[] = [
   ],
   "seo": {
    "title": "Wildlife Removal in Lady Lake, FL | Pro Wildlife Removal",
-   "description": "Professional wildlife removal in Lady Lake, FL. Contact Pro Wildlife Removal for expert animal control solutions. Keep your property wildlife-free."
+   "description": "Professional wildlife removal in Lady Lake, FL. Raccoons, rats, bats, squirrels and snakes removed, and the entry points sealed. Call (727) 594-7705."
   },
   "order": 15
  },
@@ -3559,7 +3559,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Squirrels often find their way into attics and walls, causing noise and potential damage. We safely remove and relocate squirrels while sealing entry points to prevent future invasions.",
+        "text": ": Squirrels often find their way into attics and walls, causing noise and potential damage. We safely remove squirrels and seal the entry points they used.",
         "marks": []
        }
       ],
@@ -3580,7 +3580,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Bats can be beneficial but also a nuisance when they roost in your home. We specialize in bat exclusion, ensuring they are safely removed without harm and preventing them from coming back.",
+        "text": ": Bats can be beneficial but also a nuisance when they roost in your home. We specialize in bat exclusion: one-way devices let the bats leave unharmed, and the openings are then sealed.",
         "marks": []
        }
       ],
@@ -3643,7 +3643,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Bees play a crucial role in our ecosystem, but when they build hives in or near your home, they can pose risks. Our bee removal experts safely relocate bee colonies, ensuring both your safety and the bees’ survival.",
+        "text": ": Bees play a crucial role in our ecosystem, but when they build hives in or near your home, they can pose risks. Our bee removal team removes the colony and its comb, keeping people at a safe distance.",
         "marks": []
        }
       ],
@@ -3997,7 +3997,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We employ a variety of efficient removal techniques to safely capture and relocate the nuisance animals. Our methods include:",
+        "text": "We use several removal techniques to safely capture nuisance animals and handle them under Florida's release rules. Our methods include:",
         "marks": []
        }
       ],
@@ -4679,7 +4679,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " in Pine Ridge designed to address all your wildlife-related concerns. Our expert team is equipped to handle both residential and commercial properties in Pine Ridge, ensuring that your space remains safe and free from unwanted animal intrusions. Here’s a closer look at what we provide:",
+        "text": " in Pine Ridge designed to address all your wildlife-related concerns. Our expert team is equipped to handle both residential and commercial properties in Pine Ridge, from attics and crawl spaces to yards. Here’s a closer look at what we provide:",
         "marks": []
        }
       ],

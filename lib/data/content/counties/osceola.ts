@@ -51,10 +51,6 @@ export const osceola = countyPage({
       "Yes. The Department of Health issued an alert in February 2026 after a rabid raccoon in the Kissimmee area, and alerts for rabid cats in Kissimmee (May 2026), St. Cloud (January 2026) and Mill Creek Woods (July 2024). In 2024 it also counted two rabid bats in the county.",
     ),
     faq(
-      "Are there bears in Osceola County?",
-      "FWC places Osceola in its South Central bear area. (FWC's \"North (Osceola)\" bear group is named for the Osceola National Forest in north Florida, not this county.) Bears are FWC's responsibility.",
-    ),
-    faq(
       "Does Osceola County Animal Services handle snakes?",
       "Partly. Its officers respond to venomous snakes on outside property. Call 407-742-8000, extension 4. For a snake inside your home, see [snake removal](/services/snake-removal/).",
     ),

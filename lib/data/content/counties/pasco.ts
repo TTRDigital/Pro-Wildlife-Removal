@@ -64,10 +64,6 @@ export const pasco = countyPage({
       "There have been recent cases. DOH-Pasco issued a raccoon rabies alert near Zephyrhills in February 2026 and an advisory in July 2026 after two rabid raccoons on the east side of the county. Report any bite or scratch to the health department, and leave raccoons to professionals.",
     ),
     faq(
-      "Are there bears in Pasco County?",
-      "FWC includes Pasco in its Big Bend bear management area. Bears aren't something we remove. If you see one, give it space and contact FWC.",
-    ),
-    faq(
       "Can I release a trapped animal at Starkey Preserve?",
       "No. Florida only allows a trapped nuisance animal to be released on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Public land needs the land manager's written permission.",
     ),
