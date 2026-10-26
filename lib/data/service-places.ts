@@ -18,6 +18,8 @@ import { squirrelRemovalBrooksville } from "./content/service-places/squirrel-re
 import { raccoonRemovalBrooksville } from "./content/service-places/raccoon-removal/brooksville-fl.ts";
 import { batRemovalHudson } from "./content/service-places/bat-removal/hudson-fl.ts";
 import { batRemovalLandOLakes } from "./content/service-places/bat-removal/land-o-lakes-fl.ts";
+import { raccoonRemovalLandOLakes } from "./content/service-places/raccoon-removal/land-o-lakes-fl.ts";
+import { raccoonRemovalHoliday } from "./content/service-places/raccoon-removal/holiday-fl.ts";
 import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
 import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
 import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
@@ -54,6 +56,9 @@ export const fallbackServicePlaces: ServicePlace[] = [
   batRemovalHudson,
   // Land O' Lakes (Nia)
   batRemovalLandOLakes,
+  raccoonRemovalLandOLakes,
+  // Holiday (Nia)
+  raccoonRemovalHoliday,
   // Pinellas County (Rhea)
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,
