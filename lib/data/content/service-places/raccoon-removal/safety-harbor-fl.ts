@@ -2,10 +2,10 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
- * Raccoon removal in Safety Harbor (TTR-738, Nia, for Rhea's Pinellas set). Every
- * card is one true fact about raccoons in Safety Harbor or Pinellas County: a 1993
- * Safety Harbor raccoon case (Tampa Bay Times, named as news), the city's barrel
- * rule, county park rules at Philippe Park, and DOH-Pinellas rabies records.
+ * Raccoon removal in Safety Harbor (TTR-738, Nia, for Rhea's Pinellas set).
+ * HELD by Ben (Oct 26): under 6 raccoon facts, so it stays out of service-places.ts.
+ * Cards: a 1993 Safety Harbor raccoon case (St. Petersburg Times, named as news)
+ * and the DOH-Pinellas 2025 table and surveillance report.
  */
 const TIMES = "https://www.tampabay.com/archive/1993/11/18/safety-harbor-man-admits-he-killed-raccoon/";
 const SANITATION = "https://www.cityofsafetyharbor.com/108/Sanitation-Division";
@@ -33,18 +33,15 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
   localHeading: "What to know about raccoons in Safety Harbor",
   localIntro: "Safety Harbor has a raccoon story that ended up in court, and rules from the city and county that bear on raccoons. Here are the local facts.",
   local: [
-    { icon: "critter", title: "A neighborhood's raccoon, 1993", text: p("In 1993, the Tampa Bay Times reported on Rocky, a raccoon that neighbors on Fifth Avenue N in Safety Harbor had named and fed for about two years after it wandered in from the wild.") },
+    { icon: "critter", title: "A neighborhood's raccoon, 1993", text: p("In 1993, the St. Petersburg Times (now the Tampa Bay Times) reported on Rocky, a raccoon that neighbors on Fifth Avenue N in Safety Harbor had named and fed for about two years after it wandered in from the wild.") },
     { icon: "home", title: "Into the garbage", text: p("Rocky got into somebody's garbage during a party, the Times reported, and a neighbor said he was tired of picking up garbage every day. He also told the judge raccoons were everywhere in his neighborhood.") },
-    { icon: "search", title: "An animal cruelty case", text: p("The neighbor who beat Rocky to death pleaded guilty to animal cruelty in November 1993 and was sentenced to a year of house arrest, a year of probation and a fine of 200 dollars.") },
-    { icon: "wrench", title: "Barrel lids must close", text: p("Safety Harbor collects household garbage once a week in a 90-gallon barrel whose lid must close. DOH-Pinellas warns against attracting wild animals with open garbage cans or outdoor pet food.") },
-    { icon: "leaf", title: "Philippe Park isn't a release site", text: p("Philippe Park, the 92-acre county park in Safety Harbor, falls under Pinellas County park rules, which bar feeding or disturbing wildlife and releasing or transplanting any animals there.") },
+    { icon: "search", title: "An animal cruelty case", text: p("The neighbor who beat Rocky to death pleaded guilty to animal cruelty in November 1993, the Times reported, and was sentenced to a year of house arrest, a year of probation and a fine of 200 dollars.") },
     { icon: "map-pin", title: "Pinellas's one rabid raccoon", text: p("The state's 2025 table listed one rabid raccoon for Pinellas County, and no other rabid animals. DOH-Pinellas's September 2025 surveillance report counted one animal rabies case for the year through August.") },
-    { icon: "phone", title: "The county's rabies advice", text: p("DOH-Pinellas's April 2026 rabies safety notice asks residents not to handle or feed wild animals and to keep wildlife out of living quarters, and to report bites to the health department.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Safety Harbor, from the city's, county's and DOH's own pages.",
   contacts: [
     { icon: "home", title: "Dead animal on a city street", text: p("Safety Harbor Public Works, 727-724-1550.") },
-    { icon: "users", title: "Sick or injured animal", text: p("Pinellas County Animal Services, 727-582-2600.") },
+    { icon: "users", title: "Stray animals", text: p("Pinellas County Animal Services, 727-582-2600.") },
     { icon: "phone", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
@@ -57,7 +54,7 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
     ),
     faq(
       "Is it OK to feed the raccoons in my Safety Harbor neighborhood?",
-      "No. DOH-Pinellas asks residents not to feed wild animals, and Safety Harbor's own 1993 raccoon case began with neighbors feeding one until it was raiding garbage.",
+      "No. DOH-Pinellas asks residents not to feed wild animals, and in a 1993 Safety Harbor case, a raccoon that neighbors had named and fed got into garbage during a party and was beaten to death by a neighbor.",
     ),
     faq(
       "Can I release a trapped raccoon at Philippe Park?",
@@ -81,7 +78,7 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
       "Raccoon removal in Safety Harbor, FL: raccoons out of attics, crawl spaces and sheds, young checked first, entry repaired, plus city and county rules.",
   },
   sources: [
-    { title: "Tampa Bay Times (archive), Nov. 18, 1993: Safety Harbor man admits he killed raccoon (Rocky; Fifth Avenue N neighborhood; neighbors named and fed it for two years; got into somebody's garbage; 'tired of picking up garbage every day'; raccoons everywhere in his neighborhood; guilty plea to animal cruelty; year of house arrest, year of probation, $200 fine)", url: TIMES },
+    { title: "St. Petersburg Times, Nov. 18, 1993 (Tampa Bay Times archive): Safety Harbor man admits he killed raccoon (Rocky; Fifth Avenue N neighborhood; neighbors named and fed it for two years; got into somebody's garbage; 'tired of picking up garbage every day'; raccoons everywhere in his neighborhood; guilty plea to animal cruelty; year of house arrest, year of probation, $200 fine)", url: TIMES },
     { title: "City of Safety Harbor: Sanitation Division (once a week; 90-gallon barrel; lid must close; 727-724-1550)", url: SANITATION },
     { title: "City of Safety Harbor: FAQ (dead animals on city rights-of-way: Public Works, 724-1550)", url: "https://www.cityofsafetyharbor.com/Faq.aspx?QID=84" },
     { title: "Pinellas County: Philippe Park (92 acres; Safety Harbor)", url: PHILIPPE },

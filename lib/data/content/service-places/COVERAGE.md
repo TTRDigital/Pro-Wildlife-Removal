@@ -31,11 +31,11 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Safety Harbor | Rhea | E | N | N | H | raccoon (Nia) held: only 4 real raccoon facts |
 | Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
 | Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
-| The Villages | Nia | E | N | N | N | confirmed target (Kia, Oct 26); old rat page now linked; city page rewrite first |
-| Marion County | Nia | N | N | N | N | county page held from the preview until Nia's fix lands (four-animals rule) |
-| Ocala | Nia | N | N | N | N | city page first; recount needed before it enters the preview |
-| Belleview | Nia | N | N | N | N | city page first |
-| Dunnellon | Nia | N | N | N | N | city page first |
+| The Villages | Nia | E | N | N | N | city page rewritten in place (5bbc42d), in Ben's check; old rat page linked |
+| Marion County | Nia | N | N | N | N | county page back in the preview with Nia's four-animal fix (8d99e12), in Ben's check |
+| Ocala | Nia | N | N | N | N | city page recounted (8d99e12); out of the preview until Ben clears it |
+| Belleview | Nia | N | N | N | N | city page held by Nia: under the town bar |
+| Dunnellon | Nia | N | N | N | N | city page in the preview (38d4086), in Ben's check |
 | Lutz | Owen | N | N | N | N | city page first |
 | Westchase | Owen | N | N | N | N | city page first |
 | Carrollwood | Owen | N | N | N | N | city page reworked to the four-animals rule (9881253, 424ce1f); held from the preview until Ben clears it |
@@ -47,8 +47,8 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Greater Northdale | Owen | N | N | N | N | city page first (after Owen's five) |
 | New Tampa | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
 | Temple Terrace | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
-| Silver Springs | Nia | N | N | N | N | city page first; recount needed before it enters the preview |
-| Summerfield | Nia | N | N | N | N | city page first (after Marion County) |
+| Silver Springs | Nia | N | N | N | N | city page recounted (ef72856); out of the preview until Ben clears it |
+| Summerfield | Nia | N | N | N | N | city page held by Nia: under the town bar |
 
 ## Counts
 
