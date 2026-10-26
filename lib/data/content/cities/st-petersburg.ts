@@ -56,7 +56,7 @@ export const stPetersburg = countyPage({
   faqs: [
     faq(
       "Will the City of St. Petersburg get rid of rats in my house?",
-      "Not inside. The city's Sanitation Department helps with rats outside properties and in neighborhoods (727-893-7398), but for rodents inside a home the city says to call a private company. See [rats in the attic](/services/rats-in-attic/).",
+      "Not inside. The city's Sanitation Department helps with rats outside properties and in neighborhoods (727-893-7398), but for rodents inside a home the city says to call a private company. If you were about to search for a rat exterminator, we're a wildlife removal company instead: we trap the rats inside and seal their entry points, with no spraying. See [rats in the attic](/services/rats-in-attic/).",
     ),
     faq(
       "Who do I call about injured wildlife in St. Pete?",

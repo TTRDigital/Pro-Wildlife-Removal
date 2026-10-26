@@ -156,6 +156,10 @@ export const home: PageContent = {
       heading: "Wildlife removal questions we hear every day",
       items: [
         faq(
+          "Are you an exterminator?",
+          "No. We're a wildlife removal company, not an exterminator, and we don't spray. For rats, raccoons, squirrels or bats, we find how they get in, remove them the way Florida law allows and seal the entry points. If you were searching for wildlife exterminators, this is the work you're after.",
+        ),
+        faq(
           "How much does wildlife removal cost in Central Florida?",
           "It depends on the animal, how many there are, how many entry points need sealing and how much cleanup the attic needs. A single raccoon caught in a yard is a different job from a bat colony in a tile roof. We give you the price for your home after the inspection, before any work starts.",
           "The inspection is free.",

@@ -215,6 +215,10 @@ export const ratRemoval: Service = {
       heading: "Rat removal questions",
       items: [
         faq(
+          "Looking for a rat exterminator near me?",
+          "Pro Wildlife Removal is a rat removal company rather than an exterminator, and there's no spraying. We find the openings the rats use, trap the ones inside and seal those entry points, so the house is closed to the next ones. Call (727) 594-7705.",
+        ),
+        faq(
           "Are they roof rats or Norway rats?",
           "In an attic, almost always roof rats. Florida DOH describes roof rats as good climbers that nest in trees and plants but generally like high places such as attics, with a tail longer than the body. Norway rats burrow under buildings and beneath concrete slabs. UF/IFAS adds that Norway rats are heavier and found mainly along Florida's coasts and canals. Florida DOH says the two sometimes live together, though roof rats like to be up high. More in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).",
         ),

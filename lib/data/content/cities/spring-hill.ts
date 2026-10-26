@@ -60,7 +60,7 @@ export const springHill = countyPage({
     ),
     faq(
       "Does the county remove raccoons or opossums from Spring Hill homes?",
-      "Public animal services for Spring Hill come from the Hernando County Sheriff's Office. For a raccoon in the attic or an opossum under the house, call a wildlife removal company. See [raccoons in the attic](/services/raccoons-in-attic/).",
+      "Public animal services for Spring Hill come from the Hernando County Sheriff's Office. For a raccoon in the attic or an opossum under the house, call a wildlife removal company rather than an exterminator: the animal is removed under FWC's rules and the way in is sealed. See [raccoons in the attic](/services/raccoons-in-attic/).",
     ),
     faq(
       "Can I leave food out for raccoons in Spring Hill?",
