@@ -62,7 +62,7 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
     ),
     faq(
       "Does Pasco Animal Services take raccoons out of houses?",
-      "No. Its after-hours emergency service covers seriously injured stray pets and loose aggressive animals. For a raccoon living in your home, call a private wildlife company.",
+      "No. Its emergency service covers seriously injured stray pets and loose aggressive animals. For a raccoon living in your home, call a private wildlife company.",
     ),
     faq(
       "How soon can you come out for a raccoon in Land O' Lakes?",

@@ -55,7 +55,7 @@ export const landOLakes = countyPage({
   faqs: [
     faq(
       "Does Pasco County Animal Services remove wildlife from Land O' Lakes homes?",
-      "Its shelter is in Land O' Lakes, but its pages cover pets and strays, and after-hours help is for emergencies like a loose animal that has bitten someone. For wildlife in your attic, walls or crawl space, call a wildlife removal company.",
+      "Its shelter is in Land O' Lakes, but its pages cover pets and strays, and its emergency help is for cases like a loose animal that has bitten someone. For wildlife in your attic, walls or crawl space, call a wildlife removal company.",
     ),
     faq(
       "Can I trap animals in Cypress Creek Preserve?",
