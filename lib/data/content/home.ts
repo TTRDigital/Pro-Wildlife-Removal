@@ -24,7 +24,7 @@ export const home: PageContent = {
       "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind. Call (727) 594-7705.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
-    badges: ["9 counties", "Removal, sealing and cleanup"],
+    badges: ["7 counties", "Removal, sealing and cleanup"],
   },
   sections: [
     {
@@ -32,9 +32,9 @@ export const home: PageContent = {
       _key: "answer",
       heading: "Who we are and how it works",
       text: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in nine counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in seven counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
       ),
-      points: ["9 counties", "Humane, legal methods", "Entry points sealed"],
+      points: ["7 counties", "Humane, legal methods", "Entry points sealed"],
     },
     {
       _type: "servicesSection",
@@ -92,8 +92,8 @@ export const home: PageContent = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Service area",
-      heading: "Wildlife removal in 9 Florida counties",
-      intro: p("One number covers all nine counties: (727) 594-7705."),
+      heading: "Wildlife removal in 7 Florida counties",
+      intro: p("One number covers all seven counties: (727) 594-7705."),
       groups: countyGroups,
     },
     {
@@ -200,7 +200,7 @@ export const home: PageContent = {
         ),
         faq(
           "Which areas do you serve?",
-          "Tampa Bay and central and west Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter, Polk, Manatee and Osceola counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey and The Villages.",
+          "Tampa Bay and central and west Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter and Polk counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey and The Villages.",
         ),
         faq(
           "Do you remove snakes and bees too?",
@@ -213,14 +213,14 @@ export const home: PageContent = {
       _key: "cta",
       heading: "Hearing something in the attic right now?",
       highlight: "right now?",
-      text: p("Call (727) 594-7705, one number for all 9 counties."),
+      text: p("Call (727) 594-7705, one number for all 7 counties."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Wildlife Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal across Tampa Bay and 9 Florida counties, with sealing and cleanup. Free inspection: (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across Tampa Bay and 7 Florida counties, with sealing and cleanup. Free inspection: (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
@@ -238,7 +238,7 @@ export const home: PageContent = {
     "How many jobs has the company done, or which rating and review count should the site show (the live site says 4.7 from 273 Google reviews)?",
     "Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
     "Typical response time for emergencies and for regular inspections?",
-    "Which cities in Polk, Manatee and Osceola get the most calls, so the area list shows the right towns? Manatee and Osceola: is there a county phone number?",
+    "Which cities in Polk get the most calls, so the area list shows the right towns? Do you serve Manatee or Osceola County? Those pages are held until you confirm.",
     "A real truck or crew photo for the hero.",
     "Is there a written warranty on sealing work? Until there is, the site won't say anything like \"sealed for good\" or promise animals won't return.",
     "The site still has pages for Orlando, Sarasota, The Villages, Lady Lake, Lecanto, Pine Ridge, Winter Haven, Central Florida, and rat removal in The Villages and Winter Haven. Which of these do you still serve?",
