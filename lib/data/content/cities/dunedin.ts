@@ -50,7 +50,7 @@ export const dunedin = countyPage({
     { icon: "map-pin", title: "Sea turtles, bears, alligators", text: p("FWC Wildlife Alert, 888-404-3922, for sea turtles, manatees and bears. Nuisance alligators: 866-392-4286.") },
     { icon: "phone", title: "Animal bites", text: p("If an animal bites someone in Dunedin, report it to the health department in Pinellas: 727-824-6932.") },
   ],
-  servicesIntro: "We handle every animal below in Dunedin. Tap one for the details.",
+  servicesIntro: "Bees in the attic, a rat infestation in the garage or a raccoon under the porch: we handle every animal below in Dunedin. Tap one for the details.",
   servicesHeading: "Animals we remove in Dunedin",
   reviewsIntro: "[PLACEHOLDER: reviews from Dunedin customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [

@@ -11,7 +11,7 @@ export const polk = countyPage({
   heroText: "The largest county we serve by land area, with over 500 named lakes and fast-growing cities in between. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Polk County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it the way Florida law allows, seal the gap and clean up. Call (727) 594-7705.",
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it by trapping or exclusion as Florida law allows, and seal the entry points. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Lakeland to Haines City", "Over 500 named lakes"],
   townsHeading: "Polk towns we cover",
   townsIntro: "Bartow is the county seat and Lakeland the largest city. Polk is the largest county we serve by land area: about 1,800 square miles.",
@@ -47,7 +47,7 @@ export const polk = countyPage({
     { icon: "phone", title: "Animal bites: DOH-Polk", text: p("863-519-8300, the number the department's rabies prevention page gives for reports.") },
     { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office is in Lakeland: 863-648-3200 for bears. Larger alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service is available across Polk. Open any card for the signs, the rules and our process.",
+  servicesIntro: "Whatever the critter, every service below is available across Polk, wildlife exclusion included. Open any card for the signs, the rules and our process.",
   faqs: [
     faq(
       "What's the phone number for Polk County?",
@@ -55,7 +55,7 @@ export const polk = countyPage({
     ),
     faq(
       "Do you cover Lakeland and Winter Haven?",
-      "Yes, along with Haines City, Bartow, Auburndale, Lake Wales and the rest of the county.",
+      "Yes. Our local wildlife experts also cover Haines City, Bartow, Auburndale, Lake Wales and the rest of the county.",
     ),
     faq(
       "Has rabies been found in Polk County?",

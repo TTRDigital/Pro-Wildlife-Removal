@@ -24,7 +24,7 @@ export const batRemovalCost: Post = {
     p(
       "**The short answer:** bat removal in Florida is priced per house, not per bat. Cost depends on how many openings the colony uses, how hard they are to reach, how long the bats have been there and how much guano has to come out. It starts with an inspection: call (727) 594-7705.",
     ),
-    h3("What changes the price of bat removal"),
+    h3("What changes the cost to remove bats from an attic"),
     p("Bats can't be trapped or poisoned in Florida, so every colony in a building is removed by exclusion: one-way devices on the exits, then sealing. These are the things that make one exclusion cost more than another."),
     table(
       ["Factor", "Why it changes the price"],

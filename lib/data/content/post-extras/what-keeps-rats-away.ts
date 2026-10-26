@@ -16,6 +16,10 @@ export const extra_whatKeepsRatsAway: PostExtra = {
   ),
   faq: [
     faq(
+      "Is there anything that keeps rats away permanently?",
+      "No product does. UC IPM says no repellent has solved a rat problem for more than a very short time. What lasts is rat-proofing: UF/IFAS Extension Santa Rosa County says it has to block every possible way in, and the seals still need a look now and then, because a new gap lets rats back.",
+    ),
+    faq(
       "Do ultrasonic rat repellers actually work?",
       "Not for long. UC IPM says rats are startled by unfamiliar noises but quickly get used to repeated sounds, which makes high frequency and ultrasonic devices ineffective for controlling rats in homes and gardens.",
     ),
@@ -40,7 +44,7 @@ export const extra_whatKeepsRatsAway: PostExtra = {
     { title: "ICWDM: Roof Rats (droppings about 1/2 inch long with pointed ends)", url: ICWDM_ROOF },
     { title: "ICWDM: Norway Rats (droppings as large as 3/4 inch long with blunt ends)", url: ICWDM_NORWAY },
     { title: "UC IPM Pest Notes: Rats (rats get used to repeated sounds, so ultrasonic devices are ineffective; never use lightweight chicken wire; 1/2-inch galvanized mesh for vent covers; no repellents have solved a rat problem for more than a very short time; glue traps not generally recommended for nonprofessional use; pea-sized bait of nuts, dried fruit, bacon, dry pet food or peanut butter)", url: UC_RATS },
-    { title: "UF/IFAS Extension Santa Rosa County: Controlling Rats and Mice around the Farm (rats jump vertically three feet and horizontally four feet; climb wires, cables, vines and trees)", url: IFAS_SANTA_ROSA },
+    { title: "UF/IFAS Extension Santa Rosa County: Controlling Rats and Mice around the Farm (rats jump vertically three feet and horizontally four feet; climb wires, cables, vines and trees; rodent-proofing must block all possible entry points)", url: IFAS_SANTA_ROSA },
     { title: "UF/IFAS Extension Sarasota County: Wondering About Wildlife: What to Do About Rodents (rodents can use as little as a bottle cap full of water; over-irrigating creates standing water)", url: IFAS_SARASOTA },
     { title: "UF/IFAS Extension Pinellas County: Rodent management options in and around the home (a nesting pair of barn owls can consume over 3,000 rodents in one year)", url: IFAS_PINELLAS },
   ],

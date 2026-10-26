@@ -49,7 +49,7 @@ export const tampa = countyPage({
     { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("813-307-8059, Environmental Public Health, to report a bite or scratch.") },
     { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligators: 866-FWC-GATOR (866-392-4286). Bear conflicts go to FWC's Southwest Region office in Lakeland, 863-648-3200.") },
   ],
-  servicesIntro: "Every service is available across Tampa. Pick the animal for its signs, Florida's rules and our process.",
+  servicesIntro: "Our wildlife management services cover all of Tampa. Pick the animal for its signs, Florida's rules and our process.",
   servicesHeading: "Animals we remove in Tampa",
   reviewsIntro: "[PLACEHOLDER: reviews from Tampa customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [

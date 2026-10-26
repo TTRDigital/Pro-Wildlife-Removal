@@ -68,7 +68,7 @@ export const theVillages = countyPage({
     { icon: "phone", title: "Bites: DOH-Sumter", text: p("352-569-3102, the number in DOH-Sumter's June 2026 rabies alert.") },
     { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every animal below is one we remove in The Villages, whichever county your village sits in.",
+  servicesIntro: "Every critter below, possums and armadillos included, is one we remove in The Villages, whichever county your village sits in.",
   servicesHeading: "Animals we remove in The Villages",
   reviewsIntro: "[PLACEHOLDER: reviews from customers in The Villages, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -83,6 +83,10 @@ export const theVillages = countyPage({
     faq(
       "Can bats be removed from a building in The Villages in summer?",
       "Only with an FWC permit. Maternity season runs April 16 to August 14. The Hilltop crew in 2025 put up its nets on Aug. 15, Golf Course Industry reported.",
+    ),
+    faq(
+      "Do you handle possum removal in The Villages?",
+      "Yes. Opossums (possums) are on our list in every village. Under FWC's nuisance wildlife rules, a trapped opossum can only be released on the same property, or on at least 40 contiguous acres in the same county with the landowner's written permission. See [opossum removal](/services/opossum-removal/).",
     ),
     faq(
       "Why does my trash have to go out in bags?",
@@ -118,6 +122,7 @@ export const theVillages = countyPage({
     { title: "Florida DOH: DOH-Sumter rabies alert, June 26, 2026 (rabid cat, Webster area; report bites to 352-569-3102)", url: WEBSTER },
     { title: "Florida DOH: Sumter rabies alert, June 19, 2024 (rabid cat, Sumterville area)", url: SUMTERVILLE },
     { title: "Sumter County: Animal Services contact (352-689-4400, option 3 for animal control complaints)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
+    { title: "FWC: FAQs, nuisance wildlife (release on same property or 40+ contiguous acres in the same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     S.censusPop,
     S.censusUR,
     S.edr,

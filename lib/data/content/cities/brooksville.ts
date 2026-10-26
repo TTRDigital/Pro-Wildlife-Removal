@@ -61,7 +61,7 @@ export const brooksville = countyPage({
     { icon: "phone", title: "Bites and scratches: DOH-Hernando", text: p("352-540-6812, Environmental Public Health, for any bite or scratch from a raccoon, bat or other animal.") },
     { icon: "home", title: "City garbage", text: p("Brooksville runs its own garbage collection through its Utilities Department: (352) 540-3860.") },
   ],
-  servicesIntro: "We handle every animal below in Brooksville. Pick one to read the signs and what the job involves.",
+  servicesIntro: "Wildlife control and animal proofing for every animal below, anywhere in Brooksville. Pick one to read the signs and what the job involves.",
   faqs: [
     faq(
       "Does the sheriff's Animal Services remove raccoons from homes?",

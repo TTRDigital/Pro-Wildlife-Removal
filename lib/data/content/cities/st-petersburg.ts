@@ -50,7 +50,7 @@ export const stPetersburg = countyPage({
     { icon: "home", title: "Rats outdoors: city Sanitation", text: p("727-893-7398. The city's Rodent Control Technicians inspect, give prevention advice and can set outdoor bait stations at no cost when needed. For rats inside, the city says to hire a private company.") },
     { icon: "phone", title: "Animal bites: DOH-Pinellas", text: p("Call DOH-Pinellas, 727-824-6932, to report an animal bite in St. Petersburg.") },
   ],
-  servicesIntro: "We offer every service in St. Petersburg. Choose an animal for the details.",
+  servicesIntro: "Our wildlife control experts offer every service in St. Petersburg. Choose an animal for the details.",
   servicesHeading: "Animals we remove in St. Petersburg",
   reviewsIntro: "[PLACEHOLDER: reviews from St. Petersburg customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [

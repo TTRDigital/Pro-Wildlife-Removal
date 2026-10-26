@@ -18,7 +18,7 @@ export const ratRemovalTampa = servicePlacePage({
   location: "about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl",
   county: "Hillsborough",
   order: 2,
-  heroText: "Scratching over the ceiling of a Tampa home at night? We find the gaps roof rats use, seal them, trap the rats left inside and clean the attic. Call (727) 594-7705.",
+  heroText: "Scratching over the ceiling of a Tampa home at night? Our rat removal experts find the gaps roof rats use, seal them and trap the rats left inside. Call (727) 594-7705.",
   answerHeading: "Who clears rats out of a Tampa house?",
   answer:
     "A private company. The City of Tampa sends wildlife on private property to private removal services, and its role with rats is the trash and code rules that keep them from settling in. Pro Wildlife Removal closes the openings, traps what's left in the attic and cleans up. Call (727) 594-7705.",

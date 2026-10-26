@@ -15,6 +15,7 @@ export const countyGroups: AreasSection["groups"] = [
       { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
       { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
       { label: "Largo" },
+      { label: "Tarpon Springs" },
       { label: "Pinellas Park", href: "/service-areas/pinellas-county/pinellas-park/" },
     ],
   },

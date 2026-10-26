@@ -27,7 +27,7 @@ export const opossumRemoval: Service = {
     eyebrow: "OPOSSUM REMOVAL",
     heading: "Opossum Removal in Central Florida",
     highlight: "Opossum Removal",
-    text: p("An opossum living under the house, in the crawl space or in the attic? We remove it humanely, young included, and close the way in."),
+    text: p("An opossum (possum) living under the house, in the crawl space or in the attic? We remove it humanely, young included, and close the way in."),
     image: images.opossumRemoval4,
     badges: ["Under houses, decks and sheds", "Openings closed with mesh"],
   },
@@ -173,6 +173,10 @@ export const opossumRemoval: Service = {
       eyebrow: "FAQ",
       heading: "Opossum removal questions",
       items: [
+        faq(
+          "Do you handle possum control in Tampa?",
+          "Yes. Opossum control in Tampa works the same as anywhere else we cover: find where the possum gets in under the house, the deck or into the attic, get it out, young included, and close the opening with wire mesh. Call (727) 594-7705.",
+        ),
         faq(
           "Do opossums carry rabies?",
           "It's rare. UF/IFAS describes opossums as nearly immune to rabies. In Florida, rabies mostly comes from raccoons and bats, but wash any animal bite or scratch and see a doctor. A frightened opossum hisses, growls and may bite, so don't handle one.",

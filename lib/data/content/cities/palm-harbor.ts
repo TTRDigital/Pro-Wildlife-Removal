@@ -48,7 +48,7 @@ export const palmHarbor = countyPage({
     { icon: "home", title: "Garbage service", text: p("Unincorporated Palm Harbor has no county garbage pickup. Pinellas County says property owners choose their own hauling company.") },
     { icon: "map-pin", title: "Bears, alligators and tortoises: FWC", text: p("Wildlife Alert 888-404-3922 for bears and injured sea life. Nuisance alligators 866-392-4286. Sick or injured gopher tortoises 850-921-1030 on weekdays.") },
   ],
-  servicesIntro: "We handle every animal below in Palm Harbor. Choose one for the details.",
+  servicesIntro: "We handle every animal below in Palm Harbor, bees in the attic and snakes in the garage included. Choose one for the details.",
   servicesHeading: "Animals we remove in Palm Harbor",
   reviewsIntro: "[PLACEHOLDER: reviews from Palm Harbor customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [

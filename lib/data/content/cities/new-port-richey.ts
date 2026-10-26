@@ -56,7 +56,7 @@ export const newPortRichey = countyPage({
   faqs: [
     faq(
       "Does the City of New Port Richey have animal control?",
-      "No. The city's FAQ says Pasco County handles all animal control concerns: 813-929-1212. For wildlife in or under your home, call a wildlife removal company.",
+      "No. The city's FAQ says Pasco County handles all animal control concerns: 813-929-1212. For a raccoon in the attic or other wildlife under your home, call private wildlife trappers like us.",
     ),
     faq(
       "Why do I keep seeing armadillos and opossums in New Port Richey?",

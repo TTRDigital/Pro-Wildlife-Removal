@@ -51,7 +51,7 @@ export const clearwater = countyPage({
     { icon: "phone", title: "Animal bites: DOH-Pinellas", text: p("Report bites to the health department in Pinellas at 727-824-6932.") },
     { icon: "map-pin", title: "Alligators and wildlife emergencies: FWC", text: p("The city points to FWC for nuisance alligators and injured sea life. Gator hotline: 866-FWC-GATOR. Wildlife Alert (injured sea life and wildlife law violations): 888-404-3922.") },
   ],
-  servicesIntro: "All nine services are available in Clearwater. Tap an animal for the details.",
+  servicesIntro: "Humane wildlife removal and wildlife exclusion for all nine animals below, anywhere in Clearwater. Tap one and our wildlife removal experts explain the details.",
   servicesHeading: "Animals we remove in Clearwater",
   reviewsIntro: "[PLACEHOLDER: reviews from Clearwater customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [

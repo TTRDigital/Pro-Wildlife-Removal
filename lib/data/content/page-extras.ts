@@ -111,6 +111,10 @@ export const pageExtras: Record<string, Extra> = {
             "What you've heard or seen, where in the house, and when it's loudest. Noises at dusk point to different animals than scratching in the morning; our guide to [what animal is in your attic](/blog/what-animal-is-in-my-attic/) explains why, and the [blog](/blog/) covers other common signs.",
           ),
           faq(
+            "Are you raccoon trappers, or do you do exclusion too?",
+            "Both. Trapping deals with the animals already inside, and wildlife exclusion keeps the next ones out: one-way doors for bats, then the entry points sealed. Tell our wildlife experts what you're hearing and they'll explain which your house needs. See [how we work](/how-we-work/).",
+          ),
+          faq(
             "Do you handle stray dogs and cats?",
             "No. Strays, pet bites and pet welfare go to your county's animal services. We handle wildlife: see [our services](/services/).",
           ),

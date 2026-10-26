@@ -172,6 +172,10 @@ export const deadAnimalRemoval: Service = {
           "The CDC says the risk from animal carcasses is low if you take proper precautions: gloves, bagging the remains and washing your hands. Don't touch one bare-handed, and keep children and pets away.",
         ),
         faq(
+          "How do I dispose of a dead cat or dog in my yard?",
+          "The CDC's disposal steps for dead animals apply: wear gloves, slip a plastic bag over your hand, pick the animal up, turn the bag inside out and seal it, and use a shovel for a larger animal. Its guidance also says to call animal control. Wash your hands afterwards. If the animal is somewhere you can't reach, call (727) 594-7705.",
+        ),
+        faq(
           "What if it's a bat?",
           "Don't throw it away, and don't touch it. The CDC says to contact animal control or your health department to capture a bat for testing, not to release it, and to report any contact. If it's already dead, Florida's Department of Health asks that the head not be damaged.",
         ),
@@ -204,7 +208,7 @@ export const deadAnimalRemoval: Service = {
       _key: "cta",
       heading: "Smell something you can't find?",
       highlight: "can't find?",
-      text: p("Call (727) 594-7705. We'll find it and get it out."),
+      text: p("Call (727) 594-7705. Our wildlife experts will find it and get it out."),
       ctas: [CALL],
     },
   ],

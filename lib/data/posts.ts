@@ -46767,7 +46767,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " needs and offer safe and effective alternatives that will put your mind at ease. Whether you’re dealing with rats or other pests, we have the expertise and equipment to help you eliminate them quickly and efficiently. Don’t take any chances with the health and safety of your family – ",
+      "text": " needs and offer safe and effective alternatives that will put your mind at ease. Whether you’re dealing with rats or other pests, we have the expertise and equipment to help you eliminate them quickly and efficiently. Don’t take any chances with the health and safety of your family: ",
       "marks": []
      },
      {
@@ -47286,12 +47286,26 @@ const migratedPosts: Post[] = [
     "markDefs": []
    },
    {
-    "_type": "altImage",
-    "image": images.ratOnUtensil
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Rat and squirrel pictures, side by side",
+      "marks": []
+     }
+    ],
+    "markDefs": []
    },
    {
     "_type": "altImage",
-    "image": images.squirrelOnRoof
+    "image": { ...images.ratOnUtensil, "alt": "Picture of a rat on dishes in a kitchen sink, where rat droppings often turn up" },
+    "caption": "Rats come indoors to kitchens and pantries, so their droppings turn up near food."
+   },
+   {
+    "_type": "altImage",
+    "image": { ...images.squirrelOnRoof, "alt": "Picture of a squirrel slipping into a gap at a roof edge, the way squirrels reach attics" },
+    "caption": "Squirrels get in high, at roof edges, so their droppings are often found in attics."
    },
    {
     "_type": "block",

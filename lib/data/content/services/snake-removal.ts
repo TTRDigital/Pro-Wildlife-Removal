@@ -143,7 +143,7 @@ export const snakeRemoval: Service = {
         "Pool-cage drains and torn screens checked",
         "Rodent problems found and fixed, so there's nothing to hunt",
       ],
-      image: images.snakeRemoval3,
+      image: { ...images.snakeRemoval3, alt: "Snake removal in Tampa and Central Florida: close-up image of a patterned python" },
       imageSide: "left",
     },
     {

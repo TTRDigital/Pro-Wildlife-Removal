@@ -48,7 +48,7 @@ export const trinity = countyPage({
     { icon: "phone", title: "Bites and scratches: DOH-Pasco", text: p("If a wild or stray animal bites or scratches someone in Trinity, get medical care, then report it to DOH-Pasco: 352-521-1450, option 4.") },
     { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligator hotline, 866-FWC-GATOR. FWC's Southwest Region office takes bear calls: 863-648-3200.") },
   ],
-  servicesIntro: "All of our services are available in Trinity. Pick an animal to see how we handle it.",
+  servicesIntro: "Every service below is available in Trinity, from rodent removal in the attic to a critter under the deck. Pick an animal to see how we handle it.",
   servicesHeading: "Animals we remove in Trinity",
   reviewsIntro: "[PLACEHOLDER: reviews from Trinity customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [

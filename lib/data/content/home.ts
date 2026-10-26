@@ -32,7 +32,7 @@ export const home: PageContent = {
       _key: "answer",
       heading: "Who we are and how it works",
       text: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in eight counties across Central Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums (possums), armadillos, bees and dead animals from homes and businesses in eight counties across Central Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
       ),
       points: ["8 counties", "Humane, legal methods", "Entry points sealed"],
     },
@@ -41,7 +41,7 @@ export const home: PageContent = {
       _key: "animals",
       eyebrow: "Animals we remove",
       heading: "Which animal is it?",
-      intro: p("Pick the animal you think you have. Each page covers the signs, the Florida rules for that animal and how we get it out."),
+      intro: p("Pick the critter you think you have. Each page covers the signs, the Florida rules for that animal and how we get it out."),
       group: "removal",
     },
     {
@@ -82,7 +82,7 @@ export const home: PageContent = {
       _key: "areas",
       eyebrow: "Service area",
       heading: "Wildlife removal in 8 Florida counties",
-      intro: p("One number covers all eight counties: (727) 594-7705."),
+      intro: p("One number covers all eight counties, from Tarpon Springs on the Gulf coast to Ocala and Winter Haven inland: (727) 594-7705."),
       groups: countyGroups,
       display: "map",
     },
@@ -170,7 +170,7 @@ export const home: PageContent = {
         ),
         faq(
           "Can I trap and move the animal myself?",
-          "Florida allows a property owner to trap many nuisance animals, but the rules are strict. Traps must be checked at least every 24 hours. A native animal can be released on the same property, or on land of at least 40 contiguous acres in the same county with the landowner's written permission. Non-native animals can't be released at all. Bats can't be trapped or relocated. Many people call us because of those rules.",
+          "Florida allows a property owner to trap many nuisance animals, but the rules are strict. Traps must be checked at least every 24 hours. A native animal can be released on the same property, or on land of at least 40 contiguous acres in the same county with the landowner's written permission. Non-native animals can't be released at all. Bats can't be trapped or relocated. Those rules are why many people hand the job to wildlife trappers like us, whether it's an armadillo under the slab or a possum in the garage.",
           TRAP_RULES_2026,
         ),
         faq(
