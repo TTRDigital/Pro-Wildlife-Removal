@@ -79,7 +79,7 @@ export const deadAnimalRemovalStPetersburg = servicePlacePage({
   seo: {
     title: "Dead Animal Removal, St. Petersburg | Pro Wildlife Removal",
     description:
-      "Dead animal removal in St. Petersburg, FL: what city Sanitation collects, what's yours to handle, and removal from walls and attics. (727) 594-7705.",
+      "Dead animal removal in St. Petersburg, FL: what city Sanitation collects, what's yours to handle, and removal from walls and attics. Call (727) 594-7705.",
   },
   sources: [
     { title: "City of St. Petersburg: Sanitation directory (graffiti abatement, shopping cart collection, and dead animal collection; 727-893-7398)", url: SANITATION },
