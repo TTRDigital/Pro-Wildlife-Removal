@@ -10,6 +10,7 @@ import { extra_signsThatYourHouseHasRats } from "./signs-that-your-house-has-rat
 import { extra_dangersOfDiyWildlifeRemoval } from "./dangers-of-diy-wildlife-removal.ts";
 import { extra_tampaWildlifeInfestationDangers } from "./tampa-wildlife-infestation-dangers.ts";
 import { extra_theDangersOfIgnoringWildlifeInYourAttic } from "./the-dangers-of-ignoring-wildlife-in-your-attic.ts";
+import { extra_whySquirrelsReturnAfterRemoval } from "./why-squirrels-return-after-removal.ts";
 
 /*
  * Additions to migrated blog posts (Ben's audit, Oct 26): a sourced FAQ, a closing
@@ -37,6 +38,7 @@ const extras: PostExtra[] = [
   extra_howToGetRidOfRatsInTheHouse,
   extra_whatKeepsRatsAway,
   extra_signsThatYourHouseHasRats,
+  extra_whySquirrelsReturnAfterRemoval,
 ];
 
 export function withExtras(post: Post): Post {

@@ -359,7 +359,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our tailored services, commitment to ethical practices, and dedication to lasting solutions make us the premier choice for those seeking to protect their properties and maintain harmony with the local ecosystem. When you choose us, you’re choosing expertise, integrity, and peace of mind.",
+        "text": "We tailor each job to the property and follow ethical practices that respect the local ecosystem. When you choose us, you’re choosing expertise, integrity, and peace of mind.",
         "marks": []
        }
       ],
@@ -532,7 +532,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our approach to exclusion is designed to prevent unwanted wildlife from reentering your property. We understand that simply removing animals isn’t enough – it’s essential to address the root cause of the issue to ensure a long-lasting solution. Here’s a step-by-step overview of how our exclusion process works:",
+        "text": "Our approach to exclusion is designed to prevent unwanted wildlife from reentering your property. Removing animals isn't enough on its own: the openings they used have to be closed too. Here’s a step-by-step overview of how our exclusion process works:",
         "marks": []
        }
       ],
@@ -635,7 +635,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Our exclusion services offer lasting security by addressing vulnerabilities, ensuring your property remains free from unwanted wildlife while adhering to ethical practices.",
+        "text": " Our exclusion services close the openings animals use to get in, following ethical practices.",
         "marks": []
        }
       ],
@@ -1454,7 +1454,7 @@ const migratedLocations: Location[] = [
   "name": "Lady Lake",
   "kind": "city",
   "county": "Lake",
-  "summary": "Welcome to Pro Wildlife Removal, your trusted wildlife trappers serving the Lady Lake, FL community in Central Florida.",
+  "summary": "Welcome to Pro Wildlife Removal, wildlife trappers serving the Lady Lake, FL community in Central Florida.",
   "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal in Lady Lake, FL",
@@ -1486,7 +1486,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Welcome to Pro Wildlife Removal, your trusted wildlife trappers serving the Lady Lake, FL community in Central Florida. With over a decade of experience and a commitment to efficient and effective wildlife trapping, we specialize in safely removing unwanted wildlife from residential and commercial properties.",
+        "text": "Welcome to Pro Wildlife Removal, wildlife trappers serving the Lady Lake, FL community in Central Florida. With a commitment to efficient and effective wildlife trapping, we specialize in safely removing unwanted wildlife from residential and commercial properties.",
         "marks": []
        }
       ],
@@ -1498,7 +1498,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our team of trained professionals is dedicated to providing exceptional, thorough service, ensuring that your Lady Lake property or business remains free from wildlife intrusions. Whether you’re dealing with raccoons, squirrels, bats, or any other wildlife, Pro Wildlife Removal is here to help. Trust us to handle your wildlife issues with care and expertise, keeping Lady Lake safe and wildlife-free.",
+        "text": "Our team of trained professionals is dedicated to providing exceptional, thorough service, ensuring that your Lady Lake property or business remains free from wildlife intrusions. Whether you’re dealing with raccoons, squirrels, bats, or any other wildlife, Pro Wildlife Removal is here to help. We handle wildlife issues in Lady Lake with care.",
         "marks": []
        }
       ],
@@ -1614,7 +1614,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal in Lady Lake, FL, we offer a comprehensive range of services designed to address any wildlife issue you may encounter. Our team of experts is equipped to handle a variety of situations, ensuring that your property remains safe and wildlife-free. Here are some of the key services we provide:",
+        "text": "At Pro Wildlife Removal in Lady Lake, FL, we offer a comprehensive range of services designed to address any wildlife issue you may encounter. Our team is equipped to handle a variety of situations. Here are some of the key services we provide:",
         "marks": []
        }
       ],
@@ -1966,7 +1966,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Once the wildlife has been safely removed, we focus on preventing future infestations. This involves sealing entry points, installing barriers, and making necessary repairs to your property. We also provide recommendations on how to maintain a wildlife-free environment.",
+        "text": "Once the wildlife has been safely removed, we focus on preventing future infestations. This involves sealing entry points, installing barriers, and making necessary repairs to your property. We also recommend ways to keep wildlife from moving back in.",
         "marks": []
        }
       ],
@@ -2050,7 +2050,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, our comprehensive and efficient pest control approach ensures that your wildlife problems are resolved efficiently and responsibly. Contact us today to learn more about our services or to schedule an inspection.",
+        "text": "At Pro Wildlife Removal, we handle wildlife problems efficiently and responsibly. Contact us today to learn more about our services or to schedule an inspection.",
         "marks": []
        }
       ],
@@ -2088,7 +2088,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " for your wildlife control needs in Lady Lake means opting for professional, reliable, and compassionate service. Here’s why we stand out from other animal control companies in Lady Lake:",
+        "text": " for your wildlife control needs in Lady Lake means opting for professional, reliable, and compassionate service. Here's how we work in Lady Lake:",
         "marks": []
        }
       ],
@@ -2118,7 +2118,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our Lady Lake wildlife control team consists of highly trained and experienced wild animal removal specialists. We have extensive knowledge of local wildlife in Lady Lake and effective methods to handle various situations. Our expertise, refined over a decade of practice, ensures that we can tackle any wildlife issue, no matter how challenging.",
+        "text": "Our Lady Lake wildlife control team consists of highly trained and experienced wild animal removal specialists. We have extensive knowledge of local wildlife in Lady Lake and effective methods to handle various situations. We handle a wide range of wildlife issues, including difficult ones.",
         "marks": []
        }
       ],
@@ -2214,7 +2214,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our goal is not only to remove wildlife but also to prevent future infestations. We implement comprehensive exclusion and preventive measures, ensuring long-term protection for your property. Our team provides expert advice on maintaining a wildlife-free environment, helping you avoid recurring problems.",
+        "text": "Our goal is not only to remove wildlife but also to prevent future infestations. We implement comprehensive exclusion and preventive measures, ensuring long-term protection for your property. Our team gives advice on keeping animals from returning.",
         "marks": []
        }
       ],
@@ -2274,7 +2274,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, our commitment to excellence, efficient practices in wildlife control, and customer satisfaction makes us the premier choice for animal removal services in Lady Lake. Contact us today to experience our top-notch service and to address any wildlife concerns you may have.",
+        "text": "At Pro Wildlife Removal, we focus on careful, efficient wildlife control and on our customers in Lady Lake. Contact us to talk through your wildlife concerns.",
         "marks": []
        }
       ],
@@ -2389,7 +2389,7 @@ const migratedLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Absolutely. After removing the wild animals, we implement preventive measures such as sealing entry points, installing barriers, and providing advice on maintaining a wildlife-free property. Our goal is to provide long-term solutions to prevent future infestations.",
+          "text": "Absolutely. After removing the wild animals, we implement preventive measures such as sealing entry points, installing barriers, and providing advice on keeping wildlife out. Our goal is to provide long-term solutions to prevent future infestations.",
           "marks": []
          }
         ],
@@ -2553,7 +2553,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Experience wildlife issues on your property in Lecanto, FL? Don’t worry! Our team of experts is well-versed in handling the unique challenges that come with the diverse wildlife in the Lecanto area. From the common squirrels and raccoons to the more elusive snakes and armadillos, we have the knowledge and tools to safely remove these animals from your property. We understand the importance of not only removing these unwanted guests but also ensuring they don’t return, offering long-term solutions to keep your home or business safe.",
+        "text": "Experience wildlife issues on your property in Lecanto, FL? Don’t worry! Our team of experts is well-versed in handling the unique challenges that come with the diverse wildlife in the Lecanto area. From the common squirrels and raccoons to the more elusive snakes and armadillos, we have the knowledge and tools to safely remove these animals from your property. We remove these unwanted guests and close the openings they used, to make it harder for others to get in.",
         "marks": []
        }
       ],
@@ -2565,7 +2565,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "With Pro Wildlife Removal, you can expect professional service tailored to the Lecanto community’s needs. We’re here to restore your comfort and safety with as little disruption to your daily life as possible. Don’t let wildlife problems stress you out—contact us, and let the experts take care of it.",
+        "text": "With Pro Wildlife Removal, you can expect professional service tailored to the Lecanto community’s needs. We’re here to restore your comfort and safety with as little disruption to your daily life as possible. Don’t let wildlife problems stress you out, contact us, and let the experts take care of it.",
         "marks": []
        }
       ],
@@ -2791,7 +2791,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " We safely and efficiently remove any of the over 40 species of snakes found in Florida, ensuring your property is snake-free.",
+        "text": " We safely remove snakes from homes and yards.",
         "marks": []
        }
       ],
@@ -2881,7 +2881,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Choosing Pro Wildlife Removal in Lecanto, FL, means choosing a team that knows wildlife removal inside out. Here’s why we stand out:",
+        "text": "Choosing Pro Wildlife Removal in Lecanto, FL, means choosing a team that knows wildlife removal inside out. Here's how we work:",
         "marks": []
        }
       ],
@@ -3021,7 +3021,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Experiencing issues with wildlife on your property can be stressful and potentially dangerous. Pro Wildlife Removal provides professional, efficient, and effective solutions to all your wildlife concerns. With an experienced team, the right equipment, and a compassionate approach to wildlife management, we’re your trusted partner in ensuring your property is safe and animal-free.",
+        "text": "Experiencing issues with wildlife on your property can be stressful and potentially dangerous. Pro Wildlife Removal provides professional, efficient, and effective solutions to all your wildlife concerns. With an experienced team, the right equipment, and a compassionate approach to wildlife management, we help keep your property safe from wildlife.",
         "marks": []
        }
       ],
@@ -3341,7 +3341,7 @@ const migratedLocations: Location[] = [
   "name": "Orlando",
   "kind": "city",
   "county": "Orange",
-  "summary": "Welcome to Pro Wildlife Removal, your trusted partner for expert wildlife removal services in Orlando, Florida.",
+  "summary": "Welcome to Pro Wildlife Removal, offering wildlife removal services in Orlando, Florida.",
   "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Orlando, FL",
@@ -3365,7 +3365,7 @@ const migratedLocations: Location[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "#1 Orlando Wildlife Removal Professionals",
+    "heading": "Orlando Wildlife Removal Professionals",
     "body": [
      {
       "_type": "block",
@@ -3373,7 +3373,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Welcome to Pro Wildlife Removal, your trusted partner for expert wildlife removal services in Orlando, Florida. As a leading wildlife removal company in Central Florida, we specialize in safely and efficiently handling all types of wildlife issues that may arise in residential and commercial properties. Whether you’re dealing with rats in your attic, bats in your garage, or snakes in your yard, our experienced team is equipped to handle it all.",
+        "text": "Welcome to Pro Wildlife Removal, offering wildlife removal services in Orlando, Florida. As a wildlife removal company in Central Florida, we specialize in safely and efficiently handling all types of wildlife issues that may arise in residential and commercial properties. Whether you’re dealing with rats in your attic, bats in your garage, or snakes in your yard, our experienced team is equipped to handle it all.",
         "marks": []
        }
       ],
@@ -3443,7 +3443,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we bring over a decade of experience in wildlife management and removal, proudly serving the Orlando community and the greater Central Florida region. Our journey began with a simple mission: to offer efficient, effective, and environmentally responsible wildlife removal services. Today, we are recognized as a trusted name in the industry, known for our commitment to excellence and customer satisfaction.",
+        "text": "At Pro Wildlife Removal, we handle wildlife management and removal, serving the Orlando community and the greater Central Florida region. Our journey began with a simple mission: to offer efficient, effective, and environmentally responsible wildlife removal services.",
         "marks": []
        }
       ],
@@ -3633,7 +3633,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Rats are notorious for spreading diseases and causing structural damage. Our rat removal services include thorough inspections, trapping, and exclusion methods to ensure your property is rat-free.",
+        "text": ": Rats are notorious for spreading diseases and causing structural damage. Our rat removal services include thorough inspections, trapping, and exclusion of entry points.",
         "marks": []
        }
       ],
@@ -3708,7 +3708,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Prevention is key to maintaining a wildlife-free property. We offer comprehensive exclusion services, including:",
+        "text": "Prevention makes it harder for wildlife to move back in. We offer comprehensive exclusion services, including:",
         "marks": []
        }
       ],
@@ -3790,7 +3790,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Regular check-ups to ensure that your property remains secure and wildlife-free.",
+        "text": ": Regular check-ups to look for new activity.",
         "marks": []
        }
       ],
@@ -4254,7 +4254,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to wildlife removal in Orlando, Pro Wildlife Removal stands out as the premier choice for reliable, efficient, and effective services. Here are several compelling reasons why you should choose us for your wildlife management needs:",
+        "text": "For wildlife removal in Orlando, Pro Wildlife Removal offers reliable, careful service. Here are several compelling reasons why you should choose us for your wildlife management needs:",
         "marks": []
        }
       ],
@@ -4280,7 +4280,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "With over a decade of experience in the wildlife removal industry, our team possesses the knowledge and skills needed to handle a wide range of wildlife issues. Our technicians are trained in current wildlife management methods, and each job is done with safety in mind.",
+        "text": "Our team has the knowledge and skills needed to handle a wide range of wildlife issues. Our technicians are trained in current wildlife management methods, and each job is done with safety in mind.",
         "marks": []
        }
       ],
@@ -4384,7 +4384,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our clients’ satisfaction is our top priority. We take pride in our professional, courteous service and our ability to solve wildlife problems effectively. Don’t just take our word for it – our testimonials and reviews from satisfied customers speak volumes about our commitment to excellence.",
+        "text": "We care about our clients’ satisfaction. We take pride in professional, courteous service. Don’t just take our word for it, our testimonials and reviews from satisfied customers speak volumes about our commitment to excellence.",
         "marks": []
        }
       ],
@@ -4434,7 +4434,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " in Orlando. Our dedicated team is ready to address your wildlife issues with professionalism and care. Don’t let unwanted wildlife disrupt your peace of mind – contact us today to schedule a consultation in one of our ",
+        "text": " in Orlando. Our dedicated team is ready to address your wildlife issues with professionalism and care. Don’t let unwanted wildlife disrupt your peace of mind, contact us today to schedule a consultation in one of our ",
         "marks": []
        },
        {
@@ -4514,7 +4514,7 @@ const migratedLocations: Location[] = [
   "name": "Pine Ridge",
   "kind": "city",
   "county": "Citrus",
-  "summary": "Welcome to Pro Wildlife Removal, your trusted experts in efficient and effective Citrus County animal services in Pine Ridge, Central Florida.",
+  "summary": "Welcome to Pro Wildlife Removal, offering wildlife removal in Pine Ridge, Central Florida.",
   "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Pine Ridge, FL",
@@ -4538,7 +4538,7 @@ const migratedLocations: Location[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "#1 Citrus County Animal Services",
+    "heading": "Wildlife Removal in Citrus County",
     "body": [
      {
       "_type": "block",
@@ -4546,7 +4546,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Welcome to Pro Wildlife Removal, your trusted experts in efficient and effective Citrus County animal services in Pine Ridge, Central Florida. With years of experience and a deep understanding of local wildlife, we are dedicated to protecting your home and business from unwanted animal intrusions.",
+        "text": "Welcome to Pro Wildlife Removal, offering wildlife removal in Pine Ridge, Central Florida. With years of experience and a deep understanding of local wildlife, we are dedicated to protecting your home and business from unwanted animal intrusions.",
         "marks": []
        }
       ],
@@ -4588,7 +4588,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we pride ourselves on our extensive experience and commitment to efficient wildlife management in Pine Ridge, FL. Founded with a mission to provide effective and compassionate Pine Ridge wildlife removal services, we have grown into a trusted name in the field across Central Florida. Our team is comprised of skilled professionals who are dedicated to resolving wildlife issues with deep respect for both our clients and the animals.",
+        "text": "At Pro Wildlife Removal, we pride ourselves on our extensive experience and commitment to efficient wildlife management in Pine Ridge, FL. We provide compassionate wildlife removal in Pine Ridge and across Central Florida. Our team is comprised of skilled professionals who are dedicated to resolving wildlife issues with deep respect for both our clients and the animals.",
         "marks": []
        }
       ],
@@ -4961,7 +4961,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Preventing a wildlife problem before it starts saves you the stress and damage animals can cause. We offer a range of preventative services to keep your home or business wildlife-free.",
+        "text": "Preventing a wildlife problem before it starts saves you the stress and damage animals can cause. We offer a range of preventive services for homes and businesses.",
         "marks": []
        }
       ],
@@ -5036,7 +5036,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our commitment to efficient and effective wildlife management makes Pro Wildlife Removal the top choice for residents and businesses in Pine Ridge. ",
+        "text": "Pro Wildlife Removal works with residents and businesses across Pine Ridge. ",
         "marks": [
          "strong"
         ]
@@ -5051,7 +5051,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " today to learn more about our services and how we can help you maintain a wildlife-free environment.",
+        "text": " today to learn more about our services and how we can help with wildlife around your home.",
         "marks": [
          "strong"
         ]
@@ -5093,7 +5093,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Choosing the right wildlife removal Citrus County service is crucial to ensure the safety of your home or business and the efficient treatment of animals. Here’s why Pro Wildlife Removal stands out as the top choice for residents and businesses in Pine Ridge:",
+        "text": "Choosing the right wildlife removal Citrus County service is crucial to ensure the safety of your home or business and the efficient treatment of animals. Here's how Pro Wildlife Removal works in Pine Ridge:",
         "marks": []
        }
       ],
@@ -5302,7 +5302,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we believe in providing clear and transparent services. Our Pine Ridge wildlife control and removal process is designed to be thorough, efficient, and effective, ensuring that your wildlife issues are resolved efficiently and permanently. Here’s an overview of our step-by-step process:",
+        "text": "At Pro Wildlife Removal, we believe in providing clear and transparent services. In Pine Ridge, we find how the animals get in, remove them, and seal those openings. Here’s an overview of our step-by-step process:",
         "marks": []
        }
       ],
@@ -5464,7 +5464,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "After complete pest removal, including any dead animal, we take additional steps to ensure that your wildlife problem does not recur.",
+        "text": "After the animals are removed, including any dead animal, we seal the openings they used.",
         "marks": []
        }
       ],
@@ -5525,7 +5525,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": To ensure the effectiveness of our solutions, we offer ongoing monitoring services. We will periodically check your property to make sure it remains wildlife-free.",
+        "text": ": To ensure the effectiveness of our solutions, we offer ongoing monitoring services. We can check your property periodically for new activity.",
         "marks": []
        }
       ],
@@ -5683,7 +5683,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ", we are dedicated to providing Pine Ridge residents and businesses with effective, efficient, and reliable wildlife management solutions. Our team of experienced professionals is committed to solving wildlife problems permanently, ensuring your property remains safe and wildlife-free. Don’t let wildlife issues disrupt your peace of mind or damage your property.",
+        "text": ", we are dedicated to providing Pine Ridge residents and businesses with effective, efficient, and reliable wildlife management solutions. Our team finds how animals are getting in, removes them and seals the openings. Don’t let wildlife issues disrupt your peace of mind or damage your property.",
         "marks": []
        }
       ],
@@ -5716,7 +5716,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": "to schedule an assessment and take the first step towards a wildlife-free environment. Our friendly and knowledgeable team is ready to help you with all your Pine Ridge wildlife control needs.",
+        "text": "to schedule an assessment. Our friendly and knowledgeable team is ready to help you with all your Pine Ridge wildlife control needs.",
         "marks": []
        }
       ],
@@ -5792,7 +5792,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Tired of pesky wildlife invading your Sarasota, FL property? Looking for reliable wildlife control services that ensure the safe removal of wild animals from your home or business? Your solution is right here – Pro Wildlife Removal, your trusted wildlife removal experts in Sarasota!",
+        "text": "Tired of pesky wildlife invading your Sarasota, FL property? Looking for help safely removing wild animals from your home or business?",
         "marks": []
        }
       ],
@@ -5994,7 +5994,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Finally, we provide you with preventive measures to ensure that your property remains wildlife-free, eliminating the need for wildlife control services in the future. We offer advice on habitat modification and may install preventive devices. A follow-up visit can be scheduled to ensure that all measures are effective and your property remains secure and protected from pest animals.",
+        "text": "Finally, we recommend preventive measures to make it harder for wildlife to return. We offer advice on habitat modification and may install preventive devices. A follow-up visit can be scheduled to check the work.",
         "marks": []
        }
       ],
@@ -6176,7 +6176,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We provide a comprehensive approach to wildlife removal – from assessment and removal to repair and preventative measures. This all-encompassing service ensures that all aspects of your wildlife problem are thoroughly addressed.",
+        "text": "We provide a comprehensive approach to wildlife removal, from assessment and removal to repair and preventative measures.",
         "marks": []
        }
       ],
@@ -6682,7 +6682,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we combine expertise, ethics, and efficiency to provide top-notch wildlife removal services. Choosing us means choosing a safe and effective solution to your wildlife concerns.",
+        "text": "At Pro Wildlife Removal, we combine expertise, ethics and efficiency in our wildlife removal services. Choosing us means choosing a safe and effective solution to your wildlife concerns.",
         "marks": []
        }
       ],
@@ -6715,7 +6715,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Whether you need bat removal, squirrel or raccoon removal, rodent removal, or even dead animal removal, Pro Wildlife Removal stands ready to safeguard your property from the threat of pests and wildlife in Sarasota County, FL. With our comprehensive services, free inspection, and expert team, we ensure safe and effective removal, thorough cleanup, and proactive prevention measures to keep your home or business pest-free and safe from wildlife intrusions. From smaller mammals to large animals and venomous snakes, we have it covered! Don’t let pest problems go unchecked—contact us today to schedule an inspection and take the first step towards a pest-free environment. Your peace of mind is just a phone call away.",
+        "text": "Whether you need bat removal, squirrel or raccoon removal, rodent removal, or even dead animal removal, Pro Wildlife Removal stands ready to safeguard your property from the threat of pests and wildlife in Sarasota County, FL. Our services cover removal, cleanup and prevention for homes and businesses. From smaller mammals to large animals and venomous snakes, we have it covered! Don't let pest problems go unchecked. Contact us to schedule an inspection. Your peace of mind is just a phone call away.",
         "marks": []
        }
       ],
@@ -7265,7 +7265,7 @@ const migratedLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We don’t just eliminate the rats—you’ll receive exclusion services, decontamination, and follow-up visits to ensure the problem doesn’t return.",
+          "text": "Beyond removing the rats, the work includes exclusion, decontamination and follow-up visits.",
           "marks": []
          }
         ],
@@ -7432,7 +7432,7 @@ const migratedLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We tailor our rat removal strategies to the unique needs of each property, ensuring effective and lasting results.",
+          "text": "We tailor our rat removal strategies to each property.",
           "marks": []
          }
         ],
@@ -7636,7 +7636,7 @@ const migratedLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Preventive measures include sealing any cracks or openings around your home, keeping food stored in airtight containers, and maintaining a clutter-free environment. We also offer exclusion and monitoring services to keep your property rat-free.",
+          "text": "Preventive measures include sealing any cracks or openings around your home, keeping food stored in airtight containers, and maintaining a clutter-free environment. We also offer exclusion and monitoring services.",
           "marks": []
          }
         ],
