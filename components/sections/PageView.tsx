@@ -47,7 +47,8 @@ export async function PageView({
   primary?: Cta;
   closing?: boolean;
 }) {
-  const design = page.design ?? "new";
+  // Every page uses the new design now (Kia, Oct 26); the old ones stay only as code until they are removed.
+  const design = "new" as PageContent["design"];
   const ids = sectionIds(page.sections, ["top", "main"]);
   const parts = page.sections.flatMap((s, i) => {
     const name = sectionName(s);
