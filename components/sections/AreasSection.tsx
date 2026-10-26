@@ -5,11 +5,19 @@ import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 type Item = Areas["groups"][number]["items"][number];
 
-/** One city as a small pill; linked when it has its own service-area page. */
-function Chip({ it, copy = false }: { it: Item; copy?: boolean }) {
+/** One city (with a map pin) or other item as a small pill; linked when it has its own page. */
+function Chip({
+  it,
+  copy = false,
+  place = true,
+}: {
+  it: Item;
+  copy?: boolean;
+  place?: boolean;
+}) {
   const cls =
     "inline-flex min-h-11 items-center gap-1.5 rounded-full border border-line bg-white px-4 font-display text-[0.9375rem] font-semibold whitespace-nowrap text-navy shadow-[0_6px_16px_-12px_rgb(14_42_71/0.5)] transition-colors";
-  const pin = (
+  const pin = place && (
     <MapPin
       className="h-3.5 w-3.5 flex-none text-blue"
       strokeWidth={2.5}
@@ -83,7 +91,7 @@ export function AreasSection({ section: s }: { section: Areas }) {
         <ul className="mx-auto flex max-w-[900px] flex-wrap justify-center gap-3">
           {s.groups[0].items.map((it) => (
             <li key={it.label}>
-              <Chip it={it} />
+              <Chip it={it} place={false} />
             </li>
           ))}
         </ul>
