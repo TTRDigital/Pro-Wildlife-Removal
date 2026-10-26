@@ -20,10 +20,10 @@ export const raccoonRemovalPalmHarbor = servicePlacePage({
   placeKind: "city",
   location: "about-us/service-area/wildlife-removal-palm-harbor",
   county: "Pinellas",
-  heroText: "A raccoon in a Palm Harbor attic, lanai or garage? We get it out the way Florida allows, look for young before anything is sealed and repair the spot it used. Call (727) 594-7705.",
+  heroText: "A raccoon in a Palm Harbor attic, lanai or garage? We get it out the way Florida allows, look for young first, then seal the spot it used. Call (727) 594-7705.",
   answerHeading: "Who gets a raccoon out of a home in Palm Harbor?",
   answer:
-    "A private wildlife company. In Palm Harbor, the county lists raccoons among the wildlife at its Lake Tarpon West Management Area, and a 2018 news report told of one that got onto a lanai through a torn screen. Pro Wildlife Removal removes raccoons from attics, lanais and garages, checks for young and repairs the way in. Call (727) 594-7705.",
+    "A private wildlife company. In Palm Harbor, the county lists raccoons among the wildlife at its Lake Tarpon West Management Area, and a 2018 news report told of one that got onto a lanai through a torn screen. Pro Wildlife Removal removes raccoons from attics, lanais and garages, checks for young and seals the way in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County land by Lake Tarpon lists raccoons", "Pinellas code: don't feed them"],
   localHeading: "What to know about raccoons in Palm Harbor",
   localIntro: "Two of the Palm Harbor facts below are from local news reports, labeled as news. The rest come from Pinellas County and the state health department.",

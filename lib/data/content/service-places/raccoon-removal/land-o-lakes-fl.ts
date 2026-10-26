@@ -26,7 +26,7 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
   heroText: "A raccoon in a Land O' Lakes attic, under the lanai or after the backyard hens? We get it out, check for young first and fix the spot it came in. Call (727) 594-7705.",
   answerHeading: "Who handles raccoons in Land O' Lakes homes?",
   answer:
-    "A private wildlife company. Pasco County Animal Services is headquartered in Land O' Lakes, but its emergency service covers stray pets and dangerous animals, not raccoons living in homes. Pro Wildlife Removal takes raccoons out of Land O' Lakes attics and crawl spaces, checks for young and repairs the entry. Call (727) 594-7705.",
+    "A private wildlife company. Pasco County Animal Services is headquartered in Land O' Lakes, but its emergency service covers stray pets and dangerous animals, not raccoons living in homes. Pro Wildlife Removal takes raccoons out of Land O' Lakes attics and crawl spaces, checks for young and seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabies alert here in 2014", "Hen coops must be secure"],
   localHeading: "What to know about raccoons in Land O' Lakes",
   localIntro: "Land O' Lakes has had a rabid raccoon attack a family dog, and Pasco's rabies records keep pointing at raccoons. Here are the local facts and rules.",

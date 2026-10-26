@@ -45,7 +45,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
     { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
-  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What drives the price of a removal and repair job in Florida." },
+  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What drives the price of a removal and exclusion job in Florida." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Pasco County rat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(

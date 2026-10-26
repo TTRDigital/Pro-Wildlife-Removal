@@ -164,12 +164,11 @@ export const ratRemoval: Service = {
       eyebrow: "Cleanup",
       heading: "Cleaning up after rats",
       body: p(
-        "Rat droppings and urine can carry germs, and sweeping or vacuuming them puts dust in the air. The CDC's advice is to wet droppings with a disinfectant or a bleach solution first, wait five minutes, then pick them up with paper towels. In an attic, with years of droppings through the insulation, that means protective gear, respirators and often new insulation.",
+        "Rat droppings and urine can carry germs, and sweeping or vacuuming them puts dust in the air. The CDC's advice is to wet droppings with a disinfectant or a bleach solution first, wait five minutes, then pick them up with paper towels. In an attic, with years of droppings through the insulation, that means protective gear, respirators and often removing the insulation.",
       ),
       checklist: [
         "Droppings, nests and soiled insulation removed",
         "Attic surfaces disinfected",
-        "Insulation replaced where it was contaminated",
         "Chewed wiring pointed out so an electrician can check it",
         "[PLACEHOLDER: ask the client: is there a warranty on rat exclusion work, and how long?]",
       ],
@@ -190,7 +189,7 @@ export const ratRemoval: Service = {
         { title: "Number of entry points", text: p("A tile roof with many gaps takes more sealing than a shingle roof with one bad vent.") },
         { title: "Size of the house and roof", text: p("More roofline and more vents mean more to inspect and close.") },
         { title: "Trapping visits", text: p("How long it takes to clear the rats left inside after sealing.") },
-        { title: "Attic cleanup", text: p("From a light cleanup to removing and replacing all the insulation.") },
+        { title: "Attic cleanup", text: p("From a light cleanup to removing all the insulation.") },
       ],
       outro: p("The rat inspection is free. We walk the roofline and attic, then give you the price before any work starts."),
     },

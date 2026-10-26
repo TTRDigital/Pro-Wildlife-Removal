@@ -24,10 +24,10 @@ export const raccoonRemovalHernandoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-hernando-county-fl",
   order: 50,
-  heroText: "A raccoon in the attic, the chimney or under the house, anywhere from Hernando Beach to Ridge Manor? We remove it, check for young and repair the opening. Call (727) 594-7705.",
+  heroText: "A raccoon in the attic, the chimney or under the house, anywhere from Hernando Beach to Ridge Manor? We remove it, check for young and seal the opening. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from homes in Hernando County?",
   answer:
-    "A private wildlife company. Hernando County Animal Services, under the Sheriff's Office, lists pet services such as surrenders, lost pets and dangerous dogs; wildlife isn't among them. Pro Wildlife Removal takes raccoons out of Hernando attics, crawl spaces and chimneys, checks for young first and repairs the way in. Call (727) 594-7705.",
+    "A private wildlife company. Hernando County Animal Services, under the Sheriff's Office, lists pet services such as surrenders, lost pets and dangerous dogs; wildlife isn't among them. Pro Wildlife Removal takes raccoons out of Hernando attics, crawl spaces and chimneys, checks for young first and seals the way in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Two rabid raccoons in 2025", "Three rabies alerts since"],
   localHeading: "What to know about raccoons in Hernando County",
   localIntro: "Hernando went three years with no rabid animals on the state's tables, then had two rabid raccoons in 2025. Here is the record, and the county rules that matter.",

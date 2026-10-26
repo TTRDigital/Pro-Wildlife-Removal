@@ -24,10 +24,10 @@ export const raccoonRemovalBrooksville = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   county: "Hernando",
   order: 42,
-  heroText: "A raccoon in a Brooksville attic, under the porch or in the chicken pen? We get it out, look for young before anything is closed and repair the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in a Brooksville attic, under the porch or in the chicken pen? We get it out, look for young before anything is closed and seal the way in. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons in Brooksville?",
   answer:
-    "A private wildlife company. Hernando County Animal Services lists pet services, not wildlife, and a raccoon denning in a Brooksville attic or crawl space needs a private remover. Pro Wildlife Removal gets it out, checks for young first and repairs the opening it used. Call (727) 594-7705.",
+    "A private wildlife company. Hernando County Animal Services lists pet services, not wildlife, and a raccoon denning in a Brooksville attic or crawl space needs a private remover. Pro Wildlife Removal gets it out, checks for young first and seals the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon off Ted Road, 2025", "City trash, city crews"],
   localHeading: "What to know about raccoons in Brooksville",
   localIntro: "DOH-Hernando reported a rabid raccoon in the Brooksville area in 2025. Here is what the records and local rules say.",
@@ -78,7 +78,7 @@ export const raccoonRemovalBrooksville = servicePlacePage({
   seo: {
     title: "Raccoon Removal in Brooksville, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Brooksville, FL: raccoons out of attics, crawl spaces and pens, young checked first, the way in repaired, plus 2025 rabies cases nearby.",
+      "Raccoon removal in Brooksville, FL: raccoons out of attics, crawl spaces and pens, young checked first, the way in sealed, plus 2025 rabies cases nearby.",
   },
   sources: [
     { title: "Florida DOH: DOH-Hernando rabies advisory, June 2, 2025 (raccoon killed in the Brooksville area off Ted Road, 34601, May 28, 2025)", url: ADV2025 },

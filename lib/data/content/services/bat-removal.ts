@@ -165,14 +165,13 @@ export const batRemoval: Service = {
       eyebrow: "Sealing and cleanup",
       heading: "After the bats are out",
       body: p(
-        "Getting the colony out is half the job. The other half is making sure it can't come back and that the attic is safe to be in. How much cleanup you need depends on how long the bats lived there: a few weeks leaves a little guano on top of the insulation, years can mean replacing it.",
+        "Getting the colony out is half the job. The other half is making sure it can't come back and that the attic is safe to be in. How much cleanup you need depends on how long the bats lived there: a few weeks leaves a little guano on top of the insulation, years can mean removing it.",
       ),
       checklist: [
         "Every opening bats used, and the gaps next to them, sealed with materials that hold up to Florida weather",
         "Barrel tile, ridge vents and soffit returns closed where bats can slip under",
         "Guano and soiled insulation removed by technicians in respirators",
         "The area sanitized and deodorized",
-        "Insulation replaced where it had to come out",
         "[PLACEHOLDER: ask the client: is there a warranty on bat exclusion work, and how long?]",
       ],
       image: images.batRemoval2,
@@ -192,8 +191,8 @@ export const batRemoval: Service = {
       cards: [
         { title: "How many exits the bats use", text: p("Each active exit needs a one-way device, and each other gap needs sealing.") },
         { title: "How high and how hard to reach", text: p("A single-story ranch is quicker than a two-story house with a steep tile roof.") },
-        { title: "How long the colony has been there", text: p("A new roost leaves little behind. An old one can mean a full insulation replacement.") },
-        { title: "Repairs", text: p("Rotted fascia, broken soffit panels or cracked tile have to be fixed before they can be sealed.") },
+        { title: "How long the colony has been there", text: p("A new roost leaves little behind. An old one can mean removing the insulation under it.") },
+        { title: "Roof condition", text: p("Rotted fascia, broken soffit panels or cracked tile have to be repaired first, by a contractor the owner arranges.") },
       ],
       outro: p("We inspect for bats free of charge and quote the exclusion before any work begins."),
     },

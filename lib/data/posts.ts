@@ -439,7 +439,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When the mother is confirmed to be absent during the day, many technicians use one-way exclusion devices or carefully timed live trapping. That staged approach reduces the chance of leaving kits behind. Site reports recommend a monitoring window after exclusion so technicians can ensure the family has relocated before permanent repairs are installed.",
+      "text": "When the mother is confirmed to be absent during the day, many technicians use one-way exclusion devices or carefully timed live trapping. That staged approach reduces the chance of leaving kits behind. Site reports recommend a monitoring window after exclusion so technicians can ensure the family has relocated before entry points are permanently sealed.",
       "marks": []
      }
     ],
@@ -1187,7 +1187,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Experienced technicians follow three distinct steps: confirm occupancy, exclude animals humanely, then remediate contamination and repair damage. Skipping any step increases the chance of trapped young, unresolved attractants, or incomplete cleanup that causes recurring problems.",
+      "text": "Experienced technicians follow three distinct steps: confirm occupancy, exclude animals humanely, then remediate contamination and seal entry points, leaving any structural repairs to a contractor. Skipping any step increases the chance of trapped young, unresolved attractants, or incomplete cleanup that causes recurring problems.",
       "marks": []
      }
     ],
@@ -1259,7 +1259,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Step 3: Sanitation and repairs",
+      "text": "Step 3: Sanitation",
       "marks": []
      }
     ],
@@ -1550,7 +1550,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Not every noisy night means a raccoon family. Squirrels and large rodents can create similar sounds, and transient raccoons sometimes investigate roofs without denning. Conversely, passive deterrents like lights or recorded noise rarely solve the problem if entry points remain. Several documented community cases show animals return within weeks when repairs are incomplete or attractants stay in place.",
+      "text": "Not every noisy night means a raccoon family. Squirrels and large rodents can create similar sounds, and transient raccoons sometimes investigate roofs without denning. Conversely, passive deterrents like lights or recorded noise rarely solve the problem if entry points remain. Several documented community cases show animals return within weeks when sealing is incomplete or attractants stay in place.",
       "marks": []
      }
     ],
@@ -1670,7 +1670,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "How long does it take to remove raccoons from an attic and finish repairs?",
+      "text": "How long does it take to remove raccoons from an attic and finish exclusion?",
       "marks": []
      }
     ],
@@ -1682,7 +1682,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "It depends on whether one-way devices or trapping are used, how many repairs the entry points need, and how badly the insulation is contaminated. Your inspection report should lay out each step in order.",
+      "text": "It depends on whether one-way devices or trapping are used, how many entry points need sealing, and how badly the insulation is contaminated. Your inspection report should lay out each step in order.",
       "marks": []
      }
     ],
@@ -1754,7 +1754,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Recognizing the signs of raccoons in your home lets you act before damage and sanitation costs accumulate. Look for droppings, shredded insulation, nocturnal thumping, and damaged soffits or vents. Document evidence, secure attractants, and schedule a professional inspection that separates inspection, humane removal, exclusion repairs, and sanitation into clear line items. Addressing the problem correctly reduces the chance of repeated visits and costly remediation.",
+      "text": "Recognizing the signs of raccoons in your home lets you act before damage and sanitation costs accumulate. Look for droppings, shredded insulation, nocturnal thumping, and damaged soffits or vents. Document evidence, secure attractants, and schedule a professional inspection that separates inspection, humane removal, exclusion work, and sanitation into clear line items. Addressing the problem correctly reduces the chance of repeated visits and costly remediation.",
       "marks": []
      }
     ],
@@ -1804,7 +1804,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "This article explains how to confirm an opossum in your attic, the humane and legal removal options, cleanup and repair priorities, and prevention steps that stop repeat visits.",
+      "text": "This article explains how to confirm an opossum in your attic, the humane and legal removal options, cleanup and sealing priorities, and prevention steps that stop repeat visits.",
       "marks": []
      }
     ],
@@ -2028,7 +2028,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A wildlife pro does three things you cannot skip: locate and seal the entry point, remove the animal humanely or coordinate with a rehabilitator when needed, and perform or recommend cleanup and insulation replacement if contamination exists. That three-step approach is the standard recommended throughout the site’s attic and wildlife posts.",
+      "text": "A wildlife pro does three things you cannot skip: locate and seal the entry point, remove the animal humanely or coordinate with a rehabilitator when needed, and perform or recommend cleanup if contamination exists. That three-step approach is the standard recommended throughout the site’s attic and wildlife posts.",
       "marks": []
      }
     ],
@@ -2187,7 +2187,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cleaning, decontamination, and attic repair priorities",
+      "text": "Cleaning, decontamination, and entry-point priorities",
       "marks": []
      }
     ],
@@ -2253,14 +2253,14 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Repair entry points:",
+      "text": "Seal entry points:",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": " replace damaged soffits, vent screens, or roof flashings. Proper materials and techniques prevent re-entry.",
+      "text": " close gaps at soffits, vents, and roof edges with durable screening. Rotted soffits or damaged roof flashing go to a contractor for repair. Proper materials and techniques prevent re-entry.",
       "marks": []
      }
     ],
@@ -2427,7 +2427,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary widely by region and by whether cleanup and repairs are required. The work usually follows these phases.",
+      "text": "Costs vary widely by region and by how much cleanup is required. The work usually follows these phases.",
       "marks": []
      }
     ],
@@ -2467,7 +2467,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cleanup and repairs, depending on contamination and repair scope.",
+      "text": "Cleanup, depending on contamination. Any structural repairs are arranged separately with a contractor.",
       "marks": []
      }
     ],
@@ -2493,7 +2493,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ". That page explains what goes into inspection, exclusion devices, and full attic decontamination and insulation replacement.",
+      "text": ". That page explains what goes into inspection, exclusion devices, and full attic decontamination.",
       "marks": []
      }
     ],
@@ -3267,7 +3267,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": "Repair soffits, vents, and gaps larger than 0.3 inches. See our article on ",
+      "text": "Seal soffit gaps, vents, and openings larger than 0.3 inches. See our article on ",
       "marks": []
      },
      {
@@ -3320,14 +3320,14 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Sanitize and replace contaminated materials.",
+      "text": "Sanitize and remove contaminated materials.",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": "Once the population is removed, remove contaminated insulation, disinfect surfaces, and repair wiring or structural damage.",
+      "text": "Once the population is removed, remove contaminated insulation, disinfect surfaces, and have an electrician or contractor repair any wiring or structural damage.",
       "marks": []
      }
     ],
@@ -4106,7 +4106,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Exclusion materials that work and common repair methods",
+      "text": "Exclusion materials that work and common sealing methods",
       "marks": []
      }
     ],
@@ -4137,7 +4137,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Use for soffit and foundation repairs. It resists prying and prevents digging at ground-level vents.",
+      "text": " Use to cover soffit openings and foundation vents. It resists prying and prevents digging at ground-level vents.",
       "marks": []
      }
     ],
@@ -4250,7 +4250,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Itemized quotes help you compare work. Sanitation and insulation replacement add a lot to a job's cost.",
+      "text": "Itemized quotes help you compare work. Sanitation and insulation work add a lot to a job's cost.",
       "marks": []
      }
     ],
@@ -4290,7 +4290,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Exclusion repairs, from simple soffit or vent work to larger roofing or skirting jobs.",
+      "text": "Exclusion, from simple soffit or vent screening to sealing larger roofline or skirting gaps.",
       "marks": []
      }
     ],
@@ -4392,7 +4392,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A professional exclusion specialist will follow a repeatable process you should expect in any quote. First comes inspection and documentation. Next they test occupancy and monitor for movement or parental return if young are suspected. Then they install one-way doors or traps as allowed by local law and repair every identified entry point with durable materials. Finally they offer a monitoring window and sanitation plan if contamination exists.",
+      "text": "A professional exclusion specialist will follow a repeatable process you should expect in any quote. First comes inspection and documentation. Next they test occupancy and monitor for movement or parental return if young are suspected. Then they install one-way doors or traps as allowed by local law and seal every identified entry point with durable materials. Finally they offer a monitoring window and sanitation plan if contamination exists.",
       "marks": []
      }
     ],
@@ -4500,7 +4500,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "How long after repairs can I expect animals not to return?",
+      "text": "How long after exclusion can I expect animals not to return?",
       "marks": []
      }
     ],
@@ -4894,7 +4894,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Exclusion uses stainless-steel mesh, metal flashing, and welded chimney caps rather than temporary foam or adhesives. Site examples show rushed repairs commonly fail, allowing re-entry and creating higher long-term costs. A detailed scope should separate inspection, exclusion, sanitation, and insulation replacement line items so you can compare quotes accurately.",
+      "text": "Exclusion uses stainless-steel mesh, metal flashing, and welded chimney caps rather than temporary foam or adhesives. Site examples show rushed sealing commonly fails, allowing re-entry and creating higher long-term costs. A detailed scope should separate inspection, exclusion, sanitation, and insulation line items so you can compare quotes accurately.",
       "marks": []
      }
     ],
@@ -5692,7 +5692,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "An inspection report should be photographic, dated, and itemized. Useful deliverables include a map of entry points, a prioritized list of repairs with line-item costs, and recommended follow-up tasks such as vegetation trimming or sanitation. When a report separates exclusion labor, trapping, sanitation, insulation replacement, and electrical repairs, you can compare bids and hold contractors accountable.",
+      "text": "An inspection report should be photographic, dated, and itemized. Useful deliverables include a map of entry points, a prioritized list of openings to seal with line-item costs, notes on any damage a contractor should repair, and recommended follow-up tasks such as vegetation trimming or sanitation. When a report separates exclusion labor, trapping, sanitation, insulation replacement, and electrical repairs, you can compare bids and hold contractors accountable.",
       "marks": []
      }
     ],
@@ -5790,7 +5790,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Line-item cost estimates for recommended repairs, not a single bundled number.",
+      "text": "Line-item cost estimates for recommended exclusion work, not a single bundled number.",
       "marks": []
      }
     ],
@@ -5818,7 +5818,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Coordination plan for sanitation, insulation replacement, and licensed subcontractors such as electricians when needed.",
+      "text": "Clear notes on sanitation needs and on any work that calls for a licensed electrician or contractor.",
       "marks": []
      }
     ],
@@ -6452,7 +6452,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Intermittent repairs:",
+      "text": "Incomplete sealing:",
       "marks": [
        "strong"
       ]
@@ -6570,7 +6570,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Contaminated insulation is either cleaned or removed. When urine and droppings are present near HVAC or ductwork, sanitation often includes partial or full replacement. For details on typical costs and when replacement is required, see the attic insulation coverage at ",
+      "text": " Contaminated insulation is either cleaned or removed. When urine and droppings are present near HVAC or ductwork, sanitation often includes partial or full removal. For details on typical costs and when replacement is required, see the attic insulation coverage at ",
       "marks": []
      },
      {
@@ -6968,7 +6968,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "How long after repairs should I expect no more activity?",
+      "text": "How long after sealing should I expect no more activity?",
       "marks": []
      }
     ],
@@ -7507,7 +7507,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Replace rotted soffit boards and install metal flashing where animals are rubbing or gnawing at edges.",
+      "text": " Have a contractor replace rotted soffit boards, and install metal flashing where animals are rubbing or gnawing at edges.",
       "marks": []
      }
     ],
@@ -8863,7 +8863,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Follow these steps to turn inspection into a durable repair plan.",
+      "text": "Follow these steps to turn inspection into a durable exclusion plan.",
       "marks": []
      }
     ],
@@ -9127,7 +9127,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Choice depends on situation complexity. For small, isolated issues an experienced homeowner can use traps. For attic infestations, contamination, or wiring damage hire a wildlife exclusion company that provides inspection, exclusion, sanitation, and warranty on repairs.",
+      "text": "Choice depends on situation complexity. For small, isolated issues an experienced homeowner can use traps. For attic infestations, contamination, or wiring damage hire a wildlife exclusion company that provides inspection, exclusion, sanitation, and warranty on exclusion work.",
       "marks": []
      }
     ],
@@ -9663,7 +9663,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Permanent fixes combine structural repairs with exclusion hardware. The right repair depends on material, the size of the opening, and which species you are excluding.",
+      "text": "Permanent fixes combine structural repairs, usually done by a contractor, with exclusion hardware. The right repair depends on material, the size of the opening, and which species you are excluding.",
       "marks": []
      }
     ],
@@ -9771,7 +9771,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call a wildlife removal and exclusion specialist if you find active signs of animals, see chewed wiring, or if there are multiple or large openings around the roofline. Professionals will test for occupancy and follow local regulations for handling wildlife. If you smell strong ammonia or find extensive contamination, schedule sanitation and possible insulation replacement as part of the job.",
+      "text": "Call a wildlife removal and exclusion specialist if you find active signs of animals, see chewed wiring, or if there are multiple or large openings around the roofline. Professionals will test for occupancy and follow local regulations for handling wildlife. If you smell strong ammonia or find extensive contamination, schedule sanitation as part of the job.",
       "marks": []
      }
     ],
@@ -9795,7 +9795,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A standard inspection maps every potential entry point, documents occupancy status, and lists recommended repairs and sanitation. Expect an itemized quote separating inspection, removal, exclusion repairs, and cleanup.",
+      "text": "A standard inspection maps every potential entry point, documents occupancy status, and lists recommended sealing, sanitation, and any repairs to arrange with a contractor. Expect an itemized quote separating inspection, removal, exclusion work, and cleanup.",
       "marks": []
      }
     ],
@@ -10013,7 +10013,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs depend on material and how many openings need work. Get an itemized estimate to compare parts of the job.",
+      "text": "Costs depend on material and how many openings need work. Get an itemized estimate from a contractor to compare parts of the job.",
       "marks": []
      }
     ],
@@ -10085,7 +10085,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Temporary weatherproofing is safe and useful when done correctly, but avoid permanent sealing until you confirm no animals are inside. Use metal-backed temporary covers and avoid blocking obvious exit routes. For larger repairs or when wiring and insulation are involved, hire a pro to ensure code compliance and long-term durability.",
+      "text": "Temporary weatherproofing is safe and useful when done correctly, but avoid permanent sealing until you confirm no animals are inside. Use metal-backed temporary covers and avoid blocking obvious exit routes. For larger repairs or when wiring and insulation are involved, hire a licensed contractor to ensure code compliance and long-term durability.",
       "marks": []
      }
     ],
@@ -10109,7 +10109,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Soffit damage is rarely just cosmetic. It is a common entry point that leads to attic infestations, insulation loss, wiring hazards, and high cleanup bills. Take visible damage seriously, document what you find, and use reversible temporary fixes until a professional inspector confirms vacancies. Long-term prevention comes from good maintenance, durable materials, and addressing attractants near the roofline. If you suspect a raccoon, squirrel, rat, or bat is using your soffit to enter your home, start with an inspection and an itemized repair plan so you can prioritize safety and avoid expensive surprises.",
+      "text": "Soffit damage is rarely just cosmetic. It is a common entry point that leads to attic infestations, insulation loss, wiring hazards, and high cleanup bills. Take visible damage seriously, document what you find, and use reversible temporary fixes until a professional inspector confirms vacancies. Long-term prevention comes from good maintenance, durable materials, and addressing attractants near the roofline. If you suspect a raccoon, squirrel, rat, or bat is using your soffit to enter your home, start with an inspection and an itemized plan so you can prioritize safety and avoid expensive surprises.",
       "marks": []
      }
     ],
@@ -10159,7 +10159,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " are usually small gaps that expand into long-term problems if ignored. Homeowners who watch emergence at sunset and then target repairs often avoid expensive sanitation and insulation replacement later.",
+      "text": " are usually small gaps that expand into long-term problems if ignored. Homeowners who watch emergence at sunset and then target sealing often avoid expensive sanitation and insulation replacement later.",
       "marks": []
      }
     ],
@@ -10394,7 +10394,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Photograph travel lanes, droppings, and light gaps in the attic. Technicians use those photos to map the exterior repair plan.",
+      "text": " Photograph travel lanes, droppings, and light gaps in the attic. Technicians use those photos to map the exterior exclusion plan.",
       "marks": []
      }
     ],
@@ -10613,7 +10613,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " HEPA vacuuming, negative-pressure containment, and targeted insulation replacement remove guano and fungal spores that pose health risks.",
+      "text": " HEPA vacuuming, negative-pressure containment, and targeted insulation removal clear out guano and fungal spores that pose health risks.",
       "marks": []
      }
     ],
@@ -10727,7 +10727,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Repeat incidents usually come down to missed details during repair.",
+      "text": "Repeat incidents usually come down to missed details during exclusion.",
       "marks": []
      }
     ],
@@ -11088,7 +11088,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " lets you target inspections and find effective repairs. Start with a dusk emergence watch, document rub marks and guano, and insist on durable, metal-based exclusion materials and monitored one-way devices. If contamination is present, include sanitation and insulation replacement on the same line-item estimate so you solve the problem once and avoid repeat visits.",
+      "text": " lets you target inspections and plan effective exclusion. Start with a dusk emergence watch, document rub marks and guano, and insist on durable, metal-based exclusion materials and monitored one-way devices. If contamination is present, include sanitation on the same line-item estimate so you solve the problem once and avoid repeat visits.",
       "marks": []
      }
     ],
@@ -11455,7 +11455,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Prices vary by region, access, and whether sanitation and repairs are required. A typical job includes:",
+      "text": "Prices vary by region, access, and whether sanitation is required. A typical job includes:",
       "marks": []
      }
     ],
@@ -12075,7 +12075,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspect wiring and include electrical repairs in the bid if chewing or exposure is found.",
+      "text": "Inspect wiring and flag any chewing or exposure for a licensed electrician to repair.",
       "marks": []
      }
     ],
@@ -12532,7 +12532,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A wildlife professional uses a three-step process: inspection, occupancy testing, and targeted exclusion. Inspections look for entry points such as torn soffits, uncapped chimneys, and loose vent boots. Occupancy checks may include daytime observation, camera surveys, or remote listening to confirm whether kits or adults are present. Recommendations commonly separate costs for inspection, removal, exclusion repairs, and sanitation so you can compare quotes transparently.",
+      "text": "A wildlife professional uses a three-step process: inspection, occupancy testing, and targeted exclusion. Inspections look for entry points such as torn soffits, uncapped chimneys, and loose vent boots. Occupancy checks may include daytime observation, camera surveys, or remote listening to confirm whether kits or adults are present. Recommendations commonly separate costs for inspection, removal, exclusion work, and sanitation so you can compare quotes transparently.",
       "marks": []
      }
     ],
@@ -12688,7 +12688,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Effective work is staged. First remove animals humanely while respecting local regulations. Then perform permanent exclusion repairs on every identified gap. Finally, handle contamination. A reliable provider will itemize these steps and offer a monitoring window to confirm success.",
+      "text": "Effective work is staged. First remove animals humanely while respecting local regulations. Then permanently seal every identified gap. Finally, handle contamination. A reliable provider will itemize these steps and offer a monitoring window to confirm success.",
       "marks": []
      }
     ],
@@ -12721,7 +12721,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Exclusion repairs:",
+      "text": "Exclusion:",
       "marks": [
        "strong"
       ]
@@ -13018,7 +13018,7 @@ const migratedPosts: Post[] = [
     "_type": "block",
     "style": "normal",
     "children": [
-     { "_type": "span", "text": "For guidance on specific entry points and repair expectations, see ", "marks": [] },
+     { "_type": "span", "text": "For guidance on specific entry points and exclusion expectations, see ", "marks": [] },
      { "_type": "span", "text": "How Raccoons Enter Homes", "marks": ["fx1"] },
      { "_type": "span", "text": " and ", "marks": [] },
      { "_type": "span", "text": "Why Raccoons Choose Attics", "marks": ["fx2"] },
@@ -13509,7 +13509,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Professional removal includes humane extraction, cleanup, and exclusion repairs. For local Central Florida homeowners, a common contact number listed in our resources is (727) 594-7705 for Pro Wildlife Removal, who offer inspection, removal, and follow-up exclusion work.",
+      "text": " Professional removal includes humane extraction, cleanup, and exclusion work. For local Central Florida homeowners, a common contact number listed in our resources is (727) 594-7705 for Pro Wildlife Removal, who offer inspection, removal, and follow-up exclusion work.",
       "marks": []
      }
     ],
@@ -13547,7 +13547,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After removal, teams perform exclusion repairs: replacing torn soffits, sealing roof openings, capping chimneys, and installing heavy-duty vent screens. For damage and cleanup estimates see our detailed cost and cleanup guide at ",
+      "text": "After removal, teams seal entry points: screening torn soffit openings, sealing roof openings, capping chimneys, and installing heavy-duty vent screens. Replacing a torn soffit is a job for a contractor. For damage and cleanup estimates see our detailed cost and cleanup guide at ",
       "marks": []
      },
      {
@@ -13577,7 +13577,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Common homeowner questions about prevention and repairs",
+      "text": "Common homeowner questions about prevention and exclusion",
       "marks": []
      }
     ],
@@ -13608,7 +13608,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Costs vary with the number and size of openings and the materials required. Minor vent repairs are relatively inexpensive. Full roof and soffit repairs increase costs. Refer to our cleanup and cost guide linked above for typical ranges.",
+      "text": " Costs vary with the number and size of openings and the materials required. Screening a single vent is relatively inexpensive. Sealing many roofline and soffit openings costs more, and any roof or soffit repairs by a contractor are a separate expense. Refer to our cleanup and cost guide linked above for typical ranges.",
       "marks": []
      }
     ],
@@ -13775,7 +13775,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Offer repair options or referrals for structural fixes and insulation replacement.",
+      "text": "Point you to a qualified contractor for structural fixes and insulation replacement.",
       "marks": []
      }
     ],
@@ -13945,7 +13945,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "How Raccoons Enter Homes is rarely a mystery once you know the common entry points: roof vents, torn soffits, chimneys, and damaged gable vents. An effective response combines immediate safety precautions, removal by trained professionals, and thorough exclusion repairs. Use the internal resources linked in this article for targeted fixes, and if you are in Central Florida consult local experts for inspection and cleanup.",
+      "text": "How Raccoons Enter Homes is rarely a mystery once you know the common entry points: roof vents, torn soffits, chimneys, and damaged gable vents. An effective response combines immediate safety precautions, removal by trained professionals, and thorough exclusion work. Use the internal resources linked in this article for targeted fixes, and if you are in Central Florida consult local experts for inspection and cleanup.",
       "marks": []
      }
     ],
@@ -14678,7 +14678,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Many repeat infestations happen because one or two things were missed during repair. Watch out for these pitfalls.",
+      "text": "Many repeat infestations happen because one or two things were missed during exclusion. Watch out for these pitfalls.",
       "marks": []
      }
     ],
@@ -15563,7 +15563,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Step 4: Sanitize and repair",
+      "text": "Step 4: Sanitize",
       "marks": []
      }
     ],
@@ -16158,7 +16158,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Repair and seal openings:",
+      "text": "Seal openings:",
       "marks": [
        "strong"
       ]
@@ -16200,14 +16200,14 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Sanitize and restore:",
+      "text": "Sanitize:",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": " remove contaminated insulation, disinfect nesting areas, and replace materials to remove attractants and contamination.",
+      "text": " remove contaminated insulation and disinfect nesting areas to remove attractants and contamination.",
       "marks": []
      }
     ],
@@ -16391,7 +16391,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats squeeze through surprisingly small openings and use predictable routes. Effective exclusion inspects and repairs these priority areas:",
+      "text": "Rats squeeze through surprisingly small openings and use predictable routes. Effective exclusion inspects and seals these priority areas:",
       "marks": []
      }
     ],
@@ -16607,7 +16607,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Full attic exclusion, sanitation, insulation replacement",
+      "text": "Full attic exclusion and sanitation",
       "marks": []
      }
     ],
@@ -16621,7 +16621,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Electrical or HVAC coordination for chewed wiring",
+      "text": "Chewed wiring: repaired separately by a licensed electrician",
       "marks": []
      }
     ],
@@ -16781,7 +16781,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A standard service begins with an inspection, mapping of activity, humane removal or trapping, sealing of entry points with metal mesh and flashing, sanitation and insulation replacement if needed, and a written warranty with follow-up inspections. Ask for itemized bids that separate inspection, exclusion labor, materials, and remediation so you can compare apples to apples.",
+      "text": "A standard service begins with an inspection, mapping of activity, humane removal or trapping, sealing of entry points with metal mesh and flashing, sanitation if needed, and a written warranty with follow-up inspections. Ask for itemized bids that separate inspection, exclusion labor, materials, and remediation so you can compare apples to apples.",
       "marks": []
      }
     ],
@@ -16829,7 +16829,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Yes. Durable exclusion that seals gaps and repairs soffits also prevents entry by many other species such as raccoons, squirrels, and bats. However, species-specific behaviors require tailored work for some animals so state wildlife regulations and humane handling rules are followed.",
+      "text": "Yes. Durable exclusion that seals gaps and screens soffit openings also prevents entry by many other species such as raccoons, squirrels, and bats. However, species-specific behaviors require tailored work for some animals so state wildlife regulations and humane handling rules are followed.",
       "marks": []
      }
     ],
@@ -17557,7 +17557,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " remediation removes droppings, nests, and urine-soaked insulation then replaces to restore thermal performance.",
+      "text": " remediation removes droppings, nests, and urine-soaked insulation; an insulation contractor then replaces it to restore thermal performance.",
       "marks": []
      }
     ],
@@ -17772,7 +17772,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Request Local Rat Repair Quote",
+      "text": "Request Local Rat Exclusion Quote",
       "marks": [
        "l0"
       ]
@@ -18010,7 +18010,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rat damage electrical wiring is a common but overlooked cause of electrical faults, fire risk, and costly remediation. Effective resolution requires coordination between licensed electricians, HVAC technicians, and wildlife remediation experts who seal entry points, safely repair wiring, and restore contaminated insulation. Use documented, itemized quotes and local references when choosing a contractor. If you suspect rodent damage or see signs of rodents chewing wires, schedule a local inspection through our ",
+      "text": "Rat damage electrical wiring is a common but overlooked cause of electrical faults, fire risk, and costly remediation. Effective resolution requires coordination between licensed electricians who safely repair wiring, HVAC technicians, and wildlife remediation experts who seal entry points and deal with contaminated insulation. Use documented, itemized quotes and local references when choosing a contractor. If you suspect rodent damage or see signs of rodents chewing wires, schedule a local inspection through our ",
       "marks": []
      },
      {
@@ -22676,7 +22676,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost estimates vary with colony size, contamination level, and repair scope. The table below shows what each type of job usually includes.",
+      "text": "Cost estimates vary with colony size, contamination level, and how many entry points need sealing. The table below shows what each type of job usually includes.",
       "marks": []
      }
     ],
@@ -22704,14 +22704,14 @@ const migratedPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Attic exclusion for small colony",
-       "Full attic survey, one-way exclusion devices, monitoring, basic repairs"
+       "Full attic survey, one-way exclusion devices, monitoring, sealing of gaps and entry points"
       ]
      },
      {
       "_type": "row",
       "cells": [
-       "Contaminated attic sanitation and insulation replacement",
-       "Guano removal, HEPA vacuuming, insulation removal, replacement, odor treatment"
+       "Contaminated attic sanitation and insulation removal",
+       "Guano removal, HEPA vacuuming, insulation removal, odor treatment"
       ]
      }
     ]
@@ -22819,7 +22819,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Gaps left after rushed repairs allow bats to return.",
+      "text": " Gaps left after rushed sealing work allow bats to return.",
       "marks": []
      }
     ],
@@ -23813,19 +23813,19 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For repair guidance after animal removal, see our related service overview on ",
+      "text": "For guidance on damage a contractor may need to fix after animal removal, see our homeowner checklist on ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "wildlife damage repair",
+      "text": "signs of wildlife damage",
       "marks": [
        "l0"
       ]
      },
      {
       "_type": "span",
-      "text": " which explains when immediate repair is a safety priority.",
+      "text": " which explains when a prompt repair by a contractor is a safety priority.",
       "marks": []
      }
     ],
@@ -24517,7 +24517,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Durable metal screens, chimney caps, and properly fastened soffit repairs are installed to close entry points permanently.",
+      "text": " Durable metal screens, chimney caps, and securely fastened gap covers are installed to close entry points permanently.",
       "marks": []
      }
     ],
@@ -25095,7 +25095,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Require photo documentation before and after repairs and a monitoring plan that verifies no return.",
+      "text": "Require photo documentation before and after exclusion work and a monitoring plan that verifies no return.",
       "marks": []
      }
     ],
@@ -25691,7 +25691,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Targeted spot repair and exclusion",
+       "Exclusion plus targeted spot repair by a contractor",
        "Small, localized damage without wiring or HVAC contamination",
        "Pros: lower cost, faster. Cons: risk of missed contamination."
       ]
@@ -25904,14 +25904,14 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Repairs and insulation replacement:",
+      "text": "Repairs by contractors:",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": " repair soffits, framing, and ducts. Replace insulation to restore R-value and air sealing.",
+      "text": " the homeowner arranges soffit, framing, and duct repairs with a contractor, and an insulation contractor replaces insulation to restore R-value and air sealing.",
       "marks": []
      }
     ],
@@ -26344,7 +26344,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Squirrel insulation damage is more than a nuisance. It can reduce comfort, raise bills, and create real safety hazards when wiring or ducts are involved. Start with a professional wildlife removal inspection, then follow a coordinated plan that addresses hazards, cleans contamination, and restores attic insulation squirrels performance with a durable exclusion warranty.",
+      "text": "Squirrel insulation damage is more than a nuisance. It can reduce comfort, raise bills, and create real safety hazards when wiring or ducts are involved. Start with a professional wildlife removal inspection, then follow a coordinated plan that addresses hazards, cleans contamination, and seals entry points with a durable exclusion warranty. An insulation contractor can then restore attic insulation squirrels damaged.",
       "marks": []
      }
     ],
@@ -26945,7 +26945,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call a wildlife exclusion pro if you have active nesting inside structures, visible entry holes, or ongoing chewed wiring. For any exposed or damaged electrical wiring call a licensed electrician immediately. Our blog covers the signs that require professional wildlife damage repair in more detail; see the practical checklist at ",
+      "text": "Call a wildlife exclusion pro if you have active nesting inside structures, visible entry holes, or ongoing chewed wiring. For any exposed or damaged electrical wiring call a licensed electrician immediately. Our blog covers the signs that damage needs a contractor's repair in more detail; see the practical checklist at ",
       "marks": []
      },
      {
@@ -27004,8 +27004,8 @@ const migratedPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Professional exclusion and repair",
-       "Permanent sealing, safe removal, coordinated electrical and insulation repairs",
+       "Professional exclusion, plus trade repairs",
+       "Permanent sealing and safe removal; an electrician and insulation contractor handle repairs",
        "Higher upfront cost but lowers long-term risk and repeat visits"
       ]
      }
@@ -27679,7 +27679,7 @@ const migratedPosts: Post[] = [
        "Eastern gray squirrel",
        "High",
        "Chewed fascia, larger entry holes, significant insulation disturbance",
-       "Immediate exclusion and structural repair"
+       "Immediate exclusion; a contractor handles structural repair"
       ]
      },
      {
@@ -27795,7 +27795,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Replace or secure rotten fascia and loose venting. Permanent repairs prevent repeat access.",
+      "text": "Have a contractor replace or secure rotten fascia and loose venting. Sound fascia and vents prevent repeat access.",
       "marks": []
      }
     ],
@@ -27849,7 +27849,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Flying squirrel interventions are usually less expensive than large-mammal exclusion. Typical service items you will see in quotes include inspection, one-way exclusion devices, and minor repairs. The table below explains what each item covers.",
+      "text": "Flying squirrel interventions are usually less expensive than large-mammal exclusion. Typical service items you will see in quotes include inspection, one-way exclusion devices, and sealing of entry points. Any carpentry is quoted separately by a contractor. The table below explains what each item covers.",
       "marks": []
      }
     ],
@@ -27890,8 +27890,8 @@ const migratedPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Structural repairs (soffit, venting)",
-       "Complex repairs cost more"
+       "Contractor repairs (soffit, venting)",
+       "Quoted separately by the contractor"
       ]
      }
     ]
@@ -28117,7 +28117,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " to get a humane exclusion plan and repair recommendations tailored to your property.",
+      "text": " to get a humane exclusion plan tailored to your property.",
       "marks": []
      }
     ],
@@ -28173,7 +28173,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " the risk is not only holes in shingles. Raccoons create access points that let water, pests, and wind into your attic, they shred insulation and ductwork, and they can expose wiring that leads to fire risk. For a local evaluation and an exclusion plan tied to roof repairs, start with our ",
+      "text": " the risk is not only holes in shingles. Raccoons create access points that let water, pests, and wind into your attic, they shred insulation and ductwork, and they can expose wiring that leads to fire risk. For a local evaluation and an exclusion plan you can share with your roofer, start with our ",
       "marks": []
      },
      {
@@ -28463,7 +28463,7 @@ const migratedPosts: Post[] = [
       "cells": [
        "Active raccoons or kits",
        "Call for professional removal; avoid sealing until cleared",
-       "Exclusion and roof patch after removal"
+       "Exclusion after removal; roofer patches the roof"
       ]
      },
      {
@@ -28728,7 +28728,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If animals are present, removal typically occurs before permanent sealing. This prevents trapping young animals inside. After removal, implement exclusion measures such as metal flashing, vent guards, and repaired soffits to prevent re-entry.",
+      "text": "If animals are present, removal typically occurs before permanent sealing. This prevents trapping young animals inside. After removal, implement exclusion measures such as metal flashing and vent guards to prevent re-entry, and have a contractor repair torn soffits.",
       "marks": []
      }
     ],
@@ -28740,7 +28740,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Step 4: Sanitation and repairs",
+      "text": "Step 4: Sanitation, then contractor repairs",
       "marks": []
      }
     ],
@@ -28752,7 +28752,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Heavily soiled insulation should be removed and replaced. Have an electrician evaluate wiring and an HVAC pro inspect ducts. Once repairs are complete, request a final inspection and photographic documentation to close the job.",
+      "text": "Heavily soiled insulation should be removed and replaced. Have a roofer repair the roof, an electrician evaluate wiring, and an HVAC pro inspect ducts. Once repairs are complete, request a final inspection and photographic documentation to close the job.",
       "marks": []
      }
     ],
@@ -28992,7 +28992,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Raccoon roof damage is a multi-faceted problem that requires a documented inspection, a clear removal and exclusion sequence, and targeted repairs for insulation, HVAC, or electrical systems. Use local professionals to ensure compliance with seasonal and legal limits, obtain itemized quotes, and prioritize safety when wiring or ducts are involved. For a local evaluation and a written plan tied to roof repairs, start with our ",
+      "text": "Raccoon roof damage is a multi-faceted problem that requires a documented inspection, a clear removal and exclusion sequence, and targeted repairs for insulation, HVAC, or electrical systems. Use local professionals to ensure compliance with seasonal and legal limits, obtain itemized quotes, and prioritize safety when wiring or ducts are involved. For a local evaluation and a written plan you can share with your roofer, start with our ",
       "marks": []
      },
      {
@@ -29084,7 +29084,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " so you know whether you need humane removal, exclusion, or full repair and remediation.",
+      "text": " so you know whether you need humane removal, exclusion, or remediation plus contractor repairs.",
       "marks": []
      }
     ],
@@ -29981,7 +29981,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Request Wildlife Damage Repair Estimate",
+      "text": "Request a Wildlife Exclusion Estimate",
       "marks": [
        "l0"
       ]
@@ -30121,17 +30121,17 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Raccoons in soffits are a common but preventable cause of home damage. A reliable approach pairs prompt, humane removal with durable exclusion and proper soffit or roof pocket repairs. Addressing the problem early reduces the chance of insulation contamination, secondary pest outbreaks, and costly structural or electrical repairs. If you see signs of entry, contact our team via the ",
+      "text": "Raccoons in soffits are a common but preventable cause of home damage. A reliable approach pairs prompt, humane removal with durable exclusion, followed by soffit or roof pocket repairs by a contractor. Addressing the problem early reduces the chance of insulation contamination, secondary pest outbreaks, and costly structural or electrical repairs. If you see signs of entry, contact our team via the ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "wildlife damage repair",
+      "text": "wildlife damage signs",
       "marks": []
      },
      {
       "_type": "span",
-      "text": " page to schedule an inspection and get itemized repair estimates that separate removal, remediation, and structural work.",
+      "text": " page to schedule an inspection and get an itemized estimate for removal and exclusion. Structural work is arranged with a contractor.",
       "marks": []
      }
     ],
@@ -30547,7 +30547,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A good exclusion inspection for soffits is methodical and documented. Professionals combine exterior and interior checks, photography, and short-term monitoring so the repair plan targets the actual routes rats used to enter rather than guesswork.",
+      "text": "A good exclusion inspection for soffits is methodical and documented. Professionals combine exterior and interior checks, photography, and short-term monitoring so the exclusion plan targets the actual routes rats used to enter rather than guesswork.",
       "marks": []
      }
     ],
@@ -30818,7 +30818,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Local costs vary with roof access, the length of roofline to repair, and whether insulation or ducts require remediation. Ask for an estimate after the inspection.",
+      "text": "Local costs vary with roof access, the length of roofline to seal, and whether insulation or ducts require remediation. Ask for an estimate after the inspection.",
       "marks": []
      }
     ],
@@ -31763,7 +31763,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Our process follows inspection, targeted trapping, exclusion, sanitation, and repair. We coordinate with electricians and HVAC pros when wiring or ducts are involved, and we separate line items so you see exactly what each trade is doing. For a deeper look at expected service steps see our write-up on ",
+      "text": "Our process follows inspection, targeted trapping, exclusion, and sanitation. If wiring or ducts are damaged, we note it so you can call an electrician or HVAC pro for the repair, and we separate line items so you see exactly what each step covers. For a deeper look at expected service steps see our write-up on ",
       "marks": []
      },
      {
@@ -31939,7 +31939,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Sealing entry points is necessary but not sufficient if animals are still active inside. Exclusion plus trapping or proofed one-way devices are typical. After activity stops, permanent repairs to roofline and vents prevent re-entry.",
+      "text": "Sealing entry points is necessary but not sufficient if animals are still active inside. Exclusion plus trapping or proofed one-way devices are typical. After activity stops, permanent sealing of roofline gaps and vents prevents re-entry.",
       "marks": []
      }
     ],
@@ -32046,7 +32046,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you are local, schedule an inspection so we can document entry points, map runways, and provide a written scope that isolates emergency wiring or HVAC repairs from routine exclusion. That staged clarity prevents surprises and reduces long-term costs.",
+      "text": "If you are local, schedule an inspection so we can document entry points, map runways, and provide a written scope that flags wiring or HVAC damage for a licensed electrician or HVAC pro, separate from routine exclusion. That staged clarity prevents surprises and reduces long-term costs.",
       "marks": []
      }
     ],
@@ -32850,7 +32850,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cap vents and repair broken soffits with heavy-gauge metal screens.",
+      "text": "Cap vents and cover broken soffit openings with heavy-gauge metal screens.",
       "marks": []
      }
     ],
@@ -32984,7 +32984,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For homeowners in Central Florida and coastal regions, our teams provide on-site inspections, targeted exclusion, attic remediation, and coordination with electricians and HVAC contractors when necessary. Detailed local quotes reduce unknowns and help with insurance discussions or HOA notifications. For structural and health-focused repair guidance, see our resource on wildlife damage repair at ",
+      "text": "For homeowners in Central Florida and coastal regions, our teams provide on-site inspections, targeted exclusion, and attic remediation, and we flag wiring or duct damage for an electrician or HVAC contractor. Detailed local quotes reduce unknowns and help with insurance discussions or HOA notifications. For guidance on damage that needs a contractor's repair, see our homeowner resource at ",
       "marks": []
      },
      {
@@ -33380,7 +33380,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "How exclusion fits into a complete repair plan",
+      "text": "How exclusion fits into a complete plan",
       "marks": []
      }
     ],
@@ -33589,7 +33589,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Ask for photographic documentation during inspection and after repairs. A professional inspection report should include:",
+      "text": "Ask for photographic documentation during inspection and after exclusion work. A professional inspection report should include:",
       "marks": []
      }
     ],
@@ -33743,7 +33743,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Full remediation (sanitation + repairs)",
+       "Full remediation (sanitation + contractor repairs)",
        "Heavy contamination, chewed insulation, or HVAC involvement",
        "Addresses health hazards and structural odor issues",
        "Costly; sometimes avoidable if exclusion occurs early"
@@ -34009,7 +34009,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Can wildlife come back after removal? Yes, if you only remove animals without sealing how they got in. Effective long-term protection requires a documented inspection, durable exclusion work, targeted sanitation when contamination exists, and follow-up monitoring. Use the inspection report to compare bids and demand photographic proof of repairs. If you want a written plan and a line-item quote that separates exclusion, sanitation, and repairs, schedule a professional exclusion inspection today and reduce the risk of repeat infestations. Sealing entry points correctly is a key action that reliably prevents animals from returning.",
+      "text": "Can wildlife come back after removal? Yes, if you only remove animals without sealing how they got in. Effective long-term protection requires a documented inspection, durable exclusion work, targeted sanitation when contamination exists, and follow-up monitoring. Use the inspection report to compare bids and demand photographic proof of sealed entry points. If you want a written plan and a line-item quote that separates exclusion, sanitation, and repairs, schedule a professional exclusion inspection today and reduce the risk of repeat infestations. Sealing entry points correctly is a key action that reliably prevents animals from returning.",
       "marks": []
      }
     ],
@@ -34101,7 +34101,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "At a high level, exclusion is permanent prevention. It closes and repairs the physical entry points animals use. Trapping is an immediate activity to remove animals that are currently inside a structure or on a property. Both methods can be part of a complete solution, but they answer different problems: exclusion addresses access; trapping addresses presence.",
+      "text": "At a high level, exclusion is permanent prevention. It closes and seals the physical entry points animals use. Trapping is an immediate activity to remove animals that are currently inside a structure or on a property. Both methods can be part of a complete solution, but they answer different problems: exclusion addresses access; trapping addresses presence.",
       "marks": []
      }
     ],
@@ -34120,7 +34120,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Sealing vents, repairing flashing, installing chimney caps, screening foundation vents, and adding soffit or ridge closures so animals cannot re-enter.",
+      "text": " Sealing vents, covering gaps with metal flashing, installing chimney caps, screening foundation vents, and adding soffit or ridge closures so animals cannot re-enter.",
       "marks": []
      }
     ],
@@ -34561,7 +34561,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": "wildlife damage repair",
+      "text": "signs of wildlife damage",
       "marks": [
        "l0"
       ]
@@ -34891,7 +34891,7 @@ const migratedPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Localized raccoon entry and torn vent",
-       "Exclusion, soffit repair, targeted sanitation"
+       "Exclusion and targeted sanitation; a carpenter repairs the soffit"
       ]
      },
      {
@@ -35250,7 +35250,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " page to schedule an inspection and exclusion work before any repair begins.",
+      "text": " page to schedule an inspection and exclusion work before any repair begins. We handle the inspection, removal, and sealing of entry points; the repairs described below are done by the contractors, electricians, roofers, or HVAC pros you hire.",
       "marks": []
      }
     ],
@@ -35697,7 +35697,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If an animal created or enlarged an entry point in your roofline, wall, or foundation, repairs are required to prevent re-entry. Exclusion without permanent repairs is ineffective. Book exclusion work first, then restore siding, flashing, or vent covers as needed. Our raccoon and general exclusion services explain typical repairs and materials.",
+      "text": "If an animal created or enlarged an entry point in your roofline, wall, or foundation, the opening must be closed to prevent re-entry. Book exclusion work first so entry points are sealed, then have a contractor repair torn siding, flashing, or vent covers as needed. Our raccoon and general exclusion services explain how entry points are sealed and which materials hold up.",
       "marks": []
      }
     ],
@@ -35881,7 +35881,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Complete roofline and exterior repairs to permanently seal entry points.",
+      "text": "Have a roofer or contractor complete roofline and exterior repairs where materials were torn.",
       "marks": []
      }
     ],
@@ -36786,7 +36786,7 @@ const migratedPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Raccoon removal and exclusion",
-       "Depends on access repairs and number of animals"
+       "Depends on access, entry points, and number of animals"
       ]
      },
      {
@@ -36830,7 +36830,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Homeowner threads show a recurring pattern. Small rodent problems sometimes respond to DIY traps and sealing. Larger problems, raccoon families, or evidence of contamination require professional removal. One homeowner trapped a raccoon on the roof while another tried pipe traps that were moved several feet; professionals were the only ones who retrieved animals safely and repaired entry points. Professionals bring legal compliance, humane handling, thorough exclusion and proper sanitation.",
+      "text": "Homeowner threads show a recurring pattern. Small rodent problems sometimes respond to DIY traps and sealing. Larger problems, raccoon families, or evidence of contamination require professional removal. One homeowner trapped a raccoon on the roof while another tried pipe traps that were moved several feet; professionals were the only ones who retrieved animals safely and sealed entry points. Professionals bring legal compliance, humane handling, thorough exclusion and proper sanitation.",
       "marks": []
      }
     ],
@@ -37122,7 +37122,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " and we will prioritize safety, exclusion, and repair.",
+      "text": " and we will prioritize safety and exclusion.",
       "marks": []
      }
     ],
@@ -37562,8 +37562,8 @@ const migratedPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Full remediation and reconstruction",
-       "Remove contaminated insulation, replace drywall, sanitize or replace HVAC, reconstruct",
+       "Full remediation, then contractor reconstruction",
+       "Remove contaminated insulation and sanitize; a contractor replaces drywall and an HVAC pro services or replaces ducts",
        "Extensive contamination into ceiling cavities, HVAC, or structural members"
       ]
      }
@@ -37805,7 +37805,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Replace contaminated insulation and repair any structural or drywall intrusion from urine staining.",
+      "text": "Replace contaminated insulation and have a contractor repair any structural or drywall intrusion from urine staining.",
       "marks": []
      }
     ],
@@ -38651,7 +38651,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Step 5: Repair and Clean-Up",
+      "text": "Step 5: Clean-Up and Contractor Repairs",
       "marks": [
        "strong"
       ]
@@ -38665,7 +38665,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Raccoons often tear apart insulation, ductwork and wiring. A professional service will not only handle the removal but also assist with necessary repairs. They will clean up raccoon droppings and urine, which can be hazardous to your health, and properly dispose of any contaminated materials.",
+      "text": "Raccoons often tear apart insulation, ductwork and wiring. A professional service will handle the removal, and you can arrange any needed repairs with a contractor. They will clean up raccoon droppings and urine, which can be hazardous to your health, and properly dispose of any contaminated materials.",
       "marks": []
      }
     ],
@@ -38691,7 +38691,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After removing the raccoons and repairing any damage, the final step is to implement preventative measures to avoid future infestations. Professional raccoon removal services often offer exclusion services that include installing raccoon-proof barriers, screens, and other deterrents to keep them from entering your home again.",
+      "text": "After removing the raccoons and arranging any repairs, the final step is to implement preventative measures to avoid future infestations. Professional raccoon removal services often offer exclusion services that include installing raccoon-proof barriers, screens, and other deterrents to keep them from entering your home again.",
       "marks": []
      }
     ],
@@ -39038,14 +39038,14 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Damage Repair and Clean-Up",
+      "text": "Damage and Clean-Up",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": ": They often tear apart insulation, ductwork and wiring. Many professionals also offer clean-up and repair services.",
+      "text": ": They often tear apart insulation, ductwork and wiring. Many professionals also offer clean-up services, and a contractor handles repairs.",
       "marks": []
      }
     ],
@@ -39106,7 +39106,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A raccoon infestation in your home can cause significant damage and health risks, especially in Central Florida, where raccoons thrive in the warm climate. Recognizing the signs early and seeking professional raccoon removal services helps prevent further issues. Professionals can remove the animals, identify entry points, repair damage and help prevent repeat visits.",
+      "text": "A raccoon infestation in your home can cause significant damage and health risks, especially in Central Florida, where raccoons thrive in the warm climate. Recognizing the signs early and seeking professional raccoon removal services helps prevent further issues. Professionals can remove the animals, identify and seal entry points, and help prevent repeat visits.",
       "marks": []
      }
     ],
@@ -39949,7 +39949,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After the wildlife is removed, the next critical step is preventing future intrusions. The removal team will seal the identified entry points to make it harder for them to return to the house. This may involve repairing holes, adding protective mesh around vents and chimneys, and securing areas where animals could easily enter.",
+      "text": "After the wildlife is removed, the next critical step is preventing future intrusions. The removal team will seal the identified entry points to make it harder for them to return to the house. This may involve covering holes, adding protective mesh around vents and chimneys, and securing areas where animals could easily enter.",
       "marks": []
      }
     ],
@@ -41196,7 +41196,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Small infestations are often manageable with minimal repairs and removal services.",
+      "text": "Small infestations are often manageable with removal services and minor sealing.",
       "marks": []
      }
     ],
@@ -41396,7 +41396,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " From identifying entry points to repairing damage and implementing prevention measures, professionals address every aspect of an infestation.",
+      "text": " From identifying entry points to sealing them and implementing prevention measures, professionals address the infestation from start to finish.",
       "marks": []
      }
     ],
@@ -47751,7 +47751,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "These professionals not only provide secure and compassionate solutions for ridding your premises of rodents but also take proactive measures to thwart future infestations. They employ techniques such as trapping nuisance animals, implementing exclusion strategies to fortify your home against unwanted intruders, and patching up damaged areas to eliminate potential entry points. Additionally, they offer invaluable advice on managing any future issues that may arise.",
+      "text": "These professionals not only provide secure and compassionate solutions for ridding your premises of rodents but also take proactive measures to thwart future infestations. They employ techniques such as trapping nuisance animals, implementing exclusion strategies to fortify your home against unwanted intruders, and sealing gaps to eliminate potential entry points. Additionally, they offer invaluable advice on managing any future issues that may arise.",
       "marks": []
      }
     ],

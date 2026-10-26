@@ -20,7 +20,7 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
   placeName: "Polk County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-polk-county",
-  heroText: "A raccoon in a Polk County attic, crawl space or garage? We get it out the way Florida allows, look for young before anything is closed, and repair the spot it used. Call (727) 594-7705.",
+  heroText: "A raccoon in a Polk County attic, crawl space or garage? We get it out the way Florida allows, look for young before anything is closed, and seal the spot it used. Call (727) 594-7705.",
   answerHeading: "Who gets a raccoon out of a house in Polk County?",
   answer:
     "Polk County's Sheriff's Office says Animal Control won't take nuisance wildlife calls or collect trapped raccoons, so a raccoon in your attic or under the house is a job for a private company. Pro Wildlife Removal gets it out, checks for kits in spring, and closes the opening it used. Call (727) 594-7705.",

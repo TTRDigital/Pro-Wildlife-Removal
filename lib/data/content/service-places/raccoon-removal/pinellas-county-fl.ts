@@ -27,7 +27,7 @@ export const raccoonRemovalPinellasCounty = servicePlacePage({
   heroText: "Thumping in the attic or a torn soffit somewhere in Pinellas? We find the raccoon's way in, look for young, remove the animals and close the opening. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from homes in Pinellas County?",
   answer:
-    "A private wildlife company. Pinellas County Animal Services offers help with sick or injured wildlife and refers residents to FWC's list of trappers, so a healthy raccoon in your attic is the owner's to handle. Pro Wildlife Removal gets raccoons out of Pinellas attics, soffits and crawl spaces, checks for young and repairs the entry. Call (727) 594-7705.",
+    "A private wildlife company. Pinellas County Animal Services offers help with sick or injured wildlife and refers residents to FWC's list of trappers, so a healthy raccoon in your attic is the owner's to handle. Pro Wildlife Removal gets raccoons out of Pinellas attics, soffits and crawl spaces, checks for young and seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County bans feeding nuisances", "Rabid raccoon found in 2025"],
   localHeading: "Raccoons in Pinellas County",
   localIntro: "Pinellas is the most crowded county in Florida, yet its parks still list raccoons by name. These are the county facts that matter when one moves into a house.",

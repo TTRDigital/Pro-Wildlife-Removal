@@ -36,7 +36,7 @@ export const wildlifeRemovalCost: Post = {
       "**Trapping with return visits:** raccoons, opossums and armadillos, with traps checked at least every 24 hours as Florida law requires. See [raccoon trapping in Florida](/blog/raccoon-trapping-florida/).",
       "**Exclusion and sealing:** squirrels and bats leave through one-way doors, then the roof is closed up. Bats can only be excluded from August 15 to April 15.",
       "**Seal, trap and clean:** roof rats in the attic, where every gap is closed, the rats inside are trapped, and the attic is cleaned. More on [rats in the attic](/services/rats-in-attic/).",
-      "**Full attic restoration:** an animal that lived in the attic for a long time, with insulation removed and replaced.",
+      "**Long-term attic cleanup:** an animal that lived in the attic for a long time, with soiled insulation removed.",
     ),
     p("For two common jobs, see the detailed guides: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/) and [animal in the attic removal and cleanup cost](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/)."),
     h3("How Florida's rules affect the price"),

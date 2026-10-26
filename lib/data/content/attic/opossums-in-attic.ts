@@ -154,7 +154,7 @@ export const opossumsInAttic: Service = {
       cards: [
         { number: "1", title: "Find the den", text: p("Locate where it sleeps and every gap it uses.") },
         { number: "2", title: "Get it out", text: p("Wait for it to leave at night, or live-trap it if it won't.") },
-        { number: "3", title: "Close the gaps", text: p("Sturdy wire mesh over vents and openings, screens repaired.") },
+        { number: "3", title: "Close the gaps", text: p("Sturdy wire mesh over vents, openings and torn screens.") },
         { number: "4", title: "Clean the den", text: p("Droppings, nesting and soiled insulation removed.", "[PLACEHOLDER: ask the client: how long a typical opossum job takes]") },
       ],
     },
@@ -165,12 +165,11 @@ export const opossumsInAttic: Service = {
       eyebrow: "Keep them out",
       heading: "Cleanup and keeping the next one out",
       body: p(
-        "FWC is direct about it: removing one or more opossums doesn't stop others from using the same spot. So the job ends with two things: a clean den area and a closed-up house. Wear gloves for any cleanup, bag droppings and nesting rather than sweeping them, and wash your hands after. Insulation the opossum soiled is easier to replace than to clean.",
+        "FWC is direct about it: removing one or more opossums doesn't stop others from using the same spot. So the job ends with two things: a clean den area and a closed-up house. Wear gloves for any cleanup, bag droppings and nesting rather than sweeping them, and wash your hands after. Insulation the opossum soiled is easier to take out than to clean.",
       ),
       checklist: [
-        "Vents and gaps blocked with wire mesh, screens repaired",
+        "Vents, gaps and torn screens blocked with wire mesh",
         "Den area cleared of droppings and nesting",
-        "Soiled insulation replaced where needed",
         "Trash secured and pet food brought in at night",
         "Fallen fruit and bird seed cleaned up",
         "[PLACEHOLDER: ask the client: is attic or crawl space cleanup after opossums quoted separately?]",

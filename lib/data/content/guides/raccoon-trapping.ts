@@ -55,7 +55,7 @@ export const raccoonTrapping: Post = {
       "**3. Set the trap** on the raccoon's path, baited, somewhere you can see it.",
       "**4. Check it at least every 24 hours.** Release any other animal on the spot.",
       "**5. Act within 24 hours of capture or inspection,** as the rule requires.",
-      "**6. Close the entry and clean up.** Repair the hole with strong material, cap the chimney if needed, and remove any latrine with gloves. Our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) explains the bigger jobs.",
+      "**6. Close the entry and clean up.** Seal the hole with strong material, cap the chimney if needed, and remove any latrine with gloves. Our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) explains the bigger jobs.",
     ),
     h3("Mistakes to avoid"),
     ul(
@@ -63,7 +63,7 @@ export const raccoonTrapping: Post = {
       "**Setting a trap and forgetting it.** Florida's 24-hour check isn't optional, and a raccoon left in the sun suffers.",
       "**Releasing it in a park.** That's illegal without the land manager's written permission.",
       "**Chasing it out and just sealing the hole.** UF/IFAS says this often causes more damage, because the raccoon, especially a mother with young, comes back and forces its way in.",
-      "**Skipping the repair.** A trapped raccoon is soon replaced by the next one if the way in stays open.",
+      "**Skipping the sealing.** A trapped raccoon is soon replaced by the next one if the way in stays open.",
     ),
     h3("Safety"),
     ul(
@@ -72,7 +72,7 @@ export const raccoonTrapping: Post = {
       "If a raccoon bites or scratches anyone, wash the wound with soap and water, see a doctor and call the county health department. Our [Pasco](/about-us/service-area/wildlife-removal-in-pasco-county-fl/), [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) and [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/) county pages list the numbers.",
     ),
     h3("When to call a professional"),
-    p("Call if the raccoon is in the attic, walls or chimney, if there may be kits, if you don't want to handle the release or euthanasia, or if the raccoon keeps beating the trap. Trapping is only part of the job: the entry has to be repaired too. See [raccoon removal](/services/raccoon-removal/) and [raccoons in the attic](/services/raccoons-in-attic/), or call (727) 594-7705."),
+    p("Call if the raccoon is in the attic, walls or chimney, if there may be kits, if you don't want to handle the release or euthanasia, or if the raccoon keeps beating the trap. Trapping is only part of the job: the entry has to be sealed too. See [raccoon removal](/services/raccoon-removal/) and [raccoons in the attic](/services/raccoons-in-attic/), or call (727) 594-7705."),
   ),
   faq: [
     faq("Can I relocate a raccoon in Florida?", "Only to land the rules allow: on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Parks and other public land are off limits without written permission. UF/IFAS recommends against relocating raccoons."),

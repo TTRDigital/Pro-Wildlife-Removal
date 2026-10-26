@@ -21,10 +21,10 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
   placeName: "Hillsborough County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-hillsborough-county",
-  heroText: "A raccoon in the attic, under the deck or in the garage anywhere in Hillsborough County? We remove it the way Florida allows, look for young first and repair the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in the attic, under the deck or in the garage anywhere in Hillsborough County? We remove it the way Florida allows, look for young first and seal the way in. Call (727) 594-7705.",
   answerHeading: "Who gets a raccoon out of a home in Hillsborough County?",
   answer:
-    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says to use private removal services for wildlife on private property, and county Animal Control serves the whole county. Pro Wildlife Removal gets raccoons out of attics and crawl spaces, checks for young and repairs the entry. Call (727) 594-7705.",
+    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says to use private removal services for wildlife on private property, and county Animal Control serves the whole county. Pro Wildlife Removal gets raccoons out of attics and crawl spaces, checks for young and seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon in the 2025 table", "County: garbage feeds a boom"],
   localHeading: "What to know about raccoons in Hillsborough County",
   localIntro: "These facts about raccoons in Hillsborough come from the state health department, DOH-Hillsborough, county conservation pages, a state park plan and news reports of rabid raccoon cases, labeled as news.",

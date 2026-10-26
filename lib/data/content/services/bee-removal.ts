@@ -171,7 +171,7 @@ export const beeRemoval: Service = {
       cards: [
         { title: "Swarm or colony", text: p("A swarm in a tree is a short job. A colony in a wall means finding and removing comb.") },
         { title: "Where the comb is", text: p("A shed or meter box, or high in a soffit or deep inside a wall.") },
-        { title: "Opening and closing", text: p("Cutting into drywall, soffit or siding, and closing it again.") },
+        { title: "Opening the wall", text: p("Cutting into drywall, soffit or siding to reach the comb. The owner's contractor closes it again.") },
         { title: "Size of the colony", text: p("An established colony can fill a wall cavity with comb.") },
       ],
     },

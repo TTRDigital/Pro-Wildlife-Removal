@@ -21,10 +21,10 @@ export const squirrelRemovalHillsboroughCounty = servicePlacePage({
   placeName: "Hillsborough County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-hillsborough-county",
-  heroText: "Squirrels chewing into a soffit or running in the attic in Brandon, Lithia, Riverview or anywhere else in Hillsborough County? We find the hole, get them out and repair it. Call (727) 594-7705.",
+  heroText: "Squirrels chewing into a soffit or running in the attic in Brandon, Lithia, Riverview or anywhere else in Hillsborough County? We find the hole, get them out and seal it. Call (727) 594-7705.",
   answerHeading: "Who removes squirrels from an attic in Hillsborough County?",
   answer:
-    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property calls for private removal services. In Hillsborough, gray squirrels show up on state park lists from Thonotosassa to Lithia. Pro Wildlife Removal finds where a squirrel gets in, removes it and repairs the opening. Call (727) 594-7705.",
+    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property calls for private removal services. In Hillsborough, gray squirrels show up on state park lists from Thonotosassa to Lithia. Pro Wildlife Removal finds where a squirrel gets in, removes it and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Gray and fox squirrels on county lands", "2004 park plan: gray squirrel a problem species"],
   localHeading: "What to know about squirrels in Hillsborough County",
   localIntro: "These facts about squirrels in Hillsborough come from state park plans, the county's nature preserve pages and FWC.",
@@ -73,7 +73,7 @@ export const squirrelRemovalHillsboroughCounty = servicePlacePage({
   seo: {
     title: "Squirrel Removal Hillsborough County | Pro Wildlife Removal",
     description:
-      "Squirrel removal in Hillsborough County, FL: squirrels out of attics and soffits in Brandon, Lithia, Riverview and Plant City, with the way in repaired.",
+      "Squirrel removal in Hillsborough County, FL: squirrels out of attics and soffits in Brandon, Lithia, Riverview and Plant City, with the way in sealed.",
   },
   sources: [
     { title: "Florida DEP: Hillsborough River State Park unit management plan, 2004 (problem species limited to the American alligator, raccoon and gray squirrel; feeding made them bold; numerous squirrel bites from hand feeding)", url: `${DEP}2004%20Hillsborough%20River%20State%20Park.pdf` },
