@@ -39,7 +39,7 @@ export const ratRemovalHernandoCounty = servicePlacePage({
   ],
   contactsIntro: "Who handles what when rats are the problem in Hernando County, from the county's own pages.",
   contacts: [
-    { icon: "home", title: "Garbage service", text: p("Coastal Waste, (352) 540-6457, in unincorporated Hernando. Brooksville residents call the city at (352) 540-3810.") },
+    { icon: "home", title: "Garbage service", text: p("Coastal Waste, (352) 540-6457, in unincorporated Hernando. Brooksville residents call City of Brooksville Utilities at (352) 540-3860.") },
     { icon: "search", title: "Code complaints", text: p("Hernando County Code Compliance, through the county's main line, (352) 754-4000.") },
     { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
@@ -49,7 +49,7 @@ export const ratRemovalHernandoCounty = servicePlacePage({
   faqs: [
     faq(
       "Who picks up garbage in Hernando County?",
-      "Coastal Waste, in all unincorporated areas, twice a week; call (352) 540-6457 to sign up. The City of Brooksville has its own service, at (352) 540-3810. The county itself doesn't collect garbage.",
+      "Coastal Waste, in all unincorporated areas, twice a week; call (352) 540-6457 to sign up. The City of Brooksville has its own service through its Utilities Department, at (352) 540-3860. The county itself doesn't collect garbage.",
     ),
     faq(
       "Can I put extra trash bags next to my cart?",
@@ -77,7 +77,8 @@ export const ratRemovalHernandoCounty = servicePlacePage({
       "Rat removal in Hernando County, FL: rats sealed out of attics and walls and trapped, plus the county's cart, storage, tall grass and yard waste rules.",
   },
   sources: [
-    { title: "Hernando County: Garbage (county does not pick up garbage; Coastal Waste in all unincorporated areas, excluding Brooksville; twice-weekly pickup; (352) 540-6457; Brooksville (352) 540-3810; only waste inside the blue cart with the lid closed is collected; excess trash saved for the next collection day or taken to the county drop-off center; storage areas clean and sanitary, free of spilled garbage, wastewater and odors)", url: GARBAGE },
+    { title: "Hernando County: Garbage (county does not pick up garbage; Coastal Waste in all unincorporated areas, excluding Brooksville; twice-weekly pickup; (352) 540-6457; Brooksville has its own collection service; only waste inside the blue cart with the lid closed is collected; excess trash saved for the next collection day or taken to the county drop-off center; storage areas clean and sanitary, free of spilled garbage, wastewater and odors)", url: GARBAGE },
+    { title: "City of Brooksville: Utilities (Solid Waste; (352) 540-3860)", url: "https://www.cityofbrooksville.us/253/Utilities" },
     { title: "Hernando County: Code violations (Sec. 15-163a grass and weeds over 18 inches within 100 feet of improved property, agricultural and conservation zoning excepted; 15-163b accumulation of trash bags, decaying vegetation, exposed appliances or furniture; main line (352) 754-4000)", url: CODE },
     { title: "Hernando County: Yard waste (15 items, any combination of containers, bags or tied bundles; bundles under 50 pounds and four feet long)", url: YARD },
     { title: "Tampa Bay Times (archive), Aug. 13, 1999: Rats raid Spring Hill residents (Hernando County Health Department: several Spring Hill neighborhoods with roof rat infestations; Tipton Lane and Skyline Court; specialist stopped counting at 30 in an oak nest, estimated three times that; 30 to 40 rats from a Liberator Court home; debris, uncovered garbage, leaky faucets, dog food, bird feed; recurring problem; complaints from Chase Street and Fireside Street)", url: "https://www.tampabay.com/archive/1999/08/13/rats-raid-spring-hill-residents/" },
