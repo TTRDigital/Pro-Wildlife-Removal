@@ -65,16 +65,16 @@ export const holiday = countyPage({
     ),
     faq(
       "How quickly can you reach Holiday?",
-      "Holiday calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Holiday. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Holiday]",
     ),
   ],
   ctaHeading: "Wildlife problem in Holiday?",
   ctaText: "Holiday homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Holiday, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Holiday, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums and snakes on the Anclote River. Who to call for what in Holiday, Pasco County. Call (727) 594-7705.",
+      "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums and snakes on the Anclote River, and who to call for what in Holiday. (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Holiday CDP, 24,939)", url: CENSUS },

@@ -65,16 +65,16 @@ export const newPortRichey = countyPage({
     ),
     faq(
       "How fast can you reach New Port Richey?",
-      "New Port Richey calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in New Port Richey. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in New Port Richey]",
     ),
   ],
   ctaHeading: "Wildlife problem in New Port Richey?",
   ctaText: "New Port Richey homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in New Port Richey, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in New Port Richey | Pro Wildlife Removal",
     description:
-      "Wildlife removal in New Port Richey, FL: raccoons, armadillos, opossums, squirrels, snakes and rats. Who to call in New Port Richey for what. Call (727) 594-7705.",
+      "Wildlife removal in New Port Richey, FL: raccoons, armadillos, opossums, squirrels, snakes and rats, and who to call in the city. Call (727) 594-7705.",
   },
   sources: [
     S.edr,

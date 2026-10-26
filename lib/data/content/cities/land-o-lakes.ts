@@ -68,16 +68,16 @@ export const landOLakes = countyPage({
     ),
     faq(
       "How fast can you get to Land O' Lakes?",
-      "Land O' Lakes calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Land O' Lakes. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Wildlife problem in Land O' Lakes?",
   ctaText: "For Land O' Lakes, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Land O' Lakes, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Land O' Lakes, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Land O' Lakes, FL: raccoons, rats, squirrels, snakes and armadillos near Cypress Creek and Conner preserves. Who to call for what. Call (727) 594-7705.",
+      "Wildlife removal in Land O' Lakes, FL: raccoons, rats, snakes and armadillos near the Cypress Creek and Conner preserves, and who to call: (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Land O' Lakes CDP, Pasco County, 35,929)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },

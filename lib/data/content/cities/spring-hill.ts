@@ -65,16 +65,16 @@ export const springHill = countyPage({
     ),
     faq(
       "How quickly can you get to Spring Hill?",
-      "Calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Spring Hill. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Spring Hill]",
     ),
   ],
   ctaHeading: "Wildlife problem in Spring Hill?",
   ctaText: "For Spring Hill, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Spring Hill, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Spring Hill, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Spring Hill, FL: raccoons, rats, squirrels, bats, snakes and armadillos, next to the Weekiwachee Preserve. Who to call for what. Call (727) 594-7705.",
+      "Wildlife removal in Spring Hill, FL: raccoons, rats, squirrels, bats and snakes next to the Weekiwachee Preserve, and who to call for what. (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Spring Hill CDP, Hernando County, 113,568)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },

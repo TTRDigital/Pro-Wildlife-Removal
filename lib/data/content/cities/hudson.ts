@@ -65,16 +65,16 @@ export const hudson = countyPage({
     ),
     faq(
       "How soon can you get to Hudson?",
-      "Hudson calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Hudson. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Hudson]",
     ),
   ],
   ctaHeading: "Wildlife problem in Hudson?",
   ctaText: "Hudson homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Hudson, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Hudson, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Hudson, FL: raccoons, opossums, armadillos, squirrels, rats and snakes, next to the Weekiwachee Preserve. Who to call for what. Call (727) 594-7705.",
+      "Wildlife removal in Hudson, FL: raccoons, opossums, armadillos, rats and snakes beside the Weekiwachee Preserve, and who to call for what. (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Hudson CDP, Pasco County, 12,944)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },

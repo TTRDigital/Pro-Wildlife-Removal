@@ -209,7 +209,7 @@ export const snakeRemoval: Service = {
         ),
         faq(
           "Can you come right away for a snake in the house?",
-          "We answer 24 hours a day, 7 days a week. Tell us it's inside and where, and keep the room closed off until we get there.",
+          "Same-day visits are often available for a snake inside. Tell us it's inside and where, and keep the room closed off until we get there.",
           "[PLACEHOLDER: ask the client: typical response time for a snake inside the home]",
         ),
       ],
@@ -237,9 +237,9 @@ export const snakeRemoval: Service = {
     },
   ],
   seo: {
-    title: "Snake Removal in Tampa Bay | Venomous and Nonvenomous | Pro Wildlife Removal",
+    title: "Snake Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Snake in the house, garage or pool cage? Safe snake removal in Tampa Bay and 9 Florida counties, plus sealing the way in. Know Florida's venomous snakes. Call (727) 594-7705.",
+      "Snake in the house, garage or pool cage? Safe snake removal in Tampa Bay, sealing the way in, and how to spot Florida's venomous snakes. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Snakes (6 of 50 species venomous; leave snakes alone; no good reason to kill except immediate danger; snakes near homes may mean rodents; clear debris and spilled seed; indigo snake protected; venomous reptiles possessed only under license)", url: FWC_SNAKES },

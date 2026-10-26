@@ -1,5 +1,5 @@
 import type { Post } from "../../../types";
-import { h3, p, rich, table, ul } from "../pt.ts";
+import { faq, h3, p, rich, table, ul } from "../pt.ts";
 import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /* Guide: Florida's wildlife trapping rules for homeowners. New slug (no existing post on the topic). */
@@ -14,7 +14,7 @@ export const floridaTrappingRules: Post = {
     "Florida lets property owners trap most nuisance wildlife without notifying FWC, but traps must be checked every 24 hours, release is limited to the same property or 40+ acres in the same county, and some animals can't be trapped at all.",
   date: "2026-10-26T00:00:00+00:00",
   modified: "2026-10-26T00:00:00+00:00",
-  author: "Pro Wildlife Removal",
+  author: "Josh Holmberg",
   body: rich(
     p(
       "**The short answer:** Florida property owners can trap most nuisance wildlife without telling FWC. Check traps at least every 24 hours. Native animals can only be released on the same property or on 40+ contiguous acres in the same county with written permission. Non-natives can't be released, bat colonies can only be excluded, and new rules start December 31, 2026.",
@@ -49,6 +49,7 @@ export const floridaTrappingRules: Post = {
       "**Bears.** Report bear conflicts to your FWC regional office.",
     ),
     h3("Animal by animal"),
+    p("Each animal has its own page with the details: [raccoon removal](/services/raccoon-removal/), [opossum removal](/services/opossum-removal/), [squirrel removal](/services/squirrel-removal/), [armadillo removal](/services/armadillo-removal/) and [rat removal](/services/rat-removal/)."),
     table(
       ["Animal", "Native?", "What the rules mean"],
       ["Raccoon", "Yes", "Release on site or on 40+ acres in the same county with permission; UF/IFAS recommends euthanasia over relocation"],
@@ -74,19 +75,17 @@ export const floridaTrappingRules: Post = {
       "**6. Fix the reason it came:** seal the entry and remove food and shelter.",
     ),
     h3("Should you trap it yourself?"),
-    p("Trapping is legal, but it's the easy half. You still have to check the trap every day, deal with what you catch within the deadline, and close the hole the animal used, or the next one moves in. Many homeowners call a professional for exactly those reasons. See [raccoon trapping](/blog/raccoon-trapping-florida/) for a worked example, or call (727) 594-7705."),
-    h3("Common questions"),
-    h3("Do I need a permit to trap a raccoon on my property in Florida?"),
-    p("Not for a live trap on your own property under today's rules. From December 31, 2026, FWC's new rules require registration and training for most trappers, with an exemption for a homeowner using one regular-size cage trap on their own property."),
-    h3("Can I drive a trapped animal to a park and let it go?"),
-    p("No. Release on public or private land without written permission isn't allowed, and only land of 40 or more contiguous acres in the same county qualifies."),
-    h3("What happens if I catch the wrong animal?"),
-    p("Release it right away at the spot where you caught it. If it's a bobcat, it must be released."),
+    p("Trapping is legal, but it's the easy half. You still have to check the trap every day, deal with what you catch within the deadline, and close the hole the animal used, or the next one moves in. Many homeowners call a professional for exactly those reasons. See [raccoon trapping](/blog/raccoon-trapping-florida/) for a worked example, or call (727) 594-7705. Our county pages, such as [Pasco](/about-us/service-area/wildlife-removal-in-pasco-county-fl/) and [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), list the local agencies to call."),
   ),
+  faq: [
+    faq("Do I need a permit to trap a raccoon on my property in Florida?", "Not for a live trap on your own property under today's rules. From December 31, 2026, FWC's new rules require registration and training for most trappers, with an exemption for a homeowner using one regular-size cage trap on their own property."),
+    faq("Can I drive a trapped animal to a park and let it go?", "No. Release on public or private land without written permission isn't allowed, and only land of 40 or more contiguous acres in the same county qualifies."),
+    faq("What happens if I catch the wrong animal?", "Release it right away at the spot where you caught it. If it's a bobcat, it must be released."),
+  ],
   seo: {
-    title: "Florida Wildlife Trapping Rules for Homeowners (2026) | Pro Wildlife Removal",
+    title: "Florida Wildlife Trapping Rules 2026 | Pro Wildlife Removal",
     description:
-      "Florida's nuisance wildlife trapping rules in plain words: who can trap, 24-hour checks, where animals can be released, animals you can't trap, and the rules that start December 31, 2026.",
+      "Florida's nuisance wildlife trapping rules in plain words: who can trap, trap checks, where animals can be released, and rules starting December 31, 2026.",
   },
   sources: [
     { title: "FWC: FAQs, nuisance wildlife (definition; property owners may take nuisance wildlife; no FWC notice for most; owner consent; methods; steel trap permit; Gun and Light at Night Permit; 24-hour checks; release rules; non-native no release; bobcats; non-targets)", url: FAQS },
@@ -104,5 +103,5 @@ export const floridaTrappingRules: Post = {
     { title: "UF/IFAS Extension Sarasota County: glue traps inhumane; rodenticides last resort in tamper-resistant stations", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
     { title: "CDC: How to trap up (glue and live traps can make rodents urinate)", url: "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
   ],
-  clientQuestions: ["Named author for guides and posts."],
+  clientQuestions: ["Link Josh Holmberg's author page (Ali is building it) from the guides."],
 };

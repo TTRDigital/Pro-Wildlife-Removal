@@ -66,16 +66,16 @@ export const clearwater = countyPage({
     ),
     faq(
       "How soon can you come out in Clearwater?",
-      "We answer (727) 594-7705 24/7.",
+      "Same-day appointments are often available in Clearwater. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Clearwater]",
     ),
   ],
   ctaHeading: "Wildlife problem in Clearwater?",
   ctaText: "Clearwater homeowners can reach us at (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Clearwater, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Clearwater, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes and opossums. Who handles what in Clearwater (county, FWC, city), plus local rules. Call (727) 594-7705.",
+      "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes and opossums, who handles what in the city, and local rules. (727) 594-7705.",
   },
   sources: [
     S.edr,

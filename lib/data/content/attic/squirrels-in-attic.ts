@@ -224,9 +224,9 @@ export const squirrelsInAttic: Service = {
     },
   ],
   seo: {
-    title: "Squirrels in the Attic in Tampa Bay: Signs and Fixes | Pro Wildlife Removal",
+    title: "Squirrels in the Attic: Signs, Fixes | Pro Wildlife Removal",
     description:
-      "Daytime noise in the ceiling? How to confirm squirrels in the attic, Florida's spring and fall litters, trapping rules and roofline repairs in Tampa Bay. Call (727) 594-7705.",
+      "Daytime noise in the ceiling? How to confirm squirrels in the attic, Florida's spring and fall litters, trapping rules and roof repairs. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Squirrels flyer, June 2026 (gray and flying squirrels as nuisance; breed twice a year, spring and autumn; teeth grow constantly; chewing wires; cover wires and PVC; trim limbs; squirrel in the house; cage traps, 24-hour checks, release rules; Dec 31, 2026 rule change)", url: FLYER },

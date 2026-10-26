@@ -228,9 +228,9 @@ export const ratsInAttic: Service = {
     },
   ],
   seo: {
-    title: "Rats in the Attic in Tampa Bay: Signs and Removal | Pro Wildlife Removal",
+    title: "Rats in the Attic: Signs and Removal | Pro Wildlife Removal",
     description:
-      "Scratching in the ceiling at night? How to tell it's rats in the attic, what they damage, and how sealing, trapping and attic cleanup work in Tampa Bay. Call (727) 594-7705.",
+      "Scratching in the ceiling at night? How to tell it's rats in the attic, what they damage, and how sealing, trapping and cleanup work. Call (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats thrive in attics, nest off the ground, climb wires and pipes; droppings up to 1/2 inch, spindle-shaped; fresh vs old droppings and gnawing; rub marks and rafter swing marks; runways; most active first half of the night; 6-8 young, up to 6 litters; maturity 3-5 months; live about 1 year; wires and fires; half-inch cracks; block every entry)", url: ENY224 },

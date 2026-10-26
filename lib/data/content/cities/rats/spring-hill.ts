@@ -64,16 +64,16 @@ export const springHillRats = countyPage({
     ),
     faq(
       "How fast can you come out for rats in Spring Hill?",
-      "Spring Hill rat calls to (727) 594-7705 are answered 24/7.",
+      "Same-day rat inspections are often available in Spring Hill. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Spring Hill]",
     ),
   ],
   ctaHeading: "Rats in your Spring Hill home?",
   ctaText: "For rats in Spring Hill, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Spring Hill, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in Spring Hill, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Spring Hill, FL: roof rats sealed out, trapped and cleaned up. Hernando County's lid, yard waste and code rules that keep rats away. Call (727) 594-7705.",
+      "Rat removal in Spring Hill, FL: roof rats sealed out, trapped and cleaned up, plus Hernando County's lid, yard waste and code rules. Call (727) 594-7705.",
   },
   sources: [
     { title: "Hernando County: Garbage (cart lids must be closed to prevent scavenging of animals; bag all trash; curbside no earlier than 6 p.m. the day before; scattered loose trash is the customer's responsibility)", url: "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/garbage/" },
