@@ -11,6 +11,16 @@ import { p } from "../pt.ts";
 
 export type CountyInput = {
   path: string;
+  /** "county" (default), or "city"/"rat" for the city pages that share this layout. */
+  kind?: Location["kind"];
+  /** Hero H1; defaults to "Wildlife Removal in [name], FL". */
+  heading?: string;
+  highlight?: string;
+  eyebrow?: string;
+  servicesHeading?: string;
+  /** Shown above the reviews until real local reviews are matched in (a placeholder line, hidden on the live site). */
+  reviewsIntro?: string;
+  reviewsMatch?: string;
   name: string;
   county: string;
   order: number;
@@ -43,15 +53,15 @@ export function countyPage(c: CountyInput): Location {
   return {
     path: c.path,
     name: c.name,
-    kind: "county",
+    kind: c.kind ?? "county",
     county: c.county,
     order: c.order,
     summary: c.summary,
     design: "new",
     hero: {
-      eyebrow: `WILDLIFE REMOVAL IN ${c.name.toUpperCase()}`,
-      heading: `Wildlife Removal in ${c.name}, FL`,
-      highlight: c.name,
+      eyebrow: c.eyebrow ?? `WILDLIFE REMOVAL IN ${c.name.toUpperCase()}`,
+      heading: c.heading ?? `Wildlife Removal in ${c.name}, FL`,
+      highlight: c.highlight ?? c.name,
       text: p(c.heroText),
       image: images.certifiedWildlifeRemovalExpertsInTampaFl,
       ctas: [c.phone],
@@ -63,8 +73,8 @@ export function countyPage(c: CountyInput): Location {
       ...(c.contacts?.length
         ? [{ _type: "cardsSection" as const, _key: "contacts", eyebrow: "Who to call", heading: `Who to call for what in ${c.name}`, intro: p(c.contactsIntro ?? ""), variant: "plain" as const, columns: 3, cards: c.contacts }]
         : []),
-      { _type: "servicesSection", _key: "services", eyebrow: "Services", heading: `Animals we remove in ${c.name}`, intro: p(c.servicesIntro), group: "removal" },
-      { _type: "reviewsSection", _key: "reviews", eyebrow: "Reviews", heading: "What customers say" },
+      { _type: "servicesSection", _key: "services", eyebrow: "Services", heading: c.servicesHeading ?? `Animals we remove in ${c.name}`, intro: p(c.servicesIntro), group: "removal" },
+      { _type: "reviewsSection", _key: "reviews", eyebrow: "Reviews", heading: "What customers say", ...(c.reviewsIntro ? { intro: p(c.reviewsIntro) } : {}), ...(c.reviewsMatch ? { match: c.reviewsMatch } : {}) },
       { _type: "faqSection", _key: "faq", tone: "tint", eyebrow: "FAQ", heading: `${c.name} wildlife questions`, items: c.faqs },
       { _type: "ctaSection", _key: "cta", heading: c.ctaHeading, text: p(c.ctaText), ctas: [c.phone] },
     ],
