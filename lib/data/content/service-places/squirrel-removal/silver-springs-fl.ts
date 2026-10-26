@@ -2,6 +2,7 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
+ * HELD (Ben, Oct 26, 2026: 5 distinct facts; unregistered).
  * Squirrel removal in Silver Springs (TTR-738, Nia). Every card is one true fact
  * about squirrels in Silver Springs or Marion: the 2014 and 2010 park management
  * plans (one PDF), the Rainbow Springs Aquatic Preserve plan and FWC's fox

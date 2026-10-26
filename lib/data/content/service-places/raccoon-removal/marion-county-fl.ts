@@ -32,7 +32,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   localHeading: "What to know about raccoons in Marion County",
   localIntro: "Raccoons turn up again and again in Marion's rabies notices, from Fellowship and Blitchton to Belleview and Reddick. Here is what DOH-Marion and the state's records show.",
   local: [
-    { icon: "critter", title: "Year by year on the tables", text: p("Marion's rabies tables counted 2 rabid raccoons in 2022, 4 in 2023, 7 in 2024 and 6 in 2025, ahead of every other animal each year.") },
+    { icon: "critter", title: "Year by year on the tables", text: p("Raccoons were 2 of Marion's 3 rabid animals in 2022, 4 of 5 in 2023, 7 of 10 in 2024 and 6 of 9 in 2025, by the state's county tables.") },
     { icon: "map-pin", title: "Three zones in one week, 2023", text: p("In July 2023, after three raccoons tested positive in a single week, DOH-Marion named alert areas in Silver Springs, the Fellowship area and the Blitchton area, WFTV reported.") },
     { icon: "search", title: "Belleview, February 2026", text: p("A raccoon killed in the southeast of the county, off U.S. 441 and SE 132nd Street Road near Belleview, on February 24, 2026, prompted a DOH-Marion rabies advisory.") },
     { icon: "leaf", title: "Huntington, March 2026", text: p("DOH-Marion counted a raccoon that died off State Highway 35 in the Huntington area on March 20, 2026 as the county's second confirmed rabies case of the year.") },
@@ -60,7 +60,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
     ),
     faq(
       "Can I move a trapped raccoon to the Ocala National Forest?",
-      "Not without written permission. FWC says public land can't be a release site without the land manager's written permission. Otherwise the raccoon goes back on your property or 40 or more contiguous acres in the county with the owner's permission.",
+      "Not without written permission. FWC says public land can't be a release site without the land manager's written permission. Any trapped raccoon must be released or euthanized within 24 hours, and an off-site release needs 40 or more contiguous acres in the county and the owner's written permission.",
     ),
     faq(
       "Why do my garbage cans draw raccoons?",
@@ -91,7 +91,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
     { title: "DOH-Marion: Rabies alert, May 14, 2026 (raccoon, Ocala area off SE 8th St.)", url: "https://marion.floridahealth.gov/2026/05/14/doh-marion-issues-rabies-alert-11/" },
     { title: "Florida DEP: Silver Springs State Park Unit Management Plan Amendment, Dec. 17, 2014 (nuisance cases may arise from raccoons)", url: SSSP },
     { title: "Florida DEP: Rainbow Springs Aquatic Preserve Management Plan, June 2016 (southwest Marion County; raccoon among documented species)", url: RSAP },
-    { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county with written permission; publicly owned lands need the land manager's written permission)", url: RELOCATE },
+    { title: "FWC: Relocating nuisance wildlife (released or euthanized within 24 hours; off-site release only in the county of capture on 40+ contiguous acres with the owner's written permission; publicly owned lands need the land manager's written permission)", url: RELOCATE },
   ],
   clientQuestions: ["Typical response time for a raccoon call in Marion County?", "A real Google review from a Marion County raccoon job (TTR-723), and real Marion raccoon job photos."],
 });

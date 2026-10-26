@@ -2,6 +2,7 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
+ * HELD (Ben, Oct 26, 2026: about 5 facts, 2 about the town; unregistered).
  * Raccoon removal in Silver Springs (TTR-738, Nia). Every card is one true fact
  * about raccoons in Silver Springs or Marion County: DOH-Marion's July 2023
  * alert, the 2014 and 2010 park management plans (one PDF), the state's
