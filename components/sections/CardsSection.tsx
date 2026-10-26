@@ -37,7 +37,7 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
         </span>
       ) : null}
       {card.number && variant !== "numbered" ? <p className="mb-1 font-display text-[2rem] font-bold leading-[1.1] tabular-nums text-blue-deep">{card.number}</p> : null}
-      <h3 className={`font-display text-h3 font-bold text-navy ${whole || (photo && !card.href) ? "sr-only" : ""} ${card.subtitle ? "mb-1" : "mb-2"}`}>
+      <h3 className={`font-display text-h3 font-bold text-navy ${whole || (photo && !card.href) ? "sr-only" : ""} ${card.subtitle ? "mb-1" : card.text?.length ? "mb-2" : ""}`}>
         {card.href && !whole ? (
           <Link href={card.href} className="after:absolute after:inset-0 after:rounded-[inherit] after:content-[''] hover:text-blue-deep">
             {card.title}

@@ -98,7 +98,6 @@ export const batRemoval: Service = {
           "If you wake up with a bat in the room, or find one near a child or a pet, don't let it go. The CDC says to call your county health department or animal control first so the bat can be tested.",
         ),
       ),
-      image: images.batRemoval2,
       imageSide: "right",
     },
     {

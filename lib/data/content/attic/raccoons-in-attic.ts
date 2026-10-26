@@ -25,7 +25,6 @@ export const raccoonsInAttic: Service = {
     heading: "Raccoons in the Attic in Tampa Bay",
     highlight: "Raccoons in the Attic",
     text: p("Heavy steps overhead in the evening, a torn soffit, a smell from one corner. Here's how to confirm a raccoon and why the order of the fix matters."),
-    image: images.raccoonRemoval,
     badges: ["Evening thumping", "Spring babies", "Latrine cleanup"],
   },
   sections: [
@@ -113,7 +112,6 @@ export const raccoonsInAttic: Service = {
           "**Cleaning the latrine bare-handed.** Raccoon droppings can carry roundworm eggs. FWC advises gloves. FWC and the CDC both say to burn or bury the droppings, and the CDC adds sending them to a landfill.",
         ),
       ),
-      image: images.raccoonRemoval,
       imageSide: "right",
     },
     {

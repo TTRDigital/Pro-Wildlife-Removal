@@ -2,11 +2,12 @@ import { Phone } from "lucide-react";
 import { chatWidgetId } from "@/lib/chat";
 
 /** Call bar fixed to the bottom on phones, on every page: one big orange call button with an "open now" dot. Leaves room for the chat bubble when the chat is on. */
-export function MobileCallBar({ phone, phoneHref }: { phone: string; phoneHref: string }) {
+/** local: a page's own line (a county page), drawn over the site-wide bar with no second spacer. */
+export function MobileCallBar({ phone, phoneHref, local = false }: { phone: string; phoneHref: string; local?: boolean }) {
   return (
     <>
-      <div aria-hidden="true" className="h-[76px] md:hidden" />
-      <div className={`fixed inset-x-0 bottom-0 z-40 border-t border-navy/10 bg-white/90 px-3 pt-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))] shadow-[0_-10px_30px_-12px_rgb(14_42_71/0.25)] backdrop-blur-md md:hidden ${chatWidgetId ? "pr-[76px]" : ""}`}>
+      {local ? null : <div aria-hidden="true" className="h-[76px] md:hidden" />}
+      <div className={`fixed inset-x-0 bottom-0 ${local ? "z-[41]" : "z-40"} border-t border-navy/10 bg-white/90 px-3 pt-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))] shadow-[0_-10px_30px_-12px_rgb(14_42_71/0.25)] backdrop-blur-md md:hidden ${chatWidgetId ? "pr-[76px]" : ""}`}>
         <a
           href={phoneHref}
           data-track="click_to_call"

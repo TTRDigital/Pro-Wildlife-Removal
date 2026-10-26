@@ -25,7 +25,6 @@ export const batsInAttic: Service = {
     heading: "Bats in the Attic in Tampa Bay",
     highlight: "Bats in the Attic",
     text: p("A colony in the attic needs a plan that fits Florida's calendar. Here's how to confirm it's bats, what the law allows right now, and what cleanup involves."),
-    image: images.batRemoval2,
     badges: ["Dusk watch", "Legal dates", "Guano cleanup"],
   },
   sections: [
@@ -98,7 +97,6 @@ export const batsInAttic: Service = {
           "**A bat in the house.** A colony in the attic can mean the odd bat in a bedroom. Not all bats carry rabies, but the CDC says bat bites can be tiny, so any contact needs a call to the health department.",
         ),
       ),
-      image: images.batRemoval2,
       imageSide: "right",
     },
     {
@@ -146,7 +144,6 @@ export const batsInAttic: Service = {
         "New insulation where the old had to go",
         "[PLACEHOLDER: ask the client: how you handle guano cleanup and insulation replacement, and whether it's quoted separately]",
       ],
-      image: images.batRemoval2,
       imageSide: "left",
     },
     {
