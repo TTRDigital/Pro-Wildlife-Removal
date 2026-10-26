@@ -8,6 +8,7 @@ import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
 import { HomeHero, PageHero } from "./PageHero";
+import { BatCatch } from "@/components/ui/BatCatch";
 import { TrustBar, defaultTrust } from "./TrustBar";
 import { Sections } from "./Sections";
 
@@ -67,6 +68,7 @@ export async function PageView({
         )}
         {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
         <Sections sections={page.sections} ids={ids} closing={closing} />
+        {path === "/" ? <BatCatch /> : null}
       </>
     );
   }
