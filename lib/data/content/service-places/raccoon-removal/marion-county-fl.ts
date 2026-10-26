@@ -77,7 +77,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   seo: {
     title: "Raccoon Removal in Marion County, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Marion County, FL: raccoons out of homes and barns, young checked first and entry points sealed, plus DOH-Marion's rabies notices.",
+      "Raccoon removal in Marion County, FL: raccoons out of homes and barns, young checked first and all entry points sealed, plus DOH-Marion's rabies notices.",
   },
   sources: [
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2022 (Marion: 2 raccoons, 1 bat)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2022.pdf" },

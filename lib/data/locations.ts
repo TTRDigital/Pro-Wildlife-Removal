@@ -661,7 +661,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our commitment goes beyond merely removing nuisance wildlife – we offer a range of specialized services to ensure your property is not only free from wildlife intrusions but also restored to its optimal condition. Our “Clean Up” service is designed to tackle the aftermath of wildlife presence, ensuring your environment is safe, sanitary, and welcoming. Here’s an overview of how our Clean Up process works:",
+        "text": "Our commitment goes beyond merely removing nuisance wildlife – we offer a range of specialized services to ensure your property is not only free from wildlife intrusions but also cleaned up afterward. Our “Clean Up” service is designed to tackle the aftermath of wildlife presence, ensuring your environment is safe, sanitary, and welcoming. Here’s an overview of how our Clean Up process works:",
         "marks": []
        }
       ],
@@ -715,14 +715,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Professional Restoration:",
+        "text": "Final Clean-Up:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " We restore your property to its pre-wildlife condition, ensuring that both indoor and outdoor spaces are free from contamination and debris.",
+        "text": " We make sure both indoor and outdoor spaces are free from contamination and debris.",
         "marks": []
        }
       ],
@@ -791,7 +791,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal offers various services tailored to address various nuisance wildlife issues. From live trapping and removal to attic restoration and animal-proofing, their skilled team ensures a comprehensive solution.",
+        "text": "Pro Wildlife Removal offers various services tailored to address various nuisance wildlife issues. From live trapping and removal to animal-proofing, their skilled team ensures a comprehensive solution.",
         "marks": []
        }
       ],
@@ -1918,7 +1918,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Based on our inspection findings, we create a customized removal plan tailored to your specific situation. This plan outlines the steps we’ll take to remove the wildlife, repair any damage, and implement preventive measures to avoid future issues.",
+        "text": "Based on our inspection findings, we create a customized removal plan tailored to your specific situation. This plan outlines the steps we’ll take to remove the wildlife, seal entry points, and implement preventive measures to avoid future issues.",
         "marks": []
        }
       ],
@@ -1966,7 +1966,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Once the wildlife has been safely removed, we focus on preventing future infestations. This involves sealing entry points, installing barriers, and making necessary repairs to your property. We also recommend ways to keep wildlife from moving back in.",
+        "text": "Once the wildlife has been safely removed, we focus on preventing future infestations. This involves sealing entry points and installing barriers. We also recommend ways to keep wildlife from moving back in.",
         "marks": []
        }
       ],
@@ -1978,7 +1978,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Post-Removal Repairs",
+        "text": "After the Removal",
         "marks": []
        }
       ],
@@ -1990,7 +1990,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife can cause significant damage to your property. Our team not only removes the animals but also addresses any damage they’ve caused. This includes repairing holes, replacing insulation, and cleaning up waste to ensure your property is restored to its original condition and fully decontaminated.",
+        "text": "Wildlife can cause significant damage to your property. Our team removes the animals, seals the holes they used, and cleans up waste so the area is fully decontaminated. Repairs to damaged structure or insulation are arranged by the owner with a contractor.",
         "marks": []
        }
       ],
@@ -2847,14 +2847,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "2. Wildlife Damage Repair and Prevention:",
+        "text": "2. Wildlife Damage Prevention:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " Our services extend beyond removal. We repair the damage caused by wildlife, such as chewed wires, damaged insulation, or compromised structures. Moreover, we implement preventative measures to deter future wildlife intrusions, sealing entry points and advising on property maintenance to minimize wildlife attraction.",
+        "text": " Our services extend beyond removal. We implement preventative measures to deter future wildlife intrusions, sealing entry points and advising on property maintenance to minimize wildlife attraction. Damage such as chewed wires or broken structure is repaired by an electrician or contractor the owner arranges.",
         "marks": []
        }
       ],
@@ -2938,7 +2938,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Got animals causing damage? We don’t just get rid of them; we can fix up your home too. Our team can repair any damage caused by these unwanted guests and clean up after them, so it’s like they were never there.",
+        "text": " Got animals causing damage? We don’t just get rid of them; our team can clean up after these unwanted guests too. Repairs to the house itself are arranged by the owner with a contractor.",
         "marks": []
        }
       ],
@@ -3222,7 +3222,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "3: Wildlife Removal and Damage Repair",
+        "text": "3: Wildlife Removal and Sealing",
         "marks": [
          "strong"
         ]
@@ -3236,14 +3236,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Removal and Repair:",
+        "text": "Removal and Sealing:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " Our team proceeds with the efficient trapping and removal of pests, addressing any damage or entry points to prevent future invasions. This includes decontaminating affected sites, cleaning up any messes, and repairing insulation or structures damaged by wildlife.",
+        "text": " Our team proceeds with the efficient trapping and removal of pests, sealing entry points to prevent future invasions. This includes decontaminating affected sites and cleaning up any messes.",
         "marks": []
        }
       ],
@@ -4133,20 +4133,6 @@ const migratedLocations: Location[] = [
      },
      {
       "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Repairing any damages caused by the wildlife to restore your property to its original condition",
-        "marks": []
-       }
-      ],
-      "markDefs": [],
-      "listItem": "bullet",
-      "level": 1
-     },
-     {
-      "_type": "block",
       "style": "h3",
       "children": [
        {
@@ -4776,7 +4762,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": From inspection and removal to exclusion and repair, we provide complete solutions to prevent future infestations.",
+        "text": ": From inspection and removal to exclusion, we provide complete solutions to prevent future infestations.",
         "marks": []
        }
       ],
@@ -5015,14 +5001,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Repairs and Maintenance",
+        "text": "Follow-Up Visits",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": ": Our team can repair any damage caused by wildlife and offer follow-up visits to check for new activity.",
+        "text": ": Our team can offer follow-up visits to check for new activity.",
         "marks": []
        }
       ],
@@ -5274,7 +5260,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": In addition to removal, we implement exclusion techniques and repairs to prevent future wildlife intrusions.",
+        "text": ": In addition to removal, we implement exclusion techniques to prevent future wildlife intrusions.",
         "marks": []
        }
       ],
@@ -5476,14 +5462,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Property Repairs & Clean-up",
+        "text": "Sealing & Clean-up",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": ": We will repair any damage caused by the animals involved and seal potential entry points to prevent future infestations. This may include repairing holes, installing barriers, and reinforcing vulnerable areas. We also fully decontaminate the area to ensure your safety.",
+        "text": ": We will seal potential entry points to prevent future infestations. This may include closing holes, installing barriers, and reinforcing vulnerable areas. We also fully decontaminate the area to ensure your safety.",
         "marks": []
        }
       ],
@@ -5954,7 +5940,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Step 4: Damage Repair and Sanitation",
+        "text": "Step 4: Sanitation",
         "marks": [
          "strong"
         ]
@@ -5968,7 +5954,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "After the wildlife removal process is complete, we address any damage caused by the animals. This includes cleaning and sanitizing the affected areas to eliminate health risks from droppings or urine.",
+        "text": "After the wildlife removal process is complete, we deal with what the animals left behind. This includes cleaning and sanitizing the affected areas to eliminate health risks from droppings or urine.",
         "marks": []
        }
       ],
@@ -6176,7 +6162,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We provide a comprehensive approach to wildlife removal, from assessment and removal to repair and preventative measures.",
+        "text": "We provide a comprehensive approach to wildlife removal, from assessment and removal to preventative measures.",
         "marks": []
        }
       ],
@@ -6540,7 +6526,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "From initial assessment to final prevention measures, our services cover every aspect of wildlife removal. We don’t just remove the wildlife; we also repair damage, sanitize affected areas, and implement strategies to prevent future infestations.",
+        "text": "From initial assessment to final prevention measures, our services cover every aspect of wildlife removal. We don’t just remove the wildlife; we also sanitize affected areas and implement strategies to prevent future infestations.",
         "marks": []
        }
       ],

@@ -18130,7 +18130,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Different rat species choose different entry points, nesting sites, and bait preferences. In Florida the common pest species are the Norway rat and the roof rat. Correctly identifying whether you are dealing with a Norway rat or a roof rat tells you whether to focus on ground-level trenching and burrow repair or on attic and roofline exclusion. The University of Florida IFAS extension has clear identification guides, and the Centers for Disease Control lists health risks associated with commensal rodents, both useful references for homeowners (",
+      "text": "Different rat species choose different entry points, nesting sites, and bait preferences. In Florida the common pest species are the Norway rat and the roof rat. Correctly identifying whether you are dealing with a Norway rat or a roof rat tells you whether to focus on ground-level trenching and burrow sealing or on attic and roofline exclusion. The University of Florida IFAS extension has clear identification guides, and the Centers for Disease Control lists health risks associated with commensal rodents, both useful references for homeowners (",
       "marks": []
      },
      {
@@ -18868,7 +18868,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Many of the rat-related wiring jobs in our service area involved roof rats nesting in attics, and plenty of those jobs also needed insulation replacement.",
+      "text": "Many of the rat jobs in our service area with chewed attic wiring involved roof rats nesting in attics, and plenty of those attics also had soiled insulation.",
       "marks": []
      }
     ],
@@ -19118,7 +19118,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " is the first practical step toward a lasting solution in Florida. Roof rats favor attics and trees while Norway rats prefer ground-level burrows. Identification informs whether you prioritize roofline exclusion or foundation repairs. For a precise species identification, targeted exclusion, and safe cleanup schedule a professional inspection via our services and consult local extension resources such as the University of Florida IFAS and CDC for health guidance.",
+      "text": " is the first practical step toward a lasting solution in Florida. Roof rats favor attics and trees while Norway rats prefer ground-level burrows. Identification informs whether you prioritize roofline exclusion or foundation-level sealing. For a precise species identification, targeted exclusion, and safe cleanup schedule a professional inspection via our services and consult local extension resources such as the University of Florida IFAS and CDC for health guidance.",
       "marks": []
      }
     ],
@@ -19286,7 +19286,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " lists rodents as vectors for multiple diseases. For homeowners, quick detection limits structural damage and lowers infestation persistence in neighborhoods. Locally focused repairs and visible, documented exclusions also boost local search relevance when homeowners search for nearby services or prevention guidance.",
+      "text": " lists rodents as vectors for multiple diseases. For homeowners, quick detection limits structural damage and lowers infestation persistence in neighborhoods. Locally focused, visible, documented exclusion work also boosts local search relevance when homeowners search for nearby services or prevention guidance.",
       "marks": []
      }
     ],
@@ -19316,7 +19316,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats squeeze through surprisingly small openings and exploit common weaknesses in building envelopes. The table below summarizes the common entry points, how rats use them, and the repair action recommended by experienced contractors and wildlife technicians.",
+      "text": "Rats squeeze through surprisingly small openings and exploit common weaknesses in building envelopes. The table below summarizes the common entry points, how rats use them, and the recommended fix. Structural items such as soffit panels, flashing, and shingles are repaired by a contractor.",
       "marks": []
      }
     ],
@@ -19520,7 +19520,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Attic insulation cleanup and partial replacement",
+      "text": "Attic insulation cleanup",
       "marks": []
      }
     ],
@@ -19534,7 +19534,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Full attic remediation plus repairs",
+      "text": "Full attic remediation and exclusion",
       "marks": []
      }
     ],
@@ -19593,7 +19593,7 @@ const migratedPosts: Post[] = [
       "cells": [
        "Local pest control",
        "Easy to book, affordable for baiting and traps",
-       "Often excludes building repair and sanitation scope",
+       "Often excludes entry-point sealing and sanitation scope",
        "If you only need trapping and monitoring"
       ]
      },
@@ -19601,7 +19601,7 @@ const migratedPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Professional wildlife exclusion",
-       "Comprehensive: inspection, exclusion, sanitation, repairs, warranty",
+       "Comprehensive: inspection, exclusion, sanitation, warranty",
        "Higher cost but reduces repeat visits and hidden contamination",
        "When attic, insulation, or structural access is involved"
       ]
@@ -19856,7 +19856,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Sanitize contaminated insulation and replace when necessary. Repair wiring as needed with a licensed electrician.",
+      "text": "Sanitize contaminated insulation and have it replaced when necessary. Have a licensed electrician repair any damaged wiring.",
       "marks": []
      }
     ],
@@ -20452,7 +20452,7 @@ const migratedPosts: Post[] = [
       "cells": [
        "Entry Point",
        "How It Is Exploited",
-       "Immediate Repair"
+       "Immediate Fix"
       ]
      },
      {
@@ -20583,7 +20583,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Exclusion and roofline repairs",
+      "text": "Exclusion and roofline sealing",
       "marks": []
      }
     ],
@@ -20597,7 +20597,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Attic sanitation and insulation replacement",
+      "text": "Attic sanitation",
       "marks": []
      }
     ],
@@ -20635,7 +20635,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A robust exclusion plan stops access, repairs damage, and addresses contamination. Use the checklist below when evaluating quotes.",
+      "text": "A robust exclusion plan stops access, addresses contamination, and flags damage for a contractor to repair. Use the checklist below when evaluating quotes.",
       "marks": []
      }
     ],
@@ -20647,7 +20647,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Photographic inspection with clear identification of entry points and timelines for repairs.",
+      "text": "Photographic inspection with clear identification of entry points and timelines for sealing.",
       "marks": []
      }
     ],
@@ -20715,7 +20715,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " which breaks down the inspection-to-repair workflow step by step.",
+      "text": " which breaks down the inspection-to-exclusion workflow step by step.",
       "marks": []
      }
     ],
@@ -20934,14 +20934,14 @@ const migratedPosts: Post[] = [
       "cells": [
        "Local pest control",
        "Often fast and low-cost for basic trapping",
-       "May lack building-repair skills or sanitation scope; some companies avoid attic work"
+       "May lack exclusion skills or sanitation scope; some companies avoid attic work"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Professional wildlife removal and exclusion",
-       "Comprehensive: removal, exclusion, sanitation, repairs, and warranty",
+       "Comprehensive: removal, exclusion, sanitation, and warranty",
        "Higher cost but reduces repeat visits and long-term expenses"
       ]
      }
@@ -21049,7 +21049,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "They will if entry points are not permanently fixed. Recurrence is a common homeowner complaint on Reddit. A permanent exclusion plan that includes flashing, soffit repair, chimney caps, and monitoring reduces the chance of return significantly.",
+      "text": "They will if entry points are not permanently fixed. Recurrence is a common homeowner complaint on Reddit. A permanent exclusion plan that includes flashing, soffit screening, chimney caps, and monitoring reduces the chance of return significantly.",
       "marks": []
      }
     ],
@@ -21699,14 +21699,14 @@ const migratedPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Insulation replacement (contaminated)",
+       "Contaminated insulation",
        "Many homeowners find full removal required if insulation is saturated"
       ]
      },
      {
       "_type": "row",
       "cells": [
-       "Exclusion repairs and sealing",
+       "Exclusion and sealing",
        "Depends on number of entry points and foundation access"
       ]
      },
@@ -21920,7 +21920,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Repair and sealing of all identified entry points with durable materials and a warranty.",
+      "text": "Sealing of all identified entry points with durable materials and a warranty.",
       "marks": []
      }
     ],
@@ -22252,7 +22252,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "It depends on how many animals are involved, how much cleanup the crawl space needs, and what repairs are required. Ask for an itemized quote that separates inspection, removal, cleanup, insulation work, and repairs.",
+      "text": "It depends on how many animals are involved, how much cleanup the crawl space needs, and whether a contractor needs to make repairs. Ask for an itemized quote that separates inspection, removal, cleanup, and insulation work.",
       "marks": []
      }
     ],
