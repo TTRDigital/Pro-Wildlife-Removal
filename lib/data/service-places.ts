@@ -11,6 +11,8 @@ import { batRemovalHillsboroughCounty } from "./content/service-places/bat-remov
 import { raccoonRemovalHillsboroughCounty } from "./content/service-places/raccoon-removal/hillsborough-county-fl.ts";
 import { ratRemovalHillsboroughCounty } from "./content/service-places/rat-removal/hillsborough-county-fl.ts";
 import { squirrelRemovalHillsboroughCounty } from "./content/service-places/squirrel-removal/hillsborough-county-fl.ts";
+import { ratRemovalPalmHarbor } from "./content/service-places/rat-removal/palm-harbor-fl.ts";
+import { raccoonRemovalPalmHarbor } from "./content/service-places/raccoon-removal/palm-harbor-fl.ts";
 import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
 import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
 import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
@@ -51,6 +53,9 @@ export const fallbackServicePlaces: ServicePlace[] = [
   batRemovalHillsboroughCounty,
   raccoonRemovalHillsboroughCounty,
   squirrelRemovalHillsboroughCounty,
+  // Palm Harbor (Owen)
+  ratRemovalPalmHarbor,
+  raccoonRemovalPalmHarbor,
   // Pasco (Nia)
   ratRemovalPascoCounty,
   batRemovalPascoCounty,
