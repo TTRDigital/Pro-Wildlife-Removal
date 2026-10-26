@@ -1,6 +1,6 @@
 import { images } from "../../images.ts";
 import type { Post } from "../../../types";
-import { h3, p, rich, table, ul } from "../pt.ts";
+import { faq, h3, p, rich, table, ul } from "../pt.ts";
 
 /*
  * Guide: bat removal cost. Rewritten in place at the existing slug (Ben, Oct 26):
@@ -80,15 +80,13 @@ export const batRemovalCost: Post = {
       "**Don't block the exits yourself.** Trapped bats mean dead bats in the walls and a second bill for [odor and dead animal removal](/services/dead-animal-removal/).",
       "**Put up a bat house before the exclusion.** FWC suggests one close to the roost, in the bats' flight path, on a pole or building. It doesn't replace exclusion, but gives the colony somewhere to go.",
     ),
-    h3("Common questions"),
-    h3("Is bat removal cheaper in winter?"),
-    p("Not necessarily cheaper, but easier to schedule. Exclusion is allowed from August 15 to April 15, as long as overnight lows are forecast at 50°F or warmer during the exclusion."),
-    h3("Does homeowners insurance cover bat removal?"),
-    p("It depends entirely on your policy. Ask your insurer before the work starts, and keep the inspection report."),
-    h3("Can I just buy a one-way device and do it myself?"),
-    p("You can, but the rules still apply: no exclusion in maternity season without a permit, devices on every key exit for at least four nights, and every other gap sealed. A missed gap means paying twice."),
     p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (727) 594-7705. We exclude bats across [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) and seven more counties."),
   ),
+  faq: [
+    faq("Is bat removal cheaper in winter?", "Not necessarily cheaper, but easier to schedule. Exclusion is allowed from August 15 to April 15, as long as overnight lows are forecast at 50°F or warmer during the exclusion."),
+    faq("Does homeowners insurance cover bat removal?", "It depends entirely on your policy. Ask your insurer before the work starts, and keep the inspection report."),
+    faq("Can I just buy a one-way device and do it myself?", "You can, but the rules still apply: no exclusion in maternity season without a permit, devices on every key exit for at least four nights, and every other gap sealed. A missed gap means paying twice."),
+  ],
   seo: {
     title: "Bat Removal Cost in Florida (2026) | Pro Wildlife Removal",
     description:

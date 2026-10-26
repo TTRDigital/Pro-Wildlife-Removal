@@ -1,5 +1,5 @@
 import type { Post } from "../../../types";
-import { h3, p, rich, table, ul } from "../pt.ts";
+import { faq, h3, p, rich, table, ul } from "../pt.ts";
 import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /* Guide: Florida's wildlife trapping rules for homeowners. New slug (no existing post on the topic). */
@@ -76,14 +76,12 @@ export const floridaTrappingRules: Post = {
     ),
     h3("Should you trap it yourself?"),
     p("Trapping is legal, but it's the easy half. You still have to check the trap every day, deal with what you catch within the deadline, and close the hole the animal used, or the next one moves in. Many homeowners call a professional for exactly those reasons. See [raccoon trapping](/blog/raccoon-trapping-florida/) for a worked example, or call (727) 594-7705. Our county pages, such as [Pasco](/about-us/service-area/wildlife-removal-in-pasco-county-fl/) and [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), list the local agencies to call."),
-    h3("Common questions"),
-    h3("Do I need a permit to trap a raccoon on my property in Florida?"),
-    p("Not for a live trap on your own property under today's rules. From December 31, 2026, FWC's new rules require registration and training for most trappers, with an exemption for a homeowner using one regular-size cage trap on their own property."),
-    h3("Can I drive a trapped animal to a park and let it go?"),
-    p("No. Release on public or private land without written permission isn't allowed, and only land of 40 or more contiguous acres in the same county qualifies."),
-    h3("What happens if I catch the wrong animal?"),
-    p("Release it right away at the spot where you caught it. If it's a bobcat, it must be released."),
   ),
+  faq: [
+    faq("Do I need a permit to trap a raccoon on my property in Florida?", "Not for a live trap on your own property under today's rules. From December 31, 2026, FWC's new rules require registration and training for most trappers, with an exemption for a homeowner using one regular-size cage trap on their own property."),
+    faq("Can I drive a trapped animal to a park and let it go?", "No. Release on public or private land without written permission isn't allowed, and only land of 40 or more contiguous acres in the same county qualifies."),
+    faq("What happens if I catch the wrong animal?", "Release it right away at the spot where you caught it. If it's a bobcat, it must be released."),
+  ],
   seo: {
     title: "Florida Wildlife Trapping Rules 2026 | Pro Wildlife Removal",
     description:

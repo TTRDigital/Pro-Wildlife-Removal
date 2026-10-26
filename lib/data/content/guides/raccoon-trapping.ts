@@ -1,6 +1,6 @@
 import { images } from "../../images.ts";
 import type { Post } from "../../../types";
-import { h3, p, rich, table, ul } from "../pt.ts";
+import { faq, h3, p, rich, table, ul } from "../pt.ts";
 import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 
 /* Guide: raccoon trapping in Florida. New slug (no existing post on the topic). */
@@ -73,14 +73,12 @@ export const raccoonTrapping: Post = {
     ),
     h3("When to call a professional"),
     p("Call if the raccoon is in the attic, walls or chimney, if there may be kits, if you don't want to handle the release or euthanasia, or if the raccoon keeps beating the trap. Trapping is only part of the job: the entry has to be repaired too. See [raccoon removal](/services/raccoon-removal/) and [raccoons in the attic](/services/raccoons-in-attic/), or call (727) 594-7705."),
-    h3("Common questions"),
-    h3("Can I relocate a raccoon in Florida?"),
-    p("Only to land the rules allow: on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Parks and other public land are off limits without written permission. UF/IFAS recommends against relocating raccoons."),
-    h3("How often do I have to check a raccoon trap?"),
-    p("At least once every 24 hours, under Florida's nuisance wildlife rule."),
-    h3("What if I catch a cat or an opossum instead?"),
-    p("Let it go right away, where you caught it. Florida requires non-target animals to be released immediately at the capture site. If an opossum is the real problem, see [opossum removal](/services/opossum-removal/)."),
   ),
+  faq: [
+    faq("Can I relocate a raccoon in Florida?", "Only to land the rules allow: on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Parks and other public land are off limits without written permission. UF/IFAS recommends against relocating raccoons."),
+    faq("How often do I have to check a raccoon trap?", "At least once every 24 hours, under Florida's nuisance wildlife rule."),
+    faq("What if I catch a cat or an opossum instead?", "Let it go right away, where you caught it. Florida requires non-target animals to be released immediately at the capture site. If an opossum is the real problem, see [opossum removal](/services/opossum-removal/)."),
+  ],
   seo: {
     title: "Raccoon Trapping in Florida: Rules | Pro Wildlife Removal",
     description:

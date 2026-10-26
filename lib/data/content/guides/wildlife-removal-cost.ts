@@ -1,6 +1,6 @@
 import { images } from "../../images.ts";
 import type { Post } from "../../../types";
-import { h3, p, rich, table, ul } from "../pt.ts";
+import { faq, h3, p, rich, table, ul } from "../pt.ts";
 import { TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
@@ -56,15 +56,13 @@ export const wildlifeRemovalCost: Post = {
     ),
     h3("How to compare quotes"),
     p("Ask every company the same questions: Is every opening included, or only the one the animal used? Is cleanup included or extra? How many return visits does trapping include? What happens if the animal gets back in? Two quotes that answer those differently aren't for the same job."),
-    h3("Common questions"),
-    h3("Why can't you give me a price over the phone?"),
-    p("Most companies need to see the roof and attic first, because the openings and the cleanup decide most of the price."),
-    h3("Is the cheapest quote the better deal?"),
-    p("Only if it includes the same work. A low price that removes the animal but skips sealing usually means paying again when the next one moves in."),
-    h3("Does homeowners insurance pay for wildlife removal?"),
-    p("It depends on your policy and the damage. Check with your insurer before the work starts, and keep the inspection report and photos."),
     p("Find your animal on our [services page](/services/), or call (727) 594-7705. County pages for [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), [Pasco](/about-us/service-area/wildlife-removal-in-pasco-county-fl/) and [Hernando](/about-us/service-area/wildlife-removal-in-hernando-county-fl/) list who handles what locally."),
   ),
+  faq: [
+    faq("Why can't you give me a price over the phone?", "Most companies need to see the roof and attic first, because the openings and the cleanup decide most of the price."),
+    faq("Is the cheapest quote the better deal?", "Only if it includes the same work. A low price that removes the animal but skips sealing usually means paying again when the next one moves in."),
+    faq("Does homeowners insurance pay for wildlife removal?", "It depends on your policy and the damage. Check with your insurer before the work starts, and keep the inspection report and photos."),
+  ],
   seo: {
     title: "Wildlife Removal Cost in Tampa Bay | Pro Wildlife Removal",
     description:

@@ -1,5 +1,5 @@
 import type { Post } from "../../../types";
-import { h3, p, rich, table, ul } from "../pt.ts";
+import { faq, h3, p, rich, table, ul } from "../pt.ts";
 
 /*
  * Guide: animal in attic removal and cleanup cost. Rewritten in place at the existing
@@ -78,15 +78,13 @@ export const atticCleanupCost: Post = {
       "**Secure trash, pet food and fallen fruit.** FWC lists these among the things that draw opossums and raccoons to a house.",
       "**Check the roofline after storms.** UF/IFAS Extension advises repairing storm damage promptly so animals don't find the gap first.",
     ),
-    h3("Common questions"),
-    h3("Does homeowners insurance cover attic cleanup after animals?"),
-    p("It depends on your policy and on the animal. Ask your insurer before work starts, and keep the inspection report and photos."),
-    h3("How long does attic cleanup take?"),
-    p("[PLACEHOLDER: ask the client: how long a typical attic cleanup takes, from removing insulation to re-insulating]"),
-    h3("Why is cleanup sometimes more than the removal?"),
-    p("Because the mess builds up the longer the animal stays. A raccoon caught the week it moved in leaves little behind. A rat colony that lived in the attic for a year can mean replacing the insulation across the whole attic."),
     p("See the animal pages for details: [rats in the attic](/services/rats-in-attic/), [bats in the attic](/services/bats-in-attic/), [raccoons in the attic](/services/raccoons-in-attic/), [squirrels in the attic](/services/squirrels-in-attic/) and [opossums in the attic](/services/opossums-in-attic/). Or call (727) 594-7705. We do attic work from [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) to [Polk](/about-us/service-area/wildlife-removal-polk-county/) and [Citrus](/about-us/service-area/wildlife-removal-in-citrus-county-fl/)."),
   ),
+  faq: [
+    faq("Does homeowners insurance cover attic cleanup after animals?", "It depends on your policy and on the animal. Ask your insurer before work starts, and keep the inspection report and photos."),
+    faq("How long does attic cleanup take?", "[PLACEHOLDER: ask the client: how long a typical attic cleanup takes, from removing insulation to re-insulating]"),
+    faq("Why is cleanup sometimes more than the removal?", "Because the mess builds up the longer the animal stays. A raccoon caught the week it moved in leaves little behind. A rat colony that lived in the attic for a year can mean replacing the insulation across the whole attic."),
+  ],
   seo: {
     title: "Attic Animal Removal and Cleanup Cost | Pro Wildlife Removal",
     description:
