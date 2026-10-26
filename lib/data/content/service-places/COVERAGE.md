@@ -31,7 +31,7 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Safety Harbor | Rhea | E | N | N | H | raccoon (Nia) held: only 4 real raccoon facts |
 | Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
 | Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
-| The Villages | Nia | E | P | N | H | city page cleared (0c320c2); bat page failed fact check, out of the preview until Nia's fixes; old rat page linked; raccoon page held at 5 facts (Ben, 1962bb0); squirrel page (0381c47) in Ben's check, unregistered |
+| The Villages | Nia | E | P | H | H | city page cleared (0c320c2); bat page failed fact check, out of the preview until Nia's fixes; old rat page linked; raccoon page held at 5 facts (Ben, 1962bb0); squirrel page held (0381c47) |
 | Marion County | Nia | N | L | N | L | county page cleared (b77a606); communities section cleared (1c65dc2); bat page cleared (5958797); raccoon page cleared (31ea209, 992f6e2) |
 | Ocala | Nia | H | S | N | L | city page cleared (b77a606); rat page held, 2 qualifying facts, under 6 (Ben, 1b0d9b3); bat skipped, no town facts (Ben); raccoon page cleared (c98db2f) |
 | Belleview | Nia | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
@@ -59,9 +59,9 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | fixes pending | 0 | 1 | 0 | 0 | 1 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
 | county section | 11 | 11 | 11 | 11 | 44 |
-| held | 2 | 1 | 4 | 5 | 12 |
+| held | 2 | 1 | 5 | 5 | 13 |
 | skipped | 3 | 7 | 6 | 4 | 20 |
-| not started | 7 | 11 | 14 | 6 | 38 |
+| not started | 7 | 11 | 13 | 6 | 37 |
 | **all cells** | 41 | 41 | 41 | 41 | 164 |
 
 Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
