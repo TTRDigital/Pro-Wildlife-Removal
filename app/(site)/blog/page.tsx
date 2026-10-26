@@ -45,15 +45,24 @@ export default async function BlogIndex() {
           </div>
         </div>
       </section>
-      <section className="section bg-white">
+      <section className="section bg-white" aria-labelledby="latest-guides">
         <div className="wrap">
+          {/* The cards' titles are h3s: a heading for the list keeps the outline in order (Wade, accessibility). */}
+          <h2 id="latest-guides" className="sr-only">
+            Latest guides
+          </h2>
           <BlogTopics topics={topics.map((t) => ({ key: t.key, label: t.label, count: posts.filter((p) => postTopic(p)?.key === t.key).length })).filter((t) => t.count > 0)}>
             <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((p, i) => (
-                <li key={p.slug} data-topic={postTopic(p)?.key ?? "other"} className={i === 0 ? "blog-featured md:col-span-2 lg:col-span-3" : undefined}>
-                  <PostCard post={p} index={i} featured={i === 0} />
-                </li>
-              ))}
+              {posts.map((p, i) => {
+                const key = postTopic(p)?.key ?? "other";
+                // its place among the posts on the same animal, so each card gets its own photo
+                const nth = posts.slice(0, i).filter((q) => (postTopic(q)?.key ?? "other") === key).length;
+                return (
+                  <li key={p.slug} data-topic={key} className={i === 0 ? "blog-featured md:col-span-2 lg:col-span-3" : undefined}>
+                    <PostCard post={p} index={i} featured={i === 0} nth={nth} />
+                  </li>
+                );
+              })}
             </ul>
           </BlogTopics>
         </div>

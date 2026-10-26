@@ -55,8 +55,8 @@ export const perks = ["Same-Day Service", "Free Inspection"];
  */
 /** The hero's photos: its own and the team's, or on an animal's page only that animal's (Kia). */
 export function heroSlides(hero: Hero, animal?: Img[]) {
-  const own = animal && hero.image && !animal.some((a) => a.src === hero.image?.src) ? undefined : hero.image;
-  return [own, ...(animal ?? teamPhotos)].filter((x, k, all): x is Img => Boolean(x) && all.findIndex((y) => shot(y) === shot(x)) === k).slice(0, 4);
+  // An animal's page opens on the client's own photos of it (they come first in its set), not the page's stock photo.
+  return (animal ? animal : [hero.image, ...teamPhotos]).filter((x, k, all): x is Img => Boolean(x) && all.findIndex((y) => shot(y) === shot(x)) === k).slice(0, 4);
 }
 
 export function PageHero({ hero, crumbs, ctas, settings, animal }: { hero: Hero; crumbs?: Crumb[]; ctas: Cta[]; settings: SiteSettings; animal?: Img[] }) {

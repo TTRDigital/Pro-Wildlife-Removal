@@ -6,6 +6,8 @@ import { LoopVideo } from "@/components/ui/LoopVideo";
 import { NearView } from "@/components/ui/NearView";
 import { animalVideos } from "@/lib/data/videos";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
+import { animalPhoto, pageAnimal } from "@/lib/topics";
+import { TileLife } from "@/components/ui/TileLife";
 
 export const groupLabels: Record<Service["group"], string> = {
   removal: "Wildlife removal",
@@ -15,7 +17,7 @@ export const groupLabels: Record<Service["group"], string> = {
 };
 
 export function ServiceCard({ s, index }: { s: Service; index: number }) {
-  const img = s.cardImage ?? s.hero.image;
+  const img = animalPhoto(`/services/${s.slug}/`) ?? s.cardImage ?? s.hero.image;
   return (
     <Link
       href={`/services/${s.slug}/`}
@@ -42,7 +44,7 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
 
 /** Compact photo tile (photo with the animal's name on a navy bar), as on the client-approved landing pages. */
 export function ServiceTile({ s, index }: { s: Service; index: number }) {
-  const img = s.cardImage ?? s.hero.image;
+  const img = animalPhoto(`/services/${s.slug}/`) ?? s.cardImage ?? s.hero.image;
   const video = s.cardVideo ?? animalVideos[s.animal];
   return (
     <Link
@@ -59,7 +61,14 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
           </NearView>
         ) : null}
         {/* No poster: the optimized photo above shows through until the clip plays, so the full JPG is not downloaded too. */}
-        {video ? <LoopVideo src={video} /> : null}
+        {video ? (
+          <LoopVideo src={video} />
+        ) : pageAnimal(`/services/${s.slug}/`) ? (
+          // no clip for this animal yet: its photos take turns and the drawn animal runs across (Kia)
+          <NearView>
+            <TileLife animal={s.animal} photos={pageAnimal(`/services/${s.slug}/`)!.images} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" />
+          </NearView>
+        ) : null}
       </div>
       <p className="flex min-h-12 items-center justify-center gap-1.5 px-2 py-2.5 text-center font-display text-[0.9375rem] leading-tight font-bold text-white">
         {s.title.replace(/ Removal$/, "")}

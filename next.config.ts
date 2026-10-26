@@ -40,12 +40,16 @@ const oldUrls: [string, string][] = [
   ["/wildlife-removal-services/duck-control", "/services/"],
   ["/what-keeps-rats-away", "/blog/what-keeps-rats-away/"],
   ["/effective-rat-control-tips", "/blog/effective-rat-control-tips/"],
+  ["/rat-bait-stations-and-safety-a-comprehensive-guide", "/blog/rat-bait-stations-and-safety-a-comprehensive-guide/"],
   // WordPress leftovers
   ["/wp-admin/:path*", "/"],
   ["/wp-login.php", "/"],
   ["/feed", "/blog/"],
   ["/blog/feed", "/blog/"],
   ["/blog/page/:n", "/blog/"],
+  ["/blog/category/:path*", "/blog/"],
+  // Old WordPress photos (a few image-search hits, Ben)
+  ["/wp-content/uploads/:path*", "/blog/"],
   ["/page-sitemap.xml", "/sitemap.xml"],
   ["/post-sitemap.xml", "/sitemap.xml"],
   ["/sitemap_index.xml", "/sitemap.xml"],
