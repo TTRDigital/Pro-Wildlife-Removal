@@ -27,8 +27,8 @@ export const squirrelRemovalBrooksville = servicePlacePage({
   heroText: "Squirrels chewing into a Brooksville roofline or racing across the attic every morning? We find the hole, get them and any young out, and repair the entry. Call (727) 594-7705.",
   answerHeading: "Who gets squirrels out of Brooksville attics?",
   answer:
-    "A private wildlife company. Brooksville sits among state forest and wildlife areas where FWC lists squirrels, and the gray squirrel will move into an attic when it finds a way in. Pro Wildlife Removal finds that way in, removes the squirrels and any nest, and repairs the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Fox squirrel country", "Gray squirrels nest in attics"],
+    "A private wildlife company. Brooksville sits among state forest and wildlife areas where FWC lists squirrels, and FWC says the gray squirrel will sometimes nest in an attic when it finds a way in. Pro Wildlife Removal finds that way in, removes the squirrels and any nest, and repairs the opening. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Fox squirrel country", "Gray squirrels sometimes nest in attics"],
   localHeading: "What to know about squirrels in Brooksville",
   localIntro: "State forest and wildlife areas surround Brooksville. Here is where FWC and the forest service say its squirrels live.",
   local: [
@@ -36,7 +36,7 @@ export const squirrelRemovalBrooksville = servicePlacePage({
     { icon: "map-pin", title: "Croom, northeast of town", text: p("FWC's Croom Wildlife Management Area covers more than 20,000 acres of longleaf pine and cypress northeast of Brooksville, along 13 miles of the Withlacoochee River, and lists fox squirrels among the wildlife you may see.") },
     { icon: "search", title: "Up an oak at Chassahowitzka", text: p("The Birding Trail page for the 27,946-acre Chassahowitzka Wildlife Management Area, on U.S. 19 with a Brooksville address, tells visitors to watch for southern fox squirrels scurrying up an oak tree.") },
     { icon: "home", title: "Both kinds in the state forest", text: p("Hernando is one of five counties the Withlacoochee State Forest spans, and Florida's forest service lists both fox squirrels and gray squirrels among the wildlife seen there.") },
-    { icon: "critter", title: "The one in the attic is gray", text: p("FWC says gray squirrels live near oaks and hickories in woods and towns alike, are active by day and will nest in attics when they can get in. They can breed twice a year, with one to four young.") },
+    { icon: "critter", title: "The one in the attic is gray", text: p("FWC says gray squirrels live near oaks and hickories in woods and towns alike, are active by day and will sometimes nest in attics when they can get in. They can breed twice a year, with one to four young.") },
     { icon: "wrench", title: "Leave the fox squirrels be", text: p("FWC says fox squirrels are protected from hunting statewide, are far less common than gray squirrels and spend more time on the ground. A big Brooksville squirrel with a black face and white nose fits FWC's fox squirrel description.") },
   ],
   attic: { slug: "squirrels-in-attic", label: "Squirrels in the attic" },

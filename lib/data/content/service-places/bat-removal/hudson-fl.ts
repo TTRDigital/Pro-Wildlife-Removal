@@ -36,7 +36,7 @@ export const batRemovalHudson = servicePlacePage({
     { icon: "wrench", title: "One-way devices on the roof", text: p("Devices went on the roof at the entry points so bats could fly out but not get back in, Fox reported. Firefighters couldn't return until there had been no bat activity for at least 72 hours.") },
     { icon: "phone", title: "A possible bite, and rabies shots", text: p("One firefighter reported a bite she couldn't place, from an insect or a bat. As a precaution, Fox reported, every firefighter at the station got a rabies shot.") },
     { icon: "critter", title: "Report any bat contact", text: p("Pasco County Animal Services asks residents to report bare skin contact with a bat, or a bat found in a room where someone slept, to DOH-Pasco or the county. The county recorded one rabid bat from 2013 to 2023.") },
-    { icon: "leaf", title: "Why it took until after August", text: p("WUSF reported that full removal at the station had to wait until after August, when the young bats matured. FWC's maternity season runs April 16 to August 14, and exclusion is legal only from August 15 to April 15.") },
+    { icon: "leaf", title: "Pups and the legal season", text: p("WUSF reported that full removal at the station had to wait until after August, when the young bats matured. FWC's maternity season runs April 16 to August 14, and exclusion is legal only from August 15 to April 15.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Hudson, from each agency's own page.",
   contacts: [

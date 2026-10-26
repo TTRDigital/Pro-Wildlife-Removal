@@ -30,7 +30,7 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     "A private wildlife company. Hernando County Animal Services lists pet services, not wildlife, and a raccoon denning in a Brooksville attic or crawl space needs a private remover. Pro Wildlife Removal gets it out, checks for young first and repairs the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon off Ted Road, 2025", "City trash, city crews"],
   localHeading: "What to know about raccoons in Brooksville",
-  localIntro: "Hernando's only rabid animals in the 2025 state table were raccoons, and one was in the Brooksville area. Here is what the records and local rules say.",
+  localIntro: "DOH-Hernando reported a rabid raccoon in the Brooksville area in 2025. Here is what the records and local rules say.",
   local: [
     { icon: "critter", title: "Rabid raccoon off Ted Road", text: p("A raccoon killed in the Brooksville area off Ted Road, ZIP 34601, on May 28, 2025 tested positive for rabies. DOH-Hernando issued a rabies advisory on June 2, 2025.") },
     { icon: "map-pin", title: "A second one that June", text: p("On June 9, 2025, a rabid raccoon was killed in the Spring Lake Highway and Neff Lake area off Frog Lane. DOH-Hernando's 60-day alert ran between Kenova Street, Hayman Road, Spring Lake Highway and Cobb Road.") },

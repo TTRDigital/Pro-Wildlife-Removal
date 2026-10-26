@@ -25,8 +25,8 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   heroText: "Thumping overhead, a torn soffit or a raccoon raiding the hen house? We get raccoons out of Pasco homes, check for young and close the way in. Call (727) 594-7705.",
   answerHeading: "Who handles a raccoon in a Pasco County home?",
   answer:
-    "Pasco County Animal Services focuses on pets and strays, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets raccoons out of Pasco homes, checks for babies before anything is sealed and repairs the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Two rabies alerts in 2026", "Young often in spring"],
+    "Pasco County Animal Services' after-hours emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and repairs the opening. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "A rabies alert and advisory in 2026", "Young often in spring"],
   localHeading: "What to know about raccoons in Pasco County",
   localIntro: "Raccoons are the animal Pasco's rabies records name most. These are the local facts and rules that matter before one is trapped or moved.",
   local: [
@@ -62,7 +62,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "Does Pasco County Animal Services take raccoons?",
-      "Its after-hours emergency service is for domestic strays and aggressive animals that threaten public safety. A raccoon living in an attic or under a house needs a private wildlife company.",
+      "Its after-hours emergency service is for seriously injured domestic strays and aggressive animals that threaten public safety. A raccoon living in an attic or under a house needs a private wildlife company.",
     ),
     faq(
       "How soon can you come out for a raccoon in Pasco County?",
@@ -86,7 +86,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     { title: "Pasco County: Backyard chicken ordinance (November 2025; up to four hens; coops covered, ventilated and predator-secure; feed in rodent- and predator-proof containers)", url: HENS },
     { title: "FWC: Relocating nuisance wildlife (own property, or 40+ contiguous acres in the county of capture with written permission; must not violate a county rabies alert or quarantine; public parks need the land manager's written permission)", url: RELOCATE },
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern raccoon (births in Florida generally March and April; poultry in pens have fallen prey; raid pet food bowls and unsecured garbage cans)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
-    { title: "Pasco County: Animal Services (after-hours emergencies: domestic strays, aggressive animals posing an immediate threat)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
+    { title: "Pasco County: Animal Services (after-hours emergencies: seriously injured domestic strays, unconfined aggressive animals posing an immediate threat to public safety)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
   ],
   clientQuestions: ["Typical response time for a raccoon call in Pasco County?", "A real Google review from a Pasco County raccoon job (TTR-723), and real Pasco raccoon job photos."],
 });
