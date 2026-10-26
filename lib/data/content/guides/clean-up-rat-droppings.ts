@@ -12,7 +12,7 @@ export const cleanUpRatDroppings: Post = {
   slug: "how-to-clean-up-rat-droppings-florida-attic",
   title: "How to Clean Up Rat Droppings and Nesting in a Florida Attic",
   excerpt:
-    "Rat droppings and nests can carry disease, and sweeping them up is the one thing health officials say not to do. Here are the CDC's steps, what to do with soiled insulation, and when to bring in help.",
+    "Rat droppings and nests can carry disease, and health officials say not to sweep or vacuum them. Here are the CDC's steps, what to do with soiled insulation, and when to bring in help.",
   date: "2026-10-26T00:00:00+00:00",
   modified: "2026-10-26T00:00:00+00:00",
   author: "Josh Holmberg",
@@ -27,9 +27,9 @@ export const cleanUpRatDroppings: Post = {
     h3("Before you start"),
     ul(
       `**Find out what you're dealing with.** The CDC says rodent droppings are pointed at one end and often contain hair ([CDC](${CDC_RODENTS})). Our guide to [what rat poop looks like](/blog/what-does-rat-poop-look-like-a-comprehensive-guide/) helps tell rats from other animals.`,
-      "**Make sure the rats are gone,** or you'll be cleaning again next month. Seal the entry points and trap any rats still inside first.",
-      "**Air it out.** For homes and sheds, the CDC says to open doors and windows for half an hour and stay out while it airs.",
-      "**Gear up:** rubber or plastic gloves at a minimum, and old clothes you can wash right after.",
+      `**Make sure the rats are gone,** or you'll be cleaning again next month. Seal the entry points and trap any rats still inside first ([CDC](${CDC_CLEAN})).`,
+      `**Air it out.** For homes and sheds, the CDC says to open doors and windows for half an hour and stay out while it airs ([CDC](${CDC_CLEAN})).`,
+      "**Gear up:** rubber or plastic gloves at a minimum. Wash any clothing that may be soiled in hot water with detergent afterward.",
     ),
     h3("Step by step"),
     ul(
@@ -55,10 +55,10 @@ export const cleanUpRatDroppings: Post = {
     ul(
       `**Hantavirus:** the CDC says the virus can get into the air when fresh urine, droppings or nesting material from an infected rodent is stirred up ([CDC](${CDC_HANTA})). Florida DOH says it has been found in cotton rats in Florida, though most human cases have been in the western U.S. ([Florida DOH](${DOH_HPS})).`,
       `**Leptospirosis:** Florida DOH says people catch it through water, soil or plants contaminated with the urine of infected animals, or by touching an infected animal's body fluids ([Florida DOH](${DOH_LEPTO})).`,
-      "**Food:** the CDC warns that rodent waste can spread disease when it gets into food, so throw out anything in the pantry the rats reached.",
+      `**Food:** the CDC says disease can also spread through food contaminated with rodent waste ([CDC](${CDC_RODENTS})).`,
     ),
     p(
-      "If you get sick with fever and aches in the weeks after a cleanup, tell your doctor about the rodent exposure. See also [rats in the attic](/services/rats-in-attic/) and [rat removal](/services/rat-removal/), and if the smell is a dead rat, our [dead animal smell guide](/blog/dead-animal-smell-in-wall-or-attic-florida/).",
+      `If you get sick with fever and aches in the weeks after a cleanup, tell your doctor about the rodent exposure ([Florida DOH](${DOH_HPS})). See also [rats in the attic](/services/rats-in-attic/) and [rat removal](/services/rat-removal/), and if the smell is a dead rat, our [dead animal smell guide](/blog/dead-animal-smell-in-wall-or-attic-florida/).`,
     ),
   ),
   faq: [
@@ -68,7 +68,7 @@ export const cleanUpRatDroppings: Post = {
     ),
     faq(
       "Is dried rat poop safe to touch?",
-      "Don't assume so. Treat old droppings the same as new ones: gloves, a thorough soak with disinfectant, paper towels and a sealed bag. No health agency says dried droppings are safe.",
+      "Don't assume so. Neither the CDC nor Florida DOH makes an exception for old droppings, so treat them the same way: gloves, a thorough soak with disinfectant, paper towels and a sealed bag.",
     ),
     faq(
       "Do I have to replace insulation with rat droppings in it?",
@@ -76,7 +76,7 @@ export const cleanUpRatDroppings: Post = {
     ),
     faq(
       "Why does my attic smell after rats?",
-      "Urine and droppings build up where rats nest and travel, and a rat that died in the attic smells far worse. Cleaning up the waste and finding any carcass usually deals with it.",
+      "Urine and droppings build up where rats nest and travel, and a rat that died in the attic adds its own smell. Cleaning up the waste and finding any carcass are the first steps.",
     ),
   ],
   seo: {
