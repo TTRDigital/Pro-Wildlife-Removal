@@ -2449,7 +2449,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Simple booking by phone or through the contact form",
+        "text": "Simple booking by phone",
         "marks": []
        }
       ]
@@ -3163,7 +3163,7 @@ const migratedPages = {
   ],
   "seo": {
    "title": "Contact Us | Wildlife Removal Support | Pro Wildlife Removal",
-   "description": "Contact Pro Wildlife Removal for wildlife control services across Central Florida. Call (727) 594-7705 or send a message for safe, professional removal."
+   "description": "Contact Pro Wildlife Removal for wildlife control services across Central Florida. Call (727) 594-7705 or email us for safe, professional animal removal."
   }
  },
  "privacy": {
