@@ -25,7 +25,7 @@ export const opossumRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "OPOSSUM REMOVAL",
-    heading: "Opossum Removal in Tampa Bay",
+    heading: "Opossum Removal in Central Florida",
     highlight: "Opossum Removal",
     text: p("An opossum living under the house, in the crawl space or in the attic? We remove it humanely, young included, and close the way in."),
     image: images.opossumRemoval4,
@@ -97,7 +97,7 @@ export const opossumRemoval: Service = {
           ),
         },
         { number: "3", title: "Release legally", text: p("A captured opossum may only be released on the property where it was caught, or on land of 40 acres or more in the same county with the owner's written permission.") },
-        { number: "4", title: "Close it off", text: p("Once we're sure every opossum is out, screens are repaired and vents and gaps are blocked with wire mesh, as FWC recommends, and the den area is cleaned.") },
+        { number: "4", title: "Close it off", text: p("Once we're sure every opossum is out, torn screens, vents and gaps are blocked with wire mesh, as FWC recommends, and the den area is cleaned.") },
       ],
     },
     {
@@ -127,7 +127,7 @@ export const opossumRemoval: Service = {
       ),
       checklist: [
         "Gaps under the house, deck, porch and shed closed with sturdy wire mesh",
-        "Foundation vents and torn screens repaired",
+        "Foundation vents and torn screens closed with wire mesh",
         "Trash secured, pet food brought in at night",
         "Bird seed and fallen fruit cleaned up",
         "Chickens and eggs shut in at night",
@@ -150,14 +150,14 @@ export const opossumRemoval: Service = {
         { title: "How many openings", text: p("One gap in the skirting, or a whole perimeter to close.") },
         { title: "Cleanup", text: p("A little nesting, or soiled insulation to remove.") },
       ],
-      outro: p("There's no charge for the opossum inspection, and the price comes before the work.", "[PLACEHOLDER: ask the client: can the site show a price range for opossum removal?]"),
+      outro: p("There's no charge for the opossum inspection, and the price comes before the work."),
     },
     {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Opossum removal in 9 counties",
-      intro: p("Opossums live in cities, suburbs and farm country alike. We cover Tampa Bay and the counties around it."),
+      heading: "Opossum removal in 8 counties",
+      intro: p("Opossums live in cities, suburbs and farm country alike. We cover Central Florida and the counties around it."),
       groups: countyGroups,
     },
     {
@@ -183,7 +183,7 @@ export const opossumRemoval: Service = {
         ),
         faq(
           "The opossum looks dead. What do I do?",
-          "It may be playing dead. FWC says not to pick it up. Leave it alone, or gently move it to a quiet spot with a shovel, and it will most likely get up and leave on its own within minutes to a few hours.",
+          "It may be playing dead. FWC says not to pick it up. Leave it alone, or gently move it to a quiet spot with a shovel, and it will probably get up and leave on its own within minutes to a few hours.",
         ),
         faq(
           "When do opossums have babies in Florida?",
@@ -217,9 +217,9 @@ export const opossumRemoval: Service = {
     },
   ],
   seo: {
-    title: "Opossum Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Opossum Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Opossum under the house, deck or in the attic? Humane removal with mother and young together, and the openings sealed, across Tampa Bay. (727) 594-7705.",
+      "Opossum under the house, deck or in the attic? Humane removal with mother and young together and openings sealed, across Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Opossums (only marsupial; mostly nocturnal, daytime activity normal; hiss, drool, growl, play dead with foul smell; don't pick up; scavengers, partly immune to snake venom, eat ticks; secure trash, pet food, seed, fruit, chickens; close access points, wire mesh, motion sprinkler; EPM in horses; 68A-9.010 nuisance take; 24-hour checks; release on site or 40+ acres same county with written permission, or humanely kill; steel trap permit; Gun and Light at Night Permit; removing one doesn't stop others)", url: FLYER },

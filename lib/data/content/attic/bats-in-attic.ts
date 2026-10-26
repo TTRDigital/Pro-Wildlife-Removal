@@ -22,7 +22,7 @@ export const batsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "BATS IN THE ATTIC",
-    heading: "Bats in the Attic in Tampa Bay",
+    heading: "Bats in the Attic in Central Florida",
     highlight: "Bats in the Attic",
     text: p("A colony in the attic needs a plan that fits Florida's calendar. Here's how to confirm it's bats, what the law allows right now, and what cleanup involves."),
     badges: ["Dusk watch", "Legal dates", "Guano cleanup"],
@@ -135,14 +135,13 @@ export const batsInAttic: Service = {
       eyebrow: "Attic cleanup",
       heading: "Cleaning an attic after bats",
       body: p(
-        "Cleanup comes after the colony is out and the gaps are sealed, never before, or the bats just move back in. How much work it is depends on how long they were there. FWC notes that guano in a dry, unused space can usually be left undisturbed, but most attics hold ductwork, wiring and stored things, and people go up there. In that case the guano comes out. The CDC recommends a respirator in a confined space with bat droppings, so this is work for protective gear, not a dust mask. Insulation under an old roost is usually soaked through and gets bagged and replaced.",
+        "Cleanup comes after the colony is out and the gaps are sealed, never before, or the bats just move back in. How much work it is depends on how long they were there. FWC notes that guano in a dry, unused space can usually be left undisturbed, but many attics hold ductwork, wiring and stored things, and people go up there. In that case the guano comes out. The CDC recommends a respirator in a confined space with bat droppings, so this is work for protective gear, not a dust mask. Insulation under an old roost is usually soaked through and gets bagged and removed.",
       ),
       checklist: [
         "Respirators, as the CDC recommends in a confined space with guano [PLACEHOLDER: ask the client: confirm your protective gear for guano cleanup]",
         "Guano and soiled insulation bagged and removed",
         "Attic surfaces cleaned and deodorized",
-        "New insulation where the old had to go",
-        "[PLACEHOLDER: ask the client: how you handle guano cleanup and insulation replacement, and whether it's quoted separately]",
+        "[PLACEHOLDER: ask the client: how you handle guano cleanup, and whether it's quoted separately]",
       ],
       imageSide: "left",
     },

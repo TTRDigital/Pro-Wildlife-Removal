@@ -22,7 +22,7 @@ export const raccoonsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "RACCOONS IN THE ATTIC",
-    heading: "Raccoons in the Attic in Tampa Bay",
+    heading: "Raccoons in the Attic in Central Florida",
     highlight: "Raccoons in the Attic",
     text: p("Heavy steps overhead in the evening, a torn soffit, a smell from one corner. Here's how to confirm a raccoon and why the order of the fix matters."),
     badges: ["Evening thumping", "Spring babies", "Latrine cleanup"],
@@ -74,9 +74,9 @@ export const raccoonsInAttic: Service = {
       body: rich(
         table(
           ["", "Raccoon", "Roof rat", "Gray squirrel"],
-          ["When", "Dusk through the night", "Night, most in the first half", "Daytime"],
+          ["When", "Dusk through the night", "Night, most after sunset and before dawn", "Daytime"],
           ["Sound", "Heavy steps and thumps", "Light scratching and scurrying", "Running and scratching"],
-          ["Size", "8 to 15 pounds", "Under a pound", "17 to 20 inches long, tail included"],
+          ["Size", "8 to 15 pounds", "Up to a pound", "17 to 20 inches long, tail included"],
           ["Way in", "Torn soffit, vent, chimney", "Gaps as small as 1/2 inch", "Damaged soffits, vents, roof tiles"],
         ),
         p("Light scratching at night is more likely [rats in the attic](/services/rats-in-attic/). Daytime running is more likely [squirrels](/services/squirrels-in-attic/)."),
@@ -138,8 +138,8 @@ export const raccoonsInAttic: Service = {
       cards: [
         { number: "1", title: "Inspect for kits", text: p("Find the entry, the den and whether young are there before anything else.") },
         { number: "2", title: "Get the family out", text: p("Adults and young removed together, by the method that fits the house and the season.", "[PLACEHOLDER: ask the client: confirm how you remove a raccoon family]") },
-        { number: "3", title: "Rebuild the entry", text: p("The torn soffit, vent or roof edge is rebuilt stronger, and the chimney capped if needed.") },
-        { number: "4", title: "Clean the attic", text: p("Latrine first, then soiled insulation, then treatment and new insulation.", "[PLACEHOLDER: ask the client: how long a typical raccoon job takes, start to finish]") },
+        { number: "3", title: "Seal the entry", text: p("The opening at the soffit, vent or roof edge is sealed, and the chimney capped if needed. Broken wood is a contractor's repair.") },
+        { number: "4", title: "Clean the attic", text: p("Latrine first, then soiled insulation, then treatment.", "[PLACEHOLDER: ask the client: how long a typical raccoon job takes, start to finish]") },
       ],
     },
     {
@@ -149,15 +149,14 @@ export const raccoonsInAttic: Service = {
       eyebrow: "Attic cleanup",
       heading: "Cleaning up after raccoons",
       body: p(
-        "With the raccoons out and the entry rebuilt, the attic needs cleaning. The CDC says raccoon roundworm eggs aren't infectious the moment they're passed, and advises removing droppings promptly, before they become infectious. So the latrine comes out first. FWC's advice for a latrine is gloves, and burning or burying the droppings. In an attic, that means bagging the droppings and the soiled insulation around them, treating the area, and only then putting in new insulation.",
+        "With the raccoons out and the entry sealed, the attic needs cleaning. The CDC says raccoon roundworm eggs aren't infectious the moment they're passed, and advises removing droppings promptly, before they become infectious. So the latrine comes out first. FWC's advice for a latrine is gloves, and burning or burying the droppings. In an attic, that means bagging the droppings and the soiled insulation around them, then treating the area.",
       ),
       checklist: [
         "Latrine removed first [PLACEHOLDER: ask the client: confirm your protective gear and latrine cleanup method]",
         "Crushed and soiled insulation bagged and taken out",
         "Attic treated and deodorized",
-        "Insulation replaced where it had to go",
-        "Entry hole rebuilt, and the chimney capped if they used it",
-        "[PLACEHOLDER: ask the client: how you treat a raccoon latrine and replace insulation, and whether it's quoted separately]",
+        "Entry hole sealed, and the chimney capped if they used it",
+        "[PLACEHOLDER: ask the client: how you treat a raccoon latrine, and whether it's quoted separately]",
       ],
       image: images.raccoonRemoval,
       imageSide: "left",
@@ -190,7 +189,7 @@ export const raccoonsInAttic: Service = {
         ),
         faq(
           "How do I keep raccoons out of the attic?",
-          "Rebuild the entry with strong materials, cap the chimney and keep branches off the roof. Don't put out food or garbage in a way that draws them: Florida rule 68A-4.001 bans doing that when it creates a nuisance. See [raccoon removal](/services/raccoon-removal/).",
+          "Get the entry sealed with strong materials, cap the chimney and keep branches off the roof. Don't put out food or garbage in a way that draws them: Florida rule 68A-4.001 bans doing that when it creates a nuisance. See [raccoon removal](/services/raccoon-removal/).",
         ),
         faq(
           "Is a raccoon in the attic dangerous?",
@@ -233,7 +232,9 @@ export const raccoonsInAttic: Service = {
     { title: "FWC: FAQs, nuisance wildlife (release on same property or 40+ contiguous acres in same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "FWC: Raccoon roundworm (do not relocate raccoons; gloves, burn or bury feces)", url: "https://myfwc.com/research/wildlife/health/raccoon-roundworm/" },
     { title: "CDC: About Baylisascaris (remove feces promptly, before eggs become infectious)", url: "https://www.cdc.gov/baylisascaris/about/index.html" },
-    { title: "UF/IFAS EDIS ENY-224 (roof rats: under a pound; night activity; half-inch gaps) and FWC squirrel profile (gray squirrel 17-20 inches; active by day)", url: "https://journals.flvc.org/edis/article/view/136514" },
+    { title: "Florida DOH Gadsden: Rodent control (roof rats most active one hour after sunset and one hour before dawn; a fully grown rat can weigh as much as a pound)", url: "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/" },
+    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rats get through holes as small as 1/2 inch)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },
+    { title: "FWC: Squirrel profile (gray squirrel 17-20 inches; active during the day)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/squirrels/" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
     TRAP_RULES_SOURCE,

@@ -3,6 +3,10 @@ import { faq, p } from "../pt.ts";
 
 /* Brooksville rat removal page, rewritten in place at its existing URL with its rat angle kept (Ben, Oct 26). Checkable local facts only. */
 const ENY224 = "https://journals.flvc.org/edis/article/view/136514";
+const GADSDEN = "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/";
+const SANTAROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/";
+const IN1397 = "https://ask.ifas.ufl.edu/publication/IN1397";
+const IRDOH = "https://indianriver.floridahealth.gov/wp-content/uploads/sites/32/2025/05/Rodent_Control_Booklet.pdf";
 const GOOD_NEIGHBOR = "https://www.cityofbrooksville.us/AgendaCenter/ViewFile/Agenda/_04252024-260";
 
 export const brooksvilleRats = countyPage({
@@ -15,11 +19,11 @@ export const brooksvilleRats = countyPage({
   eyebrow: "RAT REMOVAL IN BROOKSVILLE",
   heading: "Rat Removal in Brooksville, FL",
   highlight: "Rat Removal",
-  summary: "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed, and droppings cleaned up.",
+  summary: "Rat removal in Brooksville, FL: roof rats out of attics and walls, and the entry points they use sealed.",
   heroText: "Scratching overhead after dark in Brooksville? It's usually roof rats. We find where they get in, seal it, and trap the ones left inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Brooksville?",
   answer:
-    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
+    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use and traps the rats still inside the house. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Roof rats in attics", "Seal first, then trap"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the Hernando County seat, a city of about 10,100 people. We take rat calls across the county.",
@@ -36,22 +40,23 @@ export const brooksvilleRats = countyPage({
     },
   ],
   localHeading: "Rats in Brooksville homes",
-  localIntro: "Florida's house rat problem is mostly the roof rat, an animal that lives up high. Here's what UF/IFAS says about it, and what that means locally.",
+  localIntro: "Florida's house rat problem is mostly the roof rat, an animal that lives up high. Here's what UF/IFAS and Florida DOH say about it, and what that means locally.",
   local: [
-    { icon: "home", title: "They live up, not down", text: p("UF/IFAS describes roof rats as climbers that nest above the ground and do well in attics. Overhanging limbs, utility lines and pipes are their roads onto a Brooksville roof.") },
+    { icon: "home", title: "They live up, not down", text: p("Florida DOH describes roof rats as good climbers that generally like high places, such as attics. Overhanging limbs, utility lines and pipes are their roads onto a Brooksville roof.") },
     { icon: "search", title: "A gap the width of a thumb", text: p("Per UF/IFAS, a rat can get through a crack about half an inch wide. Roof returns, gable vents and the gaps around A/C lines are where we look first.") },
-    { icon: "critter", title: "Numbers climb fast", text: p("A female roof rat can have up to six litters a year of six to eight young, and those young can breed at three to five months, according to UF/IFAS. A few rats in spring can be many by fall.") },
-    { icon: "wrench", title: "A fire risk overhead", text: p("UF/IFAS warns that rats gnawing on wiring can start fires. If you find chewed cables in the attic, have an electrician look at them.") },
+    { icon: "critter", title: "Numbers climb fast", text: p("A roof rat can have up to eight litters a year of six to eight young, and those young become sexually active two to three months after birth, according to Florida DOH. A few rats in spring can be many by fall.") },
+    { icon: "wrench", title: "A fire risk overhead", text: p("A Florida DOH guide warns that rats chewing through wire insulation can cause fires. If you find chewed cables in the attic, have an electrician look at them.") },
     { icon: "leaf", title: "Don't feed the wildlife", text: p("Brooksville's management plan for the Good Neighbor Trail says the city will prohibit feeding raccoons, squirrels and other wild animals there. Food left out at home draws rats the same way.") },
   ],
-  contactsIntro: "Who handles what in Brooksville, from the city's, county's and sheriff's own pages.",
+  contactsHeading: "Brooksville garbage, HCSO and FWC contacts",
+  contactsIntro: "City garbage, the sheriff's Animal Services on Oliver Street and FWC each cover part of a Brooksville animal problem.",
   contacts: [
     { icon: "home", title: "Garbage in city limits", text: p("Hernando County notes that the City of Brooksville runs its own garbage collection. City residents can call (352) 540-3860 with questions. Tight lids and bins kept off the ground leave rats less to eat.") },
     { icon: "users", title: "HCSO Animal Services", text: p("352-796-5062, on Oliver Street in Brooksville. Since July 1, 2024, the sheriff's office also provides law enforcement inside the city. Its Animal Services pages cover pets.") },
     { icon: "map-pin", title: "Wildlife beyond rats: FWC", text: p("Chinsegut Wildlife and Environmental Area, six miles north of town, is managed by FWC. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Rats are the focus of this page, but we handle every animal below in Brooksville too.",
-  servicesHeading: "Rats, and the other animals we remove in Brooksville",
+  servicesHeading: "Brooksville animal jobs besides rats",
   reviewsIntro: "[PLACEHOLDER: reviews from Brooksville rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "Brooksville rat questions",
   faqs: [
@@ -61,7 +66,7 @@ export const brooksvilleRats = countyPage({
     ),
     faq(
       "What kind of rats get into Brooksville attics?",
-      "Usually roof rats. UF/IFAS describes them as agile climbers that nest high, which is why they turn up in attics and soffits rather than burrows in the yard.",
+      "Usually roof rats. Florida DOH describes them as good climbers that like to be up high, which is why they turn up in attics and soffits rather than burrows in the yard.",
     ),
     faq(
       "Why do the rats come back after I trap a few?",
@@ -69,10 +74,10 @@ export const brooksvilleRats = countyPage({
     ),
     faq(
       "Can rat droppings make my family sick?",
-      "They can. CDC says rodents spread disease through their droppings, urine, saliva and bites. Don't sweep or vacuum droppings. Follow CDC's cleanup steps or have the attic cleaned.",
+      "They can. CDC says rodents spread disease through their droppings, urine, saliva and bites. Don't sweep or vacuum droppings. Follow CDC's cleanup steps before you touch them.",
     ),
     faq(
-      "How quickly can you get to Brooksville?",
+      "How quickly can you inspect a Brooksville attic for rats?",
       "Same-day rat inspections are often available in Brooksville. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Brooksville]",
     ),
@@ -82,12 +87,16 @@ export const brooksvilleRats = countyPage({
   seo: {
     title: "Rat Removal in Brooksville, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed, rats trapped and droppings cleaned up. Call us at (727) 594-7705.",
+      "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed and the rats trapped where they nest. Call us at (727) 594-7705.",
   },
   sources: [
     S.edr,
     S.seats,
-    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (2013, archived; roof rats climb, nest above ground and thrive in attics; half-inch cracks; 6-8 young, up to 6 litters; maturity 3-5 months; gnawed wires and fires; block every entry; rats test repairs in the first 2 weeks)", url: ENY224 },
+    { title: "Florida DOH Gadsden: Rodent control (roof rats are good climbers, like high places such as attics and like to be up high; up to 8 litters a year of 6-8 young; sexually active 2-3 months after birth)", url: GADSDEN },
+    { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (rats use limbs as a highway into the house)", url: IN1397 },
+    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (holes as small as 1/2 inch for rats; climb pipes and wires; rodent-proofing must block all possible entry points)", url: SANTAROSA },
+    { title: "Florida DOH Indian River: Rodent control booklet (rev. 2008; rodents can cause fires by chewing through the insulation on electrical wires)", url: IRDOH },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (2013, archived; rats test repairs in the first 2 weeks)", url: ENY224 },
     { title: "CDC: Controlling wild rodent infestations (diseases via droppings, urine, saliva, bites)", url: "https://www.cdc.gov/healthy-pets/rodent-control/index.html" },
     { title: "CDC: How to clean up after rodents (no sweeping or vacuuming)", url: "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
     { title: "City of Brooksville: Good Neighbor Trail management plan, in the April 2024 committee agenda packet (city will prohibit feeding raccoons, squirrels and other wild animals)", url: GOOD_NEIGHBOR },

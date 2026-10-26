@@ -22,7 +22,7 @@ export const batRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "BAT REMOVAL AND EXCLUSION",
-    heading: "Bat Removal in Tampa Bay",
+    heading: "Bat Removal in Central Florida",
     highlight: "Bat Removal",
     text: p("Bats in the attic, soffit or tile roof, moved out the legal way: one-way doors, then every gap sealed and the guano cleaned up."),
     image: images.batRemoval2,
@@ -65,7 +65,7 @@ export const batRemoval: Service = {
         {
           icon: "sound",
           title: "Rustling at dusk and dawn",
-          text: p("Bats leave the roost around dusk and come back around dawn. That's when you're most likely to hear light scratching or chirping in a wall or ceiling."),
+          text: p("Bats leave the roost around dusk and come back around dawn. That's when you're likely to hear light scratching or chirping in a wall or ceiling."),
         },
         {
           icon: "odor",
@@ -165,14 +165,13 @@ export const batRemoval: Service = {
       eyebrow: "Sealing and cleanup",
       heading: "After the bats are out",
       body: p(
-        "Getting the colony out is half the job. The other half is making sure it can't come back and that the attic is safe to be in. How much cleanup you need depends on how long the bats lived there: a few weeks leaves a little guano on top of the insulation, years can mean replacing it.",
+        "Getting the colony out is half the job. The other half is making sure it can't come back and that the attic is safe to be in. How much cleanup you need depends on how long the bats lived there: a few weeks leaves a little guano on top of the insulation, years can mean removing it.",
       ),
       checklist: [
         "Every opening bats used, and the gaps next to them, sealed with materials that hold up to Florida weather",
         "Barrel tile, ridge vents and soffit returns closed where bats can slip under",
         "Guano and soiled insulation removed by technicians in respirators",
         "The area sanitized and deodorized",
-        "Insulation replaced where it had to come out",
         "[PLACEHOLDER: ask the client: is there a warranty on bat exclusion work, and how long?]",
       ],
       image: images.batRemoval2,
@@ -192,17 +191,17 @@ export const batRemoval: Service = {
       cards: [
         { title: "How many exits the bats use", text: p("Each active exit needs a one-way device, and each other gap needs sealing.") },
         { title: "How high and how hard to reach", text: p("A single-story ranch is quicker than a two-story house with a steep tile roof.") },
-        { title: "How long the colony has been there", text: p("A new roost leaves little behind. An old one can mean a full insulation replacement.") },
-        { title: "Repairs", text: p("Rotted fascia, broken soffit panels or cracked tile have to be fixed before they can be sealed.") },
+        { title: "How long the colony has been there", text: p("A new roost leaves little behind. An old one can mean removing the insulation under it.") },
+        { title: "Roof condition", text: p("Rotted fascia, broken soffit panels or cracked tile have to be repaired first, by a contractor the owner arranges.") },
       ],
-      outro: p("We inspect for bats free of charge and quote the exclusion before any work begins.", "[PLACEHOLDER: ask the client: can the site show a price range for bat exclusion?]"),
+      outro: p("We inspect for bats free of charge and quote the exclusion before any work begins."),
     },
     {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Bat removal across Tampa Bay and central Florida",
-      intro: p("We exclude bats from homes, condos and businesses in all 9 counties, all on one number: (727) 594-7705."),
+      heading: "Bat removal across Central Florida",
+      intro: p("We exclude bats from homes, condos and businesses in all 8 counties, all on one number: (727) 594-7705."),
       groups: countyGroups,
     },
     {
@@ -240,7 +239,7 @@ export const batRemoval: Service = {
           "[PLACEHOLDER: ask the client: how long a typical bat job takes from first visit to final sealing]",
         ),
         faq(
-          "What kind of bats live in Tampa Bay homes?",
+          "What kind of bats live in Central Florida homes?",
           "FWC describes the Brazilian free-tailed bat as a bat commonly found in Florida buildings. Evening bats tuck into tight spots too, even the folds of a closed patio umbrella.",
         ),
         faq(
@@ -271,9 +270,9 @@ export const batRemoval: Service = {
     },
   ],
   seo: {
-    title: "Bat Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Bat Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bats in the attic? Legal bat exclusion with one-way doors, sealing and guano cleanup across Tampa Bay, outside Florida's maternity season. (727) 594-7705.",
+      "Bats in the attic? Legal bat exclusion with one-way doors, sealing and guano cleanup across Central Florida, outside maternity season. (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026: bat maternity season April 16 to Aug. 14; April 15 last day without a permit; exclusion legal Aug. 15 to April 15; four nights; 50°F", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

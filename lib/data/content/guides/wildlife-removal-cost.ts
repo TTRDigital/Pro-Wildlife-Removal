@@ -4,14 +4,14 @@ import { faq, h3, p, rich, table, ul } from "../pt.ts";
 import { TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
- * Guide: wildlife removal cost in Tampa Bay (the plan's general cost guide).
+ * Guide: wildlife removal cost in Central Florida (the plan's general cost guide).
  * Rewritten in place at the existing slug (Ben, Oct 26). No price figures until the
  * client confirms them; the free inspection is confirmed (Ben, Oct 26).
  */
 
 export const wildlifeRemovalCost: Post = {
   slug: "how-much-does-wildlife-removal-cost",
-  title: "How Much Does Wildlife Removal Cost in Tampa Bay?",
+  title: "How Much Does Wildlife Removal Cost in Central Florida?",
   excerpt:
     "Wildlife removal cost depends on the animal, Florida's rules for it, how many openings need sealing, how hard they are to reach and how much cleanup is left behind.",
   date: "2023-12-08T21:05:09+00:00",
@@ -21,7 +21,6 @@ export const wildlifeRemovalCost: Post = {
   body: rich(
     p(
       "**The short answer:** there's no single price for wildlife removal. What you pay depends on the animal and Florida's rules for it, how many openings the house has, how hard they are to reach and how much cleanup the animal left. Call (727) 594-7705 for a free inspection.",
-      "[PLACEHOLDER: ask the client: can the site show typical price ranges?]",
     ),
     h3("The four things that set the price"),
     table(
@@ -37,9 +36,9 @@ export const wildlifeRemovalCost: Post = {
       "**Trapping with return visits:** raccoons, opossums and armadillos, with traps checked at least every 24 hours as Florida law requires. See [raccoon trapping in Florida](/blog/raccoon-trapping-florida/).",
       "**Exclusion and sealing:** squirrels and bats leave through one-way doors, then the roof is closed up. Bats can only be excluded from August 15 to April 15.",
       "**Seal, trap and clean:** roof rats in the attic, where every gap is closed, the rats inside are trapped, and the attic is cleaned. More on [rats in the attic](/services/rats-in-attic/).",
-      "**Full attic restoration:** an animal that lived in the attic for a long time, with insulation removed and replaced.",
+      "**Long-term attic cleanup:** an animal that lived in the attic for a long time, with soiled insulation removed.",
     ),
-    p("For two of the most common jobs, see the detailed guides: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/) and [animal in the attic removal and cleanup cost](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/)."),
+    p("For two common jobs, see the detailed guides: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/) and [animal in the attic removal and cleanup cost](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/)."),
     h3("How Florida's rules affect the price"),
     ul(
       "**Bats:** no harming, poison, trapping or relocating, and no exclusion from April 16 to August 14 without an FWC permit. A summer bat call may become an inspection now and an exclusion later.",
@@ -64,9 +63,9 @@ export const wildlifeRemovalCost: Post = {
     faq("Does homeowners insurance pay for wildlife removal?", "It depends on your policy and the damage. Check with your insurer before the work starts, and keep the inspection report and photos."),
   ],
   seo: {
-    title: "Wildlife Removal Cost in Tampa Bay | Pro Wildlife Removal",
+    title: "Wildlife Removal Cost in Central Florida | Pro Wildlife",
     description:
-      "What sets wildlife removal cost in Tampa Bay: the animal and Florida's rules, where it is, sealing the way in and cleanup, with bat and attic cost guides.",
+      "What sets wildlife removal cost in Central Florida: the animal and Florida's rules, where it is, sealing the way in and cleanup, with bat and attic guides.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (bat exclusion Aug 15 to April 15; permits during the season)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

@@ -23,11 +23,11 @@ export const raccoonRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "RACCOON REMOVAL",
-    heading: "Raccoon Removal in Tampa Bay",
+    heading: "Raccoon Removal in Central Florida",
     highlight: "Raccoon Removal",
-    text: p("Thumping in the attic or a torn soffit? We get the raccoons out, babies included, repair the way in and clean up what they left."),
+    text: p("Thumping in the attic or a torn soffit? We get the raccoons out, babies included, seal the way in and clean up what they left."),
     image: images.raccoonRemoval,
-    badges: ["Babies checked for first", "Entry repaired and sealed"],
+    badges: ["Babies checked for first", "Entry sealed"],
   },
   sections: [
     {
@@ -35,9 +35,9 @@ export const raccoonRemoval: Service = {
       _key: "answer",
       heading: "How do you get a raccoon out of the attic in Florida?",
       text: p(
-        "Find out whether there are babies, remove the raccoons by live trap, one-way door or by hand, keeping mother and young together, then repair and seal the entry. In spring, assume a mother with kits. A trapped raccoon may only be released on site or on 40+ contiguous acres in the same county with written permission. Call (727) 594-7705.",
+        "Find out whether there are babies, remove the raccoons by live trap, one-way door or by hand, keeping mother and young together, then seal the entry. In spring, assume a mother with kits. A trapped raccoon may only be released on site or on 40+ contiguous acres in the same county with written permission. Call (727) 594-7705.",
       ),
-      points: ["Check for babies", "Births March to April", "Strict release rules", "Entry repaired"],
+      points: ["Check for babies", "Births March to April", "Strict release rules", "Entry sealed"],
     },
     {
       _type: "cardsSection",
@@ -128,8 +128,8 @@ export const raccoonRemoval: Service = {
         },
         {
           number: "4",
-          title: "Repair, seal and clean",
-          text: p("The entry hole is repaired with materials a raccoon can't pull apart, other weak spots are closed, and the latrine, nest and soiled insulation are removed and the area treated."),
+          title: "Seal and clean",
+          text: p("The entry hole is sealed with materials a raccoon can't pull apart, other weak spots are closed, and the latrine, nest and soiled insulation are removed and the area treated."),
         },
       ],
     },
@@ -155,18 +155,18 @@ export const raccoonRemoval: Service = {
     {
       _type: "splitSection",
       _key: "sealing",
-      eyebrow: "Repairs and cleanup",
-      heading: "Fixing what the raccoons broke",
+      eyebrow: "Sealing and cleanup",
+      heading: "Closing what the raccoons opened",
       body: p(
-        "Purdue Extension notes a raccoon will likely try to get back into a den it knows. The hole it made, and the soft spots next to it, have to be rebuilt stronger than before. Then comes the cleanup: raccoons leave droppings where they den, and the CDC advises removing raccoon droppings promptly, before the roundworm eggs in them become infectious.",
+        "Purdue Extension notes a raccoon will likely try to get back into a den it knows. The hole it made, and the soft spots next to it, have to be closed with material it can't tear open. If the soffit or vent itself is broken, the owner arranges that repair with a contractor. Then comes the cleanup: raccoons leave droppings where they den, and the CDC advises removing raccoon droppings promptly, before the roundworm eggs in them become infectious.",
       ),
       checklist: [
-        "Entry hole repaired and reinforced",
+        "Entry hole sealed and reinforced",
         "Other weak soffits, vents and roof edges closed",
         "Chimney capped where raccoons used it",
         "Latrine, nesting and soiled insulation removed by technicians in protective gear",
-        "Area treated and deodorized, insulation replaced where needed",
-        "[PLACEHOLDER: ask the client: is there a warranty on raccoon repairs and sealing, and how long?]",
+        "Area treated and deodorized",
+        "[PLACEHOLDER: ask the client: is there a warranty on raccoon sealing work, and how long?]",
       ],
       image: images.raccoonRemoval,
       imageSide: "left",
@@ -178,24 +178,24 @@ export const raccoonRemoval: Service = {
       eyebrow: "Cost",
       heading: "What raccoon removal costs depends on",
       intro: p(
-        "We quote after seeing the house. A raccoon under a deck is a smaller job than a mother and four kits in a second-story attic. For the repair side, see [raccoon roof damage and cleanup costs](/blog/raccoon-roof-damage-complete-cleanup-costs/).",
+        "We quote after seeing the house. A raccoon under a deck is a smaller job than a mother and four kits in a second-story attic. For damage the owner may need a contractor to repair, see [raccoon roof damage and cleanup costs](/blog/raccoon-roof-damage-complete-cleanup-costs/).",
       ),
       variant: "plain",
       columns: 2,
       cards: [
         { title: "How many raccoons, and whether there are kits", text: p("Kits mean finding and removing them by hand.") },
         { title: "Where they are", text: p("An attic, a chimney, a wall, a crawl space or under a deck.") },
-        { title: "Repairs to the entry", text: p("A torn soffit or roof vent has to be rebuilt, not just covered.") },
+        { title: "Sealing the entry", text: p("How many openings need closing, and how big they are.") },
         { title: "Cleanup", text: p("A small latrine, or an attic of soiled insulation.") },
       ],
-      outro: p("Inspecting for a raccoon costs nothing. You get the price for your home before we start.", "[PLACEHOLDER: ask the client: can the site show a price range for raccoon removal?]"),
+      outro: p("Inspecting for a raccoon costs nothing. You get the price for your home before we start."),
     },
     {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Raccoon removal across Tampa Bay",
-      intro: p("Tampa, St. Petersburg, Clearwater and every town on the list below, in 9 counties. One number covers them all: (727) 594-7705."),
+      heading: "Raccoon removal across Central Florida",
+      intro: p("Tampa, St. Petersburg, Clearwater and every town on the list below, in 8 counties. One number covers them all: (727) 594-7705."),
       groups: countyGroups,
     },
     {
@@ -260,9 +260,9 @@ export const raccoonRemoval: Service = {
     },
   ],
   seo: {
-    title: "Raccoon Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Raccoon Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus sealing and latrine cleanup across Tampa Bay. Call (727) 594-7705.",
+      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus sealing and latrine cleanup in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; litters 3-4, up to 7; dens in attics, crawl spaces, under mobile homes and decks; open chimneys are common entry points; fewer than 1 in 200 wild raccoons exposed to rabies)", url: "https://ask.ifas.ufl.edu/publication/UW033" },

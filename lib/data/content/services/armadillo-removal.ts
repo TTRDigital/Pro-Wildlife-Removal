@@ -24,7 +24,7 @@ export const armadilloRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "ARMADILLO REMOVAL",
-    heading: "Armadillo Removal in Tampa Bay",
+    heading: "Armadillo Removal in Central Florida",
     highlight: "Armadillo Removal",
     text: p("Holes all over the lawn, or a burrow under the patio or shed? We trap the armadillo and help you keep the next one from moving in."),
     image: images.armadilloRemoval2,
@@ -53,7 +53,7 @@ export const armadilloRemoval: Service = {
         { icon: "home", title: "A burrow near the house", text: p("An entrance up to about a foot across, sometimes dug right under a driveway, patio or other structure. FWC says one armadillo can keep several burrows with more than one entrance.") },
         { icon: "leaf", title: "Torn-up flower beds", text: p("Mulch thrown out of the beds and plants uprooted. FWC notes moist, fertilized soil draws the earthworms and larvae armadillos hunt.") },
         { icon: "critter", title: "An armadillo at dusk or after dark", text: p("An armored animal about 15 to 17 inches long, not counting the tail, nosing along the ground. Armadillos see poorly, so they may not notice you.") },
-        { icon: "drop", title: "Digging where the soil stays wet", text: p("Fresh holes in the wettest, most-watered parts of the yard, where worms and larvae come up near the surface.") },
+        { icon: "drop", title: "Digging where the soil stays wet", text: p("Fresh holes in wet, heavily watered parts of the yard, where worms and larvae come up near the surface.") },
         { icon: "wrench", title: "Cracks or settling", text: p("UF/IFAS warns that armadillo burrows under driveways and patios can cause structural damage. A slab that starts to crack or sink near a burrow needs a look.") },
       ],
     },
@@ -140,14 +140,14 @@ export const armadilloRemoval: Service = {
         { title: "Where the burrow is", text: p("Open yard, or under a slab, shed or A/C pad.") },
         { title: "Prevention work", text: p("[PLACEHOLDER: ask the client: confirm whether you install buried fencing or wire, so this cost factor can stay]") },
       ],
-      outro: p("The armadillo inspection is free. We quote the trapping before setting a single trap.", "[PLACEHOLDER: ask the client: can the site show a price range for armadillo removal?]"),
+      outro: p("The armadillo inspection is free. We quote the trapping before setting a single trap."),
     },
     {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Armadillo removal in 9 counties",
-      intro: p("We trap armadillos in all 9 counties, from big Polk County yards to small Pinellas lots."),
+      heading: "Armadillo removal in 8 counties",
+      intro: p("We trap armadillos in all 8 counties, from big Polk County yards to small Pinellas lots."),
       groups: countyGroups,
     },
     {
@@ -212,9 +212,9 @@ export const armadilloRemoval: Service = {
     },
   ],
   seo: {
-    title: "Armadillo Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Armadillo Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Armadillo digging up the lawn or burrowing under a patio or shed? Armadillo trapping and Florida's rules for homeowners in Tampa Bay. Call (727) 594-7705.",
+      "Armadillo digging up the lawn or burrowing under a patio or shed? Armadillo trapping and Florida's rules for homeowners in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Armadillos flyer, Dec 2025 (naturalized native; several burrows per acre; holes up to a foot across; mostly nocturnal, poor eyesight, eat grubs, spiders, cockroaches; less water and fertilizer, morning irrigation; fence 2 ft high, 18 in deep; fermenting fruit; light or radio at burrow; 68A-9.010; 24-hour checks; release on site or 40+ contiguous acres same county with written permission; removing one doesn't stop others)", url: FLYER },

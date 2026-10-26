@@ -41,9 +41,10 @@ export const newPortRichey = countyPage({
     { icon: "map-pin", title: "Life on the Cotee", text: p("The city says dolphins and manatees are a common sight on the Pithlachascotee River. Riverfront yards also see more of the shoreline wildlife that comes with it.") },
     { icon: "search", title: "Rabies in Pasco", text: p("Pasco County Animal Services reports 24 animals that tested positive for rabies from 2013 to 2023: 17 raccoons, 6 cats and 1 bat. Keep pets vaccinated and leave raccoons alone.") },
   ],
+  contactsHeading: "Pasco and FWC numbers New Port Richey uses",
   contactsIntro: "Here's who to call for what in New Port Richey, from the city's and agencies' own pages.",
   contacts: [
-    { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212, Land O' Lakes. After-hours emergencies: (727) 847-8102, option 7. The city's FAQ says Pasco County handles all animal control concerns.") },
+    { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212, Land O' Lakes. Emergencies outside office hours: (727) 847-8102, option 7. The city's FAQ says Pasco County handles all animal control concerns.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4, the reporting line DOH-Pasco gives in its 2026 rabies advisory.") },
     { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: FWC Southwest Region office, 863-648-3200.") },
   ],

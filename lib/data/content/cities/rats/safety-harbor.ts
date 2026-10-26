@@ -21,7 +21,7 @@ export const safetyHarborRats = countyPage({
     "Seal the gaps, remove what feeds them and trap the rats left inside. Safety Harbor says no rat poison is truly safe, warns against anticoagulant baits and says never to use glue traps. Pro Wildlife Removal seals and traps across the city. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "City: no poison is truly safe", "No glue traps"],
   townsHeading: "Rat removal near Safety Harbor",
-  townsIntro: "We take rat calls across north Pinellas, and handle every other animal in Safety Harbor too.",
+  townsIntro: "Safety Harbor's neighbors in north Pinellas can call us about rats too. In Safety Harbor itself, we handle every other animal as well.",
   towns: [
     {
       title: "Safety Harbor and neighbors",
@@ -41,14 +41,14 @@ export const safetyHarborRats = countyPage({
     { icon: "leaf", title: "Let the owls help", text: p("The city suggests an owl nest box, noting a single owl can catch 1,400 rodents a year. UF/IFAS Pinellas reported great horned owls at Philippe Park that died of rat poison.") },
     { icon: "home", title: "Lids that close", text: p("Garbage goes in the city's 90-gallon barrel, collected once a week, and the lid must close. The city also asks residents to pick up pet food, spilled birdseed and fallen fruit.") },
   ],
-  contactsHeading: "Who to call about rats in Safety Harbor",
-  contactsIntro: "Who to call about rats and trash in Safety Harbor.",
+  contactsHeading: "Safety Harbor Sanitation, and rats inside your home",
+  contactsIntro: "The Sanitation Division covers barrels and dead animals on city roads. Rats in the house are a private hire.",
   contacts: [
     { icon: "home", title: "Sanitation Division", text: p("727-724-1550, for barrels, missed pickups and dead animals on city roads.") },
     { icon: "users", title: "Rats inside your home", text: p("The city asks residents who hire help to choose exterminators who don't use anticoagulant rodenticides. Call us at (727) 594-7705.", "[PLACEHOLDER: ask the client: which rodenticides, if any, do you use?]") },
   ],
-  servicesIntro: "This page is about rats, but we remove every animal below in Safety Harbor.",
-  servicesHeading: "Rats, and the other animals we remove in Safety Harbor",
+  servicesIntro: "Rats aside, here's every other animal we take out of Safety Harbor homes.",
+  servicesHeading: "Safety Harbor animals we remove besides rats",
   reviewsIntro: "[PLACEHOLDER: reviews from Safety Harbor rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "Safety Harbor rat questions",
   faqs: [
@@ -66,13 +66,13 @@ export const safetyHarborRats = countyPage({
       "Follow the city's list: keep trash bins tightly closed, and pick up pet food, spilled birdseed and fallen fruit. See [rats in the attic](/services/rats-in-attic/) for signs to look for.",
     ),
     faq(
-      "How soon can you come out for rats in Safety Harbor?",
+      "Could you inspect for rats in Safety Harbor today?",
       "Same-day rat inspections are often available in Safety Harbor. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Safety Harbor]",
     ),
   ],
   ctaHeading: "Rats in your Safety Harbor home?",
-  ctaText: "For rats in Safety Harbor, call (727) 594-7705.",
+  ctaText: "Rats in a Safety Harbor attic, garage or shed? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Safety Harbor, FL | Pro Wildlife Removal",
     description:

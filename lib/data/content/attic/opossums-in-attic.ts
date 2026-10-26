@@ -23,7 +23,7 @@ export const opossumsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "OPOSSUMS IN THE ATTIC",
-    heading: "Opossums in the Attic in Tampa Bay",
+    heading: "Opossums in the Attic in Central Florida",
     highlight: "Opossums in the Attic",
     text: p("Shuffling overhead at night and a bad smell? It may be an opossum. Here's how to tell, how to get it out without a fight, and how to keep it out."),
     image: images.opossumRemoval4,
@@ -110,7 +110,7 @@ export const opossumsInAttic: Service = {
       heading: "Don't make these mistakes",
       body: rich(
         ul(
-          "**Picking up a 'dead' opossum.** FWC says an opossum that looks dead may be playing dead. Leave it alone, or move it gently with a shovel, and it will most likely leave on its own.",
+          "**Picking up a 'dead' opossum.** FWC says an opossum that looks dead may be playing dead. Leave it alone, or move it gently with a shovel, and it will usually leave on its own.",
           "**Sealing it in.** FWC's advice is to close openings only once you're sure all the opossums are out. A motion-activated sprinkler near the entrance can discourage one from going back in while it's out at night.",
           "**Driving it somewhere.** A trapped opossum can only be released on the property, or on 40 acres or more in the same county with the landowner's written permission. Otherwise it must be humanely put down.",
         ),
@@ -154,7 +154,7 @@ export const opossumsInAttic: Service = {
       cards: [
         { number: "1", title: "Find the den", text: p("Locate where it sleeps and every gap it uses.") },
         { number: "2", title: "Get it out", text: p("Wait for it to leave at night, or live-trap it if it won't.") },
-        { number: "3", title: "Close the gaps", text: p("Sturdy wire mesh over vents and openings, screens repaired.") },
+        { number: "3", title: "Close the gaps", text: p("Sturdy wire mesh over vents, openings and torn screens.") },
         { number: "4", title: "Clean the den", text: p("Droppings, nesting and soiled insulation removed.", "[PLACEHOLDER: ask the client: how long a typical opossum job takes]") },
       ],
     },
@@ -165,12 +165,11 @@ export const opossumsInAttic: Service = {
       eyebrow: "Keep them out",
       heading: "Cleanup and keeping the next one out",
       body: p(
-        "FWC is direct about it: removing one or more opossums doesn't stop others from using the same spot. So the job ends with two things: a clean den area and a closed-up house. Wear gloves for any cleanup, bag droppings and nesting rather than sweeping them, and wash your hands after. Insulation the opossum soiled is easier to replace than to clean.",
+        "FWC is direct about it: removing one or more opossums doesn't stop others from using the same spot. So the job ends with two things: a clean den area and a closed-up house. Wear gloves for any cleanup, bag droppings and nesting rather than sweeping them, and wash your hands after. Insulation the opossum soiled is easier to take out than to clean.",
       ),
       checklist: [
-        "Vents and gaps blocked with wire mesh, screens repaired",
+        "Vents, gaps and torn screens blocked with wire mesh",
         "Den area cleared of droppings and nesting",
-        "Soiled insulation replaced where needed",
         "Trash secured and pet food brought in at night",
         "Fallen fruit and bird seed cleaned up",
         "[PLACEHOLDER: ask the client: is attic or crawl space cleanup after opossums quoted separately?]",

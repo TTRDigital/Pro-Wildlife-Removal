@@ -41,7 +41,8 @@ export const dunedin = countyPage({
     { icon: "drop", title: "Sea turtle season", text: p("The city tells residents to call FWC at 1-888-404-3922 about dead or stranded sea turtles. Lights out on the beach side helps hatchlings find the water.") },
     { icon: "critter", title: "Feeding is a nuisance", text: p("Under Pinellas County code, leaving food or garbage out so it attracts raccoons, coyotes or other wildlife, and creates a nuisance, is a public nuisance.") },
   ],
-  contactsIntro: "Who to call for what in Dunedin, from the city's, county's and FWC's own pages.",
+  contactsHeading: "Pinellas, FWC and DOH lines for Dunedin",
+  contactsIntro: "Dunedin sends strays and injured wildlife to the county and sea turtles to FWC. The numbers are below.",
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4. The county lists wildlife pickup and transport help, and support for sick or injured wildlife.") },
     { icon: "map-pin", title: "Sea turtles, bears, alligators", text: p("FWC Wildlife Alert, 888-404-3922, for sea turtles, manatees and bears. Nuisance alligators: 866-392-4286.") },
@@ -64,7 +65,7 @@ export const dunedin = countyPage({
       "Yes. See [rat removal in Dunedin](/about-us/service-area/rat-removal-services-dunedin-fl/) for the local details.",
     ),
     faq(
-      "How soon can you get to Dunedin?",
+      "What's the wait for a visit in Dunedin?",
       "Same-day appointments are often available in Dunedin. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Dunedin]",
     ),

@@ -17,16 +17,16 @@ export const squirrelsInAttic: Service = {
   group: "attic",
   animal: "squirrel",
   order: 24,
-  summary: "Running overhead in the daytime? How to confirm squirrels in the attic, when babies are likely, and how the roofline gets repaired.",
+  summary: "Running overhead in the daytime? How to confirm squirrels in the attic, when babies are likely, and how the roofline gets sealed.",
   cardImage: images.squirrelRemoval2,
   design: "new",
   hero: {
     eyebrow: "SQUIRRELS IN THE ATTIC",
-    heading: "Squirrels in the Attic in Tampa Bay",
+    heading: "Squirrels in the Attic in Central Florida",
     highlight: "Squirrels in the Attic",
     text: p("Scampering in the ceiling while you're having breakfast? Here's how to tell it's squirrels, when to expect a litter and how to keep them out after."),
     image: images.squirrelRemoval2,
-    badges: ["Daytime noise", "Spring and fall litters", "Roofline repair"],
+    badges: ["Daytime noise", "Spring and fall litters", "Roofline sealing"],
   },
   sections: [
     {
@@ -36,7 +36,7 @@ export const squirrelsInAttic: Service = {
       text: p(
         "Squirrels are noisy in the daytime, unlike rats. Listen for running in the ceiling after sunrise, look for a chewed opening at the soffit or roof edge, and watch for squirrels using the same spot on the roof. Litters come in spring and autumn. See [squirrel removal](/services/squirrel-removal/) or call (727) 594-7705.",
       ),
-      points: ["Noise in daylight", "Chewed roof-edge hole", "Litters spring and fall", "Repair, don't patch"],
+      points: ["Noise in daylight", "Chewed roof-edge hole", "Litters spring and fall", "Seal it to last"],
     },
     {
       _type: "cardsSection",
@@ -77,7 +77,7 @@ export const squirrelsInAttic: Service = {
           ["", "Gray squirrel", "Southern flying squirrel", "Roof rat"],
           ["When", "Daytime", "Night", "Night"],
           ["Removable as a nuisance", "Yes", "Yes", "Yes (can't be released)"],
-          ["Litters", "Spring and autumn", "Spring and autumn", "Up to 6 a year"],
+          ["Litters", "Spring and autumn", "Spring and autumn", "Up to 8 a year"],
         ),
         p("FWC treats both gray and flying squirrels as nuisance animals when they get into a building. If the noise is light scratching at night, also read about [rats in the attic](/services/rats-in-attic/) and [flying squirrels in Florida](/blog/flying-squirrels-florida/)."),
       ),
@@ -89,7 +89,7 @@ export const squirrelsInAttic: Service = {
       heading: "What squirrels do to an attic",
       body: rich(
         ul(
-          "**Chewed wiring.** FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering wires and PVC where squirrels reach them.",
+          "**Chewed wiring.** FWC lists chewing damage, from plants to vehicle wires, among frequent squirrel complaints, and suggests covering wires and PVC where squirrels reach them.",
           "**Nesting.** FWC notes gray squirrels sometimes nest in attics when they can get in, and the insulation gets flattened and soiled.",
           "**A bigger family.** FWC says Florida squirrels tend to breed twice a year. A winter squatter can be a mother with young by spring.",
           "**An open roof.** Every chewed opening lets in rain and the next animal.",
@@ -135,7 +135,7 @@ export const squirrelsInAttic: Service = {
       cards: [
         { number: "1", title: "Inspection", text: p("Find every chewed hole and weak vent, and check for young.") },
         { number: "2", title: "Removal", text: p("A one-way door or cage traps until no squirrels are left inside.") },
-        { number: "3", title: "Repairs", text: p("Chewed wood rebuilt and covered so it can't be chewed again.") },
+        { number: "3", title: "Sealing", text: p("Chewed holes covered with material that can't be chewed again.") },
         { number: "4", title: "Cleanup", text: p("Nests, droppings and soiled insulation out.", "[PLACEHOLDER: ask the client: how long a typical squirrel job takes]") },
       ],
     },
@@ -144,17 +144,16 @@ export const squirrelsInAttic: Service = {
       _key: "cleanup",
       tone: "tint",
       eyebrow: "After they're out",
-      heading: "Repairs and cleanup",
+      heading: "Sealing and cleanup",
       body: p(
-        "Once the squirrels are gone, the chewed openings have to be rebuilt stronger than the wood they chewed through, or they'll chew through the patch. Then the attic gets cleaned. Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves. Soiled insulation is bagged and replaced. The full process is on our [squirrel removal](/services/squirrel-removal/) page.",
+        "Once the squirrels are gone, the chewed openings have to be sealed with something stronger than the wood they chewed through, or they'll chew through it again. Rotted wood is a repair the owner arranges with a contractor. Then the attic gets cleaned. Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves. Soiled insulation is bagged and removed. The full process is on our [squirrel removal](/services/squirrel-removal/) page.",
       ),
       checklist: [
-        "Chewed fascia, soffit and roof edges rebuilt [PLACEHOLDER: ask the client: what material you use to cover squirrel repairs]",
+        "Chewed fascia, soffit and roof-edge holes sealed [PLACEHOLDER: ask the client: what material you use to seal squirrel entry points]",
         "Attic vents and screens checked",
         "Nests and droppings removed",
-        "Insulation replaced where needed",
         "Overhanging branches flagged for trimming",
-        "[PLACEHOLDER: ask the client: is attic cleanup after squirrels quoted separately from the removal and repairs?]",
+        "[PLACEHOLDER: ask the client: is attic cleanup after squirrels quoted separately from the removal and sealing?]",
       ],
       image: images.squirrelRemoval2,
       imageSide: "left",
@@ -179,7 +178,7 @@ export const squirrelsInAttic: Service = {
         ),
         faq(
           "Can squirrels chew through wiring?",
-          "Yes. FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering wires and PVC pipe where squirrels can reach them. If you see bare wire in the attic, have it checked. See [squirrels chewing wires](/blog/squirrels-chewing-wires-expert-guide/).",
+          "Yes. FWC names chewing on everything from plants to vehicle wires as a common squirrel complaint, and suggests covering wires and PVC pipe where squirrels can reach them. If you see bare wire in the attic, have it checked. See [squirrels chewing wires](/blog/squirrels-chewing-wires-expert-guide/).",
         ),
         faq(
           "Do squirrels carry diseases?",
@@ -226,13 +225,14 @@ export const squirrelsInAttic: Service = {
   seo: {
     title: "Squirrels in the Attic: Signs, Fixes | Pro Wildlife Removal",
     description:
-      "Daytime noise in the ceiling? How to confirm squirrels in the attic, Florida's spring and fall litters, trapping rules and roof repairs. (727) 594-7705.",
+      "Daytime noise in the ceiling? How to confirm squirrels in the attic, Florida's spring and fall litters, trapping rules and roof sealing. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Squirrels flyer, June 2026 (gray and flying squirrels as nuisance; breed twice a year, spring and autumn; teeth grow constantly; chewing wires; cover wires and PVC; trim limbs; squirrel in the house; cage traps, 24-hour checks, release rules; Dec 31, 2026 rule change)", url: FLYER },
     { title: "FWC: Squirrel profile (gray squirrel active during the day; sometimes nests in attics; near oaks and hickories)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/squirrels/" },
     { title: "FWC: Fox squirrel profile (protected from hunting statewide)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
-    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats active at night; up to 6 litters a year)", url: "https://journals.flvc.org/edis/article/view/136514" },
+    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rats and mice most active at night)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },
+    { title: "Florida DOH Gadsden: Rodent control (roof rats most active one hour after sunset and one hour before dawn; up to 8 litters a year)", url: "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/" },
     { title: "FWC: FAQs, nuisance wildlife (non-native animals can't be released)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "UF/IFAS Gardening Solutions: Cavity dwellers (southern flying squirrels are nocturnal, heard in the first hours after sunset)", url: "https://gardeningsolutions.ifas.ufl.edu/design/gardening-with-wildlife/cavity-dwellers/" },
     TRAP_RULES_SOURCE,
@@ -241,7 +241,7 @@ export const squirrelsInAttic: Service = {
   ],
   clientQuestions: [
     "How long does a typical squirrel job take?",
-    "Is attic cleanup after squirrels quoted separately from the removal and repairs?",
+    "Is attic cleanup after squirrels quoted separately from the removal and sealing?",
     "Real photos: a chewed roof-edge hole before and after repair.",
   ],
 };

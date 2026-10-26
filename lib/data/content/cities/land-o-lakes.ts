@@ -18,7 +18,7 @@ export const landOLakes = countyPage({
   heroText: "Central Pasco neighborhoods built between lakes, cypress swamps and two big water district preserves. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Land O' Lakes?",
   answer:
-    "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal works across Land O' Lakes. Call (727) 594-7705.",
+    "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal takes calls all over Land O' Lakes. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Unincorporated Pasco", "Between two big preserves"],
   townsHeading: "Land O' Lakes and nearby",
   townsIntro: "Land O' Lakes is an unincorporated community of about 35,900 people, as of the 2020 Census. We cover the central Pasco communities around it.",
@@ -43,7 +43,8 @@ export const landOLakes = countyPage({
     { icon: "map-pin", title: "Conner Preserve", text: p("Off SR 52, Conner Preserve covers 3,486 acres of sandhill, marsh, cypress and pine flatwoods. The water district says deer, turkey and quail roam it, gopher tortoises forage on its ridges, sandhill cranes nest in its marshes and wood storks feed there.") },
     { icon: "home", title: "Homes meet the woods", text: p("Conner's management plan expected the preserve to end up next to dense residential areas. Where homes back onto preserve land, raccoons, opossums and snakes have a short trip to a yard or crawl space.") },
   ],
-  contactsIntro: "Who to call for what in Land O' Lakes, from the county's and agencies' own pages.",
+  contactsHeading: "Pasco's shelter on Dogpatch Lane, and other Land O' Lakes contacts",
+  contactsIntro: "Pasco County Animal Services is right here in Land O' Lakes. These numbers come from the county's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212, on Dogpatch Lane in Land O' Lakes. After 5 pm, (727) 847-8102, option 7, for qualifying emergencies such as a loose animal that has bitten someone.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("Report bites to the health department in Pasco at 352-521-1450, option 4.") },
@@ -55,7 +56,7 @@ export const landOLakes = countyPage({
   faqs: [
     faq(
       "Does Pasco County Animal Services remove wildlife from Land O' Lakes homes?",
-      "Its shelter is in Land O' Lakes, but its pages cover pets and strays, and after-hours help is for emergencies like a loose animal that has bitten someone. For wildlife in your attic, walls or crawl space, call a wildlife removal company.",
+      "Its shelter is in Land O' Lakes, but its pages cover pets and strays, and its emergency help is for cases like a loose animal that has bitten someone. For wildlife in your attic, walls or crawl space, call a wildlife removal company.",
     ),
     faq(
       "Can I trap animals in Cypress Creek Preserve?",
@@ -67,7 +68,7 @@ export const landOLakes = countyPage({
       "[PLACEHOLDER: ask the client: do you handle feral hogs?]",
     ),
     faq(
-      "How fast can you get to Land O' Lakes?",
+      "When can someone come out to Land O' Lakes?",
       "Same-day appointments are often available in Land O' Lakes. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Land O' Lakes]",
     ),

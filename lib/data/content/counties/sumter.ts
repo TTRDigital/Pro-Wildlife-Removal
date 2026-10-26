@@ -38,9 +38,10 @@ export const sumter = countyPage({
     { icon: "search", title: "Ocala bear range", text: p("FWC places Sumter in its Central bear area, around the Ocala population. Secure trash and pet food, and contact FWC about bears.") },
     { icon: "leaf", title: "Half Moon WMA", text: p("FWC's Half Moon WMA sits east of Inverness in Sumter County, where wading birds gather along marsh and pond edges and Florida scrub-jays can be seen.") },
   ],
+  contactsHeading: "Sumter's own split of animal calls",
   contactsIntro: "Sumter's own website is clear about who does what. These numbers come from the county's and the agencies' pages.",
   contacts: [
-    { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400: option 3 for animal control complaints, option 9 after hours. The county says Animal Services generally deals only with domestic animals.") },
+    { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400: option 3 for animal control complaints. The county says Animal Services generally deals only with domestic animals.") },
     { icon: "phone", title: "Animal bites: DOH-Sumter", text: p("352-569-3102, the number DOH-Sumter gave for reporting bites in its June 2026 rabies alert.") },
     { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Sumter is in FWC's Northeast Region: 352-732-1225 in Ocala. Nuisance alligators: 866-FWC-GATOR.") },
   ],

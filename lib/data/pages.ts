@@ -2,8 +2,9 @@
 import { images } from "./images.ts";
 import type { PageContent } from "../types";
 import { home } from "./content/home.ts";
+import { withPageExtras } from "./content/page-extras.ts";
 
-export const fallbackPages = {
+const migratedPages = {
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/home.ts
  "home": home,
  "services": {
@@ -30,7 +31,7 @@ export const fallbackPages = {
    {
     "_type": "splitSection",
     "eyebrow": "Florida's Wildlife Experts",
-    "heading": "Tampa Bay's Trusted Wildlife Removal Experts",
+    "heading": "Central Florida's Trusted Wildlife Removal Experts",
     "body": [
      {
       "_type": "block",
@@ -38,7 +39,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife intrusions can cause significant property damage and health risks. At Pro Wildlife Removal, we provide trusted Wildlife Removal in Central Florida, offering fast, safe, and expert solutions for homes and businesses. With our deep knowledge of Central Florida’s unique wildlife and expert removal techniques, we tailor our services to meet your specific needs. Don’t let nuisance wildlife disrupt your life—Pro Wildlife Removal is here to help.",
+        "text": "Wildlife intrusions can cause significant property damage and health risks. At Pro Wildlife Removal, we provide trusted Wildlife Removal in Central Florida, offering safe, expert solutions for homes and businesses. With our deep knowledge of Central Florida’s unique wildlife and expert removal techniques, we tailor our services to meet your specific needs. Don’t let nuisance wildlife disrupt your life—Pro Wildlife Removal is here to help.",
         "marks": []
        }
       ],
@@ -702,23 +703,6 @@ export const fallbackPages = {
       "href": "/about-us/service-area/wildlife-removal-in-citrus-county-fl/"
      },
      {
-      "title": "Osceola County",
-      "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Serving Kissimmee, St. Cloud, and Celebration.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       }
-      ]
-     },
-     {
       "title": "Hillsborough County",
       "text": [
        {
@@ -789,23 +773,6 @@ export const fallbackPages = {
        }
       ],
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
-     },
-     {
-      "title": "Manatee County",
-      "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Covering Bradenton, Palmetto, and Lakewood Ranch.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       }
-      ]
      }
     ],
     "style": {
@@ -869,7 +836,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to protecting your property from wildlife intrusions, you need a team you can trust. Choose Pro Wildlife Removal for unmatched expertise in Central Florida wildlife control. With decades of experience, local knowledge, and a customer-first approach, we deliver fast, humane, and effective solutions tailored to your needs:",
+        "text": "When it comes to protecting your property from wildlife intrusions, you need a team you can trust. Choose Pro Wildlife Removal for experienced, local wildlife control in Central Florida. With decades of experience, local knowledge, and a customer-first approach, we deliver humane, effective solutions tailored to your needs:",
         "marks": []
        }
       ],
@@ -888,7 +855,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "With years of experience handling wildlife issues unique to Central Florida, we’ve seen it all. Our knowledge ensures effective solutions tailored to your specific needs.",
+          "text": "We handle wildlife issues across Central Florida, and each plan is tailored to your home.",
           "marks": []
          }
         ],
@@ -914,7 +881,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Licensed in Florida",
+      "title": "Florida rules, every job",
       "text": [
        {
         "_type": "block",
@@ -922,7 +889,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Pro Wildlife Removal is fully licensed in Florida, ensuring that all of our services comply with state regulations and are carried out by trained professionals.",
+          "text": "Pro Wildlife Removal follows Florida's wildlife rules on every job, from FWC's bat maternity season to its trapping and release rules.",
           "marks": []
          }
         ],
@@ -939,7 +906,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "From inspections to live trapping, cleanup, and repairs, we handle every step of the wildlife removal process, so you don’t have to worry about a thing.",
+          "text": "From inspections to live trapping, exclusion, and cleanup, we handle every step of the wildlife removal process, so you don’t have to worry about a thing.",
           "marks": []
          }
         ],
@@ -948,7 +915,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Fast Response",
+      "title": "Easy Scheduling",
       "text": [
        {
         "_type": "block",
@@ -956,7 +923,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Wildlife issues can’t wait. That’s why we pride ourselves on prompt service, ensuring your problem is resolved quickly and efficiently.",
+          "text": "Wildlife issues can’t wait. Call us and we’ll find a visit time that works for you, then see the job through carefully.",
           "marks": []
          }
         ],
@@ -992,7 +959,7 @@ export const fallbackPages = {
    },
    {
     "_type": "reviewsSection",
-    "heading": "See Why Tampa Bay Loves Us",
+    "heading": "See Why Central Florida Loves Us",
     "style": {
      "bg": "ice"
     },
@@ -1028,7 +995,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Yes! We provide same-day and emergency wildlife removal for urgent situations. If you need fast wildlife removal, contact us immediately.",
+          "text": "Same-day appointments are often available. If an animal is inside your living space, call us right away.",
           "marks": []
          }
         ],
@@ -1178,7 +1145,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We provide wildlife control services in the Tampa Bay area, covering residential and commercial properties. If you need raccoon removal, rodent control, or bat exclusion, contact us to confirm service availability in your location.",
+          "text": "We provide wildlife control services in Central Florida, covering residential and commercial properties. If you need raccoon removal, rodent control, or bat exclusion, contact us to confirm service availability in your location.",
           "marks": []
          }
         ],
@@ -1235,7 +1202,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "The need for damage repair or exclusion work",
+          "text": "How much exclusion work is needed",
           "marks": []
          }
         ],
@@ -1258,7 +1225,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "question": "Do you offer attic cleanup and damage repair?",
+      "question": "Do you offer attic cleanup?",
       "answer": [
        {
         "_type": "block",
@@ -1266,7 +1233,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Yes! Wildlife in attics can cause serious damage. We provide attic restoration services, including decontamination, insulation replacement, and odor removal, to restore your home after a wildlife infestation.",
+          "text": "[PLACEHOLDER: ask the client: do you do attic cleanup after removal (droppings, insulation, sanitizing)?]",
           "marks": []
          }
         ],
@@ -1292,7 +1259,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Don’t wait for nuisance animal problems to escalate—Pro Wildlife Removal is your trusted partner for wildlife removal in Central Florida. With decades of experience and local expertise, we provide fast, reliable wildlife control solutions to protect your home or business from wild animals.",
+        "text": "Don’t wait for nuisance animal problems to escalate—Pro Wildlife Removal is your trusted partner for wildlife removal in Central Florida. With decades of experience and local expertise, we provide reliable wildlife control solutions to protect your home or business from wild animals.",
         "marks": []
        }
       ],
@@ -1330,7 +1297,7 @@ export const fallbackPages = {
    {
     "_type": "splitSection",
     "eyebrow": "Expert Rat Control",
-    "heading": "Trusted Wildlife Control in Tampa Bay for Over 15 Years",
+    "heading": "Trusted Wildlife Control in Central Florida for Over 15 Years",
     "body": [
      {
       "_type": "block",
@@ -1338,7 +1305,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Tampa Bay homeowners and businesses in resolving even the most challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our licensed professionals offer safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
+        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Central Florida homeowners and businesses in resolving even very challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our team offers safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
         "marks": []
        }
       ],
@@ -1363,7 +1330,7 @@ export const fallbackPages = {
    },
    {
     "_type": "cardsSection",
-    "heading": "Pro Wildlife Removal Tampa Bay Florida",
+    "heading": "Pro Wildlife Removal Central Florida",
     "intro": [
      {
       "_type": "block",
@@ -1405,7 +1372,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we’re proud to serve a wide range of communities across Tampa Bay and Central Florida, offering exceptional wildlife control solutions, timely and efficiently. Whether you’re dealing with raccoons, bats, snakes, or rats, our team has the expertise to handle your unique wildlife challenge.",
+        "text": "At Pro Wildlife Removal, we’re proud to serve a wide range of communities across Central Florida, offering exceptional wildlife control solutions, timely and efficiently. Whether you’re dealing with raccoons, bats, snakes, or rats, our team has the expertise to handle your unique wildlife challenge.",
         "marks": []
        }
       ],
@@ -1644,23 +1611,6 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Osceola County",
-      "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Serving Kissimmee, St. Cloud, and Celebration.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       }
-      ]
-     },
-     {
       "title": "Hillsborough County",
       "text": [
        {
@@ -1731,23 +1681,6 @@ export const fallbackPages = {
        }
       ],
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
-     },
-     {
-      "title": "Manatee County",
-      "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Covering Bradenton, Palmetto, and Lakewood Ranch.",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       }
-      ]
      }
     ],
     "image": images.tampaBayFlMapLarge1,
@@ -2020,7 +1953,7 @@ export const fallbackPages = {
     "columns": 3,
     "cards": [
      {
-      "title": "Licensed Professionals You Can Trust",
+      "title": "Done by Florida’s Rules",
       "text": [
        {
         "_type": "block",
@@ -2028,7 +1961,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Our fully licensed and certified team ensures your property is in safe hands. From raccoons in attics to snakes in gardens, we provide expert care while following state and local regulations. Count on us for professional, effective solutions that prioritize your safety.",
+          "text": "From raccoons in attics to snakes in gardens, we provide expert care while following state and local regulations. Count on us for professional, effective solutions that prioritize your safety.",
           "marks": []
          }
         ],
@@ -2037,7 +1970,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Local Experts in Tampa Bay and Central Florida",
+      "title": "Local Experts in Central Florida",
       "text": [
        {
         "_type": "block",
@@ -2045,7 +1978,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Serving Tampa Bay and Central Florida communities, including Tampa, St. Petersburg, and Clearwater, we understand the region’s unique wildlife challenges. As your local neighbors, we deliver fast, effective solutions to protect your home and peace of mind.",
+          "text": "Serving Central Florida communities, including Tampa, St. Petersburg, and Clearwater, we understand the region’s unique wildlife challenges. As your local neighbors, we deliver effective solutions to protect your home and peace of mind.",
           "marks": []
          }
         ],
@@ -2054,7 +1987,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Fast and Reliable Services",
+      "title": "Reliable Service",
       "text": [
        {
         "_type": "block",
@@ -2062,7 +1995,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Wildlife problems demand immediate attention. That’s why we offer same-day and emergency services to quickly restore safety and minimize disruptions to your life.",
+          "text": "Wildlife problems need attention. Same-day appointments are often available, so your home can feel safe again with as little disruption as possible.",
           "marks": []
          }
         ],
@@ -2096,7 +2029,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "From removal and exclusion to prevention and repair, we handle every aspect of wildlife intrusions. Our services cover attic cleanouts, sealing entry points, and repairing damage, offering complete peace of mind and a wildlife-free home.",
+          "text": "From removal and exclusion to prevention, we handle every aspect of wildlife intrusions. Our services cover attic cleanouts and sealing entry points, offering complete peace of mind and a wildlife-free home.",
           "marks": []
          }
         ],
@@ -2160,7 +2093,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Following the inspection, we develop a custom wildlife removal plan designed to address your specific situation. Our licensed professionals use safe wildlife removal methods that adhere to local regulations, ensuring the process is effective and reliable.",
+          "text": "Following the inspection, we develop a custom wildlife removal plan designed to address your specific situation. Our technicians use safe removal methods that follow state and local wildlife rules, so the work is done properly.",
           "marks": []
          }
         ],
@@ -2204,7 +2137,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "See why Tampa Bay chooses Pro Wildlife Removal for their pest control needs in Central Florida.",
+        "text": "See why Central Florida chooses Pro Wildlife Removal for their pest control needs in Central Florida.",
         "marks": []
        }
       ],
@@ -2256,7 +2189,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We offer same-day and emergency wildlife removal services to address urgent issues. Our team is committed to fast response times to ensure your home or business is secure as soon as possible.",
+          "text": "Urgent problems, like an animal loose in the house, get priority on our schedule.",
           "marks": []
          }
         ],
@@ -2273,7 +2206,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Our licensed professionals handle a wide variety of wildlife, including raccoons, bats, snakes, squirrels, rats, and more. We also provide wildlife exclusion services to prevent future infestations.",
+          "text": "Our wildlife technicians handle a wide variety of animals, including raccoons, bats, snakes, squirrels, rats, and more. We also provide wildlife exclusion services to prevent future infestations.",
           "marks": []
          }
         ],
@@ -2350,7 +2283,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Don’t let wildlife take over your property—Pro Wildlife Removal is here to help. We provide fast, reliable, and professional wildlife removal in Central Florida, ensuring your home or business stays safe and secure. Contact us today to schedule your inspection and take the first step toward a wildlife-free property!",
+        "text": "Don’t let wildlife take over your property—Pro Wildlife Removal is here to help. We provide reliable, professional wildlife removal in Central Florida, ensuring your home or business stays safe and secure. Contact us today to schedule your inspection and take the first step toward a wildlife-free property!",
         "marks": []
        }
       ],
@@ -2368,7 +2301,7 @@ export const fallbackPages = {
  "about": {
   "design": "classic",
   "hero": {
-   "heading": "About Pro WildLife Removal",
+   "heading": "About Pro Wildlife Removal",
    "text": [
     {
      "_type": "block",
@@ -2388,7 +2321,7 @@ export const fallbackPages = {
       },
       {
        "_type": "span",
-       "text": ". With extensive experience in dealing with all types of nuisance species in Florida, Pro Wildlife is your trusted partner in helping you deal with whatever animal issue you may encounter. Our technicians use specialized, state-of-the-art equipment that can cater to any situation to resolve your animal issue. From raccoons, opossums, squirrels, and snakes to honeybees and bats, you can rest assured we have the ",
+       "text": ". With extensive experience in dealing with all types of nuisance species in Florida, Pro Wildlife can help with whatever animal issue you run into. Our technicians bring specialized equipment for trapping, exclusion and clean-up. From raccoons, opossums, squirrels, and snakes to honeybees and bats, we have the ",
        "marks": []
       },
       {
@@ -2453,7 +2386,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": " has years of experience and has developed excellent techniques within our field to help manage wildlife in a an efficient and responsible way. We are proud to offer many specialized services and features to our clientele:",
+        "text": " manages wildlife in an efficient and responsible way. We are proud to offer many specialized services and features to our clientele:",
         "marks": []
        }
       ],
@@ -2488,7 +2421,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Equipped with top-notch equipment and knowledge of the most modern industry-related techniques",
+        "text": "Professional equipment and knowledge of modern industry-related techniques",
         "marks": []
        }
       ]
@@ -2502,7 +2435,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "In-home repairs and animal cleanup/restoration services",
+        "text": "Animal cleanup services",
         "marks": []
        }
       ]
@@ -2516,7 +2449,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Highly efficient booking systems so you can book your appointments fast",
+        "text": "Simple booking by phone",
         "marks": []
        }
       ]
@@ -2569,19 +2502,19 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "If you’re a resident of Central Florida, or ",
+        "text": "If you live in one of the ",
         "marks": []
        },
        {
         "_type": "span",
-        "text": "anywhere in Florida",
+        "text": "eight Central Florida counties we serve",
         "marks": [
          "l0"
         ]
        },
        {
         "_type": "span",
-        "text": ", then we definitely have your back when it comes to wildlife-related problems. We cover these following areas:",
+        "text": ", we can help with wildlife problems. We cover these areas:",
         "marks": []
        }
       ],
@@ -2805,7 +2738,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": "and we’ll take it upon ourselves to help you with the best of our abilities.",
+        "text": "and we’ll do everything we can to help you.",
         "marks": []
        }
       ],
@@ -2828,7 +2761,7 @@ export const fallbackPages = {
   ],
   "seo": {
    "title": "Wildlife Removal Company Profile | Pro Wildlife Removal",
-   "description": "Pro Wildlife Removal is a local wildlife removal service in Tampa FL. We provide animal removal: opossums, squirrels, snakes and etc. Call us for any emergency!"
+   "description": "Pro Wildlife Removal is a local wildlife removal service in Tampa FL. We provide animal removal: opossums, squirrels, snakes and etc. Call us when an animal problem can’t wait."
   }
  },
  "howWeWork": {
@@ -2842,7 +2775,7 @@ export const fallbackPages = {
      "children": [
       {
        "_type": "span",
-       "text": "Pro Wildlife Removal is equipped with top-of-the-line equipment and machinery. Our Animal removal experts and trappers are certified experts. Call us for more!",
+       "text": "Pro Wildlife Removal brings the right tools for trapping, exclusion and cleanup. Our technicians do this work every day. Call us to talk it through.",
        "marks": []
       }
      ],
@@ -2900,7 +2833,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "With that initial information, we will give you an estimated quote for the required service.",
+        "text": "That first conversation helps us plan the visit.",
         "marks": []
        }
       ],
@@ -2912,7 +2845,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "If time permits, we can attend to your critter troubles on the same day you made the call and be at your problem area within hours. If not, we’ll be able to attend to you on the next day.",
+        "text": "Same-day appointments are often available. If not, we’ll book the next open visit that suits you.",
         "marks": []
        }
       ],
@@ -2924,7 +2857,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Our step-by-step process for all our services ensures you get the best service possible for all of your inspection, trapping, exclusion, clean-up, monthly population control, and damage repair/decontamination needs.",
+        "text": "Our step-by-step process for all our services keeps the work clear and consistent for all of your inspection, trapping, exclusion, clean-up, monthly population control, and decontamination needs.",
         "marks": []
        }
       ],
@@ -2951,7 +2884,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "A thorough inspection and situation assessment is the most critical part of dealing with any animal issue safely and efficiently. One of our technicians will come out at the scheduled time in a labeled truck, dressed in a professional uniform, and begin inspecting your property.",
+        "text": "A thorough inspection and situation assessment is a critical part of dealing with any animal issue safely and efficiently. One of our technicians will come out at the scheduled time in a labeled truck, dressed in a professional uniform, and begin inspecting your property.",
         "marks": []
        }
       ],
@@ -2989,7 +2922,7 @@ export const fallbackPages = {
     "columns": 2,
     "cards": [
      {
-      "title": "Pro Wildlife Removal Attic Restoration",
+      "title": "Pro Wildlife Removal Attic Cleanup",
       "text": [
        {
         "_type": "block",
@@ -2997,7 +2930,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Animal infestations within a home or attic can come with many issues. Animals in an attic may defecate and urinate on virtually everything, gnaw on wiring/HVAC components, degrade your insulation value, and even cause health problems. Pro Wildlife Removal has the attic/crawlspace restoration service you need in order to get things back as they need to be.",
+          "text": "Animal infestations within a home or attic can come with many issues. Animals in an attic may defecate and urinate on virtually everything, gnaw on wiring/HVAC components, degrade your insulation value, and even cause health problems. Pro Wildlife Removal has the attic/crawlspace cleanup service you need.",
           "marks": []
          }
         ],
@@ -3015,7 +2948,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Honeycomb removal may seem like a very frightening and dangerous task – and it is if you don’t get the help that you need. Failure to remove a honeycomb correctly can result in significant infestation of other hungry insects looking for a free meal. Untended honeycomb will also rot and decay, causing order and moisture damage. Pro Wildlife Removal Honeycomb Removal Service employs the safest, and cleanest processes to prevent further damage to your home.",
+          "text": "Honeycomb removal may seem like a very frightening and dangerous task, and it is if you don’t get the help that you need. Failure to remove a honeycomb correctly can result in significant infestation of other hungry insects looking for a free meal. Untended honeycomb will also rot and decay, causing odor and moisture damage. Our honeycomb removal service takes out the comb as well as the bees, so it doesn't rot inside the wall.",
           "marks": []
          }
         ],
@@ -3033,7 +2966,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Our homes can be victims to unwanted animal visitors – and no one wants to be pestered with these creatures for they can also serve as a threat to the you and your family’s safety and welfare. Pro Wildlife Removal Exclusion Service is sure to keep these unwanted animals out of your area of residence. We use only the best and strongest products in order to ensure a long lasting, animal proof barrier.",
+          "text": "Our homes can be victims to unwanted animal visitors, and no one wants to be pestered with these creatures for they can also serve as a threat to the you and your family’s safety and welfare. Pro Wildlife Removal Exclusion Service closes the openings these animals use to get in, using heavy-duty materials.",
           "marks": []
          }
         ],
@@ -3043,7 +2976,7 @@ export const fallbackPages = {
       "image": images.exclusion
      },
      {
-      "title": "Pro Wildlife Removal Home Repairs & Restoration",
+      "title": "Pro Wildlife Removal Population Control",
       "text": [
        {
         "_type": "block",
@@ -3051,7 +2984,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Monthly population control services can be the most effective way to prevent future re-infestation of your home or commercial property. Pro Wildlife Removal offers population management programs for virtually every species of animal found in Florida. Inquire today to find out if this is the right option for you.",
+          "text": "Monthly population control services can be an effective way to prevent future re-infestation of your home or commercial property. Pro Wildlife Removal offers population management programs for virtually every species of animal found in Florida. Inquire today to find out if this is the right option for you.",
           "marks": []
          }
         ],
@@ -3072,7 +3005,7 @@ export const fallbackPages = {
    },
    {
     "_type": "proseSection",
-    "heading": "Repairs and Other Related Services",
+    "heading": "Other Related Services",
     "body": [
      {
       "_type": "block",
@@ -3080,7 +3013,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Each animal case is unique to itself and a customized solution catered to you is the only effective way to resolve it. We offer many services including: Home repairs, bee removal, all trapping services, emergency animal removal, etc. Call today with all of your animal service needs.",
+        "text": "Each animal case is unique to itself and a customized solution catered to you is the only effective way to resolve it. We offer many services including: exclusion, bee removal, all trapping services, urgent animal removal, etc. Call today with all of your animal service needs.",
         "marks": []
        }
       ],
@@ -3130,7 +3063,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": ") and we’ll take it upon ourselves to help you with the best of our abilities.",
+        "text": ") and we’ll do everything we can to help you.",
         "marks": []
        }
       ],
@@ -3148,7 +3081,7 @@ export const fallbackPages = {
   ],
   "seo": {
    "title": "How We Work | Why Hire Our Experts | Pro Wildlife Removal",
-   "description": "Pro Wildlife Removal is equipped with top-of-the-line equipment and machinery. Our Animal removal experts and trappers are certified experts. Call us for more!"
+   "description": "Pro Wildlife Removal brings the right tools for trapping, exclusion and cleanup. Our technicians do this work every day. Call us to talk it through."
   }
  },
  "contact": {
@@ -3230,7 +3163,7 @@ export const fallbackPages = {
   ],
   "seo": {
    "title": "Contact Us | Wildlife Removal Support | Pro Wildlife Removal",
-   "description": "Contact Pro Wildlife Removal today for expert wildlife control services in Tampa, Florida and surrounding areas. Call us for safe and professional removal."
+   "description": "Contact Pro Wildlife Removal for wildlife control services across Central Florida. Call (727) 594-7705 or email us for safe, professional animal removal."
   }
  },
  "privacy": {
@@ -3256,7 +3189,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal serves the Tampa Bay area of Florida. You can reach us at:",
+        "text": "Pro Wildlife Removal serves Central Florida of Florida. You can reach us at:",
         "marks": []
        }
       ],
@@ -3724,5 +3657,9 @@ export const fallbackPages = {
   }
  }
 } satisfies Record<string, PageContent>;
+
+export const fallbackPages = Object.fromEntries(
+  Object.entries(migratedPages).map(([k, v]) => [k, withPageExtras(k, v)]),
+) as typeof migratedPages;
 
 export type PageKey = keyof typeof fallbackPages;

@@ -41,14 +41,14 @@ export const newPortRicheyRats = countyPage({
     { icon: "wrench", title: "Keep the lid shut", text: p("The city lists 96-gallon trash carts. Keep the lid fully closed so rats and raccoons can't get in.") },
     { icon: "leaf", title: "On the river", text: p("Homes along the Pithlachascotee River often have docks, boathouses and seawalls, which give rats cover close to the house. Check where pipes and lines enter outbuildings.") },
   ],
-  contactsHeading: "Who to call about rats in New Port Richey",
-  contactsIntro: "Who to call about rats and trash in New Port Richey.",
+  contactsHeading: "New Port Richey's trash hauler, and rats in the house",
+  contactsIntro: "J.D. Parker & Sons answers the city's trash questions. Rats inside are a job for a private company.",
   contacts: [
     { icon: "home", title: "Missed pickups", text: p("J.D. Parker & Sons, (727) 841-4260, for missed pickups and trash questions.") },
     { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
-  servicesIntro: "This page is about rats, but we remove every animal below in New Port Richey.",
-  servicesHeading: "Rats, and the other animals we remove in New Port Richey",
+  servicesIntro: "Besides rats, we remove all of these animals from New Port Richey homes.",
+  servicesHeading: "The rest of our New Port Richey wildlife work",
   reviewsIntro: "[PLACEHOLDER: reviews from New Port Richey rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "New Port Richey rat questions",
   faqs: [
@@ -61,13 +61,13 @@ export const newPortRicheyRats = countyPage({
       "No. New Port Richey's services cover trash, not rats in homes. See [rats in the attic](/services/rats-in-attic/) for the signs and what we do.",
     ),
     faq(
-      "How soon can you come out for rats in New Port Richey?",
+      "Is anyone free for a New Port Richey rat call today?",
       "Same-day rat inspections are often available in New Port Richey. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in New Port Richey]",
     ),
   ],
   ctaHeading: "Rats in your New Port Richey home?",
-  ctaText: "For rats in New Port Richey, call (727) 594-7705.",
+  ctaText: "Rats in your New Port Richey attic or walls? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in New Port Richey, FL | Pro Wildlife Removal",
     description:

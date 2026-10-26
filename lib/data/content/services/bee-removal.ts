@@ -28,7 +28,7 @@ export const beeRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "BEE REMOVAL",
-    heading: "Bee Removal in Tampa Bay",
+    heading: "Bee Removal in Central Florida",
     highlight: "Bee Removal",
     text: p("Bees going in and out of a wall, soffit or shed? Keep people and pets back, leave the opening alone, and call."),
     image: images.beeRemoval,
@@ -48,12 +48,12 @@ export const beeRemoval: Service = {
       _type: "cardsSection",
       _key: "types",
       eyebrow: "Which bee is it?",
-      heading: "The bees you're most likely to find at home",
+      heading: "The bees you're likely to find at home",
       intro: p("Not every bee around the house is a problem, and each kind nests differently. Look from a safe distance before you do anything."),
       variant: "icon",
       columns: 3,
       cards: [
-        { icon: "bug", title: "Honey bees", text: p("Live in large colonies inside cavities: walls, soffits, sheds, water meters. In Tampa Bay these can be European, African or a mix, and a colony in a structure needs a professional.") },
+        { icon: "bug", title: "Honey bees", text: p("Live in large colonies inside cavities: walls, soffits, sheds, water meters. In Central Florida these can be European, African or a mix, and a colony in a structure needs a professional.") },
         { icon: "wrench", title: "Carpenter bees", text: p("Look like bumble bees but have a shiny, greenish-black abdomen. UF/IFAS says they drill clean, half-inch holes into trim, railings and siding and tunnel 3 to 6 inches into the wood.") },
         { icon: "leaf", title: "Bumble bees", text: p("Fuzzy all over. UF/IFAS says Florida's five species nest at or below ground, often in old rodent burrows, dense grass or crevices by a foundation, and the colony dies off by early winter.") },
       ],
@@ -84,7 +84,7 @@ export const beeRemoval: Service = {
       heading: "Why Florida bee colonies need care",
       body: rich(
         p(
-          "Honey bees matter, and a swarm passing through is usually better left alone. A colony living in your house or next to where people walk is different, especially in Tampa Bay.",
+          "Honey bees matter, and a swarm passing through is usually better left alone. A colony living in your house or next to where people walk is different, especially in Central Florida.",
         ),
         ul(
           "**African honey bees are here.** UF/IFAS says African bees were first documented in Florida in 2001 near the Port of Tampa and have spread through the southern half of the state, mixing with European honey bees.",
@@ -119,9 +119,9 @@ export const beeRemoval: Service = {
       columns: 4,
       cards: [
         { number: "1", title: "Look and listen", text: p("We find where the bees go in, whether it's a swarm or a colony, and where the comb sits. In a wall, that can mean feeling for warmth and listening for the hum, as UF/IFAS describes.") },
-        { number: "2", title: "Agree the plan with you", text: p("Live removal or eradication, how the wall or soffit will be opened, and how it gets closed again, all settled before work starts.", "[PLACEHOLDER: ask the client: how you handle bees (live removal by a registered beekeeper, eradication, or both) and who does the work; this decides what the page can say]") },
+        { number: "2", title: "Agree the plan with you", text: p("How the colony will be removed, how the wall or soffit will be opened, and who arranges the repair afterward, all settled before work starts.", "[PLACEHOLDER: ask the client: how you handle bees and who does the work; this decides what the page can say]") },
         { number: "3", title: "The colony and the comb", text: p("UF/IFAS says a job isn't finished until the entire nest is out: bees, comb, honey and brood. Leaving it in the wall invites the next problem.", "[PLACEHOLDER: ask the client: who removes the colony and comb, and how]") },
-        { number: "4", title: "Bee-proof the gap", text: p("Once the cavity is empty, UF/IFAS advises sealing the opening so a new swarm can't move into the same space.", "[PLACEHOLDER: ask the client: do you seal and repair the opening after a bee job?]") },
+        { number: "4", title: "Bee-proof the gap", text: p("Once the cavity is empty, UF/IFAS advises sealing the opening so a new swarm can't move into the same space.", "[PLACEHOLDER: ask the client: do you seal the opening after a bee job?]") },
       ],
     },
     {
@@ -156,7 +156,7 @@ export const beeRemoval: Service = {
         "Water meter covers and holes in siding closed",
         "Old comb removed so it can't melt or draw pests",
         "A weekly look around the house from March to July",
-        "[PLACEHOLDER: ask the client: do you repair the wall or soffit you open, or does the owner arrange the repair?]",
+        "Repairs to the wall or soffit are arranged by the owner with a contractor",
       ],
       image: images.beeRemoval,
       imageSide: "left",
@@ -172,16 +172,15 @@ export const beeRemoval: Service = {
       cards: [
         { title: "Swarm or colony", text: p("A swarm in a tree is a short job. A colony in a wall means finding and removing comb.") },
         { title: "Where the comb is", text: p("A shed or meter box, or high in a soffit or deep inside a wall.") },
-        { title: "Opening and closing", text: p("Cutting into drywall, soffit or siding, and closing it again.") },
+        { title: "Opening the wall", text: p("Cutting into drywall, soffit or siding to reach the comb. The owner's contractor closes it again.") },
         { title: "Size of the colony", text: p("An established colony can fill a wall cavity with comb.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: can the site show a price range for bee removal?]"),
     },
     {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Bee removal in 9 counties",
+      heading: "Bee removal in 8 counties",
       intro: p("African honey bees were first documented in Florida in 2001 near the Port of Tampa. We take bee calls across the bay area and the counties around it."),
       groups: countyGroups,
     },
@@ -216,7 +215,7 @@ export const beeRemoval: Service = {
         ),
         faq(
           "Are the bees at my house African honey bees?",
-          "Assume they could be. UF/IFAS says African bees have been in Florida since 2001 and hybridize with European honey bees, and the hybrids show an unpredictable mix of both kinds of behavior. Treat any colony in Tampa Bay with care.",
+          "Assume they could be. UF/IFAS says African bees have been in Florida since 2001 and hybridize with European honey bees, and the hybrids show an unpredictable mix of both kinds of behavior. Treat any colony in Central Florida with care.",
         ),
         faq(
           "Why does the honeycomb have to come out?",
@@ -247,9 +246,9 @@ export const beeRemoval: Service = {
     },
   ],
   seo: {
-    title: "Bee Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Bee Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb must come out and what to do until help arrives in Tampa Bay. (727) 594-7705.",
+      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb must come out and what to do until help comes. Central Florida: (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS ENY-170 (IN1205): Living with the African Honey Bee (first found 2001 near the Port of Tampa; spread through southern half of Florida; hundreds or thousands of defenders, chase 400+ yards; nest sites; attack advice; who removes colonies; owner responsible; beekeepers can't use pesticides)", url: IN1205 },

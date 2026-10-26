@@ -1,7 +1,7 @@
 import type { AreasSection } from "../../types";
 
 /*
- * The 9 counties and their main towns (one phone number site-wide, so no county lines),
+ * The 8 counties and their main towns (one phone number site-wide, so no county lines),
  * linking to the county and city pages that exist today. Shared by the home,
  * service and attic pages; each page writes its own heading and intro.
  */
@@ -27,6 +27,17 @@ export const countyGroups: AreasSection["groups"] = [
       { label: "Riverview" },
       { label: "Plant City" },
       { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+      { label: "Lutz" },
+      { label: "Westchase" },
+      { label: "Carrollwood" },
+      { label: "Citrus Park" },
+      { label: "Town 'n' Country" },
+      { label: "Temple Terrace" },
+      { label: "New Tampa" },
+      { label: "Cheval" },
+      { label: "Keystone" },
+      { label: "Lake Magdalene" },
+      { label: "Greater Northdale" },
     ],
   },
   {
@@ -67,18 +78,13 @@ export const countyGroups: AreasSection["groups"] = [
     items: [{ label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" }, { label: "Wildwood" }, { label: "Bushnell" }],
   },
   {
+    title: "Marion County",
+    href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
+    items: [{ label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" }, { label: "Belleview" }, { label: "Dunnellon" }, { label: "Silver Springs", href: "/about-us/service-area/wildlife-removal-silver-springs-fl/" }, { label: "Summerfield" }],
+  },
+  {
     title: "Polk County",
     href: "/about-us/service-area/wildlife-removal-polk-county/",
     items: [{ label: "Lakeland" }, { label: "Winter Haven" }, { label: "Bartow" }, { label: "Haines City" }],
-  },
-  {
-    title: "Manatee County",
-    href: "/about-us/service-area/wildlife-removal-manatee-county-fl/",
-    items: [{ label: "Bradenton" }, { label: "Palmetto" }, { label: "Anna Maria Island" }],
-  },
-  {
-    title: "Osceola County",
-    href: "/about-us/service-area/wildlife-removal-osceola-county-fl/",
-    items: [{ label: "Kissimmee" }, { label: "St. Cloud" }],
   },
 ];

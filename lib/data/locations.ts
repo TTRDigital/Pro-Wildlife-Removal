@@ -1,4 +1,5 @@
 /* Generated from the live site by the migration scripts, then edited by hand where noted. Edit content in /cms; this is the built-in fallback and the seed source. */
+import { withLocationExtras } from "./content/page-extras.ts";
 import { images } from "./images.ts";
 import type { Location } from "../types";
 import { citrus } from "./content/counties/citrus.ts";
@@ -8,19 +9,23 @@ import { pasco } from "./content/counties/pasco.ts";
 import { pinellas } from "./content/counties/pinellas.ts";
 import { polk } from "./content/counties/polk.ts";
 import { sumter } from "./content/counties/sumter.ts";
-import { manatee } from "./content/counties/manatee.ts";
-import { osceola } from "./content/counties/osceola.ts";
+import { marion } from "./content/counties/marion.ts";
 import { tampa } from "./content/cities/tampa.ts";
 import { springHill } from "./content/cities/spring-hill.ts";
 import { clearwater } from "./content/cities/clearwater.ts";
 import { newPortRichey } from "./content/cities/new-port-richey.ts";
 import { brooksvilleRats } from "./content/cities/brooksville-rats.ts";
+import { brooksville } from "./content/cities/brooksville.ts";
+import { theVillagesRats } from "./content/cities/rats/the-villages.ts";
 import { landOLakes } from "./content/cities/land-o-lakes.ts";
 import { hudson } from "./content/cities/hudson.ts";
 import { stPetersburg } from "./content/cities/st-petersburg.ts";
 import { trinity } from "./content/cities/trinity.ts";
 import { odessa } from "./content/cities/odessa.ts";
 import { holiday } from "./content/cities/holiday.ts";
+import { ocala } from "./content/cities/ocala.ts";
+import { silverSprings } from "./content/cities/silver-springs.ts";
+import { theVillages } from "./content/cities/the-villages.ts";
 import { dadeCity } from "./content/cities/dade-city.ts";
 import { dunedin } from "./content/cities/dunedin.ts";
 import { safetyHarbor } from "./content/cities/safety-harbor.ts";
@@ -35,7 +40,7 @@ import { safetyHarborRats } from "./content/cities/rats/safety-harbor.ts";
 import { dadeCityRats } from "./content/cities/rats/dade-city.ts";
 import { newPortRicheyRats } from "./content/cities/rats/new-port-richey.ts";
 
-export const fallbackLocations: Location[] = [
+const migratedLocations: Location[] = [
  {
   "path": "about-us/service-area/wild-life-removal-central-florida",
   "name": "Central Florida",
@@ -174,14 +179,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Licensed and Insured: ",
+        "text": "Florida rules followed: ",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal is a fully licensed and insured wildlife removal company, giving you peace of mind knowing that your property is in capable hands.",
+        "text": "Pro Wildlife Removal follows Florida's wildlife rules on every job, including FWC's bat maternity season and its trapping and release rules.",
         "marks": []
        }
       ],
@@ -237,14 +242,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Emergency Response: ",
+        "text": "Urgent Problems: ",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": "Wildlife problems can arise unexpectedly.",
+        "text": "Wildlife problems can arise unexpectedly. If an animal gets into your living space, call us right away.",
         "marks": []
        }
       ],
@@ -321,7 +326,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Satisfaction Guaranteed: ",
+        "text": "Our standards: ",
         "marks": [
          "strong"
         ]
@@ -354,7 +359,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our tailored services, commitment to ethical practices, and dedication to lasting solutions make us the premier choice for those seeking to protect their properties and maintain harmony with the local ecosystem. When you choose us, you’re choosing expertise, integrity, and peace of mind.",
+        "text": "We tailor each job to the property and follow ethical practices that respect the local ecosystem. When you choose us, you’re choosing expertise, integrity, and peace of mind.",
         "marks": []
        }
       ],
@@ -459,7 +464,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Traps are strategically placed in areas where wildlife activity is most prevalent. Our experience allows us to anticipate the animals’ movement patterns and select optimal trap locations.",
+        "text": ": Traps are strategically placed in areas where wildlife activity is concentrated. Our experience allows us to anticipate the animals’ movement patterns and select optimal trap locations.",
         "marks": []
        }
       ],
@@ -527,7 +532,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our approach to exclusion is designed to prevent unwanted wildlife from reentering your property. We understand that simply removing animals isn’t enough – it’s essential to address the root cause of the issue to ensure a long-lasting solution. Here’s a step-by-step overview of how our exclusion process works:",
+        "text": "Our approach to exclusion is designed to prevent unwanted wildlife from reentering your property. Removing animals isn't enough on its own: the openings they used have to be closed too. Here’s a step-by-step overview of how our exclusion process works:",
         "marks": []
        }
       ],
@@ -630,7 +635,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Our exclusion services offer lasting security by addressing vulnerabilities, ensuring your property remains free from unwanted wildlife while adhering to ethical practices.",
+        "text": " Our exclusion services close the openings animals use to get in, following ethical practices.",
         "marks": []
        }
       ],
@@ -656,7 +661,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our commitment goes beyond merely removing nuisance wildlife – we offer a range of specialized services to ensure your property is not only free from wildlife intrusions but also restored to its optimal condition. Our “Clean Up” service is designed to tackle the aftermath of wildlife presence, ensuring your environment is safe, sanitary, and welcoming. Here’s an overview of how our Clean Up process works:",
+        "text": "Our commitment goes beyond merely removing nuisance wildlife – we offer a range of specialized services to ensure your property is not only free from wildlife intrusions but also cleaned up afterward. Our “Clean Up” service is designed to tackle the aftermath of wildlife presence, ensuring your environment is safe, sanitary, and welcoming. Here’s an overview of how our Clean Up process works:",
         "marks": []
        }
       ],
@@ -710,14 +715,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Professional Restoration:",
+        "text": "Final Clean-Up:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " We restore your property to its pre-wildlife condition, ensuring that both indoor and outdoor spaces are free from contamination and debris.",
+        "text": " We make sure both indoor and outdoor spaces are free from contamination and debris.",
         "marks": []
        }
       ],
@@ -786,7 +791,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal offers various services tailored to address various nuisance wildlife issues. From live trapping and removal to attic restoration and animal-proofing, their skilled team ensures a comprehensive solution.",
+        "text": "Pro Wildlife Removal offers various services tailored to address various nuisance wildlife issues. From live trapping and removal to animal-proofing, their skilled team ensures a comprehensive solution.",
         "marks": []
        }
       ],
@@ -1198,7 +1203,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Effective rodent control is a vital component of maintaining a safe and healthy living environment. Rapid and ethical wildlife control measures are essential to prevent the proliferation of diseases and the potential nuisance of pest-related odors. Our comprehensive wildlife control service not only eradicates the invading rodents but also ensures the elimination of potential health risks while upholding hygienic and pristine surroundings for you and your family.",
+        "text": "Effective rodent control is a vital component of maintaining a safe and healthy living environment. Ethical wildlife control measures are essential to prevent the proliferation of diseases and the potential nuisance of pest-related odors. Our comprehensive wildlife control service not only eradicates the invading rodents but also ensures the elimination of potential health risks while upholding hygienic and pristine surroundings for you and your family.",
         "marks": []
        }
       ],
@@ -1412,7 +1417,7 @@ export const fallbackLocations: Location[] = [
   ],
   "seo": {
    "title": "Wildlife Removal In Central Florida | Pro Wildlife Removal",
-   "description": "Pro Wildlife is a fast and reliable wildlife removal in Central Florida. Don't let wildlife damage your property or endanger your family. Call us today!"
+   "description": "Pro Wildlife is a reliable wildlife removal company in Central Florida. Don't let wildlife damage your property or endanger your family. Call us today!"
   },
   "order": 1
  },
@@ -1430,903 +1435,10 @@ export const fallbackLocations: Location[] = [
  polk,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/counties/sumter.ts
  sumter,
- {
-  "path": "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
-  "name": "Brooksville",
-  "kind": "city",
-  "county": "Hernando",
-  "summary": "If you discover unwelcome wildlife in your home, it’s essential to call in the wildlife control experts.",
-  "design": "classic",
-  "hero": {
-   "heading": "Professional Wildlife Removal Services in Brooksville, FL",
-   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
-   "ctas": [
-    {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
-     "style": "outline"
-    }
-   ],
-   "style": {
-    "bg": "beige",
-    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
-    "overlay": 0.7,
-    "heading": "white",
-    "align": "center"
-   },
-   "highlight": "Brooksville, FL"
-  },
-  "sections": [
-   {
-    "_type": "splitSection",
-    "heading": "The Pro Wildlife REMOVAL IN BROOKSVILLE, FL Standard Setting the Bar High",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "If you discover unwelcome wildlife in your home, it’s essential to call in the wildlife control experts. At Pro Wildlife Removal in Brooksville, FL, we understand the importance of creating a safe and comfortable home environment. Renowned for our reliability, we’re your go-to solution for all wildlife-related issues.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "At Pro Wildlife Removal our commitment to safe and effective wildlife control sets us apart. Our team, rich in experience and expertise, is adept at handling these situations with precision and care. With Pro Wildlife Removal by your side, regain control and enjoy a peaceful, wildlife-free living space.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.brooksvilleRatImage,
-    "imageSide": "left",
-    "style": {
-     "bg": "blue",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "white",
-     "align": "center",
-     "headingAbove": true
-    },
-    "_key": "s0"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Understanding Wildlife Issues in Brooksville, FL",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Brooksville, FL, nestled in the beautiful Hernando County, boasts stunning landscapes and abundant wildlife. However, sometimes this harmony is disrupted when wild animals enter our homes. This can lead to a range of problems, from property damage to health risks. Dealing with these situations requires expert intervention to ensure the safety of both humans and animals.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Expert wildlife removal in Brooksville, FL can address these issues effectively while upholding the natural balance of the surrounding area itself. With their assistance, homeowners can enjoy the serene beauty of Brooksville while minimizing the potential conflicts that arise from wildlife interactions.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h2",
-      "children": [
-       {
-        "_type": "span",
-        "text": "The Role of Professional Wildlife Removal",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Comprehensive Wildlife Removal Services",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal offers a comprehensive range of services meticulously designed to cater to a variety of animal-related predicaments. From the meticulous extraction of raccoons to the skillful handling of squirrels and snakes, our adept team possesses the expertise to adeptly manage an extensive spectrum of scenarios.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our specialization encompasses the safe and proficient handling of potentially dangerous species such as venomous snakes and bats, along with other creatures that might potentially jeopardize the safety and tranquility of you and your family.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Licensed and Professional Wildlife Control Services",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "At the heart of our esteemed reputation is a fully licensed team, deeply versed in the unique behaviors of Florida’s local wildlife. This in-depth knowledge positions us perfectly to address the specific challenges found in Brooksville and its surrounding areas. Tailoring our pest control strategies with precision, we ensure our solutions are perfectly aligned with your individual needs, guaranteeing an effective and seamless experience.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Swift and Effective Solutions",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our team at Pro Wildlife Removal in Brooksville, FL fully understands the urgency of wildlife infestations. We know how quickly animals like raccoons and squirrels can cause significant damage. That’s why we offer same-day wildlife removal in Brooksville services, acting swiftly to ease your concerns and prevent further issues.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "blue",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "white",
-     "align": "center",
-     "headingAbove": true
-    },
-    "_key": "s1"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Professional Wildlife Removal: Protecting Your Space and Health",
-    "body": [
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Property Damage and Health Risks",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Wildlife invasions can lead to serious damage to your property. Creatures like raccoons and rodents are notorious for their destructive habits, including chewing through electrical wiring, which can pose a serious fire hazard.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Moreover, the health risks associated with animal droppings, which can transmit diseases, cannot be overlooked. Prompt action to address wildlife issues is crucial. It not only protects your property but also ensures the health and safety of your family.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Specialized Wildlife Control Services",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our wildlife control expertise extends beyond mere animal removal, encompassing a wide array of specialized wildlife removal in Brooksville services. Our proficiency extends to efficient rodent control, the meticulous extraction of bat colonies, and much more. Irrespective of the scale of the task at hand, our seasoned team is adeptly equipped to navigate the intricacies of each scenario, ensuring 100% effective animal removal services.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black",
-     "align": "center"
-    },
-    "_key": "s2"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Why Choose Professional Wildlife Removal IN BROOKSVILLE, FL Services Over DIY?",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "You may be tempted to try and handle pest control issues on your own due to the cost savings, but you may pay more in the end due to potential mistakes, incomplete removal, and the risk of damage to your property or health hazards.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Here’s why you should choose professional wildlife removal in Brooksville services over DIY methods:",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h4",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Expert Knowledge and Experience",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Professional wildlife removal in Brooksville, FL bring a wealth of expertise and experience. They have a deep understanding of animal behavior, local wildlife species, and the safest and most effective methods for removal. This expertise is crucial for ensuring the process is done correctly and thoroughly, something that DIY methods often lack.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h4",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Safety and Health Risks",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Dealing with wildlife can be dangerous, posing health and safety risks. Professionals are trained to handle potentially aggressive animals and are aware of the diseases these animals can carry. They have the necessary equipment to safely remove wildlife, protecting you and your family from harm.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h4",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Prevention of Future Infestations",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "A key advantage of professional services is their ability to not only remove the current wildlife but also implement strategies to prevent future infestations. They can identify and seal entry points, advise on habitat modifications, and take other preventative measures that DIY methods might miss.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h4",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Time and Cost-Efficiency",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "While DIY solutions might seem cost-effective, they can often lead to more time and money spent in the long run, especially if the problem recurs or worsens. Professionals can resolve the issue efficiently, saving you time and potential costs from property damage or ineffective solutions.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h4",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Legal Compliance",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Wildlife removal in Brooksville, FL often falls under specific legal regulations. Professionals are knowledgeable about these laws and ensure that removal are compliant with state and local wildlife regulations, avoiding potential legal issues that could arise from DIY methods.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h4",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Peace of Mind",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Lastly, choosing a professional service offers peace of mind. Knowing that the issue is being handled safely, effectively, and thoroughly by experts allows you to relax without the stress and uncertainty that comes with attempting to solve the problem yourself.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "navy",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "align": "center"
-    },
-    "_key": "s3"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Choosing Pro Wildlife Removal: Your Trustworthy Partner",
-    "body": [
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Local Expertise",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal operates extensively within Brooksville, FL, and its adjacent areas, granting us a deep understanding of the distinctive wildlife predicaments that local residents commonly encounter. This nuanced knowledge base forms the bedrock of our service provision, ensuring that the remedies we offer are meticulously aligned with your individual requisites.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Through our localized expertise, we are poised to deliver targeted solutions and control services that account for the intricate interplay between the local environment and its diverse fauna.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Free Assessment and Transparent Services",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "At the core of our approach is a steadfast dedication to transparency from the very beginning. In line with this commitment, we provide a free quote before any work begins. This practice ensures that you have a complete understanding of the costs involved, preventing any unexpected surprises during our service delivery. Our focus on clear and upfront communication is a reflection of our desire to build a relationship based on trust and transparency.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Committed to Your Safety",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our approach is grounded in a strong commitment to safety and effective solutions. We prioritize methods that protect both human populations and manage wildlife, ensuring a responsible and secure outcome for all.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our multifaceted wildlife control strategies not only result in the efficacious resolution of your wildlife concerns but also prioritize the minimization of harm inflicted upon these creatures. This commitment to safeguarding lives extends across the spectrum, underscoring our firm belief in the coexistence of all species.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black",
-     "align": "center"
-    },
-    "_key": "s4"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Different Types Of Wildlife Removal Services",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "At Pro Wildlife, we understand the frustration that comes with dealing with wildlife intrusions. That’s why we offer different types of ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "wildlife removal services",
-        "marks": [
-         "l0",
-         "underline"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " to help you get back on track quickly and safely.",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "/services/"
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Squirrel Removal",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Squirrels may seem cute, but their gnawing habits can damage your property and pose electrical hazards. Our experts employ safe trapping techniques to remove squirrels without causing harm.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Raccoon Removal",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Raccoons are notorious for scavenging through garbage and causing messes. Our ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "raccoon removal services",
-        "marks": [
-         "l0"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " address the nuisance while prioritizing the animal’s well-being.",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "/services/raccoon-removal/"
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Snake Removal",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Encounters with venomous snakes can be alarming. Our skilled team ensures the safe removal of snakes from your property, preventing potential risks.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Addressing Rodent Infestations",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Rodent infestations can lead to structural damage and health hazards. We offer ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "rodent removal services",
-        "marks": [
-         "l0"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " to eliminate these wild animals from your property. Our experts locate their nesting areas, seal entry points, and implement effective removal strategies, preventing future infestations.",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "/services/rat-removal/"
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Whatever type of problem you’re facing, rest assured knowing we have a solution! We take pride in providing quality services at an affordable price, so don’t hesitate to give us a call today!",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "blue",
-     "heading": "beige",
-     "text": "beige",
-     "link": "white",
-     "divider": "beige",
-     "align": "center"
-    },
-    "_key": "s5"
-   },
-   {
-    "_type": "ctaSection",
-    "heading": "Call Pro Wildlife Removal Today",
-    "text": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "When dealing with wildlife issues in Brooksville, FL, or its surrounding areas, immediate action is crucial. The possibility of the situation worsening highlights the need for swift intervention. Choosing ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal",
-        "marks": [
-         "l0"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " ensures you have access to quick and skilled solutions, effectively stopping the issue from escalating further.",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "/"
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "No matter what kind of wildlife control problem you’re facing, Pro Wildlife Removal in Brooksville is here to help. ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "Contact us",
-        "marks": [
-         "l0",
-         "underline"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " today for more information about our professional wildlife removal in Brooksville or to schedule an appointment. With our experienced staff on hand, you can be sure that whatever issue arises, we’ll take care of it quickly and efficiently so that you don’t have to worry about dealing with unwanted critters again!",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "/contact-us/"
-       }
-      ]
-     }
-    ],
-    "_key": "s6"
-   }
-  ],
-  "seo": {
-   "title": "Wildlife Removal in Brooksville, FL | Pro Wildlife Removal",
-   "description": "Pro Wildlife Removal offers professional wildlife removal in Brooksville, FL. Get rid of pests safely and efficiently. Contact us for expert assistance!"
-  },
-  "order": 9
- },
+ // New for the rebuild (Nia, Oct 2026): lib/data/content/counties/marion.ts
+ marion,
+ // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/brooksville.ts
+ brooksville,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/clearwater.ts
  clearwater,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/dade-city.ts
@@ -2342,7 +1454,7 @@ export const fallbackLocations: Location[] = [
   "name": "Lady Lake",
   "kind": "city",
   "county": "Lake",
-  "summary": "Welcome to Pro Wildlife Removal, your trusted wildlife trappers serving the Lady Lake, FL community in Central Florida.",
+  "summary": "Welcome to Pro Wildlife Removal, wildlife trappers serving the Lady Lake, FL community in Central Florida.",
   "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal in Lady Lake, FL",
@@ -2374,7 +1486,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Welcome to Pro Wildlife Removal, your trusted wildlife trappers serving the Lady Lake, FL community in Central Florida. With over a decade of experience and a commitment to efficient and effective wildlife trapping, we specialize in safely removing unwanted wildlife from residential and commercial properties.",
+        "text": "Welcome to Pro Wildlife Removal, wildlife trappers serving the Lady Lake, FL community in Central Florida. With a commitment to efficient and effective wildlife trapping, we specialize in safely removing unwanted wildlife from residential and commercial properties.",
         "marks": []
        }
       ],
@@ -2386,7 +1498,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our team of trained professionals is dedicated to providing exceptional, thorough service, ensuring that your Lady Lake property or business remains free from wildlife intrusions. Whether you’re dealing with raccoons, squirrels, bats, or any other wildlife, Pro Wildlife Removal is here to help. Trust us to handle your wildlife issues with care and expertise, keeping Lady Lake safe and wildlife-free.",
+        "text": "Our team of trained professionals is dedicated to providing exceptional, thorough service, ensuring that your Lady Lake property or business remains free from wildlife intrusions. Whether you’re dealing with raccoons, squirrels, bats, or any other wildlife, Pro Wildlife Removal is here to help. We handle wildlife issues in Lady Lake with care.",
         "marks": []
        }
       ],
@@ -2464,7 +1576,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We understand the unique wildlife challenges that Lady Lake, FL residents face and are dedicated to providing tailored solutions to address these issues. Our team is not only experienced and knowledgeable but also deeply committed to the community. We take pride in our prompt response times, thorough inspections, and effective removal techniques that ensure both safety and peace of mind for our clients.",
+        "text": "We understand the unique wildlife challenges that Lady Lake, FL residents face and are dedicated to providing tailored solutions to address these issues. Our team is not only experienced and knowledgeable but also deeply committed to the community. We take pride in our thorough inspections and effective removal techniques that ensure both safety and peace of mind for our clients.",
         "marks": []
        }
       ],
@@ -2502,7 +1614,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal in Lady Lake, FL, we offer a comprehensive range of services designed to address any wildlife issue you may encounter. Our team of experts is equipped to handle a variety of situations, ensuring that your property remains safe and wildlife-free. Here are some of the key services we provide:",
+        "text": "At Pro Wildlife Removal in Lady Lake, FL, we offer a comprehensive range of services designed to address any wildlife issue you may encounter. Our team is equipped to handle a variety of situations. Here are some of the key services we provide:",
         "marks": []
        }
       ],
@@ -2526,7 +1638,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Raccoons can cause significant damage to your property and pose health risks. Our team uses efficient trapping and relocation techniques to safely ",
+        "text": "In Lady Lake, raccoons tear into attics and crawl spaces and can carry rabies. We trap them under Florida's rules to safely ",
         "marks": []
        },
        {
@@ -2806,7 +1918,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Based on our inspection findings, we create a customized removal plan tailored to your specific situation. This plan outlines the steps we’ll take to remove the wildlife, repair any damage, and implement preventive measures to avoid future issues.",
+        "text": "Based on our inspection findings, we create a customized removal plan tailored to your specific situation. This plan outlines the steps we’ll take to remove the wildlife, seal entry points, and implement preventive measures to avoid future issues.",
         "marks": []
        }
       ],
@@ -2854,7 +1966,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Once the wildlife has been safely removed, we focus on preventing future infestations. This involves sealing entry points, installing barriers, and making necessary repairs to your property. We also provide recommendations on how to maintain a wildlife-free environment.",
+        "text": "Once the wildlife has been safely removed, we focus on preventing future infestations. This involves sealing entry points and installing barriers. We also recommend ways to keep wildlife from moving back in.",
         "marks": []
        }
       ],
@@ -2866,7 +1978,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Post-Removal Repairs",
+        "text": "After the Removal",
         "marks": []
        }
       ],
@@ -2878,7 +1990,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife can cause significant damage to your property. Our team not only removes the animals but also addresses any damage they’ve caused. This includes repairing holes, replacing insulation, and cleaning up waste to ensure your property is restored to its original condition and fully decontaminated.",
+        "text": "Wildlife can cause significant damage to your property. Our team removes the animals, seals the holes they used, and cleans up waste so the area is fully decontaminated. Repairs to damaged structure or insulation are arranged by the owner with a contractor.",
         "marks": []
        }
       ],
@@ -2914,7 +2026,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Emergency Response",
+        "text": "Urgent Calls",
         "marks": []
        }
       ],
@@ -2926,7 +2038,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We understand that wildlife problems can arise at any time. That’s why we offer emergency response services to address urgent situations quickly and effectively.",
+        "text": "Some wildlife problems can’t wait, like a bat in the bedroom or a snake in the kitchen. Tell us when you call and we will move urgent jobs up the schedule.",
         "marks": []
        }
       ],
@@ -2938,7 +2050,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, our comprehensive and efficient pest control approach ensures that your wildlife problems are resolved efficiently and responsibly. Contact us today to learn more about our services or to schedule an inspection.",
+        "text": "At Pro Wildlife Removal, we handle wildlife problems efficiently and responsibly. Contact us today to learn more about our services or to schedule an inspection.",
         "marks": []
        }
       ],
@@ -2956,7 +2068,7 @@ export const fallbackLocations: Location[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Why Choose Pro Wildlife Removal in Lady Lake, FL?",
+    "heading": "What Lady Lake Homeowners Get When They Call Us",
     "body": [
      {
       "_type": "block",
@@ -2976,7 +2088,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " for your wildlife control needs in Lady Lake means opting for professional, reliable, and compassionate service. Here’s why we stand out from other animal control companies in Lady Lake:",
+        "text": " for your wildlife control needs in Lady Lake means opting for professional, reliable, and compassionate service. Here's how we work in Lady Lake:",
         "marks": []
        }
       ],
@@ -3006,7 +2118,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our Lady Lake wildlife control team consists of highly trained and experienced wild animal removal specialists. We have extensive knowledge of local wildlife in Lady Lake and the most effective methods to handle various situations. Our expertise, refined over a decade of practice, ensures that we can tackle any wildlife issue, no matter how challenging.",
+        "text": "Our Lady Lake wildlife control team consists of highly trained and experienced wild animal removal specialists. We have extensive knowledge of local wildlife in Lady Lake and effective methods to handle various situations. We handle a wide range of wildlife issues, including difficult ones.",
         "marks": []
        }
       ],
@@ -3018,7 +2130,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Quick and Efficient Response Times",
+        "text": "Clear, Efficient Service",
         "marks": []
        }
       ],
@@ -3030,7 +2142,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We understand the urgency of wildlife problems and prioritize prompt service. Our team is committed to responding quickly to your call, conducting thorough inspections, and implementing effective removal strategies. We aim to resolve your wildlife problems as swiftly as possible, minimizing disruption to your daily life.",
+        "text": "We understand the urgency of wildlife problems. Same-day appointments are often available in Lady Lake, and every job starts with a thorough inspection and an effective removal plan that keeps disruption to your daily life low.",
         "marks": []
        }
       ],
@@ -3102,7 +2214,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our goal is not only to remove wildlife but also to prevent future infestations. We implement comprehensive exclusion and preventive measures, ensuring long-term protection for your property. Our team provides expert advice on maintaining a wildlife-free environment, helping you avoid recurring problems.",
+        "text": "Our goal is not only to remove wildlife but also to prevent future infestations. We implement comprehensive exclusion and preventive measures, ensuring long-term protection for your property. Our team gives advice on keeping animals from returning.",
         "marks": []
        }
       ],
@@ -3114,7 +2226,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Licensed and Insured",
+        "text": "Done by Florida’s Rules",
         "marks": []
        }
       ],
@@ -3126,7 +2238,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal is fully Florida licensed and insured, giving you peace of mind knowing that you’re working with a professional and credible company. Our adherence to industry standards and regulations ensures that you receive top-quality service.",
+        "text": "Pro Wildlife Removal follows Florida’s wildlife rules on every job. That covers how animals are trapped, handled, and released, so the work is done the right way.",
         "marks": []
        }
       ],
@@ -3162,7 +2274,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, our commitment to excellence, efficient practices in wildlife control, and customer satisfaction makes us the premier choice for animal removal services in Lady Lake. Contact us today to experience our top-notch service and to address any wildlife concerns you may have.",
+        "text": "At Pro Wildlife Removal, we focus on careful, efficient wildlife control and on our customers in Lady Lake. Contact us to talk through your wildlife concerns.",
         "marks": []
        }
       ],
@@ -3260,7 +2372,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We understand the urgency of wildlife problems and strive to respond as quickly as possible. In most cases, we can schedule an inspection within 24-48 hours. We also offer emergency services for urgent situations.",
+          "text": "We understand that wildlife problems feel urgent. Tell us if the animal has gotten into the house so we can treat the job as urgent.",
           "marks": []
          }
         ],
@@ -3277,7 +2389,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Absolutely. After removing the wild animals, we implement preventive measures such as sealing entry points, installing barriers, and providing advice on maintaining a wildlife-free property. Our goal is to provide long-term solutions to prevent future infestations.",
+          "text": "Absolutely. After removing the wild animals, we implement preventive measures such as sealing entry points, installing barriers, and providing advice on keeping wildlife out. Our goal is to provide long-term solutions to prevent future infestations.",
           "marks": []
          }
         ],
@@ -3286,7 +2398,7 @@ export const fallbackLocations: Location[] = [
       ]
      },
      {
-      "question": "What should I do if I have a wildlife emergency?",
+      "question": "What should I do if an animal gets inside my home?",
       "answer": [
        {
         "_type": "block",
@@ -3294,7 +2406,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "If you have a wildlife emergency, contact us immediately. We’ll provide prompt assistance to ensure your safety and resolve the issue quickly.",
+          "text": "Close the room off, keep children and pets away, and call us right away at (727) 594-7705. Don’t try to grab or corner the animal.",
           "marks": []
          }
         ],
@@ -3303,7 +2415,7 @@ export const fallbackLocations: Location[] = [
       ]
      },
      {
-      "question": "Is Pro Wildlife Removal licensed and insured?",
+      "question": "Does Pro Wildlife Removal follow Florida’s wildlife rules?",
       "answer": [
        {
         "_type": "block",
@@ -3311,7 +2423,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Yes, Pro Wildlife Removal is fully licensed and insured to operate in Florida. This ensures that you’re working with a professional and credible company that adheres to industry standards and regulations.",
+          "text": "Yes. Every job follows Florida’s wildlife rules. Call (727) 594-7705 if you have questions about how we work.",
           "marks": []
          }
         ],
@@ -3328,7 +2440,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We strongly advise against attempting to remove wildlife on your own. Wildlife can be dangerous and unpredictable, and improper handling can lead to injury or legal issues. It’s best to leave wildlife removal to trained professionals who have the expertise and equipment to do the job safely.",
+          "text": "We strongly advise against attempting to remove wildlife on your own. Wildlife can be dangerous and unpredictable, and improper handling can lead to injury or legal issues. Leave wildlife removal to trained professionals who have the experience and equipment to do the job safely.",
           "marks": []
          }
         ],
@@ -3345,7 +2457,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "The cost of wildlife removal varies depending on the type and extent of the issue. We provide a detailed estimate after our initial inspection. Our pricing is competitive, and we strive to offer the best value for our comprehensive services.",
+          "text": "The cost of wildlife removal varies depending on the type and extent of the issue. We provide a detailed estimate after our initial inspection, and it spells out what the work includes.",
           "marks": []
          }
         ],
@@ -3398,7 +2510,7 @@ export const fallbackLocations: Location[] = [
    }
   ],
   "seo": {
-   "title": "Top Wildlife Removal in Lady Lake, FL | Pro Wildlife Removal",
+   "title": "Wildlife Removal in Lady Lake, FL | Pro Wildlife Removal",
    "description": "Professional wildlife removal in Lady Lake, FL. Contact Pro Wildlife Removal for expert animal control solutions. Keep your property wildlife-free."
   },
   "order": 15
@@ -3441,7 +2553,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Experience wildlife issues on your property in Lecanto, FL? Don’t worry! Our team of experts is well-versed in handling the unique challenges that come with the diverse wildlife in the Lecanto area. From the common squirrels and raccoons to the more elusive snakes and armadillos, we have the knowledge and tools to safely remove these animals from your property. We understand the importance of not only removing these unwanted guests but also ensuring they don’t return, offering long-term solutions to keep your home or business safe.",
+        "text": "Experience wildlife issues on your property in Lecanto, FL? Don’t worry! Our team of experts is well-versed in handling the unique challenges that come with the diverse wildlife in the Lecanto area. From the common squirrels and raccoons to the more elusive snakes and armadillos, we have the knowledge and tools to safely remove these animals from your property. We remove these unwanted guests and close the openings they used, to make it harder for others to get in.",
         "marks": []
        }
       ],
@@ -3453,7 +2565,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "With Pro Wildlife Removal, you can expect professional service tailored to the Lecanto community’s needs. We’re here to restore your comfort and safety with as little disruption to your daily life as possible. Don’t let wildlife problems stress you out—contact us, and let the experts take care of it.",
+        "text": "With Pro Wildlife Removal, you can expect professional service tailored to the Lecanto community’s needs. We’re here to restore your comfort and safety with as little disruption to your daily life as possible. Don’t let wildlife problems stress you out, contact us, and let the experts take care of it.",
         "marks": []
        }
       ],
@@ -3679,7 +2791,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " We safely and efficiently remove any of the over 40 species of snakes found in Florida, ensuring your property is snake-free.",
+        "text": " We safely remove snakes from homes and yards.",
         "marks": []
        }
       ],
@@ -3735,14 +2847,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "2. Wildlife Damage Repair and Prevention:",
+        "text": "2. Wildlife Damage Prevention:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " Our services extend beyond removal. We repair the damage caused by wildlife, such as chewed wires, damaged insulation, or compromised structures. Moreover, we implement preventative measures to deter future wildlife intrusions, sealing entry points and advising on property maintenance to minimize wildlife attraction.",
+        "text": " Our services extend beyond removal. We implement preventative measures to deter future wildlife intrusions, sealing entry points and advising on property maintenance to minimize wildlife attraction. Damage such as chewed wires or broken structure is repaired by an electrician or contractor the owner arranges.",
         "marks": []
        }
       ],
@@ -3761,7 +2873,7 @@ export const fallbackLocations: Location[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Why Choose Pro Wildlife Removal in Lecanto, FL",
+    "heading": "Why Lecanto Residents Call Pro Wildlife Removal",
     "body": [
      {
       "_type": "block",
@@ -3769,7 +2881,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Choosing Pro Wildlife Removal in Lecanto, FL, means choosing a team that knows wildlife removal inside out. Here’s why we stand out:",
+        "text": "Choosing Pro Wildlife Removal in Lecanto, FL, means choosing a team that knows wildlife removal inside out. Here's how we work:",
         "marks": []
        }
       ],
@@ -3788,7 +2900,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Our team is packed with professionals who really know their stuff about wildlife. They’ve seen all sorts of animal troubles in Florida and have learned the best ways to deal with them. Whether it’s raccoons making a mess in your attic or snakes hiding in your garden, we know how to handle it safely and smartly.",
+        "text": " Our team is packed with professionals who really know their stuff about wildlife. They’ve seen all sorts of animal troubles in Florida and have learned what works with each one. Whether it’s raccoons making a mess in your attic or snakes hiding in your garden, we know how to handle it safely and smartly.",
         "marks": []
        }
       ],
@@ -3826,7 +2938,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Got animals causing damage? We don’t just get rid of them; we can fix up your home too. Our team can repair any damage caused by these unwanted guests and clean up after them, so it’s like they were never there.",
+        "text": " Got animals causing damage? We don’t just get rid of them; our team can clean up after these unwanted guests too. Repairs to the house itself are arranged by the owner with a contractor.",
         "marks": []
        }
       ],
@@ -3845,7 +2957,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " When you have an animal issue, you don’t want to wait around. We make booking with us quick and easy so we can solve your problem as soon as possible.",
+        "text": " When you have an animal issue, you want it handled. We make booking with us simple.",
         "marks": []
        }
       ],
@@ -3909,7 +3021,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Experiencing issues with wildlife on your property can be stressful and potentially dangerous. Pro Wildlife Removal provides professional, efficient, and effective solutions to all your wildlife concerns. With our experienced team of certified experts, advanced equipment, and a compassionate approach to wildlife management, we’re your trusted partner in ensuring your property is safe and animal-free.",
+        "text": "Experiencing issues with wildlife on your property can be stressful and potentially dangerous. Pro Wildlife Removal provides professional, efficient, and effective solutions to all your wildlife concerns. With an experienced team, the right equipment, and a compassionate approach to wildlife management, we help keep your property safe from wildlife.",
         "marks": []
        }
       ],
@@ -3968,7 +3080,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Safe, fast, and efficient wildlife control when you need it most",
+        "text": "Safe, careful wildlife control for your home",
         "marks": []
        }
       ],
@@ -3994,7 +3106,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Immediate Response:",
+        "text": "Talk to Us First:",
         "marks": [
          "strong"
         ]
@@ -4013,7 +3125,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ", where our experts are available to listen to your concerns, providing an immediate consultation over the phone.",
+        "text": ", where our experts will listen to your concerns and talk the problem through with you over the phone.",
         "marks": []
        }
       ],
@@ -4040,7 +3152,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Based on your description of the issue, we offer a free, no-obligation quote, ensuring clarity and transparency in our pricing from the outset.",
+        "text": " Based on your description of the issue, we explain the next steps, and you get a written estimate after the inspection.",
         "marks": []
        }
       ],
@@ -4075,7 +3187,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Following the initial call, we dispatch a certified expert to your location to conduct a comprehensive assessment, examining both the interior and exterior, including attics, yards, and any detached structures, to fully understand the scope of the issue.",
+        "text": " Following the initial call, we send a wildlife technician to your location to conduct a comprehensive assessment, examining both the interior and exterior, including attics, yards, and any detached structures, to fully understand the scope of the issue.",
         "marks": []
        }
       ],
@@ -4110,7 +3222,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "3: Wildlife Removal and Damage Repair",
+        "text": "3: Wildlife Removal and Sealing",
         "marks": [
          "strong"
         ]
@@ -4124,14 +3236,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Removal and Repair:",
+        "text": "Removal and Sealing:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " Our team proceeds with the efficient trapping and removal of pests, addressing any damage or entry points to prevent future invasions. This includes decontaminating affected sites, cleaning up any messes, and repairing insulation or structures damaged by wildlife.",
+        "text": " Our team proceeds with the efficient trapping and removal of pests, sealing entry points to prevent future invasions. This includes decontaminating affected sites and cleaning up any messes.",
         "marks": []
        }
       ],
@@ -4229,7 +3341,7 @@ export const fallbackLocations: Location[] = [
   "name": "Orlando",
   "kind": "city",
   "county": "Orange",
-  "summary": "Welcome to Pro Wildlife Removal, your trusted partner for expert wildlife removal services in Orlando, Florida.",
+  "summary": "Welcome to Pro Wildlife Removal, offering wildlife removal services in Orlando, Florida.",
   "design": "classic",
   "hero": {
    "heading": "Wildlife Removal Services in Orlando, FL",
@@ -4253,7 +3365,7 @@ export const fallbackLocations: Location[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "#1 Orlando Wildlife Removal Professionals",
+    "heading": "Orlando Wildlife Removal Professionals",
     "body": [
      {
       "_type": "block",
@@ -4261,7 +3373,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Welcome to Pro Wildlife Removal, your trusted partner for expert wildlife removal services in Orlando, Florida. As a leading wildlife removal company in Central Florida, we specialize in safely and efficiently handling all types of wildlife issues that may arise in residential and commercial properties. Whether you’re dealing with rats in your attic, bats in your garage, or snakes in your yard, our experienced team is equipped to handle it all.",
+        "text": "Welcome to Pro Wildlife Removal, offering wildlife removal services in Orlando, Florida. As a wildlife removal company in Central Florida, we specialize in safely and efficiently handling all types of wildlife issues that may arise in residential and commercial properties. Whether you’re dealing with rats in your attic, bats in your garage, or snakes in your yard, our experienced team is equipped to handle it all.",
         "marks": []
        }
       ],
@@ -4331,7 +3443,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we bring over a decade of experience in wildlife management and removal, proudly serving the Orlando community and the greater Central Florida region. Our journey began with a simple mission: to offer efficient, effective, and environmentally responsible wildlife removal services. Today, we are recognized as a trusted name in the industry, known for our commitment to excellence and customer satisfaction.",
+        "text": "At Pro Wildlife Removal, we handle wildlife management and removal, serving the Orlando community and the greater Central Florida region. Our journey began with a simple mission: to offer efficient, effective, and environmentally responsible wildlife removal services.",
         "marks": []
        }
       ],
@@ -4369,7 +3481,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Expertise and Certifications",
+        "text": "Expertise and Training",
         "marks": [
          "strong"
         ]
@@ -4383,7 +3495,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our team is composed of highly trained, licensed, and certified wildlife removal specialists who are passionate about what they do. Each member of our team undergoes rigorous training and stays updated with the latest industry standards and best practices. We hold various certifications, including wildlife handling and control, pest management, and environmental safety.",
+        "text": "Our team is made up of trained wildlife removal specialists who care about what they do. Each technician is trained on safe handling, exclusion, and cleanup, and keeps up with Florida’s wildlife rules.",
         "marks": []
        }
       ],
@@ -4521,7 +3633,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Rats are notorious for spreading diseases and causing structural damage. Our rat removal services include thorough inspections, trapping, and exclusion methods to ensure your property is rat-free.",
+        "text": ": Rats are notorious for spreading diseases and causing structural damage. Our rat removal services include thorough inspections, trapping, and exclusion of entry points.",
         "marks": []
        }
       ],
@@ -4556,7 +3668,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Emergency Wildlife Removal",
+        "text": "Urgent Wildlife Removal",
         "marks": [
          "strong"
         ]
@@ -4570,7 +3682,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Unwanted encounters with wild animals on your property can occur at any time, often requiring immediate attention. Whether it’s a raccoon in your attic or a snake in your yard, our team is ready to handle urgent situations efficiently and safely.",
+        "text": "Some encounters with wild animals on your property need quick attention. Whether it’s a raccoon in your attic or a snake in your yard, our team is ready to handle urgent situations efficiently and safely.",
         "marks": []
        }
       ],
@@ -4596,7 +3708,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Prevention is key to maintaining a wildlife-free property. We offer comprehensive exclusion services, including:",
+        "text": "Prevention makes it harder for wildlife to move back in. We offer comprehensive exclusion services, including:",
         "marks": []
        }
       ],
@@ -4678,7 +3790,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Regular check-ups to ensure that your property remains secure and wildlife-free.",
+        "text": ": Regular check-ups to look for new activity.",
         "marks": []
        }
       ],
@@ -4840,7 +3952,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "The most effective and efficient removal techniques for the wildlife involved",
+        "text": "Effective, efficient removal techniques for the wildlife involved",
         "marks": []
        }
       ],
@@ -5021,20 +4133,6 @@ export const fallbackLocations: Location[] = [
      },
      {
       "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Repairing any damages caused by the wildlife to restore your property to its original condition",
-        "marks": []
-       }
-      ],
-      "markDefs": [],
-      "listItem": "bullet",
-      "level": 1
-     },
-     {
-      "_type": "block",
       "style": "h3",
       "children": [
        {
@@ -5053,7 +4151,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "To ensure long-term protection against future wildlife invasions, we offer follow-up services and prevention tips. Our experts will:",
+        "text": "To make it harder for wildlife to come back, we offer follow-up services and prevention tips. Our experts will:",
         "marks": []
        }
       ],
@@ -5142,7 +4240,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to wildlife removal in Orlando, Pro Wildlife Removal stands out as the premier choice for reliable, efficient, and effective services. Here are several compelling reasons why you should choose us for your wildlife management needs:",
+        "text": "For wildlife removal in Orlando, Pro Wildlife Removal offers reliable, careful service. Here are several compelling reasons why you should choose us for your wildlife management needs:",
         "marks": []
        }
       ],
@@ -5168,7 +4266,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "With over a decade of experience in the wildlife removal industry, our team possesses the knowledge and skills needed to handle a wide range of wildlife issues. Our experts are trained and certified in the latest wildlife management techniques, ensuring that each job is performed to the highest standards of safety and effectiveness.",
+        "text": "Our team has the knowledge and skills needed to handle a wide range of wildlife issues. Our technicians are trained in current wildlife management methods, and each job is done with safety in mind.",
         "marks": []
        }
       ],
@@ -5180,7 +4278,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Emergency Services",
+        "text": "Urgent Problems",
         "marks": [
          "strong"
         ]
@@ -5194,7 +4292,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife problems can arise at any time, often when you least expect them. That’s why we offer emergency wildlife removal services. Our team is always ready to respond quickly to urgent situations, ensuring that your property and loved ones are protected without delay.",
+        "text": "Wildlife problems often show up when you least expect them. When an animal is inside the house or someone may be at risk, call right away and we will prioritize your job.",
         "marks": []
        }
       ],
@@ -5246,7 +4344,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "As a company based in Central Florida, we have a deep understanding of the local wildlife and the specific challenges they present. Our local expertise allows us to provide tailored solutions that are most effective for the Orlando area.",
+        "text": "As a company based in Central Florida, we have a deep understanding of the local wildlife and the specific challenges they present. Our local expertise allows us to provide tailored solutions that work well for the Orlando area.",
         "marks": []
        }
       ],
@@ -5272,7 +4370,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our clients’ satisfaction is our top priority. We take pride in our professional, courteous service and our ability to solve wildlife problems effectively. Don’t just take our word for it – our testimonials and reviews from satisfied customers speak volumes about our commitment to excellence.",
+        "text": "We care about our clients’ satisfaction. We take pride in professional, courteous service. Don’t just take our word for it, our testimonials and reviews from satisfied customers speak volumes about our commitment to excellence.",
         "marks": []
        }
       ],
@@ -5322,7 +4420,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " in Orlando. Our dedicated team is ready to address your wildlife issues with professionalism and care. Don’t let unwanted wildlife disrupt your peace of mind – contact us today to schedule a consultation or request emergency assistance in one of our ",
+        "text": " in Orlando. Our dedicated team is ready to address your wildlife issues with professionalism and care. Don’t let unwanted wildlife disrupt your peace of mind, contact us today to schedule a consultation in one of our ",
         "marks": []
        },
        {
@@ -5390,7 +4488,7 @@ export const fallbackLocations: Location[] = [
    }
   ],
   "seo": {
-   "title": "Expert Wildlife Removal in Orlando FL | Pro Wildlife Removal",
+   "title": "Wildlife Removal in Orlando, FL | Pro Wildlife Removal",
    "description": "Pro Wildlife Removal provides professional wildlife removal in Orlando, FL. Remove nuisance animals from your home or business with expert help. Call us today!"
   },
   "order": 20
@@ -5402,7 +4500,7 @@ export const fallbackLocations: Location[] = [
   "name": "Pine Ridge",
   "kind": "city",
   "county": "Citrus",
-  "summary": "Welcome to Pro Wildlife Removal, your trusted experts in efficient and effective Citrus County animal services in Pine Ridge, Central Florida.",
+  "summary": "Welcome to Pro Wildlife Removal, offering wildlife removal in Pine Ridge, Central Florida.",
   "design": "classic",
   "hero": {
    "heading": "Professional Wildlife Removal Services in Pine Ridge, FL",
@@ -5426,7 +4524,7 @@ export const fallbackLocations: Location[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "#1 Citrus County Animal Services",
+    "heading": "Wildlife Removal in Citrus County",
     "body": [
      {
       "_type": "block",
@@ -5434,7 +4532,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Welcome to Pro Wildlife Removal, your trusted experts in efficient and effective Citrus County animal services in Pine Ridge, Central Florida. With years of experience and a deep understanding of local wildlife, we are dedicated to protecting your home and business from unwanted animal intrusions.",
+        "text": "Welcome to Pro Wildlife Removal, offering wildlife removal in Pine Ridge, Central Florida. With years of experience and a deep understanding of local wildlife, we are dedicated to protecting your home and business from unwanted animal intrusions.",
         "marks": []
        }
       ],
@@ -5476,7 +4574,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we pride ourselves on our extensive experience and commitment to efficient wildlife management in Pine Ridge, FL. Founded with a mission to provide effective and compassionate Pine Ridge wildlife removal services, we have grown into one of Central Florida’s most trusted experts in the field. Our team is comprised of skilled professionals who are dedicated to resolving wildlife issues with the utmost respect for both our clients and the animals.",
+        "text": "At Pro Wildlife Removal, we pride ourselves on our extensive experience and commitment to efficient wildlife management in Pine Ridge, FL. We provide compassionate wildlife removal in Pine Ridge and across Central Florida. Our team is comprised of skilled professionals who are dedicated to resolving wildlife issues with deep respect for both our clients and the animals.",
         "marks": []
        }
       ],
@@ -5664,7 +4762,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": From inspection and removal to exclusion and repair, we provide complete solutions to prevent future infestations.",
+        "text": ": From inspection and removal to exclusion, we provide complete solutions to prevent future infestations.",
         "marks": []
        }
       ],
@@ -5767,7 +4865,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Emergency Wildlife Control",
+        "text": "Urgent Wildlife Control",
         "marks": [
          "strong"
         ]
@@ -5781,7 +4879,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife emergencies can happen at any time in Pine Ridge, and when they do, you need a reliable and responsive service.",
+        "text": "When a wild animal gets into a Pine Ridge home, you need a company that handles it carefully.",
         "marks": []
        }
       ],
@@ -5800,7 +4898,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": We are always on call to address emergencies, ensuring quick response times to mitigate any immediate risks.",
+        "text": ": Tell us when a problem is urgent, such as an animal in the living space, and we will schedule it as quickly as we can.",
         "marks": []
        }
       ],
@@ -5814,14 +4912,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Rapid Assessment and Action",
+        "text": "Careful Assessment and Action",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": ": Our experts will quickly assess the situation and take appropriate action to remove the wildlife safely and efficiently.",
+        "text": ": Our experts will assess the situation and take appropriate action to remove the wildlife safely and efficiently.",
         "marks": []
        }
       ],
@@ -5849,7 +4947,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Preventing a wildlife problem on your property in the first place is the best way to avoid the stress and damage they can cause. We offer a range of preventative services to keep your home or business wildlife-free.",
+        "text": "Preventing a wildlife problem before it starts saves you the stress and damage animals can cause. We offer a range of preventive services for homes and businesses.",
         "marks": []
        }
       ],
@@ -5903,14 +5001,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Repairs and Maintenance",
+        "text": "Follow-Up Visits",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": ": Our team can repair any damage caused by wildlife and provide ongoing maintenance to ensure your property remains secure.",
+        "text": ": Our team can offer follow-up visits to check for new activity.",
         "marks": []
        }
       ],
@@ -5924,7 +5022,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our commitment to efficient and effective wildlife management makes Pro Wildlife Removal the top choice for residents and businesses in Pine Ridge. ",
+        "text": "Pro Wildlife Removal works with residents and businesses across Pine Ridge. ",
         "marks": [
          "strong"
         ]
@@ -5939,7 +5037,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " today to learn more about our services and how we can help you maintain a wildlife-free environment.",
+        "text": " today to learn more about our services and how we can help with wildlife around your home.",
         "marks": [
          "strong"
         ]
@@ -5981,7 +5079,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Choosing the right wildlife removal Citrus County service is crucial to ensure the safety of your home or business and the efficient treatment of animals. Here’s why Pro Wildlife Removal stands out as the top choice for residents and businesses in Pine Ridge:",
+        "text": "Choosing the right wildlife removal Citrus County service is crucial to ensure the safety of your home or business and the efficient treatment of animals. Here's how Pro Wildlife Removal works in Pine Ridge:",
         "marks": []
        }
       ],
@@ -6026,7 +5124,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Our technicians are certified and undergo continuous training to stay updated on the latest wildlife and pest control methods and regulations.",
+        "text": ": Our technicians train on an ongoing basis to keep up with wildlife control methods and Florida’s regulations.",
         "marks": []
        }
       ],
@@ -6162,7 +5260,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": In addition to removal, we implement exclusion techniques and repairs to prevent future wildlife intrusions.",
+        "text": ": In addition to removal, we implement exclusion techniques to prevent future wildlife intrusions.",
         "marks": []
        }
       ],
@@ -6190,7 +5288,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we believe in providing clear and transparent services. Our Pine Ridge wildlife control and removal process is designed to be thorough, efficient, and effective, ensuring that your wildlife issues are resolved efficiently and permanently. Here’s an overview of our step-by-step process:",
+        "text": "At Pro Wildlife Removal, we believe in providing clear and transparent services. In Pine Ridge, we find how the animals get in, remove them, and seal those openings. Here’s an overview of our step-by-step process:",
         "marks": []
        }
       ],
@@ -6324,7 +5422,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": We believe in keeping our clients informed. We will explain the removal process in detail, including the methods we will use and why they are the best approach for your situation.",
+        "text": ": We believe in keeping our clients informed. We will explain the removal process in detail, including the methods we will use and why they suit your situation.",
         "marks": []
        }
       ],
@@ -6352,7 +5450,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "After complete pest removal, including any dead animal, we take additional steps to ensure that your wildlife problem does not recur.",
+        "text": "After the animals are removed, including any dead animal, we seal the openings they used.",
         "marks": []
        }
       ],
@@ -6364,14 +5462,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Property Repairs & Clean-up",
+        "text": "Sealing & Clean-up",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": ": We will repair any damage caused by the animals involved and seal potential entry points to prevent future infestations. This may include repairing holes, installing barriers, and reinforcing vulnerable areas. We also fully decontaminate the area to ensure your safety.",
+        "text": ": We will seal potential entry points to prevent future infestations. This may include closing holes, installing barriers, and reinforcing vulnerable areas. We also fully decontaminate the area to ensure your safety.",
         "marks": []
        }
       ],
@@ -6413,7 +5511,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": To ensure the effectiveness of our solutions, we offer ongoing monitoring services. We will periodically check your property to make sure it remains wildlife-free.",
+        "text": ": To ensure the effectiveness of our solutions, we offer ongoing monitoring services. We can check your property periodically for new activity.",
         "marks": []
        }
       ],
@@ -6571,7 +5669,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ", we are dedicated to providing Pine Ridge residents and businesses with effective, efficient, and reliable wildlife management solutions. Our team of experienced professionals is committed to solving wildlife problems permanently, ensuring your property remains safe and wildlife-free. Don’t let wildlife issues disrupt your peace of mind or damage your property.",
+        "text": ", we are dedicated to providing Pine Ridge residents and businesses with effective, efficient, and reliable wildlife management solutions. Our team finds how animals are getting in, removes them and seals the openings. Don’t let wildlife issues disrupt your peace of mind or damage your property.",
         "marks": []
        }
       ],
@@ -6604,7 +5702,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": "to schedule an assessment and take the first step towards a wildlife-free environment. Our friendly and knowledgeable team is ready to help you with all your Pine Ridge wildlife control needs.",
+        "text": "to schedule an assessment. Our friendly and knowledgeable team is ready to help you with all your Pine Ridge wildlife control needs.",
         "marks": []
        }
       ],
@@ -6632,7 +5730,7 @@ export const fallbackLocations: Location[] = [
    }
   ],
   "seo": {
-   "title": "Expert Wildlife Removal in Pine Ridge, FL | Pro Wildlife",
+   "title": "Wildlife Removal in Pine Ridge, FL | Pro Wildlife Removal",
    "description": "Get expert wildlife removal in Pine Ridge, FL with Pro Wildlife Removal. Our professionals ensure safe, proven solutions for your wildlife issues! Contact us today!"
   },
   "order": 22
@@ -6672,7 +5770,7 @@ export const fallbackLocations: Location[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "Most Reliable Wildlife Control in Sarasota",
+    "heading": "Reliable Wildlife Control in Sarasota",
     "body": [
      {
       "_type": "block",
@@ -6680,7 +5778,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Tired of pesky wildlife invading your Sarasota, FL property? Looking for reliable wildlife control services that ensure the safe removal of wild animals from your home or business? Your solution is right here – Pro Wildlife Removal, your trusted wildlife removal experts in Sarasota!",
+        "text": "Tired of pesky wildlife invading your Sarasota, FL property? Looking for help safely removing wild animals from your home or business?",
         "marks": []
        }
       ],
@@ -6692,7 +5790,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we understand the challenges that come with unwanted pests. We specialize in professional rat and wildlife removal services, serving both residential and commercial properties throughout Sarasota, Florida. With our team of highly trained wildlife control experts, we bring years of pest control experience and expertise in safely, efficiently, and swiftly removing various types of rodents and wild animals.",
+        "text": "At Pro Wildlife Removal, we understand the challenges that come with unwanted pests. We specialize in professional rat and wildlife removal services, serving both residential and commercial properties throughout Sarasota, Florida. With our team of highly trained wildlife control experts, we bring years of pest control experience and expertise in safely and efficiently removing various types of rodents and wild animals.",
         "marks": []
        }
       ],
@@ -6714,7 +5812,7 @@ export const fallbackLocations: Location[] = [
    },
    {
     "_type": "splitSection",
-    "heading": "The Best Animal Removal Services in Sarasota County",
+    "heading": "Animal Removal Services in Sarasota County",
     "body": [
      {
       "_type": "block",
@@ -6722,7 +5820,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our unwavering commitment at Pro Wildlife Removal is to provide our valued customers with unparalleled customer service while safeguarding their homes from pest animals like rats, squirrels, raccoons, snakes, and many others. We take pride in our rapid response times and thorough process when addressing rodent and wildlife-related concerns in our area. Rest assured, our certified pest control technicians employ safe and state-regulation-compliant methods when dealing with a wildlife problem or pest animals on your property.",
+        "text": "Pro Wildlife Removal aims to give customers good service while protecting their homes from pest animals like rats, squirrels, raccoons, snakes, and many others. We work through each rodent or wildlife problem step by step. Our technicians use safe methods that follow state rules when dealing with wildlife on your property.",
         "marks": []
        }
       ],
@@ -6842,7 +5940,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Step 4: Damage Repair and Sanitation",
+        "text": "Step 4: Sanitation",
         "marks": [
          "strong"
         ]
@@ -6856,7 +5954,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "After the wildlife removal process is complete, we address any damage caused by the animals. This includes cleaning and sanitizing the affected areas to eliminate health risks from droppings or urine.",
+        "text": "After the wildlife removal process is complete, we deal with what the animals left behind. This includes cleaning and sanitizing the affected areas to eliminate health risks from droppings or urine.",
         "marks": []
        }
       ],
@@ -6882,7 +5980,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Finally, we provide you with preventive measures to ensure that your property remains wildlife-free, eliminating the need for wildlife control services in the future. We offer advice on habitat modification and may install preventive devices. A follow-up visit can be scheduled to ensure that all measures are effective and your property remains secure and protected from pest animals.",
+        "text": "Finally, we recommend preventive measures to make it harder for wildlife to return. We offer advice on habitat modification and may install preventive devices. A follow-up visit can be scheduled to check the work.",
         "marks": []
        }
       ],
@@ -6908,7 +6006,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Living in Sarasota, FL, you’re well aware of how nuisance wildlife can disrupt your peace of mind. Instead of tackling these challenges alone, why not harness the benefits of professional wildlife removal services offered by Pro Wildlife Removal? With years of experience and expertise, we excel at swiftly and efficiently eradicating bothersome critters.",
+        "text": "Living in Sarasota, FL, you’re well aware of how nuisance wildlife can disrupt your peace of mind. Instead of tackling these challenges alone, why not harness the benefits of professional wildlife removal services offered by Pro Wildlife Removal? With years of experience and expertise, we remove bothersome critters safely and efficiently.",
         "marks": []
        }
       ],
@@ -7064,7 +6162,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We provide a comprehensive approach to wildlife removal – from assessment and removal to repair and preventative measures. This all-encompassing service ensures that all aspects of your wildlife problem are thoroughly addressed.",
+        "text": "We provide a comprehensive approach to wildlife removal, from assessment and removal to preventative measures.",
         "marks": []
        }
       ],
@@ -7376,7 +6474,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to addressing Sarasota wildlife problems in your home or business, choosing the right wildlife control professionals is crucial. Here’s why Pro Wildlife Removal stands out as the best choice in Sarasota County:",
+        "text": "When it comes to addressing Sarasota wildlife problems in your home or business, choosing the right wildlife control professionals is crucial. Here’s why Sarasota County homeowners call Pro Wildlife Removal:",
         "marks": []
        }
       ],
@@ -7428,7 +6526,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "From initial assessment to final prevention measures, our services cover every aspect of wildlife removal. We don’t just remove the wildlife; we also repair damage, sanitize affected areas, and implement strategies to prevent future infestations.",
+        "text": "From initial assessment to final prevention measures, our services cover every aspect of wildlife removal. We don’t just remove the wildlife; we also sanitize affected areas and implement strategies to prevent future infestations.",
         "marks": []
        }
       ],
@@ -7454,7 +6552,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We understand that every wildlife situation is unique. That’s why we tailor our approach to meet the specific needs of your situation, ensuring the most effective and efficient animal control resolution. Whether it’s squirrel removal, snake removal, or bat removal, our nuisance wildlife removal processes focus on not just removal, but also cleanup and prevention.",
+        "text": "We understand that every wildlife situation is unique. That’s why we tailor our approach to meet the specific needs of your situation, aiming for an effective and efficient animal control resolution. Whether it’s squirrel removal, snake removal, or bat removal, our nuisance wildlife removal processes focus on not just removal, but also cleanup and prevention.",
         "marks": []
        }
       ],
@@ -7492,7 +6590,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Rapid Response & Reliability",
+        "text": "Reliable Service",
         "marks": [
          "strong"
         ]
@@ -7506,7 +6604,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We pride ourselves on our quick response to your calls. Understanding the urgency of wildlife removal, we aim to provide timely and reliable services to address your concerns as soon as possible.",
+        "text": "Understanding the urgency of wildlife removal, we keep you informed from the first call. Same-day appointments are often available in Sarasota.",
         "marks": []
        }
       ],
@@ -7544,7 +6642,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Customer Satisfaction Guaranteed",
+        "text": "Customer Satisfaction",
         "marks": [
          "strong"
         ]
@@ -7558,7 +6656,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We are dedicated to ensuring customer satisfaction. Our team works diligently to solve your wildlife problems, offering peace of mind and guaranteeing a positive experience with our services.",
+        "text": "We are dedicated to ensuring customer satisfaction. Our team works diligently to solve your wildlife problems.",
         "marks": []
        }
       ],
@@ -7570,7 +6668,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we combine expertise, ethics, and efficiency to provide top-notch wildlife removal services. Choosing us means choosing a safe and effective solution to your wildlife concerns.",
+        "text": "At Pro Wildlife Removal, we combine expertise, ethics and efficiency in our wildlife removal services. Choosing us means choosing a safe and effective solution to your wildlife concerns.",
         "marks": []
        }
       ],
@@ -7603,7 +6701,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Whether you need bat removal, squirrel or raccoon removal, rodent removal, or even dead animal removal, Pro Wildlife Removal stands ready to safeguard your property from the threat of pests and wildlife in Sarasota County, FL. With our comprehensive services, free inspection, and expert team, we ensure safe and effective removal, thorough cleanup, and proactive prevention measures to keep your home or business pest-free and safe from wildlife intrusions. From smaller mammals to large animals and venomous snakes, we have it covered! Don’t let pest problems go unchecked—contact us today to schedule an inspection and take the first step towards a pest-free environment. Your peace of mind is just a phone call away.",
+        "text": "Whether you need bat removal, squirrel or raccoon removal, rodent removal, or even dead animal removal, Pro Wildlife Removal stands ready to safeguard your property from the threat of pests and wildlife in Sarasota County, FL. Our services cover removal, cleanup and prevention for homes and businesses. From smaller mammals to large animals and venomous snakes, we have it covered! Don't let pest problems go unchecked. Contact us to schedule an inspection. Your peace of mind is just a phone call away.",
         "marks": []
        }
       ],
@@ -7623,886 +6721,12 @@ export const fallbackLocations: Location[] = [
  springHill,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/tampa.ts
  tampa,
- {
-  "path": "about-us/service-area/wildlife-removal-the-villages",
-  "name": "The Villages",
-  "kind": "city",
-  "county": "Sumter",
-  "summary": "The Villages is a census-designated place in Sumter County, Covered by Pro Wildlife Remover It shares its name with a broader master-planned age-restricted community…",
-  "design": "classic",
-  "hero": {
-   "heading": "Wildlife Removal Services in The Villages, FL",
-   "text": [
-    {
-     "_type": "block",
-     "style": "normal",
-     "children": [
-      {
-       "_type": "span",
-       "text": "The Villages is a census-designated place in Sumter County, Covered by Pro Wildlife Remover It shares its name with a broader master-planned age-restricted community that spreads into portions of Lake and Marion counties. The overall development lies in central Florida, approximately 20 miles (32 km) south of Ocala and approximately 45 miles (72 km) northwest of Orlando.",
-       "marks": []
-      }
-     ],
-     "markDefs": []
-    }
-   ],
-   "image": images.wildlifeRemovalPalmHarbor,
-   "ctas": [
-    {
-     "label": "(727) 594-7705",
-     "href": "tel:+17275947705",
-     "style": "outline"
-    }
-   ],
-   "style": {
-    "bg": "beige",
-    "image": images.wildlifeRemovalPalmHarbor,
-    "overlay": 0.7,
-    "heading": "white",
-    "text": "white",
-    "align": "center"
-   },
-   "highlight": "The Villages, FL"
-  },
-  "sections": [
-   {
-    "_type": "splitSection",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "The Villages",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " is a census-designated place in Sumter County, Covered by Pro Wildlife Remover It shares its name with a broader master-planned age-restricted community that spreads into portions of Lake and Marion counties. The overall development lies in central Florida, approximately 20 miles (32 km) south of Ocala and approximately 45 miles (72 km) northwest of Orlando.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.villagessign01,
-    "imageSide": "left",
-    "style": {
-     "bg": "blue",
-     "text": "beige",
-     "frame": "white"
-    },
-    "_key": "s0"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Squirrel Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Squirrels are not supposed to make their home in your garden, porch, or anywhere inside your house for that matter. ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "They are known to be a nuisance and cause severe damage to properties.",
-        "marks": [
-         "em"
-        ]
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "It’s fine if you see them roaming around Sherwood Forest RV Park when you are camping with your kids. But most people don’t want them getting too close for comfort. They belong in the wild, wreaking havoc in your home.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal in The Villages",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " has a team of highly trained individuals who are experts in squirrel control.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Given the various animal rights and wildlife regulations, you can never go wrong by going with certified professionals like us for Squirrel Removal",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "For The Villages squirrel removal needs, give us a call at (727) 594-7705",
-        "marks": []
-       }
-      ]
-     }
-    ],
-    "image": images.squirrelTrapping,
-    "imageSide": "right",
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black",
-     "frame": "navy",
-     "headingAbove": true
-    },
-    "_key": "s1"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Raccoon Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal has over ten years of experience in wildlife removal The Villages",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". Our clients trust no other company for Raccoon Removal and wildlife removal.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Raccoons are one of the most common pests, making raccoon removal one of our top calls. They cause severe roof damage that can set you back a few hundred to thousands of dollars if you are not careful. When you see and hear signs of a raccoon infestation, give us a call right away.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Attics are a favorite hiding spot for ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "wildlife in The Villages",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". They provide a dark and secure shelter that is rarely visited by humans.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Raccoons will tear up anything and everything inside your attic to build their nest. They can chew through air ducts, wires, wood, drywall, and insulation, causing thousands of dollars in damage.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.raccoonTrappingProWildifeRemoval,
-    "imageSide": "left",
-    "style": {
-     "bg": "navy",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "beige",
-     "headingAbove": true
-    },
-    "_key": "s2"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Opossum Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Opossum Removal requires time and expertise that the average home or business owner does not have. You need to trap the animals using industry-standard tools and equipment to ensure the animal’s safety and yours as well.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "The good news is, we at Pro Wildlife Removal have kept up to date with ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "wildlife removal The Villages",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " guidelines and regulations of materials and equipment. We will remove the animals safely with minimal stress, assess the damage done, and clean up and decontaminate the site.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "It is important to keep your safety a top priority and approach with caution",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". Raccoons are disease carriers so please let the professionals handle them.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Give us a call today so we can give you a free assessment.",
-        "marks": []
-       }
-      ]
-     }
-    ],
-    "image": images.opossumTrapping,
-    "imageSide": "right",
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black",
-     "frame": "navy",
-     "headingAbove": true
-    },
-    "_key": "s3"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Hog Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Wild boars, in general, avoid crowded areas",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". They like their natural habitat where there are trees and bushes away from the city noise. But it’s becoming more and more common to see them in our The Villages neighborhoods, distressed or looking for food.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "The Villages have plenty of seafood shacks and restaurants that may attract hogs and cause them to travel away from their natural habitat. The smell of food can be hard to resist.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Hogs are strong and easily agitated",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". They are aggressive and unpredictable. They are known to attack without warning.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Wild boars are protected by legislation, so you must let the Hog Removal experts handle the hog business for a safe and quick resolution.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.hogTrapping,
-    "imageSide": "left",
-    "style": {
-     "bg": "blue",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "beige",
-     "headingAbove": true
-    },
-    "_key": "s4"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Snake Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Snakes are everywhere in The Villages, Fl. Whether they are venomous or not, people tend to panic when they see one. And for good reason.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Snakes become aggressive when provoked or hurt. Although ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "most snakes in The Villages are not venomous",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ", snake bites are still painful and can cause infection.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our expert team at ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal in The Villages",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " is seasoned and trained in Snake Removal. Safely removing these animals and releasing them back to the wild where they belong.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Snakes shouldn’t be making their home in ours",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". They belong in the wild where they are safe, and so are we.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.snakeTrapping,
-    "imageSide": "right",
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black",
-     "frame": "navy",
-     "headingAbove": true
-    },
-    "_key": "s5"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Armadillo Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Armadillos are not aggressive",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " but can cause real damage to properties. They do not usually wander away from their natural habitat but when they do, expect some serious damage.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "The reasons they wander into your property is to search for food and habitat",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". Armadillos eat insects by the hundreds. They love ants and bugs.\nThey don’t mean to trespass, they are just hungry. But they will destroy your yard if left alone.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "When you see an armadillo in your backyard, call Pro Wildlife Removal in The Villages right away and let our Armadillo Removal experts do the job.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.armadilloTrapping,
-    "imageSide": "left",
-    "style": {
-     "bg": "navy",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "beige",
-     "headingAbove": true
-    },
-    "_key": "s6"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Rat Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Rat removal is a prominent need when it comes to wildlife control in The Villages. Rats grow in numbers rapidly and are extremely difficult to eradicate. They are dirty, disease-ridden critters that do not belong in your home or business.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Sometimes, the average rat traps and rat poisons just don’t work, and they usually aren’t safe for our ecosystem",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". Rats, mice, and other small rodents are intelligent creatures. Our critter control crew is your best choice in abatement.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal in The Villages is the number one authority in wildlife removal. We will not just resolve your rat issue, we will also ensure they can’t return with our proprietary exclusion techniques.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "The main problem with rats and mice",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " is that they are very persistent. When you remove one, ten more appear. Pro Wildlife Removal in The Villages will put a stop to that once and for all.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.ratTrapping,
-    "ctas": [
-     {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "imageSide": "right",
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black",
-     "frame": "navy",
-     "headingAbove": true
-    },
-    "_key": "s7"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Bat Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Bats are important to our ecosystem",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". They may look devilish but they are a critical species. Bottom line – they must be protected.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "But bats don’t belong in your home, attic, or business. Call our The Villages bat removal team to safely remove these creatures and return them to their natural habitat.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Bats like damp, dark places, so it’s no wonder why they find your attic so appealing",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". And they will move in by the thousands if not handled quickly. The experts at Pro Wildlife Removal in The Villages are equipped and prepared to remove every single bat, safely and securely, and make sure that they don’t return again.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "More importantly, we will follow the strict regulations required by law to protect these vital animals, ensuring their survival and health throughout the trapping and removal process.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our Bat Removal experts will decontaminate the mess that the bats will surely leave behind.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.batTrapping,
-    "imageSide": "right",
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black",
-     "frame": "navy",
-     "headingAbove": true
-    },
-    "_key": "s9"
-   },
-   {
-    "_type": "splitSection",
-    "heading": "Bee Trapping",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal in The Villages is the most trusted authority in bee removal in the area. We have the skills and the equipment to safely remove the bees so you can breathe easily.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Honey bee farming",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " is a rising industry in The Villages. There are educational bee farms that are open to visits from the public in order to raise awareness of the importance of bees in our local communities. Some even sell organic honey and other products during the tour.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Check out Bayshore Bees, Bluemoon Mountain Farm, and Castillo Honey Inc. They are a growing tourist attraction in the area and are great opportunities to learn about beekeeping in Palm Harbor.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Wildlife animals, like bees, are a major aspect of The Villages life",
-        "marks": [
-         "em"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": ". Just remember not to panic, keep your distance, and wait for help to come. With our help, It is possible to protect and not harm these animals while keeping yourself and your property safe.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.beeTrapping,
-    "ctas": [
-     {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "imageSide": "left",
-    "style": {
-     "bg": "navy",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "beige",
-     "headingAbove": true
-    },
-    "_key": "s10"
-   },
-   {
-    "_type": "proseSection",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal The Villages is the leading expert in animal removal. We have over ten years of expertise under our belts. We use industry-standard, animal-friendly equipment and deploy only the best and highly-skilled professionals for all animal removal calls.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Call us at (727) 594-7705. Call us for emergencies and scheduled visits.",
-        "marks": []
-       }
-      ]
-     }
-    ],
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "grey"
-    },
-    "_key": "s11"
-   }
-  ],
-  "seo": {
-   "title": "Safe Wildlife Removal in The Villages FL | Pro Wildlife Removal",
-   "description": "Professional wildlife removal services in The Villages, FL. Keep your property free from nuisance wildlife with expert solutions from Pro Wildlife Removal."
-  },
-  "order": 29
- },
+ // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/ocala.ts
+ ocala,
+ // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/silver-springs.ts
+ silverSprings,
+ // Rewritten for the rebuild (Nia, Oct 2026): lib/data/content/cities/the-villages.ts
+ theVillages,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/trinity.ts
  trinity,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/brooksville-rats.ts
@@ -8524,763 +6748,8 @@ export const fallbackLocations: Location[] = [
  springHillRats,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/st-petersburg.ts
  stPetersburgRats,
- {
-  "path": "about-us/service-area/rat-removal-services-the-villages-fl",
-  "name": "The Villages",
-  "kind": "rat",
-  "county": "Sumter",
-  "summary": "Facing a stubborn rat infestation or rodent control problem in The Villages, FL?",
-  "design": "classic",
-  "hero": {
-   "heading": "Professional Rat Removal in The Villages, FL",
-   "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
-   "ctas": [
-    {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
-     "style": "outline"
-    }
-   ],
-   "style": {
-    "bg": "beige",
-    "image": images.topFullServiceWildlifeRemovalClearwaterFlBanner,
-    "overlay": 0.7,
-    "heading": "white",
-    "align": "center"
-   },
-   "highlight": "The Villages, FL"
-  },
-  "sections": [
-   {
-    "_type": "splitSection",
-    "heading": "Full-Service Rat Pest Control Company",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Facing a stubborn rat infestation or rodent control problem in The Villages, FL? Welcome to the forefront of rat pest control expertise brought to you by Pro Wildlife Removal. We understand the urgency and challenges that come with rat infestations, and we’re here to provide comprehensive rodent control services tailored to our local community.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Rats and other rodents can undermine structural integrity and compromise health, demanding a swift and effective response. With our specialized knowledge of the area’s wildlife and years of experience, we’ve developed a meticulous rate pest control approach that not only eliminates rat infestations but also ensures a lasting resolution. So, if you’re living in The Villages, rat pest control services from the expert team at Pro Wildlife Removal is just a phone call away!",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "image": images.villagesFlorida,
-    "imageSide": "left",
-    "style": {
-     "bg": "blue",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "white",
-     "align": "center",
-     "headingAbove": true
-    },
-    "_key": "s0"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Our Comprehensive Rat Pest Control Services in The Villages, FL",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "At Pro Wildlife Removal in The Villages, FL, we’re not your typical animal removal company. We’ve developed a meticulous and ethical approach to rodent control services that ensures effective results while prioritizing the safety of both humans and animals. Our professional rodent control services are designed to not only eliminate the immediate rat infestation but also to prevent future reoccurrences, so you never need to call a Florida pest control company again.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Thorough Inspection:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " We always begin our rat pest control services by conducting a detailed assessment of your entire house to identify the extent of the rat infestation. Our experienced rodent control technicians meticulously examine key areas, entry points, and nesting sites to gather critical information for a targeted removal strategy.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Customized Removal Plan:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " No two rat infestations are the same, which is why we tailor our rodent control services to address your specific situation. Based on the inspection findings, we develop a customized strategy that effectively targets the rodents while minimizing disruption to your home and routine.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Efficient Trapping and Removal:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " We employ efficient trapping methods that prioritize the safety and well-being of the rodents. Once trapped, the rats are carefully removed from your home or business and relocated to a suitable environment, ensuring they do not pose a threat to your home or surroundings.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Exclusion and Sealing:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Preventing future infestations of rodents in your house is just as important as getting rid of them. That’s why a key component of our rodent control services is sealing all potential entry points that rats could use to access your house or business. By blocking these openings, we create a barrier that deters rats from returning.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Sanitization and Cleanup:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rat infestations can leave behind contamination and health risks. We thoroughly clean and sanitize the affected areas in your house, ensuring that any traces of droppings, urine, and nesting materials left by the rodents are safely removed. This step not only restores the cleanliness of your home or business but also mitigates potential health hazards.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Preventive Measures:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " To provide long-term solutions, we offer recommendations for rat-proofing your home. By implementing these preventive measures, you can significantly reduce the likelihood of future infestations of rats and other rodents.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "blue",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige",
-     "frame": "white",
-     "align": "center",
-     "headingAbove": true
-    },
-    "_key": "s1"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Signs You Need Rat Pest Control",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Detecting a rat infestation in your Florida home early on is crucial to prevent further damage and potential health risks. Here are some telltale signs that you may have rats living in your space:",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Droppings:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rat droppings are a clear indication of their presence. These droppings are typically small, dark, and oblong in shape. You might find them in areas where rats are active, such as along walls, in cupboards, or near food sources.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Gnaw Marks:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rats have a strong instinct to gnaw on objects to keep their teeth from growing too long. Look for chewed-through wires, wooden structures, and even plastic items. Fresh gnaw marks are light in color and become darker as they age.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Nesting Materials:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rats build nests using various materials like paper, fabric, insulation, and even plants. Discovering shredded materials in hidden corners, attics, or basements could point to a rat nest nearby.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Unusual Noises:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rats are often active at night. If you hear scratching or scurrying sounds in walls, ceilings, or crawl spaces during nighttime, it might indicate their presence.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Holes and Entry Points:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rats can enter your home through small openings and holes. Inspect your home for gaps in walls, cracks in foundations, or damaged vents that could serve as potential entry points.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black"
-    },
-    "_key": "s2"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "The Rat Infestation Problem in The Villages, FL",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "The Villages, Florida, with its picturesque landscapes and vibrant community, unfortunately, faces its own set of challenges, including the presence of rat infestations. The warm and humid climate of the region provides an ideal habitat for various rat species to thrive. Among the most common rat species encountered in The Villages are the Roof Rat (Rattus rattus) and the Norway Rat (Rattus norvegicus). And with rats, come big problems. Rat infestations in The Villages, Florida pose several risks to both residents and the environment:",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Health Concerns:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rats can transmit diseases such as leptospirosis, hantavirus, and salmonellosis through their droppings, urine, and bites. These diseases can pose serious health risks to humans and pets. And using rat poison to try and solve the problem comes with additional health risks.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Property Damage:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rat damage can become significant with their constant need to gnaw on things because their teeth never stop growing. This can result in significant structural damage. They can chew through electrical wires, insulation, pipes, and even structural components, jeopardizing the safety and integrity of buildings.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Contamination:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rats can contaminate food supplies and surfaces with their droppings and urine. This can lead to foodborne illnesses and result in costly cleanup efforts.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Reproduction Rate:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rats reproduce rapidly, with a single pair being able to produce hundreds of offspring within a year. This rapid reproduction makes it essential to address rat infestations promptly.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Negative Aesthetic Impact:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Rat infestations can tarnish the aesthetic appeal of homes and neighborhoods, affecting the value of your home and overall community well-being.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "navy",
-     "heading": "beige",
-     "text": "beige",
-     "divider": "beige"
-    },
-    "_key": "s3"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Why Choose Pro Wildlife Removal for Your Rat Pest Control Needs",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "When it comes to addressing rat infestations, making the right choice in selecting rodent control services can have a significant impact on the effectiveness, safety, and long-term success of the process. At Pro Wildlife Removal in The Villages, FL, we stand out as the trusted experts in rat pest control in Central Florida, offering a range of benefits that set our rodent control services apart from the rest.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Experienced Professionals:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Our team consists of seasoned experts with extensive knowledge of The Villages and of rat behavior, biology, and removal techniques. With years of hands-on rat pest control experience, we’ve encountered various rat infestations and have successfully developed strategies to handle even the most challenging rodent problem.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Local Knowledge:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Operating in The Villages and its surrounding areas, we possess a deep understanding of the local wildlife ecosystem. Our familiarity with the specific challenges posed by rat infestations in this region allows us to tailor our rat pest control solutions to the unique needs of your home or business.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Safe and Effective Solutions:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Our commitment to safety extends beyond the animals—we prioritize the health and safety of our clients and their properties. Our rat pest control techniques are not only efficient but also highly effective, ensuring that your rat infestation is resolved thoroughly and without unnecessary risks.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Comprehensive Approach:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " At Pro Wildlife Removal, we believe in holistic rat pest control solutions. Our comprehensive approach covers every aspect of rat removal, from meticulous inspections to preventive measures that minimize the chances of future infestations. We address the immediate issue while also focusing on long-term results.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Advanced Tools and Techniques:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " We stay up-to-date with the latest advancements in rat pest control technology and techniques. By using cutting-edge tools and industry best practices, we’re able to provide efficient and effective solutions that meet the highest standards.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Customer-Centric Approach:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Our clients are at the heart of everything we do. We understand the stress and concerns that come with a rat infestation, and our team is dedicated to providing you with a seamless, stress-free experience. We communicate transparently, answer your questions, and keep you informed every step of the way.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Proven Track Record:",
-        "marks": [
-         "strong"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " Our history of successful rat pest control projects and satisfied customers speaks volumes about our expertise and commitment. We take pride in the positive outcomes we’ve achieved for countless homeowners and businesses in The Villages, FL. That’s what makes us the number one rat pest control company in Central Florida.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "When you choose Pro Wildlife Removal in The Villages, you’re choosing a partner who prioritizes ethical practices, effective solutions, and your peace of mind. Trust us to deliver results that not only eliminate rat infestations but also ensure a safer, healthier living environment for you and your loved ones. Contact us today to experience the Pro Wildlife Removal difference firsthand.",
-        "marks": []
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "beige",
-     "heading": "black",
-     "text": "black",
-     "divider": "black"
-    },
-    "_key": "s4"
-   },
-   {
-    "_type": "proseSection",
-    "heading": "Get Your Free Inspection and Estimate - Contact Pro Wildlife Removal",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Rats and other rodents can cause considerable damage and destruction to homes, businesses, and outdoor areas in The Villages. Professional rat pest control services are essential to keep your home safe from these pest problems. ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "Pro Wildlife Removal",
-        "marks": [
-         "l0",
-         "underline"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " has been providing comprehensive rat removal services in The Villages, FL for many years. Our team of rat pest control experts will inspect your space, identify possible entry points and develop a tailored plan and free estimate to ensure you understand your options before deciding.",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "/"
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Our rat pest control services use only efficient techniques and equipment to eliminate your rat pest problem quickly and safely without causing any harm or stress to the animals. With our professional services, you can get rid of rats quickly and protect yourself from costly structural repairs due to their presence. Don’t take chances with DIY methods; ",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": "contact us",
-        "marks": [
-         "l0",
-         "underline"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " to schedule your same-day appointment for professional",
-        "marks": []
-       },
-       {
-        "_type": "span",
-        "text": " rat removal services",
-        "marks": [
-         "l1",
-         "underline"
-        ]
-       },
-       {
-        "_type": "span",
-        "text": " in The Villages!",
-        "marks": []
-       }
-      ],
-      "markDefs": [
-       {
-        "_type": "link",
-        "_key": "l0",
-        "href": "/contact-us/"
-       },
-       {
-        "_type": "link",
-        "_key": "l1",
-        "href": "/services/rat-removal/"
-       }
-      ]
-     }
-    ],
-    "ctas": [
-     {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
-      "style": "outline"
-     }
-    ],
-    "style": {
-     "bg": "blue",
-     "heading": "beige",
-     "text": "beige",
-     "link": "beige",
-     "divider": "beige"
-    },
-    "_key": "s5"
-   }
-  ],
-  "seo": {
-   "title": "Rat Removal Services in The Villages, FL | Pro Wildlife Removal",
-   "description": "Get expert rat removal services in The Villages, FL. Pro Wildlife Removal ensures safe rodent control for your property. Say goodbye to rat infestation, call us!"
-  },
-  "order": 41
- },
+ // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/the-villages.ts
+ theVillagesRats,
  // rat-removal-trinity removed (Ben, Oct 26): 301 to its city page (Wade)
  {
   "path": "about-us/service-area/rat-removal-services-winter-haven-fl",
@@ -9728,7 +7197,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Attempting to handle a rat infestation on your own can often lead to incomplete removal and ongoing issues? Serving Winter Haven, FL and surrounding areas, Pro Wildlife Removal ensures quick response times for all of our ",
+        "text": "Attempting to handle a rat infestation on your own can often lead to incomplete removal and ongoing issues? Serving Winter Haven, FL and surrounding areas, Pro Wildlife Removal brings careful, thorough work to all of our ",
         "marks": []
        },
        {
@@ -9740,7 +7209,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ". Here’s why choosing professional Florida wildlife removal company is the best option:",
+        "text": ". Here’s why hiring a professional Florida wildlife removal company makes sense:",
         "marks": []
        }
       ],
@@ -9782,7 +7251,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We don’t just eliminate the rats—you’ll receive exclusion services, decontamination, and follow-up visits to ensure the problem doesn’t return.",
+          "text": "Beyond removing the rats, the work includes exclusion, decontamination and follow-up visits.",
           "marks": []
          }
         ],
@@ -9861,7 +7330,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Don’t let rats take over your home or business. Contact Pro Wildlife Removal in Winter Haven, FL for fast, effective rat removal services today!",
+        "text": "Don’t let rats take over your home or business. Contact Pro Wildlife Removal in Winter Haven, FL for effective rat removal services today!",
         "marks": []
        }
       ],
@@ -9887,7 +7356,7 @@ export const fallbackLocations: Location[] = [
    {
     "_type": "cardsSection",
     "eyebrow": "Professional Expertise",
-    "heading": "Why Choose Pro Wildlife Removal in Winter Haven, FL?",
+    "heading": "Why Winter Haven Homeowners Call Us About Rats",
     "intro": [
      {
       "_type": "block",
@@ -9895,7 +7364,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to selecting the best Winter Haven wildlife removal company, Pro Wildlife Removal stands out for our experience, professionalism, and commitment to customer satisfaction. Here’s why homeowners and business owners choose us for their ",
+        "text": "When you need a Winter Haven wildlife removal company, Pro Wildlife Removal offers experience, professionalism, and a commitment to customer satisfaction. Here’s why homeowners and business owners choose us for their ",
         "marks": []
        },
        {
@@ -9932,7 +7401,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Our expert pest control team has extensive experience handling all types of rat infestations, using industry-best practices and state-of-the-art equipment.",
+          "text": "Our expert pest control team has extensive experience handling all types of rat infestations, using good practice and modern equipment.",
           "marks": []
          }
         ],
@@ -9949,7 +7418,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We tailor our rat removal strategies to the unique needs of each property, ensuring effective and lasting results.",
+          "text": "We tailor our rat removal strategies to each property.",
           "marks": []
          }
         ],
@@ -9958,7 +7427,7 @@ export const fallbackLocations: Location[] = [
       ]
      },
      {
-      "title": "Quick Response Times",
+      "title": "Easy Scheduling",
       "text": [
        {
         "_type": "block",
@@ -9966,7 +7435,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We understand the urgency of rat infestations and offer prompt service to address the issue as quickly as possible.",
+          "text": "We understand the urgency of rat infestations. Same-day appointments are often available in Winter Haven.",
           "marks": []
          }
         ],
@@ -9992,7 +7461,7 @@ export const fallbackLocations: Location[] = [
       ]
      },
      {
-      "title": "Licensed & Insured",
+      "title": "Done by Florida's rules",
       "text": [
        {
         "_type": "block",
@@ -10000,7 +7469,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We are fully licensed and insured, giving you peace of mind that your property is in capable hands.",
+          "text": "We follow Florida's wildlife rules on every job, so the work is done the way the law allows.",
           "marks": []
          }
         ],
@@ -10107,7 +7576,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "The time required depends on the size of the infestation and the condition of your property. Typically, the entire process, including inspection, removal, exclusion, and follow-up visits, can take anywhere from a few days to a couple of weeks.",
+          "text": "The time required depends on the size of the infestation and the condition of your property.",
           "marks": []
          }
         ],
@@ -10153,7 +7622,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Preventive measures include sealing any cracks or openings around your home, keeping food stored in airtight containers, and maintaining a clutter-free environment. We also offer exclusion and monitoring services to keep your property rat-free.",
+          "text": "Preventive measures include sealing any cracks or openings around your home, keeping food stored in airtight containers, and maintaining a clutter-free environment. We also offer exclusion and monitoring services.",
           "marks": []
          }
         ],
@@ -10171,7 +7640,7 @@ export const fallbackLocations: Location[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Pro Wildlife Removal Tampa Bay",
+    "heading": "Pro Wildlife Removal Central Florida",
     "style": {
      "bg": "ice",
      "heading": "charcoal",
@@ -10231,7 +7700,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Contact Pro Wildlife Removal in Winter Haven, FL for fast, effective rat removal services today and get your FREE rat removal assessment and quote.",
+        "text": "Contact Pro Wildlife Removal in Winter Haven, FL for effective rat removal services today and get your FREE rat removal assessment and quote.",
         "marks": []
        }
       ],
@@ -10247,7 +7716,7 @@ export const fallbackLocations: Location[] = [
   },
   "order": 43
  },
- // New county pages (Cole, Oct 2026)
- manatee,
- osceola,
+ // Manatee and Osceola pages held until the client confirms those counties (Ben, Oct 26)
 ];
+
+export const fallbackLocations: Location[] = migratedLocations.map(withLocationExtras);

@@ -1,4 +1,4 @@
-import type { Location, Post, Service, SiteSettings, Testimonial } from "@/lib/types";
+import type { Location, Post, Service, ServicePlace, SiteSettings, Testimonial } from "@/lib/types";
 import { absoluteUrl, siteUrl } from "@/lib/site";
 import { images } from "@/lib/data/images";
 import { real } from "@/lib/placeholders";
@@ -31,7 +31,6 @@ export function reviewsSchema(s: SiteSettings, shown: Testimonial[]) {
 
 /** The business itself, on every page. Its rating and reviews come from reviewsSchema, only where they are shown. */
 export function businessSchema(s: SiteSettings, locations: Location[] = []) {
-  // No openingHoursSpecification: the client's records disagree on the hours (Ben, Oct 26, 2026), and no hours is safer than wrong hours.
   const license = real(s.license);
   return {
     "@context": "https://schema.org",
@@ -44,7 +43,13 @@ export function businessSchema(s: SiteSettings, locations: Location[] = []) {
     logo: absoluteUrl(images.logo.src),
     image: absoluteUrl(images.prowildlifeRemovalAgentHoldingAnIguanaa.src),
     priceRange: "$$",
-    areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": areaType(l), name: `${l.name}, FL` })),
+    // Available 24 hours, every day (Kia confirmed, Oct 26, 2026). Structured data only: the site shows no hours label.
+    openingHoursSpecification: [
+      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
+    ],
+    // The confirmed counties only, by name (Ben, Oct 26, 2026): no vague region, and cities sit inside their county.
+    // Fixed in settings (Ben, Oct 26, 2026): a county stays here even while its page is held back.
+    areaServed: (s.serviceCounties ?? locations.filter((l) => l.kind === "county").map((l) => l.name.replace(/ County$/, ""))).map((c) => ({ "@type": "AdministrativeArea", name: `${c} County, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
   };
@@ -73,6 +78,24 @@ export function locationSchema(location: Location, path: string) {
     url: absoluteUrl(path),
     provider: { "@id": `${siteUrl}/#business` },
     areaServed: { "@type": areaType(location), name: `${location.name}, FL` },
+  };
+}
+
+/** One animal in one place: the Service, served in that city or county. */
+export function servicePlaceSchema(page: ServicePlace, service: Service, path: string) {
+  const area =
+    page.placeKind === "county"
+      ? { "@type": "AdministrativeArea", name: `${page.placeName}, FL` }
+      : { "@type": "City", name: `${page.placeName}, FL`, ...(page.county ? { containedInPlace: { "@type": "AdministrativeArea", name: `${page.county} County, FL` } } : {}) };
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: page.hero.heading,
+    serviceType: service.title,
+    description: page.seo.description,
+    url: absoluteUrl(path),
+    provider: { "@id": `${siteUrl}/#business` },
+    areaServed: area,
   };
 }
 

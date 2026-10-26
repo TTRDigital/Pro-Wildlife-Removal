@@ -23,7 +23,7 @@ export const deadAnimalRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "DEAD ANIMAL REMOVAL",
-    heading: "Dead Animal Removal in Tampa Bay",
+    heading: "Dead Animal Removal in Central Florida",
     highlight: "Dead Animal Removal",
     text: p("A smell you can't place, or an animal that died in a wall, attic, crawl space or vent? We find it, remove it and treat the area."),
     image: images.deadAnimalRemoval,
@@ -44,7 +44,7 @@ export const deadAnimalRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs of a dead animal in your house",
-      intro: p("Most people never see the animal. They notice everything around it."),
+      intro: p("Many people never see the animal. They notice everything around it."),
       variant: "icon",
       columns: 3,
       cards: [
@@ -82,7 +82,7 @@ export const deadAnimalRemoval: Service = {
       columns: 4,
       cards: [
         { number: "1", title: "Follow the smell", text: p("We trace the odor, flies and stains to the spot, then check the attic, crawl space, walls and vents near it.") },
-        { number: "2", title: "Remove the animal", text: p("Gloved, bagged and sealed, following the CDC's handling steps. If it's inside a finished wall, we make the smallest opening that gets it out, and tell you before cutting.", "[PLACEHOLDER: ask the client: do you cut and patch drywall yourselves, or does the owner arrange the repair?]") },
+        { number: "2", title: "Remove the animal", text: p("Gloved, bagged and sealed, following the CDC's handling steps. If it's inside a finished wall, we make the smallest opening that gets it out, and tell you before cutting.", "We don't patch drywall: the owner arranges that repair with a contractor.") },
         { number: "3", title: "Clean and deodorize", text: p("The spot is cleaned and sanitized, soiled insulation removed, and the area treated for odor.") },
         { number: "4", title: "Find the way in", text: p("We look for how the animal got inside, so you're not doing this again next month. If it's a rat, squirrel or bat problem, we tell you and quote the fix.") },
       ],
@@ -138,14 +138,13 @@ export const deadAnimalRemoval: Service = {
         { title: "Size of the animal", text: p("A rat, an opossum or something larger.") },
         { title: "Cleanup and odor work", text: p("A quick wipe-down, or insulation removal and treatment.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: can the site show a price range for dead animal removal?]"),
     },
     {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Dead animal removal in 9 counties",
-      intro: p("Homes, businesses and rentals across Tampa Bay and the counties around it."),
+      heading: "Dead animal removal in 8 counties",
+      intro: p("Homes, businesses and rentals across Central Florida and the counties around it."),
       groups: countyGroups,
     },
     {
@@ -210,9 +209,9 @@ export const deadAnimalRemoval: Service = {
     },
   ],
   seo: {
-    title: "Dead Animal Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Dead Animal Removal, Central Florida | Pro Wildlife Removal",
     description:
-      "Dead animal smell in a wall, attic, crawl space or vent? We find and remove it, clean and deodorize, and find how it got in. Tampa Bay: (727) 594-7705.",
+      "Dead animal smell in a wall, attic, crawl space or vent? We find and remove it, clean and deodorize, and find the way in. Central Florida: (727) 594-7705.",
   },
   sources: [
     { title: "CDC: Safety guidelines for disposing of dead animals (gloves; bag over hand, turn and seal; shovel for larger animals; call animal control; wash hands; risk from carcasses low with proper precautions)", url: CDC_DISPOSAL },

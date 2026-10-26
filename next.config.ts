@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
-import { movedLocations, movedServices } from "./lib/service-urls";
+import { cityCopies, movedLocations, movedServices } from "./lib/service-urls";
+import { fallbackServicePlaces } from "./lib/data/service-places";
 
 /*
  * Hosted on Vercel. Every page is prerendered at build time
@@ -37,6 +38,13 @@ const oldUrls: [string, string][] = [
   ["/page-sitemap.xml", "/sitemap.xml"],
   ["/post-sitemap.xml", "/sitemap.xml"],
   ["/sitemap_index.xml", "/sitemap.xml"],
+  ["/wp-sitemap.xml", "/sitemap.xml"],
+  ["/comments/feed", "/blog/"],
+  ["/sample-page", "/"],
+  ["/hello-world", "/blog/"],
+  ["/home", "/"],
+  ["/about", "/about-us/"],
+  ["/contact", "/contact-us/"],
   ["/index.php", "/"],
   ["/category/:path*", "/blog/"],
   ["/tag/:path*", "/blog/"],
@@ -75,6 +83,13 @@ const security = [
   { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains" },
 ];
 
+/** An old per-city service URL goes to its animal-by-place page once that page exists, else to the general page. */
+const places = new Set(fallbackServicePlaces.map((p) => `${p.service}/${p.place}`));
+function cityTarget(source: string, fallback: string) {
+  const c = cityCopies[source.replace(/^\/|\/$/g, "")];
+  return c && places.has(`${c.service}/${c.place}`) ? `/services/${c.service}/${c.place}/` : fallback;
+}
+
 const nextConfig: NextConfig = {
   // /about-us/ with the slash, like the old WordPress URLs.
   trailingSlash: true,
@@ -88,10 +103,10 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      ...oldUrls.map(([source, destination]) => ({ source, destination, statusCode: 301 as const })),
+      ...oldUrls.map(([source, destination]) => ({ source, destination: cityTarget(source, destination), statusCode: 301 as const })),
       // One page per animal: retired service pages go straight to the page that replaced them.
-      ...Object.entries(movedServices).map(([from, to]) => ({ source: `/services/${from}`, destination: `/services/${to}/`, statusCode: 301 as const })),
-      ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: `/${to}/`, statusCode: 301 as const })),
+      ...Object.entries(movedServices).map(([from, to]) => ({ source: `/services/${from}`, destination: cityTarget(`/services/${from}`, `/services/${to}/`), statusCode: 301 as const })),
+      ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: cityTarget(`/${from}`, `/${to}/`), statusCode: 301 as const })),
     ];
   },
   async headers() {
