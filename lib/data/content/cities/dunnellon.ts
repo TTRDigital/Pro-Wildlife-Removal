@@ -26,8 +26,8 @@ export const dunnellon = countyPage({
       title: "Marion County",
       href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
       items: [
-        { label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" },
-        { label: "Silver Springs", href: "/about-us/service-area/wildlife-removal-silver-springs-fl/" },
+        { label: "Ocala" },
+        { label: "Silver Springs" },
         { label: "Belleview" },
         { label: "Summerfield" },
       ],

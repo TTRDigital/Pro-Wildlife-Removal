@@ -37,7 +37,7 @@ export const theVillages = countyPage({
         { label: "Marion County", href: "/about-us/service-area/wildlife-removal-marion-county-fl/" },
         { label: "Wildwood" },
         { label: "Summerfield" },
-        { label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" },
+        { label: "Ocala" },
       ],
     },
   ],
