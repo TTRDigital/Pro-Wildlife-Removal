@@ -614,6 +614,14 @@
   .mouse-feet-2 {
     animation: pw-feet 0.16s linear infinite alternate-reverse;
   }
+  .snake-wave {
+    animation: pw-slither 0.35s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  .bee-buzz {
+    animation: pw-buzz 0.12s linear infinite alternate;
+  }
   .mouse-caught svg,
   .mouse-caught .mouse-feet,
   .mouse-caught .mouse-feet-2 {
@@ -937,6 +945,22 @@ a:focus-visible .logo-live .logo-lid {
     transform: translateY(-2px);
   }
 }
+@keyframes pw-slither {
+  from {
+    transform: skewX(-8deg) scaleY(0.9);
+  }
+  to {
+    transform: skewX(8deg) scaleY(1.1);
+  }
+}
+@keyframes pw-buzz {
+  from {
+    transform: translate(-1px, 1px);
+  }
+  to {
+    transform: translate(1px, -1px);
+  }
+}
 @keyframes pw-feet {
   from {
     transform: translateX(-2px);
@@ -980,6 +1004,8 @@ a:focus-visible .logo-live .logo-lid {
   .map-ping,
   .phone-ring,
   .tag-nudge,
+  .snake-wave,
+  .bee-buzz,
   .photo-live img,
   .hero-pan img,
   .icon-bob,

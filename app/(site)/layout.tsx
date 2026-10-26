@@ -1,6 +1,6 @@
 import "../globals.css";
 import { SiteShell } from "@/components/layout/SiteShell";
-import { LazyMouseCatch } from "@/components/ui/LazyBatCatch";
+import { LazyAnimalCatch } from "@/components/ui/LazyBatCatch";
 
 export default function SiteLayout({
   children,
@@ -8,7 +8,7 @@ export default function SiteLayout({
   return (
     <SiteShell>
       {children}
-      <LazyMouseCatch />
+      <LazyAnimalCatch />
     </SiteShell>
   );
 }
