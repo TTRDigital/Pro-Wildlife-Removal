@@ -32,11 +32,11 @@ export const batRemovalHudson = servicePlacePage({
   localIntro: "In 2017, a bat colony forced firefighters out of a Hudson fire station. What happened there shows how a bat colony can take over a building.",
   local: [
     { icon: "home", title: "Bats in Fire Station 39", text: p("In June 2017, Fox reported that bats had been getting into Pasco Fire Station 39 on County Line Road in Hudson for five years. WUSF, citing the Tampa Bay Times, reported 500 to 1,000 bats.") },
-    { icon: "users", title: "Crews moved out", text: p("WUSF reported the bats had made the station an unsanitary and unsafe place to work. Per Fox, the engine company moved to Station 20 in Shady Hills and the rescue company to Hudson Station 10 while the bats were dealt with.") },
-    { icon: "wrench", title: "One-way devices on the roof", text: p("Devices went on the roof at the entry points so bats could fly out but not get back in, Fox reported. Firefighters couldn't return until there had been no bat activity for at least 72 hours.") },
-    { icon: "phone", title: "A possible bite, and rabies shots", text: p("One firefighter reported a bite she couldn't place, from an insect or a bat. As a precaution, Fox reported, each firefighter at the station was getting a rabies shot.") },
+    { icon: "users", title: "Crews moved out", text: p("WUSF reported in 2017 that the bats had made the station an unsanitary and unsafe place to work. Per Fox's 2017 report, the engine company moved to Station 20 in Shady Hills and the rescue company to Hudson Station 10 while the bats were dealt with.") },
+    { icon: "wrench", title: "One-way devices on the roof", text: p("Devices went on the roof at the entry points so bats could fly out but not get back in, Fox reported in 2017. Firefighters couldn't return until there had been no bat activity for at least 72 hours.") },
+    { icon: "phone", title: "A possible bite, and rabies shots", text: p("One firefighter reported a bite she couldn't place, from an insect or a bat. As a precaution, Fox reported in 2017, each firefighter at the station was getting a rabies shot.") },
     { icon: "critter", title: "Report any bat contact", text: p("Pasco County Animal Services asks residents to report bare skin contact with a bat, or a bat found in a room where someone slept, to DOH-Pasco or the county. The county recorded one rabid bat from 2013 to 2023.") },
-    { icon: "leaf", title: "Pups and the legal season", text: p("WUSF reported full removal had to wait until after August, when the young matured, and Fox reported fire officials filed for an emergency removal with FWC. Without a permit, exclusion is legal only from August 15 to April 15.") },
+    { icon: "leaf", title: "Pups and the legal season", text: p("In 2017, WUSF reported full removal had to wait until after August, when the young matured, and Fox reported fire officials filed for an emergency removal with FWC. Without a permit, exclusion is legal only from August 15 to April 15.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Hudson, from each agency's own page.",
   contacts: [

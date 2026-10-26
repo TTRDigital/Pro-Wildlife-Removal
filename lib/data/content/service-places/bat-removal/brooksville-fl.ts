@@ -25,7 +25,7 @@ export const batRemovalBrooksville = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   county: "Hernando",
   order: 40,
-  heroText: "Bats streaming out of a Brooksville soffit, barn or attic at dusk? We look for every opening, fit one-way doors when state rules allow and seal up once they're out. Call (727) 594-7705.",
+  heroText: "Bats streaming out of a Brooksville soffit, barn or attic at dusk? We look for the openings bats use, fit one-way doors when state rules allow and seal up once they're out. Call (727) 594-7705.",
   answerHeading: "How do you get bats out of a Brooksville home?",
   answer:
     "With one-way exclusion doors that let bats fly out but not back in, fitted only between August 15 and April 15 under FWC rules. Killing or poisoning bats is illegal in Florida. Pro Wildlife Removal checks a Brooksville home for the gaps a colony uses, fits the doors and seals the openings afterward. Call (727) 594-7705.",
@@ -34,12 +34,13 @@ export const batRemovalBrooksville = servicePlacePage({
   localIntro: "Brooksville has a large bat colony just up the road, at Chinsegut. Here is what FWC and the health department say about bats around town.",
   local: [
     { icon: "leaf", title: "A big colony up the road", text: p("FWC's Chinsegut Wildlife and Environmental Area sits six miles north of Brooksville. The Great Florida Birding Trail says it has a large colony of Brazilian free-tailed bats.") },
-    { icon: "home", title: "Bats in bat houses", text: p("FWC staff at Chinsegut maintain bat houses that are home to several hundred Brazilian free-tailed bats, as part of the area's regular wildlife monitoring.") },
+    { icon: "home", title: "Bats in bat houses", text: p("FWC maintains bat houses at Chinsegut that are home to several hundred Brazilian free-tailed bats, as part of the area's regular wildlife monitoring.") },
+    { icon: "sound", title: "An evening of bats", text: p("For August 30, 2025, FWC scheduled an International Bat Night program at the Chinsegut Conservation Center north of Brooksville, featuring a talk from the Florida Bat Conservancy and, if the weather allowed, a chance to watch the colony leave the bat boxes.") },
     { icon: "critter", title: "The species in your roof", text: p("The Chinsegut bats are Brazilian free-tailed bats, which FWC says live throughout Florida and here prefer to roost in buildings: attics, sheds and bridges, as well as bat houses.") },
     { icon: "search", title: "Pups in June and July", text: p("FWC says Brazilian free-tailed bat pups are typically born in June or July. That falls inside the April 16 to August 14 maternity season, when exclusion devices can't go up without a permit.") },
     { icon: "map-pin", title: "Hernando's bat record", text: p("From 2022 through 2025, the state's county tables and their surveillance footnotes show no rabid bat from Hernando County. Its only entries in those years were two rabid raccoons in 2025.") },
     { icon: "drop", title: "Bats named in a Brooksville notice", text: p("When a rabid raccoon was killed off Ted Road in the Brooksville area in May 2025, DOH-Hernando's advisory told residents and visitors to avoid physical contact with wild animals, naming bats right after raccoons.") },
-    { icon: "phone", title: "Keep them out of living space", text: p("DOH-Hernando's June 30, 2026 rabies alert, issued after a rabid feral cat was found off Westwood Drive in southeast Hernando, told residents to keep wildlife, including bats, out of living quarters, schools and other occupied spaces.") },
+    { icon: "phone", title: "Keep them out of living space", text: p("DOH-Hernando's June 30, 2026 rabies alert, issued after a rabid feral cat was found in the Dade City area off Westwood Drive, told residents to keep wildlife, including bats, out of living quarters, schools and other occupied spaces.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Brooksville, from each agency's own page.",
   contacts: [
@@ -84,6 +85,7 @@ export const batRemovalBrooksville = servicePlacePage({
     { title: "FWC: Chinsegut Wildlife and Environmental Area (Hernando County, six miles north of Brooksville)", url: CHIN },
     { title: "FWC: Chinsegut WEA habitat and management (bat houses home to several hundred Brazilian free-tailed bats)", url: CHIN_HAB },
     { title: "FWC Great Florida Birding Trail: Chinsegut WEA (large colony of Brazilian free-tailed bats; 820 acres; Lake Lindsey Rd, Brooksville)", url: CHIN_BT },
+    { title: "FWC: International Bat Night at Chinsegut Conservation Center, Aug. 30, 2025 (Florida Bat Conservancy speaker; watching bats emerge from the Chinsegut bat boxes)", url: "https://outreach.myfwc.com/events/EventDetails.aspx?id=1981027" },
     { title: "FWC: Brazilian free-tailed bat profile (found throughout Florida; in Florida prefers attics, sheds, bridges and bat houses; pups typically born June or July)", url: FREETAIL },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug. 14; exclusion devices legal Aug. 15 to April 15; four nights; 50°F)", url: SEASON },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Hernando: none listed)", url: DOH2024 },
