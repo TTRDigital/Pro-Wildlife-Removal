@@ -11,7 +11,7 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
   const license = real(settings.license);
   const info = (
     <div className="card p-8" data-reveal>
-      <h3 className="mb-5 font-display text-h3 font-semibold text-navy">{settings.name}</h3>
+      <p className="mb-5 font-display text-h3 font-semibold text-navy">{settings.name}</p>
       <ul className="grid gap-4">
         <li className="flex gap-3">
           <span className="ico h-10 w-10">
