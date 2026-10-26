@@ -841,32 +841,6 @@ export const fallbackPages = {
         ]
        }
       ]
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Office Hours",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Open 24 hours a day, 7 days a week",
-        "marks": []
-       }
-      ]
      }
     ],
     "image": images.tampaBayMap2,
@@ -1422,32 +1396,6 @@ export const fallbackPages = {
         "marks": [
          "l0"
         ]
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Office Hours",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Open 24 hours a day, 7 days a week",
-        "marks": []
        }
       ]
      },
@@ -3259,35 +3207,6 @@ export const fallbackPages = {
    }
   },
   "sections": [
-   {
-    "_type": "proseSection",
-    "body": [
-     {
-      "_type": "block",
-      "style": "normal",
-      "children": [
-       {
-        "_type": "span",
-        "text": "Open 24 hours a day, 7 days a week",
-        "marks": [
-         "strong"
-        ]
-       }
-      ],
-      "markDefs": []
-     }
-    ],
-    "style": {
-     "bg": "beige",
-     "heading": "grey",
-     "text": "grey",
-     "link": "white",
-     "divider": "navy",
-     "frame": "navy",
-     "headingAbove": true
-    },
-    "_key": "s0"
-   },
    {
     "_type": "contactSection",
     "style": {

@@ -346,7 +346,7 @@ function CtaBox({ s, id, settings }: { s: CtaSection; id: string; settings: Site
   );
 }
 
-/** Call-only contact block: no street address (the client's wish), open 24/7. */
+/** Call-only contact block: no street address and no hours label (the client's wishes). */
 function Contact({ s, id, settings }: { s: ContactSection; id: string; settings: SiteSettings }) {
   return (
     <Band id={id} style={{ ...s.style, bg: "white" }} bg="white">
@@ -366,15 +366,6 @@ function Contact({ s, id, settings }: { s: ContactSection; id: string; settings:
               {settings.email}
             </a>
           </address>
-          <h3 className="r-h2 mt-8 !text-[clamp(1.375rem,1.1rem+0.6vw,1.75rem)]">Hours</h3>
-          <dl className="r-rich mt-3 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
-            {settings.hours.map((h) => (
-              <div key={h.label} className="contents">
-                <dt className="font-semibold">{h.label}:</dt>
-                <dd>{h.value}</dd>
-              </div>
-            ))}
-          </dl>
           <div className="mt-8">
             <PillButton cta={{ label: settings.phone, href: settings.phoneHref }} />
           </div>

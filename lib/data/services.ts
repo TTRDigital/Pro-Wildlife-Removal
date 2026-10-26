@@ -15290,22 +15290,8 @@ export const fallbackServices: Service[] = [
       "image": images.tampaBayFlMapLarge1
      },
      {
-      "title": "Office Hours",
+      "title": "Service Areas",
       "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "listItem": "bullet",
-        "level": 1,
-        "markDefs": [],
-        "children": [
-         {
-          "_type": "span",
-          "text": "Open 24 hours a day, 7 days a week",
-          "marks": []
-         }
-        ]
-       },
        {
         "_type": "block",
         "style": "normal",

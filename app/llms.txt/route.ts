@@ -28,7 +28,6 @@ export async function GET() {
     "",
     `- Phone: ${s.phone}${s.tollFree ? ` (toll free ${s.tollFree})` : ""}`,
     `- Email: ${s.email}`,
-    `- Hours: ${s.hours.map((h) => `${clean(h.label)} ${clean(h.value)}`).join("; ")}`,
     ...(s.googleRating && s.reviewCount ? [`- Google rating: ${s.googleRating} from ${s.reviewCount} reviews`] : []),
     `- Requests: by phone only, call ${s.phone} (${absoluteUrl("/contact-us/")})`,
     "",
