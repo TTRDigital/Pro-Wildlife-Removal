@@ -8,6 +8,7 @@ import { pasco } from "./content/counties/pasco.ts";
 import { pinellas } from "./content/counties/pinellas.ts";
 import { polk } from "./content/counties/polk.ts";
 import { sumter } from "./content/counties/sumter.ts";
+import { marion } from "./content/counties/marion.ts";
 import { tampa } from "./content/cities/tampa.ts";
 import { springHill } from "./content/cities/spring-hill.ts";
 import { clearwater } from "./content/cities/clearwater.ts";
@@ -1428,6 +1429,8 @@ export const fallbackLocations: Location[] = [
  polk,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/counties/sumter.ts
  sumter,
+ // New for the rebuild (Nia, Oct 2026): lib/data/content/counties/marion.ts
+ marion,
  {
   "path": "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   "name": "Brooksville",
