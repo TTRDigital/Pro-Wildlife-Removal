@@ -13,6 +13,10 @@ import { opossumRemovalPinellasCounty } from "./content/service-places/opossum-r
 import { armadilloRemovalPinellasCounty } from "./content/service-places/armadillo-removal/pinellas-county-fl.ts";
 import { beeRemovalPinellasCounty } from "./content/service-places/bee-removal/pinellas-county-fl.ts";
 import { deadAnimalRemovalPinellasCounty } from "./content/service-places/dead-animal-removal/pinellas-county-fl.ts";
+import { raccoonRemovalClearwater } from "./content/service-places/raccoon-removal/clearwater-fl.ts";
+import { snakeRemovalClearwater } from "./content/service-places/snake-removal/clearwater-fl.ts";
+import { beeRemovalClearwater } from "./content/service-places/bee-removal/clearwater-fl.ts";
+import { deadAnimalRemovalClearwater } from "./content/service-places/dead-animal-removal/clearwater-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -37,6 +41,11 @@ export const fallbackServicePlaces: ServicePlace[] = [
   armadilloRemovalPinellasCounty,
   beeRemovalPinellasCounty,
   deadAnimalRemovalPinellasCounty,
+  // Clearwater (Rhea)
+  raccoonRemovalClearwater,
+  snakeRemovalClearwater,
+  beeRemovalClearwater,
+  deadAnimalRemovalClearwater,
 ];
 
 /**
@@ -53,4 +62,5 @@ export const existingPlacePages: PlacePage[] = [
   { service: "rat-removal", placeName: "Safety Harbor", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-safety-harbor", location: "about-us/service-area/wildlife-removal-safety-harbor" },
   { service: "rat-removal", placeName: "Spring Hill", placeKind: "city", county: "Hernando", path: "about-us/service-area/rat-removal-services-spring-hill-fl", location: "about-us/service-area/wildlife-removal-spring-hill-fl" },
   { service: "rat-removal", placeName: "St. Petersburg", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-services-st-petersburg-fl", location: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl" },
+  // Clearwater (Rhea)
 ];
