@@ -40,7 +40,7 @@ export const sumter = countyPage({
   ],
   contactsIntro: "Sumter's own website is clear about who does what. These numbers come from the county's and the agencies' pages.",
   contacts: [
-    { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400: option 3 for animal control complaints, option 9 after hours. The county says Animal Services generally deals only with domestic animals.") },
+    { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400: option 3 for animal control complaints. The county says Animal Services generally deals only with domestic animals.") },
     { icon: "phone", title: "Animal bites: DOH-Sumter", text: p("352-569-3102, the number DOH-Sumter gave for reporting bites in its June 2026 rabies alert.") },
     { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Sumter is in FWC's Northeast Region: 352-732-1225 in Ocala. Nuisance alligators: 866-FWC-GATOR.") },
   ],
