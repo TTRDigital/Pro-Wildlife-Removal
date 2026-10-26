@@ -49,7 +49,7 @@ export const dunnellon = countyPage({
     cards: [
       { icon: "building", title: "Eight closures, 2015 to 2025", text: p("By our count of DBPR's emergency closure files, food businesses with a Dunnellon address were closed 8 times for rodents from 2015 through 2025, at 5 businesses, most recently in 2021.") },
       { icon: "map-pin", title: "Inside city limits", text: p("Three of those closures were at addresses inside Dunnellon city limits: one on the US 41 corridor in June 2017, and one business on East Pennsylvania Avenue twice in 2018.") },
-      { icon: "search", title: "45 droppings, January 2026", text: p("Ocala-News.com reported that a golf club restaurant in the Dunnellon area was shut on Jan. 26, 2026, after an inspector counted 45 rodent droppings in the kitchen and bar. It reopened the next day.") },
+      { icon: "search", title: "45 droppings, January 2026", text: p("Ocala-News.com reported that a Dunnellon-area restaurant was shut on Jan. 26, 2026, after an inspector counted 45 rodent droppings in the kitchen and bar. It reopened the next day.") },
     ],
     link: { label: "rat removal", href: "/services/rat-removal/" },
   },

@@ -52,7 +52,7 @@ export const carrollwood = countyPage({
   ],
   rats: {
     heading: "Rodent closures in Carrollwood",
-    intro: "State restaurant inspections are Carrollwood's local rat record, and the same spots turn up more than once.",
+    intro: "State restaurant inspections are Carrollwood's local rat record, and one address turns up twice.",
     cards: [
     { icon: "leaf", title: "Rodent closures", text: p("Florida DBPR's emergency closure records list two Carrollwood food businesses closed for conditions naming rodents, in July 2023 and August 2024. Both list their city as Tampa; we placed the addresses in Carrollwood with the Census geocoder.") },
       { icon: "search", title: "Dale Mabry, twice", text: p("The North Dale Mabry Highway business closed in July 2023 had also been closed for rodent activity in September 2019, under the same license and an earlier name.") },

@@ -26,7 +26,7 @@ export const centralFlorida = countyPage({
   heroText: "From the Gulf coast to the Villages and Polk's lakes, one number covers our Central Florida service area. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Central Florida?",
   answer:
-    "Usually a private company. Across the region, county animal services focus on pets and strays, and several say outright that they don't trap nuisance wildlife. Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes and other animals from homes, following FWC's rules, and seals the way in. Call (727) 594-7705.",
+    "Usually a private company. County animal services here focus on pets and strays: Orange says it doesn't trap nuisance wildlife, Sumter generally handles only domestic animals, and the Citrus Sheriff refers residents to a trapper. Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes and other animals from homes, following FWC's rules, and seals the way in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "One number, every county", "FWC rules on every job"],
   townsHeading: "Counties and cities we serve",
   townsIntro: "Each county and city has its own page with its local rules, records and contacts. Pick yours.",

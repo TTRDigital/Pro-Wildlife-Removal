@@ -1,7 +1,7 @@
 import { countyPage, S } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/* Lecanto page, rewritten in place at its existing URL (Ben, Oct 26). Lecanto is unincorporated Citrus County and the seat of county government. Checkable local facts only; no residential street names. */
+/* Lecanto page, rewritten in place at its existing URL (Ben, Oct 26). Lecanto is unincorporated Citrus County and home to the county government center (Inverness is the county seat). Checkable local facts only; no residential street names. */
 const CODE = "https://www.citruscounty.gov/departments/growth_management/code_compliance/index.php";
 const CODE_FAQ = "https://www.citruscounty.gov/departments/growth_management/code_compliance/faqs.php";
 const GARBAGE = "https://www.citruscounty.gov/departments/public_works/solid_waste_management/residential_information___fees.php";
@@ -47,9 +47,9 @@ export const lecanto = countyPage({
   localHeading: "Lecanto's rules on garbage, nuisances and rodents",
   localIntro: "County government and the health department both work out of Lecanto, and their rules are the local record for animal problems here.",
   local: [
-    { icon: "building", title: "The county seat of government", text: p("Citrus County's Lecanto Government Building houses Code Compliance, which takes complaints under the county's Nuisance Ordinance. It doesn't take anonymous complaints unless an officer sees an imminent threat.") },
+    { icon: "building", title: "Citrus County's government center", text: p("Citrus County's Lecanto Government Building houses Code Compliance, which takes complaints under the county's Nuisance Ordinance. It doesn't take anonymous complaints unless an officer sees an imminent threat.") },
     { icon: "home", title: "Garbage in a receptacle", text: p("The county's Code Compliance FAQ says the Nuisance Ordinance requires garbage to be kept in an appropriate receptacle and not allowed to overflow. Overflowing bins are what raccoons and rats look for.") },
-    { icon: "wrench", title: "No county trash pickup", text: p("Citrus County doesn't collect residential garbage. Lecanto homes hire one of about ten private haulers the county lists, so pickup days and bins vary street by street.") },
+    { icon: "wrench", title: "No county trash pickup", text: p("Citrus County doesn't collect residential garbage. Lecanto homes hire one of the 8 private haulers on the county's list, so pickup days and bins vary street by street.") },
     { icon: "search", title: "Sanitary nuisances", text: p("DOH-Citrus Environmental Health, also in Lecanto, investigates sanitary nuisance complaints under Florida Statute 386.041, which covers improperly handled garbage and dead animals.") },
     { icon: "critter", title: "Rodent advice from DOH-Citrus", text: p("The department's rodent page tells residents to store food in sealed containers and clear away the debris rodents hide in.") },
   ],
@@ -98,7 +98,7 @@ export const lecanto = countyPage({
     { title: "U.S. Census Bureau: 2020 Gazetteer, Florida places (Lecanto CDP: 26.93 square miles of land)", url: GAZ },
     { title: "Citrus County: Code Compliance (Lecanto Government Building; Nuisance Ordinance complaints; no anonymous complaints unless an imminent threat; (352) 527-5310)", url: CODE },
     { title: "Citrus County: Code Compliance FAQs (garbage kept in an appropriate receptacle, not allowed to overflow)", url: CODE_FAQ },
-    { title: "Citrus County: Residential garbage pickup (the county doesn't collect; private haulers listed)", url: GARBAGE },
+    { title: "Citrus County: Residential garbage pickup (the county doesn't collect; 8 private haulers listed, plus the cities of Crystal River and Inverness)", url: GARBAGE },
     { title: "Citrus County: Solid Waste Management ((352) 527-7670)", url: SOLID_WASTE },
     { title: "DOH-Citrus: Sanitary nuisances (Lecanto office; F.S. 386.041 covers improperly handled garbage and dead animals; 352-527-0068)", url: NUISANCE },
     { title: "DOH-Citrus: Rodent control (store food in sealed containers; clear debris)", url: RODENTS },
