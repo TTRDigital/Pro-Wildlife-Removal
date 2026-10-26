@@ -2,6 +2,7 @@ import Link from "next/link";
 import { MapPin } from "lucide-react";
 import type { AreasSection as Areas } from "@/lib/types";
 import { AreaMap } from "@/components/ui/AreaMap";
+import { CityMarquee } from "@/components/ui/CityMarquee";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 type Item = Areas["groups"][number]["items"][number];
@@ -19,11 +20,7 @@ function Chip({
   const cls =
     "inline-flex min-h-11 items-center gap-1.5 rounded-full border border-line bg-white px-4 font-display text-[0.9375rem] font-semibold whitespace-nowrap text-navy shadow-[0_6px_16px_-12px_rgb(14_42_71/0.5)] transition-colors";
   const pin = place && (
-    <MapPin
-      className="h-3.5 w-3.5 flex-none text-blue"
-      strokeWidth={2.5}
-      aria-hidden="true"
-    />
+    <span className="pin-ico text-blue" aria-hidden="true" />
   );
   return it.href ? (
     <Link
@@ -81,28 +78,9 @@ export function AreasSection({ section: s }: { section: Areas }) {
         intro={s.intro}
       />
       {rows.length ? (
-        <div
-          aria-hidden="true"
-          className="marquee -mx-4 mb-10 grid gap-3 overflow-hidden py-2 sm:-mx-6 md:mb-14"
-        >
-          {rows.map((row, ri) => (
-            <div
-              key={ri}
-              className="marquee-row"
-              style={{
-                ["--marquee-time" as string]: `${row.length * (ri ? 4.2 : 3.4)}s`,
-              }}
-            >
-              {[0, 1].map((copy) => (
-                <div key={copy} className="marquee-track">
-                  {row.map((it) => (
-                    <Chip key={`${copy}-${it.label}`} it={it} copy />
-                  ))}
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
+        <CityMarquee
+          rows={rows.map((r) => r.map(({ label, href }) => ({ label, href })))}
+        />
       ) : null}
       {s.groups.length === 1 && !s.groups[0].title ? (
         // One untitled group (e.g. a city's services): a centred row of tags, no card.
