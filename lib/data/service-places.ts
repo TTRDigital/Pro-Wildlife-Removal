@@ -17,6 +17,13 @@ import { raccoonRemovalClearwater } from "./content/service-places/raccoon-remov
 import { snakeRemovalClearwater } from "./content/service-places/snake-removal/clearwater-fl.ts";
 import { beeRemovalClearwater } from "./content/service-places/bee-removal/clearwater-fl.ts";
 import { deadAnimalRemovalClearwater } from "./content/service-places/dead-animal-removal/clearwater-fl.ts";
+import { raccoonRemovalStPetersburg } from "./content/service-places/raccoon-removal/st-petersburg-fl.ts";
+import { snakeRemovalStPetersburg } from "./content/service-places/snake-removal/st-petersburg-fl.ts";
+import { batRemovalStPetersburg } from "./content/service-places/bat-removal/st-petersburg-fl.ts";
+import { opossumRemovalStPetersburg } from "./content/service-places/opossum-removal/st-petersburg-fl.ts";
+import { armadilloRemovalStPetersburg } from "./content/service-places/armadillo-removal/st-petersburg-fl.ts";
+import { beeRemovalStPetersburg } from "./content/service-places/bee-removal/st-petersburg-fl.ts";
+import { deadAnimalRemovalStPetersburg } from "./content/service-places/dead-animal-removal/st-petersburg-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -46,6 +53,14 @@ export const fallbackServicePlaces: ServicePlace[] = [
   snakeRemovalClearwater,
   beeRemovalClearwater,
   deadAnimalRemovalClearwater,
+  // St. Petersburg (Rhea)
+  raccoonRemovalStPetersburg,
+  snakeRemovalStPetersburg,
+  batRemovalStPetersburg,
+  opossumRemovalStPetersburg,
+  armadilloRemovalStPetersburg,
+  beeRemovalStPetersburg,
+  deadAnimalRemovalStPetersburg,
 ];
 
 /**
@@ -63,4 +78,5 @@ export const existingPlacePages: PlacePage[] = [
   { service: "rat-removal", placeName: "Spring Hill", placeKind: "city", county: "Hernando", path: "about-us/service-area/rat-removal-services-spring-hill-fl", location: "about-us/service-area/wildlife-removal-spring-hill-fl" },
   { service: "rat-removal", placeName: "St. Petersburg", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-services-st-petersburg-fl", location: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl" },
   // Clearwater (Rhea)
+  // St. Petersburg (Rhea)
 ];
