@@ -13,6 +13,15 @@ export const clipCredits: ClipCredit[] = [
     date: "2011",
   },
   {
+    clip: "Armadillo",
+    shows: "A wild nine-banded armadillo foraging in leaf litter",
+    author: "gails_pictures (Flickr)",
+    source: "https://commons.wikimedia.org/wiki/File:Nine-banded_Armadillo_(Dasypus_novemcinctus)._Armadillo_running_off_video.webm",
+    license: "CC BY 2.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0/",
+    date: "13 November 2017",
+  },
+  {
     clip: "Bees",
     shows: "A honey bee swarm gathering on a pine branch, Mississippi",
     author: "Dsgridgerunner",

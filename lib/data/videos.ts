@@ -7,7 +7,8 @@
  * - squirrel: commons.wikimedia.org/wiki/File:Sciurus_carolinensis_in_Orlando_(May_2023).webm (CC0, Benoît Prieur, 2023)
  * - bee: commons.wikimedia.org/wiki/File:Honeybees_actively_swarming.webm (CC0, Dsgridgerunner, 2025)
  * - bat: commons.wikimedia.org/wiki/File:Bats_evacuating_the_Congress_Bridge_in_Austin_TX.webm (CC BY 3.0, cdempsey26, 2011)
- * Still to find: rat, armadillo (the tile shows its photos until then).
+ * - armadillo: commons.wikimedia.org/wiki/File:Nine-banded_Armadillo_(Dasypus_novemcinctus)._Armadillo_running_off_video.webm (CC BY 2.0, gails_pictures on Flickr, 2017)
+ * Still to find: rat (the tile shows its photos until then).
  */
 export const animalVideos: Partial<Record<string, string>> = {
   raccoon: "/videos/raccoon.mp4",
@@ -16,4 +17,5 @@ export const animalVideos: Partial<Record<string, string>> = {
   squirrel: "/videos/squirrel.mp4",
   bee: "/videos/bee.mp4",
   bat: "/videos/bat.mp4",
+  armadillo: "/videos/armadillo.mp4",
 };

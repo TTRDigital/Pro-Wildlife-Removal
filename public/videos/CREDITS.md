@@ -58,3 +58,12 @@ seconds, scaled to 480x360 and saved without sound; nothing else was changed.
 - Author: cdempsey26
 - Filmed: 2011
 - License: CC BY 3.0 (Creative Commons Attribution 3.0), credited on /credits/
+
+## armadillo.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:Nine-banded_Armadillo_(Dasypus_novemcinctus)._Armadillo_running_off_video.webm
+  (originally on Flickr: https://www.flickr.com/photos/gails_pictures/38355897872)
+- What it shows: a wild nine-banded armadillo foraging in leaf litter; cropped to the tile's shape
+- Author: gails_pictures (Flickr)
+- Filmed: 13 November 2017
+- License: CC BY 2.0 (Creative Commons Attribution 2.0 Generic), credited on /credits/
