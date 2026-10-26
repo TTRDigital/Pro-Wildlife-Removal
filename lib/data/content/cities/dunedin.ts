@@ -47,7 +47,7 @@ export const dunedin = countyPage({
   contactsIntro: "Dunedin sends strays and injured wildlife to the county and sea turtles to FWC. The numbers are below.",
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4. The county lists wildlife pickup and transport help, and support for sick or injured wildlife.") },
-    { icon: "map-pin", title: "Sea turtles, bears, alligators", text: p("FWC Wildlife Alert, 888-404-3922, for sea turtles, manatees and bears. Nuisance alligators: 866-392-4286.") },
+    { icon: "map-pin", title: "Sea turtles and bears", text: p("FWC Wildlife Alert, 888-404-3922, for sea turtles, manatees and bears. Nuisance alligators: 866-392-4286.") },
     { icon: "phone", title: "Animal bites", text: p("If an animal bites someone in Dunedin, report it to the health department in Pinellas: 727-824-6932.") },
   ],
   servicesIntro: "Bees in the attic, a rat infestation in the garage or a raccoon under the porch: we handle every animal below in Dunedin. Tap one for the details.",

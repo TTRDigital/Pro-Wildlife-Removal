@@ -18,7 +18,7 @@ export const clearwater = countyPage({
   answerHeading: "Who handles wildlife problems in Clearwater?",
   answer:
     "The City of Clearwater doesn't run animal control: Pinellas County handles strays and pets, and FWC handles alligators and wildlife emergencies. For an animal living in your attic, walls or yard, call a private company. Pro Wildlife Removal works across Clearwater. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County handles pets", "FWC handles alligators"],
+  points: ["Call (727) 594-7705", "County handles pets", "FWC handles wildlife issues"],
   townsHeading: "Clearwater and nearby",
   townsIntro: "Clearwater, home to about 118,300 people, is the Pinellas County seat. We cover the towns around it too.",
   towns: [
@@ -49,7 +49,7 @@ export const clearwater = countyPage({
     { icon: "users", title: "Strays and pets: Pinellas County", text: p("Pinellas County Animal Services, (727) 582-2600, option 4. Clearwater's own page says the county handles dangerous pets, strays and cruelty.") },
     { icon: "home", title: "Dead animal on a city road", text: p("Clearwater Solid Waste Services removes dead animals from public roads, rights-of-way and medians inside city limits. On private property, it's the owner's job.") },
     { icon: "phone", title: "Animal bites: DOH-Pinellas", text: p("Report bites to the health department in Pinellas at 727-824-6932.") },
-    { icon: "map-pin", title: "Alligators and wildlife emergencies: FWC", text: p("The city points to FWC for nuisance alligators and injured sea life. Gator hotline: 866-FWC-GATOR. Wildlife Alert (injured sea life and wildlife law violations): 888-404-3922.") },
+    { icon: "map-pin", title: "Wildlife emergencies: FWC", text: p("The city points to FWC for nuisance alligators and injured sea life. Gator hotline: 866-FWC-GATOR. Wildlife Alert (injured sea life and wildlife law violations): 888-404-3922.") },
   ],
   servicesIntro: "Humane wildlife removal and wildlife exclusion for all nine animals below, anywhere in Clearwater. Tap one and our wildlife removal experts explain the details.",
   servicesHeading: "Animals we remove in Clearwater",

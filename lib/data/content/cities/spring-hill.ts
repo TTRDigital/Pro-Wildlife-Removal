@@ -48,7 +48,7 @@ export const springHill = countyPage({
   contacts: [
     { icon: "users", title: "HCSO Animal Services", text: p("352-796-5062. The Hernando County Sheriff's Office runs Animal Services from Oliver Street in Brooksville.") },
     { icon: "phone", title: "Animal bites: DOH-Hernando", text: p("352-540-6812, the health department's Environmental Public Health line for bites and scratches.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Bear sightings or conflicts: FWC Southwest Region, 863-648-3200. Nuisance alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Bear sightings or conflicts: FWC Southwest Region, 863-648-3200. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Our wildlife removal experts offer wildlife control for every animal below across Spring Hill. Choose one to read more.",
   servicesHeading: "Animals we remove in Spring Hill",

@@ -46,7 +46,7 @@ export const holiday = countyPage({
   contacts: [
     { icon: "users", title: "Pets and strays", text: p("Pasco County Animal Services, 813-929-1212. Emergencies from 5 pm to 8 am: (727) 847-8102, option 7.") },
     { icon: "phone", title: "Bites: DOH-Pasco", text: p("Report an animal bite in Holiday to the health department in Pasco at 352-521-1450, option 4.") },
-    { icon: "map-pin", title: "Injured sea life and alligators: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for injured or dead sea turtles, dolphins and manatees. Nuisance alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Injured sea life: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for injured or dead sea turtles, dolphins and manatees. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Along the Anclote River and across Holiday, we remove every animal below. Pick one to learn more.",
   servicesHeading: "Animals we remove in Holiday",

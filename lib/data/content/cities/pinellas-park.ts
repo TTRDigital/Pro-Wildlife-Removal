@@ -44,7 +44,7 @@ export const pinellasPark = countyPage({
   contacts: [
     { icon: "users", title: "Strays and injured wildlife", text: p("Pinellas County Animal Services, (727) 582-2600, option 4, serves Pinellas Park residents.") },
     { icon: "phone", title: "Animal bites", text: p("DOH-Pinellas takes bite reports at 727-824-6932.") },
-    { icon: "map-pin", title: "Alligators: FWC", text: p("Ponds and canals mean the odd alligator. FWC's Nuisance Alligator Hotline is 866-392-4286.") },
+    { icon: "map-pin", title: "State wildlife matters: FWC", text: p("Ponds and canals mean the odd alligator. FWC's Nuisance Alligator Hotline is 866-392-4286.") },
   ],
   servicesIntro: "Each of our professional wildlife management services is offered in Pinellas Park. Tap an animal to read more.",
   servicesHeading: "Animals we remove in Pinellas Park",

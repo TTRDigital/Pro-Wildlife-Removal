@@ -38,7 +38,7 @@ export const osceola = countyPage({
   contacts: [
     { icon: "users", title: "Osceola County Animal Services", text: p("407-742-8000, extension 4, 8 am to 11 pm daily. Officers respond to injured or sick animals, bites, venomous snakes outside, and alligators 4 feet or less outside their habitat.") },
     { icon: "phone", title: "Animal bites: DOH-Osceola", text: p("407-742-8606, per the department's rabies surveillance page.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Osceola is in FWC's Northeast Region: 352-732-1225 in Ocala. Alligators over 4 feet: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Osceola is in FWC's Northeast Region: 352-732-1225 in Ocala. Alligators over 4 feet: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Choose the animal to read the signs, the Florida rules for it and how we handle it.",
   faqs: [

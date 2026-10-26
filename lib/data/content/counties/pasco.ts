@@ -51,7 +51,7 @@ export const pasco = countyPage({
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. Emergencies from 5 pm to 8 am: (727) 847-8102, option 7, for loose biting animals and badly injured stray pets.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4, to report a bite or scratch, as DOH-Pasco asked in its July 2026 rabies advisory.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("For a bear problem, FWC's Southwest Region in Lakeland: 863-648-3200. For a nuisance alligator, the statewide hotline: 866-392-4286 (866-FWC-GATOR).") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("For a bear problem, FWC's Southwest Region in Lakeland: 863-648-3200. For a nuisance alligator, the statewide hotline: 866-392-4286 (866-FWC-GATOR).") },
   ],
   servicesIntro: "All nine services are available across Pasco, coast to country. Tap an animal for the details.",
   faqs: [

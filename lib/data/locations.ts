@@ -1179,7 +1179,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Rodent Pest Control",
+        "text": "Rodent Removal",
         "marks": [
          "strong"
         ]
@@ -2822,7 +2822,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Instead of exterminating bees, we carefully relocate them, preserving these essential pollinators.",
+        "text": " We remove the colony and its comb from walls, soffits and sheds.",
         "marks": []
        }
       ],
@@ -5779,7 +5779,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we understand the challenges that come with unwanted pests. We specialize in professional rat and wildlife removal services, serving both residential and commercial properties throughout Sarasota, Florida. With our team of highly trained wildlife control experts, we bring years of pest control experience and expertise in safely and efficiently removing various types of rodents and wild animals.",
+        "text": "At Pro Wildlife Removal, we understand the challenges that come with unwanted pests. We specialize in professional rat and wildlife removal services, serving both residential and commercial properties throughout Sarasota, Florida. With our team of highly trained wildlife control experts, we bring years of wildlife removal experience and expertise in safely and efficiently removing various types of rodents and wild animals.",
         "marks": []
        }
       ],
@@ -5865,7 +5865,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Your wildlife removal experience begins with an initial phone consultation. Contact us, and we’ll discuss your specific pest control issue and your concerns. This conversation helps us understand the nature of your problem and schedule an on-site assessment at your convenience.",
+        "text": "Your wildlife removal experience begins with an initial phone consultation. Contact us, and we’ll discuss your specific wildlife issue and your concerns. This conversation helps us understand the nature of your problem and schedule an on-site assessment at your convenience.",
         "marks": []
        }
       ],

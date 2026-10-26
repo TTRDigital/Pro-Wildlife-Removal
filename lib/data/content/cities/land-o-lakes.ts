@@ -48,7 +48,7 @@ export const landOLakes = countyPage({
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212, on Dogpatch Lane in Land O' Lakes. After 5 pm, (727) 847-8102, option 7, for qualifying emergencies such as a loose animal that has bitten someone.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("Report bites to the health department in Pasco at 352-521-1450, option 4.") },
-    { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: report conflicts to the FWC Southwest Region office at 863-648-3200.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: report conflicts to the FWC Southwest Region office at 863-648-3200.") },
   ],
   servicesIntro: "We offer every service in Land O' Lakes. Tap an animal to learn how we handle it.",
   servicesHeading: "Animals we remove in Land O' Lakes",

@@ -46,7 +46,7 @@ export const pinellas = countyPage({
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4. Stray pets, animals that threaten public safety, and pickup help for sick or injured wildlife.") },
     { icon: "phone", title: "Animal bites: DOH-Pinellas", text: p("727-824-6932. The health department works with Animal Services to evaluate animal bites and possible rabies exposures.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Bears: FWC's Southwest Region office in Lakeland, 863-648-3200. Alligators 4 feet or longer that threaten people, pets or property: 866-FWC-GATOR (866-392-4286).") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Bears: FWC's Southwest Region office in Lakeland, 863-648-3200. Alligators 4 feet or longer that threaten people, pets or property: 866-FWC-GATOR (866-392-4286).") },
   ],
   servicesIntro: "From St. Pete to Tarpon Springs, every service below is available in Pinellas. Pick the animal for the signs, the Florida rules and how we handle it.",
   faqs: [

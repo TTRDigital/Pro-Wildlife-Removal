@@ -42,7 +42,7 @@ export const hernando = countyPage({
   contacts: [
     { icon: "users", title: "HCSO Animal Services", text: p("352-796-5062. The Hernando County Sheriff's Office runs Animal Services in Brooksville.") },
     { icon: "phone", title: "Animal bites: DOH-Hernando", text: p("352-540-6812 to report an animal bite or scratch, its Environmental Public Health line on the rabies page and in the 2025 and 2026 alerts.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Call FWC's Southwest Region office in Lakeland, 863-648-3200, about bears, and 866-FWC-GATOR about nuisance alligators.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Call FWC's Southwest Region office in Lakeland, 863-648-3200, about bears, and 866-FWC-GATOR about nuisance alligators.") },
   ],
   servicesIntro: "Every service is available in Hernando. Choose the animal to see how we handle it.",
   faqs: [

@@ -64,7 +64,7 @@ export const hillsborough = countyPage({
   contacts: [
     { icon: "users", title: "Hillsborough County Animal Control", text: p("(813) 744-5660. Part of Code Enforcement: sick or injured stray pets, animal bite investigations, dangerous dogs and neglect, including in Tampa, Temple Terrace and Plant City.") },
     { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("813-307-8059, Environmental Public Health, to report an animal bite.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office, 863-648-3200, takes bear conflicts. Alligators go to 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("FWC's Southwest Region office, 863-648-3200, takes bear conflicts. Alligators go to 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available across Hillsborough. Choose the animal to read about the signs and how we handle it.",
   faqs: [

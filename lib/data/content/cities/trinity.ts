@@ -46,7 +46,7 @@ export const trinity = countyPage({
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("Call 813-929-1212 for pets and strays. The shelter is in Land O' Lakes.") },
     { icon: "phone", title: "Bites and scratches: DOH-Pasco", text: p("If a wild or stray animal bites or scratches someone in Trinity, get medical care, then report it to DOH-Pasco: 352-521-1450, option 4.") },
-    { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligator hotline, 866-FWC-GATOR. FWC's Southwest Region office takes bear calls: 863-648-3200.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Nuisance alligator hotline, 866-FWC-GATOR. FWC's Southwest Region office takes bear calls: 863-648-3200.") },
   ],
   servicesIntro: "Every service below is available in Trinity, from rodent removal in the attic to a critter under the deck. Pick an animal to see how we handle it.",
   servicesHeading: "Animals we remove in Trinity",

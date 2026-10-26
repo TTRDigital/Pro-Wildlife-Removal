@@ -48,7 +48,7 @@ export const newPortRichey = countyPage({
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212, Land O' Lakes. Emergencies outside office hours: (727) 847-8102, option 7. The city's FAQ says Pasco County handles all animal control concerns.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4, the reporting line DOH-Pasco gives in its 2026 rabies advisory.") },
-    { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: FWC Southwest Region office, 863-648-3200.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: FWC Southwest Region office, 863-648-3200.") },
   ],
   servicesIntro: "Every service is available in New Port Richey. Pick an animal to see how we deal with it.",
   servicesHeading: "Animals we remove in New Port Richey",

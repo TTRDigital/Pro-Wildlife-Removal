@@ -46,7 +46,7 @@ export const palmHarbor = countyPage({
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4, at 12450 Ulmerton Road in Largo. Strays, and help with sick or injured wildlife.") },
     { icon: "home", title: "Garbage service", text: p("Unincorporated Palm Harbor has no county garbage pickup. Pinellas County says property owners choose their own hauling company.") },
-    { icon: "map-pin", title: "Bears, alligators and tortoises: FWC", text: p("Wildlife Alert 888-404-3922 for bears and injured sea life. Nuisance alligators 866-392-4286. Sick or injured gopher tortoises 850-921-1030 on weekdays.") },
+    { icon: "map-pin", title: "Bears and tortoises: FWC", text: p("Wildlife Alert 888-404-3922 for bears and injured sea life. Nuisance alligators 866-392-4286. Sick or injured gopher tortoises 850-921-1030 on weekdays.") },
   ],
   servicesIntro: "We handle every animal below in Palm Harbor, bees in the attic and snakes in the garage included. Choose one for the details.",
   servicesHeading: "Animals we remove in Palm Harbor",

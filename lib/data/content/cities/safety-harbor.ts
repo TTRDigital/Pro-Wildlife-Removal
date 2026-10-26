@@ -18,7 +18,7 @@ export const safetyHarbor = countyPage({
   answerHeading: "Who handles wildlife in Safety Harbor?",
   answer:
     "Safety Harbor's own Public Works picks up dead animals from city rights-of-way, and FWC handles nuisance alligators. Animals living in your attic, walls or crawl space are a job for a private company. Pro Wildlife Removal works across Safety Harbor. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City picks up road kill", "FWC handles alligators"],
+  points: ["Call (727) 594-7705", "City picks up road kill", "Strays: Humane Society"],
   townsHeading: "Safety Harbor and nearby",
   townsIntro: "Safety Harbor has about 16,800 residents, on the northwest edge of Old Tampa Bay.",
   towns: [
@@ -47,7 +47,7 @@ export const safetyHarbor = countyPage({
   contacts: [
     { icon: "home", title: "Dead animal on a city road", text: p("Safety Harbor Public Works, 727-724-1550, picks up dead animals on city rights-of-way.") },
     { icon: "users", title: "Strays and injured wildlife", text: p("The city's FAQ lists the Humane Society of North Pinellas, 727-797-7722, for stray pickup. For sick or injured wildlife, Pinellas County Animal Services offers pickup and transport help: (727) 582-2600, option 4.") },
-    { icon: "map-pin", title: "Alligators: FWC", text: p("Nuisance Alligator Hotline, 866-392-4286. The city notes FWC is the only agency in Florida that captures alligators, and that it responds to ones at least 4 feet long.") },
+    { icon: "map-pin", title: "State wildlife matters: FWC", text: p("Nuisance Alligator Hotline, 866-392-4286. The city notes FWC is the only agency in Florida that captures alligators, and that it responds to ones at least 4 feet long.") },
   ],
   servicesIntro: "Every service is available in Safety Harbor. Pick an animal to learn how we handle it.",
   servicesHeading: "Animals we remove in Safety Harbor",

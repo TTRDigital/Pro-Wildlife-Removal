@@ -44,7 +44,7 @@ export const citrus = countyPage({
   contacts: [
     { icon: "users", title: "CCSO Animal Control", text: p("352-249-2790 (Sheriff's dispatch) for bites, strays and other domestic animal calls. Its page says nuisance wildlife must be referred to a nuisance trapper.") },
     { icon: "phone", title: "Animal bites: DOH-Citrus", text: p("352-527-0068, the number DOH-Citrus gives for reporting bites in its rabies alerts.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Citrus is in FWC's North Central Region: 386-758-0525 in Lake City for bears. Alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Citrus is in FWC's North Central Region: 386-758-0525 in Lake City for bears. Alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available in Citrus County. Choose the animal to see the signs and how we handle it.",
   faqs: [
