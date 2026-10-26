@@ -34,6 +34,17 @@ export function RatingChip({ settings, className = "", light = false }: { settin
 // No crew photo with face masks (Kia, Oct 26).
 const teamPhotos: Img[] = [images.certifiedWildlifeRemovalExpertsInTampaFl, images.prowildlifeRemovalAgentHoldingAnIguanaa];
 
+/*
+ * Files that are the same shot as a team photo (other crops or exports of the same picture),
+ * so a page whose own photo is one of them does not show that scene twice in its slideshow.
+ */
+const sameShot: Record<string, string> = {
+  "/images/photos/image-1-2.png": images.certifiedWildlifeRemovalExpertsInTampaFl.src,
+  "/images/photos/prowildliferemoval-banner-image.png": images.certifiedWildlifeRemovalExpertsInTampaFl.src,
+  "/images/photos/image-1.jpg": images.prowildlifeRemovalAgentHoldingAnIguanaa.src,
+};
+const shot = (img?: Img) => (img ? (sameShot[img.src] ?? img.src) : "");
+
 /** From the client-approved Google Ads landing pages. */
 export const perks = ["Same-Day Service", "Free Inspection"];
 
@@ -43,7 +54,7 @@ export const perks = ["Same-Day Service", "Free Inspection"];
  * The photos on the right cross-fade every few seconds (below the copy on phones).
  */
 export function PageHero({ hero, crumbs, ctas, settings }: { hero: Hero; crumbs?: Crumb[]; ctas: Cta[]; settings: SiteSettings }) {
-  const slides = [hero.image, ...teamPhotos].filter((x, k, all): x is Img => Boolean(x) && all.findIndex((y) => y?.src === x?.src) === k).slice(0, 4);
+  const slides = [hero.image, ...teamPhotos].filter((x, k, all): x is Img => Boolean(x) && all.findIndex((y) => shot(y) === shot(x)) === k).slice(0, 4);
   return (
     <section className="relative overflow-hidden bg-tint">
       <div aria-hidden="true" className="pointer-events-none absolute -top-40 -right-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(closest-side,rgb(30_155_240/0.18),transparent)]" />
