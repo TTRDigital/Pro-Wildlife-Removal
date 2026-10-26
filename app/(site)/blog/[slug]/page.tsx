@@ -101,9 +101,9 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
           </div>
         </header>
         <div className="wrap grid gap-10 py-12 md:py-16 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-14">
-          <RichText value={post.body} article className="min-w-0 max-w-[760px] text-[1.0625rem] leading-[1.8] md:text-lg [&_h2]:scroll-mt-28" />
+          <RichText value={post.body} article className="min-w-0 max-w-[760px] text-[1.0625rem] leading-[1.8] md:text-lg [&_h2]:scroll-mt-36" />
           <aside className="hidden lg:block">
-            <div className="sticky top-32 rounded-[22px] border border-line bg-white p-6 text-center shadow-[0_20px_50px_-30px_rgb(14_42_71/0.4)]">
+            <div className="sticky top-36 rounded-[22px] border border-line bg-white p-6 text-center shadow-[0_20px_50px_-30px_rgb(14_42_71/0.4)]">
               <p className="text-[0.95rem]">{settings.serviceAreaText}</p>
               <Button href={settings.phoneHref} className="mt-5 w-full">
                 Call {settings.phone}
