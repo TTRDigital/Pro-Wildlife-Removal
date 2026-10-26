@@ -69,7 +69,7 @@ export function AreasSection({ section: s }: { section: Areas }) {
     );
   const all = s.groups.flatMap((g) => g.items);
   const rows =
-    all.length >= 10
+    all.length >= 10 && all.every((it) => it.label.split(/\s+/).length <= 4)
       ? [all.filter((_, i) => i % 2 === 0), all.filter((_, i) => i % 2 === 1)]
       : [];
   return (
