@@ -4502,7 +4502,7 @@ const migratedLocations: Location[] = [
    }
   ],
   "seo": {
-   "title": "Expert Wildlife Removal in Orlando FL | Pro Wildlife Removal",
+   "title": "Wildlife Removal in Orlando, FL | Pro Wildlife Removal",
    "description": "Pro Wildlife Removal provides professional wildlife removal in Orlando, FL. Remove nuisance animals from your home or business with expert help. Call us today!"
   },
   "order": 20
@@ -5744,7 +5744,7 @@ const migratedLocations: Location[] = [
    }
   ],
   "seo": {
-   "title": "Expert Wildlife Removal in Pine Ridge, FL | Pro Wildlife",
+   "title": "Wildlife Removal in Pine Ridge, FL | Pro Wildlife Removal",
    "description": "Get expert wildlife removal in Pine Ridge, FL with Pro Wildlife Removal. Our professionals ensure safe, proven solutions for your wildlife issues! Contact us today!"
   },
   "order": 22
