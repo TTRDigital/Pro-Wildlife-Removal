@@ -17,7 +17,7 @@ export const howFastDoRatsReproduce: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** fast. Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young in each, and those young become sexually active 2 to 3 months after birth. That's why a few rats in the attic can become a lot of rats within one season. Call (727) 594-7705 for an inspection.",
+      `**The short answer:** fast. Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young in each, and those young become sexually active 2 to 3 months after birth ([Florida DOH](${DOH})). That's how a few attic rats become many in one season. Call (727) 594-7705 for an inspection.`,
     ),
     h3("The numbers, by source"),
     table(
@@ -28,11 +28,11 @@ export const howFastDoRatsReproduce: Post = {
       ["Norway rat", "Not stated", "4 to 6 litters a year; can wean 20 or more young a year"],
     ),
     p(
-      `The two agencies give different ranges, and that's normal: how often a rat breeds depends on food, shelter and weather. Florida DOH's figures are the upper end for roof rats ([Florida DOH](${DOH})), and UC IPM's are averages ([UC IPM](${UC})).`,
+      `The two agencies give different figures: Florida DOH gives the upper end for roof rats ([Florida DOH](${DOH})), and UC IPM gives averages ([UC IPM](${UC})).`,
     ),
     h3("Why it matters in a Florida attic"),
     p(
-      `Roof rats, the rats most Florida homeowners find overhead, generally prefer high places like attics, Florida DOH says, while Norway rats burrow under buildings and slabs. A warm attic with insulation to nest in and fruit trees or pet food nearby gives a female everything she needs to raise one litter after another. More on telling the two species apart in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).`,
+      `Roof rats generally like high places such as attics, Florida DOH says ([Florida DOH](${DOH})), while Norway rats burrow to nest under buildings and other structures. A warm attic with insulation to nest in and fruit trees or pet food nearby gives a female everything she needs to raise one litter after another. More on telling the two species apart in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).`,
     ),
     h3("Signs they're breeding"),
     ul(
@@ -44,26 +44,26 @@ export const howFastDoRatsReproduce: Post = {
     p("Our guides to [signs your house has rats](/blog/signs-that-your-house-has-rats/) and [rats in the attic](/blog/rats-in-attic-signs/) go into more detail."),
     h3("What to do about it"),
     p(
-      `Because young rats grow up and breed so quickly, catching a few isn't enough if the way in is still open. UF/IFAS Extension says rodent-proofing has to block every possible entry point to work, and rats can get through gaps of about half an inch ([UF/IFAS](${SANTAROSA})). The order that matches that advice: seal the gaps, then trap the rats left inside, then clean up the nesting and droppings.`,
+      `Because young rats grow up and breed so quickly, catching a few isn't enough if the way in is still open. UF/IFAS Extension says rodent-proofing has to block every possible entry point to work, and rats can get through gaps of about half an inch ([UF/IFAS](${SANTAROSA})). UF/IFAS lists rodent-proofing first, then sanitation, then trapping ([UF/IFAS](${SANTAROSA})).`,
     ),
     p("See [rat removal](/services/rat-removal/), [rats in the attic](/services/rats-in-attic/) and [how to catch a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/), or call (727) 594-7705."),
   ),
   faq: [
     faq(
       "How many babies can a rat have in a year?",
-      "Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young each. University of California experts put the average at 3 to 5 litters of up to 8, so real numbers vary with food and shelter.",
+      `Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young each ([Florida DOH](${DOH})). UC IPM puts the roof rat average at 3 to 5 litters of up to 8 ([UC IPM](${UC})).`,
     ),
     faq(
       "How old are rats when they start breeding?",
-      "Florida DOH says roof rats become sexually active 2 to 3 months after birth, so young born in the attic can be breeding within the same season.",
+      `Florida DOH says roof rats become sexually active 2 to 3 months after birth ([Florida DOH](${DOH})), so young born in the attic can be breeding within the same season.`,
     ),
     faq(
       "Can one rat turn into an infestation?",
-      "One pregnant female can, if she has food, shelter and a way in. That's why it pays to seal the entry points and trap early instead of waiting to see if more appear.",
+      `It can grow quickly: Florida DOH says young roof rats can breed 2 to 3 months after birth ([Florida DOH](${DOH})). That's why it pays to seal entry points and trap early.`,
     ),
     faq(
       "Will trapping alone stop rats breeding?",
-      "Not if the gaps they use stay open. UF/IFAS Extension says every possible entry point has to be blocked, then the rats inside can be trapped out.",
+      `Not if the gaps they use stay open. UF/IFAS Extension says rodent-proofing must block all possible entry points, followed by sanitation and then trapping ([UF/IFAS](${SANTAROSA})).`,
     ),
   ],
   seo: {
@@ -75,7 +75,7 @@ export const howFastDoRatsReproduce: Post = {
     { title: "Florida DOH Gadsden: Rodent control (roof rats up to 8 litters a year of 6-8; sexually active 2-3 months after birth; roof rats like high places such as attics; Norway rats burrow under buildings and slabs)", url: DOH },
     { title: "University of California IPM: Rats (roof rats average 3 to 5 litters, up to 8 young each; Norway rats 4 to 6 litters a year, can wean 20 or more young annually)", url: UC },
     { title: "CDC: Controlling wild rodent infestations (droppings present after cleaning indicate an active rodent population)", url: CDC },
-    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (½-inch gaps; block all possible entry points)", url: SANTAROSA },
+    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (½-inch gaps; block all possible entry points; rodent-proofing, then sanitation, then trapping)", url: SANTAROSA },
   ],
   clientQuestions: [],
 };

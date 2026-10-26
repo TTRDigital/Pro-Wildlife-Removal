@@ -21,13 +21,13 @@ export const homeownersInsuranceRatBatDamage: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** usually not. The national insurance regulators' group says damage from rats and other infestations isn't typically covered, and the standard policy form lists vermin and rodents as an exclusion. But policies differ, so read yours and ask your insurer before you assume anything. Call (727) 594-7705 to have the animals removed.",
+      "**The short answer:** usually not. The national insurance regulators' group says damage from rats and other infestations isn't typically covered, and a widely used sample policy form (ISO's HO-3) lists vermin and rodents as an exclusion. But policies differ, so read yours and ask your insurer before you assume anything. Call (727) 594-7705 to have the animals removed.",
     ),
     h3("What the consumer guides say"),
     ul(
       `**NAIC,** the national association of state insurance regulators: damage caused by termites, rats or other infestations is "not typically covered" ([NAIC](${NAIC})).`,
       `**The Insurance Information Institute:** a homeowners policy won't cover damage from lack of maintenance or infestation by termites or other pests, but policies vary, so check yours ([III](${III})).`,
-      `**The standard policy form:** the sample HO-3 form the III publishes lists "birds, vermin, rodents, or insects" among the causes of loss it doesn't insure ([sample HO-3](${HO3})). Your own policy may be worded differently.`,
+      `**A sample standard policy form:** the 1999 ISO HO-3 form the III publishes lists "birds, vermin, rodents, or insects" among the causes of loss to the house and other structures it doesn't insure ([sample HO-3](${HO3})). Your own policy may be worded differently.`,
     ),
     h3("Why it's usually excluded"),
     p(
@@ -38,35 +38,35 @@ export const homeownersInsuranceRatBatDamage: Post = {
       "**The exclusions section,** for words like vermin, rodents, pests, insects, animals or birds.",
       "**Ensuing loss or resulting damage language,** which some policies use for damage that follows an excluded cause. How it applies, if at all, is a question for your insurer.",
       "**Endorsements** you may have added, and whether your policy is an open-peril (HO-3) or named-peril form.",
-      `**Your insurer's answer in writing.** DFS's consumer helpline, 1-877-693-5236, can help if you're unsure what your policy means ([Florida DFS](${TOOLKIT})).`,
+      `**Your insurer's answer in writing.** If you have questions about how your claim is handled, DFS's toll-free Insurance Consumer Helpline is 1-877-693-5236 ([Florida DFS](${TOOLKIT})).`,
     ),
     h3("If you do file a claim in Florida"),
     ul(
-      `**Report it on time.** Florida law bars a property claim unless notice is given to the insurer within 1 year after the date of loss ([Fla. Stat. 627.70132](${NOTICE})).`,
-      `**Protect the house.** DFS says you must make reasonable emergency repairs to prevent further damage, take photos, and keep every receipt ([Florida DFS](${TOOLKIT})).`,
-      `**Know the timeline.** Florida's Homeowner Claims Bill of Rights gives you the right to an acknowledgment within 7 days and, within 60 days, payment or a denial, plus free mediation through DFS if you dispute the result ([Fla. Stat. 627.7142](${RIGHTS})).`,
+      `**Report it on time.** Florida law bars a new or reopened property claim unless notice is given under the policy terms within 1 year after the date of loss, and a supplemental claim within 18 months ([Fla. Stat. 627.70132](${NOTICE})).`,
+      `**Protect the house.** DFS says you must make reasonable emergency repairs to prevent further damage, take photos of any damaged property, and save all receipts for emergency repairs ([Florida DFS](${TOOLKIT})). Your policy lists your other duties after a loss.`,
+      `**Know the timeline.** Florida's Homeowner Claims Bill of Rights gives you the right to an acknowledgment within 7 days and, within 60 days, full payment, payment of the undisputed portion, or a denial. It also gives free DFS mediation of a disputed claim under most circumstances, subject to certain restrictions ([Fla. Stat. 627.7142](${RIGHTS})).`,
     ),
     h3("What to do either way"),
     p(
-      "Whatever your policy says, the animals have to go and the openings have to be closed, and that part is on the homeowner. Photograph the damage, the droppings and the entry points before any work starts, and keep the removal paperwork. For the work itself, see [rat removal](/services/rat-removal/), [bat removal](/services/bat-removal/) and our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/). For bats, check [Florida's bat laws](/blog/florida-bat-laws-homeowner-guide/) first: exclusion without an FWC permit is only allowed from August 15 to April 15.",
+      `Whatever your policy says, the animals have to go and the openings have to be closed, and that part is on the homeowner ([NAIC](${NAIC_GUIDE})). Photograph the damage, the droppings and the entry points before any work starts, and keep the removal paperwork. For the work itself, see [rat removal](/services/rat-removal/), [bat removal](/services/bat-removal/) and our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/). For bats, check [Florida's bat laws](/blog/florida-bat-laws-homeowner-guide/) first: exclusion without an FWC permit is only allowed from August 15 to April 15.`,
     ),
   ),
   faq: [
     faq(
       "Does homeowners insurance pay for bat removal?",
-      "No official consumer guide says it does, and standard policies exclude damage from vermin and pests. Some policies differ, so ask your insurer about yours in writing before the work starts.",
+      "No official consumer guide says it does. NAIC says damage from rats and other infestations isn't typically covered, and a sample standard policy excludes vermin. Policies differ, so ask your insurer in writing before the work starts.",
     ),
     faq(
       "Will insurance cover wiring that rats chewed?",
-      "Don't count on it. The standard policy form excludes damage caused by rodents. Whether anything that follows from it is covered depends on your policy's wording, so ask your insurer.",
+      "Don't count on it. A sample standard policy form excludes damage caused by rodents. Whether anything that follows from it is covered depends on your policy's wording, so ask your insurer.",
     ),
     faq(
       "How long do I have to file a claim in Florida?",
-      "Florida law bars a property insurance claim unless the insurer gets notice within 1 year after the date of loss. Report it as soon as you find the damage.",
+      "Florida law bars a property insurance claim unless the insurer gets notice within 1 year after the date of loss. Supplemental claims have 18 months. Report it as soon as you find the damage.",
     ),
     faq(
       "Who can I ask about my policy?",
-      "Your agent or insurer first. Florida's Department of Financial Services runs a free Insurance Consumer Helpline at 1-877-693-5236 and offers free mediation for disputed claims.",
+      "Your agent or insurer first. Florida's Department of Financial Services runs a toll-free Insurance Consumer Helpline at 1-877-693-5236, and offers free mediation for many disputed claims, subject to certain restrictions.",
     ),
   ],
   seo: {
@@ -81,8 +81,8 @@ export const homeownersInsuranceRatBatDamage: Post = {
     { title: "Insurance Information Institute: Sample homeowners policy, ISO HO 00 03 10 00 (©1999; excludes loss caused by birds, vermin, rodents or insects; ensuing-loss clause)", url: HO3 },
     { title: "Florida DFS: Homeowners insurance overview (policies differ; read your own contract; policies don't cover everything, read the exclusions)", url: DFS },
     { title: "Florida DFS: Homeowners' insurance, a toolkit for consumers (reasonable emergency repairs, photos, receipts; file in a timely manner; helpline 1-877-693-5236)", url: TOOLKIT },
-    { title: "Florida Statutes 627.70132 (notice of property claim within 1 year after the date of loss)", url: NOTICE },
-    { title: "Florida Statutes 627.7142, Homeowner Claims Bill of Rights (acknowledgment within 7 days; payment or denial within 60 days; free DFS mediation)", url: RIGHTS },
+    { title: "Florida Statutes 627.70132 (new or reopened claim: notice within 1 year after the date of loss; supplemental claim: within 18 months)", url: NOTICE },
+    { title: "Florida Statutes 627.7142, Homeowner Claims Bill of Rights (acknowledgment within 7 days; within 60 days full payment, payment of the undisputed portion, or denial; free DFS mediation under most circumstances, subject to certain restrictions)", url: RIGHTS },
   ],
   clientQuestions: ["Do you provide written inspection reports or photos customers can give their insurer?"],
 };

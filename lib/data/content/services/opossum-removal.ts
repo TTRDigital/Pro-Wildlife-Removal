@@ -156,7 +156,7 @@ export const opossumRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Opossum removal in 7 counties",
+      heading: "Opossum removal in 8 counties",
       intro: p("Opossums live in cities, suburbs and farm country alike. We cover Central Florida and the counties around it."),
       groups: countyGroups,
     },
