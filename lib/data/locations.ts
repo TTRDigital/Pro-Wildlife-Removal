@@ -20,7 +20,6 @@ import { trinity } from "./content/cities/trinity.ts";
 import { odessa } from "./content/cities/odessa.ts";
 import { holiday } from "./content/cities/holiday.ts";
 import { carrollwood } from "./content/cities/carrollwood.ts";
-import { townNCountry } from "./content/cities/town-n-country.ts";
 import { dadeCity } from "./content/cities/dade-city.ts";
 import { dunedin } from "./content/cities/dunedin.ts";
 import { safetyHarbor } from "./content/cities/safety-harbor.ts";
@@ -2335,9 +2334,8 @@ export const fallbackLocations: Location[] = [
  dunedin,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/holiday.ts
  holiday,
- // New city pages (Owen, Oct 2026): lib/data/content/cities/carrollwood.ts, town-n-country.ts
+ // New city page (Owen, Oct 2026): lib/data/content/cities/carrollwood.ts
  carrollwood,
- townNCountry,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/hudson.ts
  hudson,
  {

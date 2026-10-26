@@ -31,7 +31,7 @@ export const countyGroups: AreasSection["groups"] = [
       { label: "Westchase" },
       { label: "Carrollwood", href: "/about-us/service-area/wildlife-removal-carrollwood-fl/" },
       { label: "Citrus Park" },
-      { label: "Town 'n' Country", href: "/about-us/service-area/wildlife-removal-town-n-country-fl/" },
+      { label: "Town 'n' Country" },
     ],
   },
   {
