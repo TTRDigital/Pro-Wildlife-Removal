@@ -24,6 +24,9 @@ import { opossumRemovalStPetersburg } from "./content/service-places/opossum-rem
 import { armadilloRemovalStPetersburg } from "./content/service-places/armadillo-removal/st-petersburg-fl.ts";
 import { beeRemovalStPetersburg } from "./content/service-places/bee-removal/st-petersburg-fl.ts";
 import { deadAnimalRemovalStPetersburg } from "./content/service-places/dead-animal-removal/st-petersburg-fl.ts";
+import { raccoonRemovalDunedin } from "./content/service-places/raccoon-removal/dunedin-fl.ts";
+import { snakeRemovalDunedin } from "./content/service-places/snake-removal/dunedin-fl.ts";
+import { armadilloRemovalDunedin } from "./content/service-places/armadillo-removal/dunedin-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -61,6 +64,10 @@ export const fallbackServicePlaces: ServicePlace[] = [
   armadilloRemovalStPetersburg,
   beeRemovalStPetersburg,
   deadAnimalRemovalStPetersburg,
+  // Dunedin (Rhea)
+  raccoonRemovalDunedin,
+  snakeRemovalDunedin,
+  armadilloRemovalDunedin,
 ];
 
 /**
@@ -79,4 +86,5 @@ export const existingPlacePages: PlacePage[] = [
   { service: "rat-removal", placeName: "St. Petersburg", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-services-st-petersburg-fl", location: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl" },
   // Clearwater (Rhea)
   // St. Petersburg (Rhea)
+  // Dunedin (Rhea)
 ];
