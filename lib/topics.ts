@@ -20,6 +20,14 @@ export const topics: {
     test: /raccoon/,
     images: [
       images.raccoonRemoval,
+      images.proWildLifeRemovalTamparemediationCompany1,
+      images.raccoonOnRoof,
+      images.raccoonUnderRoofTiles,
+      images.babyRaccoonRescue,
+      images.babyRaccoonsInTowel,
+      images.raccoonLiveTrapGravel,
+      images.raccoonTrapDriveway,
+      images.raccoonTrapNight,
       images.img1RaccoonRemovalTampaServices,
       images.areRaccoonsInvadingYourHome,
       images.areYouATampaHomeownerLookOutForPropertyDamageCau,
@@ -34,6 +42,8 @@ export const topics: {
     test: /squirrel/,
     images: [
       images.squirrelRemoval2,
+      images.proWildlifeRemovalIsAtYourService,
+      images.squirrelOnTileRoof,
       images.squirrelRemoval3,
       images.squirrelRemoval644x6521,
     ],
@@ -44,6 +54,12 @@ export const topics: {
     test: /opossum|possum/,
     images: [
       images.opossumRemoval4,
+      images.opossumHeldByTail,
+      images.opossumInTrap,
+      images.opossumTrapUnderDeck,
+      images.twoOpossumsTrapped,
+      images.opossumTrapLawn,
+      images.opossumTrapMulch,
       images.img1TrustedLeaderInOpossumRemovalInTampaFl,
       images.exclusion2,
       images.gmb3000x200023,
@@ -58,6 +74,10 @@ export const topics: {
     test: /snake/,
     images: [
       images.snakeRemoval3,
+      images.snakeOnLattice,
+      images.coralSnakeFound,
+      images.snakeOnCatchStick,
+      images.snakeHeldGlove,
       images.alwaysCallOurSnakeRemovalExpertsInTampaFloridaFo,
       images.callTheCertifiedAndLicensedSnakeRemovalTampaExpe,
       images.coralSnake,
@@ -74,6 +94,9 @@ export const topics: {
     test: /armadillo/,
     images: [
       images.armadilloRemoval2,
+      images.armadilloTrapGrass,
+      images.armadilloTrapYard,
+      images.armadilloBurrow,
       images.img1ArmadilloRemovalTampaServices,
       images.armadilloTrappers,
       images.needArmadilloRemovalTampaServicesForYourHomeOrBu,
@@ -86,6 +109,10 @@ export const topics: {
     test: /\bbees?\b|honey|hive|wasp|hornet/,
     images: [
       images.beeRemoval,
+      images.wildlifeRemovalOrlandoFlImage2,
+      images.beeSwarmBlocks,
+      images.beeColonyWall,
+      images.honeycombRemoved,
       images.beeRemoval2,
       images.beeRemovalTampaLocalsTrust,
       images.expertInRemovingAllTypesOfTampasStingingInsects,
@@ -115,6 +142,11 @@ export const topics: {
     test: /\brats?\b|rodent|\bmice\b|\bmouse\b/,
     images: [
       images.ratRemoval2,
+      images.ratsInAttic,
+      images.ratUnderAtticDuct,
+      images.ratCaughtTruck,
+      images.ratDroppingsAttic,
+      images.rodentDroppingsAtticBoard,
       images.brooksvilleRatImage,
       images.imageInfestation,
       images.imageRatCage,
@@ -146,4 +178,24 @@ export function topicImage(post: Pick<Post, "title" | "slug">) {
 export function pageAnimal(path: string) {
   const m = path.match(/^\/services\/(rat|bat|raccoon|squirrel|opossum|snake|armadillo|bee)s?-(?:removal|in-attic)\b/);
   return m ? topics.find((t) => t.key === m[1]) : undefined;
+}
+
+/**
+ * An animal page's sections with that animal in their photos (Kia): a photo beside the copy
+ * that is not one of the animal's (a house, the truck, an iguana) or repeats the hero becomes
+ * the next of its photos the page does not show yet, and a copy-only section gets one, on
+ * alternating sides. Words are untouched.
+ */
+export function animalSections<S extends { _type: string; heading?: string; image?: Img; imageSide?: "left" | "right" }>(sections: S[], pool: Img[], hero: Img[]): S[] {
+  const ours = new Set(pool.map((p) => p.src));
+  const shown = new Set(hero.map((p) => p.src));
+  const spare = pool.filter((p) => !shown.has(p.src) && !sections.some((s) => s.image?.src === p.src));
+  let n = 0;
+  return sections.map((s) => {
+    if (s._type !== "splitSection" || n >= spare.length) return s;
+    if (s.image && ours.has(s.image.src) && !shown.has(s.image.src)) return s;
+    if (!s.image && !s.heading) return s;
+    const image = spare[n++];
+    return s.image ? { ...s, image } : { ...s, image, imageSide: n % 2 ? "right" : "left" };
+  });
 }

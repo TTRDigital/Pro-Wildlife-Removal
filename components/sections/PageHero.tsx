@@ -53,9 +53,15 @@ export const perks = ["Same-Day Service", "Free Inspection"];
  * button with "Same-Day Service" and "Free Inspection", and the Google rating.
  * The photos on the right cross-fade every few seconds (below the copy on phones).
  */
+/** The hero's photos: its own and the team's, or on an animal's page only that animal's (Kia). */
+export function heroSlides(hero: Hero, animal?: Img[]) {
+  const own = animal && hero.image && !animal.some((a) => a.src === hero.image?.src) ? undefined : hero.image;
+  return [own, ...(animal ?? teamPhotos)].filter((x, k, all): x is Img => Boolean(x) && all.findIndex((y) => shot(y) === shot(x)) === k).slice(0, 4);
+}
+
 export function PageHero({ hero, crumbs, ctas, settings, animal }: { hero: Hero; crumbs?: Crumb[]; ctas: Cta[]; settings: SiteSettings; animal?: Img[] }) {
   // An animal's service page shows only photos of that animal (Kia); other pages add the team photos.
-  const slides = [hero.image, ...(animal ?? teamPhotos)].filter((x, k, all): x is Img => Boolean(x) && all.findIndex((y) => shot(y) === shot(x)) === k).slice(0, 4);
+  const slides = heroSlides(hero, animal);
   return (
     <section className="relative overflow-hidden bg-tint">
       <div aria-hidden="true" className="pointer-events-none absolute -top-40 -right-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(closest-side,rgb(30_155_240/0.18),transparent)]" />

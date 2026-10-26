@@ -7,8 +7,8 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@/components/old/Classic";
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
-import { HomeHero, PageHero } from "./PageHero";
-import { pageAnimal } from "@/lib/topics";
+import { HomeHero, PageHero, heroSlides } from "./PageHero";
+import { animalSections, pageAnimal } from "@/lib/topics";
 import { MapSection, type MapPlace } from "./MapSection";
 import { CtaSection } from "./CtaSection";
 import { LazyBatCatch } from "@/components/ui/LazyBatCatch";
@@ -56,6 +56,9 @@ export async function PageView({
 }) {
   // Every page uses the new design now (Kia, Oct 26); the old ones stay only as code until they are removed.
   const design = "new" as PageContent["design"];
+  const animal = pageAnimal(path)?.images;
+  // An animal's page shows only that animal in its photos, none twice (Kia).
+  if (animal) page = { ...page, sections: animalSections(page.sections, animal, heroSlides(page.hero, animal)) };
   const ids = sectionIds(page.sections, ["top", "main"]);
   const parts = page.sections.flatMap((s, i) => {
     const name = sectionName(s);
@@ -75,7 +78,7 @@ export async function PageView({
         {path === "/" ? (
           <HomeHero hero={page.hero} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
         ) : (
-          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} animal={pageAnimal(path)?.images} />
+          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} animal={animal} />
         )}
         {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
         {map ? (
