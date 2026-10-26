@@ -178,7 +178,8 @@ export function topicImage(post: Pick<Post, "title" | "slug">, nth?: number) {
   // The client's own photos when it has some (Ben); stock only for an animal with none.
   const own = t.images.filter((i) => i.src.startsWith("/images/library/"));
   const pool = own.length ? own : t.images;
-  if (nth !== undefined) return pool[nth % pool.length];
+  // a numbered list runs through all its photos (the client's first) before any repeats
+  if (nth !== undefined) return t.images[nth % t.images.length];
   let h = 0;
   for (const c of post.slug) h = (h * 31 + c.charCodeAt(0)) >>> 0;
   return pool[h % pool.length];

@@ -56,7 +56,8 @@ export async function PageView({
 }) {
   // Every page uses the new design now (Kia, Oct 26); the old ones stay only as code until they are removed.
   const design = "new" as PageContent["design"];
-  const animal = pageAnimal(path)?.images;
+  const topic = pageAnimal(path);
+  const animal = topic?.images;
   // An animal's page shows only that animal in its photos, none twice (Kia).
   if (animal) page = { ...page, sections: animalSections(page.sections, animal, heroSlides(page.hero, animal)) };
   const ids = sectionIds(page.sections, ["top", "main"]);
@@ -78,7 +79,7 @@ export async function PageView({
         {path === "/" ? (
           <HomeHero hero={page.hero} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
         ) : (
-          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} animal={animal} />
+          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} animal={animal} animalKey={topic?.key} />
         )}
         {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
         {map ? (
