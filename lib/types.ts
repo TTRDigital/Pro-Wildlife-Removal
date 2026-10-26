@@ -68,6 +68,8 @@ export type Faq = { question: string; answer: Rich };
 
 type SectionBase = {
   _key: string;
+  /** The section's id for links (e.g. "rats" for /service-areas/pinellas-county/clearwater/#rats). Default: from its heading. */
+  anchor?: string;
   style?: SectionStyle;
   tone?: Tone;
   eyebrow?: string;

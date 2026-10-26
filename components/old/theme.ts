@@ -92,6 +92,7 @@ export function sectionIds(sections: Section[], reserved: string[] = []): string
   const used = new Set(reserved);
   return sections.map((s, i) => {
     const base =
+      ("anchor" in s && s.anchor) ||
       slugify(sectionName(s) ?? "")
         .slice(0, 60)
         .replace(/-+$/, "") || `section-${i + 1}`;
