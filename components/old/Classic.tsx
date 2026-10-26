@@ -427,7 +427,7 @@ function CtaBand({ s, id, bg, join, settings }: { s: CtaSection; id: string; bg:
   );
 }
 
-/** Call-only contact block: the client takes requests by phone, is open 24/7 and has no public street address. */
+/** Call-only contact block: the client takes requests by phone and has no public street address. No hours label (Kia, Oct 26, 2026). */
 function Contact({ s, id, bg, join, settings }: { s: ContactSection; id: string; bg: BgKey; join: boolean; settings: SiteSettings }) {
   const license = real(settings.license);
   return (
@@ -447,14 +447,6 @@ function Contact({ s, id, bg, join, settings }: { s: ContactSection; id: string;
               {settings.email}
             </a>
           </p>
-          <dl className="grid grid-cols-[auto_1fr] gap-x-4 font-semibold">
-            {settings.hours.map((h) => (
-              <div key={h.label} className="contents">
-                <dt>{h.label}:</dt>
-                <dd>{h.value}</dd>
-              </div>
-            ))}
-          </dl>
           {license ? <p className="text-base">{license}</p> : null}
           {settings.countyLines.length ? (
             <>
@@ -473,14 +465,9 @@ function Contact({ s, id, bg, join, settings }: { s: ContactSection; id: string;
           ) : null}
         </div>
         <div className="order-first bg-white p-6 text-center text-body sm:p-8">
-          <p className="font-old text-lg font-semibold uppercase text-old-navy">Call us, open 24/7</p>
+          <p className="font-old text-lg font-semibold uppercase text-old-navy">Call us</p>
           <PhoneButton cta={{ label: settings.phone.replace(/[()]/g, "").replace(" ", "-"), href: settings.phoneHref }} className="mt-5" />
-          {settings.hours.map((h) => (
-            <p key={h.label} className="mt-5 font-semibold text-old-navy">
-              {h.label} {h.value}
-            </p>
-          ))}
-          <p className="mt-2 text-[0.95rem]">{settings.serviceAreaText}</p>
+          <p className="mt-5 text-[0.95rem]">{settings.serviceAreaText}</p>
         </div>
       </div>
     </Band>

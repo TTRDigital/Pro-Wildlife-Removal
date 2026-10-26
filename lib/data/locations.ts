@@ -11922,23 +11922,6 @@ export const fallbackLocations: Location[] = [
         "markDefs": []
        }
       ]
-     },
-     {
-      "title": "What are Our Office Hours?",
-      "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "children": [
-         {
-          "_type": "span",
-          "text": "Open 24 hours a day, 7 days a week",
-          "marks": []
-         }
-        ],
-        "markDefs": []
-       }
-      ]
      }
     ],
     "style": {
@@ -32301,32 +32284,6 @@ export const fallbackLocations: Location[] = [
         ]
        }
       ]
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Office Hours",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Open 24 hours a day, 7 days a week",
-        "marks": []
-       }
-      ]
      }
     ],
     "image": images.dadeCityFlImage1,
@@ -40084,32 +40041,6 @@ export const fallbackLocations: Location[] = [
         "marks": [
          "l0"
         ]
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Office Hours",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Open 24 hours a day, 7 days a week",
-        "marks": []
        }
       ]
      }

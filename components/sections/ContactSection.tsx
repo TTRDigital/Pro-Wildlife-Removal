@@ -1,11 +1,11 @@
-import { Clock, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import type { ContactSection as Contact, SiteSettings } from "@/lib/types";
 import { real } from "@/lib/placeholders";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 /**
- * Call-only contact block (the client takes requests by phone, has no public street address and is open 24/7):
- * a big tap-to-call card with the hours and service area, beside the email, hours and county phone lines.
+ * Call-only contact block (the client takes requests by phone and has no public street address):
+ * a big tap-to-call card with the service area, beside the email. No hours label: the site just shows the number (Kia, Oct 26, 2026).
  */
 export function ContactSection({ section: s, settings }: { section: Contact; settings: SiteSettings }) {
   const license = real(settings.license);
@@ -32,19 +32,6 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
             {settings.email}
           </a>
         </li>
-        <li className="flex gap-3">
-          <span className="ico h-10 w-10">
-            <Clock className="h-5 w-5" strokeWidth={2} aria-hidden="true" />
-          </span>
-          <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 self-center">
-            {settings.hours.map((h) => (
-              <div key={h.label} className="contents">
-                <dt className="font-semibold text-navy">{h.label}</dt>
-                <dd>{h.value}</dd>
-              </div>
-            ))}
-          </dl>
-        </li>
       </ul>
       {license ? <p className="mt-5 text-sm text-meta">{license}</p> : null}
       {settings.countyLines.length ? (
@@ -69,7 +56,7 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
       <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />
       <div className="grid items-start gap-8 lg:grid-cols-2">
         <div className="card flex flex-col items-center p-8 text-center sm:p-10" data-reveal>
-          <p className="font-display text-sm font-semibold uppercase tracking-[1.5px] text-blue-deep">Call us, open 24/7</p>
+          <p className="font-display text-sm font-semibold uppercase tracking-[1.5px] text-blue-deep">Call us</p>
           <a
             href={settings.phoneHref}
             data-track="click_to_call"
@@ -78,11 +65,6 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
             <Phone className="h-8 w-8 flex-none" strokeWidth={2} aria-hidden="true" />
             {settings.phone}
           </a>
-          {settings.hours.map((h) => (
-            <p key={h.label} className="mt-2 font-semibold text-navy">
-              {h.label} {h.value}
-            </p>
-          ))}
           <p className="mt-3 max-w-[460px] text-[0.95rem]">{settings.serviceAreaText}</p>
         </div>
         {info}

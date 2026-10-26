@@ -23,16 +23,9 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
           </Link>
         </div>
         <div>
-          <h2 className="mb-5 font-old text-lg text-white">Hours of Operation</h2>
-          <ul className="grid gap-1 font-sans text-base">
-            {settings.hours.map((h) => (
-              <li key={h.label}>
-                {h.label}: {h.value}
-              </li>
-            ))}
-          </ul>
-          {/* No street address (the client's wish): the service area instead. */}
-          <p className="mt-4 font-sans text-sm leading-relaxed">{settings.serviceAreaText}</p>
+          {/* No street address and no hours label (the client's wishes): the service area instead. */}
+          <h2 className="mb-5 font-old text-lg text-white">Service Area</h2>
+          <p className="font-sans text-sm leading-relaxed">{settings.serviceAreaText}</p>
         </div>
         <nav aria-label="Services" className="sm:col-span-2 lg:col-span-1">
           <h2 className="mb-5 font-old text-lg text-white">Services</h2>
