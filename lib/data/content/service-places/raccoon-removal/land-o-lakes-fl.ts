@@ -36,7 +36,7 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
     { icon: "search", title: "Most of Pasco's rabid animals", text: p("From 2013 to 2023, 17 of the 24 rabid animals Pasco County recorded were raccoons, the county's rabies awareness page says.") },
     { icon: "phone", title: "Two more in 2026", text: p("DOH-Pasco issued a rabies advisory on July 30, 2026, after two raccoons on the east side of the county tested positive, and asked residents not to draw wildlife in with pet food or open garbage.") },
     { icon: "home", title: "Backyard hens need a secure coop", text: p("Since November 2025, Pasco lets most homeowners keep up to four hens, with a covered, predator-secure coop and feed in predator-proof containers. UF/IFAS notes that poultry in pens are among the raccoon's prey.") },
-    { icon: "leaf", title: "Preserves aren't release sites", text: p("The water district's Conner and Cypress Creek preserves are both in Land O' Lakes. FWC says public land can't be used to release trapped wildlife without the land manager's written permission.") },
+    { icon: "leaf", title: "The state tables", text: p("The state's 2024 table listed one rabid raccoon for Pasco; its 2025 table listed none.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Land O' Lakes, from the county's and agencies' own pages.",
   contacts: [
@@ -62,7 +62,7 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
     ),
     faq(
       "Does Pasco Animal Services take raccoons out of houses?",
-      "No. Its after-hours emergency service covers seriously injured stray pets and loose aggressive animals. For a raccoon living in your home, call a private wildlife company.",
+      "No. Its emergency service covers seriously injured stray pets and loose aggressive animals. For a raccoon living in your home, call a private wildlife company.",
     ),
     faq(
       "How soon can you come out for a raccoon in Land O' Lakes?",
@@ -82,7 +82,9 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
     { title: "Pasco County: Rabies awareness (24 positive animals 2013-2023: 17 raccoons, 6 cats, 1 bat)", url: RABIES },
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (two rabid raccoons, east side of Pasco County; don't attract animals with pet food or open garbage; 352-521-1450, option 4)", url: JULY },
     { title: "Pasco County: Backyard chicken ordinance (November 2025; up to four hens; coops covered and predator-secure; feed in rodent- and predator-proof containers)", url: HENS },
-    { title: "SWFWMD: Conner Preserve (3,486 acres, Land O' Lakes) and Cypress Creek Preserve (7,400 acres, Land O' Lakes)", url: "https://www.swfwmd.state.fl.us/recreation/conner-preserve" },
+    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Pasco: 1 raccoon)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2024.pdf" },
+    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Pasco: none)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
+    { title: "SWFWMD: Conner Preserve (3,486 acres; 22500 SR 52, Land O' Lakes)", url: "https://www.swfwmd.state.fl.us/recreation/conner-preserve" },
     { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county with written permission; public land needs the land manager's written permission)", url: RELOCATE },
     { title: "Pasco County: Animal Services (19640 Dogpatch Lane, Land O' Lakes; 813-929-1212; after-hours emergencies: seriously injured domestic strays, loose aggressive animals)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern raccoon (poultry in pens have fallen prey to raccoons)", url: "https://ask.ifas.ufl.edu/publication/UW033" },

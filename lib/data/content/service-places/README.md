@@ -41,7 +41,9 @@ Model page: `raccoon-removal/tampa-fl.ts`. Copy its shape, never its words.
 ## Never
 
 - One company number only: (727) 594-7705. No second company number (no county or city lines). Agency numbers, such as DOH, animal services, code enforcement or a wildlife rehabber, are fine on contact cards.
-- No 24/7, hours, prices, "best", "#1", "guaranteed", superlatives, license or certification claims, street addresses.
+- No prices or price ranges (Kia, Oct 26): use a "[PLACEHOLDER: ask the client: price range for ...]" block instead. The checker fails on "$" followed by a digit.
+- 24-hour calls (Kia, Oct 26): the company takes calls 24 hours a day, but say it quietly, at most once per page, and only inside the "how soon" FAQ answer, e.g. "Pro Wildlife Removal takes calls 24 hours a day; same-day appointments are often available in [place]." Never in the hero, headings, points, CTA, title or description. No "24/7", "round-the-clock" or "after-hours" anywhere.
+- No "best", "#1", "guaranteed", superlatives, license, insurance or certification claims, street addresses.
 - No promise in the hero or anywhere else (no "so it can't come back", "for good", "never again").
 - Same-day: only "Same-day appointments ... are often available in [place]". No times.
 - No moles, no ducks.

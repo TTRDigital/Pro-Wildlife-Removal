@@ -25,12 +25,12 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   heroText: "Thumping overhead, a torn soffit or a raccoon raiding the hen house? We get raccoons out of Pasco homes, check for young and close the way in. Call (727) 594-7705.",
   answerHeading: "Who handles a raccoon in a Pasco County home?",
   answer:
-    "Pasco County Animal Services focuses on pets and strays, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets raccoons out of Pasco homes, checks for babies before anything is sealed and repairs the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Two rabies alerts in 2026", "Young often in spring"],
+    "Pasco County Animal Services' emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and repairs the opening. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "A rabies alert and advisory in 2026", "Young often in spring"],
   localHeading: "What to know about raccoons in Pasco County",
   localIntro: "Raccoons are the animal Pasco's rabies records name most. These are the local facts and rules that matter before one is trapped or moved.",
   local: [
-    { icon: "critter", title: "Most of Pasco's rabies cases", text: p("From 2013 to 2023, Pasco County recorded 24 animals with rabies, and 17 of them were raccoons. The county's rabies page says raccoons are the number one animal reported with rabies in Florida.") },
+    { icon: "critter", title: "Most of Pasco's rabies cases", text: p("From 2013 to 2023, Pasco County recorded 24 animals with rabies, and 17 of them were raccoons.") },
     { icon: "search", title: "The only case of 2024", text: p("The state's 2024 table lists a single confirmed rabid animal for Pasco County, and it was a raccoon. The 2025 table lists none for the county.") },
     { icon: "map-pin", title: "Zephyrhills alert, early 2026", text: p("A raccoon killed off Alston Avenue in the Zephyrhills area on January 30, 2026 tested positive for rabies. DOH-Pasco put a 60-day alert on the area between South Avenue, Tucker Road, Gall Boulevard and the Zephyrhills Airport.") },
     { icon: "phone", title: "Two more that summer", text: p("On July 30, 2026, DOH-Pasco issued a rabies advisory after two more raccoons tested positive on the east side of the county, and asked residents not to attract wildlife with pet food or open garbage.") },
@@ -62,7 +62,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "Does Pasco County Animal Services take raccoons?",
-      "Its after-hours emergency service is for domestic strays and aggressive animals that threaten public safety. A raccoon living in an attic or under a house needs a private wildlife company.",
+      "Its emergency service is for seriously injured domestic strays and aggressive animals that threaten public safety. A raccoon living in an attic or under a house needs a private wildlife company.",
     ),
     faq(
       "How soon can you come out for a raccoon in Pasco County?",
@@ -78,7 +78,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
       "Raccoon removal in Pasco County, FL: raccoons out of attics and crawl spaces, young found first, entry repaired, plus Pasco's 2026 rabies alerts and rules.",
   },
   sources: [
-    { title: "Pasco County: Rabies awareness (24 positive animals 2013-2023: 17 raccoons, 6 cats, 1 bat; in Florida raccoons are the number one animal reported to have rabies; avoid feeding or touching wildlife)", url: RABIES },
+    { title: "Pasco County: Rabies awareness (24 positive animals 2013-2023: 17 raccoons, 6 cats, 1 bat; avoid feeding or touching wildlife)", url: RABIES },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Pasco: 1 raccoon, total 1)", url: DOH2024 },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Pasco: none)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
     { title: "Florida DOH: DOH-Pasco rabies alert, Feb. 6, 2026 (raccoon killed off Alston Ave, Zephyrhills area, Jan. 30, 2026; 60 days; South Ave, Tucker Road, Zephyrhills Airport, Gall Blvd; don't attract wildlife with outdoor pet food or open garbage cans; 352-521-1450 option 4; Animal Services 813-929-1212)", url: FEB },
@@ -86,7 +86,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     { title: "Pasco County: Backyard chicken ordinance (November 2025; up to four hens; coops covered, ventilated and predator-secure; feed in rodent- and predator-proof containers)", url: HENS },
     { title: "FWC: Relocating nuisance wildlife (own property, or 40+ contiguous acres in the county of capture with written permission; must not violate a county rabies alert or quarantine; public parks need the land manager's written permission)", url: RELOCATE },
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern raccoon (births in Florida generally March and April; poultry in pens have fallen prey; raid pet food bowls and unsecured garbage cans)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
-    { title: "Pasco County: Animal Services (after-hours emergencies: domestic strays, aggressive animals posing an immediate threat)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
+    { title: "Pasco County: Animal Services (after-hours emergencies: seriously injured domestic strays, unconfined aggressive animals posing an immediate threat to public safety)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
   ],
   clientQuestions: ["Typical response time for a raccoon call in Pasco County?", "A real Google review from a Pasco County raccoon job (TTR-723), and real Pasco raccoon job photos."],
 });

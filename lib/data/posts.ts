@@ -59,54 +59,6 @@ export const fallbackPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Several site investigations show inspection fees typically range from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$75 to $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " and targeted removal work is commonly quoted between ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$150 and $600",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". For severe contamination or insulation replacement some homeowners reported cleanup costs reaching as high as ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Those figures make careful timing important when dealing with denning raccoons.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -437,7 +389,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call a licensed wildlife professional:",
+      "text": "Call a wildlife professional:",
       "marks": [
        "strong"
       ]
@@ -599,67 +551,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Budgeting with real numbers from regional service reports helps you plan. Expect inspections to cost between ",
+      "text": "Costs depend on how many animals are involved, whether kits are present, and how much cleanup the den needs.",
       "marks": []
-     },
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
      {
       "_type": "span",
-      "text": "$75 and $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", targeted removal or live trapping between ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$150 and $600",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", and under-deck exclusion work from roughly ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$200 to $1,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " depending on materials and access. Sanitation and flea or tick remediation commonly range from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$300 to $2,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", and in extreme attic contamination cases documented jobs have reached about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for full insulation replacement and cleanup.",
+      "text": "[PLACEHOLDER: ask the client: price range for raccoon inspection, removal, exclusion and den cleanup]",
       "marks": []
      }
     ],
@@ -797,7 +701,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Kits make high-pitched chirps and cry more often than adults. You may hear repetitive vocalizations during the day, find shredded nesting material, or notice frequent trips by an adult at dusk. A trail camera or a licensed inspection will confirm whether dependent young are present before any exclusion work.",
+      "text": "Kits make high-pitched chirps and cry more often than adults. You may hear repetitive vocalizations during the day, find shredded nesting material, or notice frequent trips by an adult at dusk. A trail camera or a professional inspection will confirm whether dependent young are present before any exclusion work.",
       "marks": []
      }
     ],
@@ -821,7 +725,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Local regulations vary by county and municipality. Many areas require licensed wildlife control for live trapping and relocation. Unpermitted relocation can be illegal and harmful to the animals. Contact local animal control or a licensed professional who understands your local rules and humane handling requirements.",
+      "text": "Local regulations vary by county and municipality. Many areas restrict who may live-trap and relocate wildlife. Unpermitted relocation can be illegal and harmful to the animals. Contact local animal control or a wildlife professional who understands your local rules and humane handling requirements.",
       "marks": []
      }
     ],
@@ -929,7 +833,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " helps you protect your home and the animals involved. Late winter mating followed by spring births creates a narrow period when careful assessment matters most. Document signs, remove attractants, and call a licensed wildlife professional before attempting exclusion. That approach minimizes harm to kits and reduces the chance of costly cleanup and repeat visits.",
+      "text": " helps you protect your home and the animals involved. Late winter mating followed by spring births creates a narrow period when careful assessment matters most. Document signs, remove attractants, and call a wildlife professional before attempting exclusion. That approach minimizes harm to kits and reduces the chance of costly cleanup and repeat visits.",
       "marks": []
      }
     ],
@@ -1267,55 +1171,24 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by location and the damage level, but specific ranges help you prepare. Inspections are commonly in the ",
+      "text": "Costs vary by location and the damage level. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$75 to $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " range. Targeted removal visits often start around ",
+      "text": "Getting itemized quotes is essential so you can compare inspection, removal, exclusion, and sanitation separately.",
       "marks": []
-     },
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
      {
       "_type": "span",
-      "text": "$150 to $600",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Sanitation and pest remediation after extended occupancy frequently range from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$300 to $2,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", and in extreme attic contamination cases homeowners have reported bills up to ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for full cleanup and insulation replacement. Getting itemized quotes is essential so you can compare inspection, removal, exclusion, and sanitation separately.",
+      "text": "[PLACEHOLDER: ask the client: price range for raccoon removal from a home, including exclusion and sanitation]",
       "marks": []
      }
     ],
@@ -1555,7 +1428,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "DIY exclusion and trapping can work for simple, clear-cut problems, but homeowners frequently make mistakes that increase costs or risk animal welfare. Common DIY failures include sealing during breeding season, using improper materials that raccoons quickly breach, and attempting sanitation without proper PPE. Hiring a licensed wildlife removal provider reduces legal and safety risks and usually includes warranties on exclusion work. For a comparison of costs and when to call pros see our post on ",
+      "text": "DIY exclusion and trapping can work for simple, clear-cut problems, but homeowners frequently make mistakes that increase costs or risk animal welfare. Common DIY failures include sealing during breeding season, using improper materials that raccoons quickly breach, and attempting sanitation without proper PPE. Hiring a professional wildlife removal provider reduces legal and safety risks and usually includes warranties on exclusion work. For a comparison of costs and when to call pros see our post on ",
       "marks": []
      },
      {
@@ -1726,7 +1599,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call a licensed specialist immediately if you see any of the following: chewed electrical wiring or flickering circuits, brown stains or sagging ceiling areas, strong ammonia odors, visible fleas or tick spikes, or loud thumping that suggests structural damage. These issues indicate hazards beyond nuisance activity and justify urgent inspection and remediation.",
+      "text": "Call a wildlife specialist immediately if you see any of the following: chewed electrical wiring or flickering circuits, brown stains or sagging ceiling areas, strong ammonia odors, visible fleas or tick spikes, or loud thumping that suggests structural damage. These issues indicate hazards beyond nuisance activity and justify urgent inspection and remediation.",
       "marks": []
      }
     ],
@@ -1762,7 +1635,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Remove food and shelter attractants first and document activity with photos or a camera. If no dependent young are present, install durable skirting such as galvanized hardware cloth anchored to joists. Many homeowners report success combining attractant removal with professional exclusion. If you are unsure about breeding status, contact a licensed wildlife removal provider first.",
+      "text": "Remove food and shelter attractants first and document activity with photos or a camera. If no dependent young are present, install durable skirting such as galvanized hardware cloth anchored to joists. Many homeowners report success combining attractant removal with professional exclusion. If you are unsure about breeding status, contact a wildlife removal professional first.",
       "marks": []
      }
     ],
@@ -2267,14 +2140,14 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Live trapping with licensed transfer:",
+      "text": "Live trapping and lawful release:",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": " used when exclusion is not possible. A licensed trapper or rehabilitator will follow local regulations and health guidelines.",
+      "text": " used when exclusion is not possible. A trained trapper or rehabilitator will follow local regulations and health guidelines.",
       "marks": []
      }
     ],
@@ -2801,7 +2674,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Trapping and relocating wildlife is regulated in many areas and is not recommended without a permit. Relocated opossums often fail to survive in unfamiliar territory. The more humane and effective approach is professional live-capture followed by release by licensed personnel or exclusion that allows the animal to leave on its own when allowed by local law.",
+      "text": "Trapping and relocating wildlife is regulated in many areas and is not recommended without a permit. Relocated opossums often fail to survive in unfamiliar territory. The more humane and effective approach is professional live-capture followed by release by trained personnel or exclusion that allows the animal to leave on its own when allowed by local law.",
       "marks": []
      }
     ],
@@ -2921,7 +2794,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Opossums in attics are an unsettling problem, but you can manage and prevent it with the right sequence: confirm signs, follow immediate safety steps, hire a licensed pro for humane removal and exclusion, and complete cleanup and repairs. The site’s sitemap shows many related resources, including guides on opossums under crawl spaces and wildlife cleanup costs that will help you plan the full remediation. If you suspect an infestation, prioritize a professional inspection. Acting quickly reduces damage, health risk, and long-term costs while keeping removal humane and legal.",
+      "text": "Opossums in attics are an unsettling problem, but you can manage and prevent it with the right sequence: confirm signs, follow immediate safety steps, hire a professional for humane removal and exclusion, and complete cleanup and repairs. The site’s sitemap shows many related resources, including guides on opossums under crawl spaces and wildlife cleanup costs that will help you plan the full remediation. If you suspect an infestation, prioritize a professional inspection. Acting quickly reduces damage, health risk, and long-term costs while keeping removal humane and legal.",
       "marks": []
      }
     ],
@@ -3118,7 +2991,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Attic insulation provides warmth and nesting material. Contaminated insulation with nesting material, urine, and droppings can hide multiple generations. Several community-sourced removal reports on our site show that untreated attic infestations frequently require insulation replacement during cleanup, a cost that can move from hundreds to thousands of dollars depending on the extent of contamination.",
+      "text": "Attic insulation provides warmth and nesting material. Contaminated insulation with nesting material, urine, and droppings can hide multiple generations.",
       "marks": []
      }
     ],
@@ -3142,43 +3015,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community reports and local case files contained in our blog reveal how quickly problems grow. One homeowner faced an itemized exclusion and attic restoration bill approaching ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Another multi-unit property reported roughly ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$30,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " in structural damage and about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " in cleanup and temporary housing after a severe infestation. Those figures illustrate that an attic infestation left unchecked can balloon from a DIY trap job into major structural and remediation costs.",
+      "text": "Community reports and local case files show how quickly problems grow. An attic infestation left unchecked can move from a simple trapping job to major structural repairs and cleanup.",
       "marks": []
      }
     ],
@@ -3790,54 +3627,6 @@ export const fallbackPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Real-world service reports on this site list inspection fees between ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$75 and $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", targeted removal or trapping commonly priced from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$150 to $600",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", and extreme sanitation jobs that have reached about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Those numbers are useful when you compare quotes and decide whether a professional inspection is worth the price.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -4321,7 +4110,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Schedule a licensed inspection:",
+      "text": "Schedule a professional inspection:",
       "marks": [
        "strong"
       ]
@@ -4498,19 +4287,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspection and species ID: same day to one week; typically ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$75 to $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
+      "text": "Inspection and species ID: same day to one week.",
       "marks": []
      }
     ],
@@ -4524,19 +4301,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Targeted removal or trapping: one to 14 days depending on strategy; representative costs often run ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$150 to $600",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
+      "text": "Targeted removal or trapping: one to 14 days depending on strategy.",
       "marks": []
      }
     ],
@@ -4551,32 +4316,6 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "span",
       "text": "Exclusion repairs: one to three days for simple soffit or vent work; larger roofing or skirting jobs take longer.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Sanitation and insulation replacement: expect multi-day work and costs that can range into the thousands for severe contamination; extreme cases on record reached roughly ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
       "marks": []
      }
     ],
@@ -4678,7 +4417,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A licensed exclusion specialist will follow a repeatable process you should expect in any quote. First comes inspection and documentation. Next they test occupancy and monitor for movement or parental return if young are suspected. Then they install one-way doors or traps as allowed by local law and repair every identified entry point with durable materials. Finally they offer a monitoring window and sanitation plan if contamination exists.",
+      "text": "A professional exclusion specialist will follow a repeatable process you should expect in any quote. First comes inspection and documentation. Next they test occupancy and monitor for movement or parental return if young are suspected. Then they install one-way doors or traps as allowed by local law and repair every identified entry point with durable materials. Finally they offer a monitoring window and sanitation plan if contamination exists.",
       "marks": []
      }
     ],
@@ -4834,7 +4573,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When should I call a licensed wildlife removal service instead of attempting fixes myself?",
+      "text": "When should I call a wildlife removal service instead of attempting fixes myself?",
       "marks": []
      }
     ],
@@ -4968,7 +4707,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Adult females form tight colonies and give birth to pups that remain in the roost until they fledge. Technicians watch emergence patterns at dusk because mothers leave to feed and pups are left behind. That is why professionals use one-way exclusion devices only when the pups are old enough to follow or when law and best practice permit it. Sealing a roost without this timing risks trapping pups and may violate state regulations.",
+      "text": "Adult females form tight colonies and give birth to pups that remain in the roost until they fledge. Technicians watch emergence patterns at dusk because mothers leave to feed and pups are left behind. That is why professionals use one-way exclusion devices only when the pups are old enough to follow or when law and good practice permit it. Sealing a roost without this timing risks trapping pups and may violate state regulations.",
       "marks": []
      }
     ],
@@ -5079,19 +4818,12 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "One immediate concern is guano accumulation. Site case records show sanitation and insulation replacement after heavy contamination can range from about ",
+      "text": "One immediate concern is guano accumulation. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$5,000 to $13,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". That reality makes fast, lawful exclusion attractive when possible. At the same time, several bat species have protected status or local timing restrictions that prohibit exclusion during peak pup dependency. Professionals balance those constraints with homeowner safety concerns.",
+      "text": "At the same time, several bat species have protected status or local timing restrictions that prohibit exclusion during peak pup dependency. Professionals balance those constraints with homeowner safety concerns.",
       "marks": []
      }
     ],
@@ -5211,19 +4943,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After exclusion, technicians check insulation and HVAC ducts. If guano covers insulation or ducts are contaminated, professional HEPA vacuuming and insulation replacement may be required. Homeowner reports and internal case histories include examples where full remediation reached about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,500 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for heavily soiled attics.",
+      "text": "After exclusion, technicians check insulation and HVAC ducts. If guano covers insulation or ducts are contaminated, professional HEPA vacuuming and insulation replacement may be required.",
       "marks": []
      }
     ],
@@ -5271,7 +4991,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call a licensed wildlife removal technician if you observe a steady evening stream of bats from one spot, smell strong ammonia inside the attic, or find guano on insulation or HVAC components. Quick professional assessment prevents unsafe DIY attempts that often leave the problem worse. Our guide on ",
+      "text": "Call a wildlife removal technician if you observe a steady evening stream of bats from one spot, smell strong ammonia inside the attic, or find guano on insulation or HVAC components. Quick professional assessment prevents unsafe DIY attempts that often leave the problem worse. Our guide on ",
       "marks": []
      },
      {
@@ -5313,7 +5033,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs depend on colony size, roofline complexity, and contamination. Typical ranges from internal records and community reports include:",
+      "text": "Costs depend on colony size, roofline complexity, and contamination.",
       "marks": []
      }
     ],
@@ -5325,62 +5045,11 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Spot exclusion:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $300 to $1,200 for single vent or soffit repairs.",
+      "text": "[PLACEHOLDER: ask the client: price range for bat exclusion and guano cleanup during maternity season]",
       "marks": []
      }
     ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Full attic exclusion with monitoring:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $800 to $3,500.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Sanitation and insulation replacement:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $5,000 to $13,000 for heavy contamination.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -5510,7 +5179,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Installing a bat box can support local bat populations while you plan exclusion. It is not guaranteed to draw a colony away from an attic, but combined strategies can work. Case reports show mixed success: some homeowners reported a nearby box attracted bats, while others found the colony returned to the attic. Use a certified wildlife professional to evaluate placement, species, and timing before relying on a box as a solution.",
+      "text": "Installing a bat box can support local bat populations while you plan exclusion. It is not guaranteed to draw a colony away from an attic, but combined strategies can work. Case reports show mixed success: some homeowners reported a nearby box attracted bats, while others found the colony returned to the attic. Ask a wildlife professional to evaluate placement, species, and timing before relying on a box as a solution.",
       "marks": []
      }
     ],
@@ -5605,7 +5274,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Maternity season varies by region and species, but it commonly falls from late spring through mid to late summer. Local wildlife agencies or your licensed technician can confirm exact timing. Technicians document emergence patterns to determine if pups are present before scheduling exclusions.",
+      "text": "Maternity season varies by region and species, but it commonly falls from late spring through mid to late summer. Local wildlife agencies or your wildlife technician can confirm exact timing. Technicians document emergence patterns to determine if pups are present before scheduling exclusions.",
       "marks": []
      }
     ],
@@ -5713,7 +5382,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " changes the way you approach an attic bat problem. Timing and humane exclusion matter. Watch for evening emergence, document activity, and hire a licensed technician who separates inspection, exclusion, and sanitation in a written scope. That approach reduces legal risk, protects pups, and limits long-term repair and cleanup costs.",
+      "text": " changes the way you approach an attic bat problem. Timing and humane exclusion matter. Watch for evening emergence, document activity, and hire a technician who separates inspection, exclusion, and sanitation in a written scope. That approach reduces legal risk, protects pups, and limits long-term repair and cleanup costs.",
       "marks": []
      }
     ],
@@ -5896,7 +5565,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspections catch issues before they multiply. Community-sourced estimates and contractor reports show clear cost differences between early intervention and delayed remediation. For example, targeted exclusion at a single roof vent commonly costs between $400 and $1,200. Comprehensive attic exclusion plus repairs and monitoring commonly falls between $1,000 and $3,500. Full attic remediation with insulation replacement has been reported in some cases at $10,500 to $12,700 when contamination is extensive.",
+      "text": "Inspections catch issues before they multiply. Community-sourced estimates and contractor reports show clear cost differences between early intervention and delayed remediation.",
       "marks": []
      }
     ],
@@ -5908,7 +5577,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Those figures illustrate why an inspection that leads to a $600 exclusion job can prevent a five-figure cleanup later. Inspections also document conditions for insurance and warranty purposes, which makes follow-up claims easier to support.",
+      "text": "Inspections also document conditions for insurance and warranty purposes, which makes follow-up claims easier to support.",
       "marks": []
      }
     ],
@@ -6072,7 +5741,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Look for reports that call out wiring damage specifically. Chewed wiring can be a fire hazard and typically requires a licensed electrician. One local average for insulation replacement after rodent contamination was about $1,100 when insulation needed partial replacement and cleaning.",
+      "text": "Look for reports that call out wiring damage specifically. Chewed wiring can be a fire hazard and typically requires a licensed electrician.",
       "marks": []
      }
     ],
@@ -6491,7 +6160,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by region and company. A basic visual inspection often falls in a modest range, while comprehensive inspections that include attic entry and crawlspace checks cost more. Use inspection findings to compare line-item quotes. Simple exclusion tasks discovered during an inspection commonly cost $400 to $1,200, while larger remediation after contamination can reach several thousand dollars.",
+      "text": "Costs vary by region and company. A basic visual inspection often falls in a modest range, while comprehensive inspections that include attic entry and crawlspace checks cost more. Use inspection findings to compare line-item quotes.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for an annual wildlife inspection]",
       "marks": []
      }
     ],
@@ -6661,31 +6342,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you have removed squirrels from an attic or soffit only to hear them again weeks later, you are not alone. The phrase “squirrels return after removal” captures a common homeowner frustration that often stems from a few predictable failures: missed entry points, lingering nest scent and debris, seasonal breeding, or damage that still makes the attic attractive. Community reports compiled on the site include homeowner bills and contractor quotes that show what happens when a partial fix fails. One homeowner shared a follow-up remediation bill near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$4,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " after an initial, incomplete attempt. Other public estimates for full attic remediation have ranged from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3,000 to $12,500+",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " depending on contamination and repairs.",
+      "text": "If you have removed squirrels from an attic or soffit only to hear them again weeks later, you are not alone. The phrase “squirrels return after removal” captures a common homeowner frustration that often stems from a few predictable failures: missed entry points, lingering nest scent and debris, seasonal breeding, or damage that still makes the attic attractive. Community reports compiled on the site include homeowner bills and contractor quotes that show what happens when a partial fix fails.",
       "marks": []
      }
     ],
@@ -7240,43 +6897,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Small, obvious gaps can sometimes be sealed by a competent homeowner, but wiring, HVAC contamination, or full-attic insulation damage requires licensed trades and coordinated work. The site gathers contractor ranges to set realistic expectations: targeted spot repairs and exclusion typically start in the ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$300 to $1,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " range. Partial insulation removal is often quoted at about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$6 to $10 per square foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Full attic remediation with sanitation, wiring repair, and a new insulation install can run from around ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3,000 to $12,500+",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Those figures reflect case reports and contractor price ranges posted on community pages.",
+      "text": "Small, obvious gaps can sometimes be sealed by a competent homeowner, but wiring, HVAC contamination, or full-attic insulation damage requires licensed trades and coordinated work.",
       "marks": []
      }
     ],
@@ -7288,19 +6909,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you tried a DIY removal and the problem returned, expect a thorough inspection to identify missed entry points and contamination that was not obvious. One documented local example showed an escalation to near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$4,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " after an initial attempt failed to address wiring and hidden gaps.",
+      "text": "If you tried a DIY removal and the problem returned, expect a thorough inspection to identify missed entry points and contamination that was not obvious.",
       "marks": []
      }
     ],
@@ -7577,19 +7186,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you have heard scratching in the attic, found chewed wiring, or discovered fresh droppings in a crawl space, wildlife proofing your home should be a priority. ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "Wildlife proofing your home",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " reduces fire risk from chewed wires, limits contamination of insulation, and stops repeat damage that can run into the thousands of dollars. Homeowners quoted in local case studies reported repair estimates from a few hundred dollars for small splices to more than ten thousand dollars when insulation, ducts, and wiring all needed remediation.",
+      "text": "If you have heard scratching in the attic, found chewed wiring, or discovered fresh droppings in a crawl space, wildlife proofing your home should be a priority.",
       "marks": []
      }
     ],
@@ -7919,7 +7516,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Not every product marketed for wildlife prevention is effective. Field experience and community reports show the best results come from physical exclusion and habitat modification.",
+      "text": "Not every product marketed for wildlife prevention is effective. Field experience and community reports show that physical exclusion and habitat modification work and habitat modification.",
       "marks": []
      }
     ],
@@ -8048,7 +7645,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Effective wiring protection combines mechanical barriers and professional repair. For landscape and lamp-post wiring, homeowners who installed conduit and raised lines reported repeated GFCI trips stopped and fewer shorts. A realistic budget to protect vulnerable runs starts in the low hundreds for small accessible splices and can rise to several thousand dollars for full reruns and attic rewiring.",
+      "text": "Effective wiring protection combines mechanical barriers and professional repair. For landscape and lamp-post wiring, homeowners who installed conduit and raised lines reported repeated GFCI trips stopped and fewer shorts.",
       "marks": []
      }
     ],
@@ -8102,7 +7699,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Budgeting up front helps you decide whether to DIY or hire pros. Community and contractor reports show these typical ranges.",
+      "text": "Budgeting up front helps you decide whether to DIY or hire pros. Costs depend on how much wiring, insulation, and ductwork is affected.",
       "marks": []
      }
     ],
@@ -8114,20 +7711,11 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Small wiring patch or single circuit splice:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $150 to $800.",
+      "text": "[PLACEHOLDER: ask the client: price range for wiring repair, rewiring and insulation replacement after wildlife damage]",
       "marks": []
      }
     ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -8135,70 +7723,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Partial attic rewiring:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $800 to $3,500 depending on access and circuit count.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Insulation removal and replacement after contamination:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $800 to $5,000 in many local cases.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Vehicle wiring repairs caused by wildlife:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $200 to $1,500 or more depending on complexity and parts.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "One homeowner account documented in local reports described attic wiring chewed through both outer and inner insulation on multiple runs, which pushed estimates into the upper range due to contamination and the need to remove and replace insulation around the affected area.",
+      "text": "One homeowner account documented in local reports described attic wiring chewed through both outer and inner insulation on multiple runs, which raised the estimate because of contamination and the need to remove and replace insulation around the affected area.",
       "marks": []
      }
     ],
@@ -8234,7 +7759,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When to call a licensed professional",
+      "text": "When to call a professional",
       "marks": []
      }
     ],
@@ -8314,7 +7839,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Professionals provide a written exclusion plan, proof of insurance, and coordination with electricians or HVAC contractors when ducts, wiring, or insulation require simultaneous repair. For help prioritizing which repairs to do first, see the checklist at ",
+      "text": "Professionals provide a written exclusion plan and coordination with electricians or HVAC contractors when ducts, wiring, or insulation require simultaneous repair. For help prioritizing which repairs to do first, see the checklist at ",
       "marks": []
      },
      {
@@ -8631,7 +8156,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For small, accessible repairs expect a few hundred dollars. Partial rewiring and insulation removal commonly range from $800 to $5,000 depending on scope. Larger combined remediation that involves ducts, insulation, and structural repairs can exceed these ranges. Get multiple written estimates and prioritize exclusion first.",
+      "text": "It depends on how much wiring, insulation, and ductwork needs work, and combined remediation that involves ducts and structural repairs costs more. Get multiple written estimates and prioritize exclusion first.",
       "marks": []
      }
     ],
@@ -9283,7 +8808,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community-sourced contractor ranges and inspection data provide realistic budgeting. Typical figures experienced technicians and homeowner reports use as benchmarks are:",
+      "text": "Costs depend on how many entry points need sealing and whether attic insulation needs cleanup.",
       "marks": []
      }
     ],
@@ -9295,55 +8820,11 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspection and entry mapping: about $75 to $250 for a documented survey.",
+      "text": "[PLACEHOLDER: ask the client: price range for rat entry mapping, exclusion and attic cleanup]",
       "marks": []
      }
     ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Small exclusion jobs: $200 to $800, usually completed in one to three days.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Attic sanitation or partial insulation replacement: $800 to $4,500 depending on contamination extent.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Severe cleanup plus full repairs: $3,000 to $11,000 when insulation, wiring, and structural elements are affected.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -9563,7 +9044,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call an exclusion specialist now if you see chewed wiring, persistent odors coming into living spaces, large numbers of droppings, or evidence of nesting in insulation. These are signs that contamination and fire risk may require professional cleanup and licensed electrical repair. Professionals can also provide a written warranty on exclusion work, which helps prevent recurrence.",
+      "text": "Call an exclusion specialist now if you see chewed wiring, persistent odors coming into living spaces, large numbers of droppings, or evidence of nesting in insulation. These are signs that contamination and fire risk may require professional cleanup and repair by a licensed electrician. Professionals can also provide a written warranty on exclusion work, which helps prevent recurrence.",
       "marks": []
      }
     ],
@@ -9659,7 +9140,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "What is the best material to use around pipes and vents?",
+      "text": "What material should I use around pipes and vents?",
       "marks": []
      }
     ],
@@ -9719,7 +9200,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Choice depends on situation complexity. For small, isolated issues an experienced homeowner can use traps. For attic infestations, contamination, or wiring damage hire a licensed wildlife exclusion company that provides inspection, exclusion, sanitation, and warranty on repairs.",
+      "text": "Choice depends on situation complexity. For small, isolated issues an experienced homeowner can use traps. For attic infestations, contamination, or wiring damage hire a wildlife exclusion company that provides inspection, exclusion, sanitation, and warranty on repairs.",
       "marks": []
      }
     ],
@@ -9781,43 +9262,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Soffit damage is often the first visible sign that animals have found a way into your roofline. When soffits are torn, sagging, or have holes, they provide direct access to attic cavities where raccoons, squirrels, rats, and bats can nest. That access leads to shredded insulation, chewed wiring, odors, and in some cases costly sanitation. Community-sourced service notes show inspection fees commonly run between ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$75 and $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", single removal visits often fall near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", and severe cleanup and insulation replacement have been reported up to ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Those numbers explain why you should treat soffit damage as more than cosmetic.",
+      "text": "Soffit damage is often the first visible sign that animals have found a way into your roofline. When soffits are torn, sagging, or have holes, they provide direct access to attic cavities where raccoons, squirrels, rats, and bats can nest. That access leads to shredded insulation, chewed wiring, odors, and in some cases costly sanitation.",
       "marks": []
      }
     ],
@@ -10399,7 +9844,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call a licensed wildlife removal and exclusion specialist if you find active signs of animals, see chewed wiring, or if there are multiple or large openings around the roofline. Professionals will test for occupancy and follow local regulations for handling wildlife. If you smell strong ammonia or find extensive contamination, schedule sanitation and possible insulation replacement as part of the job.",
+      "text": "Call a wildlife removal and exclusion specialist if you find active signs of animals, see chewed wiring, or if there are multiple or large openings around the roofline. Professionals will test for occupancy and follow local regulations for handling wildlife. If you smell strong ammonia or find extensive contamination, schedule sanitation and possible insulation replacement as part of the job.",
       "marks": []
      }
     ],
@@ -10447,43 +9892,12 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Upfront transparency matters because costs vary widely by damage scope. Community-sourced figures on related jobs show inspections from ",
+      "text": "Upfront transparency matters because costs vary widely by damage scope. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$75 to $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", single removal visits commonly near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", and full sanitation and insulation replacement sometimes approaching ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Those high numbers usually reflect prolonged occupancy with contaminated insulation and HVAC spread. Two practical realities homeowners should accept are these: first, quick DIY sealing can worsen the problem by trapping young animals; second, insurance coverage for wildlife damage is inconsistent and often excludes cleanup costs. Ask for itemized quotes and check your policy before assuming coverage.",
+      "text": "Two practical realities homeowners should accept are these: first, quick DIY sealing can worsen the problem by trapping young animals; second, insurance coverage for wildlife damage is inconsistent and often excludes cleanup costs. Ask for itemized quotes and check your policy before assuming coverage.",
       "marks": []
      }
     ],
@@ -10672,7 +10086,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs depend on material and how many openings need work. Small localized repairs are often a few hundred dollars. Complete soffit replacement and associated insulation or structural repairs that follow long-term occupancy can run into the thousands. Get an itemized estimate to compare parts of the job.",
+      "text": "Costs depend on material and how many openings need work. Get an itemized estimate to compare parts of the job.",
       "marks": []
      }
     ],
@@ -10768,7 +10182,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Soffit damage is rarely just cosmetic. It is a common entry point that leads to attic infestations, insulation loss, wiring hazards, and high cleanup bills. Take visible damage seriously, document what you find, and use reversible temporary fixes until a licensed inspector confirms vacancies. Long-term prevention comes from good maintenance, durable materials, and addressing attractants near the roofline. If you suspect a raccoon, squirrel, rat, or bat is using your soffit to enter your home, start with an inspection and an itemized repair plan so you can prioritize safety and avoid expensive surprises.",
+      "text": "Soffit damage is rarely just cosmetic. It is a common entry point that leads to attic infestations, insulation loss, wiring hazards, and high cleanup bills. Take visible damage seriously, document what you find, and use reversible temporary fixes until a professional inspector confirms vacancies. Long-term prevention comes from good maintenance, durable materials, and addressing attractants near the roofline. If you suspect a raccoon, squirrel, rat, or bat is using your soffit to enter your home, start with an inspection and an itemized repair plan so you can prioritize safety and avoid expensive surprises.",
       "marks": []
      }
     ],
@@ -11087,42 +10501,6 @@ export const fallbackPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Contractor records show that a typical scenario with two small colonies requiring full attic exclusion may cost homeowners between ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$2,000 and $6,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for exclusion and basic repairs. If insulation is heavily contaminated, professional sanitation and insulation replacement can raise total costs from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,000 to $13,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " in more extreme cases.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -11247,7 +10625,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Licensed bat-removal technicians follow a phased approach: inspection, monitored exclusion, durable sealing, and sanitation when needed. Two details homeowners frequently miss are timing of exclusions and the durability of materials used for sealing.",
+      "text": "Professional bat-removal technicians follow a phased approach: inspection, monitored exclusion, durable sealing, and sanitation when needed. Two details homeowners frequently miss are timing of exclusions and the durability of materials used for sealing.",
       "marks": []
      }
     ],
@@ -11322,7 +10700,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When to call a licensed technician",
+      "text": "When to call a technician",
       "marks": []
      }
     ],
@@ -11646,7 +11024,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Bats have flexible shoulder joints and small bodies that let them squeeze through narrow gaps that look insignificant from ground level. Repeated exit points will show rub marks and small accumulations of guano. A dusk emergence watch is the most reliable way to verify the exact opening.",
+      "text": "Bats have flexible shoulder joints and small bodies that let them squeeze through narrow gaps that look insignificant from ground level. Repeated exit points will show rub marks and small accumulations of guano. A dusk emergence watch is a reliable way to verify the exact opening.",
       "marks": []
      }
     ],
@@ -11670,7 +11048,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "No. Sealing a roost while bats are present risks trapping animals and may violate wildlife protections during maternity season. Untrained attempts also increase exposure to guano and the possibility of bites. Use a licensed technician who monitors emergence and installs one-way exclusion devices when appropriate.",
+      "text": "No. Sealing a roost while bats are present risks trapping animals and may violate wildlife protections during maternity season. Untrained attempts also increase exposure to guano and the possibility of bites. Use a trained technician who monitors emergence and installs one-way exclusion devices when appropriate.",
       "marks": []
      }
     ],
@@ -11718,31 +11096,12 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Prices vary by infestation severity. Small exclusions can cost a few hundred dollars. Homeowner case records show full exclusions sometimes fall between ",
+      "text": "Prices vary by infestation severity. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$2,000 and $6,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", while heavy sanitation and insulation replacement can range from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,000 to $13,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " in more extreme cases. Get written, itemized estimates to compare quotes fairly.",
+      "text": "Get written, itemized estimates to compare quotes fairly.",
       "marks": []
      }
     ],
@@ -12169,7 +11528,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Prices vary by region, access, and whether sanitation and repairs are required. Based on site case studies and contractor ranges, expect the following typical scopes.",
+      "text": "Prices vary by region, access, and whether sanitation and repairs are required. Typical timelines for each scope are below.",
       "marks": []
      }
     ],
@@ -12183,7 +11542,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Representative cost",
        "Typical timeline"
       ]
      },
@@ -12191,7 +11549,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Inspection and species ID",
-       "$75 to $250",
        "Same day to one week"
       ]
      },
@@ -12199,7 +11556,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Targeted live trapping and removal",
-       "$150 to $600",
        "1 to 7 days depending on success and local regs"
       ]
      },
@@ -12207,7 +11563,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Under-deck exclusion (hardware cloth or skirting)",
-       "$200 to $1,500 installed",
        "1 to 3 days"
       ]
      },
@@ -12215,11 +11570,22 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Sanitation, flea/tick remediation",
-       "$300 to $2,000 depending on extent",
        "1 to 3 days"
       ]
      }
     ]
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for raccoon trapping and under-deck exclusion]",
+      "marks": []
+     }
+    ],
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -12399,32 +11765,28 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Material",
-       "Strengths",
-       "Typical installed cost"
+       "Strengths"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Galvanized hardware cloth (1/2 inch)",
-       "Very durable and prevents digging; fastened to joists",
-       "$6 to $12 per linear foot"
+       "Very durable and prevents digging; fastened to joists"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Composite skirting panels",
-       "Long life, neat finish, low maintenance",
-       "$10 to $25 per linear foot"
+       "Long life, neat finish, low maintenance"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Pressure-treated plywood skirting",
-       "Economical, easy to install, paintable",
-       "$8 to $20 per linear foot"
+       "Economical, easy to install, paintable"
       ]
      }
     ]
@@ -12435,7 +11797,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Comparison: DIY fixes versus hiring licensed pros",
+      "text": "Comparison: DIY fixes versus hiring professionals",
       "marks": []
      }
     ],
@@ -12450,7 +11812,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Factor",
        "DIY",
-       "Licensed wildlife removal"
+       "Professional wildlife removal"
       ]
      },
      {
@@ -12601,7 +11963,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Start by removing attractants and sealing obvious access points with durable materials once you confirm no dependent young are present. Live trapping by a licensed pro or exclusion panels are humane options. Reddit users frequently reported success by combining food removal with hardware-cloth skirting.",
+      "text": "Start by removing attractants and sealing obvious access points with durable materials once you confirm no dependent young are present. Live trapping by a professional or exclusion panels are humane options. Reddit users frequently reported success by combining food removal with hardware-cloth skirting.",
       "marks": []
      }
     ],
@@ -13087,43 +12449,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Raccoon noises at night are an early symptom of one of three situations: a transient roof visitor, a denning pair with kits, or an established family living inside the attic. Each scenario requires a different response. Several documented service reports list inspection fees from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$75 to $250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", while community-reported single removal visits often cost around ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". For severe contamination some homeowners reported attic sanitation and insulation replacement costs reaching ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " on extreme jobs. Those numbers explain why acting quickly, but correctly, matters.",
+      "text": "Raccoon noises at night are an early symptom of one of three situations: a transient roof visitor, a denning pair with kits, or an established family living inside the attic. Each scenario requires a different response.",
       "marks": []
      }
     ],
@@ -13276,7 +12602,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A licensed wildlife professional uses a three-step process: inspection, occupancy testing, and targeted exclusion. Inspections look for entry points such as torn soffits, uncapped chimneys, and loose vent boots. Occupancy checks may include daytime observation, camera surveys, or remote listening to confirm whether kits or adults are present. Recommendations commonly separate costs for inspection, removal, exclusion repairs, and sanitation so you can compare quotes transparently.",
+      "text": "A wildlife professional uses a three-step process: inspection, occupancy testing, and targeted exclusion. Inspections look for entry points such as torn soffits, uncapped chimneys, and loose vent boots. Occupancy checks may include daytime observation, camera surveys, or remote listening to confirm whether kits or adults are present. Recommendations commonly separate costs for inspection, removal, exclusion repairs, and sanitation so you can compare quotes transparently.",
       "marks": []
      }
     ],
@@ -13519,19 +12845,12 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community-sourced ranges help you budget. Inspections are often same day to one week. Removal can be completed in one to 14 days depending on strategy. Exclusion repairs typically take one to seven days. Costs vary by damage scope. For targeted work expect low hundreds to low thousands of dollars. For full sanitation and insulation replacement some homeowners reported figures up to ",
+      "text": "Here is what to expect. Inspections are often same day to one week. Removal can be completed in one to 14 days depending on strategy. Exclusion repairs typically take one to seven days. Costs vary by damage scope. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " in severe contamination cases. Get itemized quotes so you can compare each service line.",
+      "text": "Get itemized quotes so you can compare each service line.",
       "marks": []
      }
     ],
@@ -13723,7 +13042,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When should I call a licensed wildlife removal service?",
+      "text": "When should I call a wildlife removal service?",
       "marks": []
      }
     ],
@@ -14247,7 +13566,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call a licensed wildlife removal service.",
+      "text": "Call a wildlife removal service.",
       "marks": [
        "strong"
       ]
@@ -14466,7 +13785,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you hear nocturnal noises, find droppings in attic access, or see fresh roof damage, call a licensed wildlife removal company. A proper inspection will:",
+      "text": "If you hear nocturnal noises, find droppings in attic access, or see fresh roof damage, call a wildlife removal company. A proper inspection will:",
       "marks": []
      }
     ],
@@ -14666,7 +13985,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Regulations vary by state and locality. Trapping and relocating without a permit is often illegal and may spread disease. Use licensed wildlife professionals who follow local laws and humane practices.",
+      "text": "Regulations vary by state and locality. Trapping and relocating without a permit is often illegal and may spread disease. Use wildlife professionals who follow local laws and humane practices.",
       "marks": []
      }
     ],
@@ -14690,7 +14009,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "How Raccoons Enter Homes is rarely a mystery once you know the common entry points: roof vents, torn soffits, chimneys, and damaged gable vents. The most effective response combines immediate safety precautions, removal by licensed professionals, and thorough exclusion repairs. Use the internal resources linked in this article for targeted fixes, and if you are in Central Florida consult local experts for inspection and cleanup.",
+      "text": "How Raccoons Enter Homes is rarely a mystery once you know the common entry points: roof vents, torn soffits, chimneys, and damaged gable vents. The most effective response combines immediate safety precautions, removal by trained professionals, and thorough exclusion repairs. Use the internal resources linked in this article for targeted fixes, and if you are in Central Florida consult local experts for inspection and cleanup.",
       "marks": []
      }
     ],
@@ -14949,19 +14268,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Bats pick roosts that meet three needs: shelter, warmth, and easy access to night flying. Attics provide steady temperatures, protected space for maternity colonies, and multiple nearby exits for evening emergence. One documented contractor case showed two colonies requiring full attic exclusion and remediation, with homeowner estimates for the combined work falling between ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$2,000 and $6,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
+      "text": "Bats pick roosts that meet three needs: shelter, warmth, and easy access to night flying. Attics provide steady temperatures, protected space for maternity colonies, and multiple nearby exits for evening emergence.",
       "marks": []
      }
     ],
@@ -15276,7 +14583,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Licensed bat-removal technicians follow a consistent sequence to solve infestations safely and to prevent return.",
+      "text": "Experienced bat-removal technicians follow a consistent sequence to solve infestations safely and to prevent return.",
       "marks": []
      }
     ],
@@ -15358,19 +14665,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " If insulation or HVAC systems are contaminated, HEPA vacuuming, negative-pressure containment, and insulation replacement may be required. Case records show sanitation and insulation replacement can range from about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,000 to $13,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for heavily contaminated attics.",
+      "text": " If insulation or HVAC systems are contaminated, HEPA vacuuming, negative-pressure containment, and insulation replacement may be required.",
       "marks": []
      }
     ],
@@ -15647,7 +14942,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Bats can fit through narrow openings because of their flexible shoulder joints and small body size. They find gaps at flashing seams, behind loose soffit panels, and where vent screens have corroded. A focused dusk watch for emergence is the most reliable way to locate the active access point.",
+      "text": "Bats can fit through narrow openings because of their flexible shoulder joints and small body size. They find gaps at flashing seams, behind loose soffit panels, and where vent screens have corroded. A focused dusk watch for emergence is a reliable way to locate the active access point.",
       "marks": []
      }
     ],
@@ -15719,7 +15014,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by colony size, roof complexity, and contamination. Spot exclusion for a vent can be a few hundred dollars, full attic exclusion a few thousand, and heavy sanitation with insulation replacement can rise to the mid five figures in extreme cases. Get written, line-item estimates and references to compare quotes accurately.",
+      "text": "Costs vary by colony size, roof complexity, and contamination. Get written, line-item estimates and references to compare quotes accurately.",
       "marks": []
      }
     ],
@@ -15779,7 +15074,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " is the first step to resolving an infestation safely and cost-effectively. Most bat problems begin at small gaps: soffits, vents, chimneys, and flashing seams. Document emergence, call a licensed technician for inspection, and insist on durable, metal-based exclusion and appropriate sanitation when guano is present. That sequence prevents return visits, protects your HVAC and insulation, and reduces health risk for your household.",
+      "text": " is the first step to resolving an infestation safely and cost-effectively. Most bat problems begin at small gaps: soffits, vents, chimneys, and flashing seams. Document emergence, call a technician for an inspection, and insist on durable, metal-based exclusion and appropriate sanitation when guano is present. That sequence prevents return visits, protects your HVAC and insulation, and reduces health risk for your household.",
       "marks": []
      }
     ],
@@ -15829,7 +15124,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " explains why those signs often appear between May and September. Warm temperatures, heavy summer storms, and year-round food sources accelerate reproduction and push rats into attics, crawlspaces, and garages. If you want a fast, local response start with a professional inspection from our ",
+      "text": " explains why those signs often appear between May and September. Warm temperatures, heavy summer storms, and year-round food sources accelerate reproduction and push rats into attics, crawlspaces, and garages. If you want local help, start with a professional inspection from our ",
       "marks": []
      },
      {
@@ -16172,82 +15467,6 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "One central-Florida homeowner posted a recommended exclusion plan priced near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " that included perimeter trenching and full attic insulation replacement; the thread debated whether the price reflected necessary work or upselling ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "(community thread: roof rats in Florida)",
-      "marks": [
-       "em"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "A condo owner reported roughly ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$30,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " in property damage and about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " spent on cleanup and temporary housing after a severe infestation, with disputes about HOA responsibility appearing in comments.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "Multiple threads flagged concerns over poison baits when pets or non-target wildlife are present; users recommend professional bait station placement and alternatives to free-bait deployment.",
       "marks": []
      }
@@ -16289,8 +15508,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Approach",
        "What it does",
-       "When it works",
-       "Risks and typical cost range"
+       "When it works"
       ]
      },
      {
@@ -16298,8 +15516,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "DIY traps and sealing",
        "Immediate reduction in visible rats; small gap repairs",
-       "Early, localized activity; vigilant homeowner",
-       "Risk of missed entry points; $0 to $300"
+       "Early, localized activity; vigilant homeowner"
       ]
      },
      {
@@ -16307,17 +15524,15 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Traditional pest control",
        "Regular baiting and monitoring",
-       "Population control in neighborhoods with low structural access",
-       "May not fix attic contamination or wiring; $150 to $600/year"
+       "Population control in neighborhoods with low structural access"
       ]
      },
      {
       "_type": "row",
       "cells": [
-       "Licensed wildlife remediation",
+       "Professional wildlife remediation",
        "Full inspection, exclusion work, cleanup, and coordination with trades",
-       "Structural infestations with attic or crawlspace nesting",
-       "Higher up-front cost but reduces recurrence; $800 to $11,000+"
+       "Structural infestations with attic or crawlspace nesting"
       ]
      }
     ]
@@ -16894,7 +16109,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Exclusion focuses on closing the structural vulnerabilities rats use, backing that work with targeted removal and cleanup. Authoritative sources confirm that structural exclusion and sanitation are core components of integrated pest management; see guidance from the Centers for Disease Control and Prevention on rodent control for health-risk reduction and the University of Florida IFAS extension for species behavior and exclusion best practices ",
+      "text": "Exclusion focuses on closing the structural vulnerabilities rats use, backing that work with targeted removal and cleanup. Authoritative sources confirm that structural exclusion and sanitation are core components of integrated pest management; see guidance from the Centers for Disease Control and Prevention on rodent control for health-risk reduction and the University of Florida IFAS extension for species behavior and exclusion guidance ",
       "marks": []
      },
      {
@@ -17416,7 +16631,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by access, species, and the need for remediation. The ranges below combine local field data and contractor averages to give realistic planning numbers.",
+      "text": "Costs vary by access, species, and the need for remediation. Typical timelines are below.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for rat exclusion and attic remediation]",
       "marks": []
      }
     ],
@@ -17430,7 +16657,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Representative range (USD)",
        "Typical timeline"
       ]
      },
@@ -17438,7 +16664,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Inspection and written report",
-       "75 to 250",
        "Same day to 3 days"
       ]
      },
@@ -17446,7 +16671,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Basic exclusion: sealing vents, small gaps",
-       "250 to 900",
        "1 to 3 days"
       ]
      },
@@ -17454,7 +16678,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Full attic exclusion, sanitation, insulation replacement",
-       "800 to 5,000+",
        "2 to 7 days"
       ]
      },
@@ -17462,23 +16685,10 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Electrical or HVAC coordination for chewed wiring",
-       "150 to 3,500 depending on scope",
        "1 to 5 days"
       ]
      }
     ]
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Those figures align with typical local job records and published contractor ranges. In some cases, remediation that includes insulation removal and electrical repairs pushes the invoice into the thousands, which is why a complete exclusion plan is often more cost effective over time than repeated band-aid fixes.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
    },
    {
     "_type": "block",
@@ -17560,7 +16770,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "These examples matter because exclusion is as much a skill as a material cost. Teams that combine field experience, fast response, and documentation produce better long-term results. If you want to see local job examples and what to expect during cleanup see our attic cleanup guide and our article comparing exclusion and trapping at Attic Wildlife Cleanup and Wildlife exclusion vs trapping.",
+      "text": "These examples matter because exclusion is as much a skill as a material cost. Teams that combine field experience, careful follow-up, and documentation produce better long-term results. If you want to see local job examples and what to expect during cleanup see our attic cleanup guide and our article comparing exclusion and trapping at Attic Wildlife Cleanup and Wildlife exclusion vs trapping.",
       "marks": []
      }
     ],
@@ -17882,19 +17092,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats and mice chew to wear down incisors and to access hidden shelters. When they gnaw wire sheathing they expose conductors, which can arc, overheat, and ignite nearby insulation or nesting material. The National Fire Protection Association identifies electrical failure and malfunction as a leading cause of residential fires, and the Centers for Disease Control links rodent infestations to contamination risks when droppings enter HVAC systems. Specific community-reported numbers from our case files show repairs ranging from a few hundred dollars for a single circuit splice to over ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " when full attic insulation and electrical remediation are required.",
+      "text": "Rats and mice chew to wear down incisors and to access hidden shelters. When they gnaw wire sheathing they expose conductors, which can arc, overheat, and ignite nearby insulation or nesting material. The National Fire Protection Association identifies electrical failure and malfunction as a leading cause of residential fires, and the Centers for Disease Control links rodent infestations to contamination risks when droppings enter HVAC systems.",
       "marks": []
      }
     ],
@@ -18172,7 +17370,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary widely by access, scope, and whether insulation, HVAC, or vehicle wiring is involved. These ranges are drawn from our project records and local contractor quotes collected from homeowner reports.",
+      "text": "Costs vary widely by access, scope, and whether insulation, HVAC, or vehicle wiring is involved. Typical timelines are below, drawn from our project records and local contractor reports.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for wiring repair and insulation remediation after rat damage]",
       "marks": []
      }
     ],
@@ -18186,7 +17396,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Representative cost",
        "Typical timeline"
       ]
      },
@@ -18194,7 +17403,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Electrician patch splice for one circuit",
-       "$150 to $800",
        "Same day to 3 days"
       ]
      },
@@ -18202,7 +17410,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Partial attic rewiring and splices",
-       "$800 to $3,500",
        "1 to 5 days"
       ]
      },
@@ -18210,7 +17417,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Insulation removal, sanitation, and replacement",
-       "$800 to $11,000+",
        "2 to 7 days"
       ]
      },
@@ -18218,7 +17424,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Landscape and low-voltage outdoor wiring rebuild",
-       "$250 to $1,200",
        "1 to 3 days"
       ]
      }
@@ -18279,7 +17484,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Licensed wildlife remediation plus trades",
+       "Professional wildlife remediation plus trades",
        "Exclusion, humane removal, sanitation, and coordinated electrician/HVAC work",
        "Higher upfront cost but reduces long-term risk and recurrence"
       ]
@@ -18304,31 +17509,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "From our project notes and industry sources: typical rodent litter sizes and reproduction rates mean a small infestation can grow quickly, so early action is crucial. University extension resources report litter sizes commonly between six and twelve pups and sexual maturity as early as five to seven weeks. From local case files, we have seen single incidents of chewed attic wiring lead to combined remediation invoices exceeding ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$4,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " when hidden damage, insulation replacement, and electrical rewiring were required. Another homeowner paid ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$250",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for a targeted removal only to incur later costs because the wiring and entry point were not fully repaired.",
+      "text": "From our project notes and industry sources: typical rodent litter sizes and reproduction rates mean a small infestation can grow quickly, so early action is crucial. University extension resources report litter sizes commonly between six and twelve pups and sexual maturity as early as five to seven weeks.",
       "marks": []
      }
     ],
@@ -18815,7 +17996,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Budgeting depends on scope. Expect a small repair to run a few hundred dollars. If insulation, HVAC ducts, or large sections of attic wiring are contaminated, comprehensive remediation commonly reaches several thousand dollars. Ask for itemized quotes separating electrical, insulation, and exclusion work.",
+      "text": "Budgeting depends on scope. Ask for itemized quotes separating electrical, insulation, and exclusion work.",
       "marks": []
      }
     ],
@@ -19407,7 +18588,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats cause structural damage, contaminate food, and introduce disease. Damage to electrical wiring is particularly costly because it requires both pest exclusion and electrical repairs. Homeowners report a wide range in repair costs depending on damage extent. Typical ranges observed in field work and contractor reports are below.",
+      "text": "Rats cause structural damage, contaminate food, and introduce disease. Damage to electrical wiring is particularly costly because it requires both pest exclusion and electrical repairs. Homeowners report a wide range in repair costs depending on damage extent. The table shows which species usually causes each type of damage.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for rat damage repairs (insulation and wiring)]",
       "marks": []
      }
     ],
@@ -19421,7 +18614,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Damage type",
-       "Typical repair range (USD)",
        "Primary species responsible"
       ]
      },
@@ -19429,7 +18621,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Attic insulation replacement",
-       "600 to 2,500",
        "Roof rat"
       ]
      },
@@ -19437,7 +18628,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Wiring repair (partial)",
-       "300 to 1,500",
        "Roof rat and Norway rat"
       ]
      },
@@ -19445,7 +18635,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Foundation burrow sealing and landscaping repair",
-       "150 to 1,200",
        "Norway rat"
       ]
      }
@@ -19915,7 +19104,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Traps reduce numbers but rarely prevent re-infestation unless combined with exclusion work and habitat modification. Roof rats often re-enter via trees and utility lines unless vegetation is trimmed and openings are sealed. Professional exclusion plus trapping gives the best long-term result.",
+      "text": "Traps reduce numbers but rarely prevent re-infestation unless combined with exclusion work and habitat modification. Roof rats often re-enter via trees and utility lines unless vegetation is trimmed and openings are sealed. Professional exclusion plus trapping gives a durable long-term result.",
       "marks": []
      }
     ],
@@ -20361,7 +19550,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community-sourced contractor quotes and homeowner reports provide realistic budgeting ranges. The numbers below combine industry averages and local homeowner reports documented in inspection logs and forum-sourced case studies hosted on this site and similar community collections.",
+      "text": "Costs depend on how many entry points need work and whether the attic needs cleanup. Typical timelines from inspection logs and homeowner reports are below.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for sealing rat entry points and partial attic insulation cleanup]",
       "marks": []
      }
     ],
@@ -20375,7 +19576,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Representative cost",
        "Typical timeline"
       ]
      },
@@ -20383,7 +19583,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Inspection and entry mapping",
-       "$75 to $250",
        "Same day to 7 days"
       ]
      },
@@ -20391,7 +19590,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Targeted rodent exclusion (small jobs)",
-       "$200 to $800",
        "1 to 3 days"
       ]
      },
@@ -20399,7 +19597,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Attic insulation cleanup and partial replacement",
-       "$800 to $4,500",
        "1 to 5 days"
       ]
      },
@@ -20407,7 +19604,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Full attic remediation plus repairs",
-       "$3,000 to $11,000 (documented high-end cases)",
        "2 to 7 days"
       ]
      }
@@ -20415,23 +19611,11 @@ export const fallbackPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "These figures reflect the range of simple to complex jobs. One documented homeowner quote on a community-sourced case logged a low-end removal at $250 and a severe cleanup with insulation replacement at over $10,000 when contamination and wiring damage were extensive.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
       "_type": "span",
-      "text": "Comparison: DIY fixes, local pest control, and licensed wildlife exclusion",
+      "text": "Comparison: DIY fixes, local pest control, and professional wildlife exclusion",
       "marks": []
      }
     ],
@@ -20459,7 +19643,7 @@ export const fallbackPosts: Post[] = [
        "Approach",
        "Pros",
        "Cons",
-       "Best when"
+       "Good fit when"
       ]
      },
      {
@@ -20475,7 +19659,7 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Local pest control",
-       "Quick response, affordable for baiting and traps",
+       "Easy to book, affordable for baiting and traps",
        "Often excludes building repair and sanitation scope",
        "If you only need trapping and monitoring"
       ]
@@ -20483,7 +19667,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Licensed wildlife exclusion",
+       "Professional wildlife exclusion",
        "Comprehensive: inspection, exclusion, sanitation, repairs, warranty",
        "Higher cost but reduces repeat visits and hidden contamination",
        "When attic, insulation, or structural access is involved"
@@ -20987,7 +20171,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Regulations vary by location. Some municipalities require licensed firms to handle certain live traps or to relocate animals. Always check local ordinances and consider hiring a licensed wildlife exclusion provider to ensure compliance.",
+      "text": "Regulations vary by location. Some municipalities restrict who may set certain live traps or relocate animals. Always check local ordinances and consider hiring a wildlife exclusion provider who knows the local rules.",
       "marks": []
      }
     ],
@@ -20999,7 +20183,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Schedule a Same-Day Inspection",
+      "text": "Schedule an Inspection",
       "marks": []
      }
     ],
@@ -21035,7 +20219,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " is the most effective way to stop an infestation and to protect your home from contamination and wiring damage. Focus inspections on soffits, vents, utility penetrations, and foundation gaps. Use durable materials such as stainless steel hardware cloth and metal flashing for permanent repairs. When in doubt, document signs and call a licensed exclusion specialist for a thorough inspection, exclusion, and sanitation plan that suits local building types and codes.",
+      "text": " is the most effective way to stop an infestation and to protect your home from contamination and wiring damage. Focus inspections on soffits, vents, utility penetrations, and foundation gaps. Use durable materials such as stainless steel hardware cloth and metal flashing for permanent repairs. When in doubt, document signs and call an exclusion specialist for a thorough inspection, exclusion, and sanitation plan that suits local building types and codes.",
       "marks": []
      }
     ],
@@ -21078,7 +20262,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ". For best practices and local service options see our ",
+      "text": ". For good practice and local service options see our ",
       "marks": []
      },
      {
@@ -21798,7 +20982,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Given a continuous supply of food and shelter, visible infestation growth can occur within weeks and become clearly established within months. The exponential nature of reproduction means that early intervention within the first 30 to 60 days after spotting activity gives the best chance to limit long-term infestation costs.",
+      "text": "Given a continuous supply of food and shelter, visible infestation growth can occur within weeks and become clearly established within months. The exponential nature of reproduction means that early intervention within the first 30 to 60 days after spotting activity improves your chance of limiting long-term infestation costs.",
       "marks": []
      }
     ],
@@ -21888,7 +21072,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Below is a practical comparison of common service scopes. Costs vary by region and severity; these ranges are drawn from industry estimates and local service reports.",
+      "text": "Below is a practical comparison of common service scopes. Costs vary by region and severity; the timelines are drawn from industry estimates and local service reports.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for rat control for a breeding infestation]",
       "marks": []
      }
     ],
@@ -21902,32 +21098,28 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Typical timeline to visible results",
-       "Estimated cost range"
+       "Typical timeline to visible results"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Inspection and exclusion plan",
-       "1 627 days",
-       "$75 to $300"
+       "1 627 days"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Trapping program with follow-up",
-       "1 624 weeks",
-       "$200 to $800"
+       "1 624 weeks"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Full remediation: nest removal, insulation replacement, sanitization",
-       "2 626 weeks",
-       "$800 to $4,000+"
+       "2 626 weeks"
       ]
      }
     ]
@@ -21950,7 +21142,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats respond to food, shelter, and microclimate. When you call for help, tell the provider your county and any recent history of construction or landscaping changes. Local teams know which species are prevalent in specific neighborhoods and which exclusion methods work best. If you are in our service area, request a county-specific inspection through our ",
+      "text": "Rats respond to food, shelter, and microclimate. When you call for help, tell the provider your county and any recent history of construction or landscaping changes. Local teams know which species are prevalent in specific neighborhoods and which exclusion methods hold up. If you are in our service area, request a county-specific inspection through our ",
       "marks": []
      },
      {
@@ -22148,7 +21340,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you see multiple droppings, hear increased nocturnal activity, or find nests or burrows, call a licensed pest or wildlife control professional. Rapid professional intervention reduces the chance that a breeding population will become costly and difficult to remove.",
+      "text": "If you see multiple droppings, hear increased nocturnal activity, or find nests or burrows, call a pest or wildlife control professional. Rapid professional intervention reduces the chance that a breeding population will become costly and difficult to remove.",
       "marks": []
      }
     ],
@@ -22184,7 +21376,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " is: fast enough that delays cost you time and money. With a gestation of about three weeks, litters commonly in the 6 to 12 range, and puberty at roughly five to seven weeks, rats can produce multiple overlapping generations within months. The best response is prompt action: document signs, secure food, and schedule a local inspection through our ",
+      "text": " is: fast enough that delays cost you time and money. With a gestation of about three weeks, litters commonly in the 6 to 12 range, and puberty at roughly five to seven weeks, rats can produce multiple overlapping generations within months. Act promptly: document signs, secure food, and schedule a local inspection through our ",
       "marks": []
      },
      {
@@ -22520,7 +21712,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost discussions are common on Reddit and in contractor quotes. Community-sourced figures combined with industry data give a practical budgeting range.",
+      "text": "Cost discussions are common on Reddit and in contractor quotes. Typical timelines for each service are below.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for raccoon removal, exclusion and attic cleanup]",
       "marks": []
      }
     ],
@@ -22534,7 +21738,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Representative Cost",
        "Typical Timeline"
       ]
      },
@@ -22542,7 +21745,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Inspection and species ID",
-       "$75 to $250",
        "1 visit, same day to a week"
       ]
      },
@@ -22550,7 +21752,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Targeted raccoon removal",
-       "$250 to $1,200 (many threads reported $250 for a single removal)",
        "1 to 14 days depending on trapping strategy"
       ]
      },
@@ -22558,7 +21759,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Exclusion and roofline repairs",
-       "$400 to $3,500 typical; complex jobs reach $5,000+",
        "1 to 7 days"
       ]
      },
@@ -22566,7 +21766,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Attic sanitation and insulation replacement",
-       "$800 to $11,000 depending on area and extent; some Reddit reports cited $11,000 for full replacement",
        "1 to 5 days"
       ]
      }
@@ -22578,7 +21777,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "These numbers match the ranges found on professional articles about attic wildlife cleanup and exclusion economics. Get line-item quotes that separate inspection, removal, exclusion, sanitation, and repair so you can compare bids fairly.",
+      "text": "Get line-item quotes that separate inspection, removal, exclusion, sanitation, and repair so you can compare bids fairly.",
       "marks": []
      }
     ],
@@ -22870,7 +22069,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Comparison: DIY, local pest control, or licensed wildlife removal company",
+      "text": "Comparison: DIY, local pest control, or professional wildlife removal company",
       "marks": []
      }
     ],
@@ -22907,7 +22106,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Licensed wildlife removal and exclusion",
+       "Professional wildlife removal and exclusion",
        "Comprehensive: removal, exclusion, sanitation, repairs, and warranty",
        "Higher cost but reduces repeat visits and long-term expenses"
       ]
@@ -22992,7 +22191,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Basic removal and temporary exclusion may run a few hundred to a thousand dollars. Comprehensive exclusion plus sanitation and insulation replacement can range from $800 to $11,000 depending on damage. Community reports include $250 for single removals and $11,000 for full insulation and duct replacement in severe cases. Always ask for itemized quotes.",
+      "text": "It depends on how many raccoons are inside, how they got in, and how much of the attic needs cleanup. Always ask for itemized quotes.",
       "marks": []
      }
     ],
@@ -23064,7 +22263,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "It is possible but risky. Improper trapping can injure animals, leave young behind, or violate local regulations. Many Reddit users who attempted DIY trapping later paid more to fix mistakes. If you choose DIY, follow local wildlife rules and arrange to check traps frequently. Prefer licensed wildlife services if you lack experience.",
+      "text": "It is possible but risky. Improper trapping can injure animals, leave young behind, or violate local regulations. Many Reddit users who attempted DIY trapping later paid more to fix mistakes. If you choose DIY, follow local wildlife rules and arrange to check traps frequently. Hire a wildlife professional if you lack experience.",
       "marks": []
      }
     ],
@@ -23182,7 +22381,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " so a licensed technician can inspect and give an itemized plan. Left untreated, a small opossum problem can create odors, attract fleas, and complicate repairs that raise long-term costs.",
+      "text": " so a technician can inspect and give an itemized plan. Left untreated, a small opossum problem can create odors, attract fleas, and complicate repairs that raise long-term costs.",
       "marks": []
      }
     ],
@@ -23548,7 +22747,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Schedule a licensed inspection so entry points can be mapped and the presence of young assessed. Our team’s inspection services are described in ",
+      "text": "Schedule an inspection so entry points can be mapped and the presence of young assessed. Our team’s inspection services are described in ",
       "marks": []
      },
      {
@@ -23632,7 +22831,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary widely by location, number of animals, and whether insulation or wiring needs repair. The table below compares typical services and ranges based on industry surveys and real homeowner quotes collected from community forums.",
+      "text": "Costs vary widely by location, number of animals, and whether insulation or wiring needs repair. The table below compares typical services, based on industry surveys and homeowner reports from community forums.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for opossum crawl space removal, cleanup and exclusion]",
       "marks": []
      }
     ],
@@ -23646,7 +22857,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Typical cost range",
        "Notes"
       ]
      },
@@ -23654,7 +22864,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Inspection and live removal",
-       "$150 to $450",
        "One-time visit to assess and remove adults; excludes cleanup"
       ]
      },
@@ -23662,7 +22871,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Crawl space cleanup and deodorization",
-       "$300 to $1,200",
        "HEPA vacuuming, antimicrobial treatment, odor control"
       ]
      },
@@ -23670,7 +22878,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Insulation replacement (contaminated)",
-       "$2.50 to $6 per sq ft",
        "Many homeowners find full removal required if insulation is saturated"
       ]
      },
@@ -23678,7 +22885,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Exclusion repairs and sealing",
-       "$200 to $1,200",
        "Depends on number of entry points and foundation access"
       ]
      },
@@ -23686,8 +22892,7 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Pheromone or deterrent treatment",
-       "Quoted example: $500",
-       "One Reddit user shared a $500 pheromone treatment quote; effectiveness varies"
+       "Effectiveness varies; repellents do not replace sealing entry points"
       ]
      }
     ]
@@ -23839,7 +23044,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Choose a licensed provider that offers a written scope. A complete service should include:",
+      "text": "Choose a provider that offers a written scope. A complete service should include:",
       "marks": []
      }
     ],
@@ -24069,7 +23274,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "This is the most common, urgent worry. If young are present and too small to leave the nest, blocking the mother will likely result in abandonment and death. A professional inspection can determine the ages of the young and the correct exclusion timing. Several homeowners on Reddit reported facing this exact dilemma and were advised to have a licensed remover assess and, if needed, temporarily allow the mother access until juveniles can disperse.",
+      "text": "This is the most common, urgent worry. If young are present and too small to leave the nest, blocking the mother will likely result in abandonment and death. A professional inspection can determine the ages of the young and the correct exclusion timing. Several homeowners on Reddit reported facing this exact dilemma and were advised to have a wildlife professional assess and, if needed, temporarily allow the mother access until juveniles can disperse.",
       "marks": []
      }
     ],
@@ -24093,7 +23298,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Do not attempt to seal openings while animals are inside. The safe approach is inspection, humane eviction or trapping by licensed pros if local law requires trapping, and then exclusion. Professionals use one-way doors where appropriate and verify juveniles have left before permanent sealing. For guidance on humane approaches, see our article on ",
+      "text": "Do not attempt to seal openings while animals are inside. The safe approach is inspection, humane eviction or trapping by professionals if local law requires trapping, and then exclusion. Professionals use one-way doors where appropriate and verify juveniles have left before permanent sealing. For guidance on humane approaches, see our article on ",
       "marks": []
      },
      {
@@ -24201,7 +23406,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Some homeowners reported paying for pheromone treatments, with one Reddit poster quoting $500. Effectiveness is mixed. Repellents can work short term but do not replace sealing entry points and removing attractants. If you have pets or local wildlife regulations, consult professionals before applying chemicals.",
+      "text": "Effectiveness is mixed. Repellents can work short term but do not replace sealing entry points and removing attractants. If you have pets or local wildlife regulations, consult professionals before applying chemicals.",
       "marks": []
      }
     ],
@@ -24225,7 +23430,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Budget ranges from a few hundred dollars for small, simple jobs to several thousand when insulation replacement or structural repairs are needed. Typical total jobs often fall between $700 and $4,000 depending on contamination, repairs, and local labor rates. Ask for an itemized quote that separates inspection, removal, cleanup, insulation work, and repairs.",
+      "text": "It depends on how many animals are involved, how much cleanup the crawl space needs, and what repairs are required. Ask for an itemized quote that separates inspection, removal, cleanup, insulation work, and repairs.",
       "marks": []
      }
     ],
@@ -24261,7 +23466,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " is a common but solvable problem. Prioritize a licensed inspection so technicians can confirm whether young are present, eliminate fleas and contaminants, and seal all entry points correctly. Quick, professional action reduces long-term odor, health, and repair costs and prevents repeat visits. If you want a site-specific estimate and humane removal, contact our team for a timed inspection and an itemized plan.",
+      "text": " is a common but solvable problem. Prioritize a professional inspection so technicians can confirm whether young are present, eliminate fleas and contaminants, and seal all entry points correctly. Quick, professional action reduces long-term odor, health, and repair costs and prevents repeat visits. If you want a site-specific estimate and humane removal, contact our team for a timed inspection and an itemized plan.",
       "marks": []
      }
     ],
@@ -24413,19 +23618,12 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " infestations can cause structural damage, foul odors, and health risks. Homeowners who wait often face larger bills. One homeowner on a public forum reported contractor estimates between ",
+      "text": " infestations can cause structural damage, foul odors, and health risks. Homeowners who wait often face larger bills. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$2,000 and $6,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " to remove two colonies and repair attic access points, which matches the range experienced in our service area. This page explains how attic bat colonies behave, what the real costs look like, and how a documented inspection plus professional exclusion protects your home and household.",
+      "text": "This page explains how attic bat colonies behave, what drives the cost, and how a documented inspection plus professional exclusion protects your home and household.",
       "marks": []
      }
     ],
@@ -24632,7 +23830,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Several bat species are protected under state and federal guidelines. The U.S. Fish and Wildlife Service explains that exclusions during maternity season are restricted in many jurisdictions to avoid separating pups from mothers. Installing a bat house is sometimes proposed as a humane alternative, but community reports show mixed success. One homeowner successfully mounted a bat box in nearby trees and reported bats roosting there, while others found the colony returned to the attic. A certified wildlife professional can advise on local timing, permitted methods, and best practices that satisfy both legal obligations and conservation goals. For guidance on bat-friendly solutions, Bat Conservation International is a reliable resource.",
+      "text": "Several bat species are protected under state and federal guidelines. The U.S. Fish and Wildlife Service explains that exclusions during maternity season are restricted in many jurisdictions to avoid separating pups from mothers. Installing a bat house is sometimes proposed as a humane alternative, but community reports show mixed success. One homeowner successfully mounted a bat box in nearby trees and reported bats roosting there, while others found the colony returned to the attic. A wildlife professional can advise on local timing, permitted methods, and good practice that satisfies both legal obligations and conservation goals. For guidance on bat-friendly solutions, Bat Conservation International is a reliable resource.",
       "marks": []
      }
     ],
@@ -24656,7 +23854,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost estimates vary with colony size, contamination level, and repair scope. Community-sourced data and service records provide a realistic range:",
+      "text": "Cost estimates vary with colony size, contamination level, and repair scope. The table below shows what each type of job usually includes.",
       "marks": []
      }
     ],
@@ -24668,82 +23866,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Spot exclusion around a single soffit or vent:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $300 to $1,200.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Complete attic exclusion with monitoring:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $800 to $3,500 depending on roofline complexity.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Sanitation and insulation replacement after heavy contamination:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " $5,000 to $13,000. Our related posts show examples where full attic remediation reached about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,500 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for heavily soiled insulation.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Below is a comparison table that reflects typical scenarios and expected budgets.",
+      "text": "[PLACEHOLDER: ask the client: price range for bat colony exclusion and attic cleanup]",
       "marks": []
      }
     ],
@@ -24757,7 +23880,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Situation",
-       "Typical cost",
        "What is included"
       ]
      },
@@ -24765,7 +23887,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Single vent or soffit sealing",
-       "$300 to $1,200",
        "Inspection, metal screening or flashing, one-week check"
       ]
      },
@@ -24773,7 +23894,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Attic exclusion for small colony",
-       "$800 to $3,500",
        "Full attic survey, one-way exclusion devices, monitoring, basic repairs"
       ]
      },
@@ -24781,7 +23901,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Contaminated attic sanitation and insulation replacement",
-       "$5,000 to $13,000",
        "Guano removal, HEPA vacuuming, insulation removal, replacement, odor treatment"
       ]
      }
@@ -25194,7 +24313,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Consider the following simple rule: if you detect guano covering insulation, chewed wiring, or HVAC contamination, choose sanitation and insulation replacement now. Our internal case history includes examples where delaying remediation led to replacement costs above $10,000. Investing in thorough exclusion and cleanup can prevent those escalating expenses.",
+      "text": "Consider the following simple rule: if you detect guano covering insulation, chewed wiring, or HVAC contamination, choose sanitation and insulation replacement now. Investing in thorough exclusion and cleanup can prevent those escalating expenses.",
       "marks": []
      }
     ],
@@ -25230,7 +24349,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Expect a wide range depending on colony size, roof complexity, and contamination. Simple exclusion around a few vents can be a few hundred dollars. Full attic exclusion with sanitation and insulation replacement can range from about $5,000 to over $12,000 in heavily contaminated cases. Ask for a line-item inspection report to compare quotes accurately.",
+      "text": "Expect a wide range depending on colony size, roof complexity, and contamination. Ask for a line-item inspection report to compare quotes accurately.",
       "marks": []
      }
     ],
@@ -25420,7 +24539,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " assessment right away. Start with a certified inspection from our ",
+      "text": " assessment right away. Start with an inspection from our ",
       "marks": []
      },
      {
@@ -25538,43 +24657,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Real homeowner threads reveal three recurring themes you should expect to hear from technicians or read in quotes: costs vary widely depending on containment and insulation, some contractors recommend insulation removal while others attempt in-place sanitation, and negative-pressure containment is the gold standard for high-volume guano. Reddit users reported remediation quotes ranging from roughly ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$1,500 to $3,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for focused guano cleanup to more than ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " when insulation replacement was recommended. One homeowner reported a national company recommending full insulation replacement for about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " after previously being told a spray would suffice.",
+      "text": "Real homeowner threads reveal three recurring themes you should expect to hear from technicians or read in quotes: costs vary widely depending on containment and insulation, some contractors recommend insulation removal while others attempt in-place sanitation, and negative-pressure containment is the gold standard for high-volume guano.",
       "marks": []
      }
     ],
@@ -25796,7 +24879,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "The table below summarizes common scopes and representative cost ranges reported by contractors and homeowners. Use this as budgeting context; local labor and access complexity change final estimates.",
+      "text": "The table below summarizes common scopes reported by contractors and homeowners. Local labor and access complexity change final estimates.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for bat guano cleanup (light, moderate and heavy contamination)]",
       "marks": []
      }
     ],
@@ -25811,8 +24906,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Cleanup Scope",
        "Signs",
-       "Typical Contractor Action",
-       "Representative Cost Range"
+       "Typical Contractor Action"
       ]
      },
      {
@@ -25820,8 +24914,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Light guano, limited piles",
        "Scattered droppings, localized piles, no HVAC contamination",
-       "HEPA vacuuming, spot sanitizing, exclusion",
-       "$300 to $1,500"
+       "HEPA vacuuming, spot sanitizing, exclusion"
       ]
      },
      {
@@ -25829,8 +24922,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Moderate guano over insulation",
        "Persistent odor, piles along joists, some soiling of batt or loose-fill",
-       "Containment, HEPA vac, sanitize, possible partial insulation removal",
-       "$1,500 to $4,000"
+       "Containment, HEPA vac, sanitize, possible partial insulation removal"
       ]
      },
      {
@@ -25838,8 +24930,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Heavy guano with HVAC/insulation contamination",
        "Ammonia smell in living areas, duct contamination, saturated insulation",
-       "Negative-pressure containment, full insulation removal, duct cleaning",
-       "$3,500 to $11,000+"
+       "Negative-pressure containment, full insulation removal, duct cleaning"
       ]
      }
     ]
@@ -26050,7 +25141,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs depend on access, volume, and whether insulation or ducts require replacement. Typical ranges reported by homeowners and contractors are $300 to $1,500 for light cleanup, $1,500 to $4,000 for moderate contamination, and $3,500 to $11,000 or more when full insulation replacement and ductwork are needed.",
+      "text": "Costs depend on access, volume, and whether insulation or ducts require replacement.",
       "marks": []
      }
     ],
@@ -26170,7 +25261,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For reliable, safe results you need a documented plan that begins with an inspection, completed exclusion, and then a certified ",
+      "text": "For reliable, safe results you need a documented plan that begins with an inspection, completed exclusion, and then a thorough ",
       "marks": []
      },
      {
@@ -26379,14 +25470,14 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Contractor licensing and failed exclusions:",
+      "text": "Contractor credentials and failed exclusions:",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": " One public poster described hiring a large pest company that performed exclusion work without proper bat-specific licensure, then returned to find bats had reentered and contamination spread into HVAC systems. The poster reported living in a hotel and facing hundreds of thousands of dollars in damage. That story underscores the value of hiring experienced, properly credentialed bat professionals.",
+      "text": " One public poster described hiring a large pest company that performed exclusion work without proper bat-specific licensure, then returned to find bats had reentered and contamination spread into HVAC systems. That story underscores the value of hiring experienced, properly credentialed bat professionals.",
       "marks": []
      }
     ],
@@ -26407,7 +25498,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Community threads and technical guidance both highlight that bat guano concentrated over air handlers or ducts creates odor and air-quality hazards that often require certified cleanup. The CDC and other authorities provide guidance on safe handling during remediation.",
+      "text": " Community threads and technical guidance both highlight that bat guano concentrated over air handlers or ducts creates odor and air-quality hazards that often require professional cleanup. The CDC and other authorities provide guidance on safe handling during remediation.",
       "marks": []
      }
     ],
@@ -26433,7 +25524,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "State and federal rules overlap. Use these broad principles as a working checklist, then confirm local details with Florida Fish and Wildlife or a licensed contractor.",
+      "text": "State and federal rules overlap. Use these broad principles as a working checklist, then confirm local details with Florida Fish and Wildlife or a qualified contractor.",
       "marks": []
      }
     ],
@@ -26473,7 +25564,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Excluding bats during maternity months can trap young inside and violate laws or best-practice guidance. Licensed wildlife professionals use one-way devices and timed exclusions to avoid this problem.",
+      "text": " Excluding bats during maternity months can trap young inside and violate laws or accepted guidance. Trained wildlife professionals use one-way devices and timed exclusions to avoid this problem.",
       "marks": []
      }
     ],
@@ -26675,7 +25766,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by region, contamination, and house size. These representative ranges combine homeowner reports and industry estimates. For Florida-specific numbers see our cost post on ",
+      "text": "Costs vary by region, contamination, and house size. The table shows what drives the price of each service. For more on Florida pricing see our post on ",
       "marks": []
      },
      {
@@ -26700,6 +25791,18 @@ export const fallbackPosts: Post[] = [
     ]
    },
    {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for bat inspection, exclusion and guano cleanup in Florida]",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
     "_type": "table",
     "hasHeader": true,
     "rows": [
@@ -26707,7 +25810,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Representative Florida range",
        "What affects price"
       ]
      },
@@ -26715,7 +25817,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Inspection and species ID",
-       "$150 to $450",
        "Attic access, time to identify maternity activity"
       ]
      },
@@ -26723,7 +25824,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Standard exclusion (no heavy contamination)",
-       "$400 to $2,000",
        "Number of access points, roofline complexity"
       ]
      },
@@ -26731,7 +25831,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Bat guano cleanup and HVAC remediation",
-       "$1,500 to $10,000+",
        "Containment needs, ductwork involvement, hazardous disposal"
       ]
      },
@@ -26739,7 +25838,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Full attic remediation with insulation replacement",
-       "$5,000 to $15,000",
        "Insulation area, contamination depth, HVAC access"
       ]
      }
@@ -26763,7 +25861,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Comparison: DIY, unlicensed pest work, and licensed bat exclusion",
+      "text": "Comparison: DIY, general pest work, and professional bat exclusion",
       "marks": []
      }
     ],
@@ -26806,7 +25904,7 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Unlicensed pest work",
+       "General pest work",
        "Moderate",
        "Possible illegal practice and poor documentation",
        "Higher chance of return and liability for resulting damage"
@@ -26815,10 +25913,10 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Licensed bat exclusion and remediation",
+       "Professional bat exclusion and remediation",
        "Moderate to high",
        "Lowest legal and health risk when done correctly",
-       "Best long-term prevention and proper cleanup"
+       "Durable long-term prevention and proper cleanup"
       ]
      }
     ]
@@ -26841,7 +25939,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Florida counties and municipalities may have specific permits or licensed contractor requirements. If you live in a coastal county, near a national park, or inside a city with wildlife ordinances, expect extra paperwork or seasonal constraints. When you search for local help, use terms like ",
+      "text": "Florida counties and municipalities may have specific permit or contractor requirements. If you live in a coastal county, near a national park, or inside a city with wildlife ordinances, expect extra paperwork or seasonal constraints. When you search for local help, use terms like ",
       "marks": []
      },
      {
@@ -26853,7 +25951,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " plus your county name to find operators who show local licensing and insured remediation experience. Our local service pages list region-specific guidance and are a good place to start when comparing estimates.",
+      "text": " plus your county name to find operators who show local remediation experience. Our local service pages list region-specific guidance and are a good place to start when comparing estimates.",
       "marks": []
      }
     ],
@@ -26993,7 +26091,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Seal interior access to attics and wall cavities from inside where permissible; document everything with photos so licensed contractors can plan exclusion that obeys regulations.",
+      "text": "Seal interior access to attics and wall cavities from inside where permissible; document everything with photos so contractors can plan exclusion that obeys regulations.",
       "marks": []
      }
     ],
@@ -27159,7 +26257,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Yes. Multiple public reports describe incomplete exclusions, illegal work, and resulting HVAC contamination. One homeowner described severe damage and extended displacement after unlicensed exclusion work. Use those reports as cautionary tales: hire licensed professionals, insist on photographic documentation, and require a written warranty for exclusion work.",
+      "text": "Yes. Multiple public reports describe incomplete exclusions, illegal work, and resulting HVAC contamination. One homeowner described severe damage and extended displacement after exclusion work by an unqualified crew. Use those reports as cautionary tales: hire experienced bat professionals, insist on photographic documentation, and require a written warranty for exclusion work.",
       "marks": []
      }
     ],
@@ -27289,7 +26387,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Not always. Exclusion is legal when it follows state and federal rules, avoids harming juveniles, and is performed by allowed methods. Illegal exclusion usually involves killing bats or sealing pups inside. Good documentation and use of licensed technicians reduce legal exposure.",
+      "text": "Not always. Exclusion is legal when it follows state and federal rules, avoids harming juveniles, and is performed by allowed methods. Illegal exclusion usually involves killing bats or sealing pups inside. Good documentation and use of trained technicians reduce legal exposure.",
       "marks": []
      }
     ],
@@ -27355,7 +26453,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Yes. Penalties vary by violation and species. Fines or other enforcement actions can arise where lethal control, nest destruction, or unlawful exclusion occurs. Good documentation and use of licensed technicians reduce legal exposure.",
+      "text": "Yes. Penalties vary by violation and species. Fines or other enforcement actions can arise where lethal control, nest destruction, or unlawful exclusion occurs. Good documentation and use of trained technicians reduce legal exposure.",
       "marks": []
      }
     ],
@@ -27391,7 +26489,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " helps you protect your family while staying within legal and ethical rules. The core steps are quick identification, hiring a properly credentialed technician, and separating quotes for exclusion, sanitation, and structural or HVAC repairs. Community reports show the real cost of cutting corners: delayed exclusions, return infestations, and sometimes catastrophic cleanup bills. If you are unsure where to start, schedule a documented inspection from a licensed professional so you have an evidence-based plan and a line-item scope to share with insurers or county wildlife authorities.",
+      "text": " helps you protect your family while staying within legal and ethical rules. The core steps are quick identification, hiring a properly credentialed technician, and separating quotes for exclusion, sanitation, and structural or HVAC repairs. Community reports show the real cost of cutting corners: delayed exclusions, return infestations, and sometimes catastrophic cleanup bills. If you are unsure where to start, schedule a documented inspection from a professional so you have an evidence-based plan and a line-item scope to share with insurers or county wildlife authorities.",
       "marks": []
      }
     ],
@@ -27648,19 +26746,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community reports are blunt and specific. One homeowner posted an inspection-based bill near four thousand five hundred dollars to seal entry points, replace insulation in sections, and repair wiring after squirrel or mouse activity. Others have shared insulation replacement quotes ranging from about six dollars per square foot to full-attic replacement invoices in the range of ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,500 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". Those numbers help set realistic expectations when you compare quotes from insulation contractors and wildlife specialists.",
+      "text": "Community reports are blunt: partial fixes often lead to bigger insulation and wiring repairs later.",
       "marks": []
      }
     ],
@@ -27780,7 +26866,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Below is a practical comparison to help you choose between targeted repairs and full remediation. Numbers reflect contractor ranges, homeowner reports on public forums, and regional price surveys. Use the linked cost guide for sample local numbers: ",
+      "text": "Below is a practical comparison to help you choose between targeted repairs and full remediation. It draws on contractor experience and homeowner reports on public forums. For more on cleanup see: ",
       "marks": []
      },
      {
@@ -27805,6 +26891,18 @@ export const fallbackPosts: Post[] = [
     ]
    },
    {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for squirrel insulation repair and attic remediation]",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
     "_type": "table",
     "hasHeader": true,
     "rows": [
@@ -27813,7 +26911,6 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Action",
        "When it is appropriate",
-       "Representative cost range",
        "Pros and cons"
       ]
      },
@@ -27822,7 +26919,6 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Targeted spot repair and exclusion",
        "Small, localized damage without wiring or HVAC contamination",
-       "$300 to $1,500",
        "Pros: lower cost, faster. Cons: risk of missed contamination."
       ]
      },
@@ -27831,7 +26927,6 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Partial insulation removal and replacement",
        "Soiled or matted areas under nests; visible contamination",
-       "$6 to $10 per sq ft applied or $500 to $3,500 total depending on area",
        "Pros: removes contamination. Cons: higher cost and more disruption."
       ]
      },
@@ -27840,7 +26935,6 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Full attic remediation: exclusion, sanitation, full insulation replacement",
        "Extensive contamination, duct/HVAC involvement, chewed electrical across attic",
-       "$3,000 to $12,500+",
        "Pros: comprehensive and durable. Cons: largest upfront cost."
       ]
      },
@@ -27849,7 +26943,6 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Electrical rewiring and HVAC duct clean",
        "Any gnawed wiring or duct contamination found",
-       "$300 to $3,500+ depending on scope",
        "Safety-first expense; often required before insulation replacement."
       ]
      }
@@ -28002,7 +27095,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " seal entry points, remove animals humanely or by licensed professionals, and clear nests under proper handling rules.",
+      "text": " seal entry points, remove animals humanely or by trained professionals, and clear nests under proper handling rules.",
       "marks": []
      }
     ],
@@ -28111,7 +27204,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Deciding whether to tackle the work yourself depends on the scale of damage, safety concerns, and your local codes. DIY can work for small, dry, clearly limited damage without wiring or HVAC involvement. But community reports repeatedly show homeowners who attempted a partial DIY cleanup and later faced larger replacement bills. One homeowner reported discovering chewed wiring and quoted $4,500 for full remediation after an initial DIY attempt failed to address hidden damage.",
+      "text": "Deciding whether to tackle the work yourself depends on the scale of damage, safety concerns, and your local codes. DIY can work for small, dry, clearly limited damage without wiring or HVAC involvement. But community reports repeatedly show homeowners who attempted a partial DIY cleanup and later faced larger replacement bills.",
       "marks": []
      }
     ],
@@ -28275,7 +27368,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by region and scope. Small repairs can be under a thousand dollars. Partial replacement commonly falls in the range of six dollars per square foot, and comprehensive exclusion plus full attic remediation has been reported between three thousand and over twelve thousand dollars in worst-case scenarios. Always get itemized written estimates.",
+      "text": "Costs vary by region and scope. Always get itemized written estimates.",
       "marks": []
      }
     ],
@@ -28477,7 +27570,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Squirrel insulation damage is more than a nuisance. It can reduce comfort, raise bills, and create real safety hazards when wiring or ducts are involved. Use the data points homeowners share to set expectations: localized fixes can be affordable, but contamination and wiring issues can push costs into the thousands. Start with a professional wildlife removal inspection, then follow a coordinated plan that addresses hazards, cleans contamination, and restores attic insulation squirrels performance with a durable exclusion warranty.",
+      "text": "Squirrel insulation damage is more than a nuisance. It can reduce comfort, raise bills, and create real safety hazards when wiring or ducts are involved. Start with a professional wildlife removal inspection, then follow a coordinated plan that addresses hazards, cleans contamination, and restores attic insulation squirrels performance with a durable exclusion warranty.",
       "marks": []
      }
     ],
@@ -28489,7 +27582,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When you are ready, ask for an itemized estimate and a staged plan so you can budget and avoid repeat visits. If you want us to review photos or schedule an inspection, we can connect you with local specialists who document findings and coordinate licensed trades.",
+      "text": "When you are ready, ask for an itemized estimate and a staged plan so you can budget and avoid repeat visits. If you want us to review photos or schedule an inspection, we can connect you with local specialists who document findings and coordinate the right trades.",
       "marks": []
      }
     ],
@@ -28581,7 +27674,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Squirrels chew for three practical reasons: to wear down continuously growing incisors, to explore and expand nesting areas, and to gather materials for nests. Electrical wiring presents a tempting, soft material and is often hidden behind insulation or inside car engine bays where squirrels seek warmth. Reddit threads show repeated examples: one homeowner found a squirrel had chewed through both the outer and inner insulation of multiple ceiling wires, creating a “squirrel mansion” that included sticks and shredded insulation. Another reported hundreds of dollars in ruined string lights after repeated attacks, and several users described vehicle wiring chewed under hoods that required expensive shop repairs.",
+      "text": "Squirrels chew for three practical reasons: to wear down continuously growing incisors, to explore and expand nesting areas, and to gather materials for nests. Electrical wiring presents a tempting, soft material and is often hidden behind insulation or inside car engine bays where squirrels seek warmth. Reddit threads show repeated examples: one homeowner found a squirrel had chewed through both the outer and inner insulation of multiple ceiling wires, creating a “squirrel mansion” that included sticks and shredded insulation.",
       "marks": []
      }
     ],
@@ -28825,7 +27918,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Repair costs vary by location, accessibility, and whether electrical, HVAC, or insulation work is required. Community reports on Reddit provide realistic price points: a homeowner who found major attic chewing received electrician quotes ranging from a few hundred dollars for a single circuit to several thousand dollars for attic rewiring. Buried lamp-post and landscape wiring repairs were reported in the low hundreds when shallow splices were possible, but full re-runs to code can cost more. Use the table below to plan conservatively and get written estimates from local pros.",
+      "text": "Repair costs vary by location, accessibility, and whether electrical, HVAC, or insulation work is required. Use the table below to plan conservatively and get written estimates from local pros.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for repairing wiring and insulation damaged by rodents]",
       "marks": []
      }
     ],
@@ -28839,7 +27944,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Repair Type",
-       "Typical Cost Range",
        "Notes"
       ]
      },
@@ -28847,7 +27951,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Patch wiring (single circuit)",
-       "$150 to $800",
        "Small accessible repairs; includes electrician visit and splices"
       ]
      },
@@ -28855,7 +27958,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Partial attic rewiring",
-       "$800 to $3,500",
        "Depends on attic area and access; Reddit users cited mixed quotes"
       ]
      },
@@ -28863,7 +27965,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Insulation removal and replacement",
-       "$800 to $5,000",
        "Necessary if contamination or nesting material is extensive"
       ]
      },
@@ -28871,7 +27972,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Vehicle wiring repairs",
-       "$200 to $1,500+",
        "Varies by make/model; repeated incidents increase total cost"
       ]
      }
@@ -29293,7 +28393,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs depend on access and scope. Small local rewiring may be a few hundred dollars while full attic remediation and insulation replacement can run into the thousands. Reddit threads show quotes from a few hundred to over ten thousand dollars for combined duct, insulation, and wiring repairs when multiple systems were affected. Get multiple written estimates and separate exclusion from repair scopes.",
+      "text": "Costs depend on access and scope. Get multiple written estimates and separate exclusion from repair scopes.",
       "marks": []
      }
     ],
@@ -29987,7 +29087,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Flying squirrel interventions are usually less expensive than large-mammal exclusion. Typical service items you will see in quotes include inspection, one-way exclusion devices, and minor repairs. From our internal data and homeowner reports on regional forums, expect these rough ranges:",
+      "text": "Flying squirrel interventions are usually less expensive than large-mammal exclusion. Typical service items you will see in quotes include inspection, one-way exclusion devices, and minor repairs. The table below explains what each item covers.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for flying squirrel inspection, exclusion and cleanup]",
       "marks": []
      }
     ],
@@ -30001,7 +29113,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Typical cost range",
        "Notes"
       ]
      },
@@ -30009,7 +29120,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Inspection and report",
-       "$75 to $200",
        "Depends on travel and thoroughness"
       ]
      },
@@ -30017,7 +29127,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "One-way exclusion device installation",
-       "$125 to $400",
        "Allows animals to leave but not return"
       ]
      },
@@ -30025,7 +29134,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Minor attic cleanup and sanitization",
-       "$300 to $1,200",
        "Depends on contamination level; larger cleanups cost more"
       ]
      },
@@ -30033,23 +29141,10 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Structural repairs (soffit, venting)",
-       "$200 to $1,500+",
        "Complex repairs cost more"
       ]
      }
     ]
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "These ranges track with costs reported in related posts on this site, which show attic remediation and repair quotes that vary widely by scope. For larger contamination like heavy insulation replacement readers reported quotes near $6 per square foot in comparable wildlife cases.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
    },
    {
     "_type": "block",
@@ -30236,7 +29331,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Flying squirrels are wild native mammals. Relocation and handling rules vary by county and by whether the animal is injured or orphaned. Professionals know local regulations and humane practices. Contact a licensed wildlife control specialist before attempting live capture or relocation.",
+      "text": "Flying squirrels are wild native mammals. Relocation and handling rules vary by county and by whether the animal is injured or orphaned. Professionals know local regulations and humane practices. Contact a wildlife control specialist before attempting live capture or relocation.",
       "marks": []
      }
     ],
@@ -30328,7 +29423,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " the risk is not only holes in shingles. Raccoons create access points that let water, pests, and wind into your attic, they shred insulation and ductwork, and they can expose wiring that leads to fire risk. For a local, licensed evaluation and an exclusion plan tied to roof repairs, start with our ",
+      "text": " the risk is not only holes in shingles. Raccoons create access points that let water, pests, and wind into your attic, they shred insulation and ductwork, and they can expose wiring that leads to fire risk. For a local evaluation and an exclusion plan tied to roof repairs, start with our ",
       "marks": []
      },
      {
@@ -30462,18 +29557,6 @@ export const fallbackPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Specific real-world examples from community threads include one homeowner who paid about $4,500 for combined attic remediation and exclusion after finding shredded insulation and electrical issues, and a renter who was quoted $250 for removal but discovered the roof hole would require far more work. These concrete cases are useful when you compare contractor estimates.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -30577,74 +29660,6 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community-sourced figures will help you evaluate bids. Representative numbers pulled from homeowner reports and contractor estimates are:",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Active raccoon removal only: about $250 in simple cases.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Targeted exclusion and monitoring: $400 to $3,500 depending on roofline and materials.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Full attic sanitation and insulation replacement: commonly $6,000 to $8,000 in heavily contaminated cases, with some reports under $5,000 for smaller attics.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Major HVAC duct and insulation replacement bundled with electrical repairs: reports range $11,000 to $16,000 when ducts and wiring both required replacement.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "Ask for an itemized quote that separates inspection, animal removal, exclusion, sanitation, insulation, electrical, and roofing work so you can compare line items rather than lump-sum proposals. For a deeper look at typical attic cleanup pricing see our ",
       "marks": []
      },
@@ -30668,6 +29683,18 @@ export const fallbackPosts: Post[] = [
       "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
      }
     ]
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for raccoon removal, exclusion and attic cleanup after roof damage]",
+      "marks": []
+     }
+    ],
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -30697,7 +29724,7 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Active raccoons or kits",
-       "Call licensed removal; avoid sealing until cleared",
+       "Call for professional removal; avoid sealing until cleared",
        "Exclusion and roof patch after removal"
       ]
      },
@@ -30939,7 +29966,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Have a licensed wildlife technician inspect the roofline and attic. The inspection should identify exact entry points, contamination level, and any electrical or HVAC exposure. Ask for photos and a written action plan so you can use it for contractor comparisons and insurance.",
+      "text": "Have a wildlife technician inspect the roofline and attic. The inspection should identify exact entry points, contamination level, and any electrical or HVAC exposure. Ask for photos and a written action plan so you can use it for contractor comparisons and insurance.",
       "marks": []
      }
     ],
@@ -31782,7 +30809,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by region and damage extent. Based on contractor quotes and community reports, expect the following ranges and work scopes:",
+      "text": "Costs vary by region and damage extent. Typical work includes soffit and fascia repair, attic insulation removal and sanitizing, roof repairs where a raccoon dug through, and electrical repairs if wiring was chewed. Treat any visible chewing on wiring as urgent.",
       "marks": []
      }
     ],
@@ -31794,119 +30821,11 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Soffit and fascia repair:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " Minor panel replacement and flashing repairs typically run from a few hundred to one thousand dollars depending on access and materials.",
+      "text": "[PLACEHOLDER: ask the client: price range for soffit repair and attic remediation after raccoon damage]",
       "marks": []
      }
     ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Attic insulation removal and sanitization:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " Community quotes and our experience show remediation commonly priced around ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$6 per square foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for full removal, sanitation, and re-blow. Less thorough approaches such as adding insulation over matted material were reported near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3 per square foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Major roof repairs from pocket breaches:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " Repairing roof decking, flashing, and shingles after a raccoon dug through a pocket can range from several hundred to several thousand dollars. One homeowner record showed a final bundled repair quote exceeding ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$1,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " when flashing and local decking replacement were required.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Electrical inspection and repairs:",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " If wiring was chewed or contaminated, electrical work may range from a few hundred dollars to thousands; treat any visible chewing as urgent.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -32105,7 +31024,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For minor cosmetic soffit repair where no contamination exists, homeowners with roofing experience can handle panel replacement and sealing. But if you detect active animals, contamination, or chewed wiring, hire licensed wildlife removal and remediation contractors. The Centers for Disease Control warns that wildlife feces and certain parasites present disease risks that require professional containment and cleanup; consult CDC guidance for specifics on zoonotic threats such as Baylisascaris and hantavirus at ",
+      "text": "For minor cosmetic soffit repair where no contamination exists, homeowners with roofing experience can handle panel replacement and sealing. But if you detect active animals, contamination, or chewed wiring, hire professional wildlife removal and remediation contractors. The Centers for Disease Control warns that wildlife feces and certain parasites present disease risks that require professional containment and cleanup; consult CDC guidance for specifics on zoonotic threats such as Baylisascaris and hantavirus at ",
       "marks": []
      },
      {
@@ -32258,7 +31177,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Contact a licensed wildlife removal provider and schedule an inspection through our ",
+      "text": "Contact a wildlife removal provider and schedule an inspection through our ",
       "marks": []
      },
      {
@@ -32501,7 +31420,7 @@ export const fallbackPosts: Post[] = [
  {
   "slug": "rats-entering-soffits",
   "title": "Rats Entering Soffits: How They Get In & What to Do",
-  "excerpt": "If you are seeing signs of rats entering soffits or suspect soffit rat entry at your property, start with a documented exclusion inspection from a licensed provider.",
+  "excerpt": "If you are seeing signs of rats entering soffits or suspect soffit rat entry at your property, start with a documented exclusion inspection from a wildlife professional.",
   "date": "2026-06-22T15:59:57+00:00",
   "modified": "2026-06-22T15:59:57+00:00",
   "author": "Pro Wildlife Removal",
@@ -32548,7 +31467,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " at your property, start with a documented exclusion inspection from a licensed provider. Our ",
+      "text": " at your property, start with a documented exclusion inspection from a wildlife professional. Our ",
       "marks": []
      },
      {
@@ -33265,7 +32184,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Local costs vary with roof access, the length of roofline to repair, and whether insulation or ducts require remediation. Representative ranges from community reports and contractor surveys include:",
+      "text": "Local costs vary with roof access, the length of roofline to repair, and whether insulation or ducts require remediation. Ask for an estimate after the inspection.",
       "marks": []
      }
     ],
@@ -33277,25 +32196,11 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Minor soffit vent repairs and screening: ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$400 to $1,200",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
+      "text": "[PLACEHOLDER: ask the client: price range for soffit rat exclusion and attic cleanup]",
       "marks": []
      }
     ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -33303,59 +32208,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Comprehensive roofline flashing and soffit replacement across several elevations: ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$1,000 to $3,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Full attic sanitation and insulation replacement after contamination: ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$5,000 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " in cases documented by homeowners who delayed exclusion.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Ask for a written scope separating inspection, exclusion materials and labor, monitoring, sanitation, and trades referrals. That separation is the single best defense against surprise costs later.",
+      "text": "Ask for a written scope separating inspection, exclusion materials and labor, monitoring, sanitation, and trades referrals. That separation protects you against surprise costs later.",
       "marks": []
      }
     ],
@@ -33552,7 +32405,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Most professionals use one to two weeks of post-exclusion monitoring to confirm no re-entry. If young were present at the time of exclusion, your provider should follow legal and ethical guidelines for timing. A clear written warrant and monitoring plan provides the best assurance.",
+      "text": "Most professionals use one to two weeks of post-exclusion monitoring to confirm no re-entry. If young were present at the time of exclusion, your provider should follow legal and ethical guidelines for timing. A clear written warrant and monitoring plan gives you real assurance.",
       "marks": []
      }
     ],
@@ -33631,7 +32484,7 @@ export const fallbackPosts: Post[] = [
   ],
   "seo": {
    "title": "Rats Entering Soffits: How They Get In & What to Do",
-   "description": "If you are seeing signs of rats entering soffits or suspect soffit rat entry at your property, start with a documented exclusion inspection from a licensed"
+   "description": "If you are seeing signs of rats entering soffits or suspect soffit rat entry at your property, start with a documented exclusion inspection from a wildlife professional."
   }
  },
  {
@@ -33702,31 +32555,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Homeowners on community forums report three recurring problems that point to attic infestations: persistent noises at night, a sour ammonia or gamey smell coming through vents, and gnawed or chewed materials in the attic. Community reports also show repair costs span broadly: simple exclusion and trapping packages often start near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", while full attic sanitation and insulation replacement can reach ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,000 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " depending on scope and region.",
+      "text": "Homeowners on community forums report three recurring problems that point to attic infestations: persistent noises at night, a sour ammonia or gamey smell coming through vents, and gnawed or chewed materials in the attic.",
       "marks": []
      }
     ],
@@ -34236,7 +33065,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by region and scope. Public homeowner reports and company pricing commonly show these ranges:",
+      "text": "Costs vary by region and scope.",
       "marks": []
      }
     ],
@@ -34248,77 +33077,11 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Basic exclusion and trapping package: roughly ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " on many jobs documented by service providers.",
+      "text": "[PLACEHOLDER: ask the client: price range for rat exclusion, trapping and attic sanitation]",
       "marks": []
      }
     ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Insulation removal and replacement after heavy contamination: homeowner-reported quotes ranged from ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,500 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " on larger attics when ducts and HVAC were involved.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Localized repairs like flashing or a roof vent fix: often under ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$2,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -34355,32 +33118,6 @@ export const fallbackPosts: Post[] = [
      }
     ],
     "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "One homeowner reported a pest company quoting ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " to remove insulation and deodorize an attic. That price prompted a second opinion and a staged approach: exclusion first, then targeted sanitation.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
    },
    {
     "_type": "block",
@@ -35222,19 +33959,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Roof rats rarely tunnel in through a poured slab. They arrive by climbing branches, utility lines, or neighboring roofs. A common pattern we see across Florida is that one or two rats find easy access through a damaged soffit or uncapped vent and then bring in nesting material. Community reports and inspections we reviewed revealed two recurring cost drivers: damaged insulation and widespread tunneling inside loose-fill insulation. One homeowner quote from community forums described attic insulation so matted with droppings and tunnels that contractors recommended full removal and replacement at about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$4 per square foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". That kind of damage multiplies cleanup costs quickly.",
+      "text": "Roof rats rarely tunnel in through a poured slab. They arrive by climbing branches, utility lines, or neighboring roofs. A common pattern we see across Florida is that one or two rats find easy access through a damaged soffit or uncapped vent and then bring in nesting material. Community reports and inspections we reviewed revealed two recurring cost drivers: damaged insulation and widespread tunneling inside loose-fill insulation.",
       "marks": []
      }
     ],
@@ -35354,19 +34079,12 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Roof rat control is a sequence: identify, exclude, trap, clean, and repair. Small DIY steps can help, but many attic infestations require professional exclusion to be permanent. A Reddit thread showed homeowners weighing a ",
+      "text": "Roof rat control is a sequence: identify, exclude, trap, clean, and repair. Small DIY steps can help, but many attic infestations require professional exclusion to be permanent. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$650",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " quote to seal vents versus DIY metal mesh and clamp solutions. That work can be cost effective when entry points are limited and you are confident no rats are trapped inside. However, if insulation is contaminated or wiring is chewed, hire licensed pros for cleanup and electrical inspection.",
+      "text": "DIY metal mesh and clamp solutions can be cost effective when entry points are limited and you are confident no rats are trapped inside. However, if insulation is contaminated or wiring is chewed, hire professionals for cleanup and electrical inspection.",
       "marks": []
      }
     ],
@@ -35410,43 +34128,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Expect three broad packages from reputable contractors: basic exclusion and trapping, exclusion plus localized cleanup, and full remediation with insulation replacement. From community reports, one detailed estimate recommended a perimeter trench with a galvanized steel animal wall plus full insulation removal. The inspector quoted about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$25 per linear foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for the wall and ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$4 per square foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for insulation removal and replacement. Another homeowner received an ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$11,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " combined proposal in Central Florida that included permanent ground defenses and blown insulation replacement. Those figures match multiple forum reports that show single-family remediation can range from a few hundred dollars for a limited vent sealing job to several thousand when insulation and structural repairs are necessary.",
+      "text": "Expect three broad packages from reputable contractors: basic exclusion and trapping, exclusion plus localized cleanup, and full remediation with insulation replacement. From community reports, one detailed estimate recommended a perimeter trench with a galvanized steel animal wall plus full insulation removal.",
       "marks": []
      }
     ],
@@ -35794,19 +34476,12 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Perimeter barriers of galvanized steel installed below grade can prevent rodents from burrowing under skirting or crawlspace walls and are effective where access points are at ground level. Community reports show costs vary widely; quoted prices of about ",
+      "text": "Perimeter barriers of galvanized steel installed below grade can prevent rodents from burrowing under skirting or crawlspace walls and are effective where access points are at ground level. Community reports show costs vary widely. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$25 per linear foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " and combined insulation replacement can push totals into the thousands. They are justified when repeated re-entry occurs at foundation level and when combined with proper screening above ground.",
+      "text": "They are justified when repeated re-entry occurs at foundation level and when combined with proper screening above ground.",
       "marks": []
      }
     ],
@@ -36002,19 +34677,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "That is not opinion. Homeowners and technicians on community forums report repeat infestations when crews removed animals but left vents, soffits, or foundation gaps open. In one homeowner thread the pest pro recommended a complete cleanup and exclusion plan estimated at about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for a contaminated crawlspace, because a simple trapping job alone would not stop future access.",
+      "text": "That is not opinion. Homeowners and technicians on community forums report repeat infestations when crews removed animals but left vents, soffits, or foundation gaps open.",
       "marks": []
      }
     ],
@@ -36155,31 +34818,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspection-first companies often deliver a line-item scope that separates trapping, exclusion labor and materials, sanitation, insulation replacement, and any necessary electrician or HVAC work. That separation matters because homeowners on public forums reported dramatically different cost paths: exclusion and sanitation packages commonly ran near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", while full attic remediation and insulation replacement quotes for heavily contaminated jobs have been reported at ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,500 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
+      "text": "Inspection-first companies often deliver a line-item scope that separates trapping, exclusion labor and materials, sanitation, insulation replacement, and any necessary electrician or HVAC work.",
       "marks": []
      }
     ],
@@ -36313,7 +34952,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Scenario",
-       "Typical immediate cost (reported)",
        "What sealing prevents"
       ]
      },
@@ -36321,7 +34959,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Targeted exclusion (vent, soffit, chimney cap)",
-       "$400 to $1,200",
        "Repeat entries at the same roofline points; low-to-moderate future risk"
       ]
      },
@@ -36329,7 +34966,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Comprehensive attic exclusion + 1 week monitoring",
-       "$1,000 to $3,500",
        "Longer-term prevention and reduced chance of insulation contamination"
       ]
      },
@@ -36337,7 +34973,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Sanitation + insulation replacement after heavy contamination",
-       "$10,500 to $12,700 (homeowner reports)",
        "Eliminates odors, health hazards, and secondary infestations that follow incomplete exclusion"
       ]
      },
@@ -36345,11 +34980,22 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Crawlspace full remediation reported example",
-       "~$3,500 (reported quote for cleaning after exclusion)",
        "Removes rodent waste and damaged insulation that would otherwise keep attracting pests"
       ]
      }
     ]
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for exclusion versus full remediation after wildlife removal]",
+      "marks": []
+     }
+    ],
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -36561,31 +35207,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community-sourced posts supply practical warnings. One Seattle-area homeowner shared that the previous owners had fully enclosed a crawlspace and sealed vents, then let maintenance lapse; the contractor recommended about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " to clean after removing mice because moisture and animals had combined to create extensive damage. Another poster reported a remediation company quoting ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$28,000",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " for intensive mold and debris scrubbing when dead rodents and moisture had gone unaddressed after prior exclusion work.",
+      "text": "Community-sourced posts supply practical warnings. One Seattle-area homeowner shared that the previous owners had fully enclosed a crawlspace and sealed vents, then let maintenance lapse, and moisture and animals combined to create extensive damage.",
       "marks": []
      }
     ],
@@ -36765,7 +35387,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Insulation saturated with urine or heavily soiled by droppings is usually best removed and replaced. Inspectors reported replacement costs ranging widely; when contamination is deep, replacement prevents persistent odors and health risks. Ask the inspector to document contamination depth to justify replacement to insurers.",
+      "text": "Insulation saturated with urine or heavily soiled by droppings usually needs to be removed and replaced. Inspectors reported replacement costs ranging widely; when contamination is deep, replacement prevents persistent odors and health risks. Ask the inspector to document contamination depth to justify replacement to insurers.",
       "marks": []
      }
     ],
@@ -36789,7 +35411,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "No. Some species, especially certain bats and migratory birds, are protected during maternity and nesting seasons and cannot be excluded until young have fledged. A licensed wildlife professional will advise on local regulations and timing to keep you compliant.",
+      "text": "No. Some species, especially certain bats and migratory birds, are protected during maternity and nesting seasons and cannot be excluded until young have fledged. A wildlife professional will advise on local regulations and timing to keep you compliant.",
       "marks": []
      }
     ],
@@ -37073,14 +35695,6 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Cost range (typical)",
-       "$400 to $5,000+ depending on scope and repairs",
-       "$50 to $1,500+ per animal depending on method and location"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
        "Long-term effectiveness",
        "High if done correctly and followed by repairs",
        "Low alone; high if combined with exclusion"
@@ -37106,7 +35720,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community-sourced data gives a realistic range you can expect. Public homeowner reports and contractor estimates show these representative figures:",
+      "text": "Costs depend on the size of the home, the number of openings to seal, and whether the attic needs remediation.",
       "marks": []
      }
     ],
@@ -37118,25 +35732,11 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Simple exclusion around a single roof vent or soffit: ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$400 to $1,200",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ".",
+      "text": "[PLACEHOLDER: ask the client: price range for wildlife exclusion and trapping]",
       "marks": []
      }
     ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -37144,59 +35744,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Comprehensive attic exclusion plus repairs and one-week monitoring: commonly quoted near ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$1,000 to $3,500",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " depending on home size and access.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Full attic remediation with insulation removal and replacement reported in some threads at ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$10,500 to $12,700",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " when contamination is extensive; an exclusion-first approach sometimes avoided that larger bill by catching issues earlier.",
-      "marks": []
-     }
-    ],
-    "markDefs": [],
-    "listItem": "bullet",
-    "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Use those figures to vet contractor quotes. Break out line items so you can compare exclusion, trapping, sanitation, and repair costs separately. See our deeper inspection guidance for how inspections change scope and cost estimates: ",
+      "text": "Break out line items so you can compare exclusion, trapping, sanitation, and repair costs separately. See our deeper inspection guidance for how inspections change scope and cost estimates: ",
       "marks": []
      },
      {
@@ -37438,18 +35986,6 @@ export const fallbackPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "For a practical example, the $1,200 proactive exclusion quote referenced in community posts included inspection, 130 linear feet of roofline work, and a one-week attic check. The same homeowner was offered a $20 monthly warranty as extra protection. Those concrete figures make it easier to compare apples to apples.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -37634,7 +36170,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Is $1,200 a fair price for a full exclusion quote?",
+      "text": "How can I tell if a full exclusion quote is fair?",
       "marks": []
      }
     ],
@@ -37646,7 +36182,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "It depends on the scope. Community reports show exclusion quotes for small localized repairs from a few hundred dollars and full attic-line jobs from $1,000 to several thousand. Verify what the $1,200 covers: linear feet of roofline, materials, warranty, and the one-week monitoring. Compare at least two bids and ensure line items are clear before accepting.",
+      "text": "It depends on the scope. Check what the quote covers: linear feet of roofline, materials, warranty, and the one-week monitoring. Compare at least two bids and ensure line items are clear before accepting.",
       "marks": []
      }
     ],
@@ -37670,7 +36206,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Many bat species, migratory birds, and some reptiles are protected and cannot be removed during maternity or breeding seasons. Local wildlife agencies regulate handling and relocation. A licensed provider should know those rules and provide timing guidance so exclusions comply with law.",
+      "text": "Many bat species, migratory birds, and some reptiles are protected and cannot be removed during maternity or breeding seasons. Local wildlife agencies regulate handling and relocation. A professional provider should know those rules and provide timing guidance so exclusions comply with law.",
       "marks": []
      }
     ],
@@ -37831,7 +36367,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Below are typical inspection outcomes and the likely cost bands, drawn from contractor quotes and homeowner reports on public forums. Use them to budget and compare estimates.",
+      "text": "Below are typical inspection outcomes and the work they usually lead to, drawn from contractor quotes and homeowner reports on public forums. Use them to compare estimates.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for work that follows a wildlife inspection (rodent, raccoon, bat guano and wiring findings)]",
       "marks": []
      }
     ],
@@ -37845,40 +36393,35 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Finding",
-       "Typical contractor action",
-       "Representative cost range"
+       "Typical contractor action"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Active rodent infestation with soiled insulation",
-       "Exclusion, trapping, attic sanitation, insulation removal/replacement",
-       "$3,000 to $12,000 depending on insulation area and duct involvement; multiple homeowners reported quotes between $10,500 and $12,700 for full attic work"
+       "Exclusion, trapping, attic sanitation, insulation removal/replacement"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Localized raccoon entry and torn vent",
-       "Exclusion, soffit repair, targeted sanitation",
-       "$400 to $2,500 for exclusion and small repairs"
+       "Exclusion, soffit repair, targeted sanitation"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Bat guano concentrated over HVAC",
-       "Certified guano remediation, exclusion, and air-quality clearance",
-       "$1,500 to $3,500 depending on containment and cleanup required"
+       "Professional guano remediation, exclusion, and air-quality clearance"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Chewed wiring discovered",
-       "Immediate electrician service and rewiring of affected circuits",
-       "$300 to $3,500+ depending on scope"
+       "Immediate electrician service and rewiring of affected circuits"
       ]
      }
     ]
@@ -38123,7 +36666,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " turns uncertainty into an actionable plan. Inspections reveal species, contamination, electrical and HVAC risks, and the exact exclusions needed to keep animals out. Real homeowner reports show inspections often change the scope and cost of work substantially: a $3,000 exclusion package can prevent a later $10,000 insulation replacement by catching problems early. Book an inspection with a company that documents findings, coordinates licensed trades for electrical and HVAC risks, and provides a clear, written scope for exclusion, sanitation, and repairs. For local costs and detailed next steps, see our post on ",
+      "text": " turns uncertainty into an actionable plan. Inspections reveal species, contamination, electrical and HVAC risks, and the exact exclusions needed to keep animals out. Book an inspection with a company that documents findings, coordinates licensed trades for electrical and HVAC risks, and provides a clear, written scope for exclusion, sanitation, and repairs. For local costs and detailed next steps, see our post on ",
       "marks": []
      },
      {
@@ -38211,7 +36754,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ". That decision affects safety, indoor air quality, and long-term costs. If you removed animals with a professional, keep their inspection report and compare it to the actual damage you see. If you haven’t booked a licensed removal yet, start with our ",
+      "text": ". That decision affects safety, indoor air quality, and long-term costs. If you removed animals with a professional, keep their inspection report and compare it to the actual damage you see. If you haven’t booked a professional removal yet, start with our ",
       "marks": []
      },
      {
@@ -38745,8 +37288,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Damage Type",
        "Typical Signs",
-       "Likely Repair Actions",
-       "Estimated Cost Range"
+       "Likely Repair Actions"
       ]
      },
      {
@@ -38754,8 +37296,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Insulation contamination",
        "Foul odor, droppings, soggy batt or loose-fill",
-       "Remove and replace insulation; sanitize attic",
-       "$800 to $5,000 (depends on area and insulation type; homeowners reported quotes up to $11,000 for combined work)"
+       "Remove and replace insulation; sanitize attic"
       ]
      },
      {
@@ -38763,8 +37304,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Electrical wiring chewed",
        "Exposed wires, scorch marks, intermittent power",
-       "Electrical inspection and rewiring of affected circuits",
-       "$300 to $3,500 (simple circuit to full attic rewiring)"
+       "Electrical inspection and rewiring of affected circuits"
       ]
      },
      {
@@ -38772,8 +37312,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "HVAC duct damage",
        "Airflow loss, debris in vents, system odors",
-       "Duct cleaning, repair or replacement, HVAC inspection",
-       "$500 to $8,000 (flex vs sheet metal; Reddit quotes for full replacement ranged to $11,000 to $16,000 when bundled with insulation)"
+       "Duct cleaning, repair or replacement, HVAC inspection"
       ]
      },
      {
@@ -38781,8 +37320,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Structural roof or soffit damage",
        "Visible holes, missing shingles, water stains",
-       "Roof flashing repair, shingle replacement, siding repairs",
-       "$400 to $10,000 (minor flashing to localized roof repair)"
+       "Roof flashing repair, shingle replacement, siding repairs"
       ]
      }
     ]
@@ -38899,7 +37437,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Community reports show a wide range. One Reddit user shared a quote of $11,000 to replace batt insulation and HVAC ducts, with an alternate aluminum duct option at $16,000 for higher durability. Smaller, focused repairs such as replacing a section of ductwork or local insulation typically run from a few hundred to a few thousand dollars. For planning, use the table above and get at least two contractor bids. National cost aggregators like HomeAdvisor and Angi give broader ranges for insulation and ductwork and can help verify quotes.",
+      "text": "Community reports show a wide range. For planning, use the table above and get at least two contractor bids. National cost aggregators like HomeAdvisor and Angi give broader ranges for insulation and ductwork and can help verify quotes.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for wildlife damage repairs (insulation, wiring, ducts, roof and soffit)]",
       "marks": []
      }
     ],
@@ -38947,7 +37497,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "DIY work can be appropriate for very small, contained issues like sanitizing a small, nonporous area after removal. However, when insulation, ducts, wiring, or structural elements are involved, professional remediation is safer and more reliable. OSHA and CDC recommend professional handling for heavily contaminated biological material. Reddit users who attempted DIY and later replaced insulation noted higher total cost and longer disruption. For health and legal safety, hire licensed specialists for electrical and HVAC repairs and for hazardous-material cleanup.",
+      "text": "DIY work can be appropriate for very small, contained issues like sanitizing a small, nonporous area after removal. However, when insulation, ducts, wiring, or structural elements are involved, professional remediation is safer and more reliable. OSHA and CDC recommend professional handling for heavily contaminated biological material. Reddit users who attempted DIY and later replaced insulation noted higher total cost and longer disruption. For health and legal safety, hire a licensed electrician and HVAC contractor for those repairs, and trained specialists for hazardous-material cleanup.",
       "marks": []
      }
     ],
@@ -39578,31 +38128,12 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Raccoons create larger entry points and tear insulation for nesting. A Reddit user who found a raccoon family had matted insulation and was quoted repair estimates in two ranges: full removal, sanitization and re-blow at about ",
+      "text": "Raccoons create larger entry points and tear insulation for nesting. ",
       "marks": []
      },
      {
       "_type": "span",
-      "text": "$6 per square foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": " versus simply adding new insulation over the matted material at around ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "$3 per square foot",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ". That user decided based on the extent of contamination and whether access points were fully sealed.",
+      "text": "How much insulation needs replacing depends on how contaminated it is and whether every access point was sealed.",
       "marks": []
      }
     ],
@@ -39614,7 +38145,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats cause ongoing gnaw damage that often shows up as chewed wires, small holes in eaves, and frayed ducting. Wiring repairs can run from a few hundred dollars to thousands if an electrician has to rewire large sections. For any suspected electrical chewing, call a licensed electrician and a wildlife professional immediately because chewed wires are a fire hazard.",
+      "text": "Rats cause ongoing gnaw damage that often shows up as chewed wires, small holes in eaves, and frayed ducting. For any suspected electrical chewing, call a licensed electrician and a wildlife professional immediately because chewed wires are a fire hazard.",
       "marks": []
      }
     ],
@@ -39776,7 +38307,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Service",
-       "Typical cost range",
        "Notes"
       ]
      },
@@ -39784,7 +38314,6 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Raccoon removal and exclusion",
-       "$300 to $1,200",
        "Depends on access repairs and number of animals"
       ]
      },
@@ -39792,15 +38321,13 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Full attic insulation removal and sanitization",
-       "$1,000 to $4,000",
-       "Reduces long-term contamination risk; Reddit examples showed $6/sqft as a real quote"
+       "Reduces long-term contamination risk"
       ]
      },
      {
       "_type": "row",
       "cells": [
        "Rat trapping and rodent exclusion",
-       "$200 to $800",
        "Follow-up sanitation and baiting may add costs"
       ]
      },
@@ -39808,11 +38335,22 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Electrical repairs from chewed wiring",
-       "$300 to $3,000+",
        "Cost varies widely by extent; consult a licensed electrician"
       ]
      }
     ]
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for raccoon and rat removal, attic insulation cleanup and wiring repair]",
+      "marks": []
+     }
+    ],
+    "markDefs": []
    },
    {
     "_type": "block",
@@ -40028,7 +38566,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary. A Reddit thread showed a real quote of about $6 per square foot to remove soiled insulation, sanitize, and re-blow new insulation. Adding new insulation over matted material was quoted near $3 per square foot in that discussion. Structural repairs and vent or soffit replacement add to the total.",
+      "text": "Costs vary. Structural repairs and vent or soffit replacement add to the total.",
       "marks": []
      }
     ],
@@ -40142,7 +38680,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you hear unusual attic noises tonight, photograph or record what you can, then contact our team for a fast inspection and an onsite quote. Early action saves thousands in repairs and reduces health risks.",
+      "text": "If you hear unusual attic noises tonight, photograph or record what you can, then contact our team for an inspection and an onsite quote.",
       "marks": []
      }
     ],
@@ -40379,7 +38917,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Multiple homeowners reported exclusion and cleanup quotes ranging from about $2,000 for a basic exclusion to $6,000 or more for full remediation. One poster said a vendor quoted $5,000 for removal and another saw $6,000 for exclusion work.",
+      "text": " Homeowners reported quotes that varied widely between vendors for similar exclusion and cleanup work.",
       "marks": []
      }
     ],
@@ -40400,7 +38938,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Several users warned against simple vacuum-and-fog approaches and described specialists who insist on negative-pressure containment to prevent spores from entering the house during cleanup. Others said smaller, spot cleanups were done without expensive containment, creating confusion over best practice.",
+      "text": " Several users warned against simple vacuum-and-fog approaches and described specialists who insist on negative-pressure containment to prevent spores from entering the house during cleanup. Others said smaller, spot cleanups were done without expensive containment, creating confusion over good practice.",
       "marks": []
      }
     ],
@@ -40527,7 +39065,19 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Below is a practical comparison of common cleanup approaches and ballpark cost ranges reported by homeowners and industry sources. Exact pricing depends on region, attic size, and whether HVAC and structural materials are contaminated.",
+      "text": "Below is a practical comparison of common cleanup approaches reported by homeowners and industry sources. Exact pricing depends on region, attic size, and whether HVAC and structural materials are contaminated.",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "[PLACEHOLDER: ask the client: price range for bat guano cleanup in the attic]",
       "marks": []
      }
     ],
@@ -40542,8 +39092,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Approach",
        "What it includes",
-       "When it is appropriate",
-       "Typical cost range (reported)"
+       "When it is appropriate"
       ]
      },
      {
@@ -40551,8 +39100,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Spot vacuum and sanitize",
        "Manual removal of shallow droppings, HEPA vacuuming, surface sanitizing",
-       "Small, localized deposits; no HVAC contamination",
-       "$300 to $1,500"
+       "Small, localized deposits; no HVAC contamination"
       ]
      },
      {
@@ -40560,8 +39108,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Negative-pressure containment cleanup",
        "Containment tenting, negative-air machines, HEPA vacuums, PPE",
-       "Moderate to heavy guano, risk of spores spreading; families with health concerns",
-       "$1,500 to $10,000+"
+       "Moderate to heavy guano, risk of spores spreading; families with health concerns"
       ]
      },
      {
@@ -40569,8 +39116,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Full remediation and reconstruction",
        "Remove contaminated insulation, replace drywall, sanitize or replace HVAC, reconstruct",
-       "Extensive contamination into ceiling cavities, HVAC, or structural members",
-       "$5,000 to $50,000+"
+       "Extensive contamination into ceiling cavities, HVAC, or structural members"
       ]
      }
     ]
@@ -40725,7 +39271,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": "). That is why some homeowners asked whether to wait a few months for exclusion; delaying can be safer for bats but risks continued contamination, so consult a licensed bat professional about local timing.",
+      "text": "). That is why some homeowners asked whether to wait a few months for exclusion; delaying can be safer for bats but risks continued contamination, so consult a bat professional about local timing.",
       "marks": []
      }
     ],
@@ -40851,7 +39397,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For professionals doing heavy cleanup, Occupational Safety and Health Administration guidelines and general hazmat best practice call for HEPA-filtered vacuums, impermeable suits, gloves, and at minimum an N95 respirator; for heavy contamination, higher-level respiratory protection is used. The CDC warns that disturbing bat guano can aerosolize spores linked to histoplasmosis (",
+      "text": "For professionals doing heavy cleanup, Occupational Safety and Health Administration guidelines and general hazmat practice call for HEPA-filtered vacuums, impermeable suits, gloves, and at minimum an N95 respirator; for heavy contamination, higher-level respiratory protection is used. The CDC warns that disturbing bat guano can aerosolize spores linked to histoplasmosis (",
       "marks": []
      },
      {
@@ -41619,7 +40165,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Once you’ve contacted a professional removal service, the next step is a thorough inspection of your home. Raccoons are notorious for finding small gaps in roofing, vents, chimneys, and attic spaces to gain access to your home. A licensed raccoon removal expert will carefully inspect your property for any entry points and areas of damage.",
+      "text": "Once you’ve contacted a professional removal service, the next step is a thorough inspection of your home. Raccoons are notorious for finding small gaps in roofing, vents, chimneys, and attic spaces to gain access to your home. A raccoon removal technician will carefully inspect your property for any entry points and areas of damage.",
       "marks": []
      }
     ],
@@ -42093,7 +40639,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ": Florida has specific laws regarding wildlife removal. Professionals are licensed and ensure all procedures follow state regulations for safe and ethical treatment.",
+      "text": ": Florida has specific laws regarding wildlife removal. Professionals know these rules and make sure every step follows state regulations for safe and ethical treatment.",
       "marks": []
      }
     ],
@@ -42287,7 +40833,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Professionals understand the behavior and biology of different wildlife species in Florida. They can identify the type of animal you’re dealing with, locate entry points, and determine the best way to remove them without causing harm to you, your property, or the surrounding environment.",
+      "text": "Professionals understand the behavior and biology of different wildlife species in Florida. They can identify the type of animal you’re dealing with, locate entry points, and work out how to remove them without causing harm to you, your property, or the surrounding environment.",
       "marks": []
      }
     ],
@@ -42377,7 +40923,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Licensed to Handle Wildlife in Florida",
+      "text": "Familiar with Florida’s Wildlife Rules",
       "marks": [
        "strong"
       ]
@@ -42391,7 +40937,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Wildlife removal in Florida often involves specific regulations to protect both people and animals. Licensed professionals are trained to comply with state laws and have the necessary permits to handle, remove, and relocate wildlife safely and legally. Attempting DIY methods could unintentionally violate these laws, leading to fines or other legal issues.",
+      "text": "Wildlife removal in Florida often involves specific regulations to protect both people and animals. Trained professionals know the state laws on handling, removing, and relocating wildlife safely and legally. Attempting DIY methods could unintentionally violate these laws, leading to fines or other legal issues.",
       "marks": []
      }
     ],
@@ -43040,7 +41586,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "At Pro Wildlife Removal, we’re licensed and experienced in handling wildlife in Central Florida. We provide safe, effective removal, cleanup, and prevention to keep your home secure. Don’t risk further complications—contact us today for our",
+      "text": "At Pro Wildlife Removal, we’re experienced in handling wildlife in Central Florida. We provide safe, effective removal, cleanup, and prevention to keep your home secure. Don’t risk further complications—contact us today for our",
       "marks": []
      },
      {
@@ -43670,7 +42216,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "An experienced wildlife animal control specialist can locate and remove the source of these odors, ensuring your home stays fresh and clean. By staying alert to these signs, you can take action before a minor issue becomes a major infestation. Whether you need help identifying the source or ensuring the problem is fully resolved, professional wildlife control services are the best way to protect your Tampa home.",
+      "text": "An experienced wildlife animal control specialist can locate and remove the source of these odors, ensuring your home stays fresh and clean. By staying alert to these signs, you can take action before a minor issue becomes a major infestation. Whether you need help identifying the source or ensuring the problem is fully resolved, professional wildlife control is a reliable way to protect your Tampa home.",
       "marks": []
      }
     ],
@@ -45477,7 +44023,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Call Pro Wildlife Removal today to schedule an animal control inspection and take the first step toward a wildlife-free home. Your property deserves the best protection—let us provide the expert care you need with our",
+      "text": "Call Pro Wildlife Removal today to schedule an animal control inspection and take the first step toward a wildlife-free home. Let us protect your property with our",
       "marks": []
      },
      {
@@ -45572,7 +44118,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Let’s dive into the best practices for effective rat control.",
+      "text": "Let’s look at what works for effective rat control.",
       "marks": []
      }
     ],
@@ -47071,7 +45617,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Even the best traps won’t be effective if your home is still full of enticing food and nesting materials. Rats are opportunistic feeders and will thrive in an environment that provides easy access to food, water, and safe hiding spots. Making your home as unappealing as possible is a vital part of long-term rat control.",
+      "text": "Even good traps won’t work if your home is still full of enticing food and nesting materials. Rats are opportunistic feeders and will thrive in an environment that provides easy access to food, water, and safe hiding spots. Making your home as unappealing as possible is a vital part of long-term rat control.",
       "marks": []
      }
     ],
@@ -48660,7 +47206,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For safe and effective animal removal, contact licensed wildlife removal professionals. They have the expertise and tools to handle the situation without harm to the animals or your property.",
+      "text": "For safe and effective animal removal, contact wildlife removal professionals. They have the expertise and tools to handle the situation without harm to the animals or your property.",
       "marks": []
      }
     ],
@@ -49603,14 +48149,14 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Licensed and Certified:",
+      "text": "Follows the Rules:",
       "marks": [
        "strong"
       ]
      },
      {
       "_type": "span",
-      "text": " Reputable wildlife removal companies hold the necessary licenses and certifications, ensuring compliance with state regulations and ethical practices.",
+      "text": " Reputable wildlife removal companies follow state regulations and ethical practices on every job.",
       "marks": []
      }
     ],
@@ -50383,7 +48929,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Snap traps are among the best rat traps and are effective in catching rats instantly. Place snap traps near walls or corners where rat activity is frequent. Remember to safely dispose of the rat and decontaminate the area. And keep in mind that more rats are probably around.",
+      "text": "Snap traps are a common, effective rat trap and kill rats instantly. Place snap traps near walls or corners where rat activity is frequent. Remember to safely dispose of the rat and decontaminate the area. And keep in mind that more rats are probably around.",
       "marks": []
      }
     ],
@@ -50623,7 +49169,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A pest control company offers experience and industry expertise that ensures swift and effective rat elimination. Their knowledge extends beyond just placing traps – they understand rat behavior, know where to set traps, and can determine the best bait.",
+      "text": "A pest control company offers experience and industry expertise that ensures swift and effective rat elimination. Their knowledge extends beyond just placing traps – they understand rat behavior, know where to set traps, and know which bait to use.",
       "marks": []
      }
     ],
@@ -50675,7 +49221,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Trained experts handle rats effectively and employ methods safe for your household. This ensures no unset traps or trap-shy rats. They’ll even caution you on the best spots to place traps away from pets or kids.",
+      "text": "Trained experts handle rats effectively and employ methods safe for your household. This ensures no unset traps or trap-shy rats. They’ll even show you where to place traps away from pets or kids.",
       "marks": []
      }
     ],
@@ -50851,7 +49397,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "At Pro Wildlife Removal we know that dealing with pests like mice or rats can be a difficult task for homeowners. That’s why we offer professional rodent removal using proven methods. If you’re having trouble getting rid of rodents in your house, call us today for an inspection and advice on how best to tackle your specific situation. We take pride in our ability to help people keep their homes safe from these nuisance critters!",
+      "text": "At Pro Wildlife Removal we know that dealing with pests like mice or rats can be a difficult task for homeowners. That’s why we offer professional rodent removal using proven methods. If you’re having trouble getting rid of rodents in your house, call us today for an inspection and advice on how to tackle your specific situation. We take pride in our ability to help people keep their homes safe from these nuisance critters!",
       "marks": []
      }
     ],
@@ -50863,7 +49409,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "We understand that dealing with a rat infestation can be stressful and overwhelming. That’s why our team is here to guide you through the process and provide you with expert advice on the best ways to deal with the problem. We use only safe and effective methods to remove rats from your property, ensuring that no harm comes to them in the process. With our years of experience and specialized equipment, we’ll have your home rat-free in no time. Plus, we offer a range of other ",
+      "text": "We understand that dealing with a rat infestation can be stressful and overwhelming. That’s why our team is here to guide you through the process and provide you with practical advice on how to deal with the problem. We use only safe and effective methods to remove rats from your property, ensuring that no harm comes to them in the process. With our years of experience and specialized equipment, we’ll work to get your home rat-free. Plus, we offer a range of other ",
       "marks": []
      },
      {
@@ -51950,7 +50496,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Professional wildlife removal services may offer other options for efficiently managing rodents without resorting to potentially dangerous methods like poison baits. Choosing the right option depends on your specific needs and preferences, so it’s best to consult a professional if you have concerns about safety or effectiveness. With the proper precautions in place, rat bait stations can be one way of safely controlling rodent infestations while protecting both people and animals from harm.",
+      "text": "Professional wildlife removal services may offer other options for efficiently managing rodents without resorting to potentially dangerous methods like poison baits. Choosing the right option depends on your specific needs and preferences, so consult a professional if you have concerns about safety or effectiveness. With the proper precautions in place, rat bait stations can be one way of safely controlling rodent infestations while protecting both people and animals from harm.",
       "marks": []
      }
     ],
@@ -53198,7 +51744,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When it comes to squirrel and rat feces, the best thing you can do is prevent them from entering your home or property in the first place. Take steps such as sealing up entry points, disposing of food properly, and keeping outdoor areas clean to limit any unwanted wildlife activity. However, if prevention isn’t enough, it’s important to enlist the help of a professional ",
+      "text": "When it comes to squirrel and rat feces, the main thing to do is keep them out from entering your home or property in the first place. Take steps such as sealing up entry points, disposing of food properly, and keeping outdoor areas clean to limit any unwanted wildlife activity. However, if prevention isn’t enough, it’s important to enlist the help of a professional ",
       "marks": []
      },
      {
@@ -54679,7 +53225,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " today for the best ",
+      "text": " today for ",
       "marks": []
      },
      {
@@ -54824,7 +53370,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Laws regarding live traps and relocating opossums vary by location, so it’s important to research and adhere to local regulations. If unsure, it’s always best to consult a wildlife removal expert.",
+      "text": " Laws regarding live traps and relocating opossums vary by location, so it’s important to research and adhere to local regulations. If unsure, consult a wildlife removal expert.",
       "marks": []
      }
     ],
