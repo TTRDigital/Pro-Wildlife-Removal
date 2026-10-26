@@ -221,7 +221,8 @@ export function BatCatch() {
             {/* body: company-blue shirt */}
             <rect x={30} y={72} width={42} height={56} rx={14} fill="#1e9bf0" />
             <rect x={30} y={112} width={42} height={8} fill="#0a6fb8" />
-            <circle cx={42} cy={88} r={4} fill="#fff" opacity={0.9} />
+            {/* the company logo on the chest (Kia), in the clear space beside the arms */}
+            <image href="/_img/images/brand/logo-96.webp" x={45} y={74} width={17} height={15.7} />
             {/* arms reaching to the pole */}
             <path
               d="M64 82 Q80 86 80 98"
