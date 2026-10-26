@@ -14,7 +14,6 @@ const DOH_RABIES = "https://www.floridahealth.gov/diseases-and-conditions/diseas
 const DOH_2024 = "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2024.pdf";
 const DOH_2025 = "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf";
 const FWC_FEEDING = "https://myfwc.com/conservation/you-conserve/wildlife/feeding/";
-const SARASOTA_ADVISORY = "https://www.floridahealth.gov/wp-content/uploads/2026/07/rabies-advisory-sarasota-county-7-22-2026.pdf";
 const CITRUS_ALERT = "https://www.floridahealth.gov/wp-content/uploads/2026/07/rabies-alert-citrus-county-7-23-2026.pdf";
 const CITRUS_SHERIFF = "https://www.sheriffcitrus.org/programs___services/animal_control.php";
 
@@ -224,38 +223,6 @@ export const locationExtras: Record<string, Extra> = {
       { title: "Florida DOH: Animal rabies by county and animal, 2025 (Orange: 8 bats, 2 raccoons in the table)", url: DOH_2025 },
       { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
       { title: "Florida DOH: Rabies (scrub the wound with soap and running water for five to ten minutes; see a health care provider; call the county health department or animal control)", url: DOH_RABIES },
-    ],
-  },
-  "about-us/service-area/wildlife-removal-sarasota-fl": {
-    seoTitle: "Wildlife Removal in Sarasota, FL | Pro Wildlife Removal",
-    seoDescription:
-      "Wildlife removal in Sarasota, FL: raccoons, rats, bats and squirrels, plus the July 2026 rabies advisory and Florida's feeding rule. Call (727) 594-7705.",
-    sections: [
-      {
-        _type: "faqSection",
-        _key: "faq",
-        eyebrow: "FAQ",
-        heading: "Sarasota wildlife questions",
-        items: [
-          faq(
-            "Has rabies turned up in Sarasota County lately?",
-            `Yes. DOH-Sarasota issued a rabies advisory on July 22, 2026, after a raccoon killed in the county the day before tested positive ([DOH-Sarasota](${SARASOTA_ADVISORY})). The state's 2025 table also listed one rabid raccoon there ([DOH](${DOH_2025})).`,
-          ),
-          faq(
-            "Can I feed the raccoons in my Sarasota yard?",
-            `No. FWC rule 68A-4.001 bars placing food in a manner that attracts raccoons ([FWC](${FWC_FEEDING})). Fed raccoons lose their fear of people; see our guide to [what to do about raccoons](/blog/what-to-do-about-raccoons/).`,
-          ),
-          faq(
-            "Should I touch a raccoon that looks sick or dead?",
-            `No. DOH-Sarasota's July 2026 advisory tells people and pets to avoid physical contact with wild animals such as raccoons and bats ([DOH-Sarasota](${SARASOTA_ADVISORY})).`,
-          ),
-        ],
-      },
-    ],
-    sources: [
-      { title: "DOH-Sarasota: Rabies advisory, July 22, 2026 (rabid raccoon killed in Sarasota County on July 21, 2026; rabies may be present in the wild animal population)", url: SARASOTA_ADVISORY },
-      { title: "Florida DOH: Animal rabies by county and animal, 2025 (Sarasota: 1 raccoon)", url: DOH_2025 },
-      { title: "FWC: Feeding wildlife (68A-4.001 prohibits placing food in a manner that attracts black bears, coyotes, foxes and raccoons)", url: FWC_FEEDING },
     ],
   },
 };
