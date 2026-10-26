@@ -33,14 +33,14 @@ function buildNav(services: Service[], locations: Location[]): NavItem[] {
     },
     {
       label: "Service Area",
-      href: "/about-us/service-area/",
+      href: "/service-areas/",
       children: [
         ...locations.filter((l) => l.kind === "county" || l.kind === "region").map((l) => ({ label: l.name, href: `/${l.path}/`, group: "Counties" })),
         ...locations
           .filter((l) => l.kind === "city")
           .sort((a, b) => a.name.localeCompare(b.name))
           .map((l) => ({ label: l.name, href: `/${l.path}/`, group: "Cities" })),
-        { label: "All service areas", href: "/about-us/service-area/" },
+        { label: "All service areas", href: "/service-areas/" },
       ],
     },
     {

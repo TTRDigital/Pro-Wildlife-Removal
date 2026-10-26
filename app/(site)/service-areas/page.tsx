@@ -3,7 +3,7 @@ import { getPage, getSiteSettings } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { PageView } from "@/components/sections/PageView";
 
-const PATH = "/about-us/service-area/";
+const PATH = "/service-areas/";
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getPage("serviceArea");
@@ -12,5 +12,5 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Page() {
   const [page, settings] = await Promise.all([getPage("serviceArea"), getSiteSettings()]);
-  return <PageView page={page} settings={settings} path={PATH} crumbs={[{ label: "About Us", href: "/about-us/" }, { label: "Service Area", href: PATH }]} />;
+  return <PageView page={page} settings={settings} path={PATH} crumbs={[{ label: "Service Areas", href: PATH }]} />;
 }

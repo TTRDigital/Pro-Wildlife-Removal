@@ -126,7 +126,7 @@ export const location = defineType({
       title: "URL path",
       type: "slug",
       group: "content",
-      description: "Without slashes, e.g. about-us/service-area/wildlife-removal-clearwater-fl. Pages either sit under about-us/service-area/ or at the root. Do not change it after launch.",
+      description: "Without slashes. New pages: service-areas/<county>-county/<city>, e.g. service-areas/pasco-county/zephyrhills. Pages from the old site keep their old path here as an ID; the site maps it to the new URL (lib/location-urls.ts). Do not change it after launch.",
       validation: (r) => r.required().custom((v) => (v?.current && /^[a-z0-9-]+(\/[a-z0-9-]+)*$/.test(v.current) ? true : "Lowercase words separated by - and /")),
     }),
     defineField({ name: "kind", type: "string", group: "content", options: { list: [{ title: "Region", value: "region" }, { title: "County", value: "county" }, { title: "City", value: "city" }, { title: "Rat removal (city)", value: "rat" }] } }),

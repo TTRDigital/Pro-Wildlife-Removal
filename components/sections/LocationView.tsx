@@ -13,6 +13,8 @@ export async function LocationView({ location: base, settings }: { location: Loc
   const self = places.find((p) => p.path === base.path);
   const location = self ? withPlaceLinks(base, self, places, services, locations) : withServicesHere(base, places, services);
   const path = `/${location.path}/`;
+  // Service Areas > county (when it has a page) > city.
+  const parent = location.kind === "city" ? locations.find((l) => l.kind === "county" && location.path.startsWith(`${l.path}/`)) : undefined;
   return (
     <>
       <JsonLd data={locationSchema(location, path)} />
@@ -22,7 +24,8 @@ export async function LocationView({ location: base, settings }: { location: Loc
         path={path}
         map={location.kind === "region" ? undefined : { name: location.name, kind: location.kind === "county" ? "county" : "city", county: location.county }}
         crumbs={[
-          { label: "Service Area", href: "/about-us/service-area/" },
+          { label: "Service Areas", href: "/service-areas/" },
+          ...(parent ? [{ label: parent.name, href: `/${parent.path}/` }] : []),
           { label: location.name, href: path },
         ]}
       />

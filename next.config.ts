@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import { cityCopies, movedLocations, movedServices } from "./lib/service-urls";
+import { areaPath, areaRedirects } from "./lib/location-urls";
 import { fallbackServicePlaces } from "./lib/data/service-places";
 
 /*
@@ -15,7 +16,6 @@ import { fallbackServicePlaces } from "./lib/data/service-places";
 
 /** Old URLs, all checked against the live WordPress site. Every page in the old sitemaps keeps its exact URL. */
 const oldUrls: [string, string][] = [
-  ["/about-us/service-area/tampa", "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/"],
   ["/wildlife-removal-services", "/services/"],
   ["/wildlife-removal-services/bat-removal-tampa", "/services/bat-removal/"],
   ["/wildlife-removal-services/rat-removal-tampa", "/services/rat-removal/"],
@@ -27,6 +27,17 @@ const oldUrls: [string, string][] = [
   ["/wildlife-removal-services/bee-removal-tampa", "/services/bee-removal/"],
   ["/wildlife-removal-services/opossum-removal-tampa", "/services/opossum-removal/"],
   ["/wildlife-removal-services/dead-animal-tampla-fl", "/services/dead-animal-removal/"],
+  // Old service URLs that 404ed (Ben, Oct 26, 2026)
+  ["/wildlife-removal-services/tampa-squirrel-removal", "/services/squirrel-removal/"],
+  ["/wildlife-removal-services/squirrel-control", "/services/squirrel-removal/"],
+  ["/wildlife-removal-services/bat-control", "/services/bat-removal/"],
+  ["/wildlife-removal-services/opossum-control", "/services/opossum-removal/"],
+  ["/wildlife-removal-services/bee-control", "/services/bee-removal/"],
+  ["/wildlife-removal-services/snake-control", "/services/snake-removal/"],
+  ["/wildlife-removal-services/armadillo-control", "/services/armadillo-removal/"],
+  ["/wildlife-removal-services/mole-control", "/services/"],
+  ["/wildlife-removal-services/duck-removal-tampa-fl", "/services/"],
+  ["/wildlife-removal-services/duck-control", "/services/"],
   ["/what-keeps-rats-away", "/blog/what-keeps-rats-away/"],
   ["/effective-rat-control-tips", "/blog/effective-rat-control-tips/"],
   // WordPress leftovers
@@ -106,7 +117,9 @@ const nextConfig: NextConfig = {
       ...oldUrls.map(([source, destination]) => ({ source, destination: cityTarget(source, destination), statusCode: 301 as const })),
       // One page per animal: retired service pages go straight to the page that replaced them.
       ...Object.entries(movedServices).map(([from, to]) => ({ source: `/services/${from}`, destination: cityTarget(`/services/${from}`, `/services/${to}/`), statusCode: 301 as const })),
-      ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: cityTarget(`/${from}`, `/${to}/`), statusCode: 301 as const })),
+      ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: cityTarget(`/${from}`, `/${areaPath(to)}/`), statusCode: 301 as const })),
+      // Service areas moved to /service-areas/ (Ben, Oct 26, 2026): every old URL, straight to its new one.
+      ...areaRedirects().map(([source, destination]) => ({ source: source.slice(0, -1), destination, statusCode: 301 as const })),
     ];
   },
   async headers() {
