@@ -41,6 +41,7 @@ export default async function ServicePlacePage(props: PageProps<"/services/[slug
         page={page}
         settings={settings}
         path={path}
+        map={{ name: page.placeName, kind: page.placeKind, county: page.county }}
         crumbs={[
           { label: "Services", href: "/services/" },
           { label: service.title, href: `/services/${service.slug}/` },

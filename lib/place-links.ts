@@ -54,7 +54,13 @@ export function withPlaceLinks<T extends { sections: Section[] }>(page: T, self:
   const countyName = self.placeKind === "county" ? self.placeName.replace(/ County$/, "") : self.county;
   const sections: Section[] = [];
 
-  const here = others.filter((p) => p.location && p.location === self.location).map(link);
+  // Every other service we offer, here (Kia): this place's page for it where there is one, else the service page.
+  const here = services
+    .filter((s) => s.group === "removal" && s.slug !== self.service)
+    .map((s) => {
+      const page = others.find((p) => p.service === s.slug && p.location && p.location === self.location);
+      return page ? link(page) : { label: s.title, href: `/services/${s.slug}/` };
+    });
   const home = locations.find((l) => l.path === self.location);
   if (home) here.push({ label: `Wildlife removal in ${home.name}`, href: `/${home.path}/` });
   if (here.length)
@@ -87,11 +93,13 @@ export function withPlaceLinks<T extends { sections: Section[] }>(page: T, self:
 /** A city or county page with a "Services here" list of the animal pages for that place. */
 export function withServicesHere(location: Location, places: PlacePage[], services: Service[]): Location {
   const mine = places.filter((p) => p.location === location.path);
-  const title = (p: PlacePage) => services.find((s) => s.slug === p.service)?.title ?? p.service;
-  // No animal pages for this place yet: list the animal removal pages instead, so every page links on (TTR-846).
-  const items = mine.length
-    ? mine.map((p) => ({ label: title(p), href: `/${p.path}/` }))
-    : services.filter((s) => s.group === "removal").map((s) => ({ label: s.title, href: `/services/${s.slug}/` }));
+  // Every service we offer, in every place (Kia): the page for this place where there is one, else the service page.
+  const items = services
+    .filter((s) => s.group === "removal")
+    .map((s) => {
+      const here = mine.find((p) => p.service === s.slug);
+      return { label: s.title, href: here ? `/${here.path}/` : `/services/${s.slug}/` };
+    });
   if (!items.length) return location;
   const section: AreasSection = {
     _type: "areasSection",
