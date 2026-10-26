@@ -1,7 +1,8 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/*
+/* HELD (Ben, Oct 26): fewer than 6 distinct local rat, bat, squirrel or raccoon facts; not registered in locations.ts.
+
  * Carrollwood city page (new, Owen, Oct 26). Unincorporated Hillsborough County.
  * Cards count only rat, bat, squirrel and raccoon facts (plus Lake Carroll as setting):
  * news reports of DOH-Hillsborough cases (labeled as news) and DBPR closure records.

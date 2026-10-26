@@ -25,7 +25,7 @@ export const hillsborough = countyPage({
         { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
         { label: "Town 'n' Country" },
         { label: "Westchase" },
-        { label: "Carrollwood", href: "/about-us/service-area/wildlife-removal-carrollwood-fl/" },
+        { label: "Carrollwood" },
         { label: "Citrus Park" },
         { label: "New Tampa" },
         { label: "Cheval" },

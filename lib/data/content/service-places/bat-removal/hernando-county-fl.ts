@@ -31,6 +31,7 @@ export const batRemovalHernandoCounty = servicePlacePage({
   local: [
     { icon: "leaf", title: "Chinsegut's colony", text: p("The Great Florida Birding Trail lists a large colony of Brazilian free-tailed bats at FWC's 820-acre Chinsegut Wildlife and Environmental Area, off Lake Lindsey Road in Brooksville.") },
     { icon: "home", title: "Bat houses, monitored", text: p("FWC lists maintaining the Chinsegut bat houses, home to several hundred Brazilian free-tailed bats, among the area's regular wildlife monitoring work, alongside bird surveys and kestrel nest boxes.") },
+    { icon: "sound", title: "Bat Night at Chinsegut", text: p("FWC listed an International Bat Night at its Chinsegut Conservation Center for August 30, 2025, with a Florida Bat Conservancy speaker and, weather permitting, a look at bats emerging from the Chinsegut bat boxes.") },
     { icon: "search", title: "No rabid bats on four years of tables", text: p("None of the state's 2022 to 2025 county tables, or their surveillance footnotes, list a rabid bat from Hernando. The only Hernando entries in those four years were two rabid raccoons in 2025.") },
     { icon: "critter", title: "Bats on the rabies list", text: p("DOH-Hernando's rabies surveillance page says raccoons have been reported most often in Florida, followed by bats and foxes.") },
     { icon: "phone", title: "Bats get tested", text: p("Per DOH-Hernando, a dog, cat or ferret that bites someone is quarantined for ten days, while other animals, bats among them, are tested for rabies. DOH-Hernando says to note where the animal is so animal control can pick it up.") },
@@ -79,6 +80,7 @@ export const batRemovalHernandoCounty = servicePlacePage({
   sources: [
     { title: "FWC Great Florida Birding Trail: Chinsegut WEA (large colony of Brazilian free-tailed bats; 820 acres; 23212 Lake Lindsey Rd, Brooksville)", url: CHIN_BT },
     { title: "FWC: Chinsegut WEA habitat and management (wildlife monitoring: breeding bird survey, kestrel nest boxes, bat houses home to several hundred Brazilian free-tailed bats)", url: CHIN_HAB },
+    { title: "FWC: International Bat Night at Chinsegut Conservation Center, Aug. 30, 2025 (Florida Bat Conservancy speaker; the evening concludes watching bats emerge from the Chinsegut bat boxes)", url: "https://outreach.myfwc.com/events/EventDetails.aspx?id=1981027" },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2022 (Hernando: none listed)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2022.pdf" },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2023 (Hernando: none listed)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2023.pdf" },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Hernando: none listed; four surveillance bats from Hillsborough and Polk footnoted)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2024.pdf" },

@@ -59,7 +59,7 @@ export const squirrelRemovalBrooksville = servicePlacePage({
     ),
     faq(
       "Will squirrels have babies in my attic?",
-      "They can. FWC says gray squirrels breed up to twice a year, so we check for a nest before closing any hole, and the young come out with the mother.",
+      "They can. FWC says gray squirrels breed up to twice a year, so check for a nest before any hole is closed.",
     ),
     faq(
       "How soon can you come out for squirrels in Brooksville?",
