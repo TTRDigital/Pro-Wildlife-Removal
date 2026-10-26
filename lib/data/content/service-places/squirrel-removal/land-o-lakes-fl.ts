@@ -2,6 +2,7 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
+ * HELD (Ben, Oct 26, 2026: photos, specimens and conservation lines do not count; under 6).
  * Squirrel removal in Land O' Lakes (TTR-738, Nia). Every card is one true fact
  * about squirrels in Land O' Lakes or Pasco: the Cypress Creek Preserve plans
  * (2005, 2021), a 1975 UF Florida Museum specimen, dated Laker/Lutz News reader
