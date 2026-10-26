@@ -24,7 +24,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-marion-county-fl",
   order: 95,
-  heroText: "A raccoon in a Marion County attic, barn or feed room, or into the garbage every night? We get it out, check for young before anything is sealed and repair the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in a Marion County attic, barn or feed room, or into the garbage every night? We remove it, look for young before any opening is sealed, and fix the gap it used. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from homes in Marion County?",
   answer:
     "A private wildlife company. Marion County Animal Services handles strays and bites to pets, and DOH-Marion handles human bites, but a raccoon living in a Marion home or barn is the owner's to have removed. Pro Wildlife Removal takes it out, checks for young and repairs the opening. Call (727) 594-7705.",
