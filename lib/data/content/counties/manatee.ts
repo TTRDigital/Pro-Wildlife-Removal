@@ -67,7 +67,7 @@ export const manatee = countyPage({
   seo: {
     title: "Wildlife Removal in Manatee County, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Manatee County, FL: bats, rats, raccoons, squirrels, snakes, opossums and more. Humane removal, sealing and cleanup. Call 24/7: (727) 594-7705.",
+      "Wildlife removal in Manatee County, FL: bats, rats, raccoons, squirrels, snakes, opossums and more. Wildlife help from Bradenton to the barrier islands, plus who to call for bites, strays and alligators. Call 24/7: (727) 594-7705.",
   },
   sources: [
     S.censusPop,

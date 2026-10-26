@@ -11,7 +11,7 @@ export const pinellas = countyPage({
   heroText: "Florida's most densely populated county, with 588 miles of coastline and wildlife that has learned to live between the houses. Call the Pinellas line, day or night.",
   answerHeading: "Who removes wildlife in Pinellas County?",
   answer:
-    "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Every job covers the inspection, legal removal, sealing and cleanup. Call 727-496-7702, 24/7.",
+    "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Call 727-496-7702, 24/7. [PLACEHOLDER: ask the client: confirm every job includes inspection, sealing and cleanup]",
   points: ["Pinellas line 727-496-7702", "St. Pete to Tarpon Springs", "Open 24/7", "Entry points sealed"],
   townsHeading: "Pinellas towns we cover",
   townsIntro: "Clearwater is the county seat and St. Petersburg the largest city. Tap a town for its own page where there is one.",
@@ -39,7 +39,7 @@ export const pinellas = countyPage({
     { icon: "map-pin", title: "A long, built-up coast", text: p("Pinellas has 588 miles of coastline, and USGS describes its northern barrier islands as protecting a highly populated shore. Waterfront living puts wildlife right at the back door.") },
     { icon: "critter", title: "Rabies cases on record", text: p("Florida's Department of Health counted a rabid bat in Pinellas in 2024 and a rabid raccoon in 2025. Never handle a bat or a raccoon that's acting oddly.") },
     { icon: "leaf", title: "Rat poison and owls", text: p("UF/IFAS Extension in Pinellas tied owl deaths at Philippe Park to rat poison. Sealing a house against rats protects the owls that hunt them too.") },
-    { icon: "leaf", title: "Beach-nesting birds", text: p("Pinellas County Parks and Audubon Florida post a protected nesting area for black skimmers, a threatened species, at the north end of Sand Key Park. Predators there include crows, gulls and coyotes.") },
+    { icon: "leaf", title: "Beach-nesting birds", text: p("In 2022, Pinellas County Parks and Audubon Florida posted a protected nesting area for black skimmers, a threatened species, at the north end of Sand Key Park. Predators there include crows, gulls and coyotes.") },
   ],
   contactsIntro: "Not every animal problem is ours. These are the public agencies Pinellas residents can call, with numbers from each agency's own page.",
   contacts: [
@@ -51,7 +51,7 @@ export const pinellas = countyPage({
   faqs: [
     faq(
       "What number do I call in Pinellas County?",
-      "Call the Pinellas line, 727-496-7702, or the main line, (727) 594-7705. Someone picks up around the clock.",
+      "Call the Pinellas line, 727-496-7702, or the main line, (727) 594-7705. Calls are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Pinellas County]",
     ),
     faq(

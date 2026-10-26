@@ -8,13 +8,13 @@ export const sumter = countyPage({
   order: 7,
   phone: { label: "Call 863-431-9244", href: "tel:+18634319244" },
   summary: "Wildlife removal in Sumter County: The Villages, Wildwood, Bushnell, Webster and the farm country around them.",
-  heroText: "Home to most of The Villages and a lot of open country around it. Call the Sumter line, day or night.",
+  heroText: "Home to a large part of The Villages and a lot of open country around it. Call the Sumter line, day or night.",
   answerHeading: "Who handles wildlife removal in Sumter County and The Villages?",
   answer:
     "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Sumter County, including The Villages, Wildwood, Bushnell and Webster. We inspect, remove the animal the way Florida law allows, seal the entry and clean up. Call 863-431-9244, 24/7.",
   points: ["Sumter line 863-431-9244", "The Villages and Wildwood", "89% rural land", "Open 24/7"],
   townsHeading: "Sumter towns we cover",
-  townsIntro: "Bushnell is the county seat and Wildwood the largest city. Most of The Villages lies in Sumter County.",
+  townsIntro: "Bushnell is the county seat and Wildwood the largest city. The Census places The Villages in Sumter and Marion counties.",
   towns: [
     {
       title: "Sumter County",
@@ -32,11 +32,11 @@ export const sumter = countyPage({
   localHeading: "What drives wildlife calls in Sumter",
   localIntro: "Sumter grew from about 130,000 people in 2020 to an estimated 158,000 in 2025, yet the 2020 Census still counted 89% of its land as rural. Growth is pushing new homes into old pasture and woods.",
   local: [
-    { icon: "home", title: "The Villages", text: p("In the 2020 Census, 88% of The Villages' residents lived in the Sumter County part. With so much open land around it, wildlife is never far from the newest streets.") },
+    { icon: "home", title: "The Villages", text: p("The Census places The Villages in both Sumter and Marion counties. With so much open land around it, wildlife is never far from the newest streets.") },
     { icon: "leaf", title: "Green Swamp and Richloam", text: p("FWC's Green Swamp area spans over 50,000 acres across Lake, Polk and Sumter, and lists armadillos, wild hogs and alligators. The Richloam tract, over 58,000 acres, lists gray squirrels and gopher tortoises.") },
     { icon: "critter", title: "Rabid cats on record", text: p("The Department of Health has issued Sumter rabies alerts after rabid cats near Webster (June 2026) and Sumterville (June 2024). Feeding outdoor cats also feeds raccoons.") },
     { icon: "search", title: "Ocala bear range", text: p("FWC places Sumter in its Central bear area, around the Ocala population. Secure trash and pet food, and contact FWC about bears.") },
-    { icon: "leaf", title: "Half Moon WMA", text: p("FWC's Half Moon WMA sits east of Inverness in Sumter County, where wading birds gather along marsh and pond edges and scrub-jay habitat is being restored.") },
+    { icon: "leaf", title: "Half Moon WMA", text: p("FWC's Half Moon WMA sits east of Inverness in Sumter County, where wading birds gather along marsh and pond edges and Florida scrub-jays can be seen.") },
   ],
   contactsIntro: "Sumter's own website is clear about who does what. These numbers come from the county's and the agencies' pages.",
   contacts: [
@@ -48,7 +48,7 @@ export const sumter = countyPage({
   faqs: [
     faq(
       "Do you serve The Villages?",
-      "Yes. Most of The Villages is in Sumter County, and we cover it along with Wildwood, Bushnell and the rest of the county. The Villages also has [its own page](/about-us/service-area/wildlife-removal-the-villages/).",
+      "Yes. The Villages sits largely in Sumter County, and we cover it along with Wildwood, Bushnell and the rest of the county. The Villages also has [its own page](/about-us/service-area/wildlife-removal-the-villages/).",
     ),
     faq(
       "What's the phone number for Sumter County?",
@@ -85,7 +85,7 @@ export const sumter = countyPage({
     S.edr,
     S.edrUninc,
     S.seats,
-    { title: "U.S. Census Bureau: 2020 place codes (The Villages CDP in Marion and Sumter) and 2020 redistricting file (88% of The Villages CDP residents in Sumter)", url: "https://www2.census.gov/geo/docs/reference/codes2020/place/st12_fl_place2020.txt" },
+    { title: "U.S. Census Bureau: 2020 place codes (The Villages CDP in Marion and Sumter counties)", url: "https://www2.census.gov/geo/docs/reference/codes2020/place/st12_fl_place2020.txt" },
     { title: "Florida DOH: Sumter alert, June 26, 2026 (rabid cat, Webster area)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/06/rabies-alert-sumter-county-6-26-2026.pdf" },
     { title: "Florida DOH: Sumter alert, June 19, 2024 (rabid cat, Sumterville area)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/alert-sumter-6-19-2024.pdf" },
     { title: "FWC: Green Swamp WMA (over 50,000 acres in Lake, Polk, Sumter; armadillos, wild hogs, deer, alligators)", url: "https://myfwc.com/recreation/cooperative/green-swamp/" },
@@ -95,7 +95,7 @@ export const sumter = countyPage({
     { title: "Sumter County: Animal Services contact (352-689-4400, option 3; option 9 after hours)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
     { title: "Sumter County: Nuisance wildlife (Animal Services deals only with domestic animals; FWC Ocala 352-732-1225; referrals to private trappers)", url: "https://www.sumtercountyfl.gov/1180/Nuisance-Wildlife" },
     { title: "DOH-Sumter: Rabies alert, June 26, 2026 (report bites at 352-569-3102)", url: "https://sumter.floridahealth.gov/2026/06/26/doh-sumter-issues-rabies-alert-2/" },
-    { title: "FWC: Half Moon WMA (Sumter County; wading birds; scrub-jay habitat)", url: "https://myfwc.com/recreation/lead/half-moon/" },
+    { title: "FWC: Half Moon WMA (Sumter County; wading birds; Florida scrub-jays)", url: "https://myfwc.com/recreation/lead/half-moon/" },
     { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },

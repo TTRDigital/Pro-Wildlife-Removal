@@ -8,13 +8,13 @@ export const polk = countyPage({
   order: 8,
   phone: { label: "Call 863-208-5050", href: "tel:+18632085050" },
   summary: "Wildlife removal in Polk County: Lakeland, Winter Haven, Haines City, Bartow and the lake towns between them.",
-  heroText: "The biggest county we serve, with over 500 named lakes and fast-growing cities in between. Call the Polk line, any hour.",
+  heroText: "The largest county we serve by land area, with over 500 named lakes and fast-growing cities in between. Call the Polk line, any hour.",
   answerHeading: "Who removes wildlife in Polk County?",
   answer:
     "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it the way Florida law allows, seal the gap and clean up. Call 863-208-5050, 24/7.",
   points: ["Polk line 863-208-5050", "Lakeland to Haines City", "Over 500 named lakes", "Open 24/7"],
   townsHeading: "Polk towns we cover",
-  townsIntro: "Bartow is the county seat and Lakeland the largest city. Polk has more land than any other county we serve: about 1,800 square miles.",
+  townsIntro: "Bartow is the county seat and Lakeland the largest city. Polk is the largest county we serve by land area: about 1,800 square miles.",
   towns: [
     {
       title: "North and west Polk",
@@ -44,7 +44,7 @@ export const polk = countyPage({
   contacts: [
     { icon: "users", title: "PCSO Animal Control", text: p("(863) 577-1762, toll-free 1-888-275-8941. Bites, dangerous dogs, sick or injured dogs and cats, and bites by possible rabies carriers like raccoons and bats.") },
     { icon: "phone", title: "Animal bites: DOH-Polk", text: p("863-519-8300, the number the department's rabies prevention page gives for reports.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office is in Lakeland: 863-648-3200 for bears. Alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office is in Lakeland: 863-648-3200 for bears. Larger alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available across Polk. Open any card for the signs, the rules and our process.",
   faqs: [

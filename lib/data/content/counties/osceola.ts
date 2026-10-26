@@ -9,7 +9,7 @@ export const osceola = countyPage({
   order: 10,
   phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   summary: "Wildlife removal in Osceola County: bats, rats, raccoons, squirrels, snakes and more, around Kissimmee, St. Cloud and the lakes.",
-  heroText: "The fastest-growing county we serve, where new neighborhoods ring Lake Tohopekaliga and the Kissimmee Prairie stretches south. Call us any hour.",
+  heroText: "The fastest-growing county we serve, by Census estimates, where new neighborhoods ring Lake Tohopekaliga and the Kissimmee Prairie stretches south. Call us any hour.",
   answerHeading: "Who removes wildlife in Osceola County?",
   answer:
     "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Osceola County. We track down the way in, take the animal out within Florida's rules, close the opening and clean up. Call (727) 594-7705, 24 hours a day, 7 days a week.",
@@ -42,7 +42,7 @@ export const osceola = countyPage({
   faqs: [
     faq(
       "What number do I call in Osceola County?",
-      "Call the main line, (727) 594-7705. There's always someone on the phone, any day, any hour.",
+      "Call the main line, (727) 594-7705. It's open 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Osceola County]",
     ),
     faq(
@@ -59,7 +59,7 @@ export const osceola = countyPage({
     ),
     faq(
       "Who picks up a dead or injured animal on an Osceola County road?",
-      "Osceola County Road and Bridge: 407-742-7500, according to the county's animal services site.",
+      "On county roads, Osceola County Road and Bridge: 407-742-7500. Inside city limits, Kissimmee is 407-518-2506 and St. Cloud 407-957-7357, according to the county's animal services site.",
     ),
   ],
   ctaHeading: "Wildlife problem in Osceola County?",
@@ -67,7 +67,7 @@ export const osceola = countyPage({
   seo: {
     title: "Wildlife Removal in Osceola County, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Osceola County, FL: bats, rats, raccoons, squirrels, snakes, opossums and more. Humane removal, sealing and cleanup. Call 24/7: (727) 594-7705.",
+      "Wildlife removal in Osceola County, FL: bats, rats, raccoons, squirrels, snakes, opossums and more. Rabies alerts, who to call for what, and help with animals around Kissimmee, St. Cloud and the lakes. Call 24/7: (727) 594-7705.",
   },
   sources: [
     S.censusPop,
