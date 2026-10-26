@@ -9,6 +9,10 @@ import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasc
 import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
 import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
 import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
+import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
+import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
+import { squirrelRemovalPinellasCounty } from "./content/service-places/squirrel-removal/pinellas-county-fl.ts";
+import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -29,6 +33,11 @@ export const fallbackServicePlaces: ServicePlace[] = [
   batRemovalPascoCounty,
   raccoonRemovalPascoCounty,
   raccoonRemovalNewPortRichey,
+  // Pinellas County (Rhea)
+  ratRemovalPinellasCounty,
+  batRemovalPinellasCounty,
+  squirrelRemovalPinellasCounty,
+  raccoonRemovalPinellasCounty,
 ];
 
 /**
