@@ -5,6 +5,10 @@ import { batRemovalTampa } from "./content/service-places/bat-removal/tampa-fl.t
 import { squirrelRemovalTampa } from "./content/service-places/squirrel-removal/tampa-fl.ts";
 import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
 import { raccoonRemovalPolkCounty } from "./content/service-places/raccoon-removal/polk-county-fl.ts";
+import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
+import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
+import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
+import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -20,6 +24,11 @@ export const fallbackServicePlaces: ServicePlace[] = [
   // Polk County (Owen)
   batRemovalPolkCounty,
   raccoonRemovalPolkCounty,
+  // Pasco (Nia)
+  ratRemovalPascoCounty,
+  batRemovalPascoCounty,
+  raccoonRemovalPascoCounty,
+  raccoonRemovalNewPortRichey,
 ];
 
 /**
