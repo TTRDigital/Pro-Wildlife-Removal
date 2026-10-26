@@ -10,26 +10,26 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 |---|---|---|---|---|---|---|
 | Pasco County | Nia | L | L | L | L |  |
 | Pinellas County | Rhea | L | L | H | L | squirrel held: too few local squirrel facts |
-| Hillsborough County | Owen | L | L | L | L |  |
+| Hillsborough County | Owen | L | L | H | L | squirrel held (Ben, local-problem rule, 5142c0d) |
 | Hernando County | Nia | F | F | L | L | rat and bat: Ben re-checking the Hernando-specific facts Nia added |
 | Citrus County | Nia | N | N | H | N | squirrel held: under 6 local facts |
 | Sumter County | Nia | H | N | H | N | rat and squirrel held: under 6 local facts |
-| Polk County | Owen | L | L | L | L |  |
+| Polk County | Owen | L | L | H | L | squirrel held (Ben, local-problem rule, 5142c0d) |
 | Tampa | Cole | L | L | L | L |  |
 | St. Petersburg | Rhea | E | H | N | F | bat held: needs more local facts; raccoon passed with fixes, waiting on Rhea to apply them |
 | Clearwater | Rhea | E | N | N | H | raccoon held in fact check: needs more local facts |
 | Spring Hill | Nia | E | N | N | L |  |
 | New Port Richey | Nia | E | S | S | L | bat, squirrel: nothing true and local on city or county pages |
 | Brooksville | Nia | E | F | F | L | bat and squirrel restored under the new town bar |
-| Land O' Lakes | Nia | N | F | N | L | bat restored under the new town bar |
+| Land O' Lakes | Nia | S | F | H | L | bat restored under the new town bar; squirrel held, rat skipped (Ben, Oct 26: sightings don't count) |
 | Hudson | Nia | E | L | N | N |  |
 | Trinity | Nia | S | S | S | S | nothing local found; old rat page redirected |
 | Odessa | Nia | S | S | S | S | nothing local found |
-| Holiday | Nia | N | N | N | H | raccoon held: under 6 town facts |
+| Holiday | Nia | S | S | S | H | raccoon held: under 6 town facts; rat, bat and squirrel skipped (Ben, Oct 26) |
 | Dade City | Nia | E | N | N | N |  |
 | Dunedin | Rhea | E | N | N | F |  |
 | Safety Harbor | Rhea | E | N | N | H | raccoon (Nia) held: only 4 real raccoon facts |
-| Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
+| Palm Harbor | Owen | L | S | S | H | bat, squirrel skipped: under the town bar; raccoon held (Ben, local-problem rule, 5142c0d); new rat page replaces the redirected old one |
 | Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
 | The Villages | Nia | E | P | H | H | city page cleared (0c320c2); bat page failed fact check, out of the preview until Nia's fixes; old rat page linked; raccoon page held at 5 facts (Ben, 1962bb0); squirrel page held (0381c47) |
 | Marion County | Nia | N | L | N | L | county page cleared (b77a606); communities section cleared (1c65dc2); bat page cleared (5958797); raccoon page cleared (31ea209, 992f6e2) |
@@ -54,14 +54,14 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 
 | Status | Rat | Bat | Squirrel | Raccoon | Total |
 |---|---|---|---|---|---|
-| live, fact-checked | 7 | 7 | 5 | 13 | 32 |
+| live, fact-checked | 7 | 7 | 3 | 12 | 29 |
 | in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
 | fixes pending | 0 | 1 | 0 | 0 | 1 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
 | county section | 11 | 11 | 11 | 11 | 44 |
-| held | 2 | 1 | 5 | 5 | 13 |
-| skipped | 3 | 7 | 6 | 4 | 20 |
-| not started | 7 | 11 | 13 | 6 | 37 |
+| held | 2 | 1 | 8 | 6 | 17 |
+| skipped | 5 | 8 | 7 | 4 | 24 |
+| not started | 5 | 10 | 11 | 6 | 32 |
 | **all cells** | 41 | 41 | 41 | 41 | 164 |
 
 Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.

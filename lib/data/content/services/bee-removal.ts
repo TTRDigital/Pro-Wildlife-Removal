@@ -175,7 +175,6 @@ export const beeRemoval: Service = {
         { title: "Opening and closing", text: p("Cutting into drywall, soffit or siding, and closing it again.") },
         { title: "Size of the colony", text: p("An established colony can fill a wall cavity with comb.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: can the site show a price range for bee removal?]"),
     },
     {
       _type: "areasSection",

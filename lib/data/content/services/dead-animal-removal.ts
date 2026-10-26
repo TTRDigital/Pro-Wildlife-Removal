@@ -138,7 +138,6 @@ export const deadAnimalRemoval: Service = {
         { title: "Size of the animal", text: p("A rat, an opossum or something larger.") },
         { title: "Cleanup and odor work", text: p("A quick wipe-down, or insulation removal and treatment.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: can the site show a price range for dead animal removal?]"),
     },
     {
       _type: "areasSection",

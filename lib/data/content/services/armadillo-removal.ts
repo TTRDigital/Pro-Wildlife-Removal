@@ -140,7 +140,7 @@ export const armadilloRemoval: Service = {
         { title: "Where the burrow is", text: p("Open yard, or under a slab, shed or A/C pad.") },
         { title: "Prevention work", text: p("[PLACEHOLDER: ask the client: confirm whether you install buried fencing or wire, so this cost factor can stay]") },
       ],
-      outro: p("The armadillo inspection is free. We quote the trapping before setting a single trap.", "[PLACEHOLDER: ask the client: can the site show a price range for armadillo removal?]"),
+      outro: p("The armadillo inspection is free. We quote the trapping before setting a single trap."),
     },
     {
       _type: "areasSection",

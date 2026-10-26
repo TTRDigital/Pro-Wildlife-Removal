@@ -21,7 +21,6 @@ export const wildlifeRemovalCost: Post = {
   body: rich(
     p(
       "**The short answer:** there's no single price for wildlife removal. What you pay depends on the animal and Florida's rules for it, how many openings the house has, how hard they are to reach and how much cleanup the animal left. Call (727) 594-7705 for a free inspection.",
-      "[PLACEHOLDER: ask the client: can the site show typical price ranges?]",
     ),
     h3("The four things that set the price"),
     table(

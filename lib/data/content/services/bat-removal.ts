@@ -195,7 +195,7 @@ export const batRemoval: Service = {
         { title: "How long the colony has been there", text: p("A new roost leaves little behind. An old one can mean a full insulation replacement.") },
         { title: "Repairs", text: p("Rotted fascia, broken soffit panels or cracked tile have to be fixed before they can be sealed.") },
       ],
-      outro: p("We inspect for bats free of charge and quote the exclusion before any work begins.", "[PLACEHOLDER: ask the client: can the site show a price range for bat exclusion?]"),
+      outro: p("We inspect for bats free of charge and quote the exclusion before any work begins."),
     },
     {
       _type: "areasSection",

@@ -8,10 +8,7 @@ import { faq, p } from "./pt.ts";
 type Extra = { sections: Section[]; sources?: Source[]; seoTitle?: string; seoDescription?: string };
 
 const FWC_BATS = "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/";
-const FWC_TRAP = "https://myfwc.com/news/all-news/wildlife-trapping-0226/";
-const SHERIFF = "https://www.hernandosheriff.org/AnimalServices/";
-const GOOD_NEIGHBOR = "https://www.cityofbrooksville.us/AgendaCenter/ViewFile/Agenda/_04252024-260";
-const DOH_HERNANDO_ALERT = "https://www.floridahealth.gov/wp-content/uploads/2026/06/rabies-alert-hernando-county-6-12-26.pdf";
+const FWC_TRAP = "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/";
 const CDC_CLEANUP = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html";
 
 export const pageExtras: Record<string, Extra> = {
@@ -67,7 +64,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "How are the animals taken out?",
-            `With traps set to hold the animal without hurting it, then removal from the property. Florida's trapping rules apply: FWC now requires trappers to register each year, and nuisance animals moved off site must be released or put down within 12 hours of the trap check ([FWC](${FWC_TRAP})). Bats are never trapped; see [bat removal](/services/bat-removal/).`,
+            `With traps set to hold the animal without hurting it, then removal from the property. Florida's trapping rules apply. Under FWC rule changes that take effect December 31, 2026, trappers need a no-cost permit with yearly registration and training, and nuisance animals must be relocated or humanely killed off site within 12 hours of the trap check ([FWC](${FWC_TRAP})). Bats are never trapped; see [bat removal](/services/bat-removal/).`,
           ),
           faq(
             "Why is exclusion part of every job?",
@@ -85,7 +82,7 @@ export const pageExtras: Record<string, Extra> = {
       },
     ],
     sources: [
-      { title: "FWC: Wildlife trapping changes, Feb 2026 (annual registration and training; release or euthanize nuisance wildlife moved off site within 12 hours of the trap check)", url: FWC_TRAP },
+      { title: "FWC: Trapping rules, trap types (rule changes effective December 31, 2026: no-cost permit with yearly registration and training; nuisance animals relocated or humanely killed off site within 12 hours of the trap check)", url: FWC_TRAP },
       { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
       { title: "CDC: How to clean up after rodents (do not sweep or vacuum droppings)", url: CDC_CLEANUP },
     ],
@@ -121,44 +118,6 @@ export const pageExtras: Record<string, Extra> = {
 };
 
 export const locationExtras: Record<string, Extra> = {
-  "about-us/service-area/wildlife-removal-service-in-brooksville-fl": {
-    sections: [
-      {
-        _type: "faqSection",
-        _key: "faq",
-        eyebrow: "FAQ",
-        heading: "Brooksville wildlife questions",
-        items: [
-          faq(
-            "Who takes stray pets and animal bites in Brooksville?",
-            `The Hernando County Sheriff's Office Animal Services, (352) 796-5062. The sheriff has handled law enforcement in the City of Brooksville since July 1, 2024 ([Hernando County Sheriff](${SHERIFF})). Wild animals in your attic or walls are a job for a wildlife company.`,
-          ),
-          faq(
-            "Has rabies turned up in Hernando County lately?",
-            `Yes. On June 12, 2026, DOH-Hernando issued a rabies alert after a raccoon attacked an unvaccinated cat in the Spring Hill area, and said rabies is present in the wild animal population ([DOH-Hernando](${DOH_HERNANDO_ALERT})). Keep pets vaccinated and don't handle raccoons or bats.`,
-          ),
-          faq(
-            "Can I feed the squirrels and raccoons on the Good Neighbor Trail?",
-            `No. The city's management plan for the Good Neighbor Trail says it will prohibit feeding raccoons, squirrels and other wild animals there ([City of Brooksville](${GOOD_NEIGHBOR})).`,
-          ),
-          faq(
-            "When can bats be removed from a Brooksville home?",
-            `From August 15 to April 15. FWC says bat exclusion is illegal during maternity season, April 16 to August 14 ([FWC](${FWC_BATS})). See [bat removal](/services/bat-removal/).`,
-          ),
-          faq(
-            "How soon can you get to Brooksville?",
-            "Same-day appointments are often available in Brooksville. For rats, see our [Brooksville rat removal](/about-us/service-area/expert-rat-removal-in-brooksville-fl/) page, or call (727) 594-7705.",
-          ),
-        ],
-      },
-    ],
-    sources: [
-      { title: "Hernando County Sheriff's Office: Animal Services ((352) 796-5062; law enforcement in the City of Brooksville since July 1, 2024)", url: SHERIFF },
-      { title: "DOH-Hernando: Rabies alert, June 12, 2026 (raccoon attacked an unvaccinated cat, Norvell Road, Spring Hill area; rabies present in the wild animal population)", url: DOH_HERNANDO_ALERT },
-      { title: "City of Brooksville: Good Neighbor Trail management plan, April 2024 committee agenda packet (city will prohibit feeding raccoons, squirrels and other wild animals)", url: GOOD_NEIGHBOR },
-      { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
-    ],
-  },
 };
 
 const add = (sections: Section[], extra: Section[]) => {

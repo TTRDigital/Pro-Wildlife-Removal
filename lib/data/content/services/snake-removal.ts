@@ -160,7 +160,6 @@ export const snakeRemoval: Service = {
         { title: "The species", text: p("Venomous snakes take more care and equipment.") },
         { title: "Sealing and rodent work", text: p("Closing the gaps, and dealing with the rodents that drew it.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: is there an emergency or after-hours rate, and can the site show a price range for snake removal?]"),
     },
     {
       _type: "areasSection",

@@ -2,6 +2,7 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
+ * HELD (Ben, Oct 26, 2026: sighting photos only, mostly protected fox squirrels; unregistered).
  * Squirrel removal in The Villages (TTR-738, Nia). Every card is one dated
  * Villages-News report of squirrels in The Villages (2019-2026), plus FWC's fox
  * squirrel profile, status and nongame rule.

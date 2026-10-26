@@ -187,7 +187,7 @@ export const squirrelRemoval: Service = {
         { title: "Removal method", text: p("A one-way door, or traps that need return visits.") },
         { title: "Attic cleanup", text: p("Removing nests and droppings, and replacing insulation if needed.") },
       ],
-      outro: p("Our squirrel inspection is free, and you see the price before anything is done.", "[PLACEHOLDER: ask the client: can the site show a price range for squirrel removal?]"),
+      outro: p("Our squirrel inspection is free, and you see the price before anything is done."),
     },
     {
       _type: "areasSection",

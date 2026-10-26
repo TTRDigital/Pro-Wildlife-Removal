@@ -20,7 +20,6 @@ export const atticCleanupCost: Post = {
   body: rich(
     p(
       "**The short answer:** an animal in the attic costs three things: getting it out, sealing the way in, and cleaning up. Which animal it is, how long it stayed and how much insulation it ruined decide most of the bill. Book an inspection at (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: can the site show typical price ranges for removal, sealing and attic cleanup?]",
     ),
     h3("The three parts of the bill"),
     ul(
@@ -47,7 +46,6 @@ export const atticCleanupCost: Post = {
       ["Access", "A low, tight attic with little headroom takes longer to work in."],
       ["Damage to repair", "Chewed wiring for an electrician, torn ductwork, rotted roof decking near the entry."],
     ),
-    p("[PLACEHOLDER: ask the client: which of these you price separately, and whether insulation replacement is part of the cleanup quote]"),
     h3("Can you clean the attic yourself?"),
     p(
       `For a few droppings on a garage shelf, the CDC's steps work: air the space out for 30 minutes, wear rubber or plastic gloves, soak droppings and nesting in disinfectant or 1 part bleach to 9 parts water, wait five minutes, wipe up with paper towels and wash your hands. Never sweep or vacuum droppings dry ([CDC](${CDC_CLEAN})).`,

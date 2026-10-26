@@ -159,7 +159,6 @@ export const home: PageContent = {
           "How much does wildlife removal cost in Central Florida?",
           "It depends on the animal, how many there are, how many entry points need sealing and how much cleanup the attic needs. A single raccoon caught in a yard is a different job from a bat colony in a tile roof. We give you the price for your home after the inspection, before any work starts.",
           "The inspection is free.",
-          "[PLACEHOLDER: ask the client: can the site show price ranges?]",
         ),
         faq(
           "How fast can you come out?",

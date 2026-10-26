@@ -198,7 +198,6 @@ export const ratsInAttic: Service = {
         faq(
           "How much does attic cleanup after rats cost?",
           "It depends on how much insulation is soiled and how big the attic is. See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for what drives the price.",
-          "[PLACEHOLDER: ask the client: can the site show a price range for attic cleanup?]",
         ),
         faq(
           "Can I just put poison in the attic?",
