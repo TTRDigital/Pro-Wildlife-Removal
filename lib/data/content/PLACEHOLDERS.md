@@ -127,3 +127,476 @@ Still open with the client: methods and job length, warranty, attic clean-up, Po
 | Place: raccoon-removal St. Petersburg | /services/raccoon-removal/st-petersburg-fl/ | a real Google review from a St. Petersburg raccoon job, quoted exactly as on Google (TTR-723) |
 | Place: raccoon-removal Dunedin | /services/raccoon-removal/dunedin-fl/ | a real Google review from a Dunedin raccoon job, quoted exactly as on Google (TTR-723) |
 | Post: Animal in the Attic: Removal and Cleanup Cost in Florida | /blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/ | how long a typical attic cleanup takes |
+
+## Clean-up wording taken out (Oct 26, Ben/Kia)
+
+The client hasn't confirmed attic clean-up (it's a question in Kia's email), so no page claims it for now. Every line changed is below: file, the old text, the text now on the site. If the client says yes, restore from the old text. A few later SEO-description length tweaks aren't listed.
+
+- `content/home.ts`
+  - was: then we seal the way they got in and clean up what they left behind.
+  - now: then we seal the way they got in and show you what the inspection found.
+- `content/home.ts`
+  - was: We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.
+  - now: We inspect, remove the animals the way Florida law allows and seal the entry points. Call (727) 594-7705.
+- `content/home.ts`
+  - was: title: "Clean-Up Services", text: p( "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments and ozone treatments to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
+  - now: title: "Inspection Report", text: p( "Animals that live in a crawlspace or attic leave droppings, soiled insulation and chewed wiring behind. We show you what the inspection found, so you know what an electrician or contractor may need to look at.",
+- `content/home.ts`
+  - was: "Entry points sealed and the mess cleaned up, not just the animal taken away",
+  - now: "Entry points sealed, not just the animal taken away",
+- `content/home.ts`
+  - was: faq( "Do you clean up the attic afterwards?", "Yes. We remove droppings, nesting material and soiled insulation and sanitize the area. Sweeping or vacuuming droppings can put germs in the air, so this is work for protective gear and a respirator, not a broom.", ),
+  - now: faq( "Is it safe to sweep up droppings in the attic myself?", "No. The CDC says not to sweep or vacuum rodent droppings, because that can put germs in the air. Its steps are gloves, a disinfectant or bleach soak, then paper towels. We'll point out where the droppings and soiled insulation are during the inspection.", ),
+- `content/home.ts`
+  - was: how many entry points need sealing and how much cleanup the attic needs. A single raccoon
+  - now: how many entry points need sealing and how high or hard to reach they are. A single raccoon
+- `pages.ts`
+  - was: "title": "Sanitization & Decontamination",
+  - now: "title": "Inspection Findings",
+- `pages.ts`
+  - was: We disinfect and deodorize areas affected by droppings and urine, removing harmful bacteria and odors to restore your property.
+  - now: We show you where droppings, urine stains and damaged insulation are, so you know what the animals left behind.
+- `pages.ts`
+  - was: Our services cover attic cleanouts and sealing entry points, offering complete peace of mind and a wildlife-free home.
+  - now: Our services cover removal and sealing entry points.
+- `pages.ts`
+  - was: We’ll then clean up and sanitize the area.
+  - now: (removed)
+- `content/page-extras.ts`
+  - was: [how we work](/how-we-work/) walks through trapping, exclusion and clean-up,
+  - now: [how we work](/how-we-work/) walks through inspection, trapping and exclusion,
+- `pages.ts`
+  - was: Our technicians bring specialized equipment for trapping, exclusion and clean-up.
+  - now: Our technicians bring specialized equipment for inspection, trapping and exclusion.
+- `content/page-extras.ts`
+  - was: "Bats, rats, raccoons, squirrels, snakes, opossums, armadillos and bees, plus dead animal removal and attic clean-up.
+  - now: "Bats, rats, raccoons, squirrels, snakes, opossums, armadillos and bees, plus dead animal removal.
+- `pages.ts` (x2)
+  - was: Pro Wildlife Removal brings the right tools for trapping, exclusion and cleanup.
+  - now: Pro Wildlife Removal brings the right tools for inspection, trapping and exclusion.
+- `pages.ts`
+  - was: "text": "Animal cleanup services",
+  - now: "text": "Entry points sealed after removal",
+- `posts.ts`
+  - was: A wildlife removal professional can handle trapping, exclusion and cleanup so you don’t have to
+  - now: A wildlife removal professional can handle trapping and exclusion so you don’t have to
+- `content/services/bat-removal.ts`
+  - was: summary: "Legal bat exclusion with one-way doors, entry points sealed and guano cleaned up, outside Florida's maternity season.",
+  - now: summary: "Legal bat exclusion with one-way doors and every entry point sealed, outside Florida's maternity season.",
+- `content/services/bat-removal.ts`
+  - was: moved out the legal way: one-way doors, then every gap sealed and the guano cleaned up."
+  - now: moved out the legal way: one-way doors, then every gap sealed."
+- `content/services/bat-removal.ts`
+  - was: badges: ["Exclusion, never poison", "Guano cleanup"],
+  - now: badges: ["Exclusion, never poison", "Every gap sealed"],
+- `content/services/bat-removal.ts`
+  - was: title: "Seal and clean", text: p( "When no bats are left, the devices come down and the openings are sealed for good. Then the guano and soiled insulation come out and the attic is sanitized.",
+  - now: title: "Seal the openings", text: p( "When no bats are left, the devices come down and the openings are sealed. We point out any guano and soiled insulation we saw, so you can plan what happens next.",
+- `content/services/bat-removal.ts`
+  - was: Legal bat exclusion with one-way doors, sealing and guano cleanup across Central Florida, outside maternity season.
+  - now: Legal bat exclusion with one-way doors and every gap sealed, across Central Florida, outside the maternity season.
+- `content/services/rat-removal.ts`
+  - was: summary: "Roof rats out of the attic: every entry point sealed, the rats left inside trapped, and the droppings cleaned up.",
+  - now: summary: "Roof rats out of the attic: every entry point sealed and the rats left inside trapped.",
+- `content/services/rat-removal.ts`
+  - was: We find how the rats get in, close every gap, trap the ones still inside and clean the attic.
+  - now: We find how the rats get in, close every gap and trap the ones still inside.
+- `content/services/rat-removal.ts`
+  - was: badges: ["Entry points sealed", "Attic cleanup"],
+  - now: badges: ["Entry points sealed", "Rats trapped inside"],
+- `content/services/rat-removal.ts`
+  - was: title: "Check the seals, then clean", text: p( "Rats test new seals in the first couple of weeks, so the work is checked and any break is fixed. Then droppings, nests and soiled insulation come out and the attic is sanitized.",
+  - now: title: "Check the seals", text: p( "Rats test new seals in the first couple of weeks, so the work is checked and any break is fixed.",
+- `content/services/rat-removal.ts`
+  - was: We seal every entry point, trap the rats left inside and clean up droppings and insulation in Central Florida.
+  - now: We seal every entry point and trap the rats left inside, anywhere in Central Florida.
+- `content/services/rat-removal.ts`
+  - was: { title: "Attic cleanup", text: p("From a light cleanup to removing all the insulation.") },
+  - now: { title: "Attic condition", text: p("What the inspection finds in the insulation and wiring.") },
+- `content/services/squirrel-removal.ts`
+  - was: { title: "Attic cleanup", text: p("Removing nests and droppings.") },
+  - now: { title: "Attic condition", text: p("Nests and droppings found in the inspection.") },
+- `content/services/raccoon-removal.ts`
+  - was: seal the way in and clean up what they left.
+  - now: and seal the way in.
+- `content/services/raccoon-removal.ts`
+  - was: title: "Seal and clean", text: p("The entry hole is sealed with materials a raccoon can't pull apart, other weak spots are closed, and the latrine, nest and soiled insulation are removed and the area treated."),
+  - now: title: "Seal the way in", text: p("The entry hole is sealed with materials a raccoon can't pull apart, and other weak spots are closed. We show you any latrine or soiled insulation we found."),
+- `content/services/dead-animal-removal.ts`
+  - was: We locate it, bag and remove it, clean and deodorize the spot, and find how the animal got in.
+  - now: We locate it, bag and remove it, and find how the animal got in.
+- `content/services/dead-animal-removal.ts`
+  - was: We find and remove it, clean and deodorize, and find the way in. Central Florida: (727) 594-7705.
+  - now: We find it, bag it, remove it and find how it got in. Central Florida: (727) 594-7705.
+- `content/counties/citrus.ts`
+  - was: remove the animal legally, seal the opening and clean up. Call
+  - now: remove the animal legally and seal the opening. Call
+- `content/counties/hernando.ts`
+  - was: remove it legally, seal the gap and clean up. Call
+  - now: remove it legally and seal the entry points. Call
+- `content/counties/hillsborough.ts`
+  - was: remove the animal the way Florida law allows, seal it and clean up. Call
+  - now: remove the animal the way Florida law allows and seal it. Call
+- `content/counties/pasco.ts`
+  - was: remove the animal legally, seal it and clean up. Call
+  - now: remove the animal legally and seal it. Call
+- `locations.ts`
+  - was: Each technician is trained on safe handling, exclusion, and cleanup, and keeps up
+  - now: Each technician is trained on safe handling and exclusion, and keeps up
+- `locations.ts`
+  - was: Our team removes the animals, seals the holes they used, and cleans up waste so the area is fully decontaminated.
+  - now: Our team removes the animals and seals the holes they used.
+- `locations.ts`
+  - was: We also fully decontaminate the area to ensure your safety.
+  - now: (removed)
+- `locations.ts`
+  - was: Got animals causing damage? We don’t just get rid of them; our team can clean up after these unwanted guests too.
+  - now: Got animals causing damage? We remove them and seal the way they got in.
+- `locations.ts`
+  - was: We don’t just remove the wildlife; we also sanitize affected areas and implement strategies to prevent future infestations.
+  - now: We remove the wildlife and seal the entry points it used.
+- `locations.ts`
+  - was: our nuisance wildlife removal processes focus on not just removal, but also cleanup and prevention.
+  - now: our nuisance wildlife removal processes focus on removal and prevention.
+- `locations.ts`
+  - was: Our services cover removal, cleanup and prevention for homes and businesses.
+  - now: Our services cover removal and prevention for homes and businesses.
+- `posts.ts`
+  - was: We provide safe, effective removal, cleanup, and prevention to keep your home secure.
+  - now: We provide removal and exclusion for homes across the region.
+- `posts.ts`
+  - was: When you contact us for a site visit we provide a written scope that separates exclusion, remediation, insulation, and HVAC work so you can submit insurance claims or compare bids effectively.
+  - now: Whoever you hire, ask for a written scope that separates exclusion, remediation, insulation, and HVAC work so you can submit insurance claims or compare bids effectively.
+- `posts.ts`
+  - was: Contact us for a no-obligation attic assessment and a written cleanup plan tailored to your home and risks.
+  - now: Contact us for an attic inspection, and we'll show you what we find.
+- `content/attic/rats-in-attic.ts`
+  - was: How to tell it's rats in the attic, what they damage, and how the attic gets cleaned up."
+  - now: How to tell it's rats in the attic, what they damage, and how they get out."
+- `content/attic/bats-in-attic.ts`
+  - was: what you can legally do this month, and how the guano gets cleaned up."
+  - now: what you can legally do this month, and what to know about the guano."
+- `content/attic/bats-in-attic.ts`
+  - was: why you never seal bats in, and guano cleanup. (727) 594-7705.
+  - now: why you never seal bats in, and guano safety. (727) 594-7705.
+- `content/attic/bats-in-attic.ts`
+  - was: badges: ["Dusk watch", "Legal dates", "Guano cleanup"],
+  - now: badges: ["Dusk watch", "Legal dates", "Guano safety"],
+- `content/attic/rats-in-attic.ts`
+  - was: badges: ["Night noises", "Droppings and rub marks", "Attic cleanup"],
+  - now: badges: ["Night noises", "Droppings and rub marks", "Entry points"],
+- `content/services/dead-animal-removal.ts`
+  - was: { number: "3", title: "Clean and deodorize", text: p("The spot is cleaned and sanitized, soiled insulation removed, and the area treated for odor.") },
+  - now: { number: "3", title: "Show you the spot", text: p("We show you where the animal was and any soiled insulation around it, so you know what a contractor may need to replace.") },
+- `content/services/dead-animal-removal.ts`
+  - was: "Fluids and soiled insulation cleaned up", "Area sanitized and treated for odor",
+  - now: "Soiled insulation around the spot pointed out",
+- `content/services/opossum-removal.ts`
+  - was: "Droppings and nesting under the house or in the attic cleaned up",
+  - now: "Droppings and nesting under the house or in the attic pointed out in the inspection",
+- `content/attic/raccoons-in-attic.ts`
+  - was: { number: "4", title: "Clean the attic", text: p("Latrine first, then soiled insulation, then treatment.",
+  - now: { number: "4", title: "Show you the attic", text: p("We point out the latrine and any soiled insulation, so you know what is there.",
+- `locations.ts`
+  - was: "text": "Post-Removal Cleanup and Sanitation",
+  - now: "text": "After the Animals Are Out",
+- `locations.ts`
+  - was: "text": "After the wildlife has been safely removed, we conduct a thorough cleanup and sanitation of affected areas. This includes:",
+  - now: "text": "After the wildlife has been safely removed, we walk you through what the animals left behind. This includes:",
+- `locations.ts`
+  - was: "text": "Removing droppings, nests, and other debris left by the animals",
+  - now: "text": "Showing you droppings, nests, and other debris left by the animals",
+- `locations.ts`
+  - was: "text": "Disinfecting and deodorizing to eliminate any lingering odors and potential health hazards",
+  - now: "text": "Pointing out damaged insulation or wiring for a contractor or electrician",
+- `locations.ts`
+  - was: "text": "Clean-Up Services",
+  - now: "text": "After the Animals Are Out",
+- `locations.ts`
+  - was: "text": "Our commitment goes beyond merely removing nuisance wildlife – we offer a range of specialized services to ensure your property is not only free from wildlife intrusions but also cleaned up afterward. Our “Clean Up” service is designed to tackle the aftermath of wildlife presence, ensuring your environment is safe, sanitary, and welcoming. Here’s an overview of how our Clean Up process works:"
+  - now: "text": "Removing nuisance wildlife is only part of the job. After the animals are out, we look at what they left behind and walk you through it. Here’s what that covers:"
+- `locations.ts`
+  - was: Our team assesses the extent of wildlife-related damage to your property, identifying areas that require cleaning and sanitization.
+  - now: Our team assesses the extent of wildlife-related damage to your property and shows you what it finds.
+- `locations.ts`
+  - was: "text": "Safe Cleanup Practices:",
+  - now: "text": "Safe Handling:",
+- `locations.ts`
+  - was: Using industry-approved methods, we meticulously clean and sanitize affected areas to eliminate any traces of animal waste, odors, and potential health hazards.
+  - now: We follow the CDC guidance on droppings: no sweeping or vacuuming, which can put germs in the air.
+- `locations.ts`
+  - was: "text": "Final Clean-Up:",
+  - now: "text": "Entry Points Sealed:",
+- `locations.ts`
+  - was: We make sure both indoor and outdoor spaces are free from contamination and debris.
+  - now: The openings the animals used are sealed so others cannot follow them in.
+- `locations.ts`
+  - was: Our cleanup process prioritizes the health and safety of your family by minimizing the risk of disease transmission associated with wildlife waste.
+  - now: Damaged insulation or chewed wiring is flagged so you can bring in a contractor or electrician.
+- `content/attic/rats-in-attic.ts`
+  - was: "Soiled insulation bagged and removed", "Droppings and nests cleared from the attic floor and eaves", "Surfaces disinfected", "Chewed wiring flagged for an electrician", "[PLACEHOLDER: ask the client: whether attic cleanup is quoted separately]",
+  - now: "Soiled insulation noted in the inspection", "Droppings and nests located on the attic floor and eaves", "Chewed wiring flagged for an electrician",
+- `content/attic/bats-in-attic.ts`
+  - was: "Guano and soiled insulation bagged and removed", "Attic surfaces cleaned and deodorized", "[PLACEHOLDER: ask the client: how you handle guano cleanup, and whether it's quoted separately]",
+  - now: "Guano and soiled insulation noted in the inspection",
+- `content/attic/raccoons-in-attic.ts`
+  - was: "Crushed and soiled insulation bagged and taken out", "Attic treated and deodorized",
+  - now: "Crushed and soiled insulation noted in the inspection",
+- `content/attic/rats-in-attic.ts`
+  - was: eyebrow: "Attic cleanup", heading: "Cleaning an attic after rats",
+  - now: eyebrow: "After the rats", heading: "Cleaning an attic after rats: the CDC steps",
+- `content/attic/bats-in-attic.ts`
+  - was: eyebrow: "Attic cleanup", heading: "Cleaning an attic after bats",
+  - now: eyebrow: "After the bats", heading: "Guano after bats: what to know",
+- `content/attic/raccoons-in-attic.ts`
+  - was: eyebrow: "Attic cleanup", heading: "Cleaning up after raccoons",
+  - now: eyebrow: "After the raccoons", heading: "Raccoon latrines: what to know",
+- `content/service-places/rat-removal/tampa-fl.ts`
+  - was: Pro Wildlife Removal closes the openings, traps what's left in the attic and cleans up.
+  - now: Pro Wildlife Removal closes the openings and traps what's left in the attic.
+- `content/service-places/rat-removal/tampa-fl.ts`
+  - was: roof rats sealed out, trapped and cleaned up, plus
+  - now: roof rats sealed out and trapped, plus
+- `content/service-places/rat-removal/polk-county-fl.ts`
+  - was: We find where the rats get in, close those gaps, trap the ones inside and clean up after them.
+  - now: We find where the rats get in, close those gaps and trap the ones inside.
+- `content/service-places/rat-removal/polk-county-fl.ts`
+  - was: Pro Wildlife Removal finds how rats get in, seals those gaps, traps the rats inside and cleans up.
+  - now: Pro Wildlife Removal finds how rats get in, seals those gaps and traps the rats inside.
+- `content/service-places/rat-removal/polk-county-fl.ts`
+  - was: entry gaps sealed, rats trapped and cleaned up in
+  - now: entry gaps sealed and rats trapped in
+- `content/service-places/rat-removal/palm-harbor-fl.ts`
+  - was: entry gaps sealed, rats trapped and cleaned up in
+  - now: entry gaps sealed and rats trapped in
+- `content/service-places/rat-removal/hillsborough-county-fl.ts`
+  - was: entry gaps sealed, rats trapped and cleaned up in
+  - now: entry gaps sealed and rats trapped in
+- `content/service-places/rat-removal/pinellas-park-fl.ts`
+  - was: entry gaps sealed, rats trapped and cleaned up in
+  - now: entry gaps sealed and rats trapped in
+- `content/service-places/rat-removal/hillsborough-county-fl.ts`
+  - was: We find how they get in, close those gaps, trap the rats inside and clean up.
+  - now: We find how they get in, close those gaps and trap the rats inside.
+- `content/service-places/rat-removal/hillsborough-county-fl.ts`
+  - was: Pro Wildlife Removal finds the gaps rats use, seals them, traps the rats still inside and cleans up what they leave.
+  - now: Pro Wildlife Removal finds the gaps rats use, seals them and traps the rats still inside.
+- `content/service-places/rat-removal/palm-harbor-fl.ts`
+  - was: We find how the rats get in, close those openings, trap the ones inside and clean up after them.
+  - now: We find how the rats get in, close those openings and trap the ones inside.
+- `content/service-places/rat-removal/pinellas-park-fl.ts`
+  - was: We find the openings they use, close them, trap the rats inside and clean up.
+  - now: We find the openings they use, close them and trap the rats inside.
+- `content/service-places/rat-removal/pinellas-park-fl.ts`
+  - was: finds where the rats get in, seals those gaps, traps the rats still inside and cleans up after them.
+  - now: finds where the rats get in, seals those gaps and traps the rats still inside.
+- `content/service-places/rat-removal/pasco-county-fl.ts`
+  - was: finds the gaps they use, seals them, traps the rats still inside and cleans up after them.
+  - now: finds the gaps they use, seals them and traps the rats still inside.
+- `content/service-places/rat-removal/hernando-county-fl.ts`
+  - was: finds the openings, seals them, traps the rats left inside and cleans up.
+  - now: finds the openings, seals them and traps the rats left inside.
+- `content/services/rat-removal.ts`
+  - was: eyebrow: "Cleanup", heading: "Cleaning up after rats",
+  - now: eyebrow: "After the rats", heading: "Rat droppings: what the CDC says",
+- `content/services/rat-removal.ts`
+  - was: In an attic, with years of droppings through the insulation, that means protective gear, respirators and often removing the insulation.
+  - now: In an attic with years of droppings through the insulation, that is work for protective gear and respirators.
+- `content/services/rat-removal.ts`
+  - was: "Droppings, nests and soiled insulation removed", "Attic surfaces disinfected", "Chewed wiring pointed out so an electrician can check it",
+  - now: "Droppings, nests and soiled insulation shown to you in the inspection", "Chewed wiring pointed out so an electrician can check it",
+- `content/services/rat-removal.ts`
+  - was: once we know how many openings there are and how much cleanup the attic needs.
+  - now: once we know how many openings there are and how hard they are to reach.
+- `content/services/raccoon-removal.ts`
+  - was: mothers and young kept together, then the entry sealed and the latrine cleaned."
+  - now: mothers and young kept together, then the entry sealed."
+- `content/services/raccoon-removal.ts`
+  - was: eyebrow: "Sealing and cleanup", heading: "Closing what the raccoons opened",
+  - now: eyebrow: "Sealing", heading: "Closing what the raccoons opened",
+- `content/services/raccoon-removal.ts`
+  - was: Then comes the cleanup: raccoons leave droppings where they den, and the CDC advises removing raccoon droppings promptly, before the roundworm eggs in them become infectious.
+  - now: Raccoons also leave droppings where they den, and the CDC advises removing raccoon droppings promptly, before the roundworm eggs in them become infectious.
+- `content/services/raccoon-removal.ts`
+  - was: "Latrine, nesting and soiled insulation removed by technicians in protective gear", "Area treated and deodorized",
+  - now: "Latrine, nesting and soiled insulation pointed out in the inspection",
+- `content/services/raccoon-removal.ts`
+  - was: { title: "Cleanup", text: p("A small latrine, or an attic of soiled insulation.") },
+  - now: { title: "Den size", text: p("A small den under a deck, or an attic the family has used for months.") },
+- `content/services/raccoon-removal.ts`
+  - was: plus sealing and latrine cleanup in Central Florida. (727) 594-7705.
+  - now: plus every entry sealed, anywhere in Central Florida. (727) 594-7705.
+- `content/services/bat-removal.ts`
+  - was: eyebrow: "Sealing and cleanup", heading: "After the bats are out",
+  - now: eyebrow: "Sealing", heading: "After the bats are out",
+- `content/services/bat-removal.ts`
+  - was: The other half is making sure it can't come back and that the attic is safe to be in. How much cleanup you need depends on how long the bats lived there: a few weeks leaves a little guano on top of the insulation, years can mean removing it.
+  - now: The other half is making sure it can't come back. How much guano is left depends on how long the bats lived there: a few weeks leaves a little on top of the insulation, years can soak it through.
+- `content/services/bat-removal.ts`
+  - was: "Guano and soiled insulation removed by technicians in respirators", "The area sanitized and deodorized",
+  - now: "Guano and soiled insulation pointed out, so you know what the bats left",
+- `content/services/bat-removal.ts`
+  - was: and often longer until no bats are left. Then the openings are sealed and cleanup can start.
+  - now: and often longer until no bats are left. Then the openings are sealed.
+- `content/services/opossum-removal.ts`
+  - was: { title: "Cleanup", text: p("A little nesting, or soiled insulation to remove.") },
+  - now: { title: "Den location", text: p("Under a deck or porch, or up in the attic.") },
+- `content/services/squirrel-removal.ts`
+  - was: intro: p("Remove, seal, clean: three jobs, done in that order, after a careful look for babies."),
+  - now: intro: p("Remove, seal, check: done in that order, after a careful look for babies."),
+- `content/services/squirrel-removal.ts`
+  - was: title: "Clean up", text: p("Nests, droppings and flattened or soiled insulation come out, so nothing is left to draw the next squirrel."),
+  - now: title: "Walk-through", text: p("We show you the nests, droppings and flattened insulation the squirrels left, and any wiring an electrician should see."),
+- `content/services/squirrel-removal.ts`
+  - was: eyebrow: "Sealing and cleanup", heading: "Closing the roof",
+  - now: eyebrow: "Sealing", heading: "Closing the roof",
+- `content/services/squirrel-removal.ts`
+  - was: "Nest material and droppings removed from the attic",
+  - now: (removed)
+- `content/services/dead-animal-removal.ts`
+  - was: heading: "Clean, fresh and closed up",
+  - now: heading: "Removed and closed up",
+- `content/services/dead-animal-removal.ts`
+  - was: { title: "Cleanup and odor work", text: p("A quick wipe-down, or insulation removal and treatment.") },
+  - now: { title: "Where it is", text: p("Out in the open in an attic, or inside a finished wall.") },
+- `content/services/dead-animal-removal.ts`
+  - was: summary: "A dead animal found and removed from a wall, attic, crawl space or vent, the area cleaned and deodorized.",
+  - now: summary: "A dead animal found and removed from a wall, attic, crawl space or vent, and the way it got in found.",
+- `content/services/dead-animal-removal.ts`
+  - was: points: ["Find the source", "Gloves and bags", "Clean and deodorize", "Find the way in"],
+  - now: points: ["Find the source", "Gloves and bags", "Remove the animal", "Find the way in"],
+- `content/attic/opossums-in-attic.ts`
+  - was: heading: "Cleanup and keeping the next one out",
+  - now: heading: "Keeping the next one out",
+- `content/attic/opossums-in-attic.ts`
+  - was: So the job ends with two things: a clean den area and a closed-up house. Wear gloves for any cleanup,
+  - now: So the job ends with a closed-up house. If you clear the den area yourself, wear gloves,
+- `content/attic/opossums-in-attic.ts`
+  - was: "Den area cleared of droppings and nesting",
+  - now: (removed)
+- `content/attic/opossums-in-attic.ts`
+  - was: "[PLACEHOLDER: ask the client: is attic or crawl space cleanup after opossums quoted separately?]",
+  - now: (removed)
+- `content/attic/opossums-in-attic.ts`
+  - was: badges: ["Night shuffling", "Gaps closed with mesh", "Den cleanup"],
+  - now: badges: ["Night shuffling", "Gaps closed with mesh", "Den found"],
+- `content/attic/opossums-in-attic.ts`
+  - was: { number: "4", title: "Clean the den", text: p("Droppings, nesting and soiled insulation removed.",
+  - now: { number: "4", title: "Show you the den", text: p("Droppings, nesting and soiled insulation pointed out.",
+- `content/attic/rats-in-attic.ts`
+  - was: { number: "3", title: "Clean up", text: p("Droppings, nests and soiled insulation come out, and the attic is disinfected.") },
+  - now: { number: "3", title: "Show you the attic", text: p("Droppings, nests and soiled insulation are pointed out, along with chewed wiring.") },
+- `content/attic/rats-in-attic.ts`
+  - was: { number: "4", title: "Cleanup", text: p("When the activity stops, the attic is cleaned.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, from inspection to cleanup]") },
+  - now: { number: "4", title: "Final check", text: p("When the activity stops, the seals get a last look.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, start to finish]") },
+- `content/attic/rats-in-attic.ts`
+  - was: what they damage, and how sealing, trapping and cleanup work. Call (727) 594-7705.
+  - now: what they damage, and how sealing and trapping get them out. Call (727) 594-7705.
+- `content/attic/squirrels-in-attic.ts`
+  - was: { number: "4", title: "Cleanup", text: p("Nests, droppings and soiled insulation out.",
+  - now: { number: "4", title: "Walk-through", text: p("Nests, droppings and soiled insulation shown to you.",
+- `content/attic/squirrels-in-attic.ts`
+  - was: heading: "Sealing and cleanup", body: p( "Once the squirrels are gone,
+  - now: heading: "Sealing the attic", body: p( "Once the squirrels are gone,
+- `content/attic/squirrels-in-attic.ts`
+  - was: Then the attic gets cleaned. Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves. Soiled insulation is bagged and removed.
+  - now: Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies to anyone handling it: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves.
+- `content/attic/squirrels-in-attic.ts`
+  - was: "Nests and droppings removed",
+  - now: (removed)
+- `content/attic/squirrels-in-attic.ts`
+  - was: "[PLACEHOLDER: ask the client: is attic cleanup after squirrels quoted separately from the removal and sealing?]",
+  - now: (removed)
+- `content/attic/bats-in-attic.ts`
+  - was: heading: "From the first call to a clean attic",
+  - now: heading: "From the first call to a sealed attic",
+- `content/attic/bats-in-attic.ts`
+  - was: { number: "5", title: "Clean", text: p("Guano and soiled insulation come out last.",
+  - now: { number: "5", title: "Walk-through", text: p("We show you the guano and soiled insulation the colony left.",
+- `content/attic/bats-in-attic.ts`
+  - was: text: p("A colony in the attic needs a plan that fits Florida's calendar. Here's how to confirm it's bats, what the law allows right now, and what cleanup involves."),
+  - now: text: p("A colony in the attic needs a plan that fits Florida's calendar. Here's how to confirm it's bats, what the law allows right now, and what to know about the guano."),
+- `content/attic/bats-in-attic.ts`
+  - was: "Never seal them in", "Clean the guano after"],
+  - now: "Never seal them in", "Guano safety"],
+- `content/attic/bats-in-attic.ts`
+  - was: "Respirators, as the CDC recommends in a confined space with guano [PLACEHOLDER: ask the client: confirm your protective gear for guano cleanup]",
+  - now: "Respirators, as the CDC recommends in a confined space with guano",
+- `content/attic/raccoons-in-attic.ts`
+  - was: what not to do, and how the latrine gets cleaned."
+  - now: what not to do, and what to know about the latrine."
+- `content/attic/raccoons-in-attic.ts`
+  - was: mistakes that make it worse, Florida's release rules and latrine cleanup. Call (727) 594-7705.
+  - now: mistakes that make it worse, Florida's release rules and latrine safety. Call (727) 594-7705.
+- `content/attic/raccoons-in-attic.ts`
+  - was: badges: ["Evening thumping", "Spring babies", "Latrine cleanup"],
+  - now: badges: ["Evening thumping", "Spring babies", "Latrine safety"],
+- `content/attic/raccoons-in-attic.ts`
+  - was: "Latrine removed first [PLACEHOLDER: ask the client: confirm your protective gear and latrine cleanup method]",
+  - now: "Latrine located in the inspection",
+- `content/attic/raccoons-in-attic.ts`
+  - was: With the raccoons out and the entry sealed, the attic needs cleaning.
+  - now: With the raccoons out and the entry sealed, the latrine is what's left.
+- `content/home.ts`
+  - was: badges: ["8 counties", "Removal, sealing and cleanup"],
+  - now: badges: ["8 counties", "Removal and sealing"],
+- `content/home.ts`
+  - was: across 8 Central Florida counties, with sealing and cleanup. A free inspection: (727) 594-7705.
+  - now: across 8 Central Florida counties, with every entry point sealed. A free inspection: (727) 594-7705.
+- `content/page-extras.ts`
+  - was: inspection, trapping and removal, exclusion of entry points, and clean-up. Call (727) 594-7705 to talk it through.
+  - now: inspection, trapping and removal, and exclusion of entry points. Call (727) 594-7705 to talk it through, any day.
+- `content/page-extras.ts`
+  - was: faq( "Do you clean up after the animals are gone?", `Yes: droppings, nesting and soiled insulation, with antimicrobial and ozone treatments where needed. The CDC warns against sweeping or vacuuming rodent droppings ([CDC](${CDC_CLEANUP})). See our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/).`, ),
+  - now: faq( "What happens to the droppings the animals leave?", `We show you where they are during the inspection. The CDC warns against sweeping or vacuuming rodent droppings ([CDC](${CDC_CLEANUP})). See our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/).`, ),
+- `content/service-places/rat-removal/sumter-county-fl.ts`
+  - was: finds the openings, seals them, traps the rats still inside and cleans up after them. Call
+  - now: finds the openings, seals them and traps the rats still inside. Call
+- `content/service-places/rat-removal/sumter-county-fl.ts`
+  - was: text: "The things that drive the price of a rat job, from the number of entry points to cleanup." }
+  - now: text: "The things that drive the price of a rat job, from the number of entry points to roof height." }
+- `content/service-places/rat-removal/ocala-fl.ts`
+  - was: looks for the openings rats use, seals them, traps the rats left inside and cleans up after them. Call
+  - now: looks for the openings rats use, seals them and traps the rats left inside. Call
+- `content/service-places/rat-removal/ocala-fl.ts`
+  - was: text: "What changes the price of a rat job in Ocala: the number of openings, the damage and the cleanup." }
+  - now: text: "What changes the price of a rat job in Ocala: the number of openings and how hard they are to reach." }
+- `content/service-places/rat-removal/hernando-county-fl.ts`
+  - was: text: "What sets the price of a rat job: how many openings, how much damage, how much cleanup." }
+  - now: text: "What sets the price of a rat job: how many openings, and how high and hard to reach they are." }
+- `content/service-places/rat-removal/palm-harbor-fl.ts`
+  - was: seals them, traps the rats inside and cleans up. Call
+  - now: seals them and traps the rats inside. Call
+- `content/service-places/bat-removal/pinellas-county-fl.ts`
+  - was: text: "Inspection, exclusion devices, sealing and cleanup: what shapes the price of getting bats out." }
+  - now: text: "Inspection, exclusion devices and sealing: what shapes the price of getting bats out." }
+- `content/service-places/bat-removal/hudson-fl.ts`
+  - was: text: "The parts of a bat job that set the price: inspection, exclusion, sealing and cleanup." }
+  - now: text: "The parts of a bat job that set the price: inspection, exclusion and sealing." }
+- `content/service-places/bat-removal/land-o-lakes-fl.ts`
+  - was: text: "What changes the price of an exclusion: roof type, colony size, cleanup." }
+  - now: text: "What changes the price of an exclusion: roof type, colony size, timing." }
+- `content/service-places/bat-removal/hernando-county-fl.ts`
+  - was: text: "How colony size, roof type and cleanup shape the cost of a bat job." }
+  - now: text: "How colony size, roof type and the season shape the cost of a bat job." }
+- `content/counties/osceola.ts`
+  - was: take the animal out within Florida's rules, close the opening and clean up. Call
+  - now: take the animal out within Florida's rules and close the opening. Call
+- `content/counties/pinellas.ts`
+  - was: [PLACEHOLDER: ask the client: confirm every job includes inspection, sealing and cleanup]
+  - now: [PLACEHOLDER: ask the client: confirm every job includes inspection and sealing]
+- `content/counties/manatee.ts`
+  - was: remove the animal the way Florida law allows, seal the entry points it used and clean up what it left behind. Call
+  - now: remove the animal the way Florida law allows and seal the entry points it used. Call
+- `content/guides/bat-removal-cost.ts`
+  - was: how long the colony has been there and how much guano cleanup the attic needs.
+  - now: how long the colony has been there and how much guano is in the attic.
+- `content/guides/bat-removal-cost.ts`
+  - was: "**Guano cleanup** and, where needed, insulation removal. Our guide to [attic cleanup costs](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) covers that part.",
+  - now: (removed)
+- `content/guides/bat-removal-cost.ts`
+  - was: h3("Cleanup: the part of the bill people forget"),
+  - now: h3("Guano: the part people forget"),
+- `content/guides/bat-removal-cost.ts`
+  - was: how long the colony has been there, guano cleanup and the April 16 to Aug 14 season.
+  - now: how long the colony has been there, guano and the April 16 to Aug 14 season.

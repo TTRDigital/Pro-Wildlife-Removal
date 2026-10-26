@@ -27,7 +27,7 @@ export const ratRemovalOcala = servicePlacePage({
   heroText: "Scratching in the ceiling, droppings in the pantry, chewed wires in the garage? We find how rats are getting into Ocala homes, seal the gaps we find and trap the ones inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in an Ocala home?",
   answer:
-    "A private company. DOH-Marion handles sanitary nuisance complaints and gives rodent advice, but rats inside an Ocala house are the owner's to deal with. Pro Wildlife Removal looks for the openings rats use, seals them, traps the rats left inside and cleans up after them. Call (727) 594-7705.",
+    "A private company. DOH-Marion handles sanitary nuisance complaints and gives rodent advice, but rats inside an Ocala house are the owner's to deal with. Pro Wildlife Removal looks for the openings rats use, seals them and traps the rats left inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Trash limit: seven days", "13 closures, 2022 to 2025"],
   localHeading: "What to know about rats in Ocala",
   localIntro: "Ocala's restaurant inspection records show rodents turning up across the city, and the city and DOH-Marion both have rules and advice that bear on them. Here is what they say.",
@@ -46,7 +46,7 @@ export const ratRemovalOcala = servicePlacePage({
     { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
-  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What changes the price of a rat job in Ocala: the number of openings, the damage and the cleanup." },
+  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What changes the price of a rat job in Ocala: the number of openings and how hard they are to reach." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from an Ocala rat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(

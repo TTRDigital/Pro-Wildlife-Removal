@@ -17,15 +17,15 @@ export const batsInAttic: Service = {
   group: "attic",
   animal: "bat",
   order: 22,
-  summary: "Bats in the attic: how to confirm a colony, what you can legally do this month, and how the guano gets cleaned up.",
+  summary: "Bats in the attic: how to confirm a colony, what you can legally do this month, and what to know about the guano.",
   cardImage: images.batRemoval2,
   design: "new",
   hero: {
     eyebrow: "BATS IN THE ATTIC",
     heading: "Bats in the Attic in Central Florida",
     highlight: "Bats in the Attic",
-    text: p("A colony in the attic needs a plan that fits Florida's calendar. Here's how to confirm it's bats, what the law allows right now, and what cleanup involves."),
-    badges: ["Dusk watch", "Legal dates", "Guano cleanup"],
+    text: p("A colony in the attic needs a plan that fits Florida's calendar. Here's how to confirm it's bats, what the law allows right now, and what to know about the guano."),
+    badges: ["Dusk watch", "Legal dates", "Guano safety"],
   },
   sections: [
     {
@@ -35,7 +35,7 @@ export const batsInAttic: Service = {
       text: p(
         "Confirm it with a dusk watch, then plan an exclusion: one-way devices let the bats out and keep them out, and the gaps are sealed after. From April 16 to August 14 that waits, unless FWC issues a permit. Never seal bats in. Details on [bat removal](/services/bat-removal/), or call (727) 594-7705.",
       ),
-      points: ["Watch at dusk", "Exclude Aug 15 to April 15", "Never seal them in", "Clean the guano after"],
+      points: ["Watch at dusk", "Exclude Aug 15 to April 15", "Never seal them in", "Guano safety"],
     },
     {
       _type: "cardsSection",
@@ -117,7 +117,7 @@ export const batsInAttic: Service = {
       _key: "timeline",
       tone: "tint",
       eyebrow: "What it usually takes",
-      heading: "From the first call to a clean attic",
+      heading: "From the first call to a sealed attic",
       variant: "numbered",
       columns: 5,
       cards: [
@@ -125,23 +125,21 @@ export const batsInAttic: Service = {
         { number: "2", title: "Wait, if needed", text: p("Between April 16 and August 14, the exclusion waits for August 15 unless FWC issues a permit.") },
         { number: "3", title: "One-way devices", text: p("Up on the active exits for at least four nights, with lows forecast at 50°F or warmer.") },
         { number: "4", title: "Seal", text: p("When no bats are left, the devices come down and the openings are sealed.") },
-        { number: "5", title: "Clean", text: p("Guano and soiled insulation come out last.", "[PLACEHOLDER: ask the client: how long a typical bat job takes once the exclusion starts]") },
+        { number: "5", title: "Walk-through", text: p("We show you the guano and soiled insulation the colony left.", "[PLACEHOLDER: ask the client: how long a typical bat job takes once the exclusion starts]") },
       ],
     },
     {
       _type: "splitSection",
       _key: "cleanup",
       tone: "tint",
-      eyebrow: "Attic cleanup",
-      heading: "Cleaning an attic after bats",
+      eyebrow: "After the bats",
+      heading: "Guano after bats: what to know",
       body: p(
         "Cleanup comes after the colony is out and the gaps are sealed, never before, or the bats just move back in. How much work it is depends on how long they were there. FWC notes that guano in a dry, unused space can usually be left undisturbed, but many attics hold ductwork, wiring and stored things, and people go up there. In that case the guano comes out. The CDC recommends a respirator in a confined space with bat droppings, so this is work for protective gear, not a dust mask. Insulation under an old roost is usually soaked through and gets bagged and removed.",
       ),
       checklist: [
-        "Respirators, as the CDC recommends in a confined space with guano [PLACEHOLDER: ask the client: confirm your protective gear for guano cleanup]",
-        "Guano and soiled insulation bagged and removed",
-        "Attic surfaces cleaned and deodorized",
-        "[PLACEHOLDER: ask the client: how you handle guano cleanup, and whether it's quoted separately]",
+        "Respirators, as the CDC recommends in a confined space with guano",
+        "Guano and soiled insulation noted in the inspection",
       ],
       imageSide: "left",
     },
@@ -213,7 +211,7 @@ export const batsInAttic: Service = {
   seo: {
     title: "Bats in the Attic: What to Do | Pro Wildlife Removal",
     description:
-      "Bats in the attic? How to confirm a colony, Florida's exclusion dates (Aug 15 to April 15), why you never seal bats in, and guano cleanup. (727) 594-7705.",
+      "Bats in the attic? How to confirm a colony, Florida's exclusion dates (Aug 15 to April 15), why you never seal bats in, and guano safety. (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; permits during the season; four nights; 50°F)", url: RELEASE },

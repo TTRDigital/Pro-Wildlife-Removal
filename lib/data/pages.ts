@@ -411,7 +411,7 @@ const migratedPages = {
       ]
      },
      {
-      "title": "Sanitization & Decontamination",
+      "title": "Inspection Findings",
       "text": [
        {
         "_type": "block",
@@ -419,7 +419,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We disinfect and deodorize areas affected by droppings and urine, removing harmful bacteria and odors to restore your property.",
+          "text": "We show you where droppings, urine stains and damaged insulation are, so you know what the animals left behind.",
           "marks": []
          }
         ],
@@ -2029,7 +2029,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "From removal and exclusion to prevention, we handle every aspect of wildlife intrusions. Our services cover attic cleanouts and sealing entry points, offering complete peace of mind and a wildlife-free home.",
+          "text": "From removal and exclusion to prevention, we handle every aspect of wildlife intrusions. Our services cover removal and sealing entry points.",
           "marks": []
          }
         ],
@@ -2110,7 +2110,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We specialize in Tampa wildlife removal and wildlife exclusion services, which involve removing nuisance wildlife while securing your property to prevent re-entry. We will seal entry points and install barriers to ensure lasting protection. We’ll then clean up and sanitize the area.",
+          "text": "We specialize in Tampa wildlife removal and wildlife exclusion services, which involve removing nuisance wildlife while securing your property to prevent re-entry. We will seal entry points and install barriers to ensure lasting protection.",
           "marks": []
          }
         ],
@@ -2321,7 +2321,7 @@ const migratedPages = {
       },
       {
        "_type": "span",
-       "text": ". With extensive experience in dealing with all types of nuisance species in Florida, Pro Wildlife can help with whatever animal issue you run into. Our technicians bring specialized equipment for trapping, exclusion and clean-up. From raccoons, opossums, squirrels, and snakes to honeybees and bats, we have the ",
+       "text": ". With extensive experience in dealing with all types of nuisance species in Florida, Pro Wildlife can help with whatever animal issue you run into. Our technicians bring specialized equipment for inspection, trapping and exclusion. From raccoons, opossums, squirrels, and snakes to honeybees and bats, we have the ",
        "marks": []
       },
       {
@@ -2435,7 +2435,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Animal cleanup services",
+        "text": "Entry points sealed after removal",
         "marks": []
        }
       ]
@@ -2775,7 +2775,7 @@ const migratedPages = {
      "children": [
       {
        "_type": "span",
-       "text": "Pro Wildlife Removal brings the right tools for trapping, exclusion and cleanup. Our technicians do this work every day. Call us to talk it through.",
+       "text": "Pro Wildlife Removal brings the right tools for inspection, trapping and exclusion. Our technicians do this work every day. Call us to talk it through.",
        "marks": []
       }
      ],
@@ -3081,7 +3081,7 @@ const migratedPages = {
   ],
   "seo": {
    "title": "How We Work | Why Hire Our Experts | Pro Wildlife Removal",
-   "description": "Pro Wildlife Removal brings the right tools for trapping, exclusion and cleanup. Our technicians do this work every day. Call us to talk it through."
+   "description": "Pro Wildlife Removal brings the right tools for inspection, trapping and exclusion. Our technicians do this work every day. Call us to talk it through."
   }
  },
  "contact": {

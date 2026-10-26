@@ -639,7 +639,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Clean-Up Services",
+        "text": "After the Animals Are Out",
         "marks": []
        }
       ],
@@ -651,7 +651,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our commitment goes beyond merely removing nuisance wildlife – we offer a range of specialized services to ensure your property is not only free from wildlife intrusions but also cleaned up afterward. Our “Clean Up” service is designed to tackle the aftermath of wildlife presence, ensuring your environment is safe, sanitary, and welcoming. Here’s an overview of how our Clean Up process works:",
+        "text": "Removing nuisance wildlife is only part of the job. After the animals are out, we look at what they left behind and walk you through it. Here’s what that covers:",
         "marks": []
        }
       ],
@@ -670,7 +670,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Our team assesses the extent of wildlife-related damage to your property, identifying areas that require cleaning and sanitization.",
+        "text": " Our team assesses the extent of wildlife-related damage to your property and shows you what it finds.",
         "marks": []
        }
       ],
@@ -684,14 +684,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Safe Cleanup Practices:",
+        "text": "Safe Handling:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " Using industry-approved methods, we meticulously clean and sanitize affected areas to eliminate any traces of animal waste, odors, and potential health hazards.",
+        "text": " We follow the CDC guidance on droppings: no sweeping or vacuuming, which can put germs in the air.",
         "marks": []
        }
       ],
@@ -705,14 +705,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Final Clean-Up:",
+        "text": "Entry Points Sealed:",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": " We make sure both indoor and outdoor spaces are free from contamination and debris.",
+        "text": " The openings the animals used are sealed so others cannot follow them in.",
         "marks": []
        }
       ],
@@ -733,7 +733,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Our cleanup process prioritizes the health and safety of your family by minimizing the risk of disease transmission associated with wildlife waste.",
+        "text": " Damaged insulation or chewed wiring is flagged so you can bring in a contractor or electrician.",
         "marks": []
        }
       ],
@@ -1979,7 +1979,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife can cause significant damage to your property. Our team removes the animals, seals the holes they used, and cleans up waste so the area is fully decontaminated. Repairs to damaged structure or insulation are arranged by the owner with a contractor.",
+        "text": "Wildlife can cause significant damage to your property. Our team removes the animals and seals the holes they used. Repairs to damaged structure or insulation are arranged by the owner with a contractor.",
         "marks": []
        }
       ],
@@ -2927,7 +2927,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Got animals causing damage? We don’t just get rid of them; our team can clean up after these unwanted guests too. Repairs to the house itself are arranged by the owner with a contractor.",
+        "text": " Got animals causing damage? We remove them and seal the way they got in. Repairs to the house itself are arranged by the owner with a contractor.",
         "marks": []
        }
       ],
@@ -3484,7 +3484,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our team is made up of trained wildlife removal specialists who care about what they do. Each technician is trained on safe handling, exclusion, and cleanup, and keeps up with Florida’s wildlife rules.",
+        "text": "Our team is made up of trained wildlife removal specialists who care about what they do. Each technician is trained on safe handling and exclusion, and keeps up with Florida’s wildlife rules.",
         "marks": []
        }
       ],
@@ -4072,7 +4072,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Post-Removal Cleanup and Sanitation",
+        "text": "After the Animals Are Out",
         "marks": [
          "strong"
         ]
@@ -4086,7 +4086,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "After the wildlife has been safely removed, we conduct a thorough cleanup and sanitation of affected areas. This includes:",
+        "text": "After the wildlife has been safely removed, we walk you through what the animals left behind. This includes:",
         "marks": []
        }
       ],
@@ -4098,7 +4098,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Removing droppings, nests, and other debris left by the animals",
+        "text": "Showing you droppings, nests, and other debris left by the animals",
         "marks": []
        }
       ],
@@ -4112,7 +4112,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Disinfecting and deodorizing to eliminate any lingering odors and potential health hazards",
+        "text": "Pointing out damaged insulation or wiring for a contractor or electrician",
         "marks": []
        }
       ],
@@ -5458,7 +5458,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": We will seal potential entry points to prevent future infestations. This may include closing holes, installing barriers, and reinforcing vulnerable areas. We also fully decontaminate the area to ensure your safety.",
+        "text": ": We will seal potential entry points to prevent future infestations. This may include closing holes, installing barriers, and reinforcing vulnerable areas.",
         "marks": []
        }
       ],
@@ -6515,7 +6515,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "From initial assessment to final prevention measures, our services cover every aspect of wildlife removal. We don’t just remove the wildlife; we also sanitize affected areas and implement strategies to prevent future infestations.",
+        "text": "From initial assessment to final prevention measures, our services cover every aspect of wildlife removal. We remove the wildlife and seal the entry points it used.",
         "marks": []
        }
       ],
@@ -6541,7 +6541,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We understand that every wildlife situation is unique. That’s why we tailor our approach to meet the specific needs of your situation, aiming for an effective and efficient animal control resolution. Whether it’s squirrel removal, snake removal, or bat removal, our nuisance wildlife removal processes focus on not just removal, but also cleanup and prevention.",
+        "text": "We understand that every wildlife situation is unique. That’s why we tailor our approach to meet the specific needs of your situation, aiming for an effective and efficient animal control resolution. Whether it’s squirrel removal, snake removal, or bat removal, our nuisance wildlife removal processes focus on removal and prevention.",
         "marks": []
        }
       ],
@@ -6690,7 +6690,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Whether you need bat removal, squirrel or raccoon removal, rodent removal, or even dead animal removal, Pro Wildlife Removal stands ready to safeguard your property from the threat of pests and wildlife in Sarasota County, FL. Our services cover removal, cleanup and prevention for homes and businesses. From smaller mammals to large animals and venomous snakes, we have it covered! Don't let pest problems go unchecked. Contact us to schedule an inspection. Your peace of mind is just a phone call away.",
+        "text": "Whether you need bat removal, squirrel or raccoon removal, rodent removal, or even dead animal removal, Pro Wildlife Removal stands ready to safeguard your property from the threat of pests and wildlife in Sarasota County, FL. Our services cover removal and prevention for homes and businesses. From smaller mammals to large animals and venomous snakes, we have it covered! Don't let pest problems go unchecked. Contact us to schedule an inspection. Your peace of mind is just a phone call away.",
         "marks": []
        }
       ],

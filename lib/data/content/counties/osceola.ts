@@ -13,7 +13,7 @@ export const osceola = countyPage({
   heroText: "The fastest-growing county we serve, by Census estimates, where new neighborhoods ring Lake Tohopekaliga and the Kissimmee Prairie stretches south. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Osceola County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Osceola County. We track down the way in, take the animal out within Florida's rules, close the opening and clean up. Call (727) 594-7705.",
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Osceola County. We track down the way in, take the animal out within Florida's rules and close the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Kissimmee is the county seat", "Rabies alerts in 2026"],
   townsHeading: "Osceola County towns",
   townsIntro: "Kissimmee is the county seat, and St. Cloud is the only other city. About 67% of residents live outside city limits.",

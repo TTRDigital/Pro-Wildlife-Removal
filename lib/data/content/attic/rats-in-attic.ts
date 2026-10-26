@@ -19,7 +19,7 @@ export const ratsInAttic: Service = {
   group: "attic",
   animal: "rat",
   order: 21,
-  summary: "Scratching overhead at night? How to tell it's rats in the attic, what they damage, and how the attic gets cleaned up.",
+  summary: "Scratching overhead at night? How to tell it's rats in the attic, what they damage, and how they get out.",
   cardImage: images.ratRemoval2,
   design: "new",
   hero: {
@@ -28,7 +28,7 @@ export const ratsInAttic: Service = {
     highlight: "Rats in the Attic",
     text: p("Scratching in the ceiling after dark is the classic sign. Here's how to be sure it's rats, what they're doing up there, and what it takes to fix."),
     image: images.ratRemoval2,
-    badges: ["Night noises", "Droppings and rub marks", "Attic cleanup"],
+    badges: ["Night noises", "Droppings and rub marks", "Entry points"],
   },
   sections: [
     {
@@ -129,7 +129,7 @@ export const ratsInAttic: Service = {
       cards: [
         { number: "1", title: "Close every gap", text: p("UF/IFAS says rat-proofing only works if it blocks every possible entry: roof returns, vents, plumbing stacks, A/C lines.") },
         { number: "2", title: "Trap those inside", text: p("The rats shut in by the sealing are trapped along their runways until the activity stops.") },
-        { number: "3", title: "Clean up", text: p("Droppings, nests and soiled insulation come out, and the attic is disinfected.") },
+        { number: "3", title: "Show you the attic", text: p("Droppings, nests and soiled insulation are pointed out, along with chewed wiring.") },
       ],
     },
     {
@@ -143,24 +143,22 @@ export const ratsInAttic: Service = {
         { number: "1", title: "Inspection", text: p("The roof, attic and outside walls are checked for every gap and the extent of the droppings.") },
         { number: "2", title: "Sealing", text: p("Openings are closed with rodent-resistant materials, all of them, so no new rats get in.") },
         { number: "3", title: "Trapping and checks", text: p("Rats shut inside are trapped. UF/IFAS warns rats probe new seals in the first two weeks, so the work is checked often then.") },
-        { number: "4", title: "Cleanup", text: p("When the activity stops, the attic is cleaned.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, from inspection to cleanup]") },
+        { number: "4", title: "Final check", text: p("When the activity stops, the seals get a last look.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, start to finish]") },
       ],
     },
     {
       _type: "splitSection",
       _key: "cleanup",
       tone: "tint",
-      eyebrow: "Attic cleanup",
-      heading: "Cleaning an attic after rats",
+      eyebrow: "After the rats",
+      heading: "Cleaning an attic after rats: the CDC steps",
       body: p(
         "The CDC's steps for rodent droppings start with airing the space out for 30 minutes and putting on rubber or plastic gloves. Don't sweep or vacuum: soak the droppings and nesting in disinfectant or 1 part bleach to 9 parts water, wait five minutes, wipe up with paper towels, then disinfect the surfaces and wash your hands. That works for a garage shelf. An attic is a bigger job: heat, tight spaces and droppings spread through inches of insulation, which can't be wiped clean. Soiled insulation is bagged and removed, and the attic floor and framing are cleaned and disinfected.",
       ),
       checklist: [
-        "Soiled insulation bagged and removed",
-        "Droppings and nests cleared from the attic floor and eaves",
-        "Surfaces disinfected",
+        "Soiled insulation noted in the inspection",
+        "Droppings and nests located on the attic floor and eaves",
         "Chewed wiring flagged for an electrician",
-        "[PLACEHOLDER: ask the client: whether attic cleanup is quoted separately]",
       ],
       imageSide: "left",
     },
@@ -231,7 +229,7 @@ export const ratsInAttic: Service = {
   seo: {
     title: "Rats in the Attic: Signs and Removal | Pro Wildlife Removal",
     description:
-      "Scratching in the ceiling at night? How to tell it's rats in the attic, what they damage, and how sealing, trapping and cleanup work. Call (727) 594-7705.",
+      "Scratching in the ceiling at night? How to tell it's rats in the attic, what they damage, and how sealing and trapping get them out. Call (727) 594-7705.",
   },
   sources: [
     { title: "Florida DOH Gadsden: Rodent control (roof rats like high places such as attics, nest in trees and plants; most active one hour after sunset and one hour before dawn; up to 8 litters a year of 6-8 young; sexually active 2-3 months after birth; signs: gnawing, droppings, grease stains from fur; Norway rats out by day when numbers are high or food is threatened)", url: GADSDEN },

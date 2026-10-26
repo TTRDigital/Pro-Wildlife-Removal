@@ -19,10 +19,10 @@ export const ratRemovalPalmHarbor = servicePlacePage({
   placeKind: "city",
   location: "about-us/service-area/wildlife-removal-palm-harbor",
   county: "Pinellas",
-  heroText: "Scratching in a Palm Harbor attic, or droppings in the garage or lanai? We find how the rats get in, close those openings, trap the ones inside and clean up after them. Call (727) 594-7705.",
+  heroText: "Scratching in a Palm Harbor attic, or droppings in the garage or lanai? We find how the rats get in, close those openings and trap the ones inside. Call (727) 594-7705.",
   answerHeading: "Who can clear rats out of a Palm Harbor house?",
   answer:
-    "Rats in a Palm Harbor home are a job for a private company, and in a rental, Pinellas County says the landlord must exterminate rats unless the lease says otherwise. Pro Wildlife Removal finds the gaps rats use around Palm Harbor homes, seals them, traps the rats inside and cleans up. Call (727) 594-7705.",
+    "Rats in a Palm Harbor home are a job for a private company, and in a rental, Pinellas County says the landlord must exterminate rats unless the lease says otherwise. Pro Wildlife Removal finds the gaps rats use around Palm Harbor homes, seals them and traps the rats inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rentals: landlords must exterminate rats", "State records: rodent closures on US 19"],
   localHeading: "Rodent records along Palm Harbor's US 19 and Alt 19",
   localIntro: "State restaurant inspection records supply the first Palm Harbor facts below. Pinellas County and UF/IFAS Extension Pinellas supply the rest.",
@@ -65,7 +65,7 @@ export const ratRemovalPalmHarbor = servicePlacePage({
   seo: {
     title: "Rat Removal in Palm Harbor, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Palm Harbor, FL: entry gaps sealed, rats trapped and cleaned up in homes near US 19, Alt 19, East Lake and Lake Tarpon. Call (727) 594-7705.",
+      "Rat removal in Palm Harbor, FL: entry gaps sealed and the rats trapped inside homes near US 19, Alt 19, East Lake and Lake Tarpon. Call (727) 594-7705.",
   },
   sources: [
     { title: "Florida DBPR, Division of Hotels and Restaurants: emergency closure records, 2022, 2023, 2024 and 2025 (2022-EOS.zip to 2025-EOS.zip; our count of rows with Business City Palm Harbor and Conditions for Closure naming rodents: 21 closures at 12 businesses; 4, 5, 5 and 7 by year; 11 on US 19, 6 on Alt 19)", url: DBPR },

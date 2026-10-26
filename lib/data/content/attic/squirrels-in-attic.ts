@@ -136,7 +136,7 @@ export const squirrelsInAttic: Service = {
         { number: "1", title: "Inspection", text: p("Find every chewed hole and weak vent, and check for young.") },
         { number: "2", title: "Removal", text: p("A one-way door or cage traps until no squirrels are left inside.") },
         { number: "3", title: "Sealing", text: p("Chewed holes covered with material that can't be chewed again.") },
-        { number: "4", title: "Cleanup", text: p("Nests, droppings and soiled insulation out.", "[PLACEHOLDER: ask the client: how long a typical squirrel job takes]") },
+        { number: "4", title: "Walk-through", text: p("Nests, droppings and soiled insulation shown to you.", "[PLACEHOLDER: ask the client: how long a typical squirrel job takes]") },
       ],
     },
     {
@@ -144,16 +144,14 @@ export const squirrelsInAttic: Service = {
       _key: "cleanup",
       tone: "tint",
       eyebrow: "After they're out",
-      heading: "Sealing and cleanup",
+      heading: "Sealing the attic",
       body: p(
-        "Once the squirrels are gone, the chewed openings have to be sealed with something stronger than the wood they chewed through, or they'll chew through it again. Rotted wood is a repair the owner arranges with a contractor. Then the attic gets cleaned. Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves. Soiled insulation is bagged and removed. The full process is on our [squirrel removal](/services/squirrel-removal/) page.",
+        "Once the squirrels are gone, the chewed openings have to be sealed with something stronger than the wood they chewed through, or they'll chew through it again. Rotted wood is a repair the owner arranges with a contractor. Squirrel nests, droppings and urine soak into insulation, and the CDC's advice for rodent waste applies to anyone handling it: don't sweep or vacuum it dry, wet it with disinfectant first, and wear gloves. The full process is on our [squirrel removal](/services/squirrel-removal/) page.",
       ),
       checklist: [
         "Chewed fascia, soffit and roof-edge holes sealed [PLACEHOLDER: ask the client: what material you use to seal squirrel entry points]",
         "Attic vents and screens checked",
-        "Nests and droppings removed",
         "Overhanging branches flagged for trimming",
-        "[PLACEHOLDER: ask the client: is attic cleanup after squirrels quoted separately from the removal and sealing?]",
       ],
       image: images.squirrelRemoval2,
       imageSide: "left",

@@ -45,7 +45,7 @@ export const batRemovalHudson = servicePlacePage({
     { icon: "users", title: "Bats in your building", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
-  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "The parts of a bat job that set the price: inspection, exclusion, sealing and cleanup." },
+  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "The parts of a bat job that set the price: inspection, exclusion and sealing." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Hudson bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(

@@ -11,7 +11,7 @@ export const pinellas = countyPage({
   heroText: "A densely built Florida county, with 588 miles of coastline and wildlife that has learned to live between the houses. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Pinellas County?",
   answer:
-    "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Call (727) 594-7705. [PLACEHOLDER: ask the client: confirm every job includes inspection, sealing and cleanup]",
+    "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Call (727) 594-7705. [PLACEHOLDER: ask the client: confirm every job includes inspection and sealing]",
   points: ["Call (727) 594-7705", "St. Pete to Tarpon Springs", "Entry points sealed"],
   townsHeading: "Pinellas towns we cover",
   townsIntro: "Clearwater is the county seat and St. Petersburg the largest city. Tap a town for its own page where there is one.",

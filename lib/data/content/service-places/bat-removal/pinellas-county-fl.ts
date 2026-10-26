@@ -47,7 +47,7 @@ export const batRemovalPinellasCounty = servicePlacePage({
     { icon: "home", title: "Bats living in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
-  extraLink: { label: "Bat removal cost", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "Inspection, exclusion devices, sealing and cleanup: what shapes the price of getting bats out." },
+  extraLink: { label: "Bat removal cost", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "Inspection, exclusion devices and sealing: what shapes the price of getting bats out." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Pinellas County bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(

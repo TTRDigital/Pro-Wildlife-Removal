@@ -105,7 +105,7 @@ export const squirrelRemoval: Service = {
       _key: "process",
       eyebrow: "How we remove squirrels",
       heading: "How a squirrel job works",
-      intro: p("Remove, seal, clean: three jobs, done in that order, after a careful look for babies."),
+      intro: p("Remove, seal, check: done in that order, after a careful look for babies."),
       variant: "numbered",
       columns: 4,
       cards: [
@@ -131,8 +131,8 @@ export const squirrelRemoval: Service = {
         },
         {
           number: "4",
-          title: "Clean up",
-          text: p("Nests, droppings and flattened or soiled insulation come out, so nothing is left to draw the next squirrel."),
+          title: "Walk-through",
+          text: p("We show you the nests, droppings and flattened insulation the squirrels left, and any wiring an electrician should see."),
         },
       ],
     },
@@ -156,7 +156,7 @@ export const squirrelRemoval: Service = {
     {
       _type: "splitSection",
       _key: "sealing",
-      eyebrow: "Sealing and cleanup",
+      eyebrow: "Sealing",
       heading: "Closing the roof",
       body: p(
         "Squirrels that lived in an attic know the way back, and a patch of wood is just something new to chew. The seal has to be stronger than the material they chewed through, and it has to cover the other weak spots too, or they'll open the next one.",
@@ -165,7 +165,6 @@ export const squirrelRemoval: Service = {
         "Chewed fascia, soffit and roof-edge holes sealed; rotted wood is a repair for the owner's contractor",
         "Openings covered with chew-resistant material [PLACEHOLDER: ask the client: what material you use]",
         "Attic vents and gable screens checked and reinforced",
-        "Nest material and droppings removed from the attic",
         "[PLACEHOLDER: ask the client: is there a warranty on squirrel sealing work, and how long?]",
       ],
       image: images.squirrelRemoval2,
@@ -184,7 +183,7 @@ export const squirrelRemoval: Service = {
         { title: "How many holes", text: p("One chewed corner, or a roof with several entries and weak vents.") },
         { title: "The sealing work", text: p("Closing one soffit corner versus a long run of roof-edge gaps.") },
         { title: "Removal method", text: p("A one-way door, or traps that need return visits.") },
-        { title: "Attic cleanup", text: p("Removing nests and droppings.") },
+        { title: "Attic condition", text: p("Nests and droppings found in the inspection.") },
       ],
       outro: p("Our squirrel inspection is free, and you see the price before anything is done."),
     },

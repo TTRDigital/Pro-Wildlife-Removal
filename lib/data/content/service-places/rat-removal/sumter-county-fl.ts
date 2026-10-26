@@ -25,7 +25,7 @@ export const ratRemovalSumterCounty = servicePlacePage({
   heroText: "Droppings in the garage, gnawed wires or scratching in the attic of a Sumter County home? We find how rats are getting in, seal those gaps and trap the rats inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Sumter County homes?",
   answer:
-    "A private company. Sumter County doesn't pick up trash at all, and its Animal Services generally deals only with domestic animals. For rats in a Sumter attic, wall or garage, Pro Wildlife Removal finds the openings, seals them, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
+    "A private company. Sumter County doesn't pick up trash at all, and its Animal Services generally deals only with domestic animals. For rats in a Sumter attic, wall or garage, Pro Wildlife Removal finds the openings, seals them and traps the rats still inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rat problems in The Villages", "County: hire a company"],
   localHeading: "What to know about rats in Sumter County",
   localIntro: "Sumter has had several reported rat problems in The Villages, from 2015 to 2025. Here is what happened, what the county told residents and how its trash rules bear on rats.",
@@ -44,7 +44,7 @@ export const ratRemovalSumterCounty = servicePlacePage({
     { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
-  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "The things that drive the price of a rat job, from the number of entry points to cleanup." },
+  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "The things that drive the price of a rat job, from the number of entry points to roof height." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Sumter County rat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(

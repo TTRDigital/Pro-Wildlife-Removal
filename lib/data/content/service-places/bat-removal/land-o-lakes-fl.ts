@@ -46,7 +46,7 @@ export const batRemovalLandOLakes = servicePlacePage({
     { icon: "users", title: "Bats in your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
-  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What changes the price of an exclusion: roof type, colony size, cleanup." },
+  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What changes the price of an exclusion: roof type, colony size, timing." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Land O' Lakes bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(

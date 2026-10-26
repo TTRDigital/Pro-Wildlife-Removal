@@ -21,7 +21,7 @@ export const ratRemovalTampa = servicePlacePage({
   heroText: "Scratching over the ceiling of a Tampa home at night? Our rat removal experts find the gaps roof rats use, seal them and trap the rats left inside. Call (727) 594-7705.",
   answerHeading: "Who clears rats out of a Tampa house?",
   answer:
-    "A private company. The City of Tampa sends wildlife on private property to private removal services, and its role with rats is the trash and code rules that keep them from settling in. Pro Wildlife Removal closes the openings, traps what's left in the attic and cleans up. Call (727) 594-7705.",
+    "A private company. The City of Tampa sends wildlife on private property to private removal services, and its role with rats is the trash and code rules that keep them from settling in. Pro Wildlife Removal closes the openings and traps what's left in the attic. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rat lungworm found here", "Yearly S.W.E.E.P. pickup"],
   localHeading: "What to know about rats in Tampa",
   localIntro: "Tampa's trees, trash rules and code enforcement all shape a rat problem. Here's what the city and the University of Florida say.",
@@ -73,7 +73,7 @@ export const ratRemovalTampa = servicePlacePage({
   seo: {
     title: "Rat Removal in Tampa, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Tampa, FL: roof rats sealed out, trapped and cleaned up, plus Tampa's bulk pickup, code rules and rat lungworm findings. (727) 594-7705.",
+      "Rat removal in Tampa, FL: roof rats sealed out and trapped inside, plus Tampa's bulk pickup, code rules and rat lungworm findings. Call (727) 594-7705.",
   },
   sources: [
     { title: "Florida Museum of Natural History (UF): Rat lungworm found throughout Florida, June 28, 2017 (rats and snails in Hillsborough tested positive; 18 counties sampled, rats from 6 of them; nearly 23 percent of rats examined positive; can cause meningitis; wash produce, teach children not to eat snails, wash hands after handling snails)", url: LUNGWORM },

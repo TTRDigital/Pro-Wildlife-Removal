@@ -27,7 +27,7 @@ export const opossumsInAttic: Service = {
     highlight: "Opossums in the Attic",
     text: p("Shuffling overhead at night and a bad smell? It may be an opossum. Here's how to tell, how to get it out without a fight, and how to keep it out."),
     image: images.opossumRemoval4,
-    badges: ["Night shuffling", "Gaps closed with mesh", "Den cleanup"],
+    badges: ["Night shuffling", "Gaps closed with mesh", "Den found"],
   },
   sections: [
     {
@@ -155,7 +155,7 @@ export const opossumsInAttic: Service = {
         { number: "1", title: "Find the den", text: p("Locate where it sleeps and every gap it uses.") },
         { number: "2", title: "Get it out", text: p("Wait for it to leave at night, or live-trap it if it won't.") },
         { number: "3", title: "Close the gaps", text: p("Sturdy wire mesh over vents, openings and torn screens.") },
-        { number: "4", title: "Clean the den", text: p("Droppings, nesting and soiled insulation removed.", "[PLACEHOLDER: ask the client: how long a typical opossum job takes]") },
+        { number: "4", title: "Show you the den", text: p("Droppings, nesting and soiled insulation pointed out.", "[PLACEHOLDER: ask the client: how long a typical opossum job takes]") },
       ],
     },
     {
@@ -163,16 +163,14 @@ export const opossumsInAttic: Service = {
       _key: "cleanup",
       tone: "tint",
       eyebrow: "Keep them out",
-      heading: "Cleanup and keeping the next one out",
+      heading: "Keeping the next one out",
       body: p(
-        "FWC is direct about it: removing one or more opossums doesn't stop others from using the same spot. So the job ends with two things: a clean den area and a closed-up house. Wear gloves for any cleanup, bag droppings and nesting rather than sweeping them, and wash your hands after. Insulation the opossum soiled is easier to take out than to clean.",
+        "FWC is direct about it: removing one or more opossums doesn't stop others from using the same spot. So the job ends with a closed-up house. If you clear the den area yourself, wear gloves, bag droppings and nesting rather than sweeping them, and wash your hands after. Insulation the opossum soiled is easier to take out than to clean.",
       ),
       checklist: [
         "Vents, gaps and torn screens blocked with wire mesh",
-        "Den area cleared of droppings and nesting",
         "Trash secured and pet food brought in at night",
         "Fallen fruit and bird seed cleaned up",
-        "[PLACEHOLDER: ask the client: is attic or crawl space cleanup after opossums quoted separately?]",
       ],
       image: images.opossumRemoval4,
       imageSide: "left",

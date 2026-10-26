@@ -23879,7 +23879,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Guano removal is highly local. Labor, disposal rules, and contractor availability vary between metro and rural areas. When you contact us for a site visit we provide a written scope that separates exclusion, remediation, insulation, and HVAC work so you can submit insurance claims or compare bids effectively. If you are in a specific city or county, include your location when you request an inspection so we can give you a local quote.",
+      "text": "Guano removal is highly local. Labor, disposal rules, and contractor availability vary between metro and rural areas. Whoever you hire, ask for a written scope that separates exclusion, remediation, insulation, and HVAC work so you can submit insurance claims or compare bids effectively. If you are in a specific city or county, include your location when you request an inspection so we can give you a local quote.",
       "marks": []
      }
     ],
@@ -38248,7 +38248,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Contact us for a no-obligation attic assessment and a written cleanup plan tailored to your home and risks.",
+      "text": " Contact us for an attic inspection, and we'll show you what we find.",
       "marks": []
      }
     ],
@@ -40013,7 +40013,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "At Pro Wildlife Removal, we handle wildlife problems in Central Florida. We provide safe, effective removal, cleanup, and prevention to keep your home secure. Don’t risk further complications. Contact us today for our",
+      "text": "At Pro Wildlife Removal, we handle wildlife problems in Central Florida. We provide removal and exclusion for homes across the region. Don’t risk further complications. Contact us today for our",
       "marks": []
      },
      {
@@ -47753,7 +47753,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When grappling with a rodent infestation, it’s crucial to consider the advantages of professional wildlife removal services. Wild animals, if left unchecked, can inflict severe damage, and the feces of these rodents pose substantial health risks to humans and other species. A wildlife removal professional can handle trapping, exclusion and cleanup so you don’t have to handle the animals or their droppings yourself.",
+      "text": "When grappling with a rodent infestation, it’s crucial to consider the advantages of professional wildlife removal services. Wild animals, if left unchecked, can inflict severe damage, and the feces of these rodents pose substantial health risks to humans and other species. A wildlife removal professional can handle trapping and exclusion so you don’t have to handle the animals or their droppings yourself.",
       "marks": []
      }
     ],

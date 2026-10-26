@@ -11,7 +11,7 @@ export const citrus = countyPage({
   heroText: "Springs, sandhills and state forest, with the lowest share of urban residents of the counties we serve. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife removal in Citrus County?",
   answer:
-    "Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals across Citrus County, from Crystal River and Homosassa to Inverness, Lecanto and Floral City. We find the way in, remove the animal legally, seal the opening and clean up. Call (727) 594-7705.",
+    "Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals across Citrus County, from Crystal River and Homosassa to Inverness, Lecanto and Floral City. We find the way in, remove the animal legally and seal the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Crystal River to Inverness", "Lowest urban share we serve"],
   townsHeading: "Citrus towns we cover",
   townsIntro: "Inverness is the county seat. Crystal River is the only other city, and about 93% of residents live outside city limits.",

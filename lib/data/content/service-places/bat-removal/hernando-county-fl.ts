@@ -46,7 +46,7 @@ export const batRemovalHernandoCounty = servicePlacePage({
     { icon: "users", title: "A colony in your building", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
-  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "How colony size, roof type and cleanup shape the cost of a bat job." },
+  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "How colony size, roof type and the season shape the cost of a bat job." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Hernando County bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(

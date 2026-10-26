@@ -15,7 +15,7 @@ export const batRemovalCost: Post = {
   slug: "how-much-does-bat-removal-cost-in-florida",
   title: "How Much Does Bat Removal Cost in Florida?",
   excerpt:
-    "Bat removal cost in Florida depends on how many openings the bats use, how hard they are to reach, how long the colony has been there and how much guano cleanup the attic needs.",
+    "Bat removal cost in Florida depends on how many openings the bats use, how hard they are to reach, how long the colony has been there and how much guano is in the attic.",
   date: "2023-12-09T00:52:59+00:00",
   modified: "2026-10-26T00:00:00+00:00",
   author: "Josh Holmberg",
@@ -45,12 +45,11 @@ export const batRemovalCost: Post = {
       "**Inspection** of the whole roofline and attic to find every opening, the roost and the extent of the guano.",
       "**One-way exclusion devices** on the active exits, left up until no bats are left.",
       "**Sealing** of every opening once the bats are out.",
-      "**Guano cleanup** and, where needed, insulation removal. Our guide to [attic cleanup costs](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) covers that part.",
-    ),
+          ),
     h3("Doing it yourself versus calling a pro"),
     p(`Florida's rules leave little room for do-it-yourself bat removal. Florida law protects bats: FWC says harming them isn't allowed, poison, relocation and fumigants are illegal to use on bats, and bats sealed inside a building die there ([FWC](${BUILDINGS})). The savings from a store-bought device disappear fast if a missed opening lets the colony back in, or if bats end up trapped in a wall.`),
     p("What you can do yourself: watch the roofline at dusk to see where the bats come out, and keep the attic door closed. That information also makes the inspection quicker."),
-    h3("Cleanup: the part of the bill people forget"),
+    h3("Guano: the part people forget"),
     p(
       "Guano builds up under the roost for as long as the colony stays. The CDC recommends a respirator in a confined space with bat droppings, and FWC notes that guano in a dry, unused space can usually be left alone. In a used attic, with ductwork and stored belongings, it usually comes out. That can range from a light cleanup to removing all the insulation under the roost.",
     ),
@@ -88,7 +87,7 @@ export const batRemovalCost: Post = {
   seo: {
     title: "Bat Removal Cost in Florida (2026) | Pro Wildlife Removal",
     description:
-      "What sets bat removal cost in Florida: number of exits, roof height, how long the colony has been there, guano cleanup and the April 16 to Aug 14 season.",
+      "What sets bat removal cost in Florida: number of exits, roof height, how long the colony has been there, the guano, and the April 16 to Aug. 14 season.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; four nights; 50°F; permits during the season)", url: RELEASE },

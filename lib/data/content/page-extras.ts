@@ -30,7 +30,7 @@ export const pageExtras: Record<string, Extra> = {
         heading: "Wildlife removal for Central Florida homes",
         body: p(
           "Pro Wildlife Removal takes animals out of homes and businesses and closes the openings they used. The work covers [bats](/services/bat-removal/), [rats](/services/rat-removal/), [raccoons](/services/raccoon-removal/), [squirrels](/services/squirrel-removal/), snakes, opossums, armadillos, bees and dead animal removal.",
-          "We serve eight counties: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion. The [service area](/service-areas/) page lists the towns, [how we work](/how-we-work/) walks through trapping, exclusion and clean-up, and the [blog](/blog/) answers common questions about Florida wildlife.",
+          "We serve eight counties: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion. The [service area](/service-areas/) page lists the towns, [how we work](/how-we-work/) walks through inspection, trapping and exclusion, and the [blog](/blog/) answers common questions about Florida wildlife.",
         ),
       },
       {
@@ -45,7 +45,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "What animals do you remove?",
-            "Bats, rats, raccoons, squirrels, snakes, opossums, armadillos and bees, plus dead animal removal and attic clean-up. Each one has its own page under [services](/services/).",
+            "Bats, rats, raccoons, squirrels, snakes, opossums, armadillos and bees, plus dead animal removal. Each one has its own page under [services](/services/).",
           ),
           faq(
             "How do I set up an inspection?",
@@ -57,7 +57,7 @@ export const pageExtras: Record<string, Extra> = {
   },
   howWeWork: {
     seoDescription:
-      "How Pro Wildlife Removal handles a job: inspection, trapping and removal, exclusion of entry points, and clean-up. Call (727) 594-7705 to talk it through.",
+      "How Pro Wildlife Removal handles a job: inspection, trapping and removal, and exclusion of entry points. Call (727) 594-7705 to talk the job through.",
     sections: [
       {
         _type: "faqSection",
@@ -82,8 +82,8 @@ export const pageExtras: Record<string, Extra> = {
             `No. FWC says exclusion is illegal during bat maternity season, April 16 to August 14, so bat work is planned for the rest of the year ([FWC](${FWC_BATS})).`,
           ),
           faq(
-            "Do you clean up after the animals are gone?",
-            `Yes: droppings, nesting and soiled insulation, with antimicrobial and ozone treatments where needed. The CDC warns against sweeping or vacuuming rodent droppings ([CDC](${CDC_CLEANUP})). See our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/).`,
+            "What happens to the droppings the animals leave?",
+            `We show you where they are during the inspection. The CDC warns against sweeping or vacuuming rodent droppings ([CDC](${CDC_CLEANUP})). See our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/).`,
           ),
         ],
       },

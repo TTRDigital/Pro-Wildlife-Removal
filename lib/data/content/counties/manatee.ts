@@ -13,7 +13,7 @@ export const manatee = countyPage({
   heroText: "Barrier-island beaches on the west, Bradenton and Palmetto in the middle, ranch land and preserves to the east. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife removal in Manatee County?",
   answer:
-    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect the house, remove the animal the way Florida law allows, seal the entry points it used and clean up what it left behind. Call (727) 594-7705.",
+    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect the house, remove the animal the way Florida law allows and seal the entry points it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Bradenton is the county seat", "Entry points sealed"],
   townsHeading: "Manatee County towns",
   townsIntro: "Bradenton is the county seat and largest city. About 83% of residents live outside city limits.",
