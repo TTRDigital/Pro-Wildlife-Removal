@@ -617,3 +617,23 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
 - `content/services/opossum-removal.ts` (final grep, Oct 26)
   - was: ...torn screens, vents and gaps are blocked with wire mesh, as FWC recommends, and the den area is cleaned.
   - now: ...torn screens, vents and gaps are blocked with wire mesh, as FWC recommends.
+
+## Reviews out of rotation (Oct 26, Ben)
+
+Taken out of `lib/data/testimonials.ts` until the client answers; restore them from git history (commit before this one) if cleared.
+- Michelle Albers: "…humanely captured and relocated our raccoons…" (relocation conflicts with FWC's release rule).
+- Tazdeen Rashid: "…lifetime guarantee on his work on the house…" (warranty is still a client question).
+- Candace G.: "This was the first time I had to deal with a pest control company…" (Kia: no pest control).
+
+### Final scan (Oct 26, Ben): services hub and blog lines
+- `pages.ts` (services hub) was: We provide humane trapping and relocation services to protect your property. / now: We trap them under Florida's rules and seal the entry points they use under structures.
+- `pages.ts` (services hub) was: From inspections to live trapping, exclusion, and cleanup, we handle every step of the wildlife removal process, so you don’t have to worry about a thing. / now: From the inspection to live trapping and exclusion, we handle each step of the wildlife removal process.
+- `posts.ts` was: This is when we confirm whether contaminated ducts or air handlers require HVAC intervention. / now: This is when the inspection shows whether contaminated ducts or air handlers need an HVAC contractor.
+- `posts.ts` was: Reddit threads and our site cases show that in-place spraying / now: Reddit threads show that in-place spraying
+- `posts.ts` was: increases the chance you will clear odors and biological hazards permanently. / now: helps clear odors and biological hazards.
+- `posts.ts` was: page and we will produce a written scope, clearance plan, and a local cost estimate tailored to your property. / now: page and we will document the entry points and give you a local estimate for exclusion.
+- `posts.ts` was: we can connect you with local specialists who document findings and coordinate the right trades. / now: we can inspect the attic and document what we find for the trades you hire.
+- `posts.ts` was: For a trusted assessment and integrated exclusion, cleanup, and insulation guidance, contact our team via / now: For an inspection and an exclusion plan, contact our team via
+- `pages.ts` was: , ensuring the safe handling and relocation of snakes from your property. / now: , with snakes safely captured and removed from the house.
+- `posts.ts` was: focus on humane extraction and relocation when required. / now: focus on humane extraction under Florida's release rules.
+- `posts.ts` was: page so you can get a prompt, itemized proposal and a warranty on the work. / now: page so you can get an itemized proposal.

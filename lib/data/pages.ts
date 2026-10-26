@@ -237,7 +237,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Known for digging up yards and gardens, armadillos can wreak havoc on your landscaping. We provide humane trapping and relocation services to protect your property.",
+          "text": "Known for digging up yards and gardens, armadillos can wreak havoc on your landscaping. We trap them under Florida's rules and seal the entry points they use under structures.",
           "marks": []
          }
         ],
@@ -906,7 +906,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "From inspections to live trapping, exclusion, and cleanup, we handle every step of the wildlife removal process, so you don’t have to worry about a thing.",
+          "text": "From the inspection to live trapping and exclusion, we handle each step of the wildlife removal process.",
           "marks": []
          }
         ],
@@ -1883,7 +1883,7 @@ const migratedPages = {
          },
          {
           "_type": "span",
-          "text": ", ensuring the safe handling and relocation of snakes from your property.",
+          "text": ", with snakes safely captured and removed from the house.",
           "marks": []
          }
         ],
@@ -2102,7 +2102,7 @@ const migratedPages = {
       ]
      },
      {
-      "title": "Removal, Exclusion, & Cleanup",
+      "title": "Removal and Exclusion",
       "text": [
        {
         "_type": "block",
@@ -2110,7 +2110,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We specialize in Tampa wildlife removal and wildlife exclusion services, which involve removing nuisance wildlife while securing your property to prevent re-entry. We will seal entry points and install barriers to ensure lasting protection.",
+          "text": "We specialize in Tampa wildlife removal and wildlife exclusion services, which involve removing nuisance wildlife while securing your property to prevent re-entry. We seal the entry points so animals can't get back in the same way.",
           "marks": []
          }
         ],
