@@ -75,13 +75,13 @@ export function ServicesSection({ section: s, services }: { section: Svc; servic
           <div key={g} className="mt-10 first:mt-0">
             {groups.length > 1 ? <h3 className="mb-5 font-display text-xl font-bold text-navy">{groupLabels[g]}</h3> : null}
             {g === "removal" ? (
-              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5">
+              <div className="flex flex-wrap justify-center gap-3 sm:gap-4 [&>*]:basis-[calc(50%-0.375rem)] sm:[&>*]:basis-[calc(33.333%-0.667rem)] lg:[&>*]:basis-[calc(20%-0.8rem)]">
                 {list.map((x, i) => (
                   <ServiceTile key={x.slug} s={x} index={i} />
                 ))}
               </div>
             ) : (
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="flex flex-wrap justify-center gap-6 [&>*]:basis-full sm:[&>*]:basis-[calc(50%-0.75rem)] lg:[&>*]:basis-[calc(25%-1.125rem)]">
                 {list.map((x, i) => (
                   <ServiceCard key={x.slug} s={x} index={i} />
                 ))}

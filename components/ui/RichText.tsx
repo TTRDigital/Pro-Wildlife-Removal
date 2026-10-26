@@ -11,7 +11,17 @@ const isInternal = (href: string) => href.startsWith("/") || href.startsWith("#"
 const officeTel = `tel:+1${fallbackSettings.phone.replace(/\D/g, "")}`;
 const isRequestLink = (href: string, text: string) => /^\/contact-us\/?(#.*)?$/.test(href) && /request|inspect|schedule|quote|estimate|assess|book/i.test(text);
 
+const itemText = (item: unknown) => ((item as { children?: { text?: string }[] })?.children ?? []).map((c) => c.text ?? "").join("").trim();
+
 const components: PortableTextComponents = {
+  list: {
+    // A long list of short names (towns, counties) shows as small tags instead of a tall column.
+    bullet: ({ children, value }) => {
+      const items = (value as { children?: unknown[] })?.children ?? [];
+      const tags = items.length >= 6 && items.every((it) => itemText(it).split(/\s+/).length <= 3);
+      return <ul className={tags ? "ul-tags" : undefined}>{children}</ul>;
+    },
+  },
   marks: {
     link: ({ value, children, text }) => {
       const href: string = value?.href ?? "";

@@ -6,18 +6,43 @@ import type { IconName } from "@/lib/icons";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
 import { StepRail } from "@/components/ui/StepRail";
+import { LoopVideo } from "@/components/ui/LoopVideo";
+import { animalVideos } from "@/lib/data/videos";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
+/* Column widths for the card rows; the rows wrap and a short last row is centred. */
 const cols: Record<number, string> = {
-  1: "md:grid-cols-1",
-  2: "md:grid-cols-2",
-  3: "md:grid-cols-2 lg:grid-cols-3",
-  4: "md:grid-cols-2 lg:grid-cols-4",
+  1: "[&>*]:basis-full",
+  2: "[&>*]:basis-full md:[&>*]:basis-[calc(50%-0.75rem)]",
+  3: "[&>*]:basis-full md:[&>*]:basis-[calc(50%-0.75rem)] lg:[&>*]:basis-[calc(33.333%-1rem)]",
+  4: "[&>*]:basis-full md:[&>*]:basis-[calc(50%-0.75rem)] lg:[&>*]:basis-[calc(25%-1.125rem)]",
 };
+
+/** An icon for a card that has none, from its title. */
+function cardIcon(title: string): IconName {
+  const t = title.toLowerCase();
+  if (/county|area|local|cit|where|near/.test(t)) return "map-pin";
+  if (/experience|expert|technician|team|trained|decade/.test(t)) return "users";
+  if (/safe|health|humane|law|rule|legal|licens|insur/.test(t)) return "shield-check";
+  if (/inspect|identif|find|sign|assess/.test(t)) return "search";
+  if (/seal|exclu|entry|prevent|long-term|block/.test(t)) return "exclusion";
+  if (/clean|sanit|decon|restor|odor|smell/.test(t)) return "spray";
+  if (/trap|remov|catch/.test(t)) return "critter";
+  if (/repair|roof|soffit|damage|wire/.test(t)) return "wrench";
+  if (/schedul|fast|quick|same|time|respon/.test(t)) return "clock";
+  if (/cost|price|value|quote|how many|how long|how high/.test(t)) return "balance";
+  if (/review|rated|client|custom|trust|peace/.test(t)) return "star";
+  if (/call|contact|phone/.test(t)) return "phone";
+  return "badge-check";
+}
 
 function CardItem({ card, variant, index }: { card: Card; variant: Cards["variant"]; index: number }) {
   const accent = card.accent === "navy" ? "border-l-4 border-l-navy" : card.accent === "blue" ? "border-l-4 border-l-blue" : "";
   const photo = variant === "photo" && card.image;
+  const icon = card.icon ?? (photo ? undefined : cardIcon(card.title));
+  // A photo card for an animal's service page plays that animal's clip over its photo.
+  const animal = card.href?.match(/\/services\/([a-z]+)-removal\/?$/)?.[1];
+  const video = photo && animal ? animalVideos[animal] : undefined;
   // A linked photo card whose text has no links of its own is one big link (the title sits on the photo).
   const whole = Boolean(photo && card.href && !JSON.stringify(card.text ?? []).includes('"link"'));
   const body = (
@@ -25,6 +50,7 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
       {photo ? (
         <div className="photo-look relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7">
           <Photo image={card.image!} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
+          {video ? <LoopVideo src={video} poster={card.image!.src} /> : null}
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/10 to-transparent" />
           {whole || !card.href ? (
             <p aria-hidden="true" className="absolute right-4 bottom-3 left-4 font-display text-xl leading-tight font-extrabold text-white drop-shadow-[0_2px_8px_rgb(0_0_0/0.4)] md:text-[1.375rem]">
@@ -33,9 +59,9 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
           ) : null}
         </div>
       ) : null}
-      {card.icon ? (
+      {icon ? (
         <span className="mb-5 flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-gradient-to-br from-navy to-navy-3 text-blue-light shadow-[0_10px_20px_-10px_rgb(14_42_71/0.6)] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105">
-          <Icon name={card.icon} className="h-[22px] w-[22px]" />
+          <Icon name={icon} className="h-[22px] w-[22px]" />
         </span>
       ) : null}
       {card.number && variant !== "numbered" ? <p className="mb-1 font-display text-[2rem] font-bold leading-[1.1] tabular-nums text-blue-deep">{card.number}</p> : null}
@@ -137,7 +163,7 @@ export function CardsSection({ section: s }: { section: Cards }) {
     s.variant === "numbered" && !s.image ? (
       <Steps cards={s.cards} />
     ) : (
-      <div className={swipe ? `swipe ${s.cards.length % 3 && s.cards.length % 2 === 0 ? "swipe-2" : ""}` : `grid items-stretch gap-4 md:gap-6 ${s.image ? "md:grid-cols-2" : cols[n]}`}>
+      <div className={swipe ? `swipe ${s.cards.length % 3 && s.cards.length % 2 === 0 ? "swipe-2" : ""}` : s.image ? "grid items-stretch gap-4 md:grid-cols-2 md:gap-6" : `flex flex-wrap justify-center gap-4 md:gap-6 ${cols[n]}`}>
         {s.cards.map((c, i) => (
           <CardItem key={`${c.title}-${i}`} card={c} variant={s.variant} index={i} />
         ))}
