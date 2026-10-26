@@ -17,7 +17,7 @@ export const springHill = countyPage({
   answerHeading: "Who handles wildlife removal in Spring Hill?",
   answer:
     "Spring Hill isn't a city, so public animal services come from the Hernando County Sheriff's Office, and wildlife in or under your home is a job for a private company. Pro Wildlife Removal handles raccoons, rats, squirrels, bats, snakes, opossums, armadillos and bees here. Call 352-675-3338, 24/7.",
-  points: ["Call 352-675-3338", "Unincorporated community", "Next to Weekiwachee Preserve", "Open 24/7"],
+  points: ["Call 352-675-3338", "Unincorporated community", "Next to Weekiwachee Preserve"],
   townsHeading: "Spring Hill and nearby",
   townsIntro: "With about 113,600 people at the 2020 Census, Spring Hill is an unincorporated community, larger than any city in Hernando County.",
   towns: [

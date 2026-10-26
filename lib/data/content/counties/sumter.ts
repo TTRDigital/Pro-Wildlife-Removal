@@ -12,7 +12,7 @@ export const sumter = countyPage({
   answerHeading: "Who handles wildlife removal in Sumter County and The Villages?",
   answer:
     "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Sumter County, including The Villages, Wildwood, Bushnell and Webster. We inspect, remove the animal the way Florida law allows, seal the entry and clean up. Call 863-431-9244, 24/7.",
-  points: ["Sumter line 863-431-9244", "The Villages and Wildwood", "89% rural land", "Open 24/7"],
+  points: ["Sumter line 863-431-9244", "The Villages and Wildwood", "89% rural land"],
   townsHeading: "Sumter towns we cover",
   townsIntro: "Bushnell is the county seat and Wildwood the largest city. The Census places The Villages in Sumter and Marion counties.",
   towns: [

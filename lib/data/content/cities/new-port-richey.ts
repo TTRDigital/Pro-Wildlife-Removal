@@ -17,7 +17,7 @@ export const newPortRichey = countyPage({
   answerHeading: "Who handles wildlife in New Port Richey?",
   answer:
     "The City of New Port Richey says Pasco County handles all animal control concerns, and county services focus on domestic animals. For raccoons, opossums, squirrels or rats in your home, call a private company. Pro Wildlife Removal works across New Port Richey. Call 727-594-7722, 24/7.",
-  points: ["Pasco line 727-594-7722", "County handles animal control", "On the Cotee River", "Open 24/7"],
+  points: ["Pasco line 727-594-7722", "County handles animal control", "On the Cotee River"],
   townsHeading: "New Port Richey and nearby",
   townsIntro: "New Port Richey has about 17,000 residents. The city's planning documents note Port Richey sits immediately to the north.",
   towns: [

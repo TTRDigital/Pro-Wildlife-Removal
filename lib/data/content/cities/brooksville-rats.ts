@@ -20,7 +20,7 @@ export const brooksvilleRats = countyPage({
   answerHeading: "Who gets rid of rats in Brooksville?",
   answer:
     "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use, traps the rats still inside and cleans up after them. Call the Hernando line, 352-612-3336, 24/7.",
-  points: ["Hernando line 352-612-3336", "Roof rats in attics", "Seal first, then trap", "Open 24/7"],
+  points: ["Hernando line 352-612-3336", "Roof rats in attics", "Seal first, then trap"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the Hernando County seat, a city of about 10,100 people. We take rat calls across the county.",
   towns: [

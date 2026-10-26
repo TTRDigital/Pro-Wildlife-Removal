@@ -34,7 +34,7 @@ export const home: PageContent = {
       text: p(
         "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in nine counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705, 24/7.",
       ),
-      points: ["9 counties", "Open 24/7", "Humane, legal methods", "Entry points sealed"],
+      points: ["9 counties", "Humane, legal methods", "Entry points sealed"],
     },
     {
       _type: "servicesSection",

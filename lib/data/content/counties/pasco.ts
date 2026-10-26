@@ -12,7 +12,7 @@ export const pasco = countyPage({
   answerHeading: "Who handles wildlife problems in Pasco County?",
   answer:
     "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pasco County, from New Port Richey and Holiday on the coast to Wesley Chapel, Zephyrhills and Dade City inland. We find the way in, remove the animal legally, seal it and clean up. Call 727-594-7722.",
-  points: ["Pasco line 727-594-7722", "Coast to Dade City", "Open 24/7", "Raccoon rabies alerts in 2026"],
+  points: ["Pasco line 727-594-7722", "Coast to Dade City", "Raccoon rabies alerts in 2026"],
   townsHeading: "Pasco towns we cover",
   townsIntro: "Dade City is the county seat. Most Pasco residents live outside city limits, in communities like Trinity, Land O' Lakes and Wesley Chapel.",
   towns: [

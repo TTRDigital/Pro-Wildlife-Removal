@@ -12,7 +12,7 @@ export const pinellas = countyPage({
   answerHeading: "Who removes wildlife in Pinellas County?",
   answer:
     "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Call 727-496-7702, 24/7. [PLACEHOLDER: ask the client: confirm every job includes inspection, sealing and cleanup]",
-  points: ["Pinellas line 727-496-7702", "St. Pete to Tarpon Springs", "Open 24/7", "Entry points sealed"],
+  points: ["Pinellas line 727-496-7702", "St. Pete to Tarpon Springs", "Entry points sealed"],
   townsHeading: "Pinellas towns we cover",
   townsIntro: "Clearwater is the county seat and St. Petersburg the largest city. Tap a town for its own page where there is one.",
   towns: [

@@ -12,7 +12,7 @@ export const polk = countyPage({
   answerHeading: "Who removes wildlife in Polk County?",
   answer:
     "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it the way Florida law allows, seal the gap and clean up. Call 863-208-5050, 24/7.",
-  points: ["Polk line 863-208-5050", "Lakeland to Haines City", "Over 500 named lakes", "Open 24/7"],
+  points: ["Polk line 863-208-5050", "Lakeland to Haines City", "Over 500 named lakes"],
   townsHeading: "Polk towns we cover",
   townsIntro: "Bartow is the county seat and Lakeland the largest city. Polk is the largest county we serve by land area: about 1,800 square miles.",
   towns: [

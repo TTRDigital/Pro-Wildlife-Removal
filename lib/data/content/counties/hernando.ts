@@ -12,7 +12,7 @@ export const hernando = countyPage({
   answerHeading: "Who removes wildlife in Hernando County?",
   answer:
     "Pro Wildlife Removal handles raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals in Hernando County, from Spring Hill and Weeki Wachee to Brooksville and the rural east. We find how the animal gets in, remove it legally, seal the gap and clean up. Call 352-612-3336, 24/7.",
-  points: ["Hernando line 352-612-3336", "Spring Hill to Brooksville", "Raccoon rabies on record", "Open 24/7"],
+  points: ["Hernando line 352-612-3336", "Spring Hill to Brooksville", "Raccoon rabies on record"],
   townsHeading: "Hernando towns we cover",
   townsIntro: "Brooksville is the county seat and the only city. About 95% of Hernando residents live outside city limits, mostly in and around Spring Hill.",
   towns: [

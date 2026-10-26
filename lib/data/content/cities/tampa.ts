@@ -15,7 +15,7 @@ export const tampa = countyPage({
   answerHeading: "Who removes wildlife in Tampa?",
   answer:
     "In Tampa, wildlife on private property is a job for a private removal company: the city's own page says so. Pro Wildlife Removal handles rats, bats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across the city. Call (727) 594-7705, 24/7.",
-  points: ["Private property: call a company", "Open 24/7", "Hillsborough County", "Bees first found at Port of Tampa"],
+  points: ["Private property: call a company", "Hillsborough County", "Bees first found at Port of Tampa"],
   townsHeading: "Tampa and nearby",
   townsIntro: "Tampa is the Hillsborough County seat and, at about 412,700 people, its largest city. We also cover the communities around it.",
   towns: [

@@ -18,7 +18,7 @@ export const landOLakes = countyPage({
   answerHeading: "Who removes wildlife in Land O' Lakes?",
   answer:
     "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal works across Land O' Lakes. Call 727-594-7722, 24/7.",
-  points: ["Pasco line 727-594-7722", "Unincorporated Pasco", "Between two big preserves", "Open 24/7"],
+  points: ["Pasco line 727-594-7722", "Unincorporated Pasco", "Between two big preserves"],
   townsHeading: "Land O' Lakes and nearby",
   townsIntro: "Land O' Lakes is an unincorporated community of about 35,900 people, as of the 2020 Census. We cover the central Pasco communities around it.",
   towns: [

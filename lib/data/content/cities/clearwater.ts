@@ -17,7 +17,7 @@ export const clearwater = countyPage({
   answerHeading: "Who handles wildlife problems in Clearwater?",
   answer:
     "The City of Clearwater doesn't run animal control: Pinellas County handles strays and pets, and FWC handles alligators and wildlife emergencies. For an animal living in your attic, walls or yard, call a private company. Pro Wildlife Removal works across Clearwater. Call 727-594-7722, 24/7.",
-  points: ["Call 727-594-7722", "County handles pets", "FWC handles alligators", "Open 24/7"],
+  points: ["Call 727-594-7722", "County handles pets", "FWC handles alligators"],
   townsHeading: "Clearwater and nearby",
   townsIntro: "Clearwater, home to about 118,300 people, is the Pinellas County seat. We cover the towns around it too.",
   towns: [

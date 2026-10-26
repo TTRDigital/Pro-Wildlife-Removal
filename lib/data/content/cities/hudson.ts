@@ -17,7 +17,7 @@ export const hudson = countyPage({
   answerHeading: "Who handles wildlife problems in Hudson?",
   answer:
     "Hudson is unincorporated Pasco County, and county Animal Services focuses on pets and strays. Raccoons, opossums, rats or snakes in or under your home are a job for a private company, and bears are FWC's. Pro Wildlife Removal works across Hudson. Call 727-594-7722, 24/7.",
-  points: ["Pasco line 727-594-7722", "Unincorporated Pasco", "Bears: call FWC", "Open 24/7"],
+  points: ["Pasco line 727-594-7722", "Unincorporated Pasco", "Bears: call FWC"],
   townsHeading: "Hudson and nearby",
   townsIntro: "Hudson is a coastal community of about 12,900 people, as of the 2020 Census, at the north end of Pasco's Gulf coast.",
   towns: [

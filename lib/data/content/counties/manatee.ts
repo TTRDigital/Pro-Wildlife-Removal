@@ -13,7 +13,7 @@ export const manatee = countyPage({
   answerHeading: "Who handles wildlife removal in Manatee County?",
   answer:
     "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect, remove the animal the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705, 24 hours a day.",
-  points: ["Call (727) 594-7705", "Open 24/7", "Bradenton is the county seat", "Entry points sealed"],
+  points: ["Call (727) 594-7705", "Bradenton is the county seat", "Entry points sealed"],
   townsHeading: "Manatee County towns",
   townsIntro: "Bradenton is the county seat and largest city. About 83% of residents live outside city limits.",
   townsNote: "[PLACEHOLDER: ask the client: which Manatee towns you serve, and a Manatee phone number if there is one]",

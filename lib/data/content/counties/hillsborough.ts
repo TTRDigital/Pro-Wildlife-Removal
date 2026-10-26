@@ -12,7 +12,7 @@ export const hillsborough = countyPage({
   answerHeading: "Who removes wildlife in Hillsborough County?",
   answer:
     "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows, seal it and clean up. Call (727) 594-7705, 24/7.",
-  points: ["Call (727) 594-7705", "Tampa to Plant City", "Most rabid bats in our area, 2025", "Open 24/7"],
+  points: ["Call (727) 594-7705", "Tampa to Plant City", "Most rabid bats in our area, 2025"],
   townsHeading: "Hillsborough towns we cover",
   townsIntro: "Tampa is the county seat and largest city. About 69% of county residents live outside city limits, in places like Brandon and Riverview.",
   towns: [

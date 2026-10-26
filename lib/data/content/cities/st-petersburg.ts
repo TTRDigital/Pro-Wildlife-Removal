@@ -17,7 +17,7 @@ export const stPetersburg = countyPage({
   answerHeading: "Who handles wildlife and rats in St. Petersburg?",
   answer:
     "Pinellas County handles strays and injured wildlife in St. Petersburg. The city helps with rats outdoors, but for rodents inside a home it says to call a private company. Pro Wildlife Removal removes rats, raccoons, squirrels, bats and more across St. Pete. Call 727-594-7704, 24/7.",
-  points: ["Call 727-594-7704", "County: strays, injured wildlife", "Inside rats: private company", "Open 24/7"],
+  points: ["Call 727-594-7704", "County: strays, injured wildlife", "Inside rats: private company"],
   townsHeading: "St. Petersburg and nearby",
   townsIntro: "St. Petersburg, home to about 266,200 people, is the largest city in Pinellas County. We cover its neighbors too.",
   towns: [
