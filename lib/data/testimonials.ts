@@ -1,6 +1,7 @@
 /* Generated from the live site by the migration scripts, then edited by hand where noted. Edit content in /cms; this is the built-in fallback and the seed source. */
 import type { Testimonial } from "../types";
 
+/* Out of rotation until the client answers (Ben, Oct 26): Michelle Albers (relocation), Tazdeen Rashid (lifetime guarantee), and the "pest control company" review. Logged in content/PLACEHOLDERS.md. */
 export const fallbackTestimonials: Testimonial[] = [
  {
   "name": "Cassandra Bronzo",
@@ -11,12 +12,6 @@ export const fallbackTestimonials: Testimonial[] = [
  {
   "name": "April Daves",
   "quote": "There's a first time for everything! Somehow a snake made it's way into our office building and chose my office to hang out. I called Pro Wildlife on Sunday and explained it to the tech. They arranged the appointment to come and remove it for today @ 9am. The tech Zak Brooks arrived and got the snake out very quickly! He was friendly and professional!! Definitely recommend and we'd use them again if needed! Thank you again!",
-  "rating": 5,
-  "source": "Google"
- },
- {
-  "name": "Michelle Albers",
-  "quote": "We have been having groups of raccoons wreak havoc on the plants and fountain in the backyard. Nelson came to help and he is amazing!! He is knowledgeable, professional, punctual on top of being a lovely animal whisperer! He kindly and humanely captured and relocated our raccoons and now we all can live well. He is the best!! Cant say enough about him and the service delivered!",
   "rating": 5,
   "source": "Google"
  },
@@ -37,12 +32,6 @@ export const fallbackTestimonials: Testimonial[] = [
   "quote": "Alex was our service rep. He was extremely knowledgeable. He did a great job and a pleasure to deal with. We will definitely use Pro Wildlife removal again if needed. We were completely satisfied with their service.",
   "rating": 5,
   "source": "Google"
- },
- {
-  "name": "Candace G.",
-  "quote": "This was the first time I had to deal with a pest control company, the first time that I had a pest issue in general! I was visiting my mother in Tampa when I noticed a foul smell coming from her attic and I heard scurrying sounds. I called Pro Wildlife Removal after getting some recommendations from some neighbors. I was so happy I called them because they came out right away and found that my mom had a raccoon infestation and one of them had died in the attic which was rotting! It was 2 adult raccoons and multiple babies, so they had been in there for a while I suppose. Pro Wildlife Removal removed the animals without causing any harm to them and even cleaned up the mess. I felt that the whole process was really efficient and thorough, which was the most important thing for me. I would highly recommend them if you live in the Tampa area and find yourself with a wild animal in your home. It’s not fun, but Pro Wildlife Removal helps to take the stress away.",
-  "rating": 5,
-  "source": "Yelp"
  },
  {
   "name": "June B.",
@@ -83,12 +72,6 @@ export const fallbackTestimonials: Testimonial[] = [
  {
   "name": "Derek Llovet",
   "quote": "Can't recommend this place enough- Steve is a true champion. We had a problem with critters, and this company made sure to not only take care of the problem, but to also make sure it didn't happen again. It was a quick and easy process, communication was great- in this situation, I couldn't ask for a better service, because I got top notch service from this company. If you're having problems with wildlife- call Pro Wildlife removal. Do yourself a favor.",
-  "rating": 5,
-  "source": "Google"
- },
- {
-  "name": "Tazdeen Rashid",
-  "quote": "Steve was a great pleasure to work with. He did an honest work on our house getting rid of rats and squirrels in our attic. Sealed up all the possible entrances and lifetime guarantee on his work on the house as long as we live in the house. Highly recommend him and the company.",
   "rating": 5,
   "source": "Google"
  },
