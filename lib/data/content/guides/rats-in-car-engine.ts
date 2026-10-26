@@ -31,24 +31,24 @@ export const ratsInCarEngine: Post = {
       "**A bad smell** from the vents when the fan or heat is on.",
     ),
     p(
-      `University of Illinois Extension lists the same signs and notes rodents can damage wires, tubes and upholstery and fill vital parts with nest material ([Illinois Extension](${ILL})). The University of California's IPM program says rats commonly gnaw the insulation on engine wires, leading to malfunctions and expensive repairs ([UC IPM](${UC})).`,
+      `University of Illinois Extension lists the same signs for mice in cars, which can damage wires, tubes and upholstery and fill vital parts with nest material ([Illinois Extension](${ILL})). The University of California's IPM program says rats commonly gnaw the insulation on engine wires, leading to malfunctions and expensive repairs ([UC IPM](${UC})).`,
     ),
     h3("Why Florida cars get them"),
     p(
-      `A parked car offers warmth, cover and nesting material close to food. UF/IFAS Extension in Florida says rodents gnaw structural, mechanical and electrical parts. Around Florida homes, roof rats find plenty of shelter: UF/IFAS notes that a skirt of dead leaves on a palm creates rodent habitat, and that roof rats can jump three feet up and more than four feet across ([UF/IFAS](${IN1397})). A car parked under a palm or beside a woodpile is an easy target.`,
+      `A parked car offers warmth, cover and nesting material close to food. UF/IFAS Extension in Florida says rodents gnaw structural, mechanical and electrical parts ([UF/IFAS](https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/)). Around Florida homes, roof rats find plenty of shelter: UF/IFAS notes that a skirt of dead leaves on a palm creates rodent habitat, and that roof rats can jump three feet up and more than four feet across ([UF/IFAS](${IN1397})). A car parked under a palm or beside a woodpile is an easy target.`,
     ),
     h3("What works"),
     ul(
       `**Drive it.** Illinois Extension's first tip is to use your car often. A car that sits for days is a quiet shelter.`,
-      `**Park away from food and nesting material,** such as garbage cans, bird feeders, fruit trees, cardboard and stored paper, and in a closed garage if you can ([Illinois Extension](${ILL})).`,
+      `**Park away from food and nesting material,** such as dumpsters, gardens, newspapers and cardboard boxes, and in a closed garage if you can ([Illinois Extension](${ILL})).`,
       `**Remove what feeds them.** UF/IFAS Extension in Pinellas County says to remove garbage, pet food, bird feed and fallen fruit ([UF/IFAS](${PINELLAS})).`,
-      `**Trim palm skirts and limbs** near the house and the parking spot, as UF/IFAS advises.`,
+      `**Trim palm skirts and limbs** near the house, as UF/IFAS advises.`,
       `**Trap near the car.** UF/IFAS Extension in Sarasota calls spring-loaded snap traps the recommended method for homeowners ([UF/IFAS](${SARASOTA})). Set them where children and pets can't reach.`,
       `**Use a cover that seals.** UC IPM says a weighted car cover only works if it touches the ground all the way around ([UC IPM](${UC})).`,
     ),
     h3("What doesn't"),
     p(
-      `Smells and sounds sold as repellents haven't held up. University of California experts say no plants have been proven to keep rats away and that high-frequency ultrasonic devices aren't effective in homes and gardens ([UC ANR](${UCANR})). Illinois Extension says it's unclear how well repellents work. Rats can also chew through plastic and foam, so stuffing gaps under the hood isn't a fix.`,
+      `Smells and sounds sold as repellents haven't held up. University of California experts say no plants have been proven to keep rats away and that high-frequency ultrasonic devices aren't effective in homes and gardens ([UC ANR](${UCANR})). Illinois Extension says it's unclear how well repellents work against mice. UC IPM notes rats chew through plastic and foam, so foam stuffed into gaps won't keep them out.`,
     ),
     h3("Fix the source"),
     p(
@@ -66,7 +66,7 @@ export const ratsInCarEngine: Post = {
     ),
     faq(
       "Will an ultrasonic device under the hood work?",
-      "University experts say high-frequency ultrasonic devices aren't effective against rats in homes and gardens, and there's no good evidence they work in cars either.",
+      "University of California experts say high-frequency ultrasonic devices aren't effective against rats in homes and gardens, because rats quickly get used to repeated sounds.",
     ),
     faq(
       "Why do the rats keep coming back to my car?",
@@ -80,8 +80,8 @@ export const ratsInCarEngine: Post = {
   },
   sources: [
     { title: "University of California IPM: Rats (gnaw engine wire insulation causing malfunctions and expensive repairs; weighted car cover must touch the ground; chew plastic and foam; neighborhood-wide management)", url: UC },
-    { title: "UC ANR: Your rat management questions answered (no plants proven to deter rats; high-frequency ultrasonic devices not effective)", url: UCANR },
-    { title: "University of Illinois Extension: Mouse house, Feb 19, 2026 (vehicles: chewed wires and tubes, upholstery, nesting material; droppings, odor; use your car often; park away from food and nesting material; repellents unclear)", url: ILL },
+    { title: "UC ANR: Your rat management questions answered (no plants proven to deter rats; high-frequency ultrasonic devices not effective, rats get used to repeated sounds)", url: UCANR },
+    { title: "University of Illinois Extension: Mouse house, Feb 19, 2026 (mice in vehicles: chewed wires and tubes, upholstery, nesting material; droppings, odor; use your car often; park away from dumpsters, gardens, newspapers and cardboard; repellents unclear)", url: ILL },
     { title: "UF/IFAS Extension Pinellas: Management of rodents (remove garbage, pet food, bird feed, fallen fruit)", url: PINELLAS },
     { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (a skirt of dead palm leaves makes rodent habitat; roof rats jump three feet up and more than four feet across; prune limbs away from the house)", url: IN1397 },
     { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (gnaw structural, mechanical and electrical components)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },

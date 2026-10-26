@@ -40,7 +40,7 @@ export const whatAnimalIsInMyAttic: Post = {
     ),
     h3("Step 2: What does it sound like?"),
     p(
-      `Light, quick scurrying and gnawing are typical of rats. Heavy walking and thumps suggest something bigger: our post on [raccoon noises at night](/blog/raccoon-noises-at-night/) covers the sounds raccoons make, and [raccoon vs rats in the attic](/blog/raccoon-vs-rats-in-the-attic-how-to-tell-the-difference/) compares the two. UF/IFAS says opossums hiss, click, growl and screech ([UF/IFAS](${UW471})). Bats are different: UF/IFAS notes they're quiet, don't chatter or gnaw on wood, and are easiest to confirm by watching them leave the eaves at dusk ([UF/IFAS](${UW548})).`,
+      `Light, quick scurrying and gnawing are typical of rats. Heavy walking and thumps suggest something bigger: our post on [raccoon noises at night](/blog/raccoon-noises-at-night/) covers the sounds raccoons make, and [raccoon vs rats in the attic](/blog/raccoon-vs-rats-in-the-attic-how-to-tell-the-difference/) compares the two. UF/IFAS says opossums hiss, click, growl and screech ([UF/IFAS](${UW471})). Bats are different: UF/IFAS notes they're quiet, don't chatter or gnaw on wood, and you can confirm them by watching them leave the eaves at dusk ([UF/IFAS](${UW548})).`,
     ),
     h3("Step 3: What did it leave behind?"),
     p(
@@ -51,22 +51,22 @@ export const whatAnimalIsInMyAttic: Post = {
     ),
     h3("Why it matters which animal it is"),
     p(
-      "Each animal comes with its own Florida rules. FWC allows bat exclusion only from August 15 to April 15, and what can be done with a trapped raccoon, opossum or rat depends on the species. Our guide to [Florida wildlife trapping rules](/blog/florida-wildlife-trapping-rules/) covers the details. Naming the animal correctly decides what's legal and what works.",
+      "Each animal comes with its own Florida rules. FWC allows bat exclusion without a permit only from August 15 to April 15, and what can be done with a trapped raccoon, opossum or rat depends on the species. Our guide to [Florida wildlife trapping rules](/blog/florida-wildlife-trapping-rules/) covers the details. Naming the animal correctly decides what's legal and what works.",
     ),
     p("Next steps by animal: [rats in the attic](/services/rats-in-attic/), [squirrels in the attic](/services/squirrels-in-attic/), [raccoons in the attic](/services/raccoons-in-attic/), [opossums in the attic](/services/opossums-in-attic/) and [bats in the attic](/services/bats-in-attic/)."),
   ),
   faq: [
     faq(
       "What animal makes noise in the attic at night?",
-      "Most often rats, which Florida DOH says are most active around dusk and dawn. Heavier thumps at night suggest a raccoon or opossum, and soft cheeps in the first hours after dark can be flying squirrels.",
+      "Often rats, especially roof rats, which Florida DOH says are most active an hour after sunset and an hour before dawn. Heavier thumps at night suggest a raccoon or opossum, and soft cheeps in the first hours after dark can be flying squirrels.",
     ),
     faq(
       "What's in my attic in the morning?",
-      "Daytime noise, especially early morning and late afternoon, is most likely gray squirrels, which FWC says are active by day and sometimes nest in attics.",
+      "Daytime noise is most likely gray squirrels, which FWC says are active during the day and sometimes nest in attics.",
     ),
     faq(
       "How can I tell if I have bats and not rats?",
-      "Bats are quiet and don't gnaw, so watch the eaves at dusk for bats flying out. Their droppings crumble to powder and pile up under the roost, which rat droppings don't.",
+      "Bats are quiet and don't gnaw, so watch the eaves at dusk for bats flying out. Their droppings crumble to powder and pile up under the roost, which mouse droppings don't.",
     ),
     faq(
       "Should I go up and look myself?",
@@ -85,7 +85,7 @@ export const whatAnimalIsInMyAttic: Post = {
     { title: "UF/IFAS Gardening Solutions: Cavity dwellers (southern flying squirrels nocturnal; sometimes nest in attics; cheeps in the first hours after sunset)", url: FLYING },
     { title: "FWC: Raccoon profile (active from late afternoon and through the night)", url: FWC_RAC },
     { title: "UF/IFAS EDIS UW471: Virginia opossum (nocturnal and solitary; hissing, clicking, growling and screeching)", url: UW471 },
-    { title: "UF/IFAS EDIS UW548: Bats in buildings (bats are quiet, don't chatter or gnaw; confirm by watching them exit at dusk)", url: UW548 },
+    { title: "UF/IFAS EDIS UW548: Has Your House Gone Batty? Facts about Bats (bats are quiet, don't chatter or gnaw; confirm by watching them exit at dusk)", url: UW548 },
     { title: "FWC: Bats in buildings (seen entering or leaving at dawn or dusk; bat droppings crumble to powder, may show insect wing pieces, pile up)", url: FWC_BATS },
     { title: "UF/IFAS EDIS UW369: identifying wildlife signs (rice-grain droppings: rats, mice, bats; smaller oval pellets: squirrels; raccoon scat blunt-ended, about 1 inch thick)", url: UW369 },
   ],

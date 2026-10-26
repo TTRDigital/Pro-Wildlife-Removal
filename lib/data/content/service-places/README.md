@@ -35,10 +35,11 @@ Model page: `raccoon-removal/tampa-fl.ts`. Copy its shape, never its words.
 - Always look for the latest DOH alert for the county (floridahealth.gov uploads, county DOH newsroom) and cite the newest.
 - Every card is about this animal in this place. A park or preserve only counts if its own page names the animal.
 - Quote the source's wording for anything with a number, a date or a rule; don't round it up or add to it.
+- Use the newest figures. Tampa's tree canopy numbers come from the 2021 analysis (tampa-utc-2021-hires.pdf: 42% of canopy on residential properties; citywide cover 30.0% in 2021). The 2016 figures (13,956 acres, 50%) are out of date.
 
 ## Never
 
-- One phone number only: (727) 594-7705. No county lines.
+- One company number only: (727) 594-7705. No second company number (no county or city lines). Agency numbers, such as DOH, animal services, code enforcement or a wildlife rehabber, are fine on contact cards.
 - No 24/7, hours, prices, "best", "#1", "guaranteed", superlatives, license or certification claims, street addresses.
 - No promise in the hero or anywhere else (no "so it can't come back", "for good", "never again").
 - Same-day: only "Same-day appointments ... are often available in [place]". No times.

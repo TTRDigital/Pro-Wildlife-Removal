@@ -25,7 +25,7 @@ export const ratsInTheWalls: Post = {
     h3("How to tell it's rats"),
     ul(
       `**Night noise.** UF/IFAS says rats are most active at night, and Florida DOH says roof rats peak about an hour after sunset and an hour before dawn ([Florida DOH](${GADSDEN})).`,
-      `**Droppings or urine stains,** which UF/IFAS calls the usual first signs, near baseboards, in cabinets or under sinks ([UF/IFAS](${SANTAROSA})).`,
+      `**Droppings or urine stains,** which UF/IFAS calls the usual first signs. Check baseboards, cabinets and under sinks ([UF/IFAS](${SANTAROSA})).`,
       `**Rub marks and gnawing.** UF/IFAS Extension in Duval lists droppings, urine, rub marks and gnawing as the tell-tale signs, and DOH describes dark grease stains where rats run.`,
       `**Sounds that move up and down,** which suggests rats traveling between the attic and floor level.`,
     ),
@@ -36,7 +36,7 @@ export const ratsInTheWalls: Post = {
     ),
     h3("How they get into the walls"),
     p(
-      `UF/IFAS says rats can get through gaps of about half an inch, and DOH notes roof rats need only a hole the size of a quarter. Common routes are roof returns, gaps where pipes and A/C lines go through the wall, and openings under the eaves. UF/IFAS Extension in Duval warns that rodents easily chew through spray foam, so gaps should be closed with mortar, concrete, sheet metal or heavy hardware cloth with no openings over ¼ inch ([UF/IFAS](${SANTAROSA})).`,
+      `UF/IFAS says rats can get through gaps of about half an inch, and DOH notes roof rats need only a hole the size of a quarter. Common routes are roof returns, gaps where pipes and A/C lines go through the wall, and openings under the eaves. UF/IFAS Extension in Duval warns that rodents easily chew through spray foam ([UF/IFAS](${DUVAL})). UF/IFAS Extension in Santa Rosa says to close gaps with mortar, concrete, sheet metal or 19-gauge hardware cloth with no openings over ¼ inch ([UF/IFAS](${SANTAROSA})).`,
     ),
     h3("Trap, don't poison, inside walls"),
     ul(
@@ -46,9 +46,9 @@ export const ratsInTheWalls: Post = {
     ),
     h3("Why bait can end with a smell"),
     p(
-      `UF/IFAS says rodents usually die four days to two weeks after they start eating bait ([UF/IFAS](${PI284})). By then a rat may be back inside the wall it lives in, and that's where it dies. Our guide to [dead animal smell in a wall or attic](/blog/dead-animal-smell-in-wall-or-attic-florida/) explains what to do if it happens.`,
+      `Poisoned rats don't die on the spot. Our [dead animal smell](/blog/dead-animal-smell-in-wall-or-attic-florida/) guide has UF/IFAS's timeline for anticoagulant bait ([UF/IFAS](${PI284})), and by then a rat may be back inside the wall it lives in. That guide also covers what to do if it happens.`,
     ),
-    h3("The order that works"),
+    h3("The usual order"),
     ul(
       "**Inspect** the roofline, attic and outside walls for every gap.",
       "**Seal** the openings, leaving none the rats can still use.",
@@ -64,15 +64,15 @@ export const ratsInTheWalls: Post = {
     ),
     faq(
       "Will rats in the walls leave on their own?",
-      "Rarely, as long as they have food nearby and a way in. The openings have to be sealed and the rats inside trapped.",
+      "Not usually, as long as they have food nearby and a way in. The openings have to be sealed and the rats inside trapped.",
     ),
     faq(
       "Should I put poison in the walls?",
-      "UF/IFAS treats poison as a last resort. Rats can take four days to two weeks to die after eating bait, often inside the wall, which leaves a dead rat you can't reach and a smell.",
+      "UF/IFAS Extension treats poison as a last resort. Poisoned rats can take days to die, often back inside the wall, which leaves a dead rat you can't reach and a smell.",
     ),
     faq(
       "Can I fill the holes with spray foam?",
-      "UF/IFAS Extension warns rodents easily chew through spray foam. Use mortar, sheet metal or heavy hardware cloth instead, and only after the rats inside are gone.",
+      "UF/IFAS Extension warns rodents easily chew through spray foam. Use mortar, sheet metal or heavy hardware cloth instead, then trap any rats left inside.",
     ),
   ],
   seo: {
@@ -87,7 +87,7 @@ export const ratsInTheWalls: Post = {
     { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (jump three feet up, more than four feet across; prune limbs away from the house)", url: IN1397 },
     { title: "UF/IFAS Extension Pinellas: Management of rodents (snap traps most affordable; glue boards not humane; rodenticides take several days; poison as a last resort)", url: PINELLAS },
     { title: "UF/IFAS EDIS UW372 (toxic baits legal only for non-native rats and house mice; bait boxes required by law)", url: UW372 },
-    { title: "UF/IFAS EDIS PI284 (deaths typically 4 days to 2 weeks after feeding on bait)", url: PI284 },
+    { title: "UF/IFAS EDIS PI284 (anticoagulants: deaths typically 4 days to 2 weeks after feeding on bait)", url: PI284 },
   ],
   clientQuestions: [],
 };

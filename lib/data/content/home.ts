@@ -147,7 +147,7 @@ export const home: PageContent = {
         {
           title: "Roof rats: any month",
           text: p(
-            "Roof rats are climbers that live high in trees and in the upper levels of homes. UF/IFAS says a roof rat can have up to 6 litters a year, so they can turn up in any month. Branches touching the roof are their bridge in, so keep limbs trimmed back. See [signs of rats in the attic](/blog/rats-in-attic-signs/).",
+            "Roof rats are climbers that live high in trees and in the upper levels of homes. Florida DOH says a roof rat can have up to 8 litters a year, so they can turn up in any month. Branches touching the roof are their bridge in, so keep limbs trimmed back. See [signs of rats in the attic](/blog/rats-in-attic-signs/).",
           ),
         },
         {
@@ -229,7 +229,9 @@ export const home: PageContent = {
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; dens in attics and crawl spaces)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (roof rats live in trees and upper levels of homes; trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
     { title: "Josh Holmberg, owner: biography supplied for the author page (Oct 16, 2026): founded 2016, 15 years in wildlife removal, several years with a national wildlife company, sixth-generation Floridian", url: "https://prowildliferemoval.net/" },
-    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats: up to 6 litters a year; block every possible entry; rats test repairs in the first 2 weeks)", url: "https://journals.flvc.org/edis/article/view/136514" },
+    { title: "Florida DOH Gadsden: Rodent control (roof rats can have up to 8 litters a year)", url: "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/" },
+    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rodent-proofing must block all possible entry points)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (2013, archived; rats test repairs in the first 2 weeks)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     TRAP_RULES_SOURCE,
   ],
