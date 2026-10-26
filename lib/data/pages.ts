@@ -2,8 +2,9 @@
 import { images } from "./images.ts";
 import type { PageContent } from "../types";
 import { home } from "./content/home.ts";
+import { withPageExtras } from "./content/page-extras.ts";
 
-export const fallbackPages = {
+const migratedPages = {
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/home.ts
  "home": home,
  "services": {
@@ -2320,7 +2321,7 @@ export const fallbackPages = {
       },
       {
        "_type": "span",
-       "text": ". With extensive experience in dealing with all types of nuisance species in Florida, Pro Wildlife is your trusted partner in helping you deal with whatever animal issue you may encounter. Our technicians use specialized, state-of-the-art equipment that can cater to any situation to resolve your animal issue. From raccoons, opossums, squirrels, and snakes to honeybees and bats, you can rest assured we have the ",
+       "text": ". With extensive experience in dealing with all types of nuisance species in Florida, Pro Wildlife can help with whatever animal issue you run into. Our technicians bring specialized equipment for trapping, exclusion and clean-up. From raccoons, opossums, squirrels, and snakes to honeybees and bats, we have the ",
        "marks": []
       },
       {
@@ -2448,7 +2449,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Highly efficient booking systems so you can book your appointments fast",
+        "text": "Simple booking by phone or through the contact form",
         "marks": []
        }
       ]
@@ -2501,19 +2502,19 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "If you’re a resident of Central Florida, or ",
+        "text": "If you live in one of the ",
         "marks": []
        },
        {
         "_type": "span",
-        "text": "anywhere in Florida",
+        "text": "eight Central Florida counties we serve",
         "marks": [
          "l0"
         ]
        },
        {
         "_type": "span",
-        "text": ", then we definitely have your back when it comes to wildlife-related problems. We cover these following areas:",
+        "text": ", we can help with wildlife problems. We cover these areas:",
         "marks": []
        }
       ],
@@ -2947,7 +2948,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Honeycomb removal may seem like a very frightening and dangerous task – and it is if you don’t get the help that you need. Failure to remove a honeycomb correctly can result in significant infestation of other hungry insects looking for a free meal. Untended honeycomb will also rot and decay, causing order and moisture damage. Pro Wildlife Removal Honeycomb Removal Service employs the safest, and cleanest processes to prevent further damage to your home.",
+          "text": "Honeycomb removal may seem like a very frightening and dangerous task, and it is if you don’t get the help that you need. Failure to remove a honeycomb correctly can result in significant infestation of other hungry insects looking for a free meal. Untended honeycomb will also rot and decay, causing odor and moisture damage. Our honeycomb removal service takes out the comb as well as the bees, so it doesn't rot inside the wall.",
           "marks": []
          }
         ],
@@ -2965,7 +2966,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Our homes can be victims to unwanted animal visitors – and no one wants to be pestered with these creatures for they can also serve as a threat to the you and your family’s safety and welfare. Pro Wildlife Removal Exclusion Service is sure to keep these unwanted animals out of your area of residence. We use heavy-duty materials to build a long-lasting, animal-proof barrier.",
+          "text": "Our homes can be victims to unwanted animal visitors, and no one wants to be pestered with these creatures for they can also serve as a threat to the you and your family’s safety and welfare. Pro Wildlife Removal Exclusion Service closes the openings these animals use to get in, using heavy-duty materials.",
           "marks": []
          }
         ],
@@ -3656,5 +3657,9 @@ export const fallbackPages = {
   }
  }
 } satisfies Record<string, PageContent>;
+
+export const fallbackPages = Object.fromEntries(
+  Object.entries(migratedPages).map(([k, v]) => [k, withPageExtras(k, v)]),
+) as typeof migratedPages;
 
 export type PageKey = keyof typeof fallbackPages;

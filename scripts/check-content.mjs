@@ -29,7 +29,8 @@ const shared = new Set(TRAP_RULES_2026.replace(/\*\*/g, "").replace(/\[([^\]]*)\
 
 const pages = [["home", fallbackPages.home, "page"]];
 for (const s of fallbackServices.filter((x) => x.sources)) pages.push([s.slug, s, "page"]);
-for (const l of fallbackLocations.filter((x) => x.sources)) pages.push([(l.kind === "county" ? l.county : l.kind + ":" + l.name), l, "page"]);
+// Migrated "classic" pages have no answer block to render, so the answer rule skips them.
+for (const l of fallbackLocations.filter((x) => x.sources)) pages.push([(l.kind === "county" ? l.county : l.kind + ":" + l.name), l, l.design === "classic" ? "classic" : "page"]);
 for (const sp of fallbackServicePlaces) pages.push([`${sp.service}/${sp.place}`, sp, "place"]);
 for (const po of fallbackPosts.filter((x) => x.sources))
   pages.push(["post:" + po.slug, { hero: { heading: po.title }, seo: po.seo, sections: [{ _key: "answer", body: po.body.slice(0, 1) }, { body: po.body }, { _type: "faqSection", items: po.faq || [] }] }, "post"]);
@@ -75,7 +76,7 @@ for (const [key, pg, kind] of pages) {
     if (seen.has(sent) && seen.get(sent) !== key) problems.push(`DUP with ${seen.get(sent)}: ${sent}`);
     else seen.set(sent, key);
   }
-  const hard = problems.filter((p) => !/^flags: licens$/.test(p) && !(/^answer is/.test(p) && kind === "post"));
+  const hard = problems.filter((p) => !/^flags: licens$/.test(p) && !(/^answer is/.test(p) && (kind === "post" || kind === "classic")));
   errors += hard.length;
   if (only && !key.includes(only)) continue;
   if (quiet && !hard.length) continue;

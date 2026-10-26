@@ -1,4 +1,5 @@
 /* Generated from the live site by the migration scripts, then edited by hand where noted. Edit content in /cms; this is the built-in fallback and the seed source. */
+import { withLocationExtras } from "./content/page-extras.ts";
 import { images } from "./images.ts";
 import type { Location } from "../types";
 import { citrus } from "./content/counties/citrus.ts";
@@ -37,7 +38,7 @@ import { safetyHarborRats } from "./content/cities/rats/safety-harbor.ts";
 import { dadeCityRats } from "./content/cities/rats/dade-city.ts";
 import { newPortRicheyRats } from "./content/cities/rats/new-port-richey.ts";
 
-export const fallbackLocations: Location[] = [
+const migratedLocations: Location[] = [
  {
   "path": "about-us/service-area/wild-life-removal-central-florida",
   "name": "Central Florida",
@@ -1471,7 +1472,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "If you discover unwelcome wildlife in your home, it’s essential to call in the wildlife control experts. At Pro Wildlife Removal in Brooksville, FL, we understand the importance of creating a safe and comfortable home environment. Renowned for our reliability, we’re your go-to solution for all wildlife-related issues.",
+        "text": "If you discover unwelcome wildlife in your home, it’s essential to call in the wildlife control experts. At Pro Wildlife Removal in Brooksville, FL, we understand the importance of creating a safe and comfortable home environment.",
         "marks": []
        }
       ],
@@ -1716,7 +1717,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our wildlife control expertise extends beyond mere animal removal, encompassing a wide array of specialized wildlife removal in Brooksville services. Our proficiency extends to efficient rodent control, the meticulous extraction of bat colonies, and much more. Irrespective of the scale of the task at hand, our seasoned team is adeptly equipped to navigate the intricacies of each scenario, ensuring 100% effective animal removal services.",
+        "text": "Our wildlife control expertise extends beyond mere animal removal, encompassing a wide array of specialized wildlife removal in Brooksville services. Our proficiency extends to efficient rodent control, the meticulous extraction of bat colonies, and much more.",
         "marks": []
        }
       ],
@@ -1990,7 +1991,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At the core of our approach is a steadfast dedication to transparency from the very beginning. In line with this commitment, we provide a free quote before any work begins. This practice ensures that you have a complete understanding of the costs involved, preventing any unexpected surprises during our service delivery. Our focus on clear and upfront communication is a reflection of our desire to build a relationship based on trust and transparency.",
+        "text": "At the core of our approach is a steadfast dedication to transparency from the very beginning. This practice ensures that you have a complete understanding of the costs involved, preventing any unexpected surprises during our service delivery. Our focus on clear and upfront communication is a reflection of our desire to build a relationship based on trust and transparency.",
         "marks": []
        }
       ],
@@ -2074,7 +2075,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " to help you get back on track quickly and safely.",
+        "text": " for raccoons, squirrels, snakes and rodents.",
         "marks": []
        }
       ],
@@ -2176,7 +2177,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Encounters with venomous snakes can be alarming. Our skilled team ensures the safe removal of snakes from your property, preventing potential risks.",
+        "text": "Encounters with venomous snakes can be alarming.",
         "marks": []
        }
       ],
@@ -2214,7 +2215,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " to eliminate these wild animals from your property. Our experts locate their nesting areas, seal entry points, and implement effective removal strategies, preventing future infestations.",
+        "text": " to eliminate these wild animals from your property.",
         "marks": []
        }
       ],
@@ -2232,7 +2233,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Whatever type of problem you’re facing, rest assured knowing we have a solution! We take pride in providing quality services at an affordable price, so don’t hesitate to give us a call today!",
+        "text": "Whatever type of problem you’re facing, rest assured knowing we have a solution!",
         "marks": []
        }
       ],
@@ -2278,7 +2279,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " ensures you have access to quick and skilled solutions, effectively stopping the issue from escalating further.",
+        "text": " means working with a team that handles Hernando County wildlife.",
         "marks": []
        }
       ],
@@ -2309,7 +2310,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " today for more information about our professional wildlife removal in Brooksville or to schedule an appointment. With our experienced staff on hand, you can be sure that whatever issue arises, we’ll take care of it quickly and efficiently so that you don’t have to worry about dealing with unwanted critters again!",
+        "text": " today for more information about our professional wildlife removal in Brooksville or to schedule an appointment.",
         "marks": []
        }
       ],
@@ -7691,7 +7692,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Facing a stubborn rat infestation or rodent control problem in The Villages, FL? Welcome to the forefront of rat pest control expertise brought to you by Pro Wildlife Removal. We understand the urgency and challenges that come with rat infestations, and we’re here to provide comprehensive rodent control services tailored to our local community.",
+        "text": "Facing a stubborn rat infestation or rodent control problem in The Villages, FL? We understand the urgency and challenges that come with rat infestations, and we’re here to provide comprehensive rodent control services tailored to our local community.",
         "marks": []
        }
       ],
@@ -7703,7 +7704,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Rats and other rodents can undermine structural integrity and compromise health, demanding an effective response. With our specialized knowledge of the area’s wildlife and years of experience, we’ve developed a meticulous rate pest control approach that not only eliminates rat infestations but also ensures a lasting resolution. So, if you’re living in The Villages, rat pest control services from the expert team at Pro Wildlife Removal is just a phone call away!",
+        "text": "Rats and other rodents can undermine structural integrity and compromise health, demanding an effective response. So, if you’re living in The Villages, rat pest control services from the expert team at Pro Wildlife Removal is just a phone call away!",
         "marks": []
        }
       ],
@@ -7733,7 +7734,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal in The Villages, FL, we’re not your typical animal removal company. We’ve developed a meticulous and ethical approach to rodent control services that ensures effective results while prioritizing the safety of both humans and animals. Our professional rodent control services are designed to not only eliminate the immediate rat infestation but also to prevent future reoccurrences, so you never need to call a Florida pest control company again.",
+        "text": "We’ve developed a meticulous and ethical approach to rodent control services that ensures effective results while prioritizing the safety of both humans and animals.",
         "marks": []
        }
       ],
@@ -7790,7 +7791,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " We employ efficient trapping methods that prioritize the safety and well-being of the rodents. Once trapped, the rats are carefully removed from your home or business and relocated to a suitable environment, ensuring they do not pose a threat to your home or surroundings.",
+        "text": " We employ efficient trapping methods that prioritize the safety and well-being of the rodents.",
         "marks": []
        }
       ],
@@ -7809,7 +7810,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Preventing future infestations of rodents in your house is just as important as getting rid of them. That’s why a key component of our rodent control services is sealing all potential entry points that rats could use to access your house or business. By blocking these openings, we create a barrier that deters rats from returning.",
+        "text": "That’s why a key component of our rodent control services is sealing all potential entry points that rats could use to access your house or business. By blocking these openings, we create a barrier that deters rats from returning.",
         "marks": []
        }
       ],
@@ -8136,7 +8137,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to addressing rat infestations, making the right choice in selecting rodent control services can have a significant impact on the effectiveness, safety, and long-term success of the process. At Pro Wildlife Removal in The Villages, FL, we stand out as the trusted experts in rat pest control in Central Florida, offering a range of benefits that set our rodent control services apart from the rest.",
+        "text": "When it comes to addressing rat infestations, making the right choice in selecting rodent control services can have a significant impact on the effectiveness, safety, and long-term success of the process.",
         "marks": []
        }
       ],
@@ -8193,7 +8194,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Our commitment to safety extends beyond the animals—we prioritize the health and safety of our clients and their properties. Our rat pest control techniques are not only efficient but also highly effective, ensuring that your rat infestation is resolved thoroughly and without unnecessary risks.",
+        "text": " Our commitment to safety extends beyond the animals, we prioritize the health and safety of our clients and their properties.",
         "marks": []
        }
       ],
@@ -8281,7 +8282,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When you choose Pro Wildlife Removal in The Villages, you’re choosing a partner who prioritizes ethical practices, effective solutions, and your peace of mind. Trust us to deliver results that not only eliminate rat infestations but also ensure a safer, healthier living environment for you and your loved ones. Contact us today to experience the Pro Wildlife Removal difference firsthand.",
+        "text": "When you choose Pro Wildlife Removal in The Villages, you’re choosing a partner who prioritizes ethical practices, effective solutions, and your peace of mind. Contact us today to experience the Pro Wildlife Removal difference firsthand.",
         "marks": []
        }
       ],
@@ -8326,7 +8327,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " has been providing comprehensive rat removal services in The Villages, FL for many years. Our team of rat pest control experts will inspect your space, identify possible entry points and develop a tailored plan and free estimate to ensure you understand your options before deciding.",
+        "text": " has been providing comprehensive rat removal services in The Villages, FL for many years.",
         "marks": []
        }
       ],
@@ -8344,7 +8345,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Our rat pest control services use only efficient techniques and equipment to eliminate your rat pest problem quickly and safely without causing any harm or stress to the animals. With our professional services, you can get rid of rats quickly and protect yourself from costly structural repairs due to their presence. Don’t take chances with DIY methods; ",
+        "text": "With our professional services, you can get rid of rats quickly and protect yourself from costly structural repairs due to their presence. Don’t take chances with DIY methods; ",
         "marks": []
        },
        {
@@ -9379,3 +9380,5 @@ export const fallbackLocations: Location[] = [
  },
  // Manatee and Osceola pages held until the client confirms those counties (Ben, Oct 26)
 ];
+
+export const fallbackLocations: Location[] = migratedLocations.map(withLocationExtras);
