@@ -35,6 +35,7 @@ Model page: `raccoon-removal/tampa-fl.ts`. Copy its shape, never its words.
   "the county's table listed N" or count the footnote separately, never "N cases" for the table alone.
 - Always look for the latest DOH alert for the county (floridahealth.gov uploads, county DOH newsroom) and cite the newest.
 - Every card is about this animal in this place. A park or preserve only counts if its own page names the animal.
+- A fact must show the animal as a local problem or rule (Ben, Oct 26): a rabies alert or table, a code or ordinance, a closure record, news of one in a home or business, or an agency document naming it a nuisance. Sightings and reader photos of animals outdoors, museum specimens, iNaturalist records and fox squirrel conservation lines don't count.
 - Quote the source's wording for anything with a number, a date or a rule; don't round it up or add to it.
 - Call the region "Central Florida", never "Tampa Bay" (Kia, Oct 26). "Tampa Bay" only for the bay itself (Old Tampa Bay, "on Tampa Bay").
 - Use the newest figures. Tampa's tree canopy numbers come from the 2021 analysis (tampa-utc-2021-hires.pdf: 42% of canopy on residential properties; citywide cover 30.0% in 2021). The 2016 figures (13,956 acres, 50%) are out of date.

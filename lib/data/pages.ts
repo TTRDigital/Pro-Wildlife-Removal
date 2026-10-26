@@ -855,7 +855,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "With years of experience handling wildlife issues unique to Central Florida, we’ve seen it all. Our knowledge ensures effective solutions tailored to your specific needs.",
+          "text": "We handle wildlife issues across Central Florida, and each plan is tailored to your home.",
           "marks": []
          }
         ],
@@ -2386,7 +2386,7 @@ const migratedPages = {
        },
        {
         "_type": "span",
-        "text": " has years of experience and has developed excellent techniques within our field to help manage wildlife in a an efficient and responsible way. We are proud to offer many specialized services and features to our clientele:",
+        "text": " manages wildlife in an efficient and responsible way. We are proud to offer many specialized services and features to our clientele:",
         "marks": []
        }
       ],
@@ -2421,7 +2421,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Equipped with top-notch equipment and knowledge of modern industry-related techniques",
+        "text": "Professional equipment and knowledge of modern industry-related techniques",
         "marks": []
        }
       ]
@@ -2833,7 +2833,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "With that initial information, we will give you an estimated quote for the required service.",
+        "text": "That first conversation helps us plan the visit.",
         "marks": []
        }
       ],
@@ -3163,7 +3163,7 @@ const migratedPages = {
   ],
   "seo": {
    "title": "Contact Us | Wildlife Removal Support | Pro Wildlife Removal",
-   "description": "Contact Pro Wildlife Removal today for expert wildlife control services in Tampa, Florida and surrounding areas. Call us for safe and professional removal."
+   "description": "Contact Pro Wildlife Removal for wildlife control services across Central Florida. Call (727) 594-7705 or send a message for safe, professional removal."
   }
  },
  "privacy": {

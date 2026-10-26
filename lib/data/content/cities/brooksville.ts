@@ -8,6 +8,7 @@ const CHIN_BT = "https://floridabirdingtrail.com/site/chinsegut-wildlife-and-env
 const CHIN_FWC = "https://myfwc.com/recreation/lead/chinsegut/";
 const NONGAME = "https://myfwc.com/hunting/regulations/nongame/";
 const GOOD_NEIGHBOR = "https://www.cityofbrooksville.us/AgendaCenter/ViewFile/Agenda/_04252024-260";
+const BN9 = "https://baynews9.com/fl/tampa/news/2018/06/01/hernando-sheriffs-office-brooksville-enforcement";
 const SHERIFF = "https://www.hernandosheriff.org/AnimalServices/";
 const COLLECTION = "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/";
 const DOH_RABIES = "https://hernando.floridahealth.gov/programs-and-services/environmental-public-health/rabies-surveillance/";
@@ -46,14 +47,14 @@ export const brooksville = countyPage({
     { icon: "critter", title: "A rabid raccoon off Ted Road", text: p("DOH-Hernando issued a rabies advisory on June 2, 2025, after a raccoon killed off Ted Road in the Brooksville area on May 28 tested positive. The department warned that rabies may be present in the wild animal population.") },
     { icon: "leaf", title: "Free-tailed bats at Chinsegut", text: p("The Great Florida Birding and Wildlife Trail lists a large colony of Brazilian free-tailed bats at FWC's Chinsegut Wildlife and Environmental Area on Lake Lindsey Road. At dusk, those bats fan out over the town.") },
     { icon: "map-pin", title: "Fox squirrels, hands off", text: p("FWC names fox squirrels among the wildlife at Chinsegut. Under FWC's nongame rules, fox squirrels may not be taken or pursued, so a fox squirrel in a Brooksville yard is not a removal job.") },
-    { icon: "home", title: "No feeding on the trail", text: p("The city's management plan for the Good Neighbor Trail, in an April 2024 committee packet, says Brooksville will prohibit feeding raccoons, squirrels and other wild animals along the trail.") },
+    { icon: "home", title: "No feeding on the trail", text: p("The city's management plan for the Good Neighbor Trail to Russell Street Station says Brooksville will prohibit feeding raccoons, squirrels and other wild animals there, and DOH-Hernando advises people not to feed wild animals.") },
     { icon: "search", title: "Raccoon rabies next door", text: p("On June 12, 2026, DOH-Hernando put a rabies alert on the Norvell Road area of Spring Hill after a raccoon attacked an unvaccinated cat that later tested positive.") },
     { icon: "wrench", title: "Bats on FWC's calendar", text: p("FWC makes bat exclusion illegal during maternity season, April 16 to August 14. A colony in a Brooksville attic or church eave has to wait for mid-August.") },
   ],
   contactsHeading: "Who to call in Brooksville",
   contactsIntro: "The public numbers for problems outside our work, each from the agency's own page.",
   contacts: [
-    { icon: "users", title: "HCSO Animal Services", text: p("(352) 796-5062. Pets, strays and bites. The Sheriff's Office has also handled law enforcement inside Brooksville since July 1, 2024.") },
+    { icon: "users", title: "HCSO Animal Services", text: p("(352) 796-5062. Pets, strays and bites. The Sheriff's Office has also handled law enforcement inside Brooksville since June 2018.") },
     { icon: "phone", title: "Bites and scratches: DOH-Hernando", text: p("352-540-6812, Environmental Public Health, for any bite or scratch from a raccoon, bat or other animal.") },
     { icon: "home", title: "City garbage", text: p("Brooksville runs its own collection; the county lists the city's number as (352) 540-3860.") },
   ],
@@ -61,7 +62,7 @@ export const brooksville = countyPage({
   faqs: [
     faq(
       "Does the sheriff's Animal Services remove raccoons from homes?",
-      `Its pages cover pets and strays, not wildlife living in a house ([HCSO](${SHERIFF})). For a raccoon in the attic, see [raccoon removal](/services/raccoon-removal/).`,
+      `Its pages cover pets and strays, not wildlife living in a house ([HCSO](${SHERIFF})). If a person is bitten or scratched, see a doctor and report it to DOH-Hernando at (352) 540-6812. For a raccoon in the attic, see [raccoon removal](/services/raccoon-removal/).`,
     ),
     faq(
       "Has rabies been found near Brooksville?",
@@ -89,14 +90,15 @@ export const brooksville = countyPage({
       "Brooksville wildlife removal: raccoons, rats, bats and squirrels, plus a Ted Road rabies advisory, Chinsegut's bat colony and who to call. (727) 594-7705.",
   },
   sources: [
-    { title: "DOH-Hernando: Rabies advisory, June 2, 2025 (rabid raccoon killed in the Brooksville area off Ted Road, May 28, 2025; rabies may be present in the wild animal population)", url: TED_ROAD },
+    { title: "DOH-Hernando: Rabies advisory, June 2, 2025 (rabid raccoon killed in the Brooksville area off Ted Road, May 28, 2025; rabies may be present in the wild animal population; do not handle or feed wild animals)", url: TED_ROAD },
     { title: "DOH-Hernando: Rabies alert, June 12, 2026 (unvaccinated cat attacked by a raccoon, Norvell Road, Spring Hill area)", url: SPRING_HILL_ALERT },
     { title: "Great Florida Birding and Wildlife Trail: Chinsegut WEA (large colony of Brazilian free-tailed bats; Lake Lindsey Rd, Brooksville)", url: CHIN_BT },
     { title: "FWC: Chinsegut Wildlife and Environmental Area (gopher tortoises, fox squirrels and wading birds among the wildlife)", url: CHIN_FWC },
     { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: NONGAME },
-    { title: "City of Brooksville: Good Neighbor Trail management plan, April 2024 committee agenda packet (city will prohibit feeding raccoons, squirrels and other wild animals)", url: GOOD_NEIGHBOR },
+    { title: "City of Brooksville: Good Neighbor Trail to Russell Street Station Management Plan (about 2000), attached to the April 25, 2024 advisory committee agenda (city will prohibit feeding raccoons, squirrels and other wild animals)", url: GOOD_NEIGHBOR },
     { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
-    { title: "Hernando County Sheriff's Office: Animal Services ((352) 796-5062; pet services; law enforcement in the City of Brooksville since July 1, 2024)", url: SHERIFF },
+    { title: "Hernando County Sheriff's Office: Animal Services ((352) 796-5062; pet services; pet services)", url: SHERIFF },
+    { title: "Bay News 9, June 1, 2018: Hernando sheriff takes over Brooksville law enforcement (June 2018)", url: BN9 },
     { title: "DOH-Hernando: Rabies surveillance (Environmental Public Health 352-540-6812)", url: DOH_RABIES },
     { title: "Hernando County: Residential collection (Coastal serves unincorporated areas, excluding the City of Brooksville; city (352) 540-3860)", url: COLLECTION },
   ],

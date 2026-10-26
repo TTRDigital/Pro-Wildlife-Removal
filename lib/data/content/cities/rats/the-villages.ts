@@ -64,7 +64,7 @@ export const theVillagesRats = countyPage({
   faqs: [
     faq(
       "Will Sumter County trap rats at my villa?",
-      `No. The county's nuisance wildlife page says Animal Services generally deals only with domestic animals, and in 2016 it told residents of The Villages to call a commercial company for rats ([Sumter County](${SUMTER})).`,
+      `Usually not. Sumter County says its Animal Services generally deals only with domestic animals, and it refers most nuisance wildlife reports to private trappers ([Sumter County](${SUMTER})).`,
     ),
     faq(
       "Can a bird feeder bring rats to my yard?",
@@ -92,7 +92,7 @@ export const theVillagesRats = countyPage({
     { title: "Villages-News, Sept. 10, 2016: Nervous neighbors complain about villa with bats, rats and owner in Nevada (Legacy Villas, Village of Briar Meadow South; mold, snakes, rats, bats and bees; CDD 4 supervisors; owner out of compliance, will be fined; take case to the Marion County Health Department)", url: BRIAR },
     { title: "Villages-News, July 18, 2025: Villagers upset that site of fatal fire attracting rats and buzzards (Due West Drive, Village of Lynnhaven; Dec. 23 fire; CDD 5 board; Sumter County code enforcement case)", url: LYNNHAVEN },
     { title: "The Villages District Government: FAQs (Districts 1-11: household waste in sealed bags; no garbage cans or bins)", url: TRASH },
-    { title: "Sumter County: Nuisance wildlife (Animal Services generally deals only with domestic animals)", url: SUMTER },
+    { title: "Sumter County: Nuisance wildlife (Animal Services generally deals only with domestic animals; refers most nuisance wildlife reports to private trappers)", url: SUMTER },
     { title: "Sumter County: Animal Services contact (352-689-4400)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
     { title: "Florida DOH Gadsden: Rodent control (roof rats are good climbers and like high places such as attics)", url: GADSDEN },
     { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rats fit through holes as small as 1/2 inch)", url: SANTAROSA },

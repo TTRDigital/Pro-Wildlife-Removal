@@ -8,7 +8,7 @@ import { faq, p } from "./pt.ts";
 type Extra = { sections: Section[]; sources?: Source[]; seoTitle?: string; seoDescription?: string };
 
 const FWC_BATS = "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/";
-const FWC_TRAP = "https://myfwc.com/news/all-news/wildlife-trapping-0226/";
+const FWC_TRAP = "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/";
 const CDC_CLEANUP = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html";
 
 export const pageExtras: Record<string, Extra> = {
@@ -64,7 +64,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "How are the animals taken out?",
-            `With traps set to hold the animal without hurting it, then removal from the property. Florida's trapping rules apply: FWC now requires trappers to register each year, and nuisance animals moved off site must be released or put down within 12 hours of the trap check ([FWC](${FWC_TRAP})). Bats are never trapped; see [bat removal](/services/bat-removal/).`,
+            `With traps set to hold the animal without hurting it, then removal from the property. Florida's trapping rules apply. Under FWC rule changes that take effect December 31, 2026, trappers need a no-cost permit with yearly registration and training, and nuisance animals must be relocated or humanely killed off site within 12 hours of the trap check ([FWC](${FWC_TRAP})). Bats are never trapped; see [bat removal](/services/bat-removal/).`,
           ),
           faq(
             "Why is exclusion part of every job?",
@@ -82,7 +82,7 @@ export const pageExtras: Record<string, Extra> = {
       },
     ],
     sources: [
-      { title: "FWC: Wildlife trapping changes, Feb 2026 (annual registration and training; release or euthanize nuisance wildlife moved off site within 12 hours of the trap check)", url: FWC_TRAP },
+      { title: "FWC: Trapping rules, trap types (rule changes effective December 31, 2026: no-cost permit with yearly registration and training; nuisance animals relocated or humanely killed off site within 12 hours of the trap check)", url: FWC_TRAP },
       { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
       { title: "CDC: How to clean up after rodents (do not sweep or vacuum droppings)", url: CDC_CLEANUP },
     ],

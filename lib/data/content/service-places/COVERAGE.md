@@ -21,11 +21,11 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Spring Hill | Nia | E | N | N | L |  |
 | New Port Richey | Nia | E | S | S | L | bat, squirrel: nothing true and local on city or county pages |
 | Brooksville | Nia | E | F | F | L | bat and squirrel restored under the new town bar |
-| Land O' Lakes | Nia | N | F | N | L | bat restored under the new town bar |
+| Land O' Lakes | Nia | S | F | H | L | bat restored under the new town bar; squirrel held, rat skipped (Ben, Oct 26: sightings don't count) |
 | Hudson | Nia | E | L | N | N |  |
 | Trinity | Nia | S | S | S | S | nothing local found; old rat page redirected |
 | Odessa | Nia | S | S | S | S | nothing local found |
-| Holiday | Nia | N | N | N | H | raccoon held: under 6 town facts |
+| Holiday | Nia | S | S | S | H | raccoon held: under 6 town facts; rat, bat and squirrel skipped (Ben, Oct 26) |
 | Dade City | Nia | E | N | N | N |  |
 | Dunedin | Rhea | E | N | N | F |  |
 | Safety Harbor | Rhea | E | N | N | H | raccoon (Nia) held: only 4 real raccoon facts |
@@ -59,9 +59,9 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | fixes pending | 0 | 1 | 0 | 0 | 1 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
 | county section | 11 | 11 | 11 | 11 | 44 |
-| held | 2 | 1 | 5 | 5 | 13 |
-| skipped | 3 | 7 | 6 | 4 | 20 |
-| not started | 7 | 11 | 13 | 6 | 37 |
+| held | 2 | 1 | 6 | 5 | 14 |
+| skipped | 5 | 8 | 7 | 4 | 24 |
+| not started | 5 | 10 | 11 | 6 | 32 |
 | **all cells** | 41 | 41 | 41 | 41 | 164 |
 
 Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
