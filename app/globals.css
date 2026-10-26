@@ -653,44 +653,10 @@
   .mouse-caught .mouse-feet-2 {
     animation-duration: 0.09s;
   }
-  /* Animal tiles without a clip (TileLife): photos take turns, the drawn animal crosses now and then. */
+  /* Animal tiles without a clip (TileLife): the client's photos take turns. */
   .tile-fade {
     opacity: 0;
     animation: pw-tile-fade 12s ease-in-out infinite both;
-  }
-  .tile-critter {
-    position: absolute;
-    left: 0;
-    width: 30%;
-    pointer-events: none;
-    animation: pw-tile-run 7s linear infinite both;
-  }
-  /* a white outline, so a dark animal reads on a dark photo */
-  .tile-critter svg {
-    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #fff) drop-shadow(0 2px 3px rgb(0 0 0 / 0.45));
-  }
-  .tile-critter-run {
-    bottom: 9%;
-  }
-  .tile-critter-fly {
-    top: 12%;
-    width: 34%;
-    animation-name: pw-tile-fly;
-    animation-duration: 6s;
-  }
-  /* In the banner the animal is smaller and crosses more slowly, above the slide dots. */
-  .hero-critter .tile-critter {
-    width: 17%;
-    animation-duration: 9s;
-  }
-  .hero-critter .tile-critter-run {
-    bottom: 14%;
-    animation-name: pw-hero-run;
-  }
-  .hero-critter .tile-critter-fly {
-    width: 19%;
-    animation-name: pw-hero-fly;
-    animation-duration: 8s;
   }
   /* Photos that slowly drift, so the page feels alive. */
   .photo-live img {
@@ -1066,60 +1032,6 @@ a:focus-visible .logo-live .logo-lid {
     opacity: 0;
   }
 }
-@keyframes pw-tile-run {
-  0% {
-    transform: translateX(340%);
-  }
-  50%,
-  100% {
-    transform: translateX(-110%);
-  }
-}
-@keyframes pw-tile-fly {
-  0% {
-    transform: translate(300%, 20%);
-  }
-  12% {
-    transform: translate(225%, -25%);
-  }
-  24% {
-    transform: translate(150%, 15%);
-  }
-  36% {
-    transform: translate(70%, -20%);
-  }
-  50%,
-  100% {
-    transform: translate(-110%, 10%);
-  }
-}
-@keyframes pw-hero-run {
-  0% {
-    transform: translateX(620%);
-  }
-  55%,
-  100% {
-    transform: translateX(-110%);
-  }
-}
-@keyframes pw-hero-fly {
-  0% {
-    transform: translate(540%, 30%);
-  }
-  14% {
-    transform: translate(420%, -30%);
-  }
-  28% {
-    transform: translate(290%, 20%);
-  }
-  42% {
-    transform: translate(140%, -25%);
-  }
-  55%,
-  100% {
-    transform: translate(-110%, 10%);
-  }
-}
 @keyframes pw-scurry {
   to {
     transform: translateY(-2px);
@@ -1206,8 +1118,7 @@ a:focus-visible .logo-live .logo-lid {
     animation: none;
   }
   .logo-smoke,
-  .tile-fade,
-  .tile-critter {
+  .tile-fade {
     display: none;
   }
 }

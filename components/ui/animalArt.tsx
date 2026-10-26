@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 /*
  * The animals, drawn flat in the logo's style, each facing left (they run right to left):
- * used by the catch scene (AnimalCatch) and the moving animal tiles (TileLife). The running
+ * used by the catch scene (AnimalCatch). The running
  * feet, beating wings and buzz are CSS animations (globals.css), off under reduced motion.
  */
 const INK = "#1f2023";

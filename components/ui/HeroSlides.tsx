@@ -8,8 +8,9 @@ import { Photo } from "./Photo";
  * The hero photo as a slow slideshow: the photos cross-fade every few
  * seconds while drifting, with dots to pick one. It pauses while hovered or
  * focused, and stays on the first photo for people who ask for less motion.
+ * `moving`: each photo moves like a short camera shot instead of a slow drift (animal pages, Kia).
  */
-export function HeroSlides({ images, interval = 4500, sizes }: { images: Img[]; interval?: number; sizes: string }) {
+export function HeroSlides({ images, interval = 4500, sizes, moving = false }: { images: Img[]; interval?: number; sizes: string; moving?: boolean }) {
   const [i, setI] = useState(0);
   const [paused, setPaused] = useState(false);
   // The hidden slides' photos load once the page is idle (or a dot is picked), not before the first paint (TTR-846).
@@ -34,13 +35,13 @@ export function HeroSlides({ images, interval = 4500, sizes }: { images: Img[]; 
   return (
     <div className="absolute inset-0" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} onFocus={() => setPaused(true)} onBlur={() => setPaused(false)}>
       {images.map((img, k) => (
-        <div key={img.src} aria-hidden={k !== i} className={`photo-live absolute inset-0 transition-opacity duration-1000 ease-in-out ${k === i ? "opacity-100" : "opacity-0"}`}>
+        <div key={img.src} aria-hidden={k !== i} className={`${moving ? `post-shot post-shot-${k % 4} overflow-hidden` : "photo-live"} absolute inset-0 transition-opacity duration-1000 ease-in-out ${k === i ? "opacity-100" : "opacity-0"}`}>
           {k === 0 || rest ? <Photo image={img} priority={k === 0} sizes={sizes} /> : null}
         </div>
       ))}
       <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy/35 via-transparent to-transparent" />
       {n > 1 ? (
-        <div className="absolute right-0 bottom-1 left-0 flex justify-center">
+        <div className="absolute right-0 bottom-1 left-0 z-10 flex justify-center">
           {images.map((img, k) => (
             <button key={img.src} type="button" onClick={() => {
                 setRest(true);
