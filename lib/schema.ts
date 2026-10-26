@@ -1,4 +1,4 @@
-import type { Location, Post, Service, ServicePlace, SiteSettings, Testimonial } from "@/lib/types";
+import type { Location, Post, Service, SiteSettings, Testimonial } from "@/lib/types";
 import { absoluteUrl, siteUrl } from "@/lib/site";
 import { images } from "@/lib/data/images";
 import { real } from "@/lib/placeholders";
@@ -73,24 +73,6 @@ export function locationSchema(location: Location, path: string) {
     url: absoluteUrl(path),
     provider: { "@id": `${siteUrl}/#business` },
     areaServed: { "@type": areaType(location), name: `${location.name}, FL` },
-  };
-}
-
-/** One animal in one place: the Service, served in that city or county. */
-export function servicePlaceSchema(page: ServicePlace, service: Service, path: string) {
-  const area =
-    page.placeKind === "county"
-      ? { "@type": "AdministrativeArea", name: `${page.placeName}, FL` }
-      : { "@type": "City", name: `${page.placeName}, FL`, ...(page.county ? { containedInPlace: { "@type": "AdministrativeArea", name: `${page.county} County, FL` } } : {}) };
-  return {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: page.hero.heading,
-    serviceType: service.title,
-    description: page.seo.description,
-    url: absoluteUrl(path),
-    provider: { "@id": `${siteUrl}/#business` },
-    areaServed: area,
   };
 }
 

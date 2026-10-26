@@ -74,9 +74,9 @@ export const raccoonsInAttic: Service = {
       body: rich(
         table(
           ["", "Raccoon", "Roof rat", "Gray squirrel"],
-          ["When", "Dusk through the night", "Night, most after sunset and before dawn", "Daytime"],
+          ["When", "Dusk through the night", "Night, most in the first half", "Daytime"],
           ["Sound", "Heavy steps and thumps", "Light scratching and scurrying", "Running and scratching"],
-          ["Size", "8 to 15 pounds", "Up to a pound", "17 to 20 inches long, tail included"],
+          ["Size", "8 to 15 pounds", "Under a pound", "17 to 20 inches long, tail included"],
           ["Way in", "Torn soffit, vent, chimney", "Gaps as small as 1/2 inch", "Damaged soffits, vents, roof tiles"],
         ),
         p("Light scratching at night is more likely [rats in the attic](/services/rats-in-attic/). Daytime running is more likely [squirrels](/services/squirrels-in-attic/)."),
@@ -233,9 +233,7 @@ export const raccoonsInAttic: Service = {
     { title: "FWC: FAQs, nuisance wildlife (release on same property or 40+ contiguous acres in same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "FWC: Raccoon roundworm (do not relocate raccoons; gloves, burn or bury feces)", url: "https://myfwc.com/research/wildlife/health/raccoon-roundworm/" },
     { title: "CDC: About Baylisascaris (remove feces promptly, before eggs become infectious)", url: "https://www.cdc.gov/baylisascaris/about/index.html" },
-    { title: "Florida DOH Gadsden: Rodent control (roof rats most active one hour after sunset and one hour before dawn; a fully grown rat can weigh as much as a pound)", url: "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/" },
-    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rats get through holes as small as 1/2 inch)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },
-    { title: "FWC: Squirrel profile (gray squirrel 17-20 inches; active during the day)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/squirrels/" },
+    { title: "UF/IFAS EDIS ENY-224 (roof rats: under a pound; night activity; half-inch gaps) and FWC squirrel profile (gray squirrel 17-20 inches; active by day)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
     TRAP_RULES_SOURCE,

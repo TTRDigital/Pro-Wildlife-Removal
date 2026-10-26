@@ -57,7 +57,7 @@ export const atticCleanupCost: Post = {
     p("Paying for removal and cleanup without sealing is the most expensive mistake. The gap stays open, and the next animal moves into a freshly cleaned attic. Sealing every opening is what makes the rest of the bill worth it."),
     h3("Signs the attic needs more than a quick cleanup"),
     ul(
-      "**Droppings spread across the insulation,** not just in one corner. Rats keep to common pathways, so long-term activity shows as trails and scattered droppings.",
+      "**Droppings spread across the insulation,** not just in one corner. Rats use the same paths every night, so long-term activity shows as trails and scattered droppings.",
       "**A latrine.** Raccoons go in the same spot again and again, and the CDC advises removing their droppings promptly.",
       "**A deep pile of guano** under a bat roost. Our [bat removal cost guide](/blog/how-much-does-bat-removal-cost-in-florida/) covers that job.",
       "**Flattened or tunneled insulation,** where animals have walked, nested and raised young.",
@@ -92,8 +92,7 @@ export const atticCleanupCost: Post = {
   },
   sources: [
     { title: "CDC: How to clean up after rodents (ventilate 30 minutes, gloves, bleach 1:9, 5 minutes, paper towels, no sweeping or vacuuming)", url: CDC_CLEAN },
-    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rodent-proofing must block all possible entry points; rodent-proofing first, trapping last)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },
-    { title: "Florida DOH Indian River: Rodent control booklet (rev. 2008; look for scattered droppings near common pathways)", url: "https://indianriver.floridahealth.gov/wp-content/uploads/sites/32/2025/05/Rodent_Control_Booklet.pdf" },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (seal every entry, then remove rats inside)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "FWC news release, April 6, 2026 (bat exclusion Aug 15 to April 15)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
     { title: "FWC: Bats in buildings (CDC respirator advice for guano)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/" },
     { title: "CDC: About Baylisascaris (remove raccoon feces promptly)", url: "https://www.cdc.gov/baylisascaris/about/index.html" },

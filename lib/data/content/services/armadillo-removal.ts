@@ -146,8 +146,8 @@ export const armadilloRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Armadillo removal in 7 counties",
-      intro: p("We trap armadillos in all 7 counties, from big Polk County yards to small Pinellas lots."),
+      heading: "Armadillo removal in 9 counties",
+      intro: p("We trap armadillos in all 9 counties, from big Polk County yards to small Pinellas lots."),
       groups: countyGroups,
     },
     {

@@ -702,6 +702,23 @@ export const fallbackPages = {
       "href": "/about-us/service-area/wildlife-removal-in-citrus-county-fl/"
      },
      {
+      "title": "Osceola County",
+      "text": [
+       {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+         {
+          "_type": "span",
+          "text": "Serving Kissimmee, St. Cloud, and Celebration.",
+          "marks": []
+         }
+        ],
+        "markDefs": []
+       }
+      ]
+     },
+     {
       "title": "Hillsborough County",
       "text": [
        {
@@ -772,6 +789,23 @@ export const fallbackPages = {
        }
       ],
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
+     },
+     {
+      "title": "Manatee County",
+      "text": [
+       {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+         {
+          "_type": "span",
+          "text": "Covering Bradenton, Palmetto, and Lakewood Ranch.",
+          "marks": []
+         }
+        ],
+        "markDefs": []
+       }
+      ]
      }
     ],
     "style": {
@@ -1610,6 +1644,23 @@ export const fallbackPages = {
       ]
      },
      {
+      "title": "Osceola County",
+      "text": [
+       {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+         {
+          "_type": "span",
+          "text": "Serving Kissimmee, St. Cloud, and Celebration.",
+          "marks": []
+         }
+        ],
+        "markDefs": []
+       }
+      ]
+     },
+     {
       "title": "Hillsborough County",
       "text": [
        {
@@ -1680,6 +1731,23 @@ export const fallbackPages = {
        }
       ],
       "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
+     },
+     {
+      "title": "Manatee County",
+      "text": [
+       {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+         {
+          "_type": "span",
+          "text": "Covering Bradenton, Palmetto, and Lakewood Ranch.",
+          "marks": []
+         }
+        ],
+        "markDefs": []
+       }
+      ]
      }
     ],
     "image": images.tampaBayFlMapLarge1,
