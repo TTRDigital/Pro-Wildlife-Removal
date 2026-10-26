@@ -27,9 +27,7 @@ import { squirrelRemovalHernandoCounty } from "./content/service-places/squirrel
 import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
 import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
 import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
-import { raccoonRemovalClearwater } from "./content/service-places/raccoon-removal/clearwater-fl.ts";
 import { raccoonRemovalStPetersburg } from "./content/service-places/raccoon-removal/st-petersburg-fl.ts";
-import { batRemovalStPetersburg } from "./content/service-places/bat-removal/st-petersburg-fl.ts";
 import { raccoonRemovalDunedin } from "./content/service-places/raccoon-removal/dunedin-fl.ts";
 
 /*
@@ -76,10 +74,7 @@ export const fallbackServicePlaces: ServicePlace[] = [
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,
   raccoonRemovalPinellasCounty,
-  // Clearwater (Rhea)
-  raccoonRemovalClearwater,
   // St. Petersburg (Rhea)
-  batRemovalStPetersburg,
   raccoonRemovalStPetersburg,
   // Dunedin (Rhea)
   raccoonRemovalDunedin,
