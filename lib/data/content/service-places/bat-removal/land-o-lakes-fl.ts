@@ -22,7 +22,7 @@ export const batRemovalLandOLakes = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-land-o-lakes",
   county: "Pasco",
   order: 26,
-  heroText: "Bats slipping into a Land O' Lakes roofline or soffit at dusk? We look for every opening, fit one-way exclusion doors in the legal season and seal the gaps once they're out. Call (727) 594-7705.",
+  heroText: "Bats slipping into a Land O' Lakes roofline or soffit at dusk? We look for the openings bats use, fit one-way exclusion doors in the legal season and seal the gaps once they're out. Call (727) 594-7705.",
   answerHeading: "How do you get bats out of a Land O' Lakes home?",
   answer:
     "The same way a Land O' Lakes high school did in 2014: one-way exclusion doors that let bats leave but not come back, fitted between August 15 and April 15. Bats can't legally be killed, poisoned or moved. Pro Wildlife Removal checks the home for the gaps a colony uses, fits the doors and seals up afterward. Call (727) 594-7705.",
@@ -33,7 +33,7 @@ export const batRemovalLandOLakes = servicePlacePage({
     { icon: "home", title: "Five roosts at one school", text: p("WUFT reported in October 2014 that Brazilian free-tailed bats had been at Sunlake High School in Land O' Lakes since the year before, roosting in five different spots around the campus.") },
     { icon: "search", title: "A rabid bat on campus", text: p("A few weeks before that October 2014 report, one of the Sunlake bats was found dead, and it tested positive for rabies, WUFT said.") },
     { icon: "wrench", title: "Out through one-way doors", text: p("A contractor and FWC finished removing the Sunlake colony in October 2014 with bat excluders, one-way doors that let the bats out and keep them from returning to their roosts.") },
-    { icon: "leaf", title: "Bat houses by the cypress swamp", text: p("In 2014, teachers and about 50 student volunteers planned two bat houses, built from four 2-by-2-foot boxes of roughly 200 to 300 bats each, on telephone poles 15 to 20 feet up: one behind a baseball field, the other at the front of the school near a cypress swamp.") },
+    { icon: "leaf", title: "Bat houses by the cypress swamp", text: p("In 2014, teachers and about 50 student volunteers planned two bat houses, built from four 2-by-2-foot boxes, each meant to hold about 200 to 300 bats, on telephone poles 15 to 20 feet up: one behind a baseball field, the other at the front of the school near a cypress swamp.") },
     { icon: "critter", title: "A bat that likes buildings", text: p("The Sunlake colony was Brazilian free-tailed bats, which FWC says live throughout Florida. FWC says in Florida they prefer to roost in buildings such as attics and sheds, plus bridges and bat houses.") },
     { icon: "drop", title: "Keep bats out, DOH says", text: p("DOH-Pasco's July 30, 2026 rabies advisory, after two rabid raccoons in east Pasco, asked residents to keep wildlife, bats included, out of homes, schools and other occupied buildings.") },
     { icon: "phone", title: "Bat contact gets reported", text: p("Pasco County Animal Services, based in Land O' Lakes, says bare skin contact with a bat, or a bat found in a room where someone slept, should be reported to DOH-Pasco or the county.") },
@@ -50,7 +50,7 @@ export const batRemovalLandOLakes = servicePlacePage({
   faqs: [
     faq(
       "What kind of bats are in Land O' Lakes roofs?",
-      "Often Brazilian free-tailed bats, the species found at Sunlake High in 2014. FWC says they favor attics, sheds and bridges in Florida, since the state's caves are probably too humid for them.",
+      "Brazilian free-tailed bats are one likely kind: they were the species at Sunlake High in 2014, and FWC says they favor attics, sheds and bridges in Florida, since the state's caves are probably too humid for them.",
     ),
     faq(
       "When can bats be excluded in Land O' Lakes?",
