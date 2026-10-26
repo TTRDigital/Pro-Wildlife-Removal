@@ -18,6 +18,8 @@ import { HydrationSignal } from "@/components/layout/HydrationSignal";
 
 /** One menu for desktop and phones: About (about, how we work, blog), Service Area (counties, then cities), Services (removal pages). */
 function buildNav(services: Service[], locations: Location[]): NavItem[] {
+  // "attic" is the group of the "[animal] in the attic" pages (Cole's content branch adds it to ServiceGroup).
+  const attic = services.filter((s) => (s.group as string) === "attic");
   return [
     { label: "Home", href: "/" },
     {
@@ -44,7 +46,12 @@ function buildNav(services: Service[], locations: Location[]): NavItem[] {
     {
       label: "Services",
       href: "/services/",
-      children: [...services.filter((s) => s.group === "removal").map((s) => ({ label: s.title, href: `/services/${s.slug}/` })), { label: "All services", href: "/services/" }],
+      // With attic pages, two groups (like Counties / Cities): one page per animal, then the "in the attic" pages.
+      children: [
+        ...services.filter((s) => s.group === "removal").map((s) => ({ label: s.title, href: `/services/${s.slug}/`, group: attic.length ? "Wildlife removal" : undefined })),
+        ...attic.map((s) => ({ label: s.title, href: `/services/${s.slug}/`, group: "In the attic" })),
+        { label: "All services", href: "/services/" },
+      ],
     },
     { label: "Contact Us", href: "/contact-us/" },
   ];
