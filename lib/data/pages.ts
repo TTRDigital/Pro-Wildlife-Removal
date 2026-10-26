@@ -880,7 +880,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Licensed in Florida",
+      "title": "Florida rules, every job",
       "text": [
        {
         "_type": "block",
@@ -888,7 +888,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Pro Wildlife Removal is fully licensed in Florida, ensuring that all of our services comply with state regulations and are carried out by trained professionals.",
+          "text": "Pro Wildlife Removal follows Florida's wildlife rules on every job, from FWC's bat maternity season to its trapping and release rules.",
           "marks": []
          }
         ],
@@ -1960,7 +1960,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Our fully licensed and certified team ensures your property is in safe hands. From raccoons in attics to snakes in gardens, we provide expert care while following state and local regulations. Count on us for professional, effective solutions that prioritize your safety.",
+          "text": "From raccoons in attics to snakes in gardens, we provide expert care while following state and local regulations. Count on us for professional, effective solutions that prioritize your safety.",
           "marks": []
          }
         ],
