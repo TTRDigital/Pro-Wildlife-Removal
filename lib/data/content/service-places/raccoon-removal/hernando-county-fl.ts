@@ -36,9 +36,9 @@ export const raccoonRemovalHernandoCounty = servicePlacePage({
     { icon: "critter", title: "Ted Road, May 2025", text: p("DOH-Hernando's June 2, 2025 advisory reported a rabid raccoon killed in the Brooksville area off Ted Road on May 28, 2025.") },
     { icon: "map-pin", title: "Neff Lake, June 2025", text: p("A week later, DOH-Hernando issued a 60-day alert for a rabid raccoon killed off Frog Lane, in the Spring Lake Highway and Neff Lake area, on June 9, 2025.") },
     { icon: "phone", title: "A raccoon attack in 2026", text: p("In June 2026, an unvaccinated cat that a raccoon attacked near Norvell Road in Spring Hill tested positive for rabies, and DOH-Hernando put that part of Spring Hill under a 60-day alert.") },
-    { icon: "drop", title: "The newest alert", text: p("DOH-Hernando's July 1, 2026 alert covers a rabid cat found off Westwood Drive on June 29, 2026, for 60 days, between Coral Rock Drive, Old Trilby Road, Lower Lake and McKinney Sink roads, and Nature Coast Boulevard and Highway 75.") },
+    { icon: "drop", title: "The newest alert", text: p("DOH-Hernando's July 1, 2026 alert followed a confirmed rabies case in an unvaccinated feral cat off Westwood Drive on June 29, 2026. The alert says rabies is present in the wild animal population and names raccoons first among wild animals to avoid.") },
     { icon: "leaf", title: "Raccoons lead the rabies reports", text: p("DOH-Hernando's rabies surveillance page lists raccoons first among animals reported with rabies in Florida, ahead of bats and foxes, and that animals other than dogs, cats and ferrets are tested rather than quarantined.") },
-    { icon: "home", title: "Lids down, county rule", text: p("Hernando's garbage rules require cart lids to be closed to prevent scavenging of animals. Garbage left outside the blue cart isn't collected, so a torn bag can sit for a raccoon until the next pickup.") },
+    { icon: "home", title: "Lids down, county rule", text: p("Hernando's garbage rules say cart lids must be closed to prevent scavenging of animals, and DOH-Hernando's 2026 alerts warn against attracting wild animals with open garbage cans.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Hernando County, from the county's and DOH's own pages.",
   contacts: [
@@ -52,11 +52,11 @@ export const raccoonRemovalHernandoCounty = servicePlacePage({
   faqs: [
     faq(
       "Is there a rabies alert in Hernando County?",
-      "The newest one we found is DOH-Hernando's July 1, 2026 alert, for a rabid cat off Westwood Drive, set for 60 days. Spring Hill had a separate alert in June 2026 after a raccoon attacked a cat that tested positive.",
+      "The newest we found, the alert posted July 1, 2026, for a rabid feral cat off Westwood Drive, ran for 60 days. Check DOH-Hernando's newsroom for current alerts. Spring Hill had a separate alert in June 2026 after a raccoon attacked a cat that tested positive.",
     ),
     faq(
       "How many rabid raccoons has Hernando had?",
-      "The state's tables listed none for Hernando from 2022 through 2024 and two raccoons in 2025. DOH-Hernando's 2025 notices placed them off Ted Road near Brooksville and in the Neff Lake area.",
+      "The state's tables listed none for Hernando from 2022 through 2024 and two raccoons in 2025. DOH-Hernando's 2025 notices reported rabid raccoons off Ted Road near Brooksville and in the Neff Lake area.",
     ),
     faq(
       "What happens to a raccoon that bites someone in Hernando?",
@@ -89,6 +89,8 @@ export const raccoonRemovalHernandoCounty = servicePlacePage({
     { title: "Florida DOH: DOH-Hernando rabies alert, June 12, 2026 (unvaccinated cat attacked by a raccoon, Norvell Road, Spring Hill, June 10, 2026; 60 days)", url: JUNE2026 },
     { title: "DOH-Hernando: Rabies alert, July 1, 2026 (rabid cat off Westwood Drive, June 29, 2026; 60 days; Coral Rock Drive, Old Trilby Road, Lower Lake Road/McKinney Sink Road, Nature Coast Boulevard/Highway 75; 352-540-6812; Animal Services 352-796-5062)", url: JULY2026 },
     { title: "DOH-Hernando: Rabies surveillance (raccoons reported most frequently, followed by bats and foxes; dogs, cats and ferrets quarantined ten days, other animals tested; scrub wounds five to ten minutes; 352-540-6812)", url: SURV },
+    { title: "Florida DOH: DOH-Hernando rabies alert, June 30, 2026 (unvaccinated feral cat off Westwood Drive, June 29, 2026; rabies present in the wild animal population; avoid contact with wild animals, e.g. raccoons; don't attract them with open garbage cans)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/07/rabies-alert-hernando-county-6-30-2026.pdf" },
+    { title: "UF/IFAS Extension Hernando County: WISE species profile, northern raccoon (illegal to feed raccoons intentionally)", url: "https://blogs.ifas.ufl.edu/hernandoco/2022/12/21/wildlife-invasive-species-education-wise-species-profile-the-northern-raccoon/" },
     { title: "Hernando County: Garbage (lids closed to prevent scavenging of animals; garbage outside the blue cart not collected)", url: GARBAGE },
     { title: "Hernando County Sheriff's Office: Animal Services (services listed: pet surrender, owner-requested euthanasia, pet licensing, TNVR, lost or found pets, found kittens, dangerous dogs)", url: "https://www.hernandosheriff.org/AnimalServices/" },
   ],
