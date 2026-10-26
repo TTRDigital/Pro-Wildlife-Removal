@@ -38,9 +38,9 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Dunnellon | Nia | N | N | N | N | city page first |
 | Lutz | Owen | N | N | N | N | city page first |
 | Westchase | Owen | N | N | N | N | city page first |
-| Carrollwood | Owen | N | N | N | N | city page held: 2 qualifying facts under the four-animals rule; Owen reworking |
+| Carrollwood | Owen | N | N | N | N | city page reworked to the four-animals rule (9881253, 424ce1f); held from the preview until Ben clears it |
 | Citrus Park | Owen | N | N | N | N | city page first |
-| Town 'n' Country | Owen | N | N | N | N | city page held: 1 qualifying fact under the four-animals rule; Owen reworking |
+| Town 'n' Country | Owen | N | N | N | N | city page held by Owen: 1 qualifying fact (DBPR rodents) under the four-animals rule |
 | Cheval | Owen | N | N | N | N | city page first (after Owen's five) |
 | Keystone | Owen | N | N | N | N | city page first (after Owen's five) |
 | Lake Magdalene | Owen | N | N | N | N | city page first (after Owen's five) |
