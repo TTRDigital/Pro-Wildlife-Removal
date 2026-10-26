@@ -67,7 +67,6 @@ export const dunedinRatsInput = {
     faq(
       "Can someone look at our Dunedin rat problem today?",
       "Same-day rat inspections are often available in Dunedin. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Dunedin]",
     ),
   ],
   ctaHeading: "Rats in your Dunedin home?",
@@ -81,7 +80,7 @@ export const dunedinRatsInput = {
     { title: "City of Dunedin: Residential trash, yard and bulk waste (once a week; bag household garbage to avoid attracting bugs and rodents; carts off the curb by 7 a.m. the day after; Solid Waste (727) 298-3215)", url: TRASH },
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (exclusion, sanitation, trapping; poison bait as a last resort; great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Dunedin?", "Dunedin rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["Dunedin rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const dunedinRats = countyPage(dunedinRatsInput);

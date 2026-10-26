@@ -30,7 +30,7 @@ export const theVillages = countyPage({
     "A private company. In 2016, Sumter County told residents of The Villages with rats to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal handles rats, bats, squirrels and raccoons in homes across The Villages. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Lake, Sumter and Marion counties", "Bats at Hilltop, 2025"],
   townsHeading: "The Villages and nearby",
-  townsIntro: "The Villages spreads across Lake, Sumter and Marion counties. The Census Bureau's The Villages CDP covers the Sumter and Marion parts; the oldest villages, such as Orange Blossom Gardens and La Zamora, are in Lake County, in and around Lady Lake. We cover every village, and the rest of Sumter County too: Bushnell is the county seat and Wildwood the largest city. Sumter grew from about 130,000 people in 2020 to an estimated 158,000 in 2025, yet the 2020 Census still counted 89% of its land as rural.",
+  townsIntro: "The Villages spreads across Lake, Sumter and Marion counties. The Census Bureau's The Villages CDP covers the Sumter and Marion parts; the oldest villages, such as Orange Blossom Gardens and La Zamora, are in Lake County, in and around Lady Lake. We cover every village, and the rest of Sumter County too: Bushnell is the county seat and Wildwood the largest city. The Census Bureau estimates Sumter grew from about 130,000 people in 2020 to about 158,000 in 2025, yet the 2020 Census still counted 89% of its land as rural.",
   towns: [
     {
       title: "Lake, Sumter and Marion counties",
@@ -95,7 +95,6 @@ export const theVillages = countyPage({
     faq(
       "How quickly can someone reach a home in The Villages?",
       "Same-day appointments are often available in The Villages. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in The Villages]",
     ),
   ],
   ctaHeading: "Wildlife problem in The Villages?",
@@ -133,5 +132,5 @@ export const theVillages = countyPage({
     { title: "FWC: Nuisance alligators (866-FWC-GATOR)", url: "https://myfwc.com/conservation/you-conserve/wildlife/alligators/" },
     ...theVillagesRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in The Villages?", "Real job photos and reviews from customers in The Villages."],
+  clientQuestions: ["Real job photos and reviews from customers in The Villages."],
 });

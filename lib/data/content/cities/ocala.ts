@@ -76,7 +76,6 @@ export const ocala = countyPage({
     faq(
       "Can you be at my Ocala house today?",
       "Same-day appointments are often available in Ocala. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Ocala]",
     ),
   ],
   ctaHeading: "Wildlife problem in Ocala?",
@@ -97,5 +96,5 @@ export const ocala = countyPage({
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Marion: 1 cat, 1 coyote, 1 fox, 6 raccoons)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Ocala?", "Real job photos and reviews from Ocala customers."],
+  clientQuestions: ["Real job photos and reviews from Ocala customers."],
 });

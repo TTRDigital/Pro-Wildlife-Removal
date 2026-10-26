@@ -71,7 +71,6 @@ export const hillsborough = countyPage({
     faq(
       "Who do I call for an animal in my Hillsborough County home?",
       "Call (727) 594-7705. Same-day appointments are often available in Hillsborough County.",
-      "[PLACEHOLDER: ask the client: typical response time in Hillsborough County]",
     ),
     faq(
       "Has rabies been found in Hillsborough County recently?",
@@ -130,5 +129,5 @@ export const hillsborough = countyPage({
     { title: "News, FOX 13, August 9, 2023: Bats living at Tampa elementary school won't be removed before kids head back to class (Northwest Elementary; Hillsborough County Schools confirmed; 16438 Hutchison Rd geocodes to Citrus Park CDP)", url: "https://www.fox13news.com/news/tampa-elementary-school-students-head-to-school-with-bats" },
     { title: "News, Patch, Dec 6, 2014: Suicidal squirrels kill university's power twice (a squirrel caused an outage for about 1,450 customers in the Northdale area; TECO)", url: "https://patch.com/florida/templeterrace/suicidal-squirrels-kill-universitys-power-twice" },
   ],
-  clientQuestions: ["Typical response time in Hillsborough County?", "Real job photos and reviews from Hillsborough customers."],
+  clientQuestions: ["Real job photos and reviews from Hillsborough customers."],
 });

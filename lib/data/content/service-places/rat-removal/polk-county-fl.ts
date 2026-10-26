@@ -60,7 +60,6 @@ export const ratRemovalPolkCounty = servicePlacePage({
     faq(
       "How long until you can look at rats in a Polk County house?",
       "Same-day appointments for rats are often available in Polk County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Polk County]",
     ),
   ],
   ctaHeading: "Rats in your Polk County home?",
@@ -80,5 +79,5 @@ export const ratRemovalPolkCounty = servicePlacePage({
     { title: "Polk County: Contact us (Polk County Access Portal; Code Enforcement (863) 534-6054)", url: "https://www.polkfl.gov/contact-us/" },
     { title: "DOH-Polk: Sanitary nuisances (garbage, offal, dead animals; 863-519-8330, option 7)", url: "https://polk.floridahealth.gov/programs-and-services/environmental-health/sanitary-nuisances/" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Polk County?", "A real Google review from a Polk County rat job (TTR-723), and real Polk rat job photos."],
+  clientQuestions: ["A real Google review from a Polk County rat job (TTR-723), and real Polk rat job photos."],
 });

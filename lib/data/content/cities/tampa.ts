@@ -72,7 +72,6 @@ export const tampa = countyPage({
     faq(
       "How fast can you get to me in Tampa?",
       "Same-day appointments are often available in Tampa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Tampa]",
     ),
   ],
   ctaHeading: "Wildlife problem in Tampa?",
@@ -97,5 +96,5 @@ export const tampa = countyPage({
     { title: "FWC: Regional offices (Southwest 863-648-3200) and Nuisance Alligator Program (866-FWC-GATOR)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     S.bats,
   ],
-  clientQuestions: ["Typical response time in Tampa?", "Tampa reviews (from TTR-723) and real Tampa job photos."],
+  clientQuestions: ["Tampa reviews (from TTR-723) and real Tampa job photos."],
 });

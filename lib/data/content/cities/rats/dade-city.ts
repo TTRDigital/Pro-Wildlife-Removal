@@ -67,7 +67,6 @@ export const dadeCityRatsInput = {
     faq(
       "Is a same-day rat visit possible in Dade City?",
       "Same-day rat inspections are often available in Dade City. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Dade City]",
     ),
   ],
   ctaHeading: "Rats in your Dade City home?",
@@ -81,7 +80,7 @@ export const dadeCityRatsInput = {
     { title: "City of Dade City: Garbage and recycle services (Waste Pro collects within city limits; animal proof containers with tight fitting lids; 35 gallons and 50 pounds max; within 4 feet of the curb; recycling Wednesdays; limbs under 4 feet and 6 inches; Public Works (352) 523-5050; Waste Pro 352-523-5051)", url: TRASH },
     { title: "City of Dade City: Code enforcement ((352) 523-5050; 38020 Meridian Ave; excessive trash or debris, junk cars, nuisance violations)", url: "https://www.dadecityfl.com/business_development/code_enforcement/index.php" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Dade City?", "Dade City rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["Dade City rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const dadeCityRats = countyPage(dadeCityRatsInput);

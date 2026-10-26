@@ -65,7 +65,6 @@ export const pinellasPark = countyPage({
     faq(
       "Can someone come to Pinellas Park the same day?",
       "Same-day appointments are often available in Pinellas Park. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Pinellas Park]",
     ),
   ],
   ctaHeading: "Wildlife problem in Pinellas Park?",
@@ -85,5 +84,5 @@ export const pinellasPark = countyPage({
     { title: "Pinellas County: Injured or orphaned wildlife ((727) 582-2600 option 4; Nuisance Alligator Hotline 866-392-4286)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
   ],
-  clientQuestions: ["Typical response time in Pinellas Park?", "Pinellas Park reviews (from TTR-723) and real Pinellas Park job photos."],
+  clientQuestions: ["Pinellas Park reviews (from TTR-723) and real Pinellas Park job photos."],
 });

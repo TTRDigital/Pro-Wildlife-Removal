@@ -53,7 +53,6 @@ export const pinellas = countyPage({
     faq(
       "What's the number for wildlife removal in Pinellas County?",
       "Call (727) 594-7705. Same-day appointments are often available in Pinellas County.",
-      "[PLACEHOLDER: ask the client: typical response time in Pinellas County]",
     ),
     faq(
       "Who do I call about a stray dog or cat, or an animal bite in Pinellas?",
@@ -105,6 +104,6 @@ export const pinellas = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Pinellas County?", "Real job photos and reviews from Pinellas customers."],
+  clientQuestions: ["Real job photos and reviews from Pinellas customers."],
 });
 

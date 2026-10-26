@@ -67,7 +67,6 @@ export const stPetersburgRatsInput = {
     faq(
       "How quickly can you come out for rats in St. Pete?",
       "Same-day rat inspections are often available in St. Petersburg. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in St. Petersburg]",
     ),
   ],
   ctaHeading: "Rats in your St. Petersburg home?",
@@ -82,7 +81,7 @@ export const stPetersburgRatsInput = {
     { title: "City of St. Petersburg: Collection schedule (one 90-gallon container; twice-weekly collection; once-weekly option for qualifying homes)", url: "https://www.stpete.org/residents/utilities/residential_trash___recycling/collection_schedule.php" },
     { title: "City of St. Petersburg: Property maintenance (junk and rubbish can't be left in the yard; owners maintain vegetation on property and right of way)", url: "https://www.stpete.org/residents/community/property_maintenance.php" },
   ],
-  clientQuestions: ["Typical response time for rat calls in St. Petersburg?", "St. Petersburg rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["St. Petersburg rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const stPetersburgRats = countyPage(stPetersburgRatsInput);

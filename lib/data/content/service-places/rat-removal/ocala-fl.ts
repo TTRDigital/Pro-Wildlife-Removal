@@ -68,7 +68,6 @@ export const ratRemovalOcala = servicePlacePage({
     faq(
       "How soon can you come out for rats in Ocala?",
       "Same-day appointments for rats are often available in Ocala. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Ocala]",
     ),
   ],
   ctaHeading: "Rats in your Ocala home?",
@@ -85,5 +84,5 @@ export const ratRemovalOcala = servicePlacePage({
     { title: "City of Ocala: Ordinance 2025-41, amending Sec. 54-31(a) (no accumulation of municipal solid waste for longer than seven days without arranging disposal), adopted by City Council Oct. 7, 2025", url: ORD },
     { title: "City of Ocala: Solid waste study presentation, Jan. 13, 2026 (residential trash, yard waste and bulk once a week; 17,371 residential accounts)", url: STUDY },
   ],
-  clientQuestions: ["Typical response time for a rat call in Ocala?", "A real Google review from an Ocala rat job (TTR-723), and real Ocala rat job photos."],
+  clientQuestions: ["A real Google review from an Ocala rat job (TTR-723), and real Ocala rat job photos."],
 });

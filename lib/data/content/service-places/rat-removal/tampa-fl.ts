@@ -62,7 +62,6 @@ export const ratRemovalTampa = servicePlacePage({
     faq(
       "How fast can a Tampa rat problem be looked at?",
       "Same-day appointments for rat inspections are often available in Tampa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Tampa]",
     ),
   ],
   ctaHeading: "Rats in your Tampa home?",
@@ -82,5 +81,5 @@ export const ratRemovalTampa = servicePlacePage({
     { title: "City of Tampa: Residential trash collection (garbage twice per week for all utility customers; lid closed with no garbage extending out)", url: "https://www.tampa.gov/solid-waste/programs/residential-trash-collection" },
     { title: "City of Tampa: Animal services, Hillsborough County (wildlife on private property: use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Tampa?", "A real Google review from a Tampa rat job (TTR-723), and real Tampa rat job photos."],
+  clientQuestions: ["A real Google review from a Tampa rat job (TTR-723), and real Tampa rat job photos."],
 });

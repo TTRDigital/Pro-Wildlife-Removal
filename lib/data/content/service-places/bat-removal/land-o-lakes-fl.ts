@@ -68,7 +68,6 @@ export const batRemovalLandOLakes = servicePlacePage({
     faq(
       "How quickly can you reach a Land O' Lakes home with bats?",
       "Same-day appointments for bats are often available in Land O' Lakes. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Bats in your Land O' Lakes home?",
@@ -89,5 +88,5 @@ export const batRemovalLandOLakes = servicePlacePage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (keep wildlife, including bats, out of homes, schools and other occupied buildings; report bites and scratches, 352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Pasco)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Land O' Lakes?", "A real Google review from a Land O' Lakes bat job (TTR-723), and real Land O' Lakes bat job photos."],
+  clientQuestions: ["A real Google review from a Land O' Lakes bat job (TTR-723), and real Land O' Lakes bat job photos."],
 });

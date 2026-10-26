@@ -68,7 +68,6 @@ export const raccoonRemovalSpringHill = servicePlacePage({
     faq(
       "Can you come to a Spring Hill raccoon call today?",
       "Same-day appointments for raccoons are often available in Spring Hill. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Spring Hill]",
     ),
   ],
   ctaHeading: "Raccoon in your Spring Hill home?",
@@ -89,5 +88,5 @@ export const raccoonRemovalSpringHill = servicePlacePage({
     { title: "Hernando County Sheriff's Office: Animal Services (352-796-5062; services listed: pet surrender, owner-requested euthanasia, pet licensing, TNVR, lost or found pets, found kittens, dangerous dogs)", url: "https://www.hernandosheriff.org/AnimalServices/" },
     { title: "UF/IFAS Extension Hernando County: WISE species profile, northern raccoon (illegal to feed raccoons intentionally; fed raccoons lose their fear, pillage trash, den under homes, kill unprotected poultry; forage by day too, keep your distance)", url: UFHERNANDO },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Spring Hill?", "A real Google review from a Spring Hill raccoon job (TTR-723), and real Spring Hill raccoon job photos."],
+  clientQuestions: ["A real Google review from a Spring Hill raccoon job (TTR-723), and real Spring Hill raccoon job photos."],
 });

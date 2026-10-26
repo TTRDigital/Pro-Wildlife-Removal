@@ -51,7 +51,6 @@ export const citrus = countyPage({
     faq(
       "What's the Citrus County phone number?",
       "Call (727) 594-7705. Same-day appointments are often available in Citrus County.",
-      "[PLACEHOLDER: ask the client: typical response time in Citrus County]",
     ),
     faq(
       "Why does Citrus County see so much wildlife around homes?",
@@ -102,5 +101,5 @@ export const citrus = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Citrus County?", "Real job photos and reviews from Citrus customers."],
+  clientQuestions: ["Real job photos and reviews from Citrus customers."],
 });

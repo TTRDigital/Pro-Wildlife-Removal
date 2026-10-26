@@ -69,7 +69,6 @@ export const newPortRichey = countyPage({
     faq(
       "How fast can you reach New Port Richey?",
       "Same-day appointments are often available in New Port Richey. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in New Port Richey]",
     ),
   ],
   ctaHeading: "Wildlife problem in New Port Richey?",
@@ -90,5 +89,5 @@ export const newPortRichey = countyPage({
     { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     ...newPortRicheyRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in New Port Richey?", "New Port Richey reviews (from TTR-723) and real New Port Richey job photos."],
+  clientQuestions: ["New Port Richey reviews (from TTR-723) and real New Port Richey job photos."],
 });

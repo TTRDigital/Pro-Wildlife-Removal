@@ -70,7 +70,6 @@ export const clearwater = countyPage({
     faq(
       "Can you get out to a Clearwater home today?",
       "Same-day appointments are often available in Clearwater. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Clearwater]",
     ),
   ],
   ctaHeading: "Wildlife problem in Clearwater?",
@@ -94,5 +93,5 @@ export const clearwater = countyPage({
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
     ...clearwaterRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Clearwater?", "Clearwater reviews (from TTR-723) and real Clearwater job photos."],
+  clientQuestions: ["Clearwater reviews (from TTR-723) and real Clearwater job photos."],
 });

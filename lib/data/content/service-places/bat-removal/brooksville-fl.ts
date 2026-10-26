@@ -71,7 +71,6 @@ export const batRemovalBrooksville = servicePlacePage({
     faq(
       "Can someone check our Brooksville roof for bats today?",
       "Same-day appointments for bats are often available in Brooksville. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Brooksville]",
     ),
   ],
   ctaHeading: "Bats in your Brooksville home?",
@@ -98,5 +97,5 @@ export const batRemovalBrooksville = servicePlacePage({
     { title: "FWC: Bats (illegal to kill, 68A-4.001; pesticides or poisons to harm, kill or deter bats prohibited; bat houses not a substitute for exclusion)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/" },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Hernando)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Brooksville?", "A real Google review from a Brooksville bat job (TTR-723), and real Brooksville bat job photos."],
+  clientQuestions: ["A real Google review from a Brooksville bat job (TTR-723), and real Brooksville bat job photos."],
 });

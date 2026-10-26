@@ -67,7 +67,6 @@ export const dadeCity = countyPage({
     faq(
       "Will you drive out to Dade City the same day?",
       "Same-day appointments are often available in Dade City. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Dade City]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dade City?",
@@ -90,5 +89,5 @@ export const dadeCity = countyPage({
     { title: "FWC: Regional offices (Southwest 863-648-3200)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     ...dadeCityRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Dade City?", "Dade City reviews (from TTR-723) and real Dade City job photos."],
+  clientQuestions: ["Dade City reviews (from TTR-723) and real Dade City job photos."],
 });

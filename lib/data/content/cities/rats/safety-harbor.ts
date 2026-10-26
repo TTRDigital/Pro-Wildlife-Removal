@@ -68,7 +68,6 @@ export const safetyHarborRatsInput = {
     faq(
       "Could you inspect for rats in Safety Harbor today?",
       "Same-day rat inspections are often available in Safety Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Safety Harbor]",
     ),
   ],
   ctaHeading: "Rats in your Safety Harbor home?",
@@ -85,7 +84,7 @@ export const safetyHarborRatsInput = {
     { title: "City of Safety Harbor: FAQ (dead animals on city rights-of-way, 724-1550)", url: "http://www.cityofsafetyharbor.com/m/faq" },
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Safety Harbor?", "Do you use any rat bait, and if so which kind (anticoagulant or not)? Or traps only?", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["Do you use any rat bait, and if so which kind (anticoagulant or not)? Or traps only?", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const safetyHarborRats = countyPage(safetyHarborRatsInput);

@@ -28,7 +28,7 @@ export const brooksville = countyPage({
   heroText: "Hernando's county seat, ringed by hills and pasture, with FWC land at Chinsegut to the north. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Brooksville, FL?",
   answer:
-    "Usually a private company. HCSO Animal Services handles pets and strays, and the city runs its own garbage collection. For raccoons, rats, bats or squirrels in your attic, walls or garage, Pro Wildlife Removal finds the way in, removes the animals legally, closes the gap and cleans up. Call (727) 594-7705.",
+    "Usually a private company. HCSO Animal Services handles pets and strays, and the city runs its own garbage collection. For raccoons, rats, bats or squirrels in your attic, walls or garage, Pro Wildlife Removal finds the way in, removes the animals legally and seals the entry points. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon off Ted Road, 2025", "Bat colony at Chinsegut"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the only incorporated city in Hernando County. We cover the city, the country roads around it and the rest of the county.",
@@ -82,7 +82,6 @@ export const brooksville = countyPage({
     faq(
       "Can someone reach my Brooksville house today?",
       "Same-day appointments are often available in Brooksville. Pro Wildlife Removal takes calls 24 hours a day at (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Brooksville]",
     ),
   ],
   ctaHeading: "Wildlife in your Brooksville home?",
@@ -108,5 +107,5 @@ export const brooksville = countyPage({
     { title: "Hernando County: Residential collection (Coastal serves unincorporated areas, excluding the City of Brooksville; city (352) 540-3860)", url: COLLECTION },
     ...brooksvilleRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Brooksville?", "Reviews and real job photos from Brooksville customers."],
+  clientQuestions: ["Reviews and real job photos from Brooksville customers."],
 });

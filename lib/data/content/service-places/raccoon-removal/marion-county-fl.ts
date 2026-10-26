@@ -70,7 +70,6 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
     faq(
       "Can someone come out today for a Marion County raccoon?",
       "Same-day appointments for raccoons are often available in Marion County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Marion County]",
     ),
   ],
   ctaHeading: "Raccoon in your Marion County home?",
@@ -94,5 +93,5 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
     { title: "Florida DEP: Rainbow Springs Aquatic Preserve Management Plan, June 2016 (southwest Marion County; raccoon among documented species)", url: RSAP },
     { title: "FWC: Relocating nuisance wildlife (released or euthanized within 24 hours; off-site release only in the county of capture on 40+ contiguous acres with the owner's written permission; publicly owned lands need the land manager's written permission)", url: RELOCATE },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Marion County?", "A real Google review from a Marion County raccoon job (TTR-723), and real Marion raccoon job photos."],
+  clientQuestions: ["A real Google review from a Marion County raccoon job (TTR-723), and real Marion raccoon job photos."],
 });

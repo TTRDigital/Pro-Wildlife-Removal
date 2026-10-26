@@ -68,7 +68,6 @@ export const ratRemovalPascoCounty = servicePlacePage({
     faq(
       "Can a Pasco County rat inspection happen the day I call?",
       "Same-day appointments for rats are often available in Pasco County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Pasco County]",
     ),
   ],
   ctaHeading: "Rats in your Pasco County home?",
@@ -88,5 +87,5 @@ export const ratRemovalPascoCounty = servicePlacePage({
     { title: "UF/IFAS EDIS SSWEC120: Control of Roof Rats in Fruit Trees (archived; hollowed-out fruit through the citrus season, September through March)", url: UW120 },
     { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (rats use limbs that touch or overhang the house as a highway; prune overhanging limbs)", url: "https://ask.ifas.ufl.edu/publication/IN1397" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Pasco County?", "A real Google review from a Pasco County rat job (TTR-723), and real Pasco rat job photos."],
+  clientQuestions: ["A real Google review from a Pasco County rat job (TTR-723), and real Pasco rat job photos."],
 });

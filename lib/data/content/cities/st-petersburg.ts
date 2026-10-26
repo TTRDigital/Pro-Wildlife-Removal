@@ -73,7 +73,6 @@ export const stPetersburg = countyPage({
     faq(
       "How fast can someone reach a St. Pete home?",
       "Same-day appointments are often available in St. Petersburg. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in St. Petersburg]",
     ),
   ],
   ctaHeading: "Wildlife problem in St. Petersburg?",
@@ -94,5 +93,5 @@ export const stPetersburg = countyPage({
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
     ...stPetersburgRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in St. Petersburg?", "St. Petersburg reviews (from TTR-723) and real St. Petersburg job photos."],
+  clientQuestions: ["St. Petersburg reviews (from TTR-723) and real St. Petersburg job photos."],
 });

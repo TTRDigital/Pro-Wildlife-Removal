@@ -68,7 +68,6 @@ export const batRemovalHernandoCounty = servicePlacePage({
     faq(
       "How quickly can a Hernando County bat colony be looked at?",
       "Same-day appointments for bats are often available in Hernando County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Hernando County]",
     ),
   ],
   ctaHeading: "Bats in your Hernando County home?",
@@ -92,5 +91,5 @@ export const batRemovalHernandoCounty = servicePlacePage({
     { title: "FWC: Bats in buildings (exclusion the only legal method; capture and relocation illegal; poison and fumigants illegal)", url: BIB },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Hernando)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Hernando County?", "A real Google review from a Hernando County bat job (TTR-723), and real Hernando bat job photos."],
+  clientQuestions: ["A real Google review from a Hernando County bat job (TTR-723), and real Hernando bat job photos."],
 });

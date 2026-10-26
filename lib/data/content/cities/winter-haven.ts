@@ -31,7 +31,7 @@ export const winterHaven = countyPage({
   heroText: "Polk's Chain of Lakes City, where rabid bats have turned up in yards and dogs' mouths more than once. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Winter Haven, FL?",
   answer:
-    "A private company. Polk County Animal Control lists bites, dogs, cats, quarantines and adoptions among its duties, not removing nuisance wildlife from homes. For bats, rats, squirrels or raccoons in a Winter Haven attic, wall or garage, Pro Wildlife Removal finds the way in, removes the animals as Florida law allows and closes the gap. Call (727) 594-7705.",
+    "A private company. Polk County Animal Control lists bites, dogs, cats, quarantines and adoptions among its duties, not removing nuisance wildlife from homes. For bats, rats, squirrels or raccoons in a Winter Haven attic, wall or garage, Pro Wildlife Removal finds how they get in, removes them as Florida law allows and seals the entry points. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid bat in Eloise, 2026", "City garbage: bagged and tied"],
   townsHeading: "Winter Haven and nearby",
   townsIntro: "Florida's EDR puts Winter Haven at 60,837 people in April 2025, up from 49,219 at the 2020 Census. The city calls itself the Chain of Lakes City for its 18 lakes joined by navigable canals. We cover the city and the rest of Polk County.",
@@ -49,7 +49,7 @@ export const winterHaven = countyPage({
     { icon: "search", title: "Dogs with bats, 2022 and 2023", text: p("PCSO reported family dogs in Winter Haven found with live bats in their mouths twice: in the Lake Mirror area in March 2022, and again in March 2023. Both bats tested rabid, and each was Polk's first rabies case of its year.") },
     { icon: "leaf", title: "Rabid bats in 2018 and 2020", text: p("PCSO alerts also list a rabid bat in Winter Haven in July 2018, and an injured bat a resident found in April 2020 that tested rabid. In 2019, by PCSO's count, Polk had 11 rabies cases: five bats and six raccoons.") },
     { icon: "users", title: "Inwood, 2024: a rabid cat", text: p("DOH-Polk issued a 60-day rabies alert in July 2024 after an unvaccinated cat from the Inwood area of Winter Haven tested positive. PCSO said the cat had bitten and scratched its owner.") },
-    { icon: "home", title: "Bats inside Polk homes, 2026", text: p("Polk's third rabies case of 2026 was a Brazilian free-tailed bat found inside a Bartow home near the family cat, and PCSO said the first two cases that year were bats too.") },
+    { icon: "home", title: "Rabid bats in Polk, 2026", text: p("Polk's third rabies case of 2026 was a Brazilian free-tailed bat found inside a Bartow home near the family cat, and PCSO said the first two cases that year were bats too.") },
     { icon: "wrench", title: "Sealing bats out: August to April", text: p("FWC allows exclusion devices only from Aug. 15 to April 15 without a permit, left up at least four nights with lows forecast at 50°F or warmer. A colony found in a Winter Haven roof in June waits until mid-August.") },
   ],
   rats: {
@@ -91,7 +91,6 @@ export const winterHaven = countyPage({
     faq(
       "Can someone come out to Winter Haven today?",
       "Same-day appointments are often available in Winter Haven. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Winter Haven]",
     ),
   ],
   ctaHeading: "Wildlife in your Winter Haven home?",
@@ -120,5 +119,5 @@ export const winterHaven = countyPage({
     { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (rats use limbs as a highway into the house)", url: IN1397 },
     S.edr,
   ],
-  clientQuestions: ["Typical response time in Winter Haven?", "Reviews and real job photos from Winter Haven customers."],
+  clientQuestions: ["Reviews and real job photos from Winter Haven customers."],
 });

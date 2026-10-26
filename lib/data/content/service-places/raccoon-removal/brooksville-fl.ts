@@ -70,7 +70,6 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     faq(
       "Can a raccoon in a Brooksville house be handled today?",
       "Same-day appointments for raccoons are often available in Brooksville. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Brooksville]",
     ),
   ],
   ctaHeading: "Raccoon in your Brooksville home?",
@@ -91,5 +90,5 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     { title: "DOH-Hernando: Rabies alert, June 15, 2026 (unvaccinated cat attacked by a raccoon, Norvell Road, Spring Hill; 60 days)", url: "https://hernando.floridahealth.gov/2026/06/15/doh-hernando-issues-rabies-alert/" },
     { title: "Hernando County Sheriff's Office: Animal Services (services listed: pet surrender, owner-requested euthanasia, pet licensing, TNVR, lost or found pets, found kittens, dangerous dogs)", url: "https://www.hernandosheriff.org/AnimalServices/" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Brooksville?", "A real Google review from a Brooksville raccoon job (TTR-723), and real Brooksville raccoon job photos."],
+  clientQuestions: ["A real Google review from a Brooksville raccoon job (TTR-723), and real Brooksville raccoon job photos."],
 });

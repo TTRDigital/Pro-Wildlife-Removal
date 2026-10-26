@@ -69,7 +69,6 @@ export const springHill = countyPage({
     faq(
       "Is same-day service available in Spring Hill?",
       "Same-day appointments are often available in Spring Hill. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Spring Hill]",
     ),
   ],
   ctaHeading: "Wildlife problem in Spring Hill?",
@@ -92,5 +91,5 @@ export const springHill = countyPage({
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
     ...springHillRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Spring Hill?", "Spring Hill reviews (from TTR-723) and real Spring Hill job photos."],
+  clientQuestions: ["Spring Hill reviews (from TTR-723) and real Spring Hill job photos."],
 });

@@ -67,7 +67,6 @@ export const palmHarbor = countyPage({
     faq(
       "Can you come to Palm Harbor on short notice?",
       "Same-day appointments are often available in Palm Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Palm Harbor]",
     ),
   ],
   ctaHeading: "Wildlife problem in Palm Harbor?",
@@ -87,5 +86,5 @@ export const palmHarbor = countyPage({
     { title: "Pinellas County: Injured or orphaned wildlife (Animal Services, 12450 Ulmerton Road, Largo; (727) 582-2600 option 4; FWC and gopher tortoise numbers)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "Pinellas County: Trash and recycling collection (unincorporated owners choose a hauling company)", url: "https://pinellas.gov/collection-trash-and-recycling/" },
   ],
-  clientQuestions: ["Typical response time in Palm Harbor?", "Palm Harbor reviews (from TTR-723) and real Palm Harbor job photos."],
+  clientQuestions: ["Palm Harbor reviews (from TTR-723) and real Palm Harbor job photos."],
 });

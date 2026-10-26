@@ -52,7 +52,6 @@ export const polk = countyPage({
     faq(
       "What's the phone number for Polk County?",
       "Call (727) 594-7705. Same-day appointments are often available in Polk County.",
-      "[PLACEHOLDER: ask the client: typical response time in Polk County]",
     ),
     faq(
       "Do you cover Lakeland and Winter Haven?",
@@ -110,5 +109,5 @@ export const polk = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Polk County?", "Real job photos and reviews from Polk customers.", "Lakeland and Winter Haven city pages are planned: any jobs or reviews from there?"],
+  clientQuestions: ["Real job photos and reviews from Polk customers.", "Lakeland and Winter Haven city pages are planned: any jobs or reviews from there?"],
 });

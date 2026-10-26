@@ -81,7 +81,6 @@ export const townNCountry = countyPage({
     faq(
       "Could someone see my Town 'n' Country house today?",
       "Same-day appointments are often available in Town 'n' Country. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Town 'n' Country]",
     ),
   ],
   ctaHeading: "Wildlife problem in Town 'n' Country?",
@@ -105,5 +104,5 @@ export const townNCountry = countyPage({
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
     { title: "FWC: Regional offices (Southwest Region, Lakeland, 863-648-3200)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Town 'n' Country?", "Real job photos and Google reviews from Town 'n' Country customers."],
+  clientQuestions: ["Real job photos and Google reviews from Town 'n' Country customers."],
 });

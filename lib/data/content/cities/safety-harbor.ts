@@ -68,7 +68,6 @@ export const safetyHarbor = countyPage({
     faq(
       "How fast can you come to Safety Harbor?",
       "Same-day appointments are often available in Safety Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Safety Harbor]",
     ),
   ],
   ctaHeading: "Wildlife problem in Safety Harbor?",
@@ -90,5 +89,5 @@ export const safetyHarbor = countyPage({
     { title: "Pinellas County: Injured or orphaned wildlife ((727) 582-2600 option 4)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     ...safetyHarborRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Safety Harbor?", "Safety Harbor reviews (from TTR-723) and real Safety Harbor job photos."],
+  clientQuestions: ["Safety Harbor reviews (from TTR-723) and real Safety Harbor job photos."],
 });

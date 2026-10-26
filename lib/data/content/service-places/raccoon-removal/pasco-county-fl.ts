@@ -68,7 +68,6 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     faq(
       "Can you take a Pasco County raccoon call today?",
       "Same-day appointments for raccoons are often available in Pasco County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Pasco County]",
     ),
   ],
   ctaHeading: "Raccoon in your Pasco County home?",
@@ -89,5 +88,5 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern raccoon (births in Florida generally March and April; poultry in pens have fallen prey; raid pet food bowls and unsecured garbage cans)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
     { title: "Pasco County: Animal Services (after-hours emergencies: seriously injured domestic strays, unconfined aggressive animals posing an immediate threat to public safety)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Pasco County?", "A real Google review from a Pasco County raccoon job (TTR-723), and real Pasco raccoon job photos."],
+  clientQuestions: ["A real Google review from a Pasco County raccoon job (TTR-723), and real Pasco raccoon job photos."],
 });

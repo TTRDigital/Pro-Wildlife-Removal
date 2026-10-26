@@ -69,7 +69,6 @@ export const batRemovalPinellasCounty = servicePlacePage({
     faq(
       "How soon can you inspect for bats in Pinellas County?",
       "Same-day bat inspections are often available in Pinellas County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat inspection in Pinellas County]",
     ),
   ],
   ctaHeading: "Bats in your Pinellas home?",
@@ -90,5 +89,5 @@ export const batRemovalPinellasCounty = servicePlacePage({
     { title: "UF/IFAS Extension Pinellas: Let's chat about bats, Oct. 18, 2022 (13 species live in Florida year-round; highly valuable pest management services; bats eat insects; leave Spanish moss, dead palm fronds and their boots, snags)", url: BATS },
     { title: "FWC news release, April 6, 2026 (bat maternity season April 16 to Aug 14; illegal to block bats from roosts then, to keep flightless pups from being trapped; exclusion devices only Aug 15 to April 15; killing or harming bats is illegal)", url: MATERNITY },
   ],
-  clientQuestions: ["Typical response time for a bat inspection in Pinellas County?", "A real Google review from a Pinellas County bat job (TTR-723), and real Pinellas bat job photos."],
+  clientQuestions: ["A real Google review from a Pinellas County bat job (TTR-723), and real Pinellas bat job photos."],
 });

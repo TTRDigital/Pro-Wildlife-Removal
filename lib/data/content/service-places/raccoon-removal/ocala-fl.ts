@@ -68,7 +68,6 @@ export const raccoonRemovalOcala = servicePlacePage({
     faq(
       "How fast can you respond to an Ocala raccoon call?",
       "Same-day appointments for raccoons are often available in Ocala. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Ocala]",
     ),
   ],
   ctaHeading: "Raccoon in your Ocala home?",
@@ -93,5 +92,5 @@ export const raccoonRemovalOcala = servicePlacePage({
     { title: "DOH-Marion: Rabies advisory, July 31, 2026 (raccoon, Reddick, off U.S. Route 441 and West Highway 316, July 26)", url: "https://marion.floridahealth.gov/2026/07/31/doh-marion-issues-rabies-advisory-3/" },
     { title: "FWC: Relocating nuisance wildlife (released or euthanized within 24 hours; off-site release only within the county of capture, 40+ contiguous acres, written permission of the owner, and no violation of a rabies alert or area quarantine)", url: RELOCATE },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Ocala?", "A real Google review from an Ocala raccoon job (TTR-723), and real Ocala raccoon job photos."],
+  clientQuestions: ["A real Google review from an Ocala raccoon job (TTR-723), and real Ocala raccoon job photos."],
 });

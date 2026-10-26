@@ -62,7 +62,6 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
     faq(
       "How quickly can you get to squirrels in a Hernando County attic?",
       "Same-day appointments for squirrels are often available in Hernando County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Hernando County]",
     ),
   ],
   ctaHeading: "Squirrels in your Hernando County attic?",
@@ -84,5 +83,5 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
     { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county of capture with written permission; must not violate a county rabies alert or quarantine; public land needs the land manager's written permission; released or euthanized within 24 hours)", url: "https://myfwc.com/conservation/you-conserve/wildlife/relocate/" },
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Hernando County?", "A real Google review from a Hernando County squirrel job (TTR-723), and real Hernando squirrel job photos."],
+  clientQuestions: ["A real Google review from a Hernando County squirrel job (TTR-723), and real Hernando squirrel job photos."],
 });

@@ -49,7 +49,6 @@ export const hernando = countyPage({
     faq(
       "What's the Hernando County phone number?",
       "Call (727) 594-7705. Same-day appointments are often available in Hernando County.",
-      "[PLACEHOLDER: ask the client: typical response time in Hernando County]",
     ),
     faq(
       "Has rabies been found in Hernando County?",
@@ -101,5 +100,5 @@ export const hernando = countyPage({
     { title: "Florida DOH: Hernando alert, June 30, 2026 (rabid feral cat off Westwood Drive)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/07/rabies-alert-hernando-county-6-30-2026.pdf" },
     { title: "DOH-Hernando: Rabies alert, July 1, 2026 (report injuries to DOH-Hernando at 352-540-6812)", url: "https://hernando.floridahealth.gov/2026/07/01/doh-hernando-issues-rabies-alert-2/" },
   ],
-  clientQuestions: ["Typical response time in Hernando County?", "Real job photos and reviews from Hernando customers."],
+  clientQuestions: ["Real job photos and reviews from Hernando customers."],
 });

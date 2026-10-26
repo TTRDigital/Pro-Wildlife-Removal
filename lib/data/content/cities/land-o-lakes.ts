@@ -70,7 +70,6 @@ export const landOLakes = countyPage({
     faq(
       "When can someone come out to Land O' Lakes?",
       "Same-day appointments are often available in Land O' Lakes. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Wildlife problem in Land O' Lakes?",
@@ -92,5 +91,5 @@ export const landOLakes = countyPage({
     TRAP_RULES_SOURCE,
     { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Land O' Lakes?", "Do you handle feral hogs?", "Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],
+  clientQuestions: ["Do you handle feral hogs?", "Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],
 });

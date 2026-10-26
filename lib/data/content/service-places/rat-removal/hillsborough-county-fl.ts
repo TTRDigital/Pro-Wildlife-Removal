@@ -66,7 +66,6 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
     faq(
       "How fast can you check a Hillsborough County home for rats?",
       "Same-day appointments for rats are often available in Hillsborough County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Rats in your Hillsborough County home?",
@@ -87,5 +86,5 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
     { title: "DOH-Hillsborough: Animal risk assessment (low-risk animals include wild rodents and pet rats)", url: RISK },
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Hillsborough County?", "A real Google review from a Hillsborough County rat job (TTR-723), and real Hillsborough rat job photos."],
+  clientQuestions: ["A real Google review from a Hillsborough County rat job (TTR-723), and real Hillsborough rat job photos."],
 });

@@ -67,7 +67,6 @@ export const batRemovalHudson = servicePlacePage({
     faq(
       "Is a same-day bat visit possible in Hudson?",
       "Same-day appointments for bats are often available in Hudson. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Hudson]",
     ),
   ],
   ctaHeading: "Bats in your Hudson home?",
@@ -88,5 +87,5 @@ export const batRemovalHudson = servicePlacePage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (report bites and scratches, 352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Pasco)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Hudson?", "A real Google review from a Hudson bat job (TTR-723), and real Hudson bat job photos."],
+  clientQuestions: ["A real Google review from a Hudson bat job (TTR-723), and real Hudson bat job photos."],
 });

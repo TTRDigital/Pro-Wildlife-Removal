@@ -70,7 +70,6 @@ export const batRemovalPolkCounty = servicePlacePage({
     faq(
       "Can a Polk County bat problem be inspected the day I call?",
       "Same-day appointments for bats are often available in Polk County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Polk County]",
     ),
   ],
   ctaHeading: "Bats in your Polk County home?",
@@ -98,5 +97,5 @@ export const batRemovalPolkCounty = servicePlacePage({
     { title: "UF/IFAS EDIS WEC246 (UW290): Effective bat houses for Florida (put houses up several weeks before an eviction)", url: "https://ask.ifas.ufl.edu/uw290" },
     { title: "UF/IFAS Gardening Solutions: Bat houses (12 to 15 feet up, south or southeast side of a freestanding pole)", url: "https://gardeningsolutions.ifas.ufl.edu/design/gardening-with-wildlife/bat-houses/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Polk County?", "A real Google review from a Polk County bat job (TTR-723), and real Polk bat job photos."],
+  clientQuestions: ["A real Google review from a Polk County bat job (TTR-723), and real Polk bat job photos."],
 });

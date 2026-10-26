@@ -76,7 +76,6 @@ export const theVillagesRatsInput = {
     faq(
       "How soon could someone check my Villages villa for rats?",
       "For rats, same-day appointments are often available in The Villages. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in The Villages]",
     ),
   ],
   ctaHeading: "Rats in your Villages home?",
@@ -97,7 +96,7 @@ export const theVillagesRatsInput = {
     { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rats fit through holes as small as 1/2 inch)", url: SANTAROSA },
     { title: "CDC: How to clean up after rodents (don't sweep or vacuum; spray with disinfectant)", url: CDC },
   ],
-  clientQuestions: ["Typical response time for rat calls in The Villages?", "Reviews and real job photos from rat customers in The Villages."],
+  clientQuestions: ["Reviews and real job photos from rat customers in The Villages."],
 } satisfies CountyInput;
 
 export const theVillagesRats = countyPage(theVillagesRatsInput);

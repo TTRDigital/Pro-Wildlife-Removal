@@ -63,7 +63,6 @@ export const newPortRicheyRatsInput = {
     faq(
       "Is anyone free for a New Port Richey rat call today?",
       "Same-day rat inspections are often available in New Port Richey. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in New Port Richey]",
     ),
   ],
   ctaHeading: "Rats in your New Port Richey home?",
@@ -77,7 +76,7 @@ export const newPortRicheyRatsInput = {
     { title: "City of New Port Richey: City trash services (Waste Pro dba J.D. Parker & Sons is the single hauler; residential collection Mondays and Thursdays, 6 a.m. to 7 p.m., twice a week; 96-gallon carts; (727) 841-4260)", url: TRASH },
     { title: "City of New Port Richey: Parks and facilities (the Cotee, or Pithlachascotee, River)", url: "https://www.cityofnewportrichey.org/Residents/Amenities/Parks-and-Facilities" },
   ],
-  clientQuestions: ["Typical response time for rat calls in New Port Richey?", "New Port Richey rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["New Port Richey rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const newPortRicheyRats = countyPage(newPortRicheyRatsInput);

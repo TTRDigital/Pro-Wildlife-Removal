@@ -79,7 +79,6 @@ export const brooksvilleRatsInput = {
     faq(
       "How quickly can you inspect a Brooksville attic for rats?",
       "Same-day rat inspections are often available in Brooksville. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Brooksville]",
     ),
   ],
   ctaHeading: "Rats in your Brooksville home?",
@@ -105,7 +104,7 @@ export const brooksvilleRatsInput = {
     { title: "FWC: Chinsegut Wildlife and Environmental Area (six miles north of Brooksville)", url: "https://myfwc.com/recreation/lead/chinsegut/" },
     { title: "FWC: Nuisance Alligator Program", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Brooksville?", "Brooksville rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["Brooksville rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const brooksvilleRats = countyPage(brooksvilleRatsInput);

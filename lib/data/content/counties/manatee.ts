@@ -45,7 +45,6 @@ export const manatee = countyPage({
     faq(
       "Which number reaches you from Manatee County?",
       "Call (727) 594-7705. Same-day appointments are often available in Manatee County.",
-      "[PLACEHOLDER: ask the client: typical response time in Manatee County]",
     ),
     faq(
       "How do I keep rats out of the trash in Manatee County?",
@@ -92,7 +91,6 @@ export const manatee = countyPage({
   ],
   clientQuestions: [
     "Which Manatee County towns do you serve, and is there a Manatee phone number?",
-    "Typical response time in Manatee County?",
     "Real job photos and reviews from Manatee customers.",
   ],
 });

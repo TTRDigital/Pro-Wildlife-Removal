@@ -58,7 +58,6 @@ export const pasco = countyPage({
     faq(
       "What's the phone number for Pasco County?",
       "Call (727) 594-7705. Same-day appointments are often available in Pasco County.",
-      "[PLACEHOLDER: ask the client: typical response time in Pasco County]",
     ),
     faq(
       "Is rabies a concern in Pasco County?",
@@ -106,5 +105,5 @@ export const pasco = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Pasco County?", "Real job photos and reviews from Pasco customers."],
+  clientQuestions: ["Real job photos and reviews from Pasco customers."],
 });

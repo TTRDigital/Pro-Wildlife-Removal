@@ -69,7 +69,6 @@ export const dunedin = countyPage({
     faq(
       "What's the wait for a visit in Dunedin?",
       "Same-day appointments are often available in Dunedin. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Dunedin]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dunedin?",
@@ -92,5 +91,5 @@ export const dunedin = countyPage({
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
     ...dunedinRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Dunedin?", "Dunedin reviews (from TTR-723) and real Dunedin job photos."],
+  clientQuestions: ["Dunedin reviews (from TTR-723) and real Dunedin job photos."],
 });

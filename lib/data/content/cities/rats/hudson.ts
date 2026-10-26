@@ -65,7 +65,6 @@ export const hudsonRatsInput = {
     faq(
       "Can you check for rats at my Hudson house today?",
       "Same-day rat inspections are often available in Hudson. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Hudson]",
     ),
   ],
   ctaHeading: "Rats in your Hudson home?",
@@ -79,7 +78,7 @@ export const hudsonRatsInput = {
     { title: "Pasco County: Garbage and recycling (must sign up with a licensed hauler; curbside twice a week, recycling once a week)", url: "https://www.pascocountyfl.gov/services/utilities/garbage_and_recycling/index.php" },
     { title: "Pasco County: Code compliance (yards not for junk storage; no lot used as a garbage dump; overgrowth complaints by an affected party owning or occupying abutting land; Customer Service 727-847-2411)", url: "https://www.pascocountyfl.gov/services/code_compliance/index.php" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Hudson?", "Hudson rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["Hudson rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const hudsonRats = countyPage(hudsonRatsInput);

@@ -65,7 +65,6 @@ export const springHillRatsInput = {
     faq(
       "Can you get to a Spring Hill rat problem the same day?",
       "Same-day rat inspections are often available in Spring Hill. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Spring Hill]",
     ),
   ],
   ctaHeading: "Rats in your Spring Hill home?",
@@ -81,7 +80,7 @@ export const springHillRatsInput = {
     { title: "Hernando County: Bulk waste (six collections, up to 10 items; Coastal Waste & Recycling (352) 540-6457)", url: "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/bulk-waste/" },
     { title: "Hernando County: Code violations (Sec. 15-163a grass over 18 inches within 100 feet of improved property; 15-163b accumulation of trash bags, decaying vegetation, exposed appliances or furniture; main line (352) 754-4000)", url: "https://www.hernandocounty.us/public-safety/code-compliance/code-violations/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Spring Hill?", "Spring Hill rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["Spring Hill rat job reviews (from TTR-723) and real rat job photos."],
 } satisfies CountyInput;
 
 export const springHillRats = countyPage(springHillRatsInput);

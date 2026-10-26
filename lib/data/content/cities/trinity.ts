@@ -67,7 +67,6 @@ export const trinity = countyPage({
     faq(
       "Is a same-day visit possible in Trinity?",
       "Same-day appointments are often available in Trinity. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Trinity]",
     ),
   ],
   ctaHeading: "Wildlife problem in Trinity?",
@@ -87,5 +86,5 @@ export const trinity = countyPage({
     { title: "Pasco County: Animal Services (813-929-1212; Land O' Lakes)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "FWC: Regional offices (Southwest 863-648-3200) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Trinity?", "Trinity reviews (from TTR-723) and real Trinity job photos."],
+  clientQuestions: ["Trinity reviews (from TTR-723) and real Trinity job photos."],
 });

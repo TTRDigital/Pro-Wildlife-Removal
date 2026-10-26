@@ -66,7 +66,6 @@ export const ratRemovalSumterCounty = servicePlacePage({
     faq(
       "How soon can you come out for rats in Sumter County?",
       "Same-day appointments for rats are often available in Sumter County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Sumter County]",
     ),
   ],
   ctaHeading: "Rats in your Sumter County home?",
@@ -87,5 +86,5 @@ export const ratRemovalSumterCounty = servicePlacePage({
     { title: "Sumter County: Nuisance wildlife (Animal Services generally deals only with domestic animals; referrals to private trappers; bites to the Health Department)", url: NUISANCE },
     { title: "Florida DOH Gadsden: Rodent control (rodents need food, water, shelter and warmth; keep garbage in tightly covered containers; store pet foods and grains in galvanized cans with tight-fitting lids; seal openings around pipes and wires; close holes with heavy gauge steel wool, galvanized metal or hardware cloth)", url: DOH },
   ],
-  clientQuestions: ["Typical response time for a rat call in Sumter County?", "A real Google review from a Sumter County rat job (TTR-723), and real Sumter rat job photos."],
+  clientQuestions: ["A real Google review from a Sumter County rat job (TTR-723), and real Sumter rat job photos."],
 });

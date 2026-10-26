@@ -67,7 +67,6 @@ export const squirrelRemovalSilverSprings = servicePlacePage({
     faq(
       "How soon can you come out for squirrels in Silver Springs?",
       "Same-day appointments for squirrels are often available in Silver Springs. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Silver Springs]",
     ),
   ],
   ctaHeading: "Squirrels in your Silver Springs attic?",
@@ -84,5 +83,5 @@ export const squirrelRemovalSilverSprings = servicePlacePage({
     { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: NONGAME },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Silver Springs?", "A real Google review from a Silver Springs squirrel job (TTR-723), and real Silver Springs squirrel job photos."],
+  clientQuestions: ["A real Google review from a Silver Springs squirrel job (TTR-723), and real Silver Springs squirrel job photos."],
 });

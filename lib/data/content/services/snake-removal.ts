@@ -209,7 +209,6 @@ export const snakeRemoval: Service = {
         faq(
           "Can you come right away for a snake in the house?",
           "Same-day visits are often available for a snake inside. Tell us it's inside and where, and keep the room closed off until we get there.",
-          "[PLACEHOLDER: ask the client: typical response time for a snake inside the home]",
         ),
       ],
     },
@@ -251,7 +250,6 @@ export const snakeRemoval: Service = {
   clientQuestions: [
     "Where do you release snakes, and how do you handle venomous ones?",
     "Is there an emergency or after-hours rate? Can the site show a price range for snake removal?",
-    "Typical response time for a snake inside the home?",
     "Real photos: a snake removal from a garage or pool cage, a door sweep or vent screen installed.",
   ],
 };

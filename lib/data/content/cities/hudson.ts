@@ -70,7 +70,6 @@ export const hudson = countyPage({
     faq(
       "Can you make it to Hudson today?",
       "Same-day appointments are often available in Hudson. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Hudson]",
     ),
   ],
   ctaHeading: "Wildlife problem in Hudson?",
@@ -90,5 +89,5 @@ export const hudson = countyPage({
     { title: "FWC: Regional offices (Southwest 863-648-3200) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     ...hudsonRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Hudson?", "Hudson reviews (from TTR-723) and real Hudson job photos."],
+  clientQuestions: ["Hudson reviews (from TTR-723) and real Hudson job photos."],
 });

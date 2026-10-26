@@ -45,7 +45,6 @@ export const osceola = countyPage({
     faq(
       "What number should Osceola County homeowners call?",
       "Call (727) 594-7705. Same-day appointments are often available in Osceola County.",
-      "[PLACEHOLDER: ask the client: typical response time in Osceola County]",
     ),
     faq(
       "Has rabies been found in Osceola County recently?",
@@ -95,7 +94,6 @@ export const osceola = countyPage({
   ],
   clientQuestions: [
     "Which Osceola County towns do you serve, and is there an Osceola phone number?",
-    "Typical response time in Osceola County?",
     "Real job photos and reviews from Osceola customers.",
   ],
 });

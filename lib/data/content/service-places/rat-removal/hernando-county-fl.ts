@@ -67,7 +67,6 @@ export const ratRemovalHernandoCounty = servicePlacePage({
     faq(
       "Can someone inspect our Hernando County home for rats today?",
       "Same-day appointments for rats are often available in Hernando County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Hernando County]",
     ),
   ],
   ctaHeading: "Rats in your Hernando County home?",
@@ -86,5 +85,5 @@ export const ratRemovalHernandoCounty = servicePlacePage({
     { title: "DOH-Hernando: Rabies surveillance (rats and other rodents rarely found to be infected; not known to cause human rabies in Florida)", url: "https://hernando.floridahealth.gov/programs-and-services/environmental-public-health/rabies-surveillance/" },
     { title: "Florida DOH Gadsden: Rodent control (rodents need food, water, shelter and warmth; roof rats nest in trees, woodpiles, garbage and plants and need a hole the size of a quarter; cut grass, brush and thick bushes within 100 feet of your home; get rid of trash, discarded appliances and junk; keep garbage in tightly covered containers; close holes with heavy gauge steel wool, galvanized metal, or hardware cloth; seal openings around pipes and wires)", url: DOH },
   ],
-  clientQuestions: ["Typical response time for a rat call in Hernando County?", "A real Google review from a Hernando County rat job (TTR-723), and real Hernando rat job photos."],
+  clientQuestions: ["A real Google review from a Hernando County rat job (TTR-723), and real Hernando rat job photos."],
 });

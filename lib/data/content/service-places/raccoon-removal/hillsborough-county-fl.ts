@@ -72,7 +72,6 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
     faq(
       "Can you get to a Hillsborough County raccoon the same day?",
       "Same-day appointments for raccoons are often available in Hillsborough County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Raccoon in your Hillsborough County home?",
@@ -103,5 +102,5 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
     { title: "Florida Administrative Code 68A-9.010, Taking nuisance wildlife (release or euthanize within 24 hours; same county, 40 contiguous acres, written permission)", url: "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-68A-9-010" },
     TRAP_RULES_SOURCE,
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Hillsborough County?", "A real Google review from a Hillsborough County raccoon job (TTR-723), and real Hillsborough raccoon job photos."],
+  clientQuestions: ["A real Google review from a Hillsborough County raccoon job (TTR-723), and real Hillsborough raccoon job photos."],
 });

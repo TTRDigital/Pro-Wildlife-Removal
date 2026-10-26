@@ -163,7 +163,6 @@ export const home: PageContent = {
         faq(
           "How fast can you come out?",
           "Same-day appointments are often available. For an animal loose inside the living space, a snake in the house or bees near people, tell us when you call so we can treat it as urgent.",
-          "[PLACEHOLDER: ask the client: typical response time for emergencies and for regular inspections]",
         ),
         faq(
           "Is your wildlife removal humane?",
@@ -227,7 +226,6 @@ export const home: PageContent = {
   clientQuestions: [
     "How many jobs has the company done, or which rating and review count should the site show (the live site says 4.7 from 273 Google reviews)?",
     "Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
-    "Typical response time for emergencies and for regular inspections?",
     "Which cities in Polk get the most calls, so the area list shows the right towns? Do you serve Manatee or Osceola County? Those pages are held until you confirm.",
     "A real truck or crew photo for the hero.",
     "Is there a written warranty on sealing work? Until there is, the site won't say anything like \"sealed for good\" or promise animals won't return.",

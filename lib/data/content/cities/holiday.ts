@@ -67,7 +67,6 @@ export const holiday = countyPage({
     faq(
       "How quickly can you reach Holiday?",
       "Same-day appointments are often available in Holiday. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Holiday]",
     ),
   ],
   ctaHeading: "Wildlife problem in Holiday?",
@@ -88,5 +87,5 @@ export const holiday = countyPage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Wildlife Alert 888-404-3922) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Holiday?", "Holiday reviews (from TTR-723) and real Holiday job photos."],
+  clientQuestions: ["Holiday reviews (from TTR-723) and real Holiday job photos."],
 });

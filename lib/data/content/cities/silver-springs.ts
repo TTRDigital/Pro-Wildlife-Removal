@@ -68,7 +68,6 @@ export const silverSprings = countyPage({
     faq(
       "Do you come out to Silver Springs the same day?",
       "Same-day appointments are often available in Silver Springs. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Silver Springs]",
     ),
   ],
   ctaHeading: "Wildlife problem in Silver Springs?",
@@ -86,5 +85,5 @@ export const silverSprings = countyPage({
     { title: "DOH-Marion: Rabies advisory, Sept. 18, 2026 (Marion County Animal Services 352-671-8727; DOH-Marion 352-629-0137)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/09/rabies-advisory-marion-9-18-26.pdf" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Silver Springs?", "Real job photos and reviews from Silver Springs customers."],
+  clientQuestions: ["Real job photos and reviews from Silver Springs customers."],
 });
