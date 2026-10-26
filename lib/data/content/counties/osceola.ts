@@ -55,8 +55,8 @@ export const osceola = countyPage({
       "FWC places Osceola in its South Central bear area. (FWC's \"North (Osceola)\" bear group is named for the Osceola National Forest in north Florida, not this county.) Bears are FWC's responsibility.",
     ),
     faq(
-      "Does Osceola County Animal Services handle snakes and alligators?",
-      "Partly. Its officers respond to venomous snakes on outside property and to alligators 4 feet or less outside their habitat. Larger alligators go to FWC. Call 407-742-8000, extension 4.",
+      "Does Osceola County Animal Services handle snakes?",
+      "Partly. Its officers respond to venomous snakes on outside property. Call 407-742-8000, extension 4. For a snake inside your home, see [snake removal](/services/snake-removal/).",
     ),
     faq(
       "Who picks up a dead or injured animal on an Osceola County road?",

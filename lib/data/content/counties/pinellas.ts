@@ -74,10 +74,6 @@ export const pinellas = countyPage({
       "Who picks up sick or injured wildlife in Pinellas?",
       "The county's injured-wildlife page lists Pinellas County Animal Services, (727) 582-2600 option 4, for pickup and transport help. For manatees, dolphins, sea turtles, panthers and black bears, it points to FWC's Wildlife Alert Hotline, 888-404-3922.",
     ),
-    faq(
-      "Who takes alligator calls in Pinellas County?",
-      "FWC's Nuisance Alligator Hotline, 866-FWC-GATOR (866-392-4286). FWC generally treats an alligator as a nuisance if it's at least 4 feet long and threatens people, pets or property. Smaller ones in a pool or garage can be reported too.",
-    ),
   ],
   ctaHeading: "Wildlife problem in Pinellas?",
   ctaText: "Anywhere in Pinellas, call (727) 594-7705.",

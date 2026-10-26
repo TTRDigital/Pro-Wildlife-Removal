@@ -58,10 +58,6 @@ export const safetyHarbor = countyPage({
       "The city's Public Works, at 727-724-1550, for city rights-of-way. For one on your own land, our [dead animal removal](/services/dead-animal-removal/) page explains what we do.",
     ),
     faq(
-      "Will someone remove a small alligator from my Safety Harbor pond?",
-      "FWC runs the Nuisance Alligator Hotline (866-392-4286). The city's FAQ says FWC responds to alligators at least 4 feet long. We don't handle alligators.",
-    ),
-    faq(
       "Does Safety Harbor have rules about rat poison?",
       "The city's wildlife page warns there's no such thing as a safe rat poison and says never to use glue traps. More on Safety Harbor rats is in the section above.",
     ),

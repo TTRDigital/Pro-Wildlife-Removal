@@ -88,10 +88,6 @@ export const hillsborough = countyPage({
       "Who handles a stray or injured pet in Hillsborough?",
       "Hillsborough County Animal Control, (813) 744-5660. It transports sick or injured stray pets and investigates animal bites. Wild animals in your attic, walls or yard are a job for a wildlife company.",
     ),
-    faq(
-      "Is there a number for nuisance alligators in Hillsborough?",
-      "Yes: FWC's statewide hotline, 866-FWC-GATOR (866-392-4286). An alligator 4 feet or longer that threatens people, pets or property generally qualifies.",
-    ),
   ],
   ctaHeading: "Wildlife problem in Hillsborough?",
   ctaText: "Anywhere in Hillsborough, call (727) 594-7705.",

@@ -65,10 +65,6 @@ export const tampa = countyPage({
       "Not by exclusion, unless FWC issues a permit. Florida's bat maternity season runs April 16 to August 14, and exclusion is legal from August 15 to April 15. We can inspect and plan in the meantime.",
     ),
     faq(
-      "There's an alligator in my yard in Tampa. Who do I call?",
-      "FWC's Nuisance Alligator Hotline, 866-FWC-GATOR. Hillsborough County notes alligators are found throughout Florida, including Hillsborough County.",
-    ),
-    faq(
       "How fast can you get to me in Tampa?",
       "Same-day appointments are often available in Tampa. Call (727) 594-7705.",
     ),

@@ -75,10 +75,6 @@ export const pasco = countyPage({
       "Does Pasco Animal Services handle wildlife?",
       "Its emergency service covers domestic stray animals, such as loose dogs that have bitten someone or badly injured strays. For animals living in or under your home, call a wildlife removal company.",
     ),
-    faq(
-      "Who do I call about an alligator in Pasco?",
-      "FWC's Nuisance Alligator Hotline: 866-FWC-GATOR. Generally an alligator counts as a nuisance at 4 feet or longer when it threatens people, pets or property.",
-    ),
   ],
   ctaHeading: "Wildlife problem in Pasco?",
   ctaText: "Anywhere in Pasco, call (727) 594-7705.",

@@ -71,10 +71,6 @@ export const polk = countyPage({
       "Will Polk County Animal Control remove nuisance wildlife?",
       "No. The Sheriff's Office FAQ says Animal Control responds to wildlife only when there's a bite or attack, and doesn't respond to nuisance wildlife calls or remove trapped nuisance wildlife.",
     ),
-    faq(
-      "What about an alligator in my Polk County lake or pool?",
-      "The Sheriff's Office refers alligator calls to FWC's hotline, 1-866-392-4286 (866-FWC-GATOR).",
-    ),
   ],
   ctaHeading: "Wildlife problem in Polk County?",
   ctaText: "Anywhere in Polk County, call (727) 594-7705.",

@@ -15785,7 +15785,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Many homeowners choose quarterly pest service to reduce insect and rodent risk. However, honest local technicians sometimes advise targeted service only when evidence supports it. If you live near wetlands or dense canopy cover, routine exterior checks reduce the chance that small populations escalate during summer.",
+      "text": "That's a question for a pest control company. Pro Wildlife Removal is a wildlife removal company and doesn't do general pest control. What we do is remove animals like rats, raccoons, squirrels and bats and seal the openings they use. If you live near wetlands or dense canopy cover, checking the roofline and vents each spring helps catch new gaps early.",
       "marks": []
      }
     ],

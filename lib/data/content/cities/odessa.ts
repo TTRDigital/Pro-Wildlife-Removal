@@ -57,10 +57,6 @@ export const odessa = countyPage({
       "Both, depending on the address. The Census Odessa area is entirely in Pasco, but some Odessa mailing addresses are in Hillsborough. County services, including animal services, follow the county your property is in.",
     ),
     faq(
-      "Who do I call about an alligator in an Odessa lake?",
-      "FWC's Nuisance Alligator Hotline, 866-FWC-GATOR (866-392-4286). We don't handle alligators.",
-    ),
-    faq(
       "Can you get rats out of a barn or shed in Odessa?",
       "Yes. Outbuildings need the same approach as a house: find the gaps, close them, and trap the rats inside. See [rat removal](/services/rat-removal/).",
     ),
