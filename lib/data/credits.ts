@@ -86,6 +86,14 @@ export const soundCredits: ClipCredit[] = [
     date: "Undated",
   },
   {
+    clip: "Squirrel chattering",
+    shows: "A red squirrel chattering, Yellowstone National Park, Wyoming",
+    author: "U.S. National Park Service (Natural Sounds)",
+    source: "https://www.nps.gov/subjects/sound/sounds-squirrel.htm",
+    license: "Public domain (U.S. federal work)",
+    date: "Undated",
+  },
+  {
     clip: "Raccoon kit calling",
     shows: "A baby raccoon calling for its mother",
     author: "jnargus",
