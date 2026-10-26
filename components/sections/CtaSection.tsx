@@ -3,20 +3,18 @@ import type { CtaSection as Cta, Rich, SiteSettings } from "@/lib/types";
 import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
-import { LeadForm } from "@/components/forms/LeadForm";
 
 const para = (text: string): Rich => [{ _type: "block", _key: "p", style: "normal", markDefs: [], children: [{ _type: "span", _key: "s", text, marks: [] }] }];
 
 /**
  * Navy closing band (pw-navy + pw-cta-grid): heading with a blue phrase,
- * short text, the phone number large, the service area, and a photo or
- * the estimate form on the right.
+ * short text, the phone number large, the service area, and a photo or a
+ * call card on the right (the client takes requests by phone only).
  */
-export function CtaSection({ section, settings, form = false }: { section?: Partial<Cta>; settings: SiteSettings; form?: boolean }) {
+export function CtaSection({ section, settings }: { section?: Partial<Cta>; settings: SiteSettings }) {
   const heading = section?.heading || settings.defaultCta.heading;
   const highlight = section?.heading ? section.highlight : settings.defaultCta.highlight;
   const text = section?.text?.length ? section.text : section?.heading ? [] : para(settings.defaultCta.text);
-  const showForm = form || section?.showForm || !section?.image;
   return (
     <section id="estimate" className="section on-navy bg-navy">
       <div className="wrap grid items-center gap-8 min-[900px]:grid-cols-[55fr_45fr] min-[900px]:gap-12">
@@ -29,17 +27,19 @@ export function CtaSection({ section, settings, form = false }: { section?: Part
           </a>
           <p className="text-on-navy">{section?.area || settings.serviceAreaText}</p>
         </div>
-        {showForm ? (
-          <div className="rounded-[var(--radius-card)] bg-white p-6 shadow-[0_24px_60px_-24px_rgb(0_0_0/0.5)] sm:p-8" data-reveal>
-            <h3 className="mb-1 font-display text-h3 font-semibold text-navy">Request an inspection</h3>
-            <p className="mb-6 text-[0.95rem]">Tell us what you are seeing or hearing and we will get back to you.</p>
-            <LeadForm phone={settings.phone} phoneHref={settings.phoneHref} businessName={settings.name} compact />
+        {!section?.image ? (
+          <div className="rounded-[var(--radius-card)] bg-white p-6 text-center shadow-[0_24px_60px_-24px_rgb(0_0_0/0.5)] sm:p-8" data-reveal>
+            <h3 className="font-display text-h3 font-semibold text-navy">Call us</h3>
+            <a href={settings.phoneHref} data-track="click_to_call" className="mt-6 inline-flex min-h-14 w-full items-center justify-center gap-2.5 rounded-full bg-blue px-6 font-display text-lg font-semibold text-white hover:bg-blue-deep">
+              <Phone className="h-5 w-5 flex-none" strokeWidth={2} aria-hidden="true" />
+              Call {settings.phone}
+            </a>
           </div>
-        ) : section?.image ? (
+        ) : (
           <div className="relative h-[260px] overflow-hidden rounded-[var(--radius-card)] min-[900px]:h-[400px]" data-reveal>
             <Photo image={section.image} sizes="(min-width: 900px) 45vw, 100vw" />
           </div>
-        ) : null}
+        )}
       </div>
     </section>
   );

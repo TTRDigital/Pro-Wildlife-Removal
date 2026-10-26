@@ -43,7 +43,7 @@ export async function Sections({ sections, ids, closing = true, reviews = true }
       {reviews && !hasReviews && !hasCta ? (
         <ReviewsSection section={{ _type: "reviewsSection", _key: "reviews", tone: lastTone === "tint" ? "white" : "tint" }} testimonials={testimonials} settings={settings} />
       ) : null}
-      {closing && !hasCta ? <CtaSection settings={settings} form /> : null}
+      {closing && !hasCta ? <CtaSection settings={settings} /> : null}
     </>
   );
 

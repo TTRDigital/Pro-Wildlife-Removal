@@ -23,14 +23,13 @@ export async function GET() {
   const text = [
     `# ${s.name}`,
     "",
-    // No street address or licence claim until the client confirms them (the address may be a mailbox).
+    // No street address (the client's wish) and no licence claim: described by its service area.
     `> Wildlife removal and remediation company ${clean(s.serviceAreaText).replace(/^Serving/, "serving")}`,
     "",
     `- Phone: ${s.phone}${s.tollFree ? ` (toll free ${s.tollFree})` : ""}`,
     `- Email: ${s.email}`,
-    `- Hours: ${s.hours.map((h) => `${clean(h.label)} ${clean(h.value)}`).join("; ")}`,
     ...(s.googleRating && s.reviewCount ? [`- Google rating: ${s.googleRating} from ${s.reviewCount} reviews`] : []),
-    `- Free inspection requests: ${absoluteUrl("/contact-us/")}`,
+    `- Requests: by phone only, call ${s.phone} (${absoluteUrl("/contact-us/")})`,
     "",
     "## Services",
     "",

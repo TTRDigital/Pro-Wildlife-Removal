@@ -174,7 +174,6 @@ async function build() {
     phone: s.phone,
     tollFree: s.tollFree,
     email: s.email,
-    address: s.address,
     hours: s.hours.map((h) => ({ _type: "hoursRow", _key: key(), ...h })),
     announcement: s.announcement,
     serviceAreaText: s.serviceAreaText,

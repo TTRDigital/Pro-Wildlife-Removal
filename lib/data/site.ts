@@ -11,12 +11,9 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   phone: "(727) 594-7705",
   tollFree: "1-844-ANIMAL4",
   email: "customerservice@prowildliferemoval.net",
-  address: { street: "1324 Seven Springs Blvd., Suite 178", city: "Trinity", region: "FL", postalCode: "34655" },
-  hours: [
-    { label: "Monday – Friday", value: "8AM – 7PM" },
-    { label: "Saturday", value: "8AM – 2PM" },
-    { label: "Sunday", value: "Closed" },
-  ],
+  // The client: open 24/7, and no street address anywhere (Oct 25, 2026). The business is described by its service area.
+  // Hours are not shown on the site or in the structured data until the client confirms them (Ben, Oct 26, 2026).
+  hours: [{ label: "Open", value: "24 hours a day, 7 days a week" }],
   announcement: "Serving Tampa Bay & West-Central Florida",
   serviceAreaText: "Serving Tampa, Hillsborough County, Hernando County, Pasco County, Pinellas County and surrounding West-Central Florida communities.",
   license: "[PLACEHOLDER: Florida license / FWC permit number]",
@@ -42,7 +39,7 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
     { county: "Polk County", phone: "863-208-5050", href: "/about-us/service-area/wildlife-removal-polk-county/" },
     { county: "Manatee County", phone: "727-594-7705" },
   ],
-  headerCta: { label: "Request an Inspection", href: "/contact-us/" },
+  headerCta: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   // From the home page's closing section on the live site.
   defaultCta: {
     heading: "Need Help? Reach Out To Us.",

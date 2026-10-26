@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 /*
- * Hosted on Vercel. Every page is still prerendered at build time
- * (generateStaticParams); the only server code is the form handler at
- * app/api/lead/route.ts.
+ * Hosted on Vercel. Every page is prerendered at build time
+ * (generateStaticParams); the only server code is the draft preview at
+ * app/api/preview. There are no forms: the client takes requests by phone.
  *
  * - images: WebP copies made before the build by scripts/optimize-images.mjs,
  *   picked by lib/image-loader.ts (no Vercel image optimization needed)
@@ -41,6 +41,8 @@ const oldUrls: [string, string][] = [
   ["/category/:path*", "/blog/"],
   ["/tag/:path*", "/blog/"],
   ["/author/:path*", "/blog/"],
+  // The client does not do mole removal (Oct 25, 2026): the page is gone.
+  ["/services/mole-control", "/services/"],
 ];
 
 // Third parties: Google Tag Manager / Analytics / Ads, Microsoft Clarity, Sanity images,

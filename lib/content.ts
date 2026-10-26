@@ -43,14 +43,16 @@ const PAGE = `design, ${HERO}, ${SECTIONS}, ${SEO}`;
 
 export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
   const cms = await sanityFetch<Partial<SiteSettings>>(
-    `*[_id == "siteSettings"][0]{ name, phone, tollFree, email, address, hours[]{ label, value }, announcement, serviceAreaText, license, googleRating, reviewCount, reviewsUrl, mapEmbedUrl,
+    `*[_id == "siteSettings"][0]{ name, phone, tollFree, email, hours[]{ label, value }, announcement, serviceAreaText, license, googleRating, reviewCount, reviewsUrl, mapEmbedUrl,
       social[]{ network, href }, countyLines[]{ county, phone, href }, headerCta{ label, href }, defaultCta{ heading, highlight, text }, "logo": logo${IMG} }`,
     {},
     ["siteSettings"],
   );
   const s = merge(fallbackSettings, cms);
+  // One phone number for the whole site (Kia, Oct 26, 2026): no county lines and no toll-free number,
+  // whatever the CMS holds, so every template shows and calls the main line only.
   // tel: link always follows the displayed phone number.
-  return { ...s, phoneHref: telHref(s.phone) };
+  return { ...s, countyLines: [], tollFree: undefined, phoneHref: telHref(s.phone) };
 });
 
 export function telHref(phone: string) {

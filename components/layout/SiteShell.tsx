@@ -7,6 +7,7 @@ import { images } from "@/lib/data/images";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Header, type NavItem } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { MobileCallBar } from "@/components/layout/MobileCallBar";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { ChatWidget } from "@/components/layout/ChatWidget";
 import { Analytics } from "@/components/layout/Analytics";
@@ -14,9 +15,8 @@ import { ReviewBar } from "@/components/layout/ReviewBar";
 import { PreviewBanner } from "@/components/layout/PreviewBanner";
 import { isPreview } from "@/lib/sanity/fetch";
 import { HydrationSignal } from "@/components/layout/HydrationSignal";
-import { AttributionCapture } from "@/components/forms/AttributionCapture";
 
-/** Same menu as the live site: About (about, how we work, blog), Service Area (counties), Services (removal pages). */
+/** One menu for desktop and phones: About (about, how we work, blog), Service Area (counties, then cities), Services (removal pages). */
 function buildNav(services: Service[], locations: Location[]): NavItem[] {
   return [
     { label: "Home", href: "/" },
@@ -33,8 +33,11 @@ function buildNav(services: Service[], locations: Location[]): NavItem[] {
       label: "Service Area",
       href: "/about-us/service-area/",
       children: [
-        ...locations.filter((l) => l.kind === "county" || l.kind === "region").map((l) => ({ label: l.name, href: `/${l.path}/` })),
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        ...locations.filter((l) => l.kind === "county" || l.kind === "region").map((l) => ({ label: l.name, href: `/${l.path}/`, group: "Counties" })),
+        ...locations
+          .filter((l) => l.kind === "city")
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((l) => ({ label: l.name, href: `/${l.path}/`, group: "Cities" })),
         { label: "All service areas", href: "/about-us/service-area/" },
       ],
     },
@@ -62,9 +65,10 @@ export async function SiteShell({ children }: { children: ReactNode }) {
         {children}
       </main>
       <Footer settings={settings} services={services} />
+      {/* The call bar on phones, on every page (the client takes requests by phone only). */}
+      <MobileCallBar phone={settings.phone} phoneHref={settings.phoneHref} />
       <BackToTop />
       <ChatWidget />
-      <AttributionCapture />
       <HydrationSignal />
       <Analytics preview={preview} />
       {preview ? <PreviewBanner /> : null}

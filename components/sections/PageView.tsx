@@ -1,9 +1,9 @@
 import type { Cta, Hero, PageContent, SiteSettings } from "@/lib/types";
 import { getLocations, getPosts, getServices, getTestimonials } from "@/lib/content";
+import { callCtas } from "@/lib/cta";
 import { webPageSchema } from "@/lib/schema";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { MobileCallBar } from "@/components/layout/MobileCallBar";
 import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@/components/old/Classic";
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
@@ -16,7 +16,7 @@ export function heroCtas(hero: Hero, settings: SiteSettings, primary?: Cta): Cta
   const main = primary ?? own.find((c) => !c.href.startsWith("tel:")) ?? settings.headerCta;
   const tel = own.find((c) => c.href.startsWith("tel:"));
   const phone = tel ? { label: /\d{3}.*\d{4}/.test(tel.label) ? tel.label : settings.phone, href: tel.href } : { label: settings.phone, href: settings.phoneHref };
-  return [main, phone];
+  return callCtas([main, phone], settings.phone, settings.phoneHref);
 }
 
 async function oldDesignData(settings: SiteSettings): Promise<ClassicData> {
@@ -61,7 +61,6 @@ export async function PageView({
         <p className="bg-navy py-2.5 text-center font-display text-xs font-medium tracking-[0.4px] text-white">{settings.announcement}</p>
         <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} />
         <Sections sections={page.sections} ids={ids} closing={closing} />
-        <MobileCallBar phone={settings.phone} phoneHref={settings.phoneHref} />
       </>
     );
   }

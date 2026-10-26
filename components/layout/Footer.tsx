@@ -4,11 +4,10 @@ import { Phone } from "lucide-react";
 import type { Service, SiteSettings } from "@/lib/types";
 import { SocialIcon } from "@/components/ui/SocialIcon";
 
-/** The live site's footer: #222 band with the framed logo, hours and service links, then the bar with social links, legal links and the phone number. */
+/** The live site's footer: #222 band with the framed logo, hours, service area and service links, then the bar with social links, legal links and the phone number. */
 export function Footer({ settings, services }: { settings: SiteSettings; services: Service[] }) {
   const removal = services.filter((s) => s.group === "removal");
   const half = Math.ceil(removal.length / 2);
-  const a = settings.address;
   const legal = [
     { label: "Terms of Service", href: "/terms-of-service/" },
     { label: "Privacy Policy", href: "/privacy-policy/" },
@@ -24,19 +23,9 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
           </Link>
         </div>
         <div>
-          <h2 className="mb-5 font-old text-lg text-white">Hours of Operation</h2>
-          <ul className="grid gap-1 font-sans text-base">
-            {settings.hours.map((h) => (
-              <li key={h.label}>
-                {h.label}: {h.value}
-              </li>
-            ))}
-          </ul>
-          <address className="mt-4 font-sans text-sm leading-relaxed not-italic">
-            {a.street}
-            <br />
-            {a.city}, {a.region} {a.postalCode}
-          </address>
+          {/* No street address and no hours label (the client's wishes): the service area instead. */}
+          <h2 className="mb-5 font-old text-lg text-white">Service Area</h2>
+          <p className="font-sans text-sm leading-relaxed">{settings.serviceAreaText}</p>
         </div>
         <nav aria-label="Services" className="sm:col-span-2 lg:col-span-1">
           <h2 className="mb-5 font-old text-lg text-white">Services</h2>

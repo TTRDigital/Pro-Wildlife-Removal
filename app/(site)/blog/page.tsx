@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getPage, getPosts } from "@/lib/content";
+import { getPage, getPosts, getSiteSettings } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { webPageSchema } from "@/lib/schema";
 import { formatDate } from "@/lib/text";
@@ -17,7 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 /** Blog index as on the live site: grey page, white two-column post cards with "Read more", author and date. All posts on one page. */
 export default async function BlogIndex() {
-  const [page, posts] = await Promise.all([getPage("blog"), getPosts()]);
+  const [page, posts, settings] = await Promise.all([getPage("blog"), getPosts(), getSiteSettings()]);
   return (
     <>
       <JsonLd data={webPageSchema(PATH, page.seo.title, page.seo.description, [])} />
@@ -33,6 +33,11 @@ export default async function BlogIndex() {
         <div className="o-wrap">
           <p className="text-center font-old text-[clamp(1.75rem,1.2rem+1.8vw,2.8rem)] font-semibold leading-[1.15] text-black">{page.seo.title}</p>
           <h1 className="mt-8 text-center font-old text-[clamp(2.25rem,1.6rem+2vw,3.75rem)] font-semibold leading-none text-[#929292]">{page.hero.heading}</h1>
+          <p className="mt-8 text-center">
+            <a href={settings.phoneHref} data-track="click_to_call" className="o-btn">
+              Call {settings.phone}
+            </a>
+          </p>
           <ul className="mt-14 grid gap-8 md:grid-cols-2">
             {posts.map((p, i) => (
               <li key={p.slug} className="relative flex flex-col overflow-hidden rounded-[3px] bg-white shadow-[0_0_10px_rgb(0_0_0/0.15)]">

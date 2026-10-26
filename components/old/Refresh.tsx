@@ -28,6 +28,8 @@ import { richText } from "@/lib/text";
 import { locationGroups } from "@/components/sections/LocationsSection";
 import { refreshVars, sectionIds } from "./theme";
 import type { ClassicData } from "./Classic";
+import { getSiteSettings } from "@/lib/content";
+import { callCtas } from "@/lib/cta";
 
 /*
  * The 2025 template used by the "-control" service pages, the services and
@@ -88,8 +90,10 @@ function PillButton({ cta, className = "" }: { cta: Cta; className?: string }) {
 }
 
 /** Phone pill under a text block (the line before it, e.g. "Call For Your Free Estimate", is part of the text). */
-function CallRow({ ctas, center }: { ctas?: Cta[]; center?: boolean }) {
-  if (!ctas?.length) return null;
+async function CallRow({ ctas: given, center }: { ctas?: Cta[]; center?: boolean }) {
+  const settings = await getSiteSettings();
+  const ctas = callCtas(given, settings.phone, settings.phoneHref);
+  if (!ctas.length) return null;
   return (
     <div className={`mt-8 flex flex-wrap items-center gap-x-8 gap-y-4 ${center ? "justify-center" : ""}`}>
       {ctas.map((c, i) => (
@@ -342,8 +346,8 @@ function CtaBox({ s, id, settings }: { s: CtaSection; id: string; settings: Site
   );
 }
 
+/** Call-only contact block: no street address and no hours label (the client's wishes). */
 function Contact({ s, id, settings }: { s: ContactSection; id: string; settings: SiteSettings }) {
-  const a = settings.address;
   return (
     <Band id={id} style={{ ...s.style, bg: "white" }} bg="white">
       <div className="grid items-start gap-8 rounded-[20px] bg-[#f3faff] p-6 md:p-10 lg:grid-cols-2">
@@ -352,7 +356,7 @@ function Contact({ s, id, settings }: { s: ContactSection; id: string; settings:
           <address className="r-rich mt-4 not-italic">
             {settings.name}
             <br />
-            {a.street}, {a.city}, {a.region} {a.postalCode}
+            {settings.serviceAreaText}
             <br />
             <a href={settings.phoneHref} data-track="click_to_call">
               {settings.phone}
@@ -362,24 +366,10 @@ function Contact({ s, id, settings }: { s: ContactSection; id: string; settings:
               {settings.email}
             </a>
           </address>
-          <h3 className="r-h2 mt-8 !text-[clamp(1.375rem,1.1rem+0.6vw,1.75rem)]">Office Hours</h3>
-          <dl className="r-rich mt-3 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
-            {settings.hours.map((h) => (
-              <div key={h.label} className="contents">
-                <dt className="font-semibold">{h.label}:</dt>
-                <dd>{h.value}</dd>
-              </div>
-            ))}
-          </dl>
           <div className="mt-8">
             <PillButton cta={{ label: settings.phone, href: settings.phoneHref }} />
           </div>
         </div>
-        {s.map && settings.mapEmbedUrl ? (
-          <div className="relative h-[320px] overflow-hidden rounded-[16px] lg:h-full lg:min-h-[380px]">
-            <iframe title={`Map of ${settings.name}`} src={settings.mapEmbedUrl} className="absolute inset-0 h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-          </div>
-        ) : null}
       </div>
     </Band>
   );
