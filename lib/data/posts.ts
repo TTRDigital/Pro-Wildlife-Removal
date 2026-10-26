@@ -13534,7 +13534,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Effective raccoon resolution is a three-part process: inspection, removal, and exclusion. Professionals start with a full inspection to find all entry points and to determine whether animals are dependent juveniles or adults. Removal methods respect local wildlife regulations and focus on humane extraction and relocation when required.",
+      "text": "Effective raccoon resolution is a three-part process: inspection, removal, and exclusion. Professionals start with a full inspection to find all entry points and to determine whether animals are dependent juveniles or adults. Removal methods respect local wildlife regulations and focus on humane extraction under Florida's release rules.",
       "marks": []
      }
     ],
@@ -16924,7 +16924,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " page so you can get a prompt, itemized proposal and a warranty on the work.",
+      "text": " page so you can get an itemized proposal.",
       "marks": []
      }
     ],
@@ -23490,7 +23490,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Expect the following sequence when hiring a reputable remediation crew. Each step reduces risk to occupants and to technicians and increases the chance you will clear odors and biological hazards permanently.",
+      "text": "Expect the following sequence when hiring a reputable remediation crew. Each step reduces risk to occupants and to technicians and helps clear odors and biological hazards.",
       "marks": []
      }
     ],
@@ -23509,7 +23509,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Photographs, mapping of guano piles, identification of entry points, and HVAC connection assessment. This is when we confirm whether contaminated ducts or air handlers require HVAC intervention.",
+      "text": " Photographs, mapping of guano piles, identification of entry points, and HVAC connection assessment. This is when the inspection shows whether contaminated ducts or air handlers need an HVAC contractor.",
       "marks": []
      }
     ],
@@ -23800,7 +23800,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Insulation replacement is commonly recommended when droppings have soaked insulation or when microbial growth is visible. Reddit threads and our site cases show that in-place spraying sometimes masks odors and later necessitates replacement. Ductwork that has been contaminated or chewed should be inspected and cleaned or replaced by a licensed HVAC contractor to prevent re-circulation of contaminants.",
+      "text": "Insulation replacement is commonly recommended when droppings have soaked insulation or when microbial growth is visible. Reddit threads show that in-place spraying sometimes masks odors and later necessitates replacement. Ductwork that has been contaminated or chewed should be inspected and cleaned or replaced by a licensed HVAC contractor to prevent re-circulation of contaminants.",
       "marks": []
      }
     ],
@@ -24094,7 +24094,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " page and we will produce a written scope, clearance plan, and a local cost estimate tailored to your property.",
+      "text": " page and we will document the entry points and give you a local estimate for exclusion.",
       "marks": []
      }
     ],
@@ -26355,7 +26355,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When you are ready, ask for an itemized estimate and a staged plan so you can budget and avoid repeat visits. If you want us to review photos or schedule an inspection, we can connect you with local specialists who document findings and coordinate the right trades.",
+      "text": "When you are ready, ask for an itemized estimate and a staged plan so you can budget and avoid repeat visits. If you want us to review photos or schedule an inspection, we can inspect the attic and document what we find for the trades you hire.",
       "marks": []
      }
     ],
@@ -38176,7 +38176,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " is a warning you should not ignore. The risk to health and home increases the longer contamination remains. Start with a professional inspection to confirm active roosts, assess HVAC exposure, and plan exclusion and cleanup. For a trusted assessment and integrated exclusion, cleanup, and insulation guidance, contact our team via ",
+      "text": " is a warning you should not ignore. The risk to health and home increases the longer contamination remains. Start with a professional inspection to confirm active roosts, assess HVAC exposure, and plan exclusion and cleanup. For an inspection and an exclusion plan, contact our team via ",
       "marks": []
      },
      {
