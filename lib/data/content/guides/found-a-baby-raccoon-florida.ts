@@ -17,19 +17,19 @@ export const foundABabyRaccoon: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** leave it alone and watch from a distance. FWC says baby animals are rarely orphaned; the mother is often nearby. If it's hurt or clearly abandoned, call a wildlife rehabilitator. You can't keep it: Florida never allows found native animals as pets. Family in your attic? Call (727) 594-7705.",
+      "**The short answer:** leave it alone and watch from a distance. FWC says baby animals are rarely orphaned; the mother is often nearby. If it's hurt or clearly abandoned, call a wildlife rehabilitator. You can't keep it: Florida never allows injured, orphaned or abandoned native animals as pets. Family in your attic? Call (727) 594-7705.",
     ),
     h3("Is it really an orphan?"),
     p(
       `FWC says that, generally, a baby animal found on its own should be left alone. Animals are rarely actually orphaned: the parent may be searching for food or watching from a distance. It asks people not to pick up baby animals or take them out of their surroundings ([FWC](${FWC_INJ})).`,
     ),
     p(
-      `Timing helps. UF/IFAS says Florida raccoon litters are generally born in March and April, with three or four young on average ([UF/IFAS](${UW033})). A young raccoon seen in spring or early summer usually has a mother close by.`,
+      `Timing helps. UF/IFAS says Florida raccoon litters are generally born in March and April, with three or four young on average ([UF/IFAS](${UW033})). A young raccoon seen in spring or early summer often has a mother close by.`,
     ),
     h3("When to call for help"),
     ul(
       `**It's injured,** visibly sick, or in immediate danger, such as in a road or with a pet.`,
-      `**The mother is known to be dead,** or the baby has been alone and calling for a long time.`,
+      `**You know the mother is dead,** or you're not sure. A wildlife rehabilitator can tell you whether to step in.`,
       `**Who to call:** FWC says to note where the animal is and contact a wildlife rehabilitator in your area, or the FWC regional office if you can't reach one. FWC keeps a list of permitted rehabilitators by county ([FWC](${FWC_INJ})).`,
     ),
     h3("Why you can't keep it"),

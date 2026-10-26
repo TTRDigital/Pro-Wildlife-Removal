@@ -3,7 +3,10 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
 import { faq, h3, p, rich, ul } from "../pt.ts";
 
 /* Guide (Ben's plan, #4): can you kill or trap a squirrel in Florida? What the law allows under the nuisance-wildlife rule. Ben: no "how to kill" advice. Queries: "can you kill squirrels in florida", "can you kill possums". */
-const FWC_FAQ = "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/";
+const FWC_FAQ = "https://myfwc.com/conservation/you-conserve/wildlife/faqs/";
+const RULE = "https://www.flrules.org/gateway/ruleNo.asp?id=68A-9.010";
+const NONGAME = "https://myfwc.com/hunting/regulations/nongame/";
+const SOUTHERN = "https://myfwc.com/wildlifehabitats/profiles/mammals/land/southern-fox-squirrel/";
 const FWC_GRAY = "https://myfwc.com/wildlifehabitats/profiles/mammals/land/squirrels/";
 const FWC_FOX = "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/";
 const FWC_SEASONS = "https://myfwc.com/hunting/season-dates/";
@@ -18,7 +21,7 @@ export const floridaSquirrelRules: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** for a gray squirrel causing damage, yes, within limits. FWC lets property owners remove nuisance wildlife with live traps, and traps must be checked every 24 hours. A trapped squirrel can only be released on your own property or on permitted land. Fox squirrels are protected from hunting statewide. Call (727) 594-7705 for help.",
+      "**The short answer:** for a gray squirrel causing damage, yes, within limits. FWC lets property owners remove nuisance wildlife with live traps, and traps must be checked every 24 hours. A trapped squirrel can only be released on your own property or on permitted land. Fox squirrels can't be trapped or taken at all without FWC authorization. Call (727) 594-7705.",
     ),
     h3("When a squirrel counts as nuisance wildlife"),
     p(
@@ -29,20 +32,20 @@ export const floridaSquirrelRules: Post = {
       `**No permit for most cases.** FWC says property owners, and trappers they hire, don't need to notify FWC or get its approval to take most nuisance wildlife from private property ([FWC](${FWC_FAQ})).`,
       "**Live traps,** inspected at least once every 24 hours. Any other animal caught has to be let go on the spot.",
       "**A decision within 24 hours.** A live-caught animal has to be released legally or humanely euthanized within 24 hours of capture or trap inspection.",
-      "**Firearms only where allowed,** in daylight. FWC notes that many cities and residential areas prohibit discharging a firearm, so check with local law enforcement first.",
+      "**Firearms only where allowed,** in daylight. FWC notes that firing a gun may be prohibited in some cities and residential areas, so check with local law enforcement first.",
     ),
     h3("Where a trapped squirrel can go"),
     p(
-      `Gray squirrels are native, so they can be released, but only two ways, FWC says: on the property where they were caught (one contiguous piece of land), or on land of at least 40 contiguous acres in the same county, with the landowner's written permission in hand ([FWC](${FWC_FAQ})). Dropping one at a park or on a road out of town isn't legal. Our [Florida wildlife trapping rules](/blog/florida-wildlife-trapping-rules/) guide covers the details.`,
+      `Gray squirrels are native, so they can be released, but only two ways, FWC says: on the property where they were caught (one contiguous piece of land), or on land of at least 40 contiguous acres in the same county, with the landowner's written permission in hand ([FWC](${FWC_FAQ})). Dropping one at a park or along a road without the landowner's written permission isn't legal. Our [Florida wildlife trapping rules](/blog/florida-wildlife-trapping-rules/) guide covers the details.`,
     ),
     p(TRAP_RULES_2026),
     h3("Fox squirrels are different"),
     p(
-      `FWC says fox squirrels are protected from hunting throughout Florida, and two of the four subspecies in the state are listed: Sherman's fox squirrel, a species of special concern in central and northeastern Florida, and the threatened Big Cypress fox squirrel in the south ([FWC](${FWC_FOX})). If the squirrel in your attic is a big, black-faced fox squirrel, get advice before doing anything.`,
+      `FWC says fox squirrels may not be taken or pursued, and its rule (68A-29.002) covers their young and nests too, so the nuisance-wildlife rule above doesn't apply to them without FWC authorization ([FWC](${NONGAME})). The Big Cypress fox squirrel in southwest Florida is state-designated Threatened. The southern fox squirrel, once called Sherman's fox squirrel and found in Central Florida, came off the Species of Special Concern list in 2018 but is still under FWC's conservation guidelines ([FWC](${SOUTHERN})). If the squirrel in your attic is a big, black-faced fox squirrel, get advice before doing anything.`,
     ),
     h3("What about hunting season?"),
     p(
-      `Gray squirrels are also a game species, with FWC hunting rules and bag limits ([FWC](${FWC_SEASONS})). Those rules are about hunting, which needs a license and isn't the same thing as dealing with a squirrel in your house.`,
+      `Gray squirrels are also a game species, with FWC hunting rules and bag limits ([FWC](${FWC_SEASONS})). Those rules are about hunting, which generally needs a license and isn't the same thing as dealing with a squirrel in your house.`,
     ),
     h3("The part that actually fixes it"),
     p(
@@ -56,15 +59,15 @@ export const floridaSquirrelRules: Post = {
     ),
     faq(
       "Can I relocate a squirrel to a park?",
-      "No. FWC allows release only on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission.",
+      "Not without written permission. FWC allows release only on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission in hand.",
     ),
     faq(
       "Are fox squirrels protected in Florida?",
-      "Yes. FWC says fox squirrels are protected from hunting statewide, and Sherman's fox squirrel is listed as a species of special concern.",
+      "Yes. FWC says fox squirrels may not be taken or pursued in Florida without its authorization. The southern fox squirrel, once called Sherman's fox squirrel, was removed from the Species of Special Concern list in 2018 but stays under FWC's conservation guidelines, and the Big Cypress fox squirrel is state-designated Threatened.",
     ),
     faq(
       "Do the trapping rules change in 2026?",
-      "Yes. FWC's new trapping rules start December 31, 2026, with registration and training for most trappers and a 12-hour limit for animals taken off site. Homeowners using one regular-size cage trap on their own land are exempt.",
+      "Yes. FWC's new trapping rules start December 31, 2026, with registration and training for most trappers and a 12-hour limit for animals taken off site. Homeowners using one regular-size cage trap on their own land are exempt from registration, training and reporting when trapping nuisance or non-native wildlife.",
     ),
   ],
   seo: {
@@ -75,7 +78,10 @@ export const floridaSquirrelRules: Post = {
   sources: [
     { title: "FWC: FAQs, nuisance wildlife (68A-9.010 definition; live traps or snares, or firearms in daylight where allowed; traps inspected every 24 hours; firearm discharge may be prohibited in cities; no FWC notice for most nuisance wildlife; release or euthanize within 24 hours; native release on the property or 40+ contiguous acres in the same county with written permission)", url: FWC_FAQ },
     { title: "FWC: Eastern gray squirrel profile (native; active during the day; Florida also has fox squirrels and southern flying squirrels)", url: FWC_GRAY },
-    { title: "FWC: Fox squirrel profile (protected from hunting throughout the state; Sherman's fox squirrel species of special concern; Big Cypress fox squirrel threatened)", url: FWC_FOX },
+    { title: "FWC: Fox squirrel profile (Big Cypress fox squirrel state-designated Threatened)", url: FWC_FOX },
+    { title: "FWC: Southern fox squirrel profile (Imperiled; removed as a Species of Special Concern in 2018)", url: SOUTHERN },
+    { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued; rules 68A-29.002 and 68A-27.003)", url: NONGAME },
+    { title: "Florida Administrative Code 68A-9.010, Taking nuisance wildlife (non-target wildlife released immediately at the capture site)", url: RULE },
     { title: "FWC: Hunting season dates (gray squirrel bag and possession limits)", url: FWC_SEASONS },
     TRAP_RULES_SOURCE,
   ],
