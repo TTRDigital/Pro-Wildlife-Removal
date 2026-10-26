@@ -2102,7 +2102,7 @@ const migratedPages = {
       ]
      },
      {
-      "title": "Removal, Exclusion, & Cleanup",
+      "title": "Removal and Exclusion",
       "text": [
        {
         "_type": "block",
@@ -2110,7 +2110,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We specialize in Tampa wildlife removal and wildlife exclusion services, which involve removing nuisance wildlife while securing your property to prevent re-entry. We will seal entry points and install barriers to ensure lasting protection.",
+          "text": "We specialize in Tampa wildlife removal and wildlife exclusion services, which involve removing nuisance wildlife while securing your property to prevent re-entry. We seal the entry points so animals can't get back in the same way.",
           "marks": []
          }
         ],
