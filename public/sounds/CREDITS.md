@@ -21,3 +21,13 @@ domain, CC0 or CC BY only; CC BY sounds are also credited on the site's /credits
 - Date: 23 May 2014
 - License: CC BY 3.0 (Creative Commons Attribution 3.0), credited on /credits/
 - Edit: the 1 s call repeated with short pauses to 5 s, faded out, level-matched, mono 64 kbps MP3
+
+## squirrel.mp3
+
+- Source page: https://www.nps.gov/subjects/sound/sounds-squirrel.htm
+  (file: https://www.nps.gov/nps-audiovideo/legacy/mp3/nri/avElement/nri-SquirrelYELL.mp3)
+- What it is: a red squirrel chattering, recorded in Yellowstone National Park (a close relative of
+  Florida's gray squirrel; the card's own text is about gray squirrels' daytime noise)
+- Author: U.S. National Park Service, Natural Sounds
+- License: Public domain (work of a U.S. federal agency)
+- Edit: the 4 s recording faded in and out, level-matched, mono 64 kbps MP3
