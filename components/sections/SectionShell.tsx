@@ -24,7 +24,12 @@ export function SectionHeader({ eyebrow, heading, highlight, intro, align = "cen
 /** Orange is kept for calls: any other link in a button row is the quiet outline button. */
 export async function CtaRow({ ctas: given, align = "center", className = "mt-12" }: { ctas?: Cta[]; align?: "center" | "left"; className?: string }) {
   const settings = await getSiteSettings();
-  const ctas = callCtas(given, settings.phone, settings.phoneHref);
+  // One number for the whole site: any tel button (an old county line) calls the main number.
+  const ctas = callCtas(
+    given?.map((c) => (c.href.startsWith("tel:") ? { ...c, label: `Call ${settings.phone}`, href: settings.phoneHref } : c)),
+    settings.phone,
+    settings.phoneHref,
+  );
   if (!ctas.length) return null;
   return (
     <div className={`flex flex-col gap-4 sm:flex-row sm:flex-wrap ${align === "center" ? "sm:justify-center" : ""} ${className}`}>

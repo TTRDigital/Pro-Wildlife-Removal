@@ -47,21 +47,6 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
         </li>
       </ul>
       {license ? <p className="mt-5 text-sm text-meta">{license}</p> : null}
-      {settings.countyLines.length ? (
-        <>
-          <h4 className="mt-7 mb-3 font-display text-base font-semibold text-navy">Local lines by county</h4>
-          <ul className="grid gap-x-6 gap-y-1.5 text-[0.95rem] sm:grid-cols-2">
-            {settings.countyLines.map((c) => (
-              <li key={c.county} className="flex justify-between gap-3 border-b border-line-2 py-1">
-                <span>{c.county}</span>
-                <a href={`tel:+1${c.phone.replace(/\D/g, "")}`} className="font-semibold text-navy hover:text-blue-deep">
-                  {c.phone}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
     </div>
   );
   return (
@@ -69,7 +54,6 @@ export function ContactSection({ section: s, settings }: { section: Contact; set
       <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />
       <div className="grid items-start gap-8 lg:grid-cols-2">
         <div className="card flex flex-col items-center p-8 text-center sm:p-10" data-reveal>
-          <p className="font-display text-sm font-semibold uppercase tracking-[1.5px] text-blue-deep">Call us, open 24/7</p>
           <a
             href={settings.phoneHref}
             data-track="click_to_call"

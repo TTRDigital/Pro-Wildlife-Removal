@@ -7,27 +7,17 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@/components/old/Classic";
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
-import { MobileCallBar } from "@/components/layout/MobileCallBar";
 import { PageHero } from "./PageHero";
+import { TrustBar, defaultTrust } from "./TrustBar";
 import { Sections } from "./Sections";
 
 /** Hero buttons: the page's own non-phone button (or the header button) first, then the phone number (the page's own line if it has one). */
 export function heroCtas(hero: Hero, settings: SiteSettings, primary?: Cta): Cta[] {
   const own = hero.ctas ?? [];
   const main = primary ?? own.find((c) => !c.href.startsWith("tel:")) ?? settings.headerCta;
-  const tel = own.find((c) => c.href.startsWith("tel:"));
-  const phone = tel ? { label: /\d{3}.*\d{4}/.test(tel.label) ? tel.label : settings.phone, href: tel.href } : { label: settings.phone, href: settings.phoneHref };
-  // A page with its own line (a county page) shows that one call button, not the site's main number beside it.
-  if (!primary && tel && main.href.startsWith("tel:")) return callCtas([phone], settings.phone, settings.phoneHref);
-  return callCtas([main, phone], settings.phone, settings.phoneHref);
-}
-
-/** A page with its own phone line (a county page's hero call button) shows that number in its hero and closing band. */
-function pageLine(hero: Hero, settings: SiteSettings): SiteSettings {
-  const tel = hero.ctas?.find((c) => c.href.startsWith("tel:"));
-  const d = tel?.href.replace(/\D/g, "").replace(/^1(?=\d{10}$)/, "");
-  if (!tel || !d || d.length !== 10 || settings.phoneHref.replace(/\D/g, "").endsWith(d)) return settings;
-  return { ...settings, phone: `(${d.slice(0, 3)}) ${d.slice(3, 6)}-${d.slice(6)}`, phoneHref: `tel:+1${d}` };
+  // One number for the whole site (the client's wish, Oct 26): a page's own tel button (old county lines) calls the main line.
+  const phone = { label: `Call ${settings.phone}`, href: settings.phoneHref };
+  return callCtas([main.href.startsWith("tel:") ? phone : main, phone], settings.phone, settings.phoneHref);
 }
 
 async function oldDesignData(settings: SiteSettings): Promise<ClassicData> {
@@ -66,13 +56,12 @@ export async function PageView({
   const schema = <JsonLd data={webPageSchema(path, page.seo.title, page.seo.description, parts)} />;
 
   if (design === "new") {
-    const local = pageLine(page.hero, settings);
     return (
       <>
         {schema}
-        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, local, primary)} settings={local} />
-        <Sections sections={page.sections} ids={ids} closing={closing} settings={local} />
-        {local !== settings ? <MobileCallBar phone={local.phone} phoneHref={local.phoneHref} local /> : null}
+        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
+        {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
+        <Sections sections={page.sections} ids={ids} closing={closing} />
       </>
     );
   }

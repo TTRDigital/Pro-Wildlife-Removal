@@ -37,7 +37,28 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
   );
 }
 
-/** Grid of service pages, from the service collection. */
+/** Compact photo tile (photo with the animal's name on a navy bar), as on the client-approved landing pages. */
+export function ServiceTile({ s, index }: { s: Service; index: number }) {
+  const img = s.cardImage ?? s.hero.image;
+  return (
+    <Link
+      href={`/services/${s.slug}/`}
+      className="group relative block overflow-hidden rounded-2xl bg-navy shadow-[0_10px_24px_-14px_rgb(14_42_71/0.6)] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]"
+      data-reveal
+      style={{ ["--i" as string]: index % 5 }}
+    >
+      <div className="relative aspect-[4/3] overflow-hidden bg-navy-3">
+        {img ? <Photo image={img} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.08]" /> : null}
+      </div>
+      <p className="flex min-h-12 items-center justify-center gap-1.5 px-2 py-2.5 text-center font-display text-[0.9375rem] leading-tight font-bold text-white">
+        {s.title.replace(/ Removal$/, "")}
+        <ArrowRight className="h-4 w-4 flex-none text-blue-light transition-transform duration-300 group-hover:translate-x-0.5" strokeWidth={2.5} aria-hidden="true" />
+      </p>
+    </Link>
+  );
+}
+
+/** Grid of service pages, from the service collection. The animal removal pages show as compact photo tiles. */
 export function ServicesSection({ section: s, services }: { section: Svc; services: Service[] }) {
   const groups: Service["group"][] = s.group && s.group !== "all" ? [s.group] : ["removal", "attic", "control", "tampa"];
   return (
@@ -49,11 +70,19 @@ export function ServicesSection({ section: s, services }: { section: Svc; servic
         return (
           <div key={g} className="mt-10 first:mt-0">
             {groups.length > 1 ? <h3 className="mb-5 font-display text-xl font-bold text-navy">{groupLabels[g]}</h3> : null}
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {list.map((x, i) => (
-                <ServiceCard key={x.slug} s={x} index={i} />
-              ))}
-            </div>
+            {g === "removal" ? (
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5">
+                {list.map((x, i) => (
+                  <ServiceTile key={x.slug} s={x} index={i} />
+                ))}
+              </div>
+            ) : (
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                {list.map((x, i) => (
+                  <ServiceCard key={x.slug} s={x} index={i} />
+                ))}
+              </div>
+            )}
           </div>
         );
       })}

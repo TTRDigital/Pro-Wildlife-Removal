@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import type { Section, SiteSettings } from "@/lib/types";
+import type { Section } from "@/lib/types";
 import { getLocations, getPosts, getServices, getSiteSettings, getTestimonials } from "@/lib/content";
 import { TrustBar } from "./TrustBar";
 import { SplitSection } from "./SplitSection";
@@ -20,10 +20,8 @@ import { AnswerSection } from "./AnswerSection";
  * band: the page's own closing text when it has one, the site default
  * otherwise. Pages without reviews get the review cards before it.
  */
-export async function Sections({ sections, ids, closing = true, reviews = true, settings: given }: { sections: Section[]; ids?: string[]; closing?: boolean; reviews?: boolean; settings?: SiteSettings }) {
-  const [site, testimonials, services, locations, posts] = await Promise.all([getSiteSettings(), getTestimonials(), getServices(), getLocations(), getPosts()]);
-  // The page's own settings (e.g. a county page's phone line) win over the site's.
-  const settings = given ?? site;
+export async function Sections({ sections, ids, closing = true, reviews = true }: { sections: Section[]; ids?: string[]; closing?: boolean; reviews?: boolean }) {
+  const [settings, testimonials, services, locations, posts] = await Promise.all([getSiteSettings(), getTestimonials(), getServices(), getLocations(), getPosts()]);
   // A page that already closes with the default "Need help?" text (the home page) does not get it twice.
   const hasCta = sections.some((s) => s._type === "ctaSection" || ("heading" in s && s.heading === settings.defaultCta.heading));
   const hasReviews = sections.some((s) => s._type === "reviewsSection");

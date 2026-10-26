@@ -60,7 +60,7 @@ export async function SiteShell({ children }: { children: ReactNode }) {
       <a href="#main" className="sr-only z-[100] bg-old-navy px-5 py-3 font-semibold text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4">
         Skip to content
       </a>
-      <Header nav={buildNav(services, locations)} phone={settings.phone} phoneHref={settings.phoneHref} logo={settings.logo ?? images.logo} social={settings.social} countyLines={settings.countyLines} />
+      <Header nav={buildNav(services, locations)} phone={settings.phone} phoneHref={settings.phoneHref} logo={settings.logo ?? images.logo} />
       <main id="main" tabIndex={-1} className="outline-none">
         {children}
       </main>
