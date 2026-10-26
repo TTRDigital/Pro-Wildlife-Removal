@@ -42,6 +42,15 @@ export const silverSprings = countyPage({
     { icon: "drop", title: "Bats on the park's list", text: p("The 2014 plan lists the red bat in the park. A hoary bat was also documented there by the Florida Natural Areas Inventory, but none has been seen since the 1970s.") },
     { icon: "map-pin", title: "Raccoons in Marion's tables", text: p("Across Marion County, the state's rabies tables listed 7 rabid raccoons in 2024 and 6 in 2025.") },
   ],
+  rats: {
+    heading: "Rodent records along East Highway 40",
+    intro: "State restaurant inspections are the local rat record for businesses with a Silver Springs address.",
+    cards: [
+      { icon: "building", title: "Ten closures at two addresses", text: p("By our count of DBPR's emergency closure files, food businesses with a Silver Springs address were closed 10 times for rodents from 2015 through 2025, all at two addresses on East Highway 40. One address was closed 6 times under four business names, the last in December 2023.") },
+      { icon: "search", title: "About 500 droppings, 2025", text: p("A May 2025 complaint inspection at a Silver Springs restaurant found about 500 rodent droppings in dry storage, the Ocala Star-Banner reported.") },
+    ],
+    link: { label: "rat removal", href: "/services/rat-removal/" },
+  },
   contactsHeading: "Marion County and FWC numbers near Silver Springs",
   contactsIntro: "Near the state park, strays and pet bites go to Marion County, human bites to DOH-Marion, and alligators to FWC.",
   contacts: [
@@ -78,6 +87,8 @@ export const silverSprings = countyPage({
       "Wildlife removal in Silver Springs, FL: raccoons, rats, squirrels and bats, plus a local rabies zone, park wildlife records and who to call about strays.",
   },
   sources: [
+    { title: "Florida DBPR: Emergency closures by calendar year, 2015-2025 (Business City Silver Springs, conditions naming rodents: 10 closures, all at two E Hwy 40 addresses; 6 at one address under four business names, Oct. 2018 to Dec. 7, 2023; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },
+    { title: "Ocala Star-Banner via Yahoo News, May 6, 2025: 9 Marion County restaurants cited for high-priority violations (a Silver Springs restaurant: about 500 rodent droppings in dry storage, May 2, 2025)", url: "https://www.yahoo.com/news/articles/9-marion-county-restaurants-cited-090333438.html" },
     { title: "WFTV, July 14, 2023: Rabies alert, three raccoons test positive in Marion County (Silver Springs zone: north of County Road 314, south of Gores Landing, east of NE 147th Avenue Road, west of CR 314A; avoid all contact with wildlife, particularly raccoons, bats, foxes, skunks, otters, bobcats and coyotes)", url: WFTV },
     { title: "Florida DEP: Silver Springs State Park Unit Management Plan Amendment, Dec. 17, 2014, bundled in the same PDF with the 2010 Silver River State Park Unit Management Plan (2014: raccoons can become nuisance cases, Sherman's fox squirrels in sandhill; 2010: nuisance raccoons and gray squirrels, Sherman's fox squirrels in pasture and sandhill, observed often, not a large population; 2014 mammal list: gray squirrel, fox squirrel, southern flying squirrel, raccoon, red bat; hoary bat documented by FNAI, not seen since the 1970s)", url: "https://floridadep.gov/sites/default/files/SilverSprings_2014_ApprovedPlan%26Amendment.pdf" },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Marion: 7 raccoons)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2024.pdf" },

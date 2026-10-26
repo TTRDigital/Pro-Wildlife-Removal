@@ -57,7 +57,6 @@ export const hillsborough = countyPage({
     { icon: "leaf", title: "Protected land all around", text: p("The county has bought more than 63,400 acres of sensitive wildlife habitat and corridors through its ELAPP land program. Homes along those corridors live right next to raccoons, opossums and snakes.") },
     { icon: "building", title: "Stray cats and rabies", text: p("DOH-Hillsborough issued rabies alerts for rabid stray or unvaccinated cats in Town 'N' Country (April 2025) and Gibsonton (September 2026). Feeding strays outdoors also feeds raccoons.") },
     { icon: "home", title: "Older Tampa homes", text: p("Older roofs, soffits and gable vents wear out, and every gap is an invitation to roof rats, squirrels and bats.") },
-    { icon: "map-pin", title: "River wilderness", text: p("The water district's Lower Hillsborough Wilderness Preserve lets you paddle the Hillsborough River among wading birds, turtles and alligators, with over 60 miles of forest trails.") },
   ],
   contactsHeading: "Hillsborough agencies for strays, bites, bears and gators",
   contactsIntro: "Here's who to call for the problems we don't handle in Hillsborough, with each number from the agency's own site.",

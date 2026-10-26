@@ -39,7 +39,6 @@ export const pinellas = countyPage({
     { icon: "map-pin", title: "A long, built-up coast", text: p("Pinellas has 588 miles of coastline, and USGS describes its northern barrier islands as protecting a highly populated shore. Waterfront living puts wildlife right at the back door.") },
     { icon: "critter", title: "Rabies cases on record", text: p("Florida's Department of Health counted a rabid bat in Pinellas in 2024 and a rabid raccoon in 2025. Never handle a bat or a raccoon that's acting oddly.") },
     { icon: "leaf", title: "Rat poison and owls", text: p("UF/IFAS Extension in Pinellas tied owl deaths at Philippe Park to rat poison. Sealing a house against rats protects the owls that hunt them too.") },
-    { icon: "leaf", title: "Beach-nesting birds", text: p("In 2022, Pinellas County Parks and Audubon Florida posted a protected nesting area for black skimmers, a threatened species, at the north end of Sand Key Park. Predators there include crows, gulls and coyotes.") },
   ],
   contactsHeading: "Pinellas Animal Services, DOH-Pinellas and FWC",
   contactsIntro: "Not every animal problem is ours. These are the public agencies Pinellas residents can call, with numbers from each agency's own page.",

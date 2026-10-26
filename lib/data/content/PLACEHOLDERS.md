@@ -64,7 +64,6 @@ Still open with the client: methods and job length, warranty, attic clean-up, Po
 | Location: Holiday (city) | /about-us/service-area/wildlife-removal-holiday-fl/ | reviews from Holiday customers, matched from the client's Google reviews (TTR-723) |
 | Location: Hudson (city) | /about-us/service-area/hudson-wildlife-removal/ | reviews from Hudson customers, matched from the client's Google reviews (TTR-723) |
 | Location: Land O' Lakes (city) | /about-us/service-area/wildlife-removal-land-o-lakes/ | reviews from Land O' Lakes customers, matched from the client's Google reviews (TTR-723) |
-| Location: Land O' Lakes (city) | /about-us/service-area/wildlife-removal-land-o-lakes/ | do you handle feral hogs? |
 | Location: New Port Richey (city) | /about-us/service-area/wildlife-removal-new-port-richey/ | reviews from New Port Richey customers, matched from the client's Google reviews (TTR-723) |
 | Location: Odessa (city) | /about-us/service-area/wildlife-removal-odessa-fl/ | reviews from Odessa customers, matched from the client's Google reviews (TTR-723) |
 | Location: Palm Harbor (city) | /about-us/service-area/wildlife-removal-palm-harbor/ | reviews from Palm Harbor customers, matched from the client's Google reviews (TTR-723) |

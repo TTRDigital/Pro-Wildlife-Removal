@@ -30,7 +30,6 @@ export const manatee = countyPage({
     { icon: "home", title: "Trash and rodents", text: p("UF/IFAS Extension in Manatee points out that trash gives rodents food, water and shelter, and notes the county provides large lidded carts to keep wildlife and pests out. Lids closed, rats go elsewhere.") },
     { icon: "leaf", title: "Big preserves to the east", text: p("Duette Preserve, at over 21,000 acres, is the largest preserve in Manatee County. Homes on the growing east side sit closer to wild land.") },
     { icon: "critter", title: "Rabies: rare here lately", text: p("The Department of Health's last Manatee rabies alert was in May 2023, after a rabid cat in the Palm View area of Palmetto, and it counted no rabid animals in Manatee in 2024 or 2025. Rare doesn't mean never: don't handle wildlife.") },
-    { icon: "map-pin", title: "Marine strandings", text: p("Manatee County refers sick, injured or dead marine mammals and sea turtles to Mote Marine Laboratory's stranding program, which answers its hotline at all hours: 888-345-2335.") },
   ],
   contactsHeading: "Manatee County numbers for animal problems",
   contactsIntro: "These are Manatee County's public numbers for animal problems, taken from the county's and agencies' own pages.",

@@ -39,7 +39,6 @@ export const palmHarbor = countyPage({
     { icon: "leaf", title: "John Chesnut Sr. Park", text: p("This 255-acre county park on East Lake Road sits next to Lake Tarpon, with nature trails and, in the county's words, a variety of wildlife.") },
     { icon: "map-pin", title: "Wall Springs Park", text: p("Wall Springs Park covers 210 acres on Desoto Boulevard and connects to the Pinellas Trail.") },
     { icon: "drop", title: "Brooker Creek Preserve", text: p("East of Palm Harbor, near Tarpon Springs, Pinellas County's Brooker Creek Preserve protects about 8,700 acres.") },
-    { icon: "critter", title: "Coyotes, too", text: p("FWC says coyotes are found in all 67 Florida counties and that feeding them is illegal. Secure garbage and pick up pet food and fallen fruit.") },
   ],
   rats: { heading: "Rats in Palm Harbor", intro: "Palm Harbor's rat records sit on a separate page, from rental rules to restaurant closures along US 19.", cards: [{ icon: "critter", title: "Rat removal in Palm Harbor", text: p("Rodent records on US 19 and Alt 19, and why Palm Harbor landlords handle rats unless the lease says otherwise."), href: "/services/rat-removal/palm-harbor-fl/" }] },
   contactsHeading: "Pinellas, garbage and FWC contacts for Palm Harbor",
@@ -47,7 +46,7 @@ export const palmHarbor = countyPage({
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4, at 12450 Ulmerton Road in Largo. Strays, and help with sick or injured wildlife.") },
     { icon: "home", title: "Garbage service", text: p("Unincorporated Palm Harbor has no county garbage pickup. Pinellas County says property owners choose their own hauling company.") },
-    { icon: "map-pin", title: "Bears and tortoises: FWC", text: p("Wildlife Alert 888-404-3922 for bears and injured sea life. Nuisance alligators 866-392-4286. Sick or injured gopher tortoises 850-921-1030 on weekdays.") },
+    { icon: "map-pin", title: "State wildlife matters: FWC", text: p("Wildlife Alert 888-404-3922 for bears and injured sea life. Nuisance alligators 866-392-4286. Sick or injured gopher tortoises 850-921-1030 on weekdays.") },
   ],
   servicesIntro: "We handle every animal below in Palm Harbor, bees in the attic and snakes in the garage included. Choose one for the details.",
   servicesHeading: "Animals we remove in Palm Harbor",
