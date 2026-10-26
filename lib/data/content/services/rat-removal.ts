@@ -49,7 +49,7 @@ export const ratRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs you have rats",
-      intro: p("Rats are active mostly at night, so most people never see one. They see what the rats leave behind. More on [rats in the attic](/services/rats-in-attic/)."),
+      intro: p("Rats are active mostly at night, so many people never see one. They see what the rats leave behind. More on [rats in the attic](/services/rats-in-attic/)."),
       variant: "icon",
       columns: 3,
       cards: [
@@ -217,7 +217,7 @@ export const ratRemoval: Service = {
       items: [
         faq(
           "Are they roof rats or Norway rats?",
-          "In an attic, almost always roof rats. Florida DOH describes roof rats as good climbers that nest in trees and plants but generally like high places such as attics, with a tail longer than the body. Norway rats burrow under buildings and beneath concrete slabs. UF/IFAS adds that Norway rats are heavier and most common along Florida's coasts and canals. Florida DOH says the two sometimes live together, though roof rats like to be up high. More in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).",
+          "In an attic, almost always roof rats. Florida DOH describes roof rats as good climbers that nest in trees and plants but generally like high places such as attics, with a tail longer than the body. Norway rats burrow under buildings and beneath concrete slabs. UF/IFAS adds that Norway rats are heavier and found mainly along Florida's coasts and canals. Florida DOH says the two sometimes live together, though roof rats like to be up high. More in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).",
         ),
         faq(
           "How small a hole can a rat get through?",

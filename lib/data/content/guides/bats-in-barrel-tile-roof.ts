@@ -60,7 +60,7 @@ export const batsInBarrelTileRoof: Post = {
   faq: [
     faq(
       "What kind of bats live under barrel tile roofs in Florida?",
-      "Most often Brazilian free-tailed bats. UF/IFAS says they're found throughout Florida and roost under barrel roof tiles, in attics and under bridges.",
+      "Usually Brazilian free-tailed bats. UF/IFAS says they're found throughout Florida and roost under barrel roof tiles, in attics and under bridges.",
     ),
     faq(
       "Can I seal my tile roof to keep bats out?",

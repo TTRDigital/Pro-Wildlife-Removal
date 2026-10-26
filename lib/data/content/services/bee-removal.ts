@@ -48,7 +48,7 @@ export const beeRemoval: Service = {
       _type: "cardsSection",
       _key: "types",
       eyebrow: "Which bee is it?",
-      heading: "The bees you're most likely to find at home",
+      heading: "The bees you're likely to find at home",
       intro: p("Not every bee around the house is a problem, and each kind nests differently. Look from a safe distance before you do anything."),
       variant: "icon",
       columns: 3,

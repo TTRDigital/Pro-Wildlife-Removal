@@ -53,7 +53,7 @@ export const armadilloRemoval: Service = {
         { icon: "home", title: "A burrow near the house", text: p("An entrance up to about a foot across, sometimes dug right under a driveway, patio or other structure. FWC says one armadillo can keep several burrows with more than one entrance.") },
         { icon: "leaf", title: "Torn-up flower beds", text: p("Mulch thrown out of the beds and plants uprooted. FWC notes moist, fertilized soil draws the earthworms and larvae armadillos hunt.") },
         { icon: "critter", title: "An armadillo at dusk or after dark", text: p("An armored animal about 15 to 17 inches long, not counting the tail, nosing along the ground. Armadillos see poorly, so they may not notice you.") },
-        { icon: "drop", title: "Digging where the soil stays wet", text: p("Fresh holes in the wettest, most-watered parts of the yard, where worms and larvae come up near the surface.") },
+        { icon: "drop", title: "Digging where the soil stays wet", text: p("Fresh holes in wet, heavily watered parts of the yard, where worms and larvae come up near the surface.") },
         { icon: "wrench", title: "Cracks or settling", text: p("UF/IFAS warns that armadillo burrows under driveways and patios can cause structural damage. A slab that starts to crack or sink near a burrow needs a look.") },
       ],
     },

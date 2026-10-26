@@ -110,7 +110,7 @@ export const opossumsInAttic: Service = {
       heading: "Don't make these mistakes",
       body: rich(
         ul(
-          "**Picking up a 'dead' opossum.** FWC says an opossum that looks dead may be playing dead. Leave it alone, or move it gently with a shovel, and it will most likely leave on its own.",
+          "**Picking up a 'dead' opossum.** FWC says an opossum that looks dead may be playing dead. Leave it alone, or move it gently with a shovel, and it will usually leave on its own.",
           "**Sealing it in.** FWC's advice is to close openings only once you're sure all the opossums are out. A motion-activated sprinkler near the entrance can discourage one from going back in while it's out at night.",
           "**Driving it somewhere.** A trapped opossum can only be released on the property, or on 40 acres or more in the same county with the landowner's written permission. Otherwise it must be humanely put down.",
         ),

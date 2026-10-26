@@ -183,7 +183,7 @@ export const opossumRemoval: Service = {
         ),
         faq(
           "The opossum looks dead. What do I do?",
-          "It may be playing dead. FWC says not to pick it up. Leave it alone, or gently move it to a quiet spot with a shovel, and it will most likely get up and leave on its own within minutes to a few hours.",
+          "It may be playing dead. FWC says not to pick it up. Leave it alone, or gently move it to a quiet spot with a shovel, and it will probably get up and leave on its own within minutes to a few hours.",
         ),
         faq(
           "When do opossums have babies in Florida?",

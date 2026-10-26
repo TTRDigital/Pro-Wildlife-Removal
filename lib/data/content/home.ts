@@ -84,7 +84,7 @@ export const home: PageContent = {
         {
           number: "5",
           title: "Follow up",
-          text: p("[PLACEHOLDER: ask the client: what the follow-up includes (a return visit, a check of the seals, any warranty on the sealing work) and for how long]"),
+          text: p("After the work is done, ask us what follow-up fits your job, and call (727) 594-7705 if you hear or see anything new.", "[PLACEHOLDER: ask the client: what the follow-up includes (a return visit, a check of the seals, any warranty on the sealing work) and for how long]"),
         },
       ],
     },

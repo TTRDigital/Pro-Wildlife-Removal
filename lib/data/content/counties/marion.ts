@@ -6,6 +6,8 @@ const DOH2022 = "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies
 const DOH2023 = "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2023.pdf";
 const OCALA_ALERT = "https://marion.floridahealth.gov/2026/05/14/doh-marion-issues-rabies-alert-11/";
 const BELLEVIEW = "https://marion.floridahealth.gov/2026/03/02/doh-marion-issues-rabies-advisory-2/";
+const SUMMERFIELD = "https://www.villages-news.com/2019/12/04/residents-warned-after-raccoon-found-near-the-villages-tests-positive-for-rabies/";
+const RSAP = "https://floridadep.gov/sites/default/files/Rainbow-Springs-AP-Management-Plan.pdf";
 
 export const marion = countyPage({
   path: "about-us/service-area/wildlife-removal-marion-county-fl",
@@ -26,10 +28,10 @@ export const marion = countyPage({
       title: "Marion County",
       href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
       items: [
-        { label: "Ocala" },
+        { label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" },
         { label: "Belleview" },
-        { label: "Dunnellon", href: "/about-us/service-area/wildlife-removal-dunnellon-fl/" },
-        { label: "Silver Springs" },
+        { label: "Dunnellon" },
+        { label: "Silver Springs", href: "/about-us/service-area/wildlife-removal-silver-springs-fl/" },
         { label: "Summerfield" },
         { label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" },
       ],
@@ -45,11 +47,34 @@ export const marion = countyPage({
     { icon: "phone", title: "Reddick, July 2026", text: p("DOH-Marion issued a rabies advisory on July 31, 2026 after a raccoon killed off U.S. Route 441 and West Highway 316 in Reddick on July 26 tested positive.") },
     { icon: "leaf", title: "Huntington, March 2026", text: p("DOH-Marion issued a rabies advisory in late March 2026 after a raccoon tested positive in the Huntington area off State Highway 35. It was the county's second confirmed rabies case of the year.") },
   ],
+  communities: [
+    {
+      name: "Belleview",
+      text: [
+        "The raccoon behind DOH-Marion's March 2, 2026 advisory was a single confirmed case, killed in the southeast of the county off U.S. 441 and SE 132nd Street Road near Belleview.",
+        "In it, the department warned that rabies may be present in the area's wild animals, and asked people not to draw them in with outdoor pet food or open garbage cans. It also asked homeowners to keep bats out of living quarters.",
+      ],
+    },
+    {
+      name: "Summerfield",
+      text: [
+        "Summerfield fell inside a warning area the Marion and Sumter health departments drew in December 2019, after a raccoon found near The Villages tested positive for rabies, Villages-News reported.",
+        "That zone stretched from Sumter County Road 202 down to SE Highway 42, and from SE 76th Champion Avenue across to County Road 200, covering the Summerfield and Oxford area.",
+      ],
+    },
+    {
+      name: "Dunnellon",
+      text: [
+        "Part of Dunnellon lies inside the Rainbow Springs Aquatic Preserve, which follows the Rainbow River 5.7 miles to the Withlacoochee.",
+        "Raccoons, gray squirrels and Sherman's fox squirrels are all on the species list in the state's 2016 plan for the preserve. FWC now calls that fox squirrel the southern fox squirrel and keeps it on its Imperiled Species Management Plan.",
+      ],
+    },
+  ],
   contactsIntro: "Who handles what in Marion County, from DOH-Marion's alerts and FWC's own pages.",
   contacts: [
     { icon: "users", title: "Marion County Animal Services", text: p("352-671-8727, for bites to pets or livestock and stray animals, as DOH-Marion's alerts direct.") },
     { icon: "phone", title: "Human bites: DOH-Marion", text: p("352-629-0137, to report a bite or scratch from a wild or domestic animal.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "All nine services are available across Marion County. Tap an animal for the details.",
   faqs: [
@@ -60,10 +85,6 @@ export const marion = countyPage({
     faq(
       "Does Marion County Animal Services remove raccoons from homes?",
       "DOH-Marion's alerts send residents to Animal Services, 352-671-8727, for bites to pets and livestock and for stray animals. A raccoon living in your attic is a job for a private wildlife company.",
-    ),
-    faq(
-      "Are there bears in Marion County?",
-      "Yes. FWC's Central bear management unit includes Marion and the Ocala/St. Johns bear subpopulation. FWC handles bear problems; secure garbage and call its Ocala office, 352-732-1225.",
     ),
     faq(
       "Which FWC office covers Marion County?",
@@ -89,11 +110,13 @@ export const marion = countyPage({
     { ...S.doh2024, title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Marion: 3 cats, 7 raccoons; total 10)" },
     { ...S.doh2025, title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Marion: 1 cat, 1 coyote, 1 fox, 6 raccoons; total 9)" },
     { title: "DOH-Marion: Rabies alert, May 14, 2026 (raccoon killed off SE 8th St., Ocala area, May 11, 2026; 60 days; NE 8th St., SE 22nd Road, SE 22nd Loop, SW 4th Ave.; DOH-Marion 352-629-0137; Animal Services 352-671-8727)", url: OCALA_ALERT },
-    { title: "DOH-Marion: Rabies advisory, March 2, 2026 (raccoon killed off U.S. Route 441 and SE 132 St. Rd., Belleview area, Feb. 24, 2026)", url: BELLEVIEW },
+    { title: "DOH-Marion: Rabies advisory, March 2, 2026 (single confirmed case; raccoon killed off U.S. Route 441 and SE 132 St. Rd., Belleview area, southeast Marion, Feb. 24, 2026; rabies may be present; outdoor pet food, open garbage cans; keep bats out of living quarters)", url: BELLEVIEW },
+    { title: "Villages-News, Dec. 4, 2019: Residents warned after raccoon found near The Villages tests positive for rabies (Marion and Sumter health departments; Summerfield/Oxford area and northwest Villages; County Road 202 north, SE Highway 42 south, SE 76th Champion Avenue west, County Road 200 east)", url: SUMMERFIELD },
+    { title: "Florida DEP: Rainbow Springs Aquatic Preserve Management Plan, June 2016 (encompasses a portion of the city of Dunnellon; 5.7 miles of Rainbow River to the Withlacoochee; documented species include raccoon, grey squirrel, Sherman's fox squirrel)", url: RSAP },
+    { title: "FWC: Southern fox squirrel profile (previously Sherman's fox squirrel; remains on the Imperiled Species Management Plan)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/southern-fox-squirrel/" },
     { title: "DOH-Marion: Rabies advisory, July 31, 2026 (raccoon killed off U.S. Route 441 and West Highway 316 in Reddick on July 26)", url: "https://marion.floridahealth.gov/2026/07/31/doh-marion-issues-rabies-advisory-3/" },
     { title: "Florida DOH: DOH-Marion rabies advisory, March 25, 2026 (second confirmed case of 2026; raccoon died in the Huntington area off State Highway 35 on March 20, 2026)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/04/rabies-advisory-marion-3-25-2026.pdf" },
     { title: "Florida DOH: DOH-Marion rabies advisory, Sept. 18, 2026 (newest Marion notice: bobcat, Rainbow Park area, Sept. 15, 2026)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/09/rabies-advisory-marion-9-18-26.pdf" },
-    { title: "FWC: Central bear management unit (includes Marion; Ocala/St. Johns subpopulation)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/bmu/central/" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Nuisance alligators (866-FWC-GATOR)", url: "https://myfwc.com/conservation/you-conserve/wildlife/alligators/" },
   ],

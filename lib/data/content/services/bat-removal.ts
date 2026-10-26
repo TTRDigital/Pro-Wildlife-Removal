@@ -65,7 +65,7 @@ export const batRemoval: Service = {
         {
           icon: "sound",
           title: "Rustling at dusk and dawn",
-          text: p("Bats leave the roost around dusk and come back around dawn. That's when you're most likely to hear light scratching or chirping in a wall or ceiling."),
+          text: p("Bats leave the roost around dusk and come back around dawn. That's when you're likely to hear light scratching or chirping in a wall or ceiling."),
         },
         {
           icon: "odor",

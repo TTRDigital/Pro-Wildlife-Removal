@@ -20,7 +20,7 @@ export const deadAnimalSmell: Post = {
     ),
     h3("Why it happens"),
     p(
-      `Animals that get into a house often die where you can't see them. Poison bait is a common reason: UF/IFAS says rodents that eat anticoagulant bait, the most common kind, usually die four days to two weeks after they start feeding, plenty of time to crawl back into a wall or attic first ([UF/IFAS](${PI284})). Animals sealed inside by a well-meant repair are another. FWC warns that bats shut into a building die there, and that their decay can produce strong odors and draw pests such as cockroaches ([FWC](${FWC_BATS})).`,
+      `Animals that get into a house often die where you can't see them. Poison bait is a common reason: UF/IFAS says rodents that eat anticoagulant bait, a common kind, usually die four days to two weeks after they start feeding, plenty of time to crawl back into a wall or attic first ([UF/IFAS](${PI284})). Animals sealed inside by a well-meant repair are another. FWC warns that bats shut into a building die there, and that their decay can produce strong odors and draw pests such as cockroaches ([FWC](${FWC_BATS})).`,
     ),
     h3("How to find where it is"),
     ul(
@@ -55,7 +55,7 @@ export const deadAnimalSmell: Post = {
   faq: [
     faq(
       "What does a dead animal in the wall smell like?",
-      "Most people describe a strong, sweet, rotten smell that's worst near one wall, ceiling or closet. Flies gathering at one spot are another clue.",
+      "Many people describe a strong, sweet, rotten smell that's worst near one wall, ceiling or closet. Flies gathering at one spot are another clue.",
     ),
     faq(
       "Why did the smell start after I put out rat poison?",
