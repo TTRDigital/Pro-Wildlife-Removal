@@ -31,6 +31,15 @@ export const clipCredits: ClipCredit[] = [
     date: "1 April 2025",
   },
   {
+    clip: "Rat",
+    shows: "A wild brown rat on a riverside ledge, Ljubljana, Slovenia",
+    author: "NaIzletuSi",
+    source: "https://commons.wikimedia.org/wiki/File:2022-09-02_LJUBLJANA_Grudnovo_nabre%C5%BEje_RODENTIA_Rattus_PODGANA.webm",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    date: "2 September 2022",
+  },
+  {
     clip: "Raccoon",
     shows: "A raccoon searching a crevice, Helsinki Zoo",
     author: "Uusijani",
