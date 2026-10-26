@@ -20,8 +20,6 @@ import { stPetersburg } from "./content/cities/st-petersburg.ts";
 import { trinity } from "./content/cities/trinity.ts";
 import { odessa } from "./content/cities/odessa.ts";
 import { holiday } from "./content/cities/holiday.ts";
-import { ocala } from "./content/cities/ocala.ts";
-import { silverSprings } from "./content/cities/silver-springs.ts";
 import { dunnellon } from "./content/cities/dunnellon.ts";
 import { theVillages } from "./content/cities/the-villages.ts";
 import { dadeCity } from "./content/cities/dade-city.ts";
@@ -7628,10 +7626,6 @@ export const fallbackLocations: Location[] = [
  springHill,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/tampa.ts
  tampa,
- // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/ocala.ts
- ocala,
- // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/silver-springs.ts
- silverSprings,
  // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/dunnellon.ts
  dunnellon,
  // Rewritten for the rebuild (Nia, Oct 2026): lib/data/content/cities/the-villages.ts
