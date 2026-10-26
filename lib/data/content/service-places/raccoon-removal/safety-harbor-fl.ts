@@ -2,12 +2,10 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
- * Raccoon removal in Safety Harbor (TTR-738, Nia, for Rhea's Pinellas set). Every
-
- * HELD by Ben (Oct 26): under 6 raccoon facts. Kept out of service-places.ts until it reaches 6.
- * card is one true fact about raccoons in Safety Harbor or Pinellas County: a 1993
- * Safety Harbor raccoon case (Tampa Bay Times, named as news), the city's barrel
- * rule, county park rules at Philippe Park, and DOH-Pinellas rabies records.
+ * Raccoon removal in Safety Harbor (TTR-738, Nia, for Rhea's Pinellas set).
+ * HELD by Ben (Oct 26): under 6 raccoon facts, so it stays out of service-places.ts.
+ * Cards: a 1993 Safety Harbor raccoon case (St. Petersburg Times, named as news)
+ * and the DOH-Pinellas 2025 table and surveillance report.
  */
 const TIMES = "https://www.tampabay.com/archive/1993/11/18/safety-harbor-man-admits-he-killed-raccoon/";
 const SANITATION = "https://www.cityofsafetyharbor.com/108/Sanitation-Division";
