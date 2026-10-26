@@ -10,8 +10,6 @@ type Extra = { sections: Section[]; sources?: Source[]; seoTitle?: string; seoDe
 const FWC_BATS = "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/";
 const FWC_TRAP = "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/trap-types/";
 const CDC_CLEANUP = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html";
-const CITRUS_ALERT = "https://www.floridahealth.gov/wp-content/uploads/2026/07/rabies-alert-citrus-county-7-23-2026.pdf";
-const CITRUS_SHERIFF = "https://www.sheriffcitrus.org/programs___services/animal_control.php";
 
 export const pageExtras: Record<string, Extra> = {
   about: {
@@ -124,37 +122,6 @@ export const pageExtras: Record<string, Extra> = {
 };
 
 export const locationExtras: Record<string, Extra> = {
-  "about-us/service-area/wildlife-removal-pine-ridge-fl": {
-    seoDescription:
-      "Wildlife removal in Pine Ridge, FL: raccoons, rats, bats and squirrels, plus Citrus County animal control and its latest rabies alert. Call (727) 594-7705.",
-    sections: [
-      {
-        _type: "faqSection",
-        _key: "faq",
-        eyebrow: "FAQ",
-        heading: "Pine Ridge wildlife questions",
-        items: [
-          faq(
-            "Will Citrus County animal control remove a raccoon from my house?",
-            `No. The Citrus County Sheriff's Office says its Animal Control handles domestic animals and livestock, and it refers nuisance wildlife to a trapper ([Citrus County Sheriff](${CITRUS_SHERIFF})). See [raccoon removal](/services/raccoon-removal/).`,
-          ),
-          faq(
-            "Is rabies present in Citrus County?",
-            `Yes. In July 2026, DOH-Citrus issued a rabies alert after a stray kitten captured near Floral City tested positive, and it warned that rabies is present in the wild animal population ([DOH-Citrus](${CITRUS_ALERT})).`,
-          ),
-          faq(
-            "When can bats be excluded from a Pine Ridge home?",
-            `Only from August 15 to April 15. FWC says bat exclusion is illegal during maternity season, April 16 to August 14 ([FWC](${FWC_BATS})). See [bat removal](/services/bat-removal/).`,
-          ),
-        ],
-      },
-    ],
-    sources: [
-      { title: "Citrus County Sheriff's Office: Animal Control (352-249-2790; domestic animals and livestock only; nuisance wildlife referred to a nuisance trapper)", url: CITRUS_SHERIFF },
-      { title: "DOH-Citrus: Rabies alert, July 23, 2026 (unvaccinated stray kitten captured in the Floral City area, July 18, 2026; rabies present in the wild animal population)", url: CITRUS_ALERT },
-      { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
-    ],
-  },
 };
 
 const add = (sections: Section[], extra: Section[]) => {
