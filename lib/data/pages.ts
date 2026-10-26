@@ -212,7 +212,7 @@ export const fallbackPages = {
        }
       ],
       "image": images.armadilloRemoval2,
-      "href": "/services/armadillo-removal-2/"
+      "href": "/services/armadillo-removal/"
      },
      {
       "title": "Opossum Removal",
@@ -250,7 +250,7 @@ export const fallbackPages = {
        }
       ],
       "image": images.deadAnimalRemoval,
-      "href": "/services/dead-animal-tampla-fl/"
+      "href": "/services/dead-animal-removal/"
      },
      {
       "title": "Rat Removal",
@@ -856,7 +856,7 @@ export const fallbackPages = {
        }
       ],
       "image": images.armadilosImage,
-      "href": "/services/armadillo-removal-2/"
+      "href": "/services/armadillo-removal/"
      },
      {
       "title": "Raccoons",

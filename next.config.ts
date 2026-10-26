@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { movedLocations, movedServices } from "./lib/service-urls";
 
 /*
  * Hosted on Vercel. Every page is prerendered at build time
@@ -14,18 +15,17 @@ import type { NextConfig } from "next";
 /** Old URLs, all checked against the live WordPress site. Every page in the old sitemaps keeps its exact URL. */
 const oldUrls: [string, string][] = [
   ["/about-us/service-area/tampa", "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/"],
-  ["/services/armadillo-removal", "/services/armadillo-removal-2/"],
   ["/wildlife-removal-services", "/services/"],
   ["/wildlife-removal-services/bat-removal-tampa", "/services/bat-removal/"],
   ["/wildlife-removal-services/rat-removal-tampa", "/services/rat-removal/"],
   ["/wildlife-removal-services/raccoon-removal-tampa", "/services/raccoon-removal/"],
-  ["/wildlife-removal-services/armadillo-removal-tampa", "/services/armadillo-removal-2/"],
+  ["/wildlife-removal-services/armadillo-removal-tampa", "/services/armadillo-removal/"],
   ["/wildlife-removal-services/raccoon-control", "/services/raccoon-removal/"],
   ["/wildlife-removal-services/rat-control", "/services/rat-removal/"],
-  ["/wildlife-removal-services/snake-removal-tampa", "/services/snake-removal-tampa/"],
-  ["/wildlife-removal-services/bee-removal-tampa", "/services/bee-removal-tampa/"],
-  ["/wildlife-removal-services/opossum-removal-tampa", "/services/opossum-removal-tampa/"],
-  ["/wildlife-removal-services/dead-animal-tampla-fl", "/services/dead-animal-tampla-fl/"],
+  ["/wildlife-removal-services/snake-removal-tampa", "/services/snake-removal/"],
+  ["/wildlife-removal-services/bee-removal-tampa", "/services/bee-removal/"],
+  ["/wildlife-removal-services/opossum-removal-tampa", "/services/opossum-removal/"],
+  ["/wildlife-removal-services/dead-animal-tampla-fl", "/services/dead-animal-removal/"],
   ["/what-keeps-rats-away", "/blog/what-keeps-rats-away/"],
   ["/effective-rat-control-tips", "/blog/effective-rat-control-tips/"],
   // WordPress leftovers
@@ -43,6 +43,9 @@ const oldUrls: [string, string][] = [
   ["/author/:path*", "/blog/"],
   // The client does not do mole removal (Oct 25, 2026): the page is gone.
   ["/services/mole-control", "/services/"],
+  // Photo renamed by Cole (no certification claims in URLs). Ships with his content branch, where the new file lives.
+  ["/images/photos/certified-wildlife-removal-experts-in-tampa-fl.jpg", "/images/photos/wildlife-removal-truck-tampa-bay.jpg"],
+  ["/_img/images/photos/certified-wildlife-removal-experts-in-tampa-fl-:w(\\d+).webp", "/_img/images/photos/wildlife-removal-truck-tampa-bay-:w.webp"],
 ];
 
 // Third parties: Google Tag Manager / Analytics / Ads, Microsoft Clarity, Sanity images,
@@ -86,6 +89,9 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...oldUrls.map(([source, destination]) => ({ source, destination, statusCode: 301 as const })),
+      // One page per animal: retired service pages go straight to the page that replaced them.
+      ...Object.entries(movedServices).map(([from, to]) => ({ source: `/services/${from}`, destination: `/services/${to}/`, statusCode: 301 as const })),
+      ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: `/${to}/`, statusCode: 301 as const })),
     ];
   },
   async headers() {

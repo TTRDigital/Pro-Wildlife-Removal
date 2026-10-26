@@ -890,7 +890,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/armadillo-removal-2/"
+        "href": "/services/armadillo-removal/"
        }
       ]
      },
@@ -1025,7 +1025,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/snake-removal-tampa/"
+        "href": "/services/snake-removal/"
        }
       ]
      },
@@ -1070,7 +1070,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/bee-removal-tampa/"
+        "href": "/services/bee-removal/"
        }
       ]
      },
@@ -1115,7 +1115,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/opossum-removal-tampa/"
+        "href": "/services/opossum-removal/"
        }
       ]
      },
@@ -9088,7 +9088,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/bee-removal-tampa/"
+        "href": "/services/bee-removal/"
        }
       ]
      },
@@ -9287,7 +9287,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/snake-removal-tampa/"
+        "href": "/services/snake-removal/"
        }
       ]
      },
@@ -9731,7 +9731,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/opossum-removal-tampa/"
+        "href": "/services/opossum-removal/"
        }
       ]
      },
@@ -9855,7 +9855,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/armadillo-removal-2/"
+        "href": "/services/armadillo-removal/"
        }
       ]
      }
@@ -11333,7 +11333,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        }
@@ -11602,7 +11602,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        }
@@ -11772,7 +11772,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        }
@@ -11838,7 +11838,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        }
@@ -12223,7 +12223,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l1",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        }
@@ -12358,7 +12358,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        },
@@ -12474,7 +12474,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        }
@@ -12687,7 +12687,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        },
@@ -13211,7 +13211,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        }
@@ -13346,7 +13346,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        },
@@ -13590,7 +13590,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        }
@@ -13747,7 +13747,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        }
@@ -16739,7 +16739,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        }
@@ -16965,7 +16965,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        }
@@ -17033,7 +17033,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        }
@@ -17247,7 +17247,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        }
@@ -17769,7 +17769,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        }
@@ -17819,7 +17819,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        }
@@ -18019,7 +18019,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        }
@@ -18241,7 +18241,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l1",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        }
@@ -19906,7 +19906,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/opossum-removal-tampa/"
+        "href": "/services/opossum-removal/"
        }
       ]
      },
@@ -20124,7 +20124,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/snake-removal-tampa/"
+        "href": "/services/snake-removal/"
        }
       ]
      },
@@ -20229,7 +20229,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/armadillo-removal-2/"
+        "href": "/services/armadillo-removal/"
        }
       ]
      }
@@ -20487,7 +20487,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/bee-removal-tampa/"
+        "href": "/services/bee-removal/"
        }
       ]
      },
@@ -23186,7 +23186,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        }
@@ -23324,7 +23324,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        }
@@ -23565,7 +23565,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        }
@@ -23726,7 +23726,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        }
@@ -26001,7 +26001,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        }
@@ -26127,7 +26127,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        },
@@ -26293,7 +26293,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        }
@@ -26359,7 +26359,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        },
@@ -26470,7 +26470,7 @@ export const fallbackLocations: Location[] = [
      {
       "title": "Stay away from dead animals and contact us at Pro Wildlife Dead Animal Removal for their safe and efficient removal.",
       "image": images.springHillFloridaDeadAnimalRemoval,
-      "href": "/services/dead-animal-tampla-fl/"
+      "href": "/services/dead-animal-removal/"
      }
     ],
     "ctas": [
@@ -28547,7 +28547,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/snake-removal-tampa/"
+          "href": "/services/snake-removal/"
          }
         ]
        }
@@ -28607,7 +28607,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/bee-removal-tampa/"
+          "href": "/services/bee-removal/"
          }
         ]
        }
@@ -28734,7 +28734,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/opossum-removal-tampa/"
+          "href": "/services/opossum-removal/"
          }
         ]
        }
@@ -28991,7 +28991,7 @@ export const fallbackLocations: Location[] = [
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/services/armadillo-removal-2/"
+          "href": "/services/armadillo-removal/"
          }
         ]
        },

@@ -9025,7 +9025,7 @@ export const fallbackServices: Service[] = [
   }
  },
  {
-  "slug": "armadillo-removal-2",
+  "slug": "armadillo-removal",
   "title": "Armadillo Removal",
   "group": "removal",
   "animal": "armadillo",
@@ -11903,7 +11903,7 @@ export const fallbackServices: Service[] = [
   }
  },
  {
-  "slug": "dead-animal-tampla-fl",
+  "slug": "dead-animal-removal",
   "title": "Dead Animal Removal",
   "group": "removal",
   "animal": "dead-animal",
@@ -12219,7 +12219,7 @@ export const fallbackServices: Service[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/dead-animal-tampla-fl/"
+        "href": "/services/dead-animal-removal/"
        }
       ]
      },
@@ -20282,12 +20282,12 @@ export const fallbackServices: Service[] = [
      {
       "title": "Florida Kingsnake",
       "image": images.image8,
-      "href": "/services/snake-removal-tampa/"
+      "href": "/services/snake-removal/"
      },
      {
       "title": "Rough Green Snake",
       "image": images.image9,
-      "href": "/services/bee-removal-tampa/"
+      "href": "/services/bee-removal/"
      }
     ],
     "style": {
@@ -30706,7 +30706,7 @@ export const fallbackServices: Service[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/services/armadillo-removal-2/"
+        "href": "/services/armadillo-removal/"
        }
       ]
      },
