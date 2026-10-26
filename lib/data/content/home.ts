@@ -234,5 +234,7 @@ export const home: PageContent = {
     "Typical response time for emergencies and for regular inspections?",
     "Which cities in Polk, Manatee and Osceola get the most calls, so the area list shows the right towns? Manatee and Osceola: is there a county phone number?",
     "A real truck or crew photo for the hero.",
+    "The site still has pages for Orlando, Sarasota, The Villages, Lady Lake, Lecanto, Pine Ridge, Winter Haven, Central Florida, and rat removal in The Villages and Winter Haven. Which of these do you still serve?",
+    "Some old city pages had their own phone numbers (Spring Hill 352-675-3338, St. Petersburg 727-594-7704, Holiday 727-496-7677, Palm Harbor 727-594-7688, Safety Harbor 727-594-7718, Dade City 352-618-2911). Are these live tracking lines to keep, or should city pages use the county line?",
   ],
 };
