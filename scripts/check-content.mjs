@@ -6,7 +6,9 @@
 // or (animal x place pages) fewer than 6 local facts or a FAQ count outside 4 to 6.
 // A second pass scans the visible text of EVERY rendered page (old migrated pages and posts too)
 // for claims that must never render: "voted the best", "fully licensed", flat-rate or transparent
-// pricing, 24/7 or round-the-clock service, moles or ducks, and any guarantee that isn't negated.
+// pricing, prices ("$" + digit), 24/7, round-the-clock or after-hours service, moles or ducks, any guarantee
+// or "best" that isn't negated, and licensed/insured/certified claims (third-party trades and rehabbers aside).
+// "24 hours a day" may appear once per page, and only inside an FAQ answer (Kia, Oct 26).
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -51,7 +53,7 @@ for (const [key, pg, kind] of pages) {
   const t = allText(pg);
   const a = pg.sections.find((s) => s._key === "answer");
   const answerWords = txt(a?.text || a?.body).split(/\s+/).filter(Boolean).length;
-  const flags = [...new Set(t.match(/—|–|\bbest\b|#1|guarantee|\bmoles?\b|\bducks?\b|licens|certified|24\/7|24 hours a day/gi) || [])];
+  const flags = [...new Set(t.match(/—|–|\bbest\b|#1|guarantee|\bmoles?\b|\bducks?\b|licens|certified|24\/7/gi) || [])];
   if (flags.length) problems.push(`flags: ${flags.join(", ")}`);
   if (answerWords < 40 || answerWords > 60) problems.push(`answer is ${answerWords} words (40 to 60)`);
   if (pg.seo) {
@@ -82,12 +84,15 @@ for (const [key, pg, kind] of pages) {
 }
 // Second pass: every rendered page, sourced or not.
 const SKIP = new Set(["sources", "clientQuestions", "url", "href", "src", "slug", "_key", "_type", "style", "marks", "markDefs", "path", "image", "images", "icon", "design", "tone", "location", "service", "place", "county", "group", "animal"]);
-const walk = (o, out) => {
-  if (typeof o === "string") return void (o.includes("PLACEHOLDER") || out.push(o));
-  if (Array.isArray(o)) return void o.forEach((x) => walk(x, out));
-  if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!SKIP.has(k)) walk(v, out);
+const walk = (o, out, faq, inAnswer = false) => {
+  if (typeof o === "string") return void (o.includes("PLACEHOLDER") || (inAnswer ? faq : out).push(o));
+  if (Array.isArray(o)) return void o.forEach((x) => walk(x, out, faq, inAnswer));
+  if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!SKIP.has(k)) walk(v, out, faq, inAnswer || k === "answer");
 };
-const NEVER = /voted the best|fully licensed|flat[- ]rate|transparent pricing|24\/7|24 hours a day|round[- ]the[- ]clock|around the clock|\bmoles?\b|\bducks?\b/gi;
+const NEVER = /voted the best|fully licensed|flat[- ]rate|transparent pricing|\$\s?\d|24\/7|round[- ]the[- ]clock|around the clock|after[- ]hours|nights and weekends|\bmoles?\b|\bducks?\b/gi;
+const LOUD_24 = /24 hours a day|24-hour (service|emergency|response|line|call)|available 24 hours|calls 24 hours/gi;
+const negated = (t, i) => /\b(not|no|cannot|never)\b[^.]*$|n't[^.]*$/i.test(t.slice(Math.max(0, i - 40), i));
+const THIRD_PARTY = /^\W*(\w+\W+){0,3}?(electrician|hvac|contractor|trade|subcontractor|rehabilitator|pco|pest control (operator|company)|roofer|plumber|pilot|veterinarian|vet|hauler|handler|trapper|transporter)s?\b/i;
 const rendered = [
   ...Object.entries(fallbackPages).map(([k, v]) => ["page:" + k, v]),
   ...fallbackServices.map((x) => ["service:" + x.slug, x]),
@@ -98,13 +103,17 @@ const rendered = [
 let swept = 0;
 for (const [key, obj] of rendered) {
   const out = [];
-  walk(obj, out);
-  const t = out.join("\n");
+  const faq = [];
+  walk(obj, out, faq);
+  const body = out.join("\n");
+  const answers = faq.join("\n");
+  const t = body + "\n" + answers;
   const hits = [...t.matchAll(NEVER)].map((m) => m[0]);
-  for (const m of t.matchAll(/guarantee\w*/gi)) {
-    const before = t.slice(Math.max(0, m.index - 40), m.index);
-    if (!/\b(not|no|cannot|never)\b[^.]*$|n't[^.]*$/i.test(before) && !/^guarantees and warranties/i.test(t.slice(m.index))) hits.push(m[0]);
-  }
+  for (const m of t.matchAll(/guarantee\w*/gi)) if (!negated(t, m.index) && !/^guarantees and warranties/i.test(t.slice(m.index))) hits.push(m[0]);
+  for (const m of t.matchAll(/\bbest\b/gi)) if (!negated(t, m.index)) hits.push("best");
+  for (const m of t.matchAll(/\b(licensed|insured|certified)\b/gi)) if (!negated(t, m.index) && !THIRD_PARTY.test(t.slice(m.index + m[0].length, m.index + m[0].length + 40))) hits.push(m[0].toLowerCase());
+  for (const m of body.matchAll(LOUD_24)) hits.push(`${m[0]} (outside an FAQ answer)`);
+  if ((answers.match(LOUD_24) || []).length > 1) hits.push("24 hours more than once");
   if (!hits.length) continue;
   errors += hits.length;
   swept++;

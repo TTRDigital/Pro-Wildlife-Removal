@@ -38,7 +38,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife intrusions can cause significant property damage and health risks. At Pro Wildlife Removal, we provide trusted Wildlife Removal in Central Florida, offering fast, safe, and expert solutions for homes and businesses. With our deep knowledge of Central Florida’s unique wildlife and expert removal techniques, we tailor our services to meet your specific needs. Don’t let nuisance wildlife disrupt your life—Pro Wildlife Removal is here to help.",
+        "text": "Wildlife intrusions can cause significant property damage and health risks. At Pro Wildlife Removal, we provide trusted Wildlife Removal in Central Florida, offering safe, expert solutions for homes and businesses. With our deep knowledge of Central Florida’s unique wildlife and expert removal techniques, we tailor our services to meet your specific needs. Don’t let nuisance wildlife disrupt your life—Pro Wildlife Removal is here to help.",
         "marks": []
        }
       ],
@@ -835,7 +835,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to protecting your property from wildlife intrusions, you need a team you can trust. Choose Pro Wildlife Removal for unmatched expertise in Central Florida wildlife control. With decades of experience, local knowledge, and a customer-first approach, we deliver fast, humane, and effective solutions tailored to your needs:",
+        "text": "When it comes to protecting your property from wildlife intrusions, you need a team you can trust. Choose Pro Wildlife Removal for experienced, local wildlife control in Central Florida. With decades of experience, local knowledge, and a customer-first approach, we deliver humane, effective solutions tailored to your needs:",
         "marks": []
        }
       ],
@@ -914,7 +914,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Fast Response",
+      "title": "Easy Scheduling",
       "text": [
        {
         "_type": "block",
@@ -922,7 +922,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Wildlife issues can’t wait. That’s why we pride ourselves on prompt service, ensuring your problem is resolved quickly and efficiently.",
+          "text": "Wildlife issues can’t wait. Call us and we’ll find a visit time that works for you, then see the job through carefully.",
           "marks": []
          }
         ],
@@ -994,7 +994,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Yes! We provide same-day and emergency wildlife removal for urgent situations. If you need fast wildlife removal, contact us immediately.",
+          "text": "Same-day appointments are often available. If an animal is inside your living space, call us right away.",
           "marks": []
          }
         ],
@@ -1258,7 +1258,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Don’t wait for nuisance animal problems to escalate—Pro Wildlife Removal is your trusted partner for wildlife removal in Central Florida. With decades of experience and local expertise, we provide fast, reliable wildlife control solutions to protect your home or business from wild animals.",
+        "text": "Don’t wait for nuisance animal problems to escalate—Pro Wildlife Removal is your trusted partner for wildlife removal in Central Florida. With decades of experience and local expertise, we provide reliable wildlife control solutions to protect your home or business from wild animals.",
         "marks": []
        }
       ],
@@ -1304,7 +1304,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Central Florida homeowners and businesses in resolving even the most challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our licensed professionals offer safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
+        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Central Florida homeowners and businesses in resolving even the most challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our team offers safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
         "marks": []
        }
       ],
@@ -1952,7 +1952,7 @@ export const fallbackPages = {
     "columns": 3,
     "cards": [
      {
-      "title": "Licensed Professionals You Can Trust",
+      "title": "Done by Florida’s Rules",
       "text": [
        {
         "_type": "block",
@@ -1977,7 +1977,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Serving Central Florida communities, including Tampa, St. Petersburg, and Clearwater, we understand the region’s unique wildlife challenges. As your local neighbors, we deliver fast, effective solutions to protect your home and peace of mind.",
+          "text": "Serving Central Florida communities, including Tampa, St. Petersburg, and Clearwater, we understand the region’s unique wildlife challenges. As your local neighbors, we deliver effective solutions to protect your home and peace of mind.",
           "marks": []
          }
         ],
@@ -1986,7 +1986,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Fast and Reliable Services",
+      "title": "Reliable Service",
       "text": [
        {
         "_type": "block",
@@ -1994,7 +1994,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Wildlife problems demand immediate attention. That’s why we offer same-day and emergency services to quickly restore safety and minimize disruptions to your life.",
+          "text": "Wildlife problems need attention. Same-day appointments are often available, so your home can feel safe again with as little disruption as possible.",
           "marks": []
          }
         ],
@@ -2092,7 +2092,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Following the inspection, we develop a custom wildlife removal plan designed to address your specific situation. Our licensed professionals use safe wildlife removal methods that adhere to local regulations, ensuring the process is effective and reliable.",
+          "text": "Following the inspection, we develop a custom wildlife removal plan designed to address your specific situation. Our technicians use safe removal methods that follow state and local wildlife rules, so the work is done properly.",
           "marks": []
          }
         ],
@@ -2188,7 +2188,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We offer same-day and emergency wildlife removal services to address urgent issues. Our team is committed to fast response times to ensure your home or business is secure as soon as possible.",
+          "text": "Urgent problems, like an animal loose in the house, get priority on our schedule.",
           "marks": []
          }
         ],
@@ -2205,7 +2205,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Our licensed professionals handle a wide variety of wildlife, including raccoons, bats, snakes, squirrels, rats, and more. We also provide wildlife exclusion services to prevent future infestations.",
+          "text": "Our wildlife technicians handle a wide variety of animals, including raccoons, bats, snakes, squirrels, rats, and more. We also provide wildlife exclusion services to prevent future infestations.",
           "marks": []
          }
         ],
@@ -2282,7 +2282,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Don’t let wildlife take over your property—Pro Wildlife Removal is here to help. We provide fast, reliable, and professional wildlife removal in Central Florida, ensuring your home or business stays safe and secure. Contact us today to schedule your inspection and take the first step toward a wildlife-free property!",
+        "text": "Don’t let wildlife take over your property—Pro Wildlife Removal is here to help. We provide reliable, professional wildlife removal in Central Florida, ensuring your home or business stays safe and secure. Contact us today to schedule your inspection and take the first step toward a wildlife-free property!",
         "marks": []
        }
       ],
@@ -2737,7 +2737,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": "and we’ll take it upon ourselves to help you with the best of our abilities.",
+        "text": "and we’ll do everything we can to help you.",
         "marks": []
        }
       ],
@@ -2760,7 +2760,7 @@ export const fallbackPages = {
   ],
   "seo": {
    "title": "Wildlife Removal Company Profile | Pro Wildlife Removal",
-   "description": "Pro Wildlife Removal is a local wildlife removal service in Tampa FL. We provide animal removal: opossums, squirrels, snakes and etc. Call us for any emergency!"
+   "description": "Pro Wildlife Removal is a local wildlife removal service in Tampa FL. We provide animal removal: opossums, squirrels, snakes and etc. Call us when an animal problem can’t wait."
   }
  },
  "howWeWork": {
@@ -2774,7 +2774,7 @@ export const fallbackPages = {
      "children": [
       {
        "_type": "span",
-       "text": "Pro Wildlife Removal is equipped with top-of-the-line equipment and machinery. Our Animal removal experts and trappers are certified experts. Call us for more!",
+       "text": "Pro Wildlife Removal brings the right tools for trapping, exclusion and cleanup. Our technicians do this work every day. Call us to talk it through.",
        "marks": []
       }
      ],
@@ -2844,7 +2844,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "If time permits, we can attend to your critter troubles on the same day you made the call and be at your problem area within hours. If not, we’ll be able to attend to you on the next day.",
+        "text": "Same-day appointments are often available. If not, we’ll book the next open visit that suits you.",
         "marks": []
        }
       ],
@@ -2856,7 +2856,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Our step-by-step process for all our services ensures you get the best service possible for all of your inspection, trapping, exclusion, clean-up, monthly population control, and damage repair/decontamination needs.",
+        "text": "Our step-by-step process for all our services keeps the work clear and consistent for all of your inspection, trapping, exclusion, clean-up, monthly population control, and damage repair/decontamination needs.",
         "marks": []
        }
       ],
@@ -2965,7 +2965,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Our homes can be victims to unwanted animal visitors – and no one wants to be pestered with these creatures for they can also serve as a threat to the you and your family’s safety and welfare. Pro Wildlife Removal Exclusion Service is sure to keep these unwanted animals out of your area of residence. We use only the best and strongest products in order to ensure a long lasting, animal proof barrier.",
+          "text": "Our homes can be victims to unwanted animal visitors – and no one wants to be pestered with these creatures for they can also serve as a threat to the you and your family’s safety and welfare. Pro Wildlife Removal Exclusion Service is sure to keep these unwanted animals out of your area of residence. We use heavy-duty materials to build a long-lasting, animal-proof barrier.",
           "marks": []
          }
         ],
@@ -3012,7 +3012,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Each animal case is unique to itself and a customized solution catered to you is the only effective way to resolve it. We offer many services including: Home repairs, bee removal, all trapping services, emergency animal removal, etc. Call today with all of your animal service needs.",
+        "text": "Each animal case is unique to itself and a customized solution catered to you is the only effective way to resolve it. We offer many services including: Home repairs, bee removal, all trapping services, urgent animal removal, etc. Call today with all of your animal service needs.",
         "marks": []
        }
       ],
@@ -3062,7 +3062,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": ") and we’ll take it upon ourselves to help you with the best of our abilities.",
+        "text": ") and we’ll do everything we can to help you.",
         "marks": []
        }
       ],
@@ -3080,7 +3080,7 @@ export const fallbackPages = {
   ],
   "seo": {
    "title": "How We Work | Why Hire Our Experts | Pro Wildlife Removal",
-   "description": "Pro Wildlife Removal is equipped with top-of-the-line equipment and machinery. Our Animal removal experts and trappers are certified experts. Call us for more!"
+   "description": "Pro Wildlife Removal brings the right tools for trapping, exclusion and cleanup. Our technicians do this work every day. Call us to talk it through."
   }
  },
  "contact": {
