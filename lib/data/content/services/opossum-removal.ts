@@ -150,7 +150,7 @@ export const opossumRemoval: Service = {
         { title: "How many openings", text: p("One gap in the skirting, or a whole perimeter to close.") },
         { title: "Cleanup", text: p("A little nesting, or soiled insulation to remove.") },
       ],
-      outro: p("There's no charge for the opossum inspection, and the price comes before the work.", "[PLACEHOLDER: ask the client: can the site show a price range for opossum removal?]"),
+      outro: p("There's no charge for the opossum inspection, and the price comes before the work."),
     },
     {
       _type: "areasSection",

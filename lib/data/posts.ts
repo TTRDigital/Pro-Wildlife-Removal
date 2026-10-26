@@ -562,18 +562,6 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for raccoon inspection, removal, exclusion and den cleanup]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "How long the job takes depends on the strategy and whether dependent young are present. Contractors typically separate line items for inspection, removal, exclusion, and sanitation so you can compare quotes transparently.",
       "marks": []
      }
@@ -1176,18 +1164,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Getting itemized quotes is essential so you can compare inspection, removal, exclusion, and sanitation separately.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for raccoon removal from a home, including exclusion and sanitation]",
       "marks": []
      }
     ],
@@ -5044,18 +5020,6 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for bat exclusion and guano cleanup during maternity season]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "Ask for a line-item inspection report so you can compare quotes without surprises. If you need guidance choosing a provider, our post on ",
       "marks": []
      },
@@ -6160,18 +6124,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Costs vary by region and company. A basic visual inspection often falls in a modest range, while comprehensive inspections that include attic entry and crawlspace checks cost more. Use inspection findings to compare line-item quotes.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for an annual wildlife inspection]",
       "marks": []
      }
     ],
@@ -7710,18 +7662,6 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for wiring repair, rewiring and insulation replacement after wildlife damage]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "One homeowner account documented in local reports described attic wiring chewed through both outer and inner insulation on multiple runs, which raised the estimate because of contamination and the need to remove and replace insulation around the affected area.",
       "marks": []
      }
@@ -8808,18 +8748,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Costs depend on how many entry points need sealing and whether attic insulation needs cleanup.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for rat entry mapping, exclusion and attic cleanup]",
       "marks": []
      }
     ],
@@ -11588,18 +11516,6 @@ const migratedPosts: Post[] = [
     "markDefs": [],
     "listItem": "bullet",
     "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for raccoon trapping and under-deck exclusion]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
    },
    {
     "_type": "block",
@@ -16715,18 +16631,6 @@ const migratedPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for rat exclusion and attic remediation]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -17405,7 +17309,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary widely by access, scope, and whether insulation, HVAC, or vehicle wiring is involved. Common repairs, drawn from our project records and local contractor reports:",
+      "text": "Costs vary widely by access, scope, and whether insulation, HVAC, or vehicle wiring is involved. Common repairs include:",
       "marks": []
      }
     ],
@@ -17466,18 +17370,6 @@ const migratedPosts: Post[] = [
     "markDefs": [],
     "listItem": "bullet",
     "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for wiring repair and insulation remediation after rat damage]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
    },
    {
     "_type": "block",
@@ -18645,18 +18537,6 @@ const migratedPosts: Post[] = [
     "markDefs": []
    },
    {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for rat damage repairs (insulation and wiring)]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
     "_type": "table",
     "hasHeader": true,
     "rows": [
@@ -19600,7 +19480,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs depend on how many entry points need work and whether the attic needs cleanup. The usual services, from inspection logs and homeowner reports:",
+      "text": "Costs depend on how many entry points need work and whether the attic needs cleanup. The usual services are:",
       "marks": []
      }
     ],
@@ -19661,18 +19541,6 @@ const migratedPosts: Post[] = [
     "markDefs": [],
     "listItem": "bullet",
     "level": 1
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for sealing rat entry points and partial attic insulation cleanup]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
    },
    {
     "_type": "block",
@@ -20675,7 +20543,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost discussions are common on Reddit and in contractor quotes. The usual services are:",
+      "text": "Costs depend on the home and the work needed. The usual services are:",
       "marks": []
      }
     ],
@@ -20744,18 +20612,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Get line-item quotes that separate inspection, removal, exclusion, sanitation, and repair so you can compare bids fairly.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for raccoon removal, exclusion and attic cleanup]",
       "marks": []
      }
     ],
@@ -21816,18 +21672,6 @@ const migratedPosts: Post[] = [
     "markDefs": []
    },
    {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for opossum crawl space removal, cleanup and exclusion]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
     "_type": "table",
     "hasHeader": true,
     "rows": [
@@ -22833,18 +22677,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Cost estimates vary with colony size, contamination level, and repair scope. The table below shows what each type of job usually includes.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for bat colony exclusion and attic cleanup]",
       "marks": []
      }
     ],
@@ -23864,18 +23696,6 @@ const migratedPosts: Post[] = [
     "markDefs": []
    },
    {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for bat guano cleanup (light, moderate and heavy contamination)]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
     "_type": "table",
     "hasHeader": true,
     "rows": [
@@ -24767,18 +24587,6 @@ const migratedPosts: Post[] = [
       "href": "/blog/how-much-does-bat-removal-cost-in-florida/"
      }
     ]
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for bat inspection, exclusion and guano cleanup in Florida]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
    },
    {
     "_type": "table",
@@ -25869,18 +25677,6 @@ const migratedPosts: Post[] = [
     ]
    },
    {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for squirrel insulation repair and attic remediation]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
     "_type": "table",
     "hasHeader": true,
     "rows": [
@@ -26897,18 +26693,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Repair costs vary by location, accessibility, and whether electrical, HVAC, or insulation work is required. Use the table below to plan conservatively and get written estimates from local pros.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for repairing wiring and insulation damaged by rodents]",
       "marks": []
      }
     ],
@@ -28072,18 +27856,6 @@ const migratedPosts: Post[] = [
     "markDefs": []
    },
    {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for flying squirrel inspection, exclusion and cleanup]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
     "_type": "table",
     "hasHeader": true,
     "rows": [
@@ -28661,18 +28433,6 @@ const migratedPosts: Post[] = [
       "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
      }
     ]
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for raccoon removal, exclusion and attic cleanup after roof damage]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
    },
    {
     "_type": "block",
@@ -29788,18 +29548,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Costs vary by region and damage extent. Typical work includes soffit and fascia repair, attic insulation removal and sanitizing, roof repairs where a raccoon dug through, and electrical repairs if wiring was chewed. Treat any visible chewing on wiring as urgent.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for soffit repair and attic remediation after raccoon damage]",
       "marks": []
      }
     ],
@@ -31927,18 +31675,6 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for rat exclusion, trapping and attic sanitation]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "The usual order: inspection, then exclusion and trapping (often over several visits), followed by sanitation and any insulation or duct replacement once activity is confirmed clear. If wiring or HVAC is affected, electricians and HVAC contractors may need to test and repair before the job is finished.",
       "marks": []
      }
@@ -33837,18 +33573,6 @@ const migratedPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for exclusion versus full remediation after wildlife removal]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -34574,18 +34298,6 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for wildlife exclusion and trapping]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
       "text": "Break out line items so you can compare exclusion, trapping, sanitation, and repair costs separately. See our deeper inspection guidance for how inspections change scope and cost estimates: ",
       "marks": []
      },
@@ -35152,18 +34864,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Below are typical inspection outcomes and the work they usually lead to, drawn from contractor quotes and homeowner reports on public forums. Use them to compare estimates.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for work that follows a wildlife inspection (rodent, raccoon, bat guano and wiring findings)]",
       "marks": []
      }
     ],
@@ -36229,18 +35929,6 @@ const migratedPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for wildlife damage repairs (insulation, wiring, ducts, roof and soffit)]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -37126,18 +36814,6 @@ const migratedPosts: Post[] = [
    },
    {
     "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for raccoon and rat removal, attic insulation cleanup and wiring repair]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
     "style": "h2",
     "children": [
      {
@@ -37850,18 +37526,6 @@ const migratedPosts: Post[] = [
      {
       "_type": "span",
       "text": "Below is a practical comparison of common cleanup approaches reported by homeowners and industry sources. The right approach depends on region, attic size, and whether HVAC and structural materials are contaminated.",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "[PLACEHOLDER: ask the client: price range for bat guano cleanup in the attic]",
       "marks": []
      }
     ],

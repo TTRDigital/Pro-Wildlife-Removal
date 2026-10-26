@@ -1,13 +1,12 @@
 # Open client questions (placeholders) in the preview content
 
-Generated Oct 26, 2026 from the site data. Placeholders are hidden on the site until answered. 233 placeholders across 119 pages.
+Generated Oct 26, 2026 from the site data. Placeholders are hidden on the site until answered. 189 placeholders. Price placeholders were deleted (Kia, Oct 26: no prices for now).
 
 ## Summary by theme
 
 Most placeholders repeat a handful of questions per page. Answering these once covers nearly all of them:
 
 - **Response time / how soon:** 75 placeholders
-- **Prices and price ranges:** 45 placeholders
 - **Reviews, ratings and job photos:** 65 placeholders
 - **Warranties and follow-up:** 4 placeholders
 - **Methods, traps and job length:** 15 placeholders
@@ -20,48 +19,37 @@ Most placeholders repeat a handful of questions per page. Answering these once c
 |---|---|---|
 | Page: home | / | confirm wildlife removal is all you do (no general pest control) |
 | Page: home | / | number of jobs done, or the current Google rating and review count to show here |
-| Page: home | / | can the site show price ranges? |
 | Page: home | / | typical response time for emergencies and for regular inspections |
 | Service: Bat Removal | /services/bat-removal/ | is there a warranty on bat exclusion work, and how long? |
-| Service: Bat Removal | /services/bat-removal/ | can the site show a price range for bat exclusion? |
 | Service: Bat Removal | /services/bat-removal/ | how long a typical bat job takes from first visit to final sealing |
 | Service: Rat Removal | /services/rat-removal/ | what traps you use and how often a technician comes back to check them |
 | Service: Rat Removal | /services/rat-removal/ | is there a warranty on rat exclusion work, and how long? |
-| Service: Rat Removal | /services/rat-removal/ | can the site show a price range for rat removal? |
 | Service: Rat Removal | /services/rat-removal/ | how long a typical rat job takes |
 | Service: Raccoon Removal | /services/raccoon-removal/ | confirm how you handle a mother with kits (reuniting, use of a heated box, etc.) |
 | Service: Raccoon Removal | /services/raccoon-removal/ | what you do with trapped raccoons (release on site, release on permitted land, or euthanasia) |
 | Service: Raccoon Removal | /services/raccoon-removal/ | is there a warranty on raccoon repairs and sealing, and how long? |
-| Service: Raccoon Removal | /services/raccoon-removal/ | can the site show a price range for raccoon removal? |
 | Service: Raccoon Removal | /services/raccoon-removal/ | night and weekend response for a raccoon loose in the living space |
 | Service: Squirrel Removal | /services/squirrel-removal/ | confirm your usual method (one-way doors, cage traps or both) and how often traps are checked |
 | Service: Squirrel Removal | /services/squirrel-removal/ | what material you use |
 | Service: Squirrel Removal | /services/squirrel-removal/ | is there a warranty on squirrel repairs, and how long? |
-| Service: Squirrel Removal | /services/squirrel-removal/ | can the site show a price range for squirrel removal? |
 | Service: Snake Removal | /services/snake-removal/ | describe how you capture snakes, venomous and not |
 | Service: Snake Removal | /services/snake-removal/ | where you release snakes, and how you handle venomous ones |
-| Service: Snake Removal | /services/snake-removal/ | is there an emergency or after-hours rate, and can the site show a price range for snake removal? |
 | Service: Snake Removal | /services/snake-removal/ | typical response time for a snake inside the home |
 | Service: Opossum Removal | /services/opossum-removal/ | confirm your usual method for opossums (one-way door, live trap or both) |
-| Service: Opossum Removal | /services/opossum-removal/ | can the site show a price range for opossum removal? |
 | Service: Armadillo Removal | /services/armadillo-removal/ | confirm your trap setup for armadillos and how often a technician checks traps |
 | Service: Armadillo Removal | /services/armadillo-removal/ | do you install exclusion fencing or wire along foundations? |
 | Service: Armadillo Removal | /services/armadillo-removal/ | confirm whether you install buried fencing or wire, so this cost factor can stay |
-| Service: Armadillo Removal | /services/armadillo-removal/ | can the site show a price range for armadillo removal? |
 | Service: Bee Removal | /services/bee-removal/ | which stinging insects you handle (honey bees, carpenter bees, bumble bees, wasps or yellow jackets) |
 | Service: Bee Removal | /services/bee-removal/ | how you handle bees (live removal by a registered beekeeper, eradication, or both) and who does the work; this decides what the page can say |
 | Service: Bee Removal | /services/bee-removal/ | who removes the colony and comb, and how |
 | Service: Bee Removal | /services/bee-removal/ | do you seal and repair the opening after a bee job? |
 | Service: Bee Removal | /services/bee-removal/ | do you repair the wall or soffit you open, or does the owner arrange the repair? |
-| Service: Bee Removal | /services/bee-removal/ | can the site show a price range for bee removal? |
 | Service: Dead Animal Removal | /services/dead-animal-removal/ | do you remove dead animals from engine bays? |
 | Service: Dead Animal Removal | /services/dead-animal-removal/ | do you cut and patch drywall yourselves, or does the owner arrange the repair? |
 | Service: Dead Animal Removal | /services/dead-animal-removal/ | what odor treatment you use, and do you return if the smell lingers? |
-| Service: Dead Animal Removal | /services/dead-animal-removal/ | can the site show a price range for dead animal removal? |
 | Service: Dead Animal Removal | /services/dead-animal-removal/ | confirm the places you remove dead animals from (crawl spaces, under decks and sheds, attics, walls, vents, yards, engine bays) |
 | Service: Rats in the Attic | /services/rats-in-attic/ | how long a typical rat job takes, from inspection to cleanup |
 | Service: Rats in the Attic | /services/rats-in-attic/ | what insulation you install after cleanup, and whether attic restoration is quoted separately |
-| Service: Rats in the Attic | /services/rats-in-attic/ | can the site show a price range for attic cleanup? |
 | Service: Bats in the Attic | /services/bats-in-attic/ | how long a typical bat job takes once the exclusion starts |
 | Service: Bats in the Attic | /services/bats-in-attic/ | confirm your protective gear for guano cleanup |
 | Service: Bats in the Attic | /services/bats-in-attic/ | how you handle guano cleanup and insulation replacement, and whether it's quoted separately |
@@ -217,37 +205,4 @@ Most placeholders repeat a handful of questions per page. Answering these once c
 | Place: raccoon-removal St. Petersburg | /services/raccoon-removal/st-petersburg-fl/ | typical response time for a raccoon call in St. Petersburg |
 | Place: raccoon-removal Dunedin | /services/raccoon-removal/dunedin-fl/ | a real Google review from a Dunedin raccoon job, quoted exactly as on Google (TTR-723) |
 | Place: raccoon-removal Dunedin | /services/raccoon-removal/dunedin-fl/ | typical response time for a raccoon call in Dunedin |
-| Post: Raccoon Mating Season in Florida | /blog/raccoon-mating-season-in-florida/ | price range for raccoon inspection, removal, exclusion and den cleanup |
-| Post: Signs of Raccoons in Your Home | /blog/signs-of-raccoons-in-your-home/ | price range for raccoon removal from a home, including exclusion and sanitation |
-| Post: Bat Maternity Season Guide | /blog/bat-maternity-season-guide/ | price range for bat exclusion and guano cleanup during maternity season |
-| Post: Annual Wildlife Inspections | /blog/annual-wildlife-inspections/ | price range for an annual wildlife inspection |
-| Post: Wildlife-Proofing Your Home | /blog/wildlife-proofing-your-home/ | price range for wiring repair, rewiring and insulation replacement after wildlife damage |
-| Post: How Big of a Hole Does a Rat Need? | /blog/how-big-of-a-hole-does-a-rat-need/ | price range for rat entry mapping, exclusion and attic cleanup |
-| Post: Raccoons Under Deck: Identification, Removal & Prevention | /blog/raccoons-under-deck/ | price range for raccoon trapping and under-deck exclusion |
-| Post: Rat Exclusion Services: Prevent Reinfestation and Damage | /blog/rat-exclusion-prevent-reinfestation-and-damage/ | price range for rat exclusion and attic remediation |
-| Post: Rat Damage Electrical Wiring: Prevention and Repair Guide | /blog/rat-damage-electrical-wiring-prevention/ | price range for wiring repair and insulation remediation after rat damage |
-| Post: Norway Rat vs Roof Rat: Florida Identification Guide | /blog/norway-rat-vs-roof-rat-florida/ | price range for rat damage repairs (insulation and wiring) |
-| Post: Rat Entry Points: How to Find and Seal Holes Quickly | /blog/rat-entry-points/ | price range for sealing rat entry points and partial attic insulation cleanup |
-| Post: Raccoons in Attic: Why They Choose Your Home (Guide) | /blog/raccoons-in-attic-why-they-choose-your-home-guide/ | price range for raccoon removal, exclusion and attic cleanup |
-| Post: Opossums Under House: Crawl Space Removal & Prevention | /blog/opossums-under-house-crawl-space-removal/ | price range for opossum crawl space removal, cleanup and exclusion |
-| Post: Bat Colonies Attic Removal: Complete Costs, Risks, Cleanup | /blog/bat-colonies-attic-removal/ | price range for bat colony exclusion and attic cleanup |
-| Post: Bat Guano Cleanup: Complete Attic Removal, Costs & Guide | /blog/bat-guano-cleanup-complete-guide/ | price range for bat guano cleanup (light, moderate and heavy contamination) |
-| Post: Florida Bat Laws: Homeowner Guide to Removal & Rules | /blog/florida-bat-laws-homeowner-guide/ | price range for bat inspection, exclusion and guano cleanup in Florida |
-| Post: Squirrel Insulation Damage: Repair, Costs & Prevention | /blog/squirrel-insulation-damage/ | price range for squirrel insulation repair and attic remediation |
-| Post: Squirrels Chewing Wires: Expert Guide to Damage & Repair | /blog/squirrels-chewing-wires-expert-guide/ | price range for repairing wiring and insulation damaged by rodents |
-| Post: Flying Squirrels Florida: Identification and Prevention | /blog/flying-squirrels-florida/ | price range for flying squirrel inspection, exclusion and cleanup |
-| Post: Raccoon Roof Damage: Complete Cleanup, Costs and Repair | /blog/raccoon-roof-damage-complete-cleanup-costs/ | price range for raccoon removal, exclusion and attic cleanup after roof damage |
-| Post: Raccoons in Soffits: Why They Tear Them Open & Fixes | /blog/raccoons-in-soffits-why-they-tear-them-open-fixes/ | price range for soffit repair and attic remediation after raccoon damage |
-| Post: Rats in Attic Signs: 9 Clear Warning Signs & What to Do | /blog/rats-in-attic-signs/ | price range for rat exclusion, trapping and attic sanitation |
-| Post: Can Wildlife Come Back After Removal? Exclusion Guide | /blog/can-wildlife-come-back-after-removal-exclusion-guide/ | price range for exclusion versus full remediation after wildlife removal |
-| Post: Wildlife Exclusion vs Trapping: Differences for Homeowners | /blog/wildlife-exclusion-vs-trapping-differences-for-homeowners/ | price range for wildlife exclusion and trapping |
-| Post: Wildlife Removal Inspection: What to Expect & Costs | /blog/wildlife-removal-inspection-what-to-expect-costs/ | price range for work that follows a wildlife inspection (rodent, raccoon, bat guano and wiring findings) |
-| Post: Wildlife Damage Repair: 12 Signs You Need Repairs Now | /blog/wildlife-damage-repair-12-signs-you-need-repairs-now/ | price range for wildlife damage repairs (insulation, wiring, ducts, roof and soffit) |
-| Post: Raccoon vs Rats in the Attic: How to Tell the Difference | /blog/raccoon-vs-rats-in-the-attic-how-to-tell-the-difference/ | price range for raccoon and rat removal, attic insulation cleanup and wiring repair |
-| Post: Bat Guano in the Attic: Risks, Cleanup, Insulation | /blog/bat-guano-in-the-attic-risks-cleanup-insulation/ | price range for bat guano cleanup in the attic |
-| Post: Animal in the Attic: Removal and Cleanup Cost in Florida | /blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/ | can the site show typical price ranges for removal, sealing and attic cleanup? |
-| Post: Animal in the Attic: Removal and Cleanup Cost in Florida | /blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/ | which of these you price separately, and whether insulation replacement is part of the cleanup quote |
 | Post: Animal in the Attic: Removal and Cleanup Cost in Florida | /blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/ | how long a typical attic cleanup takes, from removing insulation to re-insulating |
-| Post: How Much Does Bat Removal Cost in Florida? | /blog/how-much-does-bat-removal-cost-in-florida/ | can the site show a typical price range for bat exclusion, and for guano cleanup? |
-| Post: How Much Does Bat Removal Cost in Florida? | /blog/how-much-does-bat-removal-cost-in-florida/ | what your bat job includes as standard (inspection fee, follow-up visit, warranty on the sealing) and what is priced separately |
-| Post: How Much Does Wildlife Removal Cost in Central Florida? | /blog/how-much-does-wildlife-removal-cost/ | can the site show typical price ranges? |

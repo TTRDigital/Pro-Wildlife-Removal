@@ -188,7 +188,7 @@ export const raccoonRemoval: Service = {
         { title: "Repairs to the entry", text: p("A torn soffit or roof vent has to be rebuilt, not just covered.") },
         { title: "Cleanup", text: p("A small latrine, or an attic of soiled insulation.") },
       ],
-      outro: p("Inspecting for a raccoon costs nothing. You get the price for your home before we start.", "[PLACEHOLDER: ask the client: can the site show a price range for raccoon removal?]"),
+      outro: p("Inspecting for a raccoon costs nothing. You get the price for your home before we start."),
     },
     {
       _type: "areasSection",

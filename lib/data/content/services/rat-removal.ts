@@ -192,7 +192,7 @@ export const ratRemoval: Service = {
         { title: "Trapping visits", text: p("How long it takes to clear the rats left inside after sealing.") },
         { title: "Attic cleanup", text: p("From a light cleanup to removing and replacing all the insulation.") },
       ],
-      outro: p("The rat inspection is free. We walk the roofline and attic, then give you the price before any work starts.", "[PLACEHOLDER: ask the client: can the site show a price range for rat removal?]"),
+      outro: p("The rat inspection is free. We walk the roofline and attic, then give you the price before any work starts."),
     },
     {
       _type: "areasSection",

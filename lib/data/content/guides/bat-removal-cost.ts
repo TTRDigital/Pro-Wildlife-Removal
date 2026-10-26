@@ -23,7 +23,6 @@ export const batRemovalCost: Post = {
   body: rich(
     p(
       "**The short answer:** bat removal in Florida is priced per house, not per bat. Cost depends on how many openings the colony uses, how hard they are to reach, how long the bats have been there and how much guano has to come out. It starts with an inspection: call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: can the site show a typical price range for bat exclusion, and for guano cleanup?]",
     ),
     h3("What changes the price of bat removal"),
     p("Bats can't be trapped or poisoned in Florida, so every colony in a building is removed by exclusion: one-way devices on the exits, then sealing. These are the things that make one exclusion cost more than another."),
@@ -48,7 +47,6 @@ export const batRemovalCost: Post = {
       "**Sealing** of every opening once the bats are out.",
       "**Guano cleanup** and, where needed, insulation removal and replacement. Our guide to [attic cleanup costs](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) covers that part.",
     ),
-    p("[PLACEHOLDER: ask the client: what your bat job includes as standard (inspection fee, follow-up visit, warranty on the sealing) and what is priced separately]"),
     h3("Doing it yourself versus calling a pro"),
     p(`Florida's rules leave little room for do-it-yourself bat removal. Florida law protects bats: FWC says harming them isn't allowed, poison, relocation and fumigants are illegal to use on bats, and bats sealed inside a building die there ([FWC](${BUILDINGS})). The savings from a store-bought device disappear fast if a missed opening lets the colony back in, or if bats end up trapped in a wall.`),
     p("What you can do yourself: watch the roofline at dusk to see where the bats come out, and keep the attic door closed. That information also makes the inspection quicker."),
