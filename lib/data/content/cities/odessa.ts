@@ -23,13 +23,13 @@ export const odessa = countyPage({
   towns: [
     {
       title: "Around Odessa",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
         { label: "Keystone (Hillsborough)" },
         { label: "Lutz (Hillsborough)" },
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        { label: "Tampa", href: "/service-areas/hillsborough-county/tampa/" },
       ],
     },
   ],

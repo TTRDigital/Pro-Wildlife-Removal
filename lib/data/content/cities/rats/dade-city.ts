@@ -25,11 +25,11 @@ export const dadeCityRatsInput = {
   towns: [
     {
       title: "Dade City and east Pasco",
-      href: "/about-us/service-area/wildlife-removal-dade-city/",
+      href: "/service-areas/pasco-county/dade-city/",
       items: [
-        { label: "All wildlife in Dade City", href: "/about-us/service-area/wildlife-removal-dade-city/" },
-        { label: "Rats in Hudson", href: "/about-us/service-area/rat-removal-services-hudson-fl/" },
-        { label: "Rats in New Port Richey", href: "/rat-removal-new-port-richey/" },
+        { label: "All wildlife in Dade City", href: "/service-areas/pasco-county/dade-city/" },
+        { label: "Rats in Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Rats in New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
       ],
     },
   ],

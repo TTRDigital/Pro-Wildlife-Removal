@@ -25,11 +25,11 @@ export const dunedinRatsInput = {
   towns: [
     {
       title: "Dunedin and neighbors",
-      href: "/about-us/service-area/wildlife-removal-dunedin/",
+      href: "/service-areas/pinellas-county/dunedin/",
       items: [
-        { label: "All wildlife in Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
-        { label: "Rats in Clearwater", href: "/about-us/service-area/rat-removal-services-clearwater-fl/" },
-        { label: "Rats in Safety Harbor", href: "/about-us/service-area/rat-removal-safety-harbor/" },
+        { label: "All wildlife in Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Rats in Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Rats in Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
       ],
     },
   ],

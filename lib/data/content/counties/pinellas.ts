@@ -18,15 +18,15 @@ export const pinellas = countyPage({
   towns: [
     {
       title: "Pinellas County",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "St. Petersburg", href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/" },
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
+        { label: "St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
         { label: "Largo" },
-        { label: "Pinellas Park", href: "/about-us/service-area/wildlife-removal-pinellas-park/" },
-        { label: "Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
-        { label: "Palm Harbor", href: "/about-us/service-area/wildlife-removal-palm-harbor/" },
-        { label: "Safety Harbor", href: "/about-us/service-area/wildlife-removal-safety-harbor/" },
+        { label: "Pinellas Park", href: "/service-areas/pinellas-county/pinellas-park/" },
+        { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
+        { label: "Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
         { label: "Tarpon Springs" },
         { label: "Seminole" },
       ],

@@ -31,13 +31,13 @@ export const townNCountry = countyPage({
   towns: [
     {
       title: "Northwest Hillsborough",
-      href: "/about-us/service-area/wildlife-removal-hillsborough-county/",
+      href: "/service-areas/hillsborough-county/",
       items: [
         { label: "Westchase" },
         { label: "Citrus Park" },
         { label: "Carrollwood" },
         { label: "Oldsmar (Pinellas)" },
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        { label: "Tampa", href: "/service-areas/hillsborough-county/tampa/" },
       ],
     },
   ],

@@ -24,13 +24,13 @@ export const springHill = countyPage({
   towns: [
     {
       title: "Hernando County",
-      href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
+      href: "/service-areas/hernando-county/",
       items: [
-        { label: "Brooksville", href: "/about-us/service-area/wildlife-removal-service-in-brooksville-fl/" },
+        { label: "Brooksville", href: "/service-areas/hernando-county/brooksville/" },
         { label: "Weeki Wachee" },
         { label: "Hernando Beach" },
         { label: "Aripeka" },
-        { label: "Hudson (Pasco)", href: "/about-us/service-area/hudson-wildlife-removal/" },
+        { label: "Hudson (Pasco)", href: "/service-areas/pasco-county/hudson/" },
       ],
     },
   ],

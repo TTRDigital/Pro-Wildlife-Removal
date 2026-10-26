@@ -38,7 +38,7 @@ export const winterHaven = countyPage({
   towns: [
     {
       title: "Polk County",
-      href: "/about-us/service-area/wildlife-removal-polk-county/",
+      href: "/service-areas/polk-county/",
       items: [{ label: "Lakeland" }, { label: "Auburndale" }, { label: "Lake Alfred" }, { label: "Eagle Lake" }, { label: "Bartow" }, { label: "Haines City" }],
     },
   ],

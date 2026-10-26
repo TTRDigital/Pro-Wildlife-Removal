@@ -35,7 +35,7 @@ export const theVillages = countyPage({
     {
       title: "Lake, Sumter and Marion counties",
       items: [
-        { label: "Marion County", href: "/about-us/service-area/wildlife-removal-marion-county-fl/" },
+        { label: "Marion County", href: "/service-areas/marion-county/" },
         { label: "Lady Lake" },
         { label: "Wildwood" },
         { label: "Bushnell" },

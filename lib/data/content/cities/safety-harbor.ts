@@ -24,12 +24,12 @@ export const safetyHarbor = countyPage({
   towns: [
     {
       title: "Upper Tampa Bay, Pinellas side",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
-        { label: "Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
         { label: "Oldsmar" },
-        { label: "Palm Harbor", href: "/about-us/service-area/wildlife-removal-palm-harbor/" },
+        { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
       ],
     },
   ],

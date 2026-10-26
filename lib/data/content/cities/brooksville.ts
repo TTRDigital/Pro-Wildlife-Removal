@@ -35,9 +35,9 @@ export const brooksville = countyPage({
   towns: [
     {
       title: "Hernando County",
-      href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
+      href: "/service-areas/hernando-county/",
       items: [
-        { label: "Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
+        { label: "Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
         { label: "Weeki Wachee" },
       ],
     },

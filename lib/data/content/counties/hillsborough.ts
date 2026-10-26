@@ -19,10 +19,10 @@ export const hillsborough = countyPage({
     {
       title: "Tampa and north",
       items: [
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        { label: "Tampa", href: "/service-areas/hillsborough-county/tampa/" },
         { label: "Temple Terrace" },
         { label: "Lutz" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
         { label: "Town 'n' Country" },
         { label: "Westchase" },
         { label: "Carrollwood" },

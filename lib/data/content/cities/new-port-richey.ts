@@ -24,13 +24,13 @@ export const newPortRichey = countyPage({
   towns: [
     {
       title: "West Pasco",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
         { label: "Port Richey" },
-        { label: "Holiday", href: "/about-us/service-area/wildlife-removal-holiday-fl/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
-        { label: "Hudson", href: "/about-us/service-area/hudson-wildlife-removal/" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+        { label: "Holiday", href: "/service-areas/pasco-county/holiday/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
+        { label: "Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
       ],
     },
   ],

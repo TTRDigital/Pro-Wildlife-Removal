@@ -24,11 +24,11 @@ export const clearwater = countyPage({
   towns: [
     {
       title: "North Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
-        { label: "Safety Harbor", href: "/about-us/service-area/wildlife-removal-safety-harbor/" },
-        { label: "Palm Harbor", href: "/about-us/service-area/wildlife-removal-palm-harbor/" },
+        { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
+        { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
         { label: "Largo" },
         { label: "Belleair" },
       ],

@@ -32,10 +32,10 @@ export const theVillagesRatsInput = {
   towns: [
     {
       title: "The Villages and nearby",
-      href: "/about-us/service-area/wildlife-removal-the-villages/",
+      href: "/service-areas/the-villages/",
       items: [
-        { label: "All wildlife in The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" },
-        { label: "Marion County", href: "/about-us/service-area/wildlife-removal-marion-county-fl/" },
+        { label: "All wildlife in The Villages", href: "/service-areas/the-villages/" },
+        { label: "Marion County", href: "/service-areas/marion-county/" },
         { label: "Wildwood" },
       ],
     },

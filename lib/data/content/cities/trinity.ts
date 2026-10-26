@@ -23,12 +23,12 @@ export const trinity = countyPage({
   towns: [
     {
       title: "Southwest Pasco",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
-        { label: "Holiday", href: "/about-us/service-area/wildlife-removal-holiday-fl/" },
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
+        { label: "Holiday", href: "/service-areas/pasco-county/holiday/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
         { label: "East Lake (Pinellas)" },
       ],
     },

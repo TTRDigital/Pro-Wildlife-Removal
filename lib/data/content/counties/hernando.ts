@@ -18,10 +18,10 @@ export const hernando = countyPage({
   towns: [
     {
       title: "Hernando County",
-      href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
+      href: "/service-areas/hernando-county/",
       items: [
-        { label: "Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
-        { label: "Brooksville", href: "/about-us/service-area/wildlife-removal-service-in-brooksville-fl/" },
+        { label: "Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
+        { label: "Brooksville", href: "/service-areas/hernando-county/brooksville/" },
         { label: "Weeki Wachee" },
         { label: "Hernando Beach" },
         { label: "Ridge Manor" },

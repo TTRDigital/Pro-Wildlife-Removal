@@ -19,20 +19,20 @@ export const pasco = countyPage({
     {
       title: "West Pasco",
       items: [
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Holiday", href: "/about-us/service-area/wildlife-removal-holiday-fl/" },
-        { label: "Hudson", href: "/about-us/service-area/hudson-wildlife-removal/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Holiday", href: "/service-areas/pasco-county/holiday/" },
+        { label: "Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
         { label: "Port Richey" },
       ],
     },
     {
       title: "Central and East Pasco",
       items: [
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
         { label: "Wesley Chapel" },
         { label: "Zephyrhills" },
-        { label: "Dade City", href: "/about-us/service-area/wildlife-removal-dade-city/" },
+        { label: "Dade City", href: "/service-areas/pasco-county/dade-city/" },
         { label: "San Antonio" },
       ],
     },

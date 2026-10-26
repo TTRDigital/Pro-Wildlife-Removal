@@ -37,6 +37,8 @@ export type ServicePlaceInput = {
   placeKind: "city" | "county";
   /** Path of the matching city or county page, without slashes. */
   location: string;
+  /** Name of that page's place when it differs from placeName (Sumter County hangs off The Villages). */
+  locationName?: string;
   /** For cities, the county name without "County", e.g. "Hillsborough". */
   county?: string;
   order?: number;
@@ -77,7 +79,7 @@ export function servicePlacePage(c: ServicePlaceInput): ServicePlace {
   const related: Card[] = [
     { icon: "critter", title: `${c.animal} removal`, href: `/services/${c.service}/` },
     ...(c.attic ? [{ icon: "home" as const, title: c.attic.label, href: `/services/${c.attic.slug}/` }] : []),
-    { icon: "map-pin", title: `Wildlife removal in ${c.placeName}`, href: `/${c.location}/` },
+    { icon: "map-pin", title: `Wildlife removal in ${c.locationName ?? c.placeName}`, href: `/${c.location}/` },
     ...(c.extraLink ? [{ icon: "search" as const, title: c.extraLink.label, text: p(c.extraLink.text), href: c.extraLink.href }] : []),
   ];
   return {

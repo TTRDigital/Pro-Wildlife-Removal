@@ -23,11 +23,11 @@ export const springHillRatsInput = {
   towns: [
     {
       title: "Spring Hill and Hernando",
-      href: "/about-us/service-area/wildlife-removal-spring-hill-fl/",
+      href: "/service-areas/hernando-county/spring-hill/",
       items: [
-        { label: "All wildlife in Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
-        { label: "Rats in Brooksville", href: "/about-us/service-area/expert-rat-removal-in-brooksville-fl/" },
-        { label: "Rats in Hudson", href: "/about-us/service-area/rat-removal-services-hudson-fl/" },
+        { label: "All wildlife in Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
+        { label: "Rats in Brooksville", href: "/service-areas/hernando-county/brooksville/" },
+        { label: "Rats in Hudson", href: "/service-areas/pasco-county/hudson/" },
       ],
     },
   ],

@@ -30,7 +30,7 @@ export const carrollwood = countyPage({
   towns: [
     {
       title: "Northwest Hillsborough",
-      href: "/about-us/service-area/wildlife-removal-hillsborough-county/",
+      href: "/service-areas/hillsborough-county/",
       items: [
         { label: "Carrollwood Village" },
         { label: "Greater Northdale" },

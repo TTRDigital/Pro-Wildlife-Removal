@@ -18,13 +18,13 @@ export const citrus = countyPage({
   towns: [
     {
       title: "Citrus County",
-      href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/",
+      href: "/service-areas/citrus-county/",
       items: [
         { label: "Inverness" },
         { label: "Crystal River" },
         { label: "Homosassa" },
-        { label: "Lecanto", href: "/about-us/service-area/wildlife-removal-in-lecanto-fl/" },
-        { label: "Pine Ridge", href: "/about-us/service-area/wildlife-removal-pine-ridge-fl/" },
+        { label: "Lecanto", href: "/service-areas/citrus-county/lecanto/" },
+        { label: "Pine Ridge", href: "/service-areas/citrus-county/pine-ridge/" },
         { label: "Floral City" },
         { label: "Beverly Hills" },
       ],

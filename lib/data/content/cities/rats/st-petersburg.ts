@@ -25,11 +25,11 @@ export const stPetersburgRatsInput = {
   towns: [
     {
       title: "St. Pete and neighbors",
-      href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/",
+      href: "/service-areas/pinellas-county/st-petersburg/",
       items: [
-        { label: "All wildlife in St. Petersburg", href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/" },
-        { label: "Wildlife in Pinellas Park", href: "/about-us/service-area/wildlife-removal-pinellas-park/" },
-        { label: "Rats in Clearwater", href: "/about-us/service-area/rat-removal-services-clearwater-fl/" },
+        { label: "All wildlife in St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
+        { label: "Wildlife in Pinellas Park", href: "/service-areas/pinellas-county/pinellas-park/" },
+        { label: "Rats in Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
       ],
     },
   ],

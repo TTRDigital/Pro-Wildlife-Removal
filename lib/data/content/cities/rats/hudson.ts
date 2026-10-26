@@ -23,11 +23,11 @@ export const hudsonRatsInput = {
   towns: [
     {
       title: "Hudson and the Pasco coast",
-      href: "/about-us/service-area/hudson-wildlife-removal/",
+      href: "/service-areas/pasco-county/hudson/",
       items: [
-        { label: "All wildlife in Hudson", href: "/about-us/service-area/hudson-wildlife-removal/" },
-        { label: "Rats in New Port Richey", href: "/rat-removal-new-port-richey/" },
-        { label: "Rats in Spring Hill", href: "/about-us/service-area/rat-removal-services-spring-hill-fl/" },
+        { label: "All wildlife in Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Rats in New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Rats in Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
       ],
     },
   ],

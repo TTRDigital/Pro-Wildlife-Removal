@@ -24,13 +24,13 @@ export const stPetersburg = countyPage({
   towns: [
     {
       title: "South Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Pinellas Park", href: "/about-us/service-area/wildlife-removal-pinellas-park/" },
+        { label: "Pinellas Park", href: "/service-areas/pinellas-county/pinellas-park/" },
         { label: "Gulfport" },
         { label: "Seminole" },
         { label: "Largo" },
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
       ],
     },
   ],

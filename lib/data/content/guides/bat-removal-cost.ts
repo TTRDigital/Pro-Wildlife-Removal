@@ -78,7 +78,7 @@ export const batRemovalCost: Post = {
       "**Don't block the exits yourself.** Trapped bats mean dead bats in the walls and a second bill for [odor and dead animal removal](/services/dead-animal-removal/).",
       "**Put up a bat house before the exclusion.** FWC suggests one close to the roost, in the bats' flight path, on a pole or building. It doesn't replace exclusion, but gives the colony somewhere to go.",
     ),
-    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (727) 594-7705. We exclude bats across [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) and seven more counties."),
+    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (727) 594-7705. We exclude bats across [Pinellas](/service-areas/pinellas-county/), [Hillsborough](/service-areas/hillsborough-county/) and seven more counties."),
   ),
   faq: [
     faq("Is bat removal cheaper in winter?", "Not necessarily cheaper, but easier to schedule. Exclusion is allowed from August 15 to April 15, as long as overnight lows are forecast at 50°F or warmer during the exclusion."),

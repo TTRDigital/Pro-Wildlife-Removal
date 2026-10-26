@@ -24,13 +24,13 @@ export const hudson = countyPage({
   towns: [
     {
       title: "North Pasco coast",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
         { label: "Aripeka" },
         { label: "Bayonet Point" },
         { label: "Port Richey" },
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Spring Hill (Hernando)", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Spring Hill (Hernando)", href: "/service-areas/hernando-county/spring-hill/" },
       ],
     },
   ],

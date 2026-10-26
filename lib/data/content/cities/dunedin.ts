@@ -24,11 +24,11 @@ export const dunedin = countyPage({
   towns: [
     {
       title: "North Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Palm Harbor", href: "/about-us/service-area/wildlife-removal-palm-harbor/" },
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
-        { label: "Safety Harbor", href: "/about-us/service-area/wildlife-removal-safety-harbor/" },
+        { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
         { label: "Ozona" },
         { label: "Tarpon Springs" },
       ],

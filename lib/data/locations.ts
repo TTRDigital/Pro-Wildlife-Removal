@@ -4452,7 +4452,7 @@ const migratedLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l2",
-        "href": "/about-us/service-area/"
+        "href": "/service-areas/"
        },
        {
         "_type": "link",

@@ -21,9 +21,9 @@ export const pinellasPark = countyPage({
   towns: [
     {
       title: "Mid-Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "St. Petersburg", href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/" },
+        { label: "St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
         { label: "Largo" },
         { label: "Seminole" },
         { label: "Lealman" },

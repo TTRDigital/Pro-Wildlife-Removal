@@ -23,10 +23,10 @@ export const holiday = countyPage({
   towns: [
     {
       title: "Southwest Pasco coast",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
         { label: "Elfers" },
         { label: "Key Vista" },
         { label: "Tarpon Springs (Pinellas)" },

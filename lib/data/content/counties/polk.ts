@@ -23,7 +23,7 @@ export const polk = countyPage({
     {
       title: "East and south Polk",
       items: [
-        { label: "Winter Haven", href: "/about-us/service-area/rat-removal-services-winter-haven-fl/" },
+        { label: "Winter Haven", href: "/service-areas/polk-county/winter-haven/" },
         { label: "Haines City" },
         { label: "Bartow" },
         { label: "Lake Wales" },

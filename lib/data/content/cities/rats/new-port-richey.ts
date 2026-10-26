@@ -25,11 +25,11 @@ export const newPortRicheyRatsInput = {
   towns: [
     {
       title: "New Port Richey and neighbors",
-      href: "/about-us/service-area/wildlife-removal-new-port-richey/",
+      href: "/service-areas/pasco-county/new-port-richey/",
       items: [
-        { label: "All wildlife in New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Rats in Hudson", href: "/about-us/service-area/rat-removal-services-hudson-fl/" },
-        { label: "Wildlife in Holiday", href: "/about-us/service-area/wildlife-removal-holiday-fl/" },
+        { label: "All wildlife in New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Rats in Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Wildlife in Holiday", href: "/service-areas/pasco-county/holiday/" },
       ],
     },
   ],

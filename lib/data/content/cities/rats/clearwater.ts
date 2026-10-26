@@ -26,12 +26,12 @@ export const clearwaterRatsInput = {
   towns: [
     {
       title: "Clearwater and neighbors",
-      href: "/about-us/service-area/wildlife-removal-clearwater-fl/",
+      href: "/service-areas/pinellas-county/clearwater/",
       items: [
-        { label: "All wildlife in Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
-        { label: "Rats in Dunedin", href: "/about-us/service-area/rat-removal-services-dunedin-fl/" },
-        { label: "Rats in Safety Harbor", href: "/about-us/service-area/rat-removal-safety-harbor/" },
-        { label: "Rats in St. Petersburg", href: "/about-us/service-area/rat-removal-services-st-petersburg-fl/" },
+        { label: "All wildlife in Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Rats in Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Rats in Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
+        { label: "Rats in St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
       ],
     },
   ],

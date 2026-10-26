@@ -25,13 +25,13 @@ export const landOLakes = countyPage({
   towns: [
     {
       title: "Central Pasco",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
         { label: "Wesley Chapel" },
         { label: "Lutz (Hillsborough)" },
-        { label: "Dade City", href: "/about-us/service-area/wildlife-removal-dade-city/" },
+        { label: "Dade City", href: "/service-areas/pasco-county/dade-city/" },
       ],
     },
   ],

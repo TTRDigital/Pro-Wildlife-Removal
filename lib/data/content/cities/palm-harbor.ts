@@ -23,13 +23,13 @@ export const palmHarbor = countyPage({
   towns: [
     {
       title: "North Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
+        { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
         { label: "Ozona" },
         { label: "Tarpon Springs" },
         { label: "East Lake" },
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
       ],
     },
   ],

@@ -21,12 +21,12 @@ export const tampa = countyPage({
   towns: [
     {
       title: "Around Tampa",
-      href: "/about-us/service-area/wildlife-removal-hillsborough-county/",
+      href: "/service-areas/hillsborough-county/",
       items: [
         { label: "Temple Terrace" },
         { label: "Town 'N' Country" },
         { label: "Lutz" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
         { label: "Brandon" },
         { label: "Riverview" },
       ],

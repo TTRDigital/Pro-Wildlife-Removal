@@ -27,13 +27,13 @@ export const ocala = countyPage({
   towns: [
     {
       title: "Marion County",
-      href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
+      href: "/service-areas/marion-county/",
       items: [
-        { label: "Silver Springs", href: "/about-us/service-area/wildlife-removal-silver-springs-fl/" },
+        { label: "Silver Springs", href: "/service-areas/marion-county/silver-springs/" },
         { label: "Belleview" },
         { label: "Summerfield" },
         { label: "Dunnellon" },
-        { label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" },
+        { label: "The Villages", href: "/service-areas/the-villages/" },
       ],
     },
   ],

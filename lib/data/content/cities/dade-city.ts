@@ -22,13 +22,13 @@ export const dadeCity = countyPage({
   towns: [
     {
       title: "East Pasco",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
         { label: "Zephyrhills" },
         { label: "San Antonio" },
         { label: "Pasadena Hills" },
         { label: "Wesley Chapel" },
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
       ],
     },
   ],

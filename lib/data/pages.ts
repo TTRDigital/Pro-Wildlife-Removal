@@ -526,22 +526,22 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/"
+          "href": "/service-areas/pinellas-county/st-petersburg/"
          },
          {
           "_type": "link",
           "_key": "l1",
-          "href": "https://www.google.com/url?q=https://prowildliferemoval.net/about-us/service-area/wildlife-removal-clearwater-fl/"
+          "href": "https://www.google.com/url?q=https://prowildliferemoval.net/service-areas/pinellas-county/clearwater/"
          },
          {
           "_type": "link",
           "_key": "l2",
-          "href": "/about-us/service-area/wildlife-removal-pinellas-park/"
+          "href": "/service-areas/pinellas-county/pinellas-park/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-pinellas-county/"
+      "href": "/service-areas/pinellas-county/"
      },
      {
       "title": "Hernando County",
@@ -584,17 +584,17 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-spring-hill-fl/"
+          "href": "/service-areas/hernando-county/spring-hill/"
          },
          {
           "_type": "link",
           "_key": "l1",
-          "href": "/about-us/service-area/wildlife-removal-service-in-brooksville-fl/"
+          "href": "/service-areas/hernando-county/brooksville/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-in-hernando-county-fl/"
+      "href": "/service-areas/hernando-county/"
      },
      {
       "title": "Polk County",
@@ -612,7 +612,7 @@ const migratedPages = {
         "markDefs": []
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-polk-county/"
+      "href": "/service-areas/polk-county/"
      },
      {
       "title": "Pasco County",
@@ -667,22 +667,22 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-new-port-richey/"
+          "href": "/service-areas/pasco-county/new-port-richey/"
          },
          {
           "_type": "link",
           "_key": "l1",
-          "href": "/about-us/service-area/wildlife-removal-dade-city/"
+          "href": "/service-areas/pasco-county/dade-city/"
          },
          {
           "_type": "link",
           "_key": "l2",
-          "href": "/about-us/service-area/wildlife-removal-land-o-lakes/"
+          "href": "/service-areas/pasco-county/land-o-lakes/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-in-pasco-county-fl/"
+      "href": "/service-areas/pasco-county/"
      },
      {
       "title": "Citrus County",
@@ -700,7 +700,7 @@ const migratedPages = {
         "markDefs": []
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-in-citrus-county-fl/"
+      "href": "/service-areas/citrus-county/"
      },
      {
       "title": "Hillsborough County",
@@ -731,12 +731,12 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/"
+          "href": "/service-areas/hillsborough-county/tampa/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
+      "href": "/service-areas/hillsborough-county/"
      },
      {
       "title": "Sumter County",
@@ -767,12 +767,12 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-the-villages/"
+          "href": "/service-areas/the-villages/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-the-villages/"
+      "href": "/service-areas/the-villages/"
      }
     ],
     "style": {
@@ -1435,22 +1435,22 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/"
+          "href": "/service-areas/pinellas-county/st-petersburg/"
          },
          {
           "_type": "link",
           "_key": "l1",
-          "href": "https://www.google.com/url?q=https://prowildliferemoval.net/about-us/service-area/wildlife-removal-clearwater-fl/"
+          "href": "https://www.google.com/url?q=https://prowildliferemoval.net/service-areas/pinellas-county/clearwater/"
          },
          {
           "_type": "link",
           "_key": "l2",
-          "href": "/about-us/service-area/wildlife-removal-pinellas-park/"
+          "href": "/service-areas/pinellas-county/pinellas-park/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-pinellas-park/"
+      "href": "/service-areas/pinellas-county/pinellas-park/"
      },
      {
       "title": "Hernando County",
@@ -1493,17 +1493,17 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-spring-hill-fl/"
+          "href": "/service-areas/hernando-county/spring-hill/"
          },
          {
           "_type": "link",
           "_key": "l1",
-          "href": "/about-us/service-area/wildlife-removal-service-in-brooksville-fl/"
+          "href": "/service-areas/hernando-county/brooksville/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-in-hernando-county-fl/"
+      "href": "/service-areas/hernando-county/"
      },
      {
       "title": "Polk County",
@@ -1521,7 +1521,7 @@ const migratedPages = {
         "markDefs": []
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-polk-county/"
+      "href": "/service-areas/polk-county/"
      },
      {
       "title": "Pasco County",
@@ -1576,22 +1576,22 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-new-port-richey/"
+          "href": "/service-areas/pasco-county/new-port-richey/"
          },
          {
           "_type": "link",
           "_key": "l1",
-          "href": "/about-us/service-area/wildlife-removal-dade-city/"
+          "href": "/service-areas/pasco-county/dade-city/"
          },
          {
           "_type": "link",
           "_key": "l2",
-          "href": "/about-us/service-area/wildlife-removal-land-o-lakes/"
+          "href": "/service-areas/pasco-county/land-o-lakes/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-in-pasco-county-fl/"
+      "href": "/service-areas/pasco-county/"
      },
      {
       "title": "Citrus County",
@@ -1639,12 +1639,12 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/"
+          "href": "/service-areas/hillsborough-county/tampa/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-hillsborough-county/"
+      "href": "/service-areas/hillsborough-county/"
      },
      {
       "title": "Sumter County",
@@ -1675,12 +1675,12 @@ const migratedPages = {
          {
           "_type": "link",
           "_key": "l0",
-          "href": "/about-us/service-area/wildlife-removal-the-villages/"
+          "href": "/service-areas/the-villages/"
          }
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-the-villages/"
+      "href": "/service-areas/the-villages/"
      }
     ],
     "image": images.tampaBayFlMapLarge1,
@@ -2522,7 +2522,7 @@ const migratedPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "/about-us/service-area/"
+        "href": "/service-areas/"
        }
       ]
      },
