@@ -5,6 +5,8 @@ import { batRemovalTampa } from "./content/service-places/bat-removal/tampa-fl.t
 import { squirrelRemovalTampa } from "./content/service-places/squirrel-removal/tampa-fl.ts";
 import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
 import { raccoonRemovalPolkCounty } from "./content/service-places/raccoon-removal/polk-county-fl.ts";
+import { ratRemovalPolkCounty } from "./content/service-places/rat-removal/polk-county-fl.ts";
+import { squirrelRemovalPolkCounty } from "./content/service-places/squirrel-removal/polk-county-fl.ts";
 import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
 import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
 import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
@@ -26,8 +28,10 @@ export const fallbackServicePlaces: ServicePlace[] = [
   squirrelRemovalTampa,
   raccoonRemovalTampa,
   // Polk County (Owen)
+  ratRemovalPolkCounty,
   batRemovalPolkCounty,
   raccoonRemovalPolkCounty,
+  squirrelRemovalPolkCounty,
   // Pasco (Nia)
   ratRemovalPascoCounty,
   batRemovalPascoCounty,
