@@ -22,7 +22,7 @@ export const batsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "BATS IN THE ATTIC",
-    heading: "Bats in the Attic in Tampa Bay",
+    heading: "Bats in the Attic in Central Florida",
     highlight: "Bats in the Attic",
     text: p("A colony in the attic needs a plan that fits Florida's calendar. Here's how to confirm it's bats, what the law allows right now, and what cleanup involves."),
     badges: ["Dusk watch", "Legal dates", "Guano cleanup"],

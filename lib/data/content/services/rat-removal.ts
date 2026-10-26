@@ -28,7 +28,7 @@ export const ratRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "RAT REMOVAL AND RODENT-PROOFING",
-    heading: "Rat Removal in Tampa Bay",
+    heading: "Rat Removal in Central Florida",
     highlight: "Rat Removal",
     text: p("Scratching in the ceiling at night? We find how the rats get in, close every gap, trap the ones still inside and clean the attic."),
     image: images.ratRemoval2,
@@ -268,9 +268,9 @@ export const ratRemoval: Service = {
     },
   ],
   seo: {
-    title: "Rat Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Rat Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Roof rats in the attic? We seal every entry point, trap the rats left inside and clean up droppings and insulation across Tampa Bay. Call (727) 594-7705.",
+      "Roof rats in the attic? We seal every entry point, trap the rats left inside and clean up droppings and insulation in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "Florida DOH Gadsden: Rodent control (roof rats up to 8 litters a year of 6-8 young, sexually active 2-3 months after birth; good climbers, nest in trees but like high places such as attics; tail longer than body; sometimes live with Norway rats but stay up high; hollow out citrus fruit; Norway rats burrow under buildings and concrete slabs, out by day when numbers are high, when disturbed or when food is threatened; teeth kept short by gnawing; grease stains from fur on pipes, wires and around entrance holes)", url: GADSDEN },

@@ -23,7 +23,7 @@ export const raccoonRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "RACCOON REMOVAL",
-    heading: "Raccoon Removal in Tampa Bay",
+    heading: "Raccoon Removal in Central Florida",
     highlight: "Raccoon Removal",
     text: p("Thumping in the attic or a torn soffit? We get the raccoons out, babies included, repair the way in and clean up what they left."),
     image: images.raccoonRemoval,
@@ -194,7 +194,7 @@ export const raccoonRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Raccoon removal across Tampa Bay",
+      heading: "Raccoon removal across Central Florida",
       intro: p("Tampa, St. Petersburg, Clearwater and every town on the list below, in 7 counties. One number covers them all: (727) 594-7705."),
       groups: countyGroups,
     },
@@ -260,9 +260,9 @@ export const raccoonRemoval: Service = {
     },
   ],
   seo: {
-    title: "Raccoon Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Raccoon Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus sealing and latrine cleanup across Tampa Bay. Call (727) 594-7705.",
+      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus sealing and latrine cleanup in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; litters 3-4, up to 7; dens in attics, crawl spaces, under mobile homes and decks; open chimneys are common entry points; fewer than 1 in 200 wild raccoons exposed to rabies)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
