@@ -58,7 +58,7 @@ export const batRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "What kind of bats live in Pasco roofs?",
-      "Often the Brazilian free-tailed bat, which FWC calls Florida's most common bat and says prefers attics, sheds and bridges. Evening bats use attics too.",
+      "Often the Brazilian free-tailed bat, which FWC says is found throughout Florida and prefers attics, sheds and bridges. Evening bats use attics too.",
     ),
     faq(
       "Can I spray or poison bats in my attic?",
@@ -89,7 +89,7 @@ export const batRemovalPascoCounty = servicePlacePage({
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug. 14; exclusion devices legal Aug. 15 to April 15; four nights; 50°F)", url: SEASON },
     { title: "FWC: Bats (illegal to kill, 68A-4.001; pesticides or poisons to harm, kill or deter bats prohibited)", url: FWC_BATS },
     { title: "FWC: Bats in buildings (illegal to harm bats; poison, relocations and fumigants illegal)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/" },
-    { title: "FWC: Brazilian free-tailed bat profile (state's most common bat; in Florida prefers attics, sheds, bridges and bat houses)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/bats/brazillian-free-tailed-bat/" },
+    { title: "FWC: Brazilian free-tailed bat profile (found throughout Florida; in Florida prefers attics, sheds, bridges and bat houses)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/bats/brazillian-free-tailed-bat/" },
     { title: "FWC: Evening bat profile (throughout Florida except the Keys; roosts in attic spaces, under bridges, in folded umbrellas)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/bats/evening-bat/" },
     { title: "CDC: Bats and rabies (don't release a bat that may have bitten someone until you talk with public health)", url: "https://www.cdc.gov/rabies/exposure/animals/bats.html" },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Pasco)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },

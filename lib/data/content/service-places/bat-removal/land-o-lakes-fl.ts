@@ -34,7 +34,7 @@ export const batRemovalLandOLakes = servicePlacePage({
     { icon: "search", title: "A rabid bat on campus", text: p("A few weeks before that report, one of the Sunlake bats was found dead, and it tested positive for rabies, WUFT said.") },
     { icon: "wrench", title: "Out through one-way doors", text: p("A contractor and FWC finished removing the Sunlake colony in October 2014 with bat excluders, one-way doors that let the bats out and keep them from returning to their roosts.") },
     { icon: "leaf", title: "Bat houses by the cypress swamp", text: p("Teachers and about 50 student volunteers planned two bat houses from 2-by-2-foot boxes, each box sized for roughly 200 to 300 bats, on poles 15 to 20 feet up behind a ball field and near a cypress swamp.") },
-    { icon: "critter", title: "Florida's most common bat", text: p("The Sunlake colony was Brazilian free-tailed bats, which FWC calls Florida's most common bat. FWC says in Florida they prefer to roost in buildings such as attics and sheds, plus bridges and bat houses.") },
+    { icon: "critter", title: "A bat that likes buildings", text: p("The Sunlake colony was Brazilian free-tailed bats, which FWC says live throughout Florida. FWC says in Florida they prefer to roost in buildings such as attics and sheds, plus bridges and bat houses.") },
     { icon: "phone", title: "Bat contact gets reported", text: p("Pasco County Animal Services, based in Land O' Lakes, says bare skin contact with a bat, or a bat found in a room where someone slept, should be reported to DOH-Pasco or the county.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Land O' Lakes, from each agency's own page.",
@@ -49,7 +49,7 @@ export const batRemovalLandOLakes = servicePlacePage({
   faqs: [
     faq(
       "What kind of bats are in Land O' Lakes roofs?",
-      "Most often Brazilian free-tailed bats, the species found at Sunlake High in 2014. FWC says they're Florida's most common bat and favor attics, sheds and bridges, since Florida's caves suit them poorly.",
+      "Often Brazilian free-tailed bats, the species found at Sunlake High in 2014. FWC says they favor attics, sheds and bridges in Florida, since the state's caves are probably too humid for them.",
     ),
     faq(
       "When can bats be excluded in Land O' Lakes?",
@@ -78,7 +78,7 @@ export const batRemovalLandOLakes = servicePlacePage({
   },
   sources: [
     { title: "WUFT, Oct. 31, 2014: High school to build bat houses after recent infestation (Sunlake High School, Land O' Lakes; Brazilian free-tailed bats since the year before at five locations; one found dead with rabies; Ecologix and FWC finished removal in October with one-way bat excluders; two bat houses of 2-by-2-foot boxes, 200 to 300 bats each box, 15 to 20 feet up, behind a baseball field and near a cypress swamp; about 50 student volunteers)", url: WUFT },
-    { title: "FWC: Brazilian free-tailed bat profile (state's most common bat; in Florida prefers attics, sheds, bridges and bat houses; Florida's caves probably too humid)", url: FREETAIL },
+    { title: "FWC: Brazilian free-tailed bat profile (found throughout Florida; in Florida prefers attics, sheds, bridges and bat houses; Florida's caves probably too humid)", url: FREETAIL },
     { title: "Pasco County: Animal Services (19640 Dogpatch Lane, Land O' Lakes)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "Pasco County: Rabies awareness (report bare skin contact with a bat, or a bat in a room where someone slept, to DOH-Pasco or PCAS)", url: RABIES },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug. 14; exclusion devices legal Aug. 15 to April 15; four nights; 50°F)", url: SEASON },

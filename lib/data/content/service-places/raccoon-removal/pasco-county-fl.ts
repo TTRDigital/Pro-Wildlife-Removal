@@ -30,7 +30,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   localHeading: "What to know about raccoons in Pasco County",
   localIntro: "Raccoons are the animal Pasco's rabies records name most. These are the local facts and rules that matter before one is trapped or moved.",
   local: [
-    { icon: "critter", title: "Most of Pasco's rabies cases", text: p("From 2013 to 2023, Pasco County recorded 24 animals with rabies, and 17 of them were raccoons. The county's rabies page says raccoons are the number one animal reported with rabies in Florida.") },
+    { icon: "critter", title: "Most of Pasco's rabies cases", text: p("From 2013 to 2023, Pasco County recorded 24 animals with rabies, and 17 of them were raccoons.") },
     { icon: "search", title: "The only case of 2024", text: p("The state's 2024 table lists a single confirmed rabid animal for Pasco County, and it was a raccoon. The 2025 table lists none for the county.") },
     { icon: "map-pin", title: "Zephyrhills alert, early 2026", text: p("A raccoon killed off Alston Avenue in the Zephyrhills area on January 30, 2026 tested positive for rabies. DOH-Pasco put a 60-day alert on the area between South Avenue, Tucker Road, Gall Boulevard and the Zephyrhills Airport.") },
     { icon: "phone", title: "Two more that summer", text: p("On July 30, 2026, DOH-Pasco issued a rabies advisory after two more raccoons tested positive on the east side of the county, and asked residents not to attract wildlife with pet food or open garbage.") },
@@ -78,7 +78,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
       "Raccoon removal in Pasco County, FL: raccoons out of attics and crawl spaces, young found first, entry repaired, plus Pasco's 2026 rabies alerts and rules.",
   },
   sources: [
-    { title: "Pasco County: Rabies awareness (24 positive animals 2013-2023: 17 raccoons, 6 cats, 1 bat; in Florida raccoons are the number one animal reported to have rabies; avoid feeding or touching wildlife)", url: RABIES },
+    { title: "Pasco County: Rabies awareness (24 positive animals 2013-2023: 17 raccoons, 6 cats, 1 bat; avoid feeding or touching wildlife)", url: RABIES },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Pasco: 1 raccoon, total 1)", url: DOH2024 },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Pasco: none)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
     { title: "Florida DOH: DOH-Pasco rabies alert, Feb. 6, 2026 (raccoon killed off Alston Ave, Zephyrhills area, Jan. 30, 2026; 60 days; South Ave, Tucker Road, Zephyrhills Airport, Gall Blvd; don't attract wildlife with outdoor pet food or open garbage cans; 352-521-1450 option 4; Animal Services 813-929-1212)", url: FEB },

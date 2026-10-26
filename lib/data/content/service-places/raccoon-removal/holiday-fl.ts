@@ -35,7 +35,7 @@ export const raccoonRemovalHoliday = servicePlacePage({
     { icon: "map-pin", title: "Where the alert reached", text: p("That alert stretched from the Gulf east to Alternate US 19, and from Anclote Boulevard and County Line Road north to Gulf Trace Boulevard.") },
     { icon: "search", title: "A winter of sick raccoons", text: p("In January 2018, Patch reported that Pasco animal control had seen a big rise in sick or injured raccoons since November, with six reports in one day from populated areas on the west side of the county.") },
     { icon: "phone", title: "Rabies or distemper", text: p("A DOH-Pasco spokeswoman said then that raccoons can carry and pass on both rabies and distemper, and urged pet owners to keep both vaccines current. A wobbly raccoon in a Holiday yard isn't one to approach.") },
-    { icon: "drop", title: "Pasco's top rabies animal", text: p("Raccoons made up 17 of the 24 rabid animals Pasco County recorded from 2013 to 2023, according to the county's rabies awareness page.") },
+    { icon: "drop", title: "Pasco's rabies record", text: p("Raccoons made up 17 of the 24 rabid animals Pasco County recorded from 2013 to 2023, according to the county's rabies awareness page.") },
     { icon: "home", title: "Your hauler, twice a week", text: p("Holiday homes are in unincorporated Pasco, where the county doesn't pick up trash. Residents sign up with a private hauler, and curbside garbage goes twice a week.") },
     { icon: "leaf", title: "Not to the parks", text: p("FWC says county and state parks can't be used to release trapped wildlife without the land manager's written permission. That rules out Holiday's Anclote River Park or Key Vista Nature Park as drop-off spots.") },
   ],

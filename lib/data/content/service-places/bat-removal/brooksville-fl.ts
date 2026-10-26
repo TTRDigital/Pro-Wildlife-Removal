@@ -35,7 +35,7 @@ export const batRemovalBrooksville = servicePlacePage({
   local: [
     { icon: "leaf", title: "A big colony up the road", text: p("FWC's Chinsegut Wildlife and Environmental Area sits six miles north of Brooksville. The Great Florida Birding Trail says it has a large colony of Brazilian free-tailed bats.") },
     { icon: "home", title: "Bats in bat houses", text: p("FWC staff at Chinsegut maintain bat houses that are home to several hundred Brazilian free-tailed bats, as part of the area's regular wildlife monitoring.") },
-    { icon: "critter", title: "The species in your roof", text: p("The Chinsegut bats are the same kind most likely to be in a Brooksville attic. FWC calls the Brazilian free-tailed bat the state's most common, and says in Florida it prefers attics, sheds, bridges and bat houses.") },
+    { icon: "critter", title: "The species in your roof", text: p("The Chinsegut bats are the same kind often found in Brooksville attics. FWC says Brazilian free-tailed bats live throughout Florida and here prefer to roost in attics, sheds, bridges and bat houses.") },
     { icon: "search", title: "Pups in June and July", text: p("FWC says Brazilian free-tailed bat pups are typically born in June or July. That falls inside the April 16 to August 14 maternity season, when exclusion devices can't go up without a permit.") },
     { icon: "map-pin", title: "No rabid bats on Hernando's tables", text: p("The state's county tables listed no rabid bats for Hernando in 2024 or 2025. The only Hernando entries were two rabid raccoons in 2025.") },
     { icon: "phone", title: "Keep them out of living space", text: p("DOH-Hernando's June 30, 2026 rabies alert, issued after a rabid feral cat was found off Westwood Drive, told residents to keep wildlife, including bats, out of living quarters, schools and other occupied spaces.") },
@@ -52,7 +52,7 @@ export const batRemovalBrooksville = servicePlacePage({
   faqs: [
     faq(
       "Why are there so many bats around Brooksville?",
-      "Brazilian free-tailed bats are Florida's most common bat, per FWC, and a large colony lives at FWC's Chinsegut Wildlife and Environmental Area north of town. They hunt insects at night and look for roosts in buildings by day.",
+      "Brazilian free-tailed bats live throughout Florida, per FWC, and a large colony lives at FWC's Chinsegut Wildlife and Environmental Area north of town. They hunt insects at night and look for roosts in buildings by day.",
     ),
     faq(
       "Can I put up a bat house instead of evicting them?",
@@ -83,7 +83,7 @@ export const batRemovalBrooksville = servicePlacePage({
     { title: "FWC: Chinsegut Wildlife and Environmental Area (Hernando County, six miles north of Brooksville)", url: CHIN },
     { title: "FWC: Chinsegut WEA habitat and management (bat houses home to several hundred Brazilian free-tailed bats)", url: CHIN_HAB },
     { title: "FWC Great Florida Birding Trail: Chinsegut WEA (large colony of Brazilian free-tailed bats; 820 acres; Lake Lindsey Rd, Brooksville)", url: CHIN_BT },
-    { title: "FWC: Brazilian free-tailed bat profile (state's most common bat; in Florida prefers attics, sheds, bridges and bat houses; pups typically born June or July)", url: FREETAIL },
+    { title: "FWC: Brazilian free-tailed bat profile (found throughout Florida; in Florida prefers attics, sheds, bridges and bat houses; pups typically born June or July)", url: FREETAIL },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug. 14; exclusion devices legal Aug. 15 to April 15; four nights; 50°F)", url: SEASON },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Hernando: none listed)", url: DOH2024 },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Hernando: 2 raccoons, total 2)", url: DOH2025 },
