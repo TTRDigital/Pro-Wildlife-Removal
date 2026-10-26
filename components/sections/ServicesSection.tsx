@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import type { Service, ServicesSection as Svc } from "@/lib/types";
 import { Photo } from "@/components/ui/Photo";
 import { LoopVideo } from "@/components/ui/LoopVideo";
+import { animalVideos } from "@/lib/data/videos";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 export const groupLabels: Record<Service["group"], string> = {
@@ -41,6 +42,7 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
 /** Compact photo tile (photo with the animal's name on a navy bar), as on the client-approved landing pages. */
 export function ServiceTile({ s, index }: { s: Service; index: number }) {
   const img = s.cardImage ?? s.hero.image;
+  const video = s.cardVideo ?? animalVideos[s.animal];
   return (
     <Link
       href={`/services/${s.slug}/`}
@@ -50,7 +52,7 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
     >
       <div className="photo-look relative aspect-[4/3] overflow-hidden bg-navy-3">
         {img ? <Photo image={img} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.08]" /> : null}
-        {s.cardVideo ? <LoopVideo src={s.cardVideo} poster={img?.src} /> : null}
+        {video ? <LoopVideo src={video} poster={img?.src} /> : null}
       </div>
       <p className="flex min-h-12 items-center justify-center gap-1.5 px-2 py-2.5 text-center font-display text-[0.9375rem] leading-tight font-bold text-white">
         {s.title.replace(/ Removal$/, "")}
