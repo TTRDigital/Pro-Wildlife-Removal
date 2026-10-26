@@ -11,16 +11,16 @@ export const clearwaterRats = countyPage({
   name: "Clearwater",
   county: "Pinellas",
   order: 32,
-  phone: { label: "Call 727-496-7702", href: "tel:+17274967702" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "RAT REMOVAL IN CLEARWATER",
   heading: "Rat Removal in Clearwater, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Clearwater, FL: roof rats sealed out and trapped, plus what Clearwater's code says about rat harborage.",
-  heroText: "Rats in a Clearwater attic, wall or garage? We seal the gaps, trap the rats inside and clean up. Call 727-496-7702.",
+  heroText: "Rats in a Clearwater attic, wall or garage? We seal the gaps, trap the rats inside and clean up. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Clearwater?",
   answer:
-    "In Clearwater, rats on private property are the owner's problem to solve, and the city's code makes letting garbage or debris feed or shelter rats a violation. Pro Wildlife Removal seals the openings, traps the rats inside and cleans up. Call 727-496-7702.",
-  points: ["Call 727-496-7702", "City code bans rat harborage", "Trash pickup once a week"],
+    "In Clearwater, rats on private property are the owner's problem to solve, and the city's code makes letting garbage or debris feed or shelter rats a violation. Pro Wildlife Removal seals the openings, traps the rats inside and cleans up. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "City code bans rat harborage", "Trash pickup once a week"],
   townsHeading: "Rat removal near Clearwater",
   townsIntro: "We also handle rats in the towns around Clearwater, and every other animal in Clearwater itself.",
   towns: [
@@ -47,7 +47,7 @@ export const clearwaterRats = countyPage({
   contactsIntro: "Who to call about rats in Clearwater, from the city's own pages.",
   contacts: [
     { icon: "home", title: "Report harborage next door", text: p("Clearwater Code Compliance, (727) 562-4720, takes reports of debris, overgrowth and other code violations.") },
-    { icon: "users", title: "Rats inside your home", text: p("That's a job for a private company. Call us at 727-496-7702.") },
+    { icon: "users", title: "Rats inside your home", text: p("That's a job for a private company. Call us at (727) 594-7705.") },
   ],
   servicesIntro: "Rats are this page's focus, but we remove every animal below in Clearwater too.",
   servicesHeading: "Rats, and the other animals we remove in Clearwater",
@@ -68,20 +68,20 @@ export const clearwaterRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in Clearwater?",
-      "Our Pinellas line, 727-496-7702, is answered 24/7.",
+      "Clearwater rat calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Clearwater]",
     ),
   ],
   ctaHeading: "Rats in your Clearwater home?",
-  ctaText: "For rats in Clearwater, call 727-496-7702.",
+  ctaText: "For rats in Clearwater, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Clearwater, FL | Call 727-496-7702 | Pro Wildlife Removal",
+    title: "Rat Removal in Clearwater, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Rat removal in Clearwater, FL: roof rats sealed out, trapped and cleaned up. What Clearwater's code says about rat harborage, plus trash rules. Call 727-496-7702.",
+      "Rat removal in Clearwater, FL: roof rats sealed out, trapped and cleaned up. What Clearwater's code says about rat harborage, plus trash rules. Call (727) 594-7705.",
   },
   sources: [
     { title: "City of Clearwater: Citizens Guide to Code Compliance (CO 24.27 & 32.283: garbage or debris so that rats may be afforded food or harborage; CDC 3-1503.B: debris likely to contain rodents, reptiles or other vermin; grass over 12 inches; Code Compliance (727) 562-4720)", url: GUIDE },
     { title: "City of Clearwater: Residential trash collection (once a week; close the lid; curb no earlier than 7 p.m. the night before, removed by 7 a.m. the day after; yard waste and bulk no more than 24 hours early)", url: TRASH },
   ],
-  clientQuestions: ["Typical response time for rat calls in Clearwater?", "Clearwater rat job reviews (from TTR-723) and real rat job photos.", "This rat page used the main number. Should it use the Pinellas line (as now) or a Clearwater number?"],
+  clientQuestions: ["Typical response time for rat calls in Clearwater?", "Clearwater rat job reviews (from TTR-723) and real rat job photos."],
 });

@@ -8,16 +8,16 @@ export const springHillRats = countyPage({
   name: "Spring Hill",
   county: "Hernando",
   order: 39,
-  phone: { label: "Call 352-612-3336", href: "tel:+13526123336" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "RAT REMOVAL IN SPRING HILL",
   heading: "Rat Removal in Spring Hill, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Spring Hill, FL: roof rats sealed out and trapped, plus Hernando County's garbage and yard rules that keep rats away.",
-  heroText: "Rats in a Spring Hill attic or garage? We seal the way in, trap the rats inside and clean up after them. Call 352-612-3336.",
+  heroText: "Rats in a Spring Hill attic or garage? We seal the way in, trap the rats inside and clean up after them. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Spring Hill?",
   answer:
-    "Spring Hill is unincorporated Hernando County, and the county doesn't remove rats from homes. That's a job for a private company. Pro Wildlife Removal seals the openings rats use, traps the ones inside and cleans up. Hernando's garbage rules help keep them from coming back. Call 352-612-3336.",
-  points: ["Call 352-612-3336", "County: lids closed", "Grass limit 18 inches"],
+    "Spring Hill is unincorporated Hernando County, and the county doesn't remove rats from homes. That's a job for a private company. Pro Wildlife Removal seals the openings rats use, traps the ones inside and cleans up. Hernando's garbage rules help keep them from coming back. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "County: lids closed", "Grass limit 18 inches"],
   townsHeading: "Rat removal near Spring Hill",
   townsIntro: "We take rat calls across Hernando County, and handle every other animal in Spring Hill too.",
   towns: [
@@ -64,16 +64,16 @@ export const springHillRats = countyPage({
     ),
     faq(
       "How fast can you come out for rats in Spring Hill?",
-      "Our Hernando line, 352-612-3336, is answered 24/7.",
+      "Spring Hill rat calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Spring Hill]",
     ),
   ],
   ctaHeading: "Rats in your Spring Hill home?",
-  ctaText: "For rats in Spring Hill, call 352-612-3336.",
+  ctaText: "For rats in Spring Hill, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Spring Hill, FL | Call 352-612-3336 | Pro Wildlife Removal",
+    title: "Rat Removal in Spring Hill, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Rat removal in Spring Hill, FL: roof rats sealed out, trapped and cleaned up. Hernando County's lid, yard waste and code rules that keep rats away. Call 352-612-3336.",
+      "Rat removal in Spring Hill, FL: roof rats sealed out, trapped and cleaned up. Hernando County's lid, yard waste and code rules that keep rats away. Call (727) 594-7705.",
   },
   sources: [
     { title: "Hernando County: Garbage (cart lids must be closed to prevent scavenging of animals; bag all trash; curbside no earlier than 6 p.m. the day before; scattered loose trash is the customer's responsibility)", url: "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/garbage/" },
@@ -81,5 +81,5 @@ export const springHillRats = countyPage({
     { title: "Hernando County: Bulk waste (six collections, up to 10 items; Coastal Waste & Recycling (352) 540-6457)", url: "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/bulk-waste/" },
     { title: "Hernando County: Code violations (Sec. 15-163a grass over 18 inches within 100 feet of improved property; 15-163b accumulation of trash bags, decaying vegetation, exposed appliances or furniture; main line (352) 754-4000)", url: "https://www.hernandocounty.us/public-safety/code-compliance/code-violations/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Spring Hill?", "Spring Hill rat job reviews (from TTR-723) and real rat job photos.", "This rat page used the main number. Should it use the Hernando line (as now) or the Spring Hill number 352-675-3338?"],
+  clientQuestions: ["Typical response time for rat calls in Spring Hill?", "Spring Hill rat job reviews (from TTR-723) and real rat job photos."],
 });

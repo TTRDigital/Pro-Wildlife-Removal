@@ -10,14 +10,14 @@ export const odessa = countyPage({
   name: "Odessa",
   county: "Pasco",
   order: 19,
-  phone: { label: "Call 727-594-7722", href: "tel:+17275947722" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN ODESSA",
   summary: "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes, opossums, armadillos, bats and more, where Pasco meets Hillsborough and Pinellas.",
-  heroText: "Lakes and large lots where Pasco, Hillsborough and Pinellas meet. Call 727-594-7722.",
+  heroText: "Lakes and large lots where Pasco, Hillsborough and Pinellas meet. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife in Odessa, FL?",
   answer:
-    "Odessa isn't a city, so public services come from the county. Pasco's Animal Services handles pets and strays, and some Odessa addresses fall in Hillsborough instead. For raccoons, rats, squirrels or snakes in your home, call a private company. Pro Wildlife Removal works across Odessa. Call 727-594-7722.",
-  points: ["Call 727-594-7722", "Pasco, near two county lines", "Lakes and large lots"],
+    "Odessa isn't a city, so public services come from the county. Pasco's Animal Services handles pets and strays, and some Odessa addresses fall in Hillsborough instead. For raccoons, rats, squirrels or snakes in your home, call a private company. Pro Wildlife Removal works across Odessa. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Pasco, near two county lines", "Lakes and large lots"],
   townsHeading: "Odessa and nearby",
   townsIntro: "The Odessa census area, about 8,100 people in 2020, lies entirely in Pasco County. Some homes with an Odessa mailing address are across the line in Hillsborough.",
   towns: [
@@ -65,16 +65,16 @@ export const odessa = countyPage({
     ),
     faq(
       "How fast can you get to Odessa?",
-      "We answer Odessa calls to 727-594-7722 24/7.",
+      "We answer Odessa calls to (727) 594-7705 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Odessa]",
     ),
   ],
   ctaHeading: "Wildlife problem in Odessa?",
-  ctaText: "Odessa homeowners can call 727-594-7722.",
+  ctaText: "Odessa homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Odessa, FL | Call 727-594-7722 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Odessa, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes and opossums on both sides of the Pasco and Hillsborough line. Who to call for what. Call 727-594-7722.",
+      "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes and opossums on both sides of the Pasco and Hillsborough line. Who to call for what. Call (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Odessa CDP, 8,080, entirely in Pasco County)", url: CENSUS },
@@ -86,7 +86,7 @@ export const odessa = countyPage({
     { title: "Hillsborough County: Animal Control ((813) 744-5660)", url: "https://hcfl.gov/locations/animal-control" },
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
-    { title: "FWC: Nuisance Alligator Program (866-FWC-GATOR)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/nuisance/" },
+    { title: "FWC: Nuisance Alligator Program (866-FWC-GATOR)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
   clientQuestions: ["Typical response time in Odessa?", "Odessa reviews (from TTR-723) and real Odessa job photos."],
 });

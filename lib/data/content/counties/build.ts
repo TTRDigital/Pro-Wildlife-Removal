@@ -3,10 +3,10 @@ import type { AreasSection, Card, Faq, Location, Source } from "../../../types";
 import { p } from "../pt.ts";
 
 /*
- * County page layout (blueprint: hero with the county line, short answer, towns,
+ * County page layout (blueprint: hero with the call button, short answer, towns,
  * common problems here, services, reviews, FAQ, call band). Only the layout is
  * shared: every county file writes its own words. The hero cta carries the
- * county's own number, which Jade's templates also use for the closing band and call bar.
+ * site's one number, (727) 594-7705 (Kia, Oct 26: no county lines).
  */
 
 export type CountyInput = {
@@ -91,7 +91,7 @@ export function countyPage(c: CountyInput): Location {
 /* Sources several county pages draw on. */
 export const S = {
   doh2024: { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2024.pdf" },
-  doh2025: { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (uploaded Sept 2025; may be partial-year)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
+  doh2025: { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
   dohList: { title: "Florida DOH: Rabies surveillance and alert list", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/rabies-surveillance.html" },
   censusPop: { title: "U.S. Census Bureau: Vintage 2025 county population estimates", url: "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv" },
   censusUR: { title: "U.S. Census Bureau: 2020 urban and rural by county", url: "https://www2.census.gov/geo/docs/reference/ua/2020_UA_COUNTY.xlsx" },

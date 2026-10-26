@@ -10,14 +10,14 @@ export const stPetersburg = countyPage({
   name: "St. Petersburg",
   county: "Pinellas",
   order: 25,
-  phone: { label: "Call 727-594-7704", href: "tel:+17275947704" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN ST. PETERSBURG",
-  summary: "Wildlife removal in St. Petersburg, FL: roof rats, raccoons, squirrels, bats, opossums, snakes and more. Call 727-594-7704.",
-  heroText: "Pinellas County's largest city, on Tampa Bay, with nature preserves in the north and south of town. Call 727-594-7704.",
+  summary: "Wildlife removal in St. Petersburg, FL: roof rats, raccoons, squirrels, bats, opossums, snakes and more. Call (727) 594-7705.",
+  heroText: "Pinellas County's largest city, on Tampa Bay, with nature preserves in the north and south of town. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife and rats in St. Petersburg?",
   answer:
-    "Pinellas County handles strays and injured wildlife in St. Petersburg. The city helps with rats outdoors, but for rodents inside a home it says to call a private company. Pro Wildlife Removal removes rats, raccoons, squirrels, bats and more across St. Pete. Call 727-594-7704.",
-  points: ["Call 727-594-7704", "County: strays, injured wildlife", "Inside rats: private company"],
+    "Pinellas County handles strays and injured wildlife in St. Petersburg. The city helps with rats outdoors, but for rodents inside a home it says to call a private company. Pro Wildlife Removal removes rats, raccoons, squirrels, bats and more across St. Pete. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "County: strays, injured wildlife", "Inside rats: private company"],
   townsHeading: "St. Petersburg and nearby",
   townsIntro: "St. Petersburg, home to about 266,200 people, is the largest city in Pinellas County. We cover its neighbors too.",
   towns: [
@@ -65,20 +65,20 @@ export const stPetersburg = countyPage({
     ),
     faq(
       "Should I seal the holes before the rats are gone?",
-      "No. The city's guide says to seal gaps only after the rats inside are gone. Otherwise they're shut in. Our [rat removal](/services/rat-removal/) page covers how we handle it.",
+      "Not on your own. St. Petersburg's guide says to seal gaps only after the rats inside are gone, so none are shut in. Our [rat removal](/services/rat-removal/) page explains how we seal entry points and trap the rats left inside.",
     ),
     faq(
       "How fast can you get to St. Petersburg?",
-      "Our St. Pete number, 727-594-7704, is answered 24/7.",
+      "Our St. Pete number, (727) 594-7705, is answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in St. Petersburg]",
     ),
   ],
   ctaHeading: "Wildlife problem in St. Petersburg?",
-  ctaText: "In St. Pete, call 727-594-7704.",
+  ctaText: "In St. Pete, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in St. Petersburg, FL | Call 727-594-7704 | Pro Wildlife Removal",
+    title: "Wildlife Removal in St. Petersburg, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in St. Petersburg, FL: roof rats, raccoons, squirrels, bats and opossums. Who handles what in St. Pete, and the city's own rat tips. Call 727-594-7704.",
+      "Wildlife removal in St. Petersburg, FL: roof rats, raccoons, squirrels, bats and opossums. Who handles what in St. Pete, and the city's own rat tips. Call (727) 594-7705.",
   },
   sources: [
     S.edr,

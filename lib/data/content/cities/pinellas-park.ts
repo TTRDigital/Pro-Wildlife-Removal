@@ -1,21 +1,21 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/* Pinellas Park page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. Keeps the page's own number. */
+/* Pinellas Park page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 export const pinellasPark = countyPage({
   kind: "city",
   path: "about-us/service-area/wildlife-removal-pinellas-park",
   name: "Pinellas Park",
   county: "Pinellas",
   order: 23,
-  phone: { label: "Call 727-594-7722", href: "tel:+17275947722" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN PINELLAS PARK",
   summary: "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums, snakes, bats and more, in mid-Pinellas.",
-  heroText: "A mid-Pinellas city of neighborhood parks and ponds, with Sawgrass Lake Park nearby. Call 727-594-7722.",
+  heroText: "A mid-Pinellas city of neighborhood parks and ponds, with Sawgrass Lake Park nearby. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife in Pinellas Park?",
   answer:
-    "Pinellas Park doesn't list its own animal control. Pinellas County Animal Services helps with strays and sick or injured wildlife, and animals living in your attic or walls are a job for a private company. Pro Wildlife Removal works across Pinellas Park. Call 727-594-7722.",
-  points: ["Call 727-594-7722", "County: strays, injured wildlife", "Garbage twice a week"],
+    "Pinellas Park doesn't list its own animal control. Pinellas County Animal Services helps with strays and sick or injured wildlife, and animals living in your attic or walls are a job for a private company. Pro Wildlife Removal works across Pinellas Park. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "County: strays, injured wildlife", "Garbage twice a week"],
   townsHeading: "Pinellas Park and nearby",
   townsIntro: "Pinellas Park, with about 55,100 residents, is in the middle of the county. We cover its neighbors too.",
   towns: [
@@ -63,16 +63,16 @@ export const pinellasPark = countyPage({
     ),
     faq(
       "How fast can you get to Pinellas Park?",
-      "Pinellas Park calls to 727-594-7722 are answered 24/7.",
+      "Pinellas Park calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Pinellas Park]",
     ),
   ],
   ctaHeading: "Wildlife problem in Pinellas Park?",
-  ctaText: "Pinellas Park homeowners can call 727-594-7722.",
+  ctaText: "Pinellas Park homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Pinellas Park, FL | Call 727-594-7722 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Pinellas Park, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums and snakes. Who to call for what in Pinellas Park, plus garbage days and local parks. Call 727-594-7722.",
+      "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums and snakes. Who to call for what in Pinellas Park, plus garbage days and local parks. Call (727) 594-7705.",
   },
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Pinellas Park 55,055)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },
@@ -84,5 +84,5 @@ export const pinellasPark = countyPage({
     { title: "Pinellas County: Injured or orphaned wildlife ((727) 582-2600 option 4; Nuisance Alligator Hotline 866-392-4286)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
   ],
-  clientQuestions: ["Typical response time in Pinellas Park?", "Pinellas Park reviews (from TTR-723) and real Pinellas Park job photos.", "Pinellas Park's page shows 727-594-7722 (the Pasco line). Is that right, or should it use the Pinellas line?"],
+  clientQuestions: ["Typical response time in Pinellas Park?", "Pinellas Park reviews (from TTR-723) and real Pinellas Park job photos."],
 });

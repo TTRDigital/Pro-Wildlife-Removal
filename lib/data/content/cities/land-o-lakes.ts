@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { TRAP_RULES_SOURCE } from "../notes.ts";
 
 /* Land O' Lakes page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const CONNER_PLAN = "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/ConnerPreserve.pdf";
@@ -11,14 +12,14 @@ export const landOLakes = countyPage({
   name: "Land O' Lakes",
   county: "Pasco",
   order: 16,
-  phone: { label: "Call 727-594-7722", href: "tel:+17275947722" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN LAND O' LAKES",
-  summary: "Wildlife removal in Land O' Lakes, FL: raccoons, rats, squirrels, snakes, armadillos, opossums, bats and more, on the Pasco line.",
-  heroText: "Central Pasco neighborhoods built between lakes, cypress swamps and two big water district preserves. Call 727-594-7722.",
+  summary: "Wildlife removal in Land O' Lakes, FL: raccoons, rats, squirrels, snakes, armadillos, opossums, bats and more.",
+  heroText: "Central Pasco neighborhoods built between lakes, cypress swamps and two big water district preserves. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Land O' Lakes?",
   answer:
-    "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal works across Land O' Lakes. Call 727-594-7722.",
-  points: ["Pasco line 727-594-7722", "Unincorporated Pasco", "Between two big preserves"],
+    "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal works across Land O' Lakes. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Unincorporated Pasco", "Between two big preserves"],
   townsHeading: "Land O' Lakes and nearby",
   townsIntro: "Land O' Lakes is an unincorporated community of about 35,900 people, as of the 2020 Census. We cover the central Pasco communities around it.",
   towns: [
@@ -37,9 +38,9 @@ export const landOLakes = countyPage({
   localHeading: "Preserves at the back fence",
   localIntro: "Two Southwest Florida Water Management District preserves sit at the edge of Land O' Lakes neighborhoods. Their management plans say what lives there.",
   local: [
-    { icon: "leaf", title: "Cypress Creek Preserve", text: p("This 7,400-acre preserve borders Land O' Lakes subdivisions on its west side. FWC has designated it a Wildlife Refuge, where taking or possessing wildlife is prohibited. Gopher tortoises and wood storks live there.") },
-    { icon: "critter", title: "Feral hogs", text: p("The Cypress Creek plan notes the feral hog as the one exotic animal recorded on the property and calls for a trapping program. Hogs rooting up a yard near the preserve are a sign of where they came from.") },
-    { icon: "map-pin", title: "Conner Preserve", text: p("Off SR 52, Conner Preserve covers 3,486 acres of sandhill, marsh, cypress and pine flatwoods. The water district says deer, turkey and quail roam it, gopher tortoises forage on its ridges, and wood storks and sandhill cranes nest in its marshes.") },
+    { icon: "leaf", title: "Cypress Creek Preserve", text: p("This 7,400-acre preserve borders Land O' Lakes subdivisions on its west side. The water district's management plan says FWC designated it a Wildlife Refuge, where taking or possessing wildlife is prohibited. Gopher tortoises and wood storks live there.") },
+    { icon: "critter", title: "Feral hogs", text: p("The Cypress Creek plan notes the feral hog as the one exotic animal recorded on the property and calls for a trapping program.") },
+    { icon: "map-pin", title: "Conner Preserve", text: p("Off SR 52, Conner Preserve covers 3,486 acres of sandhill, marsh, cypress and pine flatwoods. The water district says deer, turkey and quail roam it, gopher tortoises forage on its ridges, sandhill cranes nest in its marshes and wood storks feed there.") },
     { icon: "home", title: "Homes meet the woods", text: p("Conner's management plan expected the preserve to end up next to dense residential areas. Where homes back onto preserve land, raccoons, opossums and snakes have a short trip to a yard or crawl space.") },
   ],
   contactsIntro: "Who to call for what in Land O' Lakes, from the county's and agencies' own pages.",
@@ -58,25 +59,25 @@ export const landOLakes = countyPage({
     ),
     faq(
       "Can I trap animals in Cypress Creek Preserve?",
-      "No. FWC has designated Cypress Creek Preserve a Wildlife Refuge, where taking or possessing wildlife is prohibited. On your own property, Florida's nuisance wildlife rules apply. See our guide to [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/).",
+      "No. The water district's management plan says FWC designated Cypress Creek Preserve a Wildlife Refuge, where taking or possessing wildlife is prohibited. On your own property, Florida's nuisance wildlife rules apply. See our guide to [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/).",
     ),
     faq(
       "Who handles feral hogs in Land O' Lakes?",
-      "On Cypress Creek Preserve, the water district's plan calls for its own hog trapping. On private property, FWC says wild hogs may be trapped year-round with the landowner's permission.",
+      "On Cypress Creek Preserve, the water district's plan calls for its own hog trapping. On private property, FWC says wild hogs may be trapped year-round with the landowner's permission. From December 31, 2026, most people who trap, hogs included, must complete FWC's free registration and training.",
       "[PLACEHOLDER: ask the client: do you handle feral hogs?]",
     ),
     faq(
       "How fast can you get to Land O' Lakes?",
-      "The Pasco line is answered 24/7.",
+      "Land O' Lakes calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Wildlife problem in Land O' Lakes?",
-  ctaText: "For Land O' Lakes, call 727-594-7722.",
+  ctaText: "For Land O' Lakes, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Land O' Lakes, FL | Call 727-594-7722 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Land O' Lakes, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Land O' Lakes, FL: raccoons, rats, squirrels, snakes and armadillos near Cypress Creek and Conner preserves. Who to call for what. Call 727-594-7722.",
+      "Wildlife removal in Land O' Lakes, FL: raccoons, rats, squirrels, snakes and armadillos near Cypress Creek and Conner preserves. Who to call for what. Call (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Land O' Lakes CDP, Pasco County, 35,929)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },
@@ -87,6 +88,7 @@ export const landOLakes = countyPage({
     { title: "Pasco County: Animal Services (19640 Dogpatch Lane, Land O' Lakes; 813-929-1212; after hours (727) 847-8102 option 7, 5 pm to 8 am, qualifying emergencies)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Wild hog (may be trapped and hunted year-round with landowner permission)", url: "https://myfwc.com/hunting/wild-hog/" },
+    TRAP_RULES_SOURCE,
     { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
   clientQuestions: ["Typical response time in Land O' Lakes?", "Do you handle feral hogs?", "Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],

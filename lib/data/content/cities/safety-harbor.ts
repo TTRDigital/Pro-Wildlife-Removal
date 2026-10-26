@@ -1,7 +1,7 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/* Safety Harbor page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. Keeps the page's own number. */
+/* Safety Harbor page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const FAQ = "http://www.cityofsafetyharbor.com/m/faq";
 
 export const safetyHarbor = countyPage({
@@ -10,14 +10,14 @@ export const safetyHarbor = countyPage({
   name: "Safety Harbor",
   county: "Pinellas",
   order: 24,
-  phone: { label: "Call 727-594-7718", href: "tel:+17275947718" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN SAFETY HARBOR",
   summary: "Wildlife removal in Safety Harbor, FL: raccoons, rats, squirrels, opossums, snakes, bats and more, on Old Tampa Bay.",
-  heroText: "A small city on the northwest edge of Old Tampa Bay, with big shade trees, a nature preserve and Philippe Park. Call 727-594-7718.",
+  heroText: "A small city on the northwest edge of Old Tampa Bay, with big shade trees, a nature preserve and Philippe Park. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife in Safety Harbor?",
   answer:
-    "Safety Harbor's own Public Works picks up dead animals from city rights-of-way, and FWC handles nuisance alligators. Animals living in your attic, walls or crawl space are a job for a private company. Pro Wildlife Removal works across Safety Harbor. Call 727-594-7718.",
-  points: ["Call 727-594-7718", "City picks up road kill", "FWC handles alligators"],
+    "Safety Harbor's own Public Works picks up dead animals from city rights-of-way, and FWC handles nuisance alligators. Animals living in your attic, walls or crawl space are a job for a private company. Pro Wildlife Removal works across Safety Harbor. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "City picks up road kill", "FWC handles alligators"],
   townsHeading: "Safety Harbor and nearby",
   townsIntro: "Safety Harbor has about 16,800 residents, on the northwest edge of Old Tampa Bay.",
   towns: [
@@ -64,16 +64,16 @@ export const safetyHarbor = countyPage({
     ),
     faq(
       "How fast can you come to Safety Harbor?",
-      "Safety Harbor calls to 727-594-7718 are answered 24/7.",
+      "Safety Harbor calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Safety Harbor]",
     ),
   ],
   ctaHeading: "Wildlife problem in Safety Harbor?",
-  ctaText: "Safety Harbor homeowners can call 727-594-7718.",
+  ctaText: "Safety Harbor homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Safety Harbor, FL | Call 727-594-7718 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Safety Harbor, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Safety Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Philippe Park and Old Tampa Bay. Who to call for what. Call 727-594-7718.",
+      "Wildlife removal in Safety Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Philippe Park and Old Tampa Bay. Who to call for what. Call (727) 594-7705.",
   },
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Safety Harbor 16,808)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },
@@ -86,5 +86,5 @@ export const safetyHarbor = countyPage({
     { title: "City of Safety Harbor: Protecting our wildlife (keep bins tightly closed; remove pet food, spilled birdseed, fallen fruit; no safe rat poison; never glue traps)", url: "https://www.cityofsafetyharbor.com/948/Protecting-Our-Wildlife" },
     { title: "Pinellas County: Injured or orphaned wildlife ((727) 582-2600 option 4)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
   ],
-  clientQuestions: ["Typical response time in Safety Harbor?", "Safety Harbor reviews (from TTR-723) and real Safety Harbor job photos.", "Is 727-594-7718 still the right number for Safety Harbor?"],
+  clientQuestions: ["Typical response time in Safety Harbor?", "Safety Harbor reviews (from TTR-723) and real Safety Harbor job photos."],
 });

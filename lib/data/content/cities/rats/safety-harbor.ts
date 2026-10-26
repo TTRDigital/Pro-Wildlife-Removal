@@ -10,16 +10,16 @@ export const safetyHarborRats = countyPage({
   name: "Safety Harbor",
   county: "Pinellas",
   order: 38,
-  phone: { label: "Call 727-496-7702", href: "tel:+17274967702" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "RAT REMOVAL IN SAFETY HARBOR",
   heading: "Rat Removal in Safety Harbor, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Safety Harbor, FL: rats sealed out and trapped without poison, in line with the city's own advice on protecting wildlife.",
-  heroText: "Rats in a Safety Harbor attic or wall? We seal the gaps and trap the rats inside, without rat poison. Call 727-496-7702.",
+  heroText: "Rats in a Safety Harbor attic or wall? We seal the gaps and trap the rats inside, without rat poison. Call (727) 594-7705.",
   answerHeading: "How do you get rid of rats in Safety Harbor?",
   answer:
-    "Seal the gaps, remove what feeds them and trap the rats left inside. Safety Harbor's own wildlife page warns against rat poison and glue traps because they kill owls, pets and songbirds. Pro Wildlife Removal works this way across the city. Call 727-496-7702.",
-  points: ["Call 727-496-7702", "City: no safe rat poison", "No glue traps"],
+    "Seal the gaps, remove what feeds them and trap the rats left inside. Safety Harbor's own wildlife page warns against rat poison and glue traps because they kill owls, pets and songbirds. Pro Wildlife Removal works this way across the city. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "City: no safe rat poison", "No glue traps"],
   townsHeading: "Rat removal near Safety Harbor",
   townsIntro: "We take rat calls across north Pinellas, and handle every other animal in Safety Harbor too.",
   towns: [
@@ -45,7 +45,7 @@ export const safetyHarborRats = countyPage({
   contactsIntro: "Who to call about rats and trash in Safety Harbor.",
   contacts: [
     { icon: "home", title: "Sanitation Division", text: p("727-724-1550, for barrels, missed pickups and dead animals on city roads.") },
-    { icon: "users", title: "Rats inside your home", text: p("A private company that doesn't rely on anticoagulant poison, as the city recommends. Call us at 727-496-7702.") },
+    { icon: "users", title: "Rats inside your home", text: p("A private company that doesn't rely on anticoagulant poison, as the city recommends. Call us at (727) 594-7705.") },
   ],
   servicesIntro: "This page is about rats, but we remove every animal below in Safety Harbor.",
   servicesHeading: "Rats, and the other animals we remove in Safety Harbor",
@@ -67,16 +67,16 @@ export const safetyHarborRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in Safety Harbor?",
-      "Rat calls from Safety Harbor to 727-496-7702 are answered 24/7.",
+      "Rat calls from Safety Harbor to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Safety Harbor]",
     ),
   ],
   ctaHeading: "Rats in your Safety Harbor home?",
-  ctaText: "For rats in Safety Harbor, call 727-496-7702.",
+  ctaText: "For rats in Safety Harbor, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Safety Harbor, FL | Call 727-496-7702 | Pro Wildlife Removal",
+    title: "Rat Removal in Safety Harbor, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Rat removal in Safety Harbor, FL: rats sealed out and trapped without poison or glue traps, as the city recommends to protect owls and pets. Call 727-496-7702.",
+      "Rat removal in Safety Harbor, FL: rats sealed out and trapped without poison or glue traps, as the city recommends to protect owls and pets. Call (727) 594-7705.",
   },
   sources: [
     { title: "City of Safety Harbor: Protecting our wildlife (no safe rat poison; poison increases rodent population long term; kills dogs and cats and predators; never glue or sticky traps; snap traps or electronic zappers; owl nest box, 1,400 rodents a year; keep bins closed, remove pet food, birdseed, fallen fruit; hire exterminators who don't use anticoagulant rodenticides)", url: WILDLIFE },
@@ -84,5 +84,5 @@ export const safetyHarborRats = countyPage({
     { title: "City of Safety Harbor: FAQ (dead animals on city rights-of-way, 724-1550)", url: "http://www.cityofsafetyharbor.com/m/faq" },
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Safety Harbor?", "Do you use any rat bait, or traps only? (The page leans on the city's no-poison advice.)", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos.", "This rat page used the main number. Should it use the Pinellas line (as now) or the Safety Harbor number 727-594-7718?"],
+  clientQuestions: ["Typical response time for rat calls in Safety Harbor?", "Do you use any rat bait, or traps only? (The page leans on the city's no-poison advice.)", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
 });

@@ -10,16 +10,16 @@ export const newPortRicheyRats = countyPage({
   name: "New Port Richey",
   county: "Pasco",
   order: 36,
-  phone: { label: "Call 727-594-7722", href: "tel:+17275947722" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "RAT REMOVAL IN NEW PORT RICHEY",
   heading: "Rat Removal in New Port Richey, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in New Port Richey, FL: rats sealed out and trapped, plus how the city's twice-weekly trash service works.",
-  heroText: "Rats in a New Port Richey attic, wall or riverfront shed? We find the entry points, block them and trap what's left inside. Call 727-594-7722.",
+  heroText: "Rats in a New Port Richey attic, wall or riverfront shed? We find the entry points, block them and trap what's left inside. Call (727) 594-7705.",
   answerHeading: "Who handles rats in New Port Richey?",
   answer:
-    "The City of New Port Richey doesn't remove rats from homes, so that's a job for a private company. The city does run trash service through one hauler, twice a week. Pro Wildlife Removal blocks the entry points and traps the rats left in the house. Call 727-594-7722.",
-  points: ["Call 727-594-7722", "Trash Mondays and Thursdays", "One city hauler"],
+    "The City of New Port Richey doesn't remove rats from homes, so that's a job for a private company. The city does run trash service through one hauler, twice a week. Pro Wildlife Removal blocks the entry points and traps the rats left in the house. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Trash Mondays and Thursdays", "One city hauler"],
   townsHeading: "Rat removal near New Port Richey",
   townsIntro: "We take rat calls along the west Pasco coast, and handle every other animal in New Port Richey too.",
   towns: [
@@ -45,7 +45,7 @@ export const newPortRicheyRats = countyPage({
   contactsIntro: "Who to call about rats and trash in New Port Richey.",
   contacts: [
     { icon: "home", title: "Missed pickups", text: p("J.D. Parker & Sons, (727) 841-4260, for missed pickups and trash questions.") },
-    { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at 727-594-7722.") },
+    { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   servicesIntro: "This page is about rats, but we remove every animal below in New Port Richey.",
   servicesHeading: "Rats, and the other animals we remove in New Port Richey",
@@ -66,16 +66,16 @@ export const newPortRicheyRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in New Port Richey?",
-      "Rat calls from New Port Richey to 727-594-7722 are answered 24/7.",
+      "Rat calls from New Port Richey to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in New Port Richey]",
     ),
   ],
   ctaHeading: "Rats in your New Port Richey home?",
-  ctaText: "For rats in New Port Richey, call 727-594-7722.",
+  ctaText: "For rats in New Port Richey, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in New Port Richey, FL | Call 727-594-7722 | Pro Wildlife Removal",
+    title: "Rat Removal in New Port Richey, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Rat removal in New Port Richey, FL: rats sealed out and trapped in homes, garages and boathouses, plus how the city's trash service works. Call 727-594-7722.",
+      "Rat removal in New Port Richey, FL: rats sealed out and trapped in homes, garages and boathouses, plus how the city's trash service works. Call (727) 594-7705.",
   },
   sources: [
     { title: "City of New Port Richey: City trash services (Waste Pro dba J.D. Parker & Sons is the single hauler; residential collection Mondays and Thursdays, 6 a.m. to 7 p.m., twice a week; 96-gallon carts; lock bars as an extra service; (727) 841-4260)", url: TRASH },

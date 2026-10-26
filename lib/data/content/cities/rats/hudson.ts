@@ -8,16 +8,16 @@ export const hudsonRats = countyPage({
   name: "Hudson",
   county: "Pasco",
   order: 35,
-  phone: { label: "Call 727-594-7722", href: "tel:+17275947722" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "RAT REMOVAL IN HUDSON",
   heading: "Rat Removal in Hudson, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Hudson, FL: rats sealed out of attics and walls and trapped inside, plus how garbage and code rules work in unincorporated Pasco.",
-  heroText: "Rats in a Hudson attic, garage or boathouse? We close every gap, trap the rats inside and clean up. Call 727-594-7722.",
+  heroText: "Rats in a Hudson attic, garage or boathouse? We close every gap, trap the rats inside and clean up. Call (727) 594-7705.",
   answerHeading: "Who handles rats in Hudson?",
   answer:
-    "Hudson is unincorporated Pasco County, and the county doesn't remove rats from homes. Garbage service is through a licensed hauler you sign up with yourself. For rats in the attic or walls, call a private company. We close off how they get in and trap the rest. Call 727-594-7722.",
-  points: ["Call 727-594-7722", "Sign up for your own hauler", "No garbage dumps in yards"],
+    "Hudson is unincorporated Pasco County, and the county doesn't remove rats from homes. Garbage service is through a licensed hauler you sign up with yourself. For rats in the attic or walls, call a private company. We close off how they get in and trap the rest. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Sign up for your own hauler", "No garbage dumps in yards"],
   townsHeading: "Rat removal near Hudson",
   townsIntro: "We take rat calls along the north Pasco coast, and handle every other animal in Hudson too.",
   towns: [
@@ -43,7 +43,7 @@ export const hudsonRats = countyPage({
   contactsIntro: "Who to call about rats and related problems in Hudson.",
   contacts: [
     { icon: "home", title: "Code complaints", text: p("Pasco County Customer Service, 727-847-2411, to file a code violation in Hudson.") },
-    { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at 727-594-7722.") },
+    { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   servicesIntro: "This page is about rats, but we remove every animal below in Hudson.",
   servicesHeading: "Rats, and the other animals we remove in Hudson",
@@ -64,16 +64,16 @@ export const hudsonRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in Hudson?",
-      "Hudson rat calls to 727-594-7722 are answered 24/7.",
+      "Hudson rat calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Hudson]",
     ),
   ],
   ctaHeading: "Rats in your Hudson home?",
-  ctaText: "For rats in Hudson, call 727-594-7722.",
+  ctaText: "For rats in Hudson, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in Hudson, FL | Call 727-594-7722 | Pro Wildlife Removal",
+    title: "Rat Removal in Hudson, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Rat removal in Hudson, FL: rats sealed out and trapped in homes, garages and boathouses. How garbage and code rules work in unincorporated Pasco. Call 727-594-7722.",
+      "Rat removal in Hudson, FL: rats sealed out and trapped in homes, garages and boathouses. How garbage and code rules work in unincorporated Pasco. Call (727) 594-7705.",
   },
   sources: [
     { title: "Pasco County: Garbage and recycling (must sign up with a licensed hauler; curbside twice a week, recycling once a week)", url: "https://www.pascocountyfl.gov/services/utilities/garbage_and_recycling/index.php" },

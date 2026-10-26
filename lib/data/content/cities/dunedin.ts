@@ -10,14 +10,14 @@ export const dunedin = countyPage({
   name: "Dunedin",
   county: "Pinellas",
   order: 12,
-  phone: { label: "Call 727-496-7702", href: "tel:+17274967702" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN DUNEDIN",
   summary: "Wildlife removal in Dunedin, FL: raccoons, rats, squirrels, opossums, snakes, bats and more, on the Gulf coast of Pinellas.",
-  heroText: "A Gulf coast city with a 90-acre hammock inside its limits and two barrier island state parks offshore. Call 727-496-7702.",
+  heroText: "A Gulf coast city with a 90-acre hammock inside its limits and two barrier island state parks offshore. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife problems in Dunedin?",
   answer:
-    "Dunedin doesn't list an animal control service of its own. Pinellas County Animal Services helps with strays and sick or injured wildlife, and FWC handles alligators and sea turtles. Animals living in your home are a job for a private company. Pro Wildlife Removal works across Dunedin. Call 727-496-7702.",
-  points: ["Call 727-496-7702", "County: strays, injured wildlife", "Gulf coast, two island parks"],
+    "Dunedin doesn't list an animal control service of its own. Pinellas County Animal Services helps with strays and sick or injured wildlife, and FWC handles alligators and sea turtles. Animals living in your home are a job for a private company. Pro Wildlife Removal works across Dunedin. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "County: strays, injured wildlife", "Gulf coast, two island parks"],
   townsHeading: "Dunedin and nearby",
   townsIntro: "Dunedin, home to about 35,700 people, is bordered by Palm Harbor to the north, Clearwater to the south and east, and the Gulf to the west.",
   towns: [
@@ -65,16 +65,16 @@ export const dunedin = countyPage({
     ),
     faq(
       "How soon can you get to Dunedin?",
-      "We answer Dunedin calls to 727-496-7702 24/7.",
+      "We answer Dunedin calls to (727) 594-7705 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Dunedin]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dunedin?",
-  ctaText: "Dunedin homeowners can call 727-496-7702.",
+  ctaText: "Dunedin homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Dunedin, FL | Call 727-496-7702 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Dunedin, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Dunedin, FL: raccoons, rats, squirrels, opossums and snakes near Hammock Park and Honeymoon Island. Who to call for what in Dunedin. Call 727-496-7702.",
+      "Wildlife removal in Dunedin, FL: raccoons, rats, squirrels, opossums and snakes near Hammock Park and Honeymoon Island. Who to call for what in Dunedin. Call (727) 594-7705.",
   },
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Dunedin 35,742)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },

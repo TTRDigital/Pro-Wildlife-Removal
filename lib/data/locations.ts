@@ -2349,8 +2349,8 @@ export const fallbackLocations: Location[] = [
    "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
-     "label": "727-594-7722",
-     "href": "tel:+17275947722",
+     "label": "(727) 594-7705",
+     "href": "tel:+17275947705",
      "style": "outline"
     }
    ],
@@ -2733,8 +2733,8 @@ export const fallbackLocations: Location[] = [
     ],
     "ctas": [
      {
-      "label": "727-594-7722",
-      "href": "tel:+17275947722",
+      "label": "(727) 594-7705",
+      "href": "tel:+17275947705",
       "style": "outline"
      }
     ],
@@ -3171,8 +3171,8 @@ export const fallbackLocations: Location[] = [
     ],
     "ctas": [
      {
-      "label": "727-594-7722",
-      "href": "tel:+17275947722",
+      "label": "(727) 594-7705",
+      "href": "tel:+17275947705",
       "style": "outline"
      }
     ],
@@ -3417,8 +3417,8 @@ export const fallbackLocations: Location[] = [
    "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
-     "label": "352-329-3368",
-     "href": "tel:+13523293368",
+     "label": "(727) 594-7705",
+     "href": "tel:+17275947705",
      "style": "outline"
     }
    ],
@@ -3944,8 +3944,8 @@ export const fallbackLocations: Location[] = [
     ],
     "ctas": [
      {
-      "label": "352-329-3368",
-      "href": "tel:+13523293368",
+      "label": "(727) 594-7705",
+      "href": "tel:+17275947705",
       "style": "outline"
      }
     ],
@@ -4006,7 +4006,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": "352-329-3368",
+        "text": "(727) 594-7705",
         "marks": [
          "l0"
         ]
@@ -4021,7 +4021,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:3523293368"
+        "href": "tel:+17275947705"
        }
       ],
       "listItem": "bullet",
@@ -4183,7 +4183,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": "352-329-3368",
+        "text": "(727) 594-7705",
         "marks": [
          "l0"
         ]
@@ -4198,7 +4198,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:3523293368"
+        "href": "tel:+17275947705"
        }
       ]
      }
@@ -4236,8 +4236,8 @@ export const fallbackLocations: Location[] = [
    "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
-     "label": "727-594-7722",
-     "href": "tel:+17275947722",
+     "label": "(727) 594-7705",
+     "href": "tel:+17275947705",
      "style": "outline"
     }
    ],
@@ -4392,8 +4392,8 @@ export const fallbackLocations: Location[] = [
     ],
     "ctas": [
      {
-      "label": "727-594-7722",
-      "href": "tel:+17275947722",
+      "label": "(727) 594-7705",
+      "href": "tel:+17275947705",
       "style": "outline"
      }
     ],
@@ -5118,8 +5118,8 @@ export const fallbackLocations: Location[] = [
     ],
     "ctas": [
      {
-      "label": "727-594-7722",
-      "href": "tel:+17275947722",
+      "label": "(727) 594-7705",
+      "href": "tel:+17275947705",
       "style": "outline"
      }
     ],
@@ -5339,7 +5339,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": "727-594-7722",
+        "text": "(727) 594-7705",
         "marks": [
          "l3",
          "strong"
@@ -5370,7 +5370,7 @@ export const fallbackLocations: Location[] = [
        {
         "_type": "link",
         "_key": "l3",
-        "href": "tel:727-594-7722"
+        "href": "tel:(727) 594-7705"
        }
       ]
      }
@@ -7649,8 +7649,8 @@ export const fallbackLocations: Location[] = [
    "image": images.wildlifeRemovalPalmHarbor,
    "ctas": [
     {
-     "label": "352-670-2297",
-     "href": "tel:+13526702297",
+     "label": "(727) 594-7705",
+     "href": "tel:+17275947705",
      "style": "outline"
     }
    ],
@@ -7770,7 +7770,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "For The Villages squirrel removal needs, give us a call at (352) 670-2297",
+        "text": "For The Villages squirrel removal needs, give us a call at (727) 594-7705",
         "marks": []
        }
       ]
@@ -8268,8 +8268,8 @@ export const fallbackLocations: Location[] = [
     "image": images.ratTrapping,
     "ctas": [
      {
-      "label": "352-670-2297",
-      "href": "tel:+13526702297",
+      "label": "(727) 594-7705",
+      "href": "tel:+17275947705",
       "style": "outline"
      }
     ],
@@ -8445,8 +8445,8 @@ export const fallbackLocations: Location[] = [
     "image": images.beeTrapping,
     "ctas": [
      {
-      "label": "352-670-2297",
-      "href": "tel:+13526702297",
+      "label": "(727) 594-7705",
+      "href": "tel:+17275947705",
       "style": "outline"
      }
     ],
@@ -8483,7 +8483,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Call us at 352-670-2297. We are open 24/7. Call us for emergencies and scheduled visits. Pro Wildlife Removal The Villages is always open to serve you.",
+        "text": "Call us at (727) 594-7705. We are open 24/7. Call us for emergencies and scheduled visits. Pro Wildlife Removal The Villages is always open to serve you.",
         "marks": []
        }
       ]

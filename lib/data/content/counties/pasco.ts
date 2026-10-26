@@ -6,13 +6,13 @@ export const pasco = countyPage({
   name: "Pasco County",
   county: "Pasco",
   order: 5,
-  phone: { label: "Call 727-594-7722", href: "tel:+17275947722" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   summary: "Wildlife removal in Pasco County, from New Port Richey and Trinity to Wesley Chapel, Zephyrhills and Dade City.",
-  heroText: "One of the fastest-growing counties in the state, where new neighborhoods meet the Green Swamp and Starkey Preserve. Call the Pasco line, 727-594-7722.",
+  heroText: "One of the fastest-growing counties in the state, where new neighborhoods meet the Green Swamp and Starkey Preserve. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife problems in Pasco County?",
   answer:
-    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pasco County, from New Port Richey and Holiday on the coast to Wesley Chapel, Zephyrhills and Dade City inland. We find the way in, remove the animal legally, seal it and clean up. Call 727-594-7722.",
-  points: ["Pasco line 727-594-7722", "Coast to Dade City", "Raccoon rabies alerts in 2026"],
+    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pasco County, from New Port Richey and Holiday on the coast to Wesley Chapel, Zephyrhills and Dade City inland. We find the way in, remove the animal legally, seal it and clean up. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Coast to Dade City", "Raccoon rabies alerts in 2026"],
   townsHeading: "Pasco towns we cover",
   townsIntro: "Dade City is the county seat. Most Pasco residents live outside city limits, in communities like Trinity, Land O' Lakes and Wesley Chapel.",
   towns: [
@@ -56,7 +56,7 @@ export const pasco = countyPage({
   faqs: [
     faq(
       "What's the phone number for Pasco County?",
-      "The Pasco line is 727-594-7722. You can also call the main line, (727) 594-7705. Both are answered 24/7.",
+      "Pasco calls go to (727) 594-7705, the same number for every county we serve. It's answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Pasco County]",
     ),
     faq(
@@ -81,11 +81,11 @@ export const pasco = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Pasco?",
-  ctaText: "Anywhere in Pasco, call 727-594-7722.",
+  ctaText: "Anywhere in Pasco, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Pasco County, FL | Call 727-594-7722 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Pasco County, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Pasco County: New Port Richey, Trinity, Land O' Lakes, Wesley Chapel, Zephyrhills and Dade City. Raccoons, rats, bats, snakes and more. Call 727-594-7722.",
+      "Wildlife removal in Pasco County: New Port Richey, Trinity, Land O' Lakes, Wesley Chapel, Zephyrhills and Dade City. Raccoons, rats, bats, snakes and more. Call (727) 594-7705.",
   },
   sources: [
     S.censusPop,

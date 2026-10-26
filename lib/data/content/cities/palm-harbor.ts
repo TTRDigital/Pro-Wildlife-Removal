@@ -1,7 +1,7 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/* Palm Harbor page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. Keeps the page's own number. */
+/* Palm Harbor page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const CENSUS = "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip";
 
 export const palmHarbor = countyPage({
@@ -10,14 +10,14 @@ export const palmHarbor = countyPage({
   name: "Palm Harbor",
   county: "Pinellas",
   order: 21,
-  phone: { label: "Call 727-594-7688", href: "tel:+17275947688" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN PALM HARBOR",
   summary: "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums, snakes, armadillos, bats and more, in north Pinellas.",
-  heroText: "An unincorporated north Pinellas community with Lake Tarpon on its eastern side. Call 727-594-7688.",
+  heroText: "An unincorporated north Pinellas community with Lake Tarpon on its eastern side. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife in Palm Harbor?",
   answer:
-    "Palm Harbor isn't a city, so Pinellas County services apply. County Animal Services helps with strays and sick or injured wildlife, not animals living in your home. A raccoon in the attic or rats in the walls need a private company. Pro Wildlife Removal works throughout Palm Harbor. Call 727-594-7688.",
-  points: ["Call 727-594-7688", "Unincorporated Pinellas", "Next to Lake Tarpon"],
+    "Palm Harbor isn't a city, so Pinellas County services apply. County Animal Services helps with strays and sick or injured wildlife, not animals living in your home. A raccoon in the attic or rats in the walls need a private company. Pro Wildlife Removal works throughout Palm Harbor. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Unincorporated Pinellas", "Next to Lake Tarpon"],
   townsHeading: "Palm Harbor and nearby",
   townsIntro: "Palm Harbor counted about 61,400 people at the 2020 Census. Dunedin borders it to the south.",
   towns: [
@@ -65,16 +65,16 @@ export const palmHarbor = countyPage({
     ),
     faq(
       "How quickly can you get to Palm Harbor?",
-      "Palm Harbor calls to 727-594-7688 are answered 24/7.",
+      "Palm Harbor calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Palm Harbor]",
     ),
   ],
   ctaHeading: "Wildlife problem in Palm Harbor?",
-  ctaText: "Palm Harbor homeowners can call 727-594-7688.",
+  ctaText: "Palm Harbor homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Palm Harbor, FL | Call 727-594-7688 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Palm Harbor, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Lake Tarpon. Who to call for what in Palm Harbor. Call 727-594-7688.",
+      "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Lake Tarpon. Who to call for what in Palm Harbor. Call (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Palm Harbor CDP, 61,366)", url: CENSUS },
@@ -86,5 +86,5 @@ export const palmHarbor = countyPage({
     { title: "Pinellas County: Injured or orphaned wildlife (Animal Services, 12450 Ulmerton Road, Largo; (727) 582-2600 option 4; FWC and gopher tortoise numbers)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "Pinellas County: Trash and recycling collection (unincorporated owners choose a hauling company)", url: "https://pinellas.gov/collection-trash-and-recycling/" },
   ],
-  clientQuestions: ["Typical response time in Palm Harbor?", "Palm Harbor reviews (from TTR-723) and real Palm Harbor job photos.", "Is 727-594-7688 still the right number for Palm Harbor?"],
+  clientQuestions: ["Typical response time in Palm Harbor?", "Palm Harbor reviews (from TTR-723) and real Palm Harbor job photos."],
 });

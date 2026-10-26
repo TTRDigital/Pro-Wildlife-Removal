@@ -1,7 +1,7 @@
 import { countyPage, S } from "./build.ts";
 import { faq, p } from "../pt.ts";
 
-/* New page (Ben, Oct 25): main number until the client gives a Manatee line; towns listed as facts, not service history. */
+/* New page (Ben, Oct 25): one number site-wide (Kia, Oct 26); towns listed as facts, not service history. */
 export const manatee = countyPage({
   path: "about-us/service-area/wildlife-removal-manatee-county-fl",
   name: "Manatee County",
@@ -42,7 +42,7 @@ export const manatee = countyPage({
   faqs: [
     faq(
       "What number do I call in Manatee County?",
-      "Call the main line, (727) 594-7705. Calls are taken day and night, every day of the year.",
+      "Call (727) 594-7705. Calls are taken day and night, every day of the year.",
       "[PLACEHOLDER: ask the client: typical response time in Manatee County]",
     ),
     faq(
