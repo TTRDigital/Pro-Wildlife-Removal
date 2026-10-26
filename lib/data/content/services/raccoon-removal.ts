@@ -195,7 +195,7 @@ export const raccoonRemoval: Service = {
       _key: "areas",
       eyebrow: "Areas served",
       heading: "Raccoon removal across Tampa Bay",
-      intro: p("Tampa, St. Petersburg, Clearwater and every town on the list below, in 7 counties. One number covers them all: (727) 594-7705."),
+      intro: p("Tampa, St. Petersburg, Clearwater and every town on the list below, in 9 counties. One number covers them all: (727) 594-7705."),
       groups: countyGroups,
     },
     {

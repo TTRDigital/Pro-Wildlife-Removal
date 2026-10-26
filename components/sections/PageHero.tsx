@@ -1,27 +1,28 @@
-import { Check } from "lucide-react";
+import { Check, Phone } from "lucide-react";
 import type { Cta, Hero, Img, SiteSettings } from "@/lib/types";
 import { images } from "@/lib/data/images";
 import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
 import { Button } from "@/components/ui/Button";
 import { HeroSlides } from "@/components/ui/HeroSlides";
+import { Photo } from "@/components/ui/Photo";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 
 /** Google stars and review count, linking to the reviews. Only shown when the settings carry both. */
-export function RatingChip({ settings, className = "" }: { settings: SiteSettings; className?: string }) {
+export function RatingChip({ settings, className = "", light = false }: { settings: SiteSettings; className?: string; light?: boolean }) {
   if (!settings.googleRating || !settings.reviewCount) return null;
   const body = (
     <>
       <span aria-hidden="true" className="text-[1.05rem] leading-none tracking-[1px] text-star">
         ★★★★★
       </span>
-      <span className="font-display text-[0.9375rem] font-bold text-navy">{settings.googleRating}</span>
-      <span className="font-display text-[0.9375rem] font-medium text-meta">· {settings.reviewCount} Google reviews</span>
+      <span className={`font-display text-[0.9375rem] font-bold ${light ? "text-white" : "text-navy"}`}>{settings.googleRating}</span>
+      <span className={`font-display text-[0.9375rem] font-medium ${light ? "text-white/80" : "text-meta"}`}>· {settings.reviewCount} Google reviews</span>
     </>
   );
   const cls = `inline-flex min-h-11 items-center gap-2 ${className}`;
   return settings.reviewsUrl ? (
-    <a href={settings.reviewsUrl} target="_blank" rel="noopener" className={`${cls} hover:[&>span:last-child]:text-navy`}>
+    <a href={settings.reviewsUrl} target="_blank" rel="noopener" className={`${cls} ${light ? "hover:[&>span:last-child]:text-white" : "hover:[&>span:last-child]:text-navy"}`}>
       {body}
     </a>
   ) : (
@@ -30,7 +31,8 @@ export function RatingChip({ settings, className = "" }: { settings: SiteSetting
 }
 
 /** Real photos of the crew and trucks, shown after the page's own photo in the hero slideshow. */
-const teamPhotos: Img[] = [images.certifiedWildlifeRemovalExpertsInTampaFl, images.prowildlifeRemovalAgentHoldingAnIguanaa, images.proWildlifeRemovalTeam];
+// No crew photo with face masks (Kia, Oct 26).
+const teamPhotos: Img[] = [images.certifiedWildlifeRemovalExpertsInTampaFl, images.prowildlifeRemovalAgentHoldingAnIguanaa];
 
 /** From the client-approved Google Ads landing pages. */
 const perks = ["Same-Day Service", "Free Inspection"];
@@ -80,6 +82,46 @@ export function PageHero({ hero, crumbs, ctas, settings }: { hero: Hero; crumbs?
         </div>
         <div className="relative h-[250px] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)] ring-1 ring-navy/5 sm:h-[340px] min-[900px]:h-[460px]">
           <HeroSlides images={slides} sizes="(min-width: 900px) 46vw, 100vw" />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/**
+ * The home page banner: one large photo of the trucks outside a Florida home, slowly zooming
+ * and drifting, under a deep navy fade, with only the headline, one line, the call button,
+ * the two perks and the Google rating on top. On phones the photo shows above the text and
+ * the line is left out, so the banner stays short and clean.
+ */
+export function HomeHero({ hero, settings }: { hero: Hero; settings: SiteSettings }) {
+  const image = hero.image ?? images.certifiedWildlifeRemovalExpertsInTampaFl;
+  return (
+    <section className="relative isolate overflow-hidden bg-navy-2">
+      <div aria-hidden="true" className="hero-pan absolute inset-0 -z-10">
+        <Photo image={image} priority sizes="100vw" />
+      </div>
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-2 via-navy-2/55 to-transparent md:bg-gradient-to-r md:from-navy-2/95 md:via-navy-2/70 md:to-navy-2/5" />
+      <div className="wrap flex min-h-[560px] items-end pt-48 pb-10 sm:min-h-[600px] md:min-h-[640px] md:items-center md:py-24 lg:min-h-[680px]">
+        <div className="on-navy max-w-[640px]" data-reveal>
+          <p className="mb-5 inline-flex flex-wrap items-center gap-x-2.5 gap-y-1 rounded-full bg-cta px-4 py-2 font-display text-[0.8125rem] font-bold tracking-[0.5px] text-white uppercase shadow-[0_10px_24px_-10px_rgb(180_90_0/0.8)]">
+            <Check className="h-4 w-4" strokeWidth={3} aria-hidden="true" />
+            {perks.slice().reverse().join(" · ")}
+          </p>
+          <Heading as="h1" text={hero.heading} highlight={hero.highlight} className="text-[clamp(2.375rem,1.5rem+3.4vw,4.25rem)] leading-[1.03] font-extrabold tracking-[-0.035em] text-white" />
+          {hero.text?.length ? <RichText value={hero.text} className="mt-5 hidden max-w-[540px] text-lead sm:block [&_p]:text-lead [&_p]:text-white/85" /> : null}
+          <a
+            href={settings.phoneHref}
+            data-track="click_to_call"
+            className="call-pulse mt-8 flex w-full items-center justify-center gap-3 rounded-xl bg-cta px-6 py-3.5 text-white shadow-[0_10px_24px_-10px_rgb(180_90_0/0.7)] transition-colors hover:bg-cta-hover active:scale-[0.98] sm:inline-flex sm:w-auto"
+          >
+            <Phone className="h-6 w-6 flex-none" strokeWidth={2.25} aria-hidden="true" />
+            <span className="text-left leading-tight">
+              <span className="block font-display text-[1.0625rem] font-bold">Call for Your Free Inspection</span>
+              <span className="block font-display text-[0.9375rem] font-semibold text-white/85">{settings.phone}</span>
+            </span>
+          </a>
+          <RatingChip settings={settings} light className="mt-3" />
         </div>
       </div>
     </section>

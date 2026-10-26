@@ -6,11 +6,6 @@ import { atticCleanupCost } from "./content/guides/attic-cleanup-cost.ts";
 import { raccoonTrapping } from "./content/guides/raccoon-trapping.ts";
 import { floridaTrappingRules } from "./content/guides/florida-trapping-rules.ts";
 import { wildlifeRemovalCost } from "./content/guides/wildlife-removal-cost.ts";
-import { deadAnimalSmell } from "./content/guides/dead-animal-smell.ts";
-import { whatAnimalIsInMyAttic } from "./content/guides/what-animal-is-in-my-attic.ts";
-import { ratsInCarEngine } from "./content/guides/rats-in-car-engine.ts";
-import { batsInBarrelTileRoof } from "./content/guides/bats-in-barrel-tile-roof.ts";
-import { ratsInTheWalls } from "./content/guides/rats-in-the-walls.ts";
 
 export const fallbackPosts: Post[] = [
  {
@@ -56038,9 +56033,4 @@ export const fallbackPosts: Post[] = [
  // New guides (Cole, Oct 2026)
  raccoonTrapping,
  floridaTrappingRules,
- deadAnimalSmell,
- whatAnimalIsInMyAttic,
- ratsInCarEngine,
- batsInBarrelTileRoof,
- ratsInTheWalls,
 ];

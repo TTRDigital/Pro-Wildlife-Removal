@@ -8,6 +8,8 @@ import { pasco } from "./content/counties/pasco.ts";
 import { pinellas } from "./content/counties/pinellas.ts";
 import { polk } from "./content/counties/polk.ts";
 import { sumter } from "./content/counties/sumter.ts";
+import { manatee } from "./content/counties/manatee.ts";
+import { osceola } from "./content/counties/osceola.ts";
 import { tampa } from "./content/cities/tampa.ts";
 import { springHill } from "./content/cities/spring-hill.ts";
 import { clearwater } from "./content/cities/clearwater.ts";
@@ -10245,5 +10247,7 @@ export const fallbackLocations: Location[] = [
   },
   "order": 43
  },
- // Manatee and Osceola pages held until the client confirms those counties (Ben, Oct 26)
+ // New county pages (Cole, Oct 2026)
+ manatee,
+ osceola,
 ];

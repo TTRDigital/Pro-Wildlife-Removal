@@ -193,7 +193,7 @@ export const squirrelRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Squirrel removal in 7 counties",
+      heading: "Squirrel removal in 9 counties",
       intro: p("Oak-shaded neighborhoods from Tampa to Brooksville to Lakeland are squirrel country. We cover all of them."),
       groups: countyGroups,
     },

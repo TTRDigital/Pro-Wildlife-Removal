@@ -21,7 +21,7 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
       style={{ ["--i" as string]: index % 4 }}
     >
       {img ? (
-        <div className="relative aspect-[4/3] overflow-hidden">
+        <div className="photo-look relative aspect-[4/3] overflow-hidden">
           <Photo image={img} sizes="(min-width: 1024px) 300px, (min-width: 640px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
         </div>
       ) : null}
@@ -47,7 +47,7 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
       data-reveal
       style={{ ["--i" as string]: index % 5 }}
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-navy-3">
+      <div className="photo-look relative aspect-[4/3] overflow-hidden bg-navy-3">
         {img ? <Photo image={img} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.08]" /> : null}
       </div>
       <p className="flex min-h-12 items-center justify-center gap-1.5 px-2 py-2.5 text-center font-display text-[0.9375rem] leading-tight font-bold text-white">

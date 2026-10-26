@@ -7,7 +7,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@/components/old/Classic";
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
-import { PageHero } from "./PageHero";
+import { HomeHero, PageHero } from "./PageHero";
 import { TrustBar, defaultTrust } from "./TrustBar";
 import { Sections } from "./Sections";
 
@@ -59,7 +59,11 @@ export async function PageView({
     return (
       <>
         {schema}
-        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
+        {path === "/" ? (
+          <HomeHero hero={page.hero} settings={settings} />
+        ) : (
+          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
+        )}
         {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
         <Sections sections={page.sections} ids={ids} closing={closing} />
       </>

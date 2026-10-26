@@ -379,6 +379,16 @@
     animation: pw-drift 18s ease-in-out infinite alternate;
     transform-origin: 60% 40%;
   }
+  /* The home banner photo: a slow zoom and drift, like a camera moving across the scene. */
+  .hero-pan img {
+    animation: pw-pan 22s ease-in-out infinite alternate;
+    transform-origin: 40% 55%;
+  }
+  /* Trust strip icons bob gently, each on its own beat. */
+  .icon-bob {
+    animation: pw-bob 3.6s ease-in-out infinite;
+    animation-delay: calc(var(--i, 0) * -0.9s);
+  }
   /* Phone swipe rows (reviews, steps): snap to each card, no scrollbar. */
   .swipe {
     display: grid;
@@ -421,6 +431,101 @@
     }
   }
 }
+/* The logo's raccoon blinks now and then (a double blink once a cycle) and glances around; hover or tap blinks at once. */
+.logo-lid {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  transform: scaleY(0);
+  animation: pw-blink 5.5s ease-in-out infinite;
+}
+.logo-live:hover .logo-lid,
+a:active .logo-live .logo-lid,
+a:focus-visible .logo-live .logo-lid {
+  animation: pw-blink-now 0.5s ease-in-out 2;
+}
+.logo-glance {
+  animation: pw-glance 7s ease-in-out infinite;
+}
+.logo-live {
+  animation: pw-breathe 5.5s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+@keyframes pw-blink {
+  0%,
+  44%,
+  50%,
+  86%,
+  89.5%,
+  93%,
+  100% {
+    transform: scaleY(0);
+  }
+  47%,
+  88%,
+  91.5% {
+    transform: scaleY(1);
+  }
+}
+@keyframes pw-blink-now {
+  0%,
+  100% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+@keyframes pw-glance {
+  0%,
+  15% {
+    transform: translate(0, 0);
+  }
+  22%,
+  38% {
+    transform: translate(-7px, 3px);
+  }
+  46%,
+  62% {
+    transform: translate(7px, 2px);
+  }
+  70%,
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes pw-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.025);
+  }
+}
+/* Animal photos "look around" now and then: a small tilt and pan with pauses, each card on its own beat. */
+.photo-look img {
+  animation: pw-peek 9s ease-in-out infinite;
+  animation-delay: calc(var(--i, 0) * -1.7s);
+  transform-origin: 50% 70%;
+}
+@keyframes pw-peek {
+  0%,
+  14% {
+    transform: scale(1.06) rotate(0deg) translate3d(0, 0, 0);
+  }
+  24%,
+  38% {
+    transform: scale(1.1) rotate(-2deg) translate3d(-2.5%, -1%, 0);
+  }
+  50%,
+  64% {
+    transform: scale(1.1) rotate(2deg) translate3d(2.5%, -1.5%, 0);
+  }
+  76%,
+  100% {
+    transform: scale(1.06) rotate(0deg) translate3d(0, 0, 0);
+  }
+}
 @keyframes pw-ping {
   75%,
   100% {
@@ -437,6 +542,23 @@
     box-shadow: 0 0 0 14px rgb(180 90 0 / 0);
   }
 }
+@keyframes pw-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes pw-pan {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.16) translate3d(-3%, -1.5%, 0);
+  }
+}
 @keyframes pw-drift {
   from {
     transform: scale(1.02) translate3d(0, 0, 0);
@@ -448,7 +570,13 @@
 @media (prefers-reduced-motion: reduce) {
   .live-dot::after,
   .call-pulse::after,
-  .photo-live img {
+  .photo-live img,
+  .hero-pan img,
+  .icon-bob,
+  .photo-look img,
+  .logo-lid,
+  .logo-glance,
+  .logo-live {
     animation: none;
   }
 }

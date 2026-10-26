@@ -1,7 +1,7 @@
 import type { AreasSection } from "../../types";
 
 /*
- * The 7 counties and their main towns (one phone number site-wide, so no county lines),
+ * The 9 counties and their main towns (one phone number site-wide, so no county lines),
  * linking to the county and city pages that exist today. Shared by the home,
  * service and attic pages; each page writes its own heading and intro.
  */
@@ -70,5 +70,15 @@ export const countyGroups: AreasSection["groups"] = [
     title: "Polk County",
     href: "/about-us/service-area/wildlife-removal-polk-county/",
     items: [{ label: "Lakeland" }, { label: "Winter Haven" }, { label: "Bartow" }, { label: "Haines City" }],
+  },
+  {
+    title: "Manatee County",
+    href: "/about-us/service-area/wildlife-removal-manatee-county-fl/",
+    items: [{ label: "Bradenton" }, { label: "Palmetto" }, { label: "Anna Maria Island" }],
+  },
+  {
+    title: "Osceola County",
+    href: "/about-us/service-area/wildlife-removal-osceola-county-fl/",
+    items: [{ label: "Kissimmee" }, { label: "St. Cloud" }],
   },
 ];

@@ -193,7 +193,7 @@ export const ratRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Rat removal in all 7 counties",
+      heading: "Rat removal in all 9 counties",
       intro: p("From coastal Pinellas to inland Polk, we rat-proof homes across central and west Florida on one number, (727) 594-7705."),
       groups: countyGroups,
     },
