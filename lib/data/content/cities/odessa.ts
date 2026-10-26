@@ -41,6 +41,14 @@ export const odessa = countyPage({
     { icon: "drop", title: "Lake country", text: p("The water district has proposed minimum lake levels around here, including for Lake Calm, just over the line in Hillsborough. Lakefront yards bring more snakes, and FWC is the agency for alligators.") },
     { icon: "critter", title: "Big lots, more visitors", text: p("Barns, sheds, feed rooms and woodpiles give rats, raccoons and opossums plenty of places to settle. Store feed in sealed bins and keep woodpiles off the ground.") },
   ],
+  rats: {
+    heading: "Rodent closures on the Hillsborough side",
+    intro: "Odessa straddles two counties, and its state restaurant closure records for rodents all come from one side of the line.",
+    cards: [
+      { icon: "building", title: "Three closures, 2019 to 2025", text: p("By our count of Florida DBPR's emergency closure reports, all 3 rodent closures of food businesses with Odessa addresses from 2019 through 2025 were at businesses on the Hillsborough County side, none on the Pasco side.") },
+      { icon: "search", title: "Twice in one year", text: p("One of those businesses was closed for rodent activity in March 2022 and again in November 2022. These are restaurant records, not reports from homes.") },
+    ],
+  },
   contactsHeading: "Odessa contacts on both sides of the county line",
   contactsIntro: "Who to call for what in Odessa, depending on which side of the county line you live.",
   contacts: [
@@ -73,6 +81,7 @@ export const odessa = countyPage({
       "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes and opossums on both sides of the Pasco and Hillsborough line. Call us at (727) 594-7705.",
   },
   sources: [
+    { title: "Florida DBPR, Division of Hotels and Restaurants: Emergency closures by calendar year, 2019-2025 (Business City Odessa, conditions naming rodents: 3 closures, all Hillsborough-licensed, placed in the Keystone CDP with the Census Geocoder; one business closed March and November 2022; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },
     { title: "U.S. Census Bureau: 2020 redistricting file (Odessa CDP, 8,080, entirely in Pasco County)", url: CENSUS },
     { title: "U.S. Census Bureau: TIGER/Line 2020 places, Florida (Odessa CDP borders Keystone CDP and Cheval CDP, Hillsborough)", url: "https://www2.census.gov/geo/tiger/TIGER2020/PLACE/tl_2020_12_place.zip" },
     { title: "Pinellas County: Brooker Creek Preserve (about 8,700 acres; northeastern corner of Pinellas)", url: "https://pinellas.gov/parks/brooker-creek-preserve/" },
