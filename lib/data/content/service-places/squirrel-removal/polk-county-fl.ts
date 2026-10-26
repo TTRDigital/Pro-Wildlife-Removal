@@ -41,7 +41,7 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
   faqs: [
     faq(
       "Is the big squirrel in my Polk County yard a fox squirrel?",
-      "It may be. FWC says the southern fox squirrel, once called Sherman's fox squirrel, can reach 27.6 inches long and lives in open longleaf pine, turkey oak, sandhill and flatwoods. The state ranks it as rare.",
+      "It may be. FWC says the southern fox squirrel, once called Sherman's fox squirrel, can reach 27.6 inches long and lives in open longleaf pine, turkey oak, sandhill and flatwoods. The Florida Natural Areas Inventory ranks it S3, rare in Florida.",
     ),
     faq(
       "Will Polk County Animal Control remove a squirrel from my attic?",
@@ -49,7 +49,7 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
     ),
     faq(
       "Can I trap a squirrel myself in Polk County?",
-      "Florida lets property owners take most nuisance wildlife without FWC approval. A trapped squirrel must stay on your property or go to 40 or more contiguous acres in Polk with the owner's written permission. FWC's new trapping rules take effect Dec 31, 2026.",
+      "Florida lets property owners take most nuisance wildlife without FWC approval. A trapped gray squirrel must stay on your property or go to 40 or more contiguous acres in Polk with the owner's written permission. FWC says conservation measures under rule 68A-29.002 still apply to the southern fox squirrel. FWC's new trapping rules take effect Dec 31, 2026.",
     ),
     faq(
       "Do squirrels in Polk County carry rabies?",
@@ -76,8 +76,11 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
     { title: "Polk County: North Walk-in-Water Creek (1,113 acres; Hwy. 60, Lake Wales; old oak hammock; Sherman's fox squirrel)", url: "https://www.polkfl.gov/park/north-walk-in-water-creek/" },
     { title: "SWFWMD: Colt Creek State Park (5,067 acres; pine flatwoods, cypress domes; Sherman's fox squirrel; SR 471, Lakeland)", url: "https://www.swfwmd.state.fl.us/recreation/colt-creek-state-park" },
     { title: "Polk County Environmental Reserves: Conservation (fox squirrel among rare species managers must consider)", url: "https://www.polkfl.gov/things-to-do/parks-and-recreation/environmental-reserves/conservation/" },
-    { title: "FWC: Southern fox squirrel profile (removed as a Species of Special Concern in 2018; previously classified as Sherman's fox squirrel; up to 27.6 inches; longleaf pine, turkey oak, sandhills, flatwoods; state rank S3, rare)", url: FOX },
-    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2022 to 2025 (Polk rows: bats, raccoons, cats; no squirrels)", url: `${DOH}2025/09/rabies-cases-county-animal-2025.pdf` },
+    { title: "FWC: Southern fox squirrel profile (removed as a Species of Special Concern in 2018; previously classified as Sherman's fox squirrel; up to 27.6 inches; longleaf pine, turkey oak, sandhills, flatwoods; FNAI rank S3, rare in Florida; conservation measures under 68A-29.002)", url: FOX },
+    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2022 (Polk row: 1 bat; no squirrels)", url: `${DOH}2025/07/rabies-cases-county-animal-2022.pdf` },
+    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2023 (Polk row: bats, a raccoon; no squirrels)", url: `${DOH}2025/07/rabies-cases-county-animal-2023.pdf` },
+    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Polk row: bats, a cat, a raccoon; no squirrels)", url: `${DOH}2025/07/rabies-cases-county-animal-2024.pdf` },
+    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Polk row: a cat; no squirrels)", url: `${DOH}2025/09/rabies-cases-county-animal-2025.pdf` },
     { title: "Florida DOH: 20-year animal rabies summary, 2003 to 2022 (no rabid squirrels)", url: `${DOH}2025/07/rabies-fla-20yr-table.pdf` },
     { title: "Polk County Sheriff's Office: Animal Services FAQ (no nuisance wildlife calls or trapped nuisance wildlife)", url: "https://www.polksheriff.org/animal-services/frequently-asked-questions" },
     { title: "UF/IFAS Florida 4-H: Gray squirrel (one of the most common animals found in all of Florida)", url: "https://florida4h.ifas.ufl.edu/florida-4-h-forest-ecology/forest-ecology-contest/contest-stations/wildlife-on-the-forest-hike/mammals/gray-squirrel/" },
