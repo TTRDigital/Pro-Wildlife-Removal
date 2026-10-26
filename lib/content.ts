@@ -117,7 +117,7 @@ export async function getLocation(path: string) {
 
 export const getPosts = cache(async (): Promise<Post[]> => {
   const cms = await sanityFetch<Partial<Post>[]>(
-    `*[_type == "post" && defined(slug.current)] | order(date desc){ "slug": slug.current, title, excerpt, date, modified, author, "image": image${IMG}, "body": body${RICH}, ${SEO} }`,
+    `*[_type == "post" && defined(slug.current)] | order(date desc){ "slug": slug.current, title, excerpt, date, modified, author, "image": image${IMG}, "body": body${RICH}, "faq": faq[]{ question, "answer": answer${RICH} }, ${SEO} }`,
     {},
     ["post"],
   );

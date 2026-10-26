@@ -11,6 +11,7 @@ import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
 import { Button } from "@/components/ui/Button";
 import { CtaSection } from "@/components/sections/CtaSection";
+import { FaqSection } from "@/components/sections/FaqSection";
 
 // Posts not in the build (a new draft opened from a TTR OS preview link) render on request; unknown slugs still 404.
 export const dynamicParams = true;
@@ -111,6 +112,7 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
           </aside>
         </div>
       </article>
+      {post.faq?.length ? <FaqSection section={{ _type: "faqSection", _key: "faq", tone: "tint", heading: "Frequently Asked Questions", items: post.faq }} /> : null}
       <CtaSection settings={settings} />
     </>
   );

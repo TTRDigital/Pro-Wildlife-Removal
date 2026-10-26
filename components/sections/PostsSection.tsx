@@ -22,7 +22,7 @@ export function PostCard({ post, index = 0 }: { post: Post; index?: number }) {
         // No real photo yet (the client only allows real job photos): a plain branded header keeps the grid even.
         <div aria-hidden="true" className="relative flex aspect-[16/9] items-center justify-center overflow-hidden bg-gradient-to-br from-navy to-navy-3">
           <span className="absolute -top-16 -right-16 h-48 w-48 rounded-full bg-blue/20 blur-2xl" />
-          <Image src={images.logo.src} alt="" width={images.logo.width ?? 480} height={images.logo.height ?? 442} sizes="96px" className="h-20 w-auto opacity-90 transition-transform duration-500 group-hover:scale-110" />
+          <Image src={images.logo.src} alt={images.logo.alt} width={images.logo.width ?? 480} height={images.logo.height ?? 442} sizes="96px" className="h-20 w-auto opacity-90 transition-transform duration-500 group-hover:scale-110" />
         </div>
       )}
       <div className="flex flex-1 flex-col p-6">

@@ -23,7 +23,30 @@ function to24h(t: string) {
 /** Counties are administrative areas, cities are cities, and regions like "Central Florida" are plain places. */
 const areaType = (l: Location) => (l.kind === "county" ? "AdministrativeArea" : l.kind === "region" ? "Place" : "City");
 
-export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = [], locations: Location[] = []) {
+/**
+ * The rating and the reviews a page actually shows, attached to the business by its @id. Output by the
+ * reviews section only, so a page without visible reviews carries no review markup (Ben, Oct 26).
+ */
+export function reviewsSchema(s: SiteSettings, shown: Testimonial[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "PestControl",
+    "@id": `${siteUrl}/#business`,
+    name: s.name,
+    ...(s.googleRating && s.reviewCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: s.googleRating, reviewCount: s.reviewCount, bestRating: "5" } } : {}),
+    review: shown.map((t) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: t.name },
+      ...(t.date ? { datePublished: t.date } : {}),
+      reviewRating: { "@type": "Rating", ratingValue: t.rating, bestRating: 5 },
+      reviewBody: t.quote,
+      ...(t.source ? { publisher: { "@type": "Organization", name: t.source } } : {}),
+    })),
+  };
+}
+
+/** The business itself, on every page. Its rating and reviews come from reviewsSchema, only where they are shown. */
+export function businessSchema(s: SiteSettings, locations: Location[] = []) {
   // "24 hours a day, 7 days a week" (the client's hours) is every day, midnight to midnight.
   const allDay = s.hours.some((h) => /24 hours|24\/7/i.test(h.value));
   const hours = allDay
@@ -51,13 +74,6 @@ export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = []
     areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": areaType(l), name: `${l.name}, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
-    ...(s.googleRating && s.reviewCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: s.googleRating, reviewCount: s.reviewCount, bestRating: "5" } } : {}),
-    review: testimonials.slice(0, 5).map((t) => ({
-      "@type": "Review",
-      author: { "@type": "Person", name: t.name },
-      reviewRating: { "@type": "Rating", ratingValue: t.rating, bestRating: 5 },
-      reviewBody: t.quote,
-    })),
   };
 }
 
