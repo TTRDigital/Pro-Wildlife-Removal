@@ -39,7 +39,7 @@ export function AnswerSection({ section: s }: { section: Answer }) {
             </span>
             {s.eyebrow ? <p className="mb-2 font-display text-xs font-bold tracking-[1.5px] text-blue-light uppercase">{s.eyebrow}</p> : null}
             {s.heading ? <Heading text={s.heading} highlight={s.highlight} className="max-w-[420px] text-[clamp(1.625rem,1.2rem+1.6vw,2.375rem)] leading-[1.12] font-extrabold tracking-[-0.02em] text-white" /> : null}
-            <AnimatedLogo logo={images.logo} sizes="160px" className="pointer-events-none absolute -right-4 -bottom-6 -z-10 h-32 opacity-30 sm:h-48 lg:-right-4 lg:-bottom-6" />
+            <AnimatedLogo logo={images.logo} sizes="(min-width: 640px) 210px, 140px" className="pointer-events-none absolute -right-4 -bottom-6 -z-10 h-32 opacity-30 sm:h-48 lg:-right-4 lg:-bottom-6" />
           </div>
           <div className="p-7 sm:p-10">
             <RichText value={s.text} className="[&_p]:text-[1.0625rem] [&_p]:leading-[1.75] [&_p]:text-navy/85 md:[&_p]:text-[1.1875rem]" />
