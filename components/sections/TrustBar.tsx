@@ -22,7 +22,7 @@ export function TrustBar({ section }: { section: TrustBarSection }) {
       <ul className="wrap grid grid-cols-2 gap-x-4 gap-y-6 md:grid-cols-4 md:gap-6">
         {section.items.map((it, i) => (
           <li key={it.label} data-reveal style={{ ["--i" as string]: i }} className="flex min-w-0 flex-col items-center gap-2.5 text-center">
-            <span className={`flex h-12 w-12 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15 ${it.icon === "star" ? "text-star" : "text-blue-light"}`}>
+            <span className={`icon-bob flex h-12 w-12 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15 ${it.icon === "star" ? "text-star" : "text-blue-light"}`}>
               <Icon name={it.icon} className="h-[22px] w-[22px]" />
             </span>
             <span className="font-display text-[0.8125rem] leading-snug font-bold tracking-[0.5px] text-white uppercase md:text-sm">{it.label}</span>

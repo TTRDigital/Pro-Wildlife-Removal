@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone } from "lucide-react";
+import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
+import { Mail, Phone } from "lucide-react";
 import type { Service, SiteSettings } from "@/lib/types";
 import { SocialIcon } from "@/components/ui/SocialIcon";
 
@@ -26,7 +26,7 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
       <div className="wrap grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_0.8fr] lg:gap-14 lg:py-16">
         <div>
           <Link href="/" aria-label={`${settings.name}, home`} className="inline-flex items-center gap-3">
-            {settings.logo ? <Image src={settings.logo.src} alt="Pro Wildlife Removal" width={settings.logo.width ?? 480} height={settings.logo.height ?? 442} className="h-[68px] w-auto" sizes="74px" /> : null}
+            {settings.logo ? <AnimatedLogo logo={settings.logo} sizes="80px" className="h-[72px]" /> : null}
             <span className="font-display text-lg font-bold text-white">{settings.name}</span>
           </Link>
           <p className="mt-5 max-w-[420px] leading-relaxed">{settings.serviceAreaText}</p>
@@ -36,6 +36,12 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
               {settings.phone}
             </a>
           </div>
+          {settings.email ? (
+            <a href={`mailto:${settings.email}`} className="mt-4 flex min-h-11 w-fit items-center gap-2.5 break-all text-on-navy hover:text-white">
+              <Mail className="h-4 w-4 flex-none text-blue-light" strokeWidth={2.25} aria-hidden="true" />
+              {settings.email}
+            </a>
+          ) : null}
         </div>
         <nav aria-label="Services">
           <h2 className="mb-3 text-xs font-bold tracking-[1.5px] text-white uppercase">Services</h2>

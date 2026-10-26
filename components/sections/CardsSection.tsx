@@ -2,27 +2,55 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Card, CardsSection as Cards } from "@/lib/types";
 import { Icon } from "@/components/ui/Icon";
+import type { IconName } from "@/lib/icons";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
+import { StepRail } from "@/components/ui/StepRail";
+import { LoopVideo } from "@/components/ui/LoopVideo";
+import { animalVideos } from "@/lib/data/videos";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
+/* Column widths for the card rows; the rows wrap and a short last row is centred. */
 const cols: Record<number, string> = {
-  1: "md:grid-cols-1",
-  2: "md:grid-cols-2",
-  3: "md:grid-cols-2 lg:grid-cols-3",
-  4: "md:grid-cols-2 lg:grid-cols-4",
+  1: "[&>*]:basis-full",
+  2: "[&>*]:basis-full md:[&>*]:basis-[calc(50%-0.75rem)]",
+  3: "[&>*]:basis-full md:[&>*]:basis-[calc(50%-0.75rem)] lg:[&>*]:basis-[calc(33.333%-1rem)]",
+  4: "[&>*]:basis-full md:[&>*]:basis-[calc(50%-0.75rem)] lg:[&>*]:basis-[calc(25%-1.125rem)]",
 };
+
+/** An icon for a card that has none, from its title. */
+function cardIcon(title: string): IconName {
+  const t = title.toLowerCase();
+  if (/county|area|local|cit|where|near/.test(t)) return "map-pin";
+  if (/experience|expert|technician|team|trained|decade/.test(t)) return "users";
+  if (/safe|health|humane|law|rule|legal|licens|insur/.test(t)) return "shield-check";
+  if (/inspect|identif|find|sign|assess/.test(t)) return "search";
+  if (/seal|exclu|entry|prevent|long-term|block/.test(t)) return "exclusion";
+  if (/clean|sanit|decon|restor|odor|smell/.test(t)) return "spray";
+  if (/trap|remov|catch/.test(t)) return "critter";
+  if (/repair|roof|soffit|damage|wire/.test(t)) return "wrench";
+  if (/schedul|fast|quick|same|time|respon/.test(t)) return "clock";
+  if (/cost|price|value|quote|how many|how long|how high/.test(t)) return "balance";
+  if (/review|rated|client|custom|trust|peace/.test(t)) return "star";
+  if (/call|contact|phone/.test(t)) return "phone";
+  return "badge-check";
+}
 
 function CardItem({ card, variant, index }: { card: Card; variant: Cards["variant"]; index: number }) {
   const accent = card.accent === "navy" ? "border-l-4 border-l-navy" : card.accent === "blue" ? "border-l-4 border-l-blue" : "";
   const photo = variant === "photo" && card.image;
+  const icon = card.icon ?? (photo ? undefined : cardIcon(card.title));
+  // A photo card for an animal's service page plays that animal's clip over its photo.
+  const animal = card.href?.match(/\/services\/([a-z]+)-removal\/?$/)?.[1];
+  const video = photo && animal ? animalVideos[animal] : undefined;
   // A linked photo card whose text has no links of its own is one big link (the title sits on the photo).
   const whole = Boolean(photo && card.href && !JSON.stringify(card.text ?? []).includes('"link"'));
   const body = (
     <>
       {photo ? (
-        <div className="relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7">
+        <div className="photo-look relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7">
           <Photo image={card.image!} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
+          {video ? <LoopVideo src={video} /> : null}
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/10 to-transparent" />
           {whole || !card.href ? (
             <p aria-hidden="true" className="absolute right-4 bottom-3 left-4 font-display text-xl leading-tight font-extrabold text-white drop-shadow-[0_2px_8px_rgb(0_0_0/0.4)] md:text-[1.375rem]">
@@ -31,9 +59,9 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
           ) : null}
         </div>
       ) : null}
-      {card.icon ? (
+      {icon ? (
         <span className="mb-5 flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-gradient-to-br from-navy to-navy-3 text-blue-light shadow-[0_10px_20px_-10px_rgb(14_42_71/0.6)] transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105">
-          <Icon name={card.icon} className="h-[22px] w-[22px]" />
+          <Icon name={icon} className="h-[22px] w-[22px]" />
         </span>
       ) : null}
       {card.number && variant !== "numbered" ? <p className="mb-1 font-display text-[2rem] font-bold leading-[1.1] tabular-nums text-blue-deep">{card.number}</p> : null}
@@ -69,27 +97,93 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
   );
 }
 
-/** Numbered steps as a connected timeline: down the left on phones, across the page on desktop. */
+/** An icon for a step from its title, when the step has none of its own. */
+function stepIcon(c: Card): IconName {
+  if (c.icon) return c.icon;
+  const t = c.title.toLowerCase();
+  if (/inspect|find|assess|identif/.test(t)) return "search";
+  if (/remov|trap|evict|door|catch/.test(t)) return "critter";
+  if (/seal|exclu|close|block|repair/.test(t)) return "exclusion";
+  if (/clean|sanit|restor|decon/.test(t)) return "spray";
+  if (/call|book|contact/.test(t)) return "phone";
+  if (/follow|check|return|warrant/.test(t)) return "badge-check";
+  return "wrench";
+}
+
+/**
+ * Numbered steps as connected cards: each card has an icon tile with its number badge, a large
+ * faint numeral behind it, the title and the text. On phones they are a swipe row, one card at a
+ * time, with numbered buttons above (StepRail); a line joins each icon to the next. On desktop
+ * they sit side by side, a track with a running light joining the icons.
+ */
 function Steps({ cards }: { cards: Card[] }) {
   const n = cards.length;
   const across = n >= 3 && n <= 5;
+  const desk = across ? (n === 5 ? "lg:grid-cols-5" : n === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3") : "lg:grid-cols-2";
   return (
-    <ol className={`relative grid gap-0 ${across ? (n === 5 ? "lg:grid-cols-5" : n === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3") + " lg:gap-6" : "mx-auto max-w-[760px]"}`}>
-      {cards.map((c, i) => (
-        <li key={`${c.title}-${i}`} data-reveal style={{ ["--i" as string]: i }} className={`group relative flex gap-5 pb-8 last:pb-0 ${across ? "lg:flex-col lg:gap-4 lg:pb-0" : ""}`}>
-          {/* connector */}
-          {i < n - 1 ? (
-            <span aria-hidden="true" className={`absolute top-12 bottom-0 left-[23px] w-0.5 bg-gradient-to-b from-blue/60 to-blue/10 ${across ? "lg:top-[23px] lg:right-[-1.5rem] lg:bottom-auto lg:left-12 lg:h-0.5 lg:w-auto lg:bg-gradient-to-r" : ""}`} />
-          ) : null}
-          <span className="relative z-10 flex h-12 w-12 flex-none items-center justify-center rounded-full bg-navy font-display text-lg font-bold text-white transition-colors duration-300 group-hover:bg-cta">
-            {c.number || i + 1}
-          </span>
-          <div className="min-w-0 pt-1.5 lg:pt-0">
-            <h3 className="font-display text-h3 font-bold text-navy">{c.title}</h3>
-            <RichText value={c.text} className="mt-2 text-[1.0625rem] [&>*+*]:mt-3" />
-          </div>
-        </li>
-      ))}
+    <div className="relative">
+      {/* desktop track across the icon row */}
+      <span aria-hidden="true" style={{ ["--step-end" as string]: `calc(${100 / n}% - 52px)` }} className="step-track absolute top-[46px] right-[var(--step-end)] left-[52px] hidden h-[3px] rounded-full bg-blue/15 lg:block" />
+      <StepRail
+        labels={cards.map((c) => c.title)}
+        className={`swipe-steps relative -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6 lg:mx-0 lg:grid lg:snap-none lg:overflow-visible lg:px-0 lg:pb-0 ${desk} lg:gap-5`}
+      >
+        {cards.map((c, i) => {
+          const num = c.number || String(i + 1);
+          return (
+            <li key={`${c.title}-${i}`} className="group relative flex w-[84%] flex-none snap-center flex-col sm:w-[60%] lg:w-auto">
+              {/* phones: a line from this icon toward the next card */}
+              {i < n - 1 ? <span aria-hidden="true" className="absolute top-[46px] left-[84px] -right-4 h-[3px] rounded-full bg-gradient-to-r from-blue/40 to-blue/5 lg:hidden" /> : null}
+              <div className="relative z-10 pt-3 pl-5">
+                <span className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-navy to-navy-3 text-blue-light shadow-[0_14px_26px_-12px_rgb(14_42_71/0.7)] ring-4 ring-tint transition-transform duration-300 group-hover:-translate-y-1 group-hover:-rotate-3">
+                  <Icon name={stepIcon(c)} className="icon-bob h-7 w-7" />
+                  <span className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-cta font-display text-sm font-extrabold text-white shadow-[0_6px_14px_-6px_rgb(180_90_0/0.9)] ring-2 ring-white">{num}</span>
+                </span>
+              </div>
+              <div className="card relative mt-5 min-w-0 flex-1 overflow-hidden rounded-[20px] p-5 transition-[transform,box-shadow,border-color] duration-300 group-hover:-translate-y-1 group-hover:border-blue/30 group-hover:shadow-[var(--shadow-card-hover)] md:p-6">
+                <span aria-hidden="true" className="pointer-events-none absolute -top-3 -right-1 font-display text-[4.5rem] leading-none font-extrabold text-blue/[0.06] select-none">
+                  {num.padStart(2, "0")}
+                </span>
+                <h3 className="relative font-display text-h3 font-bold text-navy">{c.title}</h3>
+                <RichText value={c.text} className="relative mt-2 text-[1.0625rem] [&>*+*]:mt-3" />
+              </div>
+            </li>
+          );
+        })}
+      </StepRail>
+    </div>
+  );
+}
+
+/**
+ * Photo cards that link nowhere (a company's services told in a few lines each) as a feature
+ * showcase: one row per card, a large photo with a soft colour frame on one side and a big
+ * number, the title and the text on the other, switching sides each row. Stacked on phones.
+ */
+function FeatureRows({ cards }: { cards: Card[] }) {
+  return (
+    <ol className="grid gap-12 md:gap-20">
+      {cards.map((c, i) => {
+        const flip = i % 2 === 1;
+        return (
+          <li key={`${c.title}-${i}`} className="grid items-center gap-7 md:grid-cols-2 md:gap-14" data-reveal>
+            <div className={`relative ${flip ? "md:order-2" : ""}`}>
+              <span aria-hidden="true" className={`absolute -bottom-4 h-full w-full rounded-[26px] bg-gradient-to-br from-blue/25 to-cta/20 ${flip ? "-left-4" : "-right-4"}`} />
+              <div className="photo-look relative aspect-[4/3] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)]">
+                {c.image ? <Photo image={c.image} sizes="(min-width: 768px) 46vw, 100vw" /> : null}
+              </div>
+            </div>
+            <div className={flip ? "md:order-1" : ""}>
+              <p aria-hidden="true" className="font-display text-[4rem] leading-none font-extrabold text-blue/15 md:text-[5.5rem]">
+                {String(i + 1).padStart(2, "0")}
+              </p>
+              <h3 className="-mt-3 font-display text-[clamp(1.375rem,1.1rem+1vw,1.875rem)] leading-tight font-extrabold text-navy md:-mt-5">{c.title}</h3>
+              <span aria-hidden="true" className="mt-4 block h-1 w-14 rounded-full bg-gradient-to-r from-blue to-cta" />
+              <RichText value={c.text} className="mt-4 text-[1.0625rem] [&>*+*]:mt-3" />
+            </div>
+          </li>
+        );
+      })}
     </ol>
   );
 }
@@ -98,11 +192,14 @@ function Steps({ cards }: { cards: Card[] }) {
 export function CardsSection({ section: s }: { section: Cards }) {
   const n = s.columns && cols[s.columns] ? s.columns : s.cards.length % 3 === 0 ? 3 : s.cards.length % 4 === 0 ? 4 : 3;
   const swipe = s.variant === "photo" && !s.image && s.cards.length > 2;
+  const feature = s.variant === "photo" && !s.image && s.cards.length > 1 && s.cards.every((c) => c.image && !c.href);
   const grid =
     s.variant === "numbered" && !s.image ? (
       <Steps cards={s.cards} />
+    ) : feature ? (
+      <FeatureRows cards={s.cards} />
     ) : (
-      <div className={swipe ? `swipe ${s.cards.length % 3 && s.cards.length % 2 === 0 ? "swipe-2" : ""}` : `grid items-stretch gap-4 md:gap-6 ${s.image ? "md:grid-cols-2" : cols[n]}`}>
+      <div className={swipe ? `swipe ${s.cards.length % 3 && s.cards.length % 2 === 0 ? "swipe-2" : ""}` : s.image ? "grid items-stretch gap-4 md:grid-cols-2 md:gap-6" : `flex flex-wrap justify-center gap-4 md:gap-6 ${cols[n]}`}>
         {s.cards.map((c, i) => (
           <CardItem key={`${c.title}-${i}`} card={c} variant={s.variant} index={i} />
         ))}

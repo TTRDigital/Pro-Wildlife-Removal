@@ -1,6 +1,14 @@
 import "../globals.css";
 import { SiteShell } from "@/components/layout/SiteShell";
+import { LazyAnimalCatch } from "@/components/ui/LazyBatCatch";
 
-export default function SiteLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <SiteShell>{children}</SiteShell>;
+export default function SiteLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <SiteShell>
+      {children}
+      <LazyAnimalCatch />
+    </SiteShell>
+  );
 }

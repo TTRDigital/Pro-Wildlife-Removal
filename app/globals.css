@@ -78,7 +78,7 @@
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 8.5rem;
   }
   @media (prefers-reduced-motion: reduce) {
     html {
@@ -260,6 +260,62 @@
     border-radius: 9999px;
     background: var(--color-blue);
   }
+  /* Bullets as tinted rows with a check (long text sections). */
+  .prose-rows ul {
+    gap: 0.625rem;
+  }
+  .prose-rows ul > li {
+    padding: 0.75rem 1rem 0.75rem 2.875rem;
+    border-radius: 14px;
+    background: var(--color-tint-2);
+    border: 1px solid var(--color-line-2);
+  }
+  .prose-rows ul > li::before {
+    left: 0.875rem;
+    top: 0.95rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: var(--color-navy) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235cc2ff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / 0.8rem no-repeat;
+  }
+  .prose-rows ul ul > li {
+    background: none;
+    border: 0;
+    padding: 0 0 0 1.5rem;
+  }
+  .prose-rows ul ul > li::before {
+    left: 0.25rem;
+    top: 0.7em;
+    width: 7px;
+    height: 7px;
+    background: var(--color-blue);
+  }
+  /* A long list of short names as tags. */
+  .prose-pw ul.ul-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .prose-pw ul.ul-tags > li {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+    padding: 0.25rem 0.9rem 0.25rem 1.75rem;
+    border-radius: 9999px;
+    background: var(--color-tint-2);
+    border: 1px solid var(--color-line);
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-navy);
+  }
+  .prose-pw ul.ul-tags > li::before {
+    left: 0.8rem;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    margin-top: -3.5px;
+    background: var(--color-blue);
+  }
   .prose-pw ol {
     counter-reset: n;
   }
@@ -371,13 +427,246 @@
     inset: -2px;
     z-index: -1;
     border-radius: inherit;
-    box-shadow: 0 0 0 0 rgb(180 90 0 / 0.45);
+    box-shadow: 0 0 0 6px rgb(180 90 0 / 0.35);
+    opacity: 0;
     animation: pw-ring 2.8s ease-out infinite;
+  }
+  /* The header call button: a shine sweeps across it, the phone rings and the
+     "Free Inspection" tag nudges, a few seconds apart, so the eye lands on it. */
+  .call-shine {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+  }
+  .call-shine::before {
+    content: "";
+    position: absolute;
+    inset: -20% auto -20% 0;
+    width: 45%;
+    background: linear-gradient(100deg, transparent, rgb(255 255 255 / 0.55), transparent);
+    transform: translateX(-140%) skewX(-18deg);
+    animation: pw-shine 4.5s ease-in-out infinite;
+  }
+  .phone-ring {
+    animation: pw-phone 4.5s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+  .tag-nudge {
+    animation: pw-nudge 4.5s ease-in-out infinite;
+  }
+  /* The logo's bat beats its wings while it drifts; chimney smoke rises and fades. */
+  .logo-bat-fly {
+    animation: pw-bat-fly 7s ease-in-out infinite;
+  }
+  .logo-bat-fly-2 {
+    animation: pw-bat-fly-2 5.5s ease-in-out infinite;
+  }
+  .logo-bat-fly-3 {
+    animation: pw-bat-fly-3 6.5s ease-in-out infinite;
+  }
+  .bat-wing-r,
+  .bat-wing-l {
+    transform-box: fill-box;
+    animation: pw-wing-r 0.36s ease-in-out infinite alternate;
+  }
+  .bat-wing-r {
+    transform-origin: 0% 75%;
+  }
+  .bat-wing-l {
+    transform-origin: 100% 75%;
+    animation-name: pw-wing-l;
+  }
+  .logo-smoke {
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pw-smoke 3.6s ease-out infinite;
+  }
+  .swipe-steps {
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+  }
+  .swipe-steps::-webkit-scrollbar {
+    display: none;
+  }
+  /* The service-area map: each served county lights up in turn; a ping grows from its pin. */
+  .map-county {
+    cursor: pointer;
+  }
+  /* A light copy of each county fades in and out on top; only opacity animates (no filters). */
+  .map-glow {
+    opacity: 0;
+    animation: pw-county 4.8s ease-in-out infinite;
+  }
+  .map-ping {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pw-map-ping 4.8s ease-out infinite;
+  }
+  /* County cards: a swipe row on phones, four across on desktop. */
+  .swipe.swipe-areas {
+    grid-auto-columns: 80%;
+  }
+  @media (min-width: 1024px) {
+    .swipe.swipe-areas {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+    .swipe.swipe-areas-1 {
+      grid-template-columns: minmax(0, 560px);
+      justify-content: center;
+    }
+    .swipe.swipe-areas-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .swipe.swipe-areas-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  /* Cities that drift right to left in a loop; two copies of each row, the track moves by one copy. */
+  .marquee {
+    mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  }
+  .marquee-row {
+    display: flex;
+    width: max-content;
+    animation: pw-marquee var(--marquee-time, 40s) linear infinite;
+  }
+  .marquee-row:nth-child(2) {
+    margin-left: -3rem;
+  }
+  .marquee:hover .marquee-row,
+  .marquee:focus-within .marquee-row {
+    animation-play-state: paused;
+  }
+  .marquee-row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    /* still: one copy, wrapped and centred, every pill in view */
+    .marquee {
+      mask-image: none;
+    }
+    .marquee-row {
+      width: auto;
+      justify-content: center;
+    }
+    .marquee-row:nth-child(2) {
+      margin-left: 0;
+    }
+    .marquee-track {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .marquee-track[aria-hidden] {
+      display: none;
+    }
+  }
+  /* A small map pin drawn with a CSS mask (one icon for every pill, no inline SVG each). */
+  .pin-ico {
+    display: inline-block;
+    flex: none;
+    width: 0.875rem;
+    height: 0.875rem;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+  .marquee-track {
+    display: flex;
+    gap: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* Blog topic buttons: show only the picked animal's posts; the wide first card is a normal card then. */
+  .blog-list[data-topic="raccoon"] li:not([data-topic="raccoon"]) {
+    display: none;
+  }
+  .blog-list[data-topic="squirrel"] li:not([data-topic="squirrel"]) {
+    display: none;
+  }
+  .blog-list[data-topic="opossum"] li:not([data-topic="opossum"]) {
+    display: none;
+  }
+  .blog-list[data-topic="snake"] li:not([data-topic="snake"]) {
+    display: none;
+  }
+  .blog-list[data-topic="armadillo"] li:not([data-topic="armadillo"]) {
+    display: none;
+  }
+  .blog-list[data-topic="bee"] li:not([data-topic="bee"]) {
+    display: none;
+  }
+  .blog-list[data-topic="bat"] li:not([data-topic="bat"]) {
+    display: none;
+  }
+  .blog-list[data-topic="rat"] li:not([data-topic="rat"]) {
+    display: none;
+  }
+  .blog-list:not([data-topic="all"]) .blog-featured {
+    grid-column: auto;
+  }
+  .blog-list:not([data-topic="all"]) .blog-featured > a {
+    display: flex;
+  }
+  .blog-list:not([data-topic="all"]) .blog-featured > a > div:first-child {
+    aspect-ratio: 16 / 9;
+    min-height: 0;
+  }
+  /* The steps track: a light runs along it, first step to last. */
+  .step-track {
+    overflow: hidden;
+  }
+  .step-track::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 22%;
+    background: linear-gradient(90deg, transparent, var(--color-blue) 45%, var(--color-cta) 55%, transparent);
+    transform: translateX(-100%);
+    animation: pw-track-x 3.6s ease-in-out infinite;
+  }
+  /* The running mouse: feet scurry in two alternating pairs, the body bobs; once caught it stops. */
+  .mouse-run svg {
+    animation: pw-scurry 0.16s ease-in-out infinite alternate;
+  }
+  .mouse-feet {
+    animation: pw-feet 0.16s linear infinite alternate;
+  }
+  .mouse-feet-2 {
+    animation: pw-feet 0.16s linear infinite alternate-reverse;
+  }
+  .snake-wave {
+    animation: pw-slither 0.35s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  .bee-buzz {
+    animation: pw-buzz 0.12s linear infinite alternate;
+  }
+  .mouse-caught svg,
+  .mouse-caught .mouse-feet,
+  .mouse-caught .mouse-feet-2 {
+    animation-duration: 0.09s;
   }
   /* Photos that slowly drift, so the page feels alive. */
   .photo-live img {
     animation: pw-drift 18s ease-in-out infinite alternate;
     transform-origin: 60% 40%;
+  }
+  /* The home banner photo: a slow zoom and drift, like a camera moving across the scene. */
+  .hero-pan img {
+    animation: pw-pan 22s ease-in-out infinite alternate;
+    transform-origin: 40% 55%;
+  }
+  /* Trust strip icons bob gently, each on its own beat. */
+  .icon-bob {
+    animation: pw-bob 3.6s ease-in-out infinite;
+    animation-delay: calc(var(--i, 0) * -0.9s);
   }
   /* Phone swipe rows (reviews, steps): snap to each card, no scrollbar. */
   .swipe {
@@ -421,6 +710,101 @@
     }
   }
 }
+/* The logo's raccoon blinks now and then (a double blink once a cycle) and glances around; hover or tap blinks at once. */
+.logo-lid {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  transform: scaleY(0);
+  animation: pw-blink 5.5s ease-in-out infinite;
+}
+.logo-live:hover .logo-lid,
+a:active .logo-live .logo-lid,
+a:focus-visible .logo-live .logo-lid {
+  animation: pw-blink-now 0.5s ease-in-out 2;
+}
+.logo-glance {
+  animation: pw-glance 7s ease-in-out infinite;
+}
+.logo-live {
+  animation: pw-breathe 5.5s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+@keyframes pw-blink {
+  0%,
+  44%,
+  50%,
+  86%,
+  89.5%,
+  93%,
+  100% {
+    transform: scaleY(0);
+  }
+  47%,
+  88%,
+  91.5% {
+    transform: scaleY(1);
+  }
+}
+@keyframes pw-blink-now {
+  0%,
+  100% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+@keyframes pw-glance {
+  0%,
+  15% {
+    transform: translate(0, 0);
+  }
+  22%,
+  38% {
+    transform: translate(-7px, 3px);
+  }
+  46%,
+  62% {
+    transform: translate(7px, 2px);
+  }
+  70%,
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes pw-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.025);
+  }
+}
+/* Animal photos "look around" now and then: a small tilt and pan with pauses, each card on its own beat. */
+.photo-look img {
+  animation: pw-peek 9s ease-in-out infinite;
+  animation-delay: calc(var(--i, 0) * -1.7s);
+  transform-origin: 50% 70%;
+}
+@keyframes pw-peek {
+  0%,
+  14% {
+    transform: scale(1.06) rotate(0deg) translate3d(0, 0, 0);
+  }
+  24%,
+  38% {
+    transform: scale(1.1) rotate(-2deg) translate3d(-2.5%, -1%, 0);
+  }
+  50%,
+  64% {
+    transform: scale(1.1) rotate(2deg) translate3d(2.5%, -1.5%, 0);
+  }
+  76%,
+  100% {
+    transform: scale(1.06) rotate(0deg) translate3d(0, 0, 0);
+  }
+}
 @keyframes pw-ping {
   75%,
   100% {
@@ -430,11 +814,202 @@
 }
 @keyframes pw-ring {
   0% {
-    box-shadow: 0 0 0 0 rgb(180 90 0 / 0.45);
+    opacity: 1;
+    transform: scale(0.96);
   }
   70%,
   100% {
-    box-shadow: 0 0 0 14px rgb(180 90 0 / 0);
+    opacity: 0;
+    transform: scale(1.12, 1.3);
+  }
+}
+@keyframes pw-shine {
+  0%,
+  55% {
+    transform: translateX(-140%) skewX(-18deg);
+  }
+  80%,
+  100% {
+    transform: translateX(300%) skewX(-18deg);
+  }
+}
+@keyframes pw-phone {
+  0%,
+  8%,
+  100% {
+    transform: rotate(0);
+  }
+  1%,
+  3%,
+  5% {
+    transform: rotate(-16deg);
+  }
+  2%,
+  4%,
+  6% {
+    transform: rotate(16deg);
+  }
+}
+@keyframes pw-nudge {
+  0%,
+  10%,
+  100% {
+    transform: none;
+  }
+  4% {
+    transform: translateY(-2px) scale(1.06);
+  }
+}
+@keyframes pw-wing-r {
+  from {
+    transform: rotate(-32deg);
+  }
+  to {
+    transform: rotate(30deg) scaleX(0.9);
+  }
+}
+@keyframes pw-wing-l {
+  from {
+    transform: rotate(32deg);
+  }
+  to {
+    transform: rotate(-30deg) scaleX(0.9);
+  }
+}
+@keyframes pw-bat-fly {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(-9px, -6px);
+  }
+  60% {
+    transform: translate(6px, -10px);
+  }
+  80% {
+    transform: translate(4px, 2px);
+  }
+}
+@keyframes pw-bat-fly-2 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  35% {
+    transform: translate(8px, -7px);
+  }
+  70% {
+    transform: translate(-6px, 5px);
+  }
+}
+@keyframes pw-bat-fly-3 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(-5px, 6px);
+  }
+  75% {
+    transform: translate(9px, -4px);
+  }
+}
+@keyframes pw-smoke {
+  0% {
+    opacity: 0;
+    transform: translate(0, 8px) scale(0.4);
+  }
+  12% {
+    opacity: 0.95;
+  }
+  45% {
+    opacity: 0.75;
+    transform: translate(16px, -10px) scale(1.3);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(52px, -18px) scale(2.4);
+  }
+}
+@keyframes pw-track-x {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(460%);
+  }
+}
+@keyframes pw-county {
+  0%,
+  16%,
+  100% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.55;
+  }
+}
+@keyframes pw-map-ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  20%,
+  100% {
+    transform: scale(4.5);
+    opacity: 0;
+  }
+}
+@keyframes pw-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes pw-scurry {
+  to {
+    transform: translateY(-2px);
+  }
+}
+@keyframes pw-slither {
+  from {
+    transform: skewX(-8deg) scaleY(0.9);
+  }
+  to {
+    transform: skewX(8deg) scaleY(1.1);
+  }
+}
+@keyframes pw-buzz {
+  from {
+    transform: translate(-1px, 1px);
+  }
+  to {
+    transform: translate(1px, -1px);
+  }
+}
+@keyframes pw-feet {
+  from {
+    transform: translateX(-2px);
+  }
+  to {
+    transform: translateX(2px);
+  }
+}
+@keyframes pw-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes pw-pan {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.16) translate3d(-3%, -1.5%, 0);
   }
 }
 @keyframes pw-drift {
@@ -448,8 +1023,31 @@
 @media (prefers-reduced-motion: reduce) {
   .live-dot::after,
   .call-pulse::after,
-  .photo-live img {
+  .call-shine::before,
+  .step-track::after,
+  .marquee-row,
+  .map-glow,
+  .map-ping,
+  .phone-ring,
+  .tag-nudge,
+  .snake-wave,
+  .bee-buzz,
+  .photo-live img,
+  .hero-pan img,
+  .icon-bob,
+  .photo-look img,
+  .logo-lid,
+  .logo-glance,
+  .logo-bat-fly,
+  .logo-bat-fly-2,
+  .logo-bat-fly-3,
+  .bat-wing-r,
+  .bat-wing-l,
+  .logo-live {
     animation: none;
+  }
+  .logo-smoke {
+    display: none;
   }
 }
 

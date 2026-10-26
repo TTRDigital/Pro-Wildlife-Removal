@@ -30,10 +30,9 @@ export const movedServices: Record<string, string> = {
 
 /**
  * Retired service-area pages (path without slashes) and the page they now live on (Ben, Oct 26, 2026):
- * the "rat removal in <city>" pages fold into that city's page.
+ * the "rat removal in <city>" pages fold into that city's page. The rest of the service-area moves are in lib/location-urls.ts.
  */
 export const movedLocations: Record<string, string> = {
-  "rat-removal-trinity": "about-us/service-area/trinity-wildlife-removal",
   "about-us/service-area/rat-removal-palm-harbor": "about-us/service-area/wildlife-removal-palm-harbor",
 };
 
@@ -49,6 +48,9 @@ export const cityCopies: Record<string, { service: string; place: string }> = {
   "wildlife-removal-services/bat-removal-tampa": { service: "bat-removal", place: "tampa-fl" },
   "wildlife-removal-services/rat-removal-tampa": { service: "rat-removal", place: "tampa-fl" },
   "wildlife-removal-services/raccoon-removal-tampa": { service: "raccoon-removal", place: "tampa-fl" },
+  "wildlife-removal-services/tampa-squirrel-removal": { service: "squirrel-removal", place: "tampa-fl" },
+  // The old Palm Harbor rat page (retired, see movedLocations) has a rat place page now (Oct 26, 2026).
+  "about-us/service-area/rat-removal-palm-harbor": { service: "rat-removal", place: "palm-harbor-fl" },
 };
 
 /** Where a service slug lives now (itself if it never moved). */

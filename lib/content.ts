@@ -7,6 +7,7 @@ import { fallbackSettings } from "@/lib/data/site";
 import { fallbackPages, type PageKey } from "@/lib/data/pages";
 import { fallbackServices } from "@/lib/data/services";
 import { movedServices } from "@/lib/service-urls";
+import { areaPath, foldedAreas, relinkAreas } from "@/lib/location-urls";
 import { fallbackLocations } from "@/lib/data/locations";
 import { fallbackPosts } from "@/lib/data/posts";
 import { existingPlacePages, fallbackServicePlaces } from "@/lib/data/service-places";
@@ -55,7 +56,7 @@ export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
   // One phone number for the whole site (Kia, Oct 26, 2026): no county lines and no toll-free number,
   // whatever the CMS holds, so every template shows and calls the main line only.
   // tel: link always follows the displayed phone number.
-  return { ...s, countyLines: [], tollFree: undefined, phoneHref: telHref(s.phone) };
+  return relink({ ...s, countyLines: [], tollFree: undefined, phoneHref: telHref(s.phone) });
 });
 
 export function telHref(phone: string) {
@@ -72,7 +73,7 @@ export const getTestimonials = cache(async (): Promise<Testimonial[]> => {
 
 export const getPage = cache(async (key: PageKey): Promise<PageContent> => {
   const cms = await sanityFetch<Partial<PageContent>>(`*[_id == $id][0]{ ${PAGE} }`, { id: `${key}Page` }, [`${key}Page`]);
-  return hidePlaceholders(merge(fallbackPages[key] as PageContent, cms));
+  return relink(hidePlaceholders(merge(fallbackPages[key] as PageContent, cms)));
 });
 
 /* ---------- Collections ---------- */
@@ -86,15 +87,23 @@ function mergeList<T>(fallback: T[], cms: Partial<T>[] | null, key: (x: Partial<
   return [...merged, ...missing];
 }
 
+/** Every string in a piece of content with old service-area links swapped for the new URLs (no 301 hops on our own links). */
+function relink<T>(v: T): T {
+  if (typeof v === "string") return relinkAreas(v) as T;
+  if (Array.isArray(v)) return v.map(relink) as T;
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, relink(x)])) as T;
+  return v;
+}
+
 export const getServices = cache(async (): Promise<Service[]> => {
   const cms = await sanityFetch<Partial<Service>[]>(
-    `*[_type == "service" && defined(slug.current)] | order(order asc){ "slug": slug.current, title, group, animal, order, summary, "cardImage": cardImage${IMG}, ${PAGE} }`,
+    `*[_type == "service" && defined(slug.current)] | order(order asc){ "slug": slug.current, title, group, animal, order, summary, "cardImage": cardImage${IMG}, "cardVideo": cardVideo.asset->url, ${PAGE} }`,
     {},
     ["service"],
   );
   const list = mergeList(fallbackServices, cms, (s) => s.slug, (c): Service => ({ slug: c.slug ?? "", title: c.title ?? "", group: "removal", animal: "", order: 99, hero: { heading: c.title ?? "" }, sections: [], seo: { title: c.title ?? "", description: "" } }));
   // One page per animal: retired copies stay out of the site, menus and sitemap (they 301, see next.config.ts).
-  return hidePlaceholders(list.filter((s) => !(s.slug in movedServices)).sort((a, b) => a.order - b.order));
+  return relink(hidePlaceholders(list.filter((s) => !(s.slug in movedServices)).sort((a, b) => a.order - b.order)));
 });
 
 export async function getService(slug: string) {
@@ -108,13 +117,16 @@ export const getLocations = cache(async (): Promise<Location[]> => {
     ["location"],
   );
   const list = mergeList(fallbackLocations, cms, (l) => l.path, (c): Location => ({ path: c.path ?? "", name: c.name ?? "", kind: "city", order: 999, hero: { heading: c.name ?? "" }, sections: [], seo: { title: c.name ?? "", description: "" } }));
-  return hidePlaceholders(list.sort((a, b) => a.order - b.order));
+  // /service-areas/ (Ben, Oct 26, 2026): folded pages leave the site, the rest move to their new path (lib/location-urls.ts).
+  // A rat page that stays (Winter Haven) is now its city's page.
+  const live = list.filter((l) => !(l.path in foldedAreas)).map((l) => ({ ...l, path: areaPath(l.path), kind: l.kind === "rat" ? ("city" as const) : l.kind }));
+  return relink(hidePlaceholders(live.sort((a, b) => a.order - b.order)));
 });
 
 /** Animal-by-place pages (TTR-738), only those whose animal page is on the site. Built-in content for now; not in the CMS yet. */
 export const getServicePlaces = cache(async (): Promise<ServicePlace[]> => {
   const services = new Set((await getServices()).map((s) => s.slug));
-  return hidePlaceholders(fallbackServicePlaces.filter((p) => services.has(p.service)).sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || a.placeName.localeCompare(b.placeName)));
+  return relink(hidePlaceholders(fallbackServicePlaces.filter((p) => services.has(p.service)).map((p) => ({ ...p, location: p.location && areaPath(p.location) })).sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || a.placeName.localeCompare(b.placeName))));
 });
 
 /** Every place page to link to: the new ones plus the existing pages that serve as place pages (only those still on the site). */
@@ -140,7 +152,7 @@ export const getPosts = cache(async (): Promise<Post[]> => {
     ["post"],
   );
   const list = mergeList(fallbackPosts, cms, (p) => p.slug, (c): Post => ({ slug: c.slug ?? "", title: c.title ?? "", body: [], seo: { title: c.title ?? "", description: "" } }));
-  return hidePlaceholders(list.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")));
+  return relink(hidePlaceholders(list.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""))));
 });
 
 export async function getPost(slug: string) {

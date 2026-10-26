@@ -1,46 +1,169 @@
 import Link from "next/link";
+import { MapPin } from "lucide-react";
 import type { AreasSection as Areas } from "@/lib/types";
+import { AreaMap } from "@/components/ui/AreaMap";
+import { CityMarquee } from "@/components/ui/CityMarquee";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
-/** County cards listing the communities served (pw-loc). Items link to their service-area page when there is one. */
+type Item = Areas["groups"][number]["items"][number];
+
+/** One city (with a map pin) or other item as a small pill; linked when it has its own page. */
+function Chip({
+  it,
+  copy = false,
+  place = true,
+}: {
+  it: Item;
+  copy?: boolean;
+  place?: boolean;
+}) {
+  const cls =
+    "inline-flex min-h-11 items-center gap-1.5 rounded-full border border-line bg-white px-4 font-display text-[0.9375rem] font-semibold whitespace-nowrap text-navy shadow-[0_6px_16px_-12px_rgb(14_42_71/0.5)] transition-colors";
+  const pin = place && (
+    <span className="pin-ico text-blue" aria-hidden="true" />
+  );
+  return it.href ? (
+    <Link
+      href={it.href}
+      tabIndex={copy ? -1 : undefined}
+      className={`${cls} hover:border-blue/40 hover:bg-tint hover:text-blue-deep`}
+    >
+      {pin}
+      {it.label}
+    </Link>
+  ) : (
+    <span className={cls}>
+      {pin}
+      {it.label}
+    </span>
+  );
+}
+
+/**
+ * Where we work, kept short: every place drifts by in two rows that scroll right to left
+ * (they pause under the pointer; the second copy that makes the loop seamless is hidden from
+ * screen readers), then one compact card per county with its cities as small tags. The cards
+ * swipe sideways on phones. A single untitled group is a centred row of tags instead.
+ * Every city stays a real link for search engines. With display "map" (the home page) the
+ * counties show on a map of Central Florida instead (AreaMap), without the city list.
+ */
 export function AreasSection({ section: s }: { section: Areas }) {
-  const n = s.groups.length;
+  if (s.display === "map")
+    return (
+      <SectionShell tone={s.tone ?? "tint"}>
+        <SectionHeader
+          eyebrow={s.eyebrow}
+          heading={s.heading}
+          highlight={s.highlight}
+          intro={s.intro}
+        />
+        <AreaMap groups={s.groups} />
+        {s.note ? (
+          <p className="mx-auto mt-12 max-w-[860px] text-center">{s.note}</p>
+        ) : null}
+        <CtaRow ctas={s.ctas} />
+      </SectionShell>
+    );
+  // Every place once: linked group titles (counties) and their items (towns).
+  const seen = new Set<string>();
+  const all = s.groups
+    .flatMap((g) => [
+      ...(g.title && g.href ? [{ label: g.title, href: g.href }] : []),
+      ...g.items,
+    ])
+    .filter((it) => {
+      const k = it.href ?? it.label;
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
+    });
+  const rows =
+    all.length >= 10 && all.every((it) => it.label.split(/\s+/).length <= 4)
+      ? [all.filter((_, i) => i % 2 === 0), all.filter((_, i) => i % 2 === 1)]
+      : [];
   return (
     <SectionShell tone={s.tone ?? "tint"}>
-      <SectionHeader eyebrow={s.eyebrow} heading={s.heading} highlight={s.highlight} intro={s.intro} />
-      <div className={`grid gap-6 sm:grid-cols-2 ${n >= 4 ? "lg:grid-cols-4" : n === 3 ? "lg:grid-cols-3" : ""}`}>
-        {s.groups.map((g, gi) => (
-          <div key={`${g.title}-${gi}`} className="card flex flex-col overflow-hidden rounded-[20px]" data-reveal style={{ ["--i" as string]: gi % 4 }}>
-            {g.title ? (
-              <div className="border-b border-line bg-tint-2 px-5 py-[18px] md:p-[22px]">
-                <h3 className="flex items-center gap-2.5 font-display text-[clamp(15px,1.55vw,18px)] font-semibold leading-tight text-navy before:h-[18px] before:w-1 before:flex-none before:rounded-sm before:bg-blue before:content-['']">
+      <SectionHeader
+        eyebrow={s.eyebrow}
+        heading={s.heading}
+        highlight={s.highlight}
+        intro={s.intro}
+      />
+      {rows.length ? (
+        <CityMarquee
+          rows={rows.map((r) => r.map(({ label, href }) => ({ label, href })))}
+        />
+      ) : null}
+      {rows.length ? null : s.groups.length === 1 && !s.groups[0].title ? (
+        // One untitled group (e.g. a city's services): a centred row of tags, no card.
+        <ul className="mx-auto flex max-w-[900px] flex-wrap justify-center gap-3">
+          {s.groups[0].items.map((it) => (
+            <li key={it.label}>
+              <Chip it={it} place={false} />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <div
+          className={`swipe swipe-areas ${s.groups.length < 4 ? `swipe-areas-${s.groups.length}` : ""}`}
+        >
+          {s.groups.map((g, gi) => (
+            <div
+              key={`${g.title}-${gi}`}
+              className="card group relative flex flex-col overflow-hidden rounded-[22px] p-5 transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-blue/30 hover:shadow-[var(--shadow-card-hover)] md:p-6"
+              data-reveal
+              style={{ ["--i" as string]: gi % 4 }}
+            >
+              <span
+                aria-hidden="true"
+                className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue to-cta opacity-70"
+              />
+              {g.title ? (
+                <h3 className="mb-4 flex items-center gap-3 font-display text-[1.125rem] leading-tight font-bold text-navy">
+                  <span className="flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-gradient-to-br from-navy to-navy-3 text-blue-light transition-transform duration-300 group-hover:-rotate-6">
+                    <MapPin
+                      className="h-5 w-5"
+                      strokeWidth={2.25}
+                      aria-hidden="true"
+                    />
+                  </span>
                   {g.href ? (
-                    <Link href={g.href} className="-my-3 inline-flex min-h-11 items-center hover:text-blue-deep">
+                    <Link
+                      href={g.href}
+                      className="-my-2 inline-flex min-h-11 items-center hover:text-blue-deep"
+                    >
                       {g.title}
                     </Link>
                   ) : (
                     g.title
                   )}
                 </h3>
-              </div>
-            ) : null}
-            <ul className="flex-1 px-5 md:px-[26px]">
-              {g.items.map((it) => (
-                <li key={it.label} className="flex min-h-11 items-center gap-2.5 border-b border-line-2 py-1.5 font-display text-base leading-snug text-body before:h-1.5 before:w-1.5 before:flex-none before:rounded-full before:bg-blue/55 before:content-[''] last:border-b-0">
-                  {it.href ? (
-                    <Link href={it.href} className="hover:text-blue-deep hover:underline">
-                      {it.label}
-                    </Link>
-                  ) : (
-                    it.label
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-      {s.note ? <p className="mx-auto mt-12 max-w-[860px] text-center">{s.note}</p> : null}
+              ) : null}
+              <ul className="flex flex-wrap gap-2">
+                {g.items.map((it) => (
+                  <li key={it.label}>
+                    {it.href ? (
+                      <Link
+                        href={it.href}
+                        className="inline-flex min-h-11 items-center rounded-full bg-tint-2 px-3.5 font-display text-[0.9375rem] font-medium text-navy transition-colors hover:bg-blue hover:text-white"
+                      >
+                        {it.label}
+                      </Link>
+                    ) : (
+                      <span className="inline-flex min-h-11 items-center rounded-full bg-tint-2 px-3.5 font-display text-[0.9375rem] font-medium text-navy">
+                        {it.label}
+                      </span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+      {s.note ? (
+        <p className="mx-auto mt-12 max-w-[860px] text-center">{s.note}</p>
+      ) : null}
       <CtaRow ctas={s.ctas} />
     </SectionShell>
   );

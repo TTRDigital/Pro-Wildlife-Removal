@@ -31,7 +31,6 @@ export function reviewsSchema(s: SiteSettings, shown: Testimonial[]) {
 
 /** The business itself, on every page. Its rating and reviews come from reviewsSchema, only where they are shown. */
 export function businessSchema(s: SiteSettings, locations: Location[] = []) {
-  // No openingHoursSpecification: the client's records disagree on the hours (Ben, Oct 26, 2026), and no hours is safer than wrong hours.
   const license = real(s.license);
   return {
     "@context": "https://schema.org",
@@ -44,7 +43,13 @@ export function businessSchema(s: SiteSettings, locations: Location[] = []) {
     logo: absoluteUrl(images.logo.src),
     image: absoluteUrl(images.prowildlifeRemovalAgentHoldingAnIguanaa.src),
     priceRange: "$$",
-    areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": areaType(l), name: `${l.name}, FL` })),
+    // Available 24 hours, every day (Kia confirmed, Oct 26, 2026). Structured data only: the site shows no hours label.
+    openingHoursSpecification: [
+      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
+    ],
+    // The confirmed counties only, by name (Ben, Oct 26, 2026): no vague region, and cities sit inside their county.
+    // Fixed in settings (Ben, Oct 26, 2026): a county stays here even while its page is held back.
+    areaServed: (s.serviceCounties ?? locations.filter((l) => l.kind === "county").map((l) => l.name.replace(/ County$/, ""))).map((c) => ({ "@type": "AdministrativeArea", name: `${c} County, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
   };

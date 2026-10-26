@@ -2,6 +2,9 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Service, ServicesSection as Svc } from "@/lib/types";
 import { Photo } from "@/components/ui/Photo";
+import { LoopVideo } from "@/components/ui/LoopVideo";
+import { NearView } from "@/components/ui/NearView";
+import { animalVideos } from "@/lib/data/videos";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 export const groupLabels: Record<Service["group"], string> = {
@@ -21,7 +24,7 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
       style={{ ["--i" as string]: index % 4 }}
     >
       {img ? (
-        <div className="relative aspect-[4/3] overflow-hidden">
+        <div className="photo-look relative aspect-[4/3] overflow-hidden">
           <Photo image={img} sizes="(min-width: 1024px) 300px, (min-width: 640px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
         </div>
       ) : null}
@@ -40,6 +43,7 @@ export function ServiceCard({ s, index }: { s: Service; index: number }) {
 /** Compact photo tile (photo with the animal's name on a navy bar), as on the client-approved landing pages. */
 export function ServiceTile({ s, index }: { s: Service; index: number }) {
   const img = s.cardImage ?? s.hero.image;
+  const video = s.cardVideo ?? animalVideos[s.animal];
   return (
     <Link
       href={`/services/${s.slug}/`}
@@ -47,8 +51,15 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
       data-reveal
       style={{ ["--i" as string]: index % 5 }}
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-navy-3">
-        {img ? <Photo image={img} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.08]" /> : null}
+      <div className="photo-look relative aspect-[4/3] overflow-hidden bg-navy-3">
+        {/* Fetched only as the tile nears the screen, so the tiles don't compete with the hero before first paint (TTR-846). */}
+        {img ? (
+          <NearView>
+            <Photo image={img} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.08]" />
+          </NearView>
+        ) : null}
+        {/* No poster: the optimized photo above shows through until the clip plays, so the full JPG is not downloaded too. */}
+        {video ? <LoopVideo src={video} /> : null}
       </div>
       <p className="flex min-h-12 items-center justify-center gap-1.5 px-2 py-2.5 text-center font-display text-[0.9375rem] leading-tight font-bold text-white">
         {s.title.replace(/ Removal$/, "")}
@@ -71,13 +82,13 @@ export function ServicesSection({ section: s, services }: { section: Svc; servic
           <div key={g} className="mt-10 first:mt-0">
             {groups.length > 1 ? <h3 className="mb-5 font-display text-xl font-bold text-navy">{groupLabels[g]}</h3> : null}
             {g === "removal" ? (
-              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5">
+              <div className="flex flex-wrap justify-center gap-3 sm:gap-4 [&>*]:basis-[calc(50%-0.375rem)] sm:[&>*]:basis-[calc(33.333%-0.667rem)] lg:[&>*]:basis-[calc(20%-0.8rem)]">
                 {list.map((x, i) => (
                   <ServiceTile key={x.slug} s={x} index={i} />
                 ))}
               </div>
             ) : (
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="flex flex-wrap justify-center gap-6 [&>*]:basis-full sm:[&>*]:basis-[calc(50%-0.75rem)] lg:[&>*]:basis-[calc(25%-1.125rem)]">
                 {list.map((x, i) => (
                   <ServiceCard key={x.slug} s={x} index={i} />
                 ))}

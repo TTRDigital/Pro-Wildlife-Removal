@@ -95,6 +95,8 @@ export type AreasSection = SectionBase & {
   _type: "areasSection";
   groups: { title?: string; href?: string; items: { label: string; href?: string }[] }[];
   note?: string;
+  /** "map": the counties on a map of Central Florida instead of the city list (the home page). */
+  display?: "cards" | "map";
 };
 export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string };
 export type ContactSection = SectionBase & { _type: "contactSection" };
@@ -145,10 +147,12 @@ export type Service = PageContent & {
   order: number;
   summary?: string;
   cardImage?: Img;
+  /** A short silent clip of the animal for its tile (e.g. /videos/bat.mp4); the card image is its poster. */
+  cardVideo?: string;
 };
 
 export type Location = PageContent & {
-  /** Path without slashes, e.g. "about-us/service-area/wildlife-removal-clearwater-fl" or "rat-removal-trinity". */
+  /** Path without slashes. Content keeps the old path as its ID (e.g. "about-us/service-area/wildlife-removal-clearwater-fl"); getLocations swaps in the live one, e.g. "service-areas/pinellas-county/clearwater" (lib/location-urls.ts). */
   path: string;
   name: string;
   kind: "region" | "county" | "city" | "rat";
@@ -213,6 +217,8 @@ export type SiteSettings = {
   hours: Hours[];
   announcement: string;
   serviceAreaText: string;
+  /** The counties the business serves, by name: the structured data's areaServed, whether or not each has its own page yet. */
+  serviceCounties?: string[];
   license?: string;
   googleRating?: string;
   reviewCount?: string;
