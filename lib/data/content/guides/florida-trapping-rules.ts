@@ -1,4 +1,3 @@
-import { images } from "../../images.ts";
 import type { Post } from "../../../types";
 import { h3, p, rich, table, ul } from "../pt.ts";
 import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
@@ -16,7 +15,6 @@ export const floridaTrappingRules: Post = {
   date: "2026-10-26T00:00:00+00:00",
   modified: "2026-10-26T00:00:00+00:00",
   author: "Pro Wildlife Removal",
-  image: images.post1776984844429,
   body: rich(
     p(
       "**The short answer:** Florida property owners can trap most nuisance wildlife without telling FWC. Check traps at least every 24 hours. Native animals can only be released on the same property or on 40+ contiguous acres in the same county with written permission. Non-natives can't be released, bat colonies can only be excluded, and new rules start December 31, 2026.",

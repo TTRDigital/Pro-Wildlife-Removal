@@ -98,7 +98,7 @@ export const ratsInAttic: Service = {
           "**More rats.** UF/IFAS says young roof rats can breed at 3 to 5 months, so a few rats in the fall can be many by spring.",
         ),
       ),
-      image: images.post1776984146059,
+      image: images.ratRemoval2,
       imageSide: "right",
     },
     {
@@ -161,7 +161,7 @@ export const ratsInAttic: Service = {
         "Chewed wiring flagged for an electrician",
         "[PLACEHOLDER: ask the client: what insulation you install after cleanup, and whether attic restoration is quoted separately]",
       ],
-      image: images.post1776984146059,
+      image: images.ratRemoval2,
       imageSide: "left",
     },
     {

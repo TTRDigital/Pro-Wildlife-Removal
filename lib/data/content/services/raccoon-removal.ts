@@ -94,7 +94,7 @@ export const raccoonRemoval: Service = {
           "**Damage.** Torn soffits, vents and roof edges, crushed and soiled insulation, and rain getting in through the hole they made.",
         ),
       ),
-      image: images.post1776984844429,
+      image: images.raccoonRemoval,
       imageSide: "right",
     },
     {

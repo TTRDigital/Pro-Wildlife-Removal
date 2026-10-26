@@ -1,4 +1,3 @@
-import { images } from "../../images.ts";
 import type { Post } from "../../../types";
 import { h3, p, rich, table, ul } from "../pt.ts";
 
@@ -18,7 +17,6 @@ export const atticCleanupCost: Post = {
   date: "2026-04-23T22:49:58+00:00",
   modified: "2026-10-26T00:00:00+00:00",
   author: "Pro Wildlife Removal",
-  image: images.post1776984146059,
   body: rich(
     p(
       "**The short answer:** an animal in the attic costs three things: getting it out, sealing the way in, and cleaning up. Which animal it is, how long it stayed and how much insulation it ruined decide most of the bill. Book an inspection at (727) 594-7705.",
