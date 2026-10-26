@@ -50,6 +50,8 @@ const oldUrls: [string, string][] = [
   ["/blog/feed", "/blog/"],
   ["/blog/page/:n", "/blog/"],
   ["/blog/category/:path*", "/blog/"],
+  ["/blog/tag/:path*", "/blog/"],
+  ["/blog/author/:path*", "/blog/"],
   // Old WordPress photos (a few image-search hits, Ben)
   ["/wp-content/uploads/:path*", "/blog/"],
   ["/page-sitemap.xml", "/sitemap.xml"],
