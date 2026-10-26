@@ -269,6 +269,8 @@ export function AnimalCatch() {
             <circle cx={51} cy={52} r={17} fill="#e8b98f" />
             <path d="M33 50 Q34 30 52 30 Q69 30 70 48 Z" fill="#0e2a47" />
             <path d="M62 46 Q76 45 80 50 Q70 52 60 50 Z" fill="#0e2a47" />
+            {/* the company logo on the front of the cap (Kia) */}
+            <image href="/_img/images/brand/logo-96.webp" x={44.5} y={33} width={14} height={12.9} />
             <circle cx={46} cy={55} r={2} fill="#2c2b29" />
             <circle cx={58} cy={55} r={2} fill="#2c2b29" />
             <path
