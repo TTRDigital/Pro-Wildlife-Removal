@@ -2,6 +2,7 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
+ * HELD (Ben, Oct 26, 2026: 5 facts; unregistered until a 6th Villages item turns up).
  * Raccoon removal in The Villages (TTR-738, Nia). Every card is one true fact
  * about raccoons in The Villages or its three counties: the 2019 rabies warning
  * and La Zamora report, a 2025 Fenney Nature Trail photo (news, dated), Sumter
