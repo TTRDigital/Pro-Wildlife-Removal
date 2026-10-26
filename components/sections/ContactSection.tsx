@@ -78,7 +78,7 @@ export function ContactSection({
           />
           <AnimatedLogo
             logo={images.logo}
-            sizes="200px"
+            sizes="(min-width: 640px) 245px, 195px"
             className="pointer-events-none absolute -right-6 -bottom-8 -z-10 h-44 opacity-20 sm:h-56"
           />
           <span className="tag-nudge inline-flex rounded-md bg-cta px-2.5 py-1 font-display text-xs font-extrabold tracking-[1px] uppercase">
