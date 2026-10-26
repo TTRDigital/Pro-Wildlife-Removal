@@ -1304,7 +1304,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Central Florida homeowners and businesses in resolving even the most challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our team offers safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
+        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Central Florida homeowners and businesses in resolving even very challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our team offers safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
         "marks": []
        }
       ],
@@ -2420,7 +2420,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Equipped with top-notch equipment and knowledge of the most modern industry-related techniques",
+        "text": "Equipped with top-notch equipment and knowledge of modern industry-related techniques",
         "marks": []
        }
       ]
@@ -2883,7 +2883,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "A thorough inspection and situation assessment is the most critical part of dealing with any animal issue safely and efficiently. One of our technicians will come out at the scheduled time in a labeled truck, dressed in a professional uniform, and begin inspecting your property.",
+        "text": "A thorough inspection and situation assessment is a critical part of dealing with any animal issue safely and efficiently. One of our technicians will come out at the scheduled time in a labeled truck, dressed in a professional uniform, and begin inspecting your property.",
         "marks": []
        }
       ],
@@ -2983,7 +2983,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Monthly population control services can be the most effective way to prevent future re-infestation of your home or commercial property. Pro Wildlife Removal offers population management programs for virtually every species of animal found in Florida. Inquire today to find out if this is the right option for you.",
+          "text": "Monthly population control services can be an effective way to prevent future re-infestation of your home or commercial property. Pro Wildlife Removal offers population management programs for virtually every species of animal found in Florida. Inquire today to find out if this is the right option for you.",
           "marks": []
          }
         ],

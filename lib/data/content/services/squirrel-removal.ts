@@ -92,7 +92,7 @@ export const squirrelRemoval: Service = {
           "A squirrel has to chew. FWC explains that its front teeth grow constantly and chewing keeps them filed down. Outside, that's bark and nuts. Inside your attic, it's whatever is there.",
         ),
         ul(
-          "**Wiring and pipes.** FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering PVC and electrical wires where squirrels can reach them.",
+          "**Wiring and pipes.** FWC says chewing damage, from plants to vehicle wires, is a common squirrel complaint, and suggests covering PVC and electrical wires where squirrels can reach them.",
           "**The roof.** A chewed opening lets in rain, and it's a ready-made door for the next animal.",
           "**More squirrels.** FWC says Florida squirrels tend to breed twice a year, with litters averaging one to four young. A pair in the attic in winter can be a family by spring.",
         ),

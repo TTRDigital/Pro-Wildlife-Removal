@@ -31,11 +31,11 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Safety Harbor | Rhea | E | N | N | H | raccoon (Nia) held: only 4 real raccoon facts |
 | Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
 | Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
-| The Villages | Nia | E | N | N | N | city page rewritten in place (5bbc42d), in Ben's check; old rat page linked |
-| Marion County | Nia | N | N | N | N | county page back in the preview with Nia's four-animal fix (8d99e12), in Ben's check |
-| Ocala | Nia | N | N | N | N | city page recounted (8d99e12); out of the preview until Ben clears it |
+| The Villages | Nia | E | P | N | N | city page cleared (0c320c2); bat page failed fact check, out of the preview until Nia's fixes; old rat page linked |
+| Marion County | Nia | N | P | N | N | county page cleared (b77a606); communities section in Ben's check; bat page failed fact check, out of the preview until Nia's fixes |
+| Ocala | Nia | N | N | N | N | city page cleared after Nia's fact-check fixes (b77a606) |
 | Belleview | Nia | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
-| Dunnellon | Nia | N | N | N | N | city page in the preview (38d4086), in Ben's check |
+| Dunnellon | Nia | C | C | C | C | held: page out of the preview; covered in the Marion communities section (b77a606) |
 | Lutz | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Westchase | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Carrollwood | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
@@ -47,7 +47,7 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Greater Northdale | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | New Tampa | Rhea | N | N | N | N | full page attempt first; falls back to a Hillsborough county section |
 | Temple Terrace | Rhea | N | N | N | N | full page attempt first; falls back to a Hillsborough county section |
-| Silver Springs | Nia | N | N | N | N | city page recounted (ef72856); out of the preview until Ben clears it |
+| Silver Springs | Nia | N | N | N | N | city page cleared after Nia's fact-check fixes (b77a606) |
 | Summerfield | Nia | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 
 ## Counts
@@ -56,12 +56,12 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 |---|---|---|---|---|---|
 | live, fact-checked | 7 | 6 | 5 | 11 | 29 |
 | in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
-| fixes pending | 0 | 0 | 0 | 0 | 0 |
+| fixes pending | 0 | 2 | 0 | 0 | 2 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
-| county section | 11 | 11 | 11 | 11 | 44 |
+| county section | 12 | 12 | 12 | 12 | 48 |
 | held | 1 | 1 | 3 | 3 | 8 |
 | skipped | 2 | 5 | 5 | 3 | 15 |
-| not started | 9 | 15 | 16 | 11 | 51 |
+| not started | 8 | 12 | 15 | 10 | 45 |
 | **all cells** | 41 | 41 | 41 | 41 | 164 |
 
 Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.

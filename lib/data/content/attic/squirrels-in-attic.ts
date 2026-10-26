@@ -89,7 +89,7 @@ export const squirrelsInAttic: Service = {
       heading: "What squirrels do to an attic",
       body: rich(
         ul(
-          "**Chewed wiring.** FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering wires and PVC where squirrels reach them.",
+          "**Chewed wiring.** FWC lists chewing damage, from plants to vehicle wires, among frequent squirrel complaints, and suggests covering wires and PVC where squirrels reach them.",
           "**Nesting.** FWC notes gray squirrels sometimes nest in attics when they can get in, and the insulation gets flattened and soiled.",
           "**A bigger family.** FWC says Florida squirrels tend to breed twice a year. A winter squatter can be a mother with young by spring.",
           "**An open roof.** Every chewed opening lets in rain and the next animal.",
@@ -179,7 +179,7 @@ export const squirrelsInAttic: Service = {
         ),
         faq(
           "Can squirrels chew through wiring?",
-          "Yes. FWC says chewing damage, from plants to vehicle wires, is one of the most common squirrel complaints, and suggests covering wires and PVC pipe where squirrels can reach them. If you see bare wire in the attic, have it checked. See [squirrels chewing wires](/blog/squirrels-chewing-wires-expert-guide/).",
+          "Yes. FWC names chewing on everything from plants to vehicle wires as a common squirrel complaint, and suggests covering wires and PVC pipe where squirrels can reach them. If you see bare wire in the attic, have it checked. See [squirrels chewing wires](/blog/squirrels-chewing-wires-expert-guide/).",
         ),
         faq(
           "Do squirrels carry diseases?",

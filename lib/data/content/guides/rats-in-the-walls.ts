@@ -40,7 +40,7 @@ export const ratsInTheWalls: Post = {
     ),
     h3("Trap, don't poison, inside walls"),
     ul(
-      `**Snap traps** are the most affordable option, UF/IFAS Extension in Pinellas says, and glue boards aren't humane because they prolong death ([UF/IFAS](${PINELLAS})).`,
+      `**Snap traps** are a low-cost option, UF/IFAS Extension in Pinellas says, and glue boards aren't humane because they prolong death ([UF/IFAS](${PINELLAS})).`,
       `**Place traps along walls,** near holes, or across beams and rafters where rats travel, as UF/IFAS advises.`,
       `**Poison is a last resort.** Pinellas Extension says rodenticides can take several days to kill, and UF/IFAS says toxic baits are legal only for non-native rats and house mice and must be in bait boxes ([UF/IFAS](${UW372})).`,
     ),

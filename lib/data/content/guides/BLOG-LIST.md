@@ -17,5 +17,7 @@ Every post: answer first, a source for each fact, Florida rules, one company num
 | Do bats hibernate in Florida? | /blog/do-bats-hibernate-in-florida/ | seasonal question | Fact-checked, done |
 | Found a baby raccoon in Florida? | /blog/found-a-baby-raccoon-florida/ | "baby raccoon" questions | Fact-checked, done |
 | Can you kill or trap a squirrel in Florida? | /blog/can-you-kill-or-trap-a-squirrel-in-florida/ | "can you kill squirrels in florida" | Fact-checked, done |
+| Do rats come out during the day? | /blog/do-rats-come-out-during-the-day/ | "do rats stay away from humans", daytime-rat questions | Fact-checked, done |
+| Do bats in Florida carry rabies? | /blog/do-bats-carry-rabies-florida/ | bat rabies questions | Fact-checked, done |
 
-Next: propose the next titles to Ben from Search Console before writing.
+Next week: palm and fruit trees (#2), lanai and umbrella (#5); then squirrel rabies (#6). Next: propose the next titles to Ben from Search Console before writing.

@@ -54,7 +54,7 @@ export const snakeRemoval: Service = {
         {
           icon: "critter",
           title: "Eastern diamondback rattlesnake",
-          text: p("Yellow-bordered diamonds down the back, a rattle and a head much wider than the neck. FWC calls it the largest and most dangerous native snake in Florida. Found in every county, often in palmetto flatlands, pine woods and brushy fields."),
+          text: p("Yellow-bordered diamonds down the back, a rattle and a head much wider than the neck. A large, venomous native snake, found in every county, often in palmetto flatlands, pine woods and brushy fields."),
         },
         {
           icon: "critter",

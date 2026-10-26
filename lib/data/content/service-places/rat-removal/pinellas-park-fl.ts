@@ -24,7 +24,7 @@ export const ratRemovalPinellasPark = servicePlacePage({
   answerHeading: "Who gets rid of rats in a Pinellas Park home?",
   answer:
     "A private company. In a Pinellas Park rental, Pinellas County's landlord-tenant page says the landlord must exterminate rats unless the lease says otherwise. In your own home, Pro Wildlife Removal finds where the rats get in, seals those gaps, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "State records: 23 rodent closures, 2022-25", "Most on 49th St and 66th St"],
+  points: ["Call (727) 594-7705", "State records: 23 rodent closures, 2022-25", "8 on 49th St, 7 on 66th St"],
   localHeading: "What to know about rats in Pinellas Park",
   localIntro: "The Pinellas Park facts below come from the state's restaurant inspection records. The others come from the Sixth Judicial Circuit and Pinellas County.",
   local: [
