@@ -1,7 +1,7 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/* Dunnellon page, new for the rebuild (Nia, Oct 26, 2026; Kia: every Google Ads area gets a page). Checkable local facts only, about rats, bats, squirrels and raccoons. */
+/* HELD (Ben, Oct 26, 2026: 4 to 5 facts, short of 6). Unregistered; Dunnellon now lives in the Marion County "Communities we serve" section. Dunnellon page, new for the rebuild (Nia, Oct 26, 2026; Kia: every Google Ads area gets a page). Checkable local facts only, about rats, bats, squirrels and raccoons. */
 const EDR = "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf";
 const RSAP = "https://floridadep.gov/sites/default/files/Rainbow-Springs-AP-Management-Plan.pdf";
 
@@ -47,7 +47,7 @@ export const dunnellon = countyPage({
   contacts: [
     { icon: "users", title: "Marion County Animal Services", text: p("352-671-8727, for strays and for bites to pets or livestock.") },
     { icon: "phone", title: "Human bites: DOH-Marion", text: p("352-629-0137.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service we offer is available in Dunnellon. Choose an animal to learn more.",
   servicesHeading: "Animals we remove in Dunnellon",
