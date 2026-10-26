@@ -26,10 +26,10 @@ export const batRemovalPolkCounty = servicePlacePage({
     "Bats in a Polk County home need a private wildlife company: the Sheriff's Office says Animal Control doesn't take nuisance wildlife calls. Pro Wildlife Removal finds where bats enter, fits one-way exclusion devices outside FWC's April 16 to August 14 maternity season, then seals the gaps. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid bats in Lakeland and Lake Wales", "No exclusions April 16 to Aug 14"],
   localHeading: "What to know about bats in Polk County",
-  localIntro: "Bats show up in Polk's rabies reports year after year. These facts, from the state health department, the Sheriff's Office and FWC, shape a bat job here.",
+  localIntro: "These facts about bats in Polk come from the state health department, the Sheriff's Office and FWC.",
   local: [
-    { icon: "search", title: "A rabid bat most years", text: p("State health tables show rabid bats in Polk in 2022 (one), 2023 (two) and 2024 (three, plus a fourth found through surveillance testing). The 2025 table lists no Polk bats; its only case was a cat.") },
-    { icon: "critter", title: "Only tested after contact", text: p("Those numbers are not a census. The Department of Health only tests suspect animals that may have exposed a person, pet, livestock or captive wildlife, so most bats in Polk are never tested at all.") },
+    { icon: "search", title: "Rabid bats in the state tables", text: p("Polk's row in the state rabies tables listed one rabid bat for 2022, two for 2023 and three for 2024, and a 2024 footnote adds one more Polk bat found through surveillance testing. The 2025 table listed no Polk bats.") },
+    { icon: "critter", title: "Only tested after contact", text: p("The Department of Health says it only tests suspect rabid animals that have potentially exposed a person, pet, livestock or captive wildlife. The tables count those tests, not every bat in Polk.") },
     { icon: "map-pin", title: "Lake Wales, March 2026", text: p("Polk's first rabies case of 2026 was a bat. A Lake Wales resident on Masterpiece Road found his dog standing over it in the yard, and the state lab in Tampa confirmed rabies.") },
     { icon: "home", title: "Inside a home near Lakeland", text: p("Four days later, a man southwest of Lakeland saw one of his dogs pawing at a bat inside his house. It also tested positive, the county's second case in two weeks.") },
     { icon: "map-pin", title: "Lakewood Circle, July 2026", text: p("The Sheriff's Office reported Polk's fifth rabies case of 2026 on Lakewood Circle in Lakeland, where a woman's cat was playing with a bat outside. The bat was rabid; the cat was vaccinated.") },
@@ -57,7 +57,7 @@ export const batRemovalPolkCounty = servicePlacePage({
     ),
     faq(
       "Have rabid bats been found in Polk County?",
-      "Yes, often. Bats were Polk's first and second rabies cases of 2026, in Lake Wales and near Lakeland, and another rabid bat turned up in Lakeland that July.",
+      "Yes. Bats were Polk's first and second rabies cases of 2026, in Lake Wales and near Lakeland, and another rabid bat turned up in Lakeland that July.",
     ),
     faq(
       "What should I do about a dead bat in my Polk home?",

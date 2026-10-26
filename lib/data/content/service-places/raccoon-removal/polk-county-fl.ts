@@ -26,15 +26,15 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
     "Polk County's Sheriff's Office says Animal Control won't take nuisance wildlife calls or collect trapped raccoons, so a raccoon in your attic or under the house is a job for a private company. Pro Wildlife Removal gets it out, checks for kits in spring, and closes the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoons: Frostproof, Lakeland", "Kits mostly March and April"],
   localHeading: "What to know about raccoons in Polk County",
-  localIntro: "Most Polk raccoon news comes from the Sheriff's Office and the health department, usually after one fights a dog. These are the local facts behind a raccoon call here.",
+  localIntro: "These facts about raccoons in Polk come from the Sheriff's Office, the health department, FWC and UF/IFAS.",
   local: [
     { icon: "map-pin", title: "Maniac Lane, Frostproof, 2024", text: p("On April 3, 2024, a dog fought and killed a raccoon at a Frostproof home on Maniac Lane. The raccoon was rabid, Polk's second case that year, and DOH-Polk set a 60-day alert between State Road 630, Lake Clinch, Kelly Road and US 27.") },
     { icon: "map-pin", title: "Green Road, Lakeland, 2023", text: p("In July 2023 a raccoon in unincorporated Lakeland latched onto a family dog and would not let go until the owner shot it. It tested positive, and the alert that followed ran from West Socrum Loop Road south to Duff Road.") },
     { icon: "users", title: "A teen bitten in Davenport", text: p("In November 2019, a 15-year-old in Davenport's Providence neighborhood was bitten on the hand while trying to help a sick raccoon. The Sheriff's Office later counted 11 rabies cases in Polk that year, six of them raccoons.") },
     { icon: "critter", title: "Poyner Road, Polk City, 2021", text: p("Polk's first rabies case of 2021 was a raccoon that fought a dog on Poyner Road in Polk City. The dog was vaccinated and went into a 45-day home quarantine.") },
-    { icon: "search", title: "Counts are a floor", text: p("State tables list one rabid raccoon in Polk in 2023, one in 2024 and none in 2022 or 2025. The state only tests animals that may have exposed a person or pet, so many raccoons are never tested.") },
-    { icon: "home", title: "Pet food and open cans", text: p("DOH-Polk's 2024 alert told residents not to attract raccoons with outdoor pet food, open garbage cans or other food. A bowl left on the porch overnight is an invitation.") },
-    { icon: "drop", title: "Alerts limit moving them", text: p("FWC's nuisance wildlife rule says moving a trapped animal never overrides a county health department rabies alert or quarantine. In Polk, where raccoon alerts recur, check for an active alert first.") },
+    { icon: "search", title: "Polk's rabid raccoon count", text: p("Polk's row in the state rabies tables listed one rabid raccoon for 2023, one for 2024 and none for 2022 or 2025. Raccoons are tested only after they may have exposed a person or animal, so untested ones aren't counted.") },
+    { icon: "home", title: "Pet food and open cans", text: p("DOH-Polk's 2024 alert told residents not to attract raccoons with outdoor pet food, open garbage cans or other food.") },
+    { icon: "drop", title: "Alerts limit moving them", text: p("FWC's nuisance wildlife rule says moving a trapped animal never overrides a county health department rabies alert or quarantine. Polk had raccoon rabies alerts in 2023 and 2024, so check for an active alert first.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Polk, from the Sheriff's Office and DOH-Polk's own pages.",
   contacts: [
@@ -64,7 +64,7 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
     ),
     faq(
       "When do raccoons have babies in Polk County?",
-      "UF/IFAS says Florida raccoons usually give birth once a year, in March or April. A raccoon in a Polk attic in spring may well have young with it.",
+      "UF/IFAS says Florida raccoons usually give birth once a year, in March or April. So a raccoon in a Polk attic in spring may have young with it.",
     ),
     faq(
       "How soon can you come out for a raccoon in Polk County?",
