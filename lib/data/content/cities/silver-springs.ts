@@ -49,7 +49,7 @@ export const silverSprings = countyPage({
       { icon: "building", title: "Ten closures at two addresses", text: p("By our count of DBPR's emergency closure files, food businesses with a Silver Springs address were closed 10 times for rodents from 2015 through 2025, all at two addresses on East Highway 40. One address was closed 6 times under four business names, the last in December 2023.") },
       { icon: "search", title: "About 500 droppings, 2025", text: p("A May 2025 complaint inspection at a pizza restaurant on East Silver Springs Boulevard found about 500 rodent droppings in dry storage, the Ocala Star-Banner reported.") },
     ],
-    link: { label: "rat removal in Ocala", href: "/services/rat-removal/ocala-fl/" },
+    link: { label: "rat removal", href: "/services/rat-removal/" },
   },
   contactsHeading: "Marion County and FWC numbers near Silver Springs",
   contactsIntro: "Near the state park, strays and pet bites go to Marion County, human bites to DOH-Marion, and alligators to FWC.",

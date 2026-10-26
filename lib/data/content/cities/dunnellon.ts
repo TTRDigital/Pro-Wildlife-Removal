@@ -51,7 +51,7 @@ export const dunnellon = countyPage({
       { icon: "map-pin", title: "Inside city limits", text: p("Three of those closures were at addresses inside Dunnellon city limits: one on the US 41 corridor in June 2017, and one business on East Pennsylvania Avenue twice in 2018.") },
       { icon: "search", title: "45 droppings, January 2026", text: p("Ocala-News.com reported that a golf club restaurant in the Dunnellon area was shut on Jan. 26, 2026, after an inspector counted 45 rodent droppings in the kitchen and bar. It reopened the next day.") },
     ],
-    link: { label: "rat removal in Ocala", href: "/services/rat-removal/ocala-fl/" },
+    link: { label: "rat removal", href: "/services/rat-removal/" },
   },
   contactsHeading: "Marion and FWC numbers for Dunnellon",
   contactsIntro: "Dunnellon relies on Marion County and FWC's Ocala office. These numbers come from DOH-Marion's alerts and FWC's pages.",
