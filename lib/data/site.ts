@@ -12,7 +12,7 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   tollFree: "1-844-ANIMAL4",
   email: "customerservice@prowildliferemoval.net",
   // The client: open 24/7, and no street address anywhere (Oct 25, 2026). The business is described by its service area.
-  // Hours are not shown on the site or in the structured data until the client confirms them (Ben, Oct 26, 2026).
+  // Not shown on the site (Kia, Oct 26, 2026); the structured data states 24 hours, every day, in lib/schema.ts.
   hours: [{ label: "Open", value: "24 hours a day, 7 days a week" }],
   announcement: "Serving Central Florida",
   // The service region is "Central Florida" (Kia, Oct 26, 2026); the counties are the 7 confirmed ones.
