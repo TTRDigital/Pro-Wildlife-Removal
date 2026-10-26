@@ -7,7 +7,6 @@ import { servicePlacePage } from "../build.ts";
  * city's own trash, animal control and parks pages, and Pasco's rabies record.
  */
 const ALERT2015 = "https://newsroomarchive.floridahealth.gov/pasco/2015/11/rabies-alerrt.html";
-const ALERT2023 = "https://pasco.floridahealth.gov/2023/04/05/the-florida-department-of-health-in-pasco-county-doh-pasco-issues-rabies-alert/";
 const TRASH = "https://cityofnewportrichey.org/Residents/Services/City-Trash-Services";
 const FAQ = "https://www.cityofnewportrichey.org/Residents/Services/FAQs/Animal-Control";
 const PARKS = "https://www.cityofnewportrichey.org/Residents/Amenities/Parks-and-Facilities";
@@ -26,23 +25,22 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
   heroText: "A raccoon in a New Port Richey attic, under a river house or tipping the trash cart? We get it out, look for young and repair the way in. Call (727) 594-7705.",
   answerHeading: "Who takes care of raccoons in New Port Richey?",
   answer:
-    "New Port Richey sends all animal control matters to Pasco County, and the county's service is built around pets and strays. A raccoon living in your attic, chimney or crawl space is a job for a private company. Pro Wildlife Removal removes it, checks for kits and fixes the opening. Call (727) 594-7705.",
+    "New Port Richey sends all animal control matters to Pasco County, and the county's emergency service is for stray pets and dangerous animals. A raccoon living in your attic, chimney or crawl space is a job for a private company. Pro Wildlife Removal removes it, checks for kits and fixes the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Trash Mondays and Thursdays", "Rabid raccoons in 2015"],
   localHeading: "What to know about raccoons in New Port Richey",
   localIntro: "New Port Richey sits on the Cotee River a few miles from the Gulf. These are the local records and rules behind a raccoon call here.",
   local: [
     { icon: "critter", title: "Two rabid raccoons in a week", text: p("In November 2015, DOH-Pasco put the New Port Richey Estates area under a 60-day rabies alert. A person had been exposed to one rabid raccoon, and a vaccinated dog to a different one, within a week.") },
     { icon: "map-pin", title: "Where that alert reached", text: p("The 2015 alert ran from the Gulf east to US 19, between Gulf Trace Boulevard on the south and Hammock and Ranch Road on the north.") },
-    { icon: "search", title: "West of the Cotee in 2023", text: p("A rabid cat brought another 60-day alert in April 2023, for the area north of Ridge Road, south of Midvale Avenue, west of the Pithlachascotee River and east of Moon Lake Road. DOH-Pasco named raccoons first among animals to avoid.") },
     { icon: "home", title: "One hauler, two pickups", text: p("Waste Pro, doing business as J.D. Parker & Sons, is New Port Richey's single hauler, collecting residential garbage on Mondays and Thursdays. The less time a full cart sits, the less there is for a raccoon to find.") },
-    { icon: "users", title: "The county handles it", text: p("The city's animal control FAQ says Pasco County handles all animal control concerns. That makes Pasco County Animal Services, at 813-929-1212, the agency for a sick or aggressive animal on the street.") },
+    { icon: "users", title: "The county handles it", text: p("The city's animal control FAQ says Pasco County handles all animal control concerns. That makes Pasco County Animal Services, at 813-929-1212, the agency for stray pets and for an unconfined, aggressive animal that threatens public safety.") },
     { icon: "leaf", title: "A river town near the Gulf", text: p("Around abundant food, UF/IFAS says, raccoon numbers can hit 100 per square mile, with coastal and wetland habitats standing out. In New Port Richey, DEP says, the riverfront overlooks both the Pithlachascotee River and the Gulf.") },
     { icon: "drop", title: "Raccoon country, countywide", text: p("Seventeen of the 24 rabid animals Pasco County recorded from 2013 to 2023 were raccoons, the county says. New Port Richey residents report bites to DOH-Pasco at 352-521-1450, option 4.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in New Port Richey, from the city's and agencies' own pages.",
   contacts: [
     { icon: "home", title: "Missed trash pickup", text: p("J.D. Parker & Sons, (727) 841-4260.") },
-    { icon: "users", title: "Sick or aggressive animal outside", text: p("Pasco County Animal Services, 813-929-1212, which handles animal control for the city.") },
+    { icon: "users", title: "Aggressive or stray animal outside", text: p("Pasco County Animal Services, 813-929-1212, which handles animal control for the city.") },
     { icon: "phone", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
@@ -80,9 +78,9 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
   },
   sources: [
     { title: "DOH-Pasco: Rabies alert, Nov. 10, 2015 (New Port Richey Estates area; a person exposed to a rabid raccoon and a vaccinated dog to a different rabid raccoon within one week; 60 days; Gulf of Mexico, Gulf Trace Blvd., US 19, Hammock/Ranch Road)", url: ALERT2015 },
-    { title: "DOH-Pasco: Rabies alert, April 5, 2023 (rabid cat reported April 4; west central Pasco; north of Ridge Road, south of Midvale Avenue, west of the Pithlachascotee River, east of Moon Lake Road; 60 days; avoid raccoons, bats and other wildlife)", url: ALERT2023 },
     { title: "City of New Port Richey: City trash services (Waste Pro dba JD Parker & Sons single hauler; residential collection Mondays and Thursdays, 6 a.m. to 7 p.m.; (727) 841-4260)", url: TRASH },
     { title: "City of New Port Richey: FAQ, animal control (Pasco County handles all animal control concerns)", url: FAQ },
+    { title: "Pasco County: Animal Services (813-929-1212; after-hours emergencies: seriously injured domestic strays, unconfined aggressive animals posing an immediate threat)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "City of New Port Richey: Parks and facilities (James E. Grey Preserve, 80 acres of natural wilderness; 140 bird species, deer, wild boar, turtles, manatees)", url: PARKS },
     { title: "Florida DEP: Coastal access guide, Pasco County (New Port Richey's riverfront overlooks the Pithlachascotee River and the Gulf)", url: "https://floridadep.gov/rcp/coastal-access-guide/content/pasco-county" },
     { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county with written permission; public parks need the land manager's written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/relocate/" },

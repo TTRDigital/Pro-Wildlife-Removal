@@ -7,22 +7,28 @@ import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-
 import { raccoonRemovalPolkCounty } from "./content/service-places/raccoon-removal/polk-county-fl.ts";
 import { ratRemovalPolkCounty } from "./content/service-places/rat-removal/polk-county-fl.ts";
 import { squirrelRemovalPolkCounty } from "./content/service-places/squirrel-removal/polk-county-fl.ts";
+import { batRemovalHillsboroughCounty } from "./content/service-places/bat-removal/hillsborough-county-fl.ts";
+import { raccoonRemovalHillsboroughCounty } from "./content/service-places/raccoon-removal/hillsborough-county-fl.ts";
 import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
 import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
 import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
 import { squirrelRemovalPascoCounty } from "./content/service-places/squirrel-removal/pasco-county-fl.ts";
 import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
 import { raccoonRemovalSpringHill } from "./content/service-places/raccoon-removal/spring-hill-fl.ts";
-import { batRemovalBrooksville } from "./content/service-places/bat-removal/brooksville-fl.ts";
-import { squirrelRemovalBrooksville } from "./content/service-places/squirrel-removal/brooksville-fl.ts";
 import { raccoonRemovalBrooksville } from "./content/service-places/raccoon-removal/brooksville-fl.ts";
 import { batRemovalHudson } from "./content/service-places/bat-removal/hudson-fl.ts";
-import { batRemovalLandOLakes } from "./content/service-places/bat-removal/land-o-lakes-fl.ts";
 import { raccoonRemovalLandOLakes } from "./content/service-places/raccoon-removal/land-o-lakes-fl.ts";
-import { raccoonRemovalHoliday } from "./content/service-places/raccoon-removal/holiday-fl.ts";
+import { raccoonRemovalHernandoCounty } from "./content/service-places/raccoon-removal/hernando-county-fl.ts";
+import { batRemovalHernandoCounty } from "./content/service-places/bat-removal/hernando-county-fl.ts";
+import { ratRemovalHernandoCounty } from "./content/service-places/rat-removal/hernando-county-fl.ts";
+import { squirrelRemovalHernandoCounty } from "./content/service-places/squirrel-removal/hernando-county-fl.ts";
 import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
 import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
 import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
+import { raccoonRemovalClearwater } from "./content/service-places/raccoon-removal/clearwater-fl.ts";
+import { raccoonRemovalStPetersburg } from "./content/service-places/raccoon-removal/st-petersburg-fl.ts";
+import { batRemovalStPetersburg } from "./content/service-places/bat-removal/st-petersburg-fl.ts";
+import { raccoonRemovalDunedin } from "./content/service-places/raccoon-removal/dunedin-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -40,6 +46,9 @@ export const fallbackServicePlaces: ServicePlace[] = [
   batRemovalPolkCounty,
   raccoonRemovalPolkCounty,
   squirrelRemovalPolkCounty,
+  // Hillsborough County (Owen)
+  batRemovalHillsboroughCounty,
+  raccoonRemovalHillsboroughCounty,
   // Pasco (Nia)
   ratRemovalPascoCounty,
   batRemovalPascoCounty,
@@ -49,20 +58,27 @@ export const fallbackServicePlaces: ServicePlace[] = [
   // Spring Hill (Nia)
   raccoonRemovalSpringHill,
   // Brooksville (Nia)
-  batRemovalBrooksville,
-  squirrelRemovalBrooksville,
   raccoonRemovalBrooksville,
   // Hudson (Nia)
   batRemovalHudson,
   // Land O' Lakes (Nia)
-  batRemovalLandOLakes,
   raccoonRemovalLandOLakes,
-  // Holiday (Nia)
-  raccoonRemovalHoliday,
+  // Hernando County (Nia)
+  ratRemovalHernandoCounty,
+  batRemovalHernandoCounty,
+  raccoonRemovalHernandoCounty,
+  squirrelRemovalHernandoCounty,
   // Pinellas County (Rhea)
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,
   raccoonRemovalPinellasCounty,
+  // Clearwater (Rhea)
+  raccoonRemovalClearwater,
+  // St. Petersburg (Rhea)
+  batRemovalStPetersburg,
+  raccoonRemovalStPetersburg,
+  // Dunedin (Rhea)
+  raccoonRemovalDunedin,
 ];
 
 /**

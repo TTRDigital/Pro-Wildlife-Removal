@@ -25,18 +25,18 @@ export const raccoonRemovalSpringHill = servicePlacePage({
   heroText: "A raccoon denning under a Spring Hill house, in the attic or raiding the blue cart? We get it out, look for young first and repair how it got in. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from Spring Hill homes?",
   answer:
-    "A private wildlife company. Hernando County Animal Services, part of the Sheriff's Office, lists pet services like surrenders, lost pets and dangerous dogs, not wildlife. For a raccoon in a Spring Hill attic or under the house, Pro Wildlife Removal takes it out, checks for young and closes the gap it used. Call (727) 594-7705.",
+    "A private wildlife company. Hernando County Animal Services, part of the Sheriff's Office, lists pet services like surrenders, lost pets and dangerous dogs; wildlife isn't among them. For a raccoon in a Spring Hill attic or under the house, Pro Wildlife Removal takes it out, checks for young and closes the gap it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Spring Hill rabies alert, June 2026", "Lids closed, by county rule"],
   localHeading: "What to know about raccoons in Spring Hill",
   localIntro: "Spring Hill had a raccoon-linked rabies alert in 2026, and Hernando's garbage rules are written with scavenging animals in mind. Here are the local facts.",
   local: [
     { icon: "critter", title: "A raccoon, a cat, a rabies alert", text: p("In June 2026, an unvaccinated cat in Spring Hill tested positive for rabies after a raccoon attacked it near Norvell Road. DOH-Hernando issued a 60-day rabies alert for the neighborhoods around it.") },
     { icon: "map-pin", title: "The 2026 alert area", text: p("That alert covered Elgin Boulevard on the north, Spring Hill Drive on the south, Barclay Avenue on the east and U.S. 19, Commercial Way, on the west.") },
-    { icon: "search", title: "Two rabid raccoons in 2025", text: p("The state's 2025 table listed two rabid raccoons for Hernando County and no other rabid animals. DOH-Hernando's notices place them off Ted Road near Brooksville and in the Spring Lake Highway and Neff Lake area.") },
+    { icon: "search", title: "Two rabid raccoons in 2025", text: p("The state's 2025 table listed two rabid raccoons for Hernando County and no other rabid animals. DOH-Hernando's 2025 notices reported rabid raccoons off Ted Road near Brooksville and in the Spring Lake Highway and Neff Lake area.") },
     { icon: "home", title: "Lids closed against animals", text: p("Hernando County's garbage rules say cart lids must be closed to keep animals from scavenging, and only trash inside the blue cart with the lid shut gets collected. A bag left beside the cart stays behind for raccoons.") },
     { icon: "wrench", title: "Not out before 6 p.m.", text: p("Carts can't go to the curb before 6 p.m. the day before collection and must come back in by the end of collection day. Fewer hours at the curb means fewer nights a raccoon gets a shot at it.") },
     { icon: "drop", title: "Twice a week in the universal area", text: p("Homes in Spring Hill's universal, or mandatory, collection area pay a county assessment that covers garbage pickup twice a week, along with weekly recycling and yard waste.") },
-    { icon: "leaf", title: "Feeding them is illegal", text: p("UF/IFAS Extension Hernando County says it is illegal to feed raccoons on purpose, and that fed raccoons lose their fear, raid trash, den under homes and kill unprotected chickens.") },
+    { icon: "leaf", title: "Feeding them is illegal", text: p("UF/IFAS Extension Hernando County says it is illegal to feed raccoons on purpose and that a fed raccoon loses its fear and can become a nuisance. Raccoons may raid trash cans, den under homes and kill chickens that aren't protected.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Spring Hill, from the county's and DOH's own pages.",
   contacts: [
@@ -50,7 +50,7 @@ export const raccoonRemovalSpringHill = servicePlacePage({
   faqs: [
     faq(
       "Was there a rabies alert in Spring Hill?",
-      "Yes. DOH-Hernando issued a 60-day alert on June 12, 2026, after a cat attacked by a raccoon near Norvell Road tested positive for rabies. Keep pets vaccinated, and don't handle any raccoon, sick-looking or not.",
+      "Yes. DOH-Hernando issued a 60-day alert on June 12, 2026, after a cat attacked by a raccoon near Norvell Road tested positive for rabies. DOH-Hernando issued another 60-day alert on July 1, 2026, for a rabid cat off Westwood Drive. Keep pets vaccinated, and don't handle any raccoon.",
     ),
     faq(
       "I saw a raccoon in daylight in Spring Hill. Is it rabid?",
@@ -82,6 +82,7 @@ export const raccoonRemovalSpringHill = servicePlacePage({
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Hernando: 2 raccoons, total 2)", url: DOH2025 },
     { title: "Florida DOH: DOH-Hernando rabies advisory, June 2, 2025 (raccoon killed off Ted Road, Brooksville area, May 28, 2025; report injuries to 352-540-6812)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/advisory-hernando-6-2-2025.pdf" },
     { title: "Florida DOH: DOH-Hernando rabies alert, June 9, 2025 (raccoon killed in the Spring Lake Highway/Neff Lake area off Frog Lane)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/alert-hernando-6-9-2025.pdf" },
+    { title: "DOH-Hernando: Rabies alert, July 1, 2026 (rabid cat off Westwood Drive, June 29, 2026; 60 days)", url: "https://hernando.floridahealth.gov/2026/07/01/doh-hernando-issues-rabies-alert-2/" },
     { title: "Hernando County: Garbage (twice per week; only waste inside the blue cart with the lid closed is collected; lids closed to prevent scavenging of animals; curbside no earlier than 6 p.m. the day before; carts removed by end of collection day; no dead animals in carts; Solid Waste (352) 754-4112)", url: GARBAGE },
     { title: "Hernando County: Solid waste collection assessment (universal, mandatory area of Spring Hill; twice per week garbage, weekly recycling and yard waste, 6 bulk collections a year)", url: ASSESS },
     { title: "Hernando County Sheriff's Office: Animal Services (352-796-5062; services listed: pet surrender, owner-requested euthanasia, pet licensing, TNVR, lost or found pets, found kittens, dangerous dogs)", url: "https://www.hernandosheriff.org/AnimalServices/" },
