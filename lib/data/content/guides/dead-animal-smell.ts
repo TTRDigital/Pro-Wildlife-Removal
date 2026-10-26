@@ -20,7 +20,7 @@ export const deadAnimalSmell: Post = {
     ),
     h3("Why it happens"),
     p(
-      `Animals that get into a house often die where you can't see them. Poison bait is a common reason: UF/IFAS says rodents usually die between four days and two weeks after they start eating bait, plenty of time to crawl back into a wall or attic first ([UF/IFAS](${PI284})). Animals sealed inside by a well-meant repair are another. FWC warns that bats shut into a building die there, and that their decay can produce strong odors and draw pests such as cockroaches ([FWC](${FWC_BATS})).`,
+      `Animals that get into a house often die where you can't see them. Poison bait is a common reason: UF/IFAS says rodents that eat anticoagulant bait, the most common kind, usually die four days to two weeks after they start feeding, plenty of time to crawl back into a wall or attic first ([UF/IFAS](${PI284})). Animals sealed inside by a well-meant repair are another. FWC warns that bats shut into a building die there, and that their decay can produce strong odors and draw pests such as cockroaches ([FWC](${FWC_BATS})).`,
     ),
     h3("How to find where it is"),
     ul(
@@ -30,16 +30,16 @@ export const deadAnimalSmell: Post = {
       "**Think about recent activity.** Scratching that stopped suddenly, or bait put out in the last couple of weeks, points to where the animal was living.",
     ),
     h3("Removing it safely"),
-    p(`The CDC's steps for dead rodents and their mess apply to most small animals ([CDC](${CDC})):`),
+    p(`Here are the CDC's steps for dead rodents and their droppings. They're a sensible guide for other small animals too ([CDC](${CDC})):`),
     ul(
       "Open doors and windows for 30 minutes before you start.",
       "Wear rubber or plastic gloves.",
-      "Spray the carcass and the area with disinfectant, or 1 part bleach to 9 parts water, and let it soak for 5 minutes.",
+      "Wet the carcass and everything around it with a disinfectant or a bleach mix (1 part bleach, 9 parts water), then wait 5 minutes.",
       "Put the animal in a plastic bag with any used traps, then put that bag in a second bag, and throw it in a covered garbage can that's emptied regularly.",
       "Don't sweep or vacuum droppings, urine or nesting material. Wipe them up with paper towels after soaking.",
       "Wash your hands with soap and warm water after you take the gloves off.",
     ),
-    p("If the animal is behind drywall, a small access hole cut at the strongest spot is usually less damage than waiting. A wildlife company can cut, remove and patch."),
+    p("If the animal is behind drywall, it may mean cutting a small access hole at the strongest spot."),
     h3("Why waiting it out isn't a plan"),
     p(
       `Removing the carcass matters for more than the smell. UF/IFAS advises removing dead rodents promptly so pets and wildlife don't eat a poisoned animal ([UF/IFAS](${PI284})). And a dead animal in the wall means there's a way in that's still open. Our [rats in the walls](/blog/rats-in-the-walls-florida/) guide covers finding it.`,
@@ -47,7 +47,7 @@ export const deadAnimalSmell: Post = {
     h3("Stop the next one"),
     ul(
       "**Find the entry.** Look at roof returns, vents and gaps where pipes and A/C lines go through the wall.",
-      "**Seal it only once the animals are out,** so nothing else gets trapped inside.",
+      "**Seal it the right way.** For rats, seal the gaps and then trap any left inside. For bats and other animals, seal only once they're out, so nothing is trapped inside.",
       "**Think twice about poison indoors.** Traps let you find and remove the animal; bait often doesn't.",
     ),
     p("See [dead animal removal](/services/dead-animal-removal/), [rats in the attic](/services/rats-in-attic/) and [rat removal](/services/rat-removal/), or call (727) 594-7705."),
@@ -59,7 +59,7 @@ export const deadAnimalSmell: Post = {
     ),
     faq(
       "Why did the smell start after I put out rat poison?",
-      "Poisoned rodents don't die right away. UF/IFAS says death usually comes four days to two weeks after they start eating bait, so they often die back in the wall or attic where they live.",
+      "Poisoned rodents don't die right away. UF/IFAS says death from anticoagulant bait usually comes four days to two weeks after they start eating it, so they often die back in the wall or attic where they live.",
     ),
     faq(
       "Can I just throw a dead rat in the garbage?",
@@ -77,7 +77,7 @@ export const deadAnimalSmell: Post = {
   },
   sources: [
     { title: "CDC: How to clean up after rodents (ventilate 30 minutes; gloves; bleach 1:9, soak 5 minutes; double-bag dead rodents with traps; covered garbage can; no sweeping or vacuuming; wash hands)", url: CDC },
-    { title: "UF/IFAS EDIS PI284: rodenticides (deaths typically 4 days to 2 weeks after rodents begin feeding on bait; remove carcasses promptly to prevent secondary poisoning)", url: PI284 },
+    { title: "UF/IFAS EDIS PI284: rodenticides (anticoagulants: deaths typically 4 days to 2 weeks after rodents begin feeding on bait; remove carcasses promptly to prevent secondary poisoning)", url: PI284 },
     { title: "FWC: Bats in buildings (bats sealed inside die; decay produces strong odors and can attract pests such as cockroaches)", url: FWC_BATS },
   ],
   clientQuestions: ["Do you cut and patch drywall to remove dead animals, or refer that out?"],
