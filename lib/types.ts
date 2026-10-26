@@ -157,6 +157,25 @@ export type Location = PageContent & {
   summary?: string;
 };
 
+/**
+ * One animal in one place: /services/<service>/<place>/, e.g. /services/raccoon-removal/tampa-fl/ (TTR-738).
+ * Written in lib/data/content/service-places/<service>/<place>.ts and listed in lib/data/service-places.ts.
+ */
+export type ServicePlace = PageContent & {
+  /** The animal page's slug, e.g. "raccoon-removal". */
+  service: string;
+  /** URL segment, e.g. "tampa-fl" or "polk-county-fl". */
+  place: string;
+  /** "Tampa", "Polk County": breadcrumb, link lists and the schema's areaServed. */
+  placeName: string;
+  placeKind: "city" | "county";
+  /** Path of the matching city or county page, which lists this page under "Services here". */
+  location?: string;
+  /** For a city, its county (e.g. "Hillsborough"). */
+  county?: string;
+  order?: number;
+};
+
 export type Post = {
   slug: string;
   title: string;
