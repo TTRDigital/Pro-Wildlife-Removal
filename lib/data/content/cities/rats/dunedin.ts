@@ -18,7 +18,7 @@ export const dunedinRats = countyPage({
   heroText: "Rats in a Dunedin attic or wall? We find how they get in, close it off and trap the ones inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Dunedin?",
   answer:
-    "The City of Dunedin doesn't offer rat removal, so rats inside a home are a job for a private company. The city's own trash rules are written with rodents in mind. We close up the entry points, trap the rats still inside and clean the attic. Call (727) 594-7705.",
+    "The City of Dunedin doesn't list a rat removal service, so rats inside a home are a job for a private company. The city's own trash rules are written with rodents in mind. We close up the entry points, trap the rats still inside and clean the attic. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "City: bag your garbage", "Pickup once a week"],
   townsHeading: "Rat removal near Dunedin",
   townsIntro: "We take rat calls across north Pinellas, and handle every other animal in Dunedin too.",

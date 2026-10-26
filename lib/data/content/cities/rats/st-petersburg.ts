@@ -15,7 +15,7 @@ export const stPetersburgRats = countyPage({
   heading: "Rat Removal in St. Petersburg, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in St. Petersburg, FL: rats sealed out of attics and walls and trapped inside, plus the city's own yard and trash tips.",
-  heroText: "Rats in a St. Pete attic or wall? We close the gaps, trap the rats inside and clean up. Call (727) 594-7705.",
+  heroText: "Rats in a St. Pete attic or wall? We shut the openings, trap the rats still inside and clean up after them. Call (727) 594-7705.",
   answerHeading: "Who handles rats in St. Petersburg?",
   answer:
     "St. Petersburg's Sanitation Department helps with rats outdoors, but the city says to hire a private company for rodents inside a home, and owners or occupants of houses are responsible for their own pest control. Pro Wildlife Removal seals, traps and cleans up. Call (727) 594-7705.",
@@ -37,7 +37,7 @@ export const stPetersburgRats = countyPage({
   localIntro: "The city's rodent guide goes beyond sealing the house. These are its tips for the yard, the trash and the bird feeder.",
   local: [
     { icon: "home", title: "Firewood off the ground", text: p("The city says to stack firewood on open racks at least 18 inches off the ground and away from the house. A woodpile against the wall is a ready-made rat nest.") },
-    { icon: "leaf", title: "Bird feeders", text: p("If you feed birds, St. Pete suggests a feeder that keeps squirrels and rats out, and a pan underneath to catch spilled seed, emptied before sundown.") },
+    { icon: "leaf", title: "Bird feeders", text: p("If you feed birds, St. Pete suggests a squirrel- and rat-deterring feeder, and a pan underneath to catch spilled seed, emptied before sundown.") },
     { icon: "critter", title: "Carts out in the morning", text: p("Garbage goes in closed containers, rolled to the curb only on the morning of collection day. Most single-family homes get one 90-gallon cart and twice-weekly pickup.") },
     { icon: "search", title: "Junk and overgrowth", text: p("City rules say discarded items can't be left in the yard, and owners must keep vegetation trimmed on their property and the city right-of-way. Both cut down on rat cover.") },
   ],
@@ -58,11 +58,11 @@ export const stPetersburgRats = countyPage({
     ),
     faq(
       "Do bird feeders attract rats?",
-      "They can. Spilled seed is food. St. Pete recommends a rat-deterring feeder and a pan to catch spilled seed, emptied before dark.",
+      "They can. Spilled seed is food. St. Pete recommends a squirrel- and rat-deterring feeder and a pan to catch spilled seed, emptied before dark.",
     ),
     faq(
       "Who is responsible for rats in a St. Pete rental?",
-      "City code puts pest control on the occupants of single-family and two-family homes, and on owners or occupants to eliminate infestations. Check your lease for who hires the company.",
+      "City code requires owners or occupants to eliminate infestations, and occupants of single-family and two-family homes are responsible for their own pest control. Check your lease for who hires the company.",
     ),
     faq(
       "How quickly can you come out for rats in St. Pete?",

@@ -43,7 +43,7 @@ export const safetyHarbor = countyPage({
   contactsIntro: "Who to call for what in Safety Harbor, from the city's FAQ and the county's and FWC's pages.",
   contacts: [
     { icon: "home", title: "Dead animal on a city road", text: p("Safety Harbor Public Works, 727-724-1550, picks up dead animals on city rights-of-way.") },
-    { icon: "users", title: "Strays and injured wildlife", text: p("Pinellas County Animal Services: (727) 582-2600, option 4.") },
+    { icon: "users", title: "Strays and injured wildlife", text: p("The city's FAQ lists the Humane Society of North Pinellas, 727-797-7722, for stray pickup. For sick or injured wildlife, Pinellas County Animal Services offers pickup and transport help: (727) 582-2600, option 4.") },
     { icon: "map-pin", title: "Alligators: FWC", text: p("Nuisance Alligator Hotline, 866-392-4286. The city notes FWC is the only agency in Florida that captures alligators, and that it responds to ones at least 4 feet long.") },
   ],
   servicesIntro: "Every service is available in Safety Harbor. Pick an animal to learn how we handle it.",
@@ -78,7 +78,7 @@ export const safetyHarbor = countyPage({
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Safety Harbor 16,808)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },
     { title: "City of Safety Harbor: Adopted budget 2019-20 (northwest edge of Old Tampa Bay)", url: "https://www.cityofsafetyharbor.com/DocumentCenter/View/13890/Adopted-Budget-Book-2019-20" },
-    { title: "City of Safety Harbor: FAQ (dead animals on city rights-of-way, Public Works 724-1550; Nuisance Alligator Hotline 866-392-4286; FWC only agency that captures alligators; 4 feet or more)", url: FAQ },
+    { title: "City of Safety Harbor: FAQ (stray pickup, Humane Society of North Pinellas 797-7722; dead animals on city rights-of-way, Public Works 724-1550; Nuisance Alligator Hotline 866-392-4286; FWC only agency that captures alligators; 4 feet or more)", url: FAQ },
     { title: "Pinellas County: Philippe Park (92 acres; 2525 Philippe Parkway, Safety Harbor)", url: "https://pinellas.gov/parks/philippe-park/" },
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
     { title: "City of Safety Harbor: Folly Farm Nature Preserve (9.95 acres)", url: "https://cityofsafetyharbor.com/962/Folly-Farm-Nature-Preserve" },

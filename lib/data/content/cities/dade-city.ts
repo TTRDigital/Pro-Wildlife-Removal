@@ -14,7 +14,7 @@ export const dadeCity = countyPage({
   heroText: "The Pasco County seat, in east Pasco near the Withlacoochee River and the Green Swamp. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife problems in Dade City?",
   answer:
-    "Dade City has its own code enforcement but no city animal control. Pasco County Animal Services handles pets and strays, and animals living in your home are a job for a private company. Pro Wildlife Removal works in Dade City and east Pasco. Call (727) 594-7705.",
+    "Dade City doesn't list an animal control service of its own. Pasco County Animal Services handles pets and strays, and animals living in your home are a job for a private company. Pro Wildlife Removal works in Dade City and east Pasco. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Pasco County seat", "Near the Green Swamp"],
   townsHeading: "Dade City and nearby",
   townsIntro: "Dade City is the Pasco County seat, with about 10,200 residents in 2025. We also cover the east Pasco communities around it.",

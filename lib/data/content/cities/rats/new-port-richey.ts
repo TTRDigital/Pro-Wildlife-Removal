@@ -38,7 +38,7 @@ export const newPortRicheyRats = countyPage({
   local: [
     { icon: "home", title: "One hauler for the city", text: p("Waste Pro, doing business as J.D. Parker & Sons, is the single hauler for all residents and businesses in New Port Richey.") },
     { icon: "critter", title: "Mondays and Thursdays", text: p("Residential garbage is collected twice a week, on Mondays and Thursdays, between 6 a.m. and 7 p.m. Food waste that misses a pickup sits for days.") },
-    { icon: "wrench", title: "Carts and locks", text: p("The city lists 96-gallon trash carts, and lock bars as an extra service. A lid that latches keeps rats and raccoons out of the cart.") },
+    { icon: "wrench", title: "Keep the lid shut", text: p("The city lists 96-gallon trash carts. Keep the lid fully closed so rats and raccoons can't get in.") },
     { icon: "leaf", title: "On the river", text: p("Homes along the Pithlachascotee River often have docks, boathouses and seawalls, which give rats cover close to the house. Check where pipes and lines enter outbuildings.") },
   ],
   contactsHeading: "Who to call about rats in New Port Richey",
@@ -61,10 +61,6 @@ export const newPortRicheyRats = countyPage({
       "No. New Port Richey's services cover trash, not rats in homes. See [rats in the attic](/services/rats-in-attic/) for the signs and what we do.",
     ),
     faq(
-      "Can I get a lock for my trash cart?",
-      "The city lists lock bars as an extra monthly service. Ask the city or J.D. Parker & Sons for details.",
-    ),
-    faq(
       "How soon can you come out for rats in New Port Richey?",
       "Rat calls from New Port Richey to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in New Port Richey]",
@@ -78,7 +74,7 @@ export const newPortRicheyRats = countyPage({
       "Rat removal in New Port Richey, FL: rats sealed out and trapped in homes, garages and boathouses, plus how the city's trash service works. Call (727) 594-7705.",
   },
   sources: [
-    { title: "City of New Port Richey: City trash services (Waste Pro dba J.D. Parker & Sons is the single hauler; residential collection Mondays and Thursdays, 6 a.m. to 7 p.m., twice a week; 96-gallon carts; lock bars as an extra service; (727) 841-4260)", url: TRASH },
+    { title: "City of New Port Richey: City trash services (Waste Pro dba J.D. Parker & Sons is the single hauler; residential collection Mondays and Thursdays, 6 a.m. to 7 p.m., twice a week; 96-gallon carts; (727) 841-4260)", url: TRASH },
     { title: "City of New Port Richey: Parks and facilities (the Cotee, or Pithlachascotee, River)", url: "https://www.cityofnewportrichey.org/Residents/Amenities/Parks-and-Facilities" },
   ],
   clientQuestions: ["Typical response time for rat calls in New Port Richey?", "New Port Richey rat job reviews (from TTR-723) and real rat job photos."],
