@@ -150,7 +150,7 @@ export const opossumRemoval: Service = {
         { title: "How many openings", text: p("One gap in the skirting, or a whole perimeter to close.") },
         { title: "Cleanup", text: p("A little nesting, or soiled insulation to remove.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: is the inspection free, and can the site show a price range for opossum removal?]"),
+      outro: p("There's no charge for the opossum inspection, and the price comes before the work.", "[PLACEHOLDER: ask the client: can the site show a price range for opossum removal?]"),
     },
     {
       _type: "areasSection",
@@ -231,7 +231,7 @@ export const opossumRemoval: Service = {
   ],
   clientQuestions: [
     "Opossums: one-way doors, live traps or both? Where are they released?",
-    "Is the inspection free? Can the site show a price range for opossum removal?",
+    "Can the site show a price range for opossum removal?",
     "Real photos: wire mesh installed under a house or deck, an opossum removal.",
   ],
 };

@@ -140,7 +140,7 @@ export const armadilloRemoval: Service = {
         { title: "Where the burrow is", text: p("Open yard, or under a slab, shed or A/C pad.") },
         { title: "Prevention work", text: p("[PLACEHOLDER: ask the client: confirm whether you install buried fencing or wire, so this cost factor can stay]") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: is the inspection free, and can the site show a price range for armadillo removal?]"),
+      outro: p("The armadillo inspection is free. We quote the trapping before setting a single trap.", "[PLACEHOLDER: ask the client: can the site show a price range for armadillo removal?]"),
     },
     {
       _type: "areasSection",
@@ -227,7 +227,7 @@ export const armadilloRemoval: Service = {
   ],
   clientQuestions: [
     "Armadillos: your trap setup and how often traps are checked? Do you install exclusion fencing or wire along foundations? Where are armadillos released?",
-    "Is the inspection free? Can the site show a price range for armadillo removal?",
+    "Can the site show a price range for armadillo removal?",
     "Real photos: a burrow under a slab or shed, a trap set with guide boards, exclusion fencing.",
   ],
 };

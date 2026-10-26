@@ -61,7 +61,7 @@ export const trinity = countyPage({
     ),
     faq(
       "Do you also handle rats in Trinity?",
-      "Yes. See our page on [rat removal in Trinity](/rat-removal-trinity/) for the local details.",
+      "Yes. Our [rat removal](/services/rat-removal/) page explains how we seal the way in and trap the rats inside.",
     ),
     faq(
       "How soon can you get to Trinity?",

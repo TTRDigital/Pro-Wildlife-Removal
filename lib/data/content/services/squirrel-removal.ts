@@ -187,7 +187,7 @@ export const squirrelRemoval: Service = {
         { title: "Removal method", text: p("A one-way door, or traps that need return visits.") },
         { title: "Attic cleanup", text: p("Removing nests and droppings, and replacing insulation if needed.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: is the inspection free, and can the site show a price range for squirrel removal?]"),
+      outro: p("Our squirrel inspection is free, and you see the price before anything is done.", "[PLACEHOLDER: ask the client: can the site show a price range for squirrel removal?]"),
     },
     {
       _type: "areasSection",
@@ -273,7 +273,7 @@ export const squirrelRemoval: Service = {
   clientQuestions: [
     "Squirrels: one-way doors, cage traps or both? How often are traps checked? Where are squirrels released?",
     "Is there a warranty on squirrel repairs, and for how long?",
-    "Is the inspection free? Can the site show a price range for squirrel removal?",
+    "Can the site show a price range for squirrel removal?",
     "Real photos: a chewed soffit corner before and after, a one-way door installed.",
   ],
 };

@@ -3179,7 +3179,7 @@ export const fallbackPages = {
       },
       {
        "_type": "span",
-       "text": "844 ANIMAL 4 (727-594-7705)",
+       "text": "(727) 594-7705",
        "marks": [
         "strong"
        ]
