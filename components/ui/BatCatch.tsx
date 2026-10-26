@@ -14,8 +14,8 @@ const HOOP = { x: 104, y: 22 };
 /**
  * A little scene on the home page: once the visitor scrolls past the banner, a bat flaps in
  * from the right and zigzags across the screen, a wildlife tech pops up in the bottom-left
- * corner with a net, swings it and catches the bat, then ducks back down with it. Plays once,
- * and once more further down the page. It never blocks taps (pointer-events: none), is hidden
+ * corner with a net, swings it and catches the bat, then ducks back down with it. Plays once
+ * per visit. It never blocks taps (pointer-events: none), is hidden
  * from screen readers, and does not run for people who ask for less motion.
  */
 export function BatCatch() {
@@ -27,12 +27,21 @@ export function BatCatch() {
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    let plays = 0;
+    // Once per visit (Kia): not again further down, nor when coming back to the home page.
+    const KEY = "pw-bat-caught";
+    let done = false;
+    try {
+      done = sessionStorage.getItem(KEY) === "1";
+    } catch {}
+    if (done) return;
     let busy = false;
 
     const play = async () => {
       busy = true;
-      plays++;
+      done = true;
+      try {
+        sessionStorage.setItem(KEY, "1");
+      } catch {}
       setShow(true);
       await new Promise((r) =>
         requestAnimationFrame(() => requestAnimationFrame(r)),
@@ -128,13 +137,8 @@ export function BatCatch() {
     };
 
     const onScroll = () => {
-      if (busy || plays >= 2) return;
-      const doc = document.documentElement.scrollHeight - window.innerHeight;
-      if (
-        (plays === 0 && window.scrollY > window.innerHeight * 0.7) ||
-        (plays === 1 && window.scrollY > doc * 0.6)
-      )
-        play();
+      if (busy || done) return;
+      if (window.scrollY > window.innerHeight * 0.7) play();
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
