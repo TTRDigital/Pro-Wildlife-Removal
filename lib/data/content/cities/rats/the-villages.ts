@@ -21,12 +21,12 @@ export const theVillagesRats = countyPage({
   eyebrow: "RAT REMOVAL IN THE VILLAGES",
   heading: "Rat Removal in The Villages, FL",
   highlight: "Rat Removal",
-  summary: "Rat removal in The Villages, FL: rats sealed out of villas and homes, with the local rat reports and the county and district rules behind them.",
+  summary: "Rat removal in The Villages, FL: rat removal for villas and homes, with the local rat reports and the county and district rules behind them.",
   heroText: "Rats in a villa attic or a garage in The Villages? We find how they get in, close it, trap the ones inside and clean up. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in The Villages?",
   answer:
     "A private company. When rats turned up in the Village of Santiago in 2016, Sumter County told residents to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal closes the openings, traps the rats inside and cleans up after them. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County: domestic animals only", "Trash goes out in sealed bags"],
+  points: ["Call (727) 594-7705", "County refers rats to private companies", "Trash goes out in sealed bags"],
   townsHeading: "Rat removal around The Villages",
   townsIntro: "The Villages crosses Sumter, Lake and Marion counties. We take rat calls on every side, and handle the other animals too.",
   towns: [
@@ -46,9 +46,9 @@ export const theVillagesRats = countyPage({
   local: [
     { icon: "search", title: "Santiago, 2016: rats the size of squirrels", text: p("Two Village of Santiago homeowners told News 6 in May 2016 about rats as big as squirrels, with things going missing or chewed. One was catching them in his possum and raccoon trap. The property manager pointed to a bird feeder that had been in the area until recently and about 400 acres of farmland nearby.") },
     { icon: "users", title: "The county's answer", text: p("Sumter County told News 6 that residents with rats should call a commercial company to remove them. Its nuisance wildlife page says Animal Services generally deals only with domestic animals.") },
-    { icon: "home", title: "Briar Meadow South, 2016: an empty villa", text: p("Neighbors told the Community Development District 4 board in September 2016 that an abandoned Legacy Villas home was overrun with mold, snakes, rats, bats and bees. The owner, who lived in Nevada, faced fines if the villa stayed out of compliance, and a supervisor urged neighbors to go to the Marion County Health Department.") },
-    { icon: "map-pin", title: "Lynnhaven, 2025: a burned house", text: p("A home on Due West Drive in the Village of Lynnhaven, damaged in a fatal fire that December, was drawing rats and buzzards by July 2025, residents told the CDD 5 board. Sumter County had opened a code enforcement case on the property.") },
-    { icon: "leaf", title: "Bags, not cans", text: p("In Districts 1 through 11, the district FAQ says household waste goes out in sealed bags, and garbage cans or bins aren't allowed. A bag set out the night before is easy pickings, so wait until close to collection time.") },
+    { icon: "home", title: "Briar Meadow South, 2016: an empty villa", text: p("Villages-News reported in September 2016 that neighbors told the Community Development District 4 board that an abandoned Legacy Villas home was overrun with mold, snakes, rats, bats and bees. The owner, who lived in Nevada, faced fines if the villa stayed out of compliance, and a supervisor urged neighbors to go to the Marion County Health Department.") },
+    { icon: "map-pin", title: "Lynnhaven, 2025: a burned house", text: p("Villages-News reported in July 2025 that a Village of Lynnhaven home damaged in a fatal fire on Dec. 23, 2024 was drawing rats and buzzards, residents told the CDD 5 board. Sumter County had opened a code enforcement case on the property.") },
+    { icon: "leaf", title: "Bags, not cans", text: p("In Districts 1 through 11, the district FAQ says household waste goes out in sealed bags, and garbage cans or bins aren't allowed. Set bags out close to collection time.") },
     { icon: "critter", title: "Roof rats live up high", text: p(`Florida DOH describes roof rats as good climbers that like high places such as attics, and UF/IFAS says a rat can squeeze through a hole about half an inch wide ([UF/IFAS](${SANTAROSA})). In a villa, that means soffits, roof returns and A/C line gaps.`) },
   ],
   contactsHeading: "Who to call about rats in The Villages",
@@ -64,7 +64,7 @@ export const theVillagesRats = countyPage({
   faqs: [
     faq(
       "Will Sumter County trap rats at my villa?",
-      `Usually not. Sumter County says its Animal Services generally deals only with domestic animals, and it refers most nuisance wildlife reports to private trappers ([Sumter County](${SUMTER})).`,
+      `Generally not. The county's nuisance wildlife page says Animal Services generally deals only with domestic animals and usually refers residents to private trappers, and in 2016 it told residents of The Villages to call a commercial company for rats ([Sumter County](${SUMTER})).`,
     ),
     faq(
       "Can a bird feeder bring rats to my yard?",
@@ -76,7 +76,7 @@ export const theVillagesRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in The Villages?",
-      "Same-day rat inspections are often available in The Villages. Call (727) 594-7705.",
+      "For rats, same-day appointments are often available in The Villages. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in The Villages]",
     ),
   ],
@@ -85,12 +85,12 @@ export const theVillagesRats = countyPage({
   seo: {
     title: "Rat Removal in The Villages, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in The Villages, FL: rats sealed out of villas and homes, local rat reports from Santiago to Lynnhaven, and who handles what. (727) 594-7705.",
+      "Rat removal in The Villages, FL: rat removal for villas and homes, local rat reports from Santiago to Lynnhaven, and who handles what. (727) 594-7705.",
   },
   sources: [
     { title: "News 6 (ClickOrlando), May 2016: Squirrel-sized rats invade homes in The Villages (Villages of Santiago; caught in a possum and raccoon trap; bird feeder in the area until recently; about 400 acres of farmland nearby; Sumter County said residents should call a commercial company)", url: SANTIAGO },
     { title: "Villages-News, Sept. 10, 2016: Nervous neighbors complain about villa with bats, rats and owner in Nevada (Legacy Villas, Village of Briar Meadow South; mold, snakes, rats, bats and bees; CDD 4 supervisors; owner out of compliance, will be fined; take case to the Marion County Health Department)", url: BRIAR },
-    { title: "Villages-News, July 18, 2025: Villagers upset that site of fatal fire attracting rats and buzzards (Due West Drive, Village of Lynnhaven; Dec. 23 fire; CDD 5 board; Sumter County code enforcement case)", url: LYNNHAVEN },
+    { title: "Villages-News, July 18, 2025: Villagers upset that site of fatal fire attracting rats and buzzards (Village of Lynnhaven; Dec. 23 fire; CDD 5 board; Sumter County code enforcement case)", url: LYNNHAVEN },
     { title: "The Villages District Government: FAQs (Districts 1-11: household waste in sealed bags; no garbage cans or bins)", url: TRASH },
     { title: "Sumter County: Nuisance wildlife (Animal Services generally deals only with domestic animals; refers most nuisance wildlife reports to private trappers)", url: SUMTER },
     { title: "Sumter County: Animal Services contact (352-689-4400)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
