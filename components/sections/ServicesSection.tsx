@@ -53,7 +53,7 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
       data-reveal
       style={{ ["--i" as string]: index % 5 }}
     >
-      <div className={`photo-look relative aspect-[4/3] overflow-hidden bg-navy-3 ${video ? "" : `post-shot post-shot-${index % 4}`}`}>
+      <div className={`photo-look relative aspect-[4/3] overflow-hidden bg-navy-3 ${video ? "" : `post-shot tile-move-base post-shot-${index % 4}`}`}>
         {/* Fetched only as the tile nears the screen, so the tiles don't compete with the hero before first paint (TTR-846). */}
         {img ? (
           <NearView>

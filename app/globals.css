@@ -808,6 +808,11 @@ a:focus-visible .logo-live .logo-lid {
 .post-shot-3 img {
   animation-name: pw-shot-3;
 }
+/* A tile's photos move faster than a blog card's, so the tile reads as footage (Kia). */
+.post-shot.tile-move img,
+.post-shot.tile-move-base img {
+  animation-duration: 4.5s;
+}
 @keyframes pw-shot-0 {
   from {
     transform: scale(1.04) translate3d(0, 0, 0);
@@ -1024,11 +1029,11 @@ a:focus-visible .logo-live .logo-lid {
   100% {
     opacity: 0;
   }
-  6%,
-  30% {
+  4%,
+  25% {
     opacity: 1;
   }
-  36% {
+  30% {
     opacity: 0;
   }
 }

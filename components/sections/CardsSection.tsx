@@ -51,7 +51,7 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
   const body = (
     <>
       {photo ? (
-        <div className={`photo-look relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7 ${video ? "" : `post-shot post-shot-${index % 4}`}`}>
+        <div className={`photo-look relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7 ${video ? "" : `post-shot tile-move-base post-shot-${index % 4}`}`}>
           <Photo image={photo} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
           {video ? <LoopVideo src={video} /> : animal && pageAnimal(card.href!) ? <TileLife photos={pageAnimal(card.href!)!.images} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" /> : null}
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/10 to-transparent" />

@@ -38,3 +38,12 @@ seconds, scaled to 480x360 and saved without sound; nothing else was changed.
 - Author: Benoît Prieur (own work, uploaded by the author the next day)
 - Filmed: 13 May 2023
 - License: CC0 1.0 (Creative Commons Zero, Public Domain Dedication)
+
+## bee.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:Honeybees_actively_swarming.webm
+- What it shows: a honey bee swarm gathering on a southern pine branch while scouts look for a
+  new home, filmed in Mississippi (phone video, cropped from portrait to the tile's shape)
+- Author: Dsgridgerunner (own work, uploaded by the author)
+- Filmed: 1 April 2025
+- License: CC0 1.0 (Creative Commons Zero, Public Domain Dedication)
