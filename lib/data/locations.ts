@@ -4165,7 +4165,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "To ensure long-term protection against future wildlife invasions, we offer follow-up services and prevention tips. Our experts will:",
+        "text": "To make it harder for wildlife to come back, we offer follow-up services and prevention tips. Our experts will:",
         "marks": []
        }
       ],
@@ -5022,7 +5022,7 @@ const migratedLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": ": Our team can repair any damage caused by wildlife and provide ongoing maintenance to ensure your property remains secure.",
+        "text": ": Our team can repair any damage caused by wildlife and offer follow-up visits to check for new activity.",
         "marks": []
        }
       ],
