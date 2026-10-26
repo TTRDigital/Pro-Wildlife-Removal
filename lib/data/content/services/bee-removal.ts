@@ -28,7 +28,7 @@ export const beeRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "BEE REMOVAL",
-    heading: "Bee Removal in Tampa Bay",
+    heading: "Bee Removal in Central Florida",
     highlight: "Bee Removal",
     text: p("Bees going in and out of a wall, soffit or shed? Keep people and pets back, leave the opening alone, and call."),
     image: images.beeRemoval,
@@ -53,7 +53,7 @@ export const beeRemoval: Service = {
       variant: "icon",
       columns: 3,
       cards: [
-        { icon: "bug", title: "Honey bees", text: p("Live in large colonies inside cavities: walls, soffits, sheds, water meters. In Tampa Bay these can be European, African or a mix, and a colony in a structure needs a professional.") },
+        { icon: "bug", title: "Honey bees", text: p("Live in large colonies inside cavities: walls, soffits, sheds, water meters. In Central Florida these can be European, African or a mix, and a colony in a structure needs a professional.") },
         { icon: "wrench", title: "Carpenter bees", text: p("Look like bumble bees but have a shiny, greenish-black abdomen. UF/IFAS says they drill clean, half-inch holes into trim, railings and siding and tunnel 3 to 6 inches into the wood.") },
         { icon: "leaf", title: "Bumble bees", text: p("Fuzzy all over. UF/IFAS says Florida's five species nest at or below ground, often in old rodent burrows, dense grass or crevices by a foundation, and the colony dies off by early winter.") },
       ],
@@ -84,7 +84,7 @@ export const beeRemoval: Service = {
       heading: "Why Florida bee colonies need care",
       body: rich(
         p(
-          "Honey bees matter, and a swarm passing through is usually better left alone. A colony living in your house or next to where people walk is different, especially in Tampa Bay.",
+          "Honey bees matter, and a swarm passing through is usually better left alone. A colony living in your house or next to where people walk is different, especially in Central Florida.",
         ),
         ul(
           "**African honey bees are here.** UF/IFAS says African bees were first documented in Florida in 2001 near the Port of Tampa and have spread through the southern half of the state, mixing with European honey bees.",
@@ -216,7 +216,7 @@ export const beeRemoval: Service = {
         ),
         faq(
           "Are the bees at my house African honey bees?",
-          "Assume they could be. UF/IFAS says African bees have been in Florida since 2001 and hybridize with European honey bees, and the hybrids show an unpredictable mix of both kinds of behavior. Treat any colony in Tampa Bay with care.",
+          "Assume they could be. UF/IFAS says African bees have been in Florida since 2001 and hybridize with European honey bees, and the hybrids show an unpredictable mix of both kinds of behavior. Treat any colony in Central Florida with care.",
         ),
         faq(
           "Why does the honeycomb have to come out?",
@@ -247,9 +247,9 @@ export const beeRemoval: Service = {
     },
   ],
   seo: {
-    title: "Bee Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Bee Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb must come out and what to do until help arrives in Tampa Bay. (727) 594-7705.",
+      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb must come out and what to do until help comes. Central Florida: (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS ENY-170 (IN1205): Living with the African Honey Bee (first found 2001 near the Port of Tampa; spread through southern half of Florida; hundreds or thousands of defenders, chase 400+ yards; nest sites; attack advice; who removes colonies; owner responsible; beekeepers can't use pesticides)", url: IN1205 },

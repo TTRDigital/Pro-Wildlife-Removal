@@ -24,7 +24,7 @@ export const snakeRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "SNAKE REMOVAL",
-    heading: "Snake Removal in Tampa Bay",
+    heading: "Snake Removal in Central Florida",
     highlight: "Snake Removal",
     text: p("A snake in the house, garage or lanai? Keep your distance and call. We remove it safely, find how it got in and close the gap."),
     image: images.snakeRemoval3,
@@ -44,7 +44,7 @@ export const snakeRemoval: Service = {
       _type: "cardsSection",
       _key: "signs",
       eyebrow: "Venomous snakes",
-      heading: "The venomous snakes you may meet in Tampa Bay",
+      heading: "The venomous snakes you may meet in Central Florida",
       intro: p(
         "FWC's guide to Florida's venomous snakes lists six species. Three are found in every Florida county, and the coral snake lives throughout the state. Learn them, then leave identification of any snake you're unsure about to us.",
       ),
@@ -185,7 +185,7 @@ export const snakeRemoval: Service = {
       items: [
         faq(
           "How many venomous snakes are in Florida?",
-          "Six of Florida's 50 snake species are venomous, according to FWC: the eastern diamondback rattlesnake, timber rattlesnake, dusky pygmy rattlesnake, cottonmouth, eastern coral snake and southern copperhead. In Tampa Bay, the four to know are the diamondback, pygmy rattlesnake, cottonmouth and coral snake.",
+          "Six of Florida's 50 snake species are venomous, according to FWC: the eastern diamondback rattlesnake, timber rattlesnake, dusky pygmy rattlesnake, cottonmouth, eastern coral snake and southern copperhead. In Central Florida, the four to know are the diamondback, pygmy rattlesnake, cottonmouth and coral snake.",
         ),
         faq(
           "How do I tell a coral snake from a kingsnake?",
@@ -237,9 +237,9 @@ export const snakeRemoval: Service = {
     },
   ],
   seo: {
-    title: "Snake Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Snake Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Snake in the house, garage or pool cage? Safe snake removal in Tampa Bay, sealing the way in, and how to spot Florida's venomous snakes. (727) 594-7705.",
+      "Snake in the house, garage or pool cage? Safe snake removal in Central Florida, sealing the way in, and how to spot venomous snakes. Call (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Snakes (6 of 50 species venomous; leave snakes alone; no good reason to kill except immediate danger; snakes near homes may mean rodents; clear debris and spilled seed; indigo snake protected; venomous reptiles possessed only under license)", url: FWC_SNAKES },

@@ -24,7 +24,7 @@ export const armadilloRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "ARMADILLO REMOVAL",
-    heading: "Armadillo Removal in Tampa Bay",
+    heading: "Armadillo Removal in Central Florida",
     highlight: "Armadillo Removal",
     text: p("Holes all over the lawn, or a burrow under the patio or shed? We trap the armadillo and help you keep the next one from moving in."),
     image: images.armadilloRemoval2,
@@ -212,9 +212,9 @@ export const armadilloRemoval: Service = {
     },
   ],
   seo: {
-    title: "Armadillo Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Armadillo Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Armadillo digging up the lawn or burrowing under a patio or shed? Armadillo trapping and Florida's rules for homeowners in Tampa Bay. Call (727) 594-7705.",
+      "Armadillo digging up the lawn or burrowing under a patio or shed? Armadillo trapping and Florida's rules for homeowners in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Armadillos flyer, Dec 2025 (naturalized native; several burrows per acre; holes up to a foot across; mostly nocturnal, poor eyesight, eat grubs, spiders, cockroaches; less water and fertilizer, morning irrigation; fence 2 ft high, 18 in deep; fermenting fruit; light or radio at burrow; 68A-9.010; 24-hour checks; release on site or 40+ contiguous acres same county with written permission; removing one doesn't stop others)", url: FLYER },

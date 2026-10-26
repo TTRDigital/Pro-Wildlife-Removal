@@ -4,6 +4,9 @@
 //   --quiet             print problems only
 // Exits 1 if any page has a duplicate sentence, a banned word, an SEO length problem,
 // or (animal x place pages) fewer than 6 local facts or a FAQ count outside 4 to 6.
+// A second pass scans the visible text of EVERY rendered page (old migrated pages and posts too)
+// for claims that must never render: "voted the best", "fully licensed", flat-rate or transparent
+// pricing, 24/7 or round-the-clock service, moles or ducks, and any guarantee that isn't negated.
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -77,5 +80,36 @@ for (const [key, pg, kind] of pages) {
   console.log(`${key}: ${t.split(/\s+/).length} words, answer ${answerWords}, placeholders ${(t.match(/\[PLACEHOLDER/g) || []).length}${problems.length ? "" : ", ok"}`);
   for (const p of problems) console.log("  " + p);
 }
+// Second pass: every rendered page, sourced or not.
+const SKIP = new Set(["sources", "clientQuestions", "url", "href", "src", "slug", "_key", "_type", "style", "marks", "markDefs", "path", "image", "images", "icon", "design", "tone", "location", "service", "place", "county", "group", "animal"]);
+const walk = (o, out) => {
+  if (typeof o === "string") return void (o.includes("PLACEHOLDER") || out.push(o));
+  if (Array.isArray(o)) return void o.forEach((x) => walk(x, out));
+  if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!SKIP.has(k)) walk(v, out);
+};
+const NEVER = /voted the best|fully licensed|flat[- ]rate|transparent pricing|24\/7|24 hours a day|round[- ]the[- ]clock|around the clock|\bmoles?\b|\bducks?\b/gi;
+const rendered = [
+  ...Object.entries(fallbackPages).map(([k, v]) => ["page:" + k, v]),
+  ...fallbackServices.map((x) => ["service:" + x.slug, x]),
+  ...fallbackLocations.map((x) => ["location:" + (x.path || x.slug || x.name), x]),
+  ...fallbackPosts.map((x) => ["post:" + x.slug, x]),
+  ...fallbackServicePlaces.map((x) => [`place:${x.service}/${x.place}`, x]),
+];
+let swept = 0;
+for (const [key, obj] of rendered) {
+  const out = [];
+  walk(obj, out);
+  const t = out.join("\n");
+  const hits = [...t.matchAll(NEVER)].map((m) => m[0]);
+  for (const m of t.matchAll(/guarantee\w*/gi)) {
+    const before = t.slice(Math.max(0, m.index - 40), m.index);
+    if (!/\b(not|no|cannot|never)\b[^.]*$|n't[^.]*$/i.test(before) && !/^guarantees and warranties/i.test(t.slice(m.index))) hits.push(m[0]);
+  }
+  if (!hits.length) continue;
+  errors += hits.length;
+  swept++;
+  console.log(`${key}: never-render claim: ${[...new Set(hits)].join(", ")}`);
+}
+console.log(`${rendered.length} rendered pages swept, ${swept} with never-render claims`);
 console.log(`${pages.length} pages checked, ${errors} problem${errors === 1 ? "" : "s"}`);
 process.exit(errors ? 1 : 0);

@@ -5,7 +5,7 @@ import { countyGroups } from "./areas.ts";
 import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "./notes.ts";
 
 /*
- * Home page. Target search: "wildlife removal Tampa Bay".
+ * Home page. Target search: "wildlife removal Central Florida".
  * Blueprint: hero, short answer, animals, how a job works, service area,
  * why Pro Wildlife, reviews, Florida seasons, FAQ, call band.
  * Facts about animals and law come from the sources at the bottom.
@@ -17,11 +17,11 @@ const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
 export const home: PageContent = {
   design: "new",
   hero: {
-    eyebrow: "WILDLIFE REMOVAL ACROSS TAMPA BAY",
-    heading: "Wildlife Removal in Tampa Bay",
+    eyebrow: "WILDLIFE REMOVAL ACROSS CENTRAL FLORIDA",
+    heading: "Wildlife Removal in Central Florida",
     highlight: "Wildlife Removal",
     text: p(
-      "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind. Call (727) 594-7705.",
+      "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
     badges: ["7 counties", "Removal, sealing and cleanup"],
@@ -32,7 +32,7 @@ export const home: PageContent = {
       _key: "answer",
       heading: "Who we are and how it works",
       text: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in seven counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in seven counties across Central Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
       ),
       points: ["7 counties", "Humane, legal methods", "Entry points sealed"],
     },
@@ -121,7 +121,7 @@ export const home: PageContent = {
       _type: "reviewsSection",
       _key: "reviews",
       eyebrow: "Reviews",
-      heading: "What Tampa Bay homeowners say",
+      heading: "What Central Florida homeowners say",
     },
     {
       _type: "cardsSection",
@@ -166,7 +166,7 @@ export const home: PageContent = {
       heading: "Wildlife removal questions we hear every day",
       items: [
         faq(
-          "How much does wildlife removal cost in Tampa Bay?",
+          "How much does wildlife removal cost in Central Florida?",
           "It depends on the animal, how many there are, how many entry points need sealing and how much cleanup the attic needs. A single raccoon caught in a yard is a different job from a bat colony in a tile roof. We give you the price for your home after the inspection, before any work starts.",
           "The inspection is free.",
           "[PLACEHOLDER: ask the client: can the site show price ranges?]",
@@ -200,7 +200,7 @@ export const home: PageContent = {
         ),
         faq(
           "Which areas do you serve?",
-          "Tampa Bay and central and west Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter and Polk counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey and The Villages.",
+          "Central Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter and Polk counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey and The Villages.",
         ),
         faq(
           "Do you remove snakes and bees too?",
@@ -218,9 +218,9 @@ export const home: PageContent = {
     },
   ],
   seo: {
-    title: "Wildlife Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Wildlife Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal across Tampa Bay and 7 Florida counties, with sealing and cleanup. Free inspection: (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across 7 Central Florida counties, with sealing and cleanup. A free inspection: (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

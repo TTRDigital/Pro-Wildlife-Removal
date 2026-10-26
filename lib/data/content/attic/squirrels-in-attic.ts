@@ -22,7 +22,7 @@ export const squirrelsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "SQUIRRELS IN THE ATTIC",
-    heading: "Squirrels in the Attic in Tampa Bay",
+    heading: "Squirrels in the Attic in Central Florida",
     highlight: "Squirrels in the Attic",
     text: p("Scampering in the ceiling while you're having breakfast? Here's how to tell it's squirrels, when to expect a litter and how to keep them out after."),
     image: images.squirrelRemoval2,

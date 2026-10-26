@@ -23,7 +23,7 @@ export const deadAnimalRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "DEAD ANIMAL REMOVAL",
-    heading: "Dead Animal Removal in Tampa Bay",
+    heading: "Dead Animal Removal in Central Florida",
     highlight: "Dead Animal Removal",
     text: p("A smell you can't place, or an animal that died in a wall, attic, crawl space or vent? We find it, remove it and treat the area."),
     image: images.deadAnimalRemoval,
@@ -145,7 +145,7 @@ export const deadAnimalRemoval: Service = {
       _key: "areas",
       eyebrow: "Areas served",
       heading: "Dead animal removal in 7 counties",
-      intro: p("Homes, businesses and rentals across Tampa Bay and the counties around it."),
+      intro: p("Homes, businesses and rentals across Central Florida and the counties around it."),
       groups: countyGroups,
     },
     {
@@ -210,9 +210,9 @@ export const deadAnimalRemoval: Service = {
     },
   ],
   seo: {
-    title: "Dead Animal Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Dead Animal Removal, Central Florida | Pro Wildlife Removal",
     description:
-      "Dead animal smell in a wall, attic, crawl space or vent? We find and remove it, clean and deodorize, and find how it got in. Tampa Bay: (727) 594-7705.",
+      "Dead animal smell in a wall, attic, crawl space or vent? We find and remove it, clean and deodorize, and find the way in. Central Florida: (727) 594-7705.",
   },
   sources: [
     { title: "CDC: Safety guidelines for disposing of dead animals (gloves; bag over hand, turn and seal; shovel for larger animals; call animal control; wash hands; risk from carcasses low with proper precautions)", url: CDC_DISPOSAL },

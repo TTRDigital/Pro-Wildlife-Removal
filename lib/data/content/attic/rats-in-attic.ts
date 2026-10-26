@@ -24,7 +24,7 @@ export const ratsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "RATS IN THE ATTIC",
-    heading: "Rats in the Attic in Tampa Bay",
+    heading: "Rats in the Attic in Central Florida",
     highlight: "Rats in the Attic",
     text: p("Scratching in the ceiling after dark is the classic sign. Here's how to be sure it's rats, what they're doing up there, and what it takes to fix."),
     image: images.ratRemoval2,

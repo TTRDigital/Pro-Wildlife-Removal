@@ -22,7 +22,7 @@ export const batRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "BAT REMOVAL AND EXCLUSION",
-    heading: "Bat Removal in Tampa Bay",
+    heading: "Bat Removal in Central Florida",
     highlight: "Bat Removal",
     text: p("Bats in the attic, soffit or tile roof, moved out the legal way: one-way doors, then every gap sealed and the guano cleaned up."),
     image: images.batRemoval2,
@@ -201,7 +201,7 @@ export const batRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Bat removal across Tampa Bay and central Florida",
+      heading: "Bat removal across Central Florida",
       intro: p("We exclude bats from homes, condos and businesses in all 7 counties, all on one number: (727) 594-7705."),
       groups: countyGroups,
     },
@@ -240,7 +240,7 @@ export const batRemoval: Service = {
           "[PLACEHOLDER: ask the client: how long a typical bat job takes from first visit to final sealing]",
         ),
         faq(
-          "What kind of bats live in Tampa Bay homes?",
+          "What kind of bats live in Central Florida homes?",
           "FWC describes the Brazilian free-tailed bat as a bat commonly found in Florida buildings. Evening bats tuck into tight spots too, even the folds of a closed patio umbrella.",
         ),
         faq(
@@ -271,9 +271,9 @@ export const batRemoval: Service = {
     },
   ],
   seo: {
-    title: "Bat Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Bat Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bats in the attic? Legal bat exclusion with one-way doors, sealing and guano cleanup across Tampa Bay, outside Florida's maternity season. (727) 594-7705.",
+      "Bats in the attic? Legal bat exclusion with one-way doors, sealing and guano cleanup across Central Florida, outside maternity season. (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026: bat maternity season April 16 to Aug. 14; April 15 last day without a permit; exclusion legal Aug. 15 to April 15; four nights; 50°F", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

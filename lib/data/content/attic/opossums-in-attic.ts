@@ -23,7 +23,7 @@ export const opossumsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "OPOSSUMS IN THE ATTIC",
-    heading: "Opossums in the Attic in Tampa Bay",
+    heading: "Opossums in the Attic in Central Florida",
     highlight: "Opossums in the Attic",
     text: p("Shuffling overhead at night and a bad smell? It may be an opossum. Here's how to tell, how to get it out without a fight, and how to keep it out."),
     image: images.opossumRemoval4,
