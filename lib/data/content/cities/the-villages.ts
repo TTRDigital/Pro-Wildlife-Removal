@@ -78,7 +78,7 @@ export const theVillages = countyPage({
     ),
     faq(
       "Is the black squirrel in my yard a fox squirrel?",
-      "It may be. FWC says fox squirrels range from buff to gray and in some cases black, and weigh one to three pounds. A rare black southern fox squirrel was photographed in the Village of Summerhill in 2025, Villages-News reported. FWC says fox squirrels are protected from hunting throughout the state, so leave it be.",
+      "It may be. FWC says fox squirrels range from buff to gray and in some cases black, and weigh one to three pounds. A rare black southern fox squirrel was photographed in the Village of Summerhill in 2025, Villages-News reported. FWC's rules say fox squirrels may not be taken or pursued, so leave it be.",
     ),
     faq(
       "How soon can you get to The Villages?",
@@ -107,7 +107,8 @@ export const theVillages = countyPage({
     { title: "Florida DOH: DOH-Sumter rabies alert, June 26, 2026 (report bites to 352-569-3102)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/06/rabies-alert-sumter-county-6-26-2026.pdf" },
     { title: "Sumter County: Animal Services contact (352-689-4400)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
     { title: "FWC news release, April 6, 2026 (bat maternity season April 16 to Aug. 14)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
-    { title: "FWC: Fox squirrel profile (one to three pounds; buff to gray, in some instances black; protected from hunting throughout the state)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
+    { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: "https://myfwc.com/hunting/regulations/nongame/" },
+    { title: "FWC: Fox squirrel profile (one to three pounds; buff to gray, in some instances black)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
     { title: "The Villages: Hill Top Executive golf course (in the Village of Orange Blossom Gardens)", url: "https://www.thevillages.com/golf/hill-top-executive" },
     { title: "GrowthSpotter, Jan. 27, 2016: The Villages returns to its origin, buying mobile home lots in first community (Orange Blossom Gardens in northern Lake County off U.S. 441; parcels being annexed into Lady Lake)", url: "https://www.growthspotter.com/?p=8168" },
     { title: "U.S. Census Bureau: 2020 place codes (The Villages CDP in Marion and Sumter counties)", url: "https://www2.census.gov/geo/docs/reference/codes2020/place/st12_fl_place2020.txt" },

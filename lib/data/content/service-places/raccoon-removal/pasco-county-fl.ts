@@ -28,9 +28,9 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     "Pasco County Animal Services' emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and repairs the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "A rabies alert and advisory in 2026", "Young often in spring"],
   localHeading: "What to know about raccoons in Pasco County",
-  localIntro: "Raccoons are the animal Pasco's rabies records name most. These are the local facts and rules that matter before one is trapped or moved.",
+  localIntro: "Raccoons lead Pasco's rabies records. These are the local facts and rules that matter before one is trapped or moved.",
   local: [
-    { icon: "critter", title: "Most of Pasco's rabies cases", text: p("From 2013 to 2023, Pasco County recorded 24 animals with rabies, and 17 of them were raccoons.") },
+    { icon: "critter", title: "17 of Pasco's 24 rabies cases", text: p("From 2013 to 2023, Pasco County recorded 24 animals with rabies, and 17 of them were raccoons.") },
     { icon: "search", title: "The only case of 2024", text: p("The state's 2024 table lists a single confirmed rabid animal for Pasco County, and it was a raccoon. The 2025 table lists none for the county.") },
     { icon: "map-pin", title: "Zephyrhills alert, early 2026", text: p("A raccoon killed off Alston Avenue in the Zephyrhills area on January 30, 2026 tested positive for rabies. DOH-Pasco put a 60-day alert on the area between South Avenue, Tucker Road, Gall Boulevard and the Zephyrhills Airport.") },
     { icon: "phone", title: "Two more that summer", text: p("On July 30, 2026, DOH-Pasco issued a rabies advisory after two more raccoons tested positive on the east side of the county, and asked residents not to attract wildlife with pet food or open garbage.") },

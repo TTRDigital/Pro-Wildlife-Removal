@@ -52,7 +52,7 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
       "Size and face. FWC describes the gray squirrel as 17 to 20 inches with grayish-brown fur and a paler belly. Fox squirrels are larger: up to 27.6 inches, FWC says, for the southern fox squirrel, often with a black head, white ears and a white nose.",
     ),
     faq(
-      "When are baby squirrels most likely in my attic?",
+      "When are baby squirrels likely in my attic?",
       "Gray squirrels can breed up to twice a year, FWC says, so young can show up more than once a year. We look for a nest before closing an opening.",
     ),
     faq(
