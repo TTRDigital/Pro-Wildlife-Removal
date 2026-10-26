@@ -5,7 +5,7 @@ import { servicePlacePage } from "../build.ts";
  * Bat removal in Hillsborough County (TTR-738, Owen). County-wide facts only; the
  * Tampa bat page covers the city. Sources: DOH rabies tables (Hillsborough rows and
  * footnotes), the Sept 2026 Gibsonton alert, DOH-Hillsborough's risk page, the NPS
- * bat tower form, the Hillsborough River State Park plan, a county Extension release.
+ * bat tower form and the Hillsborough River State Park plan.
  */
 const DOH = "https://www.floridahealth.gov/wp-content/uploads/";
 const ALERT = `${DOH}2026/09/rabies-alert-hillsborough-9-14-26.pdf`;
@@ -27,7 +27,7 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     "Hillsborough County Animal Control says wildlife on private property needs a private removal service. For bats, Pro Wildlife Removal finds every gap they use, fits one-way exits outside FWC's April 16 to August 14 maternity season, then seals the openings once the bats are gone. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County: private property is yours", "Four rabid bats in the 2025 table"],
   localHeading: "What to know about bats in Hillsborough County",
-  localIntro: "These facts about bats in Hillsborough come from the state health department, DOH-Hillsborough, the National Park Service, the state parks plan and the county.",
+  localIntro: "These facts about bats in Hillsborough come from the state health department, DOH-Hillsborough, the National Park Service and a state park plan.",
   local: [
     { icon: "search", title: "From none to four", text: p("Hillsborough's row in the state rabies tables listed no rabid bats for 2022 or 2023, two for 2024 and four for 2025. The tables only count animals tested after a possible exposure.") },
     { icon: "critter", title: "Three more in a footnote", text: p("The 2024 table adds a footnote: three more rabid Hillsborough bats were identified through surveillance testing and are not included in the county's count.") },
@@ -36,7 +36,6 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     { icon: "phone", title: "A bite you might miss", text: p("DOH-Hillsborough's animal risk page lists bats among high-risk animals and, when it asks whether a bite broke the skin, notes that bat bites may not be clearly visible.") },
     { icon: "leaf", title: "Evening bats at the state park", text: p("The 2004 management plan for Hillsborough River State Park, south of Zephyrhills, lists the evening bat among the park's mammals, recorded flying over.") },
     { icon: "map-pin", title: "A bat tower in Temple Terrace", text: p("A 1980 National Park Service nomination form lists a Bat Tower in Temple Terrace among Dr. Charles Campbell's mosquito-control roosts, and names a Tampa bat roost as one of three such towers known to have survived at the time.") },
-    { icon: "users", title: "Extension's bat workshop", text: p("Hillsborough County Extension's October 2026 lineup included an in-person workshop, Bat to the Future: Helping Bats Help Us, on Oct. 27.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Hillsborough, from the county's and DOH-Hillsborough's own pages.",
   contacts: [
@@ -89,7 +88,6 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     { title: "City of Tampa: Animal services, Hillsborough County (county Animal Services duties; for wildlife on private property, use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
     { title: "Florida DEP: Hillsborough River State Park unit management plan, 2004 (mammal list: evening bat, overflying; about seven miles south of Zephyrhills)", url: "https://floridadep.gov/sites/default/files/2004%20Hillsborough%20River%20State%20Park.pdf" },
     { title: "National Park Service: National Register nomination, Sugarloaf Key bat tower, 1980 (lists the Bat Tower in Temple Terrace (Tampa); the Bat Roost in Tampa one of three known surviving towers)", url: "https://npgallery.nps.gov/GetAsset/ec7b09f7-19db-4c96-8170-e0efaca829a3" },
-    { title: "Hillsborough County news release, Sept 24, 2026 (Extension: Bat to the Future: Helping Bats Help Us workshop, in person, Oct. 27)", url: "https://hcfl.gov/newsroom/2026/09/24/from-seed-starting-to-bat-houses-extension-service-brings-a-month-of-hands-on-learning-in-october" },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion devices at least four nights, lows forecast 50°F or above)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
     { title: "FWC: Bats in buildings (no exclusion during maternity season without a permit)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/" },
   ],
