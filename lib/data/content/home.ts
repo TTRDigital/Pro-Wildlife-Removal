@@ -49,42 +49,31 @@ export const home: PageContent = {
       _key: "process",
       tone: "tint",
       eyebrow: "How a job works",
-      heading: "Five steps, from the first call to the follow-up",
+      heading: "Trapping, Exclusion and Removal",
+      intro: p("After the initial inspection, our Pro Wildlife specialist will identify which animals are creating the problem and implement a solution tailored to your specific animal issue."),
       variant: "numbered",
-      columns: 5,
+      columns: 3,
       cards: [
         {
           number: "1",
-          title: "Inspect",
+          title: "Trapping and Removal",
           text: p(
-            "A technician walks the roofline, attic and outside of the house to find how the animal gets in, which animal it is and how many openings there are. You get a plan for your home before any work starts.",
+            "The trapping and removal process begins with setting up specialized traps to securely capture the animals without causing harm. Once the animals are safely contained, they are promptly removed from the property, ensuring the area is free from wildlife intrusions.",
           ),
         },
         {
           number: "2",
-          title: "Remove",
+          title: "Exclusion",
           text: p(
-            "The animals go out by the method that fits them and the law: one-way doors for bats, live traps checked at least every 24 hours, or removal by hand. Trapped wildlife is released only where Florida rules allow.",
+            "Part of removing an animal from inside or under a structure like a home or an office is to make sure there are no available openings for the animals to come and go freely. Closing these entry points is a key step in making sure that once your animal is out, another one does not move in.",
           ),
         },
         {
           number: "3",
-          title: "Seal",
+          title: "Clean-Up Services",
           text: p(
-            "Once the animals are out, the openings they used are closed with materials they can't chew through, and weak spots nearby are closed too, so the next animal doesn't find the same way in.",
+            "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments, ozone treatments, attic restorations, to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
           ),
-        },
-        {
-          number: "4",
-          title: "Clean",
-          text: p(
-            "Droppings, nesting and soiled insulation are removed and the area is sanitized. Where insulation has to go, we tell you what needs replacing before we do it.",
-          ),
-        },
-        {
-          number: "5",
-          title: "Follow up",
-          text: p("After the work is done, ask us what follow-up fits your job, and call (727) 594-7705 if you hear or see anything new.", "[PLACEHOLDER: ask the client: what the follow-up includes (a return visit, a check of the seals, any warranty on the sealing work) and for how long]"),
         },
       ],
     },
@@ -236,7 +225,6 @@ export const home: PageContent = {
     TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
-    "What does the follow-up include (return visit, seal check, warranty on sealing) and for how long?",
     "How many jobs has the company done, or which rating and review count should the site show (the live site says 4.7 from 273 Google reviews)?",
     "Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
     "Typical response time for emergencies and for regular inspections?",
