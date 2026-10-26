@@ -87,7 +87,7 @@ export function countyPage(c: CountyInput): Location {
       { _type: "areasSection", _key: "towns", eyebrow: "Towns covered", heading: c.townsHeading, intro: p(c.townsIntro), groups: c.towns, ...(c.townsNote ? { note: c.townsNote } : {}) },
       { _type: "cardsSection", _key: "local", tone: "tint", eyebrow: "Common problems here", heading: c.localHeading, intro: p(c.localIntro), variant: "icon", columns: 3, cards: c.local },
       ...(c.rats
-        ? [{ _type: "cardsSection" as const, _key: "rats", eyebrow: `Rats in ${c.name}`, heading: c.rats.heading, intro: p(c.rats.link ? `${c.rats.intro} See [${c.rats.link.label}](${c.rats.link.href}).` : c.rats.intro), variant: "icon" as const, columns: 3, cards: c.rats.cards }]
+        ? [{ _type: "cardsSection" as const, _key: "rats", anchor: "rats", eyebrow: `Rats in ${c.name}`, heading: c.rats.heading, intro: p(c.rats.link ? `${c.rats.intro} See [${c.rats.link.label}](${c.rats.link.href}).` : c.rats.intro), variant: "icon" as const, columns: 3, cards: c.rats.cards }]
         : []),
       ...(c.communities?.length
         ? [{ _type: "proseSection" as const, _key: "communities", eyebrow: "Communities we serve", heading: `Communities we serve in ${c.name}`, ...(c.communitiesIntro ? { intro: p(c.communitiesIntro) } : {}), body: rich(...c.communities.flatMap((x) => [h3(x.name), p(...x.text)])) }]
