@@ -3,13 +3,12 @@ import { servicePlacePage } from "../build.ts";
 
 /*
  * Squirrel removal in Pasco County (TTR-738, Nia). Every card is one true fact
- * about squirrels in Pasco: county, state forest, water district and DEP pages
+ * about squirrels in Pasco: county, state forest and FWC area pages
  * on where they live here, and FWC's gray and fox squirrel profiles.
  */
 const WSF = "https://www.fdacs.gov/Forest-Wildfire/Our-Forests/State-Forests/Withlacoochee-State-Forest";
 const KEYVISTA = "https://www.pascocountyfl.gov/business_detail_T22_R71.php";
-const CONNER = "https://www.swfwmd.state.fl.us/recreation/conner-preserve";
-const DEP = "https://floridadep.gov/rcp/coastal-access-guide/content/pasco-county";
+const UHWMA = "https://myfwc.com/recreation/cooperative/upper-hillsborough/";
 const GRAY = "https://myfwc.com/wildlifehabitats/profiles/mammals/land/squirrels/";
 const FOX = "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/";
 const SOUTHERN = "https://myfwc.com/wildlifehabitats/profiles/mammals/land/southern-fox-squirrel/";
@@ -33,9 +32,9 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
   local: [
     { icon: "leaf", title: "Both kinds in the state forest", text: p("The Withlacoochee State Forest reaches into Pasco, along with Citrus, Hernando, Lake and Sumter counties. Florida's forest service lists fox squirrels and gray squirrels among the wildlife visitors may see there.") },
     { icon: "map-pin", title: "Squirrels at Key Vista", text: p("Pasco County describes Key Vista Nature Park in Holiday, 101 acres on Baillies Bluff Road, as a place where you can hear wildlife moving at your feet, and names squirrels among the animals there.") },
-    { icon: "home", title: "Oaks bring gray squirrels", text: p("FWC says gray squirrels live near oaks and hickories in woods and towns. DEP notes oak hammocks at Werner-Boyce Salt Springs State Park on the Pasco coast, the kind of woods gray squirrels favor.") },
+    { icon: "home", title: "Gray squirrels by Zephyrhills", text: p("FWC's Upper Hillsborough Wildlife Management Area, more than 5,000 acres in Pasco and Polk just east of Zephyrhills on County Road 54, lists gray squirrels among the wildlife that make their home there, in slash and longleaf pine flatwoods.") },
     { icon: "critter", title: "Attics and two litters", text: p("FWC says gray squirrels will nest in attics or other structures when they can get in, can breed up to twice a year and have one to four young. So a squirrel in a Pasco attic may well be a mother with a nest.") },
-    { icon: "search", title: "Fox squirrel country", text: p("FWC says southern fox squirrels live in open, fire-maintained longleaf pine, turkey oak, sandhill and flatwoods. The water district's Conner Preserve in Land O' Lakes has steep sandhill ridges and pine flatwoods.") },
+    { icon: "search", title: "What the forest's fox squirrels need", text: p("The fox squirrels of Pasco's state forest land are picky about habitat. FWC says southern fox squirrels live in open, fire-maintained longleaf pine, turkey oak, sandhill and flatwoods, eat mostly longleaf pine seeds and turkey oak acorns, and build most nests from Spanish moss and pine needles.") },
     { icon: "wrench", title: "Rarer, and protected", text: p("FWC says fox squirrels are much less numerous than gray squirrels, are protected from hunting statewide and spend more time on the ground. A big, black-faced squirrel in a Pasco yard is one to leave alone.") },
   ],
   attic: { slug: "squirrels-in-attic", label: "Squirrels in the attic" },
@@ -60,7 +59,7 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "How soon can you come out for squirrels in Pasco County?",
-      "Same-day squirrel inspections are often available in Pasco County. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in Pasco County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Pasco County]",
     ),
   ],
@@ -74,11 +73,10 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
   sources: [
     { title: "FDACS Florida Forest Service: Withlacoochee State Forest (counties: Citrus, Hernando, Lake, Pasco, Sumter; fox squirrel and gray squirrel among wildlife seen)", url: WSF },
     { title: "Pasco County: Key Vista Nature Park (2700 Baillies Bluff Road, Holiday; 101 acres; birds, squirrels, peacocks and snakes)", url: KEYVISTA },
-    { title: "Florida DEP: Coastal access guide, Pasco County (Werner-Boyce Salt Springs State Park: 3,999 acres, pine flatwoods and oak hammocks)", url: DEP },
+    { title: "FWC: Upper Hillsborough Wildlife Management Area (more than 5,000 acres in Polk and Pasco; just east of Zephyrhills on County Road 54; gray squirrels among resident wildlife; slash and longleaf pine flatwoods)", url: UHWMA },
     { title: "FWC: Eastern gray squirrel profile (17 to 20 inches; woodland and urban areas near oaks and hickories; active by day; breeds up to twice a year; nests in attics when accessible; litters of one to four)", url: GRAY },
-    { title: "SWFWMD: Conner Preserve (3,486 acres, Land O' Lakes; steep sandhill ridges, marshes, cypress sloughs, pine flatwoods)", url: CONNER },
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state; black faces, white noses and ears; much less numerous than gray squirrels; more time on the ground)", url: FOX },
-    { title: "FWC: Southern fox squirrel profile (previously Sherman's fox squirrel; removed as a Species of Special Concern in 2018; open, fire-maintained longleaf pine, turkey oak, sandhills and flatwoods)", url: SOUTHERN },
+    { title: "FWC: Southern fox squirrel profile (previously Sherman's fox squirrel; removed as a Species of Special Concern in 2018; open, fire-maintained longleaf pine, turkey oak, sandhills and flatwoods; diet mostly longleaf pine seeds and turkey oak acorns; most nests of Spanish moss, pine needles, twigs and leaves)", url: SOUTHERN },
     { title: "FWC: FAQs, nuisance wildlife (release on the same property or 40+ contiguous acres in the same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "FWC: Trapping rules (new rules effective Dec. 31, 2026)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/" },
   ],
