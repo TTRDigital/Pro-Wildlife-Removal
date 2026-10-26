@@ -7,6 +7,8 @@ import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-remo
 import { squirrelRemovalPascoCounty } from "./content/service-places/squirrel-removal/pasco-county-fl.ts";
 import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
 import { raccoonRemovalSpringHill } from "./content/service-places/raccoon-removal/spring-hill-fl.ts";
+import { batRemovalBrooksville } from "./content/service-places/bat-removal/brooksville-fl.ts";
+import { squirrelRemovalBrooksville } from "./content/service-places/squirrel-removal/brooksville-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -26,6 +28,9 @@ export const fallbackServicePlaces: ServicePlace[] = [
   raccoonRemovalNewPortRichey,
   // Spring Hill (Nia)
   raccoonRemovalSpringHill,
+  // Brooksville (Nia)
+  batRemovalBrooksville,
+  squirrelRemovalBrooksville,
 ];
 
 /**
