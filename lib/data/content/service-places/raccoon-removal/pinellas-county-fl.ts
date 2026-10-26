@@ -71,7 +71,6 @@ export const raccoonRemovalPinellasCounty = servicePlacePage({
     faq(
       "What's the wait for a raccoon visit in Pinellas County?",
       "Same-day raccoon appointments are often available in Pinellas County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Pinellas County]",
     ),
   ],
   ctaHeading: "Raccoon in your Pinellas home?",
@@ -96,5 +95,5 @@ export const raccoonRemovalPinellasCounty = servicePlacePage({
     { title: "DOH-Pinellas: Rabies safety, April 10, 2026 (don't feed wild animals, including with outdoor pet food or open garbage cans; report bites and scratches to 727-824-6932)", url: RABIES },
     TRAP_RULES_SOURCE,
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Pinellas County?", "A real Google review from a Pinellas County raccoon job (TTR-723), and real Pinellas raccoon job photos."],
+  clientQuestions: ["A real Google review from a Pinellas County raccoon job (TTR-723), and real Pinellas raccoon job photos."],
 });

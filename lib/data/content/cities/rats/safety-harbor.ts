@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Safety Harbor, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: the city's wildlife page and sanitation rules. */
 const WILDLIFE = "https://www.cityofsafetyharbor.com/948/Protecting-Our-Wildlife";
 
-export const safetyHarborRats = countyPage({
+export const safetyHarborRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-safety-harbor",
   name: "Safety Harbor",
@@ -25,11 +25,11 @@ export const safetyHarborRats = countyPage({
   towns: [
     {
       title: "Safety Harbor and neighbors",
-      href: "/about-us/service-area/wildlife-removal-safety-harbor/",
+      href: "/service-areas/pinellas-county/safety-harbor/",
       items: [
-        { label: "All wildlife in Safety Harbor", href: "/about-us/service-area/wildlife-removal-safety-harbor/" },
-        { label: "Rats in Clearwater", href: "/about-us/service-area/rat-removal-services-clearwater-fl/" },
-        { label: "Rats in Dunedin", href: "/about-us/service-area/rat-removal-services-dunedin-fl/" },
+        { label: "All wildlife in Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
+        { label: "Rats in Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Rats in Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
       ],
     },
   ],
@@ -68,7 +68,6 @@ export const safetyHarborRats = countyPage({
     faq(
       "Could you inspect for rats in Safety Harbor today?",
       "Same-day rat inspections are often available in Safety Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Safety Harbor]",
     ),
   ],
   ctaHeading: "Rats in your Safety Harbor home?",
@@ -85,5 +84,7 @@ export const safetyHarborRats = countyPage({
     { title: "City of Safety Harbor: FAQ (dead animals on city rights-of-way, 724-1550)", url: "http://www.cityofsafetyharbor.com/m/faq" },
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Safety Harbor?", "Do you use any rat bait, and if so which kind (anticoagulant or not)? Or traps only?", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["Do you use any rat bait, and if so which kind (anticoagulant or not)? Or traps only?", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const safetyHarborRats = countyPage(safetyHarborRatsInput);

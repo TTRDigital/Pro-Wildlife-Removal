@@ -21,9 +21,9 @@ export const pinellasPark = countyPage({
   towns: [
     {
       title: "Mid-Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "St. Petersburg", href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/" },
+        { label: "St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
         { label: "Largo" },
         { label: "Seminole" },
         { label: "Lealman" },
@@ -44,9 +44,9 @@ export const pinellasPark = countyPage({
   contacts: [
     { icon: "users", title: "Strays and injured wildlife", text: p("Pinellas County Animal Services, (727) 582-2600, option 4, serves Pinellas Park residents.") },
     { icon: "phone", title: "Animal bites", text: p("DOH-Pinellas takes bite reports at 727-824-6932.") },
-    { icon: "map-pin", title: "Alligators: FWC", text: p("Ponds and canals mean the odd alligator. FWC's Nuisance Alligator Hotline is 866-392-4286.") },
+    { icon: "map-pin", title: "State wildlife matters: FWC", text: p("Ponds and canals mean the odd alligator. FWC's Nuisance Alligator Hotline is 866-392-4286.") },
   ],
-  servicesIntro: "Every service is available in Pinellas Park. Tap an animal to read more.",
+  servicesIntro: "Each of our professional wildlife management services is offered in Pinellas Park. Tap an animal to read more.",
   servicesHeading: "Animals we remove in Pinellas Park",
   reviewsIntro: "[PLACEHOLDER: reviews from Pinellas Park customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -65,7 +65,6 @@ export const pinellasPark = countyPage({
     faq(
       "Can someone come to Pinellas Park the same day?",
       "Same-day appointments are often available in Pinellas Park. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Pinellas Park]",
     ),
   ],
   ctaHeading: "Wildlife problem in Pinellas Park?",
@@ -85,5 +84,5 @@ export const pinellasPark = countyPage({
     { title: "Pinellas County: Injured or orphaned wildlife ((727) 582-2600 option 4; Nuisance Alligator Hotline 866-392-4286)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
   ],
-  clientQuestions: ["Typical response time in Pinellas Park?", "Pinellas Park reviews (from TTR-723) and real Pinellas Park job photos."],
+  clientQuestions: ["Pinellas Park reviews (from TTR-723) and real Pinellas Park job photos."],
 });

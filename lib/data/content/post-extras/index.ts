@@ -11,6 +11,7 @@ import { extra_dangersOfDiyWildlifeRemoval } from "./dangers-of-diy-wildlife-rem
 import { extra_tampaWildlifeInfestationDangers } from "./tampa-wildlife-infestation-dangers.ts";
 import { extra_theDangersOfIgnoringWildlifeInYourAttic } from "./the-dangers-of-ignoring-wildlife-in-your-attic.ts";
 import { extra_whySquirrelsReturnAfterRemoval } from "./why-squirrels-return-after-removal.ts";
+import { extra_ratBaitStationsAndSafety } from "./rat-bait-stations-and-safety-a-comprehensive-guide.ts";
 
 /*
  * Additions to migrated blog posts (Ben's audit, Oct 26): a sourced FAQ, a closing
@@ -27,6 +28,7 @@ export type PostExtra = {
 };
 
 const extras: PostExtra[] = [
+  extra_ratBaitStationsAndSafety,
   extra_squirrelPoopVsRatPoopHowToSpotTheDifference,
   extra_typesOfAnimalsFoundUnderTheHouse,
   extra_whatToDoAboutRaccoons,

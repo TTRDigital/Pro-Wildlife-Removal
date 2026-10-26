@@ -11,7 +11,7 @@ export const polk = countyPage({
   heroText: "The largest county we serve by land area, with over 500 named lakes and fast-growing cities in between. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Polk County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it the way Florida law allows, seal the gap and clean up. Call (727) 594-7705.",
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it by trapping or exclusion as Florida law allows, and seal the entry points. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Lakeland to Haines City", "Over 500 named lakes"],
   townsHeading: "Polk towns we cover",
   townsIntro: "Bartow is the county seat and Lakeland the largest city. Polk is the largest county we serve by land area: about 1,800 square miles.",
@@ -23,7 +23,7 @@ export const polk = countyPage({
     {
       title: "East and south Polk",
       items: [
-        { label: "Winter Haven", href: "/about-us/service-area/rat-removal-services-winter-haven-fl/" },
+        { label: "Winter Haven", href: "/service-areas/polk-county/winter-haven/" },
         { label: "Haines City" },
         { label: "Bartow" },
         { label: "Lake Wales" },
@@ -38,25 +38,23 @@ export const polk = countyPage({
     { icon: "critter", title: "Bats and raccoons with rabies", text: p("In 2024, Florida's Department of Health counted three rabid bats, a raccoon and a cat in Polk. Rabid raccoons led to alerts near West Frostproof (2024) and north Lakeland (2023).") },
     { icon: "leaf", title: "Green Swamp and the Kissimmee lakes", text: p("Part of the 560,000-acre Green Swamp is in Polk, and FWC's Kissimmee Chain of Lakes area spans 21,000 acres in Polk and Osceola. Big wild areas mean wildlife is never far from town.") },
     { icon: "search", title: "Bears, occasionally", text: p("FWC places Polk in its South Central bear area. Bears are FWC's responsibility: secure the trash and contact FWC if one visits.") },
-    { icon: "map-pin", title: "Alligators at Circle B Bar", text: p("At the county's Circle B Bar Reserve on Lake Hancock, often called the headwaters of the Peace River, Polk County says alligators are close to a sure sighting.") },
   ],
   contactsHeading: "When to call PCSO Animal Control, DOH-Polk or FWC",
   contactsIntro: "In Polk, Animal Control is part of the Sheriff's Office. Here's who handles what, from each agency's own page.",
   contacts: [
     { icon: "users", title: "PCSO Animal Control", text: p("(863) 577-1762, toll-free 1-888-275-8941. Bites, dangerous dogs, sick or injured dogs and cats, and bites by possible rabies carriers like raccoons and bats.") },
     { icon: "phone", title: "Animal bites: DOH-Polk", text: p("863-519-8300, the number the department's rabies prevention page gives for reports.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office is in Lakeland: 863-648-3200 for bears. Larger alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("FWC's Southwest Region office is in Lakeland: 863-648-3200 for bears. Larger alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service is available across Polk. Open any card for the signs, the rules and our process.",
+  servicesIntro: "Whatever the critter, every service below is available across Polk, wildlife exclusion included. Open any card for the signs, the rules and our process.",
   faqs: [
     faq(
       "What's the phone number for Polk County?",
       "Call (727) 594-7705. Same-day appointments are often available in Polk County.",
-      "[PLACEHOLDER: ask the client: typical response time in Polk County]",
     ),
     faq(
       "Do you cover Lakeland and Winter Haven?",
-      "Yes, along with Haines City, Bartow, Auburndale, Lake Wales and the rest of the county.",
+      "Yes. Our local wildlife experts also cover Haines City, Bartow, Auburndale, Lake Wales and the rest of the county.",
     ),
     faq(
       "Has rabies been found in Polk County?",
@@ -105,10 +103,9 @@ export const polk = countyPage({
     { title: "Polk County Sheriff's Office: Animal Services ((863) 577-1762; 1-888-275-8941)", url: "https://www.polksheriff.org/animal-services" },
     { title: "Polk County Sheriff's Office: Animal Services FAQ (no nuisance wildlife calls; alligators to FWC)", url: "https://www.polksheriff.org/animal-services/frequently-asked-questions" },
     { title: "DOH-Polk: Rabies prevention program (863-519-8300)", url: "https://polk.floridahealth.gov/programs-and-services/environmental-public-health/rabies-prevention-program/" },
-    { title: "Polk County: Circle B Bar Reserve (alligators in Lake Hancock)", url: "https://www.polkfl.gov/park/circle-b-bar-reserve/" },
     { title: "FWC: Regional offices (counties per region; Southwest 863-648-3200; North Central 386-758-0525; Northeast 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Polk County?", "Real job photos and reviews from Polk customers.", "Lakeland and Winter Haven city pages are planned: any jobs or reviews from there?"],
+  clientQuestions: ["Real job photos and reviews from Polk customers.", "Lakeland and Winter Haven city pages are planned: any jobs or reviews from there?"],
 });

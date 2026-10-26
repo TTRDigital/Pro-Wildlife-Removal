@@ -1,6 +1,6 @@
 # City and county pages: writer brief
 
-City and county pages share one layout, `countyPage()` in `../counties/build.ts`. Every page writes its own words; only the layout is shared. Model pages: `holiday.ts` (city), `../counties/sumter.ts` (county).
+City and county pages share one layout, `countyPage()` in `../counties/build.ts`. Every page writes its own words; only the layout is shared. Model pages: `holiday.ts` (city), `../counties/polk.ts` (county).
 
 ## Files
 

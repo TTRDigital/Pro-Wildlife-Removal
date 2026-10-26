@@ -19,20 +19,20 @@ export const pasco = countyPage({
     {
       title: "West Pasco",
       items: [
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Holiday", href: "/about-us/service-area/wildlife-removal-holiday-fl/" },
-        { label: "Hudson", href: "/about-us/service-area/hudson-wildlife-removal/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Holiday", href: "/service-areas/pasco-county/holiday/" },
+        { label: "Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
         { label: "Port Richey" },
       ],
     },
     {
       title: "Central and East Pasco",
       items: [
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
         { label: "Wesley Chapel" },
         { label: "Zephyrhills" },
-        { label: "Dade City", href: "/about-us/service-area/wildlife-removal-dade-city/" },
+        { label: "Dade City", href: "/service-areas/pasco-county/dade-city/" },
         { label: "San Antonio" },
       ],
     },
@@ -51,14 +51,13 @@ export const pasco = countyPage({
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. Emergencies from 5 pm to 8 am: (727) 847-8102, option 7, for loose biting animals and badly injured stray pets.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4, to report a bite or scratch, as DOH-Pasco asked in its July 2026 rabies advisory.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("For a bear problem, FWC's Southwest Region in Lakeland: 863-648-3200. For a nuisance alligator, the statewide hotline: 866-392-4286 (866-FWC-GATOR).") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("For a bear problem, FWC's Southwest Region in Lakeland: 863-648-3200. For a nuisance alligator, the statewide hotline: 866-392-4286 (866-FWC-GATOR).") },
   ],
   servicesIntro: "All nine services are available across Pasco, coast to country. Tap an animal for the details.",
   faqs: [
     faq(
       "What's the phone number for Pasco County?",
       "Call (727) 594-7705. Same-day appointments are often available in Pasco County.",
-      "[PLACEHOLDER: ask the client: typical response time in Pasco County]",
     ),
     faq(
       "Is rabies a concern in Pasco County?",
@@ -106,5 +105,5 @@ export const pasco = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Pasco County?", "Real job photos and reviews from Pasco customers."],
+  clientQuestions: ["Real job photos and reviews from Pasco customers."],
 });

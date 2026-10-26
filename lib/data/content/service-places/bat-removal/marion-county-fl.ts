@@ -68,7 +68,6 @@ export const batRemovalMarionCounty = servicePlacePage({
     faq(
       "Can someone come look at bats in Marion County today?",
       "Same-day appointments for bats are often available in Marion County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Marion County]",
     ),
   ],
   ctaHeading: "Bats in your Marion County home?",
@@ -94,5 +93,5 @@ export const batRemovalMarionCounty = servicePlacePage({
     { title: "FWC: Bats in buildings (poison, relocations and fumigants illegal)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Marion County?", "A real Google review from a Marion County bat job (TTR-723), and real Marion bat job photos."],
+  clientQuestions: ["A real Google review from a Marion County bat job (TTR-723), and real Marion bat job photos."],
 });

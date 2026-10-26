@@ -1,8 +1,8 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Spring Hill, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Hernando garbage and code rules. */
-export const springHillRats = countyPage({
+export const springHillRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-spring-hill-fl",
   name: "Spring Hill",
@@ -23,11 +23,11 @@ export const springHillRats = countyPage({
   towns: [
     {
       title: "Spring Hill and Hernando",
-      href: "/about-us/service-area/wildlife-removal-spring-hill-fl/",
+      href: "/service-areas/hernando-county/spring-hill/",
       items: [
-        { label: "All wildlife in Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
-        { label: "Rats in Brooksville", href: "/about-us/service-area/expert-rat-removal-in-brooksville-fl/" },
-        { label: "Rats in Hudson", href: "/about-us/service-area/rat-removal-services-hudson-fl/" },
+        { label: "All wildlife in Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
+        { label: "Rats in Brooksville", href: "/service-areas/hernando-county/brooksville/" },
+        { label: "Rats in Hudson", href: "/service-areas/pasco-county/hudson/" },
       ],
     },
   ],
@@ -65,7 +65,6 @@ export const springHillRats = countyPage({
     faq(
       "Can you get to a Spring Hill rat problem the same day?",
       "Same-day rat inspections are often available in Spring Hill. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Spring Hill]",
     ),
   ],
   ctaHeading: "Rats in your Spring Hill home?",
@@ -81,5 +80,7 @@ export const springHillRats = countyPage({
     { title: "Hernando County: Bulk waste (six collections, up to 10 items; Coastal Waste & Recycling (352) 540-6457)", url: "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/bulk-waste/" },
     { title: "Hernando County: Code violations (Sec. 15-163a grass over 18 inches within 100 feet of improved property; 15-163b accumulation of trash bags, decaying vegetation, exposed appliances or furniture; main line (352) 754-4000)", url: "https://www.hernandocounty.us/public-safety/code-compliance/code-violations/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Spring Hill?", "Spring Hill rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["Spring Hill rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const springHillRats = countyPage(springHillRatsInput);

@@ -69,7 +69,7 @@ export const raccoonTrapping: Post = {
     ul(
       "Florida's Department of Health names raccoons as one of the state's two main wildlife sources of rabies. Never handle a trapped raccoon, and keep children and pets away from the trap.",
       "Raccoon droppings can carry roundworm eggs. Wear gloves to clean up and wash your hands after.",
-      "If a raccoon bites or scratches anyone, wash the wound with soap and water, see a doctor and call the county health department. Our [Pasco](/about-us/service-area/wildlife-removal-in-pasco-county-fl/), [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) and [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/) county pages list the numbers.",
+      "If a raccoon bites or scratches anyone, wash the wound with soap and water, see a doctor and call the county health department. Our [Pasco](/service-areas/pasco-county/), [Hillsborough](/service-areas/hillsborough-county/) and [Pinellas](/service-areas/pinellas-county/) county pages list the numbers.",
     ),
     h3("When to call a professional"),
     p("Call if the raccoon is in the attic, walls or chimney, if there may be kits, if you don't want to handle the release or euthanasia, or if the raccoon keeps beating the trap. Trapping is only part of the job: the entry has to be sealed too. See [raccoon removal](/services/raccoon-removal/) and [raccoons in the attic](/services/raccoons-in-attic/), or call (727) 594-7705."),

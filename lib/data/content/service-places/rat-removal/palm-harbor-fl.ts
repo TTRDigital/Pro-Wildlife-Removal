@@ -58,7 +58,6 @@ export const ratRemovalPalmHarbor = servicePlacePage({
     faq(
       "Could you check a Palm Harbor house for rats today?",
       "Same-day appointments for rats are often available in Palm Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Palm Harbor]",
     ),
   ],
   ctaHeading: "Rats in your Palm Harbor home?",
@@ -73,5 +72,5 @@ export const ratRemovalPalmHarbor = servicePlacePage({
     { title: "Pinellas County: Landlord tenant information (unless the lease says otherwise, the landlord must exterminate rats, bugs and wood-destroying organisms)", url: "https://pinellas.gov/landlord-tenant-information/" },
     { title: "UF/IFAS Extension Pinellas County: Rodent management options in and around the home (July 25, 2022; great horned owls at Philippe Park; remove food, water and shelter sources for rats including garbage, pet food, bird feed and fallen fruits; rodenticides as a last resort)", url: `${IFAS}2022/07/25/management-of-rodents/` },
   ],
-  clientQuestions: ["Typical response time for a rat call in Palm Harbor?", "A real Google review from a Palm Harbor rat job (TTR-723), and real Palm Harbor rat job photos."],
+  clientQuestions: ["A real Google review from a Palm Harbor rat job (TTR-723), and real Palm Harbor rat job photos."],
 });

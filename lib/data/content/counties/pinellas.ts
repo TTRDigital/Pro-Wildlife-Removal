@@ -18,15 +18,15 @@ export const pinellas = countyPage({
   towns: [
     {
       title: "Pinellas County",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "St. Petersburg", href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/" },
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
+        { label: "St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
         { label: "Largo" },
-        { label: "Pinellas Park", href: "/about-us/service-area/wildlife-removal-pinellas-park/" },
-        { label: "Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
-        { label: "Palm Harbor", href: "/about-us/service-area/wildlife-removal-palm-harbor/" },
-        { label: "Safety Harbor", href: "/about-us/service-area/wildlife-removal-safety-harbor/" },
+        { label: "Pinellas Park", href: "/service-areas/pinellas-county/pinellas-park/" },
+        { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
+        { label: "Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
         { label: "Tarpon Springs" },
         { label: "Seminole" },
       ],
@@ -46,14 +46,13 @@ export const pinellas = countyPage({
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4. Stray pets, animals that threaten public safety, and pickup help for sick or injured wildlife.") },
     { icon: "phone", title: "Animal bites: DOH-Pinellas", text: p("727-824-6932. The health department works with Animal Services to evaluate animal bites and possible rabies exposures.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Bears: FWC's Southwest Region office in Lakeland, 863-648-3200. Alligators 4 feet or longer that threaten people, pets or property: 866-FWC-GATOR (866-392-4286).") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Bears: FWC's Southwest Region office in Lakeland, 863-648-3200. Alligators 4 feet or longer that threaten people, pets or property: 866-FWC-GATOR (866-392-4286).") },
   ],
   servicesIntro: "From St. Pete to Tarpon Springs, every service below is available in Pinellas. Pick the animal for the signs, the Florida rules and how we handle it.",
   faqs: [
     faq(
       "What's the number for wildlife removal in Pinellas County?",
       "Call (727) 594-7705. Same-day appointments are often available in Pinellas County.",
-      "[PLACEHOLDER: ask the client: typical response time in Pinellas County]",
     ),
     faq(
       "Who do I call about a stray dog or cat, or an animal bite in Pinellas?",
@@ -105,6 +104,6 @@ export const pinellas = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Pinellas County?", "Real job photos and reviews from Pinellas customers."],
+  clientQuestions: ["Real job photos and reviews from Pinellas customers."],
 });
 

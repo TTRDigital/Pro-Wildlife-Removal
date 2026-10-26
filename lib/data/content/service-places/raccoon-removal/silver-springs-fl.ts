@@ -66,7 +66,6 @@ export const raccoonRemovalSilverSprings = servicePlacePage({
     faq(
       "How soon can you come out for a raccoon in Silver Springs?",
       "Same-day appointments for raccoons are often available in Silver Springs. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Silver Springs]",
     ),
   ],
   ctaHeading: "Raccoon in your Silver Springs home?",
@@ -90,5 +89,5 @@ export const raccoonRemovalSilverSprings = servicePlacePage({
     { title: "DOH-Marion: Rabies advisory, July 31, 2026 (raccoon, Reddick)", url: "https://marion.floridahealth.gov/2026/07/31/doh-marion-issues-rabies-advisory-3/" },
     { title: "FWC: Relocating nuisance wildlife (publicly owned lands such as county, state or federal parks need the land manager's written permission)", url: RELOCATE },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Silver Springs?", "A real Google review from a Silver Springs raccoon job (TTR-723), and real Silver Springs raccoon job photos."],
+  clientQuestions: ["A real Google review from a Silver Springs raccoon job (TTR-723), and real Silver Springs raccoon job photos."],
 });

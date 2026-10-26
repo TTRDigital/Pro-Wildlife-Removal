@@ -68,7 +68,6 @@ export const ratRemovalPinellasCounty = servicePlacePage({
     faq(
       "How soon can you get to a rat problem in Pinellas County?",
       "Same-day rat inspections are often available in Pinellas County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Pinellas County]",
     ),
   ],
   ctaHeading: "Rats in your Pinellas home?",
@@ -87,5 +86,5 @@ export const ratRemovalPinellasCounty = servicePlacePage({
     { title: "City of St. Petersburg: Rodent and insect control (occupants of single and two-family homes responsible; Rodent Control Technicians; free tamper-resistant outdoor bait stations; private exterminator inside; Sanitation 727-893-7398)", url: STPETE },
     { title: "City of Safety Harbor: Protecting our wildlife (rat poison increases the rodent population long term by killing natural predators such as owls)", url: SAFETY },
   ],
-  clientQuestions: ["Typical response time for a rat call in Pinellas County?", "A real Google review from a Pinellas County rat job (TTR-723), and real Pinellas rat job photos."],
+  clientQuestions: ["A real Google review from a Pinellas County rat job (TTR-723), and real Pinellas rat job photos."],
 });

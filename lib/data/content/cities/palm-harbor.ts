@@ -23,13 +23,13 @@ export const palmHarbor = countyPage({
   towns: [
     {
       title: "North Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
+        { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
         { label: "Ozona" },
         { label: "Tarpon Springs" },
         { label: "East Lake" },
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
       ],
     },
   ],
@@ -46,9 +46,9 @@ export const palmHarbor = countyPage({
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4, at 12450 Ulmerton Road in Largo. Strays, and help with sick or injured wildlife.") },
     { icon: "home", title: "Garbage service", text: p("Unincorporated Palm Harbor has no county garbage pickup. Pinellas County says property owners choose their own hauling company.") },
-    { icon: "map-pin", title: "Bears, alligators and tortoises: FWC", text: p("Wildlife Alert 888-404-3922 for bears and injured sea life. Nuisance alligators 866-392-4286. Sick or injured gopher tortoises 850-921-1030 on weekdays.") },
+    { icon: "map-pin", title: "Bears and tortoises: FWC", text: p("Wildlife Alert 888-404-3922 for bears and injured sea life. Nuisance alligators 866-392-4286. Sick or injured gopher tortoises 850-921-1030 on weekdays.") },
   ],
-  servicesIntro: "We handle every animal below in Palm Harbor. Choose one for the details.",
+  servicesIntro: "We handle every animal below in Palm Harbor, bees in the attic and snakes in the garage included. Choose one for the details.",
   servicesHeading: "Animals we remove in Palm Harbor",
   reviewsIntro: "[PLACEHOLDER: reviews from Palm Harbor customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -67,7 +67,6 @@ export const palmHarbor = countyPage({
     faq(
       "Can you come to Palm Harbor on short notice?",
       "Same-day appointments are often available in Palm Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Palm Harbor]",
     ),
   ],
   ctaHeading: "Wildlife problem in Palm Harbor?",
@@ -87,5 +86,5 @@ export const palmHarbor = countyPage({
     { title: "Pinellas County: Injured or orphaned wildlife (Animal Services, 12450 Ulmerton Road, Largo; (727) 582-2600 option 4; FWC and gopher tortoise numbers)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "Pinellas County: Trash and recycling collection (unincorporated owners choose a hauling company)", url: "https://pinellas.gov/collection-trash-and-recycling/" },
   ],
-  clientQuestions: ["Typical response time in Palm Harbor?", "Palm Harbor reviews (from TTR-723) and real Palm Harbor job photos."],
+  clientQuestions: ["Palm Harbor reviews (from TTR-723) and real Palm Harbor job photos."],
 });

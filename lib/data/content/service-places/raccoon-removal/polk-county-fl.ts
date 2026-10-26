@@ -70,7 +70,6 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
     faq(
       "How quickly can a Polk County raccoon be dealt with?",
       "Same-day appointments for raccoons are often available in Polk County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Polk County]",
     ),
   ],
   ctaHeading: "Raccoon in your Polk County home?",
@@ -100,5 +99,5 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
     { title: "Florida Administrative Code 68A-4.001(3) (food or garbage that attracts coyotes, foxes or raccoons and creates a public nuisance is prohibited)", url: "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-68A-4-001" },
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern raccoon (one litter a year, in Florida generally March and April)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Polk County?", "A real Google review from a Polk County raccoon job (TTR-723), and real Polk raccoon job photos."],
+  clientQuestions: ["A real Google review from a Polk County raccoon job (TTR-723), and real Polk raccoon job photos."],
 });

@@ -23,13 +23,13 @@ export const odessa = countyPage({
   towns: [
     {
       title: "Around Odessa",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
         { label: "Keystone (Hillsborough)" },
         { label: "Lutz (Hillsborough)" },
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        { label: "Tampa", href: "/service-areas/hillsborough-county/tampa/" },
       ],
     },
   ],
@@ -67,7 +67,6 @@ export const odessa = countyPage({
     faq(
       "How quickly do you reach Odessa, on either side of the county line?",
       "Same-day appointments are often available in Odessa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Odessa]",
     ),
   ],
   ctaHeading: "Wildlife problem in Odessa?",
@@ -89,5 +88,5 @@ export const odessa = countyPage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Nuisance Alligator Program (866-FWC-GATOR)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Odessa?", "Odessa reviews (from TTR-723) and real Odessa job photos."],
+  clientQuestions: ["Odessa reviews (from TTR-723) and real Odessa job photos."],
 });

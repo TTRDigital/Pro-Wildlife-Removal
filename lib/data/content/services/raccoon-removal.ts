@@ -212,6 +212,10 @@ export const raccoonRemoval: Service = {
       heading: "Raccoon removal questions",
       items: [
         faq(
+          "Do I need a raccoon exterminator?",
+          "No. A raccoon in the attic is a wildlife job, not an exterminator's. It's removed under FWC's rules, babies included, and the hole it used is sealed. That's the work we do, with no spraying involved.",
+        ),
+        faq(
           "When do raccoons have babies in Florida?",
           "UF/IFAS says births in Florida generally happen in March and April, with an average litter of 3 to 4 young and as many as 7. That's why spring is the busiest time for raccoons in attics.",
         ),

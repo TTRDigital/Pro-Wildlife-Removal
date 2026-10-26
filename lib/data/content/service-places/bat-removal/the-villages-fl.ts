@@ -69,7 +69,6 @@ export const batRemovalTheVillages = servicePlacePage({
     faq(
       "How soon can you come out for bats in The Villages?",
       "Same-day appointments for bats are often available in The Villages. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in The Villages]",
     ),
   ],
   ctaHeading: "Bats in your home in The Villages?",
@@ -97,5 +96,5 @@ export const batRemovalTheVillages = servicePlacePage({
     { title: "DOH-Marion: Rabies advisory, Sept. 18, 2026 (DOH-Marion 352-629-0137)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/09/rabies-advisory-marion-9-18-26.pdf" },
     { title: "FWC: Regional offices (Northeast Region, Ocala, 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in The Villages?", "A real Google review from a bat job in The Villages (TTR-723), and real bat job photos there."],
+  clientQuestions: ["A real Google review from a bat job in The Villages (TTR-723), and real bat job photos there."],
 });

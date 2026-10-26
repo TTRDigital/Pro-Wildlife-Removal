@@ -26,14 +26,14 @@ export const marion = countyPage({
   towns: [
     {
       title: "Marion County",
-      href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
+      href: "/service-areas/marion-county/",
       items: [
-        { label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" },
+        { label: "Ocala", href: "/service-areas/marion-county/ocala/" },
         { label: "Belleview" },
         { label: "Dunnellon" },
-        { label: "Silver Springs", href: "/about-us/service-area/wildlife-removal-silver-springs-fl/" },
+        { label: "Silver Springs", href: "/service-areas/marion-county/silver-springs/" },
         { label: "Summerfield" },
-        { label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" },
+        { label: "The Villages", href: "/service-areas/the-villages/" },
       ],
     },
   ],
@@ -94,7 +94,6 @@ export const marion = countyPage({
     faq(
       "How fast can you reach a home in Marion County?",
       "Same-day appointments are often available in Marion County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Marion County]",
     ),
   ],
   ctaHeading: "Wildlife problem in Marion County?",
@@ -121,5 +120,5 @@ export const marion = countyPage({
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Nuisance alligators (866-FWC-GATOR)", url: "https://myfwc.com/conservation/you-conserve/wildlife/alligators/" },
   ],
-  clientQuestions: ["Typical response time in Marion County?", "Real job photos and reviews from Marion County customers."],
+  clientQuestions: ["Real job photos and reviews from Marion County customers."],
 });

@@ -19,10 +19,10 @@ export const hillsborough = countyPage({
     {
       title: "Tampa and north",
       items: [
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        { label: "Tampa", href: "/service-areas/hillsborough-county/tampa/" },
         { label: "Temple Terrace" },
         { label: "Lutz" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
         { label: "Town 'n' Country" },
         { label: "Westchase" },
         { label: "Carrollwood" },
@@ -64,14 +64,13 @@ export const hillsborough = countyPage({
   contacts: [
     { icon: "users", title: "Hillsborough County Animal Control", text: p("(813) 744-5660. Part of Code Enforcement: sick or injured stray pets, animal bite investigations, dangerous dogs and neglect, including in Tampa, Temple Terrace and Plant City.") },
     { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("813-307-8059, Environmental Public Health, to report an animal bite.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office, 863-648-3200, takes bear conflicts. Alligators go to 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("FWC's Southwest Region office, 863-648-3200, takes bear conflicts. Alligators go to 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available across Hillsborough. Choose the animal to read about the signs and how we handle it.",
   faqs: [
     faq(
       "Who do I call for an animal in my Hillsborough County home?",
       "Call (727) 594-7705. Same-day appointments are often available in Hillsborough County.",
-      "[PLACEHOLDER: ask the client: typical response time in Hillsborough County]",
     ),
     faq(
       "Has rabies been found in Hillsborough County recently?",
@@ -130,5 +129,5 @@ export const hillsborough = countyPage({
     { title: "News, FOX 13, August 9, 2023: Bats living at Tampa elementary school won't be removed before kids head back to class (Northwest Elementary; Hillsborough County Schools confirmed; 16438 Hutchison Rd geocodes to Citrus Park CDP)", url: "https://www.fox13news.com/news/tampa-elementary-school-students-head-to-school-with-bats" },
     { title: "News, Patch, Dec 6, 2014: Suicidal squirrels kill university's power twice (a squirrel caused an outage for about 1,450 customers in the Northdale area; TECO)", url: "https://patch.com/florida/templeterrace/suicidal-squirrels-kill-universitys-power-twice" },
   ],
-  clientQuestions: ["Typical response time in Hillsborough County?", "Real job photos and reviews from Hillsborough customers."],
+  clientQuestions: ["Real job photos and reviews from Hillsborough customers."],
 });

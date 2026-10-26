@@ -30,7 +30,7 @@ export const carrollwood = countyPage({
   towns: [
     {
       title: "Northwest Hillsborough",
-      href: "/about-us/service-area/wildlife-removal-hillsborough-county/",
+      href: "/service-areas/hillsborough-county/",
       items: [
         { label: "Carrollwood Village" },
         { label: "Greater Northdale" },
@@ -77,7 +77,6 @@ export const carrollwood = countyPage({
     faq(
       "Is today too soon for a Carrollwood visit?",
       "Same-day appointments are often available in Carrollwood. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Carrollwood]",
     ),
   ],
   ctaHeading: "Wildlife problem in Carrollwood?",
@@ -99,5 +98,5 @@ export const carrollwood = countyPage({
     { title: "City of Tampa: Animal services, Hillsborough County (listed services: stray pets, bites, neglect and cruelty cases; for wildlife on private property, use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
   ],
-  clientQuestions: ["Typical response time in Carrollwood?", "Real job photos and Google reviews from Carrollwood customers."],
+  clientQuestions: ["Real job photos and Google reviews from Carrollwood customers."],
 });

@@ -23,10 +23,10 @@ export const holiday = countyPage({
   towns: [
     {
       title: "Southwest Pasco coast",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
         { label: "Elfers" },
         { label: "Key Vista" },
         { label: "Tarpon Springs (Pinellas)" },
@@ -46,7 +46,7 @@ export const holiday = countyPage({
   contacts: [
     { icon: "users", title: "Pets and strays", text: p("Pasco County Animal Services, 813-929-1212. Emergencies from 5 pm to 8 am: (727) 847-8102, option 7.") },
     { icon: "phone", title: "Bites: DOH-Pasco", text: p("Report an animal bite in Holiday to the health department in Pasco at 352-521-1450, option 4.") },
-    { icon: "map-pin", title: "Injured sea life and alligators: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for injured or dead sea turtles, dolphins and manatees. Nuisance alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Injured sea life: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for injured or dead sea turtles, dolphins and manatees. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Along the Anclote River and across Holiday, we remove every animal below. Pick one to learn more.",
   servicesHeading: "Animals we remove in Holiday",
@@ -67,7 +67,6 @@ export const holiday = countyPage({
     faq(
       "How quickly can you reach Holiday?",
       "Same-day appointments are often available in Holiday. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Holiday]",
     ),
   ],
   ctaHeading: "Wildlife problem in Holiday?",
@@ -88,5 +87,5 @@ export const holiday = countyPage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Wildlife Alert 888-404-3922) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Holiday?", "Holiday reviews (from TTR-723) and real Holiday job photos."],
+  clientQuestions: ["Holiday reviews (from TTR-723) and real Holiday job photos."],
 });

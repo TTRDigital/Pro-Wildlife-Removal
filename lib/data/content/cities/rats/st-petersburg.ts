@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in St. Petersburg, rewritten in place at its existing URL (Ben, Oct 26). Uses the parts of the city's rodent guide the city page doesn't. */
 const RODENTS = "https://www.stpete.org/residents/good_neighbor_guides/rodent_insect_control.php";
 
-export const stPetersburgRats = countyPage({
+export const stPetersburgRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-st-petersburg-fl",
   name: "St. Petersburg",
@@ -25,11 +25,11 @@ export const stPetersburgRats = countyPage({
   towns: [
     {
       title: "St. Pete and neighbors",
-      href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/",
+      href: "/service-areas/pinellas-county/st-petersburg/",
       items: [
-        { label: "All wildlife in St. Petersburg", href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/" },
-        { label: "Wildlife in Pinellas Park", href: "/about-us/service-area/wildlife-removal-pinellas-park/" },
-        { label: "Rats in Clearwater", href: "/about-us/service-area/rat-removal-services-clearwater-fl/" },
+        { label: "All wildlife in St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
+        { label: "Wildlife in Pinellas Park", href: "/service-areas/pinellas-county/pinellas-park/" },
+        { label: "Rats in Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
       ],
     },
   ],
@@ -67,7 +67,6 @@ export const stPetersburgRats = countyPage({
     faq(
       "How quickly can you come out for rats in St. Pete?",
       "Same-day rat inspections are often available in St. Petersburg. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in St. Petersburg]",
     ),
   ],
   ctaHeading: "Rats in your St. Petersburg home?",
@@ -82,5 +81,7 @@ export const stPetersburgRats = countyPage({
     { title: "City of St. Petersburg: Collection schedule (one 90-gallon container; twice-weekly collection; once-weekly option for qualifying homes)", url: "https://www.stpete.org/residents/utilities/residential_trash___recycling/collection_schedule.php" },
     { title: "City of St. Petersburg: Property maintenance (junk and rubbish can't be left in the yard; owners maintain vegetation on property and right of way)", url: "https://www.stpete.org/residents/community/property_maintenance.php" },
   ],
-  clientQuestions: ["Typical response time for rat calls in St. Petersburg?", "St. Petersburg rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["St. Petersburg rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const stPetersburgRats = countyPage(stPetersburgRatsInput);

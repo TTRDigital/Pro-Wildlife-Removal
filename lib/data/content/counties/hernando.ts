@@ -18,10 +18,10 @@ export const hernando = countyPage({
   towns: [
     {
       title: "Hernando County",
-      href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
+      href: "/service-areas/hernando-county/",
       items: [
-        { label: "Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
-        { label: "Brooksville", href: "/about-us/service-area/wildlife-removal-service-in-brooksville-fl/" },
+        { label: "Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
+        { label: "Brooksville", href: "/service-areas/hernando-county/brooksville/" },
         { label: "Weeki Wachee" },
         { label: "Hernando Beach" },
         { label: "Ridge Manor" },
@@ -42,14 +42,13 @@ export const hernando = countyPage({
   contacts: [
     { icon: "users", title: "HCSO Animal Services", text: p("352-796-5062. The Hernando County Sheriff's Office runs Animal Services in Brooksville.") },
     { icon: "phone", title: "Animal bites: DOH-Hernando", text: p("352-540-6812 to report an animal bite or scratch, its Environmental Public Health line on the rabies page and in the 2025 and 2026 alerts.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Call FWC's Southwest Region office in Lakeland, 863-648-3200, about bears, and 866-FWC-GATOR about nuisance alligators.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Call FWC's Southwest Region office in Lakeland, 863-648-3200, about bears, and 866-FWC-GATOR about nuisance alligators.") },
   ],
   servicesIntro: "Every service is available in Hernando. Choose the animal to see how we handle it.",
   faqs: [
     faq(
       "What's the Hernando County phone number?",
       "Call (727) 594-7705. Same-day appointments are often available in Hernando County.",
-      "[PLACEHOLDER: ask the client: typical response time in Hernando County]",
     ),
     faq(
       "Has rabies been found in Hernando County?",
@@ -101,5 +100,5 @@ export const hernando = countyPage({
     { title: "Florida DOH: Hernando alert, June 30, 2026 (rabid feral cat off Westwood Drive)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/07/rabies-alert-hernando-county-6-30-2026.pdf" },
     { title: "DOH-Hernando: Rabies alert, July 1, 2026 (report injuries to DOH-Hernando at 352-540-6812)", url: "https://hernando.floridahealth.gov/2026/07/01/doh-hernando-issues-rabies-alert-2/" },
   ],
-  clientQuestions: ["Typical response time in Hernando County?", "Real job photos and reviews from Hernando customers."],
+  clientQuestions: ["Real job photos and reviews from Hernando customers."],
 });

@@ -18,13 +18,13 @@ export const citrus = countyPage({
   towns: [
     {
       title: "Citrus County",
-      href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/",
+      href: "/service-areas/citrus-county/",
       items: [
         { label: "Inverness" },
         { label: "Crystal River" },
         { label: "Homosassa" },
-        { label: "Lecanto", href: "/about-us/service-area/wildlife-removal-in-lecanto-fl/" },
-        { label: "Pine Ridge", href: "/about-us/service-area/wildlife-removal-pine-ridge-fl/" },
+        { label: "Lecanto", href: "/service-areas/citrus-county/lecanto/" },
+        { label: "Pine Ridge", href: "/service-areas/citrus-county/pine-ridge/" },
         { label: "Floral City" },
         { label: "Beverly Hills" },
       ],
@@ -44,14 +44,13 @@ export const citrus = countyPage({
   contacts: [
     { icon: "users", title: "CCSO Animal Control", text: p("352-249-2790 (Sheriff's dispatch) for bites, strays and other domestic animal calls. Its page says nuisance wildlife must be referred to a nuisance trapper.") },
     { icon: "phone", title: "Animal bites: DOH-Citrus", text: p("352-527-0068, the number DOH-Citrus gives for reporting bites in its rabies alerts.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Citrus is in FWC's North Central Region: 386-758-0525 in Lake City for bears. Alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Citrus is in FWC's North Central Region: 386-758-0525 in Lake City for bears. Alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available in Citrus County. Choose the animal to see the signs and how we handle it.",
   faqs: [
     faq(
       "What's the Citrus County phone number?",
       "Call (727) 594-7705. Same-day appointments are often available in Citrus County.",
-      "[PLACEHOLDER: ask the client: typical response time in Citrus County]",
     ),
     faq(
       "Why does Citrus County see so much wildlife around homes?",
@@ -102,5 +101,5 @@ export const citrus = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Citrus County?", "Real job photos and reviews from Citrus customers."],
+  clientQuestions: ["Real job photos and reviews from Citrus customers."],
 });

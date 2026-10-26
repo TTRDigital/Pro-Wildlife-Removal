@@ -16,6 +16,10 @@ export const extra_squirrelPoopVsRatPoopHowToSpotTheDifference: PostExtra = {
   ),
   faq: [
     faq(
+      "What should I compare in pictures of squirrel poop versus rat poop?",
+      `Size, ends and spread. In ICWDM's descriptions, roof rat droppings are about 1/2 inch with pointed ends, Norway rat droppings up to 3/4 inch with blunt ends, and rats leave them clumped in small groups ([ICWDM](${ICWDM_NORWAY})). When you match images online against what you found, also note where it was: kitchen and pantry, or attic.`,
+    ),
+    faq(
       "Do roof rat droppings look different from Norway rat droppings?",
       "Yes. The Internet Center for Wildlife Damage Management (ICWDM) describes roof rat droppings as about 1/2 inch long with pointed ends, while Norway rat scat can be as large as 3/4 inch long with blunt ends. ICWDM places the roof rat along the lower half of the East Coast and throughout the Gulf States, which takes in Florida.",
     ),

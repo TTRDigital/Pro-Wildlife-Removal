@@ -67,7 +67,6 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
     faq(
       "Can a New Port Richey raccoon call be seen today?",
       "Same-day appointments for raccoons are often available in New Port Richey. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in New Port Richey]",
     ),
   ],
   ctaHeading: "Raccoon in your New Port Richey home?",
@@ -89,5 +88,5 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (report bites and scratches, 352-521-1450, option 4; Animal Services 813-929-1212)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern raccoon (densities of 100 per square mile around abundant food, especially coastal and wetland habitats; litters generally March and April in Florida)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in New Port Richey?", "A real Google review from a New Port Richey raccoon job (TTR-723), and real New Port Richey raccoon job photos."],
+  clientQuestions: ["A real Google review from a New Port Richey raccoon job (TTR-723), and real New Port Richey raccoon job photos."],
 });

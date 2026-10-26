@@ -1,11 +1,11 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Clearwater, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Clearwater code and trash rules. */
 const GUIDE = "https://www.myclearwater.com/My-Government/0-City-Departments/Planning-Development/Code-Compliance/Citizens-Guide-to-Code-Compliance";
 const TRASH = "https://www.myclearwater.com/Trash-Recycling/Residential-Trash-Collection-Information";
 
-export const clearwaterRats = countyPage({
+export const clearwaterRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-clearwater-fl",
   name: "Clearwater",
@@ -26,12 +26,12 @@ export const clearwaterRats = countyPage({
   towns: [
     {
       title: "Clearwater and neighbors",
-      href: "/about-us/service-area/wildlife-removal-clearwater-fl/",
+      href: "/service-areas/pinellas-county/clearwater/",
       items: [
-        { label: "All wildlife in Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
-        { label: "Rats in Dunedin", href: "/about-us/service-area/rat-removal-services-dunedin-fl/" },
-        { label: "Rats in Safety Harbor", href: "/about-us/service-area/rat-removal-safety-harbor/" },
-        { label: "Rats in St. Petersburg", href: "/about-us/service-area/rat-removal-services-st-petersburg-fl/" },
+        { label: "All wildlife in Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Rats in Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Rats in Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
+        { label: "Rats in St. Petersburg", href: "/service-areas/pinellas-county/st-petersburg/" },
       ],
     },
   ],
@@ -69,7 +69,6 @@ export const clearwaterRats = countyPage({
     faq(
       "Can someone check our Clearwater rat problem today?",
       "Same-day rat inspections are often available in Clearwater. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Clearwater]",
     ),
   ],
   ctaHeading: "Rats in your Clearwater home?",
@@ -83,5 +82,7 @@ export const clearwaterRats = countyPage({
     { title: "City of Clearwater: Citizens Guide to Code Compliance (CO 24.27 & 32.283: garbage or debris so that rats may be afforded food or harborage; Clearwater Community Development Code Sec. 3-1503.B.5–B.8: debris likely to contain rodents, reptiles or other vermin; grass over 12 inches; Code Compliance (727) 562-4720)", url: GUIDE },
     { title: "City of Clearwater: Residential trash collection (once a week; close the lid; curb no earlier than 7 p.m. the night before, removed by 7 a.m. the day after; yard waste and bulk no more than 24 hours early)", url: TRASH },
   ],
-  clientQuestions: ["Typical response time for rat calls in Clearwater?", "Clearwater rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["Clearwater rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const clearwaterRats = countyPage(clearwaterRatsInput);

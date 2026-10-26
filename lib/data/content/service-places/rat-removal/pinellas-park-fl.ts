@@ -59,7 +59,6 @@ export const ratRemovalPinellasPark = servicePlacePage({
     faq(
       "When can someone look at rats in our Pinellas Park home?",
       "Same-day appointments for rats are often available in Pinellas Park. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Pinellas Park]",
     ),
   ],
   ctaHeading: "Rats in your Pinellas Park home?",
@@ -74,5 +73,5 @@ export const ratRemovalPinellasPark = servicePlacePage({
     { title: "Sixth Judicial Circuit: Administrative Order 2018-068 PI-CTY, local ordinance violations uniform fine schedule (county and municipal ordinance violations in Pinellas; RATS: affording food or harborage for rats; buildings freed of rat harborage; feed in rat proof containers)", url: FINES },
     { title: "Pinellas County: Landlord tenant information (unless the lease says otherwise, the landlord must exterminate rats, bugs and wood-destroying organisms)", url: "https://pinellas.gov/landlord-tenant-information/" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Pinellas Park?", "A real Google review from a Pinellas Park rat job (TTR-723), and real Pinellas Park rat job photos."],
+  clientQuestions: ["A real Google review from a Pinellas Park rat job (TTR-723), and real Pinellas Park rat job photos."],
 });

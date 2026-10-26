@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Dunedin, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Dunedin solid waste rules and UF/IFAS Pinellas. */
 const TRASH = "https://www.dunedin.gov/City-Services/Garbage-Recycling/Residential-Trash-Yard-Bulk-Waste";
 
-export const dunedinRats = countyPage({
+export const dunedinRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-dunedin-fl",
   name: "Dunedin",
@@ -25,11 +25,11 @@ export const dunedinRats = countyPage({
   towns: [
     {
       title: "Dunedin and neighbors",
-      href: "/about-us/service-area/wildlife-removal-dunedin/",
+      href: "/service-areas/pinellas-county/dunedin/",
       items: [
-        { label: "All wildlife in Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
-        { label: "Rats in Clearwater", href: "/about-us/service-area/rat-removal-services-clearwater-fl/" },
-        { label: "Rats in Safety Harbor", href: "/about-us/service-area/rat-removal-safety-harbor/" },
+        { label: "All wildlife in Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Rats in Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Rats in Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
       ],
     },
   ],
@@ -67,7 +67,6 @@ export const dunedinRats = countyPage({
     faq(
       "Can someone look at our Dunedin rat problem today?",
       "Same-day rat inspections are often available in Dunedin. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Dunedin]",
     ),
   ],
   ctaHeading: "Rats in your Dunedin home?",
@@ -81,5 +80,7 @@ export const dunedinRats = countyPage({
     { title: "City of Dunedin: Residential trash, yard and bulk waste (once a week; bag household garbage to avoid attracting bugs and rodents; carts off the curb by 7 a.m. the day after; Solid Waste (727) 298-3215)", url: TRASH },
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (exclusion, sanitation, trapping; poison bait as a last resort; great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Dunedin?", "Dunedin rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["Dunedin rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const dunedinRats = countyPage(dunedinRatsInput);

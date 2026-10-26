@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Dade City, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Dade City garbage and code enforcement. */
 const TRASH = "https://www.dadecityfl.com/city_services/garbage_recycle_services.php";
 
-export const dadeCityRats = countyPage({
+export const dadeCityRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-dade",
   name: "Dade City",
@@ -25,11 +25,11 @@ export const dadeCityRats = countyPage({
   towns: [
     {
       title: "Dade City and east Pasco",
-      href: "/about-us/service-area/wildlife-removal-dade-city/",
+      href: "/service-areas/pasco-county/dade-city/",
       items: [
-        { label: "All wildlife in Dade City", href: "/about-us/service-area/wildlife-removal-dade-city/" },
-        { label: "Rats in Hudson", href: "/about-us/service-area/rat-removal-services-hudson-fl/" },
-        { label: "Rats in New Port Richey", href: "/rat-removal-new-port-richey/" },
+        { label: "All wildlife in Dade City", href: "/service-areas/pasco-county/dade-city/" },
+        { label: "Rats in Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Rats in New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
       ],
     },
   ],
@@ -67,7 +67,6 @@ export const dadeCityRats = countyPage({
     faq(
       "Is a same-day rat visit possible in Dade City?",
       "Same-day rat inspections are often available in Dade City. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Dade City]",
     ),
   ],
   ctaHeading: "Rats in your Dade City home?",
@@ -81,5 +80,7 @@ export const dadeCityRats = countyPage({
     { title: "City of Dade City: Garbage and recycle services (Waste Pro collects within city limits; animal proof containers with tight fitting lids; 35 gallons and 50 pounds max; within 4 feet of the curb; recycling Wednesdays; limbs under 4 feet and 6 inches; Public Works (352) 523-5050; Waste Pro 352-523-5051)", url: TRASH },
     { title: "City of Dade City: Code enforcement ((352) 523-5050; 38020 Meridian Ave; excessive trash or debris, junk cars, nuisance violations)", url: "https://www.dadecityfl.com/business_development/code_enforcement/index.php" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Dade City?", "Dade City rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["Dade City rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const dadeCityRats = countyPage(dadeCityRatsInput);

@@ -18,7 +18,7 @@ export const ratRemovalTampa = servicePlacePage({
   location: "about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl",
   county: "Hillsborough",
   order: 2,
-  heroText: "Scratching over the ceiling of a Tampa home at night? We find the gaps roof rats use, seal them, trap the rats left inside and clean the attic. Call (727) 594-7705.",
+  heroText: "Scratching over the ceiling of a Tampa home at night? Our rat removal experts find the gaps roof rats use, seal them and trap the rats left inside. Call (727) 594-7705.",
   answerHeading: "Who clears rats out of a Tampa house?",
   answer:
     "A private company. The City of Tampa sends wildlife on private property to private removal services, and its role with rats is the trash and code rules that keep them from settling in. Pro Wildlife Removal closes the openings, traps what's left in the attic and cleans up. Call (727) 594-7705.",
@@ -44,6 +44,10 @@ export const ratRemovalTampa = servicePlacePage({
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Tampa rat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
+      "Should I call a rat exterminator in Tampa?",
+      "You can call us instead. We're a wildlife removal company, not an exterminator, so the job is finding how rats get into your Tampa home, trapping the ones inside and sealing those entry points, without spraying.",
+    ),
+    faq(
       "Does the City of Tampa get rid of rats?",
       "Not inside homes. The city's animal services page sends wildlife on private property to private removal services. The city does enforce codes on junk and overgrowth and runs trash and bulk pickup.",
     ),
@@ -62,7 +66,6 @@ export const ratRemovalTampa = servicePlacePage({
     faq(
       "How fast can a Tampa rat problem be looked at?",
       "Same-day appointments for rat inspections are often available in Tampa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Tampa]",
     ),
   ],
   ctaHeading: "Rats in your Tampa home?",
@@ -82,5 +85,5 @@ export const ratRemovalTampa = servicePlacePage({
     { title: "City of Tampa: Residential trash collection (garbage twice per week for all utility customers; lid closed with no garbage extending out)", url: "https://www.tampa.gov/solid-waste/programs/residential-trash-collection" },
     { title: "City of Tampa: Animal services, Hillsborough County (wildlife on private property: use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Tampa?", "A real Google review from a Tampa rat job (TTR-723), and real Tampa rat job photos."],
+  clientQuestions: ["A real Google review from a Tampa rat job (TTR-723), and real Tampa rat job photos."],
 });

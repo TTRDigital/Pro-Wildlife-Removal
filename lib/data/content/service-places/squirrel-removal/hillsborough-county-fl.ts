@@ -65,7 +65,6 @@ export const squirrelRemovalHillsboroughCounty = servicePlacePage({
     faq(
       "How soon can you come out for squirrels in Hillsborough County?",
       "Same-day appointments for squirrels are often available in Hillsborough County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Squirrels in your Hillsborough County attic?",
@@ -91,5 +90,5 @@ export const squirrelRemovalHillsboroughCounty = servicePlacePage({
     { title: "FWC: FAQs, nuisance wildlife (no FWC authorization needed to take most nuisance wildlife from private property; release on site or 40+ contiguous acres in the same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     TRAP_RULES_SOURCE,
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Hillsborough County?", "A real Google review from a Hillsborough County squirrel job (TTR-723), and real Hillsborough squirrel job photos."],
+  clientQuestions: ["A real Google review from a Hillsborough County squirrel job (TTR-723), and real Hillsborough squirrel job photos."],
 });

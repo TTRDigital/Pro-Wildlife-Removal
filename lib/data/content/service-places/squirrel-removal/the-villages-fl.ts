@@ -71,7 +71,6 @@ export const squirrelRemovalTheVillages = servicePlacePage({
     faq(
       "How soon can you come out for squirrels in The Villages?",
       "Same-day appointments for squirrels are often available in The Villages. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in The Villages]",
     ),
   ],
   ctaHeading: "Squirrels in your home in The Villages?",
@@ -93,5 +92,5 @@ export const squirrelRemovalTheVillages = servicePlacePage({
     { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: NONGAME },
     { title: "FWC: Regional offices (Northeast Region, Ocala, 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a squirrel call in The Villages?", "A real Google review from a squirrel job in The Villages (TTR-723), and real squirrel job photos there."],
+  clientQuestions: ["A real Google review from a squirrel job in The Villages (TTR-723), and real squirrel job photos there."],
 });

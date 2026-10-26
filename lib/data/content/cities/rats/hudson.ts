@@ -1,8 +1,8 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Hudson, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: unincorporated Pasco garbage and code rules. */
-export const hudsonRats = countyPage({
+export const hudsonRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-hudson-fl",
   name: "Hudson",
@@ -23,11 +23,11 @@ export const hudsonRats = countyPage({
   towns: [
     {
       title: "Hudson and the Pasco coast",
-      href: "/about-us/service-area/hudson-wildlife-removal/",
+      href: "/service-areas/pasco-county/hudson/",
       items: [
-        { label: "All wildlife in Hudson", href: "/about-us/service-area/hudson-wildlife-removal/" },
-        { label: "Rats in New Port Richey", href: "/rat-removal-new-port-richey/" },
-        { label: "Rats in Spring Hill", href: "/about-us/service-area/rat-removal-services-spring-hill-fl/" },
+        { label: "All wildlife in Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Rats in New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Rats in Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
       ],
     },
   ],
@@ -65,7 +65,6 @@ export const hudsonRats = countyPage({
     faq(
       "Can you check for rats at my Hudson house today?",
       "Same-day rat inspections are often available in Hudson. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in Hudson]",
     ),
   ],
   ctaHeading: "Rats in your Hudson home?",
@@ -79,5 +78,7 @@ export const hudsonRats = countyPage({
     { title: "Pasco County: Garbage and recycling (must sign up with a licensed hauler; curbside twice a week, recycling once a week)", url: "https://www.pascocountyfl.gov/services/utilities/garbage_and_recycling/index.php" },
     { title: "Pasco County: Code compliance (yards not for junk storage; no lot used as a garbage dump; overgrowth complaints by an affected party owning or occupying abutting land; Customer Service 727-847-2411)", url: "https://www.pascocountyfl.gov/services/code_compliance/index.php" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Hudson?", "Hudson rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["Hudson rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const hudsonRats = countyPage(hudsonRatsInput);

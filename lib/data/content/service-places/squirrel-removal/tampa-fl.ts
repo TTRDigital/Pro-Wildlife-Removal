@@ -61,7 +61,6 @@ export const squirrelRemovalTampa = servicePlacePage({
     faq(
       "How soon can you get to squirrels in Tampa?",
       "Same-day appointments for squirrel calls are often available in Tampa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Tampa]",
     ),
   ],
   ctaHeading: "Squirrels in your Tampa attic?",
@@ -81,5 +80,5 @@ export const squirrelRemovalTampa = servicePlacePage({
     { title: "FWC Great Florida Birding Trail: Balm-Boyette Scrub Nature Preserve (gopher tortoises and Sherman's fox squirrels live on the property)", url: "https://floridabirdingtrail.com/trail/trail-sections/west-section/balm-boyette-scrub-nature-preserve/" },
     { title: "City of Tampa: Animal services, Hillsborough County (wildlife on private property: use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Tampa?", "Have you ever removed a fox squirrel from a Tampa attic?", "A real Google review from a Tampa squirrel job (TTR-723), and real Tampa squirrel job photos."],
+  clientQuestions: ["Have you ever removed a fox squirrel from a Tampa attic?", "A real Google review from a Tampa squirrel job (TTR-723), and real Tampa squirrel job photos."],
 });

@@ -24,7 +24,7 @@ export const dunnellon = countyPage({
   towns: [
     {
       title: "Marion County",
-      href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
+      href: "/service-areas/marion-county/",
       items: [
         { label: "Ocala" },
         { label: "Silver Springs" },
@@ -69,7 +69,6 @@ export const dunnellon = countyPage({
     faq(
       "Do you get out to Dunnellon quickly?",
       "Same-day appointments are often available in Dunnellon. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Dunnellon]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dunnellon?",
@@ -89,5 +88,5 @@ export const dunnellon = countyPage({
     { title: "DOH-Marion: Rabies advisory, Sept. 18, 2026 (Marion County Animal Services 352-671-8727; DOH-Marion 352-629-0137)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/09/rabies-advisory-marion-9-18-26.pdf" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Dunnellon?", "Real job photos and reviews from Dunnellon customers."],
+  clientQuestions: ["Real job photos and reviews from Dunnellon customers."],
 });

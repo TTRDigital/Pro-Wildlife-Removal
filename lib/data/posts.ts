@@ -36842,7 +36842,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Health guidance supports professional cleanup for biological hazards. The CDC and other agencies warn against homeowners handling droppings or contaminated insulation themselves because of disease risks from spores and parasites. For contaminated attics call a wildlife or pest control professional who offers sanitary removal and insulation replacement.",
+      "text": "Health guidance supports professional cleanup for biological hazards. The CDC and other agencies warn against homeowners handling droppings or contaminated insulation themselves because of disease risks from spores and parasites. For contaminated attics call a professional who offers sanitary removal and insulation replacement.",
       "marks": []
      }
     ],
@@ -38639,7 +38639,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After the raccoons are safely removed, it’s essential to seal any entry points to prevent future infestations. A professional pest control raccoon removal service will remove the animals and seal access points, including cracks or holes in your roofing, walls, and foundation.",
+      "text": "After the raccoons are safely removed, it’s essential to seal any entry points to prevent future infestations. A professional raccoon removal service will remove the animals and seal access points, including cracks or holes in your roofing, walls, and foundation.",
       "marks": []
      }
     ],
@@ -40091,7 +40091,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Central Florida’s warm climate and lush environment make it an attractive place to live, not just for people, but also for wildlife. While having nature nearby is a perk, it can become a major problem when nuisance wildlife invades your home. From raccoons in the attic to squirrels in the walls, wildlife infestations can quickly escalate if left unchecked. The damage they cause can compromise your property’s structure, create health risks, and lead to costly repairs. The key to protecting your home is early intervention. With professional wild animal pest control services, you can stop these infestations before they spiral out of control. In this blog, we’ll explore how wildlife infestations progress, the dangers of ignoring the problem, and the steps you can take to safeguard your home in Tampa. Don’t let wildlife take over your space. Turn to local wildlife control professionals for help.",
+      "text": "Central Florida’s warm climate and lush environment make it an attractive place to live, not just for people, but also for wildlife. While having nature nearby is a perk, it can become a major problem when nuisance wildlife invades your home. From raccoons in the attic to squirrels in the walls, wildlife infestations can quickly escalate if left unchecked. The damage they cause can compromise your property’s structure, create health risks, and lead to costly repairs. The key to protecting your home is early intervention. With professional wildlife removal services, you can stop these infestations before they spiral out of control. In this blog, we’ll explore how wildlife infestations progress, the dangers of ignoring the problem, and the steps you can take to safeguard your home in Tampa. Don’t let wildlife take over your space. Turn to local wildlife control professionals for help.",
       "marks": []
      }
     ],
@@ -40749,7 +40749,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "At this stage, acting early by searching for wildlife pest control near me can prevent these intruders from making themselves at home.",
+      "text": "At this stage, acting early by searching for wildlife removal near me can prevent these intruders from making themselves at home.",
       "marks": []
      }
     ],
@@ -40930,7 +40930,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "By this stage, only advanced wildlife control methods can fully resolve the infestation and prevent further destruction. Contact a wildlife pest control professional to stop the invasion before it grows.",
+      "text": "By this stage, only advanced wildlife control methods can fully resolve the infestation and prevent further destruction. Contact a wildlife removal professional to stop the invasion before it grows.",
       "marks": []
      }
     ],
@@ -41158,7 +41158,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Additionally, fleas, ticks, and mites often accompany wildlife, introducing further risks. Don’t wait until these hazards affect your family. Search for wildlife pest control near me to deal with the threat safely.",
+      "text": "Additionally, fleas, ticks, and mites often accompany wildlife, introducing further risks. Don’t wait until these hazards affect your family. Search for wildlife removal near me to deal with the threat safely.",
       "marks": []
      }
     ],
@@ -41238,7 +41238,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "By investing in pest control solutions early, you can save yourself from significant financial strain down the line.",
+      "text": "By investing in wildlife removal early, you can save yourself from significant financial strain down the line.",
       "marks": []
      }
     ],
@@ -41356,7 +41356,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Engaging professional wildlife pest control services is an effective way to manage infestations and protect your home. Professionals bring a deep understanding of animal behavior and provide comprehensive solutions that go beyond removal. Choosing professional wildlife removal in Central Florida means your home is inspected, the problem is handled safely, and preventative measures are put in place to help keep wildlife out. Here’s why working with wildlife removal experts is a smart choice:",
+      "text": "Engaging professional wildlife removal services is an effective way to manage infestations and protect your home. Professionals bring a deep understanding of animal behavior and provide comprehensive solutions that go beyond removal. Choosing professional wildlife removal in Central Florida means your home is inspected, the problem is handled safely, and preventative measures are put in place to help keep wildlife out. Here’s why working with wildlife removal experts is a smart choice:",
       "marks": []
      }
     ],
@@ -41487,7 +41487,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Wildlife infestations can quickly escalate, causing costly damage and health risks. Acting early and relying on professional wildlife pest control helps keep your Central Florida home safe and secure. From removal to prevention, local experts offer the tools and expertise needed to resolve the problem effectively. Don’t wait. Contact a wildlife control company, like",
+      "text": "Wildlife infestations can quickly escalate, causing costly damage and health risks. Acting early and relying on professional wildlife removal helps keep your Central Florida home safe and secure. From removal to prevention, local experts offer the tools and expertise needed to resolve the problem effectively. Don’t wait. Contact a wildlife control company, like",
       "marks": []
      },
      {
@@ -41688,7 +41688,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Squirrels often enter attics through small cracks and gaps, chewing on beams and electrical wiring. Their nesting behaviors damage wooden beams and wiring which increase the risk of electrical fires, prompting calls for Tampa attic pest control.",
+      "text": "Squirrels often enter attics through small cracks and gaps, chewing on beams and electrical wiring. Their nesting behaviors damage wooden beams and wiring which increase the risk of electrical fires, prompting calls for Tampa attic wildlife removal.",
       "marks": []
      }
     ],
@@ -41875,7 +41875,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Ignoring these risks only allows the problems to worsen. By seeking out professional wildlife pest control services in Tampa, you can protect your home and family from the dangers posed by unwanted intruders.",
+      "text": "Ignoring these risks only allows the problems to worsen. By seeking out professional wildlife removal services in Tampa, you can protect your home and family from the dangers posed by unwanted intruders.",
       "marks": []
      }
     ],
@@ -42173,7 +42173,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Storms can push wildlife to look for shelter in homes. High winds and heavy rains can destroy their natural habitats, driving them into attics and other secure spaces. Many homeowners turn to Tampa wildlife pest control services to address these seasonal surges.",
+      "text": "Storms can push wildlife to look for shelter in homes. High winds and heavy rains can destroy their natural habitats, driving them into attics and other secure spaces. Many homeowners turn to Tampa wildlife removal services to address these seasonal surges.",
       "marks": []
      }
     ],
@@ -42379,7 +42379,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "By addressing wildlife issues promptly with professional wild animal pest control, Tampa homeowners can avoid these costly and hazardous consequences. Professional wildlife removal services offer the expertise needed to resolve infestations safely and effectively, helping you protect both your property and your family’s well-being.",
+      "text": "By addressing wildlife issues promptly with professional wildlife removal, Tampa homeowners can avoid these costly and hazardous consequences. Professional wildlife removal services offer the expertise needed to resolve infestations safely and effectively, helping you protect both your property and your family’s well-being.",
       "marks": []
      }
     ],
@@ -42417,7 +42417,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Don’t wait until the problem gets out of hand. Pro Wildlife Removal provides safe, effective and professional solutions tailored to Tampa’s unique challenges. From raccoon removal to attic pest control, our wildlife control and removal services help keep your home safe year-round.",
+      "text": "Don’t wait until the problem gets out of hand. Pro Wildlife Removal provides safe, effective and professional solutions tailored to Tampa’s unique challenges. From raccoon removal to attic animal removal, our wildlife control and removal services help keep your home safe year-round.",
       "marks": []
      }
     ],
@@ -43022,7 +43022,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you suspect a rat problem, it’s important to recognize the warning signs early on to prevent a small issue from turning into a major infestation, requiring professional pest control. Keep an eye out for these common indicators:",
+      "text": "If you suspect a rat problem, it’s important to recognize the warning signs early on to prevent a small issue from turning into a major infestation, requiring professional rat removal. Keep an eye out for these common indicators:",
       "marks": []
      }
     ],
@@ -43172,7 +43172,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Getting Rid of Rats With Professional Pest Control",
+      "text": "Getting Rid of Rats With Professional Rat Removal",
       "marks": [
        "strong"
       ]
@@ -43263,7 +43263,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "With the right pest control approach and consistent maintenance, you can make your home a much harder place for rats to settle into.",
+      "text": "With the right rat removal approach and consistent maintenance, you can make your home a much harder place for rats to settle into.",
       "marks": []
      }
     ],
@@ -46379,7 +46379,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "3. Professional Pest Control Services:",
+      "text": "3. Professional Rat Removal:",
       "marks": [
        "strong"
       ]
@@ -46400,7 +46400,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Pest control professionals have the expertise and tools to address rodent infestations safely and effectively. They can provide customized solutions.",
+      "text": " Rat removal professionals have the expertise and tools to address rodent infestations safely and effectively. They can provide customized solutions.",
       "marks": []
      }
     ],
@@ -46565,7 +46565,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "In the quest for rodent control, rat bait stations stand as a potent weapon against these troublesome pests. However, the success of this approach is not solely dependent on the efficacy of rodent baits and traps. Safety, both for your loved ones and the environment, is paramount when employing any pest control method. This comprehensive guide has shed light on the world of rat bait stations, offering insights into their operation, safety measures, and alternative options.",
+      "text": "In the quest for rodent control, rat bait stations stand as a potent weapon against these troublesome pests. However, the success of this approach is not solely dependent on the efficacy of rodent baits and traps. Safety, both for your loved ones and the environment, is paramount when employing any rat control method. This comprehensive guide has shed light on the world of rat bait stations, offering insights into their operation, safety measures, and alternative options.",
       "marks": []
      }
     ],
@@ -46591,7 +46591,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rat bait stations, with their tamper-resistant design, targeted placement, and weather protection, offer a secure and efficient means of tackling rodent infestations. These specialized bait boxes protect bait from moisture, accidental spillage, and contamination, making them a responsible choice for pest control in various settings.",
+      "text": "Rat bait stations, with their tamper-resistant design, targeted placement, and weather protection, offer a secure and efficient means of tackling rodent infestations. These specialized bait boxes protect bait from moisture, accidental spillage, and contamination, making them a responsible choice for rodent control in various settings.",
       "marks": []
      }
     ],
@@ -46643,7 +46643,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "While rat bait stations offer key advantages, there are alternative methods worth considering. Rodent traps, ultrasonic repellent devices, professional pest control services, natural repellents, and exclusion and prevention measures each have their own merits and inconveniences. Choose the method that aligns with your specific needs, budget, and ethical concerns.",
+      "text": "While rat bait stations offer key advantages, there are alternative methods worth considering. Rodent traps, ultrasonic repellent devices, professional rat removal, natural repellents, and exclusion and prevention measures each have their own merits and inconveniences. Choose the method that aligns with your specific needs, budget, and ethical concerns.",
       "marks": []
      }
     ],
@@ -46681,7 +46681,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "In conclusion, whether you opt for rat bait stations or explore alternative methods, pest control should always be approached with caution and care. By implementing key safety measures and understanding the advantages and inconveniences of different approaches, you can achieve effective rodent control while safeguarding your loved ones and the environment. Remember, the ultimate goal is not just to rid your space of rodents but to do so responsibly and safely, ensuring a protected place for both humans and wildlife.",
+      "text": "In conclusion, whether you opt for rat bait stations or explore alternative methods, rat control should always be approached with caution and care. By implementing key safety measures and understanding the advantages and inconveniences of different approaches, you can achieve effective rodent control while safeguarding your loved ones and the environment. Remember, the ultimate goal is not just to rid your space of rodents but to do so responsibly and safely, ensuring a protected place for both humans and wildlife.",
       "marks": []
      }
     ],
@@ -46767,7 +46767,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " needs and offer safe and effective alternatives that will put your mind at ease. Whether you’re dealing with rats or other pests, we have the expertise and equipment to help you eliminate them quickly and efficiently. Don’t take any chances with the health and safety of your family – ",
+      "text": " needs and offer safe and effective alternatives that will put your mind at ease. Whether you’re dealing with rats or other pests, we have the expertise and equipment to help you eliminate them quickly and efficiently. Don’t take any chances with the health and safety of your family: ",
       "marks": []
      },
      {
@@ -46780,7 +46780,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " to schedule a consultation and learn more about our safe and effective pest control options.",
+      "text": " to schedule a consultation and learn more about our rat removal options.",
       "marks": []
      }
     ],
@@ -46825,7 +46825,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "It’s a problem that many of us have faced at least once in our lives: pests. Whether they are big or small, rats and squirrels can wreak havoc on your home and property if left unchecked. But how do you tell the difference between the two? This article will explore the differences between squirrel poop vs rat poop to help you identify which one is causing damage to your house. On one hand we have squirrel poop; these droppings tend to be brownish-black in colour, with pointed ends, and may contain undigested seeds from their diet of nuts and fruits. On the other hand, rat poop depends on the species: the Internet Center for Wildlife Damage Management (ICWDM) describes Norway rat droppings as up to 3/4 inch long with blunt ends, and roof rat droppings as about 1/2 inch long with pointed ends. Rat droppings are usually black but may also be dark brown, grey or even lighter shades such as tan or yellow depending on what the rat has been eating. These little creatures can cause immense stress for homeowners who want to protect their homes from damage caused by either rodent species. By understanding the differences between squirrel poop vs rat poop, you’ll know exactly which pest control measures are necessary to keep them away without endangering wildlife in the process.",
+      "text": "It’s a problem that many of us have faced at least once in our lives: pests. Whether they are big or small, rats and squirrels can wreak havoc on your home and property if left unchecked. But how do you tell the difference between the two? This article will explore the differences between squirrel poop vs rat poop to help you identify which one is causing damage to your house. On one hand we have squirrel poop; these droppings tend to be brownish-black in colour, with pointed ends, and may contain undigested seeds from their diet of nuts and fruits. On the other hand, rat poop depends on the species: the Internet Center for Wildlife Damage Management (ICWDM) describes Norway rat droppings as up to 3/4 inch long with blunt ends, and roof rat droppings as about 1/2 inch long with pointed ends. Rat droppings are usually black but may also be dark brown, grey or even lighter shades such as tan or yellow depending on what the rat has been eating. These little creatures can cause immense stress for homeowners who want to protect their homes from damage caused by either rodent species. By understanding the differences between squirrel poop vs rat poop, you’ll know exactly which removal steps are necessary to keep them away without endangering wildlife in the process.",
       "marks": []
      }
     ],
@@ -47059,7 +47059,7 @@ const migratedPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Identifying rat poop is a crucial skill for homeowners concerned about potential rodent infestations. Understanding the size, shape, color, texture, and location of rat droppings can help you take action to address the issue. Remember that rats can multiply rapidly, so early detection and effective pest control measures are essential for protecting your home. If you suspect a rat infestation, it’s advisable to contact professional pest control services to safely and efficiently address the problem and prevent future occurrences.",
+      "text": " Identifying rat poop is a crucial skill for homeowners concerned about potential rodent infestations. Understanding the size, shape, color, texture, and location of rat droppings can help you take action to address the issue. Remember that rats can multiply rapidly, so early detection and prompt rat removal are essential for protecting your home. If you suspect a rat infestation, it’s advisable to contact a professional rat removal service to safely and efficiently address the problem and prevent future occurrences.",
       "marks": []
      }
     ],
@@ -47286,12 +47286,26 @@ const migratedPosts: Post[] = [
     "markDefs": []
    },
    {
-    "_type": "altImage",
-    "image": images.ratOnUtensil
+    "_type": "block",
+    "style": "h2",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Rat and squirrel pictures, side by side",
+      "marks": []
+     }
+    ],
+    "markDefs": []
    },
    {
     "_type": "altImage",
-    "image": images.squirrelOnRoof
+    "image": { ...images.ratOnUtensil, "alt": "Picture of a rat on dishes in a kitchen sink, where rat droppings often turn up" },
+    "caption": "Rats come indoors to kitchens and pantries, so their droppings turn up near food."
+   },
+   {
+    "_type": "altImage",
+    "image": { ...images.squirrelOnRoof, "alt": "Picture of a squirrel slipping into a gap at a roof edge, the way squirrels reach attics" },
+    "caption": "Squirrels get in high, at roof edges, so their droppings are often found in attics."
    },
    {
     "_type": "block",
@@ -47547,7 +47561,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Both rat and squirrel feces carry health risks that should not be underestimated. Proper handling and disposal of feces, as well as effective pest control measures, are essential for minimizing these risks. If you suspect an infestation of rats or squirrels on your property, it’s crucial to seek professional pest control services to safely and effectively address the issue, reduce health hazards, and maintain a healthy living environment. Additionally, taking preventive measures, such as sealing entry points and practicing good hygiene, can help reduce the likelihood of exposure to these health risks.",
+      "text": "Both rat and squirrel feces carry health risks that should not be underestimated. Proper handling and disposal of feces, as well as prompt removal of the animals, are essential for minimizing these risks. If you suspect an infestation of rats or squirrels on your property, it’s crucial to seek professional wildlife removal services to safely and effectively address the issue, reduce health hazards, and maintain a healthy living environment. Additionally, taking preventive measures, such as sealing entry points and practicing good hygiene, can help reduce the likelihood of exposure to these health risks.",
       "marks": []
      }
     ],
@@ -47571,7 +47585,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Differentiating between mouse, rat, and squirrel poop is essential for effective pest control. Here’s how mouse poop differs from that of rats and squirrels:",
+      "text": "Differentiating between mouse, rat, and squirrel poop is essential for choosing the right removal. Here’s how mouse poop differs from that of rats and squirrels:",
       "marks": []
      }
     ],
@@ -47713,7 +47727,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "By recognizing these differences, you can identify the type of rodent infestation you’re dealing with and take appropriate pest control measures to address the issue effectively.",
+      "text": "By recognizing these differences, you can identify the type of rodent infestation you’re dealing with and take appropriate removal measures to address the issue effectively.",
       "marks": []
      }
     ],
@@ -47994,7 +48008,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "What does rat poop look like? Rats are notorious pests that can wreak havoc in homes and commercial spaces. One of the key indicators of a rat infestation is their droppings. Identifying rat and mouse poop is crucial for effective pest control. In this guide, we’ll delve into the characteristics of rat droppings, their appearance, size, and texture, and offer insights on how to identify fresh rat poop and deal with these pests.",
+      "text": "What does rat poop look like? Rats are notorious pests that can wreak havoc in homes and commercial spaces. One of the key indicators of a rat infestation is their droppings. Identifying rat and mouse poop is crucial for effective rat removal. In this guide, we’ll delve into the characteristics of rat droppings, their appearance, size, and texture, and offer insights on how to identify fresh rat poop and deal with these pests.",
       "marks": []
      }
     ],
@@ -49632,7 +49646,7 @@ const migratedPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Discovering a rat infestation in your home can be a distressing experience. Not only can these rodents cause damage to your property, but they also pose health risks to you and your family. Identifying a rat infestation early is crucial for effective pest control. In this article, we will discuss five ways to recognize the presence of rats in your home so you can take swift action.",
+      "text": "Discovering a rat infestation in your home can be a distressing experience. Not only can these rodents cause damage to your property, but they also pose health risks to you and your family. Identifying a rat infestation early is crucial for effective rat removal. In this article, we will discuss five ways to recognize the presence of rats in your home so you can take swift action.",
       "marks": []
      }
     ],

@@ -70,7 +70,6 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
     faq(
       "How soon can you get to a raccoon in St. Petersburg?",
       "Same-day raccoon appointments are often available in St. Petersburg. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in St. Petersburg]",
     ),
   ],
   ctaHeading: "Raccoon in your St. Pete home?",
@@ -91,5 +90,5 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
     { title: "Pinellas County: Animal Services enforcement (Sec. 14-30(4): food or garbage that attracts cats, dogs, raccoons, coyotes or other wildlife is a public nuisance)", url: "https://pinellas.gov/animal-services-enforcement/" },
     { title: "DOH-Pinellas: Rabies information (report a possible rabies exposure at 727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in St. Petersburg?", "A real Google review from a St. Petersburg raccoon job (TTR-723), and real St. Pete raccoon job photos."],
+  clientQuestions: ["A real Google review from a St. Petersburg raccoon job (TTR-723), and real St. Pete raccoon job photos."],
 });

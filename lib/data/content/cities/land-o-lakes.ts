@@ -25,13 +25,13 @@ export const landOLakes = countyPage({
   towns: [
     {
       title: "Central Pasco",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
         { label: "Wesley Chapel" },
         { label: "Lutz (Hillsborough)" },
-        { label: "Dade City", href: "/about-us/service-area/wildlife-removal-dade-city/" },
+        { label: "Dade City", href: "/service-areas/pasco-county/dade-city/" },
       ],
     },
   ],
@@ -48,7 +48,7 @@ export const landOLakes = countyPage({
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212, on Dogpatch Lane in Land O' Lakes. After 5 pm, (727) 847-8102, option 7, for qualifying emergencies such as a loose animal that has bitten someone.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("Report bites to the health department in Pasco at 352-521-1450, option 4.") },
-    { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: report conflicts to the FWC Southwest Region office at 863-648-3200.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: report conflicts to the FWC Southwest Region office at 863-648-3200.") },
   ],
   servicesIntro: "We offer every service in Land O' Lakes. Tap an animal to learn how we handle it.",
   servicesHeading: "Animals we remove in Land O' Lakes",
@@ -70,7 +70,6 @@ export const landOLakes = countyPage({
     faq(
       "When can someone come out to Land O' Lakes?",
       "Same-day appointments are often available in Land O' Lakes. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Wildlife problem in Land O' Lakes?",
@@ -92,5 +91,5 @@ export const landOLakes = countyPage({
     TRAP_RULES_SOURCE,
     { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Land O' Lakes?", "Do you handle feral hogs?", "Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],
+  clientQuestions: ["Do you handle feral hogs?", "Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],
 });

@@ -68,7 +68,6 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
     faq(
       "How quickly can you handle a Land O' Lakes raccoon call?",
       "Same-day appointments for raccoons are often available in Land O' Lakes. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Raccoon in your Land O' Lakes home?",
@@ -91,5 +90,5 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern raccoon (poultry in pens have fallen prey to raccoons)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
     { title: "FWC: Raccoon profile (active late afternoon through the night)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/raccoon/" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Land O' Lakes?", "A real Google review from a Land O' Lakes raccoon job (TTR-723), and real Land O' Lakes raccoon job photos."],
+  clientQuestions: ["A real Google review from a Land O' Lakes raccoon job (TTR-723), and real Land O' Lakes raccoon job photos."],
 });

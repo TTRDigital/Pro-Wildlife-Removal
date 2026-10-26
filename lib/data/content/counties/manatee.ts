@@ -38,14 +38,13 @@ export const manatee = countyPage({
   contacts: [
     { icon: "users", title: "Manatee County Animal Services", text: p("941-742-5933: option 1 to report cruelty, abuse or neglect, option 2 for lost and found pets.") },
     { icon: "phone", title: "Animal bites: DOH-Manatee", text: p("941-748-0747, option 4, to report an animal bite.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Manatee is in FWC's Southwest Region: 863-648-3200. For alligators, call 866-FWC-GATOR (866-392-4286).") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Manatee is in FWC's Southwest Region: 863-648-3200. For alligators, call 866-FWC-GATOR (866-392-4286).") },
   ],
   servicesIntro: "Choose the animal to read the signs, Florida's rules for it and how we handle it.",
   faqs: [
     faq(
       "Which number reaches you from Manatee County?",
       "Call (727) 594-7705. Same-day appointments are often available in Manatee County.",
-      "[PLACEHOLDER: ask the client: typical response time in Manatee County]",
     ),
     faq(
       "How do I keep rats out of the trash in Manatee County?",
@@ -92,7 +91,6 @@ export const manatee = countyPage({
   ],
   clientQuestions: [
     "Which Manatee County towns do you serve, and is there a Manatee phone number?",
-    "Typical response time in Manatee County?",
     "Real job photos and reviews from Manatee customers.",
   ],
 });

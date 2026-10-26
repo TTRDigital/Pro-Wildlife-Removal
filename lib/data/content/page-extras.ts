@@ -30,7 +30,7 @@ export const pageExtras: Record<string, Extra> = {
         heading: "Wildlife removal for Central Florida homes",
         body: p(
           "Pro Wildlife Removal takes animals out of homes and businesses and closes the openings they used. The work covers [bats](/services/bat-removal/), [rats](/services/rat-removal/), [raccoons](/services/raccoon-removal/), [squirrels](/services/squirrel-removal/), snakes, opossums, armadillos, bees and dead animal removal.",
-          "We serve eight counties: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion. The [service area](/about-us/service-area/) page lists the towns, [how we work](/how-we-work/) walks through trapping, exclusion and clean-up, and the [blog](/blog/) answers common questions about Florida wildlife.",
+          "We serve eight counties: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion. The [service area](/service-areas/) page lists the towns, [how we work](/how-we-work/) walks through trapping, exclusion and clean-up, and the [blog](/blog/) answers common questions about Florida wildlife.",
         ),
       },
       {
@@ -41,7 +41,7 @@ export const pageExtras: Record<string, Extra> = {
         items: [
           faq(
             "Which counties does Pro Wildlife Removal serve?",
-            "Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion. See the [service area](/about-us/service-area/) for towns in each county.",
+            "Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion. See the [service area](/service-areas/) for towns in each county.",
           ),
           faq(
             "What animals do you remove?",
@@ -104,11 +104,15 @@ export const pageExtras: Record<string, Extra> = {
         items: [
           faq(
             "How soon can someone come out?",
-            "Same-day appointments are often available across our [service area](/about-us/service-area/). Call (727) 594-7705.",
+            "Same-day appointments are often available across our [service area](/service-areas/). Call (727) 594-7705.",
           ),
           faq(
             "What should I tell you when I call?",
             "What you've heard or seen, where in the house, and when it's loudest. Noises at dusk point to different animals than scratching in the morning; our guide to [what animal is in your attic](/blog/what-animal-is-in-my-attic/) explains why, and the [blog](/blog/) covers other common signs.",
+          ),
+          faq(
+            "Are you raccoon trappers, or do you do exclusion too?",
+            "Both. Trapping deals with the animals already inside, and wildlife exclusion keeps the next ones out: one-way doors for bats, then the entry points sealed. Tell our wildlife experts what you're hearing and they'll explain which your house needs. See [how we work](/how-we-work/).",
           ),
           faq(
             "Do you handle stray dogs and cats?",

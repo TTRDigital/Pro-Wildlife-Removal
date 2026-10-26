@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { brooksvilleRatsInput } from "./brooksville-rats.ts";
 
 /* Brooksville city page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts about rats, bats, squirrels and raccoons only. */
 const TED_ROAD = "https://www.floridahealth.gov/wp-content/uploads/2025/07/advisory-hernando-6-2-2025.pdf";
@@ -27,17 +28,16 @@ export const brooksville = countyPage({
   heroText: "Hernando's county seat, ringed by hills and pasture, with FWC land at Chinsegut to the north. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Brooksville, FL?",
   answer:
-    "Usually a private company. HCSO Animal Services handles pets and strays, and the city runs its own garbage collection. For raccoons, rats, bats or squirrels in your attic, walls or garage, Pro Wildlife Removal finds the way in, removes the animals legally, closes the gap and cleans up. Call (727) 594-7705.",
+    "Usually a private company. HCSO Animal Services handles pets and strays, and the city runs its own garbage collection. For raccoons, rats, bats or squirrels in your attic, walls or garage, Pro Wildlife Removal finds the way in, removes the animals legally and seals the entry points. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon off Ted Road, 2025", "Bat colony at Chinsegut"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the only incorporated city in Hernando County. We cover the city, the country roads around it and the rest of the county.",
   towns: [
     {
       title: "Hernando County",
-      href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
+      href: "/service-areas/hernando-county/",
       items: [
-        { label: "Rats in Brooksville", href: "/about-us/service-area/expert-rat-removal-in-brooksville-fl/" },
-        { label: "Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
+        { label: "Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
         { label: "Weeki Wachee" },
       ],
     },
@@ -53,6 +53,7 @@ export const brooksville = countyPage({
     { icon: "search", title: "Raccoon rabies next door", text: p("On June 12, 2026, DOH-Hernando issued a 60-day rabies alert for part of Spring Hill after an unvaccinated cat attacked by a raccoon off Norvell Road tested positive.") },
     { icon: "wrench", title: "Bats on FWC's calendar", text: p("FWC makes bat exclusion illegal during maternity season, April 16 to August 14. A colony in a Brooksville attic or church eave has to wait for mid-August.") },
   ],
+  rats: { heading: brooksvilleRatsInput.localHeading, intro: brooksvilleRatsInput.localIntro, cards: [...brooksvilleRatsInput.local, ...(brooksvilleRatsInput.contacts ?? [])], link: { label: "rat removal across Hernando County", href: "/services/rat-removal/hernando-county-fl/" } },
   contactsHeading: "Who to call in Brooksville",
   contactsIntro: "The public numbers for problems outside our work, each from the agency's own page.",
   contacts: [
@@ -60,7 +61,7 @@ export const brooksville = countyPage({
     { icon: "phone", title: "Bites and scratches: DOH-Hernando", text: p("352-540-6812, Environmental Public Health, for any bite or scratch from a raccoon, bat or other animal.") },
     { icon: "home", title: "City garbage", text: p("Brooksville runs its own garbage collection through its Utilities Department: (352) 540-3860.") },
   ],
-  servicesIntro: "We handle every animal below in Brooksville. Pick one to read the signs and what the job involves.",
+  servicesIntro: "Wildlife control and animal proofing for every animal below, anywhere in Brooksville. Pick one to read the signs and what the job involves.",
   faqs: [
     faq(
       "Does the sheriff's Animal Services remove raccoons from homes?",
@@ -81,7 +82,6 @@ export const brooksville = countyPage({
     faq(
       "Can someone reach my Brooksville house today?",
       "Same-day appointments are often available in Brooksville. Pro Wildlife Removal takes calls 24 hours a day at (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Brooksville]",
     ),
   ],
   ctaHeading: "Wildlife in your Brooksville home?",
@@ -105,6 +105,7 @@ export const brooksville = countyPage({
     { title: "DOH-Hernando: Rabies surveillance (Environmental Public Health 352-540-6812)", url: DOH_RABIES },
     { title: "City of Brooksville: Utilities (city garbage collection; (352) 540-3860)", url: "https://www.cityofbrooksville.us/253/Utilities" },
     { title: "Hernando County: Residential collection (Coastal serves unincorporated areas, excluding the City of Brooksville; city (352) 540-3860)", url: COLLECTION },
+    ...brooksvilleRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Brooksville?", "Reviews and real job photos from Brooksville customers."],
+  clientQuestions: ["Reviews and real job photos from Brooksville customers."],
 });

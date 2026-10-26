@@ -69,7 +69,6 @@ export const raccoonRemovalTheVillages = servicePlacePage({
     faq(
       "How soon can you come out for a raccoon in The Villages?",
       "Same-day appointments for raccoons are often available in The Villages. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in The Villages]",
     ),
   ],
   ctaHeading: "Raccoon at your home in The Villages?",
@@ -92,5 +91,5 @@ export const raccoonRemovalTheVillages = servicePlacePage({
     { title: "The Villages District Government: FAQs (Districts 1-11: household waste in sealed bags; no garbage cans or bins)", url: TRASH },
     { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county with written permission; public land needs the land manager's written permission)", url: RELOCATE },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in The Villages?", "A real Google review from a raccoon job in The Villages (TTR-723), and real raccoon job photos there."],
+  clientQuestions: ["A real Google review from a raccoon job in The Villages (TTR-723), and real raccoon job photos there."],
 });

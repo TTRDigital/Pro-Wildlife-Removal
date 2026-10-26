@@ -64,7 +64,6 @@ export const batRemovalTampa = servicePlacePage({
     faq(
       "How soon can you look at a bat problem in Tampa?",
       "Same-day appointments for bat inspections are often available in Tampa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat inspection in Tampa]",
     ),
   ],
   ctaHeading: "Bats in your Tampa home?",
@@ -85,5 +84,5 @@ export const batRemovalTampa = servicePlacePage({
     { title: "City of Tampa: Animal services, Hillsborough County (wildlife on private property: use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
   ],
-  clientQuestions: ["Typical response time for a bat inspection in Tampa?", "A real Google review from a Tampa bat job (TTR-723), and real Tampa bat job photos."],
+  clientQuestions: ["A real Google review from a Tampa bat job (TTR-723), and real Tampa bat job photos."],
 });

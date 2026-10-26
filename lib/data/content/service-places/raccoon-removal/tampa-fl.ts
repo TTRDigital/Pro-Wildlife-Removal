@@ -70,7 +70,6 @@ export const raccoonRemovalTampa = servicePlacePage({
     faq(
       "Can you look at a Tampa raccoon problem today?",
       "Same-day appointments for raccoons are often available in Tampa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Tampa]",
     ),
   ],
   ctaHeading: "Raccoon in your Tampa home?",
@@ -92,5 +91,5 @@ export const raccoonRemovalTampa = servicePlacePage({
     { title: "Florida DOH: Rabies (main wildlife sources are raccoons and bats; avoid contact with wild or stray animals; scrub a wound with soap and running water)", url: RABIES },
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Tampa?", "A real Google review from a Tampa raccoon job (TTR-723), and real Tampa raccoon job photos."],
+  clientQuestions: ["A real Google review from a Tampa raccoon job (TTR-723), and real Tampa raccoon job photos."],
 });
