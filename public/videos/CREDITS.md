@@ -29,3 +29,12 @@ seconds, scaled to 480x360 and saved without sound; nothing else was changed.
   original at digitalmedia.fws.gov/cdm/singleitem/collection/video/id/1447/rec/1
 - Uploaded: 22 October 2014
 - License: Public domain (work of a U.S. federal agency)
+
+## squirrel.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:Sciurus_carolinensis_in_Orlando_(May_2023).webm
+- What it shows: an eastern gray squirrel on a tree trunk in Orlando, Florida (phone video,
+  cropped from portrait to the tile's shape)
+- Author: Benoît Prieur (own work, uploaded by the author the next day)
+- Filmed: 13 May 2023
+- License: CC0 1.0 (Creative Commons Zero, Public Domain Dedication)
