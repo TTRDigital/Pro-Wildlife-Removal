@@ -29,9 +29,15 @@ export const countyGroups: AreasSection["groups"] = [
       { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
       { label: "Lutz" },
       { label: "Westchase" },
-      { label: "Carrollwood" },
+      { label: "Carrollwood", href: "/about-us/service-area/wildlife-removal-carrollwood-fl/" },
       { label: "Citrus Park" },
-      { label: "Town 'n' Country" },
+      { label: "Town 'n' Country", href: "/about-us/service-area/wildlife-removal-town-n-country-fl/" },
+      { label: "Temple Terrace" },
+      { label: "New Tampa" },
+      { label: "Cheval" },
+      { label: "Keystone" },
+      { label: "Lake Magdalene" },
+      { label: "Greater Northdale" },
     ],
   },
   {
@@ -73,6 +79,7 @@ export const countyGroups: AreasSection["groups"] = [
   },
   {
     title: "Marion County",
+    href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
     items: [{ label: "Ocala" }, { label: "Belleview" }, { label: "Dunnellon" }, { label: "Silver Springs" }, { label: "Summerfield" }],
   },
   {
