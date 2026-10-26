@@ -12,7 +12,6 @@ const SHERIFF = "https://sarasotasheriff.org/programs_and_amp_services/animal_se
 const RENTAL = "https://www.mysuncoast.com/2026/08/24/i-dont-want-move-sarasota-mother-says-rat-infestation-is-forcing-her-family-rental-home/";
 const SNL_TRASH = "https://sarasotanewsleader.com/city-of-sarasota-residents-urged-to-follow-rules-for-solid-waste-collections/";
 const CITY_SW = "https://www.sarasotafl.gov/Department-Pages/Public-Works/Solid-Waste";
-const DBPR_D7 = "https://www2.myfloridalicense.com/sto/file_download/extracts/7fdinspi.csv";
 const FWC_FEEDING = "https://myfwc.com/conservation/you-conserve/wildlife/feeding/";
 const FWC_REGIONS = "https://myfwc.com/contact/fwc-staff/regional-offices/";
 
@@ -25,7 +24,7 @@ export const sarasota = countyPage({
   phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN SARASOTA",
   summary: "Wildlife removal and wildlife control in Sarasota, FL: raccoons, rats, bats, squirrels, opossums, snakes and armadillos.",
-  heroText: "Two rabid raccoons in 18 months, rats in a rental kitchen, armadillo holes in the lawn: Sarasota's wildlife record is on file. Call (727) 594-7705.",
+  heroText: "Two rabid raccoons in 18 months and 22 rats trapped in one rental kitchen: Sarasota's wildlife problems are on the record. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife control in Sarasota, FL?",
   answer:
     "For animals living in your home, a private company. The Sheriff's Animal Services responds to wildlife and pet incidents such as bites and injured animals. For raccoons, rats, bats or squirrels in a Sarasota attic, wall or garage, Pro Wildlife Removal finds the way in, removes them as Florida law allows and seals the entry points. Call (727) 594-7705.",
@@ -49,10 +48,9 @@ export const sarasota = countyPage({
   ],
   rats: {
     heading: "Rats in Sarasota",
-    intro: "A 2026 rental case, state restaurant inspections and the city's cart rules show where rats turn up here.",
+    intro: "A 2026 rental case and the city's cart rules show where rats turn up here.",
     cards: [
       { icon: "home", title: "22 rats in a rental kitchen", text: p("WWSB reported in August 2026 that a Sarasota renter trapped 22 rats in her kitchen in about a week and a half and moved her family out while the problem was treated.") },
-      { icon: "building", title: "Droppings in restaurant storage", text: p("Of the six Sarasota County restaurants state inspectors recommended closing from July through Oct. 23, 2026, three cited rodent droppings, by our count of DBPR's District 7 inspection file. One, in Sarasota, had about 25 droppings and a dead rodent in dry storage.") },
       { icon: "wrench", title: "Lids closed, out by 7 a.m.", text: p("City rules say city-issued carts must have their lids closed and go to the right of way by 7 a.m. on collection day. City Solid Waste: 941-263-6170.") },
     ],
     link: { label: "rat removal", href: "/services/rat-removal/" },
@@ -60,8 +58,8 @@ export const sarasota = countyPage({
   contactsHeading: "Sarasota Animal Services, DOH and wildlife contacts",
   contactsIntro: "Sarasota numbers for bites, injured animals and state wildlife matters, each from the agency's page.",
   contacts: [
-    { icon: "users", title: "Sheriff's Animal Services", text: p("941-861-9500. Wildlife and domestic animal incidents, including bites, injured animals and nuisance complaints.") },
-    { icon: "phone", title: "Rabies and bites: DOH-Sarasota", text: p("941-861-2900 for rabies questions. Its 2025 advisory gives 941-861-2873 for reporting bites.") },
+    { icon: "users", title: "Sheriff's Animal Services", text: p("941-861-9501. Wildlife and domestic animal incidents, including bites, injured animals and nuisance complaints.") },
+    { icon: "phone", title: "Rabies and bites: DOH-Sarasota", text: p("941-861-2873, the number in its 2025 and 2026 rabies advisories for bites and rabies questions.") },
     { icon: "leaf", title: "Injured wildlife", text: p("The Extension sends sick, injured or orphaned wildlife to the Wildlife Center of Southwest Florida: 941-484-9657.") },
     { icon: "map-pin", title: "State wildlife matters: FWC", text: p("FWC's Southwest Region office in Lakeland, 863-648-3200.") },
   ],
@@ -104,11 +102,10 @@ export const sarasota = countyPage({
     { title: "WGCU, July 22, 2026: Rabies advisory issued in Sarasota County after single confirmed case in a raccoon (near Proctor Road)", url: WGCU_2026 },
     S.doh2024,
     { title: "Sarasota News Leader, Feb. 6, 2025: Rabies identified in raccoon killed in Bee Ridge Road area (two rabid raccoons in the county in 2022; a rabid bat in 2018)", url: SNL_RABIES },
-    { title: "UF/IFAS Extension Sarasota County: Who to contact for wildlife concerns, 2025 (raccoons the primary rabies vectors in the area; Wildlife Center of Southwest Florida 941-484-9657; DOH-Sarasota 941-861-2900; keeping injured wildlife beyond transport to a licensed rehabilitator violates Florida law)", url: IFAS_WHO },
+    { title: "UF/IFAS Extension Sarasota County: Who to contact for wildlife concerns, 2025 (raccoons the primary rabies vectors in the area; Wildlife Center of Southwest Florida 941-484-9657; DOH-Sarasota; keeping injured wildlife beyond transport to a licensed rehabilitator violates Florida law)", url: IFAS_WHO },
     { title: "UF/IFAS Extension Sarasota County: Wildlife disturbances in your yard, 2023 (armadillo burrows round, 7-8 inches; rodent holes smooth, 2-3 inches; gopher tortoises threatened, 25 feet left undisturbed)", url: IFAS_HOLES },
-    { title: "Sarasota County Sheriff's Office: Animal Services (wildlife and domestic animal incidents, including nuisance complaints, bites, injured animals; 941-861-9500)", url: SHERIFF },
+    { title: "Sarasota County Sheriff's Office: Animal Services (wildlife and domestic animal incidents, including nuisance complaints, bites, injured animals; 941-861-9501)", url: SHERIFF },
     { title: "WWSB/ABC7, Aug. 24, 2026: Sarasota mother says rat infestation is forcing her family from rental home (22 rats trapped in the kitchen in about a week and a half; property manager said it was the tenant's job)", url: RENTAL },
-    { title: "Florida DBPR: District 7 food service inspection extract, fetched Oct. 26, 2026 (Sarasota County inspections July 1 to Oct. 23, 2026: 6 emergency orders recommended, 3 citing rodent droppings; one in Sarasota with about 25 droppings and a dead rodent in dry storage; tally by our research helper)", url: DBPR_D7 },
     { title: "Sarasota News Leader, Feb. 27, 2025: City of Sarasota residents urged to follow rules for solid waste collections (out by 7 a.m.; city-issued cart lids closed)", url: SNL_TRASH },
     { title: "City of Sarasota: Solid Waste (941-263-6170)", url: CITY_SW },
     { title: "FWC: Feeding wildlife (68A-4.001 prohibits placing food in a manner that attracts raccoons)", url: FWC_FEEDING },

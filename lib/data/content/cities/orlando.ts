@@ -27,7 +27,7 @@ export const orlando = countyPage({
   phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "ORLANDO WILDLIFE REMOVAL",
   summary: "Orlando wildlife removal: raccoons, squirrels, snakes, rats, bats, opossums and armadillos out of Orlando homes and businesses.",
-  heroText: "Rabid raccoons in east Orange, a snake that knocked out power in Baldwin Park, squirrels in the attic: Orlando keeps us busy. Call (727) 594-7705.",
+  heroText: "Rabid raccoons in east Orange and a snake that knocked out power in Baldwin Park are both on the record. Call (727) 594-7705.",
   answerHeading: "Who handles animal removal in Orlando, FL?",
   answer:
     "A private company. Orange County Animal Services covers Orlando, and its FAQ says it doesn't trap nuisance wildlife such as raccoons and opossums. For raccoons, squirrels, snakes or rats in an Orlando home, Pro Wildlife Removal finds how they get in, removes them as Florida law allows and seals the entry points. Call (727) 594-7705.",
@@ -54,7 +54,7 @@ export const orlando = countyPage({
     intro: "State restaurant inspections and the city's cart rules show where rats find food here.",
     cards: [
       { icon: "building", title: "Rodent closures, 2025 and 2026", text: p("By our count of DBPR's emergency closure files, state inspectors closed restaurants with Orlando addresses 23 times in 2025 for conditions naming rodents, and 25 times from January through Oct. 23, 2026. The Orlando mailing city includes unincorporated addresses.") },
-      { icon: "home", title: "Out at 5 p.m., in by morning", text: p("City carts can go to the curb from 5 p.m. the night before pickup to 6 a.m. on pickup day, within 2 feet of the curb, and shouldn't be overloaded or have items on top. Solid Waste: 407-246-2314.") },
+      { icon: "home", title: "Out by 6 a.m. on pickup day", text: p("City carts can go to the curb from 5 p.m. the night before pickup to 6 a.m. on pickup day, within 2 feet of the curb, and shouldn't be overloaded or have items on top. Solid Waste: 407-246-2314.") },
       { icon: "map-pin", title: "Overgrowth and garbage", text: p("The city's code guide prohibits excessive overgrowth, weeds, garbage and unsanitary materials, and gives owners 15 days to fix it. Code Enforcement: 407-246-2686.") },
     ],
     link: { label: "rat removal", href: "/services/rat-removal/" },
