@@ -24,7 +24,7 @@ export const batRemovalPolkCounty = servicePlacePage({
   answerHeading: "Who removes bats from a house in Polk County?",
   answer:
     "Bats in a Polk County home need a private wildlife company: the Sheriff's Office says Animal Control doesn't take nuisance wildlife calls. Pro Wildlife Removal finds where bats enter, fits one-way exclusion devices outside FWC's April 16 to August 14 maternity season, then seals the gaps. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid bats in Lakeland and Lake Wales", "No exclusions April 16 to Aug 14"],
+  points: ["Call (727) 594-7705", "Rabid bats in Lakeland and Lake Wales", "No exclusions Apr 16 to Aug 14 without a permit"],
   localHeading: "What to know about bats in Polk County",
   localIntro: "These facts about bats in Polk come from the state health department, the Sheriff's Office and FWC.",
   local: [
@@ -35,7 +35,6 @@ export const batRemovalPolkCounty = servicePlacePage({
     { icon: "map-pin", title: "Lakewood Circle, July 2026", text: p("The Sheriff's Office reported Polk's fifth rabies case of 2026 on Lakewood Circle in Lakeland, where a woman's cat was playing with a bat outside. The bat was rabid; the cat was vaccinated.") },
     { icon: "users", title: "Among the toys, December 2024", text: p("A Lakeland family on Palm Drive West found a dead bat in a bag of their children's toys. It tested positive, and DOH-Polk handled rabies treatment for the exposed owner.") },
     { icon: "drop", title: "DOH-Polk: keep them out", text: p("In its June 2026 rabies alert, DOH-Polk asked residents to keep bats out of living quarters and other occupied spaces in homes and schools, where they might meet people and pets.") },
-    { icon: "leaf", title: "The free-tailed bat moves indoors", text: p("Of Florida's 13 native bat species, FWC names the Brazilian free-tailed bat as the one commonly found in buildings. Killing or harming any bat is illegal here, as it is across the state.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Polk, from the Sheriff's Office and DOH-Polk's own pages.",
   contacts: [
@@ -53,7 +52,7 @@ export const batRemovalPolkCounty = servicePlacePage({
     ),
     faq(
       "Can bats be removed from a Polk County home in summer?",
-      "Not by exclusion. FWC's maternity season runs April 16 through August 14, and exclusion isn't allowed during it. Outside it, one-way devices must stay up at least four nights with lows forecast at 50°F or warmer.",
+      "Not by exclusion. FWC's maternity season runs April 16 through August 14, and exclusion isn't allowed during it without an FWC permit. Outside it, one-way devices must stay up at least four nights with lows forecast at 50°F or warmer.",
     ),
     faq(
       "Have rabid bats been found in Polk County?",
@@ -88,13 +87,13 @@ export const batRemovalPolkCounty = servicePlacePage({
     { title: "Florida DOH: 20-year animal rabies summary, 2003 to 2022 (testing only on suspect animals that potentially exposed a person, pet, livestock or captive wildlife)", url: `${DOH}2025/07/rabies-fla-20yr-table.pdf` },
     { title: "Polk County Sheriff's Office: First positive case of rabies in Polk County confirmed for 2026 (March 26, 2026; bat, Masterpiece Road, Lake Wales)", url: "https://apps.polksheriff.org/news-investigations/2026/03/26/first-positive-case-of-rabies-in-polk-county-confirmed-for-2026" },
     { title: "Polk County Sheriff's Office: 2nd case of rabies reported in as many weeks (March 31, 2026; bat in a home southwest of Lakeland)", url: "https://bradley.polksheriff.org/news-investigations/polk-county-news/2026/03/31/2nd-case-of-rabies-reported-in-as-many-weeks-in-polk-county" },
-    { title: "Polk County Sheriff's Office: Fifth positive case of rabies in Polk County confirmed (July 30, 2026; bat, Lakewood Circle, Lakeland; cat vaccinated)", url: "https://polksheriff.org/news-investigations/2026/07/30/fifth-positive-case-of-rabies-in-polk-county-confirmed" },
+    { title: "Polk County Sheriff's Office: Fifth positive case of rabies in Polk County confirmed (July 30, 2026; bat, Lakewood Circle, Lakeland; cat vaccinated; for an exposure contact PCSO Animal Control at 863.577.1762)", url: "https://polksheriff.org/news-investigations/2026/07/30/fifth-positive-case-of-rabies-in-polk-county-confirmed" },
     { title: "Polk County Sheriff's Office: Fifth positive rabies case for 2024 confirmed (Dec 3, 2024; dead bat among children's toys, Palm Drive West, Lakeland; DOH-Polk treating the owner)", url: "https://www.polksheriff.org/news-investigations/2024/12/03/fifth-positive-rabies-case-for-2024-confirmed" },
     { title: "Polk County Sheriff's Office: Animal Services FAQ (no nuisance wildlife calls; always takes bites involving a possible rabies carrier)", url: PCSO_FAQ },
     { title: "Polk County Sheriff's Office: Animal Services (863-577-1762)", url: "https://www.polksheriff.org/animal-services" },
     { title: "DOH-Polk: Rabies alert, north Lakeland (case June 11, 2026; PDF dateline misprints the year; keep bats out of living quarters; report bites to 863-519-8300, option 4)", url: ALERT },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion devices at least four nights, lows forecast 50°F or above; 13 native bat species; killing or harming bats illegal)", url: FWC_SEASON },
-    { title: "FWC: Bats in buildings (Brazilian free-tailed bat commonly found in buildings; bat house not a substitute for exclusion; never handle a bat with bare hands)", url: FWC_BUILDINGS },
+    { title: "FWC: Bats in buildings (bat house not a substitute for exclusion; never handle a bat with bare hands)", url: FWC_BUILDINGS },
     { title: "UF/IFAS EDIS WEC246 (UW290): Effective bat houses for Florida (put houses up several weeks before an eviction)", url: "https://ask.ifas.ufl.edu/uw290" },
     { title: "UF/IFAS Gardening Solutions: Bat houses (12 to 15 feet up, south or southeast side of a freestanding pole)", url: "https://gardeningsolutions.ifas.ufl.edu/design/gardening-with-wildlife/bat-houses/" },
   ],
