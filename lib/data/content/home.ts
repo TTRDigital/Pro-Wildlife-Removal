@@ -21,7 +21,7 @@ export const home: PageContent = {
     heading: "Wildlife Removal in Central Florida",
     highlight: "Wildlife Removal",
     text: p(
-      "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind. Call (727) 594-7705.",
+      "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
     badges: ["7 counties", "Removal, sealing and cleanup"],
