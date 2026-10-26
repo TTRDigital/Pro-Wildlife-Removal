@@ -17,6 +17,7 @@ import { howFastDoRatsReproduce } from "./content/guides/how-fast-do-rats-reprod
 import { howToCatchARat } from "./content/guides/how-to-catch-a-rat.ts";
 import { whoToCallForBatRemoval } from "./content/guides/who-to-call-for-bat-removal.ts";
 import { doBatsHibernateInFlorida } from "./content/guides/do-bats-hibernate-in-florida.ts";
+import { foundABabyRaccoon } from "./content/guides/found-a-baby-raccoon-florida.ts";
 
 export const fallbackPosts: Post[] = [
  {
@@ -51314,4 +51315,5 @@ export const fallbackPosts: Post[] = [
  cleanUpRatDroppings,
  homeownersInsuranceRatBatDamage,
  doBatsHibernateInFlorida,
+ foundABabyRaccoon,
 ];
