@@ -10,7 +10,7 @@ const CODE = "https://www.polkfl.gov/public-safety/code-enforcement/";
 const DUMPING = "https://www.polkfl.gov/illegal-dumping-in-polk-county/";
 const CHICKENS_LW = "https://www.lakewalesfl.gov/830/Urban-Chicken-Program";
 const IFAS = "https://blogs.ifas.ufl.edu/polkco/";
-const WASTE = "https://www.polkfl.gov/services/polk-county-solid-waste/residential-waste/";
+const LAKELAND_FAQ = "https://lakelandgov.net/departments/community-economic-development/code-enforcement/faqs";
 
 export const ratRemovalPolkCounty = servicePlacePage({
   service: "rat-removal",
@@ -33,8 +33,7 @@ export const ratRemovalPolkCounty = servicePlacePage({
     { icon: "home", title: "Lake Wales coops", text: p("Under the City of Lake Wales Urban Chicken Program, every pen must be built and kept impermeable to rodents, with nothing able to live underneath it or inside its walls.") },
     { icon: "leaf", title: "Lake Wales feed rules", text: p("Lake Wales also requires chicken feed to be stored in containers rats can't get into, with tight caps or lids. Rodents in the chicken area can end a household's place in the program.") },
     { icon: "users", title: "Keep rats away from the flock", text: p("UF/IFAS Extension Polk County's backyard chicken biosecurity post tells keepers to avoid rats and mites where chickens are, and to set up an integrated pest management plan.") },
-    { icon: "critter", title: "Poison last", text: p("Extension Polk County's Naturally Florida episode on rat poison urges using it only as a last resort, to protect owls, hawks and pets from primary and secondary poisoning.") },
-    { icon: "drop", title: "Snakes that eat rats", text: p("A 2025 Extension Polk County post notes that ratsnakes, kingsnakes and black racers eat rats and mice, and calls those rodents prominent vectors for disease.") },
+    { icon: "critter", title: "Poison last", text: p("A UF/IFAS Extension Polk County post on a Naturally Florida podcast episode urges using rat poison only as a last resort, to protect owls, hawks and pets from primary and secondary poisoning.") },
   ],
   contactsIntro: "Who to call about rats and the conditions around them in Polk, from each agency's own page.",
   contacts: [
@@ -47,7 +46,7 @@ export const ratRemovalPolkCounty = servicePlacePage({
   faqs: [
     faq(
       "Can Polk County do anything about rats on a neighbor's property?",
-      "Code Enforcement inspects nuisances in unincorporated Polk, and its page names rat infestations, trash on lots and high weeds on vacant lands. Call (863) 534-6054. Inside city limits, the city handles code complaints.",
+      "Code Enforcement inspects nuisances in unincorporated Polk, and its page names rat infestations, trash on lots and high weeds on vacant lands. File a complaint online through the Polk County Access Portal; the office's number is (863) 534-6054. Inside Lakeland and other cities, the city's own code office handles it.",
     ),
     faq(
       "Should I put out rat poison in my Polk County yard?",
@@ -56,10 +55,6 @@ export const ratRemovalPolkCounty = servicePlacePage({
     faq(
       "Can I keep backyard chickens in Lake Wales without drawing rats?",
       "Lake Wales's chicken program requires pens impermeable to rodents and feed in rat-proof containers with tight lids. If rodents show up, the city can end your participation.",
-    ),
-    faq(
-      "What are the garbage cart rules in unincorporated Polk?",
-      "All household waste goes inside the county roll cart, no other container may be used, and the lid should be closed. Set the cart out the night before or by 6 a.m. on collection day.",
     ),
     faq(
       "How soon can you come out for rats in Polk County?",
@@ -80,9 +75,9 @@ export const ratRemovalPolkCounty = servicePlacePage({
     { title: "City of Lake Wales: Urban Chicken Program (revised 06/23/2026; pens impermeable to rodents; feed in containers impenetrable by rats, with tight lids; rodents may end participation)", url: CHICKENS_LW },
     { title: "UF/IFAS Extension Polk County: Backyard chickens: biosecurity (April 1, 2022; avoid rats and mites where chickens are)", url: `${IFAS}2022/04/01/backyard-chickens-biosecurity/` },
     { title: "UF/IFAS Extension Polk County: Naturally Florida, Rat poisons and wildlife (July 18, 2022; rat poisons only as a last resort; owls, hawks, pets)", url: `${IFAS}2022/07/18/new-episode-from-naturally-florida-rat-poison-and-wildlife-whats-the-big-deal/` },
-    { title: "UF/IFAS Extension Polk County: Are there snakes in our lakes? (Aug 6, 2025; ratsnakes, kingsnakes and black racers eat rats and mice; rodents prominent vectors for disease)", url: `${IFAS}2025/08/06/are-there-snakes-in-our-lakes-heres-what-uf-ifas-experts-say/` },
+    { title: "City of Lakeland: Code Enforcement FAQs (Polk County enforces its own codes outside Lakeland's city limits, in unincorporated Polk)", url: LAKELAND_FAQ },
+    { title: "Polk County: Contact us (Polk County Access Portal; Code Enforcement (863) 534-6054)", url: "https://www.polkfl.gov/contact-us/" },
     { title: "DOH-Polk: Sanitary nuisances (garbage, offal, dead animals; 863-519-8330, option 7)", url: "https://polk.floridahealth.gov/programs-and-services/environmental-health/sanitary-nuisances/" },
-    { title: "Polk County Solid Waste: Residential waste (all household waste inside the roll cart; no other container; lid closed; out the night before or by 6 a.m.)", url: WASTE },
   ],
   clientQuestions: ["Typical response time for a rat call in Polk County?", "A real Google review from a Polk County rat job (TTR-723), and real Polk rat job photos."],
 });
