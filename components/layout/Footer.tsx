@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
-import { Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import type { Service, SiteSettings } from "@/lib/types";
 import { SocialIcon } from "@/components/ui/SocialIcon";
 
@@ -36,6 +36,12 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
               {settings.phone}
             </a>
           </div>
+          {settings.email ? (
+            <a href={`mailto:${settings.email}`} className="mt-4 flex min-h-11 w-fit items-center gap-2.5 break-all text-on-navy hover:text-white">
+              <Mail className="h-4 w-4 flex-none text-blue-light" strokeWidth={2.25} aria-hidden="true" />
+              {settings.email}
+            </a>
+          ) : null}
         </div>
         <nav aria-label="Services">
           <h2 className="mb-3 text-xs font-bold tracking-[1.5px] text-white uppercase">Services</h2>
