@@ -62,10 +62,6 @@ export const marion = countyPage({
       "DOH-Marion's alerts send residents to Animal Services, 352-671-8727, for bites to pets and livestock and for stray animals. A raccoon living in your attic is a job for a private wildlife company.",
     ),
     faq(
-      "Are there bears in Marion County?",
-      "Yes. FWC's Central bear management unit includes Marion and the Ocala/St. Johns bear subpopulation. FWC handles bear problems; secure garbage and call its Ocala office, 352-732-1225.",
-    ),
-    faq(
       "Which FWC office covers Marion County?",
       "FWC's Northeast Region office, which is in Ocala: 352-732-1225. For a nuisance alligator, call 866-FWC-GATOR.",
     ),
@@ -93,7 +89,6 @@ export const marion = countyPage({
     { title: "DOH-Marion: Rabies advisory, July 31, 2026 (raccoon killed off U.S. Route 441 and West Highway 316 in Reddick on July 26)", url: "https://marion.floridahealth.gov/2026/07/31/doh-marion-issues-rabies-advisory-3/" },
     { title: "Florida DOH: DOH-Marion rabies advisory, March 25, 2026 (second confirmed case of 2026; raccoon died in the Huntington area off State Highway 35 on March 20, 2026)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/04/rabies-advisory-marion-3-25-2026.pdf" },
     { title: "Florida DOH: DOH-Marion rabies advisory, Sept. 18, 2026 (newest Marion notice: bobcat, Rainbow Park area, Sept. 15, 2026)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/09/rabies-advisory-marion-9-18-26.pdf" },
-    { title: "FWC: Central bear management unit (includes Marion; Ocala/St. Johns subpopulation)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/bmu/central/" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Nuisance alligators (866-FWC-GATOR)", url: "https://myfwc.com/conservation/you-conserve/wildlife/alligators/" },
   ],
