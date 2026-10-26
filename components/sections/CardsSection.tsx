@@ -2,8 +2,10 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Card, CardsSection as Cards } from "@/lib/types";
 import { Icon } from "@/components/ui/Icon";
+import type { IconName } from "@/lib/icons";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
+import { StepRail } from "@/components/ui/StepRail";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 const cols: Record<number, string> = {
@@ -69,28 +71,61 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
   );
 }
 
-/** Numbered steps as a connected timeline: down the left on phones, across the page on desktop. */
+/** An icon for a step from its title, when the step has none of its own. */
+function stepIcon(c: Card): IconName {
+  if (c.icon) return c.icon;
+  const t = c.title.toLowerCase();
+  if (/inspect|find|assess|identif/.test(t)) return "search";
+  if (/remov|trap|evict|door|catch/.test(t)) return "critter";
+  if (/seal|exclu|close|block|repair/.test(t)) return "exclusion";
+  if (/clean|sanit|restor|decon/.test(t)) return "spray";
+  if (/call|book|contact/.test(t)) return "phone";
+  if (/follow|check|return|warrant/.test(t)) return "badge-check";
+  return "wrench";
+}
+
+/**
+ * Numbered steps as connected cards: each card has an icon tile with its number badge, a large
+ * faint numeral behind it, the title and the text. On phones they are a swipe row, one card at a
+ * time, with numbered buttons above (StepRail); a line joins each icon to the next. On desktop
+ * they sit side by side, a track with a running light joining the icons.
+ */
 function Steps({ cards }: { cards: Card[] }) {
   const n = cards.length;
   const across = n >= 3 && n <= 5;
+  const desk = across ? (n === 5 ? "lg:grid-cols-5" : n === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3") : "lg:grid-cols-2";
   return (
-    <ol className={`relative grid gap-0 ${across ? (n === 5 ? "lg:grid-cols-5" : n === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3") + " lg:gap-6" : "mx-auto max-w-[760px]"}`}>
-      {cards.map((c, i) => (
-        <li key={`${c.title}-${i}`} data-reveal style={{ ["--i" as string]: i }} className={`group relative flex gap-5 pb-8 last:pb-0 ${across ? "lg:flex-col lg:gap-4 lg:pb-0" : ""}`}>
-          {/* connector */}
-          {i < n - 1 ? (
-            <span aria-hidden="true" className={`absolute top-12 bottom-0 left-[23px] w-0.5 bg-gradient-to-b from-blue/60 to-blue/10 ${across ? "lg:top-[23px] lg:right-[-1.5rem] lg:bottom-auto lg:left-12 lg:h-0.5 lg:w-auto lg:bg-gradient-to-r" : ""}`} />
-          ) : null}
-          <span className="relative z-10 flex h-12 w-12 flex-none items-center justify-center rounded-full bg-navy font-display text-lg font-bold text-white transition-colors duration-300 group-hover:bg-cta">
-            {c.number || i + 1}
-          </span>
-          <div className="min-w-0 pt-1.5 lg:pt-0">
-            <h3 className="font-display text-h3 font-bold text-navy">{c.title}</h3>
-            <RichText value={c.text} className="mt-2 text-[1.0625rem] [&>*+*]:mt-3" />
-          </div>
-        </li>
-      ))}
-    </ol>
+    <div className="relative">
+      {/* desktop track across the icon row */}
+      <span aria-hidden="true" style={{ ["--step-end" as string]: `calc(${100 / n}% - 52px)` }} className="step-track absolute top-[46px] right-[var(--step-end)] left-[52px] hidden h-[3px] rounded-full bg-blue/15 lg:block" />
+      <StepRail
+        labels={cards.map((c) => c.title)}
+        className={`swipe-steps relative -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6 lg:mx-0 lg:grid lg:snap-none lg:overflow-visible lg:px-0 lg:pb-0 ${desk} lg:gap-5`}
+      >
+        {cards.map((c, i) => {
+          const num = c.number || String(i + 1);
+          return (
+            <li key={`${c.title}-${i}`} className="group relative flex w-[84%] flex-none snap-center flex-col sm:w-[60%] lg:w-auto">
+              {/* phones: a line from this icon toward the next card */}
+              {i < n - 1 ? <span aria-hidden="true" className="absolute top-[46px] left-[84px] -right-4 h-[3px] rounded-full bg-gradient-to-r from-blue/40 to-blue/5 lg:hidden" /> : null}
+              <div className="relative z-10 pt-3 pl-5">
+                <span className="relative flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-navy to-navy-3 text-blue-light shadow-[0_14px_26px_-12px_rgb(14_42_71/0.7)] ring-4 ring-tint transition-transform duration-300 group-hover:-translate-y-1 group-hover:-rotate-3">
+                  <Icon name={stepIcon(c)} className="icon-bob h-7 w-7" />
+                  <span className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-cta font-display text-sm font-extrabold text-white shadow-[0_6px_14px_-6px_rgb(180_90_0/0.9)] ring-2 ring-white">{num}</span>
+                </span>
+              </div>
+              <div className="card relative mt-5 min-w-0 flex-1 overflow-hidden rounded-[20px] p-5 transition-[transform,box-shadow,border-color] duration-300 group-hover:-translate-y-1 group-hover:border-blue/30 group-hover:shadow-[var(--shadow-card-hover)] md:p-6">
+                <span aria-hidden="true" className="pointer-events-none absolute -top-3 -right-1 font-display text-[4.5rem] leading-none font-extrabold text-blue/[0.06] select-none">
+                  {num.padStart(2, "0")}
+                </span>
+                <h3 className="relative font-display text-h3 font-bold text-navy">{c.title}</h3>
+                <RichText value={c.text} className="relative mt-2 text-[1.0625rem] [&>*+*]:mt-3" />
+              </div>
+            </li>
+          );
+        })}
+      </StepRail>
+    </div>
   );
 }
 
