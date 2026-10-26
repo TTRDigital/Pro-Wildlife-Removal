@@ -40,6 +40,7 @@ export const tampa = countyPage({
     { icon: "map-pin", title: "MacDill 48 Park", text: p("When Tampa opened its 48-acre MacDill 48 Park in November 2024, it named gopher tortoises, native fish and bald eagles among the wildlife living there.") },
     { icon: "sound", title: "Rabid bats nearby", text: p("Florida's Department of Health counted four rabid bats in Hillsborough County in 2025. A bat inside a Tampa home is never one to pick up bare-handed. See [bats in the attic](/services/bats-in-attic/).") },
   ],
+  rats: { heading: "Rats in Tampa", intro: "Tampa's rat facts have a page of their own, so they aren't repeated here.", cards: [{ icon: "critter", title: "Rat removal in Tampa", text: p("Rat lungworm found in Tampa, the yearly S.W.E.E.P. pickup, and the city's trash and code rules."), href: "/services/rat-removal/tampa-fl/" }] },
   contactsHeading: "Tampa's public animal numbers",
   contactsIntro: "Tampa doesn't run its own animal control. These are the public numbers, from the city's and agencies' own pages.",
   contacts: [

@@ -39,6 +39,7 @@ export const pinellasPark = countyPage({
     { icon: "map-pin", title: "Sawgrass Lake Park", text: p("Nearby, Pinellas County's 400-acre Sawgrass Lake Park is in unincorporated Lealman, with a St. Petersburg address. The county's photos show alligators and turtles.") },
     { icon: "home", title: "Lids on, twice a week", text: p("Pinellas Park collects household garbage on Tuesdays and Fridays and asks for 35-gallon cans with lids, or tied bags, at the curb by 7 a.m. Tight lids take away an easy meal for rats and raccoons.") },
   ],
+  rats: { heading: "Rats in Pinellas Park", intro: "The rat side of Pinellas Park, from state closure records to rental rules, is covered on its own page.", cards: [{ icon: "critter", title: "Rat removal in Pinellas Park", text: p("23 rodent closures from 2022 to 2025, most of them on 49th and 66th streets, plus the county's rental rules."), href: "/services/rat-removal/pinellas-park-fl/" }] },
   contactsHeading: "Pinellas Park numbers for strays, bites and gators",
   contactsIntro: "Pinellas Park relies on county Animal Services and DOH-Pinellas, plus FWC for the odd pond alligator.",
   contacts: [

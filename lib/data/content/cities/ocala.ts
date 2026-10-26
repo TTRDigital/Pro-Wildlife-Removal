@@ -46,6 +46,7 @@ export const ocala = countyPage({
     { icon: "home", title: "A bat house in an Ocala park", text: p("Ocala's Programs in the Parks scheduled a free owls and bats session for May 1, 2026, at Heritage Nature Conservancy on NE 3rd Street, Ocala-News reported in April 2026, with a photo of the park's bat house.") },
     { icon: "leaf", title: "Raccoons lead Marion's rabies tables", text: p("The state's tables listed 7 rabid raccoons and 3 cats for Marion County in 2024, and 6 raccoons plus a cat, a coyote and a fox in 2025.") },
   ],
+  rats: { heading: "Rats in Ocala", intro: "For rats, Ocala gets its own page with the city's trash rules and state restaurant records.", cards: [{ icon: "critter", title: "Rat removal in Ocala", text: p("Ocala's seven-day trash limit, 13 rodent closures from 2022 to 2025, and what DOH-Marion advises."), href: "/services/rat-removal/ocala-fl/" }] },
   contactsHeading: "Ocala contacts: the county, DOH-Marion and FWC's regional office",
   contactsIntro: "Ocala's strays go to Marion County, and FWC's regional office is in town. These numbers come from DOH-Marion's alerts and FWC's pages.",
   contacts: [

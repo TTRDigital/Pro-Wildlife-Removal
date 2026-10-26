@@ -41,6 +41,7 @@ export const palmHarbor = countyPage({
     { icon: "drop", title: "Brooker Creek Preserve", text: p("East of Palm Harbor, near Tarpon Springs, Pinellas County's Brooker Creek Preserve protects about 8,700 acres.") },
     { icon: "critter", title: "Coyotes, too", text: p("FWC says coyotes are found in all 67 Florida counties and that feeding them is illegal. Secure garbage and pick up pet food and fallen fruit.") },
   ],
+  rats: { heading: "Rats in Palm Harbor", intro: "Palm Harbor's rat records sit on a separate page, from rental rules to restaurant closures along US 19.", cards: [{ icon: "critter", title: "Rat removal in Palm Harbor", text: p("Rodent records on US 19 and Alt 19, and why Palm Harbor landlords handle rats unless the lease says otherwise."), href: "/services/rat-removal/palm-harbor-fl/" }] },
   contactsHeading: "Pinellas, garbage and FWC contacts for Palm Harbor",
   contactsIntro: "Strays go to the county shelter on Ulmerton Road in Largo. Here's who covers garbage and wildlife in Palm Harbor.",
   contacts: [
