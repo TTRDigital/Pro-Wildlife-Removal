@@ -11,6 +11,7 @@ const HENS = "https://www.pascocountyfl.gov/services/code_compliance/backyard_ch
 const CODE = "https://www.pascocountyfl.gov/services/code_compliance/index.php";
 const DEP = "https://floridadep.gov/rcp/coastal-access-guide/content/pasco-county";
 const ENY224 = "https://journals.flvc.org/edis/article/download/136514/141097/263288";
+const GADSDEN = "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/";
 const UW120 = "https://journals.flvc.org/edis/article/download/143373/149064";
 
 export const ratRemovalPascoCounty = servicePlacePage({
@@ -30,11 +31,11 @@ export const ratRemovalPascoCounty = servicePlacePage({
   localHeading: "What to know about rats in Pasco County",
   localIntro: "Pasco runs from Gulf shoreline to citrus country, and rats do well in both. These local rules and facts shape a rat job here.",
   local: [
-    { icon: "home", title: "Your hauler, not the county", text: p("Pasco County says it does not pick up trash. In unincorporated Pasco you hire a private hauler for curbside service, which runs twice a week. UF/IFAS says Norway rats thrive where garbage isn't stored properly, so a missed pickup is worth a call to your hauler.") },
+    { icon: "home", title: "Your hauler, not the county", text: p("Pasco County says it does not pick up trash. In unincorporated Pasco you hire a private hauler for curbside service, which runs twice a week. Florida DOH says Norway rats nest wherever food, water and shelter are present, garbage dumps included, so a missed pickup is worth a call to your hauler.") },
     { icon: "wrench", title: "Bags waiting for a trip", text: p("Homes without a hauler may haul up to 8 bags of household garbage a day, free, to the West Pasco Resource Recovery Facility or the East Pasco Transfer Station. Bags that sit by the garage until the next trip are an easy rat meal.") },
     { icon: "critter", title: "Hen feed must be rat-proof", text: p("Pasco's backyard hen ordinance, adopted in November 2025, allows up to four hens at most homes. It requires all feed to be kept in rodent- and predator-proof containers and coops to be kept up so rodents don't move in.") },
-    { icon: "search", title: "No junk piles in the yard", text: p("County code bars using a yard to store junk, appliances or other nuisance items, or as a garbage dump. Those piles are exactly the cover UF/IFAS tells homeowners to clear away to keep rats from nesting.") },
-    { icon: "drop", title: "A Gulf coast county", text: p("Florida DEP counts 20 miles of Pasco shoreline. UF/IFAS says Norway rats in Florida are most common along sea coasts and canals, where they burrow under slabs and in rubbish.") },
+    { icon: "search", title: "No junk piles in the yard", text: p("County code bars using a yard to store junk, appliances or other nuisance items, or as a garbage dump. Those piles are exactly what Florida DOH tells homeowners to get rid of to control rodents.") },
+    { icon: "drop", title: "A Gulf coast county", text: p("Florida DEP counts 20 miles of Pasco shoreline. UF/IFAS says Norway rats in Florida are most common along sea coasts and canals, and Florida DOH says they burrow beneath concrete slabs and in garbage dumps.") },
     { icon: "leaf", title: "Citrus season is rat season", text: p("DEP describes Pasco as known for its citrus groves. UF/IFAS calls the roof rat the worst rodent pest in Florida, and says hollowed-out fruit shows up from September through March, as citrus ripens.") },
     { icon: "map-pin", title: "Overgrown lot next door", text: p("Only a neighbor who owns or lives on land touching an overgrown parcel can file a complaint about it, under Pasco's Land Development Code. Complaints go to Customer Service, 727-847-2411, with your name and address.") },
   ],
@@ -54,11 +55,11 @@ export const ratRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "I keep backyard hens in Pasco. How do I avoid rats?",
-      "Do what the county's hen ordinance already requires: store all feed in rodent-proof containers and keep the coop clean. UF/IFAS adds that pet food and bird seed belong in rat-proof containers too.",
+      "Do what the county's hen ordinance already requires: store all feed in rodent-proof containers and keep the coop clean. Florida DOH adds that pet food and grain belong in galvanized cans with tight-fitting lids.",
     ),
     faq(
       "Why do I see rats in my orange tree?",
-      "That's usually a roof rat. UF/IFAS says roof rats live in citrus trees and gnaw the fruit, and they travel along branches and utility lines to reach roofs. Trimming limbs back from the house helps.",
+      "That's usually a roof rat. Florida DOH says roof rats are known for hollowing out citrus fruit in trees or on the ground, and UF/IFAS says they travel along branches and utility lines to reach roofs. Trimming limbs back from the house helps.",
     ),
     faq(
       "Can I report a neighbor's junk pile in Pasco?",
@@ -82,7 +83,8 @@ export const ratRemovalPascoCounty = servicePlacePage({
     { title: "Pasco County: Backyard chicken ordinance (Ordinances 25-44 and 25-45, November 2025; up to four hens; all feed in rodent- and predator-proof containers; coops maintained to prevent rodents, vermin and disease)", url: HENS },
     { title: "Pasco County: Code compliance (no yard used to store junk or as a garbage dump; overgrown complaints only by an affected party owning or occupying abutting or surrounding land; Customer Service 727-847-2411; name and address required)", url: CODE },
     { title: "Florida DEP: Coastal access guide, Pasco County (known for its citrus groves; 20 miles of shoreline)", url: DEP },
-    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (Norway rats most common along sea coasts and canals; burrow under slabs and in rubbish; roof rats in citrus trees; remove piles of rubbish; pet food and bird seed in rat-proof containers)", url: ENY224 },
+    { title: "Florida DOH Gadsden: Rodent control (Norway rats burrow beneath concrete slabs, in garbage dumps and wherever food, water and shelter are present; roof rats hollow out citrus fruit in trees or on the ground; get rid of trash, discarded appliances and junk; store pet foods and grains in galvanized cans with tight-fitting lids)", url: GADSDEN },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (2013, archived; Norway rats most common along sea coasts and canals)", url: ENY224 },
     { title: "UF/IFAS EDIS SSWEC120: Control of Roof Rats in Fruit Trees (worst rodent pest in Florida; hollowed-out fruit through the citrus season, September through March; travel on utility lines and branches)", url: UW120 },
   ],
   clientQuestions: ["Typical response time for a rat call in Pasco County?", "A real Google review from a Pasco County rat job (TTR-723), and real Pasco rat job photos."],
