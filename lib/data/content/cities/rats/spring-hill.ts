@@ -1,8 +1,8 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Spring Hill, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Hernando garbage and code rules. */
-export const springHillRats = countyPage({
+export const springHillRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-spring-hill-fl",
   name: "Spring Hill",
@@ -82,4 +82,6 @@ export const springHillRats = countyPage({
     { title: "Hernando County: Code violations (Sec. 15-163a grass over 18 inches within 100 feet of improved property; 15-163b accumulation of trash bags, decaying vegetation, exposed appliances or furniture; main line (352) 754-4000)", url: "https://www.hernandocounty.us/public-safety/code-compliance/code-violations/" },
   ],
   clientQuestions: ["Typical response time for rat calls in Spring Hill?", "Spring Hill rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const springHillRats = countyPage(springHillRatsInput);

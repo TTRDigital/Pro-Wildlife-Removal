@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Dade City, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Dade City garbage and code enforcement. */
 const TRASH = "https://www.dadecityfl.com/city_services/garbage_recycle_services.php";
 
-export const dadeCityRats = countyPage({
+export const dadeCityRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-dade",
   name: "Dade City",
@@ -82,4 +82,6 @@ export const dadeCityRats = countyPage({
     { title: "City of Dade City: Code enforcement ((352) 523-5050; 38020 Meridian Ave; excessive trash or debris, junk cars, nuisance violations)", url: "https://www.dadecityfl.com/business_development/code_enforcement/index.php" },
   ],
   clientQuestions: ["Typical response time for rat calls in Dade City?", "Dade City rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const dadeCityRats = countyPage(dadeCityRatsInput);

@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { safetyHarborRatsInput } from "./rats/safety-harbor.ts";
 
 /* Safety Harbor page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const FAQ = "http://www.cityofsafetyharbor.com/m/faq";
@@ -38,8 +39,9 @@ export const safetyHarbor = countyPage({
     { icon: "leaf", title: "Philippe Park", text: p("Pinellas County's Philippe Park covers 92 acres on Philippe Parkway, under big shade trees. UF/IFAS Extension in Pinellas reported that great horned owls there died of rat poison.") },
     { icon: "map-pin", title: "Folly Farm Nature Preserve", text: p("The city's nature preserve covers just under 10 acres. Small preserves like this one keep habitat right next to neighborhoods.") },
     { icon: "drop", title: "Waterfront Park", text: p("The city's 7.3-acre Waterfront Park sits on Old Tampa Bay at Veterans Memorial Lane.") },
-    { icon: "critter", title: "The city's own wildlife advice", text: p("Safety Harbor asks residents to keep trash bins tightly closed and to pick up pet food, spilled birdseed and fallen fruit. More on the city's rodent advice on our [Safety Harbor rat page](/about-us/service-area/rat-removal-safety-harbor/).") },
+    { icon: "critter", title: "The city's own wildlife advice", text: p("Safety Harbor asks residents to keep trash bins tightly closed and to pick up pet food, spilled birdseed and fallen fruit. The city's rodent advice is covered in the rats section below.") },
   ],
+  rats: { heading: safetyHarborRatsInput.localHeading, intro: safetyHarborRatsInput.localIntro, cards: [...safetyHarborRatsInput.local, ...(safetyHarborRatsInput.contacts ?? [])], link: { label: "rat removal across Pinellas County", href: "/services/rat-removal/pinellas-county-fl/" } },
   contactsHeading: "Safety Harbor Public Works, strays and FWC",
   contactsIntro: "Who to call for what in Safety Harbor, from the city's FAQ and the county's and FWC's pages.",
   contacts: [
@@ -61,7 +63,7 @@ export const safetyHarbor = countyPage({
     ),
     faq(
       "Does Safety Harbor have rules about rat poison?",
-      "The city's wildlife page warns there's no such thing as a safe rat poison and says never to use glue traps. See [rat removal in Safety Harbor](/about-us/service-area/rat-removal-safety-harbor/).",
+      "The city's wildlife page warns there's no such thing as a safe rat poison and says never to use glue traps. More on Safety Harbor rats is in the section above.",
     ),
     faq(
       "How fast can you come to Safety Harbor?",
@@ -86,6 +88,7 @@ export const safetyHarbor = countyPage({
     { title: "City of Safety Harbor: Waterfront Park (7.3 acres; 105 Veterans Memorial Lane)", url: "https://www.cityofsafetyharbor.com/959/Waterfront-Park" },
     { title: "City of Safety Harbor: Protecting our wildlife (keep bins tightly closed; remove pet food, spilled birdseed, fallen fruit; no safe rat poison; never glue traps)", url: "https://www.cityofsafetyharbor.com/948/Protecting-Our-Wildlife" },
     { title: "Pinellas County: Injured or orphaned wildlife ((727) 582-2600 option 4)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
+    ...safetyHarborRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in Safety Harbor?", "Safety Harbor reviews (from TTR-723) and real Safety Harbor job photos."],
 });

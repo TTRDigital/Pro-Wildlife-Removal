@@ -1,11 +1,11 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Clearwater, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Clearwater code and trash rules. */
 const GUIDE = "https://www.myclearwater.com/My-Government/0-City-Departments/Planning-Development/Code-Compliance/Citizens-Guide-to-Code-Compliance";
 const TRASH = "https://www.myclearwater.com/Trash-Recycling/Residential-Trash-Collection-Information";
 
-export const clearwaterRats = countyPage({
+export const clearwaterRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-clearwater-fl",
   name: "Clearwater",
@@ -84,4 +84,6 @@ export const clearwaterRats = countyPage({
     { title: "City of Clearwater: Residential trash collection (once a week; close the lid; curb no earlier than 7 p.m. the night before, removed by 7 a.m. the day after; yard waste and bulk no more than 24 hours early)", url: TRASH },
   ],
   clientQuestions: ["Typical response time for rat calls in Clearwater?", "Clearwater rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const clearwaterRats = countyPage(clearwaterRatsInput);

@@ -1,5 +1,6 @@
 import { countyPage, S } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { newPortRicheyRatsInput } from "./rats/new-port-richey.ts";
 
 /* New Port Richey page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const CONSERVATION = "https://www.cityofnewportrichey.org/files/assets/city/v/1/development/documents/planning/conservation-element-effective-march-212c-2016.pdf";
@@ -41,6 +42,7 @@ export const newPortRichey = countyPage({
     { icon: "map-pin", title: "Life on the Cotee", text: p("The city says dolphins and manatees are a common sight on the Pithlachascotee River. Riverfront yards also see more of the shoreline wildlife that comes with it.") },
     { icon: "search", title: "Rabies in Pasco", text: p("Pasco County Animal Services reports 24 animals that tested positive for rabies from 2013 to 2023: 17 raccoons, 6 cats and 1 bat. Keep pets vaccinated and leave raccoons alone.") },
   ],
+  rats: { heading: newPortRicheyRatsInput.localHeading, intro: newPortRicheyRatsInput.localIntro, cards: [...newPortRicheyRatsInput.local, ...(newPortRicheyRatsInput.contacts ?? [])], link: { label: "rat removal across Pasco County", href: "/services/rat-removal/pasco-county-fl/" } },
   contactsHeading: "Pasco and FWC numbers New Port Richey uses",
   contactsIntro: "Here's who to call for what in New Port Richey, from the city's and agencies' own pages.",
   contacts: [
@@ -86,6 +88,7 @@ export const newPortRichey = countyPage({
     { title: "Pasco County: Animal Services (813-929-1212; after hours (727) 847-8102 option 7; emergency care for domestic strays)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    ...newPortRicheyRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in New Port Richey?", "New Port Richey reviews (from TTR-723) and real New Port Richey job photos."],
 });

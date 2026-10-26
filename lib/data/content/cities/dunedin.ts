@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { dunedinRatsInput } from "./rats/dunedin.ts";
 
 /* Dunedin page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const BUDGET = "https://www.dunedin.gov/files/assets/city/v/1/finance/documents/budget/fy-2022-adopted-operating-and-capital-budget.pdf";
@@ -41,6 +42,7 @@ export const dunedin = countyPage({
     { icon: "drop", title: "Sea turtle season", text: p("The city tells residents to call FWC at 1-888-404-3922 about dead or stranded sea turtles. Lights out on the beach side helps hatchlings find the water.") },
     { icon: "critter", title: "Feeding is a nuisance", text: p("Under Pinellas County code, leaving food or garbage out so it attracts raccoons, coyotes or other wildlife, and creates a nuisance, is a public nuisance.") },
   ],
+  rats: { heading: dunedinRatsInput.localHeading, intro: dunedinRatsInput.localIntro, cards: [...dunedinRatsInput.local, ...(dunedinRatsInput.contacts ?? [])], link: { label: "rat removal across Pinellas County", href: "/services/rat-removal/pinellas-county-fl/" } },
   contactsHeading: "Pinellas, FWC and DOH lines for Dunedin",
   contactsIntro: "Dunedin sends strays and injured wildlife to the county and sea turtles to FWC. The numbers are below.",
   contacts: [
@@ -62,7 +64,7 @@ export const dunedin = countyPage({
     ),
     faq(
       "Do you handle rats in Dunedin?",
-      "Yes. See [rat removal in Dunedin](/about-us/service-area/rat-removal-services-dunedin-fl/) for the local details.",
+      "Yes. The section on Dunedin rats above covers the local rules.",
     ),
     faq(
       "What's the wait for a visit in Dunedin?",
@@ -88,6 +90,7 @@ export const dunedin = countyPage({
     { title: "Pinellas County: Animal Services enforcement (Sec. 14-30(4) feeding nuisance)", url: "https://pinellas.gov/animal-services-enforcement/" },
     { title: "Pinellas County: Injured or orphaned wildlife (Animal Services wildlife pickup/transport assistance; (727) 582-2600 option 4; FWC numbers)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
+    ...dunedinRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in Dunedin?", "Dunedin reviews (from TTR-723) and real Dunedin job photos."],
 });

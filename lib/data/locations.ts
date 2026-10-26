@@ -14,9 +14,7 @@ import { tampa } from "./content/cities/tampa.ts";
 import { springHill } from "./content/cities/spring-hill.ts";
 import { clearwater } from "./content/cities/clearwater.ts";
 import { newPortRichey } from "./content/cities/new-port-richey.ts";
-import { brooksvilleRats } from "./content/cities/brooksville-rats.ts";
 import { brooksville } from "./content/cities/brooksville.ts";
-import { theVillagesRats } from "./content/cities/rats/the-villages.ts";
 import { landOLakes } from "./content/cities/land-o-lakes.ts";
 import { hudson } from "./content/cities/hudson.ts";
 import { stPetersburg } from "./content/cities/st-petersburg.ts";
@@ -31,14 +29,6 @@ import { dunedin } from "./content/cities/dunedin.ts";
 import { safetyHarbor } from "./content/cities/safety-harbor.ts";
 import { palmHarbor } from "./content/cities/palm-harbor.ts";
 import { pinellasPark } from "./content/cities/pinellas-park.ts";
-import { clearwaterRats } from "./content/cities/rats/clearwater.ts";
-import { stPetersburgRats } from "./content/cities/rats/st-petersburg.ts";
-import { springHillRats } from "./content/cities/rats/spring-hill.ts";
-import { hudsonRats } from "./content/cities/rats/hudson.ts";
-import { dunedinRats } from "./content/cities/rats/dunedin.ts";
-import { safetyHarborRats } from "./content/cities/rats/safety-harbor.ts";
-import { dadeCityRats } from "./content/cities/rats/dade-city.ts";
-import { newPortRicheyRats } from "./content/cities/rats/new-port-richey.ts";
 
 const migratedLocations: Location[] = [
  {
@@ -6729,27 +6719,9 @@ const migratedLocations: Location[] = [
  theVillages,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/trinity.ts
  trinity,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/brooksville-rats.ts
- brooksvilleRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/clearwater.ts
- clearwaterRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/dade-city.ts
- dadeCityRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/dunedin.ts
- dunedinRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/hudson.ts
- hudsonRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/new-port-richey.ts
- newPortRicheyRats,
+ // Rat-in-city pages (Brooksville, Clearwater, Dade City, Dunedin, Hudson, New Port Richey, Safety Harbor, Spring Hill, St. Petersburg,
+ // The Villages) removed (Ben, Oct 26): 301 to their city pages (Wade); their rat facts now live in each city page's "Rats in" section.
  // about-us/service-area/rat-removal-palm-harbor removed (Ben, Oct 26): 301 to its city page (Wade)
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/safety-harbor.ts
- safetyHarborRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/spring-hill.ts
- springHillRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/st-petersburg.ts
- stPetersburgRats,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/rats/the-villages.ts
- theVillagesRats,
  // rat-removal-trinity removed (Ben, Oct 26): 301 to its city page (Wade)
  {
   "path": "about-us/service-area/rat-removal-services-winter-haven-fl",

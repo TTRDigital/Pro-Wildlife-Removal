@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { theVillagesRatsInput } from "./rats/the-villages.ts";
 
 /* The Villages page, rewritten in place at its existing URL (Nia, Oct 26, 2026). Checkable local facts about rats, bats, squirrels and raccoons only; news items carry their year. */
 const BATS = "https://www.villages-news.com/2025/10/12/old-fashioned-solution-solves-bat-problem-at-starter-shack-in-the-villages/";
@@ -54,6 +55,7 @@ export const theVillages = countyPage({
     { icon: "drop", title: "A staggering raccoon in La Zamora", text: p("Also in 2019, Lady Lake police shot a raccoon suspected of being rabid at a home in the Village of La Zamora, in Lady Lake (Lake County). The officer wrote that it appeared to stagger, then collapsed, as he approached.") },
     { icon: "leaf", title: "A black fox squirrel", text: p("In May 2025, Villages-News ran a reader's photo of a rare black southern fox squirrel in the Village of Summerhill.") },
   ],
+  rats: { heading: theVillagesRatsInput.localHeading, intro: theVillagesRatsInput.localIntro, cards: [...theVillagesRatsInput.local, ...(theVillagesRatsInput.contacts ?? [])] },
   contactsHeading: "Sumter, DOH and FWC contacts for The Villages",
   contactsIntro: "Who handles what in The Villages, from Sumter County's and the health departments' own pages.",
   contacts: [
@@ -115,6 +117,7 @@ export const theVillages = countyPage({
     { title: "U.S. Census Bureau: 2020 place codes (The Villages CDP in Marion and Sumter counties)", url: "https://www2.census.gov/geo/docs/reference/codes2020/place/st12_fl_place2020.txt" },
     { title: "FWC: Regional offices (Northeast Region, Ocala, 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Nuisance alligators (866-FWC-GATOR)", url: "https://myfwc.com/conservation/you-conserve/wildlife/alligators/" },
+    ...theVillagesRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in The Villages?", "Real job photos and reviews from customers in The Villages."],
 });

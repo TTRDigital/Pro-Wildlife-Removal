@@ -1,5 +1,6 @@
 import { countyPage, S } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { clearwaterRatsInput } from "./rats/clearwater.ts";
 
 /* Clearwater page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const ANIMAL_ISSUE = "https://www.myclearwater.com/Report-a-Problem/Report-an-Animal-Issue";
@@ -41,6 +42,7 @@ export const clearwater = countyPage({
     { icon: "map-pin", title: "The Alligator Creek watershed", text: p("Much of eastern Clearwater drains through Alligator Creek and Alligator Lake into Old Tampa Bay, a 5,546-acre watershed shared with Safety Harbor and unincorporated Pinellas.") },
     { icon: "critter", title: "A county feeding rule", text: p("Pinellas County code treats putting out food or garbage in a way that attracts raccoons, coyotes or other wildlife, and creates a nuisance, as a public nuisance.") },
   ],
+  rats: { heading: clearwaterRatsInput.localHeading, intro: clearwaterRatsInput.localIntro, cards: [...clearwaterRatsInput.local, ...(clearwaterRatsInput.contacts ?? [])], link: { label: "rat removal across Pinellas County", href: "/services/rat-removal/pinellas-county-fl/" } },
   contactsHeading: "Clearwater, Pinellas County and FWC contacts",
   contactsIntro: "Clearwater leaves strays to the county and gators to FWC. Here are the numbers, from the city's and agencies' own pages.",
   contacts: [
@@ -90,6 +92,7 @@ export const clearwater = countyPage({
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
     { title: "FWC: Nuisance Alligator Program and Regional offices (Wildlife Alert 888-404-3922)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
+    ...clearwaterRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in Clearwater?", "Clearwater reviews (from TTR-723) and real Clearwater job photos."],
 });

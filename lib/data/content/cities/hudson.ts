@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { hudsonRatsInput } from "./rats/hudson.ts";
 
 /* Hudson page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const WEEKI_PLAN = "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/weekiwachee_preserve_management_plan_update_draft.pdf";
@@ -42,6 +43,7 @@ export const hudson = countyPage({
     { icon: "phone", title: "Rabid raccoons, 2001", text: p("In late April 2001, rabid raccoons attacked two dogs in Hudson, one of them in the Parkwood Acres neighborhood, Pasco County Animal Control told the St. Petersburg Times. Both dogs had been exposed to rabies and had to be destroyed.") },
     { icon: "critter", title: "Locked lids matter", text: p("The district flags human-bear conflict where the preserve meets homes. Secured garbage and pet food also take away what draws raccoons and opossums to a yard.") },
   ],
+  rats: { heading: hudsonRatsInput.localHeading, intro: hudsonRatsInput.localIntro, cards: [...hudsonRatsInput.local, ...(hudsonRatsInput.contacts ?? [])], link: { label: "rat removal across Pasco County", href: "/services/rat-removal/pasco-county-fl/" } },
   contactsHeading: "Pasco Animal Services, DOH-Pasco and FWC for Hudson",
   contactsIntro: "Hudson's bear calls go to FWC and strays to Pasco County. Here are the numbers, from each agency's page.",
   contacts: [
@@ -86,6 +88,7 @@ export const hudson = countyPage({
     { title: "Pasco County: Animal Services (813-929-1212; after hours (727) 847-8102 option 7, qualifying emergencies)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Southwest 863-648-3200) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    ...hudsonRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in Hudson?", "Hudson reviews (from TTR-723) and real Hudson job photos."],
 });

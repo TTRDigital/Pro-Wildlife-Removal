@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { springHillRatsInput } from "./rats/spring-hill.ts";
 
 /* Spring Hill page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const WEEKI_PLAN = "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/weekiwachee_preserve_management_plan_update_draft.pdf";
@@ -41,6 +42,7 @@ export const springHill = countyPage({
     { icon: "critter", title: "Don't feed the raccoons", text: p("UF/IFAS Extension in Hernando reminds residents that intentionally feeding raccoons is illegal. Feeding draws them to the house. Separately, in June 2026 an unvaccinated Spring Hill cat that a raccoon had attacked tested positive for rabies.") },
     { icon: "home", title: "Twice-a-week garbage", text: p("Spring Hill's mandatory collection area gets garbage pickup twice a week, per Hernando County. Bins kept shut between pickups mean less for rats and raccoons to find.") },
   ],
+  rats: { heading: springHillRatsInput.localHeading, intro: springHillRatsInput.localIntro, cards: [...springHillRatsInput.local, ...(springHillRatsInput.contacts ?? [])], link: { label: "rat removal across Hernando County", href: "/services/rat-removal/hernando-county-fl/" } },
   contactsHeading: "Hernando sheriff, DOH and FWC numbers for Spring Hill",
   contactsIntro: "Here's who handles what for Spring Hill residents, from each agency's own page.",
   contacts: [
@@ -88,6 +90,7 @@ export const springHill = countyPage({
     { title: "DOH-Hernando: Rabies surveillance and July 1, 2026 alert (352-540-6812)", url: "https://hernando.floridahealth.gov/2026/07/01/doh-hernando-issues-rabies-alert-2/" },
     { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
+    ...springHillRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in Spring Hill?", "Spring Hill reviews (from TTR-723) and real Spring Hill job photos."],
 });

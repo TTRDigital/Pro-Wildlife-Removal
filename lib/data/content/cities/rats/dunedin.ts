@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Dunedin, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: Dunedin solid waste rules and UF/IFAS Pinellas. */
 const TRASH = "https://www.dunedin.gov/City-Services/Garbage-Recycling/Residential-Trash-Yard-Bulk-Waste";
 
-export const dunedinRats = countyPage({
+export const dunedinRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-dunedin-fl",
   name: "Dunedin",
@@ -82,4 +82,6 @@ export const dunedinRats = countyPage({
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (exclusion, sanitation, trapping; poison bait as a last resort; great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
   clientQuestions: ["Typical response time for rat calls in Dunedin?", "Dunedin rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const dunedinRats = countyPage(dunedinRatsInput);

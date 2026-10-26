@@ -1,4 +1,4 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in The Villages, rewritten in place at its existing URL (Ben, Oct 26). Local rat records only; news items carry their year. */
@@ -11,7 +11,7 @@ const GADSDEN = "https://gadsden.floridahealth.gov/programs-and-services/environ
 const SANTAROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/";
 const CDC = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html";
 
-export const theVillagesRats = countyPage({
+export const theVillagesRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-the-villages-fl",
   name: "The Villages",
@@ -99,4 +99,6 @@ export const theVillagesRats = countyPage({
     { title: "CDC: How to clean up after rodents (don't sweep or vacuum; spray with disinfectant)", url: CDC },
   ],
   clientQuestions: ["Typical response time for rat calls in The Villages?", "Reviews and real job photos from rat customers in The Villages."],
-});
+} satisfies CountyInput;
+
+export const theVillagesRats = countyPage(theVillagesRatsInput);

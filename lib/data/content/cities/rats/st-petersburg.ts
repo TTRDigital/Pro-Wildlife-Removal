@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in St. Petersburg, rewritten in place at its existing URL (Ben, Oct 26). Uses the parts of the city's rodent guide the city page doesn't. */
 const RODENTS = "https://www.stpete.org/residents/good_neighbor_guides/rodent_insect_control.php";
 
-export const stPetersburgRats = countyPage({
+export const stPetersburgRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-st-petersburg-fl",
   name: "St. Petersburg",
@@ -83,4 +83,6 @@ export const stPetersburgRats = countyPage({
     { title: "City of St. Petersburg: Property maintenance (junk and rubbish can't be left in the yard; owners maintain vegetation on property and right of way)", url: "https://www.stpete.org/residents/community/property_maintenance.php" },
   ],
   clientQuestions: ["Typical response time for rat calls in St. Petersburg?", "St. Petersburg rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const stPetersburgRats = countyPage(stPetersburgRatsInput);

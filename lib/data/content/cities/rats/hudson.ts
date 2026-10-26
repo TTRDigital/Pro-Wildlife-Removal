@@ -1,8 +1,8 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Hudson, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: unincorporated Pasco garbage and code rules. */
-export const hudsonRats = countyPage({
+export const hudsonRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-services-hudson-fl",
   name: "Hudson",
@@ -80,4 +80,6 @@ export const hudsonRats = countyPage({
     { title: "Pasco County: Code compliance (yards not for junk storage; no lot used as a garbage dump; overgrowth complaints by an affected party owning or occupying abutting land; Customer Service 727-847-2411)", url: "https://www.pascocountyfl.gov/services/code_compliance/index.php" },
   ],
   clientQuestions: ["Typical response time for rat calls in Hudson?", "Hudson rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const hudsonRats = countyPage(hudsonRatsInput);

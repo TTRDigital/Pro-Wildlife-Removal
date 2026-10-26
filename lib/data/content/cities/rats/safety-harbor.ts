@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in Safety Harbor, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: the city's wildlife page and sanitation rules. */
 const WILDLIFE = "https://www.cityofsafetyharbor.com/948/Protecting-Our-Wildlife";
 
-export const safetyHarborRats = countyPage({
+export const safetyHarborRatsInput = {
   kind: "rat",
   path: "about-us/service-area/rat-removal-safety-harbor",
   name: "Safety Harbor",
@@ -86,4 +86,6 @@ export const safetyHarborRats = countyPage({
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
   clientQuestions: ["Typical response time for rat calls in Safety Harbor?", "Do you use any rat bait, and if so which kind (anticoagulant or not)? Or traps only?", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const safetyHarborRats = countyPage(safetyHarborRatsInput);

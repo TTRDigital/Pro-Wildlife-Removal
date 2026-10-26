@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { brooksvilleRatsInput } from "./brooksville-rats.ts";
 
 /* Brooksville city page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts about rats, bats, squirrels and raccoons only. */
 const TED_ROAD = "https://www.floridahealth.gov/wp-content/uploads/2025/07/advisory-hernando-6-2-2025.pdf";
@@ -36,7 +37,6 @@ export const brooksville = countyPage({
       title: "Hernando County",
       href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
       items: [
-        { label: "Rats in Brooksville", href: "/about-us/service-area/expert-rat-removal-in-brooksville-fl/" },
         { label: "Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
         { label: "Weeki Wachee" },
       ],
@@ -53,6 +53,7 @@ export const brooksville = countyPage({
     { icon: "search", title: "Raccoon rabies next door", text: p("On June 12, 2026, DOH-Hernando issued a 60-day rabies alert for part of Spring Hill after an unvaccinated cat attacked by a raccoon off Norvell Road tested positive.") },
     { icon: "wrench", title: "Bats on FWC's calendar", text: p("FWC makes bat exclusion illegal during maternity season, April 16 to August 14. A colony in a Brooksville attic or church eave has to wait for mid-August.") },
   ],
+  rats: { heading: brooksvilleRatsInput.localHeading, intro: brooksvilleRatsInput.localIntro, cards: [...brooksvilleRatsInput.local, ...(brooksvilleRatsInput.contacts ?? [])], link: { label: "rat removal across Hernando County", href: "/services/rat-removal/hernando-county-fl/" } },
   contactsHeading: "Who to call in Brooksville",
   contactsIntro: "The public numbers for problems outside our work, each from the agency's own page.",
   contacts: [
@@ -105,6 +106,7 @@ export const brooksville = countyPage({
     { title: "DOH-Hernando: Rabies surveillance (Environmental Public Health 352-540-6812)", url: DOH_RABIES },
     { title: "City of Brooksville: Utilities (city garbage collection; (352) 540-3860)", url: "https://www.cityofbrooksville.us/253/Utilities" },
     { title: "Hernando County: Residential collection (Coastal serves unincorporated areas, excluding the City of Brooksville; city (352) 540-3860)", url: COLLECTION },
+    ...brooksvilleRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in Brooksville?", "Reviews and real job photos from Brooksville customers."],
 });

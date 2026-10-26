@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in New Port Richey, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: the city's trash service. */
 const TRASH = "https://cityofnewportrichey.org/Residents/Services/City-Trash-Services";
 
-export const newPortRicheyRats = countyPage({
+export const newPortRicheyRatsInput = {
   kind: "rat",
   path: "rat-removal-new-port-richey",
   name: "New Port Richey",
@@ -78,4 +78,6 @@ export const newPortRicheyRats = countyPage({
     { title: "City of New Port Richey: Parks and facilities (the Cotee, or Pithlachascotee, River)", url: "https://www.cityofnewportrichey.org/Residents/Amenities/Parks-and-Facilities" },
   ],
   clientQuestions: ["Typical response time for rat calls in New Port Richey?", "New Port Richey rat job reviews (from TTR-723) and real rat job photos."],
-});
+} satisfies CountyInput;
+
+export const newPortRicheyRats = countyPage(newPortRicheyRatsInput);

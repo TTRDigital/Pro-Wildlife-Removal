@@ -1,5 +1,6 @@
 import { countyPage, S } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { stPetersburgRatsInput } from "./rats/st-petersburg.ts";
 
 /* St. Petersburg page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const RODENTS = "https://www.stpete.org/residents/good_neighbor_guides/rodent_insect_control.php";
@@ -41,6 +42,7 @@ export const stPetersburg = countyPage({
     { icon: "map-pin", title: "Weedon Island Preserve", text: p("Pinellas County's 3,000-acre Weedon Island Preserve in north St. Petersburg is mostly marine habitat on Tampa Bay, with some uplands.") },
     { icon: "critter", title: "Boyd Hill Nature Preserve", text: p("On Lake Maggiore, Boyd Hill has hammock, pine flatwoods, scrub, swamp and marsh. FWC's Great Florida Birding Trail lists gopher tortoises, eastern indigo snakes and young alligators in the lake shallows.") },
   ],
+  rats: { heading: stPetersburgRatsInput.localHeading, intro: stPetersburgRatsInput.localIntro, cards: [...stPetersburgRatsInput.local, ...(stPetersburgRatsInput.contacts ?? [])], link: { label: "rat removal across Pinellas County", href: "/services/rat-removal/pinellas-county-fl/" } },
   contactsHeading: "St. Pete Sanitation, Pinellas and DOH contacts",
   contactsIntro: "Who handles what in St. Petersburg, from the city's, county's and agencies' own pages.",
   contacts: [
@@ -90,6 +92,7 @@ export const stPetersburg = countyPage({
     { title: "FWC Great Florida Birding Trail: Boyd Hill Nature Preserve (habitats; gopher tortoise, Florida box turtle, eastern indigo snake; young alligators; Lake Maggiore aviary)", url: "https://floridabirdingtrail.com/site/boyd-hill-nature-preserve/" },
     { title: "Pinellas County: Animal Services contact ((727) 582-2600, option 4)", url: "https://pinellas.gov/services/animal-services-contact-us-form/" },
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
+    ...stPetersburgRatsInput.sources,
   ],
   clientQuestions: ["Typical response time in St. Petersburg?", "St. Petersburg reviews (from TTR-723) and real St. Petersburg job photos."],
 });
