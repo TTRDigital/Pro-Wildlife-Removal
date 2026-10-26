@@ -41,9 +41,8 @@ export const carrollwood = countyPage({
     },
   ],
   localHeading: "Bats, raccoons and rodents in Carrollwood",
-  localIntro: "Carrollwood was founded in 1959 beside spring-fed Lake Carroll. Most of the local wildlife record comes from health department cases reported in the news, labeled as news.",
+  localIntro: "Carrollwood was founded in 1959 beside spring-fed Lake Carroll, which the county's Water Atlas lists at 210 acres. Most of the local wildlife record comes from health department cases reported in the news, labeled as news.",
   local: [
-    { icon: "drop", title: "Lake Carroll", text: p("The Hillsborough County Water Atlas lists Lake Carroll at 210 acres, a private lake in the Sweetwater Creek watershed, with water samples going back to 1970.") },
     { icon: "critter", title: "Rabid bat, 2020 (news)", text: p("Patch printed DOH-Hillsborough's July 2020 release: a woman walking at night in Carrollwood picked up a bat from the sidewalk and was bitten. The bat had rabies, the county's second case that year.") },
     { icon: "home", title: "Bats indoors (news)", text: p("The same 2020 release said it was the time of year bats are more active, and that residents should call DOH if a bat is found inside their home.") },
     { icon: "search", title: "Rabid raccoon near Tannery Avenue, 2018 (news)", text: p("In March 2018, Patch reported a raccoon near the Tannery Avenue area that fought a dog on March 9 and tested positive for rabies. The dog killed the raccoon.") },
