@@ -43,7 +43,7 @@ export const hudson = countyPage({
   ],
   contactsIntro: "Who to call for what in Hudson, from the county's and agencies' own pages.",
   contacts: [
-    { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. Its after-hours standby, (727) 847-8102, option 7, covers emergencies like seriously injured strays or a loose animal that has bitten a person.") },
+    { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. Its evening and overnight standby, (727) 847-8102, option 7, covers emergencies like seriously injured strays or a loose animal that has bitten a person.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4. DOH-Pasco asks anyone bitten or scratched by a wild or domestic animal to get medical care and report it.") },
     { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office handles bear calls for Pasco: 863-648-3200. Nuisance alligator hotline: 866-FWC-GATOR.") },
   ],

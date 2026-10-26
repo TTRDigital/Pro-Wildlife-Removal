@@ -28,7 +28,7 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
   heroText: "Noise in the attic of your St. Pete bungalow, or a raccoon living under the porch? We find how it got in, look for babies, remove the raccoons and repair the entry. Call (727) 594-7705.",
   answerHeading: "Does St. Petersburg remove raccoons from homes?",
   answer:
-    "No. The City of St. Petersburg says neither it nor Pinellas County runs a wild animal service, and raccoons on private property need a private, licensed trapper. Pro Wildlife Removal removes raccoons from St. Pete attics, porches and crawl spaces, checks for young and repairs where they got in. Call (727) 594-7705.",
+    "No. The City of St. Petersburg says neither it nor Pinellas County runs a wild animal service, and raccoons on private property need a private wildlife trapper. Pro Wildlife Removal removes raccoons from St. Pete attics, porches and crawl spaces, checks for young and repairs where they got in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "City: private trappers only", "Trash goes out by 7 a.m."],
   localHeading: "Raccoons in St. Petersburg",
   localIntro: "St. Pete wraps around 244 miles of shoreline and keeps 137 parks, so raccoons are never far from a backyard. These are the local facts.",
@@ -45,7 +45,7 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
   contacts: [
     { icon: "building", title: "Broken cart lid", text: p("St. Petersburg Sanitation, 727-893-7398.") },
     { icon: "phone", title: "Bitten or scratched", text: p("Wash the wound, see a doctor and call DOH-Pinellas, 727-824-6932, which evaluates possible rabies exposures.") },
-    { icon: "home", title: "A raccoon in your home", text: p("A private, licensed company, per the city. Call us at (727) 594-7705.") },
+    { icon: "home", title: "A raccoon in your home", text: p("A private wildlife company, per the city. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "What Florida allows if you set a raccoon trap, and what happens after it's caught." },
@@ -53,7 +53,7 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
   faqs: [
     faq(
       "Will the City of St. Petersburg trap a raccoon for me?",
-      "No. The city says it only addresses wildlife in its natural habitat when the animal shows aggression. A raccoon on private property is a job for a private, licensed trapper or wildlife company.",
+      "No. The city says it only addresses wildlife in its natural habitat when the animal shows aggression. A raccoon on private property is a job for a private trapper or wildlife company.",
     ),
     faq(
       "Are there a lot of raccoons in St. Pete?",
