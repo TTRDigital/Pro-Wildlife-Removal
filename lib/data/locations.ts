@@ -20,6 +20,7 @@ import { stPetersburg } from "./content/cities/st-petersburg.ts";
 import { trinity } from "./content/cities/trinity.ts";
 import { odessa } from "./content/cities/odessa.ts";
 import { holiday } from "./content/cities/holiday.ts";
+import { ocala } from "./content/cities/ocala.ts";
 import { dadeCity } from "./content/cities/dade-city.ts";
 import { dunedin } from "./content/cities/dunedin.ts";
 import { safetyHarbor } from "./content/cities/safety-harbor.ts";
@@ -7624,6 +7625,8 @@ export const fallbackLocations: Location[] = [
  springHill,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/tampa.ts
  tampa,
+ // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/ocala.ts
+ ocala,
  {
   "path": "about-us/service-area/wildlife-removal-the-villages",
   "name": "The Villages",

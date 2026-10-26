@@ -29,7 +29,7 @@ export const marion = countyPage({
       title: "Marion County",
       href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
       items: [
-        { label: "Ocala" },
+        { label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" },
         { label: "Belleview" },
         { label: "Dunnellon" },
         { label: "Silver Springs" },
