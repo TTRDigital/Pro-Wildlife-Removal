@@ -1,32 +1,18 @@
-import { Check } from "lucide-react";
 import type { SplitSection as Split } from "@/lib/types";
 import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
+import { ScrollChecklist } from "@/components/ui/ScrollChecklist";
 import { CtaRow, SectionShell } from "./SectionShell";
 import { TextColumns } from "./ProseSection";
 
-/** Photo beside copy: eyebrow, h2, short paragraphs, check list, button (pw-split). */
+/** Photo beside copy: eyebrow, h2, short paragraphs, a check list that ticks off as you scroll (ScrollChecklist), button. */
 export function SplitSection({ section: s }: { section: Split }) {
   const left = s.imageSide !== "right";
+  // A long check list: the photo stays in view beside it while it ticks off.
+  const long = (s.checklist?.length ?? 0) > 3;
   const checks = s.checklist?.length ? (
-    <ul className="mt-6 grid gap-2.5">
-      {s.checklist.map((c) => (
-        <li
-          key={c}
-          className="flex items-start gap-3 rounded-xl bg-tint-2 px-4 py-3 font-display text-[1.0625rem] leading-[1.6] text-navy/90"
-        >
-          <span className="tick">
-            <Check
-              className="h-[13px] w-[13px]"
-              strokeWidth={3}
-              aria-hidden="true"
-            />
-          </span>
-          {c}
-        </li>
-      ))}
-    </ul>
+    <ScrollChecklist items={s.checklist} />
   ) : null;
   // Without a photo, the text gets the two-column text layout instead of half a row.
   if (!s.image)
@@ -45,14 +31,21 @@ export function SplitSection({ section: s }: { section: Split }) {
   return (
     <SectionShell tone={s.tone}>
       <div
-        className={`grid items-center gap-8 min-[900px]:gap-12 ${left ? "min-[900px]:grid-cols-[45fr_55fr]" : "min-[900px]:grid-cols-[55fr_45fr]"}`}
+        className={`grid gap-8 min-[900px]:gap-12 ${long ? "items-start" : "items-center"} ${left ? "min-[900px]:grid-cols-[45fr_55fr]" : "min-[900px]:grid-cols-[55fr_45fr]"}`}
       >
         {s.image ? (
           <div
-            className={`photo-live relative h-[240px] overflow-hidden rounded-[22px] shadow-[0_24px_50px_-28px_rgb(14_42_71/0.5)] sm:h-[320px] min-[900px]:h-[460px] ${left ? "" : "min-[900px]:order-2"}`}
+            className={`relative ${left ? "" : "min-[900px]:order-2"} ${long ? "min-[900px]:sticky min-[900px]:top-40" : ""}`}
             data-reveal
           >
-            <Photo image={s.image} sizes="(min-width: 900px) 45vw, 100vw" />
+            {/* a soft colour frame offset behind the photo */}
+            <span
+              aria-hidden="true"
+              className={`absolute -bottom-4 h-full w-full rounded-[26px] bg-gradient-to-br from-blue/25 to-cta/20 ${left ? "-left-4" : "-right-4"}`}
+            />
+            <div className="photo-live relative h-[240px] overflow-hidden rounded-[22px] shadow-[0_24px_50px_-28px_rgb(14_42_71/0.5)] sm:h-[320px] min-[900px]:h-[460px]">
+              <Photo image={s.image} sizes="(min-width: 900px) 45vw, 100vw" />
+            </div>
           </div>
         ) : null}
         <div data-reveal>

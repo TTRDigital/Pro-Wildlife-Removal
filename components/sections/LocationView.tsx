@@ -20,6 +20,7 @@ export async function LocationView({ location: base, settings }: { location: Loc
         page={location}
         settings={settings}
         path={path}
+        map={location.kind === "region" ? undefined : { name: location.name, kind: location.kind === "county" ? "county" : "city", county: location.county }}
         crumbs={[
           { label: "Service Area", href: "/about-us/service-area/" },
           { label: location.name, href: path },

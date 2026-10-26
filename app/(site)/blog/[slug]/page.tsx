@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { CalendarDays, Tag, UserRound } from "lucide-react";
+import { CalendarDays, Check, ChevronDown, Tag, UserRound } from "lucide-react";
 import { getPost, getPosts, getServices, getSiteSettings } from "@/lib/content";
 import { relatedLinks } from "@/lib/post-links";
 import { pageMetadata } from "@/lib/seo";
@@ -14,6 +14,8 @@ import { Button } from "@/components/ui/Button";
 import { CtaSection } from "@/components/sections/CtaSection";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { AreasSection } from "@/components/sections/AreasSection";
+import { RatingChip, perks } from "@/components/sections/PageHero";
+import { ReadProgress } from "@/components/ui/ReadProgress";
 
 // Posts not in the build (a new draft opened from a TTR OS preview link) render on request; unknown slugs still 404.
 export const dynamicParams = true;
@@ -45,8 +47,9 @@ function headings(post: NonNullable<Awaited<ReturnType<typeof getPost>>>) {
 /**
  * Blog post or guide in the service-page family: tint header with the
  * title, author and date, the call button and a drifting photo; then the
- * article in a readable column with a sticky call card beside it on
- * desktop, and the navy closing band.
+ * article in a readable column with, on desktop, a sticky list of its
+ * sections and a navy call card beside it (the list folds above the article
+ * on phones), a reading progress bar, and the navy closing band.
  */
 export default async function PostPage(props: PageProps<"/blog/[slug]">) {
   const { slug } = await props.params;
@@ -58,6 +61,7 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
     <>
       <JsonLd data={articleSchema(post, path)} />
       <JsonLd data={webPageSchema(path, post.seo.title, post.seo.description, parts)} />
+      <ReadProgress target="post-body" />
       <article>
         <header className="relative overflow-hidden bg-tint">
           <div aria-hidden="true" className="pointer-events-none absolute -top-40 -right-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(closest-side,rgb(30_155_240/0.18),transparent)]" />
@@ -102,14 +106,62 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
             ) : null}
           </div>
         </header>
-        <div className="wrap grid gap-10 py-12 md:py-16 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-14">
-          <RichText value={post.body} article className="min-w-0 max-w-[760px] text-[1.0625rem] leading-[1.8] md:text-lg [&_h2]:scroll-mt-36" />
+        <div id="post-body" className="wrap grid gap-10 py-12 md:py-16 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-14">
+          <div className="min-w-0">
+            {parts.length > 2 ? (
+              // Phones: the section list folds away above the article.
+              <details className="group mb-8 rounded-2xl border border-line bg-tint-2 lg:hidden">
+                <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between px-5 font-display font-bold text-navy">
+                  In this guide
+                  <ChevronDown className="h-5 w-5 transition-transform duration-200 group-open:rotate-180" strokeWidth={2.25} aria-hidden="true" />
+                </summary>
+                <ol className="grid gap-1 px-5 pb-4">
+                  {parts.map((p) => (
+                    <li key={p.id}>
+                      <a href={`#${p.id}`} className="flex min-h-11 items-center text-[0.975rem] font-medium text-blue-deep hover:underline">
+                        {p.name}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </details>
+            ) : null}
+            <RichText value={post.body} article className="max-w-[760px] text-[1.0625rem] leading-[1.8] md:text-lg [&_h2]:scroll-mt-36" />
+          </div>
           <aside className="hidden lg:block">
-            <div className="sticky top-36 rounded-[22px] border border-line bg-white p-6 text-center shadow-[0_20px_50px_-30px_rgb(14_42_71/0.4)]">
-              <p className="text-[0.95rem]">{settings.serviceAreaText}</p>
-              <Button href={settings.phoneHref} className="mt-5 w-full">
-                Call {settings.phone}
-              </Button>
+            <div className="sticky top-36 grid gap-5">
+              <div className="relative overflow-hidden rounded-[22px] bg-gradient-to-br from-navy via-navy-3 to-navy-2 p-6 text-center text-white shadow-[0_24px_50px_-28px_rgb(14_42_71/0.6)]">
+                <span className="tag-nudge inline-flex rounded-md bg-cta px-2.5 py-1 font-display text-xs font-extrabold tracking-[1px] uppercase">Free Inspection</span>
+                <a href={settings.phoneHref} data-track="click_to_call" className="mt-4 block font-display text-[1.75rem] leading-none font-extrabold whitespace-nowrap hover:text-blue-light">
+                  {settings.phone}
+                </a>
+                <ul className="mt-4 grid justify-center gap-1.5">
+                  {perks.map((p) => (
+                    <li key={p} className="flex items-center gap-2 font-display text-[0.9375rem] font-semibold">
+                      <Check className="h-4 w-4 text-blue-light" strokeWidth={3} aria-hidden="true" />
+                      {p}
+                    </li>
+                  ))}
+                </ul>
+                <Button href={settings.phoneHref} className="mt-5 w-full px-4 whitespace-nowrap">
+                  Call Now
+                </Button>
+                <RatingChip settings={settings} light className="mt-4 justify-center" />
+              </div>
+              {parts.length > 2 ? (
+                <nav aria-label="In this guide" className="max-h-[calc(100vh-34rem)] min-h-40 overflow-y-auto rounded-[22px] border border-line bg-tint-2 p-5">
+                  <p className="mb-2 font-display text-xs font-bold tracking-[1.5px] text-blue-deep uppercase">In this guide</p>
+                  <ol className="grid gap-0.5">
+                    {parts.map((p) => (
+                      <li key={p.id}>
+                        <a href={`#${p.id}`} className="block rounded-lg px-2 py-1.5 text-[0.9375rem] leading-snug font-medium text-navy hover:bg-white hover:text-blue-deep">
+                          {p.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              ) : null}
             </div>
           </aside>
         </div>

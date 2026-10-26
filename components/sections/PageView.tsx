@@ -8,6 +8,9 @@ import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
 import { HomeHero, PageHero } from "./PageHero";
+import { pageAnimal } from "@/lib/topics";
+import { MapSection, type MapPlace } from "./MapSection";
+import { CtaSection } from "./CtaSection";
 import { LazyBatCatch } from "@/components/ui/LazyBatCatch";
 import { TrustBar, defaultTrust } from "./TrustBar";
 import { Sections } from "./Sections";
@@ -40,6 +43,7 @@ export async function PageView({
   crumbs,
   primary,
   closing = true,
+  map,
 }: {
   page: PageContent;
   settings: SiteSettings;
@@ -47,6 +51,8 @@ export async function PageView({
   crumbs?: Crumb[];
   primary?: Cta;
   closing?: boolean;
+  /** A county or city page: its map, just before the closing band (Kia). */
+  map?: MapPlace;
 }) {
   // Every page uses the new design now (Kia, Oct 26); the old ones stay only as code until they are removed.
   const design = "new" as PageContent["design"];
@@ -57,6 +63,11 @@ export async function PageView({
   });
   const schema = <JsonLd data={webPageSchema(path, page.seo.title, page.seo.description, parts)} />;
 
+  // With a map: the page's own closing band (its last section, if a call band) comes after the map.
+  const last = page.sections.at(-1);
+  const band = map && last?._type === "ctaSection" ? [last] : [];
+  const beforeBand = band.length ? page.sections.slice(0, -1) : page.sections;
+
   if (design === "new") {
     return (
       <>
@@ -64,10 +75,19 @@ export async function PageView({
         {path === "/" ? (
           <HomeHero hero={page.hero} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
         ) : (
-          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
+          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} animal={pageAnimal(path)?.images} />
         )}
         {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
-        <Sections sections={page.sections} ids={ids} closing={closing} />
+        {map ? (
+          // the map goes just before the closing call band
+          <>
+            <Sections sections={beforeBand} ids={ids} closing={false} reviews={!band.length} />
+            <MapSection place={map} settings={settings} />
+            {band.length ? <Sections sections={band} ids={ids.slice(beforeBand.length)} closing={false} reviews={false} /> : closing ? <CtaSection settings={settings} /> : null}
+          </>
+        ) : (
+          <Sections sections={page.sections} ids={ids} closing={closing} />
+        )}
         {path === "/" ? <LazyBatCatch /> : null}
       </>
     );

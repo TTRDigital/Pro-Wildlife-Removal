@@ -1,4 +1,4 @@
-import { Check, Mail, Phone } from "lucide-react";
+import { Check, Phone } from "lucide-react";
 import { images } from "@/lib/data/images";
 import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
 import { Button } from "@/components/ui/Button";
@@ -10,7 +10,7 @@ import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 /**
  * Call-only contact block (the client takes requests by phone and has no public street address):
  * a navy call panel (the number big, a ringing phone, the perks, the service area) beside the
- * name, number and email, and the rating. No visible hours (Ben, Oct 26).
+ * name and number, and the rating. The email is in the footer, not here (Kia, Oct 26). No visible hours (Ben, Oct 26).
  */
 export function ContactSection({
   section: s,
@@ -42,17 +42,6 @@ export function ContactSection({
               <p className="text-sm text-meta">{settings.tollFree}</p>
             ) : null}
           </div>
-        </li>
-        <li className="flex gap-3">
-          <span className="ico h-10 w-10">
-            <Mail className="h-5 w-5" strokeWidth={2} aria-hidden="true" />
-          </span>
-          <a
-            href={`mailto:${settings.email}`}
-            className="self-center break-all font-semibold text-navy hover:text-blue-deep"
-          >
-            {settings.email}
-          </a>
         </li>
       </ul>
       {license ? <p className="mt-5 text-sm text-meta">{license}</p> : null}
