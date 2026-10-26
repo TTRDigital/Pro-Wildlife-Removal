@@ -13,13 +13,9 @@ import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-remo
 import { squirrelRemovalPascoCounty } from "./content/service-places/squirrel-removal/pasco-county-fl.ts";
 import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
 import { raccoonRemovalSpringHill } from "./content/service-places/raccoon-removal/spring-hill-fl.ts";
-import { batRemovalBrooksville } from "./content/service-places/bat-removal/brooksville-fl.ts";
-import { squirrelRemovalBrooksville } from "./content/service-places/squirrel-removal/brooksville-fl.ts";
 import { raccoonRemovalBrooksville } from "./content/service-places/raccoon-removal/brooksville-fl.ts";
 import { batRemovalHudson } from "./content/service-places/bat-removal/hudson-fl.ts";
-import { batRemovalLandOLakes } from "./content/service-places/bat-removal/land-o-lakes-fl.ts";
 import { raccoonRemovalLandOLakes } from "./content/service-places/raccoon-removal/land-o-lakes-fl.ts";
-import { raccoonRemovalHoliday } from "./content/service-places/raccoon-removal/holiday-fl.ts";
 import { raccoonRemovalHernandoCounty } from "./content/service-places/raccoon-removal/hernando-county-fl.ts";
 import { batRemovalHernandoCounty } from "./content/service-places/bat-removal/hernando-county-fl.ts";
 import { ratRemovalHernandoCounty } from "./content/service-places/rat-removal/hernando-county-fl.ts";
@@ -53,16 +49,11 @@ export const fallbackServicePlaces: ServicePlace[] = [
   // Spring Hill (Nia)
   raccoonRemovalSpringHill,
   // Brooksville (Nia)
-  batRemovalBrooksville,
-  squirrelRemovalBrooksville,
   raccoonRemovalBrooksville,
   // Hudson (Nia)
   batRemovalHudson,
   // Land O' Lakes (Nia)
-  batRemovalLandOLakes,
   raccoonRemovalLandOLakes,
-  // Holiday (Nia)
-  raccoonRemovalHoliday,
   // Hernando County (Nia)
   ratRemovalHernandoCounty,
   batRemovalHernandoCounty,

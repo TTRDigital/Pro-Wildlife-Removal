@@ -22,10 +22,10 @@ export const batRemovalHernandoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-hernando-county-fl",
   order: 51,
-  heroText: "Bats roosting in a Hernando County attic, barn or soffit? We find every gap, let them out through one-way devices when the season allows and seal the openings. Call (727) 594-7705.",
+  heroText: "Bats roosting in a Hernando County attic, barn or soffit? We look for every opening, let them out through one-way devices when the season allows and seal the openings. Call (727) 594-7705.",
   answerHeading: "How are bats removed from a home in Hernando County?",
   answer:
-    "Through exclusion: one-way devices at the entry points let the colony fly out and stop it from getting back in. FWC allows that only from August 15 to April 15, and bans killing, poisoning or relocating bats. Pro Wildlife Removal finds every gap in a Hernando home, fits the devices and seals up. Call (727) 594-7705.",
+    "Through exclusion: one-way devices at the entry points let the colony fly out and stop it from getting back in. FWC allows that only from August 15 to April 15, and bans killing, poisoning or relocating bats. Pro Wildlife Removal checks a Hernando home for the gaps a colony uses, fits the devices and seals up. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Hundreds of bats at Chinsegut"],
   localHeading: "What to know about bats in Hernando County",
   localIntro: "Hernando has a public bat colony at an FWC wildlife area, and its rabies records show how rarely bats test positive here. These are the local facts.",

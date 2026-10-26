@@ -23,20 +23,20 @@ export const batRemovalHudson = servicePlacePage({
   location: "about-us/service-area/hudson-wildlife-removal",
   county: "Pasco",
   order: 25,
-  heroText: "Bats tucked under Hudson soffits, tiles or fascia, and droppings piling up below? We find every way in, fit one-way doors when the law allows and seal up after them. Call (727) 594-7705.",
+  heroText: "Bats tucked under Hudson soffits, tiles or fascia, and droppings piling up below? We look for every opening, fit one-way doors when the law allows and seal up after them. Call (727) 594-7705.",
   answerHeading: "How are bats removed from a Hudson building?",
   answer:
-    "Bats in Hudson are let out, not trapped or killed: one-way devices at the entry points let them fly out and keep them from getting back in, and only from August 15 to April 15 under FWC rules. Pro Wildlife Removal finds every gap, fits the devices and seals the building after. Call (727) 594-7705.",
+    "Bats in Hudson are let out, not trapped or killed: one-way devices at the entry points let them fly out and keep them from getting back in, and only from August 15 to April 15 under FWC rules. Pro Wildlife Removal checks for the gaps a colony uses, fits the devices and seals up after. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Hudson's fire station bats"],
   localHeading: "What to know about bats in Hudson",
-  localIntro: "In 2017, a bat colony forced firefighters out of a Hudson fire station. What happened there is a good guide to how a bat problem plays out in any Hudson building.",
+  localIntro: "In 2017, a bat colony forced firefighters out of a Hudson fire station. What happened there shows how a bat colony can take over a building.",
   local: [
-    { icon: "home", title: "Bats in Fire Station 39", text: p("In June 2017, Fox reported that bats had been getting into Pasco Fire Station 39 on County Line Road in Hudson for five years. WUSF put the colony at 500 to 1,000 bats.") },
-    { icon: "users", title: "Crews moved out", text: p("Fire officials called the station unsanitary and unsafe. Per Fox, the engine company moved to Station 20 in Shady Hills and the rescue company to Hudson Station 10 while the bats were dealt with.") },
+    { icon: "home", title: "Bats in Fire Station 39", text: p("In June 2017, Fox reported that bats had been getting into Pasco Fire Station 39 on County Line Road in Hudson for five years. WUSF, citing the Tampa Bay Times, reported 500 to 1,000 bats.") },
+    { icon: "users", title: "Crews moved out", text: p("WUSF reported the bats had made the station an unsanitary and unsafe place to work. Per Fox, the engine company moved to Station 20 in Shady Hills and the rescue company to Hudson Station 10 while the bats were dealt with.") },
     { icon: "wrench", title: "One-way devices on the roof", text: p("Devices went on the roof at the entry points so bats could fly out but not get back in, Fox reported. Firefighters couldn't return until there had been no bat activity for at least 72 hours.") },
-    { icon: "phone", title: "A possible bite, and rabies shots", text: p("One firefighter reported a bite she couldn't place, from an insect or a bat. As a precaution, Fox reported, every firefighter at the station got a rabies shot.") },
+    { icon: "phone", title: "A possible bite, and rabies shots", text: p("One firefighter reported a bite she couldn't place, from an insect or a bat. As a precaution, Fox reported, each firefighter at the station was getting a rabies shot.") },
     { icon: "critter", title: "Report any bat contact", text: p("Pasco County Animal Services asks residents to report bare skin contact with a bat, or a bat found in a room where someone slept, to DOH-Pasco or the county. The county recorded one rabid bat from 2013 to 2023.") },
-    { icon: "leaf", title: "Pups and the legal season", text: p("WUSF reported that full removal at the station had to wait until after August, when the young bats matured. FWC's maternity season runs April 16 to August 14, and exclusion is legal only from August 15 to April 15.") },
+    { icon: "leaf", title: "Pups and the legal season", text: p("WUSF reported full removal had to wait until after August, when the young matured, and Fox reported fire officials filed for an emergency removal with FWC. Without a permit, exclusion is legal only from August 15 to April 15.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Hudson, from each agency's own page.",
   contacts: [
@@ -50,7 +50,7 @@ export const batRemovalHudson = servicePlacePage({
   faqs: [
     faq(
       "What happened with the bats at the Hudson fire station?",
-      "In 2017, a colony WUSF estimated at 500 to 1,000 bats forced crews out of Pasco Fire Station 39 on County Line Road. One-way devices went on the roof, and crews could return only after 72 hours with no bat activity, per Fox.",
+      "In 2017, a colony that WUSF, citing the Tampa Bay Times, put at 500 to 1,000 bats forced crews out of Pasco Fire Station 39 on County Line Road. One-way devices went on the roof, and crews could return only after 72 hours with no bat activity, per Fox.",
     ),
     faq(
       "Can bats be removed from my Hudson home in summer?",
@@ -58,7 +58,7 @@ export const batRemovalHudson = servicePlacePage({
     ),
     faq(
       "Should I worry about rabies from bats in Hudson?",
-      "Rabid bats are rare in Pasco, with one on the county's 2013 to 2023 record, but bites can be hard to notice. Report any bare skin contact, or a bat in a room where someone slept, to DOH-Pasco.",
+      "One rabid bat is on Pasco's 2013 to 2023 record, but bites can be hard to notice. Report any bare skin contact, or a bat in a room where someone slept, to DOH-Pasco.",
     ),
     faq(
       "Can I trap the bats and move them?",
@@ -78,9 +78,9 @@ export const batRemovalHudson = servicePlacePage({
       "Bat removal in Hudson, FL: colonies let out through one-way devices in the legal season and gaps sealed, plus what Hudson's 2017 fire station colony shows.",
   },
   sources: [
-    { title: "Fox 13, June 13, 2017: Bats invade Pasco fire station (Fire Station 39, County Line Road, Hudson)", url: FOX },
+    { title: "Fox 13, June 13, 2017: Bats invade Pasco fire station (Fire Station 39, County Line Road, Hudson; fire officials filed for an emergency removal with FWC; each firefighter getting a rabies shot)", url: FOX },
     { title: "Fox (syndicated), June 14, 2017: Bats invade Pasco fire station (bats getting in for five years; engine company to Station 20, Shady Hills; rescue company to Hudson Station 10; roof devices keep bats from getting back in; no bat activity for at least 72 hours before return; a possible bite; each firefighter getting a rabies shot)", url: FOXSYN },
-    { title: "WUSF, June 13, 2017: Bats force shutdown of Pasco fire station (500 to 1,000 bats; unsanitary and unsafe; full removal after August when the young mature)", url: WUSF },
+    { title: "WUSF, June 13, 2017: Bats force shutdown of Pasco fire station (500 to 1,000 bats, citing the Tampa Bay Times; unsanitary and unsafe; full removal after August when the young mature)", url: WUSF },
     { title: "Pasco County: Rabies awareness (24 positive animals 2013-2023, 1 a bat; report bare skin contact with a bat, or a bat in a room where someone slept, to DOH-Pasco or PCAS)", url: RABIES },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug. 14; exclusion devices legal Aug. 15 to April 15; four nights; 50°F)", url: SEASON },
     { title: "FWC: Bats in buildings (capture and relocation of bats illegal; no poisons or fumigants)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/" },

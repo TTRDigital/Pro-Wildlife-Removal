@@ -22,10 +22,10 @@ export const batRemovalPascoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-pasco-county-fl",
   order: 21,
-  heroText: "Bats pouring out of a Pasco roofline at dusk? We find every gap they use, fit one-way doors in the legal season and seal the roof once they're out. Call (727) 594-7705.",
+  heroText: "Bats pouring out of a Pasco roofline at dusk? We look for every opening they use, fit one-way doors in the legal season and seal the roof once they're out. Call (727) 594-7705.",
   answerHeading: "How are bats removed from a Pasco County home?",
   answer:
-    "Legally, bats in Pasco County come out through one-way exclusion doors, never by killing or poisoning them, and only from August 15 to April 15. Pro Wildlife Removal finds every gap in the roof or soffit, fits the doors, then seals the openings once the colony is gone. Call (727) 594-7705.",
+    "Legally, bats in Pasco County come out through one-way exclusion doors, never by killing or poisoning them, and only from August 15 to April 15. Pro Wildlife Removal checks the roof and soffits for the gaps a colony uses, fits the doors, then seals the openings once the colony is gone. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "No poisons, by state rule"],
   localHeading: "What to know about bats in Pasco County",
   localIntro: "Pasco has had big colonies in public buildings, and one rabid bat on a school campus. Here is what the county's records and FWC's rules say.",
