@@ -63,16 +63,16 @@ export const dadeCity = countyPage({
     ),
     faq(
       "How fast can you get to Dade City?",
-      "Dade City calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Dade City. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Dade City]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dade City?",
   ctaText: "Dade City homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Dade City, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Dade City, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Dade City, FL: raccoons, rats, squirrels, opossums, armadillos and snakes near the Green Swamp. Who to call for what in Dade City. Call (727) 594-7705.",
+      "Wildlife removal in Dade City, FL: raccoons, rats, squirrels, opossums and snakes near the Green Swamp, and who to call for what in town. (727) 594-7705.",
   },
   sources: [
     S.edr,

@@ -50,7 +50,7 @@ export const hillsborough = countyPage({
   faqs: [
     faq(
       "What number do I call in Hillsborough County?",
-      "Call (727) 594-7705. It's answered 24 hours a day, 7 days a week.",
+      "Call (727) 594-7705. Same-day appointments are often available in Hillsborough County.",
       "[PLACEHOLDER: ask the client: typical response time in Hillsborough County]",
     ),
     faq(
@@ -77,9 +77,9 @@ export const hillsborough = countyPage({
   ctaHeading: "Wildlife problem in Hillsborough?",
   ctaText: "Anywhere in Hillsborough, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Hillsborough County, FL | Tampa Area | Pro Wildlife Removal",
+    title: "Hillsborough County Wildlife Removal | Pro Wildlife Removal",
     description:
-      "Wildlife removal across Hillsborough County: Tampa, Brandon, Riverview, Plant City and Temple Terrace. Bats, rats, raccoons, squirrels and snakes. Call (727) 594-7705.",
+      "Wildlife removal across Hillsborough County: Tampa, Brandon, Riverview, Plant City and Temple Terrace. Bats, rats, raccoons and snakes: (727) 594-7705.",
   },
   sources: [
     S.censusPop,

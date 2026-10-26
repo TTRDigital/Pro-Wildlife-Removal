@@ -239,9 +239,9 @@ export const opossumsInAttic: Service = {
     },
   ],
   seo: {
-    title: "Opossums in the Attic in Tampa Bay: What to Do | Pro Wildlife Removal",
+    title: "Opossums in the Attic: What to Do | Pro Wildlife Removal",
     description:
-      "Possum in the attic or crawl space? How to tell it from a raccoon, what not to do, Florida's release rules and how to keep the next one out, in Tampa Bay. Call (727) 594-7705.",
+      "Possum in the attic or crawl space? How to tell it from a raccoon, what not to do, Florida's release rules and keeping the next one out. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Opossums (mostly nocturnal, daytime activity normal; gray fur, hairless prehensile tail, opposable thumbs; hiss, drool, growl, play dead, foul smell; don't pick up; scavenger, ticks, partly immune to venom; secure food; close openings once all are out; motion sprinkler; wire mesh; release rules; removing one doesn't stop others)", url: FLYER },

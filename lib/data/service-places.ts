@@ -1,11 +1,15 @@
 import type { PlacePage, ServicePlace } from "../types";
+import { raccoonRemovalTampa } from "./content/service-places/raccoon-removal/tampa-fl.ts";
 
-/**
- * Every animal-by-place page (TTR-738), one line per page. The pages live in
- * lib/data/content/service-places/<service>/<place>.ts; a page is on the site
- * (route, sitemap, link lists, redirects from old per-city URLs) once it is listed here.
+/*
+ * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
+ * Wade's route. Writers add one import and one line per page; keep the list
+ * grouped by place. The 9 rat-in-city pages stay in locations.ts at their URLs.
  */
-export const fallbackServicePlaces: ServicePlace[] = [];
+export const fallbackServicePlaces: ServicePlace[] = [
+  // Tampa (Cole)
+  raccoonRemovalTampa,
+];
 
 /**
  * Place pages that already exist at their own URL and keep it (Ben, Oct 26, 2026): the rat-removal-in-<city> pages

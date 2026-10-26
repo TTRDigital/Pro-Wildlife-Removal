@@ -65,16 +65,16 @@ export const palmHarbor = countyPage({
     ),
     faq(
       "How quickly can you get to Palm Harbor?",
-      "Palm Harbor calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Palm Harbor. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Palm Harbor]",
     ),
   ],
   ctaHeading: "Wildlife problem in Palm Harbor?",
   ctaText: "Palm Harbor homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Palm Harbor, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Palm Harbor, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Lake Tarpon. Who to call for what in Palm Harbor. Call (727) 594-7705.",
+      "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Lake Tarpon, and who to call for what locally. (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Palm Harbor CDP, 61,366)", url: CENSUS },

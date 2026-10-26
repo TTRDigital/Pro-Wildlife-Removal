@@ -104,13 +104,14 @@ export const home: PageContent = {
       heading: "What you can count on",
       body: p(
         "Wildlife work in Florida comes with rules: when bats can be excluded, how often traps must be checked, where a trapped animal may be released. We follow them on every job, and we explain them to you, so you know why a job is done the way it is.",
+        "Josh Holmberg started Pro Wildlife Removal in 2016. He's a sixth-generation Floridian who grew up hiking and catching animals from Clearwater to Cedar Key, and he has worked in wildlife removal for 15 years, including several years with a national wildlife company. He opened his own company to do humane removal with better customer service.",
       ),
       checklist: [
         "A free inspection, and the price for your home before any work starts",
         "[PLACEHOLDER: ask the client: confirm wildlife removal is all you do (no general pest control)]",
         "Humane methods that follow Florida Fish and Wildlife Conservation Commission rules",
         "Entry points sealed and the mess cleaned up, not just the animal taken away",
-        "[PLACEHOLDER: ask the client: years in business]",
+        "Founded in 2016 by Josh Holmberg, with 15 years in wildlife removal",
         "[PLACEHOLDER: ask the client: number of jobs done, or the current Google rating and review count to show here]",
       ],
       image: images.prowildlifeRemovalAgentHoldingAnIguanaa,
@@ -172,7 +173,7 @@ export const home: PageContent = {
         ),
         faq(
           "How fast can you come out?",
-          "We answer the phone 24 hours a day, 7 days a week. For an animal loose inside the living space, a snake in the house or bees near people, tell us when you call so we can treat it as urgent.",
+          "Same-day appointments are often available. For an animal loose inside the living space, a snake in the house or bees near people, tell us when you call so we can treat it as urgent.",
           "[PLACEHOLDER: ask the client: typical response time for emergencies and for regular inspections]",
         ),
         faq(
@@ -187,6 +188,11 @@ export const home: PageContent = {
         faq(
           "Do you seal the entry points?",
           "Yes. Removing the animal without closing the hole just makes room for the next one. After the animals are out, we close the openings they used and the weak spots around them.",
+        ),
+        faq(
+          "Another company already tried. Why are the animals still getting in?",
+          "Usually because an opening was missed. UF/IFAS says rodent-proofing only works if every possible entry is blocked, and that rats probe new repairs in the first couple of weeks. Trapping without sealing just makes room for the next animal. We start with the whole roofline and attic, not just the hole you found.",
+          "Before you hire anyone, ask what the quote covers: every opening on the house, or only the one in use today.",
         ),
         faq(
           "Do you clean up the attic afterwards?",
@@ -214,7 +220,7 @@ export const home: PageContent = {
   seo: {
     title: "Wildlife Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal in Tampa Bay and 9 central and west Florida counties. Humane removal, sealing and cleanup. Call (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across Tampa Bay and 9 Florida counties, with sealing and cleanup. Free inspection: (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
@@ -222,13 +228,13 @@ export const home: PageContent = {
     { title: "FWC: FAQs, nuisance wildlife (24-hour trap checks, release on same property or 40+ contiguous acres in the same county with written permission, native species only)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; dens in attics and crawl spaces)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (roof rats live in trees and upper levels of homes; trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
-    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats: up to 6 litters a year)", url: "https://journals.flvc.org/edis/article/view/136514" },
+    { title: "Josh Holmberg, owner: biography supplied for the author page (Oct 16, 2026): founded 2016, 15 years in wildlife removal, several years with a national wildlife company, sixth-generation Floridian", url: "https://prowildliferemoval.net/" },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats: up to 6 litters a year; block every possible entry; rats test repairs in the first 2 weeks)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     TRAP_RULES_SOURCE,
   ],
   clientQuestions: [
     "What does the follow-up include (return visit, seal check, warranty on sealing) and for how long?",
-    "How many years has Pro Wildlife Removal been in business?",
     "How many jobs has the company done, or which rating and review count should the site show (the live site says 4.7 from 273 Google reviews)?",
     "Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
     "Typical response time for emergencies and for regular inspections?",

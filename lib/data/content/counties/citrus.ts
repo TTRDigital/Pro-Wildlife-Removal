@@ -49,7 +49,7 @@ export const citrus = countyPage({
   faqs: [
     faq(
       "What's the Citrus County phone number?",
-      "Citrus County calls go to (727) 594-7705, answered 24/7.",
+      "Call (727) 594-7705. Same-day appointments are often available in Citrus County.",
       "[PLACEHOLDER: ask the client: typical response time in Citrus County]",
     ),
     faq(
@@ -76,9 +76,9 @@ export const citrus = countyPage({
   ctaHeading: "Wildlife problem in Citrus County?",
   ctaText: "Anywhere in Citrus County, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Citrus County, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Citrus County, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Citrus County: Inverness, Crystal River, Homosassa, Lecanto, Floral City and Pine Ridge. Raccoons, snakes, bats, rats and more. Call (727) 594-7705.",
+      "Wildlife removal in Citrus County: Inverness, Crystal River, Homosassa, Lecanto and Floral City. Raccoons, snakes, bats, rats and more: (727) 594-7705.",
   },
   sources: [
     S.censusPop,

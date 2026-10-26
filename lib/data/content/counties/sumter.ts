@@ -52,7 +52,7 @@ export const sumter = countyPage({
     ),
     faq(
       "What's the phone number for Sumter County?",
-      "For Sumter County, including The Villages, call (727) 594-7705. We answer 24/7.",
+      "Call (727) 594-7705. Same-day appointments are often available in Sumter County.",
       "[PLACEHOLDER: ask the client: typical response time in Sumter County and The Villages]",
     ),
     faq(
@@ -75,7 +75,7 @@ export const sumter = countyPage({
   ctaHeading: "Wildlife problem in Sumter County?",
   ctaText: "Anywhere in Sumter County, call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Sumter County, FL & The Villages | Pro Wildlife Removal",
+    title: "Wildlife Removal in Sumter County, FL | Pro Wildlife Removal",
     description:
       "Wildlife removal in Sumter County and The Villages: Wildwood, Bushnell, Webster and more. Raccoons, armadillos, snakes, bats and rats. Call (727) 594-7705.",
   },

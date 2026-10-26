@@ -70,16 +70,16 @@ export const tampa = countyPage({
     ),
     faq(
       "How fast can you get to me in Tampa?",
-      "We answer the phone 24/7.",
+      "Same-day appointments are often available in Tampa. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Tampa]",
     ),
   ],
   ctaHeading: "Wildlife problem in Tampa?",
   ctaText: "Tampa calls go to (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Tampa, FL | Rats, Bats, Raccoons | Pro Wildlife Removal",
+    title: "Wildlife Removal in Tampa, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Tampa, FL: roof rats, bats, raccoons, squirrels, snakes, bees and dead animals. Who to call in Tampa for what, and Florida's rules. Call (727) 594-7705.",
+      "Wildlife removal in Tampa, FL: roof rats, bats, raccoons, squirrels, snakes, bees and dead animals. Who to call in Tampa for what, and Florida's rules.",
   },
   sources: [
     S.edr,

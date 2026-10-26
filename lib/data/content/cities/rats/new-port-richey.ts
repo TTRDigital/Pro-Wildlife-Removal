@@ -62,16 +62,16 @@ export const newPortRicheyRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in New Port Richey?",
-      "Rat calls from New Port Richey to (727) 594-7705 are answered 24/7.",
+      "Same-day rat inspections are often available in New Port Richey. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in New Port Richey]",
     ),
   ],
   ctaHeading: "Rats in your New Port Richey home?",
   ctaText: "For rats in New Port Richey, call (727) 594-7705.",
   seo: {
-    title: "Rat Removal in New Port Richey, FL | Call (727) 594-7705 | Pro Wildlife Removal",
+    title: "Rat Removal in New Port Richey, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in New Port Richey, FL: rats sealed out and trapped in homes, garages and boathouses, plus how the city's trash service works. Call (727) 594-7705.",
+      "Rat removal in New Port Richey, FL: rats sealed out and trapped in homes, garages and boathouses, plus how the city's trash service works. (727) 594-7705.",
   },
   sources: [
     { title: "City of New Port Richey: City trash services (Waste Pro dba J.D. Parker & Sons is the single hauler; residential collection Mondays and Thursdays, 6 a.m. to 7 p.m., twice a week; 96-gallon carts; (727) 841-4260)", url: TRASH },
