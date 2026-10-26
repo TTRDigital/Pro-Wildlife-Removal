@@ -99,5 +99,6 @@ export const existingPlacePages: PlacePage[] = [
   { service: "rat-removal", placeName: "New Port Richey", placeKind: "city", county: "Pasco", path: "rat-removal-new-port-richey", location: "about-us/service-area/wildlife-removal-new-port-richey" },
   { service: "rat-removal", placeName: "Safety Harbor", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-safety-harbor", location: "about-us/service-area/wildlife-removal-safety-harbor" },
   { service: "rat-removal", placeName: "Spring Hill", placeKind: "city", county: "Hernando", path: "about-us/service-area/rat-removal-services-spring-hill-fl", location: "about-us/service-area/wildlife-removal-spring-hill-fl" },
+  { service: "rat-removal", placeName: "The Villages", placeKind: "city", county: "Sumter", path: "about-us/service-area/rat-removal-services-the-villages-fl", location: "about-us/service-area/wildlife-removal-the-villages" },
   { service: "rat-removal", placeName: "St. Petersburg", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-services-st-petersburg-fl", location: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl" },
 ];
