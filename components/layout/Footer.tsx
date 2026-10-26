@@ -20,6 +20,8 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
     { label: "Terms of Service", href: "/terms-of-service/" },
     { label: "Privacy Policy", href: "/privacy-policy/" },
     { label: "Sitemap", href: "/sitemap/" },
+    // credits for the CC BY animal clips (Ben)
+    { label: "Photo and video credits", href: "/credits/" },
   ];
   return (
     <footer className="bg-navy-2 font-display text-[0.9375rem] text-white/75">

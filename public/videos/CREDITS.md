@@ -1,7 +1,8 @@
 # Animal clip credits
 
 Every clip here is real camera footage of a live animal, taken from Wikimedia Commons under a
-license that needs no permission or credit. None is AI-generated. Each one was cut to about 5.5
+license that needs no permission or credit, or under CC BY, which needs the credit given here and
+on the site's /credits/ page. None is AI-generated. Each one was cut to about 5.5
 seconds, scaled to 480x360 and saved without sound; nothing else was changed.
 
 ## raccoon.mp4
@@ -47,3 +48,13 @@ seconds, scaled to 480x360 and saved without sound; nothing else was changed.
 - Author: Dsgridgerunner (own work, uploaded by the author)
 - Filmed: 1 April 2025
 - License: CC0 1.0 (Creative Commons Zero, Public Domain Dedication)
+
+## bat.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:Bats_evacuating_the_Congress_Bridge_in_Austin_TX.webm
+  (originally on YouTube: https://www.youtube.com/watch?v=8wJMolQp-N4)
+- What it shows: Mexican free-tailed bats streaming out of the Congress Avenue Bridge in Austin,
+  Texas, at dusk (the same species that roosts in Florida homes); cropped to the tile's shape
+- Author: cdempsey26
+- Filmed: 2011
+- License: CC BY 3.0 (Creative Commons Attribution 3.0), credited on /credits/
