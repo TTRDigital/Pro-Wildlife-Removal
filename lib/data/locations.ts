@@ -1638,7 +1638,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Raccoons can cause significant damage to your property and pose health risks. Our team uses efficient trapping and relocation techniques to safely ",
+        "text": "In Lady Lake, raccoons tear into attics and crawl spaces and can carry rabies. We trap them under Florida's rules to safely ",
         "marks": []
        },
        {
