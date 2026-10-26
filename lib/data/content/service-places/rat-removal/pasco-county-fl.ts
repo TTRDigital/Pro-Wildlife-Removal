@@ -36,7 +36,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
     { icon: "critter", title: "Hen feed must be rat-proof", text: p("Pasco's backyard hen ordinance, adopted in November 2025, allows up to four hens at most homes. It requires all feed to be kept in rodent- and predator-proof containers and coops to be kept up so rodents don't move in.") },
     { icon: "search", title: "No junk piles in the yard", text: p("County code bars using a yard to store junk, appliances or other nuisance items, or as a garbage dump. Those piles are exactly what Florida DOH tells homeowners to get rid of to control rodents.") },
     { icon: "drop", title: "A Gulf coast county", text: p("Florida DEP counts 20 miles of Pasco shoreline. UF/IFAS says Norway rats in Florida are most common along sea coasts and canals, and Florida DOH says they burrow beneath concrete slabs and in garbage dumps.") },
-    { icon: "leaf", title: "Citrus season is rat season", text: p("DEP describes Pasco as known for its citrus groves. UF/IFAS calls the roof rat the worst rodent pest in Florida, and says hollowed-out fruit shows up from September through March, as citrus ripens.") },
+    { icon: "leaf", title: "Citrus season is rat season", text: p("DEP describes Pasco as known for its citrus groves. UF/IFAS has said roof-rat damage to fruit, hollowed-out citrus, shows up from September through March, as the fruit ripens.") },
     { icon: "map-pin", title: "Overgrown lot next door", text: p("Only a neighbor who owns or lives on land touching an overgrown parcel can file a complaint about it, under Pasco's Land Development Code. Complaints go to Customer Service, 727-847-2411, with your name and address.") },
   ],
   contactsIntro: "Who handles what when rats are the problem in Pasco, from the county's own pages.",
@@ -59,7 +59,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "Why do I see rats in my orange tree?",
-      "That's usually a roof rat. Florida DOH says roof rats are known for hollowing out citrus fruit in trees or on the ground, and UF/IFAS says they travel along branches and utility lines to reach roofs. Trimming limbs back from the house helps.",
+      "That's usually a roof rat. Florida DOH says roof rats are known for hollowing out citrus fruit in trees or on the ground, and UF/IFAS says rats use limbs that touch or overhang a house as a highway inside. Trimming limbs back from the house helps.",
     ),
     faq(
       "Can I report a neighbor's junk pile in Pasco?",
@@ -85,7 +85,8 @@ export const ratRemovalPascoCounty = servicePlacePage({
     { title: "Florida DEP: Coastal access guide, Pasco County (known for its citrus groves; 20 miles of shoreline)", url: DEP },
     { title: "Florida DOH Gadsden: Rodent control (Norway rats burrow beneath concrete slabs, in garbage dumps and wherever food, water and shelter are present; roof rats hollow out citrus fruit in trees or on the ground; get rid of trash, discarded appliances and junk; store pet foods and grains in galvanized cans with tight-fitting lids)", url: GADSDEN },
     { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (2013, archived; Norway rats most common along sea coasts and canals)", url: ENY224 },
-    { title: "UF/IFAS EDIS SSWEC120: Control of Roof Rats in Fruit Trees (worst rodent pest in Florida; hollowed-out fruit through the citrus season, September through March; travel on utility lines and branches)", url: UW120 },
+    { title: "UF/IFAS EDIS SSWEC120: Control of Roof Rats in Fruit Trees (archived; hollowed-out fruit through the citrus season, September through March)", url: UW120 },
+    { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (rats use limbs that touch or overhang the house as a highway; prune overhanging limbs)", url: "https://ask.ifas.ufl.edu/publication/IN1397" },
   ],
   clientQuestions: ["Typical response time for a rat call in Pasco County?", "A real Google review from a Pasco County rat job (TTR-723), and real Pasco rat job photos."],
 });
