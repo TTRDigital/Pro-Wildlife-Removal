@@ -20,7 +20,7 @@ const { fallbackServicePlaces } = await import(repo + "/lib/data/service-places.
 const { TRAP_RULES_2026 } = await import(repo + "/lib/data/content/notes.ts");
 
 const txt = (r) => (r || []).map((b) => (b.children || []).map((c) => c.text).join("")).join("\n");
-const shared = new Set(TRAP_RULES_2026.replace(/\*\*/g, "").split(/(?<=[.!?])\s+/).map((x) => x.trim()));
+const shared = new Set(TRAP_RULES_2026.replace(/\*\*/g, "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").split(/(?<=[.!?])\s+/).map((x) => x.trim()));
 
 const pages = [["home", fallbackPages.home, "page"]];
 for (const s of fallbackServices.filter((x) => x.sources)) pages.push([s.slug, s, "page"]);

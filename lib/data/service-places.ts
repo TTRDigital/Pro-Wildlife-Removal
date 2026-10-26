@@ -15,7 +15,6 @@ import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-re
 import { raccoonRemovalSpringHill } from "./content/service-places/raccoon-removal/spring-hill-fl.ts";
 import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
 import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
-import { squirrelRemovalPinellasCounty } from "./content/service-places/squirrel-removal/pinellas-county-fl.ts";
 import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
 
 /*
@@ -45,7 +44,6 @@ export const fallbackServicePlaces: ServicePlace[] = [
   // Pinellas County (Rhea)
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,
-  squirrelRemovalPinellasCounty,
   raccoonRemovalPinellasCounty,
 ];
 

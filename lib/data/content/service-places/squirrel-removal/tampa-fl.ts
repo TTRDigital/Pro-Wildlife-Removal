@@ -26,9 +26,9 @@ export const squirrelRemovalTampa = servicePlacePage({
   localIntro: "Squirrels follow the trees, and Tampa has millions of them, many right over the roofs.",
   local: [
     { icon: "leaf", title: "Ten million trees", text: p("The city counts 10,401,421 trees in Tampa's urban forest, from 114 tree and palm species, and says 86% are native.") },
-    { icon: "home", title: "Canopy over the houses", text: p("The city's 2021 tree canopy analysis found 42% of Tampa's canopy on residential properties.") },
+    { icon: "home", title: "Canopy over the houses", text: p("The city's 2021 tree canopy analysis found 42% of Tampa's canopy on residential properties. That puts a lot of limbs within reach of the roofs squirrels want to get into.") },
     { icon: "map-pin", title: "Limbs are the way in", text: p("UF/IFAS says squirrels and rats use limbs that touch or overhang a house as a highway inside.") },
-    { icon: "wrench", title: "Check before you cut", text: p("Tampa protects oaks, pines and other trees over 5 inches across, and requires a permit before pruning a tree 24 inches or more in diameter. Ask before cutting big limbs back from the roof.") },
+    { icon: "wrench", title: "Check before you cut", text: p("Tampa protects oaks, pines and other trees over 5 inches across, and requires a permit before pruning a tree 24 inches or more in diameter. Before you cut back a limb squirrels use to reach the roof, check whether it needs a permit.") },
     { icon: "critter", title: "Gray squirrels in attics", text: p("FWC says gray squirrels are active during the day and sometimes nest in attics when they can get in.") },
     { icon: "search", title: "Fox squirrels in the preserves", text: p("In Hillsborough County east of Tampa, the county lists Sherman's fox squirrel as a resident of Alderman's Ford Nature Preserve, 985 acres near Plant City, and the Florida Birding Trail notes them at Balm-Boyette Scrub.") },
   ],
