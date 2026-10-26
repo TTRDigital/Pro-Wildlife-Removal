@@ -64,9 +64,9 @@ export type ServicePlaceInput = {
 export function servicePlacePage(c: ServicePlaceInput): ServicePlace {
   const place = `${c.placeName}, FL`;
   const related: Card[] = [
-    { icon: "critter", title: `${c.animal} removal`, text: p(`How we handle ${c.animals.toLowerCase()} anywhere we work, and Florida's rules for them.`), href: `/services/${c.service}/` },
-    ...(c.attic ? [{ icon: "home" as const, title: c.attic.label, text: p(`Signs, damage and cleanup when they get into the attic.`), href: `/services/${c.attic.slug}/` }] : []),
-    { icon: "map-pin", title: `Wildlife removal in ${c.placeName}`, text: p(`Every animal we handle in ${c.placeName}, and who to call for what.`), href: `/${c.location}/` },
+    { icon: "critter", title: `${c.animal} removal`, text: p(`How we handle ${c.animals.toLowerCase()} in ${c.placeName} and everywhere else we work, with Florida's rules for them.`), href: `/services/${c.service}/` },
+    ...(c.attic ? [{ icon: "home" as const, title: c.attic.label, text: p(`Signs, damage and cleanup when ${c.animals.toLowerCase()} get into a ${c.placeName} attic.`), href: `/services/${c.attic.slug}/` }] : []),
+    { icon: "map-pin", title: `Wildlife removal in ${c.placeName}`, text: p(`Beyond ${c.animals.toLowerCase()}: every animal we handle in ${c.placeName}, and who to call for what.`), href: `/${c.location}/` },
     ...(c.extraLink ? [{ icon: "search" as const, title: c.extraLink.label, text: p(c.extraLink.text), href: c.extraLink.href }] : []),
   ];
   return {
