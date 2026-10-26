@@ -2,6 +2,14 @@ import { images } from "../../images.ts";
 import type { Card, Faq, Img, ServicePlace, Source } from "../../../types";
 import { p } from "../pt.ts";
 
+/** Each service page's own hero photo, reused as the place pages' first slide. */
+const HERO: Record<string, Img> = {
+  "rat-removal": images.ratRemoval2,
+  "bat-removal": images.batRemoval2,
+  "raccoon-removal": images.raccoonRemoval,
+  "squirrel-removal": images.squirrelRemoval2,
+};
+
 /*
  * Animal x place pages (TTR-738): /services/<service>/<place>/, e.g.
  * /services/raccoon-removal/tampa-fl/. Only the layout is shared; every file
@@ -34,7 +42,7 @@ export type ServicePlaceInput = {
   order?: number;
   /** Hero H1; defaults to "[Animal] Removal in [Place], FL". */
   heading?: string;
-  /** Real job photo only; defaults to the truck photo the county pages use. */
+  /** Real photo only; defaults to the service page's own hero photo, so the slideshow opens on the animal (Jade, Oct 26). */
   image?: Img;
   heroText: string;
   answerHeading: string;
@@ -83,7 +91,7 @@ export function servicePlacePage(c: ServicePlaceInput): ServicePlace {
       heading: c.heading ?? `${c.animal} Removal in ${place}`,
       highlight: `${c.animal} Removal`,
       text: p(c.heroText),
-      image: c.image ?? images.certifiedWildlifeRemovalExpertsInTampaFl,
+      image: c.image ?? HERO[c.service] ?? images.certifiedWildlifeRemovalExpertsInTampaFl,
       ctas: [PHONE],
     },
     sections: [
