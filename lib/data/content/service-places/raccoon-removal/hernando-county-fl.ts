@@ -70,7 +70,6 @@ export const raccoonRemovalHernandoCounty = servicePlacePage({
     faq(
       "How fast can you reach a raccoon job in Hernando County?",
       "Same-day appointments for raccoons are often available in Hernando County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Hernando County]",
     ),
   ],
   ctaHeading: "Raccoon in your Hernando County home?",
@@ -95,5 +94,5 @@ export const raccoonRemovalHernandoCounty = servicePlacePage({
     { title: "Hernando County: Garbage (lids closed to prevent scavenging of animals; garbage outside the blue cart not collected)", url: GARBAGE },
     { title: "Hernando County Sheriff's Office: Animal Services (services listed: pet surrender, owner-requested euthanasia, pet licensing, TNVR, lost or found pets, found kittens, dangerous dogs)", url: "https://www.hernandosheriff.org/AnimalServices/" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Hernando County?", "A real Google review from a Hernando County raccoon job (TTR-723), and real Hernando raccoon job photos."],
+  clientQuestions: ["A real Google review from a Hernando County raccoon job (TTR-723), and real Hernando raccoon job photos."],
 });

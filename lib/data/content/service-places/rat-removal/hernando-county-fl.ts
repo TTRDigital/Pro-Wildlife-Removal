@@ -23,7 +23,7 @@ export const ratRemovalHernandoCounty = servicePlacePage({
   heroText: "Gnawing in the walls, droppings in the garage, a rat on the porch rail at night? We look for how rats get into Hernando homes, seal the gaps we find and trap the ones inside. Call (727) 594-7705.",
   answerHeading: "Who handles a rat problem inside a Hernando County home?",
   answer:
-    "A private company. Hernando County doesn't collect garbage itself; Coastal Waste serves the unincorporated county and Brooksville runs its own service. For rats in a Hernando attic, wall or garage, Pro Wildlife Removal finds the openings, seals them, traps the rats left inside and cleans up. Call (727) 594-7705.",
+    "A private company. Hernando County doesn't collect garbage itself; Coastal Waste serves the unincorporated county and Brooksville runs its own service. For rats in a Hernando attic, wall or garage, Pro Wildlife Removal finds the openings, seals them and traps the rats left inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Lids closed, by county rule", "Grass cut within 100 feet"],
   localHeading: "Roof rats in Spring Hill, and Hernando's county rules",
   localIntro: "Roof rats were a recurring problem in Spring Hill, the county health department told the Tampa Bay Times in 1999. Here is what it found, and the county rules that bear on it.",
@@ -45,7 +45,7 @@ export const ratRemovalHernandoCounty = servicePlacePage({
     { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
-  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What sets the price of a rat job: how many openings, how much damage, how much cleanup." },
+  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What sets the price of a rat job: how many openings, and how high and hard to reach they are." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Hernando County rat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
@@ -67,7 +67,6 @@ export const ratRemovalHernandoCounty = servicePlacePage({
     faq(
       "Can someone inspect our Hernando County home for rats today?",
       "Same-day appointments for rats are often available in Hernando County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Hernando County]",
     ),
   ],
   ctaHeading: "Rats in your Hernando County home?",
@@ -86,5 +85,5 @@ export const ratRemovalHernandoCounty = servicePlacePage({
     { title: "DOH-Hernando: Rabies surveillance (rats and other rodents rarely found to be infected; not known to cause human rabies in Florida)", url: "https://hernando.floridahealth.gov/programs-and-services/environmental-public-health/rabies-surveillance/" },
     { title: "Florida DOH Gadsden: Rodent control (rodents need food, water, shelter and warmth; roof rats nest in trees, woodpiles, garbage and plants and need a hole the size of a quarter; cut grass, brush and thick bushes within 100 feet of your home; get rid of trash, discarded appliances and junk; keep garbage in tightly covered containers; close holes with heavy gauge steel wool, galvanized metal, or hardware cloth; seal openings around pipes and wires)", url: DOH },
   ],
-  clientQuestions: ["Typical response time for a rat call in Hernando County?", "A real Google review from a Hernando County rat job (TTR-723), and real Hernando rat job photos."],
+  clientQuestions: ["A real Google review from a Hernando County rat job (TTR-723), and real Hernando rat job photos."],
 });

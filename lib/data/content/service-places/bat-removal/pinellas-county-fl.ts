@@ -47,7 +47,7 @@ export const batRemovalPinellasCounty = servicePlacePage({
     { icon: "home", title: "Bats living in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
-  extraLink: { label: "Bat removal cost", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "Inspection, exclusion devices, sealing and cleanup: what shapes the price of getting bats out." },
+  extraLink: { label: "Bat removal cost", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "Inspection, exclusion devices and sealing: what shapes the price of getting bats out." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Pinellas County bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
@@ -69,7 +69,6 @@ export const batRemovalPinellasCounty = servicePlacePage({
     faq(
       "How soon can you inspect for bats in Pinellas County?",
       "Same-day bat inspections are often available in Pinellas County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat inspection in Pinellas County]",
     ),
   ],
   ctaHeading: "Bats in your Pinellas home?",
@@ -90,5 +89,5 @@ export const batRemovalPinellasCounty = servicePlacePage({
     { title: "UF/IFAS Extension Pinellas: Let's chat about bats, Oct. 18, 2022 (13 species live in Florida year-round; highly valuable pest management services; bats eat insects; leave Spanish moss, dead palm fronds and their boots, snags)", url: BATS },
     { title: "FWC news release, April 6, 2026 (bat maternity season April 16 to Aug 14; illegal to block bats from roosts then, to keep flightless pups from being trapped; exclusion devices only Aug 15 to April 15; killing or harming bats is illegal)", url: MATERNITY },
   ],
-  clientQuestions: ["Typical response time for a bat inspection in Pinellas County?", "A real Google review from a Pinellas County bat job (TTR-723), and real Pinellas bat job photos."],
+  clientQuestions: ["A real Google review from a Pinellas County bat job (TTR-723), and real Pinellas bat job photos."],
 });

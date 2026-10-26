@@ -27,7 +27,7 @@ export const opossumRemoval: Service = {
     eyebrow: "OPOSSUM REMOVAL",
     heading: "Opossum Removal in Central Florida",
     highlight: "Opossum Removal",
-    text: p("An opossum living under the house, in the crawl space or in the attic? We remove it humanely, young included, and close the way in."),
+    text: p("An opossum (possum) living under the house, in the crawl space or in the attic? We remove it humanely, young included, and close the way in."),
     image: images.opossumRemoval4,
     badges: ["Under houses, decks and sheds", "Openings closed with mesh"],
   },
@@ -97,7 +97,7 @@ export const opossumRemoval: Service = {
           ),
         },
         { number: "3", title: "Release legally", text: p("A captured opossum may only be released on the property where it was caught, or on land of 40 acres or more in the same county with the owner's written permission.") },
-        { number: "4", title: "Close it off", text: p("Once we're sure every opossum is out, torn screens, vents and gaps are blocked with wire mesh, as FWC recommends, and the den area is cleaned.") },
+        { number: "4", title: "Close it off", text: p("Once we're sure every opossum is out, torn screens, vents and gaps are blocked with wire mesh, as FWC recommends.") },
       ],
     },
     {
@@ -131,7 +131,7 @@ export const opossumRemoval: Service = {
         "Trash secured, pet food brought in at night",
         "Bird seed and fallen fruit cleaned up",
         "Chickens and eggs shut in at night",
-        "Droppings and nesting under the house or in the attic cleaned up",
+        "Droppings and nesting under the house or in the attic pointed out in the inspection",
       ],
       image: images.opossumRemoval4,
       imageSide: "left",
@@ -148,7 +148,7 @@ export const opossumRemoval: Service = {
         { title: "Where it's living", text: p("Under a deck or shed, in a crawl space, or up in the attic.") },
         { title: "Mother and young", text: p("A family takes more care than a single adult.") },
         { title: "How many openings", text: p("One gap in the skirting, or a whole perimeter to close.") },
-        { title: "Cleanup", text: p("A little nesting, or soiled insulation to remove.") },
+        { title: "Den location", text: p("Under a deck or porch, or up in the attic.") },
       ],
       outro: p("There's no charge for the opossum inspection, and the price comes before the work."),
     },
@@ -173,6 +173,10 @@ export const opossumRemoval: Service = {
       eyebrow: "FAQ",
       heading: "Opossum removal questions",
       items: [
+        faq(
+          "Do you handle possum control in Tampa?",
+          "Yes. Opossum control in Tampa works the same as anywhere else we cover: find where the possum gets in under the house, the deck or into the attic, get it out, young included, and close the opening with wire mesh. Call (727) 594-7705.",
+        ),
         faq(
           "Do opossums carry rabies?",
           "It's rare. UF/IFAS describes opossums as nearly immune to rabies. In Florida, rabies mostly comes from raccoons and bats, but wash any animal bite or scratch and see a doctor. A frightened opossum hisses, growls and may bite, so don't handle one.",

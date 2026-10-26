@@ -11,20 +11,20 @@ export const citrus = countyPage({
   heroText: "Springs, sandhills and state forest, with the lowest share of urban residents of the counties we serve. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife removal in Citrus County?",
   answer:
-    "Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals across Citrus County, from Crystal River and Homosassa to Inverness, Lecanto and Floral City. We find the way in, remove the animal legally, seal the opening and clean up. Call (727) 594-7705.",
+    "Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals across Citrus County, from Crystal River and Homosassa to Inverness, Lecanto and Floral City. We find the way in, remove the animal legally and seal the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Crystal River to Inverness", "Lowest urban share we serve"],
   townsHeading: "Citrus towns we cover",
   townsIntro: "Inverness is the county seat. Crystal River is the only other city, and about 93% of residents live outside city limits.",
   towns: [
     {
       title: "Citrus County",
-      href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/",
+      href: "/service-areas/citrus-county/",
       items: [
         { label: "Inverness" },
         { label: "Crystal River" },
         { label: "Homosassa" },
-        { label: "Lecanto", href: "/about-us/service-area/wildlife-removal-in-lecanto-fl/" },
-        { label: "Pine Ridge", href: "/about-us/service-area/wildlife-removal-pine-ridge-fl/" },
+        { label: "Lecanto", href: "/service-areas/citrus-county/lecanto/" },
+        { label: "Pine Ridge", href: "/service-areas/citrus-county/pine-ridge/" },
         { label: "Floral City" },
         { label: "Beverly Hills" },
       ],
@@ -34,24 +34,20 @@ export const citrus = countyPage({
   localIntro: "The 2020 Census counted 75% of Citrus residents as urban, the lowest share of any county we serve, and about three-quarters of the land as rural. Homes here sit closer to wild land than almost anywhere else in our area.",
   local: [
     { icon: "leaf", title: "Sandhills and state forest", text: p("FWC's Citrus tract of the Withlacoochee State Forest covers nearly 50,000 acres west of Inverness, with high-quality sandhills, fox squirrels, gopher tortoises, indigo snakes and deer.") },
-    { icon: "map-pin", title: "Springs and rivers", text: p("Crystal River, Kings Bay and Homosassa are first-magnitude springs, and several serve as warm-water refuges for manatees in winter. Waterfront homes share the shoreline with plenty of wildlife.") },
     { icon: "critter", title: "Rabid stray cats", text: p("Citrus rabies alerts have mostly involved cats: a stray kitten in Floral City in July 2026 and a cat in Inverness in June 2025. The Department of Health also counted a rabid bat in the county in 2024.") },
-    { icon: "search", title: "Bear country, a little", text: p("Citrus is in FWC's Big Bend bear area, home to a remnant group near Chassahowitzka. If a bear visits, secure the trash and contact FWC.") },
-    { icon: "leaf", title: "Scrub-jays at Potts Preserve", text: p("The water district's Potts Preserve in northeastern Citrus has wetlands that play a role in both the Tsala Apopka Chain of Lakes and the Withlacoochee River systems, and holds a small population of threatened Florida scrub-jays.") },
   ],
   contactsHeading: "Citrus numbers: CCSO, DOH-Citrus and FWC",
   contactsIntro: "In Citrus, animal control is the Sheriff's Office and the shelter is the county. Here's who handles what, from their own pages.",
   contacts: [
     { icon: "users", title: "CCSO Animal Control", text: p("352-249-2790 (Sheriff's dispatch) for bites, strays and other domestic animal calls. Its page says nuisance wildlife must be referred to a nuisance trapper.") },
     { icon: "phone", title: "Animal bites: DOH-Citrus", text: p("352-527-0068, the number DOH-Citrus gives for reporting bites in its rabies alerts.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Citrus is in FWC's North Central Region: 386-758-0525 in Lake City for bears. Alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Citrus is in FWC's North Central Region: 386-758-0525 in Lake City for bears. Alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available in Citrus County. Choose the animal to see the signs and how we handle it.",
   faqs: [
     faq(
       "What's the Citrus County phone number?",
       "Call (727) 594-7705. Same-day appointments are often available in Citrus County.",
-      "[PLACEHOLDER: ask the client: typical response time in Citrus County]",
     ),
     faq(
       "Why does Citrus County see so much wildlife around homes?",
@@ -102,5 +98,5 @@ export const citrus = countyPage({
     { title: "FWC: Living with bears (report human-bear conflicts to your nearest regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR; 4 feet or longer and a threat)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Citrus County?", "Real job photos and reviews from Citrus customers."],
+  clientQuestions: ["Real job photos and reviews from Citrus customers."],
 });

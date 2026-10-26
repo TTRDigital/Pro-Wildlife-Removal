@@ -13,7 +13,7 @@ export const osceola = countyPage({
   heroText: "The fastest-growing county we serve, by Census estimates, where new neighborhoods ring Lake Tohopekaliga and the Kissimmee Prairie stretches south. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Osceola County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Osceola County. We track down the way in, take the animal out within Florida's rules, close the opening and clean up. Call (727) 594-7705.",
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Osceola County. We track down the way in, take the animal out within Florida's rules and close the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Kissimmee is the county seat", "Rabies alerts in 2026"],
   townsHeading: "Osceola County towns",
   townsIntro: "Kissimmee is the county seat, and St. Cloud is the only other city. About 67% of residents live outside city limits.",
@@ -38,26 +38,21 @@ export const osceola = countyPage({
   contacts: [
     { icon: "users", title: "Osceola County Animal Services", text: p("407-742-8000, extension 4, 8 am to 11 pm daily. Officers respond to injured or sick animals, bites, venomous snakes outside, and alligators 4 feet or less outside their habitat.") },
     { icon: "phone", title: "Animal bites: DOH-Osceola", text: p("407-742-8606, per the department's rabies surveillance page.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Osceola is in FWC's Northeast Region: 352-732-1225 in Ocala. Alligators over 4 feet: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Osceola is in FWC's Northeast Region: 352-732-1225 in Ocala. Alligators over 4 feet: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Choose the animal to read the signs, the Florida rules for it and how we handle it.",
   faqs: [
     faq(
       "What number should Osceola County homeowners call?",
       "Call (727) 594-7705. Same-day appointments are often available in Osceola County.",
-      "[PLACEHOLDER: ask the client: typical response time in Osceola County]",
     ),
     faq(
       "Has rabies been found in Osceola County recently?",
       "Yes. The Department of Health issued an alert in February 2026 after a rabid raccoon in the Kissimmee area, and alerts for rabid cats in Kissimmee (May 2026), St. Cloud (January 2026) and Mill Creek Woods (July 2024). In 2024 it also counted two rabid bats in the county.",
     ),
     faq(
-      "Are there bears in Osceola County?",
-      "FWC places Osceola in its South Central bear area. (FWC's \"North (Osceola)\" bear group is named for the Osceola National Forest in north Florida, not this county.) Bears are FWC's responsibility.",
-    ),
-    faq(
-      "Does Osceola County Animal Services handle snakes and alligators?",
-      "Partly. Its officers respond to venomous snakes on outside property and to alligators 4 feet or less outside their habitat. Larger alligators go to FWC. Call 407-742-8000, extension 4.",
+      "Does Osceola County Animal Services handle snakes?",
+      "Partly. Its officers respond to venomous snakes on outside property. Call 407-742-8000, extension 4. For a snake inside your home, see [snake removal](/services/snake-removal/).",
     ),
     faq(
       "Who picks up a dead or injured animal on an Osceola County road?",
@@ -95,7 +90,6 @@ export const osceola = countyPage({
   ],
   clientQuestions: [
     "Which Osceola County towns do you serve, and is there an Osceola phone number?",
-    "Typical response time in Osceola County?",
     "Real job photos and reviews from Osceola customers.",
   ],
 });

@@ -21,7 +21,7 @@ export const floridaSquirrelRules: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** for a gray squirrel causing damage, yes, within limits. FWC lets property owners remove nuisance wildlife with live traps, and traps must be checked every 24 hours. A trapped squirrel can only be released on your own property or on permitted land. Fox squirrels can't be trapped or taken at all without FWC authorization. Call (727) 594-7705.",
+      "**The short answer:** for a gray squirrel causing damage, yes, within limits. FWC lets property owners live-trap nuisance wildlife if they check traps every 24 hours, and the squirrel can only be released on their own property or permitted land. Fox squirrels can't be trapped or taken without FWC authorization. Call (727) 594-7705.",
     ),
     h3("When a squirrel counts as nuisance wildlife"),
     p(

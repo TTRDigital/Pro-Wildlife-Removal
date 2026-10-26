@@ -23,12 +23,12 @@ export const trinity = countyPage({
   towns: [
     {
       title: "Southwest Pasco",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
-        { label: "Holiday", href: "/about-us/service-area/wildlife-removal-holiday-fl/" },
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
+        { label: "Holiday", href: "/service-areas/pasco-county/holiday/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
         { label: "East Lake (Pinellas)" },
       ],
     },
@@ -46,9 +46,9 @@ export const trinity = countyPage({
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("Call 813-929-1212 for pets and strays. The shelter is in Land O' Lakes.") },
     { icon: "phone", title: "Bites and scratches: DOH-Pasco", text: p("If a wild or stray animal bites or scratches someone in Trinity, get medical care, then report it to DOH-Pasco: 352-521-1450, option 4.") },
-    { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligator hotline, 866-FWC-GATOR. FWC's Southwest Region office takes bear calls: 863-648-3200.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Nuisance alligator hotline, 866-FWC-GATOR. FWC's Southwest Region office takes bear calls: 863-648-3200.") },
   ],
-  servicesIntro: "All of our services are available in Trinity. Pick an animal to see how we handle it.",
+  servicesIntro: "Every service below is available in Trinity, from rodent removal in the attic to a critter under the deck. Pick an animal to see how we handle it.",
   servicesHeading: "Animals we remove in Trinity",
   reviewsIntro: "[PLACEHOLDER: reviews from Trinity customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -67,7 +67,6 @@ export const trinity = countyPage({
     faq(
       "Is a same-day visit possible in Trinity?",
       "Same-day appointments are often available in Trinity. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Trinity]",
     ),
   ],
   ctaHeading: "Wildlife problem in Trinity?",
@@ -87,5 +86,5 @@ export const trinity = countyPage({
     { title: "Pasco County: Animal Services (813-929-1212; Land O' Lakes)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "FWC: Regional offices (Southwest 863-648-3200) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Trinity?", "Trinity reviews (from TTR-723) and real Trinity job photos."],
+  clientQuestions: ["Trinity reviews (from TTR-723) and real Trinity job photos."],
 });

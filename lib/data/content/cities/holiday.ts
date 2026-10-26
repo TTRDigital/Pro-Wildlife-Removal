@@ -23,10 +23,10 @@ export const holiday = countyPage({
   towns: [
     {
       title: "Southwest Pasco coast",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
-        { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Trinity", href: "/about-us/service-area/trinity-wildlife-removal/" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
         { label: "Elfers" },
         { label: "Key Vista" },
         { label: "Tarpon Springs (Pinellas)" },
@@ -41,12 +41,21 @@ export const holiday = countyPage({
     { icon: "critter", title: "Coastal yards", text: p("Seawalls, docks and boathouses give raccoons and rats cover close to the water. A raccoon raiding a boat or a cooler is often the same one that ends up in the attic.") },
     { icon: "search", title: "Rabies in Pasco", text: p("Pasco County Animal Services counted 17 rabid raccoons between 2013 and 2023, more than any other animal in the county. Never hand-feed raccoons.") },
   ],
+  rats: {
+    heading: "Rodent closures along US 19",
+    intro: "Holiday's rat record comes from state restaurant inspections, not home reports. Here's what the closure files show.",
+    cards: [
+      { icon: "building", title: "Four closures, 2022 to 2025", text: p("By our count of Florida DBPR's emergency closure reports, state inspectors shut food businesses with Holiday addresses 4 times for rodent activity from 2022 through 2025, at 3 businesses: three times on US 19 and once on Alternate 19.") },
+      { icon: "search", title: "Repeat closures on US 19", text: p("One US 19 restaurant was closed for rodents in May 2023 and again in June 2024, and another in November 2020 and August 2021. From 2019 through 2025 the files list 8 Holiday rodent closures, 5 of them on US 19.") },
+    ],
+    link: { label: "rat removal across Pasco County", href: "/services/rat-removal/pasco-county-fl/" },
+  },
   contactsHeading: "Pasco and FWC contacts for Holiday residents",
   contactsIntro: "As unincorporated Pasco, Holiday uses county and state numbers, listed here from each agency's own page.",
   contacts: [
     { icon: "users", title: "Pets and strays", text: p("Pasco County Animal Services, 813-929-1212. Emergencies from 5 pm to 8 am: (727) 847-8102, option 7.") },
     { icon: "phone", title: "Bites: DOH-Pasco", text: p("Report an animal bite in Holiday to the health department in Pasco at 352-521-1450, option 4.") },
-    { icon: "map-pin", title: "Injured sea life and alligators: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for injured or dead sea turtles, dolphins and manatees. Nuisance alligators: 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "State wildlife matters: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for injured or dead sea turtles, dolphins and manatees. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Along the Anclote River and across Holiday, we remove every animal below. Pick one to learn more.",
   servicesHeading: "Animals we remove in Holiday",
@@ -67,7 +76,6 @@ export const holiday = countyPage({
     faq(
       "How quickly can you reach Holiday?",
       "Same-day appointments are often available in Holiday. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Holiday]",
     ),
   ],
   ctaHeading: "Wildlife problem in Holiday?",
@@ -78,6 +86,7 @@ export const holiday = countyPage({
       "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums and snakes on the Anclote River, and who to call for what in Holiday. (727) 594-7705.",
   },
   sources: [
+    { title: "Florida DBPR, Division of Hotels and Restaurants: Emergency closures by calendar year, 2019-2025 (Business City Holiday, conditions naming rodents: 8 closures 2019-2025, 5 on US 19; 4 in 2022-2025 at 3 businesses, 3 on US 19 and 1 on Alt 19; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },
     { title: "U.S. Census Bureau: 2020 redistricting file (Holiday CDP, 24,939)", url: CENSUS },
     { title: "U.S. Census Bureau: TIGER/Line 2020 places, Florida (Holiday CDP borders Tarpon Springs, Elfers, Key Vista, Beacon Square, East Lake)", url: "https://www2.census.gov/geo/tiger/TIGER2020/PLACE/tl_2020_12_place.zip" },
     { title: "Pasco County: Anclote River Park (1119 Baillies Bluff Road, Holiday)", url: "https://www.pascocountyfl.gov/_T22_R51.php" },
@@ -88,5 +97,5 @@ export const holiday = countyPage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Wildlife Alert 888-404-3922) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Holiday?", "Holiday reviews (from TTR-723) and real Holiday job photos."],
+  clientQuestions: ["Holiday reviews (from TTR-723) and real Holiday job photos."],
 });

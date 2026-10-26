@@ -69,7 +69,6 @@ export const raccoonRemovalDunedin = servicePlacePage({
     faq(
       "Could someone see our Dunedin raccoon problem today?",
       "Same-day raccoon appointments are often available in Dunedin. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Dunedin]",
     ),
   ],
   ctaHeading: "Raccoon in your Dunedin home?",
@@ -91,5 +90,5 @@ export const raccoonRemovalDunedin = servicePlacePage({
     { title: "Pinellas County: Injured or orphaned wildlife (Animal Services (727) 582-2600 option 4: wildlife pickup and transport for sick or injured wildlife)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "DOH-Pinellas: Rabies information (report a possible rabies exposure at 727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Dunedin?", "A real Google review from a Dunedin raccoon job (TTR-723), and real Dunedin raccoon job photos."],
+  clientQuestions: ["A real Google review from a Dunedin raccoon job (TTR-723), and real Dunedin raccoon job photos."],
 });

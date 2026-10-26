@@ -67,7 +67,6 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
     faq(
       "How soon can you come out for a raccoon in Safety Harbor?",
       "Same-day appointments for raccoons are often available in Safety Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Safety Harbor]",
     ),
   ],
   ctaHeading: "Raccoon in your Safety Harbor home?",
@@ -88,5 +87,5 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
     { title: "DOH-Pinellas: Rabies safety, April 10, 2026 (do not handle or feed wild animals or attract them with outdoor pet food or open garbage cans; prevent wildlife, including bats, from entering living quarters; Animal Services 727-582-2600)", url: SAFETY },
     { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/relocate/" },
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Safety Harbor?", "A real Google review from a Safety Harbor raccoon job (TTR-723), and real Safety Harbor raccoon job photos."],
+  clientQuestions: ["A real Google review from a Safety Harbor raccoon job (TTR-723), and real Safety Harbor raccoon job photos."],
 });

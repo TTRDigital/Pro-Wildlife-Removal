@@ -27,13 +27,13 @@ export const ocala = countyPage({
   towns: [
     {
       title: "Marion County",
-      href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
+      href: "/service-areas/marion-county/",
       items: [
-        { label: "Silver Springs", href: "/about-us/service-area/wildlife-removal-silver-springs-fl/" },
+        { label: "Silver Springs", href: "/service-areas/marion-county/silver-springs/" },
         { label: "Belleview" },
         { label: "Summerfield" },
         { label: "Dunnellon" },
-        { label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" },
+        { label: "The Villages", href: "/service-areas/the-villages/" },
       ],
     },
   ],
@@ -46,6 +46,7 @@ export const ocala = countyPage({
     { icon: "home", title: "A bat house in an Ocala park", text: p("Ocala's Programs in the Parks scheduled a free owls and bats session for May 1, 2026, at Heritage Nature Conservancy on NE 3rd Street, Ocala-News reported in April 2026, with a photo of the park's bat house.") },
     { icon: "leaf", title: "Raccoons lead Marion's rabies tables", text: p("The state's tables listed 7 rabid raccoons and 3 cats for Marion County in 2024, and 6 raccoons plus a cat, a coyote and a fox in 2025.") },
   ],
+  rats: { heading: "Rats in Ocala", intro: "For rats in an Ocala attic, wall or garage, here's how the job works.", cards: [{ icon: "critter", title: "Rat removal", text: p("How we find the openings, seal them and trap the rats left inside."), href: "/services/rat-removal/" }] },
   contactsHeading: "Ocala contacts: the county, DOH-Marion and FWC's regional office",
   contactsIntro: "Ocala's strays go to Marion County, and FWC's regional office is in town. These numbers come from DOH-Marion's alerts and FWC's pages.",
   contacts: [
@@ -76,7 +77,6 @@ export const ocala = countyPage({
     faq(
       "Can you be at my Ocala house today?",
       "Same-day appointments are often available in Ocala. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Ocala]",
     ),
   ],
   ctaHeading: "Wildlife problem in Ocala?",
@@ -97,5 +97,5 @@ export const ocala = countyPage({
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Marion: 1 cat, 1 coyote, 1 fox, 6 raccoons)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Ocala?", "Real job photos and reviews from Ocala customers."],
+  clientQuestions: ["Real job photos and reviews from Ocala customers."],
 });

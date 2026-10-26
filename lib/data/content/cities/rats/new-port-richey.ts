@@ -1,10 +1,10 @@
-import { countyPage } from "../../counties/build.ts";
+import { countyPage, type CountyInput } from "../../counties/build.ts";
 import { faq, p } from "../../pt.ts";
 
 /* Rat removal in New Port Richey, rewritten in place at its existing URL (Ben, Oct 26). Local rat facts only: the city's trash service. */
 const TRASH = "https://cityofnewportrichey.org/Residents/Services/City-Trash-Services";
 
-export const newPortRicheyRats = countyPage({
+export const newPortRicheyRatsInput = {
   kind: "rat",
   path: "rat-removal-new-port-richey",
   name: "New Port Richey",
@@ -25,11 +25,11 @@ export const newPortRicheyRats = countyPage({
   towns: [
     {
       title: "New Port Richey and neighbors",
-      href: "/about-us/service-area/wildlife-removal-new-port-richey/",
+      href: "/service-areas/pasco-county/new-port-richey/",
       items: [
-        { label: "All wildlife in New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
-        { label: "Rats in Hudson", href: "/about-us/service-area/rat-removal-services-hudson-fl/" },
-        { label: "Wildlife in Holiday", href: "/about-us/service-area/wildlife-removal-holiday-fl/" },
+        { label: "All wildlife in New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Rats in Hudson", href: "/service-areas/pasco-county/hudson/" },
+        { label: "Wildlife in Holiday", href: "/service-areas/pasco-county/holiday/" },
       ],
     },
   ],
@@ -63,7 +63,6 @@ export const newPortRicheyRats = countyPage({
     faq(
       "Is anyone free for a New Port Richey rat call today?",
       "Same-day rat inspections are often available in New Port Richey. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for rat calls in New Port Richey]",
     ),
   ],
   ctaHeading: "Rats in your New Port Richey home?",
@@ -77,5 +76,7 @@ export const newPortRicheyRats = countyPage({
     { title: "City of New Port Richey: City trash services (Waste Pro dba J.D. Parker & Sons is the single hauler; residential collection Mondays and Thursdays, 6 a.m. to 7 p.m., twice a week; 96-gallon carts; (727) 841-4260)", url: TRASH },
     { title: "City of New Port Richey: Parks and facilities (the Cotee, or Pithlachascotee, River)", url: "https://www.cityofnewportrichey.org/Residents/Amenities/Parks-and-Facilities" },
   ],
-  clientQuestions: ["Typical response time for rat calls in New Port Richey?", "New Port Richey rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["New Port Richey rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const newPortRicheyRats = countyPage(newPortRicheyRatsInput);

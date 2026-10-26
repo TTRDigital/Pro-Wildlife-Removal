@@ -1,5 +1,6 @@
 import { countyPage, S } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { dadeCityRatsInput } from "./rats/dade-city.ts";
 
 /* Dade City page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 export const dadeCity = countyPage({
@@ -21,24 +22,25 @@ export const dadeCity = countyPage({
   towns: [
     {
       title: "East Pasco",
-      href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
+      href: "/service-areas/pasco-county/",
       items: [
         { label: "Zephyrhills" },
         { label: "San Antonio" },
         { label: "Pasadena Hills" },
         { label: "Wesley Chapel" },
-        { label: "Land O' Lakes", href: "/about-us/service-area/wildlife-removal-land-o-lakes/" },
+        { label: "Land O' Lakes", href: "/service-areas/pasco-county/land-o-lakes/" },
       ],
     },
   ],
-  localHeading: "River, swamp and bears",
+  localHeading: "River and swamp",
   localIntro: "East Pasco is wilder than the coast. The Withlacoochee River and the Green Swamp are both a short drive from downtown.",
   local: [
-    { icon: "leaf", title: "Green Swamp", text: p("FWC's Great Florida Birding Trail says the 560,000-acre Green Swamp spans four counties, and that Florida black bears live on its 36,649-acre West Tract, off Ranch Road in Dade City.") },
+    { icon: "leaf", title: "Green Swamp", text: p("FWC's Great Florida Birding Trail says the 560,000-acre Green Swamp spans four counties, and that its 36,649-acre West Tract has a Dade City address.") },
     { icon: "map-pin", title: "Withlacoochee River Park", text: p("Pasco County describes this wilderness park as 406 acres on Withlacoochee Boulevard. The Birding Trail lists sandhill cranes, swallow-tailed kites, limpkins, and barred and great horned owls.") },
     { icon: "critter", title: "Rabies alerts nearby", text: p("In February 2026, DOH-Pasco issued a rabies alert for the Zephyrhills area after a rabid raccoon was found there. In July, it advised of two more rabid raccoons in east Pasco.") },
     { icon: "home", title: "Overgrown lots", text: p("Dade City code enforcement handles complaints about excessive trash or debris. If an overgrown lot isn't cleaned up, the city says it will do the work and place a lien on the property.") },
   ],
+  rats: { heading: dadeCityRatsInput.localHeading, intro: dadeCityRatsInput.localIntro, cards: [...dadeCityRatsInput.local, ...(dadeCityRatsInput.contacts ?? [])], link: { label: "rat removal across Pasco County", href: "/services/rat-removal/pasco-county-fl/" } },
   contactsHeading: "Dade City code enforcement and Pasco contacts",
   contactsIntro: "Trash and debris complaints go to the city on Meridian Avenue, strays to Pasco County. Here's who covers what in Dade City.",
   contacts: [
@@ -51,21 +53,16 @@ export const dadeCity = countyPage({
   reviewsIntro: "[PLACEHOLDER: reviews from Dade City customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
     faq(
-      "Are there bears near Dade City?",
-      "Yes. The Great Florida Birding Trail says Florida black bears live on the Green Swamp's West Tract, which has a Dade City address. Report bear conflicts to FWC, 863-648-3200, and keep trash and pet food secured.",
-    ),
-    faq(
       "Does Dade City have animal control?",
       "Not its own. Pasco County Animal Services covers pets and strays (813-929-1212). Wildlife in your attic or walls needs a private wildlife company.",
     ),
     faq(
       "Do you handle rats in Dade City?",
-      "Yes. See [rat removal in Dade City](/about-us/service-area/rat-removal-dade/) for the city-specific details.",
+      "Yes. The rats section above has the city-specific details.",
     ),
     faq(
       "Will you drive out to Dade City the same day?",
       "Same-day appointments are often available in Dade City. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Dade City]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dade City?",
@@ -86,6 +83,7 @@ export const dadeCity = countyPage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (two rabid raccoons, east Pasco; 352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "Pasco County: Animal Services (813-929-1212)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
     { title: "FWC: Regional offices (Southwest 863-648-3200)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    ...dadeCityRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Dade City?", "Dade City reviews (from TTR-723) and real Dade City job photos."],
+  clientQuestions: ["Dade City reviews (from TTR-723) and real Dade City job photos."],
 });

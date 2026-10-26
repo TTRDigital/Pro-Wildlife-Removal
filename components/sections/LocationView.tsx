@@ -10,7 +10,7 @@ export async function LocationView({ location: base, settings }: { location: Loc
   const [places, services, locations] = await Promise.all([getPlacePages(), getServices(), getLocations()]);
   // "Services here": the animal-by-place pages for this city or county (TTR-738).
   // An old rat page used as a place page gets the place pages' "More in" and "nearby" lists instead.
-  const self = places.find((p) => p.path === base.path);
+  const self = places.find((p) => p.path === base.path && !p.anchor);
   const location = self ? withPlaceLinks(base, self, places, services, locations) : withServicesHere(base, places, services);
   const path = `/${location.path}/`;
   // Service Areas > county (when it has a page) > city.

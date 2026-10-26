@@ -11,7 +11,7 @@ export const hillsborough = countyPage({
   heroText: "Tampa and its suburbs on one side, farms and preserve land on the other. Half the county's land is still rural, and the wildlife moves between the two.",
   answerHeading: "Who removes wildlife in Hillsborough County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows, seal it and clean up. Call (727) 594-7705.",
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows and seal it. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Tampa to Plant City", "Four rabid bats in 2025"],
   townsHeading: "Hillsborough towns we cover",
   townsIntro: "Tampa is the county seat and largest city. About 69% of county residents live outside city limits, in places like Brandon and Riverview.",
@@ -19,10 +19,10 @@ export const hillsborough = countyPage({
     {
       title: "Tampa and north",
       items: [
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        { label: "Tampa", href: "/service-areas/hillsborough-county/tampa/" },
         { label: "Temple Terrace" },
         { label: "Lutz" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
         { label: "Town 'n' Country" },
         { label: "Westchase" },
         { label: "Carrollwood" },
@@ -57,21 +57,19 @@ export const hillsborough = countyPage({
     { icon: "leaf", title: "Protected land all around", text: p("The county has bought more than 63,400 acres of sensitive wildlife habitat and corridors through its ELAPP land program. Homes along those corridors live right next to raccoons, opossums and snakes.") },
     { icon: "building", title: "Stray cats and rabies", text: p("DOH-Hillsborough issued rabies alerts for rabid stray or unvaccinated cats in Town 'N' Country (April 2025) and Gibsonton (September 2026). Feeding strays outdoors also feeds raccoons.") },
     { icon: "home", title: "Older Tampa homes", text: p("Older roofs, soffits and gable vents wear out, and every gap is an invitation to roof rats, squirrels and bats.") },
-    { icon: "map-pin", title: "River wilderness", text: p("The water district's Lower Hillsborough Wilderness Preserve lets you paddle the Hillsborough River among wading birds, turtles and alligators, with over 60 miles of forest trails.") },
   ],
   contactsHeading: "Hillsborough agencies for strays, bites, bears and gators",
   contactsIntro: "Here's who to call for the problems we don't handle in Hillsborough, with each number from the agency's own site.",
   contacts: [
     { icon: "users", title: "Hillsborough County Animal Control", text: p("(813) 744-5660. Part of Code Enforcement: sick or injured stray pets, animal bite investigations, dangerous dogs and neglect, including in Tampa, Temple Terrace and Plant City.") },
     { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("813-307-8059, Environmental Public Health, to report an animal bite.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office, 863-648-3200, takes bear conflicts. Alligators go to 866-FWC-GATOR.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("FWC's Southwest Region office, 863-648-3200, takes bear conflicts. Alligators go to 866-FWC-GATOR.") },
   ],
   servicesIntro: "Every service is available across Hillsborough. Choose the animal to read about the signs and how we handle it.",
   faqs: [
     faq(
       "Who do I call for an animal in my Hillsborough County home?",
       "Call (727) 594-7705. Same-day appointments are often available in Hillsborough County.",
-      "[PLACEHOLDER: ask the client: typical response time in Hillsborough County]",
     ),
     faq(
       "Has rabies been found in Hillsborough County recently?",
@@ -88,10 +86,6 @@ export const hillsborough = countyPage({
     faq(
       "Who handles a stray or injured pet in Hillsborough?",
       "Hillsborough County Animal Control, (813) 744-5660. It transports sick or injured stray pets and investigates animal bites. Wild animals in your attic, walls or yard are a job for a wildlife company.",
-    ),
-    faq(
-      "Is there a number for nuisance alligators in Hillsborough?",
-      "Yes: FWC's statewide hotline, 866-FWC-GATOR (866-392-4286). An alligator 4 feet or longer that threatens people, pets or property generally qualifies.",
     ),
   ],
   ctaHeading: "Wildlife problem in Hillsborough?",
@@ -130,5 +124,5 @@ export const hillsborough = countyPage({
     { title: "News, FOX 13, August 9, 2023: Bats living at Tampa elementary school won't be removed before kids head back to class (Northwest Elementary; Hillsborough County Schools confirmed; 16438 Hutchison Rd geocodes to Citrus Park CDP)", url: "https://www.fox13news.com/news/tampa-elementary-school-students-head-to-school-with-bats" },
     { title: "News, Patch, Dec 6, 2014: Suicidal squirrels kill university's power twice (a squirrel caused an outage for about 1,450 customers in the Northdale area; TECO)", url: "https://patch.com/florida/templeterrace/suicidal-squirrels-kill-universitys-power-twice" },
   ],
-  clientQuestions: ["Typical response time in Hillsborough County?", "Real job photos and reviews from Hillsborough customers."],
+  clientQuestions: ["Real job photos and reviews from Hillsborough customers."],
 });

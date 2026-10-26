@@ -18,14 +18,14 @@ export const raccoonRemoval: Service = {
   group: "removal",
   animal: "raccoon",
   order: 3,
-  summary: "Raccoons out of the attic, soffit or crawl space, mothers and young kept together, then the entry sealed and the latrine cleaned.",
+  summary: "Raccoons out of the attic, soffit or crawl space, mothers and young kept together, then the entry sealed.",
   cardImage: images.raccoonRemoval,
   design: "new",
   hero: {
     eyebrow: "RACCOON REMOVAL",
     heading: "Raccoon Removal in Central Florida",
     highlight: "Raccoon Removal",
-    text: p("Thumping in the attic or a torn soffit? We get the raccoons out, babies included, seal the way in and clean up what they left."),
+    text: p("Thumping in the attic or a torn soffit? We get the raccoons out, babies included, and seal the way in."),
     image: images.raccoonRemoval,
     badges: ["Babies checked for first", "Entry sealed"],
   },
@@ -128,8 +128,8 @@ export const raccoonRemoval: Service = {
         },
         {
           number: "4",
-          title: "Seal and clean",
-          text: p("The entry hole is sealed with materials a raccoon can't pull apart, other weak spots are closed, and the latrine, nest and soiled insulation are removed and the area treated."),
+          title: "Seal the way in",
+          text: p("The entry hole is sealed with materials a raccoon can't pull apart, and other weak spots are closed. We show you any latrine or soiled insulation we found."),
         },
       ],
     },
@@ -155,17 +155,16 @@ export const raccoonRemoval: Service = {
     {
       _type: "splitSection",
       _key: "sealing",
-      eyebrow: "Sealing and cleanup",
+      eyebrow: "Sealing",
       heading: "Closing what the raccoons opened",
       body: p(
-        "Purdue Extension notes a raccoon will likely try to get back into a den it knows. The hole it made, and the soft spots next to it, have to be closed with material it can't tear open. If the soffit or vent itself is broken, the owner arranges that repair with a contractor. Then comes the cleanup: raccoons leave droppings where they den, and the CDC advises removing raccoon droppings promptly, before the roundworm eggs in them become infectious.",
+        "Purdue Extension notes a raccoon will likely try to get back into a den it knows. The hole it made, and the soft spots next to it, have to be closed with material it can't tear open. If the soffit or vent itself is broken, the owner arranges that repair with a contractor. Raccoons also leave droppings where they den, and the CDC advises removing raccoon droppings promptly, before the roundworm eggs in them become infectious.",
       ),
       checklist: [
         "Entry hole sealed and reinforced",
         "Other weak soffits, vents and roof edges closed",
         "Chimney capped where raccoons used it",
-        "Latrine, nesting and soiled insulation removed by technicians in protective gear",
-        "Area treated and deodorized",
+        "Latrine, nesting and soiled insulation pointed out in the inspection",
         "[PLACEHOLDER: ask the client: is there a warranty on raccoon sealing work, and how long?]",
       ],
       image: images.raccoonRemoval,
@@ -186,7 +185,7 @@ export const raccoonRemoval: Service = {
         { title: "How many raccoons, and whether there are kits", text: p("Kits mean finding and removing them by hand.") },
         { title: "Where they are", text: p("An attic, a chimney, a wall, a crawl space or under a deck.") },
         { title: "Sealing the entry", text: p("How many openings need closing, and how big they are.") },
-        { title: "Cleanup", text: p("A small latrine, or an attic of soiled insulation.") },
+        { title: "Den size", text: p("A small den under a deck, or an attic the family has used for months.") },
       ],
       outro: p("Inspecting for a raccoon costs nothing. You get the price for your home before we start."),
     },
@@ -211,6 +210,10 @@ export const raccoonRemoval: Service = {
       eyebrow: "FAQ",
       heading: "Raccoon removal questions",
       items: [
+        faq(
+          "Do I need a raccoon exterminator?",
+          "No. A raccoon in the attic is a wildlife job, not an exterminator's. It's removed under FWC's rules, babies included, and the hole it used is sealed. That's the work we do, with no spraying involved.",
+        ),
         faq(
           "When do raccoons have babies in Florida?",
           "UF/IFAS says births in Florida generally happen in March and April, with an average litter of 3 to 4 young and as many as 7. That's why spring is the busiest time for raccoons in attics.",
@@ -262,7 +265,7 @@ export const raccoonRemoval: Service = {
   seo: {
     title: "Raccoon Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus sealing and latrine cleanup in Central Florida. (727) 594-7705.",
+      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus every entry sealed, anywhere in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; litters 3-4, up to 7; dens in attics, crawl spaces, under mobile homes and decks; open chimneys are common entry points; fewer than 1 in 200 wild raccoons exposed to rabies)", url: "https://ask.ifas.ufl.edu/publication/UW033" },

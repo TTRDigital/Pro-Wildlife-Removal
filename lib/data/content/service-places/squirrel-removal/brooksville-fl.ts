@@ -64,7 +64,6 @@ export const squirrelRemovalBrooksville = servicePlacePage({
     faq(
       "Can you check a Brooksville attic for squirrels today?",
       "Same-day appointments for squirrels are often available in Brooksville. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Brooksville]",
     ),
   ],
   ctaHeading: "Squirrels in your Brooksville attic?",
@@ -86,5 +85,5 @@ export const squirrelRemovalBrooksville = servicePlacePage({
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state; black faces, white noses and ears; much less numerous than gray squirrels; more time on the ground)", url: FOX },
     { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county with written permission; public parks need the land manager's written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/relocate/" },
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Brooksville?", "A real Google review from a Brooksville squirrel job (TTR-723), and real Brooksville squirrel job photos."],
+  clientQuestions: ["A real Google review from a Brooksville squirrel job (TTR-723), and real Brooksville squirrel job photos."],
 });

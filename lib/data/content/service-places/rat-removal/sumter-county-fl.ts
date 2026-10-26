@@ -19,12 +19,13 @@ export const ratRemovalSumterCounty = servicePlacePage({
   place: "sumter-county-fl",
   placeName: "Sumter County",
   placeKind: "county",
-  location: "about-us/service-area/wildlife-removal-sumter-county-fl",
+  location: "about-us/service-area/wildlife-removal-the-villages",
+  locationName: "The Villages",
   order: 71,
   heroText: "Droppings in the garage, gnawed wires or scratching in the attic of a Sumter County home? We find how rats are getting in, seal those gaps and trap the rats inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Sumter County homes?",
   answer:
-    "A private company. Sumter County doesn't pick up trash at all, and its Animal Services generally deals only with domestic animals. For rats in a Sumter attic, wall or garage, Pro Wildlife Removal finds the openings, seals them, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
+    "A private company. Sumter County doesn't pick up trash at all, and its Animal Services generally deals only with domestic animals. For rats in a Sumter attic, wall or garage, Pro Wildlife Removal finds the openings, seals them and traps the rats still inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rat problems in The Villages", "County: hire a company"],
   localHeading: "What to know about rats in Sumter County",
   localIntro: "Sumter has had several reported rat problems in The Villages, from 2015 to 2025. Here is what happened, what the county told residents and how its trash rules bear on rats.",
@@ -43,7 +44,7 @@ export const ratRemovalSumterCounty = servicePlacePage({
     { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
-  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "The things that drive the price of a rat job, from the number of entry points to cleanup." },
+  extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "The things that drive the price of a rat job, from the number of entry points to roof height." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Sumter County rat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
@@ -65,7 +66,6 @@ export const ratRemovalSumterCounty = servicePlacePage({
     faq(
       "How soon can you come out for rats in Sumter County?",
       "Same-day appointments for rats are often available in Sumter County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Sumter County]",
     ),
   ],
   ctaHeading: "Rats in your Sumter County home?",
@@ -86,5 +86,5 @@ export const ratRemovalSumterCounty = servicePlacePage({
     { title: "Sumter County: Nuisance wildlife (Animal Services generally deals only with domestic animals; referrals to private trappers; bites to the Health Department)", url: NUISANCE },
     { title: "Florida DOH Gadsden: Rodent control (rodents need food, water, shelter and warmth; keep garbage in tightly covered containers; store pet foods and grains in galvanized cans with tight-fitting lids; seal openings around pipes and wires; close holes with heavy gauge steel wool, galvanized metal or hardware cloth)", url: DOH },
   ],
-  clientQuestions: ["Typical response time for a rat call in Sumter County?", "A real Google review from a Sumter County rat job (TTR-723), and real Sumter rat job photos."],
+  clientQuestions: ["A real Google review from a Sumter County rat job (TTR-723), and real Sumter rat job photos."],
 });

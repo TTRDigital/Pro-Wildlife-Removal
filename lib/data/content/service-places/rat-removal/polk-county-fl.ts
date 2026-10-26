@@ -20,10 +20,10 @@ export const ratRemovalPolkCounty = servicePlacePage({
   placeName: "Polk County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-polk-county",
-  heroText: "Scratching in a Polk County attic or wall, or droppings in the garage? We find where the rats get in, close those gaps, trap the ones inside and clean up after them. Call (727) 594-7705.",
+  heroText: "Scratching in a Polk County attic or wall, or droppings in the garage? We find where the rats get in, close those gaps and trap the ones inside. Call (727) 594-7705.",
   answerHeading: "Who takes rats out of Polk County homes?",
   answer:
-    "Rats in a Polk County home are a job for a private company. Polk County Code Enforcement does list rat infestations among the nuisances it inspects, along with trash on lots. Pro Wildlife Removal finds how rats get in, seals those gaps, traps the rats inside and cleans up. Call (727) 594-7705.",
+    "Rats in a Polk County home are a job for a private company. Polk County Code Enforcement does list rat infestations among the nuisances it inspects, along with trash on lots. Pro Wildlife Removal finds how rats get in, seals those gaps and traps the rats inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County code covers rat infestations", "UF/IFAS: poison as a last resort"],
   localHeading: "Rats, code rules and coops in Polk County",
   localIntro: "These facts about rats in Polk come from the county, the City of Lake Wales and UF/IFAS Extension Polk County.",
@@ -60,7 +60,6 @@ export const ratRemovalPolkCounty = servicePlacePage({
     faq(
       "How long until you can look at rats in a Polk County house?",
       "Same-day appointments for rats are often available in Polk County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Polk County]",
     ),
   ],
   ctaHeading: "Rats in your Polk County home?",
@@ -68,7 +67,7 @@ export const ratRemovalPolkCounty = servicePlacePage({
   seo: {
     title: "Rat Removal in Polk County, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Polk County, FL: entry gaps sealed, rats trapped and cleaned up in Lakeland, Winter Haven and Lake Wales homes. Call (727) 594-7705 today.",
+      "Rat removal in Polk County, FL: entry gaps sealed and the rats inside trapped in Lakeland, Winter Haven and Lake Wales homes. Call now: (727) 594-7705.",
   },
   sources: [
     { title: "Polk County: Code Enforcement (nuisances include rat infestations, trash on lots, high weeds on vacant lands and unsanitary conditions; (863) 534-6054)", url: CODE },
@@ -80,5 +79,5 @@ export const ratRemovalPolkCounty = servicePlacePage({
     { title: "Polk County: Contact us (Polk County Access Portal; Code Enforcement (863) 534-6054)", url: "https://www.polkfl.gov/contact-us/" },
     { title: "DOH-Polk: Sanitary nuisances (garbage, offal, dead animals; 863-519-8330, option 7)", url: "https://polk.floridahealth.gov/programs-and-services/environmental-health/sanitary-nuisances/" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Polk County?", "A real Google review from a Polk County rat job (TTR-723), and real Polk rat job photos."],
+  clientQuestions: ["A real Google review from a Polk County rat job (TTR-723), and real Polk rat job photos."],
 });

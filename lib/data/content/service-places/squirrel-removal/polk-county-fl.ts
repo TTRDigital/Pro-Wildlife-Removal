@@ -59,7 +59,6 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
     faq(
       "How soon can you come out for squirrels in Polk County?",
       "Same-day appointments for squirrels are often available in Polk County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Polk County]",
     ),
   ],
   ctaHeading: "Squirrels in your Polk County attic?",
@@ -88,5 +87,5 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
     { title: "FWC: FAQs, nuisance wildlife (no FWC authorization needed to take most nuisance wildlife from private property; release on site or 40+ contiguous acres in the same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     TRAP_RULES_SOURCE,
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Polk County?", "A real Google review from a Polk County squirrel job (TTR-723), and real Polk squirrel job photos."],
+  clientQuestions: ["A real Google review from a Polk County squirrel job (TTR-723), and real Polk squirrel job photos."],
 });

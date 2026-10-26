@@ -64,7 +64,6 @@ export const raccoonRemovalPalmHarbor = servicePlacePage({
     faq(
       "How soon can you come out for a raccoon in Palm Harbor?",
       "Same-day appointments for raccoons are often available in Palm Harbor. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Palm Harbor]",
     ),
   ],
   ctaHeading: "Raccoon in your Palm Harbor home?",
@@ -86,5 +85,5 @@ export const raccoonRemovalPalmHarbor = servicePlacePage({
     { title: "FWC: FAQs, nuisance wildlife (release on site or 40+ contiguous acres in the same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     TRAP_RULES_SOURCE,
   ],
-  clientQuestions: ["Typical response time for a raccoon call in Palm Harbor?", "A real Google review from a Palm Harbor raccoon job (TTR-723), and real Palm Harbor raccoon job photos."],
+  clientQuestions: ["A real Google review from a Palm Harbor raccoon job (TTR-723), and real Palm Harbor raccoon job photos."],
 });

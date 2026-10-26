@@ -20,10 +20,10 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
   placeName: "Hillsborough County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-hillsborough-county",
-  heroText: "Rats in the attic, walls or garage in Brandon, Riverview, Plant City or elsewhere in Hillsborough County? We find how they get in, close those gaps, trap the rats inside and clean up. Call (727) 594-7705.",
+  heroText: "Rats in the attic, walls or garage in Brandon, Riverview, Plant City or elsewhere in Hillsborough County? We find how they get in, close those gaps and trap the rats inside. Call (727) 594-7705.",
   answerHeading: "Who handles rats in a Hillsborough County home?",
   answer:
-    "Rats inside a Hillsborough County home are a job for a private company, and in a rental, the county's renter guide lists exterminating rodents among the landlord's duties. Pro Wildlife Removal finds the gaps rats use, seals them, traps the rats still inside and cleans up what they leave. Call (727) 594-7705.",
+    "Rats inside a Hillsborough County home are a job for a private company, and in a rental, the county's renter guide lists exterminating rodents among the landlord's duties. Pro Wildlife Removal finds the gaps rats use, seals them and traps the rats still inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rentals: rodents are the landlord's job", "Rat lungworm found in county rats"],
   localHeading: "Rat research and rules in Hillsborough County",
   localIntro: "These facts about rats and rodents in Hillsborough come from UF and USF research, a state park plan, county departments and DOH-Hillsborough.",
@@ -66,7 +66,6 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
     faq(
       "How fast can you check a Hillsborough County home for rats?",
       "Same-day appointments for rats are often available in Hillsborough County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Rats in your Hillsborough County home?",
@@ -74,7 +73,7 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
   seo: {
     title: "Rat Removal in Hillsborough County | Pro Wildlife Removal",
     description:
-      "Rat removal in Hillsborough County, FL: entry gaps sealed, rats trapped and cleaned up in Brandon, Riverview and Plant City homes. Call (727) 594-7705 now.",
+      "Rat removal in Hillsborough County, FL: entry gaps sealed and the rats inside trapped in Brandon, Riverview and Plant City homes. Call (727) 594-7705.",
   },
   sources: [
     { title: "Stockdale Walden et al., PLoS ONE, May 18, 2017: Geographic distribution of Angiostrongylus cantonensis in wild rats (Rattus rattus) and terrestrial snails in Florida (rats collected 2013 to 2015; 171 black rats necropsied; positives in 3 of 6 counties, including Hillsborough; Hillsborough 87 examined, 30 positive)", url: LUNGWORM },
@@ -87,5 +86,5 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
     { title: "DOH-Hillsborough: Animal risk assessment (low-risk animals include wild rodents and pet rats)", url: RISK },
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Hillsborough County?", "A real Google review from a Hillsborough County rat job (TTR-723), and real Hillsborough rat job photos."],
+  clientQuestions: ["A real Google review from a Hillsborough County rat job (TTR-723), and real Hillsborough rat job photos."],
 });

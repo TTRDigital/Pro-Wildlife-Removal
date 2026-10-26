@@ -60,7 +60,6 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
     faq(
       "When could someone come for squirrels in a Pasco County attic?",
       "Same-day appointments for squirrels are often available in Pasco County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Pasco County]",
     ),
   ],
   ctaHeading: "Squirrels in your Pasco County attic?",
@@ -80,5 +79,5 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
     { title: "FWC: FAQs, nuisance wildlife (release on the same property or 40+ contiguous acres in the same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "FWC: Trapping rules (new rules effective Dec. 31, 2026)", url: "https://myfwc.com/wildlifehabitats/wildlife/trapping-rules/" },
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Pasco County?", "A real Google review from a Pasco County squirrel job (TTR-723), and real Pasco squirrel job photos."],
+  clientQuestions: ["A real Google review from a Pasco County squirrel job (TTR-723), and real Pasco squirrel job photos."],
 });

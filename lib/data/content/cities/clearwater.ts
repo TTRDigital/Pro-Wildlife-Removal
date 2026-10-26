@@ -1,5 +1,6 @@
 import { countyPage, S } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { clearwaterRatsInput } from "./rats/clearwater.ts";
 
 /* Clearwater page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const ANIMAL_ISSUE = "https://www.myclearwater.com/Report-a-Problem/Report-an-Animal-Issue";
@@ -17,17 +18,17 @@ export const clearwater = countyPage({
   answerHeading: "Who handles wildlife problems in Clearwater?",
   answer:
     "The City of Clearwater doesn't run animal control: Pinellas County handles strays and pets, and FWC handles alligators and wildlife emergencies. For an animal living in your attic, walls or yard, call a private company. Pro Wildlife Removal works across Clearwater. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County handles pets", "FWC handles alligators"],
+  points: ["Call (727) 594-7705", "County handles pets", "FWC handles wildlife issues"],
   townsHeading: "Clearwater and nearby",
   townsIntro: "Clearwater, home to about 118,300 people, is the Pinellas County seat. We cover the towns around it too.",
   towns: [
     {
       title: "North Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Dunedin", href: "/about-us/service-area/wildlife-removal-dunedin/" },
-        { label: "Safety Harbor", href: "/about-us/service-area/wildlife-removal-safety-harbor/" },
-        { label: "Palm Harbor", href: "/about-us/service-area/wildlife-removal-palm-harbor/" },
+        { label: "Dunedin", href: "/service-areas/pinellas-county/dunedin/" },
+        { label: "Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
+        { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
         { label: "Largo" },
         { label: "Belleair" },
       ],
@@ -41,15 +42,16 @@ export const clearwater = countyPage({
     { icon: "map-pin", title: "The Alligator Creek watershed", text: p("Much of eastern Clearwater drains through Alligator Creek and Alligator Lake into Old Tampa Bay, a 5,546-acre watershed shared with Safety Harbor and unincorporated Pinellas.") },
     { icon: "critter", title: "A county feeding rule", text: p("Pinellas County code treats putting out food or garbage in a way that attracts raccoons, coyotes or other wildlife, and creates a nuisance, as a public nuisance.") },
   ],
+  rats: { heading: clearwaterRatsInput.localHeading, intro: clearwaterRatsInput.localIntro, cards: [...clearwaterRatsInput.local, ...(clearwaterRatsInput.contacts ?? [])], link: { label: "rat removal across Pinellas County", href: "/services/rat-removal/pinellas-county-fl/" } },
   contactsHeading: "Clearwater, Pinellas County and FWC contacts",
   contactsIntro: "Clearwater leaves strays to the county and gators to FWC. Here are the numbers, from the city's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Strays and pets: Pinellas County", text: p("Pinellas County Animal Services, (727) 582-2600, option 4. Clearwater's own page says the county handles dangerous pets, strays and cruelty.") },
     { icon: "home", title: "Dead animal on a city road", text: p("Clearwater Solid Waste Services removes dead animals from public roads, rights-of-way and medians inside city limits. On private property, it's the owner's job.") },
     { icon: "phone", title: "Animal bites: DOH-Pinellas", text: p("Report bites to the health department in Pinellas at 727-824-6932.") },
-    { icon: "map-pin", title: "Alligators and wildlife emergencies: FWC", text: p("The city points to FWC for nuisance alligators and injured sea life. Gator hotline: 866-FWC-GATOR. Wildlife Alert (injured sea life and wildlife law violations): 888-404-3922.") },
+    { icon: "map-pin", title: "Wildlife emergencies: FWC", text: p("The city points to FWC for nuisance alligators and injured sea life. Gator hotline: 866-FWC-GATOR. Wildlife Alert (injured sea life and wildlife law violations): 888-404-3922.") },
   ],
-  servicesIntro: "All nine services are available in Clearwater. Tap an animal for the details.",
+  servicesIntro: "Humane wildlife removal and wildlife exclusion for all nine animals below, anywhere in Clearwater. Tap one and our wildlife removal experts explain the details.",
   servicesHeading: "Animals we remove in Clearwater",
   reviewsIntro: "[PLACEHOLDER: reviews from Clearwater customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -68,7 +70,6 @@ export const clearwater = countyPage({
     faq(
       "Can you get out to a Clearwater home today?",
       "Same-day appointments are often available in Clearwater. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Clearwater]",
     ),
   ],
   ctaHeading: "Wildlife problem in Clearwater?",
@@ -90,6 +91,7 @@ export const clearwater = countyPage({
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
     { title: "FWC: Nuisance Alligator Program and Regional offices (Wildlife Alert 888-404-3922)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
+    ...clearwaterRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Clearwater?", "Clearwater reviews (from TTR-723) and real Clearwater job photos."],
+  clientQuestions: ["Clearwater reviews (from TTR-723) and real Clearwater job photos."],
 });

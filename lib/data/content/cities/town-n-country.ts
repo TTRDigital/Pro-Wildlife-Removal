@@ -31,13 +31,13 @@ export const townNCountry = countyPage({
   towns: [
     {
       title: "Northwest Hillsborough",
-      href: "/about-us/service-area/wildlife-removal-hillsborough-county/",
+      href: "/service-areas/hillsborough-county/",
       items: [
         { label: "Westchase" },
         { label: "Citrus Park" },
         { label: "Carrollwood" },
         { label: "Oldsmar (Pinellas)" },
-        { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
+        { label: "Tampa", href: "/service-areas/hillsborough-county/tampa/" },
       ],
     },
   ],
@@ -47,10 +47,18 @@ export const townNCountry = countyPage({
     { icon: "leaf", title: "Town N' Country Nature Preserve", text: p("The county's preserve north of Alonso High School holds pine flatwoods, freshwater marshes and hardwood swamps, and the county warns that many trails stand in water during the rainy season.") },
     { icon: "map-pin", title: "Upper Tampa Bay Trail", text: p("The trail starts at a trailhead off Memorial Highway and Montague Street and runs along the west shore of Channel A, past Waters Avenue and Linebaugh Avenue, before heading north.") },
     { icon: "home", title: "Town 'N Country Park", text: p("The county's Town 'N Country Park covers 25.74 acres with no staff on site, with courts, a softball field and a playground.") },
-    { icon: "search", title: "Rodent closures, 2022 to 2025", text: p("Florida DBPR's emergency closure records list seven closures of Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025, three of them on West Hillsborough Avenue. That is our count, matching listed addresses to the Census place.") },
-    { icon: "users", title: "A bear in May 2024 (news)", text: p("FOX 13 reported in May 2024 that a black bear spotted in Town 'n' Country had moved on to Carrollwood, according to FWC.") },
     { icon: "drop", title: "Upper Tampa Bay Conservation Park, next door", text: p("Nearby, the county's 596-acre peninsula park, founded in 1982, protects mangroves, salt marshes and pine flatwoods. The county lists bobcats, otters, gopher tortoises, dolphins and manatees among its wildlife.") },
   ],
+  rats: {
+    heading: "Rodent closures in Town 'n' Country",
+    intro: "State restaurant inspections are the clearest local record of rats here, and they go back years.",
+    cards: [
+    { icon: "search", title: "Rodent closures, 2022 to 2025", text: p("Florida DBPR's emergency closure records list seven closures of Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025, three of them on West Hillsborough Avenue. That is our count, matching listed addresses to the Census place.") },
+      { icon: "building", title: "Four more, 2019 to 2021", text: p("The DBPR files for 2019 through 2021 list 4 more rodent closures at food businesses we placed in Town 'n' Country, 2 of them on West Hillsborough Avenue. That makes 11 from 2019 through 2025, 5 on West Hillsborough.") },
+      { icon: "search", title: "Closed twice, four years apart", text: p("One Town 'n' Country restaurant was closed for rodent and fly activity in March 2021 and for roach and rodent activity in November 2025.") },
+    ],
+    link: { label: "rat removal across Hillsborough County", href: "/services/rat-removal/hillsborough-county-fl/" },
+  },
   contactsHeading: "Hillsborough and FWC contacts for Town 'n' Country",
   contactsIntro: "Unincorporated Town 'n' Country uses Hillsborough County's numbers, listed here from each agency's own page.",
   contacts: [
@@ -71,17 +79,12 @@ export const townNCountry = countyPage({
       "State inspection records show some. By our count, Florida DBPR closed seven Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025.",
     ),
     faq(
-      "Do bears come into Town 'n' Country?",
-      "It has happened. FOX 13 reported one in May 2024 that went on to Carrollwood. Report bears to FWC's Southwest Region office at 863-648-3200, and keep garbage secured.",
-    ),
-    faq(
       "Do you work near Channel A and the upper bay?",
       "Yes. We cover all of Town 'n' Country, including homes along Channel A and the Upper Tampa Bay Trail.",
     ),
     faq(
       "Could someone see my Town 'n' Country house today?",
       "Same-day appointments are often available in Town 'n' Country. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Town 'n' Country]",
     ),
   ],
   ctaHeading: "Wildlife problem in Town 'n' Country?",
@@ -92,6 +95,7 @@ export const townNCountry = countyPage({
       "Wildlife removal in Town 'n' Country, FL: raccoons, rats, squirrels and bats out of homes near Channel A, Memorial Highway and the upper bay. Call today.",
   },
   sources: [
+    { title: "Florida DBPR, Division of Hotels and Restaurants: Emergency closures by calendar year, 2019-2021 (4 rodent closures at Tampa-addressed food businesses placed in Town 'n' Country CDP with the Census Geocoder and TIGERweb 2020 CDPs, 2 on W Hillsborough Ave; one restaurant also closed Nov. 21, 2025; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },
     { title: "U.S. Census Bureau TIGERweb, 2020 Census, Census Designated Places (Town 'n' Country CDP: 85,951 residents; land about 57.6 million square meters, about 22 square miles)", url: TIGER },
     { title: "Hillsborough County: Town N' Country Nature Preserve (north of Alonso High School; pine flatwoods, freshwater marshes, hardwood swamps; standing water in the rainy season)", url: `${HCFL}town-n-country-nature-preserve` },
     { title: "Hillsborough County: Upper Tampa Bay Trail (west shore of Channel A from a trailhead off Memorial Highway/Montague Street, past Waters Avenue and Linebaugh)", url: `${HCFL}upper-tampa-bay-trail` },
@@ -105,5 +109,5 @@ export const townNCountry = countyPage({
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/report-an-animal-bite/" },
     { title: "FWC: Regional offices (Southwest Region, Lakeland, 863-648-3200)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Town 'n' Country?", "Real job photos and Google reviews from Town 'n' Country customers."],
+  clientQuestions: ["Real job photos and Google reviews from Town 'n' Country customers."],
 });

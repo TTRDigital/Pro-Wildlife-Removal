@@ -68,6 +68,8 @@ export type Faq = { question: string; answer: Rich };
 
 type SectionBase = {
   _key: string;
+  /** The section's id for links (e.g. "rats" for /service-areas/pinellas-county/clearwater/#rats). Default: from its heading. */
+  anchor?: string;
   style?: SectionStyle;
   tone?: Tone;
   eyebrow?: string;
@@ -184,6 +186,8 @@ export type ServicePlace = PageContent & {
 export type PlacePage = Pick<ServicePlace, "service" | "placeName" | "placeKind" | "location" | "county"> & {
   /** Its existing path without slashes. */
   path: string;
+  /** A section on that page to link straight to, e.g. "rats" on a city page. */
+  anchor?: string;
 };
 
 export type Post = {

@@ -13,7 +13,7 @@ export const manatee = countyPage({
   heroText: "Barrier-island beaches on the west, Bradenton and Palmetto in the middle, ranch land and preserves to the east. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife removal in Manatee County?",
   answer:
-    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect the house, remove the animal the way Florida law allows, seal the entry points it used and clean up what it left behind. Call (727) 594-7705.",
+    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect the house, remove the animal the way Florida law allows and seal the entry points it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Bradenton is the county seat", "Entry points sealed"],
   townsHeading: "Manatee County towns",
   townsIntro: "Bradenton is the county seat and largest city. About 83% of residents live outside city limits.",
@@ -30,22 +30,19 @@ export const manatee = countyPage({
     { icon: "home", title: "Trash and rodents", text: p("UF/IFAS Extension in Manatee points out that trash gives rodents food, water and shelter, and notes the county provides large lidded carts to keep wildlife and pests out. Lids closed, rats go elsewhere.") },
     { icon: "leaf", title: "Big preserves to the east", text: p("Duette Preserve, at over 21,000 acres, is the largest preserve in Manatee County. Homes on the growing east side sit closer to wild land.") },
     { icon: "critter", title: "Rabies: rare here lately", text: p("The Department of Health's last Manatee rabies alert was in May 2023, after a rabid cat in the Palm View area of Palmetto, and it counted no rabid animals in Manatee in 2024 or 2025. Rare doesn't mean never: don't handle wildlife.") },
-    { icon: "search", title: "South Central bear area", text: p("FWC places Manatee in its South Central bear area. Bears are FWC's department: lock up the trash and give them a call.") },
-    { icon: "map-pin", title: "Marine strandings", text: p("Manatee County refers sick, injured or dead marine mammals and sea turtles to Mote Marine Laboratory's stranding program, which answers its hotline at all hours: 888-345-2335.") },
   ],
   contactsHeading: "Manatee County numbers for animal problems",
   contactsIntro: "These are Manatee County's public numbers for animal problems, taken from the county's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Manatee County Animal Services", text: p("941-742-5933: option 1 to report cruelty, abuse or neglect, option 2 for lost and found pets.") },
     { icon: "phone", title: "Animal bites: DOH-Manatee", text: p("941-748-0747, option 4, to report an animal bite.") },
-    { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Manatee is in FWC's Southwest Region: 863-648-3200. For alligators, call 866-FWC-GATOR (866-392-4286).") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Manatee is in FWC's Southwest Region: 863-648-3200. For alligators, call 866-FWC-GATOR (866-392-4286).") },
   ],
   servicesIntro: "Choose the animal to read the signs, Florida's rules for it and how we handle it.",
   faqs: [
     faq(
       "Which number reaches you from Manatee County?",
       "Call (727) 594-7705. Same-day appointments are often available in Manatee County.",
-      "[PLACEHOLDER: ask the client: typical response time in Manatee County]",
     ),
     faq(
       "How do I keep rats out of the trash in Manatee County?",
@@ -92,7 +89,6 @@ export const manatee = countyPage({
   ],
   clientQuestions: [
     "Which Manatee County towns do you serve, and is there a Manatee phone number?",
-    "Typical response time in Manatee County?",
     "Real job photos and reviews from Manatee customers.",
   ],
 });

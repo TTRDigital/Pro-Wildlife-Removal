@@ -218,6 +218,10 @@ export const beeRemoval: Service = {
           "Assume they could be. UF/IFAS says African bees have been in Florida since 2001 and hybridize with European honey bees, and the hybrids show an unpredictable mix of both kinds of behavior. Treat any colony in Central Florida with care.",
         ),
         faq(
+          "Do you remove bees in Pasco and Hillsborough County?",
+          "Yes. We take bee swarm and beehive calls across Pasco and Hillsborough counties and the six other Central Florida counties we serve. Call (727) 594-7705.",
+        ),
+        faq(
           "Why does the honeycomb have to come out?",
           "UF/IFAS says comb left in a wall can melt and stain it, the honey ferments and the brood rots, and wax moths and beetles move in. Removing the whole nest is part of the job.",
         ),

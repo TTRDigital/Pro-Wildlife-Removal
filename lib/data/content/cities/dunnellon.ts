@@ -24,7 +24,7 @@ export const dunnellon = countyPage({
   towns: [
     {
       title: "Marion County",
-      href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
+      href: "/service-areas/marion-county/",
       items: [
         { label: "Ocala" },
         { label: "Silver Springs" },
@@ -43,6 +43,16 @@ export const dunnellon = countyPage({
     { icon: "home", title: "Raccoons in west Marion, 2024", text: p("In May 2024, DOH-Marion put the Rainbow Lakes Estates and southwest Ocala areas under a 60-day rabies alert after two raccoons captured there on April 26 tested positive.") },
     { icon: "drop", title: "Marion's rabies record", text: p("Marion County's rabies tables listed a rabid bat and 2 raccoons in 2022, and 6 rabid raccoons in 2025.") },
   ],
+  rats: {
+    heading: "Rodent closures around Dunnellon",
+    intro: "Restaurant inspection records, not home reports, are Dunnellon's local rat record.",
+    cards: [
+      { icon: "building", title: "Eight closures, 2015 to 2025", text: p("By our count of DBPR's emergency closure files, food businesses with a Dunnellon address were closed 8 times for rodents from 2015 through 2025, at 5 businesses, most recently in 2021.") },
+      { icon: "map-pin", title: "Inside city limits", text: p("Three of those closures were at addresses inside Dunnellon city limits: one on the US 41 corridor in June 2017, and one business on East Pennsylvania Avenue twice in 2018.") },
+      { icon: "search", title: "45 droppings, January 2026", text: p("Ocala-News.com reported that a Dunnellon-area restaurant was shut on Jan. 26, 2026, after an inspector counted 45 rodent droppings in the kitchen and bar. It reopened the next day.") },
+    ],
+    link: { label: "rat removal", href: "/services/rat-removal/" },
+  },
   contactsHeading: "Marion and FWC numbers for Dunnellon",
   contactsIntro: "Dunnellon relies on Marion County and FWC's Ocala office. These numbers come from DOH-Marion's alerts and FWC's pages.",
   contacts: [
@@ -69,7 +79,6 @@ export const dunnellon = countyPage({
     faq(
       "Do you get out to Dunnellon quickly?",
       "Same-day appointments are often available in Dunnellon. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Dunnellon]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dunnellon?",
@@ -80,6 +89,8 @@ export const dunnellon = countyPage({
       "Wildlife removal in Dunnellon, FL: raccoons, rats, squirrels and bats, plus what the Rainbow River preserve plan records and who to call about a bite.",
   },
   sources: [
+    { title: "Florida DBPR: Emergency closures by calendar year, 2015-2025 (Business City Dunnellon, conditions naming rodents: 8 closures at 5 businesses; 3 inside city limits per the Census Geocoder: June 14, 2017; July 11 and Sept. 6, 2018; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },
+    { title: "Ocala-News.com, Feb. 5, 2026: 45 rat feces at restaurant in Dunnellon golf club lead to failed health inspection (closed Jan. 26, reopened Jan. 27, 2026)", url: "https://www.ocala-news.com/2026/02/05/45-rat-feces-at-restaurant-in-dunnellon-golf-club-lead-to-failed-health-inspection/" },
     { title: "Florida EDR: April 1, 2025 population estimates (Dunnellon 2,022; 2020 Census 1,928)", url: EDR },
     { title: "Florida DEP: Rainbow Springs Aquatic Preserve Management Plan, June 2016 (southwest Marion County, encompassing a portion of the city of Dunnellon; 5.7 miles of Rainbow River to the Withlacoochee; documented species include raccoon, grey squirrel, Sherman's fox squirrel (SSC); potential species also listed)", url: RSAP },
     { title: "FWC: Southern fox squirrel profile (previously Sherman's fox squirrel; removed as a Species of Special Concern in 2018; remains on the Imperiled Species Management Plan)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/southern-fox-squirrel/" },
@@ -89,5 +100,5 @@ export const dunnellon = countyPage({
     { title: "DOH-Marion: Rabies advisory, Sept. 18, 2026 (Marion County Animal Services 352-671-8727; DOH-Marion 352-629-0137)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/09/rabies-advisory-marion-9-18-26.pdf" },
     { title: "FWC: Regional offices (Northeast Region includes Marion; Ocala office 352-732-1225)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Dunnellon?", "Real job photos and reviews from Dunnellon customers."],
+  clientQuestions: ["Real job photos and reviews from Dunnellon customers."],
 });

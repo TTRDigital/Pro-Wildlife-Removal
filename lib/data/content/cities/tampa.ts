@@ -21,12 +21,12 @@ export const tampa = countyPage({
   towns: [
     {
       title: "Around Tampa",
-      href: "/about-us/service-area/wildlife-removal-hillsborough-county/",
+      href: "/service-areas/hillsborough-county/",
       items: [
         { label: "Temple Terrace" },
         { label: "Town 'N' Country" },
         { label: "Lutz" },
-        { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
         { label: "Brandon" },
         { label: "Riverview" },
       ],
@@ -38,18 +38,18 @@ export const tampa = countyPage({
     { icon: "bug", title: "Where African bees arrived", text: p("UF/IFAS says African honey bees were first documented in Florida in 2001 near the Port of Tampa. Any bee colony in a Tampa wall or soffit should be treated with care. See [bee removal](/services/bee-removal/).") },
     { icon: "leaf", title: "McKay Bay Nature Park", text: p("The city's 38-acre preserve on McKay Bay has a boardwalk through the mangroves, and the city says many species of wading birds feed on its mudflats, especially in winter.") },
     { icon: "map-pin", title: "MacDill 48 Park", text: p("When Tampa opened its 48-acre MacDill 48 Park in November 2024, it named gopher tortoises, native fish and bald eagles among the wildlife living there.") },
-    { icon: "critter", title: "Alligators on the river", text: p("Hillsborough County's July 2026 safety tips note alligators are found throughout Florida, including Hillsborough County, with one photographed crossing a path at Lettuce Lake Park on the Hillsborough River.") },
     { icon: "sound", title: "Rabid bats nearby", text: p("Florida's Department of Health counted four rabid bats in Hillsborough County in 2025. A bat inside a Tampa home is never one to pick up bare-handed. See [bats in the attic](/services/bats-in-attic/).") },
   ],
+  rats: { heading: "Rats in Tampa", intro: "Tampa's rat facts have a page of their own, so they aren't repeated here.", cards: [{ icon: "critter", title: "Rat removal in Tampa", text: p("Rat lungworm found in Tampa, the yearly S.W.E.E.P. pickup, and the city's trash and code rules."), href: "/services/rat-removal/tampa-fl/" }] },
   contactsHeading: "Tampa's public animal numbers",
   contactsIntro: "Tampa doesn't run its own animal control. These are the public numbers, from the city's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Hillsborough County Animal Control", text: p("(813) 744-5660. The county's Code Enforcement division handles animal enforcement across the county, including Tampa. For wildlife on private property, the city says to use private removal services.") },
     { icon: "home", title: "Dead animal on a city road", text: p("813-274-8811, Tampa Solid Waste, for small dead animals in city rights-of-way. The city can't collect carcasses from private property.") },
     { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("813-307-8059, Environmental Public Health, to report a bite or scratch.") },
-    { icon: "map-pin", title: "Alligators and bears: FWC", text: p("Nuisance alligators: 866-FWC-GATOR (866-392-4286). Bear conflicts go to FWC's Southwest Region office in Lakeland, 863-648-3200.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Nuisance alligators: 866-FWC-GATOR (866-392-4286). Bear conflicts go to FWC's Southwest Region office in Lakeland, 863-648-3200.") },
   ],
-  servicesIntro: "Every service is available across Tampa. Pick the animal for its signs, Florida's rules and our process.",
+  servicesIntro: "Our wildlife management services cover all of Tampa. Pick the animal for its signs, Florida's rules and our process.",
   servicesHeading: "Animals we remove in Tampa",
   reviewsIntro: "[PLACEHOLDER: reviews from Tampa customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -66,13 +66,8 @@ export const tampa = countyPage({
       "Not by exclusion, unless FWC issues a permit. Florida's bat maternity season runs April 16 to August 14, and exclusion is legal from August 15 to April 15. We can inspect and plan in the meantime.",
     ),
     faq(
-      "There's an alligator in my yard in Tampa. Who do I call?",
-      "FWC's Nuisance Alligator Hotline, 866-FWC-GATOR. Hillsborough County notes alligators are found throughout Florida, including Hillsborough County.",
-    ),
-    faq(
       "How fast can you get to me in Tampa?",
       "Same-day appointments are often available in Tampa. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Tampa]",
     ),
   ],
   ctaHeading: "Wildlife problem in Tampa?",
@@ -89,7 +84,6 @@ export const tampa = countyPage({
     { title: "City of Tampa: Dead animal removal, city road (813-274-8811; city rights-of-way only; not private property)", url: "https://www.tampa.gov/service/dead-animal-removal-city-road" },
     { title: "City of Tampa: McKay Bay Nature Park (38-acre preserve; mangrove boardwalk; wading birds on the mudflats, especially in winter)", url: "https://www.tampa.gov/parks-and-recreation/programs/parks-and-facilities/greenways-and-trails/trail-maps/mckay-bay-nature-trail" },
     { title: "City of Tampa: MacDill 48 Park opens, Nov 2024 (48 acres; gopher tortoises, native fish, bald eagles)", url: "https://www.tampa.gov/news/2024-11/tampa-opens-newest-public-park-159436" },
-    { title: "Hillsborough County: Alligator safety tips, July 24, 2026 (alligators found throughout Florida, including Hillsborough County; Lettuce Lake Park photo)", url: "https://hcfl.gov/newsroom/2026/07/24/tips-to-keep-your-family-and-pets-safe-around-alligators-this-summer" },
     { title: "UF/IFAS EDIS ENY-170 (IN1205): African bees first documented in Florida in 2001 near the Port of Tampa", url: "https://ask.ifas.ufl.edu/publication/IN1205" },
     S.doh2025,
     { title: "Hillsborough County: Animal Control ((813) 744-5660)", url: "https://hcfl.gov/locations/animal-control" },
@@ -97,5 +91,5 @@ export const tampa = countyPage({
     { title: "FWC: Regional offices (Southwest 863-648-3200) and Nuisance Alligator Program (866-FWC-GATOR)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
     S.bats,
   ],
-  clientQuestions: ["Typical response time in Tampa?", "Tampa reviews (from TTR-723) and real Tampa job photos."],
+  clientQuestions: ["Tampa reviews (from TTR-723) and real Tampa job photos."],
 });

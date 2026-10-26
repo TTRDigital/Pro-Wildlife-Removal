@@ -9,6 +9,9 @@ function insert(sections: Section[], extra: Section): Section[] {
 
 export const placePath = (p: ServicePlace) => `/services/${p.service}/${p.place}/`;
 
+/** Link to a place page, or to its section on a city page (e.g. /service-areas/pinellas-county/clearwater/#rats). */
+const placeHref = (p: PlacePage) => `/${p.path}/${p.anchor ? `#${p.anchor}` : ""}`;
+
 /** An animal page with a "By city" list of its place pages (cities, then counties). */
 export function withPlacesOf(service: Service, places: PlacePage[]): Service {
   const mine = places.filter((p) => p.service === service.slug);
@@ -17,7 +20,7 @@ export function withPlacesOf(service: Service, places: PlacePage[]): Service {
     const items = mine
       .filter((p) => p.placeKind === kind)
       .sort((a, b) => a.placeName.localeCompare(b.placeName))
-      .map((p) => ({ label: p.placeName, href: `/${p.path}/` }));
+      .map((p) => ({ label: p.placeName, href: placeHref(p) }));
     return items.length ? [{ title, items }] : [];
   };
   const section: AreasSection = {
@@ -49,7 +52,7 @@ const NEIGHBOURS: Record<string, string[]> = {
  */
 export function withPlaceLinks<T extends { sections: Section[] }>(page: T, self: PlacePage, places: PlacePage[], services: Service[], locations: Location[]): T {
   const title = (slug: string) => services.find((s) => s.slug === slug)?.title ?? slug;
-  const link = (p: PlacePage) => ({ label: `${title(p.service)} in ${p.placeName}`, href: `/${p.path}/` });
+  const link = (p: PlacePage) => ({ label: `${title(p.service)} in ${p.placeName}`, href: placeHref(p) });
   const others = places.filter((p) => p.path !== self.path);
   const countyName = self.placeKind === "county" ? self.placeName.replace(/ County$/, "") : self.county;
   const sections: Section[] = [];
@@ -98,7 +101,7 @@ export function withServicesHere(location: Location, places: PlacePage[], servic
     .filter((s) => s.group === "removal")
     .map((s) => {
       const here = mine.find((p) => p.service === s.slug);
-      return { label: s.title, href: here ? `/${here.path}/` : `/services/${s.slug}/` };
+      return { label: s.title, href: here ? placeHref(here) : `/services/${s.slug}/` };
     });
   if (!items.length) return location;
   const section: AreasSection = {

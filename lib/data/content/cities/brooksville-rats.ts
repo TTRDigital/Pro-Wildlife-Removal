@@ -1,4 +1,4 @@
-import { countyPage, S } from "../counties/build.ts";
+import { countyPage, S, type CountyInput } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
 /* Brooksville rat removal page, rewritten in place at its existing URL with its rat angle kept (Ben, Oct 26). Checkable local facts only. */
@@ -9,7 +9,7 @@ const IN1397 = "https://ask.ifas.ufl.edu/publication/IN1397";
 const IRDOH = "https://indianriver.floridahealth.gov/wp-content/uploads/sites/32/2025/05/Rodent_Control_Booklet.pdf";
 const GOOD_NEIGHBOR = "https://www.cityofbrooksville.us/AgendaCenter/ViewFile/Agenda/_04252024-260";
 
-export const brooksvilleRats = countyPage({
+export const brooksvilleRatsInput = {
   kind: "rat",
   path: "about-us/service-area/expert-rat-removal-in-brooksville-fl",
   name: "Brooksville",
@@ -30,10 +30,10 @@ export const brooksvilleRats = countyPage({
   towns: [
     {
       title: "Hernando County",
-      href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
+      href: "/service-areas/hernando-county/",
       items: [
-        { label: "Brooksville (all wildlife)", href: "/about-us/service-area/wildlife-removal-service-in-brooksville-fl/" },
-        { label: "Spring Hill", href: "/about-us/service-area/wildlife-removal-spring-hill-fl/" },
+        { label: "Brooksville (all wildlife)", href: "/service-areas/hernando-county/brooksville/" },
+        { label: "Spring Hill", href: "/service-areas/hernando-county/spring-hill/" },
         { label: "Weeki Wachee" },
         { label: "Ridge Manor" },
       ],
@@ -79,7 +79,6 @@ export const brooksvilleRats = countyPage({
     faq(
       "How quickly can you inspect a Brooksville attic for rats?",
       "Same-day rat inspections are often available in Brooksville. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Brooksville]",
     ),
   ],
   ctaHeading: "Rats in your Brooksville home?",
@@ -105,5 +104,7 @@ export const brooksvilleRats = countyPage({
     { title: "FWC: Chinsegut Wildlife and Environmental Area (six miles north of Brooksville)", url: "https://myfwc.com/recreation/lead/chinsegut/" },
     { title: "FWC: Nuisance Alligator Program", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
   ],
-  clientQuestions: ["Typical response time in Brooksville?", "Brooksville rat job reviews (from TTR-723) and real rat job photos."],
-});
+  clientQuestions: ["Brooksville rat job reviews (from TTR-723) and real rat job photos."],
+} satisfies CountyInput;
+
+export const brooksvilleRats = countyPage(brooksvilleRatsInput);

@@ -46,7 +46,7 @@ export const batRemovalHernandoCounty = servicePlacePage({
     { icon: "users", title: "A colony in your building", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
-  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "How colony size, roof type and cleanup shape the cost of a bat job." },
+  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "How colony size, roof type and the season shape the cost of a bat job." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Hernando County bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
@@ -68,7 +68,6 @@ export const batRemovalHernandoCounty = servicePlacePage({
     faq(
       "How quickly can a Hernando County bat colony be looked at?",
       "Same-day appointments for bats are often available in Hernando County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Hernando County]",
     ),
   ],
   ctaHeading: "Bats in your Hernando County home?",
@@ -92,5 +91,5 @@ export const batRemovalHernandoCounty = servicePlacePage({
     { title: "FWC: Bats in buildings (exclusion the only legal method; capture and relocation illegal; poison and fumigants illegal)", url: BIB },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Hernando)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Hernando County?", "A real Google review from a Hernando County bat job (TTR-723), and real Hernando bat job photos."],
+  clientQuestions: ["A real Google review from a Hernando County bat job (TTR-723), and real Hernando bat job photos."],
 });

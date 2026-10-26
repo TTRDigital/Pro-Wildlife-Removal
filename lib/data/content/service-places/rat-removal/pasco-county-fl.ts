@@ -26,7 +26,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
   heroText: "Scratching in a Pasco attic at night, or chewed fruit under the orange tree? We find where rats get in, seal it and trap the ones left inside. Call (727) 594-7705.",
   answerHeading: "Who takes care of rats in a Pasco County house?",
   answer:
-    "A private wildlife company. Pasco County doesn't pick up household trash; homes sign up with a licensed hauler or haul it themselves. For rats in a Pasco attic, wall or garage, Pro Wildlife Removal finds the gaps they use, seals them, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
+    "A private wildlife company. Pasco County doesn't pick up household trash; homes sign up with a licensed hauler or haul it themselves. For rats in a Pasco attic, wall or garage, Pro Wildlife Removal finds the gaps they use, seals them and traps the rats still inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Feed in rat-proof bins", "Roof rats love citrus"],
   localHeading: "Rats in Pasco, from the Gulf coast to the citrus groves",
   localIntro: "Pasco runs from Gulf shoreline to citrus country, and rats do well in both. These local rules and facts shape a rat job here.",
@@ -68,7 +68,6 @@ export const ratRemovalPascoCounty = servicePlacePage({
     faq(
       "Can a Pasco County rat inspection happen the day I call?",
       "Same-day appointments for rats are often available in Pasco County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a rat call in Pasco County]",
     ),
   ],
   ctaHeading: "Rats in your Pasco County home?",
@@ -88,5 +87,5 @@ export const ratRemovalPascoCounty = servicePlacePage({
     { title: "UF/IFAS EDIS SSWEC120: Control of Roof Rats in Fruit Trees (archived; hollowed-out fruit through the citrus season, September through March)", url: UW120 },
     { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (rats use limbs that touch or overhang the house as a highway; prune overhanging limbs)", url: "https://ask.ifas.ufl.edu/publication/IN1397" },
   ],
-  clientQuestions: ["Typical response time for a rat call in Pasco County?", "A real Google review from a Pasco County rat job (TTR-723), and real Pasco rat job photos."],
+  clientQuestions: ["A real Google review from a Pasco County rat job (TTR-723), and real Pasco rat job photos."],
 });

@@ -23,16 +23,16 @@ export const ratRemoval: Service = {
   group: "removal",
   animal: "rat",
   order: 2,
-  summary: "Roof rats out of the attic: every entry point sealed, the rats left inside trapped, and the droppings cleaned up.",
+  summary: "Roof rats out of the attic: every entry point sealed and the rats left inside trapped.",
   cardImage: images.ratRemoval2,
   design: "new",
   hero: {
     eyebrow: "RAT REMOVAL AND RODENT-PROOFING",
     heading: "Rat Removal in Central Florida",
     highlight: "Rat Removal",
-    text: p("Scratching in the ceiling at night? We find how the rats get in, close every gap, trap the ones still inside and clean the attic."),
+    text: p("Scratching in the ceiling at night? We find how the rats get in, close every gap and trap the ones still inside."),
     image: images.ratRemoval2,
-    badges: ["Entry points sealed", "Attic cleanup"],
+    badges: ["Entry points sealed", "Rats trapped inside"],
   },
   sections: [
     {
@@ -134,9 +134,9 @@ export const ratRemoval: Service = {
         },
         {
           number: "4",
-          title: "Check the seals, then clean",
+          title: "Check the seals",
           text: p(
-            "Rats test new seals in the first couple of weeks, so the work is checked and any break is fixed. Then droppings, nests and soiled insulation come out and the attic is sanitized.",
+            "Rats test new seals in the first couple of weeks, so the work is checked and any break is fixed.",
           ),
         },
       ],
@@ -161,14 +161,13 @@ export const ratRemoval: Service = {
     {
       _type: "splitSection",
       _key: "sealing",
-      eyebrow: "Cleanup",
-      heading: "Cleaning up after rats",
+      eyebrow: "After the rats",
+      heading: "Rat droppings: what the CDC says",
       body: p(
-        "Rat droppings and urine can carry germs, and sweeping or vacuuming them puts dust in the air. The CDC's advice is to wet droppings with a disinfectant or a bleach solution first, wait five minutes, then pick them up with paper towels. In an attic, with years of droppings through the insulation, that means protective gear, respirators and often removing the insulation.",
+        "Rat droppings and urine can carry germs, and sweeping or vacuuming them puts dust in the air. The CDC's advice is to wet droppings with a disinfectant or a bleach solution first, wait five minutes, then pick them up with paper towels. In an attic with years of droppings through the insulation, that is work for protective gear and respirators.",
       ),
       checklist: [
-        "Droppings, nests and soiled insulation removed",
-        "Attic surfaces disinfected",
+        "Droppings, nests and soiled insulation shown to you in the inspection",
         "Chewed wiring pointed out so an electrician can check it",
         "[PLACEHOLDER: ask the client: is there a warranty on rat exclusion work, and how long?]",
       ],
@@ -181,7 +180,7 @@ export const ratRemoval: Service = {
       eyebrow: "Cost",
       heading: "What rat removal costs depends on",
       intro: p(
-        "We price rat jobs after the inspection, once we know how many openings there are and how much cleanup the attic needs. See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for more.",
+        "We price rat jobs after the inspection, once we know how many openings there are and how hard they are to reach. See [what drives wildlife removal costs](/blog/how-much-does-wildlife-removal-cost/) for more.",
       ),
       variant: "plain",
       columns: 2,
@@ -189,7 +188,7 @@ export const ratRemoval: Service = {
         { title: "Number of entry points", text: p("A tile roof with many gaps takes more sealing than a shingle roof with one bad vent.") },
         { title: "Size of the house and roof", text: p("More roofline and more vents mean more to inspect and close.") },
         { title: "Trapping visits", text: p("How long it takes to clear the rats left inside after sealing.") },
-        { title: "Attic cleanup", text: p("From a light cleanup to removing all the insulation.") },
+        { title: "Attic condition", text: p("What the inspection finds in the insulation and wiring.") },
       ],
       outro: p("The rat inspection is free. We walk the roofline and attic, then give you the price before any work starts."),
     },
@@ -214,6 +213,10 @@ export const ratRemoval: Service = {
       eyebrow: "FAQ",
       heading: "Rat removal questions",
       items: [
+        faq(
+          "Looking for a rat exterminator near me?",
+          "Pro Wildlife Removal is a rat removal company rather than an exterminator, and there's no spraying. We find the openings the rats use, trap the ones inside and seal those entry points, so the house is closed to the next ones. Call (727) 594-7705.",
+        ),
         faq(
           "Are they roof rats or Norway rats?",
           "In an attic, almost always roof rats. Florida DOH describes roof rats as good climbers that nest in trees and plants but generally like high places such as attics, with a tail longer than the body. Norway rats burrow under buildings and beneath concrete slabs. UF/IFAS adds that Norway rats are heavier and found mainly along Florida's coasts and canals. Florida DOH says the two sometimes live together, though roof rats like to be up high. More in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).",
@@ -269,7 +272,7 @@ export const ratRemoval: Service = {
   seo: {
     title: "Rat Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Roof rats in the attic? We seal every entry point, trap the rats left inside and clean up droppings and insulation in Central Florida. (727) 594-7705.",
+      "Roof rats in the attic or walls? We find and seal every entry point, then trap the rats left inside, in homes across Central Florida. Call (727) 594-7705.",
   },
   sources: [
     { title: "Florida DOH Gadsden: Rodent control (roof rats up to 8 litters a year of 6-8 young, sexually active 2-3 months after birth; good climbers, nest in trees but like high places such as attics; tail longer than body; sometimes live with Norway rats but stay up high; hollow out citrus fruit; Norway rats burrow under buildings and concrete slabs, out by day when numbers are high, when disturbed or when food is threatened; teeth kept short by gnawing; grease stains from fur on pipes, wires and around entrance holes)", url: GADSDEN },

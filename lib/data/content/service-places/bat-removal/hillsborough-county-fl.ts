@@ -66,7 +66,6 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     faq(
       "How fast can you inspect a bat roost in Hillsborough County?",
       "Same-day appointments for bats are often available in Hillsborough County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Bats in your Hillsborough County home?",
@@ -92,5 +91,5 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion devices at least four nights, lows forecast 50°F or above)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
     { title: "FWC: Bats in buildings (no exclusion during maternity season without a permit)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Hillsborough County?", "A real Google review from a Hillsborough County bat job (TTR-723), and real Hillsborough bat job photos."],
+  clientQuestions: ["A real Google review from a Hillsborough County bat job (TTR-723), and real Hillsborough bat job photos."],
 });

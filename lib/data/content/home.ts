@@ -21,10 +21,10 @@ export const home: PageContent = {
     heading: "Wildlife Removal in Central Florida",
     highlight: "Wildlife Removal",
     text: p(
-      "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind.",
+      "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and show you what the inspection found.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
-    badges: ["8 counties", "Removal, sealing and cleanup"],
+    badges: ["8 counties", "Removal and sealing"],
   },
   sections: [
     {
@@ -32,7 +32,7 @@ export const home: PageContent = {
       _key: "answer",
       heading: "Who we are and how it works",
       text: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in eight counties across Central Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums (possums), armadillos, bees and dead animals from homes and businesses in eight counties across Central Florida. We inspect, remove the animals the way Florida law allows and seal the entry points. Call (727) 594-7705.",
       ),
       points: ["8 counties", "Humane, legal methods", "Entry points sealed"],
     },
@@ -41,7 +41,7 @@ export const home: PageContent = {
       _key: "animals",
       eyebrow: "Animals we remove",
       heading: "Which animal is it?",
-      intro: p("Pick the animal you think you have. Each page covers the signs, the Florida rules for that animal and how we get it out."),
+      intro: p("Pick the critter you think you have. Each page covers the signs, the Florida rules for that animal and how we get it out."),
       group: "removal",
     },
     {
@@ -70,9 +70,9 @@ export const home: PageContent = {
         },
         {
           number: "3",
-          title: "Clean-Up Services",
+          title: "Inspection Report",
           text: p(
-            "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments and ozone treatments to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
+            "Animals that live in a crawlspace or attic leave droppings, soiled insulation and chewed wiring behind. We show you what the inspection found, so you know what an electrician or contractor may need to look at.",
           ),
         },
       ],
@@ -82,7 +82,7 @@ export const home: PageContent = {
       _key: "areas",
       eyebrow: "Service area",
       heading: "Wildlife removal in 8 Florida counties",
-      intro: p("One number covers all eight counties: (727) 594-7705."),
+      intro: p("One number covers all eight counties, from Tarpon Springs on the Gulf coast to Ocala and Winter Haven inland: (727) 594-7705."),
       groups: countyGroups,
       display: "map",
     },
@@ -100,7 +100,7 @@ export const home: PageContent = {
         "A free inspection, and the price for your home before any work starts",
         "Wildlife removal only, for all kinds of animals, with no general pest control",
         "Humane methods that follow Florida Fish and Wildlife Conservation Commission rules",
-        "Entry points sealed and the mess cleaned up, not just the animal taken away",
+        "Entry points sealed, not just the animal taken away",
         "Founded in 2016 by Josh Holmberg, with 15 years in wildlife removal",
         "Rated 4.7 from 273 Google reviews",
       ],
@@ -156,14 +156,17 @@ export const home: PageContent = {
       heading: "Wildlife removal questions we hear every day",
       items: [
         faq(
+          "Are you an exterminator?",
+          "No. We're a wildlife removal company, not an exterminator, and we don't spray. For rats, raccoons, squirrels or bats, we find how they get in, remove them the way Florida law allows and seal the entry points. If you were searching for wildlife exterminators, this is the work you're after.",
+        ),
+        faq(
           "How much does wildlife removal cost in Central Florida?",
-          "It depends on the animal, how many there are, how many entry points need sealing and how much cleanup the attic needs. A single raccoon caught in a yard is a different job from a bat colony in a tile roof. We give you the price for your home after the inspection, before any work starts.",
+          "It depends on the animal, how many there are, how many entry points need sealing and how high or hard to reach they are. A single raccoon caught in a yard is a different job from a bat colony in a tile roof. We give you the price for your home after the inspection, before any work starts.",
           "The inspection is free.",
         ),
         faq(
           "How fast can you come out?",
           "Same-day appointments are often available. For an animal loose inside the living space, a snake in the house or bees near people, tell us when you call so we can treat it as urgent.",
-          "[PLACEHOLDER: ask the client: typical response time for emergencies and for regular inspections]",
         ),
         faq(
           "Is your wildlife removal humane?",
@@ -171,7 +174,7 @@ export const home: PageContent = {
         ),
         faq(
           "Can I trap and move the animal myself?",
-          "Florida allows a property owner to trap many nuisance animals, but the rules are strict. Traps must be checked at least every 24 hours. A native animal can be released on the same property, or on land of at least 40 contiguous acres in the same county with the landowner's written permission. Non-native animals can't be released at all. Bats can't be trapped or relocated. Many people call us because of those rules.",
+          "Florida allows a property owner to trap many nuisance animals, but the rules are strict. Traps must be checked at least every 24 hours. A native animal can be released on the same property, or on land of at least 40 contiguous acres in the same county with the landowner's written permission. Non-native animals can't be released at all. Bats can't be trapped or relocated. Those rules are why many people hand the job to wildlife trappers like us, whether it's an armadillo under the slab or a possum in the garage.",
           TRAP_RULES_2026,
         ),
         faq(
@@ -184,8 +187,8 @@ export const home: PageContent = {
           "Before you hire anyone, ask what the quote covers: every opening on the house, or only the one in use today.",
         ),
         faq(
-          "Do you clean up the attic afterwards?",
-          "Yes. We remove droppings, nesting material and soiled insulation and sanitize the area. Sweeping or vacuuming droppings can put germs in the air, so this is work for protective gear and a respirator, not a broom.",
+          "Is it safe to sweep up droppings in the attic myself?",
+          "No. The CDC says not to sweep or vacuum rodent droppings, because that can put germs in the air. Its steps are gloves, a disinfectant or bleach soak, then paper towels. We'll point out where the droppings and soiled insulation are during the inspection.",
         ),
         faq(
           "Which areas do you serve?",
@@ -209,7 +212,7 @@ export const home: PageContent = {
   seo: {
     title: "Wildlife Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal across 8 Central Florida counties, with sealing and cleanup. A free inspection: (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across 8 Central Florida counties, with every entry point sealed. A free inspection: (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
@@ -227,7 +230,6 @@ export const home: PageContent = {
   clientQuestions: [
     "How many jobs has the company done, or which rating and review count should the site show (the live site says 4.7 from 273 Google reviews)?",
     "Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
-    "Typical response time for emergencies and for regular inspections?",
     "Which cities in Polk get the most calls, so the area list shows the right towns? Do you serve Manatee or Osceola County? Those pages are held until you confirm.",
     "A real truck or crew photo for the hero.",
     "Is there a written warranty on sealing work? Until there is, the site won't say anything like \"sealed for good\" or promise animals won't return.",

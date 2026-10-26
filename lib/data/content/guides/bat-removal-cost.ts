@@ -15,7 +15,7 @@ export const batRemovalCost: Post = {
   slug: "how-much-does-bat-removal-cost-in-florida",
   title: "How Much Does Bat Removal Cost in Florida?",
   excerpt:
-    "Bat removal cost in Florida depends on how many openings the bats use, how hard they are to reach, how long the colony has been there and how much guano cleanup the attic needs.",
+    "Bat removal cost in Florida depends on how many openings the bats use, how hard they are to reach, how long the colony has been there and how much guano is in the attic.",
   date: "2023-12-09T00:52:59+00:00",
   modified: "2026-10-26T00:00:00+00:00",
   author: "Josh Holmberg",
@@ -24,7 +24,7 @@ export const batRemovalCost: Post = {
     p(
       "**The short answer:** bat removal in Florida is priced per house, not per bat. Cost depends on how many openings the colony uses, how hard they are to reach, how long the bats have been there and how much guano has to come out. It starts with an inspection: call (727) 594-7705.",
     ),
-    h3("What changes the price of bat removal"),
+    h3("What changes the cost to remove bats from an attic"),
     p("Bats can't be trapped or poisoned in Florida, so every colony in a building is removed by exclusion: one-way devices on the exits, then sealing. These are the things that make one exclusion cost more than another."),
     table(
       ["Factor", "Why it changes the price"],
@@ -45,12 +45,11 @@ export const batRemovalCost: Post = {
       "**Inspection** of the whole roofline and attic to find every opening, the roost and the extent of the guano.",
       "**One-way exclusion devices** on the active exits, left up until no bats are left.",
       "**Sealing** of every opening once the bats are out.",
-      "**Guano cleanup** and, where needed, insulation removal. Our guide to [attic cleanup costs](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) covers that part.",
-    ),
+          ),
     h3("Doing it yourself versus calling a pro"),
     p(`Florida's rules leave little room for do-it-yourself bat removal. Florida law protects bats: FWC says harming them isn't allowed, poison, relocation and fumigants are illegal to use on bats, and bats sealed inside a building die there ([FWC](${BUILDINGS})). The savings from a store-bought device disappear fast if a missed opening lets the colony back in, or if bats end up trapped in a wall.`),
     p("What you can do yourself: watch the roofline at dusk to see where the bats come out, and keep the attic door closed. That information also makes the inspection quicker."),
-    h3("Cleanup: the part of the bill people forget"),
+    h3("Guano: the part people forget"),
     p(
       "Guano builds up under the roost for as long as the colony stays. The CDC recommends a respirator in a confined space with bat droppings, and FWC notes that guano in a dry, unused space can usually be left alone. In a used attic, with ductwork and stored belongings, it usually comes out. That can range from a light cleanup to removing all the insulation under the roost.",
     ),
@@ -78,7 +77,7 @@ export const batRemovalCost: Post = {
       "**Don't block the exits yourself.** Trapped bats mean dead bats in the walls and a second bill for [odor and dead animal removal](/services/dead-animal-removal/).",
       "**Put up a bat house before the exclusion.** FWC suggests one close to the roost, in the bats' flight path, on a pole or building. It doesn't replace exclusion, but gives the colony somewhere to go.",
     ),
-    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (727) 594-7705. We exclude bats across [Pinellas](/about-us/service-area/wildlife-removal-pinellas-county/), [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) and seven more counties."),
+    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (727) 594-7705. We exclude bats across [Pinellas](/service-areas/pinellas-county/), [Hillsborough](/service-areas/hillsborough-county/) and seven more counties."),
   ),
   faq: [
     faq("Is bat removal cheaper in winter?", "Not necessarily cheaper, but easier to schedule. Exclusion is allowed from August 15 to April 15, as long as overnight lows are forecast at 50°F or warmer during the exclusion."),
@@ -88,7 +87,7 @@ export const batRemovalCost: Post = {
   seo: {
     title: "Bat Removal Cost in Florida (2026) | Pro Wildlife Removal",
     description:
-      "What sets bat removal cost in Florida: number of exits, roof height, how long the colony has been there, guano cleanup and the April 16 to Aug 14 season.",
+      "What sets bat removal cost in Florida: number of exits, roof height, how long the colony has been there, the guano, and the April 16 to Aug. 14 season.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; four nights; 50°F; permits during the season)", url: RELEASE },

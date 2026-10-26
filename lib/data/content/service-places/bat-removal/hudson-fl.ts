@@ -45,7 +45,7 @@ export const batRemovalHudson = servicePlacePage({
     { icon: "users", title: "Bats in your building", text: p("A private company. Call us at (727) 594-7705.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
-  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "The parts of a bat job that set the price: inspection, exclusion, sealing and cleanup." },
+  extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "The parts of a bat job that set the price: inspection, exclusion and sealing." },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Hudson bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
@@ -67,7 +67,6 @@ export const batRemovalHudson = servicePlacePage({
     faq(
       "Is a same-day bat visit possible in Hudson?",
       "Same-day appointments for bats are often available in Hudson. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Hudson]",
     ),
   ],
   ctaHeading: "Bats in your Hudson home?",
@@ -88,5 +87,5 @@ export const batRemovalHudson = servicePlacePage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (report bites and scratches, 352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Pasco)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Hudson?", "A real Google review from a Hudson bat job (TTR-723), and real Hudson bat job photos."],
+  clientQuestions: ["A real Google review from a Hudson bat job (TTR-723), and real Hudson bat job photos."],
 });

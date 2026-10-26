@@ -18,7 +18,7 @@ export const deadAnimalRemoval: Service = {
   group: "removal",
   animal: "dead-animal",
   order: 9,
-  summary: "A dead animal found and removed from a wall, attic, crawl space or vent, the area cleaned and deodorized.",
+  summary: "A dead animal found and removed from a wall, attic, crawl space or vent, and the way it got in found.",
   cardImage: images.deadAnimalRemoval,
   design: "new",
   hero: {
@@ -35,9 +35,9 @@ export const deadAnimalRemoval: Service = {
       _key: "answer",
       heading: "How do you get rid of a dead animal smell in the house?",
       text: p(
-        "Find the animal and remove it. Air fresheners only cover the smell, and in Florida heat it gets worse fast. The source is usually in a wall, attic, crawl space or vent. We locate it, bag and remove it, clean and deodorize the spot, and find how the animal got in. Call (727) 594-7705.",
+        "Find the animal and remove it. Air fresheners only cover the smell, and in Florida heat it gets worse fast. The source is usually in a wall, attic, crawl space or vent. We locate it, bag and remove it, and find how the animal got in. Call (727) 594-7705.",
       ),
-      points: ["Find the source", "Gloves and bags", "Clean and deodorize", "Find the way in"],
+      points: ["Find the source", "Gloves and bags", "Remove the animal", "Find the way in"],
     },
     {
       _type: "cardsSection",
@@ -83,7 +83,7 @@ export const deadAnimalRemoval: Service = {
       cards: [
         { number: "1", title: "Follow the smell", text: p("We trace the odor, flies and stains to the spot, then check the attic, crawl space, walls and vents near it.") },
         { number: "2", title: "Remove the animal", text: p("Gloved, bagged and sealed, following the CDC's handling steps. If it's inside a finished wall, we make the smallest opening that gets it out, and tell you before cutting.", "We don't patch drywall: the owner arranges that repair with a contractor.") },
-        { number: "3", title: "Clean and deodorize", text: p("The spot is cleaned and sanitized, soiled insulation removed, and the area treated for odor.") },
+        { number: "3", title: "Show you the spot", text: p("We show you where the animal was and any soiled insulation around it, so you know what a contractor may need to replace.") },
         { number: "4", title: "Find the way in", text: p("We look for how the animal got inside, so you're not doing this again next month. If it's a rat, squirrel or bat problem, we tell you and quote the fix.") },
       ],
     },
@@ -110,14 +110,13 @@ export const deadAnimalRemoval: Service = {
       _type: "splitSection",
       _key: "sealing",
       eyebrow: "After removal",
-      heading: "Clean, fresh and closed up",
+      heading: "Removed and closed up",
       body: p(
         "Removing the animal is the main job, and the rest is making sure the smell and the cause are gone too.",
       ),
       checklist: [
         "Remains bagged and removed from the property",
-        "Fluids and soiled insulation cleaned up",
-        "Area sanitized and treated for odor",
+        "Soiled insulation around the spot pointed out",
         "Entry point found and the fix explained",
         "[PLACEHOLDER: ask the client: what odor treatment you use, and do you return if the smell lingers?]",
       ],
@@ -136,7 +135,7 @@ export const deadAnimalRemoval: Service = {
         { title: "Where it is", text: p("Open crawl space, attic, chimney or vent, or inside a finished wall.") },
         { title: "Finding it", text: p("A clear smell to follow, or a search through several spaces.") },
         { title: "Size of the animal", text: p("A rat, an opossum or something larger.") },
-        { title: "Cleanup and odor work", text: p("A quick wipe-down, or insulation removal and treatment.") },
+        { title: "Where it is", text: p("Out in the open in an attic, or inside a finished wall.") },
       ],
     },
     {
@@ -172,6 +171,10 @@ export const deadAnimalRemoval: Service = {
           "The CDC says the risk from animal carcasses is low if you take proper precautions: gloves, bagging the remains and washing your hands. Don't touch one bare-handed, and keep children and pets away.",
         ),
         faq(
+          "How do I dispose of a dead cat or dog in my yard?",
+          "The CDC's disposal steps for dead animals apply: wear gloves, slip a plastic bag over your hand, pick the animal up, turn the bag inside out and seal it, and use a shovel for a larger animal. Its guidance also says to call animal control. Wash your hands afterwards. If the animal is somewhere you can't reach, call (727) 594-7705.",
+        ),
+        faq(
           "What if it's a bat?",
           "Don't throw it away, and don't touch it. The CDC says to contact animal control or your health department to capture a bat for testing, not to release it, and to report any contact. If it's already dead, Florida's Department of Health asks that the head not be damaged.",
         ),
@@ -204,14 +207,14 @@ export const deadAnimalRemoval: Service = {
       _key: "cta",
       heading: "Smell something you can't find?",
       highlight: "can't find?",
-      text: p("Call (727) 594-7705. We'll find it and get it out."),
+      text: p("Call (727) 594-7705. Our wildlife experts will find it and get it out."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Dead Animal Removal, Central Florida | Pro Wildlife Removal",
     description:
-      "Dead animal smell in a wall, attic, crawl space or vent? We find and remove it, clean and deodorize, and find the way in. Central Florida: (727) 594-7705.",
+      "Dead animal smell in a wall, attic, crawl space or vent? We trace it, bag it, remove it and find how the animal got in. Central Florida: (727) 594-7705.",
   },
   sources: [
     { title: "CDC: Safety guidelines for disposing of dead animals (gloves; bag over hand, turn and seal; shovel for larger animals; call animal control; wash hands; risk from carcasses low with proper precautions)", url: CDC_DISPOSAL },

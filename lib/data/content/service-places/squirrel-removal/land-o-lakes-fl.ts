@@ -72,7 +72,6 @@ export const squirrelRemovalLandOLakes = servicePlacePage({
     faq(
       "How soon can you come out for squirrels in Land O' Lakes?",
       "Same-day appointments for squirrels are often available in Land O' Lakes. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Squirrels in your Land O' Lakes attic?",
@@ -94,5 +93,5 @@ export const squirrelRemovalLandOLakes = servicePlacePage({
     { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: NONGAME },
     { title: "FWC: Regional offices (Southwest Region includes Pasco; 863-648-3200)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a squirrel call in Land O' Lakes?", "A real Google review from a Land O' Lakes squirrel job (TTR-723), and real Land O' Lakes squirrel job photos."],
+  clientQuestions: ["A real Google review from a Land O' Lakes squirrel job (TTR-723), and real Land O' Lakes squirrel job photos."],
 });

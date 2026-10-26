@@ -68,7 +68,6 @@ export const batRemovalPascoCounty = servicePlacePage({
     faq(
       "How fast can you get to bats in a Pasco County home?",
       "Same-day appointments for bats are often available in Pasco County. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time for a bat call in Pasco County]",
     ),
   ],
   ctaHeading: "Bats in your Pasco County roof?",
@@ -95,5 +94,5 @@ export const batRemovalPascoCounty = servicePlacePage({
     { title: "CDC: Bats and rabies (don't release a bat that may have bitten someone until you talk with public health)", url: "https://www.cdc.gov/rabies/exposure/animals/bats.html" },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Pasco)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time for a bat call in Pasco County?", "A real Google review from a Pasco County bat job (TTR-723), and real Pasco bat job photos."],
+  clientQuestions: ["A real Google review from a Pasco County bat job (TTR-723), and real Pasco bat job photos."],
 });

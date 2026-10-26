@@ -17,16 +17,16 @@ export const batRemoval: Service = {
   group: "removal",
   animal: "bat",
   order: 1,
-  summary: "Legal bat exclusion with one-way doors, entry points sealed and guano cleaned up, outside Florida's maternity season.",
+  summary: "Legal bat exclusion with one-way doors and every entry point sealed, outside Florida's maternity season.",
   cardImage: images.batRemoval2,
   design: "new",
   hero: {
     eyebrow: "BAT REMOVAL AND EXCLUSION",
     heading: "Bat Removal in Central Florida",
     highlight: "Bat Removal",
-    text: p("Bats in the attic, soffit or tile roof, moved out the legal way: one-way doors, then every gap sealed and the guano cleaned up."),
+    text: p("Bats in the attic, soffit or tile roof, moved out the legal way: one-way doors, then every gap sealed."),
     image: images.batRemoval2,
-    badges: ["Exclusion, never poison", "Guano cleanup"],
+    badges: ["Exclusion, never poison", "Every gap sealed"],
   },
   sections: [
     {
@@ -132,9 +132,9 @@ export const batRemoval: Service = {
         },
         {
           number: "4",
-          title: "Seal and clean",
+          title: "Seal the openings",
           text: p(
-            "When no bats are left, the devices come down and the openings are sealed for good. Then the guano and soiled insulation come out and the attic is sanitized.",
+            "Once the last bat is out, the devices come down and every opening is sealed. We point out any guano and soiled insulation we saw, so you can plan what happens next.",
           ),
         },
       ],
@@ -162,16 +162,15 @@ export const batRemoval: Service = {
     {
       _type: "splitSection",
       _key: "sealing",
-      eyebrow: "Sealing and cleanup",
+      eyebrow: "Sealing",
       heading: "After the bats are out",
       body: p(
-        "Getting the colony out is half the job. The other half is making sure it can't come back and that the attic is safe to be in. How much cleanup you need depends on how long the bats lived there: a few weeks leaves a little guano on top of the insulation, years can mean removing it.",
+        "Getting the colony out is half the job. The other half is making sure it can't come back. How much guano is left depends on how long the bats lived there: a few weeks leaves a little on top of the insulation, years can soak it through.",
       ),
       checklist: [
         "Every opening bats used, and the gaps next to them, sealed with materials that hold up to Florida weather",
         "Barrel tile, ridge vents and soffit returns closed where bats can slip under",
-        "Guano and soiled insulation removed by technicians in respirators",
-        "The area sanitized and deodorized",
+        "Guano and soiled insulation pointed out, so you know what the bats left",
         "[PLACEHOLDER: ask the client: is there a warranty on bat exclusion work, and how long?]",
       ],
       image: images.batRemoval2,
@@ -184,7 +183,7 @@ export const batRemoval: Service = {
       eyebrow: "Cost",
       heading: "What bat removal costs depends on",
       intro: p(
-        "Every roof is different, so we price bat jobs after the inspection, before any work starts. These are the things that move the price. For more, see [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/).",
+        "Every roof is different, so we price bat jobs after the inspection, before any work starts. These are the things that move the price. For more, see [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/).",
       ),
       variant: "plain",
       columns: 2,
@@ -235,7 +234,7 @@ export const batRemoval: Service = {
         ),
         faq(
           "How long does bat exclusion take?",
-          "The one-way devices stay up for at least four nights with lows of 50°F or warmer, as FWC requires, and often longer until no bats are left. Then the openings are sealed and cleanup can start.",
+          "The one-way devices stay up for at least four nights with lows of 50°F or warmer, as FWC requires, and often longer until no bats are left. Then the openings are sealed.",
           "[PLACEHOLDER: ask the client: how long a typical bat job takes from first visit to final sealing]",
         ),
         faq(
@@ -272,7 +271,7 @@ export const batRemoval: Service = {
   seo: {
     title: "Bat Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bats in the attic? Legal bat exclusion with one-way doors, sealing and guano cleanup across Central Florida, outside maternity season. (727) 594-7705.",
+      "Bats in the attic? Legal bat exclusion with one-way doors and every gap sealed, across Central Florida, outside the bat maternity season. (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026: bat maternity season April 16 to Aug. 14; April 15 last day without a permit; exclusion legal Aug. 15 to April 15; four nights; 50°F", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

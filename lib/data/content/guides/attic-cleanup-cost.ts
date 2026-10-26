@@ -76,7 +76,7 @@ export const atticCleanupCost: Post = {
       "**Secure trash, pet food and fallen fruit.** FWC lists these among the things that draw opossums and raccoons to a house.",
       "**Check the roofline after storms.** UF/IFAS Extension advises repairing storm damage promptly so animals don't find the gap first.",
     ),
-    p("See the animal pages for details: [rats in the attic](/services/rats-in-attic/), [bats in the attic](/services/bats-in-attic/), [raccoons in the attic](/services/raccoons-in-attic/), [squirrels in the attic](/services/squirrels-in-attic/) and [opossums in the attic](/services/opossums-in-attic/). Or call (727) 594-7705. We do attic work from [Hillsborough](/about-us/service-area/wildlife-removal-hillsborough-county/) to [Polk](/about-us/service-area/wildlife-removal-polk-county/) and [Citrus](/about-us/service-area/wildlife-removal-in-citrus-county-fl/)."),
+    p("See the animal pages for details: [rats in the attic](/services/rats-in-attic/), [bats in the attic](/services/bats-in-attic/), [raccoons in the attic](/services/raccoons-in-attic/), [squirrels in the attic](/services/squirrels-in-attic/) and [opossums in the attic](/services/opossums-in-attic/). Or call (727) 594-7705. We do attic work from [Hillsborough](/service-areas/hillsborough-county/) to [Polk](/service-areas/polk-county/) and [Citrus](/service-areas/citrus-county/)."),
   ),
   faq: [
     faq("Does homeowners insurance cover attic cleanup after animals?", "It depends on your policy and on the animal. Ask your insurer before work starts, and keep the inspection report and photos."),

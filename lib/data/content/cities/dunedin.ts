@@ -1,5 +1,6 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
+import { dunedinRatsInput } from "./rats/dunedin.ts";
 
 /* Dunedin page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const BUDGET = "https://www.dunedin.gov/files/assets/city/v/1/finance/documents/budget/fy-2022-adopted-operating-and-capital-budget.pdf";
@@ -23,11 +24,11 @@ export const dunedin = countyPage({
   towns: [
     {
       title: "North Pinellas",
-      href: "/about-us/service-area/wildlife-removal-pinellas-county/",
+      href: "/service-areas/pinellas-county/",
       items: [
-        { label: "Palm Harbor", href: "/about-us/service-area/wildlife-removal-palm-harbor/" },
-        { label: "Clearwater", href: "/about-us/service-area/wildlife-removal-clearwater-fl/" },
-        { label: "Safety Harbor", href: "/about-us/service-area/wildlife-removal-safety-harbor/" },
+        { label: "Palm Harbor", href: "/service-areas/pinellas-county/palm-harbor/" },
+        { label: "Clearwater", href: "/service-areas/pinellas-county/clearwater/" },
+        { label: "Safety Harbor", href: "/service-areas/pinellas-county/safety-harbor/" },
         { label: "Ozona" },
         { label: "Tarpon Springs" },
       ],
@@ -38,17 +39,17 @@ export const dunedin = countyPage({
   local: [
     { icon: "leaf", title: "Hammock Park", text: p("The city's 90-acre natural park on San Mateo Drive. FWC's Great Florida Birding Trail describes bayheads and hydric hammock, with wading birds, ospreys and barred owls all year, and gopher tortoises.") },
     { icon: "map-pin", title: "Honeymoon and Caladesi islands", text: p("Honeymoon Island State Park (2,824 acres) starts at the end of the Dunedin Causeway, where snowy and Wilson's plovers nest on the beach. Caladesi Island (2,420 acres) has gopher tortoises and Florida box turtles.") },
-    { icon: "drop", title: "Sea turtle season", text: p("The city tells residents to call FWC at 1-888-404-3922 about dead or stranded sea turtles. Lights out on the beach side helps hatchlings find the water.") },
     { icon: "critter", title: "Feeding is a nuisance", text: p("Under Pinellas County code, leaving food or garbage out so it attracts raccoons, coyotes or other wildlife, and creates a nuisance, is a public nuisance.") },
   ],
+  rats: { heading: dunedinRatsInput.localHeading, intro: dunedinRatsInput.localIntro, cards: [...dunedinRatsInput.local, ...(dunedinRatsInput.contacts ?? [])], link: { label: "rat removal across Pinellas County", href: "/services/rat-removal/pinellas-county-fl/" } },
   contactsHeading: "Pinellas, FWC and DOH lines for Dunedin",
-  contactsIntro: "Dunedin sends strays and injured wildlife to the county and sea turtles to FWC. The numbers are below.",
+  contactsIntro: "Dunedin sends strays and injured wildlife to the county, and state wildlife matters to FWC. The numbers are below.",
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4. The county lists wildlife pickup and transport help, and support for sick or injured wildlife.") },
-    { icon: "map-pin", title: "Sea turtles, bears, alligators", text: p("FWC Wildlife Alert, 888-404-3922, for sea turtles, manatees and bears. Nuisance alligators: 866-392-4286.") },
+    { icon: "map-pin", title: "State wildlife matters: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for sea turtles, manatees and bears. Nuisance alligators: 866-392-4286.") },
     { icon: "phone", title: "Animal bites", text: p("If an animal bites someone in Dunedin, report it to the health department in Pinellas: 727-824-6932.") },
   ],
-  servicesIntro: "We handle every animal below in Dunedin. Tap one for the details.",
+  servicesIntro: "Bees in the attic, a rat infestation in the garage or a raccoon under the porch: we handle every animal below in Dunedin. Tap one for the details.",
   servicesHeading: "Animals we remove in Dunedin",
   reviewsIntro: "[PLACEHOLDER: reviews from Dunedin customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -57,17 +58,12 @@ export const dunedin = countyPage({
       "The city doesn't list a wildlife or animal control service. Pinellas County Animal Services helps with strays and sick or injured wildlife. For a healthy animal in your attic or walls, call a wildlife removal company.",
     ),
     faq(
-      "Who do I call about a sea turtle on a Dunedin beach?",
-      "FWC, at 1-888-404-3922. The city points residents there for dead or stranded sea turtles.",
-    ),
-    faq(
       "Do you handle rats in Dunedin?",
-      "Yes. See [rat removal in Dunedin](/about-us/service-area/rat-removal-services-dunedin-fl/) for the local details.",
+      "Yes. The section on Dunedin rats above covers the local rules.",
     ),
     faq(
       "What's the wait for a visit in Dunedin?",
       "Same-day appointments are often available in Dunedin. Call (727) 594-7705.",
-      "[PLACEHOLDER: ask the client: typical response time in Dunedin]",
     ),
   ],
   ctaHeading: "Wildlife problem in Dunedin?",
@@ -88,6 +84,7 @@ export const dunedin = countyPage({
     { title: "Pinellas County: Animal Services enforcement (Sec. 14-30(4) feeding nuisance)", url: "https://pinellas.gov/animal-services-enforcement/" },
     { title: "Pinellas County: Injured or orphaned wildlife (Animal Services wildlife pickup/transport assistance; (727) 582-2600 option 4; FWC numbers)", url: "https://pinellas.gov/injured-or-orphaned-wildlife/" },
     { title: "DOH-Pinellas: Rabies information (727-824-6932)", url: "https://pinellas.floridahealth.gov/programs-and-services/infectious-diseases/epidemiology/rabies-information/" },
+    ...dunedinRatsInput.sources,
   ],
-  clientQuestions: ["Typical response time in Dunedin?", "Dunedin reviews (from TTR-723) and real Dunedin job photos."],
+  clientQuestions: ["Dunedin reviews (from TTR-723) and real Dunedin job photos."],
 });

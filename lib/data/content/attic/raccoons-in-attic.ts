@@ -17,7 +17,7 @@ export const raccoonsInAttic: Service = {
   group: "attic",
   animal: "raccoon",
   order: 23,
-  summary: "A raccoon in the attic: how to tell, why spring means babies, what not to do, and how the latrine gets cleaned.",
+  summary: "A raccoon in the attic: how to tell, why spring means babies, what not to do, and what to know about the latrine.",
   cardImage: images.raccoonRemoval,
   design: "new",
   hero: {
@@ -25,7 +25,7 @@ export const raccoonsInAttic: Service = {
     heading: "Raccoons in the Attic in Central Florida",
     highlight: "Raccoons in the Attic",
     text: p("Heavy steps overhead in the evening, a torn soffit, a smell from one corner. Here's how to confirm a raccoon and why the order of the fix matters."),
-    badges: ["Evening thumping", "Spring babies", "Latrine cleanup"],
+    badges: ["Evening thumping", "Spring babies", "Latrine safety"],
   },
   sections: [
     {
@@ -139,22 +139,21 @@ export const raccoonsInAttic: Service = {
         { number: "1", title: "Inspect for kits", text: p("Find the entry, the den and whether young are there before anything else.") },
         { number: "2", title: "Get the family out", text: p("Adults and young removed together, by the method that fits the house and the season.", "[PLACEHOLDER: ask the client: confirm how you remove a raccoon family]") },
         { number: "3", title: "Seal the entry", text: p("The opening at the soffit, vent or roof edge is sealed, and the chimney capped if needed. Broken wood is a contractor's repair.") },
-        { number: "4", title: "Clean the attic", text: p("Latrine first, then soiled insulation, then treatment.", "[PLACEHOLDER: ask the client: how long a typical raccoon job takes, start to finish]") },
+        { number: "4", title: "Show you the attic", text: p("We point out the latrine and any soiled insulation, so you know what is there.", "[PLACEHOLDER: ask the client: how long a typical raccoon job takes, start to finish]") },
       ],
     },
     {
       _type: "splitSection",
       _key: "cleanup",
       tone: "tint",
-      eyebrow: "Attic cleanup",
-      heading: "Cleaning up after raccoons",
+      eyebrow: "After the raccoons",
+      heading: "Raccoon latrines: what to know",
       body: p(
-        "With the raccoons out and the entry sealed, the attic needs cleaning. The CDC says raccoon roundworm eggs aren't infectious the moment they're passed, and advises removing droppings promptly, before they become infectious. So the latrine comes out first. FWC's advice for a latrine is gloves, and burning or burying the droppings. In an attic, that means bagging the droppings and the soiled insulation around them, then treating the area.",
+        "With the raccoons out and the entry sealed, the latrine is what's left. The CDC says raccoon roundworm eggs aren't infectious the moment they're passed, and advises removing droppings promptly, before they become infectious. So the latrine comes out first. FWC's advice for a latrine is gloves, and burning or burying the droppings. In an attic, that means bagging the droppings and the soiled insulation around them, then treating the area.",
       ),
       checklist: [
-        "Latrine removed first [PLACEHOLDER: ask the client: confirm your protective gear and latrine cleanup method]",
-        "Crushed and soiled insulation bagged and taken out",
-        "Attic treated and deodorized",
+        "Latrine located in the inspection",
+        "Crushed and soiled insulation noted in the inspection",
         "Entry hole sealed, and the chimney capped if they used it",
         "[PLACEHOLDER: ask the client: how you treat a raccoon latrine, and whether it's quoted separately]",
       ],
@@ -224,7 +223,7 @@ export const raccoonsInAttic: Service = {
   seo: {
     title: "Raccoons in the Attic: Next Steps | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic? How to tell, why spring means babies, mistakes that make it worse, Florida's release rules and latrine cleanup. Call (727) 594-7705.",
+      "Raccoon in the attic? How to tell, why spring means babies, mistakes that make it worse, Florida's release rules and latrine safety. Call (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (active mostly in the evening, leave dens soon after dusk; entry points: torn screens, soffits, open chimneys, broken windows; dog-sized droppings; latrines; births March-April; attics and crawl spaces where cavities are scarce; chasing out and sealing frequently causes more damage; one-way devices without young; urine-soaked cloth for a mother with kits)", url: UW033 },

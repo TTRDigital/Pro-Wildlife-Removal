@@ -10,7 +10,7 @@ export const extra_typesOfAnimalsFoundUnderTheHouse: PostExtra = {
   slug: "types-of-animals-found-under-the-house",
   seoDescription: "Raccoons, opossums, rats, snakes and more can den under a Florida house. Learn the signs, the health risks, and what Florida rules say about removing them.",
   more: p(
-    "For a closer look at particular animals, see our guides to [opossums under the house](/blog/opossums-under-house-crawl-space-removal/), [raccoons living under a deck](/blog/raccoons-under-deck/) and [a dead animal smell in a wall or attic](/blog/dead-animal-smell-in-wall-or-attic-florida/). Homeowners in Central Florida can also read about [opossum removal](/services/opossum-removal/), [snake removal](/services/snake-removal/) and [armadillo removal](/services/armadillo-removal/). Call (727) 594-7705.",
+    "For a closer look at particular animals, see our guides to [opossums under the house](/blog/opossums-under-house-crawl-space-removal/), [raccoons living under a deck](/blog/raccoons-under-deck/) and [a dead animal smell in a wall or attic](/blog/dead-animal-smell-in-wall-or-attic-florida/). Homeowners in Central Florida can also read about [opossum removal](/services/opossum-removal/), [snake removal](/services/snake-removal/) and [armadillo removal](/services/armadillo-removal/). To have our wildlife experts look under your foundation, call (727) 594-7705.",
   ),
   faq: [
     faq(
