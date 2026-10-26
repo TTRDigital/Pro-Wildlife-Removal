@@ -8,6 +8,8 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Button } from "@/components/ui/Button";
 import { PostCard } from "@/components/sections/PostsSection";
 import { CtaSection } from "@/components/sections/CtaSection";
+import { BlogTopics } from "@/components/ui/BlogTopics";
+import { postTopic, topics } from "@/lib/topics";
 
 const PATH = "/blog/";
 
@@ -15,7 +17,10 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata((await getPage("blog")).seo, PATH);
 }
 
-/** Blog index in the service-page family: tint header with the title and the call button, then every post as a photo card. */
+/**
+ * Blog index in the service-page family: tint header with the title and the call button, then
+ * topic buttons (one per animal) over every post as a photo card, the newest one wide.
+ */
 export default async function BlogIndex() {
   const [page, posts, settings] = await Promise.all([getPage("blog"), getPosts(), getSiteSettings()]);
   return (
@@ -41,13 +46,17 @@ export default async function BlogIndex() {
         </div>
       </section>
       <section className="section bg-white">
-        <ul className="wrap grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((p, i) => (
-            <li key={p.slug}>
-              <PostCard post={p} index={i} />
-            </li>
-          ))}
-        </ul>
+        <div className="wrap">
+          <BlogTopics topics={topics.map((t) => ({ key: t.key, label: t.label, count: posts.filter((p) => postTopic(p)?.key === t.key).length })).filter((t) => t.count > 0)}>
+            <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {posts.map((p, i) => (
+                <li key={p.slug} data-topic={postTopic(p)?.key ?? "other"} className={i === 0 ? "blog-featured md:col-span-2 lg:col-span-3" : undefined}>
+                  <PostCard post={p} index={i} featured={i === 0} />
+                </li>
+              ))}
+            </ul>
+          </BlogTopics>
+        </div>
       </section>
       <CtaSection settings={settings} />
     </>

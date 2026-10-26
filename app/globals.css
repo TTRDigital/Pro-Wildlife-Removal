@@ -554,6 +554,41 @@
     gap: 0.75rem;
     padding-right: 0.75rem;
   }
+  /* Blog topic buttons: show only the picked animal's posts; the wide first card is a normal card then. */
+  .blog-list[data-topic="raccoon"] li:not([data-topic="raccoon"]) {
+    display: none;
+  }
+  .blog-list[data-topic="squirrel"] li:not([data-topic="squirrel"]) {
+    display: none;
+  }
+  .blog-list[data-topic="opossum"] li:not([data-topic="opossum"]) {
+    display: none;
+  }
+  .blog-list[data-topic="snake"] li:not([data-topic="snake"]) {
+    display: none;
+  }
+  .blog-list[data-topic="armadillo"] li:not([data-topic="armadillo"]) {
+    display: none;
+  }
+  .blog-list[data-topic="bee"] li:not([data-topic="bee"]) {
+    display: none;
+  }
+  .blog-list[data-topic="bat"] li:not([data-topic="bat"]) {
+    display: none;
+  }
+  .blog-list[data-topic="rat"] li:not([data-topic="rat"]) {
+    display: none;
+  }
+  .blog-list:not([data-topic="all"]) .blog-featured {
+    grid-column: auto;
+  }
+  .blog-list:not([data-topic="all"]) .blog-featured > a {
+    display: flex;
+  }
+  .blog-list:not([data-topic="all"]) .blog-featured > a > div:first-child {
+    aspect-ratio: 16 / 9;
+    min-height: 0;
+  }
   /* The steps track: a light runs along it, first step to last. */
   .step-track {
     overflow: hidden;
