@@ -8,7 +8,6 @@ import { pasco } from "./content/counties/pasco.ts";
 import { pinellas } from "./content/counties/pinellas.ts";
 import { polk } from "./content/counties/polk.ts";
 import { sumter } from "./content/counties/sumter.ts";
-import { marion } from "./content/counties/marion.ts";
 import { tampa } from "./content/cities/tampa.ts";
 import { springHill } from "./content/cities/spring-hill.ts";
 import { clearwater } from "./content/cities/clearwater.ts";
@@ -20,8 +19,6 @@ import { stPetersburg } from "./content/cities/st-petersburg.ts";
 import { trinity } from "./content/cities/trinity.ts";
 import { odessa } from "./content/cities/odessa.ts";
 import { holiday } from "./content/cities/holiday.ts";
-import { carrollwood } from "./content/cities/carrollwood.ts";
-import { townNCountry } from "./content/cities/town-n-country.ts";
 import { dadeCity } from "./content/cities/dade-city.ts";
 import { dunedin } from "./content/cities/dunedin.ts";
 import { safetyHarbor } from "./content/cities/safety-harbor.ts";
@@ -1431,8 +1428,6 @@ export const fallbackLocations: Location[] = [
  polk,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/counties/sumter.ts
  sumter,
- // New for the rebuild (Nia, Oct 2026): lib/data/content/counties/marion.ts
- marion,
  {
   "path": "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   "name": "Brooksville",
@@ -2338,9 +2333,6 @@ export const fallbackLocations: Location[] = [
  dunedin,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/holiday.ts
  holiday,
- // New city pages (Owen, Oct 2026): lib/data/content/cities/carrollwood.ts, town-n-country.ts
- carrollwood,
- townNCountry,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/hudson.ts
  hudson,
  {

@@ -1,6 +1,6 @@
 # Place-page coverage (TTR-738)
 
-Every target place x the four animals (rats and bats first). New places get their city or county page before their animal pages. Every Google Ads location gets its own page (Kia, Oct 26); a place that can't reach the town bar is held, not padded, and stays named on its county page and in areas.ts. Kept by Cole; updated on every merge into `claude/cole-pwr-content`. Ben assigns places.
+Every target place x the four animals (rats and bats first). New places get their city or county page before their animal pages. Every Google Ads location gets its own page (Kia, Oct 26); a place that can't reach the town bar is held, not padded, and stays named (as plain text) on its county page and in areas.ts. A page known to fall short stays out of the preview until it clears; one only waiting on its first check can stay (Ben, Oct 26). Kept by Cole; updated on every merge into `claude/cole-pwr-content`. Ben assigns places.
 
 Key: **L** live in the bundle and fact-checked · **F** in the bundle, waiting on Ben's fact check · **E** existing rat-in-city page, keeps its URL (`existingPlacePages`) · **P** in the bundle, fixes pending after fact check · **H** held (reason in notes) · **S** skipped, nothing true and local · **N** not started
 
@@ -32,22 +32,22 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
 | Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
 | The Villages | Nia | E | N | N | N | confirmed target (Kia, Oct 26); old rat page now linked; city page rewrite first |
-| Marion County | Nia | N | N | N | N | new county (Kia, Oct 26): county page in review (0a9adb9), animal pages next |
-| Ocala | Nia | N | N | N | N | city page first |
+| Marion County | Nia | N | N | N | N | county page held from the preview until Nia's fix lands (four-animals rule) |
+| Ocala | Nia | N | N | N | N | city page first; recount needed before it enters the preview |
 | Belleview | Nia | N | N | N | N | city page first |
 | Dunnellon | Nia | N | N | N | N | city page first |
 | Lutz | Owen | N | N | N | N | city page first |
 | Westchase | Owen | N | N | N | N | city page first |
-| Carrollwood | Owen | N | N | N | N | city page first |
+| Carrollwood | Owen | N | N | N | N | city page held: 2 qualifying facts under the four-animals rule; Owen reworking |
 | Citrus Park | Owen | N | N | N | N | city page first |
-| Town 'n' Country | Owen | N | N | N | N | city page first |
+| Town 'n' Country | Owen | N | N | N | N | city page held: 1 qualifying fact under the four-animals rule; Owen reworking |
 | Cheval | Owen | N | N | N | N | city page first (after Owen's five) |
 | Keystone | Owen | N | N | N | N | city page first (after Owen's five) |
 | Lake Magdalene | Owen | N | N | N | N | city page first (after Owen's five) |
 | Greater Northdale | Owen | N | N | N | N | city page first (after Owen's five) |
 | New Tampa | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
 | Temple Terrace | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
-| Silver Springs | Nia | N | N | N | N | city page first (after Marion County) |
+| Silver Springs | Nia | N | N | N | N | city page first; recount needed before it enters the preview |
 | Summerfield | Nia | N | N | N | N | city page first (after Marion County) |
 
 ## Counts
