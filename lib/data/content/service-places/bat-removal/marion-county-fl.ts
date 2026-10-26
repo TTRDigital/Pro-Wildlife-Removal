@@ -4,8 +4,8 @@ import { servicePlacePage } from "../build.ts";
 /*
  * Bat removal in Marion County (TTR-738, Nia). Every card is one true fact about
  * bats in Marion: the state's 2022-2025 rabies tables, UF/IFAS Extension Marion
- * (2021), DOH-Marion's 2026 advice, the Silver Springs
- * management plan, Ocala's park bat house and a 2016 villa report (news, dated).
+ * (2021), the Silver Springs management plan, the state's bat maternity cave plan,
+ * a 2020 DOH-Marion bat alert, Ocala's park bat house and a 2016 villa report (news, dated).
  */
 const UFMARION = "https://blogs.ifas.ufl.edu/marionco/2021/06/22/summer-wildlife-happenings/";
 const SSSP = "https://floridadep.gov/sites/default/files/SilverSprings_2014_ApprovedPlan%26Amendment.pdf";
@@ -27,13 +27,15 @@ export const batRemovalMarionCounty = servicePlacePage({
     "By exclusion: one-way devices at the entry points let the colony fly out and keep it from coming back, fitted only from August 15 to April 15 under FWC rules. Pro Wildlife Removal checks a Marion home for the gaps bats use, fits the devices and seals them after. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "A rabid bat on the 2022 table", "No palm pruning in pup season"],
   localHeading: "What to know about bats in Marion County",
-  localIntro: "Marion has a rabid bat on its record, Extension advice on bats in palms, and a state park plan that lists the bats living there. Here is what they say.",
+  localIntro: "Marion has rabid bats on its record, Extension advice on bats in palms, a state park plan that lists its bats, and bat maternity caves. Here is what they say.",
   local: [
     { icon: "search", title: "One rabid bat on four years of tables", text: p("Marion's 2022 rabies table listed a rabid bat along with 2 raccoons. The county's 2023, 2024 and 2025 tables listed no rabid bats.") },
     { icon: "leaf", title: "Palm skirts are roosts", text: p("UF/IFAS Extension Marion County wrote in 2021 that dead palm fronds are a favorite roost for several bat species, and asked residents not to prune palm skirts during the bat maternity period.") },
     { icon: "critter", title: "Pup season, Extension says", text: p("The same 2021 Extension post said baby bats are called pups, that Florida has 13 native bat species and that it is illegal year-round to intentionally harm or kill bats.") },
     { icon: "home", title: "A bat house in Ocala", text: p("Ocala-News reported in April 2026 that Ocala's Programs in the Parks had scheduled a free owls and bats session at Heritage Nature Conservancy for May 1, 2026, with a photo of the bat house at the park.") },
     { icon: "drop", title: "Bats in Silver Springs State Park", text: p("Silver Springs State Park's 2014 management plan lists the red bat and southeastern myotis, and says FNAI documented a hoary bat on the former attraction property that hasn't been observed since the 1970s.") },
+    { icon: "map-pin", title: "Maternity caves on the state's list", text: p("Florida's 2026 Florida Forever plan for southeastern bat maternity caves names two Marion County caves, Catacombs Cave and Jenning's Cave, and lists Catacombs as occupied. Each spring, the plan says, adult female southeastern bats move to certain caves to bear and raise their young.") },
+    { icon: "phone", title: "A rabid bat near Micanopy, 2020", text: p("In August 2020, WCJB reported that DOH-Marion had issued an alert after a bat in the Micanopy area tested positive for rabies.") },
     { icon: "map-pin", title: "A villa overrun, 2016", text: p("In 2016, neighbors of a Legacy Villas home in the Village of Briar Meadow South, on the Marion side of The Villages, told Villages-News it was overrun with bats, rats and more.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Marion County, from each agency's own page.",
@@ -83,6 +85,8 @@ export const batRemovalMarionCounty = servicePlacePage({
     { title: "UF/IFAS Extension Marion County, June 22, 2021: Summer wildlife happenings (baby bats are pups; 13 native bat species; illegal year-round to intentionally harm or kill bats; dead palm fronds a favorite roost; avoid pruning palm skirts during the maternal period; 352-671-8400)", url: UFMARION },
     { title: "Ocala-News, April 28, 2026: Free class on owls, bats at Ocala park (Programs in the Parks; session scheduled for May 1, 2026, at Heritage Nature Conservancy; bat house photo)", url: BATHOUSE },
     { title: "Florida DEP: Silver Springs State Park Unit Management Plan Amendment, Dec. 17, 2014 (red bat and southeastern myotis on the mammal list; hoary bat documented on the attraction property by FNAI, not observed since the 1970s)", url: SSSP },
+    { title: "Florida DEP: 2026 Florida Forever Plan, Southeastern Bat Maternity Caves (Alachua, Citrus, Jackson, Marion and Sumter counties; Catacombs Cave and Jenning's Cave in Marion County; Catacombs occupied, Jenning's vacant; adult females move to certain caves each spring to bear and raise young)", url: "https://floridadep.gov/sites/default/files/FLDEP_DSL_OES_FF_2026_SoutheasternBatMaternityCaves.pdf" },
+    { title: "WCJB, Aug. 28, 2020: Bat in Micanopy area tests positive for rabies (DOH-Marion alert)", url: "https://www.wcjb.com/2020/08/28/bat-in-micanopy-area-tests-positive-for-rabies" },
     { title: "Villages-News, Sept. 10, 2016: Neighbors complain about villa (Legacy Villas, Village of Briar Meadow South; overrun with mold, snakes, rats, bats and bees; Marion County Health Department)", url: "https://www.villages-news.com/2016/09/10/nervous-neighbors-complain-villa-bats-rats-owner-nevada/" },
     { title: "Florida DOH: DOH-Marion rabies advisory, Sept. 18, 2026 (DOH-Marion 352-629-0137)", url: ADVISORY },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug. 14; exclusion Aug. 15 to April 15; four nights; 50°F)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
