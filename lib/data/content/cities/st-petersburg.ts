@@ -36,7 +36,7 @@ export const stPetersburg = countyPage({
   localHeading: "Rats, raccoons and preserves in St. Pete",
   localIntro: "The city's own rodent guide is unusually specific about how rats get into St. Pete homes. Its preserves explain the rest.",
   local: [
-    { icon: "home", title: "Where rats get in", text: p("St. Petersburg's rodent guide names the two most common rat entry points: where A/C lines go through the wall, and where a flat roof meets a pitched roof. The city recommends quarter-inch hardware cloth over spray foam, which rats chew through.") },
+    { icon: "home", title: "Where rats get in", text: p("St. Petersburg's rodent guide names two common rat entry points: where A/C lines go through the wall, and where a flat roof meets a pitched roof. The city recommends quarter-inch hardware cloth over spray foam, which rats chew through.") },
     { icon: "leaf", title: "Trees as rat highways", text: p("The same guide warns that trees and landscaping touching the house become highways for rats. It also says to pick up fallen fruit and not to overfeed outdoor pets: what your pet doesn't eat, rats will.") },
     { icon: "map-pin", title: "Weedon Island Preserve", text: p("Pinellas County's 3,000-acre Weedon Island Preserve in north St. Petersburg is mostly marine habitat on Tampa Bay, with some uplands.") },
     { icon: "critter", title: "Boyd Hill Nature Preserve", text: p("On Lake Maggiore, Boyd Hill has hammock, pine flatwoods, scrub, swamp and marsh. FWC's Great Florida Birding Trail lists gopher tortoises, eastern indigo snakes and young alligators in the lake shallows.") },

@@ -8,7 +8,7 @@ export const pinellas = countyPage({
   order: 6,
   phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   summary: "Wildlife removal across Pinellas County, from St. Petersburg to Tarpon Springs: bats, rats, raccoons, squirrels, snakes and more.",
-  heroText: "Florida's most densely populated county, with 588 miles of coastline and wildlife that has learned to live between the houses. Call (727) 594-7705.",
+  heroText: "A densely built Florida county, with 588 miles of coastline and wildlife that has learned to live between the houses. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Pinellas County?",
   answer:
     "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Call (727) 594-7705. [PLACEHOLDER: ask the client: confirm every job includes inspection, sealing and cleanup]",
@@ -35,7 +35,7 @@ export const pinellas = countyPage({
   localHeading: "What's different about wildlife in Pinellas",
   localIntro: "Pinellas is almost entirely built up. The 2020 Census counted 99.8% of residents as urban, so the animals here live in attics, sheds and yards, close to people.",
   local: [
-    { icon: "building", title: "Dense neighborhoods", text: p("The county packs about 3,425 people into each square mile, the most in Florida. With roofs side by side, rats, raccoons and squirrels have no shortage of attics to choose from.") },
+    { icon: "building", title: "Dense neighborhoods", text: p("The county packs about 3,425 people into each square mile. With roofs side by side, rats, raccoons and squirrels have no shortage of attics to choose from.") },
     { icon: "map-pin", title: "A long, built-up coast", text: p("Pinellas has 588 miles of coastline, and USGS describes its northern barrier islands as protecting a highly populated shore. Waterfront living puts wildlife right at the back door.") },
     { icon: "critter", title: "Rabies cases on record", text: p("Florida's Department of Health counted a rabid bat in Pinellas in 2024 and a rabid raccoon in 2025. Never handle a bat or a raccoon that's acting oddly.") },
     { icon: "leaf", title: "Rat poison and owls", text: p("UF/IFAS Extension in Pinellas tied owl deaths at Philippe Park to rat poison. Sealing a house against rats protects the owls that hunt them too.") },

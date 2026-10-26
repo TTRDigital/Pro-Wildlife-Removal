@@ -62,7 +62,7 @@ export const whatAnimalIsInMyAttic: Post = {
     ),
     faq(
       "What's in my attic in the morning?",
-      "Daytime noise is most likely gray squirrels, which FWC says are active during the day and sometimes nest in attics.",
+      "Daytime noise is probably gray squirrels, which FWC says are active during the day and sometimes nest in attics.",
     ),
     faq(
       "How can I tell if I have bats and not rats?",

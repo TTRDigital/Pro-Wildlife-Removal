@@ -12,7 +12,7 @@ export const hillsborough = countyPage({
   answerHeading: "Who removes wildlife in Hillsborough County?",
   answer:
     "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows, seal it and clean up. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Tampa to Plant City", "Most rabid bats in our area, 2025"],
+  points: ["Call (727) 594-7705", "Tampa to Plant City", "Four rabid bats in 2025"],
   townsHeading: "Hillsborough towns we cover",
   townsIntro: "Tampa is the county seat and largest city. About 69% of county residents live outside city limits, in places like Brandon and Riverview.",
   towns: [
@@ -40,9 +40,9 @@ export const hillsborough = countyPage({
     },
   ],
   localHeading: "What drives wildlife calls in Hillsborough",
-  localIntro: "The 2020 Census counted 96% of Hillsborough residents as urban, yet about half of the county's 1,022 square miles of land is rural. That edge between city and country is where most conflicts start.",
+  localIntro: "The 2020 Census counted 96% of Hillsborough residents as urban, yet about half of the county's 1,022 square miles of land is rural. That edge between city and country is where many conflicts start.",
   local: [
-    { icon: "critter", title: "Bats with rabies", text: p("Florida's Department of Health counted four rabid bats in Hillsborough in 2025, the most of any county in our service area. A bat in the house is never something to pick up.") },
+    { icon: "critter", title: "Bats with rabies", text: p("Florida's Department of Health counted four rabid bats in Hillsborough in 2025. A bat in the house is never something to pick up.") },
     { icon: "leaf", title: "Protected land all around", text: p("The county has bought more than 63,400 acres of sensitive wildlife habitat and corridors through its ELAPP land program. Homes along those corridors live right next to raccoons, opossums and snakes.") },
     { icon: "building", title: "Stray cats and rabies", text: p("DOH-Hillsborough issued rabies alerts for rabid stray or unvaccinated cats in Town 'N' Country (April 2025) and Gibsonton (September 2026). Feeding strays outdoors also feeds raccoons.") },
     { icon: "home", title: "Older Tampa homes", text: p("Older roofs, soffits and gable vents wear out, and every gap is an invitation to roof rats, squirrels and bats.") },

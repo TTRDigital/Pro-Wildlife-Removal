@@ -44,7 +44,7 @@ export const deadAnimalRemoval: Service = {
       _key: "signs",
       eyebrow: "Signs",
       heading: "Signs of a dead animal in your house",
-      intro: p("Most people never see the animal. They notice everything around it."),
+      intro: p("Many people never see the animal. They notice everything around it."),
       variant: "icon",
       columns: 3,
       cards: [

@@ -55,7 +55,7 @@ export const deadAnimalSmell: Post = {
   faq: [
     faq(
       "What does a dead animal in the wall smell like?",
-      "Most people describe a strong, sweet, rotten smell that's worst near one wall, ceiling or closet. Flies gathering at one spot are another clue.",
+      "Many people describe a strong, sweet, rotten smell that's worst near one wall, ceiling or closet. Flies gathering at one spot are another clue.",
     ),
     faq(
       "Why did the smell start after I put out rat poison?",

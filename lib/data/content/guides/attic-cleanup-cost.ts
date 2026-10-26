@@ -35,7 +35,7 @@ export const atticCleanupCost: Post = {
       ["Roof rats", "Seal every gap, then trap the rats left inside", "Droppings and urine through the insulation; the CDC says not to sweep or vacuum them"],
       ["Bats", "Exclusion only, August 15 to April 15", "Guano under the roost; the CDC advises a respirator in a confined space"],
       ["Raccoons", "Check for kits; strict release rules", "A latrine; the CDC advises removing droppings promptly because of roundworm"],
-      ["Squirrels", "One-way door or cage traps; litters in spring and fall", "Nests and chewed wiring; FWC lists chewing among the most common complaints"],
+      ["Squirrels", "One-way door or cage traps; litters in spring and fall", "Nests and chewed wiring; FWC lists chewing as a common complaint"],
       ["Opossums", "Wait for it to leave or live-trap; strict release rules", "A den area with droppings and nesting"],
     ),
     h3("What makes an attic cleanup bigger"),
@@ -51,10 +51,10 @@ export const atticCleanupCost: Post = {
     h3("Can you clean the attic yourself?"),
     p(
       `For a few droppings on a garage shelf, the CDC's steps work: air the space out for 30 minutes, wear rubber or plastic gloves, soak droppings and nesting in disinfectant or 1 part bleach to 9 parts water, wait five minutes, wipe up with paper towels and wash your hands. Never sweep or vacuum droppings dry ([CDC](${CDC_CLEAN})).`,
-      "An attic is different. Insulation can't be wiped clean, the heat is punishing, and bat guano and raccoon latrines bring their own health warnings. Most homeowners leave the attic to a professional and do the prevention themselves: trimming branches back from the roof, securing trash and pet food.",
+      "An attic is different. Insulation can't be wiped clean, the heat is punishing, and bat guano and raccoon latrines bring their own health warnings. Many homeowners leave the attic to a professional and do the prevention themselves: trimming branches back from the roof, securing trash and pet food.",
     ),
     h3("Don't skip the sealing"),
-    p("Paying for removal and cleanup without sealing is the most expensive mistake. The gap stays open, and the next animal moves into a freshly cleaned attic. Sealing every opening is what makes the rest of the bill worth it."),
+    p("Paying for removal and cleanup without sealing is an expensive mistake. The gap stays open, and the next animal moves into a freshly cleaned attic. Sealing every opening is what makes the rest of the bill worth it."),
     h3("Signs the attic needs more than a quick cleanup"),
     ul(
       "**Droppings spread across the insulation,** not just in one corner. Rats keep to common pathways, so long-term activity shows as trails and scattered droppings.",
