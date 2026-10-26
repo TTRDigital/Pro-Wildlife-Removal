@@ -8,11 +8,12 @@ import { siteUrl } from "@/lib/site";
  * without them.
  */
 
-// The old theme (most pages): Roboto headings, Open Sans text.
-const roboto = Roboto({ subsets: ["latin"], display: "swap", variable: "--font-roboto", weight: ["400", "500", "600", "700", "800", "900"], style: ["normal", "italic"] });
+// Open Sans is the text font on every page. Roboto is only for the old theme, which no page uses now, so it isn't preloaded.
+const roboto = Roboto({ subsets: ["latin"], display: "swap", variable: "--font-roboto", weight: ["400", "500", "600", "700", "800", "900"], style: ["normal", "italic"], preload: false });
 const openSans = Open_Sans({ subsets: ["latin"], display: "swap", variable: "--font-open-sans", weight: ["400", "600", "700"], style: ["normal", "italic"] });
-// The 2025 template pages (Cal Sans, Righteous, Nunito, DM Sans) and the bat-removal design (Inter): not preloaded, only some pages use them.
-const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter", weight: ["400", "500", "600", "700", "800"], preload: false });
+// Inter is the heading font on every page, so it is preloaded.
+const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter", weight: ["400", "500", "600", "700", "800"] });
+// The 2025 template pages (Cal Sans, Righteous, Nunito, DM Sans): not preloaded, only some pages use them.
 const calSans = Cal_Sans({ subsets: ["latin"], display: "swap", variable: "--font-cal", weight: "400", preload: false, adjustFontFallback: false });
 const righteous = Righteous({ subsets: ["latin"], display: "swap", variable: "--font-righteous", weight: "400", preload: false });
 const nunito = Nunito({ subsets: ["latin"], display: "swap", variable: "--font-nunito", weight: ["600", "700"], preload: false });
