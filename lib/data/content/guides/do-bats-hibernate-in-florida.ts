@@ -68,7 +68,7 @@ export const doBatsHibernateInFlorida: Post = {
   sources: [
     { title: "UF/IFAS EDIS UW548: Has Your House Gone Batty? Facts about Bats (13 species; active year-round in Florida; exclusion recommended in fall and winter; pup season: flightless young sealed in die, decay attracts pests such as cockroaches; ultrasonic devices don't repel bats)", url: UW548 },
     { title: "FWC: Bats in buildings (maternity season April 16 to August 14; exclusion August 15 to April 15; four nights in a row; lows forecast at 50°F or warmer; bats tend not to leave on windy, cold or rainy nights, leave devices up extra nights; bats may stay in the roost several days in cool weather)", url: FWC_BATS },
-    { title: "City of Tampa: Julian B. Lane Riverfront Park art (Brazilian free-tailed bats most common in the area, active year-round)", url: TAMPA },
+    { title: "City of Tampa: Julian B. Lane Riverfront Park art (Brazilian free-tailed bats, a common bat in the area, active year-round)", url: TAMPA },
   ],
   clientQuestions: [],
 };

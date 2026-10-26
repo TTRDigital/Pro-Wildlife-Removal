@@ -21,11 +21,11 @@ export const batsInBarrelTileRoof: Post = {
   image: images.batRemoval2,
   body: rich(
     p(
-      "**The short answer:** bats under barrel tiles are often Brazilian free-tailed bats, Florida's most common bat. Look for stains, droppings and bats leaving at dusk. Without a permit they can only be removed by exclusion, from August 15 to April 15, unless they're Florida bonneted bats, which can't be excluded at all. Call (727) 594-7705.",
+      "**The short answer:** bats under barrel tiles are often Brazilian free-tailed bats, which UF/IFAS says live throughout Florida. Look for stains, droppings and bats leaving at dusk. Without a permit they can only be removed by exclusion, from August 15 to April 15, unless they're Florida bonneted bats, which can't be excluded at all. Call (727) 594-7705.",
     ),
     h3("Why bats choose tile roofs"),
     p(
-      `UF/IFAS says Brazilian free-tailed bats are found throughout Florida and are the state's most common bat, and that here they roost mainly in man-made structures: attics, sheds, under bridges and under barrel roof tiles ([UF/IFAS](${UW424})). UF/IFAS notes the rare Florida bonneted bat, found in central and south Florida as far north as Polk County, also roosts under barrel tiles, so the species has to be identified first. The curved tiles leave open channels at the eaves and ridges, and FWC notes bats can get into any hole about ¾ inch across or any crevice ⅜ inch wide ([FWC](${FWC_BATS})).`,
+      `UF/IFAS says Brazilian free-tailed bats are found throughout Florida and that here they roost mainly in man-made structures: attics, sheds, under bridges and under barrel roof tiles ([UF/IFAS](${UW424})). UF/IFAS notes the rare Florida bonneted bat, found in central and south Florida as far north as Polk County, also roosts under barrel tiles, so the species has to be identified first. The curved tiles leave open channels at the eaves and ridges, and FWC notes bats can get into any hole about ¾ inch across or any crevice ⅜ inch wide ([FWC](${FWC_BATS})).`,
     ),
     h3("Signs of bats under the tiles"),
     ul(
@@ -60,7 +60,7 @@ export const batsInBarrelTileRoof: Post = {
   faq: [
     faq(
       "What kind of bats live under barrel tile roofs in Florida?",
-      "Most often Brazilian free-tailed bats. UF/IFAS says they're Florida's most common bat and roost under barrel roof tiles, in attics and under bridges.",
+      "Most often Brazilian free-tailed bats. UF/IFAS says they're found throughout Florida and roost under barrel roof tiles, in attics and under bridges.",
     ),
     faq(
       "Can I seal my tile roof to keep bats out?",
@@ -81,7 +81,7 @@ export const batsInBarrelTileRoof: Post = {
       "Bats under your barrel tile roof? How to spot Brazilian free-tailed bats, why sealing the tiles traps them, and how legal bat exclusion works in Florida.",
   },
   sources: [
-    { title: "UF/IFAS EDIS UW424: Brazilian free-tailed bat (throughout Florida, the state's most common bat; roosts in man-made structures including under barrel roof tiles; Florida bonneted bat also roosts under barrel tiles, central and south Florida as far north as Polk County)", url: UW424 },
+    { title: "UF/IFAS EDIS UW424: Brazilian free-tailed bat (throughout Florida; roosts in man-made structures including under barrel roof tiles; Florida bonneted bat also roosts under barrel tiles, central and south Florida as far north as Polk County)", url: UW424 },
     { title: "UF/IFAS EDIS UW548: Has Your House Gone Batty? Facts about Bats (under roof tiles; quiet, don't chatter or gnaw; bonneted bat can't be excluded at any time; ultrasonic devices don't repel bats; 13 species in Florida)", url: UW548 },
     { title: "FWC: Bats in buildings (maternity season April 16 to August 14; four nights; 50°F; ¾-inch holes and ⅜-inch crevices; no poison, relocation or fumigants; brown discoloration; guano piles; a colony can often be heard shortly before it leaves for the night; histoplasmosis never reported from building guano in Florida; CDC respirator advice)", url: FWC_BATS },
     { title: "FWC: Bats (odor from the scent gland of Brazilian free-tailed bats; never handle a bat bare-handed)", url: FWC_MAIN },
