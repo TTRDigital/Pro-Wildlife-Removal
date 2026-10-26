@@ -91,7 +91,7 @@ export const lecanto = countyPage({
   seo: {
     title: "Wildlife Removal in Lecanto, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Lecanto, FL: raccoons, rats, bats and squirrels, plus Citrus County's garbage and nuisance rules and who to call: (727) 594-7705.",
+      "Wildlife removal in Lecanto, FL: raccoons, rats, bats and squirrels, plus Citrus County's garbage and nuisance rules and who to call. Call (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 Census redistricting data, Florida (Lecanto CDP: 6,301 people, 2,562 housing units)", url: CENSUS_PL },
