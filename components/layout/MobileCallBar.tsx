@@ -6,7 +6,7 @@ export function MobileCallBar({ phone, phoneHref }: { phone: string; phoneHref: 
   return (
     <>
       <div aria-hidden="true" className="h-[76px] md:hidden" />
-      <div className={`fixed inset-x-0 bottom-0 z-40 border-t border-navy/10 bg-white/90 px-3 pt-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))] shadow-[0_-10px_30px_-12px_rgb(14_42_71/0.25)] backdrop-blur-md md:hidden ${chatWidgetId ? "pr-[76px]" : ""}`}>
+      <div className={`fixed inset-x-0 bottom-0 z-40 border-t border-navy/10 bg-white px-3 pt-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))] shadow-[0_-10px_30px_-12px_rgb(14_42_71/0.25)] backdrop-blur-md md:hidden ${chatWidgetId ? "pr-[76px]" : ""}`}>
         <a href={phoneHref} data-track="click_to_call" className="flex items-center gap-3 active:scale-[0.99]">
           <span className="min-w-0 flex-none pl-1 leading-tight">
             <span className="block font-display text-[0.6875rem] font-bold tracking-[0.5px] text-blue-deep uppercase">Free Inspection</span>

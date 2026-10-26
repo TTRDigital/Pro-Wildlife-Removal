@@ -126,7 +126,7 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
                 <Phone className="phone-ring h-5 w-5" strokeWidth={2.5} />
               </span>
               <span className="relative flex flex-col items-start leading-none" aria-hidden="true">
-                <span className="tag-nudge mb-1 rounded-md bg-white/20 px-1.5 py-[3px] font-display text-[0.6875rem] font-extrabold tracking-[1px] uppercase">Free Inspection</span>
+                <span className="tag-nudge mb-1 rounded-md bg-black/20 px-1.5 py-[3px] font-display text-[0.6875rem] font-extrabold tracking-[1px] uppercase">Free Inspection</span>
                 <span className="font-display text-[1.0625rem] font-extrabold tracking-[-0.01em] lg:text-[1.25rem]">{phone}</span>
               </span>
             </a>
