@@ -1,4 +1,4 @@
-import { Check, Phone } from "lucide-react";
+import { Check } from "lucide-react";
 import type { Cta, Hero, Img, SiteSettings } from "@/lib/types";
 import { images } from "@/lib/data/images";
 import { Heading } from "@/components/ui/HighlightText";
@@ -94,7 +94,7 @@ export function PageHero({ hero, crumbs, ctas, settings }: { hero: Hero; crumbs?
  * the two perks and the Google rating on top. On phones the photo shows above the text and
  * the line is left out, so the banner stays short and clean.
  */
-export function HomeHero({ hero, settings }: { hero: Hero; settings: SiteSettings }) {
+export function HomeHero({ hero, ctas, settings }: { hero: Hero; ctas: Cta[]; settings: SiteSettings }) {
   const image = hero.image ?? images.certifiedWildlifeRemovalExpertsInTampaFl;
   return (
     <section className="relative isolate overflow-hidden bg-navy-2">
@@ -104,24 +104,25 @@ export function HomeHero({ hero, settings }: { hero: Hero; settings: SiteSetting
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-2 via-navy-2/55 to-transparent md:bg-gradient-to-r md:from-navy-2/95 md:via-navy-2/70 md:to-navy-2/5" />
       <div className="wrap flex min-h-[560px] items-end pt-48 pb-10 sm:min-h-[600px] md:min-h-[640px] md:items-center md:py-24 lg:min-h-[680px]">
         <div className="on-navy max-w-[640px]" data-reveal>
-          <p className="mb-5 inline-flex flex-wrap items-center gap-x-2.5 gap-y-1 rounded-full bg-cta px-4 py-2 font-display text-[0.8125rem] font-bold tracking-[0.5px] text-white uppercase shadow-[0_10px_24px_-10px_rgb(180_90_0/0.8)]">
-            <Check className="h-4 w-4" strokeWidth={3} aria-hidden="true" />
-            {perks.slice().reverse().join(" · ")}
-          </p>
+          {hero.eyebrow ? <p className="eyebrow mb-3">{hero.eyebrow}</p> : null}
           <Heading as="h1" text={hero.heading} highlight={hero.highlight} className="text-[clamp(2.375rem,1.5rem+3.4vw,4.25rem)] leading-[1.03] font-extrabold tracking-[-0.035em] text-white" />
           {hero.text?.length ? <RichText value={hero.text} className="mt-5 hidden max-w-[540px] text-lead sm:block [&_p]:text-lead [&_p]:text-white/85" /> : null}
-          <a
-            href={settings.phoneHref}
-            data-track="click_to_call"
-            className="call-pulse mt-8 flex w-full items-center justify-center gap-3 rounded-xl bg-cta px-6 py-3.5 text-white shadow-[0_10px_24px_-10px_rgb(180_90_0/0.7)] transition-colors hover:bg-cta-hover active:scale-[0.98] sm:inline-flex sm:w-auto"
-          >
-            <Phone className="h-6 w-6 flex-none" strokeWidth={2.25} aria-hidden="true" />
-            <span className="text-left leading-tight">
-              <span className="block font-display text-[1.0625rem] font-bold">Call for Your Free Inspection</span>
-              <span className="block font-display text-[0.9375rem] font-semibold text-white/85">{settings.phone}</span>
-            </span>
-          </a>
-          <RatingChip settings={settings} light className="mt-3" />
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+            {ctas.map((c, i) => (
+              <Button key={c.href + i} href={c.href} variant={i === 0 ? "primary" : "outline-light"} className="w-full sm:w-auto">
+                {c.label}
+              </Button>
+            ))}
+          </div>
+          <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-1 font-display text-[0.9375rem] font-semibold text-white">
+            {perks.map((p) => (
+              <li key={p} className="inline-flex items-center gap-1.5">
+                <Check className="h-4 w-4 text-blue-light" strokeWidth={3} aria-hidden="true" />
+                {p}
+              </li>
+            ))}
+          </ul>
+          <RatingChip settings={settings} light className="mt-1" />
         </div>
       </div>
     </section>
