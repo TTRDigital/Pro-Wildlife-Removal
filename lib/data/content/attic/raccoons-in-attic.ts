@@ -22,7 +22,7 @@ export const raccoonsInAttic: Service = {
   design: "new",
   hero: {
     eyebrow: "RACCOONS IN THE ATTIC",
-    heading: "Raccoons in the Attic in Tampa Bay",
+    heading: "Raccoons in the Attic in Central Florida",
     highlight: "Raccoons in the Attic",
     text: p("Heavy steps overhead in the evening, a torn soffit, a smell from one corner. Here's how to confirm a raccoon and why the order of the fix matters."),
     badges: ["Evening thumping", "Spring babies", "Latrine cleanup"],

@@ -4,14 +4,14 @@ import { faq, h3, p, rich, table, ul } from "../pt.ts";
 import { TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
- * Guide: wildlife removal cost in Tampa Bay (the plan's general cost guide).
+ * Guide: wildlife removal cost in Central Florida (the plan's general cost guide).
  * Rewritten in place at the existing slug (Ben, Oct 26). No price figures until the
  * client confirms them; the free inspection is confirmed (Ben, Oct 26).
  */
 
 export const wildlifeRemovalCost: Post = {
   slug: "how-much-does-wildlife-removal-cost",
-  title: "How Much Does Wildlife Removal Cost in Tampa Bay?",
+  title: "How Much Does Wildlife Removal Cost in Central Florida?",
   excerpt:
     "Wildlife removal cost depends on the animal, Florida's rules for it, how many openings need sealing, how hard they are to reach and how much cleanup is left behind.",
   date: "2023-12-08T21:05:09+00:00",
@@ -64,9 +64,9 @@ export const wildlifeRemovalCost: Post = {
     faq("Does homeowners insurance pay for wildlife removal?", "It depends on your policy and the damage. Check with your insurer before the work starts, and keep the inspection report and photos."),
   ],
   seo: {
-    title: "Wildlife Removal Cost in Tampa Bay | Pro Wildlife Removal",
+    title: "Wildlife Removal Cost in Central Florida | Pro Wildlife",
     description:
-      "What sets wildlife removal cost in Tampa Bay: the animal and Florida's rules, where it is, sealing the way in and cleanup, with bat and attic cost guides.",
+      "What sets wildlife removal cost in Central Florida: the animal and Florida's rules, where it is, sealing the way in and cleanup, with bat and attic guides.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (bat exclusion Aug 15 to April 15; permits during the season)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

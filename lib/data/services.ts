@@ -50,7 +50,7 @@ export const fallbackServices: Service[] = [
   "summary": "Expert Bat Removal Backed by Florida Wildlife Law Compliance",
   "design": "refresh",
   "hero": {
-   "heading": "Expert Tampa Bay Bat Removal Backed by Florida Wildlife Law Compliance",
+   "heading": "Expert Central Florida Bat Removal Backed by Florida Wildlife Law Compliance",
    "text": [
     {
      "_type": "block",
@@ -78,7 +78,7 @@ export const fallbackServices: Service[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "Your Tampa Bay Bat Removal Specialists",
+    "heading": "Your Central Florida Bat Removal Specialists",
     "body": [
      {
       "_type": "block",
@@ -86,7 +86,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Bats play an important role in Florida’s ecosystem — but when they invade your home or business, they create serious health hazards, property damage, and legal concerns. Pro Wildlife Removal offers fast, fully licensed bat removal services in Tampa Bay that follow Florida’s strict regulations while delivering real results. Our expert team understands Tampa’s unique bat challenges, from the humid climate to water-adjacent neighborhoods that attract roosting colonies. Whether you’re dealing with bats in your attic, walls, or soffits, we’ll safely extract them, seal entry points, and restore your property — all with transparent, flat-rate pricing and guaranteed work.",
+        "text": "Bats play an important role in Florida’s ecosystem — but when they invade your home or business, they create serious health hazards, property damage, and legal concerns. Pro Wildlife Removal offers fast, fully licensed bat removal services in Central Florida that follow Florida’s strict regulations while delivering real results. Our expert team understands Tampa’s unique bat challenges, from the humid climate to water-adjacent neighborhoods that attract roosting colonies. Whether you’re dealing with bats in your attic, walls, or soffits, we’ll safely extract them, seal entry points, and restore your property — all with transparent, flat-rate pricing and guaranteed work.",
         "marks": []
        }
       ],
@@ -1440,7 +1440,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -1474,7 +1474,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -1528,7 +1528,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay & Surrounding Communities",
+    "heading": "Serving Central Florida & Surrounding Communities",
     "intro": [
      {
       "_type": "block",
@@ -1536,7 +1536,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal proudly provides expert bat removal services across Tampa Bay and the greater Hillsborough County area. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of Central Florida.",
+        "text": "Pro Wildlife Removal proudly provides expert bat removal services across Central Florida and the greater Hillsborough County area. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of Central Florida.",
         "marks": []
        }
       ],
@@ -1676,7 +1676,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Tampa Bay, Florida. See what our clients have to say about us:",
+        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Central Florida. See what our clients have to say about us:",
         "marks": []
        }
       ],
@@ -1945,7 +1945,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Bat Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Bat removal in Tampa Bay that follows Florida wildlife law: inspection, legal exclusion, guano cleanup and sealing, with follow-up inspections included."
+   "description": "Bat removal in Central Florida that follows Florida wildlife law: inspection, legal exclusion, guano cleanup and sealing, with follow-up inspections included."
   }
  },
  {
@@ -1957,7 +1957,7 @@ export const fallbackServices: Service[] = [
   "summary": "CLAIM YOUR FREE RAT REMOVAL QUOTE & SAME-DAY INSPECTION!",
   "design": "refresh",
   "hero": {
-   "heading": "Trusted Rat Removal Services in the Tampa Bay Area",
+   "heading": "Trusted Rat Removal Services in Central Florida",
    "text": [
     {
      "_type": "block",
@@ -1998,7 +1998,7 @@ export const fallbackServices: Service[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "Your Local Rat Control Experts of Tampa Bay",
+    "heading": "Your Local Rat Control Experts of Central Florida",
     "body": [
      {
       "_type": "block",
@@ -2006,7 +2006,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Dealing with a rat infestation in your Tampa Bay home or property? Pro Wildlife Removal offers fast, professional, and licensed rat removal services in Tampa Bay and Central Florida designed to protect your property from the damage and health risks posed by rats. Our Florida rat exterminators know how to handle the unique, and serious, rodent issues of Tampa Bay with proven methods, transparent pricing, and guaranteed results. Schedule a free, on-site rat control inspection today!",
+        "text": "Dealing with a rat infestation in your Central Florida home or property? Pro Wildlife Removal offers fast, professional, and licensed rat removal services in Central Florida designed to protect your property from the damage and health risks posed by rats. Our Florida rat exterminators know how to handle the unique, and serious, rodent issues of Central Florida with proven methods, transparent pricing, and guaranteed results. Schedule a free, on-site rat control inspection today!",
         "marks": []
        }
       ],
@@ -2045,7 +2045,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Tampa Bay’s Growing Rat Problem",
+    "heading": "Central Florida’s Growing Rat Problem",
     "body": [
      {
       "_type": "block",
@@ -2151,7 +2151,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Unsecured trash, pet food left outdoors, and restaurant-rich districts provide constant food supplies, fueling rat infestations across Tampa Bay.",
+          "text": "Unsecured trash, pet food left outdoors, and restaurant-rich districts provide constant food supplies, fueling rat infestations across Central Florida.",
           "marks": []
          }
         ],
@@ -2288,7 +2288,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "cardsSection",
-    "heading": "Signs You Have a Rat Problem in Tampa Bay",
+    "heading": "Signs You Have a Rat Problem in Central Florida",
     "intro": [
      {
       "_type": "block",
@@ -2296,7 +2296,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Rat infestations often start quietly but can quickly escalate if not addressed right away. Tampa Bay property owners should be aware of these common signs of a rat infestation:",
+        "text": "Rat infestations often start quietly but can quickly escalate if not addressed right away. Central Florida property owners should be aware of these common signs of a rat infestation:",
         "marks": []
        }
       ],
@@ -2454,7 +2454,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Health & Property Risks of Rat Infestations in Tampa Bay",
+    "heading": "Health & Property Risks of Rat Infestations in Central Florida",
     "body": [
      {
       "_type": "block",
@@ -2694,7 +2694,7 @@ export const fallbackServices: Service[] = [
        },
        {
         "_type": "span",
-        "text": ", we offer full-service wildlife removal and remediation specifically for Tampa Bay homes and businesses. Our rodent extermination process is fast, thorough, and fully licensed in the state of Florida.",
+        "text": ", we offer full-service wildlife removal and remediation specifically for Central Florida homes and businesses. Our rodent extermination process is fast, thorough, and fully licensed in the state of Florida.",
         "marks": []
        }
       ],
@@ -2791,7 +2791,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When it comes to rat infestations in Tampa Bay and Central Florida, you need more than a quick fix solution—you need licensed, local wildlife removal experts who understand the region’s unique challenges and offer guaranteed, long-lasting solutions.",
+        "text": "When it comes to rat infestations in Central Florida, you need more than a quick fix solution—you need licensed, local wildlife removal experts who understand the region’s unique challenges and offer guaranteed, long-lasting solutions.",
         "marks": []
        }
       ],
@@ -2810,7 +2810,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "As a family-owned business in operation for over 15 years, we treat every home as if it were our own. Our long-standing reputation is built on trust, personalized service, and protecting Tampa Bay families and businesses from the dangers of nuisance wildlife.",
+          "text": "As a family-owned business in operation for over 15 years, we treat every home as if it were our own. Our long-standing reputation is built on trust, personalized service, and protecting Central Florida families and businesses from the dangers of nuisance wildlife.",
           "marks": []
          }
         ],
@@ -2887,7 +2887,7 @@ export const fallbackServices: Service[] = [
       ]
      },
      {
-      "title": "Local Tampa Bay Experts",
+      "title": "Local Central Florida Experts",
       "text": [
        {
         "_type": "block",
@@ -2895,7 +2895,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Our technicians live and work in the Tampa Bay area. We understand how local building styles, storm damage, and seasonal behavior patterns affect rat activity in neighborhoods like Seminole Heights, Hyde Park, and South Tampa.",
+          "text": "Our technicians live and work in Central Florida. We understand how local building styles, storm damage, and seasonal behavior patterns affect rat activity in neighborhoods like Seminole Heights, Hyde Park, and South Tampa.",
           "marks": []
          }
         ],
@@ -3129,7 +3129,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -3163,7 +3163,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -3217,7 +3217,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay and Central Florida Communities",
+    "heading": "Serving Central Florida Communities",
     "intro": [
      {
       "_type": "block",
@@ -3225,7 +3225,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "While our homebase is in the New Port Richey area, Pro Wildlife Removal proudly provides expert rat removal services across Tampa Bay and the greater Central Florida area. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of our region.",
+        "text": "While our homebase is in the New Port Richey area, Pro Wildlife Removal proudly provides expert rat removal services across Central Florida. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of our region.",
         "marks": []
        }
       ],
@@ -3415,7 +3415,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "There’s a reason why Pro Wildlife Removal is trusted by homeowners and businesses across Tampa Bay and Central Florida. Our clients value our fast response, expert service, and lasting results. See what real customers are saying about their experience:",
+        "text": "There’s a reason why Pro Wildlife Removal is trusted by homeowners and businesses across Central Florida. Our clients value our fast response, expert service, and lasting results. See what real customers are saying about their experience:",
         "marks": []
        }
       ],
@@ -3439,7 +3439,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Get Your Free Quote For Rat Removal Services in Tampa Bay",
+    "heading": "Get Your Free Quote For Rat Removal Services in Central Florida",
     "body": [
      {
       "_type": "block",
@@ -3447,7 +3447,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When you have a rat problem it’s important to act quickly. At Pro Wildlife Removal, we deliver fast, fully licensed rat removal services in Tampa Bay and Central Florida, backed by fully transparent pricing, expert exclusion, thorough cleanup, and guaranteed results. Call now to schedule your FREE inspection and let our expert wildlife control team restore your peace of mind — quickly, safely, and permanently.",
+        "text": "When you have a rat problem it’s important to act quickly. At Pro Wildlife Removal, we deliver fast, fully licensed rat removal services in Central Florida, backed by fully transparent pricing, expert exclusion, thorough cleanup, and guaranteed results. Call now to schedule your FREE inspection and let our expert wildlife control team restore your peace of mind — quickly, safely, and permanently.",
         "marks": []
        }
       ],
@@ -3459,7 +3459,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Call For Your Tampa Bay Rat Removal Quote",
+        "text": "Call For Your Central Florida Rat Removal Quote",
         "marks": []
        }
       ],
@@ -3486,7 +3486,7 @@ export const fallbackServices: Service[] = [
     "heading": "Frequently Asked Questions About Rat Removal in Tampa",
     "items": [
      {
-      "question": "How do I know if I have a rat problem in my Tampa Bay home?",
+      "question": "How do I know if I have a rat problem in my Central Florida home?",
       "answer": [
        {
         "_type": "block",
@@ -3630,7 +3630,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Yes, we offer rat control in Tampa Bay for businesses including restaurants, retail stores, warehouses, and offices. We provide discreet, code-compliant service and work outside business hours when needed.",
+          "text": "Yes, we offer rat control in Central Florida for businesses including restaurants, retail stores, warehouses, and offices. We provide discreet, code-compliant service and work outside business hours when needed.",
           "marks": []
          }
         ],
@@ -3666,7 +3666,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Rat Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Rat removal in the Tampa Bay area: trapping, removal, exclusion and cleanup. Claim your free rat removal quote and same-day inspection."
+   "description": "Rat removal in Central Florida: trapping, removal, exclusion and cleanup. Claim your free rat removal quote and same-day inspection."
   }
  },
  {
@@ -3678,7 +3678,7 @@ export const fallbackServices: Service[] = [
   "summary": "Proudly Serving Central Florida With Expert Raccoon Control and Remediation Trapping | Removal | Exclusion | Cleanup GET YOUR FREE RACCOON REMOVAL QUOTE & INSPECTION",
   "design": "refresh",
   "hero": {
-   "heading": "Trusted Raccoon Removal Services in the Tampa Bay Area",
+   "heading": "Trusted Raccoon Removal Services in Central Florida",
    "text": [
     {
      "_type": "block",
@@ -3737,7 +3737,7 @@ export const fallbackServices: Service[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "Your Local Raccoon Control Experts of Tampa Bay",
+    "heading": "Your Local Raccoon Control Experts of Central Florida",
     "body": [
      {
       "_type": "block",
@@ -3745,7 +3745,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Raccoons may be common in Tampa Bay, but when they invade your attic, crawlspace, or walls, they put your home and health at risk. Pro Wildlife Removal provides licensed raccoon removal services in Tampa Bay and Central Florida with flat-rate pricing, full remediation, and guaranteed results. Our experts know the raccoon challenges in waterfront communities, parks, and urban neighborhoods. From attic noises to roofline damage, we’ll remove raccoons, seal entry points, sanitize, and restore your property—fast and permanent. Call today for your FREE on-site inspection!",
+        "text": "Raccoons may be common in Central Florida, but when they invade your attic, crawlspace, or walls, they put your home and health at risk. Pro Wildlife Removal provides licensed raccoon removal services in Central Florida with flat-rate pricing, full remediation, and guaranteed results. Our experts know the raccoon challenges in waterfront communities, parks, and urban neighborhoods. From attic noises to roofline damage, we’ll remove raccoons, seal entry points, sanitize, and restore your property—fast and permanent. Call today for your FREE on-site inspection!",
         "marks": []
        }
       ],
@@ -3782,7 +3782,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Tampa Bay’s Growing Raccoon Problem",
+    "heading": "Central Florida’s Growing Raccoon Problem",
     "body": [
      {
       "_type": "block",
@@ -5138,7 +5138,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -5172,7 +5172,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -5226,7 +5226,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay & Surrounding Communities",
+    "heading": "Serving Central Florida & Surrounding Communities",
     "intro": [
      {
       "_type": "block",
@@ -5234,7 +5234,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal proudly provides expert raccoon removal services across Tampa Bay and the greater Hillsborough County area. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of Central Florida.",
+        "text": "Pro Wildlife Removal proudly provides expert raccoon removal services across Central Florida and the greater Hillsborough County area. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of Central Florida.",
         "marks": []
        }
       ],
@@ -5374,7 +5374,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Tampa Bay, Florida. See what our clients have to say about us:",
+        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Central Florida. See what our clients have to say about us:",
         "marks": []
        }
       ],
@@ -5643,7 +5643,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Raccoon Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Raccoon removal in the Tampa Bay area: trapping, exclusion, cleanup and remediation, with flat-rate pricing. Call now for your free inspection."
+   "description": "Raccoon removal in Central Florida: trapping, exclusion, cleanup and remediation, with flat-rate pricing. Call now for your free inspection."
   }
  },
  {
@@ -5652,7 +5652,7 @@ export const fallbackServices: Service[] = [
   "group": "control",
   "animal": "squirrel",
   "order": 13,
-  "summary": "Expert Tampa Bay Squirrel Removal Backed\nby Florida Wildlife Law Compliance",
+  "summary": "Expert Central Florida Squirrel Removal Backed\nby Florida Wildlife Law Compliance",
   "design": "refresh",
   "hero": {
    "heading": "Professional Squirrel Removal Services in Tampa",
@@ -5663,7 +5663,7 @@ export const fallbackServices: Service[] = [
      "children": [
       {
        "_type": "span",
-       "text": "Expert Tampa Bay Squirrel Removal Backed\nby Florida Wildlife Law Compliance",
+       "text": "Expert Central Florida Squirrel Removal Backed\nby Florida Wildlife Law Compliance",
        "marks": []
       }
      ],
@@ -5691,7 +5691,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Squirrels may seem harmless, but once inside your Tampa home, they cause serious damage — from chewed wires to attic contamination. Pro Wildlife Removal offers fast, fully licensed squirrel removal services in Tampa Bay, following Florida’s strict wildlife laws. We efficiently extract squirrels, seal entry points, and fully restore your property with flat-rate pricing and guaranteed results.",
+        "text": "Squirrels may seem harmless, but once inside your Tampa home, they cause serious damage — from chewed wires to attic contamination. Pro Wildlife Removal offers fast, fully licensed squirrel removal services in Central Florida, following Florida’s strict wildlife laws. We efficiently extract squirrels, seal entry points, and fully restore your property with flat-rate pricing and guaranteed results.",
         "marks": []
        }
       ],
@@ -6986,7 +6986,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -7020,7 +7020,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -7074,7 +7074,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay & Surrounding Communities",
+    "heading": "Serving Central Florida & Surrounding Communities",
     "intro": [
      {
       "_type": "block",
@@ -7082,7 +7082,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal proudly provides expert squirrel removal services across Tampa Bay and the greater Hillsborough County area. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of Central Florida.",
+        "text": "Pro Wildlife Removal proudly provides expert squirrel removal services across Central Florida and the greater Hillsborough County area. From historic neighborhoods to growing developments, we understand the architecture, wildlife behavior, and regional challenges unique to each part of Central Florida.",
         "marks": []
        }
       ],
@@ -7222,7 +7222,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Tampa Bay, Florida. See what our clients have to say about us:",
+        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Central Florida. See what our clients have to say about us:",
         "marks": []
        }
       ],
@@ -7464,7 +7464,7 @@ export const fallbackServices: Service[] = [
       ]
      },
      {
-      "question": "What areas in Tampa Bay do you service?",
+      "question": "What areas in Central Florida do you service?",
       "answer": [
        {
         "_type": "block",
@@ -7503,7 +7503,7 @@ export const fallbackServices: Service[] = [
   "summary": "CLAIM YOUR FREE SNAKE REMOVAL QUOTE & SAME-DAY INSPECTION!",
   "design": "refresh",
   "hero": {
-   "heading": "Trusted Snake Removal Services in the Tampa Bay Area",
+   "heading": "Trusted Snake Removal Services in Central Florida",
    "text": [
     {
      "_type": "block",
@@ -7545,7 +7545,7 @@ export const fallbackServices: Service[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "Your Local Snake Removal Experts of Tampa Bay",
+    "heading": "Your Local Snake Removal Experts of Central Florida",
     "body": [
      {
       "_type": "block",
@@ -7553,7 +7553,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Snakes are everywhere in Central Florida’s neighborhoods, from waterfront homes in Palm Harbor to wooded subdivisions in Spring Hill. While many of Florida’s snakes are non-venomous, some can be a serious threat to your family, pets and property. At Pro Wildlife Removal we offer fast, fully licensed snake removal services in Tampa Bay with flat rate pricing, expert exclusion and guaranteed results. Whether you see a snake in your home, garage or yard we’ll respond quickly, carefully remove the animal, seal the entry points and restore your property.",
+        "text": "Snakes are everywhere in Central Florida’s neighborhoods, from waterfront homes in Palm Harbor to wooded subdivisions in Spring Hill. While many of Florida’s snakes are non-venomous, some can be a serious threat to your family, pets and property. At Pro Wildlife Removal we offer fast, fully licensed snake removal services in Central Florida with flat rate pricing, expert exclusion and guaranteed results. Whether you see a snake in your home, garage or yard we’ll respond quickly, carefully remove the animal, seal the entry points and restore your property.",
         "marks": []
        }
       ],
@@ -7600,7 +7600,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Snakes are everywhere in Central Florida’s neighborhoods, from waterfront homes in Palm Harbor to wooded subdivisions in Spring Hill. While many of Florida’s snakes are non-venomous, some can be a serious threat to your family, pets and property. At Pro Wildlife Removal we offer fast, fully licensed snake removal services in Tampa Bay with flat rate pricing, expert exclusion and guaranteed results. Whether you see a snake in your home, garage or yard we’ll respond quickly, carefully remove the animal, seal the entry points and restore your property.",
+        "text": "Snakes are everywhere in Central Florida’s neighborhoods, from waterfront homes in Palm Harbor to wooded subdivisions in Spring Hill. While many of Florida’s snakes are non-venomous, some can be a serious threat to your family, pets and property. At Pro Wildlife Removal we offer fast, fully licensed snake removal services in Central Florida with flat rate pricing, expert exclusion and guaranteed results. Whether you see a snake in your home, garage or yard we’ll respond quickly, carefully remove the animal, seal the entry points and restore your property.",
         "marks": []
        }
       ],
@@ -7726,7 +7726,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Tampa Bay is home to a diverse variety of snake species. While most are harmless and play an important role in the ecosystem, many venomous species can pose serious risks to people and pets. Our team is trained to safely identify and handle both venomous and non-venomous snakes common to the Central Florida area.",
+        "text": "Central Florida is home to a diverse variety of snake species. While most are harmless and play an important role in the ecosystem, many venomous species can pose serious risks to people and pets. Our team is trained to safely identify and handle both venomous and non-venomous snakes common to the Central Florida area.",
         "marks": []
        }
       ],
@@ -8296,7 +8296,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "cardsSection",
-    "heading": "Why Choose Pro Wildlife Removal for Snake Control in Tampa Bay?",
+    "heading": "Why Choose Pro Wildlife Removal for Snake Control in Central Florida?",
     "intro": [
      {
       "_type": "block",
@@ -8304,7 +8304,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When you’re dealing with a snake inside your home or on your property, you need more than basic pest control — you need licensed wildlife professionals who understand Florida snakes, Tampa Bay’s unique environment, and the safest, most effective removal methods.",
+        "text": "When you’re dealing with a snake inside your home or on your property, you need more than basic pest control — you need licensed wildlife professionals who understand Florida snakes, Central Florida’s unique environment, and the safest, most effective removal methods.",
         "marks": []
        }
       ],
@@ -8640,7 +8640,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -8674,7 +8674,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -8728,7 +8728,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay & Surrounding Communities",
+    "heading": "Serving Central Florida & Surrounding Communities",
     "intro": [
      {
       "_type": "block",
@@ -8736,7 +8736,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal proudly provides expert snake removal services across Tampa Bay and the greater Central Florida region. Whether you’re dealing with an emergency situation or want proactive protection, we understand the architecture, wildlife behavior, and regional challenges unique to each area we serve.",
+        "text": "Pro Wildlife Removal proudly provides expert snake removal services across Central Florida. Whether you’re dealing with an emergency situation or want proactive protection, we understand the architecture, wildlife behavior, and regional challenges unique to each area we serve.",
         "marks": []
        }
       ],
@@ -8901,7 +8901,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "There’s a reason why Pro Wildlife Removal is trusted by homeowners and businesses across Tampa Bay and Central Florida. Our clients value our fast response, expert service, and lasting results. See what real customers are saying about their experience:",
+        "text": "There’s a reason why Pro Wildlife Removal is trusted by homeowners and businesses across Central Florida. Our clients value our fast response, expert service, and lasting results. See what real customers are saying about their experience:",
         "marks": []
        }
       ],
@@ -8925,7 +8925,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Get Your Free Quote For Expert Snake Removal Services in Tampa Bay",
+    "heading": "Get Your Free Quote For Expert Snake Removal Services in Central Florida",
     "body": [
      {
       "_type": "block",
@@ -8933,7 +8933,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When you have a snake problem it’s important to act quick. At Pro Wildlife Removal, we deliver fast, fully licensed snake removal services in Tampa Bay backed by flat-rate pricing, expert exclusion, thorough cleanup, and guaranteed results. Call now to schedule your free inspection and let our expert wildlife control team restore your peace of mind — quickly, safely, and permanently.",
+        "text": "When you have a snake problem it’s important to act quick. At Pro Wildlife Removal, we deliver fast, fully licensed snake removal services in Central Florida backed by flat-rate pricing, expert exclusion, thorough cleanup, and guaranteed results. Call now to schedule your free inspection and let our expert wildlife control team restore your peace of mind — quickly, safely, and permanently.",
         "marks": []
        }
       ],
@@ -9136,7 +9136,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Snake Removal Tampa | Pro Wildlife Removal",
-   "description": "Snake removal in the Tampa Bay area: identification, safe removal and prevention. Claim your free snake removal quote and same-day inspection."
+   "description": "Snake removal in Central Florida: identification, safe removal and prevention. Claim your free snake removal quote and same-day inspection."
   }
  },
  {
@@ -9145,7 +9145,7 @@ export const fallbackServices: Service[] = [
   "group": "control",
   "animal": "opossum",
   "order": 15,
-  "summary": "Proudly Serving Tampa Bay Homes & Businesses with Safe & Effective Opossum Control",
+  "summary": "Proudly Serving Central Florida Homes & Businesses with Safe & Effective Opossum Control",
   "design": "refresh",
   "hero": {
    "heading": "Professional Opossum Removal Services in Tampa",
@@ -9156,7 +9156,7 @@ export const fallbackServices: Service[] = [
      "children": [
       {
        "_type": "span",
-       "text": "Proudly Serving Tampa Bay Homes & Businesses with Safe & Effective Opossum Control",
+       "text": "Proudly Serving Central Florida Homes & Businesses with Safe & Effective Opossum Control",
        "marks": []
       }
      ],
@@ -9184,7 +9184,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "If you’re dealing with opossums on your Tampa property, Pro Wildlife Removal is here to help. We offer fast, professional, and fully licensed opossum removal services in Tampa Bay designed to protect your home, family, and business from the risks these animals bring with them. Whether they’ve moved into your attic, crawlspace, or garage, our local opossum extraction experts understand Tampa’s unique wildlife challenges—from the historic streets of Ybor City to the waterfront homes of Davis Islands and the suburban neighborhoods of New Tampa and Carrollwood. With proven methods, flat-rate pricing, and guaranteed results, we provide full remediation you can trust.",
+        "text": "If you’re dealing with opossums on your Tampa property, Pro Wildlife Removal is here to help. We offer fast, professional, and fully licensed opossum removal services in Central Florida designed to protect your home, family, and business from the risks these animals bring with them. Whether they’ve moved into your attic, crawlspace, or garage, our local opossum extraction experts understand Tampa’s unique wildlife challenges—from the historic streets of Ybor City to the waterfront homes of Davis Islands and the suburban neighborhoods of New Tampa and Carrollwood. With proven methods, flat-rate pricing, and guaranteed results, we provide full remediation you can trust.",
         "marks": []
        }
       ],
@@ -10432,7 +10432,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -10466,7 +10466,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -10520,7 +10520,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay & Surrounding Communities",
+    "heading": "Serving Central Florida & Surrounding Communities",
     "intro": [
      {
       "_type": "block",
@@ -10528,7 +10528,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal proudly provides expert opossum removal services throughout Tampa Bay and the surrounding Central Florida region. Our local knowledge allows us to address the specific wildlife challenges unique to each community we serve.",
+        "text": "Pro Wildlife Removal proudly provides expert opossum removal services throughout Central Florida. Our local knowledge allows us to address the specific wildlife challenges unique to each community we serve.",
         "marks": []
        }
       ],
@@ -10668,7 +10668,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Tampa Bay, Florida. See what our clients have to say about us:",
+        "text": "There’s a reason why Pro Wildlife Removal has been voted the best wildlife removal company in Central Florida. See what our clients have to say about us:",
         "marks": []
        }
       ],
@@ -10901,7 +10901,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Yes. We serve both residential and commercial clients throughout Tampa Bay, including restaurants, warehouses, retail spaces, and apartment complexes.",
+          "text": "Yes. We serve both residential and commercial clients throughout Central Florida, including restaurants, warehouses, retail spaces, and apartment complexes.",
           "marks": []
          }
         ],
@@ -10937,7 +10937,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Opossum Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Safe, effective opossum removal for Tampa Bay homes and businesses: trapping, exclusion and cleanup. Call today for your free inspection."
+   "description": "Safe, effective opossum removal for Central Florida homes and businesses: trapping, exclusion and cleanup. Call today for your free inspection."
   }
  },
  {
@@ -10949,7 +10949,7 @@ export const fallbackServices: Service[] = [
   "summary": "CLAIM YOUR FREE ARMADILLO REMOVAL QUOTE & SAME-DAY INSPECTION!",
   "design": "refresh",
   "hero": {
-   "heading": "Trusted Armadillo Removal Services in the Tampa Bay Area",
+   "heading": "Trusted Armadillo Removal Services in Central Florida",
    "text": [
     {
      "_type": "block",
@@ -10991,7 +10991,7 @@ export const fallbackServices: Service[] = [
   "sections": [
    {
     "_type": "splitSection",
-    "heading": "Your Local Armadillo Control Experts of Tampa Bay",
+    "heading": "Your Local Armadillo Control Experts of Central Florida",
     "body": [
      {
       "_type": "block",
@@ -10999,7 +10999,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Dealing with armadillos tearing up your Tampa Bay lawn or burrowing under your foundation? Pro Wildlife Removal offers fast, professional, and licensed armadillo removal services in Tampa Bay and Central Florida, designed to protect your property from costly damage and health risks. Our Florida armadillo exterminators know how to handle the unique challenges of Tampa Bay wildlife with proven methods, transparent pricing, and guaranteed results. Schedule a free, on-site inspection today!",
+        "text": "Dealing with armadillos tearing up your Central Florida lawn or burrowing under your foundation? Pro Wildlife Removal offers fast, professional, and licensed armadillo removal services in Central Florida, designed to protect your property from costly damage and health risks. Our Florida armadillo exterminators know how to handle the unique challenges of Central Florida wildlife with proven methods, transparent pricing, and guaranteed results. Schedule a free, on-site inspection today!",
         "marks": []
        }
       ],
@@ -11011,7 +11011,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Call For Your Tampa Bay Armadillo Removal Quote",
+        "text": "Call For Your Central Florida Armadillo Removal Quote",
         "marks": [
          "strong"
         ]
@@ -11038,7 +11038,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Tampa Bay’s Growing Armadillo Problem",
+    "heading": "Central Florida’s Growing Armadillo Problem",
     "body": [
      {
       "_type": "block",
@@ -11046,7 +11046,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Florida’s warm, humid climate and sandy soils make Tampa Bay a hotspot for armadillo activity. These digging animals are notorious for tearing up lawns, destroying landscaping, and burrowing under driveways, patios, and home foundations. Their burrows can weaken structures, while their constant digging attracts other pests and creates tripping hazards in yards. Being proactive in exterminating armadillos is key to preventing them from causing major issues on your property.",
+        "text": "Florida’s warm, humid climate and sandy soils make Central Florida a hotspot for armadillo activity. These digging animals are notorious for tearing up lawns, destroying landscaping, and burrowing under driveways, patios, and home foundations. Their burrows can weaken structures, while their constant digging attracts other pests and creates tripping hazards in yards. Being proactive in exterminating armadillos is key to preventing them from causing major issues on your property.",
         "marks": []
        }
       ],
@@ -11063,7 +11063,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "cardsSection",
-    "heading": "How Tampa Bay’s Environment Fuels Armadillo Issues",
+    "heading": "How Central Florida’s Environment Fuels Armadillo Issues",
     "variant": "plain",
     "columns": 3,
     "cards": [
@@ -11076,7 +11076,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Armadillos prefer loose soil for digging and burrowing, making Tampa Bay’s residential yards prime targets.",
+          "text": "Armadillos prefer loose soil for digging and burrowing, making Central Florida’s residential yards prime targets.",
           "marks": []
          }
         ],
@@ -11281,7 +11281,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "cardsSection",
-    "heading": "Signs You Have an Armadillo Problem in Tampa Bay",
+    "heading": "Signs You Have an Armadillo Problem in Central Florida",
     "intro": [
      {
       "_type": "block",
@@ -11400,7 +11400,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "If you notice these signs, professional armadillo pest control in Tampa Bay is essential to stop damage and protect your property.",
+        "text": "If you notice these signs, professional armadillo pest control in Central Florida is essential to stop damage and protect your property.",
         "marks": []
        }
       ],
@@ -11412,7 +11412,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Call Now For Your Free Tampa Bay Armadillo Removal Inspection!",
+        "text": "Call Now For Your Free Central Florida Armadillo Removal Inspection!",
         "marks": [
          "strong"
         ]
@@ -11571,7 +11571,7 @@ export const fallbackServices: Service[] = [
        },
        {
         "_type": "span",
-        "text": ", we provide full-service armadillo control in Tampa Bay for homes and businesses. Our licensed process ensures long-lasting results:",
+        "text": ", we provide full-service armadillo control in Central Florida for homes and businesses. Our licensed process ensures long-lasting results:",
         "marks": []
        }
       ],
@@ -11619,7 +11619,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Our trained team provides safe, effective armadillo extraction in Tampa Bay, using proven live-trapping and relocation methods. Every service follows Florida wildlife guidelines to protect your property.",
+          "text": "Our trained team provides safe, effective armadillo extraction in Central Florida, using proven live-trapping and relocation methods. Every service follows Florida wildlife guidelines to protect your property.",
           "marks": []
          }
         ]
@@ -11660,7 +11660,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "cardsSection",
-    "heading": "Why Choose Pro Wildlife Removal for Armadillo Control in Tampa Bay and Central Florida?",
+    "heading": "Why Choose Pro Wildlife Removal for Armadillo Control in Central Florida?",
     "intro": [
      {
       "_type": "block",
@@ -11687,7 +11687,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Trusted by Tampa Bay families for over 15 years, we provide service with care, integrity, and a commitment to protecting local homes and businesses.",
+          "text": "Trusted by Central Florida families for over 15 years, we provide service with care, integrity, and a commitment to protecting local homes and businesses.",
           "marks": []
          }
         ],
@@ -11764,7 +11764,7 @@ export const fallbackServices: Service[] = [
       ]
      },
      {
-      "title": "Local Tampa Bay Experts",
+      "title": "Local Central Florida Experts",
       "text": [
        {
         "_type": "block",
@@ -11772,7 +11772,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Our technicians live and work in Tampa Bay, giving us unmatched knowledge of local soils, landscaping, and wildlife behavior.",
+          "text": "Our technicians live and work in Central Florida, giving us unmatched knowledge of local soils, landscaping, and wildlife behavior.",
           "marks": []
          }
         ],
@@ -12008,7 +12008,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -12042,7 +12042,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -12096,7 +12096,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay & Surrounding Communities",
+    "heading": "Serving Central Florida & Surrounding Communities",
     "intro": [
      {
       "_type": "block",
@@ -12104,7 +12104,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We proudly serve homeowners and businesses throughout Tampa Bay and the surrounding counties, including:",
+        "text": "We proudly serve homeowners and businesses throughout Central Florida and the surrounding counties, including:",
         "marks": []
        }
       ],
@@ -12244,7 +12244,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "There’s a reason why Pro Wildlife Removal is trusted across Tampa Bay and Central Florida. Our clients value our fast response, expert service, and guaranteed results.",
+        "text": "There’s a reason why Pro Wildlife Removal is trusted across Central Florida. Our clients value our fast response, expert service, and guaranteed results.",
         "marks": []
        }
       ],
@@ -12268,7 +12268,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Get Your Free Quote for Armadillo Removal Services in Tampa Bay",
+    "heading": "Get Your Free Quote for Armadillo Removal Services in Central Florida",
     "body": [
      {
       "_type": "block",
@@ -12276,7 +12276,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "When you have an armadillo problem, it’s important to act quickly. At Pro Wildlife Removal, we deliver safe, professional, and licensed armadillo removal services in Tampa Bay and throughout Central Florida, backed by transparent pricing, expert exclusion, thorough cleanup, and guaranteed results. Call now to schedule your free inspection and let our wildlife control team protect your property.",
+        "text": "When you have an armadillo problem, it’s important to act quickly. At Pro Wildlife Removal, we deliver safe, professional, and licensed armadillo removal services throughout Central Florida, backed by transparent pricing, expert exclusion, thorough cleanup, and guaranteed results. Call now to schedule your free inspection and let our wildlife control team protect your property.",
         "marks": []
        }
       ],
@@ -12400,7 +12400,7 @@ export const fallbackServices: Service[] = [
       ]
      },
      {
-      "question": "How much does armadillo removal cost in Tampa Bay?",
+      "question": "How much does armadillo removal cost in Central Florida?",
       "answer": [
        {
         "_type": "block",
@@ -12408,7 +12408,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "The cost of getting rid of armadillos in Tampa Bay varies depending on the size of the property and burrow activity. We offer transparent pricing with no hidden fees. Call us today for your free quote!",
+          "text": "The cost of getting rid of armadillos in Central Florida varies depending on the size of the property and burrow activity. We offer transparent pricing with no hidden fees. Call us today for your free quote!",
           "marks": []
          }
         ],
@@ -12427,7 +12427,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Armadillo Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Armadillo removal in the Tampa Bay area for lawns and foundations: trapping, exclusion and prevention. Claim your free quote and inspection."
+   "description": "Armadillo removal in Central Florida for lawns and foundations: trapping, exclusion and prevention. Claim your free quote and inspection."
   }
  },
  {
@@ -12436,7 +12436,7 @@ export const fallbackServices: Service[] = [
   "group": "control",
   "animal": "bee",
   "order": 17,
-  "summary": "Fast, Safe, and Legal Bee Removal Solutions for Tampa Bay Homes & Businesses",
+  "summary": "Fast, Safe, and Legal Bee Removal Solutions for Central Florida Homes & Businesses",
   "design": "refresh",
   "hero": {
    "heading": "Professional Bee Removal Services in Tampa",
@@ -12447,7 +12447,7 @@ export const fallbackServices: Service[] = [
      "children": [
       {
        "_type": "span",
-       "text": "Fast, Safe, and Legal Bee Removal Solutions for Tampa Bay Homes & Businesses",
+       "text": "Fast, Safe, and Legal Bee Removal Solutions for Central Florida Homes & Businesses",
        "marks": []
       }
      ],
@@ -13559,7 +13559,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Rapid dead animal removal for Tampa Bay homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
+          "text": "Rapid dead animal removal for Central Florida homes, with safe carcass extraction from attics, walls, crawlspaces, and yards, followed by sanitation and odor control.",
           "marks": []
          }
         ],
@@ -13593,7 +13593,7 @@ export const fallbackServices: Service[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Professional exclusion services in Tampa Bay, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
+          "text": "Professional exclusion services in Central Florida, sealing entry points with durable, rodent-proof materials to keep wildlife from re-entering your home.",
           "marks": []
          }
         ],
@@ -13647,7 +13647,7 @@ export const fallbackServices: Service[] = [
    },
    {
     "_type": "areasSection",
-    "heading": "Serving Tampa Bay & Surrounding Communities",
+    "heading": "Serving Central Florida & Surrounding Communities",
     "intro": [
      {
       "_type": "block",
@@ -13655,7 +13655,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We proudly serve Tampa Bay and surrounding Central Florida counties:",
+        "text": "We proudly serve Central Florida counties:",
         "marks": []
        }
       ],
@@ -14050,7 +14050,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Bee Removal Services in Tampa | Pro Wildlife Removal",
-   "description": "Fast, safe and legal bee removal for Tampa Bay homes and businesses: swarms and hives removed, cleanup and prevention. Call for your free inspection."
+   "description": "Fast, safe and legal bee removal for Central Florida homes and businesses: swarms and hives removed, cleanup and prevention. Call for your free inspection."
   }
  },
  {
