@@ -4,6 +4,15 @@ import { ratRemovalTampa } from "./content/service-places/rat-removal/tampa-fl.t
 import { batRemovalTampa } from "./content/service-places/bat-removal/tampa-fl.ts";
 import { squirrelRemovalTampa } from "./content/service-places/squirrel-removal/tampa-fl.ts";
 import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
+import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
+import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
+import { squirrelRemovalPinellasCounty } from "./content/service-places/squirrel-removal/pinellas-county-fl.ts";
+import { snakeRemovalPinellasCounty } from "./content/service-places/snake-removal/pinellas-county-fl.ts";
+import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
+import { opossumRemovalPinellasCounty } from "./content/service-places/opossum-removal/pinellas-county-fl.ts";
+import { armadilloRemovalPinellasCounty } from "./content/service-places/armadillo-removal/pinellas-county-fl.ts";
+import { beeRemovalPinellasCounty } from "./content/service-places/bee-removal/pinellas-county-fl.ts";
+import { deadAnimalRemovalPinellasCounty } from "./content/service-places/dead-animal-removal/pinellas-county-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -18,6 +27,16 @@ export const fallbackServicePlaces: ServicePlace[] = [
   raccoonRemovalTampa,
   // Polk County (Owen)
   batRemovalPolkCounty,
+  // Pinellas County (Rhea)
+  ratRemovalPinellasCounty,
+  raccoonRemovalPinellasCounty,
+  squirrelRemovalPinellasCounty,
+  snakeRemovalPinellasCounty,
+  batRemovalPinellasCounty,
+  opossumRemovalPinellasCounty,
+  armadilloRemovalPinellasCounty,
+  beeRemovalPinellasCounty,
+  deadAnimalRemovalPinellasCounty,
 ];
 
 /**
