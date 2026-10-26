@@ -65,3 +65,24 @@ export const clipCredits: ClipCredit[] = [
     date: "13 May 2023",
   },
 ];
+
+/* Credits for the "Hear it" sounds (public/sounds; full notes in public/sounds/CREDITS.md). */
+export const soundCredits: ClipCredit[] = [
+  {
+    clip: "Bees humming",
+    shows: "A bee buzzing, Yosemite National Park, California",
+    author: "U.S. National Park Service (Natural Sounds)",
+    source: "https://www.nps.gov/subjects/sound/sounds-bee.htm",
+    license: "Public domain (U.S. federal work)",
+    date: "Undated",
+  },
+  {
+    clip: "Raccoon kit calling",
+    shows: "A baby raccoon calling for its mother",
+    author: "jnargus",
+    source: "https://commons.wikimedia.org/wiki/File:Baby_Raccoon_Chatter_1.flac",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    date: "23 May 2014",
+  },
+];
