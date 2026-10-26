@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getService, getServicePlaces, getServices, getSiteSettings } from "@/lib/content";
+import { getPlacePages, getService, getServices, getSiteSettings } from "@/lib/content";
 import { withPlacesOf } from "@/lib/place-links";
 import { pageMetadata } from "@/lib/seo";
 import { serviceSchema } from "@/lib/schema";
@@ -23,7 +23,7 @@ export async function generateMetadata(props: PageProps<"/services/[slug]">): Pr
 
 export default async function ServicePage(props: PageProps<"/services/[slug]">) {
   const { slug } = await props.params;
-  const [found, settings, places] = await Promise.all([getService(slug), getSiteSettings(), getServicePlaces()]);
+  const [found, settings, places] = await Promise.all([getService(slug), getSiteSettings(), getPlacePages()]);
   if (!found) notFound();
   // "By city": this animal's place pages (TTR-738).
   const service = withPlacesOf(found, places);

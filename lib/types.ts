@@ -176,6 +176,12 @@ export type ServicePlace = PageContent & {
   order?: number;
 };
 
+/** A place page that already lives at its own URL (e.g. the rat-removal-in-<city> pages): listed with the place pages, no new route. */
+export type PlacePage = Pick<ServicePlace, "service" | "placeName" | "placeKind" | "location" | "county"> & {
+  /** Its existing path without slashes. */
+  path: string;
+};
+
 export type Post = {
   slug: string;
   title: string;

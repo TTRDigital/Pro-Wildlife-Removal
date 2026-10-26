@@ -9,9 +9,9 @@ import { fallbackServices } from "@/lib/data/services";
 import { movedServices } from "@/lib/service-urls";
 import { fallbackLocations } from "@/lib/data/locations";
 import { fallbackPosts } from "@/lib/data/posts";
-import { fallbackServicePlaces } from "@/lib/data/service-places";
+import { existingPlacePages, fallbackServicePlaces } from "@/lib/data/service-places";
 import { fallbackTestimonials } from "@/lib/data/testimonials";
-import type { Location, PageContent, Post, Service, ServicePlace, SiteSettings, Testimonial } from "@/lib/types";
+import type { Location, PageContent, PlacePage, Post, Service, ServicePlace, SiteSettings, Testimonial } from "@/lib/types";
 
 /* ==========================================================================
    Content layer
@@ -115,6 +115,13 @@ export const getLocations = cache(async (): Promise<Location[]> => {
 export const getServicePlaces = cache(async (): Promise<ServicePlace[]> => {
   const services = new Set((await getServices()).map((s) => s.slug));
   return hidePlaceholders(fallbackServicePlaces.filter((p) => services.has(p.service)).sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || a.placeName.localeCompare(b.placeName)));
+});
+
+/** Every place page to link to: the new ones plus the existing pages that serve as place pages (only those still on the site). */
+export const getPlacePages = cache(async (): Promise<PlacePage[]> => {
+  const [places, locations] = await Promise.all([getServicePlaces(), getLocations()]);
+  const live = new Set(locations.map((l) => l.path));
+  return [...places.map((p) => ({ ...p, path: `services/${p.service}/${p.place}` })), ...existingPlacePages.filter((p) => live.has(p.path))];
 });
 
 export async function getServicePlace(service: string, place: string) {
