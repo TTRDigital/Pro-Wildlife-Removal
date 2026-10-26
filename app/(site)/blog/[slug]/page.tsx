@@ -103,11 +103,7 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
           <RichText value={post.body} article className="min-w-0 max-w-[760px] text-[1.0625rem] leading-[1.8] md:text-lg [&_h2]:scroll-mt-28" />
           <aside className="hidden lg:block">
             <div className="sticky top-32 rounded-[22px] border border-line bg-white p-6 text-center shadow-[0_20px_50px_-30px_rgb(14_42_71/0.4)]">
-              <p className="inline-flex items-center gap-2 font-display text-h3 font-bold text-navy">
-                <span className="live-dot" aria-hidden="true" />
-                Call us, open 24/7
-              </p>
-              <p className="mt-2 text-[0.95rem]">{settings.serviceAreaText}</p>
+              <p className="text-[0.95rem]">{settings.serviceAreaText}</p>
               <Button href={settings.phoneHref} className="mt-5 w-full">
                 Call {settings.phone}
               </Button>

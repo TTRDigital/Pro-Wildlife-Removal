@@ -25,10 +25,6 @@ export function CtaSection({ section, settings }: { section?: Partial<Cta>; sett
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-2 via-navy-2/90 to-navy/70" />
       <div className="wrap grid items-center gap-9 min-[900px]:grid-cols-[55fr_45fr] min-[900px]:gap-14">
         <div data-reveal>
-          <p className="mb-5 inline-flex items-center gap-2.5 rounded-full border border-white/15 bg-white/10 py-1.5 pr-4 pl-3 font-display text-[0.8125rem] font-semibold text-white">
-            <span className="live-dot" aria-hidden="true" />
-            Open 24/7
-          </p>
           <Heading text={heading} highlight={highlight} className="text-h2 font-extrabold tracking-[-0.02em] text-white" />
           <RichText value={text} className="mt-4" />
           <a href={settings.phoneHref} data-track="click_to_call" className="group mt-6 mb-3 inline-flex min-h-11 items-center gap-3.5 no-underline">
@@ -41,16 +37,10 @@ export function CtaSection({ section, settings }: { section?: Partial<Cta>; sett
         </div>
         {!section?.image ? (
           <div className="rounded-[22px] bg-white p-6 text-center shadow-[0_30px_70px_-30px_rgb(0_0_0/0.7)] sm:p-8" data-reveal>
-            <h3 className="font-display text-h3 font-bold text-navy">Call us, open 24/7</h3>
-            {settings.hours.map((h) => (
-              <p key={h.label} className="mt-2 text-[0.95rem]">
-                {h.label} {h.value}
-              </p>
-            ))}
             <a
               href={settings.phoneHref}
               data-track="click_to_call"
-              className="call-pulse mt-6 inline-flex min-h-14 w-full items-center justify-center gap-2.5 rounded-xl bg-cta px-6 font-display text-lg font-bold text-white transition-colors hover:bg-cta-hover active:scale-[0.98]"
+              className="call-pulse inline-flex min-h-14 w-full items-center justify-center gap-2.5 rounded-xl bg-cta px-6 font-display text-lg font-bold text-white transition-colors hover:bg-cta-hover active:scale-[0.98]"
             >
               <Phone className="h-5 w-5 flex-none" strokeWidth={2.25} aria-hidden="true" />
               Call {settings.phone}

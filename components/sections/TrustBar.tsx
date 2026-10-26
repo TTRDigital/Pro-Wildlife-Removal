@@ -1,25 +1,32 @@
-import type { TrustBarSection } from "@/lib/types";
+import type { SiteSettings, TrustBarSection } from "@/lib/types";
 import { Icon } from "@/components/ui/Icon";
 
-/** Four short trust points under the hero: icon tile and label, a 2x2 grid of small cards on phones, one row on desktop. */
+/** The trust points from the client-approved Google Ads landing pages; used under the hero when a page has no trust bar of its own. */
+export function defaultTrust(settings: SiteSettings): TrustBarSection {
+  return {
+    _type: "trustBar",
+    _key: "trust",
+    items: [
+      ...(settings.googleRating ? [{ icon: "star" as const, label: `${settings.googleRating} Google Rating` }] : []),
+      { icon: "clock", label: "Same-Day Service" },
+      { icon: "search", label: "Free Inspection" },
+      { icon: "shield-check", label: "Sealed for Good" },
+    ],
+  };
+}
+
+/** Navy strip of four trust points under the hero: icon in a soft circle and a short label, 2x2 on phones, one row on desktop. */
 export function TrustBar({ section }: { section: TrustBarSection }) {
   return (
-    <div className="border-b border-line bg-white py-6 md:py-8">
-      <ul className="wrap grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-6">
+    <div className="bg-navy py-7 md:py-9">
+      <ul className="wrap grid grid-cols-2 gap-x-4 gap-y-6 md:grid-cols-4 md:gap-6">
         {section.items.map((it, i) => (
-          <li
-            key={it.label}
-            data-reveal
-            style={{ ["--i" as string]: i }}
-            className="flex min-w-0 items-center gap-3 rounded-2xl border border-line bg-tint-2 p-3 md:border-0 md:bg-transparent md:p-0"
-          >
-            <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl bg-navy text-blue-light md:h-12 md:w-12">
+          <li key={it.label} data-reveal style={{ ["--i" as string]: i }} className="flex min-w-0 flex-col items-center gap-2.5 text-center">
+            <span className={`flex h-12 w-12 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15 ${it.icon === "star" ? "text-star" : "text-blue-light"}`}>
               <Icon name={it.icon} className="h-[22px] w-[22px]" />
             </span>
-            <span className="min-w-0">
-              <span className="block font-display text-[0.8125rem] leading-snug font-bold text-navy md:text-[0.9375rem]">{it.label}</span>
-              {it.text ? <span className="mt-0.5 hidden text-sm leading-snug text-meta md:block">{it.text}</span> : null}
-            </span>
+            <span className="font-display text-[0.8125rem] leading-snug font-bold tracking-[0.5px] text-white uppercase md:text-sm">{it.label}</span>
+            {it.text ? <span className="text-sm leading-snug text-on-navy">{it.text}</span> : null}
           </li>
         ))}
       </ul>

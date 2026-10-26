@@ -51,8 +51,10 @@ export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
     ["siteSettings"],
   );
   const s = merge(fallbackSettings, cms);
+  // One phone number for the whole site (Kia, Oct 26, 2026): no county lines and no toll-free number,
+  // whatever the CMS holds, so every template shows and calls the main line only.
   // tel: link always follows the displayed phone number.
-  return { ...s, phoneHref: telHref(s.phone) };
+  return { ...s, countyLines: [], tollFree: undefined, phoneHref: telHref(s.phone) };
 });
 
 export function telHref(phone: string) {

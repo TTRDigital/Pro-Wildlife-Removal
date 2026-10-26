@@ -6,7 +6,7 @@ import { SocialIcon } from "@/components/ui/SocialIcon";
 
 const linkCls = "inline-flex min-h-11 items-center py-0.5 text-white/75 transition-colors hover:text-white md:min-h-9";
 
-/** Footer: deep navy, the logo with the service area (no street address, the client's wish), the 24/7 call block, link columns and the legal line. */
+/** Footer: deep navy, the logo with the service area (no street address, the client's wish), the call block, link columns and the legal line. */
 export function Footer({ settings, services }: { settings: SiteSettings; services: Service[] }) {
   const removal = services.filter((s) => s.group === "removal");
   const company = [
@@ -31,10 +31,6 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
           </Link>
           <p className="mt-5 max-w-[420px] leading-relaxed">{settings.serviceAreaText}</p>
           <div className="mt-6 inline-flex flex-col gap-1 rounded-2xl border border-white/10 bg-white/5 p-4">
-            <span className="inline-flex items-center gap-2 text-sm font-semibold text-white">
-              <span className="live-dot !h-2 !w-2" aria-hidden="true" />
-              {settings.hours.map((h) => `${h.label}: ${h.value}`).join(" · ")}
-            </span>
             <a href={settings.phoneHref} data-track="click_to_call" className="inline-flex min-h-11 items-center gap-2.5 text-2xl font-extrabold tracking-[-0.5px] text-white hover:text-blue-light">
               <Phone className="h-5 w-5 text-cta" strokeWidth={2.5} aria-hidden="true" />
               {settings.phone}
