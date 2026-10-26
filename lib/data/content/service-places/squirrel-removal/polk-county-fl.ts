@@ -22,7 +22,7 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
   heroText: "Running and chewing overhead in a Polk County attic? We find where the squirrels get in, get them out and repair the soffit, vent or roofline they used. Call (727) 594-7705.",
   answerHeading: "Who removes squirrels from an attic in Polk County?",
   answer:
-    "A private wildlife company. Gray squirrels, which UF/IFAS calls one of the most common animals in Florida, are listed from Tenoroc near Lakeland to the Upper Hillsborough area. Pro Wildlife Removal finds the opening a squirrel uses, gets it out of the attic and repairs the damage. Call (727) 594-7705.",
+    "A private wildlife company. Gray squirrels, which UF/IFAS says easily adapt to urban and residential areas, are listed from Tenoroc near Lakeland to the Upper Hillsborough area. Pro Wildlife Removal finds the opening a squirrel uses, gets it out of the attic and repairs the damage. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Gray squirrels common near Lakeland", "Fox squirrels in Polk preserves"],
   localHeading: "What to know about squirrels in Polk County",
   localIntro: "Two kinds of squirrel turn up on Polk's public lands. These facts come from FWC, the water management district, Polk County's park pages and the state health department.",
@@ -83,7 +83,7 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Polk row: a cat; no squirrels)", url: `${DOH}2025/09/rabies-cases-county-animal-2025.pdf` },
     { title: "Florida DOH: 20-year animal rabies summary, 2003 to 2022 (no rabid squirrels)", url: `${DOH}2025/07/rabies-fla-20yr-table.pdf` },
     { title: "Polk County Sheriff's Office: Animal Services FAQ (no nuisance wildlife calls or trapped nuisance wildlife)", url: "https://www.polksheriff.org/animal-services/frequently-asked-questions" },
-    { title: "UF/IFAS Florida 4-H: Gray squirrel (one of the most common animals found in all of Florida)", url: "https://florida4h.ifas.ufl.edu/florida-4-h-forest-ecology/forest-ecology-contest/contest-stations/wildlife-on-the-forest-hike/mammals/gray-squirrel/" },
+    { title: "UF/IFAS Florida 4-H: Gray squirrel (easily adapt to urban and residential areas; oaks favored; also eat from bird feeders and gardens)", url: "https://florida4h.ifas.ufl.edu/florida-4-h-forest-ecology/forest-ecology-contest/contest-stations/wildlife-on-the-forest-hike/mammals/gray-squirrel/" },
     { title: "FWC: FAQs, nuisance wildlife (no FWC authorization needed to take most nuisance wildlife from private property; release on site or 40+ contiguous acres in the same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     TRAP_RULES_SOURCE,
   ],
