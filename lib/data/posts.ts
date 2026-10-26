@@ -39832,7 +39832,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Homeowner threads show a recurring pattern. Small rodent problems sometimes respond to DIY traps and sealing. Larger problems, raccoon families, or evidence of contamination require professional removal. One homeowner trapped a raccoon on the roof while another tried pipe traps that were moved several feet; professionals were the only ones who retrieved animals safely and repaired entry points. Professionals bring legal compliance, humane handling, guaranteed exclusion, and proper sanitation.",
+      "text": "Homeowner threads show a recurring pattern. Small rodent problems sometimes respond to DIY traps and sealing. Larger problems, raccoon families, or evidence of contamination require professional removal. One homeowner trapped a raccoon on the roof while another tried pipe traps that were moved several feet; professionals were the only ones who retrieved animals safely and repaired entry points. Professionals bring legal compliance, humane handling, thorough exclusion and proper sanitation.",
       "marks": []
      }
     ],
@@ -49801,7 +49801,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If you find yourself grappling with a bat predicament, don’t hesitate to explore our blog post and discover how Pro Wildlife Removal can be your ally. With years of experience and a steadfast commitment to ethical and effective wildlife control, we are dedicated to ensuring your home remains a safe and comfortable haven. Our round-the-clock emergency services and complimentary estimates guarantee that we are there for you when you need us most.",
+      "text": "If you find yourself grappling with a bat predicament, don’t hesitate to explore our blog post and discover how Pro Wildlife Removal can be your ally. With years of experience and a steadfast commitment to ethical and effective wildlife control, we are dedicated to ensuring your home remains a safe and comfortable haven. Call (727) 594-7705 for a free inspection.",
       "marks": []
      }
     ],
@@ -50851,7 +50851,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "At Pro Wildlife Removal we know that dealing with pests like mice or rats can be a difficult task for homeowners. That’s why we provide professional services that guarantee fast results using effective methods. If you’re having trouble getting rid of rodents in your house, call us today for an inspection and advice on how best to tackle your specific situation. We take pride in our ability to help people keep their homes safe from these nuisance critters!",
+      "text": "At Pro Wildlife Removal we know that dealing with pests like mice or rats can be a difficult task for homeowners. That’s why we offer professional rodent removal using proven methods. If you’re having trouble getting rid of rodents in your house, call us today for an inspection and advice on how best to tackle your specific situation. We take pride in our ability to help people keep their homes safe from these nuisance critters!",
       "marks": []
      }
     ],
@@ -53900,7 +53900,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Entrusting such situations to our capable hands not only ensures a heightened degree of safety but also guarantees an effective resolution to the rat-related issues plaguing the premises.",
+      "text": "Entrusting such situations to our capable hands is safer, and it deals with the rats and the way they got in.",
       "marks": []
      },
      {

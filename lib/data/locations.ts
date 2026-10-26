@@ -172,14 +172,14 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Licensed and Insured: ",
+        "text": "Florida rules followed: ",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal is a fully licensed and insured wildlife removal company, giving you peace of mind knowing that your property is in capable hands.",
+        "text": "Pro Wildlife Removal follows Florida's wildlife rules on every job, including FWC's bat maternity season and its trapping and release rules.",
         "marks": []
        }
       ],
@@ -319,7 +319,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Satisfaction Guaranteed: ",
+        "text": "Our standards: ",
         "marks": [
          "strong"
         ]
@@ -1583,7 +1583,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Licensed and Professional Wildlife Control Services",
+        "text": "Professional Wildlife Control Services",
         "marks": [
          "strong"
         ]
@@ -1597,7 +1597,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "At the heart of our esteemed reputation is a fully licensed team, deeply versed in the unique behaviors of Florida’s local wildlife. This in-depth knowledge positions us perfectly to address the specific challenges found in Brooksville and its surrounding areas. Tailoring our pest control strategies with precision, we ensure our solutions are perfectly aligned with your individual needs, guaranteeing an effective and seamless experience.",
+        "text": "Our team knows the habits of Florida’s local wildlife. This in-depth knowledge positions us perfectly to address the specific challenges found in Brooksville and its surrounding areas. Tailoring our pest control strategies with precision, we ensure our solutions are perfectly aligned with your individual needs.",
         "marks": []
        }
       ],
@@ -3309,7 +3309,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "Yes, Pro Wildlife Removal is fully licensed and insured to operate in Florida. This ensures that you’re working with a professional and credible company that adheres to industry standards and regulations.",
+          "text": "Ask about licensing and insurance when you call (727) 594-7705. Every job follows Florida's wildlife rules.",
           "marks": []
          }
         ],
@@ -7542,7 +7542,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Customer Satisfaction Guaranteed",
+        "text": "Customer Satisfaction",
         "marks": [
          "strong"
         ]
@@ -7556,7 +7556,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We are dedicated to ensuring customer satisfaction. Our team works diligently to solve your wildlife problems, offering peace of mind and guaranteeing a positive experience with our services.",
+        "text": "We are dedicated to ensuring customer satisfaction. Our team works diligently to solve your wildlife problems.",
         "marks": []
        }
       ],
@@ -9990,7 +9990,7 @@ export const fallbackLocations: Location[] = [
       ]
      },
      {
-      "title": "Licensed & Insured",
+      "title": "Done by Florida's rules",
       "text": [
        {
         "_type": "block",
@@ -9998,7 +9998,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "We are fully licensed and insured, giving you peace of mind that your property is in capable hands.",
+          "text": "We follow Florida's wildlife rules on every job, so the work is done the way the law allows.",
           "marks": []
          }
         ],
