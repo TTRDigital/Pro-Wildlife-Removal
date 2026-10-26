@@ -30,15 +30,16 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     "A private wildlife company. Hernando County Animal Services lists pet services, not wildlife, and a raccoon denning in a Brooksville attic or crawl space needs a private remover. Pro Wildlife Removal gets it out, checks for young first and repairs the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon off Ted Road, 2025", "City trash, city crews"],
   localHeading: "What to know about raccoons in Brooksville",
-  localIntro: "Hernando's only rabid animals in the 2025 state table were raccoons, and one was in the Brooksville area. Here is what the records and local rules say.",
+  localIntro: "DOH-Hernando reported a rabid raccoon in the Brooksville area in 2025. Here is what the records and local rules say.",
   local: [
     { icon: "critter", title: "Rabid raccoon off Ted Road", text: p("A raccoon killed in the Brooksville area off Ted Road, ZIP 34601, on May 28, 2025 tested positive for rabies. DOH-Hernando issued a rabies advisory on June 2, 2025.") },
     { icon: "map-pin", title: "A second one that June", text: p("On June 9, 2025, a rabid raccoon was killed in the Spring Lake Highway and Neff Lake area off Frog Lane. DOH-Hernando's 60-day alert ran between Kenova Street, Hayman Road, Spring Lake Highway and Cobb Road.") },
     { icon: "search", title: "Hernando's only rabid animals", text: p("The state's 2025 table listed two rabid raccoons for Hernando County and nothing else. Its 2024 table listed no rabid animals for the county at all.") },
-    { icon: "home", title: "The city picks up its own trash", text: p("The City of Brooksville's Utilities Department handles curbside residential trash, recycling and bulk items itself. Questions about pickups go to Utilities at 352-540-3860.") },
+    { icon: "home", title: "City carts, closed", text: p("The City of Brooksville's Utilities Department collects curbside residential trash in the city. Keeping city carts closed helps; DOH-Hernando asks residents not to attract wildlife with open garbage cans.") },
     { icon: "leaf", title: "Oaks, water and dens", text: p("UF/IFAS Extension Hernando County says raccoons really like to be near water, and that cavities in large trees such as oaks make good dens for raising young.") },
     { icon: "drop", title: "Feeding is against the law", text: p("Hernando's UF/IFAS Extension office says intentionally feeding raccoons is illegal, and warns that raccoons kill chickens and other poultry that aren't protected.") },
-    { icon: "phone", title: "The newest county alert", text: p("DOH-Hernando's latest rabies alert, from June 30, 2026, followed a rabid feral cat off Westwood Drive. It again asked residents not to attract wildlife with outdoor pet food or open garbage cans.") },
+    { icon: "search", title: "A raccoon attack in Spring Hill", text: p("In June 2026, a cat attacked by a raccoon off Norvell Road in Spring Hill tested positive for rabies, and DOH-Hernando issued a 60-day alert.") },
+    { icon: "phone", title: "The newest county alert", text: p("DOH-Hernando's latest rabies alert, from June 30, 2026, followed a rabid feral cat off Westwood Drive in southeast Hernando. It again asked residents not to attract wildlife with outdoor pet food or open garbage cans.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Brooksville, from the city's and agencies' own pages.",
   contacts: [
@@ -55,8 +56,8 @@ export const raccoonRemovalBrooksville = servicePlacePage({
       "Yes. One killed off Ted Road in May 2025 and another in the Spring Lake Highway and Neff Lake area in June 2025 both tested positive. Vaccinate your pets, and leave any raccoon, healthy-looking or not, alone.",
     ),
     faq(
-      "Does the City of Brooksville pick up trash?",
-      "Yes. The city's Utilities Department lists curbside residential trash, recycling and bulk item collection among its services. Call Utilities at 352-540-3860 for your schedule.",
+      "How do I keep raccoons out of my Brooksville trash?",
+      "Keep the city cart's lid shut and bags inside it. DOH-Hernando asks residents not to attract wildlife with open garbage cans or outdoor pet food. Questions about city pickups go to Utilities at 352-540-3860.",
     ),
     faq(
       "A raccoon is killing my chickens in Brooksville. What can I do?",
@@ -64,7 +65,7 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     ),
     faq(
       "Can I feed the raccoons that visit my yard?",
-      "No. UF/IFAS Extension Hernando says intentionally feeding raccoons is illegal, and that fed raccoons lose their fear of people and become a nuisance.",
+      "No. UF/IFAS Extension Hernando says intentionally feeding raccoons is illegal, and that fed raccoons lose their fear and can become a nuisance.",
     ),
     faq(
       "How soon can you come out for a raccoon in Brooksville?",
@@ -87,6 +88,7 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     { title: "City of Brooksville: Utilities (Solid Waste: curbside residential trash, single stream recyclables, bulk items; 352-540-3860)", url: UTIL },
     { title: "UF/IFAS Extension Hernando County: WISE species profile, northern raccoon (really like to be around water; cavities in large trees like oaks for dens; illegal to feed raccoons intentionally; fed raccoons lose their fear; kill chickens or other poultry if not protected)", url: UFHERNANDO },
     { title: "Florida DOH: DOH-Hernando rabies alert, June 30, 2026 (rabid unvaccinated feral cat off Westwood Drive, June 29, 2026; don't attract wildlife with outdoor pet food or open garbage cans; report injuries to 352-540-6812)", url: ALERT2026 },
+    { title: "DOH-Hernando: Rabies alert, June 15, 2026 (unvaccinated cat attacked by a raccoon, Norvell Road, Spring Hill; 60 days)", url: "https://hernando.floridahealth.gov/2026/06/15/doh-hernando-issues-rabies-alert/" },
     { title: "Hernando County Sheriff's Office: Animal Services (services listed: pet surrender, owner-requested euthanasia, pet licensing, TNVR, lost or found pets, found kittens, dangerous dogs)", url: "https://www.hernandosheriff.org/AnimalServices/" },
   ],
   clientQuestions: ["Typical response time for a raccoon call in Brooksville?", "A real Google review from a Brooksville raccoon job (TTR-723), and real Brooksville raccoon job photos."],

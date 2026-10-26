@@ -26,18 +26,17 @@ export const ratRemovalPascoCounty = servicePlacePage({
   heroText: "Scratching in a Pasco attic at night, or chewed fruit under the orange tree? We find where rats get in, seal it and trap the ones left inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Pasco County homes?",
   answer:
-    "A private wildlife company. Pasco County doesn't even collect household trash; each home hires its own hauler. For rats in a Pasco attic, wall or garage, Pro Wildlife Removal finds the gaps they use, seals them, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
+    "A private wildlife company. Pasco County doesn't pick up household trash; homes sign up with a licensed hauler or haul it themselves. For rats in a Pasco attic, wall or garage, Pro Wildlife Removal finds the gaps they use, seals them, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Feed in rat-proof bins", "Roof rats love citrus"],
   localHeading: "What to know about rats in Pasco County",
   localIntro: "Pasco runs from Gulf shoreline to citrus country, and rats do well in both. These local rules and facts shape a rat job here.",
   local: [
-    { icon: "home", title: "Your hauler, not the county", text: p("Pasco County says it does not pick up trash. In unincorporated Pasco you hire a private hauler for curbside service, which runs twice a week. Florida DOH says Norway rats nest wherever food, water and shelter are present, garbage dumps included, so a missed pickup is worth a call to your hauler.") },
+    { icon: "home", title: "Your hauler, not the county", text: p("Pasco County says it does not pick up trash: you must sign up with a licensed hauler for curbside service, offered twice a week. Florida DOH says Norway rats nest wherever food, water and shelter are present, garbage dumps included, so a missed pickup is worth a call to your hauler.") },
     { icon: "wrench", title: "Bags waiting for a trip", text: p("Homes without a hauler may haul up to 8 bags of household garbage a day, free, to the West Pasco Resource Recovery Facility or the East Pasco Transfer Station. Bags that sit by the garage until the next trip are an easy rat meal.") },
-    { icon: "critter", title: "Hen feed must be rat-proof", text: p("Pasco's backyard hen ordinance, adopted in November 2025, allows up to four hens at most homes. It requires all feed to be kept in rodent- and predator-proof containers and coops to be kept up so rodents don't move in.") },
+    { icon: "critter", title: "Hen feed must be rat-proof", text: p("Pasco's backyard hen ordinance, adopted in November 2025, lets homeowners in most residential zoning districts keep up to four hens. It requires all feed to be kept in rodent- and predator-proof containers and coops to be kept up so rodents don't move in.") },
     { icon: "search", title: "No junk piles in the yard", text: p("County code bars using a yard to store junk, appliances or other nuisance items, or as a garbage dump. Those piles are exactly what Florida DOH tells homeowners to get rid of to control rodents.") },
     { icon: "drop", title: "A Gulf coast county", text: p("Florida DEP counts 20 miles of Pasco shoreline. UF/IFAS says Norway rats in Florida are most common along sea coasts and canals, and Florida DOH says they burrow beneath concrete slabs and in garbage dumps.") },
     { icon: "leaf", title: "Citrus season is rat season", text: p("DEP describes Pasco as known for its citrus groves. UF/IFAS has said roof-rat damage to fruit, hollowed-out citrus, shows up from September through March, as the fruit ripens.") },
-    { icon: "map-pin", title: "Overgrown lot next door", text: p("Only a neighbor who owns or lives on land touching an overgrown parcel can file a complaint about it, under Pasco's Land Development Code. Complaints go to Customer Service, 727-847-2411, with your name and address.") },
   ],
   contactsIntro: "Who handles what when rats are the problem in Pasco, from the county's own pages.",
   contacts: [
@@ -51,7 +50,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
   faqs: [
     faq(
       "Does Pasco County pick up my trash?",
-      "No. Pasco's garbage page says the county doesn't pick up trash. In unincorporated areas you sign up with a private hauler, and curbside service runs twice a week, with recycling once a week.",
+      "No. Pasco's garbage page says the county doesn't pick up trash. You must sign up with a licensed hauler for curbside service, offered twice a week, with recycling once a week.",
     ),
     faq(
       "I keep backyard hens in Pasco. How do I avoid rats?",
