@@ -8,14 +8,16 @@ export type Crumb = { label: string; href: string };
 /** Small breadcrumb trail above page headings, plus BreadcrumbList schema. The old designs had no visible trail, so they only get the schema (visible={false}). */
 export function Breadcrumbs({ items, visible = true }: { items: Crumb[]; visible?: boolean }) {
   const all = [{ label: "Home", href: "/" }, ...items];
+  // A long trail (a city: Home > Service Areas > county > city) drops "Home" on phones so it stays on one line; the logo links home.
+  const long = all.length > 3;
   return (
     <>
       {visible ? (
         <nav aria-label="Breadcrumb" className="-mt-2.5 mb-3">
           <ol className="flex flex-wrap items-center gap-1.5 font-display text-[0.8125rem] font-medium text-meta">
             {all.map((c, i) => (
-              <li key={c.href} className="flex items-center gap-1.5">
-                {i > 0 ? <ChevronRight className="h-3.5 w-3.5 text-blue" strokeWidth={2.25} aria-hidden="true" /> : null}
+              <li key={c.href} className={`flex items-center gap-1.5 ${long && i === 0 ? "max-sm:hidden" : ""}`}>
+                {i > 0 ? <ChevronRight className={`h-3.5 w-3.5 text-blue ${long && i === 1 ? "max-sm:hidden" : ""}`} strokeWidth={2.25} aria-hidden="true" /> : null}
                 {i === all.length - 1 ? (
                   <span aria-current="page" className="text-navy">
                     {c.label}

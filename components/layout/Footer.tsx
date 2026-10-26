@@ -12,7 +12,7 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
   const company = [
     { label: "About Us", href: "/about-us/" },
     { label: "How We Work", href: "/how-we-work/" },
-    { label: "Service Area", href: "/about-us/service-area/" },
+    { label: "Service Area", href: "/service-areas/" },
     { label: "Blog", href: "/blog/" },
     { label: "Contact Us", href: "/contact-us/" },
   ];

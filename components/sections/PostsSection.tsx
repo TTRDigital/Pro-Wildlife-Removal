@@ -20,20 +20,25 @@ export function PostCard({
   post,
   index = 0,
   featured = false,
+  nth,
 }: {
   post: Post;
   index?: number;
   featured?: boolean;
+  /** Its place among the list's posts on the same animal: each gets a different photo. */
+  nth?: number;
 }) {
   const topic = postTopic(post);
-  const img = post.image ?? topicImage(post);
-  // A post about an animal we have real footage of plays it over the photo while in view. The
+  // The client's own photo of the post's animal before a stock one (Ben).
+  const img = topicImage(post, nth) ?? post.image;
+  // The wide featured card plays its animal's real footage over the photo while in view; the other
+  // cards show their own photos, so a list of one animal's posts doesn't repeat one clip (Kia). The
   // raccoon clip was filmed in a zoo, so it stays off posts about trapping and the rules, where it
   // could read as one of the company's jobs (Ben, Oct 26).
   const zooClip =
     topic?.key === "raccoon" &&
     /trap|rule|law|legal|fwc/i.test(`${post.title} ${post.slug}`);
-  const video = topic && !zooClip ? animalVideos[topic.key] : undefined;
+  const video = featured && topic && !zooClip ? animalVideos[topic.key] : undefined;
   return (
     <Link
       href={`/blog/${post.slug}/`}
@@ -132,7 +137,8 @@ export function PostsSection({
       />
       <div className="swipe">
         {list.map((p, i) => (
-          <PostCard key={p.slug} post={p} index={i} />
+          // each card a different photo of its animal, past the ones an animal page's hero opens on
+          <PostCard key={p.slug} post={p} index={i} nth={6 + list.slice(0, i).filter((q) => postTopic(q)?.key === postTopic(p)?.key).length} />
         ))}
       </div>
       <CtaRow
