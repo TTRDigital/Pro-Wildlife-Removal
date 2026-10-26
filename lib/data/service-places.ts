@@ -28,6 +28,7 @@ import { batRemovalHudson } from "./content/service-places/bat-removal/hudson-fl
 import { raccoonRemovalLandOLakes } from "./content/service-places/raccoon-removal/land-o-lakes-fl.ts";
 import { raccoonRemovalHernandoCounty } from "./content/service-places/raccoon-removal/hernando-county-fl.ts";
 import { batRemovalHernandoCounty } from "./content/service-places/bat-removal/hernando-county-fl.ts";
+import { batRemovalMarionCounty } from "./content/service-places/bat-removal/marion-county-fl.ts";
 import { ratRemovalHernandoCounty } from "./content/service-places/rat-removal/hernando-county-fl.ts";
 import { squirrelRemovalHernandoCounty } from "./content/service-places/squirrel-removal/hernando-county-fl.ts";
 import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
@@ -84,7 +85,9 @@ export const fallbackServicePlaces: ServicePlace[] = [
   batRemovalHernandoCounty,
   raccoonRemovalHernandoCounty,
   squirrelRemovalHernandoCounty,
-  // The Villages and Marion County bat (Nia): HELD by Ben, Oct 26, 2026, until they clear fact check
+  // Marion County (Nia): bat cleared by Ben, Oct 26
+  batRemovalMarionCounty,
+  // The Villages bat (Nia): HELD by Ben, Oct 26, 2026, until it clears fact check
   // Pinellas County (Rhea)
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,
