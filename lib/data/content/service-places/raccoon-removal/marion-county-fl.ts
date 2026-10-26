@@ -25,11 +25,11 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-marion-county-fl",
   order: 95,
   heroText: "A raccoon in a Marion County attic, barn or feed room, or into the garbage every night? We remove it, look for young before any opening is sealed, and fix the gap it used. Call (727) 594-7705.",
-  answerHeading: "Who removes raccoons from homes in Marion County?",
+  answerHeading: "Who gets raccoons out of Marion County houses and barns?",
   answer:
     "A private wildlife company. Marion County Animal Services handles strays and bites to pets, and DOH-Marion handles human bites, but a raccoon living in a Marion home or barn is the owner's to have removed. Pro Wildlife Removal takes it out, checks for young and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Raccoon rabies notices every year", "Ocala to Reddick to Belleview"],
-  localHeading: "What to know about raccoons in Marion County",
+  localHeading: "Marion's raccoon rabies notices, Fellowship to Reddick",
   localIntro: "Raccoons turn up again and again in Marion's rabies notices, from Fellowship and Blitchton to Belleview and Reddick. Here is what DOH-Marion and the state's records show.",
   local: [
     { icon: "critter", title: "Year by year on the tables", text: p("Raccoons were 2 of Marion's 3 rabid animals in 2022, 4 of 5 in 2023, 7 of 10 in 2024 and 6 of 9 in 2025, by the state's county tables.") },
@@ -40,6 +40,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
     { icon: "home", title: "Nuisance cases at Silver Springs", text: p("Silver Springs State Park's 2014 management plan names raccoons among the native animals from which nuisance cases may arise in the park.") },
     { icon: "drop", title: "Documented on the Rainbow River", text: p("The 2016 management plan for the Rainbow Springs Aquatic Preserve, in southwest Marion, lists the raccoon among the species documented in and around the preserve.") },
   ],
+  contactsHeading: "Marion County contacts for raccoon bites, pets and barns",
   contactsIntro: "Who handles what when a raccoon is the problem in Marion County, from DOH-Marion's notices.",
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("See a doctor, then report it to DOH-Marion at 352-629-0137.") },
@@ -67,13 +68,13 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
       "Open garbage cans and outdoor pet food are easy meals. DOH-Marion's notices ask residents not to attract wildlife with either.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Marion County?",
+      "Can someone come out today for a Marion County raccoon?",
       "Same-day appointments for raccoons are often available in Marion County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Marion County]",
     ),
   ],
   ctaHeading: "Raccoon in your Marion County home?",
-  ctaText: "For raccoons anywhere in Marion, call (727) 594-7705.",
+  ctaText: "A raccoon in a Marion house or barn? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Marion County, FL | Pro Wildlife Removal",
     description:

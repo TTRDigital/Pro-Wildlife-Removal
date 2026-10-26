@@ -40,6 +40,7 @@ export const polk = countyPage({
     { icon: "search", title: "Bears, occasionally", text: p("FWC places Polk in its South Central bear area. Bears are FWC's responsibility: secure the trash and contact FWC if one visits.") },
     { icon: "map-pin", title: "Alligators at Circle B Bar", text: p("At the county's Circle B Bar Reserve on Lake Hancock, often called the headwaters of the Peace River, Polk County says alligators are close to a sure sighting.") },
   ],
+  contactsHeading: "When to call PCSO Animal Control, DOH-Polk or FWC",
   contactsIntro: "In Polk, Animal Control is part of the Sheriff's Office. Here's who handles what, from each agency's own page.",
   contacts: [
     { icon: "users", title: "PCSO Animal Control", text: p("(863) 577-1762, toll-free 1-888-275-8941. Bites, dangerous dogs, sick or injured dogs and cats, and bites by possible rabies carriers like raccoons and bats.") },

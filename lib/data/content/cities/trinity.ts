@@ -41,7 +41,8 @@ export const trinity = countyPage({
     { icon: "critter", title: "From the woods to the yard", text: p("Where neighborhoods meet that much habitat, raccoons, opossums, armadillos and snakes don't have far to travel. Gaps under decks, sheds and A/C pads are the usual way in.") },
     { icon: "search", title: "Rabies in Pasco", text: p("DOH-Pasco issued a rabies advisory on July 30, 2026, after two raccoons tested positive on the east side of the county. Rabies is in Pasco's wildlife, so keep pets vaccinated.") },
   ],
-  contactsIntro: "Who to call for what in Trinity, from the county's and agencies' own pages.",
+  contactsHeading: "Pasco shelter, DOH-Pasco and FWC for Trinity",
+  contactsIntro: "Trinity's strays go to the Pasco shelter in Land O' Lakes. Here's who handles bites, gators and bears.",
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("Call 813-929-1212 for pets and strays. The shelter is in Land O' Lakes.") },
     { icon: "phone", title: "Bites and scratches: DOH-Pasco", text: p("If a wild or stray animal bites or scratches someone in Trinity, get medical care, then report it to DOH-Pasco: 352-521-1450, option 4.") },
@@ -64,7 +65,7 @@ export const trinity = countyPage({
       "Yes. Our [rat removal](/services/rat-removal/) page explains how we seal the way in and trap the rats inside.",
     ),
     faq(
-      "How soon can you get to Trinity?",
+      "Is a same-day visit possible in Trinity?",
       "Same-day appointments are often available in Trinity. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Trinity]",
     ),

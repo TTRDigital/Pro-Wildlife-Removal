@@ -20,7 +20,7 @@ export const batRemovalTampa = servicePlacePage({
   county: "Hillsborough",
   order: 3,
   heroText: "Bats under the tiles, in a soffit or in the attic of a Tampa home? We find every exit, set one-way doors when Florida law allows and seal the openings once the colony is out. Call (727) 594-7705.",
-  answerHeading: "How are bats removed from a Tampa home?",
+  answerHeading: "How do bats get evicted from a Tampa house?",
   answer:
     "By exclusion: one-way doors on the exits the colony uses, then sealing once every bat is out. In Tampa, as everywhere in Florida, that's legal without an FWC permit only from August 15 to April 15, and bats can't be captured, relocated or poisoned. Pro Wildlife Removal inspects first and plans around the season. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion only, Aug 15 to Apr 15", "Free-tails active all year"],
@@ -68,7 +68,7 @@ export const batRemovalTampa = servicePlacePage({
     ),
   ],
   ctaHeading: "Bats in your Tampa home?",
-  ctaText: "Tampa bat calls go to (727) 594-7705.",
+  ctaText: "Bats roosting in a Tampa home? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Tampa, FL | Pro Wildlife Removal",
     description:

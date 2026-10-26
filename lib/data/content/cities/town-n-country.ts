@@ -51,13 +51,14 @@ export const townNCountry = countyPage({
     { icon: "users", title: "A bear in May 2024 (news)", text: p("FOX 13 reported in May 2024 that a black bear spotted in Town 'n' Country had moved on to Carrollwood, according to FWC.") },
     { icon: "drop", title: "Upper Tampa Bay Conservation Park, next door", text: p("Nearby, the county's 596-acre peninsula park, founded in 1982, protects mangroves, salt marshes and pine flatwoods. The county lists bobcats, otters, gopher tortoises, dolphins and manatees among its wildlife.") },
   ],
-  contactsIntro: "Who handles what in Town 'n' Country, from each agency's own page.",
+  contactsHeading: "Hillsborough and FWC contacts for Town 'n' Country",
+  contactsIntro: "Unincorporated Town 'n' Country uses Hillsborough County's numbers, listed here from each agency's own page.",
   contacts: [
     { icon: "users", title: "Pets, strays and bites", text: p("Hillsborough County Animal Control, (813) 744-5660, which covers unincorporated areas like Town 'n' Country.") },
     { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("Call DOH-Hillsborough at 813-307-8059 to report a bite or scratch.") },
     { icon: "map-pin", title: "Bears: FWC", text: p("Bear sightings and conflicts go to FWC's Southwest Region office in Lakeland, 863-648-3200.") },
   ],
-  servicesIntro: "Every service we offer is available in Town 'n' Country. Choose an animal to learn more.",
+  servicesIntro: "From Channel A to the airport, Town 'n' Country homes get every service listed here. Pick an animal to read more.",
   servicesHeading: "Animals we remove in Town 'n' Country",
   reviewsIntro: "[PLACEHOLDER: reviews from Town 'n' Country customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -78,7 +79,7 @@ export const townNCountry = countyPage({
       "Yes. We cover all of Town 'n' Country, including homes along Channel A and the Upper Tampa Bay Trail.",
     ),
     faq(
-      "How soon can you come out in Town 'n' Country?",
+      "Could someone see my Town 'n' Country house today?",
       "Same-day appointments are often available in Town 'n' Country. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Town 'n' Country]",
     ),

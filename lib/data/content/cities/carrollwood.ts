@@ -51,13 +51,14 @@ export const carrollwood = countyPage({
     { icon: "users", title: "Keep pets from raccoons and bats (news)", text: p("When a domestic cat tested positive near Pinnacle Heights Circle in June 2017, the health department's Carrollwood alert warned residents to keep themselves and their pets away from raccoons and bats in particular.") },
     { icon: "leaf", title: "Rodent closures", text: p("Florida DBPR's emergency closure records list two Carrollwood food businesses closed for conditions naming rodents, in July 2023 and August 2024. Both list their city as Tampa; we placed the addresses in Carrollwood with the Census geocoder.") },
   ],
-  contactsIntro: "Who handles what in Carrollwood, from each agency's own page.",
+  contactsHeading: "Hillsborough contacts for Carrollwood homes",
+  contactsIntro: "Carrollwood is unincorporated, so county and state numbers apply. Here they are, from each agency's own page.",
   contacts: [
     { icon: "users", title: "Pets, strays and bites", text: p("Hillsborough County Animal Control, (813) 744-5660, serving the whole county.") },
     { icon: "phone", title: "Animal bites: DOH-Hillsborough", text: p("Report a bite or scratch to DOH-Hillsborough at 813-307-8059.") },
     { icon: "home", title: "A bat inside the house", text: p("Call DOH-Hillsborough, as its 2020 release advised, if a bat is found inside your home. Don't touch it.") },
   ],
-  servicesIntro: "Every service we offer is available in Carrollwood. Choose an animal to learn more.",
+  servicesIntro: "Around Lake Carroll and the rest of Carrollwood, each animal below is one we remove. Tap one for details.",
   servicesHeading: "Animals we remove in Carrollwood",
   reviewsIntro: "[PLACEHOLDER: reviews from Carrollwood customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -74,7 +75,7 @@ export const carrollwood = countyPage({
       "Leave it alone. In 2020 a Carrollwood woman who picked one up was bitten, and the bat had rabies. If someone touches a bat, call DOH-Hillsborough at 813-307-8059.",
     ),
     faq(
-      "How soon can you come out in Carrollwood?",
+      "Is today too soon for a Carrollwood visit?",
       "Same-day appointments are often available in Carrollwood. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Carrollwood]",
     ),

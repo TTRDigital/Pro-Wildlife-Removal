@@ -41,7 +41,7 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     { icon: "search", title: "A raccoon attack in Spring Hill", text: p("In June 2026, a cat attacked by a raccoon off Norvell Road in Spring Hill tested positive for rabies, and DOH-Hernando issued a 60-day alert.") },
     { icon: "phone", title: "The newest county alert", text: p("DOH-Hernando's latest rabies alert, from June 30, 2026, followed a rabid feral cat off Westwood Drive in southeast Hernando. It again asked residents not to attract wildlife with outdoor pet food or open garbage cans.") },
   ],
-  contactsIntro: "Who handles what when a raccoon is the problem in Brooksville, from the city's and agencies' own pages.",
+  contactsIntro: "Brooksville raccoon contacts: DOH-Hernando for bites, city Utilities for carts, and a private company for one inside.",
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("See a doctor first, then call DOH-Hernando at 352-540-6812 to report it.") },
     { icon: "home", title: "City trash questions", text: p("City of Brooksville Utilities, 352-540-3860.") },
@@ -56,7 +56,7 @@ export const raccoonRemovalBrooksville = servicePlacePage({
       "Yes. One killed off Ted Road in May 2025 and another in the Spring Lake Highway and Neff Lake area in June 2025 both tested positive. Vaccinate your pets, and leave any raccoon, healthy-looking or not, alone.",
     ),
     faq(
-      "How do I keep raccoons out of my Brooksville trash?",
+      "What stops raccoons from getting into Brooksville city carts?",
       "Keep the city cart's lid shut and bags inside it. DOH-Hernando asks residents not to attract wildlife with open garbage cans or outdoor pet food. Questions about city pickups go to Utilities at 352-540-3860.",
     ),
     faq(
@@ -68,13 +68,13 @@ export const raccoonRemovalBrooksville = servicePlacePage({
       "No. UF/IFAS Extension Hernando says intentionally feeding raccoons is illegal, and that fed raccoons lose their fear and can become a nuisance.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Brooksville?",
+      "Can a raccoon in a Brooksville house be handled today?",
       "Same-day appointments for raccoons are often available in Brooksville. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Brooksville]",
     ),
   ],
   ctaHeading: "Raccoon in your Brooksville home?",
-  ctaText: "Brooksville raccoon calls go to (727) 594-7705.",
+  ctaText: "Raccoon in a Brooksville attic or garage? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Brooksville, FL | Pro Wildlife Removal",
     description:

@@ -120,6 +120,31 @@ for (const [key, obj] of rendered) {
   swept++;
   console.log(`${key}: never-render claim: ${[...new Set(hits)].join(", ")}`);
 }
+
+// Kia, Oct 26: no duplicate content across location pages. A sentence or heading of 8+ words may not repeat across
+// city, county or place pages once each page's own place name and county are swapped out. The required same-day line is exempt.
+const SAME_DAY = /^sameday .*(are|is) often available in x\b/;
+const near = new Map();
+const { hidePlaceholders } = await import(repo + "/lib/placeholders.ts");
+for (const [key, obj] of rendered.filter(([k]) => k.startsWith("location:") || k.startsWith("place:"))) {
+  const names = [obj.name, obj.placeName, obj.county, obj.county && obj.county + " County"].filter(Boolean).sort((a, b) => b.length - a.length);
+  const out = [];
+  walk(hidePlaceholders({ ...obj, seo: undefined }), out, out);
+  const seenHere = new Set();
+  for (const raw of out.join("\n").split(/(?<=[.!?])\s+|\n+/)) {
+    const s = raw.trim();
+    if (s.split(/\s+/).length < 8) continue;
+    let n = s;
+    for (const nm of names) n = n.split(nm).join("X");
+    n = n.toLowerCase().replace(/\(727\) 594-7705/g, "PHONE").replace(/[^a-z0-9x ]/g, "").replace(/\s+/g, " ").trim();
+    if (SAME_DAY.test(n) || seenHere.has(n)) continue;
+    seenHere.add(n);
+    near.set(n, [...(near.get(n) || []), key]);
+  }
+}
+let nearDups = 0;
+for (const [n, keys] of near) if (keys.length > 1) { nearDups++; console.log(`DUP across locations (${keys.length}): "${n.slice(0, 90)}" on ${keys.slice(0, 4).join(", ")}${keys.length > 4 ? " ..." : ""}`); }
+errors += nearDups;
 console.log(`${rendered.length} rendered pages swept, ${swept} with never-render claims`);
 console.log(`${pages.length} pages checked, ${errors} problem${errors === 1 ? "" : "s"}`);
 process.exit(errors ? 1 : 0);

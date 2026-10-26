@@ -79,7 +79,7 @@ export const brooksville = countyPage({
       "The Birding Trail lists a large colony of Brazilian free-tailed bats at Chinsegut, north of town. If bats are using your roof, our guide to [who to call about a bat](/blog/who-to-call-for-bat-removal/) explains the rules.",
     ),
     faq(
-      "How soon can you get to Brooksville?",
+      "Can someone reach my Brooksville house today?",
       "Same-day appointments are often available in Brooksville. Pro Wildlife Removal takes calls 24 hours a day at (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Brooksville]",
     ),

@@ -42,13 +42,14 @@ export const hudson = countyPage({
     { icon: "phone", title: "Rabid raccoons, 2001", text: p("In late April 2001, rabid raccoons attacked two dogs in Hudson, one of them in the Parkwood Acres neighborhood, Pasco County Animal Control told the St. Petersburg Times. Both dogs had been exposed to rabies and had to be destroyed.") },
     { icon: "critter", title: "Locked lids matter", text: p("The district flags human-bear conflict where the preserve meets homes. Secured garbage and pet food also take away what draws raccoons and opossums to a yard.") },
   ],
-  contactsIntro: "Who to call for what in Hudson, from the county's and agencies' own pages.",
+  contactsHeading: "Pasco Animal Services, DOH-Pasco and FWC for Hudson",
+  contactsIntro: "Hudson's bear calls go to FWC and strays to Pasco County. Here are the numbers, from each agency's page.",
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. Its evening and overnight standby, (727) 847-8102, option 7, covers emergencies like seriously injured strays or a loose animal that has bitten a person.") },
     { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4. DOH-Pasco asks anyone bitten or scratched by a wild or domestic animal to get medical care and report it.") },
     { icon: "map-pin", title: "Bears and alligators: FWC", text: p("FWC's Southwest Region office handles bear calls for Pasco: 863-648-3200. Nuisance alligator hotline: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service we offer is available in Hudson. Tap an animal to see how we deal with it.",
+  servicesIntro: "Hudson's Gulf coast homes get every service below. Tap an animal to see how we deal with it.",
   servicesHeading: "Animals we remove in Hudson",
   reviewsIntro: "[PLACEHOLDER: reviews from Hudson customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -65,7 +66,7 @@ export const hudson = countyPage({
       "No hunting is allowed on the Aripeka Sandhills tract, per the district's plan. Its trails are for hiking only.",
     ),
     faq(
-      "How soon can you get to Hudson?",
+      "Can you make it to Hudson today?",
       "Same-day appointments are often available in Hudson. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Hudson]",
     ),

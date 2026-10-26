@@ -167,7 +167,7 @@ export const locationExtras: Record<string, Extra> = {
         heading: "Lecanto wildlife questions",
         items: [
           faq(
-            "Where do I report an animal bite in Lecanto?",
+            "Who takes animal bite reports for Lecanto?",
             `Wash the wound with soap and water for 5 to 10 minutes and get medical care. Then report it to the Florida Department of Health in Citrus County at 352-527-0068 ([DOH-Citrus](${CITRUS_ALERT})).`,
           ),
           faq(

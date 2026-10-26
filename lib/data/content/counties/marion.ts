@@ -70,7 +70,8 @@ export const marion = countyPage({
       ],
     },
   ],
-  contactsIntro: "Who handles what in Marion County, from DOH-Marion's alerts and FWC's own pages.",
+  contactsHeading: "Marion's county shelter, DOH-Marion and FWC's Ocala office",
+  contactsIntro: "Strays and bites to pets or livestock go to the county, human bites to DOH-Marion, and wildlife questions to FWC's Ocala office.",
   contacts: [
     { icon: "users", title: "Marion County Animal Services", text: p("352-671-8727, for bites to pets or livestock and stray animals, as DOH-Marion's alerts direct.") },
     { icon: "phone", title: "Human bites: DOH-Marion", text: p("352-629-0137, to report a bite or scratch from a wild or domestic animal.") },
@@ -79,7 +80,7 @@ export const marion = countyPage({
   servicesIntro: "All nine services are available across Marion County. Tap an animal for the details.",
   faqs: [
     faq(
-      "Is there a rabies alert in Marion County?",
+      "Has DOH-Marion issued a rabies alert lately?",
       "Check DOH-Marion before you act. The newest notice we found is a September 18, 2026 advisory after a rabid bobcat in the Rainbow Park area. Ocala had a 60-day raccoon alert in May 2026.",
     ),
     faq(
@@ -91,7 +92,7 @@ export const marion = countyPage({
       "FWC's Northeast Region office, which is in Ocala: 352-732-1225. For a nuisance alligator, call 866-FWC-GATOR.",
     ),
     faq(
-      "How soon can you come out in Marion County?",
+      "How fast can you reach a home in Marion County?",
       "Same-day appointments are often available in Marion County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Marion County]",
     ),

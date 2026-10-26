@@ -41,13 +41,14 @@ export const holiday = countyPage({
     { icon: "critter", title: "Coastal yards", text: p("Seawalls, docks and boathouses give raccoons and rats cover close to the water. A raccoon raiding a boat or a cooler is often the same one that ends up in the attic.") },
     { icon: "search", title: "Rabies in Pasco", text: p("Pasco County Animal Services counted 17 rabid raccoons between 2013 and 2023, more than any other animal in the county. Never hand-feed raccoons.") },
   ],
-  contactsIntro: "Who handles what in Holiday, from the county's and agencies' own pages.",
+  contactsHeading: "Pasco and FWC contacts for Holiday residents",
+  contactsIntro: "As unincorporated Pasco, Holiday uses county and state numbers, listed here from each agency's own page.",
   contacts: [
     { icon: "users", title: "Pets and strays", text: p("Pasco County Animal Services, 813-929-1212. Emergencies from 5 pm to 8 am: (727) 847-8102, option 7.") },
     { icon: "phone", title: "Bites: DOH-Pasco", text: p("Report an animal bite in Holiday to the health department in Pasco at 352-521-1450, option 4.") },
     { icon: "map-pin", title: "Injured sea life and alligators: FWC", text: p("FWC Wildlife Alert, 888-404-3922, for injured or dead sea turtles, dolphins and manatees. Nuisance alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service we offer is available in Holiday. Choose an animal to learn more.",
+  servicesIntro: "Along the Anclote River and across Holiday, we remove every animal below. Pick one to learn more.",
   servicesHeading: "Animals we remove in Holiday",
   reviewsIntro: "[PLACEHOLDER: reviews from Holiday customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [

@@ -27,7 +27,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   answer:
     "Pasco County Animal Services' emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "A rabies alert and advisory in 2026", "Young often in spring"],
-  localHeading: "What to know about raccoons in Pasco County",
+  localHeading: "Pasco raccoon facts: rabies cases, coops and parks",
   localIntro: "Raccoons lead Pasco's rabies records. These are the local facts and rules that matter before one is trapped or moved.",
   local: [
     { icon: "critter", title: "17 of Pasco's 24 rabies cases", text: p("From 2013 to 2023, Pasco County recorded 24 animals with rabies, and 17 of them were raccoons.") },
@@ -38,7 +38,8 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     { icon: "leaf", title: "No release in county parks", text: p("FWC says a trapped raccoon can only be released on the owner's land or on 40 or more contiguous acres in Pasco with written permission. County and state parks are off limits without the land manager's written OK.") },
     { icon: "drop", title: "Alerts limit moving them", text: p("FWC also says moving trapped wildlife must not break a rabies alert or quarantine set by the county health department, a real limit in a county that had two raccoon rabies notices in 2026.") },
   ],
-  contactsIntro: "Who handles what when a raccoon is the problem in Pasco, from each agency's own page.",
+  contactsHeading: "Pasco contacts for raccoon bites and bitten pets",
+  contactsIntro: "Pasco raccoon calls split between DOH-Pasco, county Animal Services and a private company, per each one's own page.",
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care, then report it to DOH-Pasco: 352-521-1450, option 4.") },
     { icon: "users", title: "A raccoon bit your pet", text: p("Take the pet to a vet, then call Pasco County Animal Services at 813-929-1212, as DOH-Pasco asks.") },
@@ -65,13 +66,13 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
       "Its emergency service is for seriously injured domestic strays and aggressive animals that threaten public safety. A raccoon living in an attic or under a house needs a private wildlife company.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Pasco County?",
+      "Can you take a Pasco County raccoon call today?",
       "Same-day appointments for raccoons are often available in Pasco County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Pasco County]",
     ),
   ],
   ctaHeading: "Raccoon in your Pasco County home?",
-  ctaText: "For raccoons anywhere in Pasco, call (727) 594-7705.",
+  ctaText: "Raccoons getting into a Pasco home? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Pasco County, FL | Pro Wildlife Removal",
     description:

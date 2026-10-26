@@ -62,13 +62,13 @@ export const squirrelRemovalBrooksville = servicePlacePage({
       "They can. FWC says gray squirrels breed up to twice a year, so check for a nest before any hole is closed.",
     ),
     faq(
-      "How soon can you come out for squirrels in Brooksville?",
+      "Can you check a Brooksville attic for squirrels today?",
       "Same-day appointments for squirrels are often available in Brooksville. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Brooksville]",
     ),
   ],
   ctaHeading: "Squirrels in your Brooksville attic?",
-  ctaText: "Brooksville squirrel calls go to (727) 594-7705.",
+  ctaText: "Squirrels chewing into a Brooksville attic? Call (727) 594-7705.",
   seo: {
     title: "Squirrel Removal in Brooksville, FL | Pro Wildlife Removal",
     description:

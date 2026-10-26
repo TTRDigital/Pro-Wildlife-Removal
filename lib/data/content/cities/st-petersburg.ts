@@ -41,6 +41,7 @@ export const stPetersburg = countyPage({
     { icon: "map-pin", title: "Weedon Island Preserve", text: p("Pinellas County's 3,000-acre Weedon Island Preserve in north St. Petersburg is mostly marine habitat on Tampa Bay, with some uplands.") },
     { icon: "critter", title: "Boyd Hill Nature Preserve", text: p("On Lake Maggiore, Boyd Hill has hammock, pine flatwoods, scrub, swamp and marsh. FWC's Great Florida Birding Trail lists gopher tortoises, eastern indigo snakes and young alligators in the lake shallows.") },
   ],
+  contactsHeading: "St. Pete Sanitation, Pinellas and DOH contacts",
   contactsIntro: "Who handles what in St. Petersburg, from the city's, county's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Strays and injured wildlife", text: p("St. Pete points residents to Pinellas County Animal Services for stray and community cats, lost animals and injured wildlife: (727) 582-2600, option 4.") },
@@ -68,7 +69,7 @@ export const stPetersburg = countyPage({
       "Not on your own. St. Petersburg's guide says to seal gaps only after the rats inside are gone, so none are shut in. Our [rat removal](/services/rat-removal/) page explains how we seal entry points and trap the rats left inside.",
     ),
     faq(
-      "How fast can you get to St. Petersburg?",
+      "How fast can someone reach a St. Pete home?",
       "Same-day appointments are often available in St. Petersburg. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in St. Petersburg]",
     ),

@@ -23,11 +23,11 @@ export const batRemovalLandOLakes = servicePlacePage({
   county: "Pasco",
   order: 26,
   heroText: "Bats slipping into a Land O' Lakes roofline or soffit at dusk? We look for the openings bats use, fit one-way exclusion doors in the legal season and seal the gaps once they're out. Call (727) 594-7705.",
-  answerHeading: "How do you get bats out of a Land O' Lakes home?",
+  answerHeading: "What does bat removal look like in a Land O' Lakes house?",
   answer:
     "The same way a Land O' Lakes high school did in 2014: one-way exclusion doors that let bats leave but not come back, fitted between August 15 and April 15. Bats can't legally be killed, poisoned or moved. Pro Wildlife Removal checks the home for the gaps a colony uses, fits the doors and seals up afterward. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Sunlake High's bats, 2014"],
-  localHeading: "What to know about bats in Land O' Lakes",
+  localHeading: "Bats in Land O' Lakes, starting with Sunlake High",
   localIntro: "Land O' Lakes had a bat colony at Sunlake High School in 2014. Here is what happened, and what Pasco and FWC say about bats.",
   local: [
     { icon: "home", title: "Five roosts at one school", text: p("WUFT reported in October 2014 that Brazilian free-tailed bats had been at Sunlake High School in Land O' Lakes since the year before, roosting in five different spots around the campus.") },
@@ -38,7 +38,8 @@ export const batRemovalLandOLakes = servicePlacePage({
     { icon: "drop", title: "Keep bats out, DOH says", text: p("DOH-Pasco's July 30, 2026 rabies advisory, after two rabid raccoons in east Pasco, asked residents to keep wildlife, bats included, out of homes, schools and other occupied buildings.") },
     { icon: "phone", title: "Bat contact gets reported", text: p("Pasco County Animal Services, based in Land O' Lakes, says bare skin contact with a bat, or a bat found in a room where someone slept, should be reported to DOH-Pasco or the county.") },
   ],
-  contactsIntro: "Who handles what when bats are the problem in Land O' Lakes, from each agency's own page.",
+  contactsHeading: "Land O' Lakes bat contacts, from DOH-Pasco to FWC",
+  contactsIntro: "Pasco agencies cover bat contact in Land O' Lakes, and FWC covers the exclusion rules. The numbers below come from their own pages.",
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Pasco, 352-521-1450, option 4.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office covers Pasco: 863-648-3200.") },
@@ -53,7 +54,7 @@ export const batRemovalLandOLakes = servicePlacePage({
       "Brazilian free-tailed bats are one likely kind: they were the species at Sunlake High in 2014, and FWC says they favor attics, sheds and bridges in Florida, since the state's caves are probably too humid for them.",
     ),
     faq(
-      "When can bats be excluded in Land O' Lakes?",
+      "What months are bat exclusions allowed in Land O' Lakes?",
       "From August 15 to April 15. FWC's maternity season runs April 16 to August 14, when exclusion devices need a permit, and devices should stay up at least four nights with lows forecast at 50°F or above.",
     ),
     faq(
@@ -65,13 +66,13 @@ export const batRemovalLandOLakes = servicePlacePage({
       "No. FWC says killing bats is illegal under rule 68A-4.001, and using pesticides or poisons to harm, kill or deter bats is prohibited.",
     ),
     faq(
-      "How soon can you come out for bats in Land O' Lakes?",
+      "How quickly can you reach a Land O' Lakes home with bats?",
       "Same-day appointments for bats are often available in Land O' Lakes. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Bats in your Land O' Lakes home?",
-  ctaText: "Land O' Lakes bat calls go to (727) 594-7705.",
+  ctaText: "Bats near Sunlake or anywhere in Land O' Lakes? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Land O' Lakes, FL | Pro Wildlife Removal",
     description:

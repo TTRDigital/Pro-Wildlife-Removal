@@ -41,7 +41,8 @@ export const palmHarbor = countyPage({
     { icon: "drop", title: "Brooker Creek Preserve", text: p("East of Palm Harbor, near Tarpon Springs, Pinellas County's Brooker Creek Preserve protects about 8,700 acres.") },
     { icon: "critter", title: "Coyotes, too", text: p("FWC says coyotes are found in all 67 Florida counties and that feeding them is illegal. Secure garbage and pick up pet food and fallen fruit.") },
   ],
-  contactsIntro: "Who to call for what in Palm Harbor, from the county's and agencies' own pages.",
+  contactsHeading: "Pinellas, garbage and FWC contacts for Palm Harbor",
+  contactsIntro: "Strays go to the county shelter on Ulmerton Road in Largo. Here's who covers garbage and wildlife in Palm Harbor.",
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4, at 12450 Ulmerton Road in Largo. Strays, and help with sick or injured wildlife.") },
     { icon: "home", title: "Garbage service", text: p("Unincorporated Palm Harbor has no county garbage pickup. Pinellas County says property owners choose their own hauling company.") },
@@ -64,7 +65,7 @@ export const palmHarbor = countyPage({
       "Yes. See [rats in the attic](/services/rats-in-attic/) for the signs, and how we get them out.",
     ),
     faq(
-      "How quickly can you get to Palm Harbor?",
+      "Can you come to Palm Harbor on short notice?",
       "Same-day appointments are often available in Palm Harbor. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Palm Harbor]",
     ),

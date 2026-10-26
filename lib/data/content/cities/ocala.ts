@@ -46,13 +46,14 @@ export const ocala = countyPage({
     { icon: "home", title: "A bat house in an Ocala park", text: p("Ocala's Programs in the Parks scheduled a free owls and bats session for May 1, 2026, at Heritage Nature Conservancy on NE 3rd Street, Ocala-News reported in April 2026, with a photo of the park's bat house.") },
     { icon: "leaf", title: "Raccoons lead Marion's rabies tables", text: p("The state's tables listed 7 rabid raccoons and 3 cats for Marion County in 2024, and 6 raccoons plus a cat, a coyote and a fox in 2025.") },
   ],
-  contactsIntro: "Who handles what in Ocala, from DOH-Marion's alerts and FWC's own pages.",
+  contactsHeading: "Ocala contacts: the county, DOH-Marion and FWC's regional office",
+  contactsIntro: "Ocala's strays go to Marion County, and FWC's regional office is in town. These numbers come from DOH-Marion's alerts and FWC's pages.",
   contacts: [
     { icon: "users", title: "Marion County Animal Services", text: p("352-671-8727, for strays and bites to pets or livestock, as DOH-Marion's alerts direct.") },
     { icon: "phone", title: "Human bites: DOH-Marion", text: p("352-629-0137, to report a bite or scratch.") },
     { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service we offer is available in Ocala. Choose an animal to learn more.",
+  servicesIntro: "Ocala homes get every service below, raccoons included. Choose one for the details.",
   servicesHeading: "Animals we remove in Ocala",
   reviewsIntro: "[PLACEHOLDER: reviews from Ocala customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -73,7 +74,7 @@ export const ocala = countyPage({
       "Yes. FWC's Northeast Region office, which covers Marion County, is in Ocala: 352-732-1225. Call it about bears; call 866-FWC-GATOR about a nuisance alligator.",
     ),
     faq(
-      "How soon can you get to Ocala?",
+      "Can you be at my Ocala house today?",
       "Same-day appointments are often available in Ocala. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Ocala]",
     ),

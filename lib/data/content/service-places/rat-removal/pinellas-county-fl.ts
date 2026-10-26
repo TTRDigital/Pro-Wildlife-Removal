@@ -24,7 +24,7 @@ export const ratRemovalPinellasCounty = servicePlacePage({
   order: 10,
   heading: "Rat Removal in Pinellas County, FL",
   heroText: "Scratching overhead in a Pinellas home, from St. Pete to Tarpon Springs? We find the gaps rats use, trap the ones already inside and seal the house. Call (727) 594-7705.",
-  answerHeading: "Who gets rid of rats in Pinellas County?",
+  answerHeading: "Who removes rats from Pinellas County houses?",
   answer:
     "In Pinellas County, rats inside a house are the occupant's or owner's job, and in most rentals Florida law puts extermination on the landlord. Cities like St. Petersburg help only outdoors. Pro Wildlife Removal finds how rats get into Pinellas homes, traps the ones inside and seals the openings. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Renters: the landlord's job", "Poison killed park owls"],
@@ -39,6 +39,7 @@ export const ratRemovalPinellasCounty = servicePlacePage({
     { icon: "building", title: "St. Pete helps outside only", text: p("St. Petersburg's Rodent Control Program inspects neighborhoods and may set free tamper-resistant bait stations outdoors. For rats inside a home, the city points residents to a private exterminator.") },
     { icon: "droppings", title: "Safety Harbor's warning", text: p("The City of Safety Harbor warns that rat poison can raise rodent numbers over time, because it kills the owls and other predators that keep rats in check.") },
   ],
+  contactsHeading: "Pinellas contacts for neighbor lots, outdoor rats and rats inside",
   contactsIntro: "Who handles which part of a rat problem in Pinellas, from the county's and cities' own pages.",
   contacts: [
     { icon: "building", title: "Trash piled on a neighbor's lot", text: p("Pinellas County Public Works, (727) 464-8900, routes garbage complaints on private property to County Code Enforcement.") },

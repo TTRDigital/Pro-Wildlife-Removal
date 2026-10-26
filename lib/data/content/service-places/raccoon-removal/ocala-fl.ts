@@ -66,13 +66,13 @@ export const raccoonRemovalOcala = servicePlacePage({
       "DOH-Marion's rabies alerts run 60 days inside set boundaries. For some single cases it issues an advisory instead, as it did for the Belleview area and Reddick in 2026.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Ocala?",
+      "How fast can you respond to an Ocala raccoon call?",
       "Same-day appointments for raccoons are often available in Ocala. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Ocala]",
     ),
   ],
   ctaHeading: "Raccoon in your Ocala home?",
-  ctaText: "Ocala raccoon calls go to (727) 594-7705.",
+  ctaText: "Raccoon in an Ocala attic or shed? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Ocala, FL | Pro Wildlife Removal",
     description:

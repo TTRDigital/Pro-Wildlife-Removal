@@ -21,11 +21,11 @@ export const ratRemovalHernandoCounty = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-in-hernando-county-fl",
   order: 52,
   heroText: "Gnawing in the walls, droppings in the garage, a rat on the porch rail at night? We look for how rats get into Hernando homes, seal the gaps we find and trap the ones inside. Call (727) 594-7705.",
-  answerHeading: "Who gets rid of rats in Hernando County homes?",
+  answerHeading: "Who handles a rat problem inside a Hernando County home?",
   answer:
     "A private company. Hernando County doesn't collect garbage itself; Coastal Waste serves the unincorporated county and Brooksville runs its own service. For rats in a Hernando attic, wall or garage, Pro Wildlife Removal finds the openings, seals them, traps the rats left inside and cleans up. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Lids closed, by county rule", "Grass cut within 100 feet"],
-  localHeading: "What to know about rats in Hernando County",
+  localHeading: "Roof rats in Spring Hill, and Hernando's county rules",
   localIntro: "Roof rats were a recurring problem in Spring Hill, the county health department told the Tampa Bay Times in 1999. Here is what it found, and the county rules that bear on it.",
   local: [
     { icon: "critter", title: "Roof rats across Spring Hill", text: p("In August 1999, the Tampa Bay Times reported that several Spring Hill neighborhoods had roof rat infestations, citing Al Gray, environmental manager for the Hernando County Health Department.") },
@@ -37,6 +37,7 @@ export const ratRemovalHernandoCounty = servicePlacePage({
     { icon: "wrench", title: "Debris piles break county code", text: p("Hernando code treats an accumulation of trash bags, decaying vegetation or exposed appliances and furniture as a violation, the same kind of debris the health department linked to the Spring Hill rats.") },
     { icon: "drop", title: "Lids closed, by county rule", text: p("Hernando's garbage rules say cart lids must be closed to prevent scavenging of animals, and only garbage inside the closed blue cart is collected. Uncovered garbage was one of the 1999 rat draws.") },
   ],
+  contactsHeading: "Hernando offices for garbage service and code complaints",
   contactsIntro: "Who handles what when rats are the problem in Hernando County, from the county's own pages.",
   contacts: [
     { icon: "home", title: "Garbage service", text: p("Coastal Waste, (352) 540-6457, in unincorporated Hernando. Brooksville residents call City of Brooksville Utilities at (352) 540-3860.") },
@@ -64,13 +65,13 @@ export const ratRemovalHernandoCounty = servicePlacePage({
       "It can give them cover. Hernando code counts grass over 18 inches within 100 feet of improved property as a violation, and Florida DOH advises cutting grass and brush within 100 feet of a home.",
     ),
     faq(
-      "How soon can you come out for rats in Hernando County?",
+      "Can someone inspect our Hernando County home for rats today?",
       "Same-day appointments for rats are often available in Hernando County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a rat call in Hernando County]",
     ),
   ],
   ctaHeading: "Rats in your Hernando County home?",
-  ctaText: "For rats anywhere in Hernando, call (727) 594-7705.",
+  ctaText: "Roof rats in your Hernando house? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Hernando County, FL | Pro Wildlife Removal",
     description:

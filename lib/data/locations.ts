@@ -1638,7 +1638,7 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Raccoons can cause significant damage to your property and pose health risks. Our team uses efficient trapping and relocation techniques to safely ",
+        "text": "In Lady Lake, raccoons tear into attics and crawl spaces and can carry rabies. We trap them under Florida's rules to safely ",
         "marks": []
        },
        {
@@ -2068,7 +2068,7 @@ const migratedLocations: Location[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Why Choose Pro Wildlife Removal in Lady Lake, FL?",
+    "heading": "What Lady Lake Homeowners Get When They Call Us",
     "body": [
      {
       "_type": "block",
@@ -2873,7 +2873,7 @@ const migratedLocations: Location[] = [
    },
    {
     "_type": "proseSection",
-    "heading": "Why Choose Pro Wildlife Removal in Lecanto, FL",
+    "heading": "Why Lecanto Residents Call Pro Wildlife Removal",
     "body": [
      {
       "_type": "block",
@@ -7356,7 +7356,7 @@ const migratedLocations: Location[] = [
    {
     "_type": "cardsSection",
     "eyebrow": "Professional Expertise",
-    "heading": "Why Choose Pro Wildlife Removal in Winter Haven, FL?",
+    "heading": "Why Winter Haven Homeowners Call Us About Rats",
     "intro": [
      {
       "_type": "block",

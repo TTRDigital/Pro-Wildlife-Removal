@@ -54,13 +54,14 @@ export const theVillages = countyPage({
     { icon: "drop", title: "A staggering raccoon in La Zamora", text: p("Also in 2019, Lady Lake police shot a raccoon suspected of being rabid at a home in the Village of La Zamora, in Lady Lake (Lake County). The officer wrote that it appeared to stagger, then collapsed, as he approached.") },
     { icon: "leaf", title: "A black fox squirrel", text: p("In May 2025, Villages-News ran a reader's photo of a rare black southern fox squirrel in the Village of Summerhill.") },
   ],
+  contactsHeading: "Sumter, DOH and FWC contacts for The Villages",
   contactsIntro: "Who handles what in The Villages, from Sumter County's and the health departments' own pages.",
   contacts: [
     { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400. The county says it generally deals only with domestic animals.") },
     { icon: "phone", title: "Bites: DOH-Sumter", text: p("352-569-3102, the number in DOH-Sumter's June 2026 rabies alert.") },
     { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service we offer is available in The Villages. Choose an animal to learn more.",
+  servicesIntro: "Every animal below is one we remove in The Villages, whichever county your village sits in.",
   servicesHeading: "Animals we remove in The Villages",
   reviewsIntro: "[PLACEHOLDER: reviews from customers in The Villages, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -81,7 +82,7 @@ export const theVillages = countyPage({
       "It may be. FWC says fox squirrels range from buff to gray and in some cases black, and weigh one to three pounds. A rare black southern fox squirrel was photographed in the Village of Summerhill in 2025, Villages-News reported. FWC's rules say fox squirrels may not be taken or pursued, so leave it be.",
     ),
     faq(
-      "How soon can you get to The Villages?",
+      "How quickly can someone reach a home in The Villages?",
       "Same-day appointments are often available in The Villages. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in The Villages]",
     ),

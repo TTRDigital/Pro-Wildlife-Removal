@@ -25,7 +25,7 @@ export const raccoonRemovalDunedin = servicePlacePage({
   county: "Pinellas",
   order: 13,
   heroText: "A raccoon in the attic or under the deck of your Dunedin home? We find where it's getting in, check for young, remove the raccoons and seal the gap. Call (727) 594-7705.",
-  answerHeading: "Who removes raccoons from homes in Dunedin?",
+  answerHeading: "Who gets a raccoon out of a Dunedin house?",
   answer:
     "A private wildlife company. Pinellas County Animal Services helps with sick or injured wildlife, but a raccoon living in a Dunedin attic or crawl space is the owner's to deal with. Pro Wildlife Removal removes raccoons from Dunedin homes, checks for young first and then seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Honeymoon Island: 103 removed", "Bag trash before the cart"],
@@ -59,21 +59,21 @@ export const raccoonRemovalDunedin = servicePlacePage({
       "No. FWC doesn't allow trapped nuisance animals to be released on state, county or federal park land without the land manager's written permission, and the park itself removes raccoons to protect turtle and bird nests.",
     ),
     faq(
-      "How do I keep raccoons out of my Dunedin trash?",
+      "What keeps raccoons out of Dunedin garbage carts?",
       "Bag household garbage before it goes in the cart, as the city asks, and keep the lid closed. Put the cart out no earlier than 6 p.m. the night before pickup.",
     ),
     faq(
-      "Is it illegal to feed raccoons in Dunedin?",
+      "Can I get in trouble for feeding raccoons in Dunedin?",
       "Florida's wildlife feeding rule prohibits placing food in a way that attracts raccoons, and Pinellas County Code Sec. 14-30(4) treats food or garbage set out to attract them as a public nuisance.",
     ),
     faq(
-      "How soon can you get to a raccoon in Dunedin?",
+      "Could someone see our Dunedin raccoon problem today?",
       "Same-day raccoon appointments are often available in Dunedin. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Dunedin]",
     ),
   ],
   ctaHeading: "Raccoon in your Dunedin home?",
-  ctaText: "Dunedin raccoon calls go to (727) 594-7705.",
+  ctaText: "Raccoons in a Dunedin roof or crawl space? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Dunedin, FL | Pro Wildlife Removal",
     description:

@@ -40,6 +40,7 @@ export const safetyHarbor = countyPage({
     { icon: "drop", title: "Waterfront Park", text: p("The city's 7.3-acre Waterfront Park sits on Old Tampa Bay at Veterans Memorial Lane.") },
     { icon: "critter", title: "The city's own wildlife advice", text: p("Safety Harbor asks residents to keep trash bins tightly closed and to pick up pet food, spilled birdseed and fallen fruit. More on the city's rodent advice on our [Safety Harbor rat page](/about-us/service-area/rat-removal-safety-harbor/).") },
   ],
+  contactsHeading: "Safety Harbor Public Works, strays and FWC",
   contactsIntro: "Who to call for what in Safety Harbor, from the city's FAQ and the county's and FWC's pages.",
   contacts: [
     { icon: "home", title: "Dead animal on a city road", text: p("Safety Harbor Public Works, 727-724-1550, picks up dead animals on city rights-of-way.") },

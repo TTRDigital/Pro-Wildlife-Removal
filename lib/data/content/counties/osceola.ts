@@ -33,6 +33,7 @@ export const osceola = countyPage({
     { icon: "building", title: "Fast growth", text: p("New subdivisions keep going up on open land, and that moves animals around. A new roof with an unsealed gap is an open door.") },
     { icon: "leaf", title: "Triple N Ranch", text: p("FWC's Triple N Ranch WMA in Holopaw, in northeast Osceola, has pine flatwoods with the imperiled red-cockaded woodpecker, plus sandhill cranes and gopher tortoises.") },
   ],
+  contactsHeading: "Osceola agencies and their direct lines",
   contactsIntro: "Osceola's animal services cover a wide range. These numbers come straight from the agencies' websites.",
   contacts: [
     { icon: "users", title: "Osceola County Animal Services", text: p("407-742-8000, extension 4, 8 am to 11 pm daily. Officers respond to injured or sick animals, bites, venomous snakes outside, and alligators 4 feet or less outside their habitat.") },
@@ -42,7 +43,7 @@ export const osceola = countyPage({
   servicesIntro: "Choose the animal to read the signs, the Florida rules for it and how we handle it.",
   faqs: [
     faq(
-      "What number do I call in Osceola County?",
+      "What number should Osceola County homeowners call?",
       "Call (727) 594-7705. Same-day appointments are often available in Osceola County.",
       "[PLACEHOLDER: ask the client: typical response time in Osceola County]",
     ),

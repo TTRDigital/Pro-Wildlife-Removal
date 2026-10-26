@@ -22,11 +22,11 @@ export const batRemovalMarionCounty = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-marion-county-fl",
   order: 91,
   heroText: "Bats in a Marion County attic, barn or soffit, or streaming out of the roofline at dusk? We look for the openings bats use, let them out with one-way devices in the legal season and seal up. Call (727) 594-7705.",
-  answerHeading: "How are bats removed from a Marion County home?",
+  answerHeading: "What's the legal way to get bats out of a Marion County house?",
   answer:
     "By exclusion: one-way devices at the entry points let the colony fly out and keep it from coming back, fitted only from August 15 to April 15 under FWC rules. Pro Wildlife Removal checks a Marion home for the gaps bats use, fits the devices and seals them after. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "A rabid bat on the 2022 table", "No palm pruning in pup season"],
-  localHeading: "What to know about bats in Marion County",
+  localHeading: "Marion County bats: palms, caves and rabies records",
   localIntro: "Marion has rabid bats on its record, Extension advice on bats in palms, a state park plan that lists its bats, and bat maternity caves. Here is what they say.",
   local: [
     { icon: "search", title: "One rabid bat on four years of tables", text: p("Marion's 2022 rabies table listed a rabid bat along with 2 raccoons. The county's 2023, 2024 and 2025 tables listed no rabid bats.") },
@@ -38,7 +38,8 @@ export const batRemovalMarionCounty = servicePlacePage({
     { icon: "phone", title: "A rabid bat near Micanopy, 2020", text: p("In August 2020, WCJB reported that DOH-Marion had issued an alert after a bat in the Micanopy area tested positive for rabies.") },
     { icon: "map-pin", title: "A villa overrun, 2016", text: p("In 2016, neighbors of a Legacy Villas home in the Village of Briar Meadow South, on the Marion side of The Villages, told Villages-News it was overrun with bats, rats and more.") },
   ],
-  contactsIntro: "Who handles what when bats are the problem in Marion County, from each agency's own page.",
+  contactsHeading: "Marion County contacts for bat bites and exclusions",
+  contactsIntro: "In Marion, DOH-Marion takes bat contact reports and FWC's Ocala office answers exclusion questions.",
   contacts: [
     { icon: "phone", title: "Bitten or touched by a bat", text: p("DOH-Marion, 352-629-0137.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Northeast Region office in Ocala, 352-732-1225, or UF/IFAS Extension Marion, 352-671-8400.") },
@@ -49,7 +50,7 @@ export const batRemovalMarionCounty = servicePlacePage({
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Marion County bat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
-      "When can bats be excluded in Marion County?",
+      "Which months can a Marion County bat colony be excluded?",
       "From August 15 to April 15, under FWC's rules. Maternity season, April 16 to August 14, needs a permit. Devices should stay up at least four nights with lows forecast at 50°F or higher.",
     ),
     faq(
@@ -65,13 +66,13 @@ export const batRemovalMarionCounty = servicePlacePage({
       "No. Extension Marion and FWC both say killing or harming bats is illegal, and FWC bans poisons, fumigants and relocation. One-way exclusion is the legal method.",
     ),
     faq(
-      "How soon can you come out for bats in Marion County?",
+      "Can someone come look at bats in Marion County today?",
       "Same-day appointments for bats are often available in Marion County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Marion County]",
     ),
   ],
   ctaHeading: "Bats in your Marion County home?",
-  ctaText: "For bats anywhere in Marion, call (727) 594-7705.",
+  ctaText: "Bats in a Marion County attic? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Marion County, FL | Pro Wildlife Removal",
     description:

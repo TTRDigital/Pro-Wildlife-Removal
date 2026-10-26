@@ -41,7 +41,8 @@ export const clearwater = countyPage({
     { icon: "map-pin", title: "The Alligator Creek watershed", text: p("Much of eastern Clearwater drains through Alligator Creek and Alligator Lake into Old Tampa Bay, a 5,546-acre watershed shared with Safety Harbor and unincorporated Pinellas.") },
     { icon: "critter", title: "A county feeding rule", text: p("Pinellas County code treats putting out food or garbage in a way that attracts raccoons, coyotes or other wildlife, and creates a nuisance, as a public nuisance.") },
   ],
-  contactsIntro: "Who handles what in Clearwater, from the city's and agencies' own pages.",
+  contactsHeading: "Clearwater, Pinellas County and FWC contacts",
+  contactsIntro: "Clearwater leaves strays to the county and gators to FWC. Here are the numbers, from the city's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Strays and pets: Pinellas County", text: p("Pinellas County Animal Services, (727) 582-2600, option 4. Clearwater's own page says the county handles dangerous pets, strays and cruelty.") },
     { icon: "home", title: "Dead animal on a city road", text: p("Clearwater Solid Waste Services removes dead animals from public roads, rights-of-way and medians inside city limits. On private property, it's the owner's job.") },
@@ -65,7 +66,7 @@ export const clearwater = countyPage({
       "Pinellas County code calls feeding that attracts raccoons, coyotes or other wildlife and creates a nuisance a public nuisance, and Florida rule 68A-4.001 has a similar ban. City parks like Kapok Park post \"do not feed wildlife.\"",
     ),
     faq(
-      "How soon can you come out in Clearwater?",
+      "Can you get out to a Clearwater home today?",
       "Same-day appointments are often available in Clearwater. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Clearwater]",
     ),

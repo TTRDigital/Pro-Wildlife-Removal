@@ -21,11 +21,11 @@ export const ratRemovalPolkCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-polk-county",
   heroText: "Scratching in a Polk County attic or wall, or droppings in the garage? We find where the rats get in, close those gaps, trap the ones inside and clean up after them. Call (727) 594-7705.",
-  answerHeading: "Who gets rid of rats in a Polk County home?",
+  answerHeading: "Who takes rats out of Polk County homes?",
   answer:
     "Rats in a Polk County home are a job for a private company. Polk County Code Enforcement does list rat infestations among the nuisances it inspects, along with trash on lots. Pro Wildlife Removal finds how rats get in, seals those gaps, traps the rats inside and cleans up. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County code covers rat infestations", "UF/IFAS: poison as a last resort"],
-  localHeading: "What to know about rats in Polk County",
+  localHeading: "Rats, code rules and coops in Polk County",
   localIntro: "These facts about rats in Polk come from the county, the City of Lake Wales and UF/IFAS Extension Polk County.",
   local: [
     { icon: "search", title: "A code enforcement matter", text: p("Polk County Code Enforcement's inspection system covers nuisances that include rat infestations, trash on lots, high weeds on vacant lands and unsanitary conditions.") },
@@ -35,6 +35,7 @@ export const ratRemovalPolkCounty = servicePlacePage({
     { icon: "users", title: "Keep rats away from the flock", text: p("UF/IFAS Extension Polk County's backyard chicken biosecurity post tells keepers to avoid rats and mites where chickens are, and to set up an integrated pest management plan.") },
     { icon: "critter", title: "Poison last", text: p("A UF/IFAS Extension Polk County post on a Naturally Florida podcast episode urges using rat poison only as a last resort, to protect owls, hawks and pets from primary and secondary poisoning.") },
   ],
+  contactsHeading: "Polk contacts for nearby lots, dumped garbage and indoor rats",
   contactsIntro: "Who to call about rats and the conditions around them in Polk, from each agency's own page.",
   contacts: [
     { icon: "search", title: "Rats or trash on a nearby lot", text: p("Polk County Code Enforcement, (863) 534-6054, for unincorporated Polk.") },
@@ -57,13 +58,13 @@ export const ratRemovalPolkCounty = servicePlacePage({
       "Lake Wales's chicken program requires pens impermeable to rodents and feed in rat-proof containers with tight lids. If rodents show up, the city can end your participation.",
     ),
     faq(
-      "How soon can you come out for rats in Polk County?",
+      "How long until you can look at rats in a Polk County house?",
       "Same-day appointments for rats are often available in Polk County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a rat call in Polk County]",
     ),
   ],
   ctaHeading: "Rats in your Polk County home?",
-  ctaText: "For rats anywhere in Polk County, call (727) 594-7705.",
+  ctaText: "Rats in a Polk home, Lake Wales or elsewhere? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Polk County, FL | Pro Wildlife Removal",
     description:

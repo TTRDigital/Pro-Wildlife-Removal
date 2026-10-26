@@ -18,7 +18,7 @@ export const dadeCityRats = countyPage({
   heroText: "Rats in a Dade City attic, barn or shed? We find the way in, close it and trap the rats inside. Call (727) 594-7705.",
   answerHeading: "Who handles rats in Dade City?",
   answer:
-    "Dade City doesn't remove rats from homes, so that's a job for a private company. The city does ask that garbage containers be animal proof with tight-fitting lids. Pro Wildlife Removal seals the gaps, traps the rats inside and cleans up. Call (727) 594-7705.",
+    "Dade City doesn't remove rats from homes, so that's a job for a private company. The city does ask that garbage containers be animal proof with tight-fitting lids. Pro Wildlife Removal seals the gaps and traps the rats that are still inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "City: animal-proof lids", "Code covers trash and debris"],
   townsHeading: "Rat removal near Dade City",
   townsIntro: "We take rat calls across east Pasco, and handle every other animal in Dade City too.",
@@ -41,14 +41,14 @@ export const dadeCityRats = countyPage({
     { icon: "search", title: "Trash and debris complaints", text: p("Dade City code enforcement handles complaints about excessive trash or debris, junk cars and other nuisances inside city limits.") },
     { icon: "critter", title: "Barns and feed", text: p("On larger east Pasco lots, feed rooms and barns draw rats as surely as kitchens do. Store feed in metal bins with tight lids and keep stored hay off the ground.") },
   ],
-  contactsHeading: "Who to call about rats in Dade City",
-  contactsIntro: "Who to call about rats and garbage in Dade City.",
+  contactsHeading: "Dade City garbage and code numbers for rat trouble",
+  contactsIntro: "Waste Pro and the city's office on Meridian Avenue cover the trash side of a rat problem.",
   contacts: [
     { icon: "home", title: "Garbage in city limits", text: p("Waste Pro collects for Dade City homes: 352-523-5051. Public Works, (352) 523-5050, takes pickup questions.") },
     { icon: "users", title: "Code enforcement", text: p("(352) 523-5050, 38020 Meridian Avenue, for trash, debris and nuisance complaints.") },
   ],
-  servicesIntro: "Rats are the focus here, but we handle every animal below in Dade City.",
-  servicesHeading: "Rats, and the other animals we remove in Dade City",
+  servicesIntro: "From feed-room rats to everything listed below, these are the animals we take on in Dade City.",
+  servicesHeading: "Other Dade City animal jobs besides rats",
   reviewsIntro: "[PLACEHOLDER: reviews from Dade City rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "Dade City rat questions",
   faqs: [
@@ -65,13 +65,13 @@ export const dadeCityRats = countyPage({
       "Yes. We close the gaps in the building and trap the rats inside. See [rat removal](/services/rat-removal/) for how it works.",
     ),
     faq(
-      "How fast can you come out for rats in Dade City?",
+      "Is a same-day rat visit possible in Dade City?",
       "Same-day rat inspections are often available in Dade City. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Dade City]",
     ),
   ],
   ctaHeading: "Rats in your Dade City home?",
-  ctaText: "For rats in Dade City, call (727) 594-7705.",
+  ctaText: "Rats in an east Pasco barn, shed or attic around Dade City? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Dade City, FL | Pro Wildlife Removal",
     description:

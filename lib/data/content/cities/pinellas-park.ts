@@ -39,7 +39,8 @@ export const pinellasPark = countyPage({
     { icon: "map-pin", title: "Sawgrass Lake Park", text: p("Nearby, Pinellas County's 400-acre Sawgrass Lake Park is in unincorporated Lealman, with a St. Petersburg address. The county's photos show alligators and turtles.") },
     { icon: "home", title: "Lids on, twice a week", text: p("Pinellas Park collects household garbage on Tuesdays and Fridays and asks for 35-gallon cans with lids, or tied bags, at the curb by 7 a.m. Tight lids take away an easy meal for rats and raccoons.") },
   ],
-  contactsIntro: "Who to call for what in Pinellas Park, from the city's, county's and agencies' own pages.",
+  contactsHeading: "Pinellas Park numbers for strays, bites and gators",
+  contactsIntro: "Pinellas Park relies on county Animal Services and DOH-Pinellas, plus FWC for the odd pond alligator.",
   contacts: [
     { icon: "users", title: "Strays and injured wildlife", text: p("Pinellas County Animal Services, (727) 582-2600, option 4, serves Pinellas Park residents.") },
     { icon: "phone", title: "Animal bites", text: p("DOH-Pinellas takes bite reports at 727-824-6932.") },
@@ -62,7 +63,7 @@ export const pinellasPark = countyPage({
       "Tuesday and Friday for household garbage, and Wednesday for recycling, per the city's Solid Waste page.",
     ),
     faq(
-      "How fast can you get to Pinellas Park?",
+      "Can someone come to Pinellas Park the same day?",
       "Same-day appointments are often available in Pinellas Park. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Pinellas Park]",
     ),

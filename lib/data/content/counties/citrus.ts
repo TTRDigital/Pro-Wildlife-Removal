@@ -39,6 +39,7 @@ export const citrus = countyPage({
     { icon: "search", title: "Bear country, a little", text: p("Citrus is in FWC's Big Bend bear area, home to a remnant group near Chassahowitzka. If a bear visits, secure the trash and contact FWC.") },
     { icon: "leaf", title: "Scrub-jays at Potts Preserve", text: p("The water district's Potts Preserve in northeastern Citrus has wetlands that play a role in both the Tsala Apopka Chain of Lakes and the Withlacoochee River systems, and holds a small population of threatened Florida scrub-jays.") },
   ],
+  contactsHeading: "Citrus numbers: CCSO, DOH-Citrus and FWC",
   contactsIntro: "In Citrus, animal control is the Sheriff's Office and the shelter is the county. Here's who handles what, from their own pages.",
   contacts: [
     { icon: "users", title: "CCSO Animal Control", text: p("352-249-2790 (Sheriff's dispatch) for bites, strays and other domestic animal calls. Its page says nuisance wildlife must be referred to a nuisance trapper.") },

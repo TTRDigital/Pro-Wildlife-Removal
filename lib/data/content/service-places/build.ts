@@ -54,6 +54,8 @@ export type ServicePlaceInput = {
   localIntro: string;
   /** Six or more cards, each one sourced fact about this animal in this place. */
   local: Card[];
+  /** Contacts heading; defaults to "Who to call about [animals] in [place]". Write your own so it doesn't repeat across pages. */
+  contactsHeading?: string;
   contactsIntro?: string;
   contacts?: Card[];
   /** Slug of the matching attic page, e.g. "raccoons-in-attic", if there is one. */
@@ -71,10 +73,11 @@ export type ServicePlaceInput = {
 
 export function servicePlacePage(c: ServicePlaceInput): ServicePlace {
   const place = `${c.placeName}, FL`;
+  /* Related links are titles only: a templated blurb would repeat on every place page (Kia, Oct 26: no duplicate content). */
   const related: Card[] = [
-    { icon: "critter", title: `${c.animal} removal`, text: p(`How we handle ${c.animals.toLowerCase()} in ${c.placeName} and everywhere else we work.`), href: `/services/${c.service}/` },
-    ...(c.attic ? [{ icon: "home" as const, title: c.attic.label, text: p(`Signs, damage and cleanup when ${c.animals.toLowerCase()} get into a ${c.placeName} attic.`), href: `/services/${c.attic.slug}/` }] : []),
-    { icon: "map-pin", title: `Wildlife removal in ${c.placeName}`, text: p(`Beyond ${c.animals.toLowerCase()}: every animal we handle in ${c.placeName}, and its local facts.`), href: `/${c.location}/` },
+    { icon: "critter", title: `${c.animal} removal`, href: `/services/${c.service}/` },
+    ...(c.attic ? [{ icon: "home" as const, title: c.attic.label, href: `/services/${c.attic.slug}/` }] : []),
+    { icon: "map-pin", title: `Wildlife removal in ${c.placeName}`, href: `/${c.location}/` },
     ...(c.extraLink ? [{ icon: "search" as const, title: c.extraLink.label, text: p(c.extraLink.text), href: c.extraLink.href }] : []),
   ];
   return {
@@ -98,7 +101,7 @@ export function servicePlacePage(c: ServicePlaceInput): ServicePlace {
       { _type: "answerSection", _key: "answer", heading: c.answerHeading, text: p(c.answer), points: c.points },
       { _type: "cardsSection", _key: "local", tone: "tint", eyebrow: `${c.animals} in ${c.placeName}`, heading: c.localHeading, intro: p(c.localIntro), variant: "icon", columns: 3, cards: c.local },
       ...(c.contacts?.length
-        ? [{ _type: "cardsSection" as const, _key: "contacts", eyebrow: "Who to call", heading: `Who to call about ${c.animals.toLowerCase()} in ${c.placeName}`, intro: p(c.contactsIntro ?? ""), variant: "plain" as const, columns: 3, cards: c.contacts }]
+        ? [{ _type: "cardsSection" as const, _key: "contacts", eyebrow: "Who to call", heading: c.contactsHeading ?? `Who to call about ${c.animals.toLowerCase()} in ${c.placeName}`, intro: p(c.contactsIntro ?? ""), variant: "plain" as const, columns: 3, cards: c.contacts }]
         : []),
       { _type: "cardsSection", _key: "related", eyebrow: "Related", heading: `More on ${c.animals.toLowerCase()} and ${c.placeName}`, variant: "plain", columns: related.length > 3 ? 4 : 3, cards: related },
       { _type: "reviewsSection", _key: "reviews", eyebrow: "Reviews", heading: "What customers say", intro: p(c.reviewsIntro), match: c.animal.toLowerCase() },

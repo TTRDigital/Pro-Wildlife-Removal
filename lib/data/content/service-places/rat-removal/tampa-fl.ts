@@ -19,7 +19,7 @@ export const ratRemovalTampa = servicePlacePage({
   county: "Hillsborough",
   order: 2,
   heroText: "Scratching over the ceiling of a Tampa home at night? We find the gaps roof rats use, seal them, trap the rats left inside and clean the attic. Call (727) 594-7705.",
-  answerHeading: "Who gets rid of rats in a Tampa home?",
+  answerHeading: "Who clears rats out of a Tampa house?",
   answer:
     "A private company. The City of Tampa sends wildlife on private property to private removal services, and its role with rats is the trash and code rules that keep them from settling in. Pro Wildlife Removal closes the openings, traps what's left in the attic and cleans up. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rat lungworm found here", "Yearly S.W.E.E.P. pickup"],
@@ -60,13 +60,13 @@ export const ratRemovalTampa = servicePlacePage({
       "Your yearly S.W.E.E.P. collection is prescheduled; call Solid Waste customer service at (813) 274-8811 to check your date. Piles over 10 cubic yards may incur extra disposal fees.",
     ),
     faq(
-      "How soon can you come out for rats in Tampa?",
+      "How fast can a Tampa rat problem be looked at?",
       "Same-day appointments for rat inspections are often available in Tampa. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a rat call in Tampa]",
     ),
   ],
   ctaHeading: "Rats in your Tampa home?",
-  ctaText: "Tampa rat calls go to (727) 594-7705.",
+  ctaText: "Rats in a Tampa attic or the trees by your roof? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Tampa, FL | Pro Wildlife Removal",
     description:

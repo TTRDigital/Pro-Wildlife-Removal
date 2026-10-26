@@ -41,6 +41,7 @@ export const tampa = countyPage({
     { icon: "critter", title: "Alligators on the river", text: p("Hillsborough County's July 2026 safety tips note alligators are found throughout Florida, including Hillsborough County, with one photographed crossing a path at Lettuce Lake Park on the Hillsborough River.") },
     { icon: "sound", title: "Rabid bats nearby", text: p("Florida's Department of Health counted four rabid bats in Hillsborough County in 2025. A bat inside a Tampa home is never one to pick up bare-handed. See [bats in the attic](/services/bats-in-attic/).") },
   ],
+  contactsHeading: "Tampa's public animal numbers",
   contactsIntro: "Tampa doesn't run its own animal control. These are the public numbers, from the city's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Hillsborough County Animal Control", text: p("(813) 744-5660. The county's Code Enforcement division handles animal enforcement across the county, including Tampa. For wildlife on private property, the city says to use private removal services.") },

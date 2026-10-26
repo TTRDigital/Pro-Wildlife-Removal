@@ -41,6 +41,7 @@ export const odessa = countyPage({
     { icon: "drop", title: "Lake country", text: p("The water district has proposed minimum lake levels around here, including for Lake Calm, just over the line in Hillsborough. Lakefront yards bring more snakes, and FWC is the agency for alligators.") },
     { icon: "critter", title: "Big lots, more visitors", text: p("Barns, sheds, feed rooms and woodpiles give rats, raccoons and opossums plenty of places to settle. Store feed in sealed bins and keep woodpiles off the ground.") },
   ],
+  contactsHeading: "Odessa contacts on both sides of the county line",
   contactsIntro: "Who to call for what in Odessa, depending on which side of the county line you live.",
   contacts: [
     { icon: "users", title: "Pasco side: Animal Services", text: p("813-929-1212, Pasco County Animal Services, for pets and strays in the Pasco part of Odessa.") },
@@ -64,7 +65,7 @@ export const odessa = countyPage({
       "Yes. Outbuildings need the same approach as a house: find the gaps, close them, and trap the rats inside. See [rat removal](/services/rat-removal/).",
     ),
     faq(
-      "How fast can you get to Odessa?",
+      "How quickly do you reach Odessa, on either side of the county line?",
       "Same-day appointments are often available in Odessa. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Odessa]",
     ),

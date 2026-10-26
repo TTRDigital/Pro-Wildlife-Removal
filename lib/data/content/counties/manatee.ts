@@ -33,6 +33,7 @@ export const manatee = countyPage({
     { icon: "search", title: "South Central bear area", text: p("FWC places Manatee in its South Central bear area. Bears are FWC's department: lock up the trash and give them a call.") },
     { icon: "map-pin", title: "Marine strandings", text: p("Manatee County refers sick, injured or dead marine mammals and sea turtles to Mote Marine Laboratory's stranding program, which answers its hotline at all hours: 888-345-2335.") },
   ],
+  contactsHeading: "Manatee County numbers for animal problems",
   contactsIntro: "These are Manatee County's public numbers for animal problems, taken from the county's and agencies' own pages.",
   contacts: [
     { icon: "users", title: "Manatee County Animal Services", text: p("941-742-5933: option 1 to report cruelty, abuse or neglect, option 2 for lost and found pets.") },
@@ -42,7 +43,7 @@ export const manatee = countyPage({
   servicesIntro: "Choose the animal to read the signs, Florida's rules for it and how we handle it.",
   faqs: [
     faq(
-      "What number do I call in Manatee County?",
+      "Which number reaches you from Manatee County?",
       "Call (727) 594-7705. Same-day appointments are often available in Manatee County.",
       "[PLACEHOLDER: ask the client: typical response time in Manatee County]",
     ),
@@ -59,7 +60,7 @@ export const manatee = countyPage({
       "The county's animal contacts page lists Wildlife Rescue at 941-778-6324 and FWC's Wildlife Alert Hotline at 1-888-404-3922. Sick or stranded marine mammals and sea turtles go to Mote Marine Laboratory, 888-345-2335.",
     ),
     faq(
-      "Where do I report an animal bite in Manatee?",
+      "Which office takes animal bite reports in Manatee?",
       "The Florida Department of Health in Manatee County: 941-748-0747, option 4.",
     ),
   ],

@@ -26,7 +26,7 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
   answer:
     "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says to use private removal services for wildlife on private property, and county Animal Control serves the whole county. Pro Wildlife Removal gets raccoons out of attics and crawl spaces, checks for young and seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon in the 2025 table", "County: garbage feeds a boom"],
-  localHeading: "What to know about raccoons in Hillsborough County",
+  localHeading: "Hillsborough raccoon records, parks and news cases",
   localIntro: "These facts about raccoons in Hillsborough come from the state health department, DOH-Hillsborough, county conservation pages, a state park plan and news reports of rabid raccoon cases, labeled as news.",
   local: [
     { icon: "search", title: "One rabid raccoon in 2025", text: p("Hillsborough's row in the state rabies tables listed one rabid raccoon for 2025, alongside four bats and a cat. The rows for 2022, 2023 and 2024 listed no raccoons.") },
@@ -38,7 +38,8 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
     { icon: "users", title: "North of Lake Magdalene Boulevard, May 2017 (news)", text: p("Two rabid raccoons led to a 60-day DOH-Hillsborough alert in May 2017 for a neighborhood that news reports called Lutz, bounded by Lake Brant, US 41 and Lake Magdalene Boulevard. Patch said the first rabid raccoon of that year had been reported in Lutz on April 21.") },
     { icon: "critter", title: "Hillsborough River State Park", text: p("The park's 2004 plan named the raccoon a problem species: \"Feeding these mammals has made them bold and unafraid of visitors,\" and raccoons sometimes broke into tents and trailers to get food.") },
   ],
-  contactsIntro: "Who handles what when a raccoon is the problem in Hillsborough, from the county's and DOH-Hillsborough's own pages.",
+  contactsHeading: "Hillsborough contacts for dead, biting or indoor raccoons",
+  contactsIntro: "A dead raccoon on a county road, a bite, and a raccoon indoors each go to a different Hillsborough contact, per the county's and DOH-Hillsborough's own pages.",
   contacts: [
     { icon: "map-pin", title: "Dead raccoon on a county road", text: p("To report a dead animal in a county right-of-way, use the county's online case request or call (813) 274-6600.") },
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care and report the bite to DOH-Hillsborough, 813-307-8059.") },
@@ -57,7 +58,7 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
       "To report a dead animal in a county right-of-way, use the county's online case request or call (813) 274-6600. In Temple Terrace, Public Works removes dead animals from city roads ((813) 506-6570), but not from private property or county or state roads.",
     ),
     faq(
-      "Is it illegal to feed raccoons in Hillsborough County?",
+      "Does Florida law let me feed raccoons in Hillsborough County?",
       "Florida rule 68A-4.001(3) bans intentionally putting out food or garbage in a way that attracts raccoons and is likely to create a public nuisance. The county adds that feeding wild animals makes them lose their fear of people.",
     ),
     faq(
@@ -69,13 +70,13 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
       "The state's 2025 table listed one rabid raccoon in Hillsborough, after none in the county's rows for 2022, 2023 or 2024. Keep your pets' rabies shots current and leave raccoons alone.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Hillsborough County?",
+      "Can you get to a Hillsborough County raccoon the same day?",
       "Same-day appointments for raccoons are often available in Hillsborough County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Raccoon in your Hillsborough County home?",
-  ctaText: "Raccoon trouble anywhere in Hillsborough County? Call (727) 594-7705.",
+  ctaText: "A raccoon in a Hillsborough attic, from Riverview to Carrollwood? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal Hillsborough County | Pro Wildlife Removal",
     description:

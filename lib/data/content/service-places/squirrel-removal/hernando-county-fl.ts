@@ -28,7 +28,7 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
   answer:
     "A private wildlife company. FWC says eastern gray squirrels will sometimes nest in attics or other structures when they can get in. Pro Wildlife Removal finds the entry, removes the squirrels and any nest of young, and seals the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Fox squirrels on three FWC areas", "Litters up to twice a year"],
-  localHeading: "What to know about squirrels in Hernando County",
+  localHeading: "Gray and fox squirrels on Hernando's state lands",
   localIntro: "Hernando's state lands are home to both gray and fox squirrels. Here is where official pages say they live, and what that means for a homeowner.",
   local: [
     { icon: "leaf", title: "Sandhill at Chinsegut", text: p("FWC lists fox squirrels among the wildlife at Chinsegut Wildlife and Environmental Area in Hernando, whose main habitats are upland pine forest, sandhill, mesic hammock and basin marsh.") },
@@ -60,13 +60,13 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
       "Not without the land manager's written permission, FWC says. A release off your property must be in the county of capture, on at least 40 contiguous acres, with the owner's written permission, and can't break a county rabies alert or quarantine. A trapped animal must be released or euthanized within 24 hours.",
     ),
     faq(
-      "How soon can you come out for squirrels in Hernando County?",
+      "How quickly can you get to squirrels in a Hernando County attic?",
       "Same-day appointments for squirrels are often available in Hernando County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Hernando County]",
     ),
   ],
   ctaHeading: "Squirrels in your Hernando County attic?",
-  ctaText: "For squirrels anywhere in Hernando, call (727) 594-7705.",
+  ctaText: "Gray squirrels in a Hernando attic? Call (727) 594-7705.",
   seo: {
     title: "Squirrel Removal Hernando County, FL | Pro Wildlife Removal",
     description:

@@ -22,10 +22,10 @@ export const theVillagesRats = countyPage({
   heading: "Rat Removal in The Villages, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in The Villages, FL: rat removal for villas and homes, with the local rat reports and the county and district rules behind them.",
-  heroText: "Rats in a villa attic or a garage in The Villages? We find how they get in, close it, trap the ones inside and clean up. Call (727) 594-7705.",
-  answerHeading: "Who gets rid of rats in The Villages?",
+  heroText: "Rats in a villa attic or a garage in The Villages? We find how they get in, close it and trap the ones inside. Call (727) 594-7705.",
+  answerHeading: "Who do Villages residents call about rats?",
   answer:
-    "A private company. When rats turned up in the Village of Santiago in 2016, Sumter County told residents to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal closes the openings, traps the rats inside and cleans up after them. Call (727) 594-7705.",
+    "A private company. When rats turned up in the Village of Santiago in 2016, Sumter County told residents to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal closes the openings and traps the rats still inside the home. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County refers rats to private companies", "Trash goes out in sealed bags"],
   townsHeading: "Rat removal around The Villages",
   townsIntro: "The Villages crosses Sumter, Lake and Marion counties. We take rat calls on every side, and handle the other animals too.",
@@ -51,14 +51,14 @@ export const theVillagesRats = countyPage({
     { icon: "leaf", title: "Bags, not cans", text: p("In Districts 1 through 11, the district FAQ says household waste goes out in sealed bags, and garbage cans or bins aren't allowed. Set bags out close to collection time.") },
     { icon: "critter", title: "Roof rats live up high", text: p(`Florida DOH describes roof rats as good climbers that like high places such as attics, and UF/IFAS says a rat can squeeze through a hole about half an inch wide ([UF/IFAS](${SANTAROSA})). In a villa, that means soffits, roof returns and A/C line gaps.`) },
   ],
-  contactsHeading: "Who to call about rats in The Villages",
+  contactsHeading: "Sumter County and your CDD board: rat contacts",
   contactsIntro: "Who handles what when rats show up near your home.",
   contacts: [
     { icon: "users", title: "Sumter County Animal Services", text: p("(352) 689-4400. Pets and strays; the county says it generally doesn't handle wildlife.") },
     { icon: "home", title: "A neglected property next door", text: p("Bring it to your Community Development District board, as the Briar Meadow and Lynnhaven neighbors did, or to Sumter County code enforcement.") },
   ],
-  servicesIntro: "Rats are the focus here, but we remove every animal below in The Villages.",
-  servicesHeading: "Rats, and the other animals we remove in The Villages",
+  servicesIntro: "Rats are one call. Here's every other animal we remove from Villages homes and villas.",
+  servicesHeading: "Other animals we handle in The Villages",
   reviewsIntro: "[PLACEHOLDER: reviews from The Villages rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "Rat questions in The Villages",
   faqs: [
@@ -75,13 +75,13 @@ export const theVillagesRats = countyPage({
       `No. The CDC says not to sweep or vacuum rodent droppings, and to spray them with disinfectant first ([CDC](${CDC})). Our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/) walks through it.`,
     ),
     faq(
-      "How soon can you come out for rats in The Villages?",
+      "How soon could someone check my Villages villa for rats?",
       "For rats, same-day appointments are often available in The Villages. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in The Villages]",
     ),
   ],
   ctaHeading: "Rats in your Villages home?",
-  ctaText: "For rats anywhere in The Villages, call (727) 594-7705.",
+  ctaText: "Rats in a villa or courtyard home in The Villages? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in The Villages, FL | Pro Wildlife Removal",
     description:
