@@ -5,7 +5,8 @@ import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
 import { Button } from "@/components/ui/Button";
 import { HeroSlides } from "@/components/ui/HeroSlides";
-import { TileLife } from "@/components/ui/TileLife";
+import { LoopVideo } from "@/components/ui/LoopVideo";
+import { animalVideos } from "@/lib/data/videos";
 import { Photo } from "@/components/ui/Photo";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 
@@ -100,13 +101,10 @@ export function PageHero({ hero, crumbs, ctas, settings, animal, animalKey }: { 
           <RatingChip settings={settings} className="mt-1" />
         </div>
         <div className="relative h-[250px] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)] ring-1 ring-navy/5 sm:h-[340px] min-[900px]:h-[460px]">
-          <HeroSlides images={slides} sizes="(min-width: 900px) 46vw, 100vw" />
-          {/* on an animal's page, that animal crosses the banner now and then (Kia: make it live) */}
-          {animalKey ? (
-            <div className="hero-critter">
-              <TileLife animal={animalKey} photos={[]} sizes="1px" />
-            </div>
-          ) : null}
+          <HeroSlides images={slides} sizes="(min-width: 900px) 46vw, 100vw" moving={Boolean(animalKey)} />
+          {/* On an animal's page the banner is live (Kia): its real footage plays over the photos where we have some.
+              The raccoon clip was filmed in a zoo, so it stays off the raccoon page's banner, where it could read as a job (Ben). */}
+          {animalKey && animalKey !== "raccoon" && animalVideos[animalKey] ? <LoopVideo src={animalVideos[animalKey]} /> : null}
         </div>
       </div>
     </section>

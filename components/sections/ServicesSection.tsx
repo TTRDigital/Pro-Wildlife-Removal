@@ -53,7 +53,7 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
       data-reveal
       style={{ ["--i" as string]: index % 5 }}
     >
-      <div className="photo-look relative aspect-[4/3] overflow-hidden bg-navy-3">
+      <div className={`photo-look relative aspect-[4/3] overflow-hidden bg-navy-3 ${video ? "" : `post-shot post-shot-${index % 4}`}`}>
         {/* Fetched only as the tile nears the screen, so the tiles don't compete with the hero before first paint (TTR-846). */}
         {img ? (
           <NearView>
@@ -64,9 +64,9 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
         {video ? (
           <LoopVideo src={video} />
         ) : pageAnimal(`/services/${s.slug}/`) ? (
-          // no clip for this animal yet: its photos take turns and the drawn animal runs across (Kia)
+          // no clip for this animal yet: its real photos take turns, each moving like a camera shot (Kia)
           <NearView>
-            <TileLife animal={s.animal} photos={pageAnimal(`/services/${s.slug}/`)!.images} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" />
+            <TileLife photos={pageAnimal(`/services/${s.slug}/`)!.images} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" />
           </NearView>
         ) : null}
       </div>
