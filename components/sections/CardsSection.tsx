@@ -155,13 +155,49 @@ function Steps({ cards }: { cards: Card[] }) {
   );
 }
 
+/**
+ * Photo cards that link nowhere (a company's services told in a few lines each) as a feature
+ * showcase: one row per card, a large photo with a soft colour frame on one side and a big
+ * number, the title and the text on the other, switching sides each row. Stacked on phones.
+ */
+function FeatureRows({ cards }: { cards: Card[] }) {
+  return (
+    <ol className="grid gap-12 md:gap-20">
+      {cards.map((c, i) => {
+        const flip = i % 2 === 1;
+        return (
+          <li key={`${c.title}-${i}`} className="grid items-center gap-7 md:grid-cols-2 md:gap-14" data-reveal>
+            <div className={`relative ${flip ? "md:order-2" : ""}`}>
+              <span aria-hidden="true" className={`absolute -bottom-4 h-full w-full rounded-[26px] bg-gradient-to-br from-blue/25 to-cta/20 ${flip ? "-left-4" : "-right-4"}`} />
+              <div className="photo-look relative aspect-[4/3] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)]">
+                {c.image ? <Photo image={c.image} sizes="(min-width: 768px) 46vw, 100vw" /> : null}
+              </div>
+            </div>
+            <div className={flip ? "md:order-1" : ""}>
+              <p aria-hidden="true" className="font-display text-[4rem] leading-none font-extrabold text-blue/15 md:text-[5.5rem]">
+                {String(i + 1).padStart(2, "0")}
+              </p>
+              <h3 className="-mt-3 font-display text-[clamp(1.375rem,1.1rem+1vw,1.875rem)] leading-tight font-extrabold text-navy md:-mt-5">{c.title}</h3>
+              <span aria-hidden="true" className="mt-4 block h-1 w-14 rounded-full bg-gradient-to-r from-blue to-cta" />
+              <RichText value={c.text} className="mt-4 text-[1.0625rem] [&>*+*]:mt-3" />
+            </div>
+          </li>
+        );
+      })}
+    </ol>
+  );
+}
+
 /** Grid of cards: icon signs, numbered steps (timeline), accent cards, cost factors, photo cards. */
 export function CardsSection({ section: s }: { section: Cards }) {
   const n = s.columns && cols[s.columns] ? s.columns : s.cards.length % 3 === 0 ? 3 : s.cards.length % 4 === 0 ? 4 : 3;
   const swipe = s.variant === "photo" && !s.image && s.cards.length > 2;
+  const feature = s.variant === "photo" && !s.image && s.cards.length > 1 && s.cards.every((c) => c.image && !c.href);
   const grid =
     s.variant === "numbered" && !s.image ? (
       <Steps cards={s.cards} />
+    ) : feature ? (
+      <FeatureRows cards={s.cards} />
     ) : (
       <div className={swipe ? `swipe ${s.cards.length % 3 && s.cards.length % 2 === 0 ? "swipe-2" : ""}` : s.image ? "grid items-stretch gap-4 md:grid-cols-2 md:gap-6" : `flex flex-wrap justify-center gap-4 md:gap-6 ${cols[n]}`}>
         {s.cards.map((c, i) => (
