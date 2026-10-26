@@ -97,7 +97,7 @@ export const opossumRemoval: Service = {
           ),
         },
         { number: "3", title: "Release legally", text: p("A captured opossum may only be released on the property where it was caught, or on land of 40 acres or more in the same county with the owner's written permission.") },
-        { number: "4", title: "Close it off", text: p("Once we're sure every opossum is out, torn screens, vents and gaps are blocked with wire mesh, as FWC recommends, and the den area is cleaned.") },
+        { number: "4", title: "Close it off", text: p("Once we're sure every opossum is out, torn screens, vents and gaps are blocked with wire mesh, as FWC recommends.") },
       ],
     },
     {

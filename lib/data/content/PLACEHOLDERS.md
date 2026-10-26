@@ -615,3 +615,6 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - `content/services/bat-removal.ts` was: For more, see [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/). / now: For more, see [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/).
   - `content/attic/rats-in-attic.ts` was: faq( "How much does attic cleanup after rats cost?", "It depends on how much insulation is soiled and how big the attic is. See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for what drives the price.", ), / now: (removed)
   - `content/guides/raccoon-trapping.ts` was: Our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) explains the bigger jobs. / now: (removed)
+- `content/services/opossum-removal.ts` (final grep, Oct 26)
+  - was: ...torn screens, vents and gaps are blocked with wire mesh, as FWC recommends, and the den area is cleaned.
+  - now: ...torn screens, vents and gaps are blocked with wire mesh, as FWC recommends.
