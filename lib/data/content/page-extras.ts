@@ -192,39 +192,6 @@ export const locationExtras: Record<string, Extra> = {
       { title: "FWC: Feeding wildlife (68A-4.001 prohibits placing food in a manner that attracts black bears, coyotes, foxes and raccoons)", url: FWC_FEEDING },
     ],
   },
-  "about-us/service-area/wildlife-removal-orlando-fl": {
-    seoDescription:
-      "Wildlife removal in Orlando, FL: raccoons, rats, bats and squirrels, plus Orange County rabies figures and Florida's bat season rules. Call (727) 594-7705.",
-    sections: [
-      {
-        _type: "faqSection",
-        _key: "faq",
-        eyebrow: "FAQ",
-        heading: "Orlando wildlife questions",
-        items: [
-          faq(
-            "Has rabies been found in Orange County?",
-            `Yes. Florida DOH's tables list 4 rabid bats and 3 rabid raccoons in Orange County in 2024, and 8 bats and 2 raccoons in 2025 ([2024](${DOH_2024}), [2025](${DOH_2025})).`,
-          ),
-          faq(
-            "When can bats be removed from an Orlando building?",
-            `From August 15 to April 15. FWC makes exclusion illegal during bat maternity season, April 16 to August 14 ([FWC](${FWC_BATS})).`,
-          ),
-          faq(
-            "What should I do if a bat or raccoon bites someone?",
-            `Florida DOH says to scrub the wound with soap and running water for five to ten minutes, see a health care provider, and call the county health department or animal control ([Florida DOH](${DOH_RABIES})). Our guide on [whether bats carry rabies](/blog/do-bats-carry-rabies-florida/) has more.`,
-          ),
-        ],
-      },
-    ],
-    sources: [
-      { title: "FWC: FAQs, nuisance wildlife (release on the same property or on 40+ contiguous acres in the same county with the landowner's written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
-      { title: "Florida DOH: Animal rabies by county and animal, 2024 (Orange: 4 bats, 3 raccoons in the table)", url: DOH_2024 },
-      { title: "Florida DOH: Animal rabies by county and animal, 2025 (Orange: 8 bats, 2 raccoons in the table)", url: DOH_2025 },
-      { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
-      { title: "Florida DOH: Rabies (scrub the wound with soap and running water for five to ten minutes; see a health care provider; call the county health department or animal control)", url: DOH_RABIES },
-    ],
-  },
 };
 
 const add = (sections: Section[], extra: Section[]) => {
