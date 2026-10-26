@@ -207,7 +207,7 @@ export const home: PageContent = {
       _key: "cta",
       heading: "Hearing something in the attic right now?",
       highlight: "right now?",
-      text: p("Call (727) 594-7705. We answer 24 hours a day, 7 days a week, in all 9 counties."),
+      text: p("Call (727) 594-7705, one number for all 9 counties."),
       ctas: [CALL],
     },
   ],

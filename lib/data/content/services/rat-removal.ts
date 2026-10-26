@@ -258,7 +258,7 @@ export const ratRemoval: Service = {
       _key: "cta",
       heading: "Rats in the attic tonight?",
       highlight: "tonight?",
-      text: p("Call (727) 594-7705, 24 hours a day. We'll find how they're getting in and close it."),
+      text: p("Call (727) 594-7705. We'll find how they're getting in and close it."),
       ctas: [CALL],
     },
   ],

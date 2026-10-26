@@ -232,7 +232,7 @@ export const snakeRemoval: Service = {
       _key: "cta",
       heading: "Snake in the house right now?",
       highlight: "right now?",
-      text: p("Close the door to that room and call (727) 594-7705. We answer day and night."),
+      text: p("Close the door to that room and call (727) 594-7705."),
       ctas: [CALL],
     },
   ],
