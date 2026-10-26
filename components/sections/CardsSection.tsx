@@ -10,6 +10,8 @@ import { LoopVideo } from "@/components/ui/LoopVideo";
 import { animalVideos } from "@/lib/data/videos";
 import { animalPhoto, jobPhoto, pageAnimal } from "@/lib/topics";
 import { TileLife } from "@/components/ui/TileLife";
+import { SoundButton } from "@/components/ui/SoundButton";
+import { signSounds } from "@/lib/data/sounds";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 /* Column widths for the card rows; the rows wrap and a short last row is centred. */
@@ -43,6 +45,8 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
   // The client's own photo of the card's animal or job before a stock one (Ben).
   const photo = variant === "photo" && card.image ? (animalPhoto(card.href) ?? jobPhoto(card.title) ?? card.image) : undefined;
   const icon = card.icon ?? (photo ? undefined : cardIcon(card.title));
+  // a sign card about a sound plays a short real recording of it, on tap (Kia, Ben)
+  const sound = photo ? undefined : signSounds[card.title];
   // A photo card for an animal's service page plays that animal's clip over its photo.
   const animal = card.href?.match(/\/services\/([a-z]+)-removal\/?$/)?.[1];
   const video = photo && animal ? animalVideos[animal] : undefined;
@@ -79,6 +83,7 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
       </h3>
       {card.subtitle ? <p className={`mb-3 font-display text-[0.8125rem] font-semibold uppercase tracking-[1px] ${card.accent === "navy" ? "text-navy" : "text-blue-deep"}`}>{card.subtitle}</p> : null}
       <RichText value={card.text} className={`text-[1.0625rem] [&>*+*]:mt-3 ${photo && card.href ? "line-clamp-4" : ""}`} />
+      {sound ? <SoundButton src={sound.src} label={sound.label} /> : null}
       {card.href ? (
         <span className="mt-auto inline-flex items-center gap-1.5 pt-5 font-display text-[0.95rem] font-bold text-blue-deep">
           Learn more
