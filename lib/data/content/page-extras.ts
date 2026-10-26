@@ -49,7 +49,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "How do I set up an inspection?",
-            "Call (727) 594-7705 or send a message through the [contact page](/contact-us/). Same-day appointments are often available.",
+            "Call (727) 594-7705, or see the [contact page](/contact-us/) for our email. Same-day appointments are often available.",
           ),
         ],
       },
@@ -104,7 +104,7 @@ export const pageExtras: Record<string, Extra> = {
         items: [
           faq(
             "How soon can someone come out?",
-            "Same-day appointments are often available across our [service area](/about-us/service-area/). Pro Wildlife Removal takes calls 24 hours a day at (727) 594-7705.",
+            "Same-day appointments are often available across our [service area](/about-us/service-area/). Call (727) 594-7705.",
           ),
           faq(
             "What should I tell you when I call?",
@@ -116,7 +116,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "Can I send a message instead of calling?",
-            "Yes. Use the form on this page and include your town and what you've noticed. For how a visit goes, see [how we work](/how-we-work/).",
+            "Yes. Email customerservice@prowildliferemoval.net with your town and what you've noticed, or call (727) 594-7705. For how a visit goes, see [how we work](/how-we-work/).",
           ),
         ],
       },
