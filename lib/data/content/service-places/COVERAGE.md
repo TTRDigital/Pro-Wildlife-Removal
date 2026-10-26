@@ -31,9 +31,9 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Safety Harbor | Rhea | E | N | N | H | raccoon (Nia) held: only 4 real raccoon facts |
 | Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
 | Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
-| The Villages | Nia | E | P | N | N | city page cleared (0c320c2); bat page failed fact check, out of the preview until Nia's fixes; old rat page linked |
-| Marion County | Nia | N | L | N | N | county page cleared (b77a606); communities section in Ben's check; bat page cleared (5958797) |
-| Ocala | Nia | N | N | N | N | city page cleared after Nia's fact-check fixes (b77a606) |
+| The Villages | Nia | E | P | N | H | city page cleared (0c320c2); bat page failed fact check, out of the preview until Nia's fixes; old rat page linked; raccoon page held at 5 facts (Ben, 1962bb0) |
+| Marion County | Nia | N | L | N | L | county page cleared (b77a606); communities section cleared (1c65dc2); bat page cleared (5958797); raccoon page cleared (31ea209, 992f6e2) |
+| Ocala | Nia | H | S | N | N | city page cleared (b77a606); rat page held, 2 qualifying facts, under 6 (Ben, 1b0d9b3); bat skipped, no town facts (Ben); Nia on raccoon next; raccoon page (9560fab) in Ben's fact check, unregistered |
 | Belleview | Nia | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Dunnellon | Nia | C | C | C | C | held: page out of the preview; covered in the Marion communities section (b77a606) |
 | Lutz | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
@@ -41,7 +41,7 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Carrollwood | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Citrus Park | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Town 'n' Country | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
-| Cheval | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Cheval | Owen | S | S | S | S | dropped from the Hillsborough communities section in fact check (Ben, 5381fe7); named in the county towns list only |
 | Keystone | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Lake Magdalene | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Greater Northdale | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
@@ -54,14 +54,14 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 
 | Status | Rat | Bat | Squirrel | Raccoon | Total |
 |---|---|---|---|---|---|
-| live, fact-checked | 7 | 7 | 5 | 11 | 30 |
+| live, fact-checked | 7 | 7 | 5 | 12 | 31 |
 | in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
 | fixes pending | 0 | 1 | 0 | 0 | 1 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
-| county section | 12 | 12 | 12 | 12 | 48 |
-| held | 1 | 1 | 3 | 3 | 8 |
-| skipped | 2 | 5 | 5 | 3 | 15 |
-| not started | 8 | 12 | 15 | 10 | 45 |
+| county section | 11 | 11 | 11 | 11 | 44 |
+| held | 2 | 1 | 3 | 4 | 10 |
+| skipped | 3 | 7 | 6 | 4 | 20 |
+| not started | 7 | 11 | 15 | 8 | 41 |
 | **all cells** | 41 | 41 | 41 | 41 | 164 |
 
 Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
