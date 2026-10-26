@@ -2,6 +2,8 @@ import type { PlacePage, ServicePlace } from "../types";
 import { raccoonRemovalTampa } from "./content/service-places/raccoon-removal/tampa-fl.ts";
 import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
 import { raccoonRemovalPolkCounty } from "./content/service-places/raccoon-removal/polk-county-fl.ts";
+import { ratRemovalPolkCounty } from "./content/service-places/rat-removal/polk-county-fl.ts";
+import { squirrelRemovalPolkCounty } from "./content/service-places/squirrel-removal/polk-county-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -12,8 +14,10 @@ export const fallbackServicePlaces: ServicePlace[] = [
   // Tampa (Cole)
   raccoonRemovalTampa,
   // Polk County (Owen)
+  ratRemovalPolkCounty,
   batRemovalPolkCounty,
   raccoonRemovalPolkCounty,
+  squirrelRemovalPolkCounty,
 ];
 
 /**
