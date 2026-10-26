@@ -2,6 +2,7 @@ import "server-only";
 import { cache } from "react";
 import { sanityFetch } from "@/lib/sanity/fetch";
 import { merge } from "@/lib/merge";
+import { hidePlaceholders } from "@/lib/placeholders";
 import { fallbackSettings } from "@/lib/data/site";
 import { fallbackPages, type PageKey } from "@/lib/data/pages";
 import { fallbackServices } from "@/lib/data/services";
@@ -68,7 +69,7 @@ export const getTestimonials = cache(async (): Promise<Testimonial[]> => {
 
 export const getPage = cache(async (key: PageKey): Promise<PageContent> => {
   const cms = await sanityFetch<Partial<PageContent>>(`*[_id == $id][0]{ ${PAGE} }`, { id: `${key}Page` }, [`${key}Page`]);
-  return merge(fallbackPages[key] as PageContent, cms);
+  return hidePlaceholders(merge(fallbackPages[key] as PageContent, cms));
 });
 
 /* ---------- Collections ---------- */
@@ -90,7 +91,7 @@ export const getServices = cache(async (): Promise<Service[]> => {
   );
   const list = mergeList(fallbackServices, cms, (s) => s.slug, (c): Service => ({ slug: c.slug ?? "", title: c.title ?? "", group: "removal", animal: "", order: 99, hero: { heading: c.title ?? "" }, sections: [], seo: { title: c.title ?? "", description: "" } }));
   // One page per animal: retired copies stay out of the site, menus and sitemap (they 301, see next.config.ts).
-  return list.filter((s) => !(s.slug in movedServices)).sort((a, b) => a.order - b.order);
+  return hidePlaceholders(list.filter((s) => !(s.slug in movedServices)).sort((a, b) => a.order - b.order));
 });
 
 export async function getService(slug: string) {
@@ -104,7 +105,7 @@ export const getLocations = cache(async (): Promise<Location[]> => {
     ["location"],
   );
   const list = mergeList(fallbackLocations, cms, (l) => l.path, (c): Location => ({ path: c.path ?? "", name: c.name ?? "", kind: "city", order: 999, hero: { heading: c.name ?? "" }, sections: [], seo: { title: c.name ?? "", description: "" } }));
-  return list.sort((a, b) => a.order - b.order);
+  return hidePlaceholders(list.sort((a, b) => a.order - b.order));
 });
 
 export async function getLocation(path: string) {
@@ -119,7 +120,7 @@ export const getPosts = cache(async (): Promise<Post[]> => {
     ["post"],
   );
   const list = mergeList(fallbackPosts, cms, (p) => p.slug, (c): Post => ({ slug: c.slug ?? "", title: c.title ?? "", body: [], seo: { title: c.title ?? "", description: "" } }));
-  return list.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+  return hidePlaceholders(list.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")));
 });
 
 export async function getPost(slug: string) {
