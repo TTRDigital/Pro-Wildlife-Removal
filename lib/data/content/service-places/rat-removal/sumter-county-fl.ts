@@ -19,7 +19,7 @@ export const ratRemovalSumterCounty = servicePlacePage({
   place: "sumter-county-fl",
   placeName: "Sumter County",
   placeKind: "county",
-  location: "about-us/service-area/wildlife-removal-sumter-county-fl",
+  location: "about-us/service-area/wildlife-removal-the-villages",
   order: 71,
   heroText: "Droppings in the garage, gnawed wires or scratching in the attic of a Sumter County home? We find how rats are getting in, seal those gaps and trap the rats inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Sumter County homes?",

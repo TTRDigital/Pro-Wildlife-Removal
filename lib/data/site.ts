@@ -34,7 +34,7 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
     { county: "Hernando County", phone: "352-612-3336", href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/" },
     { county: "Pinellas County", phone: "727-496-7702", href: "/about-us/service-area/wildlife-removal-pinellas-county/" },
     { county: "Citrus County", phone: "352-618-2110", href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/" },
-    { county: "Sumter County", phone: "863-431-9244", href: "/about-us/service-area/wildlife-removal-sumter-county-fl/" },
+    { county: "Sumter County", phone: "863-431-9244", href: "/about-us/service-area/wildlife-removal-the-villages/" },
     { county: "Polk County", phone: "863-208-5050", href: "/about-us/service-area/wildlife-removal-polk-county/" },
   ],
   headerCta: { label: "Call (727) 594-7705", href: "tel:+17275947705" },

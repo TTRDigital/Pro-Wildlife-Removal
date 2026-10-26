@@ -772,7 +772,7 @@ const migratedPages = {
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
+      "href": "/about-us/service-area/wildlife-removal-the-villages/"
      }
     ],
     "style": {
@@ -1680,7 +1680,7 @@ const migratedPages = {
         ]
        }
       ],
-      "href": "/about-us/service-area/wildlife-removal-sumter-county-fl/"
+      "href": "/about-us/service-area/wildlife-removal-the-villages/"
      }
     ],
     "image": images.tampaBayFlMapLarge1,

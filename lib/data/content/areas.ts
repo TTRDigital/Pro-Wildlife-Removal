@@ -74,7 +74,7 @@ export const countyGroups: AreasSection["groups"] = [
   },
   {
     title: "Sumter County",
-    href: "/about-us/service-area/wildlife-removal-sumter-county-fl/",
+    href: "/about-us/service-area/wildlife-removal-the-villages/",
     items: [{ label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" }, { label: "Wildwood" }, { label: "Bushnell" }],
   },
   {

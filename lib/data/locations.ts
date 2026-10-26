@@ -8,7 +8,6 @@ import { hillsborough } from "./content/counties/hillsborough.ts";
 import { pasco } from "./content/counties/pasco.ts";
 import { pinellas } from "./content/counties/pinellas.ts";
 import { polk } from "./content/counties/polk.ts";
-import { sumter } from "./content/counties/sumter.ts";
 import { marion } from "./content/counties/marion.ts";
 import { tampa } from "./content/cities/tampa.ts";
 import { springHill } from "./content/cities/spring-hill.ts";
@@ -1423,8 +1422,7 @@ const migratedLocations: Location[] = [
  pinellas,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/counties/polk.ts
  polk,
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/counties/sumter.ts
- sumter,
+ // Sumter County merged into The Villages (Ben, Oct 26); Wade 301s its old URL.
  // New for the rebuild (Nia, Oct 2026): lib/data/content/counties/marion.ts
  marion,
  // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/cities/brooksville.ts

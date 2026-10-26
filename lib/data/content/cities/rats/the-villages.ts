@@ -35,7 +35,6 @@ export const theVillagesRatsInput = {
       href: "/about-us/service-area/wildlife-removal-the-villages/",
       items: [
         { label: "All wildlife in The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" },
-        { label: "Sumter County", href: "/about-us/service-area/wildlife-removal-sumter-county-fl/" },
         { label: "Marion County", href: "/about-us/service-area/wildlife-removal-marion-county-fl/" },
         { label: "Wildwood" },
       ],

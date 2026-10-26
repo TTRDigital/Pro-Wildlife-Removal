@@ -1,8 +1,8 @@
-import { countyPage } from "../counties/build.ts";
+import { countyPage, S } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 import { theVillagesRatsInput } from "./rats/the-villages.ts";
 
-/* The Villages page, rewritten in place at its existing URL (Nia, Oct 26, 2026). Checkable local facts about rats, bats, squirrels and raccoons only; news items carry their year. */
+/* The Villages page, rewritten in place at its existing URL (Nia, Oct 26, 2026). The Sumter County page was merged in here (Cole, Oct 26; Wade 301s the old URL). Checkable local facts about rats, bats, squirrels and raccoons only; news items carry their year. */
 const BATS = "https://www.villages-news.com/2025/10/12/old-fashioned-solution-solves-bat-problem-at-starter-shack-in-the-villages/";
 const GCI = "https://www.golfcourseindustry.com/article/bats-eye-view";
 const BRIAR = "https://www.villages-news.com/2016/09/10/nervous-neighbors-complain-villa-bats-rats-owner-nevada/";
@@ -12,6 +12,8 @@ const RABIES2019 = "https://www.villages-news.com/2019/12/04/residents-warned-af
 const LAZAMORA = "https://www.villages-news.com/2019/10/03/raccoon-suspected-of-being-rabid-shot-and-killed-in-village-of-la-zamora/";
 const FOXSQ = "https://www.villages-news.com/2025/05/08/rare-black-southern-fox-squirrel-in-the-village-of-summerhill/";
 const TRASH = "https://www.districtgov.org/how-to/faqs/";
+const WEBSTER = "https://www.floridahealth.gov/wp-content/uploads/2026/06/rabies-alert-sumter-county-6-26-2026.pdf";
+const SUMTERVILLE = "https://www.floridahealth.gov/wp-content/uploads/2025/07/alert-sumter-6-19-2024.pdf";
 
 export const theVillages = countyPage({
   kind: "city",
@@ -28,16 +30,18 @@ export const theVillages = countyPage({
     "A private company. In 2016, Sumter County told residents of The Villages with rats to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal handles rats, bats, squirrels and raccoons in homes across The Villages. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Lake, Sumter and Marion counties", "Bats at Hilltop, 2025"],
   townsHeading: "The Villages and nearby",
-  townsIntro: "The Villages spreads across Lake, Sumter and Marion counties. The Census Bureau's The Villages CDP covers the Sumter and Marion parts; the oldest villages, such as Orange Blossom Gardens and La Zamora, are in Lake County, in and around Lady Lake. We cover every village.",
+  townsIntro: "The Villages spreads across Lake, Sumter and Marion counties. The Census Bureau's The Villages CDP covers the Sumter and Marion parts; the oldest villages, such as Orange Blossom Gardens and La Zamora, are in Lake County, in and around Lady Lake. We cover every village, and the rest of Sumter County too: Bushnell is the county seat and Wildwood the largest city. Sumter grew from about 130,000 people in 2020 to an estimated 158,000 in 2025, yet the 2020 Census still counted 89% of its land as rural.",
   towns: [
     {
       title: "Lake, Sumter and Marion counties",
-      href: "/about-us/service-area/wildlife-removal-sumter-county-fl/",
       items: [
-        { label: "Sumter County", href: "/about-us/service-area/wildlife-removal-sumter-county-fl/" },
         { label: "Marion County", href: "/about-us/service-area/wildlife-removal-marion-county-fl/" },
         { label: "Lady Lake" },
         { label: "Wildwood" },
+        { label: "Bushnell" },
+        { label: "Webster" },
+        { label: "Sumterville" },
+        { label: "Lake Panasoffkee" },
         { label: "Summerfield" },
         { label: "Ocala" },
       ],
@@ -53,13 +57,14 @@ export const theVillages = countyPage({
     { icon: "map-pin", title: "A burned house draws rats", text: p("In July 2025, Lynnhaven residents told their district board that a fire-damaged home in the Village of Lynnhaven was attracting rats and buzzards, and Sumter County had opened a code enforcement case.") },
     { icon: "phone", title: "A rabid raccoon nearby, 2019", text: p("In December 2019, the Marion and Sumter health departments warned residents of the northwest portion of The Villages after a raccoon nearby tested positive for rabies, and told them to avoid raccoons and bats.") },
     { icon: "drop", title: "A staggering raccoon in La Zamora", text: p("Also in 2019, Lady Lake police shot a raccoon suspected of being rabid at a home in the Village of La Zamora, in Lady Lake (Lake County). The officer wrote that it appeared to stagger, then collapsed, as he approached.") },
+    { icon: "phone", title: "Rabid cats in Webster and Sumterville", text: p("Elsewhere in Sumter County, the Department of Health issued rabies alerts after a rabid cat in the Webster area in June 2026 and another in the Sumterville area in June 2024. Food left out for outdoor cats feeds raccoons too.") },
     { icon: "leaf", title: "A black fox squirrel", text: p("In May 2025, Villages-News ran a reader's photo of a rare black southern fox squirrel in the Village of Summerhill.") },
   ],
   rats: { heading: theVillagesRatsInput.localHeading, intro: theVillagesRatsInput.localIntro, cards: [...theVillagesRatsInput.local, ...(theVillagesRatsInput.contacts ?? [])] },
   contactsHeading: "Sumter, DOH and FWC contacts for The Villages",
   contactsIntro: "Who handles what in The Villages, from Sumter County's and the health departments' own pages.",
   contacts: [
-    { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400. The county says it generally deals only with domestic animals.") },
+    { icon: "users", title: "Sumter County Animal Services", text: p("352-689-4400, option 3 for animal control complaints. The county says it generally deals only with domestic animals.") },
     { icon: "phone", title: "Bites: DOH-Sumter", text: p("352-569-3102, the number in DOH-Sumter's June 2026 rabies alert.") },
     { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
@@ -70,6 +75,10 @@ export const theVillages = countyPage({
     faq(
       "Will Sumter County remove rats or raccoons from my villa?",
       "Usually not. Sumter County says Animal Services generally deals only with domestic animals, and in 2016 it told residents of The Villages with rats to call a commercial company.",
+    ),
+    faq(
+      "Have rabid animals been found elsewhere in Sumter County?",
+      `Yes, in cats. DOH issued alerts after a rabid cat near Webster in June 2026 ([DOH](${WEBSTER})) and one near Sumterville in June 2024 ([DOH](${SUMTERVILLE})). Report any animal bite to DOH-Sumter at 352-569-3102, and keep pets' rabies shots current.`,
     ),
     faq(
       "Can bats be removed from a building in The Villages in summer?",
@@ -107,8 +116,13 @@ export const theVillages = countyPage({
     { title: "Villages-News, May 8, 2025: Rare black southern fox squirrel in the Village of Summerhill (reader photo)", url: FOXSQ },
     { title: "The Villages District Government: FAQs (Districts 1-11: household waste in sealed bags; no garbage cans or bins)", url: TRASH },
     { title: "Sumter County: Nuisance wildlife (Animal Services generally deals only with domestic animals; referrals to private trappers)", url: "https://www.sumtercountyfl.gov/1180/Nuisance-Wildlife" },
-    { title: "Florida DOH: DOH-Sumter rabies alert, June 26, 2026 (report bites to 352-569-3102)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/06/rabies-alert-sumter-county-6-26-2026.pdf" },
-    { title: "Sumter County: Animal Services contact (352-689-4400)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
+    { title: "Florida DOH: DOH-Sumter rabies alert, June 26, 2026 (rabid cat, Webster area; report bites to 352-569-3102)", url: WEBSTER },
+    { title: "Florida DOH: Sumter rabies alert, June 19, 2024 (rabid cat, Sumterville area)", url: SUMTERVILLE },
+    { title: "Sumter County: Animal Services contact (352-689-4400, option 3 for animal control complaints)", url: "https://www.sumtercountyfl.gov/1183/Contact-UsHours" },
+    S.censusPop,
+    S.censusUR,
+    S.edr,
+    S.seats,
     { title: "FWC news release, April 6, 2026 (bat maternity season April 16 to Aug. 14)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
     { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: "https://myfwc.com/hunting/regulations/nongame/" },
     { title: "FWC: Fox squirrel profile (one to three pounds; buff to gray, in some instances black)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
