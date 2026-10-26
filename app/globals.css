@@ -409,10 +409,17 @@
   .logo-bat-fly-3 {
     animation: pw-bat-fly-3 6.5s ease-in-out infinite;
   }
-  .logo-bat-flap {
+  .bat-wing-r,
+  .bat-wing-l {
     transform-box: fill-box;
-    transform-origin: 46% 56%;
-    animation: pw-flap 0.42s ease-in-out infinite alternate;
+    animation: pw-wing-r 0.36s ease-in-out infinite alternate;
+  }
+  .bat-wing-r {
+    transform-origin: 0% 75%;
+  }
+  .bat-wing-l {
+    transform-origin: 100% 75%;
+    animation-name: pw-wing-l;
   }
   .logo-smoke {
     opacity: 0;
@@ -685,9 +692,20 @@ a:focus-visible .logo-live .logo-lid {
     transform: translateY(-2px) scale(1.06);
   }
 }
-@keyframes pw-flap {
+@keyframes pw-wing-r {
+  from {
+    transform: rotate(-32deg);
+  }
   to {
-    transform: scaleY(0.38);
+    transform: rotate(30deg) scaleX(0.9);
+  }
+}
+@keyframes pw-wing-l {
+  from {
+    transform: rotate(32deg);
+  }
+  to {
+    transform: rotate(-30deg) scaleX(0.9);
   }
 }
 @keyframes pw-bat-fly {
@@ -801,7 +819,8 @@ a:focus-visible .logo-live .logo-lid {
   .logo-bat-fly,
   .logo-bat-fly-2,
   .logo-bat-fly-3,
-  .logo-bat-flap,
+  .bat-wing-r,
+  .bat-wing-l,
   .logo-live {
     animation: none;
   }
