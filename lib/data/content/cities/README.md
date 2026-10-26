@@ -28,7 +28,7 @@ City and county pages share one layout, `countyPage()` in `../counties/build.ts`
 
 Kia, Oct 26: Google Ads communities too small for their own page (fewer than 6 distinct four-animal facts) get a short section on their county page instead, so there are no thin doorway pages.
 
-- On the county page, a section headed "Communities we serve", with an H3 per community.
+- On the county page, add `communities: [{ name: "Lutz", text: ["First sentence.", "Second sentence."] }, ...]` (and optionally `communitiesIntro`). `countyPage()` renders it as a "Communities we serve in <county>" section after the local cards, with an H3 per community. Each string in `text` becomes its own paragraph.
 - Under each H3, 2 to 4 sentences of sourced facts about rats, bats, squirrels or raccoons in that community (DOH alerts that name it, county code or trash rules that apply there, a park whose own page names the animal). Each community written differently: no shared sentence frames.
 - Their sources go in the county page's `sources` list.
 - No animal pages for these communities. They stay named in `towns` and in areas.ts as plain text.
