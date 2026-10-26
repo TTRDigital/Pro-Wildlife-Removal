@@ -7,12 +7,13 @@ const DOH2024 = "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies
 const DOH2025 = "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf";
 const CDC = "https://www.cdc.gov/rabies/prevention/bats.html";
 const FWC = "https://myfwc.com/conservation/you-conserve/wildlife/bats/";
+const FWCB = "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/";
 
 export const doBatsCarryRabiesFlorida: Post = {
   slug: "do-bats-carry-rabies-florida",
   title: "Do Bats in Florida Carry Rabies? What the State's Numbers Show",
   excerpt:
-    "Most bats don't have rabies, but some do, and Florida confirms dozens of rabid bats a year. Here's what Florida DOH's tables show, what FWC and the CDC say, and what to do after any contact.",
+    "Only a small share of bats have rabies, but some do, and Florida confirms dozens of rabid bats a year. Here's what Florida DOH's tables show, what FWC and the CDC say, and what to do after any contact.",
   date: "2026-10-26T00:00:00+00:00",
   modified: "2026-10-26T00:00:00+00:00",
   author: "Josh Holmberg",
@@ -22,16 +23,16 @@ export const doBatsCarryRabiesFlorida: Post = {
     ),
     h3("What the state's tables show"),
     table(
-      ["Year", "Rabid bats in the state table", "Rabid raccoons in the state table"],
+      ["Year", "Rabid bats (DOH state total)", "Rabid raccoons (DOH state total)"],
       ["2024", "30", "49"],
       ["2025", "42", "43"],
     ),
     p(
-      `These counts come from Florida DOH's confirmed rabid animals by county, January 1 to December 31 of each year ([DOH 2024](${DOH2024}), [DOH 2025](${DOH2025})). Bats found through surveillance testing aren't in these totals; each table notes them in a footnote. In our area, Hillsborough's 2025 table listed four rabid bats among six rabid animals.`,
+      `These counts come from Florida DOH's confirmed rabid animals by county, January 1 to December 31 of each year ([DOH 2024](${DOH2024}), [DOH 2025](${DOH2025})). Bats found through surveillance testing aren't in these totals; each table notes them in a footnote. DOH's 2024 state total row lists 30 bats and 49 raccoons; its county rows add up to 29 and 50. In our area, Hillsborough's 2025 table listed four rabid bats among six rabid animals.`,
     ),
     h3("Why the numbers aren't the whole picture"),
     p(
-      `The tables count animals that were tested, and testing usually follows a possible exposure to a person or pet, so they don't show how many bats in Florida carry rabies. FWC puts the share very low: perhaps one among every few hundred bats across Florida's bat populations ([FWC](${FWC})). Florida DOH still names bats, with raccoons, as the main wildlife sources, usually spread through bites ([Florida DOH](${DOH})).`,
+      `Apart from the footnoted surveillance animals, DOH says every animal in these tables potentially exposed people or owned or domestic animals, so they don't show how many bats in Florida carry rabies. FWC puts the share very low: perhaps one among every few hundred bats across Florida's bat populations ([FWC](${FWC})). Florida DOH still names bats, with raccoons, as the main wildlife sources, usually spread through bites ([Florida DOH](${DOH})).`,
     ),
     h3("What the CDC says to do"),
     ul(
@@ -42,7 +43,7 @@ export const doBatsCarryRabiesFlorida: Post = {
     ),
     h3("Bats living in the house"),
     p(
-      "A colony in the attic is a reason to keep bats and people apart, not to panic. Bats have to be removed by exclusion, and FWC bans exclusion during maternity season, April 16 to August 14. See [who to call about a bat](/blog/who-to-call-for-bat-removal/), [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat removal](/services/bat-removal/), or call (727) 594-7705.",
+      "A colony in the attic is a reason to keep bats and people apart, not to panic. It's illegal to kill bats in Florida, so FWC points to exclusion, and FWC says exclusion is illegal during maternity season, April 16 to August 14 ([FWC](${FWCB})). See [who to call about a bat](/blog/who-to-call-for-bat-removal/), [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat removal](/services/bat-removal/), or call (727) 594-7705.",
     ),
   ),
   faq: [
@@ -52,7 +53,7 @@ export const doBatsCarryRabiesFlorida: Post = {
     ),
     faq(
       "How many rabid bats does Florida find a year?",
-      "Florida DOH's tables listed 30 rabid bats in 2024 and 42 in 2025, not counting bats found through surveillance testing, which are footnoted separately.",
+      "Florida DOH's tables listed about 30 rabid bats in 2024 and 42 in 2025, not counting bats found through surveillance testing, which are footnoted separately.",
     ),
     faq(
       "What should I do if a bat touched me?",
@@ -70,9 +71,10 @@ export const doBatsCarryRabiesFlorida: Post = {
   },
   sources: [
     { title: "Florida DOH: Rabies (main wildlife sources in Florida are raccoons and bats; typically spread through bites)", url: DOH },
-    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (state table: 30 bats, 49 raccoons; surveillance bats footnoted, not in the table)", url: DOH2024 },
+    { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (state total row: 30 bats, 49 raccoons; county rows sum to 29 and 50; surveillance bats footnoted, not in the table; other results potentially exposed humans or owned or domesticated animals)", url: DOH2024 },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (state table: 42 bats, 43 raccoons; Hillsborough: 4 bats of 6 rabid animals; surveillance bats footnoted)", url: DOH2025 },
     { title: "FWC: Bats (rabies affects a very small portion of bats, perhaps one among every few hundred bats across Florida's bat populations)", url: FWC },
+    { title: "FWC: Bats in buildings (illegal to kill bats; exclusion; exclusion illegal during maternity season, April 16 to August 14)", url: FWCB },
     { title: "CDC: Preventing rabies from bats (avoid touching bats; bites can be tiny; wash wounds and get medical help; talk to your health department; contact animal control or the health department to capture a bat found in the home for testing; don't release it until you talk with a public health expert)", url: CDC },
   ],
   clientQuestions: [],
