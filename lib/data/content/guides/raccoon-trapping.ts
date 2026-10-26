@@ -25,12 +25,12 @@ export const raccoonTrapping: Post = {
     ul(
       "**Is it a mother?** UF/IFAS says most Florida raccoons are born in March and April. Trapping a mother can leave kits in the attic. If the raccoon is in a building in spring, find out first.",
       "**Can you close the way in instead?** UF/IFAS calls exclusion and prevention the cheapest, simplest control. Trapping without sealing just makes room for the next raccoon.",
-      "**What will you do with it?** Decide before you catch it. Florida gives you three options, below, and none of them is a drive to the woods.",
+      "**What will you do with it?** Decide before you catch it. Florida gives you three options, below, and dropping it off in a park or the woods without the landowner's written permission isn't one of them.",
     ),
     h3("What Florida allows"),
     table(
       ["Rule", "What it means for you"],
-      ["Legal traps", "Live (cage) traps and locking wire snares. Leghold and body-gripping traps need an FWC steel trap permit."],
+      ["Legal traps", "Live (cage) traps and locking wire snares. Leghold and body-gripping (steel) traps aren't legal without an FWC permit, and UF/IFAS notes FWC hasn't issued those permits for raccoons."],
       ["Checking", "At least once every 24 hours."],
       ["After capture", "Release or humane euthanasia within 24 hours of capture or inspection."],
       ["Where to release", "On the property where it was caught, or on 40+ contiguous acres in the same county with the owner's written permission. Not on public or private land without written permission."],
@@ -46,7 +46,7 @@ export const raccoonTrapping: Post = {
     p("Set the trap on the raccoon's regular path or where it's been feeding, somewhere you can see it easily. UF/IFAS advises against setting traps in attics or under mobile homes unless it's absolutely necessary and you can check them at least daily."),
     h3("Why relocation is a bad idea"),
     p(
-      "Moving a raccoon feels kind, but UF/IFAS recommends humane euthanasia over relocation, because moved raccoons can spread disease to the raccoons already living there and often cause new problems. FWC's raccoon roundworm guidance also says not to relocate raccoons. If you do release one, Florida's rules on where are strict, and UF/IFAS notes a raccoon let go too close to home will likely come back.",
+      "Moving a raccoon feels kind, but UF/IFAS recommends humane euthanasia over relocation, because moved raccoons can spread disease to the raccoons already living there and often cause new problems. FWC's raccoon roundworm page also tells wildlife rehabilitators not to relocate raccoons. If you do release one, Florida's rules on where are strict.",
     ),
     h3("Step by step"),
     ul(
@@ -62,7 +62,7 @@ export const raccoonTrapping: Post = {
       "**Trapping a mother in spring** and leaving kits in the attic.",
       "**Setting a trap and forgetting it.** Florida's 24-hour check isn't optional, and a raccoon left in the sun suffers.",
       "**Releasing it in a park.** That's illegal without the land manager's written permission.",
-      "**Sealing the hole while the raccoon is still inside.** UF/IFAS says chasing a raccoon out and sealing the entry often causes more damage because the raccoon returns.",
+      "**Chasing it out and just sealing the hole.** UF/IFAS says this often causes more damage, because the raccoon, especially a mother with young, comes back and forces its way in.",
       "**Skipping the repair.** A trapped raccoon is soon replaced by the next one if the way in stays open.",
     ),
     h3("Safety"),
@@ -75,7 +75,7 @@ export const raccoonTrapping: Post = {
     p("Call if the raccoon is in the attic, walls or chimney, if there may be kits, if you don't want to handle the release or euthanasia, or if the raccoon keeps beating the trap. Trapping is only part of the job: the entry has to be repaired too. See [raccoon removal](/services/raccoon-removal/) and [raccoons in the attic](/services/raccoons-in-attic/), or call (727) 594-7705, 24/7."),
     h3("Common questions"),
     h3("Can I relocate a raccoon in Florida?"),
-    p("Only to land the rules allow: on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Parks and other public land are off limits without written permission. UF/IFAS and FWC both discourage relocating raccoons."),
+    p("Only to land the rules allow: on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Parks and other public land are off limits without written permission. UF/IFAS recommends against relocating raccoons."),
     h3("How often do I have to check a raccoon trap?"),
     p("At least once every 24 hours, under Florida's nuisance wildlife rule."),
     h3("What if I catch a cat or an opossum instead?"),
@@ -87,9 +87,9 @@ export const raccoonTrapping: Post = {
       "How to trap a nuisance raccoon in Florida legally: trap type, bait, 24-hour checks, where a raccoon can be released, why relocation is discouraged, and when to call a pro.",
   },
   sources: [
-    { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births March-April; exclusion cheapest; legal traps; single-door traps; bait; trap placement; 24-hour checks; release or euthanize within 24 hours; non-targets released at site; euthanasia recommended over relocation; released raccoons may return; 68A-4.001)", url: UW033 },
+    { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births March-April; exclusion cheapest; legal traps; single-door traps; bait; trap placement; 24-hour checks; release or euthanize within 24 hours; non-targets released at site; euthanasia recommended over relocation; 68A-4.001). Used for trap and bait advice; its release section is out of date (relocation permit, 3 miles), so release rules follow FWC", url: UW033 },
     { title: "FWC: FAQs, nuisance wildlife (24-hour checks; release on same property or 40+ contiguous acres in same county with written permission; no release on public or private land without written permission; non-targets released at capture site)", url: FAQS },
-    { title: "FWC: Raccoon roundworm (do not relocate raccoons; gloves)", url: "https://myfwc.com/research/wildlife/health/raccoon-roundworm/" },
+    { title: "FWC: Raccoon roundworm (tells wildlife rehabilitators not to relocate raccoons; gloves)", url: "https://myfwc.com/research/wildlife/health/raccoon-roundworm/" },
     { title: "FWC: Detriments to feeding wildlife (68A-4.001)", url: "https://myfwc.com/conservation/you-conserve/wildlife/feeding/" },
     { title: "Florida Department of Health: Rabies (raccoons and bats main wildlife sources; wash bites)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     TRAP_RULES_SOURCE,

@@ -19,7 +19,7 @@ export const floridaTrappingRules: Post = {
   image: images.post1776984844429,
   body: rich(
     p(
-      "**The short answer:** Florida property owners can trap most nuisance wildlife without telling FWC. Check traps at least every 24 hours. Native animals can only be released on the same property or on 40+ contiguous acres in the same county with written permission. Non-native animals can't be released, bats can't be trapped, and new rules start December 31, 2026.",
+      "**The short answer:** Florida property owners can trap most nuisance wildlife without telling FWC. Check traps at least every 24 hours. Native animals can only be released on the same property or on 40+ contiguous acres in the same county with written permission. Non-natives can't be released, bat colonies can only be excluded, and new rules start December 31, 2026.",
     ),
     h3("When an animal counts as a nuisance"),
     p(`FWC defines nuisance wildlife as an animal that causes, or is about to cause, property damage, threatens public safety, or causes an annoyance in, under or on a building. That's the trigger for the rules below ([FWC](${FAQS})).`),
@@ -32,7 +32,7 @@ export const floridaTrappingRules: Post = {
     h3("The rules at a glance"),
     table(
       ["Rule", "What it says"],
-      ["Methods", "Live traps or snares, or firearms during daylight where they're allowed. Steel traps need an FWC permit. Shooting certain animals at night needs a Gun and Light at Night Permit and a hunting license."],
+      ["Methods", "Live traps or snares, or firearms during daylight where they're allowed. Steel traps need an FWC permit. Shooting certain animals at night, for crop or livestock damage, needs a Gun and Light at Night Permit and a hunting license."],
       ["Checks", "Every trap and snare inspected at least once every 24 hours."],
       ["After capture", "Released legally or humanely euthanized within 24 hours of capture or inspection."],
       ["Release: native animals", "On the property where it was caught, or on 40+ contiguous acres in the same county with the landowner's written permission. Never on public or private land without written permission."],
@@ -45,7 +45,7 @@ export const floridaTrappingRules: Post = {
     p(`FWC's trapping rules page also says the time to release or put down an animal taken off site drops from 24 hours to 12 ([FWC](${RULES})).`),
     h3("Animals you can't trap"),
     ul(
-      "**Bats.** FWC says capturing and relocating bats is illegal, and so are poison and fumigants. Bats leave a building only by exclusion, from August 15 to April 15. See [bat removal](/services/bat-removal/).",
+      "**Bats.** FWC says capturing and relocating bats is illegal, and so are poison and fumigants. Colonies leave a building only by exclusion, from August 15 to April 15 (FWC allows a single bat in the living space to be caught and let outside any time). See [bat removal](/services/bat-removal/).",
       "**Protected species.** FWC notes many species can't be taken as nuisance wildlife. The eastern indigo snake is federally threatened, and the Big Cypress fox squirrel can't be trapped without a permit.",
       "**Alligators.** Nuisance alligators go to FWC's hotline, 866-FWC-GATOR (866-392-4286), not a backyard trap.",
       "**Bears.** Report bear conflicts to your FWC regional office.",
@@ -53,12 +53,12 @@ export const floridaTrappingRules: Post = {
     h3("Animal by animal"),
     table(
       ["Animal", "Native?", "What the rules mean"],
-      ["Raccoon", "Yes", "Release on site or on 40+ acres in the same county with permission; FWC's roundworm guidance says not to relocate raccoons"],
+      ["Raccoon", "Yes", "Release on site or on 40+ acres in the same county with permission; UF/IFAS recommends euthanasia over relocation"],
       ["Opossum", "Yes", "Release on site or on 40+ acres in the same county with permission, or humane euthanasia"],
       ["Gray and flying squirrels", "Yes", "Can be taken as nuisance animals with cage traps"],
       ["Armadillo", "Treated as native", "Release on site or on 40+ acres in the same county with permission; FWC calls relocation seldom biologically sound"],
       ["Roof and Norway rats", "No", "Can't be released anywhere"],
-      ["Bats", "Yes", "Never trapped; exclusion only"],
+      ["Bats", "Yes", "Exclusion only (a single bat in the living space can be caught and let outside any time)"],
     ),
     h3("Getting written permission for a release site"),
     p("If you plan to release a native animal anywhere but where you caught it, Florida requires the landowner's written permission, and the land must be at least 40 contiguous acres in the same county. Before you trap, get that permission in writing from the owner, keep it with you, and make sure you know the county line. Public land needs written permission from whoever manages it."),
@@ -99,7 +99,8 @@ export const floridaTrappingRules: Post = {
     { title: "FWC: Living with Squirrels (gray and flying squirrels as nuisance; cage traps; Big Cypress fox squirrel permit)", url: "https://myfwc.com/media/tydhegay/livingwithsquirrels.pdf" },
     { title: "FWC: Statewide Nuisance Alligator Program (866-FWC-GATOR)", url: "https://myfwc.com/wildlifehabitats/wildlife/alligator/snap/" },
     { title: "FWC: Living with bears (report conflicts to the regional office)", url: "https://myfwc.com/wildlifehabitats/wildlife/bear/living/" },
-    { title: "FWC: Raccoon roundworm (do not relocate raccoons)", url: "https://myfwc.com/research/wildlife/health/raccoon-roundworm/" },
+    { title: "UF/IFAS EDIS WEC-34 (UW033): euthanasia recommended over relocation for raccoons", url: "https://ask.ifas.ufl.edu/publication/UW033" },
+    { title: "FWC and UF/IFAS: A guide to living with bats (a single bat in the living space can be removed any time of year)", url: "https://myfwc.com/media/nu2fvsvj/livingwithbats.pdf" },
     { title: "FWC: Armadillo profile (relocation seldom biologically sound) and Living with Armadillos (naturalized native)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/armadillo/" },
     { title: "UF/IFAS EDIS WEC-34 (UW033): never discharge a firearm inside city limits or in residential areas", url: "https://ask.ifas.ufl.edu/publication/UW033" },
     { title: "UF/IFAS Extension Sarasota County: glue traps inhumane; rodenticides last resort in tamper-resistant stations", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },

@@ -26,7 +26,7 @@ export const batRemovalCost: Post = {
       "[PLACEHOLDER: ask the client: can the site show a typical price range for bat exclusion, and for guano cleanup?]",
     ),
     h3("What changes the price of bat removal"),
-    p("Bats can't be trapped or poisoned in Florida, so every bat job is an exclusion: one-way devices on the exits, then sealing. These are the things that make one exclusion cost more than another."),
+    p("Bats can't be trapped or poisoned in Florida, so every colony in a building is removed by exclusion: one-way devices on the exits, then sealing. These are the things that make one exclusion cost more than another."),
     table(
       ["Factor", "Why it changes the price"],
       ["Number of active exits", "Each exit the bats use needs a one-way device, and FWC requires the devices to stay up at least four nights."],
@@ -50,7 +50,7 @@ export const batRemovalCost: Post = {
     ),
     p("[PLACEHOLDER: ask the client: what your bat job includes as standard (inspection fee, follow-up visit, warranty on the sealing) and what is priced separately]"),
     h3("Doing it yourself versus calling a pro"),
-    p(`Florida's rules leave little room for do-it-yourself bat removal. FWC says it's illegal to kill bats, poison, relocation and fumigants are illegal to use on bats, and bats sealed inside a building die there ([FWC](${BUILDINGS})). The savings from a store-bought device disappear fast if a missed opening lets the colony back in, or if bats end up trapped in a wall.`),
+    p(`Florida's rules leave little room for do-it-yourself bat removal. Florida law protects bats: FWC says harming them isn't allowed, poison, relocation and fumigants are illegal to use on bats, and bats sealed inside a building die there ([FWC](${BUILDINGS})). The savings from a store-bought device disappear fast if a missed opening lets the colony back in, or if bats end up trapped in a wall.`),
     p("What you can do yourself: watch the roofline at dusk to see where the bats come out, and keep the attic door closed. That information also makes the inspection quicker."),
     h3("Cleanup: the part of the bill people forget"),
     p(
@@ -60,7 +60,7 @@ export const batRemovalCost: Post = {
     p("Bat quotes vary because houses vary. Ask these questions, of us or anyone else, so you're comparing the same job:"),
     ul(
       "**Does it cover every opening,** or only the ones the bats use today? Sealing only the obvious gap just moves the colony.",
-      "**When will the exclusion happen?** Any date between April 16 and August 14 should come with an FWC permit.",
+      "**When will the exclusion happen?** Exclusion between April 16 and August 14 is illegal without an FWC permit. If someone offers it, ask to see the permit.",
       "**How long do the one-way devices stay up?** FWC's minimum is four nights with overnight lows forecast at 50°F or warmer.",
       "**Is guano cleanup included,** or priced after the bats are out?",
       "**What happens if bats get back in?** Ask what the follow-up covers and for how long.",
@@ -96,7 +96,7 @@ export const batRemovalCost: Post = {
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; four nights; 50°F; permits during the season)", url: RELEASE },
-    { title: "FWC: Bats in buildings (illegal to kill; poison, relocation and fumigants illegal; sealed-in bats die; guano can be left in dry unused spaces; CDC respirator advice)", url: BUILDINGS },
+    { title: "FWC: Bats in buildings (harming not allowed; poison, relocation and fumigants illegal; sealed-in bats die; guano can be left in dry unused spaces; CDC respirator advice)", url: BUILDINGS },
     { title: "FWC and UF/IFAS: A guide to living with bats (13 resident species; signs: dusk and dawn, light brown stains, black dry guano)", url: "https://myfwc.com/media/nu2fvsvj/livingwithbats.pdf" },
     { title: "FWC: Bats (Brazilian free-tailed bat common in buildings; bat houses not a substitute for exclusion)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/" },
   ],
