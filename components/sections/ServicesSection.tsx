@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import type { Service, ServicesSection as Svc } from "@/lib/types";
 import { Photo } from "@/components/ui/Photo";
 import { LoopVideo } from "@/components/ui/LoopVideo";
+import { NearView } from "@/components/ui/NearView";
 import { animalVideos } from "@/lib/data/videos";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
@@ -51,7 +52,12 @@ export function ServiceTile({ s, index }: { s: Service; index: number }) {
       style={{ ["--i" as string]: index % 5 }}
     >
       <div className="photo-look relative aspect-[4/3] overflow-hidden bg-navy-3">
-        {img ? <Photo image={img} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.08]" /> : null}
+        {/* Fetched only as the tile nears the screen, so the tiles don't compete with the hero before first paint (TTR-846). */}
+        {img ? (
+          <NearView>
+            <Photo image={img} sizes="(min-width: 1024px) 240px, (min-width: 640px) 33vw, 50vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.08]" />
+          </NearView>
+        ) : null}
         {/* No poster: the optimized photo above shows through until the clip plays, so the full JPG is not downloaded too. */}
         {video ? <LoopVideo src={video} /> : null}
       </div>
