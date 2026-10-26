@@ -35,7 +35,7 @@ export function RatingChip({ settings, className = "", light = false }: { settin
 const teamPhotos: Img[] = [images.certifiedWildlifeRemovalExpertsInTampaFl, images.prowildlifeRemovalAgentHoldingAnIguanaa];
 
 /** From the client-approved Google Ads landing pages. */
-const perks = ["Same-Day Service", "Free Inspection"];
+export const perks = ["Same-Day Service", "Free Inspection"];
 
 /**
  * Page header in the service-page layout: soft tint with a light glow, the H1 with its blue phrase, a short lede, the call
