@@ -9,6 +9,7 @@ const CHIN_FWC = "https://myfwc.com/recreation/lead/chinsegut/";
 const NONGAME = "https://myfwc.com/hunting/regulations/nongame/";
 const GOOD_NEIGHBOR = "https://www.cityofbrooksville.us/AgendaCenter/ViewFile/Agenda/_04252024-260";
 const BN9 = "https://baynews9.com/fl/tampa/news/2018/06/01/hernando-sheriffs-office-brooksville-enforcement";
+const DBPR = "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/";
 const SHERIFF = "https://www.hernandosheriff.org/AnimalServices/";
 const COLLECTION = "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/";
 const DOH_RABIES = "https://hernando.floridahealth.gov/programs-and-services/environmental-public-health/rabies-surveillance/";
@@ -48,6 +49,7 @@ export const brooksville = countyPage({
     { icon: "leaf", title: "Free-tailed bats at Chinsegut", text: p("The Great Florida Birding and Wildlife Trail lists a large colony of Brazilian free-tailed bats at FWC's Chinsegut Wildlife and Environmental Area on Lake Lindsey Road. At dusk, those bats fan out over the town.") },
     { icon: "map-pin", title: "Fox squirrels, hands off", text: p("FWC names fox squirrels among the wildlife at Chinsegut. Under FWC's nongame rules, fox squirrels may not be taken or pursued, so a fox squirrel in a Brooksville yard is not a removal job.") },
     { icon: "home", title: "No feeding on the trail", text: p("The city's management plan for the Good Neighbor Trail to Russell Street Station says Brooksville will prohibit feeding raccoons, squirrels and other wild animals there, and DOH-Hernando advises people not to feed wild animals.") },
+    { icon: "building", title: "Rodent closures on Cortez and Jefferson", text: p("State restaurant inspectors shut food businesses with Brooksville addresses 17 times from 2022 through 2025 over rodent activity, by our count of DBPR's closure reports: 10 of them in 2023. Seven were on Cortez Boulevard and four on East Jefferson Street. These are restaurant records, not home reports.") },
     { icon: "search", title: "Raccoon rabies next door", text: p("On June 12, 2026, DOH-Hernando put a rabies alert on the Norvell Road area of Spring Hill after a raccoon attacked an unvaccinated cat that later tested positive.") },
     { icon: "wrench", title: "Bats on FWC's calendar", text: p("FWC makes bat exclusion illegal during maternity season, April 16 to August 14. A colony in a Brooksville attic or church eave has to wait for mid-August.") },
   ],
@@ -96,6 +98,7 @@ export const brooksville = countyPage({
     { title: "FWC: Chinsegut Wildlife and Environmental Area (gopher tortoises, fox squirrels and wading birds among the wildlife)", url: CHIN_FWC },
     { title: "FWC: Nongame wildlife regulations (fox squirrels may not be taken or pursued)", url: NONGAME },
     { title: "City of Brooksville: Good Neighbor Trail to Russell Street Station Management Plan (about 2000), attached to the April 25, 2024 advisory committee agenda (city will prohibit feeding raccoons, squirrels and other wild animals)", url: GOOD_NEIGHBOR },
+    { title: "Florida DBPR: Hotels and restaurants reports archive, 2022-2025 emergency order sheets (Business City Brooksville, conditions naming rodents: 17 closures at 14 businesses; 2022 1, 2023 10, 2024 2, 2025 4; Cortez Blvd 7, E Jefferson St 4; tally by Owen, Oct 26, 2026)", url: DBPR },
     { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
     { title: "Hernando County Sheriff's Office: Animal Services ((352) 796-5062; pet services; pet services)", url: SHERIFF },
     { title: "Bay News 9, June 1, 2018: Hernando sheriff takes over Brooksville law enforcement (June 2018)", url: BN9 },
