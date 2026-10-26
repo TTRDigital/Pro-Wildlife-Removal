@@ -36,7 +36,7 @@ function animalFor(path: string) {
  * visitor scrolls down, the page's animal (the rat on most pages, the bat on bat pages, and so
  * on) dashes from the right edge to the left, a tech pops up in the corner with a catch pole,
  * drops the loop over it and lifts it away, then ducks back down. Flying ones (bats, bees) dart
- * about first, then drop into the loop. Once per visit for each animal. It never blocks taps, is
+ * about first, then drop into the loop. Once each time the page is opened. It never blocks taps, is
  * hidden from screen readers, and does not run for people who ask for less motion.
  */
 export function AnimalCatch() {
@@ -55,20 +55,13 @@ export function AnimalCatch() {
       window.matchMedia("(prefers-reduced-motion: reduce)").matches
     )
       return;
-    const KEY = `pw-caught-${kind}`;
+    // Plays once each time an animal's page is opened (Kia: it should be there whenever you look).
     let done = false;
-    try {
-      done = sessionStorage.getItem(KEY) === "1";
-    } catch {}
-    if (done) return;
     let busy = false;
 
     const play = async () => {
       busy = true;
       done = true;
-      try {
-        sessionStorage.setItem(KEY, "1");
-      } catch {}
       setShow(true);
       await new Promise((r) =>
         requestAnimationFrame(() => requestAnimationFrame(r)),
