@@ -10,14 +10,14 @@ export const springHill = countyPage({
   name: "Spring Hill",
   county: "Hernando",
   order: 27,
-  phone: { label: "Call 352-612-3336", href: "tel:+13526123336" },
+  phone: { label: "Call 352-675-3338", href: "tel:+13526753338" },
   eyebrow: "WILDLIFE REMOVAL IN SPRING HILL",
-  summary: "Wildlife removal in Spring Hill, FL: raccoons, rats, squirrels, bats, snakes, armadillos and more, on the Hernando line.",
-  heroText: "Hernando County's biggest community, with the Weekiwachee Preserve on its western edge. Call the Hernando line any hour.",
+  summary: "Wildlife removal in Spring Hill, FL: raccoons, rats, squirrels, bats, snakes, armadillos and more. Call 352-675-3338.",
+  heroText: "Hernando County's biggest community, with the Weekiwachee Preserve on its western edge. Call 352-675-3338 any hour.",
   answerHeading: "Who handles wildlife removal in Spring Hill?",
   answer:
-    "Spring Hill isn't a city, so public animal services come from the Hernando County Sheriff's Office, and wildlife in or under your home is a job for a private company. Pro Wildlife Removal handles raccoons, rats, squirrels, bats, snakes, opossums, armadillos and bees here. Call 352-612-3336, 24/7.",
-  points: ["Hernando line 352-612-3336", "Unincorporated community", "Next to Weekiwachee Preserve", "Open 24/7"],
+    "Spring Hill isn't a city, so public animal services come from the Hernando County Sheriff's Office, and wildlife in or under your home is a job for a private company. Pro Wildlife Removal handles raccoons, rats, squirrels, bats, snakes, opossums, armadillos and bees here. Call 352-675-3338, 24/7.",
+  points: ["Call 352-675-3338", "Unincorporated community", "Next to Weekiwachee Preserve", "Open 24/7"],
   townsHeading: "Spring Hill and nearby",
   townsIntro: "With about 113,600 people at the 2020 Census, Spring Hill is an unincorporated community, larger than any city in Hernando County.",
   towns: [
@@ -65,16 +65,16 @@ export const springHill = countyPage({
     ),
     faq(
       "How quickly can you get to Spring Hill?",
-      "Calls are answered 24/7 on the Hernando line.",
+      "Calls to 352-675-3338 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Spring Hill]",
     ),
   ],
   ctaHeading: "Wildlife problem in Spring Hill?",
-  ctaText: "Call the Hernando line, 352-612-3336, any hour.",
+  ctaText: "Call 352-675-3338. Someone answers at any hour.",
   seo: {
-    title: "Wildlife Removal in Spring Hill, FL | Call 352-612-3336 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Spring Hill, FL | Call 352-675-3338 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Spring Hill, FL: raccoons, rats, squirrels, bats, snakes and armadillos, next to the Weekiwachee Preserve. Who to call for what. Call 24/7: 352-612-3336.",
+      "Wildlife removal in Spring Hill, FL: raccoons, rats, squirrels, bats, snakes and armadillos, next to the Weekiwachee Preserve. Who to call for what. Call 24/7: 352-675-3338.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Spring Hill CDP, Hernando County, 113,568)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },
