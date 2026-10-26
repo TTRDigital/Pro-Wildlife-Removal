@@ -11,17 +11,17 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Pasco County | Nia | L | L | L | L |  |
 | Pinellas County | Rhea | L | L | H | L | squirrel held: too few local squirrel facts |
 | Hillsborough County | Owen | F | F | F | F |  |
-| Hernando County | Nia | P | P | F | F | rat and bat: fixes pending, may be held (no Hernando rat facts yet) |
-| Citrus County | Nia | N | N | N | N |  |
-| Sumter County | Nia | N | N | N | N |  |
+| Hernando County | Nia | F | F | F | F | fact-check fixes applied (32be25a); back with Ben |
+| Citrus County | Nia | N | N | H | N | squirrel held: under 6 local facts |
+| Sumter County | Nia | H | N | H | N | rat and squirrel held: under 6 local facts |
 | Polk County | Owen | L | L | L | L |  |
 | Tampa | Cole | L | L | L | L |  |
 | St. Petersburg | Rhea | E | H | N | F | bat held in fact check: needs more local facts |
 | Clearwater | Rhea | E | N | N | H | raccoon held in fact check: needs more local facts |
 | Spring Hill | Nia | E | N | N | L |  |
 | New Port Richey | Nia | E | S | S | L | bat, squirrel: nothing true and local on city or county pages |
-| Brooksville | Nia | E | H | H | L | bat, squirrel held: under 6 town facts |
-| Land O' Lakes | Nia | N | H | N | L | bat held: under 6 town facts |
+| Brooksville | Nia | E | F | F | L | bat and squirrel restored under the new town bar |
+| Land O' Lakes | Nia | N | F | N | L | bat restored under the new town bar |
 | Hudson | Nia | E | L | N | N |  |
 | Trinity | Nia | S | S | S | S | nothing local found; old rat page redirected |
 | Odessa | Nia | S | S | S | S | nothing local found |
@@ -37,12 +37,12 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Status | Rat | Bat | Squirrel | Raccoon | Total |
 |---|---|---|---|---|---|
 | live, fact-checked | 4 | 5 | 3 | 8 | 20 |
-| in bundle, in fact check | 1 | 1 | 2 | 4 | 8 |
-| fixes pending | 1 | 1 | 0 | 0 | 2 |
+| in bundle, in fact check | 2 | 4 | 3 | 4 | 13 |
+| fixes pending | 0 | 0 | 0 | 0 | 0 |
 | existing rat page | 9 | 0 | 0 | 0 | 9 |
-| held | 0 | 3 | 2 | 2 | 7 |
+| held | 1 | 1 | 3 | 2 | 7 |
 | skipped | 2 | 3 | 3 | 2 | 10 |
-| not started | 6 | 10 | 13 | 7 | 36 |
+| not started | 5 | 10 | 11 | 7 | 33 |
 | **all cells** | 23 | 23 | 23 | 23 | 92 |
 
 Out of scope here: the far-area pages (Orlando, Sarasota, Lady Lake, The Villages) wait on the client and get no new pages; The Villages' old rat page stays unlinked; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
