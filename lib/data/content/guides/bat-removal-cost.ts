@@ -22,7 +22,7 @@ export const batRemovalCost: Post = {
   image: images.batRemovalCostImageE1702083484199,
   body: rich(
     p(
-      "**The short answer:** bat removal in Florida is priced per house, not per bat. The cost depends on how many openings the colony uses, how high and hard they are to reach, how long the bats have been there and how much guano and insulation has to come out. Every job starts with an inspection. Call (727) 594-7705 to book one.",
+      "**The short answer:** bat removal in Florida is priced per house, not per bat. Cost depends on how many openings the colony uses, how hard they are to reach, how long the bats have been there and how much guano has to come out. It starts with an inspection: call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: can the site show a typical price range for bat exclusion, and for guano cleanup?]",
     ),
     h3("What changes the price of bat removal"),
@@ -56,6 +56,30 @@ export const batRemovalCost: Post = {
     p(
       "Guano builds up under the roost for as long as the colony stays. The CDC recommends a respirator in a confined space with bat droppings, and FWC notes that guano in a dry, unused space can usually be left alone. In a used attic, with ductwork and stored belongings, it usually comes out. That can range from a light cleanup to replacing all the insulation under the roost.",
     ),
+    h3("How to get an accurate quote"),
+    p("Bat quotes vary because houses vary. Ask these questions, of us or anyone else, so you're comparing the same job:"),
+    ul(
+      "**Does it cover every opening,** or only the ones the bats use today? Sealing only the obvious gap just moves the colony.",
+      "**When will the exclusion happen?** Any date between April 16 and August 14 should come with an FWC permit.",
+      "**How long do the one-way devices stay up?** FWC's minimum is four nights with overnight lows forecast at 50°F or warmer.",
+      "**Is guano cleanup included,** or priced after the bats are out?",
+      "**What happens if bats get back in?** Ask what the follow-up covers and for how long.",
+    ),
+    h3("Red flags"),
+    ul(
+      "**Anyone offering to trap, poison or fumigate bats.** FWC says relocation, poison and fumigants are illegal on bats in Florida.",
+      "**An exclusion booked in June or July without a permit.** That's maternity season, when pups can't fly yet.",
+      "**Sealing the holes the same day.** Bats that can't get out die inside the building, FWC warns. Sealing comes after the devices have done their job.",
+    ),
+    h3("Signs you're dealing with a large colony"),
+    p("Bigger colonies take longer to clear and leave more guano. FWC's brochure says to look for bats at dusk or dawn as they leave or return, light brown stains around the openings they use, and black, dry guano under the roost. Many bats leaving several gaps at sunset, or a deep pile of guano on the insulation, usually means a bigger job. Florida has 13 resident bat species, and FWC describes the Brazilian free-tailed bat as common in buildings."),
+    h3("Ways to keep the cost down"),
+    ul(
+      "**Call early.** A young roost leaves less guano behind than one that has been there for years.",
+      "**Plan around the calendar.** Book the inspection in spring or summer so the exclusion can start soon after August 15.",
+      "**Don't block the exits yourself.** Trapped bats mean dead bats in the walls and a second bill for odor and removal.",
+      "**Put up a bat house before the exclusion.** FWC suggests one close to the roost, in the bats' flight path, on a pole or building. It doesn't replace exclusion, but gives the colony somewhere to go.",
+    ),
     h3("Common questions"),
     h3("Is bat removal cheaper in winter?"),
     p("Not necessarily cheaper, but easier to schedule. Exclusion is allowed from August 15 to April 15, as long as overnight lows are forecast at 50°F or warmer during the exclusion."),
@@ -73,6 +97,8 @@ export const batRemovalCost: Post = {
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; four nights; 50°F; permits during the season)", url: RELEASE },
     { title: "FWC: Bats in buildings (illegal to kill; poison, relocation and fumigants illegal; sealed-in bats die; guano can be left in dry unused spaces; CDC respirator advice)", url: BUILDINGS },
+    { title: "FWC and UF/IFAS: A guide to living with bats (13 resident species; signs: dusk and dawn, light brown stains, black dry guano)", url: "https://myfwc.com/media/nu2fvsvj/livingwithbats.pdf" },
+    { title: "FWC: Bats (Brazilian free-tailed bat common in buildings; bat houses not a substitute for exclusion)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/" },
   ],
   clientQuestions: [
     "Can the site show a typical price range for bat exclusion, and for guano cleanup?",

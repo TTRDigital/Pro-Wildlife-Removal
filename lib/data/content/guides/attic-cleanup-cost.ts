@@ -21,7 +21,7 @@ export const atticCleanupCost: Post = {
   image: images.post1776984146059,
   body: rich(
     p(
-      "**The short answer:** the cost of an animal in the attic has three parts: getting the animal out, sealing the way in, and cleaning up. Which animal it is, how long it lived there and how much insulation it ruined decide most of the bill. Every job starts with an inspection. Call (727) 594-7705 to book one.",
+      "**The short answer:** an animal in the attic costs three things: getting it out, sealing the way in, and cleaning up. Which animal it is, how long it stayed and how much insulation it ruined decide most of the bill. Book an inspection at (727) 594-7705.",
       "[PLACEHOLDER: ask the client: can the site show typical price ranges for removal, sealing and attic cleanup?]",
     ),
     h3("The three parts of the bill"),
@@ -57,6 +57,29 @@ export const atticCleanupCost: Post = {
     ),
     h3("Don't skip the sealing"),
     p("Paying for removal and cleanup without sealing is the most expensive mistake. The gap stays open, and the next animal moves into a freshly cleaned attic. Sealing every opening is what makes the rest of the bill worth it."),
+    h3("Signs the attic needs more than a quick cleanup"),
+    ul(
+      "**Droppings spread across the insulation,** not just in one corner. Rats use the same paths every night, so long-term activity shows as trails and scattered droppings.",
+      "**A latrine.** Raccoons go in the same spot again and again, and the CDC advises removing their droppings promptly.",
+      "**A deep pile of guano** under a bat roost.",
+      "**Flattened or tunneled insulation,** where animals have walked, nested and raised young.",
+      "**A smell that reaches the rooms below,** or chewed wires near the entry.",
+    ),
+    h3("How to get an accurate quote"),
+    ul(
+      "**Ask for removal, sealing and cleanup as separate lines,** so you can see where the money goes.",
+      "**Ask whether every opening is included,** not just the one the animal used.",
+      "**Ask how much insulation will be replaced,** and how they decide.",
+      "**Ask how they handle droppings safely.** The CDC's rule is never to sweep or vacuum rodent droppings dry.",
+      "**Ask what happens if the animal comes back.**",
+    ),
+    h3("Ways to keep the cost down"),
+    ul(
+      "**Act at the first sign.** The longer an animal stays, the more insulation it ruins.",
+      "**Trim branches back from the roof.** FWC recommends it for squirrels, and UF/IFAS Extension advises it for roof rats.",
+      "**Secure trash, pet food and fallen fruit.** FWC lists these among the things that draw opossums and raccoons to a house.",
+      "**Check the roofline after storms.** UF/IFAS Extension advises repairing storm damage promptly so animals don't find the gap first.",
+    ),
     h3("Common questions"),
     h3("Does homeowners insurance cover attic cleanup after animals?"),
     p("It depends on your policy and on the animal. Ask your insurer before work starts, and keep the inspection report and photos."),
@@ -80,6 +103,7 @@ export const atticCleanupCost: Post = {
     { title: "FWC: Living with Squirrels (litters spring and autumn; chewing damage among most common complaints)", url: "https://myfwc.com/media/tydhegay/livingwithsquirrels.pdf" },
     { title: "FWC: Living with Opossums (release rules; close openings once all are out)", url: "https://myfwc.com/media/28161/livingwithopossums.pdf" },
     { title: "FWC: FAQs, nuisance wildlife (release on same property or 40+ acres same county with written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
+    { title: "UF/IFAS Extension Sarasota County: What to do about rodents (trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
   ],
   clientQuestions: [
     "Can the site show typical price ranges for removal, sealing and attic cleanup?",

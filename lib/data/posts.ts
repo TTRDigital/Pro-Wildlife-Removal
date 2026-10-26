@@ -3,6 +3,8 @@ import { images } from "./images.ts";
 import type { Post } from "../types";
 import { batRemovalCost } from "./content/guides/bat-removal-cost.ts";
 import { atticCleanupCost } from "./content/guides/attic-cleanup-cost.ts";
+import { raccoonTrapping } from "./content/guides/raccoon-trapping.ts";
+import { floridaTrappingRules } from "./content/guides/florida-trapping-rules.ts";
 
 export const fallbackPosts: Post[] = [
  {
@@ -56714,5 +56716,8 @@ export const fallbackPosts: Post[] = [
    "title": "Identifying Rat Infestations: Key Signs Your Home May Have Rats",
    "description": "Think you have rats in your house? Pro Wildlife's blog outlines the top 6 signs of rat infestation so you can identify and address the issue. Read more!"
   }
- }
+ },
+ // New guides (Cole, Oct 2026)
+ raccoonTrapping,
+ floridaTrappingRules,
 ];
