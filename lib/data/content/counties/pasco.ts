@@ -44,7 +44,6 @@ export const pasco = countyPage({
     { icon: "leaf", title: "Preserves next door", text: p("Starkey Wilderness Preserve covers about 18,000 acres of pine flatwoods, cypress domes, marsh, sandhill and scrub east of New Port Richey. Homes along its edge share a fence line with a lot of wildlife.") },
     { icon: "map-pin", title: "The Green Swamp", text: p("Part of the 560,000-acre Green Swamp reaches into Pasco. Homes on the rural east side sit close to big stretches of woods and wetland, and the animals that live there.") },
     { icon: "home", title: "New neighborhoods", text: p("Fresh construction and cleared land move animals around. A new roofline with an unsealed gap is an easy first home for a squirrel or a rat.") },
-    { icon: "leaf", title: "Wood stork colonies", text: p("FWC's Little Gator Creek Wildlife and Environmental Area protects wood stork and wading bird colonies on about 566 acres in Pasco, and opens to visitors only from September through January.") },
   ],
   contactsHeading: "Pasco calls that belong to a public agency",
   contactsIntro: "Some calls belong to a public agency instead of us. Here's who handles what in Pasco, from each agency's own page.",

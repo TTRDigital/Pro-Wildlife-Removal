@@ -39,7 +39,6 @@ export const newPortRichey = countyPage({
   local: [
     { icon: "critter", title: "The usual suspects", text: p("New Port Richey's Comprehensive Plan lists raccoons, armadillos, opossums, lizards, snakes, squirrels and rabbits as the species expected in and around the city.") },
     { icon: "leaf", title: "James E. Grey Preserve", text: p("The city's 80-acre preserve is on the Great Florida Birding Trail and, per the city, home to 140 bird species along with deer, wild boar, turtles and manatees.") },
-    { icon: "map-pin", title: "Life on the Cotee", text: p("The city says dolphins and manatees are a common sight on the Pithlachascotee River. Riverfront yards also see more of the shoreline wildlife that comes with it.") },
     { icon: "search", title: "Rabies in Pasco", text: p("Pasco County Animal Services reports 24 animals that tested positive for rabies from 2013 to 2023: 17 raccoons, 6 cats and 1 bat. Keep pets vaccinated and leave raccoons alone.") },
   ],
   rats: { heading: newPortRicheyRatsInput.localHeading, intro: newPortRicheyRatsInput.localIntro, cards: [...newPortRicheyRatsInput.local, ...(newPortRicheyRatsInput.contacts ?? [])], link: { label: "rat removal across Pasco County", href: "/services/rat-removal/pasco-county-fl/" } },

@@ -39,7 +39,6 @@ export const landOLakes = countyPage({
   localIntro: "Two Southwest Florida Water Management District preserves sit at the edge of Land O' Lakes neighborhoods. Their management plans say what lives there.",
   local: [
     { icon: "leaf", title: "Cypress Creek Preserve", text: p("This 7,400-acre preserve borders Land O' Lakes subdivisions on its west side. The water district's management plan says FWC designated it a Wildlife Refuge, where taking or possessing wildlife is prohibited. Gopher tortoises and wood storks live there.") },
-    { icon: "critter", title: "Feral hogs", text: p("The Cypress Creek plan notes the feral hog as the one exotic animal recorded on the property and calls for a trapping program.") },
     { icon: "map-pin", title: "Conner Preserve", text: p("Off SR 52, Conner Preserve covers 3,486 acres of sandhill, marsh, cypress and pine flatwoods. The water district says deer, turkey and quail roam it, gopher tortoises forage on its ridges, sandhill cranes nest in its marshes and wood storks feed there.") },
     { icon: "home", title: "Homes meet the woods", text: p("Conner's management plan expected the preserve to end up next to dense residential areas. Where homes back onto preserve land, raccoons, opossums and snakes have a short trip to a yard or crawl space.") },
   ],
@@ -61,11 +60,6 @@ export const landOLakes = countyPage({
     faq(
       "Can I trap animals in Cypress Creek Preserve?",
       "No. The water district's management plan says FWC designated Cypress Creek Preserve a Wildlife Refuge, where taking or possessing wildlife is prohibited. On your own property, Florida's nuisance wildlife rules apply. See our guide to [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/).",
-    ),
-    faq(
-      "Who handles feral hogs in Land O' Lakes?",
-      "On Cypress Creek Preserve, the water district's plan calls for its own hog trapping. On private property, FWC says wild hogs may be trapped year-round with the landowner's permission. From December 31, 2026, most people who trap, hogs included, must complete FWC's free registration and training.",
-      "[PLACEHOLDER: ask the client: do you handle feral hogs?]",
     ),
     faq(
       "When can someone come out to Land O' Lakes?",
@@ -91,5 +85,5 @@ export const landOLakes = countyPage({
     TRAP_RULES_SOURCE,
     { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Do you handle feral hogs?", "Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],
+  clientQuestions: ["Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],
 });

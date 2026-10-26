@@ -34,9 +34,7 @@ export const citrus = countyPage({
   localIntro: "The 2020 Census counted 75% of Citrus residents as urban, the lowest share of any county we serve, and about three-quarters of the land as rural. Homes here sit closer to wild land than almost anywhere else in our area.",
   local: [
     { icon: "leaf", title: "Sandhills and state forest", text: p("FWC's Citrus tract of the Withlacoochee State Forest covers nearly 50,000 acres west of Inverness, with high-quality sandhills, fox squirrels, gopher tortoises, indigo snakes and deer.") },
-    { icon: "map-pin", title: "Springs and rivers", text: p("Crystal River, Kings Bay and Homosassa are first-magnitude springs, and several serve as warm-water refuges for manatees in winter. Waterfront homes share the shoreline with plenty of wildlife.") },
     { icon: "critter", title: "Rabid stray cats", text: p("Citrus rabies alerts have mostly involved cats: a stray kitten in Floral City in July 2026 and a cat in Inverness in June 2025. The Department of Health also counted a rabid bat in the county in 2024.") },
-    { icon: "leaf", title: "Scrub-jays at Potts Preserve", text: p("The water district's Potts Preserve in northeastern Citrus has wetlands that play a role in both the Tsala Apopka Chain of Lakes and the Withlacoochee River systems, and holds a small population of threatened Florida scrub-jays.") },
   ],
   contactsHeading: "Citrus numbers: CCSO, DOH-Citrus and FWC",
   contactsIntro: "In Citrus, animal control is the Sheriff's Office and the shelter is the county. Here's who handles what, from their own pages.",

@@ -34,7 +34,6 @@ export const hernando = countyPage({
     { icon: "critter", title: "Rabid raccoons", text: p("In 2025, Florida's Department of Health counted two rabid raccoons in Hernando, one off Ted Road near Brooksville and one near Spring Lake Highway. In June 2026, alerts followed a rabid cat in Spring Hill that a raccoon had attacked, and a rabid feral cat off Westwood Drive.") },
     { icon: "leaf", title: "Forest at the back fence", text: p("FWC's Croom tract of the Withlacoochee State Forest covers more than 20,000 acres in Hernando and Sumter, along 13 miles of the Withlacoochee River, with deer, turkeys, fox squirrels and alligators.") },
     { icon: "map-pin", title: "The springs coast", text: p("Weeki Wachee, plus Chassahowitzka just north in Citrus, are among the region's first-magnitude springs. Homes near the springs and rivers live close to a lot of wildlife.") },
-    { icon: "leaf", title: "Weekiwachee Preserve", text: p("The water district's Weekiwachee Preserve on the Hernando coast, west of Weeki Wachee, is a roost for hundreds of wading birds every night and is known above all for its Florida black bears.") },
   ],
   contactsHeading: "Hernando's sheriff-run animal services and other lines",
   contactsIntro: "In Hernando, animal services run through the Sheriff's Office. These are the public numbers for problems outside our work, from each agency's own page.",
