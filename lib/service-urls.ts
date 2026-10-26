@@ -37,5 +37,29 @@ export const movedLocations: Record<string, string> = {
   "about-us/service-area/rat-removal-palm-harbor": "about-us/service-area/wildlife-removal-palm-harbor",
 };
 
+/**
+ * Old per-city service URLs (all Tampa so far; path without slashes) and the animal-by-place page that
+ * replaces each (TTR-738). Until that page exists, the old URL keeps going to the general animal page.
+ */
+export const cityCopies: Record<string, { service: string; place: string }> = {
+  "services/bat-removal-tampa": { service: "bat-removal", place: "tampa-fl" },
+  "services/rat-removal-tampa": { service: "rat-removal", place: "tampa-fl" },
+  "services/raccoon-removal-tampa": { service: "raccoon-removal", place: "tampa-fl" },
+  "services/tampa-squirrel-removal": { service: "squirrel-removal", place: "tampa-fl" },
+  "services/snake-removal-tampa": { service: "snake-removal", place: "tampa-fl" },
+  "services/opossum-removal-tampa": { service: "opossum-removal", place: "tampa-fl" },
+  "services/armadillo-removal-tampa": { service: "armadillo-removal", place: "tampa-fl" },
+  "services/bee-removal-tampa": { service: "bee-removal", place: "tampa-fl" },
+  "services/dead-animal-tampla-fl": { service: "dead-animal-removal", place: "tampa-fl" },
+  "wildlife-removal-services/bat-removal-tampa": { service: "bat-removal", place: "tampa-fl" },
+  "wildlife-removal-services/rat-removal-tampa": { service: "rat-removal", place: "tampa-fl" },
+  "wildlife-removal-services/raccoon-removal-tampa": { service: "raccoon-removal", place: "tampa-fl" },
+  "wildlife-removal-services/armadillo-removal-tampa": { service: "armadillo-removal", place: "tampa-fl" },
+  "wildlife-removal-services/snake-removal-tampa": { service: "snake-removal", place: "tampa-fl" },
+  "wildlife-removal-services/bee-removal-tampa": { service: "bee-removal", place: "tampa-fl" },
+  "wildlife-removal-services/opossum-removal-tampa": { service: "opossum-removal", place: "tampa-fl" },
+  "wildlife-removal-services/dead-animal-tampla-fl": { service: "dead-animal-removal", place: "tampa-fl" },
+};
+
 /** Where a service slug lives now (itself if it never moved). */
 export const serviceSlug = (slug: string) => movedServices[slug] ?? slug;
