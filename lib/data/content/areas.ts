@@ -32,6 +32,12 @@ export const countyGroups: AreasSection["groups"] = [
       { label: "Carrollwood" },
       { label: "Citrus Park" },
       { label: "Town 'n' Country" },
+      { label: "Temple Terrace" },
+      { label: "New Tampa" },
+      { label: "Cheval" },
+      { label: "Keystone" },
+      { label: "Lake Magdalene" },
+      { label: "Greater Northdale" },
     ],
   },
   {
