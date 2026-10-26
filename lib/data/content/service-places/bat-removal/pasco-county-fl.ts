@@ -23,11 +23,11 @@ export const batRemovalPascoCounty = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-in-pasco-county-fl",
   order: 21,
   heroText: "Bats pouring out of a Pasco roofline at dusk? We look for every opening they use, fit one-way doors in the legal season and seal the roof once they're out. Call (727) 594-7705.",
-  answerHeading: "How are bats removed from a Pasco County home?",
+  answerHeading: "How does a bat colony come out of a Pasco County roof?",
   answer:
     "Legally, bats in Pasco County come out through one-way exclusion doors, never by killing or poisoning them, and only from August 15 to April 15. Pro Wildlife Removal checks the roof and soffits for the gaps a colony uses, fits the doors, then seals the openings once the colony is gone. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "No poisons, by state rule"],
-  localHeading: "What to know about bats in Pasco County",
+  localHeading: "Bats in Pasco's buildings and records",
   localIntro: "Pasco has had big colonies in public buildings, and one rabid bat on a school campus. Here is what the county's records and FWC's rules say.",
   local: [
     { icon: "critter", title: "500 to 1,000 bats in a fire station", text: p("In June 2017, WUSF and Fox 13 reported that 500 to 1,000 bats had forced crews out of Pasco Fire Station 39 on County Line Road in Hudson. Bat boxes put up earlier didn't keep them out, and full removal had to wait until after August, when the pups matured.") },
@@ -38,6 +38,7 @@ export const batRemovalPascoCounty = servicePlacePage({
     { icon: "leaf", title: "Pups in summer", text: p("FWC sets bat maternity season from April 16 to August 14. Exclusion devices can't go on a Pasco roof in that window without a permit.") },
     { icon: "drop", title: "Bat houses for the evicted", text: p("After the 2014 Sunlake exclusion, WUFT reported, students planned two bat houses, built from four 2-by-2-foot boxes that should each hold about 200 to 300 bats, mounted on telephone poles 15 to 20 feet up, one behind a baseball field and one near a cypress swamp. In Hudson, bat boxes alone hadn't kept the colony out of the station.") },
   ],
+  contactsHeading: "Pasco agencies for bat bites and exclusion rules",
   contactsIntro: "Who handles what when bats are the problem in Pasco, from each agency's own page.",
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Pasco, 352-521-1450, option 4. Don't release the bat until you've talked with them.") },
@@ -53,7 +54,7 @@ export const batRemovalPascoCounty = servicePlacePage({
       "Not with exclusion devices, unless FWC issues a permit. Maternity season runs April 16 to August 14, and exclusion is legal from August 15 to April 15, when overnight lows are forecast at 50°F or above.",
     ),
     faq(
-      "Have bats in Pasco County tested positive for rabies?",
+      "How often do Pasco County bats test rabid?",
       "Rarely. The county lists one rabid bat among 24 rabid animals from 2013 to 2023. WUFT reported in 2014 that a dead bat at Sunlake High School had rabies. Never handle a bat with bare hands.",
     ),
     faq(
@@ -65,13 +66,13 @@ export const batRemovalPascoCounty = servicePlacePage({
       "No. FWC says killing or harming bats is illegal in Florida, and poison and fumigants are illegal to use on bats.",
     ),
     faq(
-      "How soon can you come out for bats in Pasco County?",
+      "How fast can you get to bats in a Pasco County home?",
       "Same-day appointments for bats are often available in Pasco County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Pasco County]",
     ),
   ],
   ctaHeading: "Bats in your Pasco County roof?",
-  ctaText: "For bats anywhere in Pasco, call (727) 594-7705.",
+  ctaText: "Bats in a Pasco attic or soffit? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Pasco County, FL | Pro Wildlife Removal",
     description:

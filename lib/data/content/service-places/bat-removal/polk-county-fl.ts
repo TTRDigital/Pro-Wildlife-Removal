@@ -25,7 +25,7 @@ export const batRemovalPolkCounty = servicePlacePage({
   answer:
     "Bats in a Polk County home need a private wildlife company: the Sheriff's Office says Animal Control doesn't take nuisance wildlife calls. Pro Wildlife Removal finds where bats enter, fits one-way exclusion devices outside FWC's April 16 to August 14 maternity season, then seals the gaps. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid bats in Lakeland and Lake Wales", "No exclusions Apr 16 to Aug 14 without a permit"],
-  localHeading: "What to know about bats in Polk County",
+  localHeading: "Polk's rabid bats, from Lake Wales to Lakeland",
   localIntro: "These facts about bats in Polk come from the state health department, the Sheriff's Office and FWC.",
   local: [
     { icon: "search", title: "Rabid bats in the state tables", text: p("Polk's row in the state rabies tables listed one rabid bat for 2022, two for 2023 and three for 2024, and a 2024 footnote adds one more Polk bat found through surveillance testing. The 2025 table listed no Polk bats.") },
@@ -36,7 +36,8 @@ export const batRemovalPolkCounty = servicePlacePage({
     { icon: "users", title: "Among the toys, December 2024", text: p("A Lakeland family found a dead bat in a bag of their children's toys. It tested positive, and DOH-Polk handled rabies treatment for the exposed owner.") },
     { icon: "drop", title: "DOH-Polk: keep them out", text: p("In its June 2026 rabies alert, DOH-Polk asked residents to keep bats out of living quarters and other occupied spaces in homes and schools, where they might meet people and pets.") },
   ],
-  contactsIntro: "Who handles what when bats are the problem in Polk, from the Sheriff's Office and DOH-Polk's own pages.",
+  contactsHeading: "Polk numbers for bat bites and bats indoors",
+  contactsIntro: "Polk bat bites go to DOH-Polk, and pet or person contact to PCSO Animal Control, per the Sheriff's Office and DOH-Polk's own pages.",
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care, then report it to DOH-Polk at 863-519-8300, option 4.") },
     { icon: "users", title: "A pet or person touched a bat", text: p("PCSO Animal Control, 863-577-1762. The Sheriff's Office says it always takes bites involving a possible rabies carrier.") },
@@ -55,7 +56,7 @@ export const batRemovalPolkCounty = servicePlacePage({
       "Not by exclusion. FWC's maternity season runs April 16 through August 14, and exclusion isn't allowed during it without an FWC permit. Outside it, one-way devices must stay up at least four nights with lows forecast at 50°F or warmer.",
     ),
     faq(
-      "Have rabid bats been found in Polk County?",
+      "Did Polk County have rabid bats in 2026?",
       "Yes. Bats were Polk's first and second rabies cases of 2026, in Lake Wales and near Lakeland, and another rabid bat turned up in Lakeland that July.",
     ),
     faq(
@@ -67,13 +68,13 @@ export const batRemovalPolkCounty = servicePlacePage({
       "No. FWC says a bat house is not a substitute for exclusion. UF/IFAS suggests putting one up several weeks before an eviction, mounted 12 to 15 feet high on a pole facing south or southeast.",
     ),
     faq(
-      "How soon can you look at bats in Polk County?",
+      "Can a Polk County bat problem be inspected the day I call?",
       "Same-day appointments for bats are often available in Polk County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Polk County]",
     ),
   ],
   ctaHeading: "Bats in your Polk County home?",
-  ctaText: "For bats anywhere in Polk County, call (727) 594-7705.",
+  ctaText: "Bats in a Polk home, Lakeland to Lake Wales? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Polk County, FL | Pro Wildlife Removal",
     description:

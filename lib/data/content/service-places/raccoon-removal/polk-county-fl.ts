@@ -25,7 +25,7 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
   answer:
     "Polk County's Sheriff's Office says Animal Control won't take nuisance wildlife calls or collect trapped raccoons, so a raccoon in your attic or under the house is a job for a private company. Pro Wildlife Removal gets it out, checks for kits in spring, and closes the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoons: Frostproof, Lakeland", "Kits mostly March and April"],
-  localHeading: "What to know about raccoons in Polk County",
+  localHeading: "Polk's rabid raccoons, Davenport to Frostproof",
   localIntro: "These facts about raccoons in Polk come from the Sheriff's Office, the health department, FWC and UF/IFAS.",
   local: [
     { icon: "map-pin", title: "Frostproof, 2024", text: p("On April 3, 2024, a dog killed a raccoon it was fighting in Frostproof. The raccoon was rabid, Polk's second case that year, and DOH-Polk set a 60-day alert bounded by State Highway 630 West, Lake Clinch, Kelly Road and US 27.") },
@@ -36,7 +36,8 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
     { icon: "home", title: "Pet food and open cans", text: p("DOH-Polk's 2024 raccoon alert, and its June 2026 alert, told residents not to feed or attract wild or stray animals with outdoor pet food, open garbage cans or other food.") },
     { icon: "drop", title: "Alerts limit moving them", text: p("FWC's nuisance wildlife rule says moving a trapped animal never overrides a county health department rabies alert or quarantine. Polk had raccoon rabies alerts in 2023 and 2024, so check for an active alert first.") },
   ],
-  contactsIntro: "Who handles what when a raccoon is the problem in Polk, from the Sheriff's Office and DOH-Polk's own pages.",
+  contactsHeading: "Polk numbers for raccoon bites and attacks on pets",
+  contactsIntro: "In Polk, a raccoon bite goes to DOH-Polk and an attack on a pet to PCSO Animal Control, per their own pages.",
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("See a doctor, then report it to DOH-Polk, 863-519-8300, option 4.") },
     { icon: "users", title: "A raccoon attacked a pet", text: p("PCSO Animal Control, 863-577-1762. It responds to wildlife bites and attacks on people or animals.") },
@@ -55,7 +56,7 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
       "On the property where you caught it, or on 40 or more contiguous acres in Polk with the owner's written permission. Until Dec 31, 2026, a live-trapped animal must be released or put down within 24 hours. FWC's trapping rules page says the changes taking effect that day cut it to 12 hours for animals released, relocated or killed off site. An active rabies alert takes priority over moving one.",
     ),
     faq(
-      "Is it illegal to feed raccoons in Polk County?",
+      "Is feeding raccoons against the law in Polk County?",
       "Florida law bans putting out food or garbage in a way that attracts raccoons and creates a public nuisance. That FWC rule applies across the state, Polk included.",
     ),
     faq(
@@ -67,13 +68,13 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
       "UF/IFAS says Florida raccoons usually give birth once a year, in March or April. So a raccoon in a Polk attic in spring may have young with it.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Polk County?",
+      "How quickly can a Polk County raccoon be dealt with?",
       "Same-day appointments for raccoons are often available in Polk County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Polk County]",
     ),
   ],
   ctaHeading: "Raccoon in your Polk County home?",
-  ctaText: "Raccoon trouble anywhere in Polk County? Call (727) 594-7705.",
+  ctaText: "Raccoon in a Lakeland, Davenport or Frostproof home? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Polk County, FL | Pro Wildlife Removal",
     description:

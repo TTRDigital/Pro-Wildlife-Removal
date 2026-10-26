@@ -25,7 +25,7 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
   answer:
     "Rats inside a Hillsborough County home are a job for a private company, and in a rental, the county's renter guide lists exterminating rodents among the landlord's duties. Pro Wildlife Removal finds the gaps rats use, seals them, traps the rats still inside and cleans up what they leave. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rentals: rodents are the landlord's job", "Rat lungworm found in county rats"],
-  localHeading: "What to know about rats in Hillsborough County",
+  localHeading: "Rat research and rules in Hillsborough County",
   localIntro: "These facts about rats and rodents in Hillsborough come from UF and USF research, a state park plan, county departments and DOH-Hillsborough.",
   local: [
     { icon: "search", title: "Rat lungworm in county rats", text: p("A survey published in PLoS ONE in 2017 found the rat lungworm parasite in black rats from three of six Florida counties studied, Hillsborough among them. Of 87 black rats collected in Hillsborough in 2013 to 2015, 30 tested positive.") },
@@ -37,7 +37,8 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
     { icon: "critter", title: "Working cats", text: p("The county's Working Cats Program places shelter cats at barns, warehouses, sheds and similar sites with the adoption fee waived, billing them as free rodent control.") },
     { icon: "phone", title: "Low rabies risk", text: p("DOH-Hillsborough's animal risk page puts wild rodents and pet rats in its low-risk group for rabies, apart from high-risk animals such as raccoons and bats.") },
   ],
-  contactsIntro: "Who handles what when rats are the problem in Hillsborough, from the county's and DOH-Hillsborough's own pages.",
+  contactsHeading: "Hillsborough contacts for rental rats, rat bites and home rats",
+  contactsIntro: "Hillsborough renters, people bitten by a rat and homeowners each have a different first call, per the county's and DOH-Hillsborough's own pages.",
   contacts: [
     { icon: "home", title: "Rats in a rental", text: p("Start with your landlord. The county's renter guide lists exterminating rodents as a landlord responsibility.") },
     { icon: "phone", title: "Bitten by a rat", text: p("Report any animal bite to DOH-Hillsborough at 813-307-8059.") },
@@ -47,7 +48,7 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Hillsborough County rat job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
-      "Is my landlord responsible for rats in a Hillsborough County rental?",
+      "Does a Hillsborough County landlord have to deal with rats in my rental?",
       "Hillsborough County's renter and landlord guide lists exterminating insects and rodents among the landlord's responsibilities.",
     ),
     faq(
@@ -63,13 +64,13 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
       "Yes. The county's Working Cats Program places shelter cats at barns, farms, warehouses and similar spots with the adoption fee waived.",
     ),
     faq(
-      "How soon can you come out for rats in Hillsborough County?",
+      "How fast can you check a Hillsborough County home for rats?",
       "Same-day appointments for rats are often available in Hillsborough County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a rat call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Rats in your Hillsborough County home?",
-  ctaText: "For rats anywhere in Hillsborough County, call (727) 594-7705.",
+  ctaText: "Rats in the attic or walls of a Hillsborough home? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Hillsborough County | Pro Wildlife Removal",
     description:

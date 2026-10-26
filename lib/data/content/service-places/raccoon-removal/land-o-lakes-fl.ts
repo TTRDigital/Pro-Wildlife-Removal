@@ -28,7 +28,7 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
   answer:
     "A private wildlife company. Pasco County Animal Services is headquartered in Land O' Lakes, but its emergency service covers stray pets and dangerous animals, not raccoons living in homes. Pro Wildlife Removal takes raccoons out of Land O' Lakes attics and crawl spaces, checks for young and seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabies alert here in 2014", "Hen coops must be secure"],
-  localHeading: "What to know about raccoons in Land O' Lakes",
+  localHeading: "Raccoons and rabies around Land O' Lakes",
   localIntro: "Land O' Lakes has had a rabid raccoon attack a family dog, and Pasco's rabies records keep pointing at raccoons. Here are the local facts and rules.",
   local: [
     { icon: "critter", title: "A rabid raccoon and a family dog", text: p("In November 2014, Bay News 9 reported that Pasco officials issued a 60-day rabies alert in Land O' Lakes after a raccoon that attacked a vaccinated family dog tested positive.") },
@@ -38,6 +38,7 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
     { icon: "home", title: "Backyard hens need a secure coop", text: p("Since November 2025, Pasco lets most homeowners keep up to four hens, with a covered, predator-secure coop and feed in predator-proof containers. UF/IFAS notes that poultry in pens are among the raccoon's prey.") },
     { icon: "leaf", title: "The state tables", text: p("The state's 2024 table listed one rabid raccoon for Pasco; its 2025 table listed none.") },
   ],
+  contactsHeading: "Land O' Lakes raccoon contacts, from DOH-Pasco to Animal Services",
   contactsIntro: "Who handles what when a raccoon is the problem in Land O' Lakes, from the county's and agencies' own pages.",
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Wash it, see a doctor and report it to DOH-Pasco: 352-521-1450, option 4.") },
@@ -65,13 +66,13 @@ export const raccoonRemovalLandOLakes = servicePlacePage({
       "No. Its emergency service covers seriously injured stray pets and loose aggressive animals. For a raccoon living in your home, call a private wildlife company.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Land O' Lakes?",
+      "How quickly can you handle a Land O' Lakes raccoon call?",
       "Same-day appointments for raccoons are often available in Land O' Lakes. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Land O' Lakes]",
     ),
   ],
   ctaHeading: "Raccoon in your Land O' Lakes home?",
-  ctaText: "Land O' Lakes raccoon calls go to (727) 594-7705.",
+  ctaText: "Raccoon near Conner Preserve or elsewhere in Land O' Lakes? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Land O' Lakes, FL | Pro Wildlife Removal",
     description:

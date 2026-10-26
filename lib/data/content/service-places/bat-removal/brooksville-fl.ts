@@ -26,7 +26,7 @@ export const batRemovalBrooksville = servicePlacePage({
   county: "Hernando",
   order: 40,
   heroText: "Bats streaming out of a Brooksville soffit, barn or attic at dusk? We look for the openings bats use, fit one-way doors when state rules allow and seal up once they're out. Call (727) 594-7705.",
-  answerHeading: "How do you get bats out of a Brooksville home?",
+  answerHeading: "How does a bat colony get out of a Brooksville house?",
   answer:
     "With one-way exclusion doors that let bats fly out but not back in, fitted only between August 15 and April 15 under FWC rules. Killing or poisoning bats is illegal in Florida. Pro Wildlife Removal checks a Brooksville home for the gaps a colony uses, fits the doors and seals the openings afterward. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Bat colony at Chinsegut"],
@@ -42,7 +42,7 @@ export const batRemovalBrooksville = servicePlacePage({
     { icon: "drop", title: "Bats named in a Brooksville notice", text: p("When a rabid raccoon was killed off Ted Road in the Brooksville area in May 2025, DOH-Hernando's advisory told residents and visitors to avoid physical contact with wild animals, naming bats right after raccoons.") },
     { icon: "phone", title: "Keep them out of living space", text: p("DOH-Hernando's June 30, 2026 rabies alert, issued after a rabid feral cat was found in the Dade City area off Westwood Drive, told residents to keep wildlife, including bats, out of living quarters, schools and other occupied spaces.") },
   ],
-  contactsIntro: "Who handles what when bats are the problem in Brooksville, from each agency's own page.",
+  contactsIntro: "Brooksville bat questions split between DOH-Hernando, FWC and a private company, per their own pages.",
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("Report it to DOH-Hernando at 352-540-6812. The CDC says not to release a bat that may have bitten someone until you've talked with public health.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office covers Hernando: 863-648-3200.") },
@@ -69,13 +69,13 @@ export const batRemovalBrooksville = servicePlacePage({
       "No. FWC says killing bats is illegal under rule 68A-4.001, and poisons or pesticides to harm, kill or deter them are banned.",
     ),
     faq(
-      "How soon can you come out for bats in Brooksville?",
+      "Can someone check our Brooksville roof for bats today?",
       "Same-day appointments for bats are often available in Brooksville. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Brooksville]",
     ),
   ],
   ctaHeading: "Bats in your Brooksville home?",
-  ctaText: "Brooksville bat calls go to (727) 594-7705.",
+  ctaText: "Bats in a Brooksville roof, close to Chinsegut or not? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Brooksville, FL | Pro Wildlife Removal",
     description:

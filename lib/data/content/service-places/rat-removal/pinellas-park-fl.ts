@@ -21,12 +21,12 @@ export const ratRemovalPinellasPark = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-pinellas-park",
   county: "Pinellas",
   heroText: "Rats running in a Pinellas Park attic, or droppings in the garage or shed? We find the openings they use, close them, trap the rats inside and clean up. Call (727) 594-7705.",
-  answerHeading: "Who gets rid of rats in a Pinellas Park home?",
+  answerHeading: "Who gets rats out of Pinellas Park houses?",
   answer:
     "A private company. In a Pinellas Park rental, Pinellas County's landlord-tenant page says the landlord must exterminate rats unless the lease says otherwise. In your own home, Pro Wildlife Removal finds where the rats get in, seals those gaps, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "State records: 23 rodent closures, 2022-25", "8 on 49th St, 7 on 66th St"],
-  localHeading: "What to know about rats in Pinellas Park",
-  localIntro: "The Pinellas Park facts below come from the state's restaurant inspection records. The others come from the Sixth Judicial Circuit and Pinellas County.",
+  localHeading: "Rodent closures and rat rules in Pinellas Park",
+  localIntro: "Most Pinellas Park facts here come from state restaurant inspection records. The others come from the Sixth Judicial Circuit and Pinellas County.",
   local: [
     { icon: "search", title: "23 closures, 14 businesses", text: p("Florida DBPR's emergency closure records for 2022 through 2025 list 23 closures of Pinellas Park food businesses where the conditions named rodents, at 14 different businesses, by our tally of state rows listing Pinellas Park as the city.") },
     { icon: "map-pin", title: "Along the main roads", text: p("Of those 23 closures, eight were at addresses on 49th Street, seven on 66th Street, five on US 19 and three on Park Boulevard.") },
@@ -35,6 +35,7 @@ export const ratRemovalPinellasPark = servicePlacePage({
     { icon: "users", title: "Rat rules in the fine schedule", text: p("The Sixth Judicial Circuit's uniform fine schedule for county and municipal ordinance violations in Pinellas lists rat offenses, including affording food or harborage for rats and failing to keep poultry and stock feed in rat proof containers or in rat proof buildings.") },
     { icon: "leaf", title: "Rentals and rats", text: p("For Pinellas Park renters, the county's landlord-tenant page lists exterminating rats, bugs and wood-destroying organisms as a landlord duty, unless the lease says otherwise.") },
   ],
+  contactsHeading: "Pinellas Park contacts for rental and home rat problems",
   contactsIntro: "Who to call about rats in Pinellas Park, from the county's own page.",
   contacts: [
     { icon: "home", title: "Rats in a rental", text: p("Start with the landlord. Pinellas County lists rat extermination among a landlord's duties unless the lease says otherwise.") },
@@ -52,17 +53,17 @@ export const ratRemovalPinellasPark = servicePlacePage({
       "The Sixth Judicial Circuit's fine schedule for county and municipal ordinance violations in Pinellas lists offenses for affording food or harborage for rats and for buildings not freed of rat harborage.",
     ),
     faq(
-      "Do state records show rodents in Pinellas Park?",
+      "How many Pinellas Park food businesses were closed over rodents?",
       "State records show them at local food businesses. Florida DBPR ordered 23 emergency closures of Pinellas Park food businesses for conditions naming rodents from 2022 through 2025. Those come from restaurant inspections, not from homes.",
     ),
     faq(
-      "How soon can you come out for rats in Pinellas Park?",
+      "When can someone look at rats in our Pinellas Park home?",
       "Same-day appointments for rats are often available in Pinellas Park. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a rat call in Pinellas Park]",
     ),
   ],
   ctaHeading: "Rats in your Pinellas Park home?",
-  ctaText: "For rats anywhere in Pinellas Park, call (727) 594-7705.",
+  ctaText: "Rats in a Pinellas Park house or rental? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Pinellas Park, FL | Pro Wildlife Removal",
     description:

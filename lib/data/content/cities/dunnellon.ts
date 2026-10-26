@@ -43,13 +43,14 @@ export const dunnellon = countyPage({
     { icon: "home", title: "Raccoons in west Marion, 2024", text: p("In May 2024, DOH-Marion put the Rainbow Lakes Estates and southwest Ocala areas under a 60-day rabies alert after two raccoons captured there on April 26 tested positive.") },
     { icon: "drop", title: "Marion's rabies record", text: p("Marion County's rabies tables listed a rabid bat and 2 raccoons in 2022, and 6 rabid raccoons in 2025.") },
   ],
-  contactsIntro: "Who handles what in Dunnellon, from DOH-Marion's alerts and FWC's own pages.",
+  contactsHeading: "Marion and FWC numbers for Dunnellon",
+  contactsIntro: "Dunnellon relies on Marion County and FWC's Ocala office. These numbers come from DOH-Marion's alerts and FWC's pages.",
   contacts: [
     { icon: "users", title: "Marion County Animal Services", text: p("352-671-8727, for strays and for bites to pets or livestock.") },
     { icon: "phone", title: "Human bites: DOH-Marion", text: p("352-629-0137.") },
     { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service we offer is available in Dunnellon. Choose an animal to learn more.",
+  servicesIntro: "In town or along the two rivers, Dunnellon homes can get any service below. Pick an animal to see how it works.",
   servicesHeading: "Animals we remove in Dunnellon",
   reviewsIntro: "[PLACEHOLDER: reviews from Dunnellon customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -66,7 +67,7 @@ export const dunnellon = countyPage({
       "For a person, DOH-Marion at 352-629-0137. For a pet or livestock bitten by an animal, Marion County Animal Services at 352-671-8727.",
     ),
     faq(
-      "How soon can you get to Dunnellon?",
+      "Do you get out to Dunnellon quickly?",
       "Same-day appointments are often available in Dunnellon. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Dunnellon]",
     ),

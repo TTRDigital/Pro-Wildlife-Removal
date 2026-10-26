@@ -39,6 +39,7 @@ export const batRemovalPinellasCounty = servicePlacePage({
     { icon: "leaf", title: "Thirteen species live here", text: p("UF/IFAS Extension Pinellas notes that 13 bat species live in Florida year-round. It suggests leaving Spanish moss, dead palm fronds and old palm boots where possible, since bats roost in them.") },
     { icon: "clock", title: "Maternity season rules", text: p("FWC's bat maternity season runs April 16 to August 14. Exclusion devices can't be used then, so Pinellas homeowners who find bats in late spring should plan for exclusion after mid-August.") },
   ],
+  contactsHeading: "Pinellas contacts for grounded bats, bites and roosts",
   contactsIntro: "Who to call about bats in Pinellas County, from the county's and the health department's own pages.",
   contacts: [
     { icon: "critter", title: "Injured or grounded bat", text: p("Central Florida Bat Rescue, (727) 459-2472, from the county's rehabilitator list. Don't pick it up bare-handed.") },
@@ -54,7 +55,7 @@ export const batRemovalPinellasCounty = servicePlacePage({
       "Not by exclusion. From April 16 to August 14, Florida's bat maternity season, exclusion devices aren't allowed because flightless pups would be trapped inside. We can inspect and plan, then exclude from August 15 on.",
     ),
     faq(
-      "Have bats in Pinellas County tested positive for rabies?",
+      "Were any rabid bats confirmed in Pinellas County recently?",
       "Yes. The state confirmed a rabid bat in Pinellas in 2023 and another in 2024. Most bats aren't rabid, but never touch one with bare hands, and call DOH-Pinellas at 727-824-6932 if anyone has had contact.",
     ),
     faq(
@@ -72,7 +73,7 @@ export const batRemovalPinellasCounty = servicePlacePage({
     ),
   ],
   ctaHeading: "Bats in your Pinellas home?",
-  ctaText: "Pinellas County bat calls go to (727) 594-7705.",
+  ctaText: "Bats in a Pinellas roof or wall? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Pinellas County | Pro Wildlife Removal",
     description:

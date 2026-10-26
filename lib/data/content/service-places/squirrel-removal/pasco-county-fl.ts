@@ -27,7 +27,7 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
   answer:
     "A private wildlife company. In Pasco County the squirrel in your attic is usually an eastern gray squirrel, which FWC says will sometimes nest in attics when it can get in. Pro Wildlife Removal finds the entry, gets the squirrels and any young out, and seals the roofline where they got in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Gray squirrels sometimes nest in attics", "Fox squirrels: hands off"],
-  localHeading: "What to know about squirrels in Pasco County",
+  localHeading: "Pasco's gray and fox squirrels, and the rules",
   localIntro: "Pasco has both of Florida's tree squirrels, the common gray and the much rarer fox squirrel. Here is where they live and what the rules say.",
   local: [
     { icon: "leaf", title: "Both kinds in the state forest", text: p("The Withlacoochee State Forest reaches into Pasco, along with Citrus, Hernando, Lake and Sumter counties. Florida's forest service lists fox squirrels and gray squirrels among the wildlife visitors may see there.") },
@@ -58,13 +58,13 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
       "A homeowner can trap a nuisance squirrel on their own land, but FWC's new trapping rules take effect December 31, 2026, and any release must follow FWC's on-site or 40-acre rule. Our trapping rules guide explains both.",
     ),
     faq(
-      "How soon can you come out for squirrels in Pasco County?",
+      "When could someone come for squirrels in a Pasco County attic?",
       "Same-day appointments for squirrels are often available in Pasco County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a squirrel call in Pasco County]",
     ),
   ],
   ctaHeading: "Squirrels in your Pasco County attic?",
-  ctaText: "For squirrels anywhere in Pasco, call (727) 594-7705.",
+  ctaText: "Squirrels in a Pasco roof, Zephyrhills to the coast? Call (727) 594-7705.",
   seo: {
     title: "Squirrel Removal in Pasco County, FL | Pro Wildlife Removal",
     description:

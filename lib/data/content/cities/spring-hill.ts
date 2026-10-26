@@ -41,6 +41,7 @@ export const springHill = countyPage({
     { icon: "critter", title: "Don't feed the raccoons", text: p("UF/IFAS Extension in Hernando reminds residents that intentionally feeding raccoons is illegal. Feeding draws them to the house. Separately, in June 2026 an unvaccinated Spring Hill cat that a raccoon had attacked tested positive for rabies.") },
     { icon: "home", title: "Twice-a-week garbage", text: p("Spring Hill's mandatory collection area gets garbage pickup twice a week, per Hernando County. Bins kept shut between pickups mean less for rats and raccoons to find.") },
   ],
+  contactsHeading: "Hernando sheriff, DOH and FWC numbers for Spring Hill",
   contactsIntro: "Here's who handles what for Spring Hill residents, from each agency's own page.",
   contacts: [
     { icon: "users", title: "HCSO Animal Services", text: p("352-796-5062. The Hernando County Sheriff's Office runs Animal Services from Oliver Street in Brooksville.") },
@@ -52,7 +53,7 @@ export const springHill = countyPage({
   reviewsIntro: "[PLACEHOLDER: reviews from Spring Hill customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
     faq(
-      "Who do I call about a bear in Spring Hill?",
+      "A bear wandered into my Spring Hill yard. Who handles that?",
       "FWC. The water district's plan for Weekiwachee Preserve notes a small number of black bears on the preserve, which borders Spring Hill. Report conflicts to FWC's Southwest Region office, 863-648-3200, and secure trash and pet food.",
     ),
     faq(
@@ -60,11 +61,11 @@ export const springHill = countyPage({
       "Public animal services for Spring Hill come from the Hernando County Sheriff's Office. For a raccoon in the attic or an opossum under the house, call a wildlife removal company. See [raccoons in the attic](/services/raccoons-in-attic/).",
     ),
     faq(
-      "Is it illegal to feed raccoons in Spring Hill?",
+      "Can I leave food out for raccoons in Spring Hill?",
       "UF/IFAS Extension in Hernando says intentionally feeding raccoons is illegal, and Florida rule 68A-4.001 bans putting out food that attracts raccoons and creates a nuisance.",
     ),
     faq(
-      "How quickly can you get to Spring Hill?",
+      "Is same-day service available in Spring Hill?",
       "Same-day appointments are often available in Spring Hill. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Spring Hill]",
     ),

@@ -46,6 +46,7 @@ export const pasco = countyPage({
     { icon: "home", title: "New neighborhoods", text: p("Fresh construction and cleared land move animals around. A new roofline with an unsealed gap is an easy first home for a squirrel or a rat.") },
     { icon: "leaf", title: "Wood stork colonies", text: p("FWC's Little Gator Creek Wildlife and Environmental Area protects wood stork and wading bird colonies on about 566 acres in Pasco, and opens to visitors only from September through January.") },
   ],
+  contactsHeading: "Pasco calls that belong to a public agency",
   contactsIntro: "Some calls belong to a public agency instead of us. Here's who handles what in Pasco, from each agency's own page.",
   contacts: [
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. Emergencies from 5 pm to 8 am: (727) 847-8102, option 7, for loose biting animals and badly injured stray pets.") },

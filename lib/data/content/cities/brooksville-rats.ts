@@ -48,14 +48,15 @@ export const brooksvilleRats = countyPage({
     { icon: "wrench", title: "A fire risk overhead", text: p("A Florida DOH guide warns that rats chewing through wire insulation can cause fires. If you find chewed cables in the attic, have an electrician look at them.") },
     { icon: "leaf", title: "Don't feed the wildlife", text: p("Brooksville's management plan for the Good Neighbor Trail says the city will prohibit feeding raccoons, squirrels and other wild animals there. Food left out at home draws rats the same way.") },
   ],
-  contactsIntro: "Who handles what in Brooksville, from the city's, county's and sheriff's own pages.",
+  contactsHeading: "Brooksville garbage, HCSO and FWC contacts",
+  contactsIntro: "City garbage, the sheriff's Animal Services on Oliver Street and FWC each cover part of a Brooksville animal problem.",
   contacts: [
     { icon: "home", title: "Garbage in city limits", text: p("Hernando County notes that the City of Brooksville runs its own garbage collection. City residents can call (352) 540-3860 with questions. Tight lids and bins kept off the ground leave rats less to eat.") },
     { icon: "users", title: "HCSO Animal Services", text: p("352-796-5062, on Oliver Street in Brooksville. Since July 1, 2024, the sheriff's office also provides law enforcement inside the city. Its Animal Services pages cover pets.") },
     { icon: "map-pin", title: "Wildlife beyond rats: FWC", text: p("Chinsegut Wildlife and Environmental Area, six miles north of town, is managed by FWC. Nuisance alligators: 866-FWC-GATOR.") },
   ],
   servicesIntro: "Rats are the focus of this page, but we handle every animal below in Brooksville too.",
-  servicesHeading: "Rats, and the other animals we remove in Brooksville",
+  servicesHeading: "Brooksville animal jobs besides rats",
   reviewsIntro: "[PLACEHOLDER: reviews from Brooksville rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "Brooksville rat questions",
   faqs: [
@@ -76,7 +77,7 @@ export const brooksvilleRats = countyPage({
       "They can. CDC says rodents spread disease through their droppings, urine, saliva and bites. Don't sweep or vacuum droppings. Follow CDC's cleanup steps or have the attic cleaned.",
     ),
     faq(
-      "How quickly can you get to Brooksville?",
+      "How quickly can you inspect a Brooksville attic for rats?",
       "Same-day rat inspections are often available in Brooksville. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Brooksville]",
     ),

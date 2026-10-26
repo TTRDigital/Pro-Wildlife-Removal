@@ -24,11 +24,11 @@ export const ratRemovalPascoCounty = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-in-pasco-county-fl",
   order: 20,
   heroText: "Scratching in a Pasco attic at night, or chewed fruit under the orange tree? We find where rats get in, seal it and trap the ones left inside. Call (727) 594-7705.",
-  answerHeading: "Who gets rid of rats in Pasco County homes?",
+  answerHeading: "Who takes care of rats in a Pasco County house?",
   answer:
     "A private wildlife company. Pasco County doesn't pick up household trash; homes sign up with a licensed hauler or haul it themselves. For rats in a Pasco attic, wall or garage, Pro Wildlife Removal finds the gaps they use, seals them, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Feed in rat-proof bins", "Roof rats love citrus"],
-  localHeading: "What to know about rats in Pasco County",
+  localHeading: "Rats in Pasco, from the Gulf coast to the citrus groves",
   localIntro: "Pasco runs from Gulf shoreline to citrus country, and rats do well in both. These local rules and facts shape a rat job here.",
   local: [
     { icon: "home", title: "Your hauler, not the county", text: p("Pasco County says it does not pick up trash: you must sign up with a licensed hauler for curbside service, offered twice a week. Florida DOH says Norway rats nest wherever food, water and shelter are present, garbage dumps included, so a missed pickup is worth a call to your hauler.") },
@@ -38,6 +38,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
     { icon: "drop", title: "A Gulf coast county", text: p("Florida DEP counts 20 miles of Pasco shoreline. UF/IFAS says Norway rats in Florida live along sea coasts and canals, and Florida DOH says they burrow beneath concrete slabs and in garbage dumps.") },
     { icon: "leaf", title: "Citrus season is rat season", text: p("DEP describes Pasco as known for its citrus groves. UF/IFAS has said roof-rat damage to fruit, hollowed-out citrus, shows up from September through March, as the fruit ripens.") },
   ],
+  contactsHeading: "Pasco contacts for trash, junk piles and rats indoors",
   contactsIntro: "Who handles what when rats are the problem in Pasco, from the county's own pages.",
   contacts: [
     { icon: "home", title: "Trash and missed pickups", text: p("Your own hauler. For county drop-off sites and questions, Pasco County Solid Waste: 727-847-2411.") },
@@ -65,13 +66,13 @@ export const ratRemovalPascoCounty = servicePlacePage({
       "Yes, through Customer Service at 727-847-2411. Pasco requires your name and address, and for overgrown lots only owners or occupants of land next to the parcel can file.",
     ),
     faq(
-      "How soon can you come out for rats in Pasco County?",
+      "Can a Pasco County rat inspection happen the day I call?",
       "Same-day appointments for rats are often available in Pasco County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a rat call in Pasco County]",
     ),
   ],
   ctaHeading: "Rats in your Pasco County home?",
-  ctaText: "For rats anywhere in Pasco, call (727) 594-7705.",
+  ctaText: "Rats in a Pasco home, on the coast or in citrus country? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Pasco County, FL | Pro Wildlife Removal",
     description:

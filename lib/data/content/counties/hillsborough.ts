@@ -53,12 +53,13 @@ export const hillsborough = countyPage({
   localHeading: "What drives wildlife calls in Hillsborough",
   localIntro: "The 2020 Census counted 96% of Hillsborough residents as urban, yet about half of the county's 1,022 square miles of land is rural. That edge between city and country is where many conflicts start.",
   local: [
-    { icon: "critter", title: "Bats with rabies", text: p("Florida's Department of Health counted four rabid bats in Hillsborough in 2025. A bat in the house is never something to pick up.") },
+    { icon: "critter", title: "Bats with rabies", text: p("In 2025, the state Department of Health recorded four rabid bats in Hillsborough. A bat in the house is never something to pick up.") },
     { icon: "leaf", title: "Protected land all around", text: p("The county has bought more than 63,400 acres of sensitive wildlife habitat and corridors through its ELAPP land program. Homes along those corridors live right next to raccoons, opossums and snakes.") },
     { icon: "building", title: "Stray cats and rabies", text: p("DOH-Hillsborough issued rabies alerts for rabid stray or unvaccinated cats in Town 'N' Country (April 2025) and Gibsonton (September 2026). Feeding strays outdoors also feeds raccoons.") },
     { icon: "home", title: "Older Tampa homes", text: p("Older roofs, soffits and gable vents wear out, and every gap is an invitation to roof rats, squirrels and bats.") },
     { icon: "map-pin", title: "River wilderness", text: p("The water district's Lower Hillsborough Wilderness Preserve lets you paddle the Hillsborough River among wading birds, turtles and alligators, with over 60 miles of forest trails.") },
   ],
+  contactsHeading: "Hillsborough agencies for strays, bites, bears and gators",
   contactsIntro: "Here's who to call for the problems we don't handle in Hillsborough, with each number from the agency's own site.",
   contacts: [
     { icon: "users", title: "Hillsborough County Animal Control", text: p("(813) 744-5660. Part of Code Enforcement: sick or injured stray pets, animal bite investigations, dangerous dogs and neglect, including in Tampa, Temple Terrace and Plant City.") },
@@ -68,7 +69,7 @@ export const hillsborough = countyPage({
   servicesIntro: "Every service is available across Hillsborough. Choose the animal to read about the signs and how we handle it.",
   faqs: [
     faq(
-      "What number do I call in Hillsborough County?",
+      "Who do I call for an animal in my Hillsborough County home?",
       "Call (727) 594-7705. Same-day appointments are often available in Hillsborough County.",
       "[PLACEHOLDER: ask the client: typical response time in Hillsborough County]",
     ),

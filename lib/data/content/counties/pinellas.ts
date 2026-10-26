@@ -41,16 +41,17 @@ export const pinellas = countyPage({
     { icon: "leaf", title: "Rat poison and owls", text: p("UF/IFAS Extension in Pinellas tied owl deaths at Philippe Park to rat poison. Sealing a house against rats protects the owls that hunt them too.") },
     { icon: "leaf", title: "Beach-nesting birds", text: p("In 2022, Pinellas County Parks and Audubon Florida posted a protected nesting area for black skimmers, a threatened species, at the north end of Sand Key Park. Predators there include crows, gulls and coyotes.") },
   ],
+  contactsHeading: "Pinellas Animal Services, DOH-Pinellas and FWC",
   contactsIntro: "Not every animal problem is ours. These are the public agencies Pinellas residents can call, with numbers from each agency's own page.",
   contacts: [
     { icon: "users", title: "Pinellas County Animal Services", text: p("(727) 582-2600, option 4. Stray pets, animals that threaten public safety, and pickup help for sick or injured wildlife.") },
     { icon: "phone", title: "Animal bites: DOH-Pinellas", text: p("727-824-6932. The health department works with Animal Services to evaluate animal bites and possible rabies exposures.") },
     { icon: "map-pin", title: "Bears and alligators: FWC", text: p("Bears: FWC's Southwest Region office in Lakeland, 863-648-3200. Alligators 4 feet or longer that threaten people, pets or property: 866-FWC-GATOR (866-392-4286).") },
   ],
-  servicesIntro: "Every service we offer is available in Pinellas. Pick the animal for the signs, the Florida rules and how we handle it.",
+  servicesIntro: "From St. Pete to Tarpon Springs, every service below is available in Pinellas. Pick the animal for the signs, the Florida rules and how we handle it.",
   faqs: [
     faq(
-      "What number do I call in Pinellas County?",
+      "What's the number for wildlife removal in Pinellas County?",
       "Call (727) 594-7705. Same-day appointments are often available in Pinellas County.",
       "[PLACEHOLDER: ask the client: typical response time in Pinellas County]",
     ),
@@ -75,7 +76,7 @@ export const pinellas = countyPage({
       "The county's injured-wildlife page lists Pinellas County Animal Services, (727) 582-2600 option 4, for pickup and transport help. For manatees, dolphins, sea turtles, panthers and black bears, it points to FWC's Wildlife Alert Hotline, 888-404-3922.",
     ),
     faq(
-      "There's an alligator in my yard in Pinellas. Who do I call?",
+      "Who takes alligator calls in Pinellas County?",
       "FWC's Nuisance Alligator Hotline, 866-FWC-GATOR (866-392-4286). FWC generally treats an alligator as a nuisance if it's at least 4 feet long and threatens people, pets or property. Smaller ones in a pool or garage can be reported too.",
     ),
   ],

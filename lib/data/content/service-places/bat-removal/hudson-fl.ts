@@ -38,7 +38,7 @@ export const batRemovalHudson = servicePlacePage({
     { icon: "critter", title: "Report any bat contact", text: p("Pasco County Animal Services asks residents to report bare skin contact with a bat, or a bat found in a room where someone slept, to DOH-Pasco or the county. The county recorded one rabid bat from 2013 to 2023.") },
     { icon: "leaf", title: "Pups and the legal season", text: p("In 2017, WUSF reported full removal had to wait until after August, when the young matured, and Fox reported fire officials filed for an emergency removal with FWC. Without a permit, exclusion is legal only from August 15 to April 15.") },
   ],
-  contactsIntro: "Who handles what when bats are the problem in Hudson, from each agency's own page.",
+  contactsIntro: "Hudson sits in Pasco, so bat bites go to DOH-Pasco and exclusion questions to FWC's Southwest Region.",
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Pasco, 352-521-1450, option 4.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office covers Pasco: 863-648-3200.") },
@@ -65,13 +65,13 @@ export const batRemovalHudson = servicePlacePage({
       "No. FWC says killing bats is illegal under rule 68A-4.001, and capturing and relocating bats from a building is illegal too. Exclusion with one-way devices is the legal way out.",
     ),
     faq(
-      "How soon can you come out for bats in Hudson?",
+      "Is a same-day bat visit possible in Hudson?",
       "Same-day appointments for bats are often available in Hudson. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Hudson]",
     ),
   ],
   ctaHeading: "Bats in your Hudson home?",
-  ctaText: "Hudson bat calls go to (727) 594-7705.",
+  ctaText: "Bats under a Hudson roof? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Hudson, FL | Pro Wildlife Removal",
     description:

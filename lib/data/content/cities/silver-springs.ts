@@ -42,13 +42,14 @@ export const silverSprings = countyPage({
     { icon: "drop", title: "Bats on the park's list", text: p("The 2014 plan lists the red bat in the park. A hoary bat was also documented there by the Florida Natural Areas Inventory, but none has been seen since the 1970s.") },
     { icon: "map-pin", title: "Raccoons in Marion's tables", text: p("Across Marion County, the state's rabies tables listed 7 rabid raccoons in 2024 and 6 in 2025.") },
   ],
-  contactsIntro: "Who handles what in Silver Springs, from DOH-Marion's alerts and FWC's own pages.",
+  contactsHeading: "Marion County and FWC numbers near Silver Springs",
+  contactsIntro: "Near the state park, strays and pet bites go to Marion County, human bites to DOH-Marion, and alligators to FWC.",
   contacts: [
     { icon: "users", title: "Marion County Animal Services", text: p("352-671-8727, the number DOH-Marion gives for strays and for bites to pets or livestock.") },
     { icon: "phone", title: "Human bites: DOH-Marion", text: p("352-629-0137, to report a bite or scratch from any animal.") },
     { icon: "map-pin", title: "FWC: Northeast Region", text: p("FWC's Northeast Region office in Ocala, 352-732-1225. Nuisance alligators: 866-FWC-GATOR.") },
   ],
-  servicesIntro: "Every service we offer is available in Silver Springs. Choose an animal to learn more.",
+  servicesIntro: "The park's raccoons, squirrels and bats are all on this list, along with every other animal we remove near Silver Springs.",
   servicesHeading: "Animals we remove in Silver Springs",
   reviewsIntro: "[PLACEHOLDER: reviews from Silver Springs customers, matched from the client's Google reviews (TTR-723)]",
   faqs: [
@@ -65,7 +66,7 @@ export const silverSprings = countyPage({
       "Marion County Animal Services, 352-671-8727, for strays and bites to pets or livestock. Report human bites to DOH-Marion at 352-629-0137.",
     ),
     faq(
-      "How soon can you get to Silver Springs?",
+      "Do you come out to Silver Springs the same day?",
       "Same-day appointments are often available in Silver Springs. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Silver Springs]",
     ),

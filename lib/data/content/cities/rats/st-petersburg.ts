@@ -41,14 +41,14 @@ export const stPetersburgRats = countyPage({
     { icon: "critter", title: "Carts out in the morning", text: p("Garbage goes in closed containers, rolled to the curb only on the morning of collection day. Most single-family homes get one 90-gallon cart and twice-weekly pickup.") },
     { icon: "search", title: "Junk and overgrowth", text: p("City rules say discarded items can't be left in the yard, and owners must keep vegetation trimmed on their property and the city right-of-way. Both cut down on rat cover.") },
   ],
-  contactsHeading: "Who to call about rats in St. Petersburg",
-  contactsIntro: "Who to call about rats in St. Petersburg, from the city's own pages.",
+  contactsHeading: "St. Petersburg Sanitation and other rat contacts",
+  contactsIntro: "Sanitation inspects for rats outdoors. For rodents inside a home, the city points you to a private company.",
   contacts: [
     { icon: "home", title: "Rats outside: Sanitation", text: p("St. Pete Sanitation, 727-893-7398, for outdoor rodent inspections in neighborhoods.") },
     { icon: "users", title: "Rats inside: a private company", text: p("The city's guide says to hire a private exterminator for rodents inside a home. Call us at (727) 594-7705.") },
   ],
   servicesIntro: "This page is about rats, but we handle every animal below in St. Petersburg.",
-  servicesHeading: "Rats, and the other animals we remove in St. Pete",
+  servicesHeading: "St. Pete wildlife we remove besides rats",
   reviewsIntro: "[PLACEHOLDER: reviews from St. Petersburg rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "St. Petersburg rat questions",
   faqs: [

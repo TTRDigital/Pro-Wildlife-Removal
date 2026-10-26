@@ -26,7 +26,7 @@ export const batRemovalHernandoCounty = servicePlacePage({
   answer:
     "Through exclusion: one-way devices at the entry points let the colony fly out and stop it from getting back in. FWC allows that without a permit only from August 15 to April 15, and bans killing, poisoning or relocating bats. Pro Wildlife Removal looks for the gaps in a Hernando home, fits the devices and seals up. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Several hundred bats at Chinsegut"],
-  localHeading: "What to know about bats in Hernando County",
+  localHeading: "Hernando County bats, from Chinsegut to the rabies tables",
   localIntro: "Hernando has a public bat colony at an FWC wildlife area, and none of the state's 2022 to 2025 county tables, or their surveillance footnotes, list a rabid bat from Hernando. These are the local facts.",
   local: [
     { icon: "leaf", title: "Chinsegut's colony", text: p("The Great Florida Birding Trail lists a large colony of Brazilian free-tailed bats at FWC's 820-acre Chinsegut Wildlife and Environmental Area, off Lake Lindsey Road in Brooksville.") },
@@ -38,7 +38,8 @@ export const batRemovalHernandoCounty = servicePlacePage({
     { icon: "map-pin", title: "Keep bats out of living space", text: p("Hernando's newest rabies alert, June 30, 2026, told residents to keep wildlife, bats included, out of living quarters, schools and other occupied spaces where they might meet people or pets.") },
     { icon: "drop", title: "The legal window", text: p("Bat pups are raised during FWC's maternity season, April 16 to August 14. In Hernando, as everywhere in Florida, one-way exclusion devices can go up only from August 15 to April 15 without a permit.") },
   ],
-  contactsIntro: "Who handles what when bats are the problem in Hernando County, from each agency's own page.",
+  contactsHeading: "Hernando offices for bat bites and exclusion rules",
+  contactsIntro: "Bat bites in Hernando go to the health department and exclusion rules to FWC; their numbers below come from their own pages.",
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Hernando, 352-540-6812, or 352-540-6863 for bite reports.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office, which covers Hernando: 863-648-3200.") },
@@ -65,13 +66,13 @@ export const batRemovalHernandoCounty = servicePlacePage({
       "No. FWC says the capture and relocation of bats is illegal, as are poisons and fumigants. Exclusion is the only legal way to get a colony out.",
     ),
     faq(
-      "How soon can you come out for bats in Hernando County?",
+      "How quickly can a Hernando County bat colony be looked at?",
       "Same-day appointments for bats are often available in Hernando County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Hernando County]",
     ),
   ],
   ctaHeading: "Bats in your Hernando County home?",
-  ctaText: "For bats anywhere in Hernando, call (727) 594-7705.",
+  ctaText: "Bats in a Hernando roof? Call (727) 594-7705.",
   seo: {
     title: "Bat Removal in Hernando County, FL | Pro Wildlife Removal",
     description:

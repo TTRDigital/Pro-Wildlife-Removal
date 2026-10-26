@@ -25,7 +25,7 @@ export const raccoonRemovalPinellasCounty = servicePlacePage({
   order: 10,
   heading: "Raccoon Removal in Pinellas County, FL",
   heroText: "Thumping in the attic or a torn soffit somewhere in Pinellas? We find the raccoon's way in, look for young, remove the animals and close the opening. Call (727) 594-7705.",
-  answerHeading: "Who removes raccoons from homes in Pinellas County?",
+  answerHeading: "Who handles a raccoon living in a Pinellas County house?",
   answer:
     "A private wildlife company. Pinellas County Animal Services offers help with sick or injured wildlife and refers residents to FWC's list of trappers, so a healthy raccoon in your attic is the owner's to handle. Pro Wildlife Removal gets raccoons out of Pinellas attics, soffits and crawl spaces, checks for young and seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County bans feeding nuisances", "Rabid raccoon found in 2025"],
@@ -40,6 +40,7 @@ export const raccoonRemovalPinellasCounty = servicePlacePage({
     { icon: "critter", title: "Tortoise eggs on the menu", text: p("A UF/IFAS Extension agent in Pinellas notes that raccoons, like armadillos, can dig up gopher tortoise eggs. Eggs are one more reason not to leave food out that keeps raccoons close to a yard.") },
     { icon: "map-pin", title: "No feeding in county parks", text: p("Pinellas County park rules forbid feeding or disturbing wildlife, and the county's campground rules name raccoons outright. They also ban releasing any animal on park land.") },
   ],
+  contactsHeading: "Pinellas contacts for sick, biting or indoor raccoons",
   contactsIntro: "Who to call in Pinellas when a raccoon is the problem, from the county's and the health department's own pages.",
   contacts: [
     { icon: "users", title: "Sick or injured raccoon", text: p("Pinellas County Animal Services, (727) 582-2600, option 4, offers pickup and transport help for sick or injured wildlife.") },
@@ -51,7 +52,7 @@ export const raccoonRemovalPinellasCounty = servicePlacePage({
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Pinellas County raccoon job, quoted exactly as on Google (TTR-723)]",
   faqs: [
     faq(
-      "Is it illegal to feed raccoons in Pinellas County?",
+      "Can feeding raccoons break county code in Pinellas County?",
       "Leaving food or garbage out so that it draws raccoons and creates a nuisance violates county code Sec. 14-30(4). DOH-Pinellas also asks residents not to feed wild animals, including by accident with outdoor pet food or open garbage cans.",
     ),
     faq(
@@ -68,13 +69,13 @@ export const raccoonRemovalPinellasCounty = servicePlacePage({
       "Yes. The state confirmed one rabid raccoon in Pinellas County in 2025. Keep pets vaccinated, never handle a raccoon, and report any bite or scratch to DOH-Pinellas at 727-824-6932.",
     ),
     faq(
-      "How soon can you come out for a raccoon in Pinellas County?",
+      "What's the wait for a raccoon visit in Pinellas County?",
       "Same-day raccoon appointments are often available in Pinellas County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a raccoon call in Pinellas County]",
     ),
   ],
   ctaHeading: "Raccoon in your Pinellas home?",
-  ctaText: "Pinellas County raccoon calls go to (727) 594-7705.",
+  ctaText: "Got a raccoon denning in your Pinellas house? Call (727) 594-7705.",
   seo: {
     title: "Raccoon Removal in Pinellas County | Pro Wildlife Removal",
     description:

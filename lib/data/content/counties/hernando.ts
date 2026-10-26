@@ -37,6 +37,7 @@ export const hernando = countyPage({
     { icon: "search", title: "A small bear population", text: p("FWC says a remnant group of about 30 black bears lives in and around the Chassahowitzka Wildlife Management Area. Bears are FWC's job, not ours: give them space and contact FWC.") },
     { icon: "leaf", title: "Weekiwachee Preserve", text: p("The water district's Weekiwachee Preserve on the Hernando coast, west of Weeki Wachee, is a roost for hundreds of wading birds every night and is known above all for its Florida black bears.") },
   ],
+  contactsHeading: "Hernando's sheriff-run animal services and other lines",
   contactsIntro: "In Hernando, animal services run through the Sheriff's Office. These are the public numbers for problems outside our work, from each agency's own page.",
   contacts: [
     { icon: "users", title: "HCSO Animal Services", text: p("352-796-5062. The Hernando County Sheriff's Office runs Animal Services in Brooksville.") },

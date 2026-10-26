@@ -43,14 +43,14 @@ export const clearwaterRats = countyPage({
     { icon: "critter", title: "One pickup a week", text: p("Clearwater collects household trash once a week. With a week between pickups, a closed lid matters. The city asks residents to put garbage in the container and close the lid.") },
     { icon: "wrench", title: "Curb timing", text: p("Carts go out no earlier than 7 p.m. the night before and come back in by 7 a.m. the day after. Yard waste and bulk debris shouldn't sit at the curb more than 24 hours before pickup.") },
   ],
-  contactsHeading: "Who to call about rats in Clearwater",
-  contactsIntro: "Who to call about rats in Clearwater, from the city's own pages.",
+  contactsHeading: "Clearwater Code Compliance, and rats inside the house",
+  contactsIntro: "Debris or overgrowth next door goes to the city. Rats already in your walls are a private job.",
   contacts: [
     { icon: "home", title: "Report harborage next door", text: p("Clearwater Code Compliance, (727) 562-4720, takes reports of debris, overgrowth and other code violations.") },
     { icon: "users", title: "Rats inside your home", text: p("That's a job for a private company. Call us at (727) 594-7705.") },
   ],
   servicesIntro: "Rats are this page's focus, but we remove every animal below in Clearwater too.",
-  servicesHeading: "Rats, and the other animals we remove in Clearwater",
+  servicesHeading: "Beyond rats: every Clearwater animal we handle",
   reviewsIntro: "[PLACEHOLDER: reviews from Clearwater rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "Clearwater rat questions",
   faqs: [
@@ -67,13 +67,13 @@ export const clearwaterRats = countyPage({
       "Bag it, close the lid and follow the city's set-out times. Clearwater picks up once a week, so a cart with a broken lid feeds rats for days.",
     ),
     faq(
-      "How soon can you come out for rats in Clearwater?",
+      "Can someone check our Clearwater rat problem today?",
       "Same-day rat inspections are often available in Clearwater. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Clearwater]",
     ),
   ],
   ctaHeading: "Rats in your Clearwater home?",
-  ctaText: "For rats in Clearwater, call (727) 594-7705.",
+  ctaText: "Rats in a Clearwater attic, wall or garage? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Clearwater, FL | Pro Wildlife Removal",
     description:

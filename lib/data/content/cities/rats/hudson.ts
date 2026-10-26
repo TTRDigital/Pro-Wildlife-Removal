@@ -16,7 +16,7 @@ export const hudsonRats = countyPage({
   heroText: "Rats in a Hudson attic, garage or boathouse? We close the gaps, trap the rats inside and clean up. Call (727) 594-7705.",
   answerHeading: "Who handles rats in Hudson?",
   answer:
-    "Hudson is unincorporated Pasco County, and the county doesn't remove rats from homes. Garbage service is through a licensed hauler you sign up with yourself. For rats in the attic or walls, call a private company. We close off how they get in and trap the rest. Call (727) 594-7705.",
+    "Hudson has no city government of its own. It's unincorporated Pasco County, which doesn't take rats out of homes. Garbage service is through a licensed hauler you sign up with yourself. For rats in the attic or walls, call a private company. We close off how they get in and trap the rest. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Sign up for your own hauler", "No garbage dumps in yards"],
   townsHeading: "Rat removal near Hudson",
   townsIntro: "We take rat calls along the north Pasco coast, and handle every other animal in Hudson too.",
@@ -39,14 +39,14 @@ export const hudsonRats = countyPage({
     { icon: "critter", title: "Overgrown lots next door", text: p("Pasco only takes overgrowth complaints from an affected party: someone who owns or lives on land touching or surrounding the lot.") },
     { icon: "wrench", title: "Near the water", text: p("Docks, boathouses and seawalls give rats cover close to homes. Check where lines and pipes enter outbuildings, and keep bait and fish scraps sealed.") },
   ],
-  contactsHeading: "Who to call about rats in Hudson",
-  contactsIntro: "Who to call about rats and related problems in Hudson.",
+  contactsHeading: "Pasco's code line, and rat help for Hudson homes",
+  contactsIntro: "An overgrown lot goes to Pasco County Customer Service. Rats indoors are a private job.",
   contacts: [
     { icon: "home", title: "Code complaints", text: p("Pasco County Customer Service, 727-847-2411, to file a code violation in Hudson.") },
     { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at (727) 594-7705.") },
   ],
-  servicesIntro: "This page is about rats, but we remove every animal below in Hudson.",
-  servicesHeading: "Rats, and the other animals we remove in Hudson",
+  servicesIntro: "Boathouse and shed rats are only part of it. Here are the other animals we remove in Hudson.",
+  servicesHeading: "Other Hudson wildlife we handle besides rats",
   reviewsIntro: "[PLACEHOLDER: reviews from Hudson rat removal customers, matched from the client's Google reviews (TTR-723)]",
   faqHeading: "Hudson rat questions",
   faqs: [
@@ -63,13 +63,13 @@ export const hudsonRats = countyPage({
       "Yes. Outbuildings get the same treatment as a house: close the gaps, then trap the rats inside. See [rat removal](/services/rat-removal/).",
     ),
     faq(
-      "How soon can you come out for rats in Hudson?",
+      "Can you check for rats at my Hudson house today?",
       "Same-day rat inspections are often available in Hudson. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Hudson]",
     ),
   ],
   ctaHeading: "Rats in your Hudson home?",
-  ctaText: "For rats in Hudson, call (727) 594-7705.",
+  ctaText: "Rats in a Hudson home, shed or boathouse? Call (727) 594-7705.",
   seo: {
     title: "Rat Removal in Hudson, FL | Pro Wildlife Removal",
     description:

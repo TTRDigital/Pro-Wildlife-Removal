@@ -14,7 +14,7 @@ export const dadeCity = countyPage({
   heroText: "The Pasco County seat, in east Pasco near the Withlacoochee River and the Green Swamp. Call (727) 594-7705.",
   answerHeading: "Who handles wildlife problems in Dade City?",
   answer:
-    "Dade City doesn't list an animal control service of its own. Pasco County Animal Services handles pets and strays, and animals living in your home are a job for a private company. Pro Wildlife Removal works in Dade City and east Pasco. Call (727) 594-7705.",
+    "Dade City's own pages don't list an animal control service. Pasco County Animal Services handles pets and strays, and animals living in your home are a job for a private company. Pro Wildlife Removal works in Dade City and east Pasco. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Pasco County seat", "Near the Green Swamp"],
   townsHeading: "Dade City and nearby",
   townsIntro: "Dade City is the Pasco County seat, with about 10,200 residents in 2025. We also cover the east Pasco communities around it.",
@@ -39,7 +39,8 @@ export const dadeCity = countyPage({
     { icon: "critter", title: "Rabies alerts nearby", text: p("In February 2026, DOH-Pasco issued a rabies alert for the Zephyrhills area after a rabid raccoon was found there. In July, it advised of two more rabid raccoons in east Pasco.") },
     { icon: "home", title: "Overgrown lots", text: p("Dade City code enforcement handles complaints about excessive trash or debris. If an overgrown lot isn't cleaned up, the city says it will do the work and place a lien on the property.") },
   ],
-  contactsIntro: "Who to call for what in Dade City, from the city's, county's and agencies' own pages.",
+  contactsHeading: "Dade City code enforcement and Pasco contacts",
+  contactsIntro: "Trash and debris complaints go to the city on Meridian Avenue, strays to Pasco County. Here's who covers what in Dade City.",
   contacts: [
     { icon: "home", title: "Dade City Code Enforcement", text: p("(352) 523-5050, 38020 Meridian Avenue, for trash, debris, junk cars and other nuisance complaints inside city limits.") },
     { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212 for stray and lost pets in Dade City and across the county.") },
@@ -59,10 +60,10 @@ export const dadeCity = countyPage({
     ),
     faq(
       "Do you handle rats in Dade City?",
-      "Yes. See [rat removal in Dade City](/about-us/service-area/rat-removal-dade/) for the local details.",
+      "Yes. See [rat removal in Dade City](/about-us/service-area/rat-removal-dade/) for the city-specific details.",
     ),
     faq(
-      "How fast can you get to Dade City?",
+      "Will you drive out to Dade City the same day?",
       "Same-day appointments are often available in Dade City. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Dade City]",
     ),

@@ -25,7 +25,7 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
   answer:
     "The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property needs private removal services. For bats, Pro Wildlife Removal finds every gap they use, fits one-way exits outside FWC's April 16 to August 14 maternity season, then seals the openings once the bats are gone. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County: private property is yours", "Four rabid bats in the 2025 table"],
-  localHeading: "What to know about bats in Hillsborough County",
+  localHeading: "Rabid bat records and cases in Hillsborough County",
   localIntro: "These facts about bats in Hillsborough come from the state health department, DOH-Hillsborough and news reports of local rabid bat cases, labeled as news.",
   local: [
     { icon: "search", title: "None, then two", text: p("Hillsborough's row in the state rabies tables listed no rabid bats for 2022 or 2023 and two for 2024. The tables count rabid animals that may have exposed people, pets or livestock.") },
@@ -36,7 +36,8 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     { icon: "map-pin", title: "Sun City Center, July 2018 (news)", text: p("FOX 13 reported that a woman in a Sun City Center parking lot felt something hit her arm and later found a small bat clinging to it at home. It tested positive, and the health department notified homes and businesses within 500 feet.") },
     { icon: "critter", title: "On its back in the grass, March 2018 (news)", text: p("In March 2018 a bat found lying on its back in the grass near the 1300 block of North Westshore Boulevard tested positive for rabies, FOX 13 and ABC Action News reported, and one person had been exposed to it.") },
   ],
-  contactsIntro: "Who handles what when bats are the problem in Hillsborough, from the county's and DOH-Hillsborough's own pages.",
+  contactsHeading: "Hillsborough numbers for bat bites and roosting bats",
+  contactsIntro: "In Hillsborough, possible bat bites go to DOH-Hillsborough and stray or bite calls to county Animal Control, per their own pages.",
   contacts: [
     { icon: "phone", title: "Possible bat bite", text: p("Report it to DOH-Hillsborough at 813-307-8059, and get medical advice.") },
     { icon: "users", title: "County Animal Control", text: p("(813) 744-5660, serving the whole county, Tampa, Temple Terrace and Plant City included. The City of Tampa's listing for the county service says to use private removal services for wildlife on private property.") },
@@ -55,7 +56,7 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
       "Exclusion isn't allowed during FWC's maternity season, April 16 through August 14, without an FWC permit. After it ends, one-way devices go up for at least four nights with lows forecast at 50°F or above.",
     ),
     faq(
-      "Have rabid bats been found in Hillsborough County?",
+      "Has Hillsborough County had rabid bats lately?",
       "Yes. The state's 2025 table listed four rabid bats in Hillsborough, and its 2024 table listed two, with three more noted from surveillance testing.",
     ),
     faq(
@@ -63,13 +64,13 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
       "DOH-Hillsborough says bat bites may not be clearly visible. If you think anyone in the house may have had contact with a bat, call DOH-Hillsborough at 813-307-8059.",
     ),
     faq(
-      "How soon can you look at bats in Hillsborough County?",
+      "How fast can you inspect a bat roost in Hillsborough County?",
       "Same-day appointments for bats are often available in Hillsborough County. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for a bat call in Hillsborough County]",
     ),
   ],
   ctaHeading: "Bats in your Hillsborough County home?",
-  ctaText: "For bats anywhere in Hillsborough County, call (727) 594-7705.",
+  ctaText: "From Carrollwood to Sun City Center, Hillsborough bat calls go to (727) 594-7705.",
   seo: {
     title: "Bat Removal in Hillsborough County | Pro Wildlife Removal",
     description:
