@@ -1,6 +1,22 @@
 import type { PlacePage, ServicePlace } from "../types";
 import { raccoonRemovalTampa } from "./content/service-places/raccoon-removal/tampa-fl.ts";
+import { ratRemovalTampa } from "./content/service-places/rat-removal/tampa-fl.ts";
+import { batRemovalTampa } from "./content/service-places/bat-removal/tampa-fl.ts";
+import { squirrelRemovalTampa } from "./content/service-places/squirrel-removal/tampa-fl.ts";
 import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
+import { raccoonRemovalPolkCounty } from "./content/service-places/raccoon-removal/polk-county-fl.ts";
+import { ratRemovalPolkCounty } from "./content/service-places/rat-removal/polk-county-fl.ts";
+import { squirrelRemovalPolkCounty } from "./content/service-places/squirrel-removal/polk-county-fl.ts";
+import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
+import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
+import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
+import { squirrelRemovalPascoCounty } from "./content/service-places/squirrel-removal/pasco-county-fl.ts";
+import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
+import { raccoonRemovalSpringHill } from "./content/service-places/raccoon-removal/spring-hill-fl.ts";
+import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
+import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
+import { squirrelRemovalPinellasCounty } from "./content/service-places/squirrel-removal/pinellas-county-fl.ts";
+import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
 
 /*
  * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
@@ -9,9 +25,28 @@ import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-
  */
 export const fallbackServicePlaces: ServicePlace[] = [
   // Tampa (Cole)
+  ratRemovalTampa,
+  batRemovalTampa,
+  squirrelRemovalTampa,
   raccoonRemovalTampa,
   // Polk County (Owen)
+  ratRemovalPolkCounty,
   batRemovalPolkCounty,
+  raccoonRemovalPolkCounty,
+  squirrelRemovalPolkCounty,
+  // Pasco (Nia)
+  ratRemovalPascoCounty,
+  batRemovalPascoCounty,
+  raccoonRemovalPascoCounty,
+  squirrelRemovalPascoCounty,
+  raccoonRemovalNewPortRichey,
+  // Spring Hill (Nia)
+  raccoonRemovalSpringHill,
+  // Pinellas County (Rhea)
+  ratRemovalPinellasCounty,
+  batRemovalPinellasCounty,
+  squirrelRemovalPinellasCounty,
+  raccoonRemovalPinellasCounty,
 ];
 
 /**

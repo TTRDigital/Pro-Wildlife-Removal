@@ -28,10 +28,20 @@ Model page: `raccoon-removal/tampa-fl.ts`. Copy its shape, never its words.
 - An SEO title of 60 characters or fewer ("Raccoon Removal in Tampa, FL | Pro Wildlife Removal") and a description of 150 to 155 characters.
 - `reviewsIntro` as a placeholder for a real Google review from that place, quoted exactly. Never write a review.
 
+## Facts: read the fine print
+
+- DOH county rabies tables leave out bats found by surveillance testing; they're in the footnotes. Write
+  "the county's table listed N" or count the footnote separately, never "N cases" for the table alone.
+- Always look for the latest DOH alert for the county (floridahealth.gov uploads, county DOH newsroom) and cite the newest.
+- Every card is about this animal in this place. A park or preserve only counts if its own page names the animal.
+- Quote the source's wording for anything with a number, a date or a rule; don't round it up or add to it.
+
 ## Never
 
 - One phone number only: (727) 594-7705. No county lines.
-- No 24/7, hours, prices, "best", "#1", "guaranteed", license or certification claims, street addresses.
+- No 24/7, hours, prices, "best", "#1", "guaranteed", superlatives, license or certification claims, street addresses.
+- No promise in the hero or anywhere else (no "so it can't come back", "for good", "never again").
+- Same-day: only "Same-day appointments ... are often available in [place]". No times.
 - No moles, no ducks.
 - No company claims (years, jobs done, response times, warranties) unless confirmed. Use placeholders.
 - No sentence reused from another page. If a place has nothing true and local for an animal, skip the page and list it.
