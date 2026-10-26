@@ -22,17 +22,17 @@ export const raccoonRemovalPalmHarbor = servicePlacePage({
   heroText: "A raccoon in a Palm Harbor attic, lanai or garage? We get it out the way Florida allows, look for young before anything is sealed and repair the spot it used. Call (727) 594-7705.",
   answerHeading: "Who gets a raccoon out of a home in Palm Harbor?",
   answer:
-    "A private wildlife company. In Palm Harbor, raccoons live along Lake Tarpon, where the county's own land page lists them, and they get into lanais through torn screens. Pro Wildlife Removal removes raccoons from Palm Harbor attics, lanais and garages, checks for young and repairs the way in. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County lands by Lake Tarpon list raccoons", "Pinellas code: don't feed them"],
+    "A private wildlife company. In Palm Harbor, the county lists raccoons among the wildlife at its Lake Tarpon West Management Area, and a 2018 news report told of one that got onto a lanai through a torn screen. Pro Wildlife Removal removes raccoons from attics, lanais and garages, checks for young and repairs the way in. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "County land by Lake Tarpon lists raccoons", "Pinellas code: don't feed them"],
   localHeading: "What to know about raccoons in Palm Harbor",
   localIntro: "Two of the Palm Harbor facts below are from local news reports, labeled as news. The rest come from Pinellas County and the state health department.",
   local: [
     { icon: "leaf", title: "Lake Tarpon West", text: p("Pinellas County says its Lake Tarpon West Management Area, in the Palm Harbor area just west of Lake Tarpon, supports native wildlife including raccoons, river otters, alligators, frogs and snakes.") },
     { icon: "map-pin", title: "Distemper at John Chesnut Sr. Park (news)", text: p("In March 2017, Tampa Bay 28 reported that a raccoon at John Chesnut Sr. Park in Palm Harbor tested positive for canine distemper virus. The county's release said there was no reported exposure to visiting dogs.") },
-    { icon: "home", title: "Through a torn screen (news)", text: p("In September 2018, Tampa Bay 28 reported a raccoon that got onto a Palm Harbor lanai through a tear in the screen, ran through the house and ended up on a bathroom vanity. Deputies shooed it out a bedroom window.") },
+    { icon: "home", title: "Through a torn screen (news)", text: p("In September 2018, Tampa Bay 28 reported a raccoon that got onto a Palm Harbor lanai through a tear in the screen, ran through the house and ended up on top of a vanity. Deputies shooed it out a bedroom window.") },
     { icon: "search", title: "Pinellas rabies, 2025", text: p("Pinellas County's row in the state's 2025 rabies table listed one rabid animal for the year, and it was a raccoon.") },
-    { icon: "users", title: "Feeding is a nuisance", text: p("Pinellas County code Sec. 14-30 makes it a public nuisance to place or offer food or garbage in a way that attracts raccoons, cats, dogs, coyotes or other wildlife.") },
-    { icon: "drop", title: "Park rules name raccoons", text: p("The county's campground rules list feeding wildlife, birds, squirrels and raccoons included, among the things campers may not do in Pinellas parks.") },
+    { icon: "users", title: "Feeding is a nuisance", text: p("Pinellas County code Sec. 14-30 lists placing or offering food or garbage in a way that attracts raccoons, cats, dogs, coyotes or other wildlife, and so creates a public nuisance.") },
+    { icon: "drop", title: "Park rules name raccoons", text: p("Pinellas County's campground rules at Fort De Soto list feeding wildlife, including birds, squirrels and raccoons, as a prohibited action.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Palm Harbor, from the county's and DOH-Pinellas's own pages.",
   contacts: [
@@ -50,7 +50,7 @@ export const raccoonRemovalPalmHarbor = servicePlacePage({
     ),
     faq(
       "Could a raccoon get into my Palm Harbor lanai?",
-      "Yes. In a 2018 Tampa Bay 28 report, a raccoon got onto a Palm Harbor lanai through a tear in the screen and made it all the way into the bathroom. Keep screens repaired.",
+      "Yes. In a 2018 Tampa Bay 28 report, a raccoon got onto a Palm Harbor lanai through a tear in the screen and ran through the house. Keep screens repaired.",
     ),
     faq(
       "Do raccoons in Pinellas County carry rabies?",
