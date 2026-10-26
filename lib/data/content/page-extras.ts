@@ -12,10 +12,7 @@ const FWC_TRAP = "https://myfwc.com/news/all-news/wildlife-trapping-0226/";
 const SHERIFF = "https://www.hernandosheriff.org/AnimalServices/";
 const GOOD_NEIGHBOR = "https://www.cityofbrooksville.us/AgendaCenter/ViewFile/Agenda/_04252024-260";
 const DOH_HERNANDO_ALERT = "https://www.floridahealth.gov/wp-content/uploads/2026/06/rabies-alert-hernando-county-6-12-26.pdf";
-const CDC_RODENTS = "https://www.cdc.gov/healthy-pets/rodent-control/index.html";
 const CDC_CLEANUP = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html";
-const SUMTER_AS = "https://www.sumtercountyfl.gov/1180/Nuisance-Wildlife";
-const DUVAL = "https://sfyl.ifas.ufl.edu/media/sfylifasufledu/duval/horticulture/commercial-hort/CC-Feb_Mar-2023.pdf";
 
 export const pageExtras: Record<string, Extra> = {
   about: {
@@ -160,42 +157,6 @@ export const locationExtras: Record<string, Extra> = {
       { title: "DOH-Hernando: Rabies alert, June 12, 2026 (raccoon attacked an unvaccinated cat, Norvell Road, Spring Hill area; rabies present in the wild animal population)", url: DOH_HERNANDO_ALERT },
       { title: "City of Brooksville: Good Neighbor Trail management plan, April 2024 committee agenda packet (city will prohibit feeding raccoons, squirrels and other wild animals)", url: GOOD_NEIGHBOR },
       { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },
-    ],
-  },
-  "about-us/service-area/rat-removal-services-the-villages-fl": {
-    seoTitle: "Rat Removal in The Villages, FL | Pro Wildlife Removal",
-    seoDescription:
-      "Rats in a Villages attic or garage? Signs to look for, who handles what in Sumter County, and rat removal from Pro Wildlife Removal. Call (727) 594-7705.",
-    sections: [
-      {
-        _type: "faqSection",
-        _key: "faq",
-        eyebrow: "FAQ",
-        heading: "Rat questions in The Villages",
-        items: [
-          faq(
-            "Will Sumter County Animal Services remove rats?",
-            `No. Sumter County says its Animal Services deals only with domestic animals and refers wildlife calls to private trappers ([Sumter County](${SUMTER_AS})). Rats in an attic or garage need a pest or wildlife company.`,
-          ),
-          faq(
-            "Which diseases can rats carry?",
-            `The CDC says rodents can spread disease through their droppings, urine, saliva and bites ([CDC](${CDC_RODENTS})). Read our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/) before you touch any.`,
-          ),
-          faq(
-            "How do I know it's rats and not squirrels?",
-            `Timing helps. UF/IFAS Extension says attic noise from night to early morning likely comes from a nocturnal animal such as a roof rat, while daytime noise is more likely a squirrel ([UF/IFAS](${DUVAL})). Our guides on [signs your house has rats](/blog/signs-that-your-house-has-rats/) and [rats in the attic](/services/rats-in-attic/) cover droppings, gnaw marks and noises.`,
-          ),
-          faq(
-            "How soon can someone come to The Villages?",
-            "Same-day rat appointments are often available in The Villages. See our [The Villages](/about-us/service-area/wildlife-removal-the-villages/) page for other animals, or call (727) 594-7705.",
-          ),
-        ],
-      },
-    ],
-    sources: [
-      { title: "Sumter County: Nuisance wildlife (Animal Services deals only with domestic animals; referrals to private trappers)", url: SUMTER_AS },
-      { title: "UF/IFAS Extension Duval County: Commercial horticulture newsletter, Feb-Mar 2023 (night-to-early-morning attic noise likely a nocturnal animal such as a roof rat; daytime noise more likely a squirrel)", url: DUVAL },
-      { title: "CDC: Controlling wild rodent infestations (diseases via droppings, urine, saliva, bites)", url: CDC_RODENTS },
     ],
   },
 };
