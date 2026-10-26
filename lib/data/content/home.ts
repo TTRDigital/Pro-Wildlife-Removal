@@ -24,7 +24,7 @@ export const home: PageContent = {
       "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
-    badges: ["7 counties", "Removal, sealing and cleanup"],
+    badges: ["8 counties", "Removal, sealing and cleanup"],
   },
   sections: [
     {
@@ -32,9 +32,9 @@ export const home: PageContent = {
       _key: "answer",
       heading: "Who we are and how it works",
       text: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in seven counties across Central Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in eight counties across Central Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
       ),
-      points: ["7 counties", "Humane, legal methods", "Entry points sealed"],
+      points: ["8 counties", "Humane, legal methods", "Entry points sealed"],
     },
     {
       _type: "servicesSection",
@@ -92,8 +92,8 @@ export const home: PageContent = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Service area",
-      heading: "Wildlife removal in 7 Florida counties",
-      intro: p("One number covers all seven counties: (727) 594-7705."),
+      heading: "Wildlife removal in 8 Florida counties",
+      intro: p("One number covers all eight counties: (727) 594-7705."),
       groups: countyGroups,
     },
     {
@@ -200,7 +200,7 @@ export const home: PageContent = {
         ),
         faq(
           "Which areas do you serve?",
-          "Central Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter and Polk counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey and The Villages.",
+          "Central Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey, The Villages and Ocala.",
         ),
         faq(
           "Do you remove snakes and bees too?",
@@ -213,14 +213,14 @@ export const home: PageContent = {
       _key: "cta",
       heading: "Hearing something in the attic right now?",
       highlight: "right now?",
-      text: p("Call (727) 594-7705, one number for all 7 counties."),
+      text: p("Call (727) 594-7705, one number for all 8 counties."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Wildlife Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal across 7 Central Florida counties, with sealing and cleanup. A free inspection: (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across 8 Central Florida counties, with sealing and cleanup. A free inspection: (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

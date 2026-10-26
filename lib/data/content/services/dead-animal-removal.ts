@@ -144,7 +144,7 @@ export const deadAnimalRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Dead animal removal in 7 counties",
+      heading: "Dead animal removal in 8 counties",
       intro: p("Homes, businesses and rentals across Central Florida and the counties around it."),
       groups: countyGroups,
     },

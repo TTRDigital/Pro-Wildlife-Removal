@@ -1,6 +1,6 @@
 # Place-page coverage (TTR-738)
 
-Every target place x the four animals (rats and bats first). Kept by Cole; updated on every merge into `claude/cole-pwr-content`. Ben assigns places.
+Every target place x the four animals (rats and bats first). New places get their city or county page before their animal pages. Kept by Cole; updated on every merge into `claude/cole-pwr-content`. Ben assigns places.
 
 Key: **L** live in the bundle and fact-checked · **F** in the bundle, waiting on Ben's fact check · **E** existing rat-in-city page, keeps its URL (`existingPlacePages`) · **P** in the bundle, fixes pending after fact check · **H** held (reason in notes) · **S** skipped, nothing true and local · **N** not started
 
@@ -31,6 +31,16 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Safety Harbor | Rhea | E | N | N | N |  |
 | Palm Harbor | Rhea | N | N | N | N | old rat page redirected |
 | Pinellas Park | Rhea | N | N | N | N |  |
+| The Villages | Nia | E | N | N | N | confirmed target (Kia, Oct 26); old rat page now linked; city page rewrite first |
+| Marion County | Nia | N | N | N | N | new county (Kia, Oct 26): county page first; areas list names Silver Springs and Summerfield |
+| Ocala | Nia | N | N | N | N | city page first |
+| Belleview | Nia | N | N | N | N | city page first |
+| Dunnellon | Nia | N | N | N | N | city page first |
+| Lutz | Owen | N | N | N | N | city page first |
+| Westchase | Owen | N | N | N | N | city page first |
+| Carrollwood | Owen | N | N | N | N | city page first |
+| Citrus Park | Owen | N | N | N | N | city page first |
+| Town 'n' Country | Owen | N | N | N | N | city page first |
 
 ## Counts
 
@@ -39,10 +49,10 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | live, fact-checked | 5 | 6 | 5 | 10 | 26 |
 | in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
 | fixes pending | 0 | 0 | 0 | 0 | 0 |
-| existing rat page | 9 | 0 | 0 | 0 | 9 |
+| existing rat page | 10 | 0 | 0 | 0 | 10 |
 | held | 1 | 1 | 3 | 2 | 7 |
 | skipped | 2 | 3 | 3 | 2 | 10 |
-| not started | 5 | 10 | 11 | 7 | 33 |
-| **all cells** | 23 | 23 | 23 | 23 | 92 |
+| not started | 14 | 20 | 21 | 17 | 72 |
+| **all cells** | 33 | 33 | 33 | 33 | 132 |
 
-Out of scope here: the far-area pages (Orlando, Sarasota, Lady Lake, The Villages) wait on the client and get no new pages; The Villages' old rat page stays unlinked; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
+Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Cheval, Keystone, Lake Magdalene and Greater Northdale are named on the Hillsborough County page rather than getting pages. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
