@@ -120,7 +120,19 @@ export type Section =
   | LocationsSection
   | PostsSection;
 
-export type PageContent = { design?: Design; hero: Hero; sections: Section[]; seo: Seo };
+/** A source a page's facts come from (FWC, CDC, UF/IFAS, Florida statutes). Kept with the page for fact checks; not shown unless a template chooses to. */
+export type Source = { title: string; url: string };
+
+export type PageContent = {
+  design?: Design;
+  hero: Hero;
+  sections: Section[];
+  seo: Seo;
+  /** Where the page's facts about animals, health, law and safety come from. Not rendered. */
+  sources?: Source[];
+  /** Questions only the client can answer; the matching text on the page is a [PLACEHOLDER: ask the client: ...]. Not rendered. */
+  clientQuestions?: string[];
+};
 
 /** "attic": the "[animal] in the attic" pages, listed apart from the animal removal grid. */
 export type ServiceGroup = "removal" | "attic" | "control" | "tampa";
@@ -155,6 +167,9 @@ export type Post = {
   image?: Img;
   body: Rich;
   seo: Seo;
+  /** Fact sources and open client questions, as on PageContent. Not rendered. */
+  sources?: Source[];
+  clientQuestions?: string[];
 };
 
 export type Testimonial = { name: string; quote: string; rating: number; source?: string; date?: string };

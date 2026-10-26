@@ -3,14 +3,25 @@ import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import type { Rich, RichImage, RichTable } from "@/lib/types";
 import { slugify } from "@/lib/text";
 import { Photo } from "@/components/ui/Photo";
+import { fallbackSettings } from "@/lib/data/site";
 
 const isInternal = (href: string) => href.startsWith("/") || href.startsWith("#");
 
+/* Calls only (the client, Oct 2026): "Schedule an inspection"-style links to the contact page call the office instead. */
+const officeTel = `tel:+1${fallbackSettings.phone.replace(/\D/g, "")}`;
+const isRequestLink = (href: string, text: string) => /^\/contact-us\/?(#.*)?$/.test(href) && /request|inspect|schedule|quote|estimate|assess|book/i.test(text);
+
 const components: PortableTextComponents = {
   marks: {
-    link: ({ value, children }) => {
+    link: ({ value, children, text }) => {
       const href: string = value?.href ?? "";
       if (!href) return <>{children}</>;
+      if (isRequestLink(href, text))
+        return (
+          <a href={officeTel} data-track="click_to_call">
+            {children}
+          </a>
+        );
       if (isInternal(href)) return <Link href={href}>{children}</Link>;
       return (
         <a href={href} {...(href.startsWith("http") ? { target: "_blank", rel: "noopener" } : {})}>
