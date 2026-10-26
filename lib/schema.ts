@@ -1,23 +1,7 @@
-import type { Location, Post, Service, SiteSettings, Testimonial } from "@/lib/types";
+import type { Location, Post, Service, ServicePlace, SiteSettings, Testimonial } from "@/lib/types";
 import { absoluteUrl, siteUrl } from "@/lib/site";
 import { images } from "@/lib/data/images";
 import { real } from "@/lib/placeholders";
-
-const WEEK = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-const DAYS: Record<string, string[]> = {
-  "monday – friday": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  "monday - friday": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  saturday: ["Saturday"],
-  sunday: ["Sunday"],
-};
-
-function to24h(t: string) {
-  const m = t.trim().match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)$/i);
-  if (!m) return null;
-  let h = Number(m[1]) % 12;
-  if (m[3].toUpperCase() === "PM") h += 12;
-  return `${String(h).padStart(2, "0")}:${m[2] ?? "00"}`;
-}
 
 /** PestControl (a LocalBusiness) for the whole site. */
 /** Counties are administrative areas, cities are cities, and regions like "Central Florida" are plain places. */
@@ -47,17 +31,7 @@ export function reviewsSchema(s: SiteSettings, shown: Testimonial[]) {
 
 /** The business itself, on every page. Its rating and reviews come from reviewsSchema, only where they are shown. */
 export function businessSchema(s: SiteSettings, locations: Location[] = []) {
-  // "24 hours a day, 7 days a week" (the client's hours) is every day, midnight to midnight.
-  const allDay = s.hours.some((h) => /24 hours|24\/7/i.test(h.value));
-  const hours = allDay
-    ? [{ "@type": "OpeningHoursSpecification", dayOfWeek: WEEK, opens: "00:00", closes: "23:59" }]
-    : s.hours
-        .map((h) => {
-          const days = DAYS[h.label.toLowerCase()];
-          const [open, close] = h.value.split(/\s*[–-]\s*/).map(to24h);
-          return days && open && close ? { "@type": "OpeningHoursSpecification", dayOfWeek: days, opens: open, closes: close } : null;
-        })
-        .filter(Boolean);
+  // No openingHoursSpecification: the client's records disagree on the hours (Ben, Oct 26, 2026), and no hours is safer than wrong hours.
   const license = real(s.license);
   return {
     "@context": "https://schema.org",
@@ -70,7 +44,6 @@ export function businessSchema(s: SiteSettings, locations: Location[] = []) {
     logo: absoluteUrl(images.logo.src),
     image: absoluteUrl(images.prowildlifeRemovalAgentHoldingAnIguanaa.src),
     priceRange: "$$",
-    openingHoursSpecification: hours,
     areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": areaType(l), name: `${l.name}, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
@@ -100,6 +73,24 @@ export function locationSchema(location: Location, path: string) {
     url: absoluteUrl(path),
     provider: { "@id": `${siteUrl}/#business` },
     areaServed: { "@type": areaType(location), name: `${location.name}, FL` },
+  };
+}
+
+/** One animal in one place: the Service, served in that city or county. */
+export function servicePlaceSchema(page: ServicePlace, service: Service, path: string) {
+  const area =
+    page.placeKind === "county"
+      ? { "@type": "AdministrativeArea", name: `${page.placeName}, FL` }
+      : { "@type": "City", name: `${page.placeName}, FL`, ...(page.county ? { containedInPlace: { "@type": "AdministrativeArea", name: `${page.county} County, FL` } } : {}) };
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: page.hero.heading,
+    serviceType: service.title,
+    description: page.seo.description,
+    url: absoluteUrl(path),
+    provider: { "@id": `${siteUrl}/#business` },
+    areaServed: area,
   };
 }
 

@@ -1,5 +1,6 @@
-import type { ServicePlace } from "../types";
+import type { PlacePage, ServicePlace } from "../types";
 import { raccoonRemovalTampa } from "./content/service-places/raccoon-removal/tampa-fl.ts";
+import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
 import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
 import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
 import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
@@ -14,10 +15,28 @@ import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-re
 export const fallbackServicePlaces: ServicePlace[] = [
   // Tampa (Cole)
   raccoonRemovalTampa,
+  // Polk County (Owen)
+  batRemovalPolkCounty,
   // Pasco (Nia)
   ratRemovalPascoCounty,
   batRemovalPascoCounty,
   raccoonRemovalPascoCounty,
   squirrelRemovalPascoCounty,
   raccoonRemovalNewPortRichey,
+];
+
+/**
+ * Place pages that already exist at their own URL and keep it (Ben, Oct 26, 2026): the rat-removal-in-<city> pages
+ * are the rat pages for these cities. They appear in the rat page's "By city" list and each city's "Services here".
+ */
+export const existingPlacePages: PlacePage[] = [
+  { service: "rat-removal", placeName: "Brooksville", placeKind: "city", county: "Hernando", path: "about-us/service-area/expert-rat-removal-in-brooksville-fl", location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl" },
+  { service: "rat-removal", placeName: "Clearwater", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-services-clearwater-fl", location: "about-us/service-area/wildlife-removal-clearwater-fl" },
+  { service: "rat-removal", placeName: "Dade City", placeKind: "city", county: "Pasco", path: "about-us/service-area/rat-removal-dade", location: "about-us/service-area/wildlife-removal-dade-city" },
+  { service: "rat-removal", placeName: "Dunedin", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-services-dunedin-fl", location: "about-us/service-area/wildlife-removal-dunedin" },
+  { service: "rat-removal", placeName: "Hudson", placeKind: "city", county: "Pasco", path: "about-us/service-area/rat-removal-services-hudson-fl", location: "about-us/service-area/hudson-wildlife-removal" },
+  { service: "rat-removal", placeName: "New Port Richey", placeKind: "city", county: "Pasco", path: "rat-removal-new-port-richey", location: "about-us/service-area/wildlife-removal-new-port-richey" },
+  { service: "rat-removal", placeName: "Safety Harbor", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-safety-harbor", location: "about-us/service-area/wildlife-removal-safety-harbor" },
+  { service: "rat-removal", placeName: "Spring Hill", placeKind: "city", county: "Hernando", path: "about-us/service-area/rat-removal-services-spring-hill-fl", location: "about-us/service-area/wildlife-removal-spring-hill-fl" },
+  { service: "rat-removal", placeName: "St. Petersburg", placeKind: "city", county: "Pinellas", path: "about-us/service-area/rat-removal-services-st-petersburg-fl", location: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl" },
 ];
