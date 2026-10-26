@@ -167,6 +167,9 @@ export type Post = {
   image?: Img;
   body: Rich;
   seo: Seo;
+  /** Fact sources and open client questions, as on PageContent. Not rendered. */
+  sources?: Source[];
+  clientQuestions?: string[];
 };
 
 export type Testimonial = { name: string; quote: string; rating: number; source?: string; date?: string };
