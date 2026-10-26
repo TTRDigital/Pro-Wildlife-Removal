@@ -537,8 +537,34 @@
   .marquee-row:nth-child(2) {
     margin-left: -3rem;
   }
-  .marquee:hover .marquee-row {
+  .marquee:hover .marquee-row,
+  .marquee:focus-within .marquee-row {
     animation-play-state: paused;
+  }
+  .marquee-row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    /* still: one copy, wrapped and centred, every pill in view */
+    .marquee {
+      mask-image: none;
+    }
+    .marquee-row {
+      width: auto;
+      justify-content: center;
+    }
+    .marquee-row:nth-child(2) {
+      margin-left: 0;
+    }
+    .marquee-track {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .marquee-track[aria-hidden] {
+      display: none;
+    }
   }
   /* A small map pin drawn with a CSS mask (one icon for every pill, no inline SVG each). */
   .pin-ico {

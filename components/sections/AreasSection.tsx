@@ -40,7 +40,7 @@ function Chip({
 }
 
 /**
- * Where we work, kept short: every city drifts by in two rows that scroll right to left
+ * Where we work, kept short: every place drifts by in two rows that scroll right to left
  * (they pause under the pointer; the second copy that makes the loop seamless is hidden from
  * screen readers), then one compact card per county with its cities as small tags. The cards
  * swipe sideways on phones. A single untitled group is a centred row of tags instead.
@@ -64,7 +64,19 @@ export function AreasSection({ section: s }: { section: Areas }) {
         <CtaRow ctas={s.ctas} />
       </SectionShell>
     );
-  const all = s.groups.flatMap((g) => g.items);
+  // Every place once: linked group titles (counties) and their items (towns).
+  const seen = new Set<string>();
+  const all = s.groups
+    .flatMap((g) => [
+      ...(g.title && g.href ? [{ label: g.title, href: g.href }] : []),
+      ...g.items,
+    ])
+    .filter((it) => {
+      const k = it.href ?? it.label;
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
+    });
   const rows =
     all.length >= 10 && all.every((it) => it.label.split(/\s+/).length <= 4)
       ? [all.filter((_, i) => i % 2 === 0), all.filter((_, i) => i % 2 === 1)]
@@ -82,7 +94,7 @@ export function AreasSection({ section: s }: { section: Areas }) {
           rows={rows.map((r) => r.map(({ label, href }) => ({ label, href })))}
         />
       ) : null}
-      {s.groups.length === 1 && !s.groups[0].title ? (
+      {rows.length ? null : s.groups.length === 1 && !s.groups[0].title ? (
         // One untitled group (e.g. a city's services): a centred row of tags, no card.
         <ul className="mx-auto flex max-w-[900px] flex-wrap justify-center gap-3">
           {s.groups[0].items.map((it) => (
