@@ -181,7 +181,7 @@ export const beeRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Bee removal in 7 counties",
+      heading: "Bee removal in 8 counties",
       intro: p("African honey bees were first documented in Florida in 2001 near the Port of Tampa. We take bee calls across the bay area and the counties around it."),
       groups: countyGroups,
     },

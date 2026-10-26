@@ -202,7 +202,7 @@ export const batRemoval: Service = {
       _key: "areas",
       eyebrow: "Areas served",
       heading: "Bat removal across Central Florida",
-      intro: p("We exclude bats from homes, condos and businesses in all 7 counties, all on one number: (727) 594-7705."),
+      intro: p("We exclude bats from homes, condos and businesses in all 8 counties, all on one number: (727) 594-7705."),
       groups: countyGroups,
     },
     {

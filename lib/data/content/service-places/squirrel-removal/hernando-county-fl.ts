@@ -26,7 +26,7 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
   heroText: "Squirrels in the soffit, chewed fascia or scurrying overhead during the day? We find where they got into your Hernando home, get them and any young out and repair the opening. Call (727) 594-7705.",
   answerHeading: "Who removes squirrels from Hernando County homes?",
   answer:
-    "A private wildlife company. The squirrel in a Hernando attic is usually an eastern gray squirrel, which FWC says will sometimes nest in attics when it can get in. Pro Wildlife Removal finds the entry, removes the squirrels and any nest of young, and repairs the opening it used. Call (727) 594-7705.",
+    "A private wildlife company. FWC says eastern gray squirrels will sometimes nest in attics or other structures when they can get in. Pro Wildlife Removal finds the entry, removes the squirrels and any nest of young, and repairs the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Fox squirrels on three FWC areas", "Litters up to twice a year"],
   localHeading: "What to know about squirrels in Hernando County",
   localIntro: "Hernando's state lands are home to both gray and fox squirrels. Here is where official pages say they live, and what that means for a homeowner.",
@@ -35,7 +35,8 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
     { icon: "map-pin", title: "Croom's longleaf pine", text: p("Croom Wildlife Management Area spans more than 20,000 acres of Hernando and Sumter, where FWC says cypress and big stands of longleaf pine dominate and fox squirrels are among the wildlife visitors see.") },
     { icon: "search", title: "Chassahowitzka's oaks", text: p("On the coast, the Birding Trail page for Chassahowitzka Wildlife Management Area suggests looking for southern fox squirrels scurrying up an oak tree, near gopher tortoises at their burrows.") },
     { icon: "home", title: "Gray squirrels in the forest", text: p("Florida's forest service lists gray squirrels as well as fox squirrels in the Withlacoochee State Forest, which takes in parts of Hernando, Citrus, Lake, Pasco and Sumter counties.") },
-    { icon: "critter", title: "Diet of pine seeds and acorns", text: p("FWC says southern fox squirrels eat mostly longleaf pine seeds and turkey oak acorns, the trees of the sandhills found on Hernando's state lands, and breed in two seasons, October to February and April to August.") },
+    { icon: "critter", title: "Old-growth longleaf at Chinsegut", text: p("FWC names Sherman's fox squirrel, now called the southern fox squirrel, among the rare and imperiled species Chinsegut's old-growth longleaf pine supports.") },
+    { icon: "phone", title: "Squirrels and rabies", text: p("DOH-Hernando's rabies page says rabbits, squirrels, hamsters, gerbils, rats and other rodents are rarely found to be infected and have not been known to cause human rabies in Florida.") },
     { icon: "wrench", title: "Gray squirrels and attics", text: p("FWC says eastern gray squirrels are active by day, breed up to twice a year with one to four young, and will sometimes nest in attics or other structures when they can get in.") },
   ],
   attic: { slug: "squirrels-in-attic", label: "Squirrels in the attic" },
@@ -48,15 +49,15 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
     ),
     faq(
       "How can I tell a gray squirrel from a fox squirrel?",
-      "Size and face. FWC describes the gray squirrel as 17 to 20 inches with grayish-brown fur and a paler belly. Fox squirrels are larger, up to about 27 inches, often with a black head, white ears and a white nose.",
+      "Size and face. FWC describes the gray squirrel as 17 to 20 inches with grayish-brown fur and a paler belly. Fox squirrels are larger: up to 27.6 inches, FWC says, for the southern fox squirrel, often with a black head, white ears and a white nose.",
     ),
     faq(
       "When are baby squirrels most likely in my attic?",
-      "Gray squirrels can breed up to twice a year, FWC says, so young can show up more than once a year. We look for a nest before closing anything so no babies get sealed in.",
+      "Gray squirrels can breed up to twice a year, FWC says, so young can show up more than once a year. We look for a nest before closing an opening.",
     ),
     faq(
       "Can I release a trapped squirrel on state land in Hernando?",
-      "Only with the land manager's written permission, FWC says. Otherwise a release has to be on your own property, or on 40 or more contiguous acres in Hernando with the owner's written permission.",
+      "Not without the land manager's written permission, FWC says. A release off your property must be in the county of capture, on at least 40 contiguous acres, with the owner's written permission, and can't break a county rabies alert or quarantine. A trapped animal must be released or euthanized within 24 hours.",
     ),
     faq(
       "How soon can you come out for squirrels in Hernando County?",
@@ -73,14 +74,15 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
   },
   sources: [
     { title: "FWC: Chinsegut Wildlife and Environmental Area (fox squirrels among the wildlife; Hernando County)", url: CHIN },
-    { title: "FWC: Chinsegut WEA habitat (upland pine forest, sandhill, mesic hammock and basin marsh)", url: CHIN_HAB },
+    { title: "FWC: Chinsegut WEA habitat (upland pine forest, sandhill, mesic hammock and basin marsh; one of the few remaining stands of intact old-growth longleaf pine in Florida; supports rare and imperiled species including Sherman's fox squirrel)", url: CHIN_HAB },
+    { title: "DOH-Hernando: Rabies surveillance (rabbits, squirrels, hamsters, gerbils, rats and other rodents are rarely found to be infected and have not been known to cause human rabies in Florida)", url: "https://hernando.floridahealth.gov/programs-and-services/environmental-public-health/rabies-surveillance/" },
     { title: "FWC: Croom WMA (Hernando and Sumter; more than 20,000 acres; cypress and large expanses of longleaf pine; fox squirrels)", url: CROOM },
     { title: "FWC Great Florida Birding Trail: Chassahowitzka WMA (southern fox squirrels scurrying up an oak tree; gopher tortoises)", url: CHASS },
     { title: "FDACS Florida Forest Service: Withlacoochee State Forest (counties: Citrus, Hernando, Lake, Pasco, Sumter; fox squirrel and gray squirrel among wildlife seen)", url: WSF },
     { title: "FWC: Southern fox squirrel profile (up to 27.6 inches; black head, white ears and snout; diet mostly longleaf pine seeds and turkey oak acorns; breeding October to February and April to August; removed as a Species of Special Concern in 2018; remains on the Imperiled Species Management Plan)", url: SOUTHERN },
     { title: "FWC: Eastern gray squirrel profile (17 to 20 inches; grayish-brown, paler underside; active by day; breeds up to twice a year; litters of one to four; nests in attics when accessible)", url: GRAY },
     { title: "FWC: Fox squirrel profile (protected from hunting throughout the state)", url: "https://myfwc.com/wildlifehabitats/profiles/mammals/land/fox-squirrel/" },
-    { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county with written permission; public land needs the land manager's written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/relocate/" },
+    { title: "FWC: Relocating nuisance wildlife (own property or 40+ contiguous acres in the county of capture with written permission; must not violate a county rabies alert or quarantine; public land needs the land manager's written permission; released or euthanized within 24 hours)", url: "https://myfwc.com/conservation/you-conserve/wildlife/relocate/" },
   ],
   clientQuestions: ["Typical response time for a squirrel call in Hernando County?", "A real Google review from a Hernando County squirrel job (TTR-723), and real Hernando squirrel job photos."],
 });

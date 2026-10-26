@@ -9,7 +9,6 @@ import { servicePlacePage } from "../build.ts";
 const CHIN_BT = "https://floridabirdingtrail.com/site/chinsegut-wildlife-and-environmental-area/";
 const CHIN_HAB = "https://myfwc.com/recreation/lead/chinsegut/habitat/";
 const SURV = "https://hernando.floridahealth.gov/programs-and-services/environmental-public-health/rabies-surveillance/";
-const JUNE2026 = "https://www.floridahealth.gov/wp-content/uploads/2026/06/rabies-alert-hernando-county-6-12-26.pdf";
 const SEASON = "https://myfwc.com/news/all-news/bat-maternity-0426/";
 const BIB = "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/";
 
@@ -22,20 +21,20 @@ export const batRemovalHernandoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-hernando-county-fl",
   order: 51,
-  heroText: "Bats roosting in a Hernando County attic, barn or soffit? We look for every opening, let them out through one-way devices when the season allows and seal the openings. Call (727) 594-7705.",
+  heroText: "Bats roosting in a Hernando County attic, barn or soffit? We look for the gaps bats use, let them out through one-way devices when the season allows and seal the openings. Call (727) 594-7705.",
   answerHeading: "How are bats removed from a home in Hernando County?",
   answer:
-    "Through exclusion: one-way devices at the entry points let the colony fly out and stop it from getting back in. FWC allows that only from August 15 to April 15, and bans killing, poisoning or relocating bats. Pro Wildlife Removal checks a Hernando home for the gaps a colony uses, fits the devices and seals up. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Hundreds of bats at Chinsegut"],
+    "Through exclusion: one-way devices at the entry points let the colony fly out and stop it from getting back in. FWC allows that without a permit only from August 15 to April 15, and bans killing, poisoning or relocating bats. Pro Wildlife Removal looks for the gaps in a Hernando home, fits the devices and seals up. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Several hundred bats at Chinsegut"],
   localHeading: "What to know about bats in Hernando County",
-  localIntro: "Hernando has a public bat colony at an FWC wildlife area, and its rabies records show how rarely bats test positive here. These are the local facts.",
+  localIntro: "Hernando has a public bat colony at an FWC wildlife area, and none of the state's 2022 to 2025 county tables, or their surveillance footnotes, list a rabid bat from Hernando. These are the local facts.",
   local: [
     { icon: "leaf", title: "Chinsegut's colony", text: p("The Great Florida Birding Trail lists a large colony of Brazilian free-tailed bats at FWC's 820-acre Chinsegut Wildlife and Environmental Area, off Lake Lindsey Road in Brooksville.") },
     { icon: "home", title: "Bat houses, monitored", text: p("FWC lists maintaining the Chinsegut bat houses, home to several hundred Brazilian free-tailed bats, among the area's regular wildlife monitoring work, alongside bird surveys and kestrel nest boxes.") },
-    { icon: "search", title: "No rabid bats on four years of tables", text: p("The state's county tables listed no rabid bats for Hernando in 2022, 2023, 2024 or 2025. The only Hernando entries in those four years were two rabid raccoons in 2025.") },
-    { icon: "critter", title: "Bats on the rabies list", text: p("DOH-Hernando's rabies surveillance page names raccoons, bats and foxes as the animals reported with rabies in Florida, in that order of frequency.") },
-    { icon: "phone", title: "Bats get tested", text: p("Per DOH-Hernando, a dog, cat or ferret that bites someone is quarantined for ten days, while other animals, bats among them, are tested for rabies. That's why a bat that may have bitten someone shouldn't be let go.") },
-    { icon: "map-pin", title: "Keep bats out of living space", text: p("Hernando's June 2026 Spring Hill rabies alert told residents to keep wildlife, bats included, out of living quarters, schools and other occupied spaces where they might meet people or pets.") },
+    { icon: "search", title: "No rabid bats on four years of tables", text: p("None of the state's 2022 to 2025 county tables, or their surveillance footnotes, list a rabid bat from Hernando. The only Hernando entries in those four years were two rabid raccoons in 2025.") },
+    { icon: "critter", title: "Bats on the rabies list", text: p("DOH-Hernando's rabies surveillance page says raccoons have been reported most often in Florida, followed by bats and foxes.") },
+    { icon: "phone", title: "Bats get tested", text: p("Per DOH-Hernando, a dog, cat or ferret that bites someone is quarantined for ten days, while other animals, bats among them, are tested for rabies. DOH-Hernando says to note where the animal is so animal control can pick it up.") },
+    { icon: "map-pin", title: "Keep bats out of living space", text: p("Hernando's newest rabies alert, June 30, 2026, told residents to keep wildlife, bats included, out of living quarters, schools and other occupied spaces where they might meet people or pets.") },
     { icon: "drop", title: "The legal window", text: p("Bat pups are raised during FWC's maternity season, April 16 to August 14. In Hernando, as everywhere in Florida, one-way exclusion devices can go up only from August 15 to April 15 without a permit.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Hernando County, from each agency's own page.",
@@ -50,7 +49,7 @@ export const batRemovalHernandoCounty = servicePlacePage({
   faqs: [
     faq(
       "Are bats in Hernando County rabid?",
-      "Rarely, on the record. The state's tables listed no rabid bats for Hernando from 2022 through 2025. Still, DOH-Hernando names bats among the animals reported with rabies in Florida, so don't handle one.",
+      "None of the state's 2022 to 2025 county tables, or their surveillance footnotes, list a rabid bat from Hernando. Still, DOH-Hernando names bats among the animals reported with rabies in Florida, so don't handle one.",
     ),
     faq(
       "Where can I see bats in Hernando County?",
@@ -84,8 +83,8 @@ export const batRemovalHernandoCounty = servicePlacePage({
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2023 (Hernando: none listed)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2023.pdf" },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Hernando: none listed; four surveillance bats from Hillsborough and Polk footnoted)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2024.pdf" },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Hernando: 2 raccoons, no bats)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
-    { title: "DOH-Hernando: Rabies surveillance (raccoons reported most frequently, then bats and foxes; dogs, cats and ferrets quarantined ten days, other animals tested; 352-540-6863 and 352-540-6812)", url: SURV },
-    { title: "Florida DOH: DOH-Hernando rabies alert, June 12, 2026 (Spring Hill; prevent wildlife, including bats, from entering living quarters or occupied spaces)", url: JUNE2026 },
+    { title: "DOH-Hernando: Rabies surveillance (raccoons reported most frequently, then bats and foxes; dogs, cats and ferrets quarantined ten days, other animals tested; note where the animal is so animal control staff can pick it up; 352-540-6863 and 352-540-6812)", url: SURV },
+    { title: "Florida DOH: DOH-Hernando rabies alert, June 30, 2026 (rabid feral cat off Westwood Drive; prevent wildlife, including bats, from entering living quarters or occupied spaces)", url: "https://www.floridahealth.gov/wp-content/uploads/2026/07/rabies-alert-hernando-county-6-30-2026.pdf" },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug. 14; exclusion devices legal Aug. 15 to April 15; four nights; 50°F)", url: SEASON },
     { title: "FWC: Bats in buildings (exclusion the only legal method; capture and relocation illegal; poison and fumigants illegal)", url: BIB },
     { title: "FWC: Regional offices (Southwest Region, 863-648-3200, includes Hernando)", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },

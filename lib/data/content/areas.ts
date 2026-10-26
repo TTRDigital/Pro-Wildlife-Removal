@@ -1,7 +1,7 @@
 import type { AreasSection } from "../../types";
 
 /*
- * The 7 counties and their main towns (one phone number site-wide, so no county lines),
+ * The 8 counties and their main towns (one phone number site-wide, so no county lines),
  * linking to the county and city pages that exist today. Shared by the home,
  * service and attic pages; each page writes its own heading and intro.
  */
@@ -27,6 +27,11 @@ export const countyGroups: AreasSection["groups"] = [
       { label: "Riverview" },
       { label: "Plant City" },
       { label: "Odessa", href: "/about-us/service-area/wildlife-removal-odessa-fl/" },
+      { label: "Lutz" },
+      { label: "Westchase" },
+      { label: "Carrollwood" },
+      { label: "Citrus Park" },
+      { label: "Town 'n' Country" },
     ],
   },
   {
@@ -65,6 +70,10 @@ export const countyGroups: AreasSection["groups"] = [
     title: "Sumter County",
     href: "/about-us/service-area/wildlife-removal-sumter-county-fl/",
     items: [{ label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" }, { label: "Wildwood" }, { label: "Bushnell" }],
+  },
+  {
+    title: "Marion County",
+    items: [{ label: "Ocala" }, { label: "Belleview" }, { label: "Dunnellon" }, { label: "Silver Springs" }, { label: "Summerfield" }],
   },
   {
     title: "Polk County",
