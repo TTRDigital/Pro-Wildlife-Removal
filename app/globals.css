@@ -421,6 +421,53 @@
     }
   }
 }
+/* The logo's raccoon looks around: a tilt left, a pause, a tilt right, back to the middle. */
+.logo-face {
+  animation: pw-look 7s ease-in-out infinite;
+  transform-origin: 50% 85%;
+}
+@keyframes pw-look {
+  0%,
+  12% {
+    transform: rotate(0deg) translateY(0);
+  }
+  20%,
+  32% {
+    transform: rotate(-5deg) translateY(-1px);
+  }
+  42%,
+  56% {
+    transform: rotate(4.5deg) translateY(-1px);
+  }
+  64%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+}
+/* Animal photos "look around" now and then: a small tilt and pan with pauses, each card on its own beat. */
+.photo-look img {
+  animation: pw-peek 9s ease-in-out infinite;
+  animation-delay: calc(var(--i, 0) * -1.7s);
+  transform-origin: 50% 70%;
+}
+@keyframes pw-peek {
+  0%,
+  14% {
+    transform: scale(1.06) rotate(0deg) translate3d(0, 0, 0);
+  }
+  24%,
+  38% {
+    transform: scale(1.1) rotate(-2deg) translate3d(-2.5%, -1%, 0);
+  }
+  50%,
+  64% {
+    transform: scale(1.1) rotate(2deg) translate3d(2.5%, -1.5%, 0);
+  }
+  76%,
+  100% {
+    transform: scale(1.06) rotate(0deg) translate3d(0, 0, 0);
+  }
+}
 @keyframes pw-ping {
   75%,
   100% {
@@ -448,7 +495,9 @@
 @media (prefers-reduced-motion: reduce) {
   .live-dot::after,
   .call-pulse::after,
-  .photo-live img {
+  .photo-live img,
+  .photo-look img,
+  .logo-face {
     animation: none;
   }
 }

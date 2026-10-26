@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ChevronDown, Menu, Phone, X } from "lucide-react";
 import type { Img } from "@/lib/types";
+import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
 
 export type NavLink = { label: string; href: string; group?: string };
 export type NavItem = { label: string; href: string; children?: NavLink[] };
@@ -49,9 +49,9 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
     <header className="sticky top-0 z-40">
       {/* Main bar */}
       <div className={`relative border-b bg-white/95 backdrop-blur-md transition-shadow duration-300 ${scrolled || open ? "border-line shadow-[0_10px_30px_-18px_rgb(14_42_71/0.4)]" : "border-transparent"}`}>
-        <div className="wrap flex h-16 items-center justify-between gap-4 lg:h-[76px]">
+        <div className="wrap flex h-[80px] items-center justify-between gap-4 lg:h-[104px]">
           <Link href="/" className="flex shrink-0 items-center" aria-label="Pro Wildlife Removal, home">
-            <Image src={logo.src} alt="Pro Wildlife Removal logo" width={logo.width ?? 480} height={logo.height ?? 442} priority className="h-[52px] w-auto lg:h-[60px]" sizes="66px" />
+            <AnimatedLogo logo={logo} priority sizes="(min-width: 1024px) 104px, 80px" className="h-[68px] lg:h-[92px]" />
           </Link>
 
           <nav aria-label="Main" className="hidden lg:block">
@@ -139,7 +139,7 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
         </div>
 
         {/* Phone / tablet menu */}
-        <nav id="mobile-menu" aria-label="Mobile" hidden={!open} className="max-h-[calc(100dvh-64px)] overflow-y-auto border-t border-line bg-white lg:hidden">
+        <nav id="mobile-menu" aria-label="Mobile" hidden={!open} className="max-h-[calc(100dvh-80px)] overflow-y-auto border-t border-line bg-white lg:hidden">
           <ul className="wrap py-3">
             {nav.map((item) => (
               <li key={item.label} className="border-b border-line-2 last:border-b-0">

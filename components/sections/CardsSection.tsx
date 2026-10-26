@@ -21,7 +21,7 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
   const body = (
     <>
       {photo ? (
-        <div className="relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7">
+        <div className="photo-look relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7">
           <Photo image={card.image!} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/10 to-transparent" />
           {whole || !card.href ? (

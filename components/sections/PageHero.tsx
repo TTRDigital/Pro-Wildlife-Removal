@@ -30,7 +30,8 @@ export function RatingChip({ settings, className = "" }: { settings: SiteSetting
 }
 
 /** Real photos of the crew and trucks, shown after the page's own photo in the hero slideshow. */
-const teamPhotos: Img[] = [images.certifiedWildlifeRemovalExpertsInTampaFl, images.prowildlifeRemovalAgentHoldingAnIguanaa, images.proWildlifeRemovalTeam];
+// No crew photo with face masks (Kia, Oct 26).
+const teamPhotos: Img[] = [images.certifiedWildlifeRemovalExpertsInTampaFl, images.prowildlifeRemovalAgentHoldingAnIguanaa];
 
 /** From the client-approved Google Ads landing pages. */
 const perks = ["Same-Day Service", "Free Inspection"];
