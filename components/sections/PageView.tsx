@@ -8,6 +8,7 @@ import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
 import { HomeHero, PageHero } from "./PageHero";
+import { pageAnimal } from "@/lib/topics";
 import { LazyBatCatch } from "@/components/ui/LazyBatCatch";
 import { TrustBar, defaultTrust } from "./TrustBar";
 import { Sections } from "./Sections";
@@ -64,7 +65,7 @@ export async function PageView({
         {path === "/" ? (
           <HomeHero hero={page.hero} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
         ) : (
-          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
+          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} animal={pageAnimal(path)?.images} />
         )}
         {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
         <Sections sections={page.sections} ids={ids} closing={closing} />

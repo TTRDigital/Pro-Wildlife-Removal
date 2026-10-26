@@ -141,3 +141,9 @@ export function topicImage(post: Pick<Post, "title" | "slug">) {
   for (const c of post.slug) h = (h * 31 + c.charCodeAt(0)) >>> 0;
   return t.images[h % t.images.length];
 }
+
+/** The animal a service page is about, from its address (the service, its place pages and attic pages). */
+export function pageAnimal(path: string) {
+  const m = path.match(/^\/services\/(rat|bat|raccoon|squirrel|opossum|snake|armadillo|bee)s?-(?:removal|in-attic)\b/);
+  return m ? topics.find((t) => t.key === m[1]) : undefined;
+}
