@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getService, getServicePlace, getServicePlaces, getSiteSettings } from "@/lib/content";
+import { getLocations, getPlacePages, getService, getServicePlace, getServicePlaces, getServices, getSiteSettings } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { servicePlaceSchema } from "@/lib/schema";
-import { placePath } from "@/lib/place-links";
+import { placePath, withPlaceLinks } from "@/lib/place-links";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { PageView } from "@/components/sections/PageView";
 
@@ -23,9 +23,17 @@ export async function generateMetadata(props: PageProps<"/services/[slug]/[place
 
 export default async function ServicePlacePage(props: PageProps<"/services/[slug]/[place]">) {
   const { slug, place } = await props.params;
-  const [page, service, settings] = await Promise.all([getServicePlace(slug, place), getService(slug), getSiteSettings()]);
-  if (!page || !service) notFound();
-  const path = placePath(page);
+  const [base, service, settings, places, services, locations] = await Promise.all([
+    getServicePlace(slug, place),
+    getService(slug),
+    getSiteSettings(),
+    getPlacePages(),
+    getServices(),
+    getLocations(),
+  ]);
+  if (!base || !service) notFound();
+  const path = placePath(base);
+  const page = withPlaceLinks(base, { ...base, path: path.slice(1, -1) }, places, services, locations);
   return (
     <>
       <JsonLd data={servicePlaceSchema(page, service, path)} />
