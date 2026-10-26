@@ -6,6 +6,11 @@ import { atticCleanupCost } from "./content/guides/attic-cleanup-cost.ts";
 import { raccoonTrapping } from "./content/guides/raccoon-trapping.ts";
 import { floridaTrappingRules } from "./content/guides/florida-trapping-rules.ts";
 import { wildlifeRemovalCost } from "./content/guides/wildlife-removal-cost.ts";
+import { deadAnimalSmell } from "./content/guides/dead-animal-smell.ts";
+import { whatAnimalIsInMyAttic } from "./content/guides/what-animal-is-in-my-attic.ts";
+import { ratsInCarEngine } from "./content/guides/rats-in-car-engine.ts";
+import { batsInBarrelTileRoof } from "./content/guides/bats-in-barrel-tile-roof.ts";
+import { ratsInTheWalls } from "./content/guides/rats-in-the-walls.ts";
 
 export const fallbackPosts: Post[] = [
  {
@@ -45593,7 +45598,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats are masters of squeezing through the tiniest gaps. Even a hole as small as a quarter of an inch is enough space for a rat to slip inside your home. That’s why the first step in rat control is thoroughly inspecting your property for any potential entry points. Check for gaps around windows and doors, cracks in the foundation, broken vents, and spaces around utility pipes.",
+      "text": "Rats are masters of squeezing through the tiniest gaps. Even a gap of about half an inch, or a hole the size of a quarter, is enough space for a rat to slip inside your home. That’s why the first step in rat control is thoroughly inspecting your property for any potential entry points. Check for gaps around windows and doors, cracks in the foundation, broken vents, and spaces around utility pipes.",
       "marks": []
      }
     ],
@@ -46597,7 +46602,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Once you’ve confirmed there are rats in your home, the next step is to stop them from coming and going freely. Rats are known for their ability to squeeze through tiny openings—often as small as a quarter of an inch—so it’s crucial to inspect your home for any potential entry points and seal them off. This step not only prevents new rats from entering but also helps trap the ones already inside, making it easier to remove them.",
+      "text": "Once you’ve confirmed there are rats in your home, the next step is to stop them from coming and going freely. Rats are known for their ability to squeeze through tiny openings—often as small as half an inch, about the size of a quarter—so it’s crucial to inspect your home for any potential entry points and seal them off. This step not only prevents new rats from entering but also helps trap the ones already inside, making it easier to remove them.",
       "marks": []
      }
     ],
@@ -49544,7 +49549,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Inspect your home’s exterior for potential entry points. Bats can enter through openings as small as a quarter inch in diameter, so look for gaps in roofs, eaves, vents, and chimneys.",
+      "text": " Inspect your home’s exterior for potential entry points. FWC says bats can squeeze through holes of about ¾ inch and cracks as narrow as ⅜ inch, so look for gaps in roofs, eaves, vents, and chimneys.",
       "marks": []
      }
     ],
@@ -51684,7 +51689,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " Natural repellents like peppermint oil or vinegar can deter rodents without toxic chemicals. They are safe for the environment.",
+      "text": " Natural repellents like peppermint oil or vinegar avoid toxic chemicals, but no plant-based repellent has been proven to keep rats away.",
       "marks": []
      }
     ],
@@ -55188,7 +55193,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Peppermint Oil Solution",
+      "text": "Peppermint Oil",
       "marks": [
        "strong"
       ]
@@ -55202,7 +55207,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Rats hate the smell of peppermint oil, so it can be used as a natural and safe way to repel rats. Creating a solution by mixing peppermint oil with water and spraying it around potential entry points can discourage rats from approaching these areas. The pleasant aroma of peppermint oil for humans serves as a natural deterrent for these rodents. Peppermint oil and other essential oils, such as eucalyptus oil, can repel rats naturally and possibly keep them out of your home.",
+      "text": "Peppermint oil is one of the most popular home remedies, but it doesn't hold up. University of California rodent experts say no plants have been proven to deter rats. A peppermint spray may make a room smell nice, but rats with food nearby and a way in will keep coming. Sealing the entry points does more than any scent.",
       "marks": []
      }
     ],
@@ -56033,4 +56038,9 @@ export const fallbackPosts: Post[] = [
  // New guides (Cole, Oct 2026)
  raccoonTrapping,
  floridaTrappingRules,
+ deadAnimalSmell,
+ whatAnimalIsInMyAttic,
+ ratsInCarEngine,
+ batsInBarrelTileRoof,
+ ratsInTheWalls,
 ];

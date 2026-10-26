@@ -24,7 +24,7 @@ export const home: PageContent = {
       "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind. Call (727) 594-7705.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
-    badges: ["9 counties", "Removal, sealing and cleanup"],
+    badges: ["7 counties", "Removal, sealing and cleanup"],
   },
   sections: [
     {
@@ -32,9 +32,9 @@ export const home: PageContent = {
       _key: "answer",
       heading: "Who we are and how it works",
       text: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in nine counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals from homes and businesses in seven counties across Tampa Bay and central and west Florida. We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.",
       ),
-      points: ["9 counties", "Humane, legal methods", "Entry points sealed"],
+      points: ["7 counties", "Humane, legal methods", "Entry points sealed"],
     },
     {
       _type: "servicesSection",
@@ -92,8 +92,8 @@ export const home: PageContent = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Service area",
-      heading: "Wildlife removal in 9 Florida counties",
-      intro: p("One number covers all nine counties: (727) 594-7705."),
+      heading: "Wildlife removal in 7 Florida counties",
+      intro: p("One number covers all seven counties: (727) 594-7705."),
       groups: countyGroups,
     },
     {
@@ -147,7 +147,7 @@ export const home: PageContent = {
         {
           title: "Roof rats: any month",
           text: p(
-            "Roof rats are climbers that live high in trees and in the upper levels of homes. UF/IFAS says a roof rat can have up to 6 litters a year, so they can turn up in any month. Branches touching the roof are their bridge in, so keep limbs trimmed back. See [signs of rats in the attic](/blog/rats-in-attic-signs/).",
+            "Roof rats are climbers that live high in trees and in the upper levels of homes. Florida DOH says a roof rat can have up to 8 litters a year, so they can turn up in any month. Branches touching the roof are their bridge in, so keep limbs trimmed back. See [signs of rats in the attic](/blog/rats-in-attic-signs/).",
           ),
         },
         {
@@ -200,7 +200,7 @@ export const home: PageContent = {
         ),
         faq(
           "Which areas do you serve?",
-          "Tampa Bay and central and west Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter, Polk, Manatee and Osceola counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey and The Villages.",
+          "Tampa Bay and central and west Florida: Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter and Polk counties. That includes Tampa, St. Petersburg, Clearwater, Lakeland, Brooksville, Spring Hill, New Port Richey and The Villages.",
         ),
         faq(
           "Do you remove snakes and bees too?",
@@ -213,14 +213,14 @@ export const home: PageContent = {
       _key: "cta",
       heading: "Hearing something in the attic right now?",
       highlight: "right now?",
-      text: p("Call (727) 594-7705, one number for all 9 counties."),
+      text: p("Call (727) 594-7705, one number for all 7 counties."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Wildlife Removal in Tampa Bay | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal across Tampa Bay and 9 Florida counties, with sealing and cleanup. Free inspection: (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across Tampa Bay and 7 Florida counties, with sealing and cleanup. Free inspection: (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
@@ -229,7 +229,9 @@ export const home: PageContent = {
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; dens in attics and crawl spaces)", url: "https://ask.ifas.ufl.edu/publication/UW033" },
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (roof rats live in trees and upper levels of homes; trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
     { title: "Josh Holmberg, owner: biography supplied for the author page (Oct 16, 2026): founded 2016, 15 years in wildlife removal, several years with a national wildlife company, sixth-generation Floridian", url: "https://prowildliferemoval.net/" },
-    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof rats: up to 6 litters a year; block every possible entry; rats test repairs in the first 2 weeks)", url: "https://journals.flvc.org/edis/article/view/136514" },
+    { title: "Florida DOH Gadsden: Rodent control (roof rats can have up to 8 litters a year)", url: "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/" },
+    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (rodent-proofing must block all possible entry points)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (2013, archived; rats test repairs in the first 2 weeks)", url: "https://journals.flvc.org/edis/article/view/136514" },
     { title: "Florida Department of Health: Rabies (raccoons and bats are the main wildlife sources)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     TRAP_RULES_SOURCE,
   ],
@@ -238,7 +240,7 @@ export const home: PageContent = {
     "How many jobs has the company done, or which rating and review count should the site show (the live site says 4.7 from 273 Google reviews)?",
     "Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
     "Typical response time for emergencies and for regular inspections?",
-    "Which cities in Polk, Manatee and Osceola get the most calls, so the area list shows the right towns? Manatee and Osceola: is there a county phone number?",
+    "Which cities in Polk get the most calls, so the area list shows the right towns? Do you serve Manatee or Osceola County? Those pages are held until you confirm.",
     "A real truck or crew photo for the hero.",
     "Is there a written warranty on sealing work? Until there is, the site won't say anything like \"sealed for good\" or promise animals won't return.",
     "The site still has pages for Orlando, Sarasota, The Villages, Lady Lake, Lecanto, Pine Ridge, Winter Haven, Central Florida, and rat removal in The Villages and Winter Haven. Which of these do you still serve?",

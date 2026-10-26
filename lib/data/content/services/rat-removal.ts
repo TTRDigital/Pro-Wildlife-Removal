@@ -11,6 +11,11 @@ import { countyGroups } from "../areas.ts";
 
 const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
 const ENY224 = "https://journals.flvc.org/edis/article/view/136514";
+const GADSDEN = "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/";
+const SANTAROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/";
+const IN1397 = "https://ask.ifas.ufl.edu/publication/IN1397";
+const PINELLAS = "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/";
+const IRDOH = "https://indianriver.floridahealth.gov/wp-content/uploads/sites/32/2025/05/Rodent_Control_Booklet.pdf";
 
 export const ratRemoval: Service = {
   slug: "rat-removal",
@@ -61,7 +66,7 @@ export const ratRemoval: Service = {
         {
           icon: "drop",
           title: "Greasy rub marks",
-          text: p("Rats run the same paths every night, and their fur leaves dark, greasy smudges along walls, beams and the edges of the holes they use."),
+          text: p("Rats use the same paths again and again, and the oil in their fur leaves dark, greasy rub marks on walls, beams, pipes and wires and around the holes they use."),
         },
         {
           icon: "wrench",
@@ -71,12 +76,12 @@ export const ratRemoval: Service = {
         {
           icon: "leaf",
           title: "Half-eaten fruit",
-          text: p("UF/IFAS notes roof rats live in citrus trees and gnaw the fruit. Gnawed oranges on the tree or under it mean rats nearby, often with a short trip to your roof."),
+          text: p("Florida DOH says roof rats are known for hollowing out citrus fruit in trees or on the ground. Gnawed oranges on the tree or under it mean rats nearby, often with a short trip to your roof."),
         },
         {
           icon: "search",
           title: "Burrows by the foundation",
-          text: p("Norway rats dig. UF/IFAS describes burrows along walls and under slabs and rubbish, with about 3-inch openings, fresh dirt scattered in front and worn runways leading in."),
+          text: p("Norway rats dig. Florida DOH says they burrow under buildings and beneath concrete slabs. UF/IFAS describes burrow openings of about 3 inches, with fresh dirt scattered in front and worn runways leading in."),
         },
       ],
     },
@@ -87,9 +92,9 @@ export const ratRemoval: Service = {
       eyebrow: "Why it matters",
       heading: "Why rats in the attic can't wait",
       body: rich(
-        p("A few rats become a lot of rats fast. UF/IFAS says a roof rat can have 6 to 8 young per litter and up to 6 litters a year, and the young can breed within 3 to 5 months."),
+        p("A few rats become a lot of rats fast. Florida DOH says roof rats can have up to 8 litters a year, each with 6 to 8 young, and the young become sexually active 2 to 3 months after birth."),
         ul(
-          "**Fire risk.** Rats gnaw every day to keep their teeth short, and UF/IFAS notes they can start fires by chewing electrical wires.",
+          "**Fire risk.** A rat's front teeth never stop growing, so it gnaws to keep them short. Florida DOH notes rats can cause fires by chewing through the insulation on electrical wires.",
           "**Disease.** The CDC says rodents spread disease through their droppings, urine, saliva and bites. Rat-bite fever spreads through bites, scratches, or contact with a rodent's saliva or urine, and it needs fast treatment.",
           "**Damage.** Gnawed rafters and wiring, nests in the insulation, and droppings and urine spread through it.",
         ),
@@ -101,7 +106,7 @@ export const ratRemoval: Service = {
       _key: "process",
       eyebrow: "How we remove rats",
       heading: "Seal first, then trap",
-      intro: p("UF/IFAS says rodent-proofing has to block every possible entry point to work, and that the rats shut inside then have to be removed. That's the order we follow."),
+      intro: p("UF/IFAS says rodent-proofing must block all possible entry points to work. It lists sealing as the first step and trapping as the last. That's the order we follow."),
       variant: "numbered",
       columns: 4,
       cards: [
@@ -193,7 +198,7 @@ export const ratRemoval: Service = {
       _type: "areasSection",
       _key: "areas",
       eyebrow: "Areas served",
-      heading: "Rat removal in all 9 counties",
+      heading: "Rat removal in all 7 counties",
       intro: p("From coastal Pinellas to inland Polk, we rat-proof homes across central and west Florida on one number, (727) 594-7705."),
       groups: countyGroups,
     },
@@ -212,7 +217,7 @@ export const ratRemoval: Service = {
       items: [
         faq(
           "Are they roof rats or Norway rats?",
-          "In an attic, almost always roof rats. UF/IFAS describes roof rats as climbers that nest off the ground, in attics, roof spaces and palm trees, with a tail longer than the head and body. Norway rats are heavier, burrow under slabs and rubbish, and are most common along Florida's coasts and canals. The two are seldom found in the same building. More in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).",
+          "In an attic, almost always roof rats. Florida DOH describes roof rats as good climbers that nest in trees and plants but generally like high places such as attics, with a tail longer than the body. Norway rats burrow under buildings and beneath concrete slabs. UF/IFAS adds that Norway rats are heavier and most common along Florida's coasts and canals. Florida DOH says the two sometimes live together, though roof rats like to be up high. More in [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).",
         ),
         faq(
           "How small a hole can a rat get through?",
@@ -228,7 +233,7 @@ export const ratRemoval: Service = {
         ),
         faq(
           "I saw a rat during the day. Is that bad?",
-          "Usually it means more rats than you think. UF/IFAS says daytime sightings point to a large population, a food shortage, or sick or poisoned rats, since rats are mostly active at night.",
+          "Usually it means more rats than you think. Rats are most active at night, and UF/IFAS says rodents seen again and again by day point to an established population. Florida DOH says Norway rats come out in daylight when numbers are high, when they're disturbed, or when their food source is threatened. UF/IFAS has also linked daytime sightings to sick or poisoned rats.",
         ),
         faq(
           "How long does it take to get rid of rats?",
@@ -268,7 +273,12 @@ export const ratRemoval: Service = {
       "Roof rats in the attic? We seal every entry point, trap the rats left inside and clean up droppings and insulation across Tampa Bay. Call (727) 594-7705.",
   },
   sources: [
-    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof vs Norway rats; 6-8 young, up to 6 litters; sexual maturity 3-5 months; droppings; rub marks; gnawing; half-inch cracks; rodent-resistant materials; seal all entries, then remove rats inside; inspect first 2 weeks; mostly active at night; daytime sightings; wires and fires)", url: ENY224 },
+    { title: "Florida DOH Gadsden: Rodent control (roof rats up to 8 litters a year of 6-8 young, sexually active 2-3 months after birth; good climbers, nest in trees but like high places such as attics; tail longer than body; sometimes live with Norway rats but stay up high; hollow out citrus fruit; Norway rats burrow under buildings and concrete slabs, out by day when numbers are high, when disturbed or when food is threatened; teeth kept short by gnawing; grease stains from fur on pipes, wires and around entrance holes)", url: GADSDEN },
+    { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (most active at night; rodents seen repeatedly by day mean an established population; holes as small as 1/2 inch for rats, 1/4 inch for mice; climb pipes, wires, vines and trees; rodent-proofing must block all possible entry points; seal with mortar, concrete, sheet metal or hardware cloth; rodent-proofing first, trapping last)", url: SANTAROSA },
+    { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (rats use limbs as a highway into the house; roof rats jump three feet up and more than four feet across)", url: IN1397 },
+    { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (block entryways with rodent-resistant materials)", url: PINELLAS },
+    { title: "Florida DOH Indian River: Rodent control booklet (rev. 2008; dark, greasy rub marks from fur oil on walls and wooden beams; fires from chewing the insulation on electrical wires)", url: IRDOH },
+    { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (2013, archived; roof rat droppings up to 1/2 inch and pointed; fresh vs old droppings and gnawing; Norway rat burrow openings about 3 inches with fresh dirt and runways; Norway rats heavier, most common along coasts and canals; check seals often in the first 2 weeks; sick or poisoned rats out by day)", url: ENY224 },
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (snap traps recommended; glue traps inhumane; rodenticides last resort in tamper-resistant stations; don't live-trap and release rats)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
     { title: "FWC: FAQs, nuisance wildlife (non-native wildlife may not be released or relocated)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
     { title: "CDC: Controlling wild rodent infestations (diseases via droppings, urine, saliva, bites)", url: "https://www.cdc.gov/healthy-pets/rodent-control/index.html" },

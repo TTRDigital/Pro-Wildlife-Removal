@@ -29,7 +29,6 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   ],
   // The "Locations" menu in the live site's top bar: a phone line per county.
   countyLines: [
-    { county: "Osceola County", phone: "727-594-7705", href: "/about-us/service-area/wildlife-removal-osceola-county-fl/" },
     { county: "Pasco County", phone: "727-594-7722", href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/" },
     { county: "Hillsborough County", phone: "727-594-7705", href: "/about-us/service-area/wildlife-removal-hillsborough-county/" },
     { county: "Hernando County", phone: "352-612-3336", href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/" },
@@ -37,7 +36,6 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
     { county: "Citrus County", phone: "352-618-2110", href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/" },
     { county: "Sumter County", phone: "863-431-9244", href: "/about-us/service-area/wildlife-removal-sumter-county-fl/" },
     { county: "Polk County", phone: "863-208-5050", href: "/about-us/service-area/wildlife-removal-polk-county/" },
-    { county: "Manatee County", phone: "727-594-7705", href: "/about-us/service-area/wildlife-removal-manatee-county-fl/" },
   ],
   headerCta: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   // From the home page's closing section on the live site.
