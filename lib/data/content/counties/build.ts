@@ -41,6 +41,8 @@ export type CountyInput = {
   contacts?: Card[];
   contactsIntro?: string;
   servicesIntro: string;
+  /** FAQ heading; defaults to "[name] wildlife questions". */
+  faqHeading?: string;
   faqs: Faq[];
   ctaHeading: string;
   ctaText: string;
@@ -75,7 +77,7 @@ export function countyPage(c: CountyInput): Location {
         : []),
       { _type: "servicesSection", _key: "services", eyebrow: "Services", heading: c.servicesHeading ?? `Animals we remove in ${c.name}`, intro: p(c.servicesIntro), group: "removal" },
       { _type: "reviewsSection", _key: "reviews", eyebrow: "Reviews", heading: "What customers say", ...(c.reviewsIntro ? { intro: p(c.reviewsIntro) } : {}), ...(c.reviewsMatch ? { match: c.reviewsMatch } : {}) },
-      { _type: "faqSection", _key: "faq", tone: "tint", eyebrow: "FAQ", heading: `${c.name} wildlife questions`, items: c.faqs },
+      { _type: "faqSection", _key: "faq", tone: "tint", eyebrow: "FAQ", heading: c.faqHeading ?? `${c.name} wildlife questions`, items: c.faqs },
       { _type: "ctaSection", _key: "cta", heading: c.ctaHeading, text: p(c.ctaText), ctas: [c.phone] },
     ],
     seo: c.seo,
