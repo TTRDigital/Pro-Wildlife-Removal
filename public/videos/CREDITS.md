@@ -67,3 +67,13 @@ seconds, scaled to 480x360 and saved without sound; nothing else was changed.
 - Author: gails_pictures (Flickr)
 - Filmed: 13 November 2017
 - License: CC BY 2.0 (Creative Commons Attribution 2.0 Generic), credited on /credits/
+
+## rat.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:2022-09-02_LJUBLJANA_Grudnovo_nabrežje_RODENTIA_Rattus_PODGANA.webm
+  (originally on YouTube: https://www.youtube.com/watch?v=n1YCc2oLRjk)
+- What it shows: a wild brown rat on a riverside ledge by a railing in Ljubljana, Slovenia (not a lab
+  or pet rat); cropped from 4K to the tile's shape
+- Author: NaIzletuSi
+- Filmed: 2 September 2022
+- License: CC BY 3.0 (Creative Commons Attribution 3.0), credited on /credits/
