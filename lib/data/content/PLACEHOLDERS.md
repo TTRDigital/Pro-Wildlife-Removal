@@ -600,3 +600,18 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
 - `content/guides/bat-removal-cost.ts`
   - was: how long the colony has been there, guano cleanup and the April 16 to Aug 14 season.
   - now: how long the colony has been there, guano and the April 16 to Aug 14 season.
+
+### Held back: attic cleanup cost guide (Oct 26, Ben)
+
+- `/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/` is out of the build (its answer reads as if we do clean-up; 1 impression in 16 months). Wade 301s it to `/blog/how-to-clean-up-rat-droppings-florida-attic/`. The rewrite stays in `content/guides/attic-cleanup-cost.ts`; to restore it, put `atticCleanupCost` back in `posts.ts` and undo the links below.
+- 12 links in old posts (`posts.ts`) now point to `/blog/how-to-clean-up-rat-droppings-florida-attic/` instead.
+- Other links and clean-up lines changed with it:
+  - `content/guides/clean-up-rat-droppings.ts` was: Our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) explains what drives the size of the job. / now: (removed)
+  - `content/guides/homeowners-insurance-rat-bat-damage.ts` was: , [bat removal](/services/bat-removal/) and our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/). / now: and [bat removal](/services/bat-removal/).
+  - `content/guides/wildlife-removal-cost.ts` was: p("For two common jobs, see the detailed guides: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/) and [animal in the attic removal and cleanup cost](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/)."), / now: p("For one common job, see the detailed guide: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/)."),
+  - `content/guides/wildlife-removal-cost.ts` was: "**Seal, trap and clean:** roof rats in the attic, where every gap is closed, the rats inside are trapped, and the attic is cleaned. / now: "**Seal and trap:** roof rats in the attic, where every gap is closed and the rats inside are trapped.
+  - `content/guides/wildlife-removal-cost.ts` was: "**Long-term attic cleanup:** an animal that lived in the attic for a long time, with soiled insulation removed.", / now: (removed)
+  - `content/services/rat-removal.ts` was: See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for more. / now: See [what drives wildlife removal costs](/blog/how-much-does-wildlife-removal-cost/) for more.
+  - `content/services/bat-removal.ts` was: For more, see [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/). / now: For more, see [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/).
+  - `content/attic/rats-in-attic.ts` was: faq( "How much does attic cleanup after rats cost?", "It depends on how much insulation is soiled and how big the attic is. See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for what drives the price.", ), / now: (removed)
+  - `content/guides/raccoon-trapping.ts` was: Our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) explains the bigger jobs. / now: (removed)

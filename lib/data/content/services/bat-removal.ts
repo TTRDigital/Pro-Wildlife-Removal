@@ -183,7 +183,7 @@ export const batRemoval: Service = {
       eyebrow: "Cost",
       heading: "What bat removal costs depends on",
       intro: p(
-        "Every roof is different, so we price bat jobs after the inspection, before any work starts. These are the things that move the price. For more, see [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/).",
+        "Every roof is different, so we price bat jobs after the inspection, before any work starts. These are the things that move the price. For more, see [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/).",
       ),
       variant: "plain",
       columns: 2,

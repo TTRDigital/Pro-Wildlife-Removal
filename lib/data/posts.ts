@@ -2,7 +2,6 @@
 import { images } from "./images.ts";
 import type { Post } from "../types";
 import { batRemovalCost } from "./content/guides/bat-removal-cost.ts";
-import { atticCleanupCost } from "./content/guides/attic-cleanup-cost.ts";
 import { raccoonTrapping } from "./content/guides/raccoon-trapping.ts";
 import { floridaTrappingRules } from "./content/guides/florida-trapping-rules.ts";
 import { wildlifeRemovalCost } from "./content/guides/wildlife-removal-cost.ts";
@@ -594,7 +593,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -1526,7 +1525,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ],
     "listItem": "bullet",
@@ -2294,7 +2293,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -6065,7 +6064,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l1",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -11817,7 +11816,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -23667,7 +23666,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -25672,7 +25671,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -27946,7 +27945,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      },
      {
       "_type": "link",
@@ -28430,7 +28429,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -29955,7 +29954,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ],
     "listItem": "number",
@@ -32036,7 +32035,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l1",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -32800,7 +32799,7 @@ const migratedPosts: Post[] = [
      {
       "_type": "link",
       "_key": "l0",
-      "href": "/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/"
+      "href": "/blog/how-to-clean-up-rat-droppings-florida-attic/"
      }
     ]
    },
@@ -38260,8 +38259,8 @@ const migratedPosts: Post[] = [
    "description": "If you have bat guano in the attic you are not just looking at a mess. Guano is a biological contaminant that can seed fungal spores that cause histoplasmosis"
   }
  },
- // Rewritten for the rebuild (Cole, Oct 2026): lib/data/content/guides/attic-cleanup-cost.ts
- atticCleanupCost,
+ // attic-wildlife-cleanup-cost-in-florida-prices-tips held back until the client answers the attic clean-up question (Ben, Oct 26);
+ // Wade 301s it to /blog/how-to-clean-up-rat-droppings-florida-attic/. The rewrite stays in lib/data/content/guides/attic-cleanup-cost.ts.
  {
   "slug": "what-to-do-about-raccoons",
   "title": "What to Do About Raccoons",

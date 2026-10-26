@@ -193,10 +193,6 @@ export const ratsInAttic: Service = {
           "The main risks are chewed wiring, droppings and, less often, bites; UF/IFAS notes rats sometimes bite sleeping children. Florida DOH warns chewed wires can start fires, and the CDC links rodent droppings and urine to disease. Get it dealt with soon, and keep the attic hatch closed meanwhile.",
         ),
         faq(
-          "How much does attic cleanup after rats cost?",
-          "It depends on how much insulation is soiled and how big the attic is. See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for what drives the price.",
-        ),
-        faq(
           "Can I just put poison in the attic?",
           "UF/IFAS Extension calls rodenticides a last resort, to be used only in tamper-resistant bait stations. Poison does nothing about the gap the rats use, and more will come.",
         ),

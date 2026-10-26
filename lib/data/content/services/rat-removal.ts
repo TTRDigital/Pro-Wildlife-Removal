@@ -180,7 +180,7 @@ export const ratRemoval: Service = {
       eyebrow: "Cost",
       heading: "What rat removal costs depends on",
       intro: p(
-        "We price rat jobs after the inspection, once we know how many openings there are and how hard they are to reach. See [attic wildlife cleanup costs in Florida](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) for more.",
+        "We price rat jobs after the inspection, once we know how many openings there are and how hard they are to reach. See [what drives wildlife removal costs](/blog/how-much-does-wildlife-removal-cost/) for more.",
       ),
       variant: "plain",
       columns: 2,

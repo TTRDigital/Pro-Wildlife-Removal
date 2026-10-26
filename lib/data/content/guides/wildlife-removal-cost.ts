@@ -35,10 +35,9 @@ export const wildlifeRemovalCost: Post = {
       "**A one-time visit:** a snake in the house, a single animal in a yard or garage, or a [dead animal](/services/dead-animal-removal/) that needs finding and removing.",
       "**Trapping with return visits:** raccoons, opossums and armadillos, with traps checked at least every 24 hours as Florida law requires. See [raccoon trapping in Florida](/blog/raccoon-trapping-florida/).",
       "**Exclusion and sealing:** squirrels and bats leave through one-way doors, then the roof is closed up. Bats can only be excluded from August 15 to April 15.",
-      "**Seal, trap and clean:** roof rats in the attic, where every gap is closed, the rats inside are trapped, and the attic is cleaned. More on [rats in the attic](/services/rats-in-attic/).",
-      "**Long-term attic cleanup:** an animal that lived in the attic for a long time, with soiled insulation removed.",
+      "**Seal and trap:** roof rats in the attic, where every gap is closed and the rats inside are trapped. More on [rats in the attic](/services/rats-in-attic/).",
     ),
-    p("For two common jobs, see the detailed guides: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/) and [animal in the attic removal and cleanup cost](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/)."),
+    p("For one common job, see the detailed guide: [how much bat removal costs in Florida](/blog/how-much-does-bat-removal-cost-in-florida/)."),
     h3("How Florida's rules affect the price"),
     ul(
       "**Bats:** no harming, poison, trapping or relocating, and no exclusion from April 16 to August 14 without an FWC permit. A summer bat call may become an inspection now and an exclusion later.",

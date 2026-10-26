@@ -48,7 +48,7 @@ export const homeownersInsuranceRatBatDamage: Post = {
     ),
     h3("What to do either way"),
     p(
-      `Whatever your policy says, the animals have to go and the openings have to be closed, and that part is on the homeowner ([NAIC](${NAIC_GUIDE})). Photograph the damage, the droppings and the entry points before any work starts, and keep the removal paperwork. For the work itself, see [rat removal](/services/rat-removal/), [bat removal](/services/bat-removal/) and our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/). For bats, check [Florida's bat laws](/blog/florida-bat-laws-homeowner-guide/) first: exclusion without an FWC permit is only allowed from August 15 to April 15.`,
+      `Whatever your policy says, the animals have to go and the openings have to be closed, and that part is on the homeowner ([NAIC](${NAIC_GUIDE})). Photograph the damage, the droppings and the entry points before any work starts, and keep the removal paperwork. For the work itself, see [rat removal](/services/rat-removal/) and [bat removal](/services/bat-removal/). For bats, check [Florida's bat laws](/blog/florida-bat-laws-homeowner-guide/) first: exclusion without an FWC permit is only allowed from August 15 to April 15.`,
     ),
   ),
   faq: [

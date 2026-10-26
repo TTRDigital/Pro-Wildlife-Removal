@@ -219,6 +219,7 @@ export const locationExtras: Record<string, Extra> = {
       },
     ],
     sources: [
+      { title: "FWC: FAQs, nuisance wildlife (release on the same property or on 40+ contiguous acres in the same county with the landowner's written permission)", url: "https://myfwc.com/conservation/you-conserve/wildlife/faqs-nuisance-wildlife/" },
       { title: "Florida DOH: Animal rabies by county and animal, 2024 (Orange: 4 bats, 3 raccoons in the table)", url: DOH_2024 },
       { title: "Florida DOH: Animal rabies by county and animal, 2025 (Orange: 8 bats, 2 raccoons in the table)", url: DOH_2025 },
       { title: "FWC: Bats in buildings (exclusion illegal during maternity season, April 16 to August 14)", url: FWC_BATS },

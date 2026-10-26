@@ -45,7 +45,7 @@ export const cleanUpRatDroppings: Post = {
       `The CDC's advice on insulation is short: if exposed insulation is soiled with urine and droppings, bag it for removal. If rats have been in your heating and cooling system, it says to bring in a professional rodent service. Soiled bedding and clothes go in hot water with detergent, and rugs and upholstery can be shampooed with a commercial disinfectant or steam cleaner ([CDC](${CDC_CLEAN})).`,
     ),
     p(
-      "How much insulation has to come out depends on how far the nesting and droppings have spread. Our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) explains what drives the size of the job.",
+      "How much insulation has to come out depends on how far the nesting and droppings have spread.",
     ),
     h3("When it's too big to do yourself"),
     p(

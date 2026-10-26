@@ -4051,14 +4051,14 @@ const migratedLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Safe Relocation",
+        "text": "Release by Florida's Rules",
         "marks": [
          "strong"
         ]
        },
        {
         "_type": "span",
-        "text": ": Transporting captured wildlife to suitable habitats where they can thrive without posing a risk to human properties",
+        "text": ": Under FWC's nuisance wildlife rules, a trapped animal may only be released on the property where it was caught, or on at least 40 contiguous acres in the same county with the landowner's written permission",
         "marks": []
        }
       ],

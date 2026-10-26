@@ -55,7 +55,7 @@ export const raccoonTrapping: Post = {
       "**3. Set the trap** on the raccoon's path, baited, somewhere you can see it.",
       "**4. Check it at least every 24 hours.** Release any other animal on the spot.",
       "**5. Act within 24 hours of capture or inspection,** as the rule requires.",
-      "**6. Close the entry and clean up.** Seal the hole with strong material, cap the chimney if needed, and remove any latrine with gloves. Our [attic cleanup cost guide](/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/) explains the bigger jobs.",
+      "**6. Close the entry and clean up.** Seal the hole with strong material, cap the chimney if needed, and remove any latrine with gloves.",
     ),
     h3("Mistakes to avoid"),
     ul(
