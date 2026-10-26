@@ -2301,7 +2301,7 @@ const migratedPages = {
  "about": {
   "design": "classic",
   "hero": {
-   "heading": "About Pro WildLife Removal",
+   "heading": "About Pro Wildlife Removal",
    "text": [
     {
      "_type": "block",
