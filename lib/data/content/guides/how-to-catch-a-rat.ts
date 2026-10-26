@@ -12,7 +12,7 @@ export const howToCatchARat: Post = {
   title: "How to Catch a Rat in the House: A Florida Homeowner's Guide",
   excerpt:
     "Snap traps, set in the right places with a pea-sized bait, are what university experts recommend for rats in the house. Here's where to put them, how to bait them, and why trapping only works once the way in is closed.",
-  date: "2026-10-26T00:00:00+00:00",
+  date: "2023-12-13T22:45:12+00:00",
   modified: "2026-10-26T00:00:00+00:00",
   author: "Josh Holmberg",
   body: rich(
@@ -21,7 +21,7 @@ export const howToCatchARat: Post = {
     ),
     h3("Which rat you have changes where traps go"),
     p(
-      `UC IPM says to put traps for Norway rats close to walls, behind objects, in dark corners and where you've found droppings. For roof rats, which climb and nest up high, it says to set them up off the ground: on ledges, shelves, pipes, fences, branches or overhead beams ([UC IPM](${UC})). Not sure which you have? See [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).`,
+      `UC IPM says to put traps for Norway rats close to walls, behind objects, in dark corners and where you've found droppings. For roof rats, which climb and nest up high, it says traps often need to go both on the ground and up high: on ledges, shelves, pipes, fences, branches or overhead beams ([UC IPM](${UC})). Not sure which you have? See [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/).`,
     ),
     h3("How to bait and set them"),
     ul(
@@ -32,18 +32,18 @@ export const howToCatchARat: Post = {
     ),
     h3("Traps to skip"),
     ul(
-      `**Glue boards.** UF/IFAS Extension in Pinellas says glue boards aren't humane because they prolong death ([UF/IFAS](${PINELLAS})), and UC IPM doesn't recommend them for homeowners. It adds that they should never be used outdoors, where other wildlife gets stuck.`,
+      `**Glue boards.** UF/IFAS Extension in Pinellas says glue boards aren't humane because they prolong death ([UF/IFAS](${PINELLAS})), and UC IPM says they're not generally recommended for nonprofessional use. It adds that they should never be used outdoors, where other wildlife gets stuck.`,
       `**Live traps.** Florida doesn't allow non-native wildlife, which includes roof and Norway rats, to be released; FWC says it can only be moved to be euthanized ([FWC](${FWC_FAQ})). A live-caught rat still has to be dealt with.`,
-      `**Poison indoors.** Pinellas Extension calls rodenticides a last resort. A poisoned rat often dies inside a wall; our [dead animal smell guide](/blog/dead-animal-smell-in-wall-or-attic-florida/) explains why, and our [bait station safety guide](/blog/rat-bait-stations-and-safety-a-comprehensive-guide/) covers the rules.`,
+      `**Poison indoors.** Pinellas Extension calls rodenticides a last resort. A poisoned rat can die inside a wall; our [dead animal smell guide](/blog/dead-animal-smell-in-wall-or-attic-florida/) explains why, and our [bait station safety guide](/blog/rat-bait-stations-and-safety-a-comprehensive-guide/) covers the rules.`,
     ),
-    p("Electronic traps work too, UC IPM says, but they cost more, need prebaiting, and have to be checked often."),
+    p("UC IPM also lists electrocution traps, but they cost considerably more, need prebaiting, and have to be checked often."),
     h3("Handling a caught rat"),
     p(
       `UC IPM says never to touch a rodent with bare hands: wear disposable gloves, seal the rat in a plastic bag for the trash, and wash up thoroughly after handling traps ([UC IPM](${UC})). For droppings and nests, follow our [rat droppings cleanup guide](/blog/how-to-clean-up-rat-droppings-florida-attic/).`,
     ),
     h3("Why trapping alone isn't the whole fix"),
     p(
-      `Rats breed quickly (see [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/)), and new ones move in wherever the way is open. UF/IFAS Extension says rodent-proofing has to block every possible entry point, and rats get through gaps of about half an inch ([UF/IFAS](${SANTAROSA})). If you're catching rats week after week, the openings are the real problem. Our guides to [rats in the walls](/blog/rats-in-the-walls-florida/) and [signs of rats in the attic](/blog/rats-in-attic-signs/) help find them.`,
+      `Rats breed quickly (see [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/)), and new ones move in wherever the way is open. UF/IFAS Extension says rodent-proofing has to block every possible entry point, and rats get through gaps of about half an inch ([UF/IFAS](${SANTAROSA})). UC IPM advises sealing any opening larger than ¼ inch ([UC IPM](${UC})). If you're catching rats week after week, the openings are the real problem. Our guides to [rats in the walls](/blog/rats-in-the-walls-florida/) and [signs of rats in the attic](/blog/rats-in-attic-signs/) help find them.`,
     ),
     p("See [rat removal](/services/rat-removal/) and [rats in the attic](/services/rats-in-attic/), or call (727) 594-7705."),
   ),
@@ -54,7 +54,7 @@ export const howToCatchARat: Post = {
     ),
     faq(
       "What bait catches rats?",
-      "UC IPM suggests nuts, dried fruit, bacon, dry pet food or peanut butter, in a pea-sized amount. Where you put the trap matters more than the bait.",
+      "UC IPM suggests nuts, dried fruit, bacon, dry pet food or peanut butter, in a pea-sized amount. UC IPM says where you set traps may matter more than which type of trap you use.",
     ),
     faq(
       "Can I catch a rat alive and let it go?",
@@ -62,7 +62,7 @@ export const howToCatchARat: Post = {
     ),
     faq(
       "Why do I keep catching rats?",
-      "Usually because the way in is still open. UF/IFAS Extension says every possible entry point has to be blocked; otherwise new rats keep replacing the ones you trap.",
+      "Usually because the way in is still open. UF/IFAS Extension says rodent-proofing must block all possible entry points. Until then, new rats can keep moving in.",
     ),
   ],
   seo: {
@@ -71,7 +71,7 @@ export const howToCatchARat: Post = {
       "How to catch a rat in the house: which traps work, where to set them for roof rats and Norway rats, how to bait them, and why sealing the gaps matters.",
   },
   sources: [
-    { title: "University of California IPM: Rats (snap traps recommended as safe, effective and economical; placement for Norway and roof rats; out of reach of children and pets; baits, pea-sized; prebait; double traps if all bait taken; traps can stay set in attics; electronic traps; glue boards not recommended for nonprofessionals, never outdoors; gloves, sealed bag)", url: UC },
+    { title: "University of California IPM: Rats (snap traps recommended as safe, effective and economical; placement for Norway and roof rats; out of reach of children and pets; baits, pea-sized; prebait; double traps if all bait taken; traps can stay set in attics; electronic traps; glue boards not generally recommended for nonprofessional use, never outdoors; electrocution traps cost considerably more; where traps are set may matter more than type; seal openings larger than 1/4 inch; gloves, sealed bag)", url: UC },
     { title: "UF/IFAS Extension Pinellas: Management of rodents (snap traps the affordable option; glue boards not humane; poison a last resort)", url: PINELLAS },
     { title: "FWC: FAQs, nuisance wildlife (non-native wildlife can't be released; only moved to be euthanized)", url: FWC_FAQ },
     { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (block all possible entry points; ½-inch gaps)", url: SANTAROSA },

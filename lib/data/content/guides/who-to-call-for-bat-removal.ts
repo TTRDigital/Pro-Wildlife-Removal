@@ -18,15 +18,15 @@ export const whoToCallForBatRemoval: Post = {
   image: images.batRemovalBlogImage,
   body: rich(
     p(
-      "**The short answer:** it depends. One bat flying in a room can usually be let out a window. If it may have touched anyone, or woke a sleeper, call your county health department first. A hurt bat goes to a wildlife rehabilitator, and a colony in the attic needs a wildlife removal company: (727) 594-7705.",
+      "**The short answer:** it depends. One bat flying in a room can usually be let out a window. If it may have touched anyone, call your county health department first. A hurt bat goes to a wildlife rehabilitator, and a colony in the attic has to be removed by exclusion, which a wildlife removal company can do: (727) 594-7705.",
     ),
     h3("Who to call, by situation"),
     table(
       ["What happened", "Who to call", "Source"],
       ["One bat flying in the house, no contact with anyone", "Nobody, usually: let it out (steps below)", "FWC"],
-      ["A bat bit or scratched someone, touched someone, or was in a room with a sleeping person, child or pet", "Your county health department, before letting the bat go", "CDC"],
+      ["A bat bit, scratched or may have touched someone", "Your county health department, before letting the bat go", "CDC"],
       ["A bat on the ground, hurt or sick", "A wildlife rehabilitator on FWC's county list, or an FWC regional office", "FWC"],
-      ["Bats living in the attic, walls or under roof tiles", "A wildlife removal company for a legal exclusion", "FWC"],
+      ["Bats living in the attic, walls or under roof tiles", "A wildlife removal company or your FWC regional office, for an exclusion within FWC's rules", "FWC"],
     ),
     h3("One bat in the room"),
     p(
@@ -49,26 +49,26 @@ export const whoToCallForBatRemoval: Post = {
     ),
     h3("A colony in the house"),
     p(
-      `Bats roosting in an attic, soffit or tile roof have to be excluded: one-way devices let them leave, and the openings are closed after. FWC allows exclusion only from August 15 to April 15 without a permit, with devices up for at least four nights when lows are forecast at 50°F or warmer, and it doesn't allow poison or trapping ([FWC](${FWC_BATS})). Our [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat maternity season](/blog/bat-maternity-season-guide/) guides explain the timing, and [bats under barrel tile roofs](/blog/bats-in-barrel-tile-roof-florida/) covers tile homes.`,
+      `Bats roosting in an attic, soffit or tile roof have to be excluded: one-way devices let them leave, and the openings are closed after. FWC allows exclusion only from August 15 to April 15, with devices up for at least four nights when lows are forecast at 50°F or warmer, and it doesn't allow poison, fumigants, or catching and relocating bats ([FWC](${FWC_BATS})). Our [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat maternity season](/blog/bat-maternity-season-guide/) guides explain the timing, and [bats under barrel tile roofs](/blog/bats-in-barrel-tile-roof-florida/) covers tile homes.`,
     ),
     p("See [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/), or call (727) 594-7705."),
   ),
   faq: [
     faq(
       "There's a bat in my house. Who do I call?",
-      "If nobody touched it, you can usually let it out by opening a window in the room, as FWC describes. If it may have touched anyone or a sleeping person, call your county health department first.",
+      "If nobody touched it, you can usually let it out by opening a window in the room, as FWC describes. If it may have touched anyone, call your county health department first.",
     ),
     faq(
       "Does animal control remove bats?",
-      "It varies by county. The CDC suggests calling animal control or your health department to safely capture a bat for rabies testing when there may have been contact.",
+      "It varies by county. The CDC says that if you find a bat in your home, you can contact animal control or your health department to safely capture it for rabies testing.",
     ),
     faq(
       "Can bats in my attic be removed in summer?",
-      "Not by exclusion without an FWC permit. Florida's bat maternity season runs April 16 to August 14, and exclusion is allowed from August 15 to April 15.",
+      "No. FWC says exclusion is illegal during maternity season, April 16 to August 14; it's allowed from August 15 to April 15.",
     ),
     faq(
       "Is one bat in the house a sign of a colony?",
-      "Not usually. FWC says a single bat indoors doesn't suggest a colony is likely, though bats seen often, droppings or stains outside are worth an inspection.",
+      "Not usually. FWC says a single bat indoors doesn't suggest a colony is likely, though FWC lists sounds, piles of droppings and rub stains around holes as signs of a colony.",
     ),
   ],
   seo: {
@@ -77,8 +77,8 @@ export const whoToCallForBatRemoval: Post = {
       "Bat in the house? Who to call in Florida: letting one bat out, when to call the health department, hurt bats and rehabbers, and colonies needing exclusion.",
   },
   sources: [
-    { title: "FWC: Bats in buildings (a single bat can be removed any time of year; steps to let it out; never handle bare-handed; maternity season April 16 to August 14; exclusion August 15 to April 15; four nights; 50°F; no poison or trapping)", url: FWC_BATS },
-    { title: "CDC: Preventing rabies from bats (bites can be tiny; talk to your health department; don't release the bat until you talk with a public health expert; wash wounds, get medical help)", url: CDC },
+    { title: "FWC: Bats in buildings (a single bat can be removed any time of year; steps to let it out; never handle bare-handed; maternity season April 16 to August 14; exclusion August 15 to April 15; four nights; 50°F; no poison, fumigants or relocation; colony signs: sounds, guano piles, rub stains)", url: FWC_BATS },
+    { title: "CDC: Preventing rabies from bats (bites can be tiny; talk to your health department; if you find a bat in your home, contact animal control or the health department to capture it for testing; don't release the bat until you talk with a public health expert; wash wounds, get medical help)", url: CDC },
     { title: "FWC: Injured or orphaned wildlife (contact a wildlife rehabilitator or FWC regional office; county list of permitted rehabilitators; keeping injured wildlife beyond transport is illegal)", url: FWC_INJ },
   ],
   clientQuestions: [],
