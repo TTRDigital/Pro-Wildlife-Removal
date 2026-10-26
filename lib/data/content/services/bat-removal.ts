@@ -195,7 +195,7 @@ export const batRemoval: Service = {
         { title: "How long the colony has been there", text: p("A new roost leaves little behind. An old one can mean a full insulation replacement.") },
         { title: "Repairs", text: p("Rotted fascia, broken soffit panels or cracked tile have to be fixed before they can be sealed.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: is the inspection free, and can the site show a price range for bat exclusion?]"),
+      outro: p("We inspect for bats free of charge and quote the exclusion before any work begins.", "[PLACEHOLDER: ask the client: can the site show a price range for bat exclusion?]"),
     },
     {
       _type: "areasSection",
@@ -286,7 +286,7 @@ export const batRemoval: Service = {
   ],
   clientQuestions: [
     "Is there a warranty on bat exclusion work, and for how long? (Today's bat-control page promises a written guarantee and free follow-up inspections: confirm or drop.)",
-    "Is the inspection free? Can the site show a price range for bat exclusion? (Today's page says flat-rate pricing covering inspection, exclusion, cleanup, repairs and follow-up: confirm or drop.)",
+    "Can the site show a price range for bat exclusion? (Today's page says flat-rate pricing covering inspection, exclusion, cleanup, repairs and follow-up: confirm or drop.)",
     "How long does a typical bat job take from first visit to final sealing?",
     "Real photos: one-way devices installed on a client roof, a sealed tile roof, guano cleanup.",
   ],

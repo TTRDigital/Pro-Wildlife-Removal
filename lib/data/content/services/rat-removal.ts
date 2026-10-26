@@ -187,7 +187,7 @@ export const ratRemoval: Service = {
         { title: "Trapping visits", text: p("How long it takes to clear the rats left inside after sealing.") },
         { title: "Attic cleanup", text: p("From a light cleanup to removing and replacing all the insulation.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: is the inspection free, and can the site show a price range for rat removal?]"),
+      outro: p("The rat inspection is free. We walk the roofline and attic, then give you the price before any work starts.", "[PLACEHOLDER: ask the client: can the site show a price range for rat removal?]"),
     },
     {
       _type: "areasSection",
@@ -280,7 +280,7 @@ export const ratRemoval: Service = {
     "Which traps do you use for rats, and how often does a technician come back to check them?",
     "How long does a typical rat job take, from sealing to the last check?",
     "Is there a warranty on rat exclusion work, and for how long?",
-    "Is the inspection free? Can the site show a price range for rat removal?",
+    "Can the site show a price range for rat removal?",
     "Real photos: a sealed roof return or vent, rub marks or droppings in a client attic, attic cleanup.",
   ],
 };

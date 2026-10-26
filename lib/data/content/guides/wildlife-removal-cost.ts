@@ -5,8 +5,8 @@ import { TRAP_RULES_SOURCE } from "../notes.ts";
 
 /*
  * Guide: wildlife removal cost in Tampa Bay (the plan's general cost guide).
- * Rewritten in place at the existing slug (Ben, Oct 26). No price figures, and no
- * "free estimate" claim, until the client confirms them.
+ * Rewritten in place at the existing slug (Ben, Oct 26). No price figures until the
+ * client confirms them; the free inspection is confirmed (Ben, Oct 26).
  */
 
 export const wildlifeRemovalCost: Post = {
@@ -20,8 +20,8 @@ export const wildlifeRemovalCost: Post = {
   image: images.howMuchDoesWildlifeRemovalCostBlogImageE17020697,
   body: rich(
     p(
-      "**The short answer:** there's no single price for wildlife removal. What you pay depends on the animal and Florida's rules for it, how many openings the house has, how hard they are to reach and how much cleanup the animal left. Call (727) 594-7705 for an inspection.",
-      "[PLACEHOLDER: ask the client: can the site show typical price ranges, and is the inspection free?]",
+      "**The short answer:** there's no single price for wildlife removal. What you pay depends on the animal and Florida's rules for it, how many openings the house has, how hard they are to reach and how much cleanup the animal left. Call (727) 594-7705 for a free inspection.",
+      "[PLACEHOLDER: ask the client: can the site show typical price ranges?]",
     ),
     h3("The four things that set the price"),
     table(
@@ -77,5 +77,5 @@ export const wildlifeRemovalCost: Post = {
     TRAP_RULES_SOURCE,
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
   ],
-  clientQuestions: ["Can the site show typical price ranges, and is the inspection free?", "Named author for guides and posts."],
+  clientQuestions: ["Can the site show typical price ranges?", "Named author for guides and posts."],
 };

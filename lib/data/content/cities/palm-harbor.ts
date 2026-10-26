@@ -61,7 +61,7 @@ export const palmHarbor = countyPage({
     ),
     faq(
       "Do you handle rats in Palm Harbor?",
-      "Yes. See [rat removal in Palm Harbor](/about-us/service-area/rat-removal-palm-harbor/) for the local details.",
+      "Yes. See [rats in the attic](/services/rats-in-attic/) for the signs, and how we get them out.",
     ),
     faq(
       "How quickly can you get to Palm Harbor?",

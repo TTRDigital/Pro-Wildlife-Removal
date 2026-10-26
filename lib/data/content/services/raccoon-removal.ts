@@ -188,7 +188,7 @@ export const raccoonRemoval: Service = {
         { title: "Repairs to the entry", text: p("A torn soffit or roof vent has to be rebuilt, not just covered.") },
         { title: "Cleanup", text: p("A small latrine, or an attic of soiled insulation.") },
       ],
-      outro: p("[PLACEHOLDER: ask the client: is the inspection free, and can the site show a price range for raccoon removal?]"),
+      outro: p("Inspecting for a raccoon costs nothing. You get the price for your home before we start.", "[PLACEHOLDER: ask the client: can the site show a price range for raccoon removal?]"),
     },
     {
       _type: "areasSection",
@@ -279,7 +279,7 @@ export const raccoonRemoval: Service = {
   clientQuestions: [
     "How do you handle a mother raccoon with kits (reunite by hand, heated box, one-way door, live trap)? Where do you release raccoons, and do you have written permission for any 40+ acre release sites?",
     "Is there a warranty on raccoon repairs and sealing, and for how long?",
-    "Is the inspection free? Can the site show a price range for raccoon removal?",
+    "Can the site show a price range for raccoon removal?",
     "Night and weekend response for a raccoon loose in the living space?",
     "Real photos: a torn soffit before and after repair, kits being removed, a chimney cap.",
   ],

@@ -168,7 +168,8 @@ export const home: PageContent = {
         faq(
           "How much does wildlife removal cost in Tampa Bay?",
           "It depends on the animal, how many there are, how many entry points need sealing and how much cleanup the attic needs. A single raccoon caught in a yard is a different job from a bat colony in a tile roof. We give you the price for your home after the inspection, before any work starts.",
-          "[PLACEHOLDER: ask the client: is the inspection free, and can the site show price ranges?]",
+          "The inspection is free.",
+          "[PLACEHOLDER: ask the client: can the site show price ranges?]",
         ),
         faq(
           "How fast can you come out?",
@@ -230,10 +231,11 @@ export const home: PageContent = {
     "What does the follow-up include (return visit, seal check, warranty on sealing) and for how long?",
     "How many years has Pro Wildlife Removal been in business?",
     "How many jobs has the company done, or which rating and review count should the site show (the live site says 4.7 from 273 Google reviews)?",
-    "Is the inspection free? Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
+    "Can the site show price ranges? The live site says prices are one-time fees regardless of trips or animals removed: is that still true?",
     "Typical response time for emergencies and for regular inspections?",
     "Which cities in Polk, Manatee and Osceola get the most calls, so the area list shows the right towns? Manatee and Osceola: is there a county phone number?",
     "A real truck or crew photo for the hero.",
+    "Is there a written warranty on sealing work? Until there is, the site won't say anything like \"sealed for good\" or promise animals won't return.",
     "The site still has pages for Orlando, Sarasota, The Villages, Lady Lake, Lecanto, Pine Ridge, Winter Haven, Central Florida, and rat removal in The Villages and Winter Haven. Which of these do you still serve?",
   ],
 };
