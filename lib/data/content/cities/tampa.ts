@@ -11,11 +11,11 @@ export const tampa = countyPage({
   phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN TAMPA",
   summary: "Wildlife removal in Tampa: rats, bats, raccoons, squirrels, snakes, bees and more, from South Tampa to New Tampa.",
-  heroText: "Tampa sits on the bay and the Hillsborough River, with mangroves and preserves inside city limits and wildlife in plenty of attics. Call any hour.",
+  heroText: "Tampa sits on the bay and the Hillsborough River, with mangroves and preserves inside city limits and wildlife in plenty of attics. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Tampa?",
   answer:
-    "In Tampa, wildlife on private property is a job for a private removal company: the city's own page says so. Pro Wildlife Removal handles rats, bats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across the city. Call (727) 594-7705, 24/7.",
-  points: ["Private property: call a company", "Open 24/7", "Hillsborough County", "Bees first found at Port of Tampa"],
+    "In Tampa, wildlife on private property is a job for a private removal company: the city's own page says so. Pro Wildlife Removal handles rats, bats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across the city. Call (727) 594-7705.",
+  points: ["Private property: call a company", "Hillsborough County", "Bees first found at Port of Tampa"],
   townsHeading: "Tampa and nearby",
   townsIntro: "Tampa is the Hillsborough County seat and, at about 412,700 people, its largest city. We also cover the communities around it.",
   towns: [
@@ -75,11 +75,11 @@ export const tampa = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Tampa?",
-  ctaText: "Call (727) 594-7705. We pick up 24/7.",
+  ctaText: "Tampa calls go to (727) 594-7705.",
   seo: {
     title: "Wildlife Removal in Tampa, FL | Rats, Bats, Raccoons | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Tampa, FL: roof rats, bats, raccoons, squirrels, snakes, bees and dead animals. Who to call in Tampa for what, and Florida's rules. Call 24/7: (727) 594-7705.",
+      "Wildlife removal in Tampa, FL: roof rats, bats, raccoons, squirrels, snakes, bees and dead animals. Who to call in Tampa for what, and Florida's rules. Call (727) 594-7705.",
   },
   sources: [
     S.edr,

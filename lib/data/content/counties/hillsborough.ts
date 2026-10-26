@@ -11,8 +11,8 @@ export const hillsborough = countyPage({
   heroText: "Tampa and its suburbs on one side, farms and preserve land on the other. Half the county's land is still rural, and the wildlife moves between the two.",
   answerHeading: "Who removes wildlife in Hillsborough County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows, seal it and clean up. Call (727) 594-7705, 24/7.",
-  points: ["Call (727) 594-7705", "Tampa to Plant City", "Most rabid bats in our area, 2025", "Open 24/7"],
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows, seal it and clean up. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Tampa to Plant City", "Most rabid bats in our area, 2025"],
   townsHeading: "Hillsborough towns we cover",
   townsIntro: "Tampa is the county seat and largest city. About 69% of county residents live outside city limits, in places like Brandon and Riverview.",
   towns: [
@@ -75,11 +75,11 @@ export const hillsborough = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Hillsborough?",
-  ctaText: "Call (727) 594-7705, any hour.",
+  ctaText: "Anywhere in Hillsborough, call (727) 594-7705.",
   seo: {
     title: "Wildlife Removal in Hillsborough County, FL | Tampa Area | Pro Wildlife Removal",
     description:
-      "Wildlife removal across Hillsborough County: Tampa, Brandon, Riverview, Plant City and Temple Terrace. Bats, rats, raccoons, squirrels and snakes. Call 24/7: (727) 594-7705.",
+      "Wildlife removal across Hillsborough County: Tampa, Brandon, Riverview, Plant City and Temple Terrace. Bats, rats, raccoons, squirrels and snakes. Call (727) 594-7705.",
   },
   sources: [
     S.censusPop,

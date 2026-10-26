@@ -8,11 +8,11 @@ export const citrus = countyPage({
   order: 2,
   phone: { label: "Call 352-618-2110", href: "tel:+13526182110" },
   summary: "Wildlife removal in Citrus County: Inverness, Crystal River, Homosassa, Lecanto, Floral City and Pine Ridge.",
-  heroText: "Springs, sandhills and state forest, with the lowest share of urban residents of the counties we serve. Call the Citrus line any time, day or night.",
+  heroText: "Springs, sandhills and state forest, with the lowest share of urban residents of the counties we serve. Call the Citrus line, 352-618-2110.",
   answerHeading: "Who handles wildlife removal in Citrus County?",
   answer:
-    "Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals across Citrus County, from Crystal River and Homosassa to Inverness, Lecanto and Floral City. We find the way in, remove the animal legally, seal the opening and clean up. Call 352-618-2110, any hour.",
-  points: ["Citrus line 352-618-2110", "Crystal River to Inverness", "Lowest urban share we serve", "Open 24/7"],
+    "Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes, opossums, armadillos, bees and dead animals across Citrus County, from Crystal River and Homosassa to Inverness, Lecanto and Floral City. We find the way in, remove the animal legally, seal the opening and clean up. Call 352-618-2110.",
+  points: ["Citrus line 352-618-2110", "Crystal River to Inverness", "Lowest urban share we serve"],
   townsHeading: "Citrus towns we cover",
   townsIntro: "Inverness is the county seat. Crystal River is the only other city, and about 93% of residents live outside city limits.",
   towns: [
@@ -74,11 +74,11 @@ export const citrus = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Citrus County?",
-  ctaText: "Call the Citrus line, 352-618-2110, any hour.",
+  ctaText: "Anywhere in Citrus County, call 352-618-2110.",
   seo: {
     title: "Wildlife Removal in Citrus County, FL | Call 352-618-2110 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Citrus County: Inverness, Crystal River, Homosassa, Lecanto, Floral City and Pine Ridge. Raccoons, snakes, bats, rats and more. Call 24/7: 352-618-2110.",
+      "Wildlife removal in Citrus County: Inverness, Crystal River, Homosassa, Lecanto, Floral City and Pine Ridge. Raccoons, snakes, bats, rats and more. Call 352-618-2110.",
   },
   sources: [
     S.censusPop,

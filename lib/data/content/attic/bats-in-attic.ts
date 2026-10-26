@@ -214,7 +214,7 @@ export const batsInAttic: Service = {
   seo: {
     title: "Bats in the Attic in Tampa Bay: What to Do | Pro Wildlife Removal",
     description:
-      "Bats in the attic? How to confirm a colony, Florida's exclusion dates (Aug 15 to April 15), why you never seal bats in, and attic guano cleanup in Tampa Bay. Call 24/7: (727) 594-7705.",
+      "Bats in the attic? How to confirm a colony, Florida's exclusion dates (Aug 15 to April 15), why you never seal bats in, and attic guano cleanup in Tampa Bay. Call (727) 594-7705.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; permits during the season; four nights; 50°F)", url: RELEASE },

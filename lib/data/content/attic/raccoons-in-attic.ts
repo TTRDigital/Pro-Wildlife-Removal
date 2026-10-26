@@ -218,14 +218,14 @@ export const raccoonsInAttic: Service = {
       _key: "cta",
       heading: "Something big in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705, 24/7. In spring, ask about kits when you call."),
+      text: p("Call (727) 594-7705. In spring, ask about kits when you call."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Raccoons in the Attic in Tampa Bay: Signs and Next Steps | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic? How to tell, why spring means babies, the mistakes that make it worse, Florida's release rules and attic latrine cleanup in Tampa Bay. Call 24/7: (727) 594-7705.",
+      "Raccoon in the attic? How to tell, why spring means babies, the mistakes that make it worse, Florida's release rules and attic latrine cleanup in Tampa Bay. Call (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (active mostly in the evening, leave dens soon after dusk; entry points: torn screens, soffits, open chimneys, broken windows; dog-sized droppings; latrines; births March-April; attics and crawl spaces where cavities are scarce; chasing out and sealing frequently causes more damage; one-way devices without young; urine-soaked cloth for a mother with kits)", url: UW033 },

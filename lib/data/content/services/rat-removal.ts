@@ -265,7 +265,7 @@ export const ratRemoval: Service = {
   seo: {
     title: "Rat Removal in Tampa Bay | Rats in the Attic | Pro Wildlife Removal",
     description:
-      "Roof rats in the attic? We seal every entry point, trap the rats inside and clean up droppings and insulation, in Tampa Bay and 9 Florida counties. Call 24/7: (727) 594-7705.",
+      "Roof rats in the attic? We seal every entry point, trap the rats inside and clean up droppings and insulation, in Tampa Bay and 9 Florida counties. Call (727) 594-7705.",
   },
   sources: [
     { title: "UF/IFAS EDIS ENY-224: Rat and Mouse Control (roof vs Norway rats; 6-8 young, up to 6 litters; sexual maturity 3-5 months; droppings; rub marks; gnawing; half-inch cracks; rodent-resistant materials; seal all entries, then remove rats inside; inspect first 2 weeks; mostly active at night; daytime sightings; wires and fires)", url: ENY224 },

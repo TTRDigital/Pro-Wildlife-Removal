@@ -207,14 +207,14 @@ export const armadilloRemoval: Service = {
       _key: "cta",
       heading: "Armadillo tearing up the yard?",
       highlight: "the yard?",
-      text: p("Call (727) 594-7705, any time. We'll find the burrow and set traps where it walks."),
+      text: p("Call (727) 594-7705. We'll find the burrow and set traps where it walks."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Armadillo Removal in Tampa Bay | Armadillo Trapping | Pro Wildlife Removal",
     description:
-      "Armadillo digging up the lawn or burrowing under your patio, driveway or shed? Armadillo trapping and Florida's rules for homeowners in Tampa Bay and 9 counties. Call 24/7: (727) 594-7705.",
+      "Armadillo digging up the lawn or burrowing under your patio, driveway or shed? Armadillo trapping and Florida's rules for homeowners in Tampa Bay and 9 counties. Call (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Armadillos flyer, Dec 2025 (naturalized native; several burrows per acre; holes up to a foot across; mostly nocturnal, poor eyesight, eat grubs, spiders, cockroaches; less water and fertilizer, morning irrigation; fence 2 ft high, 18 in deep; fermenting fruit; light or radio at burrow; 68A-9.010; 24-hour checks; release on site or 40+ contiguous acres same county with written permission; removing one doesn't stop others)", url: FLYER },

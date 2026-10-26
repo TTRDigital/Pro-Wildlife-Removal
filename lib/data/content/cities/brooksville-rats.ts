@@ -16,11 +16,11 @@ export const brooksvilleRats = countyPage({
   heading: "Rat Removal in Brooksville, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed, and droppings cleaned up, on the Hernando line.",
-  heroText: "Scratching overhead after dark in Brooksville? It's usually roof rats. We find where they get in, seal it, and trap the ones left inside. Call the Hernando line any hour.",
+  heroText: "Scratching overhead after dark in Brooksville? It's usually roof rats. We find where they get in, seal it, and trap the ones left inside. Call 352-612-3336.",
   answerHeading: "Who gets rid of rats in Brooksville?",
   answer:
-    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use, traps the rats still inside and cleans up after them. Call the Hernando line, 352-612-3336, 24/7.",
-  points: ["Hernando line 352-612-3336", "Roof rats in attics", "Seal first, then trap", "Open 24/7"],
+    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use, traps the rats still inside and cleans up after them. Call the Hernando line, 352-612-3336.",
+  points: ["Hernando line 352-612-3336", "Roof rats in attics", "Seal first, then trap"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the Hernando County seat, a city of about 10,100 people. We take rat calls across the county.",
   towns: [
@@ -78,11 +78,11 @@ export const brooksvilleRats = countyPage({
     ),
   ],
   ctaHeading: "Rats in your Brooksville home?",
-  ctaText: "One call to 352-612-3336 starts with an inspection of the roof and attic. We answer 24/7.",
+  ctaText: "One call to 352-612-3336 starts with an inspection of the roof and attic. ",
   seo: {
     title: "Rat Removal in Brooksville, FL | Call 352-612-3336 | Pro Wildlife Removal",
     description:
-      "Rat removal in Brooksville, FL: roof rats in attics and walls, entry points sealed, rats trapped and droppings cleaned up. Who handles what in Brooksville. Call 24/7: 352-612-3336.",
+      "Rat removal in Brooksville, FL: roof rats in attics and walls, entry points sealed, rats trapped and droppings cleaned up. Who handles what in Brooksville. Call 352-612-3336.",
   },
   sources: [
     S.edr,
