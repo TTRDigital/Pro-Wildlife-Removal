@@ -20,3 +20,12 @@ seconds, scaled to 480x360 and saved without sound; nothing else was changed.
 - Author: Candy Chambers, U.S. Fish and Wildlife Service, Midwest Region
 - Filmed: 3 January 2017
 - License: Public domain (work of a U.S. federal agency)
+
+## snake.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:Black_Rat_Snake_(Elaphe_obsoleta).webm
+- What it shows: a black rat snake moving through leaf litter, filmed in the U.S.
+- Author: U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC);
+  original at digitalmedia.fws.gov/cdm/singleitem/collection/video/id/1447/rec/1
+- Uploaded: 22 October 2014
+- License: Public domain (work of a U.S. federal agency)
