@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, Phone, X } from "lucide-react";
 import type { Img } from "@/lib/types";
 import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
@@ -32,6 +32,31 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
   const [open, setOpen] = useState(false);
   const [sub, setSub] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
+  // Desktop dropdowns: one open at a time. Hover or keyboard focus opens one (closing any other);
+  // leaving the menu, a click or tap outside it, Esc or moving to another page closes it.
+  // The open menu remembers the page it was opened on, so it counts as closed once the page changes.
+  const [opened, setOpened] = useState<{ label: string; on: string | null } | null>(null);
+  const menu = opened && opened.on === pathname ? opened.label : null;
+  const setMenu = (label: string | null) => setOpened(label ? { label, on: pathname } : null);
+  const navRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (!menu) return;
+    const key = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      setOpened(null);
+      if (navRef.current?.contains(document.activeElement)) (document.activeElement as HTMLElement).blur();
+    };
+    const away = (e: PointerEvent) => {
+      if (!navRef.current?.contains(e.target as Node)) setOpened(null);
+    };
+    document.addEventListener("keydown", key);
+    document.addEventListener("pointerdown", away);
+    return () => {
+      document.removeEventListener("keydown", key);
+      document.removeEventListener("pointerdown", away);
+    };
+  }, [menu]);
 
   useEffect(() => {
     const on = () => setScrolled(window.scrollY > 8);
@@ -54,20 +79,20 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
             <AnimatedLogo logo={logo} priority sizes="(min-width: 1024px) 130px, 90px" className="h-[80px] lg:h-[112px]" />
           </Link>
 
-          <nav aria-label="Main" className="hidden lg:block">
+          <nav ref={navRef} aria-label="Main" className="hidden lg:block" onMouseLeave={() => setMenu(null)}>
             <ul className="flex items-center gap-1">
               {nav.map((item) => (
-                <li key={item.label} className="group relative">
+                <li key={item.label} className="group relative" onMouseEnter={() => setMenu(item.children ? item.label : null)} onFocus={() => setMenu(item.children ? item.label : null)}>
                   <Link
                     href={item.href}
                     className={`flex h-11 items-center gap-1 rounded-lg px-3 font-display text-[0.9375rem] font-semibold transition-colors xl:px-3.5 ${active(item.label) ? "bg-tint text-blue-deep" : "text-navy hover:bg-tint-2 hover:text-blue-deep"}`}
                     aria-current={pathname === item.href ? "page" : undefined}
                   >
                     {item.label}
-                    {item.children ? <ChevronDown className="h-4 w-4 transition-transform duration-200 group-hover:rotate-180" strokeWidth={2.25} aria-hidden="true" /> : null}
+                    {item.children ? <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${menu === item.label ? "rotate-180" : ""}`} strokeWidth={2.25} aria-hidden="true" /> : null}
                   </Link>
                   {item.children?.some((c) => c.group) ? (
-                    <div className="invisible absolute top-full left-1/2 z-50 -translate-x-1/2 pt-3 opacity-0 transition-[opacity,transform] duration-200 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100">
+                    <div className={`absolute top-full left-1/2 z-50 -translate-x-1/2 pt-3 transition-[opacity,transform] duration-200 ${menu === item.label ? "visible opacity-100" : "invisible opacity-0"}`}>
                       {/* Two columns: the first group (counties), then the second (cities, in two short columns). */}
                       <div className={`grid w-[640px] grid-cols-[210px_1fr] gap-2 ${panel}`}>
                         {groups(item.children).named.map((g, gi) => (
@@ -96,7 +121,7 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
                       </div>
                     </div>
                   ) : item.children ? (
-                    <div className="invisible absolute top-full left-0 z-50 pt-3 opacity-0 transition-opacity duration-200 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100">
+                    <div className={`absolute top-full left-0 z-50 pt-3 transition-opacity duration-200 ${menu === item.label ? "visible opacity-100" : "invisible opacity-0"}`}>
                       <ul className={`w-[240px] ${panel}`}>
                         {item.children.map((c) => (
                           <li key={c.href}>
