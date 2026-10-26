@@ -4,8 +4,8 @@ import { servicePlacePage } from "../build.ts";
 /*
  * Bat removal in Hillsborough County (TTR-738, Owen). County-wide facts only; the
  * Tampa bat page covers the city. Sources: DOH rabies tables (Hillsborough rows and
- * footnotes), DOH-Hillsborough's risk page, the NPS
- * bat tower form and the Hillsborough River State Park plan.
+ * footnotes), DOH-Hillsborough's risk page, and news reports of DOH-Hillsborough rabid bat
+ * cases (Carrollwood 2020, Sun City Center 2018, North Westshore 2018), labeled as news.
  */
 const DOH = "https://www.floridahealth.gov/wp-content/uploads/";
 const RISK = "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/animal-risk-assessment/";
@@ -26,14 +26,15 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     "The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property needs private removal services. For bats, Pro Wildlife Removal finds every gap they use, fits one-way exits outside FWC's April 16 to August 14 maternity season, then seals the openings once the bats are gone. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "County: private property is yours", "Four rabid bats in the 2025 table"],
   localHeading: "What to know about bats in Hillsborough County",
-  localIntro: "These facts about bats in Hillsborough come from the state health department, DOH-Hillsborough, the National Park Service, a state park plan and local news.",
+  localIntro: "These facts about bats in Hillsborough come from the state health department, DOH-Hillsborough and news reports of local rabid bat cases, labeled as news.",
   local: [
     { icon: "search", title: "None, then two", text: p("Hillsborough's row in the state rabies tables listed no rabid bats for 2022 or 2023 and two for 2024. The tables count rabid animals that may have exposed people, pets or livestock.") },
     { icon: "critter", title: "Three more in a footnote", text: p("The 2024 table adds a footnote: three more rabid Hillsborough bats were identified through surveillance testing and are not included in the county's count.") },
     { icon: "map-pin", title: "Bats led 2025", text: p("Of the six rabid animals Hillsborough's 2025 row listed, four were bats. The other two were a cat and a raccoon.") },
     { icon: "phone", title: "A bite you might miss", text: p("DOH-Hillsborough's animal risk page lists bats among high-risk animals and, when it asks whether a bite broke the skin, notes that bat bites may not be clearly visible.") },
-    { icon: "leaf", title: "Three bats at the state park", text: p("Hillsborough River State Park's 2020 plan lists three bats among its mammals: the Seminole bat, the evening bat and the eastern pipistrelle.") },
-    { icon: "map-pin", title: "A bat tower in Temple Terrace", text: p("A 1980 National Park Service nomination form lists the Bat Tower in Temple Terrace among the roosts built to Dr. Charles Campbell's mosquito-control design. Local news reports the 1924 tower burned in 1979.") },
+    { icon: "home", title: "Carrollwood, July 2020 (news)", text: p("A DOH-Hillsborough release reprinted by Patch said a Carrollwood woman picked up a bat she saw on a sidewalk during a night walk and it bit her finger. The bat had rabies; no area alert followed because it was a single wildlife case.") },
+    { icon: "map-pin", title: "Sun City Center, July 2018 (news)", text: p("FOX 13 reported that a woman in a Sun City Center parking lot off Upper Creek Drive felt something hit her arm and later found a small bat clinging to it at home. It tested positive, and the health department notified homes and businesses within 500 feet.") },
+    { icon: "critter", title: "On its back in the grass, March 2018 (news)", text: p("In March 2018 a bat found lying on its back in the grass near the 1300 block of North Westshore Boulevard tested positive for rabies, FOX 13 and ABC Action News reported, and one person had been exposed to it.") },
   ],
   contactsIntro: "Who handles what when bats are the problem in Hillsborough, from the county's and DOH-Hillsborough's own pages.",
   contacts: [
@@ -83,9 +84,10 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     { title: "DOH-Hillsborough: Report an animal bite (813-307-8059)", url: BITE },
     { title: "Hillsborough County: Animal Control ((813) 744-5660; serves Hillsborough County including the cities of Tampa, Temple Terrace and Plant City)", url: ANIMAL_CONTROL },
     { title: "City of Tampa: Animal services, Hillsborough County (listed services: stray pets, bites, neglect and cruelty cases; for wildlife on private property, use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
-    { title: "Florida DEP: Hillsborough River State Park unit management plan, approved June 12, 2020 (mammals: Seminole bat, evening bat, eastern pipistrelle)", url: "https://floridadep.gov/sites/default/files/HRSP_06.12.2020%20Approved%20UMP_JA.pdf" },
-    { title: "National Park Service: National Register nomination, Sugarloaf Key bat tower, 1980 (lists the Bat Tower in Temple Terrace (Tampa) among Campbell's roosts)", url: "https://npgallery.nps.gov/GetAsset/ec7b09f7-19db-4c96-8170-e0efaca829a3" },
-    { title: "News, Temple Terrace Patch, June 27, 2011: Project aims to reconstruct Temple Terrace bat tower (built in 1924 along the Hillsborough River; arsonists burned it down in 1979)", url: "https://patch.com/florida/templeterrace/project-aims-to-reconstruct-temple-terrace-bat-tower" },
+    { title: "News, Patch, July 30, 2020: Bat with rabies bites Carrollwood resident (DOH-Hillsborough release of July 29, 2020; picked up a bat on a sidewalk; bitten on the finger; no alert for a single wildlife case)", url: "https://patch.com/florida/westchase/bat-rabies-bites-carrollwood-resident" },
+    { title: "News, FOX 13, July 19, 2018: Rabid bat found clinging to woman's arm in Sun City Center (parking lot near Upper Creek Drive; homes and businesses within 500 feet notified)", url: "https://fox13news.com/news/rabid-bat-found-clinging-to-womans-arm-in-sun-city-center" },
+    { title: "News, FOX 13, March 9, 2018: Rabid bat reported in Hillsborough County (found near North Westshore Boulevard, per DOH)", url: "https://www.fox13news.com/news/rabid-bat-reported-in-hillsborough-county" },
+    { title: "News, Tampa Bay 28 (ABC Action News), March 2018: Person exposed to rabid bat in Hillsborough County (1300 block of N. Westshore Blvd; in the grass on its back; one person exposed)", url: "https://www.tampabay28.com/news/region-hillsborough/person-exposed-to-rabid-bat-in-hillsborough-co" },
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion devices at least four nights, lows forecast 50°F or above)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },
     { title: "FWC: Bats in buildings (no exclusion during maternity season without a permit)", url: "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/" },
   ],

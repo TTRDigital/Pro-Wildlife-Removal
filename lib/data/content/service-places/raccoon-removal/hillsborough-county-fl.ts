@@ -5,8 +5,8 @@ import { TRAP_RULES_SOURCE } from "../../notes.ts";
 /*
  * Raccoon removal in Hillsborough County (TTR-738, Owen). County-wide and non-Tampa
  * facts only; the Tampa raccoon page covers the city. Sources: DOH rabies tables,
- * DOH-Hillsborough's risk page, county conservation
- * and preserve pages, the Alafia River Corridor plan, the state park plan.
+ * DOH-Hillsborough's risk page, the county conservation page, the 2004 state park plan,
+ * and news reports of rabid raccoon cases (2017 to 2020), labeled as news.
  */
 const DOH = "https://www.floridahealth.gov/wp-content/uploads/";
 const RISK = "https://hillsborough.floridahealth.gov/programs-and-services/environmental-public-health/animal-bites-and-scratches/animal-risk-assessment/";
@@ -27,13 +27,15 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
     "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says to use private removal services for wildlife on private property, and county Animal Control serves the whole county. Pro Wildlife Removal gets raccoons out of attics and crawl spaces, checks for young and repairs the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Rabid raccoon in the 2025 table", "County: garbage feeds a boom"],
   localHeading: "What to know about raccoons in Hillsborough County",
-  localIntro: "These facts about raccoons in Hillsborough come from the state health department, DOH-Hillsborough, county conservation pages and two land management plans.",
+  localIntro: "These facts about raccoons in Hillsborough come from the state health department, DOH-Hillsborough, county conservation pages, a state park plan and news reports of rabid raccoon cases, labeled as news.",
   local: [
     { icon: "search", title: "One rabid raccoon in 2025", text: p("Hillsborough's row in the state rabies tables listed one rabid raccoon for 2025, alongside four bats and a cat. The rows for 2022, 2023 and 2024 listed no raccoons.") },
     { icon: "home", title: "Garbage and a population boom", text: p("Hillsborough County's conservation lands page warns that when raccoons and other predators get lots of human food, including garbage, it can cause an unsustainable population boom that threatens squirrels, birds and rabbits.") },
     { icon: "phone", title: "Feeding changes them", text: p("DOH-Hillsborough's animal risk page lists raccoons as high-risk animals and says most free-ranging wild animals avoid people unless artificial feeding has conditioned them otherwise.") },
-    { icon: "leaf", title: "Rhodine Scrub, Riverview", text: p("The county's page for Rhodine Scrub Nature Preserve in Riverview says the preserve has plenty of mammals and reptiles, raccoons among them.") },
-    { icon: "drop", title: "Alafia River heron island", text: p("The 2010 management plan for the Alafia River Corridor Nature Preserve says alligators there help deter raccoons and other predators from reaching a heron rookery island.") },
+    { icon: "map-pin", title: "Riverview, October 2019 (news)", text: p("On Oct. 15, 2019, a raccoon near Frost Aster Drive in Riverview attacked a dog and tested positive, Patch reported. It was the county's first confirmed rabies case of 2019, and no alert was issued for a single wildlife case.") },
+    { icon: "home", title: "Valrico, January 2020 (news)", text: p("In January 2020 a Valrico man near Laurel Pointe Drive found a raccoon on one of his dogs and was bitten and scratched pulling them apart. The raccoon had rabies; the vaccinated dogs got boosters and a 45-day quarantine, Tampa Bay 28 reported.") },
+    { icon: "search", title: "Carrollwood Village, March 2018 (news)", text: p("A raccoon that a dog killed during a fight on March 9, 2018, tested positive, Patch reported, and DOH-Hillsborough set a 60-day alert from County Line Road south to Kennedy Boulevard, between the Veterans Expressway and I-75.") },
+    { icon: "users", title: "North of Lake Magdalene Boulevard, May 2017 (news)", text: p("Two rabid raccoons led to a 60-day DOH-Hillsborough alert in May 2017 for a neighborhood that news reports called Lutz, bounded by Lake Brant, US 41 and Lake Magdalene Boulevard. Patch said the first rabid raccoon of that year had been reported in Lutz on April 21.") },
     { icon: "critter", title: "Hillsborough River State Park", text: p("The park's 2004 plan named the raccoon a problem species: \"Feeding these mammals has made them bold and unafraid of visitors,\" and raccoons sometimes broke into tents and trailers to get food.") },
   ],
   contactsIntro: "Who handles what when a raccoon is the problem in Hillsborough, from the county's and DOH-Hillsborough's own pages.",
@@ -86,8 +88,10 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Hillsborough row: 4 bats, 1 cat, 1 raccoon)", url: `${DOH}2025/09/rabies-cases-county-animal-2025.pdf` },
     { title: "DOH-Hillsborough: Animal risk assessment (raccoons among high-risk animals; wild animals avoid humans unless conditioned by artificial feeding)", url: RISK },
     { title: "Hillsborough County: Be a good neighbor to nature (human food, including garbage, can cause an unsustainable population boom in predators like raccoons; feeding makes wild animals lose their fear of humans)", url: NEIGHBOR },
-    { title: "Hillsborough County: Rhodine Scrub Nature Preserve, Riverview (plenty of mammals and reptiles, including raccoons)", url: "https://hcfl.gov/locations/rhodine-scrub-nature-preserve" },
-    { title: "Alafia River Corridor Nature Preserve management plan, 2010 (alligators help deter raccoons and other predators from the heron rookery island)", url: "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/AlafiaRiverCorridorNaturePreserve.pdf" },
+    { title: "News, Patch, Oct 17, 2019: Raccoon that attacked dog in Riverview tests positive for rabies (near Frost Aster Drive, Oct 15; first confirmed case of 2019; no alert for a single wildlife case)", url: "https://patch.com/florida/bloomingdale/racoon-attacked-dog-riverview-tests-positive-rabies" },
+    { title: "News, Tampa Bay 28 (ABC Action News), January 2020: Hillsborough County confirms rabies case (Valrico, Laurel Pointe Drive area, Jan 25; man bitten and scratched; dogs boosted and quarantined 45 days; first case of 2020)", url: "https://www.tampabay28.com/news/region-hillsborough/hillsborough-county-confirms-rabies-case" },
+    { title: "News, Patch, March 15, 2018: Raccoon found near Carrollwood tests positive for rabies (fought a dog March 9; killed by the dog; 60-day alert, County Line Road, Veterans Expressway, I-75, Kennedy Boulevard)", url: "https://patch.com/florida/carrollwood/raccoon-found-near-carrollwood-tests-positive-rabies" },
+    { title: "News, Patch (Lutz), May 30, 2017: Rabies alert issued in Hillsborough County (two raccoons tested positive; 60-day alert; Lake Brant, US 41, Lake Magdalene Boulevard; first rabies-positive raccoon reported in Lutz April 21)", url: "https://patch.com/florida/lutz/rabies-alert-issued-hillsborough-county" },
     { title: "Florida DEP: Hillsborough River State Park unit management plan, 2004 (problem species include the raccoon; feeding made them bold; break into tents and trailers to get food)", url: PARK_PLAN },
     { title: "Hillsborough County: Animal Control ((813) 744-5660; serves Hillsborough County including the cities of Tampa, Temple Terrace and Plant City)", url: "https://hcfl.gov/locations/animal-control" },
     { title: "City of Tampa: Animal services, Hillsborough County (listed services: stray pets, bites, neglect and cruelty cases; for wildlife on private property, use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },
