@@ -2,6 +2,8 @@ import type { ReviewsSection as Reviews, SiteSettings, Testimonial } from "@/lib
 import { Stars } from "@/components/ui/Stars";
 import { formatDate, initials } from "@/lib/text";
 import { RatingChip } from "./PageHero";
+import { JsonLd } from "@/components/ui/JsonLd";
+import { reviewsSchema } from "@/lib/schema";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 /** Reviews mentioning the word first (e.g. "bat" on the bat page), then the rest in their usual order. */
@@ -55,6 +57,7 @@ export function ReviewsSection({ section: s, testimonials, settings, limit = 3 }
         </p>
       ) : null}
       <CtaRow ctas={ctas} />
+      <JsonLd data={reviewsSchema(settings, items)} />
     </SectionShell>
   );
 }

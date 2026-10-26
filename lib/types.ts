@@ -166,6 +166,8 @@ export type Post = {
   author?: string;
   image?: Img;
   body: Rich;
+  /** Questions shown under the post as the FAQ block (with FAQPage structured data). */
+  faq?: Faq[];
   seo: Seo;
   /** Fact sources and open client questions, as on PageContent. Not rendered. */
   sources?: Source[];

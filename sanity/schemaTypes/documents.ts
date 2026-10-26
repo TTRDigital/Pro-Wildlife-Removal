@@ -155,6 +155,13 @@ export const post = defineType({
     defineField({ name: "excerpt", type: "text", rows: 3, group: "content" }),
     defineField({ name: "image", title: "Featured image", type: "altImage", group: "content" }),
     defineField({ name: "body", type: "richText", group: "content" }),
+    defineField({
+      name: "faq",
+      title: "FAQ (shown under the post, marked up for Google)",
+      type: "array",
+      group: "content",
+      of: [defineArrayMember({ name: "postFaq", type: "object", fields: [defineField({ name: "question", type: "string" }), defineField({ name: "answer", type: "richText" })], preview: { select: { title: "question" } } })],
+    }),
     seoField,
   ],
   orderings: [{ title: "Newest", name: "date", by: [{ field: "date", direction: "desc" }] }],

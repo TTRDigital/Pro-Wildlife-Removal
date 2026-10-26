@@ -28,5 +28,14 @@ export const movedServices: Record<string, string> = {
   "bee-removal-tampa": "bee-removal",
 };
 
+/**
+ * Retired service-area pages (path without slashes) and the page they now live on (Ben, Oct 26, 2026):
+ * the "rat removal in <city>" pages fold into that city's page.
+ */
+export const movedLocations: Record<string, string> = {
+  "rat-removal-trinity": "about-us/service-area/trinity-wildlife-removal",
+  "about-us/service-area/rat-removal-palm-harbor": "about-us/service-area/wildlife-removal-palm-harbor",
+};
+
 /** Where a service slug lives now (itself if it never moved). */
 export const serviceSlug = (slug: string) => movedServices[slug] ?? slug;
