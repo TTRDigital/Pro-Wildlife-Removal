@@ -35,7 +35,7 @@ export const ratsInCarEngine: Post = {
     ),
     h3("Why Florida cars get them"),
     p(
-      `A parked car offers warmth, cover and nesting material close to food. UF/IFAS Extension in Florida says rodents gnaw structural, mechanical and electrical parts. Around Florida homes, roof rats find plenty of shelter: UF/IFAS notes that untrimmed palm skirts make excellent rodent habitat and that roof rats can jump three feet up and four feet across ([UF/IFAS](${IN1397})). A car parked under a palm or beside a woodpile is an easy target.`,
+      `A parked car offers warmth, cover and nesting material close to food. UF/IFAS Extension in Florida says rodents gnaw structural, mechanical and electrical parts. Around Florida homes, roof rats find plenty of shelter: UF/IFAS notes that a skirt of dead leaves on a palm creates rodent habitat, and that roof rats can jump three feet up and more than four feet across ([UF/IFAS](${IN1397})). A car parked under a palm or beside a woodpile is an easy target.`,
     ),
     h3("What works"),
     ul(
@@ -83,7 +83,7 @@ export const ratsInCarEngine: Post = {
     { title: "UC ANR: Your rat management questions answered (no plants proven to deter rats; high-frequency ultrasonic devices not effective)", url: UCANR },
     { title: "University of Illinois Extension: Mouse house, Feb 19, 2026 (vehicles: chewed wires and tubes, upholstery, nesting material; droppings, odor; use your car often; park away from food and nesting material; repellents unclear)", url: ILL },
     { title: "UF/IFAS Extension Pinellas: Management of rodents (remove garbage, pet food, bird feed, fallen fruit)", url: PINELLAS },
-    { title: "UF/IFAS EDIS IN1397: roof rats (palm skirts make excellent rodent habitat; jump three feet up and four feet across; prune limbs away from the house)", url: IN1397 },
+    { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (a skirt of dead palm leaves makes rodent habitat; roof rats jump three feet up and more than four feet across; prune limbs away from the house)", url: IN1397 },
     { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (gnaw structural, mechanical and electrical components)", url: "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/" },
     { title: "UF/IFAS Extension Sarasota: Wondering about wildlife: rodents, Aug 2026 (snap traps recommended for homeowners)", url: SARASOTA },
   ],

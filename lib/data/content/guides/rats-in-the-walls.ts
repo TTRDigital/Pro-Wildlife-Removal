@@ -84,7 +84,7 @@ export const ratsInTheWalls: Post = {
     { title: "UF/IFAS Extension Santa Rosa: Controlling rats and mice around the farm (droppings or urine stains first signs, active at night; ½-inch gaps; seal with mortar, concrete, sheet metal or 19-gauge hardware cloth with no openings over ¼ inch; trap along walls, near holes, along beams and rafters)", url: SANTAROSA },
     { title: "Florida DOH Gadsden: Rodent control (roof rats most active one hour after sunset and before dawn; high places such as attics; Norway rats lower floors; quarter-sized hole; grease stains; gnawing)", url: GADSDEN },
     { title: "UF/IFAS Extension Duval: Commercial horticulture newsletter, Feb/Mar 2023 (droppings, urine, rub marks, gnawing; rodents easily chew through spray foam)", url: DUVAL },
-    { title: "UF/IFAS EDIS IN1397: roof rats (jump three feet up, more than four feet across; prune limbs away from the house)", url: IN1397 },
+    { title: "UF/IFAS EDIS IN1397: Landscaping methods to prevent pests from entering your home (jump three feet up, more than four feet across; prune limbs away from the house)", url: IN1397 },
     { title: "UF/IFAS Extension Pinellas: Management of rodents (snap traps most affordable; glue boards not humane; rodenticides take several days; poison as a last resort)", url: PINELLAS },
     { title: "UF/IFAS EDIS UW372 (toxic baits legal only for non-native rats and house mice; bait boxes required by law)", url: UW372 },
     { title: "UF/IFAS EDIS PI284 (deaths typically 4 days to 2 weeks after feeding on bait)", url: PI284 },
