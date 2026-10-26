@@ -6,13 +6,13 @@ export const polk = countyPage({
   name: "Polk County",
   county: "Polk",
   order: 8,
-  phone: { label: "Call 863-208-5050", href: "tel:+18632085050" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   summary: "Wildlife removal in Polk County: Lakeland, Winter Haven, Haines City, Bartow and the lake towns between them.",
-  heroText: "The largest county we serve by land area, with over 500 named lakes and fast-growing cities in between. Call the Polk line, 863-208-5050.",
+  heroText: "The largest county we serve by land area, with over 500 named lakes and fast-growing cities in between. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Polk County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it the way Florida law allows, seal the gap and clean up. Call 863-208-5050.",
-  points: ["Polk line 863-208-5050", "Lakeland to Haines City", "Over 500 named lakes"],
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Polk County, including Lakeland, Winter Haven, Haines City and Bartow. We find how the animal gets in, remove it the way Florida law allows, seal the gap and clean up. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Lakeland to Haines City", "Over 500 named lakes"],
   townsHeading: "Polk towns we cover",
   townsIntro: "Bartow is the county seat and Lakeland the largest city. Polk is the largest county we serve by land area: about 1,800 square miles.",
   towns: [
@@ -50,7 +50,7 @@ export const polk = countyPage({
   faqs: [
     faq(
       "What's the phone number for Polk County?",
-      "Call the Polk line, 863-208-5050, or the main line, (727) 594-7705. Both are answered 24/7.",
+      "In Polk County, call (727) 594-7705. It's answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Polk County]",
     ),
     faq(
@@ -79,11 +79,11 @@ export const polk = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Polk County?",
-  ctaText: "Anywhere in Polk County, call 863-208-5050.",
+  ctaText: "Anywhere in Polk County, call (727) 594-7705.",
   seo: {
     title: "Wildlife Removal in Polk County, FL | Lakeland & Winter Haven | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Polk County: Lakeland, Winter Haven, Haines City, Bartow and Lake Wales. Bats, rats, raccoons, armadillos, snakes and more. Call 863-208-5050.",
+      "Wildlife removal in Polk County: Lakeland, Winter Haven, Haines City, Bartow and Lake Wales. Bats, rats, raccoons, armadillos, snakes and more. Call (727) 594-7705.",
   },
   sources: [
     S.censusPop,

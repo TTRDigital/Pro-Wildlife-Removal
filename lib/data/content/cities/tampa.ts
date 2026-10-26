@@ -38,7 +38,7 @@ export const tampa = countyPage({
     { icon: "bug", title: "Where African bees arrived", text: p("UF/IFAS says African honey bees were first documented in Florida in 2001 near the Port of Tampa. Any bee colony in a Tampa wall or soffit should be treated with care. See [bee removal](/services/bee-removal/).") },
     { icon: "leaf", title: "McKay Bay Nature Park", text: p("The city's 38-acre preserve on McKay Bay has a boardwalk through the mangroves, and the city says many species of wading birds feed on its mudflats, especially in winter.") },
     { icon: "map-pin", title: "MacDill 48 Park", text: p("When Tampa opened its 48-acre MacDill 48 Park in November 2024, it named gopher tortoises, native fish and bald eagles among the wildlife living there.") },
-    { icon: "critter", title: "Alligators on the river", text: p("Hillsborough County's July 2026 safety tips note alligators live throughout the county, with one photographed crossing a path at Lettuce Lake Park on the Hillsborough River.") },
+    { icon: "critter", title: "Alligators on the river", text: p("Hillsborough County's July 2026 safety tips note alligators are found throughout Florida, including Hillsborough County, with one photographed crossing a path at Lettuce Lake Park on the Hillsborough River.") },
     { icon: "sound", title: "Rabid bats nearby", text: p("Florida's Department of Health counted four rabid bats in Hillsborough County in 2025. A bat inside a Tampa home is never one to pick up bare-handed. See [bats in the attic](/services/bats-in-attic/).") },
   ],
   contactsIntro: "Tampa doesn't run its own animal control. These are the public numbers, from the city's and agencies' own pages.",
@@ -66,7 +66,7 @@ export const tampa = countyPage({
     ),
     faq(
       "There's an alligator in my yard in Tampa. Who do I call?",
-      "FWC's Nuisance Alligator Hotline, 866-FWC-GATOR. Hillsborough County notes alligators are found throughout the county.",
+      "FWC's Nuisance Alligator Hotline, 866-FWC-GATOR. Hillsborough County notes alligators are found throughout Florida, including Hillsborough County.",
     ),
     faq(
       "How fast can you get to me in Tampa?",
@@ -88,7 +88,7 @@ export const tampa = countyPage({
     { title: "City of Tampa: Dead animal removal, city road (813-274-8811; city rights-of-way only; not private property)", url: "https://www.tampa.gov/service/dead-animal-removal-city-road" },
     { title: "City of Tampa: McKay Bay Nature Park (38-acre preserve; mangrove boardwalk; wading birds on the mudflats, especially in winter)", url: "https://www.tampa.gov/parks-and-recreation/programs/parks-and-facilities/greenways-and-trails/trail-maps/mckay-bay-nature-trail" },
     { title: "City of Tampa: MacDill 48 Park opens, Nov 2024 (48 acres; gopher tortoises, native fish, bald eagles)", url: "https://www.tampa.gov/news/2024-11/tampa-opens-newest-public-park-159436" },
-    { title: "Hillsborough County: Alligator safety tips, July 24, 2026 (alligators throughout the county; Lettuce Lake Park photo)", url: "https://hcfl.gov/newsroom/2026/07/24/tips-to-keep-your-family-and-pets-safe-around-alligators-this-summer" },
+    { title: "Hillsborough County: Alligator safety tips, July 24, 2026 (alligators found throughout Florida, including Hillsborough County; Lettuce Lake Park photo)", url: "https://hcfl.gov/newsroom/2026/07/24/tips-to-keep-your-family-and-pets-safe-around-alligators-this-summer" },
     { title: "UF/IFAS EDIS ENY-170 (IN1205): African bees first documented in Florida in 2001 near the Port of Tampa", url: "https://ask.ifas.ufl.edu/publication/IN1205" },
     S.doh2025,
     { title: "Hillsborough County: Animal Control ((813) 744-5660)", url: "https://hcfl.gov/locations/animal-control" },

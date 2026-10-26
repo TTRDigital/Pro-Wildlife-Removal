@@ -1,7 +1,7 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/* Holiday page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. Keeps the page's own number. */
+/* Holiday page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
 const CENSUS = "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip";
 
 export const holiday = countyPage({
@@ -10,14 +10,14 @@ export const holiday = countyPage({
   name: "Holiday",
   county: "Pasco",
   order: 13,
-  phone: { label: "Call 727-496-7677", href: "tel:+17274967677" },
+  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
   eyebrow: "WILDLIFE REMOVAL IN HOLIDAY",
   summary: "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums, snakes, armadillos, bats and more, on the Pasco coast.",
-  heroText: "Pasco's southern Gulf coast, on the Anclote River across from Tarpon Springs. Call 727-496-7677.",
+  heroText: "Pasco's southern Gulf coast, on the Anclote River across from Tarpon Springs. Call (727) 594-7705.",
   answerHeading: "Who removes wildlife in Holiday, FL?",
   answer:
-    "Holiday is unincorporated Pasco County, so county services apply. Pasco County Animal Services handles pets and strays, not animals living in your home. For raccoons, rats, squirrels or opossums, call a private company. Pro Wildlife Removal works across Holiday. Call 727-496-7677.",
-  points: ["Call 727-496-7677", "Unincorporated Pasco", "On the Anclote River"],
+    "Holiday is unincorporated Pasco County, so county services apply. Pasco County Animal Services handles pets and strays, not animals living in your home. For raccoons, rats, squirrels or opossums, call a private company. Pro Wildlife Removal works across Holiday. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "Unincorporated Pasco", "On the Anclote River"],
   townsHeading: "Holiday and nearby",
   townsIntro: "Holiday had about 24,900 residents at the 2020 Census. It borders Tarpon Springs to the south.",
   towns: [
@@ -65,16 +65,16 @@ export const holiday = countyPage({
     ),
     faq(
       "How quickly can you reach Holiday?",
-      "Holiday calls to 727-496-7677 are answered 24/7.",
+      "Holiday calls to (727) 594-7705 are answered 24/7.",
       "[PLACEHOLDER: ask the client: typical response time in Holiday]",
     ),
   ],
   ctaHeading: "Wildlife problem in Holiday?",
-  ctaText: "Holiday homeowners can call 727-496-7677.",
+  ctaText: "Holiday homeowners can call (727) 594-7705.",
   seo: {
-    title: "Wildlife Removal in Holiday, FL | Call 727-496-7677 | Pro Wildlife Removal",
+    title: "Wildlife Removal in Holiday, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums and snakes on the Anclote River. Who to call for what in Holiday, Pasco County. Call 727-496-7677.",
+      "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums and snakes on the Anclote River. Who to call for what in Holiday, Pasco County. Call (727) 594-7705.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Holiday CDP, 24,939)", url: CENSUS },
@@ -87,5 +87,5 @@ export const holiday = countyPage({
     { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
     { title: "FWC: Regional offices (Wildlife Alert 888-404-3922) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
   ],
-  clientQuestions: ["Typical response time in Holiday?", "Holiday reviews (from TTR-723) and real Holiday job photos.", "Is 727-496-7677 still the right number for Holiday?"],
+  clientQuestions: ["Typical response time in Holiday?", "Holiday reviews (from TTR-723) and real Holiday job photos."],
 });

@@ -1,13 +1,13 @@
 import type { AreasSection } from "../../types";
 
 /*
- * The 9 counties, their phone lines (from lib/data/site.ts countyLines) and main towns,
+ * The 9 counties and their main towns (one phone number site-wide, so no county lines),
  * linking to the county and city pages that exist today. Shared by the home,
  * service and attic pages; each page writes its own heading and intro.
  */
 export const countyGroups: AreasSection["groups"] = [
   {
-    title: "Pinellas County: 727-496-7702",
+    title: "Pinellas County",
     href: "/about-us/service-area/wildlife-removal-pinellas-county/",
     items: [
       { label: "St. Petersburg", href: "/about-us/service-area/wildlife-removal-services-saint-petersburg-fl/" },
@@ -19,7 +19,7 @@ export const countyGroups: AreasSection["groups"] = [
     ],
   },
   {
-    title: "Hillsborough County: 727-594-7705",
+    title: "Hillsborough County",
     href: "/about-us/service-area/wildlife-removal-hillsborough-county/",
     items: [
       { label: "Tampa", href: "/about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl/" },
@@ -30,7 +30,7 @@ export const countyGroups: AreasSection["groups"] = [
     ],
   },
   {
-    title: "Pasco County: 727-594-7722",
+    title: "Pasco County",
     href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/",
     items: [
       { label: "New Port Richey", href: "/about-us/service-area/wildlife-removal-new-port-richey/" },
@@ -42,7 +42,7 @@ export const countyGroups: AreasSection["groups"] = [
     ],
   },
   {
-    title: "Hernando County: 352-612-3336",
+    title: "Hernando County",
     href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/",
     items: [
       { label: "Brooksville", href: "/about-us/service-area/wildlife-removal-service-in-brooksville-fl/" },
@@ -51,7 +51,7 @@ export const countyGroups: AreasSection["groups"] = [
     ],
   },
   {
-    title: "Citrus County: 352-618-2110",
+    title: "Citrus County",
     href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/",
     items: [
       { label: "Inverness" },
@@ -62,22 +62,22 @@ export const countyGroups: AreasSection["groups"] = [
     ],
   },
   {
-    title: "Sumter County: 863-431-9244",
+    title: "Sumter County",
     href: "/about-us/service-area/wildlife-removal-sumter-county-fl/",
     items: [{ label: "The Villages", href: "/about-us/service-area/wildlife-removal-the-villages/" }, { label: "Wildwood" }, { label: "Bushnell" }],
   },
   {
-    title: "Polk County: 863-208-5050",
+    title: "Polk County",
     href: "/about-us/service-area/wildlife-removal-polk-county/",
     items: [{ label: "Lakeland" }, { label: "Winter Haven" }, { label: "Bartow" }, { label: "Haines City" }],
   },
   {
-    title: "Manatee County: 727-594-7705",
+    title: "Manatee County",
     href: "/about-us/service-area/wildlife-removal-manatee-county-fl/",
     items: [{ label: "Bradenton" }, { label: "Palmetto" }, { label: "Anna Maria Island" }],
   },
   {
-    title: "Osceola County: 727-594-7705",
+    title: "Osceola County",
     href: "/about-us/service-area/wildlife-removal-osceola-county-fl/",
     items: [{ label: "Kissimmee" }, { label: "St. Cloud" }],
   },

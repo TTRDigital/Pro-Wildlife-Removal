@@ -1,7 +1,7 @@
 import { countyPage, S } from "./build.ts";
 import { faq, p } from "../pt.ts";
 
-/* New page (Ben, Oct 25): main number until the client gives an Osceola line; towns listed as facts, not service history. */
+/* New page (Ben, Oct 25): one number site-wide (Kia, Oct 26); towns listed as facts, not service history. */
 export const osceola = countyPage({
   path: "about-us/service-area/wildlife-removal-osceola-county-fl",
   name: "Osceola County",
@@ -42,7 +42,7 @@ export const osceola = countyPage({
   faqs: [
     faq(
       "What number do I call in Osceola County?",
-      "Call the main line, (727) 594-7705.",
+      "Call (727) 594-7705, the same number we use across all nine counties.",
       "[PLACEHOLDER: ask the client: typical response time in Osceola County]",
     ),
     faq(

@@ -3,10 +3,10 @@ import type { AreasSection, Card, Faq, Location, Source } from "../../../types";
 import { p } from "../pt.ts";
 
 /*
- * County page layout (blueprint: hero with the county line, short answer, towns,
+ * County page layout (blueprint: hero with the call button, short answer, towns,
  * common problems here, services, reviews, FAQ, call band). Only the layout is
  * shared: every county file writes its own words. The hero cta carries the
- * county's own number, which Jade's templates also use for the closing band and call bar.
+ * site's one number, (727) 594-7705 (Kia, Oct 26: no county lines).
  */
 
 export type CountyInput = {
@@ -40,6 +40,8 @@ export type CountyInput = {
   /** "Who to call for what": county animal services, the county health department, FWC. Numbers from each agency's own page. */
   contacts?: Card[];
   contactsIntro?: string;
+  /** Contacts heading; defaults to "Who to call for what in [name]". */
+  contactsHeading?: string;
   servicesIntro: string;
   /** FAQ heading; defaults to "[name] wildlife questions". */
   faqHeading?: string;
@@ -73,7 +75,7 @@ export function countyPage(c: CountyInput): Location {
       { _type: "areasSection", _key: "towns", eyebrow: "Towns covered", heading: c.townsHeading, intro: p(c.townsIntro), groups: c.towns, ...(c.townsNote ? { note: c.townsNote } : {}) },
       { _type: "cardsSection", _key: "local", tone: "tint", eyebrow: "Common problems here", heading: c.localHeading, intro: p(c.localIntro), variant: "icon", columns: 3, cards: c.local },
       ...(c.contacts?.length
-        ? [{ _type: "cardsSection" as const, _key: "contacts", eyebrow: "Who to call", heading: `Who to call for what in ${c.name}`, intro: p(c.contactsIntro ?? ""), variant: "plain" as const, columns: 3, cards: c.contacts }]
+        ? [{ _type: "cardsSection" as const, _key: "contacts", eyebrow: "Who to call", heading: c.contactsHeading ?? `Who to call for what in ${c.name}`, intro: p(c.contactsIntro ?? ""), variant: "plain" as const, columns: 3, cards: c.contacts }]
         : []),
       { _type: "servicesSection", _key: "services", eyebrow: "Services", heading: c.servicesHeading ?? `Animals we remove in ${c.name}`, intro: p(c.servicesIntro), group: "removal" },
       { _type: "reviewsSection", _key: "reviews", eyebrow: "Reviews", heading: "What customers say", ...(c.reviewsIntro ? { intro: p(c.reviewsIntro) } : {}), ...(c.reviewsMatch ? { match: c.reviewsMatch } : {}) },
@@ -89,7 +91,7 @@ export function countyPage(c: CountyInput): Location {
 /* Sources several county pages draw on. */
 export const S = {
   doh2024: { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2024.pdf" },
-  doh2025: { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (uploaded Sept 2025; may be partial-year)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
+  doh2025: { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025", url: "https://www.floridahealth.gov/wp-content/uploads/2025/09/rabies-cases-county-animal-2025.pdf" },
   dohList: { title: "Florida DOH: Rabies surveillance and alert list", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/rabies-surveillance.html" },
   censusPop: { title: "U.S. Census Bureau: Vintage 2025 county population estimates", url: "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv" },
   censusUR: { title: "U.S. Census Bureau: 2020 urban and rural by county", url: "https://www2.census.gov/geo/docs/reference/ua/2020_UA_COUNTY.xlsx" },
