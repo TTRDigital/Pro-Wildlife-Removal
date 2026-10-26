@@ -22,6 +22,7 @@ import { odessa } from "./content/cities/odessa.ts";
 import { holiday } from "./content/cities/holiday.ts";
 import { ocala } from "./content/cities/ocala.ts";
 import { silverSprings } from "./content/cities/silver-springs.ts";
+import { dunnellon } from "./content/cities/dunnellon.ts";
 import { dadeCity } from "./content/cities/dade-city.ts";
 import { dunedin } from "./content/cities/dunedin.ts";
 import { safetyHarbor } from "./content/cities/safety-harbor.ts";
@@ -7630,6 +7631,8 @@ export const fallbackLocations: Location[] = [
  ocala,
  // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/silver-springs.ts
  silverSprings,
+ // New for the rebuild (Nia, Oct 2026): lib/data/content/cities/dunnellon.ts
+ dunnellon,
  {
   "path": "about-us/service-area/wildlife-removal-the-villages",
   "name": "The Villages",

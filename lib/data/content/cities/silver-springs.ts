@@ -28,7 +28,7 @@ export const silverSprings = countyPage({
         { label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" },
         { label: "Belleview" },
         { label: "Summerfield" },
-        { label: "Dunnellon" },
+        { label: "Dunnellon", href: "/about-us/service-area/wildlife-removal-dunnellon-fl/" },
       ],
     },
   ],
