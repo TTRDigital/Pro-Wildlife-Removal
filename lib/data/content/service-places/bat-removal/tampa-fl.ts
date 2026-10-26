@@ -27,7 +27,7 @@ export const batRemovalTampa = servicePlacePage({
   localHeading: "What to know about bats in Tampa",
   localIntro: "The City of Tampa says bats live all over the city. Here's what the city and the health department say about them.",
   local: [
-    { icon: "sound", title: "Throughout the city", text: p("The City of Tampa says bats can be found throughout the city, and that Brazilian free-tailed bats are the most common in the area. It notes these bats stay active year-round.") },
+    { icon: "sound", title: "Throughout the city", text: p("The City of Tampa says bats can be found throughout the city, and it names Brazilian free-tailed bats as a local species that stays active year-round.") },
     { icon: "home", title: "A bat house downtown", text: p("At Julian B. Lane Riverfront Park, the city's bat house was built by biologist Steve Barlow and can hold about 4,000 bats.") },
     { icon: "search", title: "Rabid bats in Hillsborough", text: p("Hillsborough's 2025 table listed four rabid bats among six rabid animals, according to the Florida Department of Health.") },
     { icon: "map-pin", title: "More than the table shows", text: p("In 2024 the county's table listed two rabid bats, and a footnote adds three more from Hillsborough found through surveillance testing that aren't counted in the table.") },
@@ -51,7 +51,7 @@ export const batRemovalTampa = servicePlacePage({
     ),
     faq(
       "Are Tampa's bats active in winter?",
-      "The City of Tampa says Brazilian free-tailed bats, the most common bats here, stay active year-round. FWC still requires overnight lows forecast at 50°F or warmer during an exclusion.",
+      "Brazilian free-tailed bats here are active all year, the City of Tampa notes. FWC still requires overnight lows forecast at 50°F or warmer during an exclusion.",
     ),
     faq(
       "Do bats in Hillsborough County carry rabies?",
@@ -75,7 +75,7 @@ export const batRemovalTampa = servicePlacePage({
       "Bat removal in Tampa, FL: legal exclusion with one-way doors from August 15 to April 15, then sealing, plus Tampa's bats and rabies data. (727) 594-7705.",
   },
   sources: [
-    { title: "City of Tampa: Julian B. Lane Riverfront Park art (bat house built by biologist Steve Barlow, about 4,000 bats; bats throughout the City of Tampa; Brazilian free-tailed bats most common, active year-round; rarely bite unless handled; don't handle a bat alone or on the ground)", url: PARK },
+    { title: "City of Tampa: Julian B. Lane Riverfront Park art (bat house built by biologist Steve Barlow, about 4,000 bats; bats throughout the City of Tampa; Brazilian free-tailed bats named, active year-round; rarely bite unless handled; don't handle a bat alone or on the ground)", url: PARK },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2025 (Hillsborough: 4 bats, 1 cat, 1 raccoon; total 6)", url: DOH2025 },
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2024 (Hillsborough table: 2 bats, 1 cat; footnote: 3 more rabid bats from Hillsborough found by surveillance testing, not in the table)", url: DOH2024 },
     { title: "Florida DOH: Rabies Prevention and Control in Florida, 2014 (first U.S. recognition of rabies in insectivorous bats, 1953, a yellow bat from Hillsborough County)", url: GUIDE },
