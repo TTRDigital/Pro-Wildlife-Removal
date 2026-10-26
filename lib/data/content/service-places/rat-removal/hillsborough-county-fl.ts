@@ -28,8 +28,8 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
   localHeading: "What to know about rats in Hillsborough County",
   localIntro: "These facts about rats and rodents in Hillsborough come from UF and USF research, a state park plan, county departments and DOH-Hillsborough.",
   local: [
-    { icon: "search", title: "Rat lungworm in county rats", text: p("A survey published in PLoS ONE in 2017 found the rat lungworm parasite in black rats from three of six Florida counties studied, Hillsborough among them. Of 87 black rats examined from Hillsborough, 30 tested positive.") },
-    { icon: "users", title: "USF looked too", text: p("A USF thesis ran rat lungworm surveillance in Hillsborough County, noting the parasite gets its common name because the rat is its primary host. None of its snail samples tested positive.") },
+    { icon: "search", title: "Rat lungworm in county rats", text: p("A survey published in PLoS ONE in 2017 found the rat lungworm parasite in black rats from three of six Florida counties studied, Hillsborough among them. Of 87 black rats collected in Hillsborough in 2013 to 2015, 30 tested positive.") },
+    { icon: "users", title: "USF looked too", text: p("A 2018 USF thesis tested snails from Hillsborough County for rat lungworm; none of its samples tested positive.") },
     { icon: "leaf", title: "Non-native rats at the state park", text: p("The 2020 plan for Hillsborough River State Park lists the Norway rat and the black rat among the park's rodents, both marked as non-native species.") },
     { icon: "home", title: "Rentals: the landlord's list", text: p("Hillsborough County's renter and landlord guide includes \"Exterminate insects and rodents\" in its list of landlord rights and responsibilities.") },
     { icon: "map-pin", title: "Vermin in business dumpsters", text: p("For commercial trash service, county Code Enforcement may follow up on Solid Waste site visits that find persistent nuisance conditions in collection containers, vermin and pests included.") },
@@ -76,8 +76,8 @@ export const ratRemovalHillsboroughCounty = servicePlacePage({
       "Rat removal in Hillsborough County, FL: entry gaps sealed, rats trapped and cleaned up in Brandon, Riverview and Plant City homes. Call (727) 594-7705 now.",
   },
   sources: [
-    { title: "Stockdale Walden et al., PLoS ONE, May 18, 2017: Geographic distribution of Angiostrongylus cantonensis in wild rats (Rattus rattus) and terrestrial snails in Florida (171 black rats necropsied; positives in 3 of 6 counties, including Hillsborough; Hillsborough 87 examined, 30 positive)", url: LUNGWORM },
-    { title: "USF Digital Commons: thesis on rat lungworm surveillance in Hillsborough County (rat the primary host; no snail samples positive)", url: "https://digitalcommons.usf.edu/etd/7216" },
+    { title: "Stockdale Walden et al., PLoS ONE, May 18, 2017: Geographic distribution of Angiostrongylus cantonensis in wild rats (Rattus rattus) and terrestrial snails in Florida (rats collected 2013 to 2015; 171 black rats necropsied; positives in 3 of 6 counties, including Hillsborough; Hillsborough 87 examined, 30 positive)", url: LUNGWORM },
+    { title: "USF Digital Commons: 2018 thesis on rat lungworm surveillance in Hillsborough County (snails tested; no samples positive)", url: "https://digitalcommons.usf.edu/etd/7216" },
     { title: "Florida DEP: Hillsborough River State Park unit management plan, approved June 12, 2020 (rodents include Norway rat and black rat, marked non-native)", url: PARK_PLAN },
     { title: "Hillsborough County: Renters and landlords rights and responsibilities (landlord: exterminate insects and rodents)", url: `${HCFL}residents/property-owners-and-renters/renters-and-landlords/renters-and-landlords-rights-and-responsibilities` },
     { title: "Hillsborough County: Commercial trash service (Code Enforcement may follow up on persistent nuisance conditions in collection containers, such as vermin/pests)", url: `${HCFL}businesses/small-business-support/commercial-property-owner/commercial-trash-service` },
