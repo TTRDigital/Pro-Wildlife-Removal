@@ -51,7 +51,7 @@ export const pinellas = countyPage({
   faqs: [
     faq(
       "What number do I call in Pinellas County?",
-      "Call (727) 594-7705, the one number for all of Pinellas. Calls are answered 24/7.",
+      "Call (727) 594-7705. Same-day appointments are often available in Pinellas County.",
       "[PLACEHOLDER: ask the client: typical response time in Pinellas County]",
     ),
     faq(

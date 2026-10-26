@@ -52,7 +52,7 @@ export const sumter = countyPage({
     ),
     faq(
       "What's the phone number for Sumter County?",
-      "For Sumter County, including The Villages, call (727) 594-7705. We answer 24/7.",
+      "Call (727) 594-7705. Same-day appointments are often available in Sumter County.",
       "[PLACEHOLDER: ask the client: typical response time in Sumter County and The Villages]",
     ),
     faq(

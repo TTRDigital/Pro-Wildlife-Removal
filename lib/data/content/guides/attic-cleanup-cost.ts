@@ -16,7 +16,7 @@ export const atticCleanupCost: Post = {
     "What it costs to get an animal out of your attic and clean up after it depends on the animal, how long it lived there, how many openings need sealing and how much insulation is ruined.",
   date: "2026-04-23T22:49:58+00:00",
   modified: "2026-10-26T00:00:00+00:00",
-  author: "Pro Wildlife Removal",
+  author: "Josh Holmberg",
   body: rich(
     p(
       "**The short answer:** an animal in the attic costs three things: getting it out, sealing the way in, and cleaning up. Which animal it is, how long it stayed and how much insulation it ruined decide most of the bill. Book an inspection at (727) 594-7705.",
@@ -105,6 +105,6 @@ export const atticCleanupCost: Post = {
     "Can the site show typical price ranges for removal, sealing and attic cleanup?",
     "Which parts do you price separately, and is insulation replacement part of the cleanup quote?",
     "How long does a typical attic cleanup take?",
-    "Named author for guides and posts.",
+    "Link Josh Holmberg's author page (Ali is building it) from the guides.",
   ],
 };

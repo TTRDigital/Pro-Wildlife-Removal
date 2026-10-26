@@ -50,7 +50,7 @@ export const polk = countyPage({
   faqs: [
     faq(
       "What's the phone number for Polk County?",
-      "In Polk County, call (727) 594-7705. It's answered 24/7.",
+      "Call (727) 594-7705. Same-day appointments are often available in Polk County.",
       "[PLACEHOLDER: ask the client: typical response time in Polk County]",
     ),
     faq(

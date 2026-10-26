@@ -65,7 +65,7 @@ export const odessa = countyPage({
     ),
     faq(
       "How fast can you get to Odessa?",
-      "We answer Odessa calls to (727) 594-7705 24/7.",
+      "Same-day appointments are often available in Odessa. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Odessa]",
     ),
   ],

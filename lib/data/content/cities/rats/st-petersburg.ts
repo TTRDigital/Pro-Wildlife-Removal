@@ -66,7 +66,7 @@ export const stPetersburgRats = countyPage({
     ),
     faq(
       "How quickly can you come out for rats in St. Pete?",
-      "Rat calls to (727) 594-7705 are answered 24/7.",
+      "Same-day rat inspections are often available in St. Petersburg. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in St. Petersburg]",
     ),
   ],

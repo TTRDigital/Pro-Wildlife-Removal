@@ -42,7 +42,7 @@ export const manatee = countyPage({
   faqs: [
     faq(
       "What number do I call in Manatee County?",
-      "Call (727) 594-7705. Calls are taken day and night, every day of the year.",
+      "Call (727) 594-7705. Same-day appointments are often available in Manatee County.",
       "[PLACEHOLDER: ask the client: typical response time in Manatee County]",
     ),
     faq(

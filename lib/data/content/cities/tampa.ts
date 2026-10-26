@@ -70,7 +70,7 @@ export const tampa = countyPage({
     ),
     faq(
       "How fast can you get to me in Tampa?",
-      "We answer the phone 24/7.",
+      "Same-day appointments are often available in Tampa. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Tampa]",
     ),
   ],

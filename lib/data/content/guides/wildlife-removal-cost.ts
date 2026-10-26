@@ -16,7 +16,7 @@ export const wildlifeRemovalCost: Post = {
     "Wildlife removal cost depends on the animal, Florida's rules for it, how many openings need sealing, how hard they are to reach and how much cleanup is left behind.",
   date: "2023-12-08T21:05:09+00:00",
   modified: "2026-10-26T00:00:00+00:00",
-  author: "Pro Wildlife Removal",
+  author: "Josh Holmberg",
   image: images.howMuchDoesWildlifeRemovalCostBlogImageE17020697,
   body: rich(
     p(
@@ -75,5 +75,5 @@ export const wildlifeRemovalCost: Post = {
     TRAP_RULES_SOURCE,
     { title: "UF/IFAS Extension Sarasota County: What to do about rodents (trim limbs; repair storm damage promptly)", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
   ],
-  clientQuestions: ["Can the site show typical price ranges?", "Named author for guides and posts."],
+  clientQuestions: ["Can the site show typical price ranges?", "Link Josh Holmberg's author page (Ali is building it) from the guides."],
 };

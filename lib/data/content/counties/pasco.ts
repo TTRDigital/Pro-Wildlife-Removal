@@ -56,7 +56,7 @@ export const pasco = countyPage({
   faqs: [
     faq(
       "What's the phone number for Pasco County?",
-      "Pasco calls go to (727) 594-7705, the same number for every county we serve. It's answered 24/7.",
+      "Call (727) 594-7705. Same-day appointments are often available in Pasco County.",
       "[PLACEHOLDER: ask the client: typical response time in Pasco County]",
     ),
     faq(

@@ -50,7 +50,7 @@ export const hillsborough = countyPage({
   faqs: [
     faq(
       "What number do I call in Hillsborough County?",
-      "Call (727) 594-7705. It's answered 24 hours a day, 7 days a week.",
+      "Call (727) 594-7705. Same-day appointments are often available in Hillsborough County.",
       "[PLACEHOLDER: ask the client: typical response time in Hillsborough County]",
     ),
     faq(

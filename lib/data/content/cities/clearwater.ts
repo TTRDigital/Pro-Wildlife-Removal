@@ -66,7 +66,7 @@ export const clearwater = countyPage({
     ),
     faq(
       "How soon can you come out in Clearwater?",
-      "We answer (727) 594-7705 24/7.",
+      "Same-day appointments are often available in Clearwater. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Clearwater]",
     ),
   ],

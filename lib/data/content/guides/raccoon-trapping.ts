@@ -15,7 +15,7 @@ export const raccoonTrapping: Post = {
     "You can live-trap a nuisance raccoon in Florida, but the trap must be checked every 24 hours and the raccoon can only be released on your property or on 40+ contiguous acres in the same county with written permission.",
   date: "2026-10-26T00:00:00+00:00",
   modified: "2026-10-26T00:00:00+00:00",
-  author: "Pro Wildlife Removal",
+  author: "Josh Holmberg",
   image: images.raccoonRemoval,
   body: rich(
     p(
@@ -92,5 +92,5 @@ export const raccoonTrapping: Post = {
     { title: "Florida Department of Health: Rabies (raccoons and bats main wildlife sources; wash bites)", url: "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html" },
     TRAP_RULES_SOURCE,
   ],
-  clientQuestions: ["Named author for guides and posts.", "Real photo: a raccoon in a live trap on a client job."],
+  clientQuestions: ["Link Josh Holmberg's author page (Ali is building it) from the guides.", "Real photo: a raccoon in a live trap on a client job."],
 };

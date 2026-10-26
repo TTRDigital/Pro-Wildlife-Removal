@@ -64,7 +64,7 @@ export const hudsonRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in Hudson?",
-      "Hudson rat calls to (727) 594-7705 are answered 24/7.",
+      "Same-day rat inspections are often available in Hudson. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Hudson]",
     ),
   ],

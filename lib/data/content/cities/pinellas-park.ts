@@ -63,7 +63,7 @@ export const pinellasPark = countyPage({
     ),
     faq(
       "How fast can you get to Pinellas Park?",
-      "Pinellas Park calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Pinellas Park. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Pinellas Park]",
     ),
   ],

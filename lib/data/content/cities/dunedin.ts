@@ -65,7 +65,7 @@ export const dunedin = countyPage({
     ),
     faq(
       "How soon can you get to Dunedin?",
-      "We answer Dunedin calls to (727) 594-7705 24/7.",
+      "Same-day appointments are often available in Dunedin. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Dunedin]",
     ),
   ],

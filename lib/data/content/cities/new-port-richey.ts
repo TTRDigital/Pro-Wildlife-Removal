@@ -65,7 +65,7 @@ export const newPortRichey = countyPage({
     ),
     faq(
       "How fast can you reach New Port Richey?",
-      "New Port Richey calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in New Port Richey. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in New Port Richey]",
     ),
   ],

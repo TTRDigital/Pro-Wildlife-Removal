@@ -64,7 +64,7 @@ export const springHillRats = countyPage({
     ),
     faq(
       "How fast can you come out for rats in Spring Hill?",
-      "Spring Hill rat calls to (727) 594-7705 are answered 24/7.",
+      "Same-day rat inspections are often available in Spring Hill. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Spring Hill]",
     ),
   ],

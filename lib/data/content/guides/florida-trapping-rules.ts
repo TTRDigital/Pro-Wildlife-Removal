@@ -14,7 +14,7 @@ export const floridaTrappingRules: Post = {
     "Florida lets property owners trap most nuisance wildlife without notifying FWC, but traps must be checked every 24 hours, release is limited to the same property or 40+ acres in the same county, and some animals can't be trapped at all.",
   date: "2026-10-26T00:00:00+00:00",
   modified: "2026-10-26T00:00:00+00:00",
-  author: "Pro Wildlife Removal",
+  author: "Josh Holmberg",
   body: rich(
     p(
       "**The short answer:** Florida property owners can trap most nuisance wildlife without telling FWC. Check traps at least every 24 hours. Native animals can only be released on the same property or on 40+ contiguous acres in the same county with written permission. Non-natives can't be released, bat colonies can only be excluded, and new rules start December 31, 2026.",
@@ -103,5 +103,5 @@ export const floridaTrappingRules: Post = {
     { title: "UF/IFAS Extension Sarasota County: glue traps inhumane; rodenticides last resort in tamper-resistant stations", url: "https://blogs.ifas.ufl.edu/sarasotaco/2026/08/12/wondering-about-wildlife-rodents/" },
     { title: "CDC: How to trap up (glue and live traps can make rodents urinate)", url: "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
   ],
-  clientQuestions: ["Named author for guides and posts."],
+  clientQuestions: ["Link Josh Holmberg's author page (Ali is building it) from the guides."],
 };

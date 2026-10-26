@@ -66,7 +66,7 @@ export const dunedinRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in Dunedin?",
-      "Dunedin rat calls to (727) 594-7705 are answered 24/7.",
+      "Same-day rat inspections are often available in Dunedin. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in Dunedin]",
     ),
   ],

@@ -68,7 +68,7 @@ export const landOLakes = countyPage({
     ),
     faq(
       "How fast can you get to Land O' Lakes?",
-      "Land O' Lakes calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Land O' Lakes. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Land O' Lakes]",
     ),
   ],

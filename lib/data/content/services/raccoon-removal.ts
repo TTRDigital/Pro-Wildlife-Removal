@@ -237,7 +237,7 @@ export const raccoonRemoval: Service = {
         ),
         faq(
           "Can you come out at night for a raccoon in the house?",
-          "We answer calls 24 hours a day, 7 days a week. If a raccoon is inside the living space, tell us when you call.",
+          "Same-day visits are often available for a raccoon loose in the house. If it's inside the living space, tell us when you call.",
           "[PLACEHOLDER: ask the client: night and weekend response for a raccoon loose in the living space]",
         ),
       ],

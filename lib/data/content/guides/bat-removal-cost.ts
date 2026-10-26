@@ -18,7 +18,7 @@ export const batRemovalCost: Post = {
     "Bat removal cost in Florida depends on how many openings the bats use, how hard they are to reach, how long the colony has been there and how much guano cleanup the attic needs.",
   date: "2023-12-09T00:52:59+00:00",
   modified: "2026-10-26T00:00:00+00:00",
-  author: "Pro Wildlife Removal",
+  author: "Josh Holmberg",
   image: images.batRemovalCostImageE1702083484199,
   body: rich(
     p(

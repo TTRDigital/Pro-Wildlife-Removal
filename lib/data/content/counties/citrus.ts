@@ -49,7 +49,7 @@ export const citrus = countyPage({
   faqs: [
     faq(
       "What's the Citrus County phone number?",
-      "Citrus County calls go to (727) 594-7705, answered 24/7.",
+      "Call (727) 594-7705. Same-day appointments are often available in Citrus County.",
       "[PLACEHOLDER: ask the client: typical response time in Citrus County]",
     ),
     faq(

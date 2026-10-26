@@ -64,7 +64,7 @@ export const safetyHarbor = countyPage({
     ),
     faq(
       "How fast can you come to Safety Harbor?",
-      "Safety Harbor calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Safety Harbor. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Safety Harbor]",
     ),
   ],

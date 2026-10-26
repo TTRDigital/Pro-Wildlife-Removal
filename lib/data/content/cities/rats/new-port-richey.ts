@@ -62,7 +62,7 @@ export const newPortRicheyRats = countyPage({
     ),
     faq(
       "How soon can you come out for rats in New Port Richey?",
-      "Rat calls from New Port Richey to (727) 594-7705 are answered 24/7.",
+      "Same-day rat inspections are often available in New Port Richey. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time for rat calls in New Port Richey]",
     ),
   ],

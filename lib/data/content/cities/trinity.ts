@@ -65,7 +65,7 @@ export const trinity = countyPage({
     ),
     faq(
       "How soon can you get to Trinity?",
-      "Trinity calls to (727) 594-7705 are answered 24/7.",
+      "Same-day appointments are often available in Trinity. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in Trinity]",
     ),
   ],

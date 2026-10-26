@@ -69,7 +69,7 @@ export const stPetersburg = countyPage({
     ),
     faq(
       "How fast can you get to St. Petersburg?",
-      "Our St. Pete number, (727) 594-7705, is answered 24/7.",
+      "Same-day appointments are often available in St. Petersburg. Call (727) 594-7705.",
       "[PLACEHOLDER: ask the client: typical response time in St. Petersburg]",
     ),
   ],

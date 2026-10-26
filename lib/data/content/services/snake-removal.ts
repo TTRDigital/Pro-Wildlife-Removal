@@ -209,7 +209,7 @@ export const snakeRemoval: Service = {
         ),
         faq(
           "Can you come right away for a snake in the house?",
-          "We answer 24 hours a day, 7 days a week. Tell us it's inside and where, and keep the room closed off until we get there.",
+          "Same-day visits are often available for a snake inside. Tell us it's inside and where, and keep the room closed off until we get there.",
           "[PLACEHOLDER: ask the client: typical response time for a snake inside the home]",
         ),
       ],
