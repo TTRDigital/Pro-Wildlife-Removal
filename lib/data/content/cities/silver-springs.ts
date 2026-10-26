@@ -1,7 +1,8 @@
 import { countyPage } from "../counties/build.ts";
 import { faq, p } from "../pt.ts";
 
-/* Silver Springs page, new for the rebuild (Nia, Oct 26, 2026; Kia: every Google Ads area gets a page). Checkable local facts only; news items carry their year. */
+/* HELD by Ben (Oct 26): under 3 town facts about rats, bats, squirrels or raccoons; not registered in locations.ts.
+ * Silver Springs page, new for the rebuild (Nia, Oct 26, 2026; Kia: every Google Ads area gets a page). Checkable local facts only; news items carry their year. */
 const WFTV = "https://www.wftv.com/news/local/rabies-alert-3-raccoons-test-positive-marion-county/R44CSNWUMVDI7EZUDAD43JY2LI/";
 const BEAR = "https://www.ocala-news.com/2024/05/15/large-black-bear-spotted-in-ocala/";
 const HUNT = "https://www.ocala-news.com/2026/08/27/applications-for-marion-countys-bear-hunting-season-open-soon/";

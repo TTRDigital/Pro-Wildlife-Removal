@@ -80,7 +80,7 @@ export const countyGroups: AreasSection["groups"] = [
   {
     title: "Marion County",
     href: "/about-us/service-area/wildlife-removal-marion-county-fl/",
-    items: [{ label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" }, { label: "Belleview" }, { label: "Dunnellon" }, { label: "Silver Springs", href: "/about-us/service-area/wildlife-removal-silver-springs-fl/" }, { label: "Summerfield" }],
+    items: [{ label: "Ocala", href: "/about-us/service-area/wildlife-removal-ocala-fl/" }, { label: "Belleview" }, { label: "Dunnellon" }, { label: "Silver Springs" }, { label: "Summerfield" }],
   },
   {
     title: "Polk County",
