@@ -10,13 +10,13 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 |---|---|---|---|---|---|---|
 | Pasco County | Nia | L | L | L | L |  |
 | Pinellas County | Rhea | L | L | H | L | squirrel held: too few local squirrel facts |
-| Hillsborough County | Owen | F | F | F | F |  |
-| Hernando County | Nia | F | F | F | F | fact-check fixes applied (32be25a); back with Ben |
+| Hillsborough County | Owen | L | L | L | L |  |
+| Hernando County | Nia | F | F | L | L | rat and bat: Ben re-checking the Hernando-specific facts Nia added |
 | Citrus County | Nia | N | N | H | N | squirrel held: under 6 local facts |
 | Sumter County | Nia | H | N | H | N | rat and squirrel held: under 6 local facts |
 | Polk County | Owen | L | L | L | L |  |
 | Tampa | Cole | L | L | L | L |  |
-| St. Petersburg | Rhea | E | H | N | F | bat held in fact check: needs more local facts |
+| St. Petersburg | Rhea | E | H | N | F | bat held: needs more local facts; raccoon passed with fixes, waiting on Rhea to apply them |
 | Clearwater | Rhea | E | N | N | H | raccoon held in fact check: needs more local facts |
 | Spring Hill | Nia | E | N | N | L |  |
 | New Port Richey | Nia | E | S | S | L | bat, squirrel: nothing true and local on city or county pages |
@@ -36,8 +36,8 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 
 | Status | Rat | Bat | Squirrel | Raccoon | Total |
 |---|---|---|---|---|---|
-| live, fact-checked | 4 | 5 | 3 | 8 | 20 |
-| in bundle, in fact check | 2 | 4 | 3 | 4 | 13 |
+| live, fact-checked | 5 | 6 | 5 | 10 | 26 |
+| in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
 | fixes pending | 0 | 0 | 0 | 0 | 0 |
 | existing rat page | 9 | 0 | 0 | 0 | 9 |
 | held | 1 | 1 | 3 | 2 | 7 |
