@@ -2922,7 +2922,7 @@ const migratedPages = {
     "columns": 2,
     "cards": [
      {
-      "title": "Pro Wildlife Removal Attic Cleanup",
+      "title": "Attic and Crawlspace Inspection",
       "text": [
        {
         "_type": "block",
@@ -2930,7 +2930,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Animal infestations within a home or attic can come with many issues. Animals in an attic may defecate and urinate on virtually everything, gnaw on wiring/HVAC components, degrade your insulation value, and even cause health problems. Pro Wildlife Removal has the attic/crawlspace cleanup service you need.",
+          "text": "Animals living in an attic or crawlspace leave signs: droppings and urine, gnawed wiring and HVAC lines, flattened insulation. Our inspection looks for those signs, the damage and every entry point, and we show you what we find before any work starts.",
           "marks": []
          }
         ],
