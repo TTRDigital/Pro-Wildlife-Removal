@@ -72,7 +72,7 @@ export const home: PageContent = {
           number: "3",
           title: "Clean-Up Services",
           text: p(
-            "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments, ozone treatments, attic restorations, to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
+            "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments and ozone treatments to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
           ),
         },
       ],

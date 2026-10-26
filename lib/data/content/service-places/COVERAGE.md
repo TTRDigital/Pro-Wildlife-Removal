@@ -15,6 +15,9 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Citrus County | Nia | N | N | H | N | squirrel held: under 6 local facts |
 | Sumter County | Nia | H | N | H | N | rat and squirrel held: under 6 local facts |
 | Polk County | Owen | L | L | H | L | squirrel held (Ben, local-problem rule, 5142c0d) |
+| Orlando | Ben assigns | N | N | N | N | queued for next week (Kia, Oct 26): old city page kept as a service page; new place pages welcome (Orange County) |
+| Sarasota | Ben assigns | N | N | N | N | queued for next week (Kia, Oct 26): old city page kept as a service page; new place pages welcome |
+| Lady Lake | Ben assigns | N | N | N | N | queued for next week (Kia, Oct 26): old city page kept as a service page; new place pages welcome (Lake County) |
 | Tampa | Cole | L | L | L | L |  |
 | St. Petersburg | Rhea | E | H | N | F | bat held: needs more local facts; raccoon passed with fixes, waiting on Rhea to apply them |
 | Clearwater | Rhea | E | N | N | H | raccoon held in fact check: needs more local facts |
@@ -61,7 +64,7 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | county section | 11 | 11 | 11 | 11 | 44 |
 | held | 2 | 1 | 8 | 6 | 17 |
 | skipped | 5 | 8 | 7 | 4 | 24 |
-| not started | 5 | 10 | 11 | 6 | 32 |
-| **all cells** | 41 | 41 | 41 | 41 | 164 |
+| not started | 8 | 13 | 14 | 9 | 44 |
+| **all cells** | 44 | 44 | 44 | 44 | 176 |
 
-Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.
+Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Orlando, Sarasota and Lady Lake (Kia, Oct 26): their old city pages stay as service pages, and new place pages there are queued for next week, same bar (6 checked local facts about the animal, 3 about the place); Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.

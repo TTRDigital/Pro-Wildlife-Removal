@@ -906,7 +906,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "From inspections to live trapping, cleanup, and repairs, we handle every step of the wildlife removal process, so you don’t have to worry about a thing.",
+          "text": "From inspections to live trapping, exclusion, and cleanup, we handle every step of the wildlife removal process, so you don’t have to worry about a thing.",
           "marks": []
          }
         ],
@@ -1202,7 +1202,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "The need for damage repair or exclusion work",
+          "text": "How much exclusion work is needed",
           "marks": []
          }
         ],
@@ -1225,7 +1225,7 @@ const migratedPages = {
       ]
      },
      {
-      "question": "Do you offer attic cleanup and damage repair?",
+      "question": "Do you offer attic cleanup?",
       "answer": [
        {
         "_type": "block",
@@ -1233,7 +1233,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Yes! Wildlife in attics can cause serious damage. We provide attic restoration services, including decontamination, insulation replacement, and odor removal, to restore your home after a wildlife infestation.",
+          "text": "Yes! Wildlife in attics can cause serious damage. Our attic cleanup covers decontamination and odor removal. We don't do building repairs; the owner arranges those with a contractor.",
           "marks": []
          }
         ],
@@ -2029,7 +2029,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "From removal and exclusion to prevention and repair, we handle every aspect of wildlife intrusions. Our services cover attic cleanouts, sealing entry points, and repairing damage, offering complete peace of mind and a wildlife-free home.",
+          "text": "From removal and exclusion to prevention, we handle every aspect of wildlife intrusions. Our services cover attic cleanouts and sealing entry points, offering complete peace of mind and a wildlife-free home.",
           "marks": []
          }
         ],
@@ -2435,7 +2435,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "In-home repairs and animal cleanup/restoration services",
+        "text": "Animal cleanup services",
         "marks": []
        }
       ]
@@ -2857,7 +2857,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Our step-by-step process for all our services keeps the work clear and consistent for all of your inspection, trapping, exclusion, clean-up, monthly population control, and damage repair/decontamination needs.",
+        "text": "Our step-by-step process for all our services keeps the work clear and consistent for all of your inspection, trapping, exclusion, clean-up, monthly population control, and decontamination needs.",
         "marks": []
        }
       ],
@@ -2922,7 +2922,7 @@ const migratedPages = {
     "columns": 2,
     "cards": [
      {
-      "title": "Pro Wildlife Removal Attic Restoration",
+      "title": "Pro Wildlife Removal Attic Cleanup",
       "text": [
        {
         "_type": "block",
@@ -2930,7 +2930,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Animal infestations within a home or attic can come with many issues. Animals in an attic may defecate and urinate on virtually everything, gnaw on wiring/HVAC components, degrade your insulation value, and even cause health problems. Pro Wildlife Removal has the attic/crawlspace restoration service you need in order to get things back as they need to be.",
+          "text": "Animal infestations within a home or attic can come with many issues. Animals in an attic may defecate and urinate on virtually everything, gnaw on wiring/HVAC components, degrade your insulation value, and even cause health problems. Pro Wildlife Removal has the attic/crawlspace cleanup service you need.",
           "marks": []
          }
         ],
@@ -2976,7 +2976,7 @@ const migratedPages = {
       "image": images.exclusion
      },
      {
-      "title": "Pro Wildlife Removal Home Repairs & Restoration",
+      "title": "Pro Wildlife Removal Population Control",
       "text": [
        {
         "_type": "block",
@@ -3005,7 +3005,7 @@ const migratedPages = {
    },
    {
     "_type": "proseSection",
-    "heading": "Repairs and Other Related Services",
+    "heading": "Other Related Services",
     "body": [
      {
       "_type": "block",
@@ -3013,7 +3013,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Each animal case is unique to itself and a customized solution catered to you is the only effective way to resolve it. We offer many services including: Home repairs, bee removal, all trapping services, urgent animal removal, etc. Call today with all of your animal service needs.",
+        "text": "Each animal case is unique to itself and a customized solution catered to you is the only effective way to resolve it. We offer many services including: exclusion, bee removal, all trapping services, urgent animal removal, etc. Call today with all of your animal service needs.",
         "marks": []
        }
       ],
