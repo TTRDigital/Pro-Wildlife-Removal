@@ -217,7 +217,8 @@ export function animalPhoto(href?: string) {
 
 /* The client's own photo of each kind of job, for cards about the work rather than an animal. */
 const jobPhotos: [RegExp, Img][] = [
-  [/attic|clean/i, library["technician-cleaning-an-attic-in-protective-gear-1"]],
+  // what an attic inspection finds: whether the client does attic clean-up is still a question to them (Ben)
+  [/attic|clean/i, library["droppings-on-an-attic-floor-1"]],
   [/honeycomb|hive/i, library["honeycomb-removed-from-a-hive-1"]],
   [/exclusion|seal|repair/i, library["hole-in-a-roof-entry-point-2"]],
   [/population|trapping/i, library["raccoons-caught-in-a-cage-trap-2"]],
