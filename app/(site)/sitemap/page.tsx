@@ -39,7 +39,7 @@ export default async function SitemapPage() {
     { label: "About Us", href: "/about-us/" },
     { label: "How We Work", href: "/how-we-work/" },
     { label: "Services", href: "/services/" },
-    { label: "Service Area", href: "/about-us/service-area/" },
+    { label: "Service Area", href: "/service-areas/" },
     { label: "Blog", href: "/blog/" },
     { label: "Contact Us", href: "/contact-us/" },
     { label: "Privacy Policy", href: "/privacy-policy/" },

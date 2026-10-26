@@ -152,7 +152,7 @@ export type Service = PageContent & {
 };
 
 export type Location = PageContent & {
-  /** Path without slashes, e.g. "about-us/service-area/wildlife-removal-clearwater-fl" or "rat-removal-trinity". */
+  /** Path without slashes. Content keeps the old path as its ID (e.g. "about-us/service-area/wildlife-removal-clearwater-fl"); getLocations swaps in the live one, e.g. "service-areas/pinellas-county/clearwater" (lib/location-urls.ts). */
   path: string;
   name: string;
   kind: "region" | "county" | "city" | "rat";

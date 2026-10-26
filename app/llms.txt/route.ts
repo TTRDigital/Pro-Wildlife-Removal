@@ -15,7 +15,7 @@ export async function GET() {
   const [s, services, locations, posts] = await Promise.all([getSiteSettings(), getServices(), getLocations(), getPosts()]);
   const link = (title: string, path: string, note?: string) => `- [${clean(title)}](${absoluteUrl(path)})${note ? `: ${clean(note)}` : ""}`;
   const counties = locations.filter((l) => l.kind === "county" || l.kind === "region");
-  const area = (l: Location) => link(l.kind === "rat" ? `Rat removal in ${l.name}` : l.name, `/${l.path}/`);
+  const area = (l: Location) => link(l.name, `/${l.path}/`);
   /** First sentence of a service summary, as a short note. */
   const note = (t?: string) => t?.match(/^[^.!?]{20,200}[.!?]/)?.[0];
   const latest = [...posts].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")).slice(0, 15);
@@ -39,16 +39,12 @@ export async function GET() {
     "",
     "## Service areas",
     "",
-    link("All service areas", "/about-us/service-area/"),
+    link("All service areas", "/service-areas/"),
     ...counties.map(area),
     "",
     "## Cities",
     "",
     ...locations.filter((l) => l.kind === "city").map(area),
-    "",
-    "## Rat removal by city",
-    "",
-    ...locations.filter((l) => l.kind === "rat").map(area),
     "",
     "## About",
     "",
