@@ -94,7 +94,6 @@ export const ratRemoval: Service = {
           "**Damage.** Gnawed rafters and wiring, nests in the insulation, and droppings and urine spread through it.",
         ),
       ),
-      image: images.post1776984146059,
       imageSide: "right",
     },
     {
@@ -169,7 +168,6 @@ export const ratRemoval: Service = {
         "Chewed wiring pointed out so an electrician can check it",
         "[PLACEHOLDER: ask the client: is there a warranty on rat exclusion work, and how long?]",
       ],
-      image: images.post1776984146059,
       imageSide: "left",
     },
     {

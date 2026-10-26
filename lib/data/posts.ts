@@ -14,7 +14,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-10-21T19:37:30+00:00",
   "modified": "2026-10-21T19:37:30+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787590802042,
   "body": [
    {
     "_type": "block",
@@ -973,7 +972,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-10-17T19:36:16+00:00",
   "modified": "2026-10-17T19:36:16+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.featured1787592003862,
   "body": [
    {
     "_type": "block",
@@ -1921,7 +1919,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-10-14T19:34:37+00:00",
   "modified": "2026-10-14T19:34:37+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787604003727,
   "body": [
    {
     "_type": "block",
@@ -2937,7 +2934,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-10-10T19:32:38+00:00",
   "modified": "2026-10-10T19:32:38+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.featured1787595602021,
   "body": [
    {
     "_type": "block",
@@ -3761,7 +3757,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-10-07T19:30:56+00:00",
   "modified": "2026-10-07T19:30:56+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787594401761,
   "body": [
    {
     "_type": "block",
@@ -4888,7 +4883,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-10-04T19:29:36+00:00",
   "modified": "2026-10-04T19:29:37+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787593203612,
   "body": [
    {
     "_type": "block",
@@ -5732,7 +5726,7 @@ export const fallbackPosts: Post[] = [
   "date": "2026-09-30T15:53:30+00:00",
   "modified": "2026-09-30T15:53:30+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787596802943,
+  "image": images.certifiedWildlifeRemovalExpertsInTampaFl,
   "body": [
    {
     "_type": "block",
@@ -6642,7 +6636,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-09-27T15:51:35+00:00",
   "modified": "2026-09-27T15:51:35+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787598003308,
   "body": [
    {
     "_type": "block",
@@ -7559,7 +7552,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-09-24T15:50:12+00:00",
   "modified": "2026-09-24T15:50:12+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787599203468,
   "body": [
    {
     "_type": "block",
@@ -8700,7 +8692,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-09-21T15:07:50+00:00",
   "modified": "2026-09-21T15:07:50+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787600403484,
   "body": [
    {
     "_type": "block",
@@ -9765,7 +9756,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-09-18T15:09:06+00:00",
   "modified": "2026-09-18T15:09:06+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787601602003,
   "body": [
    {
     "_type": "block",
@@ -10791,7 +10781,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-09-15T15:00:15+00:00",
   "modified": "2026-09-15T15:00:15+00:00",
   "author": "Taroneh homberg",
-  "image": images.featured1787602801897,
   "body": [
    {
     "_type": "block",
@@ -11826,7 +11815,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-08-21T16:09:41+00:00",
   "modified": "2026-08-21T16:09:41+00:00",
   "author": "Taroneh homberg",
-  "image": images.post1786630714319,
   "body": [
    {
     "_type": "block",
@@ -12942,7 +12930,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-08-21T14:01:36+00:00",
   "modified": "2026-08-21T15:00:31+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.featured1787324402937,
   "body": [
    {
     "_type": "block",
@@ -13797,7 +13784,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-08-21T13:02:22+00:00",
   "modified": "2026-08-21T14:00:09+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.featured1787320804607,
   "body": [
    {
     "_type": "block",
@@ -14764,7 +14750,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-08-21T12:01:04+00:00",
   "modified": "2026-08-21T13:00:27+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.featured1787317203749,
   "body": [
    {
     "_type": "block",
@@ -15807,7 +15792,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-08-18T15:58:11+00:00",
   "modified": "2026-08-18T15:58:11+00:00",
   "author": "Taroneh homberg",
-  "image": images.post1786629892415,
   "body": [
    {
     "_type": "block",
@@ -16843,7 +16827,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-08-13T15:54:09+00:00",
   "modified": "2026-08-13T15:54:11+00:00",
   "author": "Taroneh homberg",
-  "image": images.post1786629365242,
   "body": [
    {
     "_type": "block",
@@ -17832,7 +17815,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-31T20:04:07+00:00",
   "modified": "2026-07-31T20:04:07+00:00",
   "author": "Taroneh homberg",
-  "image": images.post1785268929177,
   "body": [
    {
     "_type": "block",
@@ -18936,7 +18918,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-30T19:51:07+00:00",
   "modified": "2026-07-30T19:51:07+00:00",
   "author": "Taroneh homberg",
-  "image": images.post1785253416892,
   "body": [
    {
     "_type": "block",
@@ -20095,7 +20076,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-29T19:34:44+00:00",
   "modified": "2026-07-29T19:34:44+00:00",
   "author": "Taroneh homberg",
-  "image": images.post1785267265673,
   "body": [
    {
     "_type": "block",
@@ -21139,7 +21119,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-28T19:46:37+00:00",
   "modified": "2026-07-28T19:46:39+00:00",
   "author": "Taroneh homberg",
-  "image": images.post1785267713006,
   "body": [
    {
     "_type": "block",
@@ -22236,7 +22215,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-12T18:46:18+00:00",
   "modified": "2026-07-12T18:46:18+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781543192995,
   "body": [
    {
     "_type": "block",
@@ -23155,7 +23133,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-10T18:56:49+00:00",
   "modified": "2026-07-10T18:56:49+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781549804763,
   "body": [
    {
     "_type": "block",
@@ -24399,7 +24376,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-08T18:34:40+00:00",
   "modified": "2026-07-08T18:34:40+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781549441802,
   "body": [
    {
     "_type": "block",
@@ -25407,7 +25383,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-06T18:28:51+00:00",
   "modified": "2026-07-06T18:28:51+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781549047873,
   "body": [
    {
     "_type": "block",
@@ -26250,7 +26225,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-04T18:26:20+00:00",
   "modified": "2026-07-04T18:26:20+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781548447320,
   "body": [
    {
     "_type": "block",
@@ -27430,7 +27404,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-07-02T18:17:48+00:00",
   "modified": "2026-07-02T18:17:48+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781547123958,
   "body": [
    {
     "_type": "block",
@@ -28529,7 +28502,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-06-30T18:13:38+00:00",
   "modified": "2026-06-30T18:13:38+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781546555166,
   "body": [
    {
     "_type": "block",
@@ -29408,7 +29380,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-06-28T18:10:10+00:00",
   "modified": "2026-06-28T18:10:10+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781546233300,
   "body": [
    {
     "_type": "block",
@@ -30320,7 +30291,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-06-26T16:08:38+00:00",
   "modified": "2026-06-26T16:08:38+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781546038219,
   "body": [
    {
     "_type": "block",
@@ -31288,7 +31258,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-06-24T16:06:17+00:00",
   "modified": "2026-06-24T16:06:17+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781545440357,
   "body": [
    {
     "_type": "block",
@@ -32530,7 +32499,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-06-22T15:59:57+00:00",
   "modified": "2026-06-22T15:59:57+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781542206135,
   "body": [
    {
     "_type": "block",
@@ -33667,7 +33635,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-06-20T15:58:07+00:00",
   "modified": "2026-06-20T15:58:07+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781539883809,
   "body": [
    {
     "_type": "block",
@@ -34789,7 +34756,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-06-18T15:55:20+00:00",
   "modified": "2026-06-18T15:55:22+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1781466197462,
   "body": [
    {
     "_type": "block",
@@ -35981,7 +35947,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-05-22T22:17:51+00:00",
   "modified": "2026-05-22T22:20:09+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1779488269368,
   "body": [
    {
     "_type": "block",
@@ -36861,7 +36826,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-05-22T22:04:09+00:00",
   "modified": "2026-05-22T22:10:37+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1779487835099,
   "body": [
    {
     "_type": "block",
@@ -37839,7 +37803,7 @@ export const fallbackPosts: Post[] = [
   "date": "2026-05-22T21:35:47+00:00",
   "modified": "2026-05-22T21:56:21+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1779485745693,
+  "image": images.certifiedWildlifeRemovalExpertsInTampaFl,
   "body": [
    {
     "_type": "block",
@@ -38210,7 +38174,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-05-22T21:15:52+00:00",
   "modified": "2026-05-22T21:16:16+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1776984844429,
   "body": [
    {
     "_type": "block",
@@ -39291,7 +39254,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-05-22T14:25:53+00:00",
   "modified": "2026-05-22T14:25:53+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1776985968205,
   "body": [
    {
     "_type": "block",
@@ -40193,7 +40155,6 @@ export const fallbackPosts: Post[] = [
   "date": "2026-05-22T14:25:23+00:00",
   "modified": "2026-05-22T14:25:23+00:00",
   "author": "Pro Wildlife Removal",
-  "image": images.post1776985611145,
   "body": [
    {
     "_type": "block",

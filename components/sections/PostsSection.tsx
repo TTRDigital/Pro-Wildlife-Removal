@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { images } from "@/lib/data/images";
 import type { Post, PostsSection as Posts } from "@/lib/types";
 import { Photo } from "@/components/ui/Photo";
 import { formatDate } from "@/lib/text";
@@ -16,7 +18,13 @@ export function PostCard({ post, index = 0 }: { post: Post; index?: number }) {
         <div className="relative aspect-[16/9] overflow-hidden bg-tint">
           <Photo image={post.image} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
         </div>
-      ) : null}
+      ) : (
+        // No real photo yet (the client only allows real job photos): a plain branded header keeps the grid even.
+        <div aria-hidden="true" className="relative flex aspect-[16/9] items-center justify-center overflow-hidden bg-gradient-to-br from-navy to-navy-3">
+          <span className="absolute -top-16 -right-16 h-48 w-48 rounded-full bg-blue/20 blur-2xl" />
+          <Image src={images.logo.src} alt="" width={images.logo.width ?? 480} height={images.logo.height ?? 442} sizes="96px" className="h-20 w-auto opacity-90 transition-transform duration-500 group-hover:scale-110" />
+        </div>
+      )}
       <div className="flex flex-1 flex-col p-6">
         {post.date ? <p className="eyebrow mb-2">{formatDate(post.date)}</p> : null}
         <h3 className="font-display text-h3 font-semibold text-navy">{post.title}</h3>
