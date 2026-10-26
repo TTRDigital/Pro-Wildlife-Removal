@@ -5,6 +5,8 @@ import { CtaRow, SectionShell } from "./SectionShell";
 
 /** Heading and longer text in a readable column. Short text is centered like the design's section intros. */
 export function ProseSection({ section: s }: { section: Prose }) {
+  // Text can arrive empty once placeholders are hidden: then there is nothing to show.
+  if (!s.heading && !s.intro?.length && !s.body?.length) return null;
   const words = (s.body ?? []).length;
   const center = s.align === "center" || words <= 2;
   return (
