@@ -60,7 +60,7 @@ export async function PageView({
       <>
         {schema}
         {path === "/" ? (
-          <HomeHero hero={page.hero} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
+          <HomeHero hero={page.hero} settings={settings} />
         ) : (
           <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
         )}
