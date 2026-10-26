@@ -20,16 +20,16 @@ export const doBatsHibernateInFlorida: Post = {
     ),
     h3("Florida bats in winter"),
     p(
-      `UF/IFAS counts 13 bat species in Florida and says they're active year-round ([UF/IFAS](${UW548})). In Tampa, the city says its most common bat, the Brazilian free-tailed bat, stays active all year ([City of Tampa](${TAMPA})). So a colony in your attic in July is very likely still there in January.`,
+      `UF/IFAS counts 13 bat species in Florida and says they're active year-round ([UF/IFAS](${UW548})). In Tampa, the city says the Brazilian free-tailed bat, a common bat in the area, stays active all year ([City of Tampa](${TAMPA})). So a colony in your attic in July may well still be there in January.`,
     ),
     h3("Why winter is exclusion season"),
     p(
-      `Florida law protects bats while they raise their young. FWC bans exclusion from April 16 to August 14 without a permit, and allows it from August 15 to April 15 ([FWC](${FWC_BATS})). UF/IFAS recommends fall and winter for a bat exclusion in Florida, since bats sealed inside a building die there and the decay can draw pests ([UF/IFAS](${UW548})).`,
+      `Florida law protects bats while they raise their young. FWC bans exclusion from April 16 to August 14, and allows it from August 15 to April 15 ([FWC](${FWC_BATS})). UF/IFAS recommends fall and winter for a bat exclusion in Florida. During the spring and summer pup season, young bats that can't fly yet would be trapped inside and die, and the decay can draw pests such as cockroaches ([UF/IFAS](${UW548})).`,
     ),
     h3("What a cold snap does to the work"),
     ul(
-      `**FWC's temperature rule:** one-way exclusion devices stay up for at least four nights, with overnight lows forecast at 50°F or above ([FWC](${FWC_BATS})).`,
-      `**Bats stay in when it's cold.** UF/IFAS says bats tend not to forage on cold or rainy nights, so when the weather turns bad, the exclusion has to run four more nights ([UF/IFAS](${UW548})).`,
+      `**FWC's temperature rule:** one-way exclusion devices stay up for at least four nights in a row with overnight lows forecast at 50°F or above ([FWC](${FWC_BATS})).`,
+      `**Bats stay in when it's cold.** FWC says bats tend not to leave their roost on windy, cold or rainy nights, and recommends leaving the exclusion devices up for extra nights when that happens. FWC also notes bats can cut back their activity in cool weather and stay in the roost for several days ([FWC](${FWC_BATS})).`,
       "**Plan around the forecast.** In a Florida winter, that usually means waiting out a cold front and starting the count again on the warm nights after it.",
     ),
     h3("What not to do in winter"),
@@ -53,11 +53,11 @@ export const doBatsHibernateInFlorida: Post = {
     ),
     faq(
       "Why does cold weather delay bat exclusion?",
-      "Bats tend not to forage on cold or rainy nights, UF/IFAS says, so they may not leave through the one-way devices. The exclusion is extended four more nights when the weather turns.",
+      "Bats tend not to leave their roost on windy, cold or rainy nights, FWC says, so it recommends leaving the devices up for extra nights when the weather turns.",
     ),
     faq(
       "Is it too late to deal with bats after spring arrives?",
-      "After April 15, exclusion isn't allowed without an FWC permit until August 15, because of the maternity season. That's why winter is the time to act.",
+      "FWC bans exclusion from April 16 to August 14, the maternity season, so after April 15 it can't start again until August 15. That's why winter is the time to act.",
     ),
   ],
   seo: {
@@ -66,8 +66,8 @@ export const doBatsHibernateInFlorida: Post = {
       "Do bats hibernate in Florida? UF/IFAS says bats stay active year-round. Why fall and winter are exclusion season, the 50°F rule, and what cold snaps do.",
   },
   sources: [
-    { title: "UF/IFAS EDIS UW548: Has Your House Gone Batty? Facts about Bats (13 species; active year-round in Florida; exclusion recommended in fall and winter; sealed-in bats die and attract pests; bats tend not to forage on cold or rainy nights, extend four more nights; ultrasonic devices don't repel bats)", url: UW548 },
-    { title: "FWC: Bats in buildings (maternity season April 16 to August 14; exclusion August 15 to April 15; four nights; lows forecast at 50°F or warmer)", url: FWC_BATS },
+    { title: "UF/IFAS EDIS UW548: Has Your House Gone Batty? Facts about Bats (13 species; active year-round in Florida; exclusion recommended in fall and winter; pup season: flightless young sealed in die, decay attracts pests such as cockroaches; ultrasonic devices don't repel bats)", url: UW548 },
+    { title: "FWC: Bats in buildings (maternity season April 16 to August 14; exclusion August 15 to April 15; four nights in a row; lows forecast at 50°F or warmer; bats tend not to leave on windy, cold or rainy nights, leave devices up extra nights; bats may stay in the roost several days in cool weather)", url: FWC_BATS },
     { title: "City of Tampa: Julian B. Lane Riverfront Park art (Brazilian free-tailed bats most common in the area, active year-round)", url: TAMPA },
   ],
   clientQuestions: [],
