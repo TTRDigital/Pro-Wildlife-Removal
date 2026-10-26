@@ -113,7 +113,6 @@ export function AreaMap({ groups }: { groups: Group[] }) {
                 d={c.d}
                 strokeWidth={2}
                 className={`map-county transition-[fill] duration-200 ${on === c.name ? "fill-cta stroke-white" : "fill-blue/80 stroke-white/70"}`}
-                style={{ animationDelay: `${i * 0.6}s` }}
                 onMouseEnter={() => setOn(c.name)}
                 onMouseLeave={() => setOn(null)}
               />
@@ -135,6 +134,11 @@ export function AreaMap({ groups }: { groups: Group[] }) {
                 className="pointer-events-none"
                 aria-hidden="true"
               >
+                <path
+                  d={c.d}
+                  className="map-glow fill-blue-light"
+                  style={{ animationDelay: `${i * 0.6}s` }}
+                />
                 <circle
                   cx={c.x}
                   cy={c.y - 16}
