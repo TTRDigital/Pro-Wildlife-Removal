@@ -30,7 +30,7 @@ export const fallbackPages = {
    {
     "_type": "splitSection",
     "eyebrow": "Florida's Wildlife Experts",
-    "heading": "Tampa Bay's Trusted Wildlife Removal Experts",
+    "heading": "Central Florida's Trusted Wildlife Removal Experts",
     "body": [
      {
       "_type": "block",
@@ -958,7 +958,7 @@ export const fallbackPages = {
    },
    {
     "_type": "reviewsSection",
-    "heading": "See Why Tampa Bay Loves Us",
+    "heading": "See Why Central Florida Loves Us",
     "style": {
      "bg": "ice"
     },
@@ -1144,7 +1144,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "We provide wildlife control services in the Tampa Bay area, covering residential and commercial properties. If you need raccoon removal, rodent control, or bat exclusion, contact us to confirm service availability in your location.",
+          "text": "We provide wildlife control services in Central Florida, covering residential and commercial properties. If you need raccoon removal, rodent control, or bat exclusion, contact us to confirm service availability in your location.",
           "marks": []
          }
         ],
@@ -1296,7 +1296,7 @@ export const fallbackPages = {
    {
     "_type": "splitSection",
     "eyebrow": "Expert Rat Control",
-    "heading": "Trusted Wildlife Control in Tampa Bay for Over 15 Years",
+    "heading": "Trusted Wildlife Control in Central Florida for Over 15 Years",
     "body": [
      {
       "_type": "block",
@@ -1304,7 +1304,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Tampa Bay homeowners and businesses in resolving even the most challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our licensed professionals offer safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
+        "text": "At Pro Wildlife Removal, we specialize in providing expert and humane wildlife removal in Central Florida. With over 15 years of experience, we’ve assisted Central Florida homeowners and businesses in resolving even the most challenging animal intrusions. Whether it’s raccoons invading your attic or snakes in your garden, our licensed professionals offer safe, effective, and long-lasting solutions. Restore peace of mind and protect your property today—contact us for a free wildlife inspection!",
         "marks": []
        }
       ],
@@ -1329,7 +1329,7 @@ export const fallbackPages = {
    },
    {
     "_type": "cardsSection",
-    "heading": "Pro Wildlife Removal Tampa Bay Florida",
+    "heading": "Pro Wildlife Removal Central Florida",
     "intro": [
      {
       "_type": "block",
@@ -1371,7 +1371,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "At Pro Wildlife Removal, we’re proud to serve a wide range of communities across Tampa Bay and Central Florida, offering exceptional wildlife control solutions, timely and efficiently. Whether you’re dealing with raccoons, bats, snakes, or rats, our team has the expertise to handle your unique wildlife challenge.",
+        "text": "At Pro Wildlife Removal, we’re proud to serve a wide range of communities across Central Florida, offering exceptional wildlife control solutions, timely and efficiently. Whether you’re dealing with raccoons, bats, snakes, or rats, our team has the expertise to handle your unique wildlife challenge.",
         "marks": []
        }
       ],
@@ -1969,7 +1969,7 @@ export const fallbackPages = {
       ]
      },
      {
-      "title": "Local Experts in Tampa Bay and Central Florida",
+      "title": "Local Experts in Central Florida",
       "text": [
        {
         "_type": "block",
@@ -1977,7 +1977,7 @@ export const fallbackPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Serving Tampa Bay and Central Florida communities, including Tampa, St. Petersburg, and Clearwater, we understand the region’s unique wildlife challenges. As your local neighbors, we deliver fast, effective solutions to protect your home and peace of mind.",
+          "text": "Serving Central Florida communities, including Tampa, St. Petersburg, and Clearwater, we understand the region’s unique wildlife challenges. As your local neighbors, we deliver fast, effective solutions to protect your home and peace of mind.",
           "marks": []
          }
         ],
@@ -2136,7 +2136,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "See why Tampa Bay chooses Pro Wildlife Removal for their pest control needs in Central Florida.",
+        "text": "See why Central Florida chooses Pro Wildlife Removal for their pest control needs in Central Florida.",
         "marks": []
        }
       ],
@@ -3188,7 +3188,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "Pro Wildlife Removal serves the Tampa Bay area of Florida. You can reach us at:",
+        "text": "Pro Wildlife Removal serves Central Florida of Florida. You can reach us at:",
         "marks": []
        }
       ],

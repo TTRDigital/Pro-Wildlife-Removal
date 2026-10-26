@@ -24,7 +24,7 @@ export const squirrelRemoval: Service = {
   design: "new",
   hero: {
     eyebrow: "SQUIRREL REMOVAL",
-    heading: "Squirrel Removal in Tampa Bay",
+    heading: "Squirrel Removal in Central Florida",
     highlight: "Squirrel Removal",
     text: p("Running and gnawing in the attic in the morning? We get the squirrels out, repair the hole they chewed and close the roofline so they stay out."),
     image: images.squirrelRemoval2,
@@ -258,9 +258,9 @@ export const squirrelRemoval: Service = {
     },
   ],
   seo: {
-    title: "Squirrel Removal in Tampa Bay | Pro Wildlife Removal",
+    title: "Squirrel Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Squirrels in the attic? We check for babies, remove squirrels the way Florida law allows and repair the chewed entry in Tampa Bay. Call (727) 594-7705.",
+      "Squirrels in the attic? We check for babies, remove squirrels the way Florida law allows and repair the chewed entry in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Squirrels flyer, June 2026 (three native species; breed twice a year, spring and autumn; teeth grow constantly; common entry points; trim limbs; squirrel in the house; 68A-9.010 nuisance take of gray and flying squirrels; cage traps; 24-hour checks; release on site or 40+ acres same county with written permission, or euthanize; Big Cypress fox squirrel needs a permit; Dec 31, 2026 rule change)", url: FLYER },
