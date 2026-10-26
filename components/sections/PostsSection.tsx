@@ -27,8 +27,13 @@ export function PostCard({
 }) {
   const topic = postTopic(post);
   const img = post.image ?? topicImage(post);
-  // A post about an animal we have real footage of plays it over the photo while in view.
-  const video = topic ? animalVideos[topic.key] : undefined;
+  // A post about an animal we have real footage of plays it over the photo while in view. The
+  // raccoon clip was filmed in a zoo, so it stays off posts about trapping and the rules, where it
+  // could read as one of the company's jobs (Ben, Oct 26).
+  const zooClip =
+    topic?.key === "raccoon" &&
+    /trap|rule|law|legal|fwc/i.test(`${post.title} ${post.slug}`);
+  const video = topic && !zooClip ? animalVideos[topic.key] : undefined;
   return (
     <Link
       href={`/blog/${post.slug}/`}
