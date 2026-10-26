@@ -1,0 +1,22 @@
+# Animal clip credits
+
+Every clip here is real camera footage of a live animal, taken from Wikimedia Commons under a
+license that needs no permission or credit. None is AI-generated. Each one was cut to about 5.5
+seconds, scaled to 480x360 and saved without sound; nothing else was changed.
+
+## raccoon.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:Raccoon_(Procyon_lotor)_investigating_a_crevice.webm
+- What it shows: a raccoon searching a crevice, filmed at Helsinki Zoo
+- Author: Uusijani (own work, uploaded by the author)
+- Filmed: 6 October 2013
+- License: CC0 1.0 (Creative Commons Zero, Public Domain Dedication)
+
+## opossum.mp4
+
+- Source page: https://commons.wikimedia.org/wiki/File:Opossum_in_Missouri_(31273107963).webm
+- What it shows: an opossum looking for food in leaf litter at Great River and Clarence Cannon
+  National Wildlife Refuges, Missouri
+- Author: Candy Chambers, U.S. Fish and Wildlife Service, Midwest Region
+- Filmed: 3 January 2017
+- License: Public domain (work of a U.S. federal agency)
