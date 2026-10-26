@@ -186,6 +186,8 @@ export type ServicePlace = PageContent & {
 export type PlacePage = Pick<ServicePlace, "service" | "placeName" | "placeKind" | "location" | "county"> & {
   /** Its existing path without slashes. */
   path: string;
+  /** A section on that page to link straight to, e.g. "rats" on a city page. */
+  anchor?: string;
 };
 
 export type Post = {

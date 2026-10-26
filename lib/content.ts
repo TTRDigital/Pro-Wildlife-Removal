@@ -133,7 +133,9 @@ export const getServicePlaces = cache(async (): Promise<ServicePlace[]> => {
 export const getPlacePages = cache(async (): Promise<PlacePage[]> => {
   const [places, locations] = await Promise.all([getServicePlaces(), getLocations()]);
   const live = new Set(locations.map((l) => l.path));
-  return [...places.map((p) => ({ ...p, path: `services/${p.service}/${p.place}` })), ...existingPlacePages.filter((p) => live.has(p.path))];
+  // Rats in the folded cities: the "Rats in <city>" section on the city page (Cole's anchor "rats").
+  const ratSections = existingPlacePages.map((p) => ({ ...p, path: areaPath(p.path), location: p.location && areaPath(p.location), anchor: "rats" }));
+  return [...places.map((p) => ({ ...p, path: `services/${p.service}/${p.place}` })), ...ratSections.filter((p) => live.has(p.path))];
 });
 
 export async function getServicePlace(service: string, place: string) {

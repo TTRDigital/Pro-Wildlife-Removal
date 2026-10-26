@@ -40,6 +40,8 @@ const oldUrls: [string, string][] = [
   ["/wildlife-removal-services/duck-control", "/services/"],
   ["/what-keeps-rats-away", "/blog/what-keeps-rats-away/"],
   ["/effective-rat-control-tips", "/blog/effective-rat-control-tips/"],
+  // Held back until the client confirms attic clean-up (Ben, Oct 26, 2026)
+  ["/blog/attic-wildlife-cleanup-cost-in-florida-prices-tips", "/blog/how-to-clean-up-rat-droppings-florida-attic/"],
   ["/rat-bait-stations-and-safety-a-comprehensive-guide", "/blog/rat-bait-stations-and-safety-a-comprehensive-guide/"],
   // WordPress leftovers
   ["/wp-admin/:path*", "/"],
