@@ -106,8 +106,7 @@ export const home: PageContent = {
         "Wildlife work in Florida comes with rules: when bats can be excluded, how often traps must be checked, where a trapped animal may be released. We follow them on every job, and we explain them to you, so you know why a job is done the way it is.",
       ),
       checklist: [
-        "Open 24 hours a day, 7 days a week",
-        "[PLACEHOLDER: ask the client: confirm weekends and holidays]",
+        "A free inspection, and the price for your home before any work starts",
         "[PLACEHOLDER: ask the client: confirm wildlife removal is all you do (no general pest control)]",
         "Humane methods that follow Florida Fish and Wildlife Conservation Commission rules",
         "Entry points sealed and the mess cleaned up, not just the animal taken away",

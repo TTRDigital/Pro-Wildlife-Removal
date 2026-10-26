@@ -244,7 +244,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": "Wildlife problems can arise unexpectedly. We offer fast and responsive emergency services to address urgent wildlife issues, 24/7.",
+        "text": "Wildlife problems can arise unexpectedly.",
         "marks": []
        }
       ],
@@ -2926,7 +2926,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "We understand that wildlife problems can arise at any time. That’s why we offer emergency response services to address urgent situations quickly and effectively. Our team is available 24/7 to handle emergencies, ensuring your safety and peace of mind.",
+        "text": "We understand that wildlife problems can arise at any time. That’s why we offer emergency response services to address urgent situations quickly and effectively.",
         "marks": []
        }
       ],
@@ -3294,7 +3294,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "If you have a wildlife emergency, contact us immediately. Our team is available 24/7 to handle urgent situations. We’ll provide prompt assistance to ensure your safety and resolve the issue quickly.",
+          "text": "If you have a wildlife emergency, contact us immediately. We’ll provide prompt assistance to ensure your safety and resolve the issue quickly.",
           "marks": []
          }
         ],
@@ -3935,7 +3935,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Immediate 24/7 assistance is just a phone call away!",
+        "text": "Help is just a phone call away!",
         "marks": []
        }
       ],
@@ -4570,7 +4570,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Unwanted encounters with wild animals on your property can occur at any time, often requiring immediate attention. Our emergency animal removal services are available 24/7, ensuring prompt response and resolution. Whether it’s a raccoon in your attic or a snake in your yard, our team is ready to handle urgent situations efficiently and safely.",
+        "text": "Unwanted encounters with wild animals on your property can occur at any time, often requiring immediate attention. Whether it’s a raccoon in your attic or a snake in your yard, our team is ready to handle urgent situations efficiently and safely.",
         "marks": []
        }
       ],
@@ -5180,7 +5180,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "24/7 Emergency Services",
+        "text": "Emergency Services",
         "marks": [
          "strong"
         ]
@@ -5194,7 +5194,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife problems can arise at any time, often when you least expect them. That’s why we offer 24/7 emergency wildlife removal services. Our team is always ready to respond quickly to urgent situations, ensuring that your property and loved ones are protected without delay.",
+        "text": "Wildlife problems can arise at any time, often when you least expect them. That’s why we offer emergency wildlife removal services. Our team is always ready to respond quickly to urgent situations, ensuring that your property and loved ones are protected without delay.",
         "marks": []
        }
       ],
@@ -5781,7 +5781,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Wildlife emergencies can happen at any time in Pine Ridge, and when they do, you need a reliable and responsive service. Our emergency wildlife removal team is available 24/7 to handle urgent situations swiftly and effectively.",
+        "text": "Wildlife emergencies can happen at any time in Pine Ridge, and when they do, you need a reliable and responsive service.",
         "marks": []
        }
       ],
@@ -5793,7 +5793,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "24/7 Availability",
+        "text": "Availability",
         "marks": [
          "strong"
         ]
@@ -8483,7 +8483,7 @@ export const fallbackLocations: Location[] = [
       "children": [
        {
         "_type": "span",
-        "text": "Call us at (727) 594-7705. We are open 24/7. Call us for emergencies and scheduled visits. Pro Wildlife Removal The Villages is always open to serve you.",
+        "text": "Call us at (727) 594-7705. Call us for emergencies and scheduled visits.",
         "marks": []
        }
       ]
@@ -10202,32 +10202,6 @@ export const fallbackLocations: Location[] = [
         "marks": [
          "l0"
         ]
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "h3",
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Office Hours",
-        "marks": []
-       }
-      ]
-     },
-     {
-      "_type": "block",
-      "style": "normal",
-      "listItem": "bullet",
-      "level": 1,
-      "markDefs": [],
-      "children": [
-       {
-        "_type": "span",
-        "text": "Open 24 hours a day, 7 days a week",
-        "marks": []
        }
       ]
      }

@@ -15290,22 +15290,8 @@ export const fallbackServices: Service[] = [
       "image": images.tampaBayFlMapLarge1
      },
      {
-      "title": "Office Hours",
+      "title": "Service Areas",
       "text": [
-       {
-        "_type": "block",
-        "style": "normal",
-        "listItem": "bullet",
-        "level": 1,
-        "markDefs": [],
-        "children": [
-         {
-          "_type": "span",
-          "text": "Open 24 hours a day, 7 days a week",
-          "marks": []
-         }
-        ]
-       },
        {
         "_type": "block",
         "style": "normal",
@@ -16646,7 +16632,7 @@ export const fallbackServices: Service[] = [
        },
        {
         "_type": "span",
-        "text": "experts at Pro Wildlife Removal. We’re available to take your call 24/7. If you live in Central Florida, it is important to learn the difference between venomous and non-venomous snakes, as your chances of encountering a snake are not that slim. Learn the signs to look for to protect yourself and others. If ever you’re not sure if you’re dealing with a poisonous or non-poisonous snake, call the Snake removal Central Florida experts at Pro Wildlife Removal and we’ll help you determine the best action to take to avoid having a dangerous snake situation on your hands.",
+        "text": "experts at Pro Wildlife Removal. If you live in Central Florida, it is important to learn the difference between venomous and non-venomous snakes, as your chances of encountering a snake are not that slim. Learn the signs to look for to protect yourself and others. If ever you’re not sure if you’re dealing with a poisonous or non-poisonous snake, call the Snake removal Central Florida experts at Pro Wildlife Removal and we’ll help you determine the best action to take to avoid having a dangerous snake situation on your hands.",
         "marks": []
        }
       ],
@@ -16754,7 +16740,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "If you do find snakes on your property, give our experts at Pro Wildlife Removal a call today. We are standing by 24/7 and are prepared to handle your emergency snake removal needs in Central Florida.",
+        "text": "If you do find snakes on your property, give our experts at Pro Wildlife Removal a call today.",
         "marks": [
          "em"
         ]
@@ -17159,7 +17145,7 @@ export const fallbackServices: Service[] = [
       "children": [
        {
         "_type": "span",
-        "text": "If at any time you’re not sure what to do, call the Snake removal Central Florida professionals right away. Our trained wildlife removal specialists are available 24/7 to handle your snake removal needs.",
+        "text": "If at any time you’re not sure what to do, call the Snake removal Central Florida professionals right away.",
         "marks": []
        }
       ],
@@ -19107,7 +19093,7 @@ export const fallbackServices: Service[] = [
   ],
   "seo": {
    "title": "Tampa FL #1 Bee Removal Pros | Pro Wildlife Removal",
-   "description": "Bee Removal in Tampa FL for all types of stinging insects like honey bee, wasps, carpenter's bee, and bumblebees. Our expert are 24/7 ready to take your call!"
+   "description": "Bee Removal in Tampa FL for all types of stinging insects like honey bee, wasps, carpenter's bee, and bumblebees."
   }
  }
 ];
