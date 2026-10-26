@@ -3343,7 +3343,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "The cost of wildlife removal varies depending on the type and extent of the issue. We provide a detailed estimate after our initial inspection. Our pricing is competitive, and the estimate spells out what the work includes.",
+          "text": "The cost of wildlife removal varies depending on the type and extent of the issue. We provide a detailed estimate after our initial inspection, and it spells out what the work includes.",
           "marks": []
          }
         ],
@@ -4038,7 +4038,7 @@ export const fallbackLocations: Location[] = [
        },
        {
         "_type": "span",
-        "text": " Based on your description of the issue, we offer a free, no-obligation quote, ensuring clarity and transparency in our pricing from the outset.",
+        "text": " Based on your description of the issue, we explain the next steps, and you get a written estimate after the inspection.",
         "marks": []
        }
       ],
@@ -10105,7 +10105,7 @@ export const fallbackLocations: Location[] = [
         "children": [
          {
           "_type": "span",
-          "text": "The time required depends on the size of the infestation and the condition of your property. Typically, the entire process, including inspection, removal, exclusion, and follow-up visits, can take anywhere from a few days to a couple of weeks.",
+          "text": "The time required depends on the size of the infestation and the condition of your property.",
           "marks": []
          }
         ],

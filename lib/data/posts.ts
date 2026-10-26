@@ -11,6 +11,8 @@ import { whatAnimalIsInMyAttic } from "./content/guides/what-animal-is-in-my-att
 import { ratsInCarEngine } from "./content/guides/rats-in-car-engine.ts";
 import { batsInBarrelTileRoof } from "./content/guides/bats-in-barrel-tile-roof.ts";
 import { ratsInTheWalls } from "./content/guides/rats-in-the-walls.ts";
+import { cleanUpRatDroppings } from "./content/guides/clean-up-rat-droppings.ts";
+import { homeownersInsuranceRatBatDamage } from "./content/guides/homeowners-insurance-rat-bat-damage.ts";
 
 export const fallbackPosts: Post[] = [
  {
@@ -75,19 +77,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Raccoons in Florida usually breed in late winter. Most mating activity occurs from January through March, with conception often concentrated in February. After a gestation period of about ",
-      "marks": []
-     },
-     {
-      "_type": "span",
-      "text": "60 to 65 days",
-      "marks": [
-       "strong"
-      ]
-     },
-     {
-      "_type": "span",
-      "text": ", female raccoons give birth to litters of roughly ",
+      "text": "Raccoons in Florida usually breed in late winter. Most mating activity occurs from January through March, with conception often concentrated in February. Female raccoons then give birth to litters of roughly ",
       "marks": []
      },
      {
@@ -539,7 +529,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs, timelines, and what to expect from a professional",
+      "text": "Costs and what to expect from a professional",
       "marks": []
      }
     ],
@@ -575,7 +565,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Timelines vary. Inspections are often same day to one week. Removal and exclusion can take one to 14 days depending on strategy and whether dependent young are present. Contractors typically separate line items for inspection, removal, exclusion, and sanitation so you can compare quotes transparently.",
+      "text": "How long the job takes depends on the strategy and whether dependent young are present. Contractors typically separate line items for inspection, removal, exclusion, and sanitation so you can compare quotes transparently.",
       "marks": []
      }
     ],
@@ -599,7 +589,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ", which outlines typical scopes and price ranges.",
+      "text": ", which covers what that cleanup involves.",
       "marks": []
      }
     ],
@@ -797,7 +787,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Professionals usually wait until the technician confirms adults and young have left and monitors the site for a short period. This may be a few days to a couple of weeks depending on strategy. Sealing too early is the main cause of orphaned kits, so rely on an inspector to determine the right timing.",
+      "text": "Professionals usually wait until the technician confirms adults and young have left and monitors the site for a short period. Sealing too early is the main cause of orphaned kits, so rely on an inspector to determine the right timing.",
       "marks": []
      }
     ],
@@ -1707,7 +1697,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspection is often same day to one week. Removal strategies take one to 14 days depending on whether one-way devices or trapping are used. Exclusion repairs typically take one to seven days. Sanitation timelines depend on contamination severity and whether insulation replacement is required.",
+      "text": "It depends on whether one-way devices or trapping are used, how many repairs the entry points need, and how badly the insulation is contaminated. Your inspection report should lay out each step in order.",
       "marks": []
      }
     ],
@@ -2440,7 +2430,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost considerations and timeline",
+      "text": "Cost considerations and the steps involved",
       "marks": []
      }
     ],
@@ -2452,7 +2442,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary widely by region and by whether cleanup and repairs are required. Expect the following phases in the timeline.",
+      "text": "Costs vary widely by region and by whether cleanup and repairs are required. The work usually follows these phases.",
       "marks": []
      }
     ],
@@ -2464,7 +2454,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspection and detection: same day to two days depending on scheduling.",
+      "text": "Inspection and detection.",
       "marks": []
      }
     ],
@@ -2478,7 +2468,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Removal or exclusion: typically scheduled within 24 to 72 hours after inspection if the animal is active and accessible.",
+      "text": "Removal or exclusion, once the animal is confirmed active and accessible.",
       "marks": []
      }
     ],
@@ -2492,7 +2482,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cleanup and repairs: can extend the project by several days to a week depending on contamination and repair scope.",
+      "text": "Cleanup and repairs, depending on contamination and repair scope.",
       "marks": []
      }
     ],
@@ -2506,7 +2496,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For ballpark figures and line items that drive cost, consult the site article on ",
+      "text": "For the line items that drive cost, consult the site article on ",
       "marks": []
      },
      {
@@ -2518,7 +2508,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ". That page explains inspection fees, exclusion device costs, and the premium for full attic decontamination and insulation replacement.",
+      "text": ". That page explains what goes into inspection, exclusion devices, and full attic decontamination and insulation replacement.",
       "marks": []
      }
     ],
@@ -3003,7 +2993,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Real-world cost and escalation examples that show why early action matters",
+      "text": "How attic problems escalate when left alone",
       "marks": []
      }
     ],
@@ -4263,7 +4253,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost and timeline signals to expect",
+      "text": "What the work usually includes",
       "marks": []
      }
     ],
@@ -4275,7 +4265,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Itemized quotes help you compare work. Typical timelines are short for inspections and exclusion repairs but sanitation and insulation replacement extend schedules and budgets.",
+      "text": "Itemized quotes help you compare work. Sanitation and insulation replacement add the most to a job.",
       "marks": []
      }
     ],
@@ -4287,7 +4277,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Inspection and species ID: same day to one week.",
+      "text": "Inspection and species ID.",
       "marks": []
      }
     ],
@@ -4301,7 +4291,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Targeted removal or trapping: one to 14 days depending on strategy.",
+      "text": "Targeted removal or trapping, depending on the species.",
       "marks": []
      }
     ],
@@ -4315,7 +4305,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Exclusion repairs: one to three days for simple soffit or vent work; larger roofing or skirting jobs take longer.",
+      "text": "Exclusion repairs, from simple soffit or vent work to larger roofing or skirting jobs.",
       "marks": []
      }
     ],
@@ -6077,7 +6067,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ". For information on attic contamination and cleanup costs, see our breakdown of attic remediation options and price ranges: ",
+      "text": ". For information on attic contamination and cleanup costs, see our guide to attic cleanup costs and what drives them: ",
       "marks": []
      },
      {
@@ -6679,7 +6669,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " A second check after two to four weeks catches any missed entry points and confirms the exclusion holds.",
+      "text": " A follow-up check catches any missed entry points and confirms the exclusion holds.",
       "marks": []
      }
     ],
@@ -7029,7 +7019,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After a complete exclusion and sanitation, most homeowners see activity stop within a few days to two weeks. If activity continues past the warranty follow-up, it usually indicates an unsealed secondary entry point or nearby attractant. Schedule a verification visit if you still hear noise after two weeks.",
+      "text": "After a complete exclusion and sanitation, activity should stop. If activity continues past the warranty follow-up, it usually indicates an unsealed secondary entry point or nearby attractant. Schedule a verification visit if you still hear noise after two weeks.",
       "marks": []
      }
     ],
@@ -7669,7 +7659,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " for examples of common patterns and repair cost ranges for different scenarios.",
+      "text": " for examples of common chewing patterns and the repairs they lead to.",
       "marks": []
      }
     ],
@@ -9868,7 +9858,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "A standard inspection maps every potential entry point, documents occupancy status, and lists recommended repairs and sanitation. Expect an itemized quote separating inspection, removal, exclusion repairs, and cleanup. Typical timelines: inspections can often be scheduled within a week, removal ranges from same-day to two weeks depending on species and season, and exclusion work is often completed in one to seven days.",
+      "text": "A standard inspection maps every potential entry point, documents occupancy status, and lists recommended repairs and sanitation. Expect an itemized quote separating inspection, removal, exclusion repairs, and cleanup.",
       "marks": []
      }
     ],
@@ -11516,7 +11506,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost snapshot and timelines",
+      "text": "What the work involves",
       "marks": []
      }
     ],
@@ -11528,52 +11518,67 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Prices vary by region, access, and whether sanitation and repairs are required. Typical timelines for each scope are below.",
+      "text": "Prices vary by region, access, and whether sanitation and repairs are required. A typical job includes:",
       "marks": []
      }
     ],
     "markDefs": []
    },
    {
-    "_type": "table",
-    "hasHeader": true,
-    "rows": [
+    "_type": "block",
+    "style": "normal",
+    "children": [
      {
-      "_type": "row",
-      "cells": [
-       "Service",
-       "Typical timeline"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Inspection and species ID",
-       "Same day to one week"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Targeted live trapping and removal",
-       "1 to 7 days depending on success and local regs"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Under-deck exclusion (hardware cloth or skirting)",
-       "1 to 3 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Sanitation, flea/tick remediation",
-       "1 to 3 days"
-      ]
+      "_type": "span",
+      "text": "Inspection and species ID",
+      "marks": []
      }
-    ]
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Targeted live trapping and removal",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Under-deck exclusion (hardware cloth or skirting)",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Sanitation, flea/tick remediation",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
    },
    {
     "_type": "block",
@@ -12833,7 +12838,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Realistic timelines and cost signals",
+      "text": "Cost signals",
       "marks": []
      }
     ],
@@ -12845,7 +12850,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Here is what to expect. Inspections are often same day to one week. Removal can be completed in one to 14 days depending on strategy. Exclusion repairs typically take one to seven days. Costs vary by damage scope. ",
+      "text": "Costs vary by damage scope and by the removal strategy. ",
       "marks": []
      },
      {
@@ -13088,13 +13093,19 @@ export const fallbackPosts: Post[] = [
     "_type": "block",
     "style": "normal",
     "children": [
-     {
-      "_type": "span",
-      "text": "For guidance on specific entry points and repair expectations, see the detailed resources on how raccoons enter homes and why they choose attics at a href=”https://prowildliferemoval.net/blog/how-raccoons-enter-homes/”>How Raccoons Enter Homes and a href=”https://prowildliferemoval.net/blog/raccoons-in-attic-why-they-choose-your-home-guide/”>Why Raccoons Choose Attics. If you need a cost breakdown for roof damage and cleanup, review the itemized examples at a href=”https://prowildliferemoval.net/blog/raccoon-roof-damage-complete-cleanup-costs/”>Raccoon Roof Damage and Cleanup Costs.",
-      "marks": []
-     }
+     { "_type": "span", "text": "For guidance on specific entry points and repair expectations, see ", "marks": [] },
+     { "_type": "span", "text": "How Raccoons Enter Homes", "marks": ["fx1"] },
+     { "_type": "span", "text": " and ", "marks": [] },
+     { "_type": "span", "text": "Why Raccoons Choose Attics", "marks": ["fx2"] },
+     { "_type": "span", "text": ". For what roof damage and cleanup involve, see ", "marks": [] },
+     { "_type": "span", "text": "Raccoon Roof Damage and Cleanup Costs", "marks": ["fx3"] },
+     { "_type": "span", "text": ".", "marks": [] }
     ],
-    "markDefs": []
+    "markDefs": [
+     { "_type": "link", "_key": "fx1", "href": "/blog/how-raccoons-enter-homes/" },
+     { "_type": "link", "_key": "fx2", "href": "/blog/raccoons-in-attic-why-they-choose-your-home-guide/" },
+     { "_type": "link", "_key": "fx3", "href": "/blog/raccoon-roof-damage-complete-cleanup-costs/" }
+    ]
    }
   ],
   "seo": {
@@ -14033,7 +14044,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " and the cost breakdown at ",
+      "text": " and what drives repair costs at ",
       "marks": []
      },
      {
@@ -14712,7 +14723,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " explains vendor qualifications, permitting issues, and sample invoices you can use to compare quotes.",
+      "text": " explains vendor qualifications and permitting issues, so you can compare quotes.",
       "marks": []
      }
     ],
@@ -16619,7 +16630,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs and timeline: what to budget for effective exclusion",
+      "text": "What effective exclusion involves",
       "marks": []
      }
     ],
@@ -16631,11 +16642,67 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by access, species, and the need for remediation. Typical timelines are below.",
+      "text": "Costs vary by access, species, and the need for remediation. The usual services are:",
       "marks": []
      }
     ],
     "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Inspection and written report",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Basic exclusion: sealing vents, small gaps",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Full attic exclusion, sanitation, insulation replacement",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Electrical or HVAC coordination for chewed wiring",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
    },
    {
     "_type": "block",
@@ -16648,47 +16715,6 @@ export const fallbackPosts: Post[] = [
      }
     ],
     "markDefs": []
-   },
-   {
-    "_type": "table",
-    "hasHeader": true,
-    "rows": [
-     {
-      "_type": "row",
-      "cells": [
-       "Service",
-       "Typical timeline"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Inspection and written report",
-       "Same day to 3 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Basic exclusion: sealing vents, small gaps",
-       "1 to 3 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Full attic exclusion, sanitation, insulation replacement",
-       "2 to 7 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Electrical or HVAC coordination for chewed wiring",
-       "1 to 5 days"
-      ]
-     }
-    ]
    },
    {
     "_type": "block",
@@ -16866,7 +16892,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "After effective exclusion and removal most homeowners stop seeing activity within a few days to two weeks. Follow-up checks during the warranty period confirm the exclusion holds; aggressive neighborhoods or adjacent green space may require an initial follow-up schedule to ensure long-term success.",
+      "text": "Once exclusion and removal are complete, signs of activity should taper off and stop. Follow-up checks during the warranty period confirm the exclusion holds; aggressive neighborhoods or adjacent green space may require an initial follow-up schedule to ensure long-term success.",
       "marks": []
      }
     ],
@@ -17358,7 +17384,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost comparison: rat damage electrical wiring and related repairs",
+      "text": "Rat damage to electrical wiring: the repairs involved",
       "marks": []
      }
     ],
@@ -17370,11 +17396,67 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary widely by access, scope, and whether insulation, HVAC, or vehicle wiring is involved. Typical timelines are below, drawn from our project records and local contractor reports.",
+      "text": "Costs vary widely by access, scope, and whether insulation, HVAC, or vehicle wiring is involved. Common repairs, drawn from our project records and local contractor reports:",
       "marks": []
      }
     ],
     "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Electrician patch splice for one circuit",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Partial attic rewiring and splices",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Insulation removal, sanitation, and replacement",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Landscape and low-voltage outdoor wiring rebuild",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
    },
    {
     "_type": "block",
@@ -17387,47 +17469,6 @@ export const fallbackPosts: Post[] = [
      }
     ],
     "markDefs": []
-   },
-   {
-    "_type": "table",
-    "hasHeader": true,
-    "rows": [
-     {
-      "_type": "row",
-      "cells": [
-       "Service",
-       "Typical timeline"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Electrician patch splice for one circuit",
-       "Same day to 3 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Partial attic rewiring and splices",
-       "1 to 5 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Insulation removal, sanitation, and replacement",
-       "2 to 7 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Landscape and low-voltage outdoor wiring rebuild",
-       "1 to 3 days"
-      ]
-     }
-    ]
    },
    {
     "_type": "block",
@@ -18938,7 +18979,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Most rat-related wiring damage claims in our service area involved roof rats nesting in attics, with insulation replacement costs averaging 1,100 in completed jobs.",
+      "text": "Most rat-related wiring damage in our service area involved roof rats nesting in attics, and many of those jobs also needed insulation replacement.",
       "marks": []
      }
     ],
@@ -19314,7 +19355,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " so the species, access holes, and repair needs are documented before repairs begin. Homeowners who ignore small holes often pay for repeated visits and expensive insulation replacement later. This page shows the typical holes and signs, real-world cost ranges, comparison of solutions, and step-by-step checks you can do today to reduce local risk.",
+      "text": " so the species, access holes, and repair needs are documented before repairs begin. Homeowners who ignore small holes often pay for repeated visits and expensive insulation replacement later. This page shows the typical holes and signs, a comparison of solutions, and step-by-step checks you can do today to reduce local risk.",
       "marks": []
      }
     ],
@@ -19538,7 +19579,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs, timeline, and community-reported numbers",
+      "text": "What the work involves",
       "marks": []
      }
     ],
@@ -19550,11 +19591,67 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs depend on how many entry points need work and whether the attic needs cleanup. Typical timelines from inspection logs and homeowner reports are below.",
+      "text": "Costs depend on how many entry points need work and whether the attic needs cleanup. The usual services, from inspection logs and homeowner reports:",
       "marks": []
      }
     ],
     "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Inspection and entry mapping",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Targeted rodent exclusion (small jobs)",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Attic insulation cleanup and partial replacement",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Full attic remediation plus repairs",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
    },
    {
     "_type": "block",
@@ -19567,47 +19664,6 @@ export const fallbackPosts: Post[] = [
      }
     ],
     "markDefs": []
-   },
-   {
-    "_type": "table",
-    "hasHeader": true,
-    "rows": [
-     {
-      "_type": "row",
-      "cells": [
-       "Service",
-       "Typical timeline"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Inspection and entry mapping",
-       "Same day to 7 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Targeted rodent exclusion (small jobs)",
-       "1 to 3 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Attic insulation cleanup and partial replacement",
-       "1 to 5 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Full attic remediation plus repairs",
-       "2 to 7 days"
-      ]
-     }
-    ]
    },
    {
     "_type": "block",
@@ -20536,7 +20592,7 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Copulation to birth",
-       "21 624 days",
+       "21 to 24 days",
        "Fast turnaround; a female can produce a new litter roughly every month and a half."
       ]
      },
@@ -20544,7 +20600,7 @@ export const fallbackPosts: Post[] = [
       "_type": "row",
       "cells": [
        "Pup to reproductive adult",
-       "5 627 weeks",
+       "5 to 7 weeks",
        "Offspring quickly contribute to population growth."
       ]
      },
@@ -20982,7 +21038,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Given a continuous supply of food and shelter, visible infestation growth can occur within weeks and become clearly established within months. The exponential nature of reproduction means that early intervention within the first 30 to 60 days after spotting activity improves your chance of limiting long-term infestation costs.",
+      "text": "Given a continuous supply of food and shelter, visible infestation growth can occur within weeks and become clearly established within months. The exponential nature of reproduction means that early intervention improves your chance of limiting long-term infestation costs.",
       "marks": []
      }
     ],
@@ -21060,7 +21116,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Comparison: expected costs and timelines for controlling a breeding infestation",
+      "text": "Common services for controlling a breeding infestation",
       "marks": []
      }
     ],
@@ -21072,11 +21128,53 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Below is a practical comparison of common service scopes. Costs vary by region and severity; the timelines are drawn from industry estimates and local service reports.",
+      "text": "Costs vary by region and severity. Common service scopes are:",
       "marks": []
      }
     ],
     "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Inspection and exclusion plan",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Trapping program with follow-up",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Full remediation: nest removal, insulation replacement, sanitization",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
    },
    {
     "_type": "block",
@@ -21089,40 +21187,6 @@ export const fallbackPosts: Post[] = [
      }
     ],
     "markDefs": []
-   },
-   {
-    "_type": "table",
-    "hasHeader": true,
-    "rows": [
-     {
-      "_type": "row",
-      "cells": [
-       "Service",
-       "Typical timeline to visible results"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Inspection and exclusion plan",
-       "1 627 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Trapping program with follow-up",
-       "1 624 weeks"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Full remediation: nest removal, insulation replacement, sanitization",
-       "2 626 weeks"
-      ]
-     }
-    ]
    },
    {
     "_type": "block",
@@ -21700,7 +21764,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost and timeline snapshot: realistic numbers from community reports and industry averages",
+      "text": "What raccoon removal involves",
       "marks": []
      }
     ],
@@ -21712,7 +21776,75 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost discussions are common on Reddit and in contractor quotes. Typical timelines for each service are below.",
+      "text": "Cost discussions are common on Reddit and in contractor quotes. The usual services are:",
+      "marks": []
+     }
+    ],
+    "markDefs": []
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Inspection and species ID",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Targeted raccoon removal",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Exclusion and roofline repairs",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Attic sanitation and insulation replacement",
+      "marks": []
+     }
+    ],
+    "markDefs": [],
+    "listItem": "bullet",
+    "level": 1
+   },
+   {
+    "_type": "block",
+    "style": "normal",
+    "children": [
+     {
+      "_type": "span",
+      "text": "Get line-item quotes that separate inspection, removal, exclusion, sanitation, and repair so you can compare bids fairly.",
       "marks": []
      }
     ],
@@ -21725,59 +21857,6 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "span",
       "text": "[PLACEHOLDER: ask the client: price range for raccoon removal, exclusion and attic cleanup]",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "table",
-    "hasHeader": true,
-    "rows": [
-     {
-      "_type": "row",
-      "cells": [
-       "Service",
-       "Typical Timeline"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Inspection and species ID",
-       "1 visit, same day to a week"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Targeted raccoon removal",
-       "1 to 14 days depending on trapping strategy"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Exclusion and roofline repairs",
-       "1 to 7 days"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Attic sanitation and insulation replacement",
-       "1 to 5 days"
-      ]
-     }
-    ]
-   },
-   {
-    "_type": "block",
-    "style": "normal",
-    "children": [
-     {
-      "_type": "span",
-      "text": "Get line-item quotes that separate inspection, removal, exclusion, sanitation, and repair so you can compare bids fairly.",
       "marks": []
      }
     ],
@@ -23842,7 +23921,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Real-world costs: what homeowners actually pay",
+      "text": "What affects the cost of bat colony removal",
       "marks": []
      }
     ],
@@ -24266,7 +24345,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " and our localized cost breakdown in ",
+      "text": " and our Florida cost guide, ",
       "marks": []
      },
      {
@@ -24278,7 +24357,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": ". Those pages explain vendor qualifications, permitting, and sample invoices that help you compare quotes effectively.",
+      "text": ". Those pages explain vendor qualifications and permitting, which helps you compare quotes.",
       "marks": []
      }
     ],
@@ -25081,7 +25160,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Guano removal is highly local. Labor, disposal rules, and contractor availability vary between metro and rural areas. When you contact us for a site visit we provide a written scope that separates exclusion, remediation, insulation, and HVAC work so you can submit insurance claims or compare bids effectively. If you are in a specific city or county, include your location when you request an inspection so we can quote realistic local pricing and timeline.",
+      "text": "Guano removal is highly local. Labor, disposal rules, and contractor availability vary between metro and rural areas. When you contact us for a site visit we provide a written scope that separates exclusion, remediation, insulation, and HVAC work so you can submit insurance claims or compare bids effectively. If you are in a specific city or county, include your location when you request an inspection so we can give you a local quote.",
       "marks": []
      }
     ],
@@ -25766,7 +25845,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs vary by region, contamination, and house size. The table shows what drives the price of each service. For more on Florida pricing see our post on ",
+      "text": "Costs vary by region, contamination, and house size. The table shows what drives the price of each service. For what affects the cost in Florida, see our post on ",
       "marks": []
      },
      {
@@ -26161,7 +26240,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Timing depends on species, season, and whether pups are present. Professionals often perform inspections and, if juveniles are present, use one-way devices and monitor until offspring are flight-ready. Wait times can range from a few days to several weeks. Ask any contractor for their written timing policy and species assessment before work begins.",
+      "text": "Timing depends on species, season, and whether pups are present. Professionals often perform inspections and, if juveniles are present, use one-way devices and monitor until offspring are flight-ready. Ask any contractor for their written timing policy and species assessment before work begins.",
       "marks": []
      }
     ],
@@ -29648,7 +29727,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cost breakdown: what homeowners actually paid",
+      "text": "What goes into a raccoon roof damage quote",
       "marks": []
      }
     ],
@@ -29660,7 +29739,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Ask for an itemized quote that separates inspection, animal removal, exclusion, sanitation, insulation, electrical, and roofing work so you can compare line items rather than lump-sum proposals. For a deeper look at typical attic cleanup pricing see our ",
+      "text": "Ask for an itemized quote that separates inspection, animal removal, exclusion, sanitation, insulation, electrical, and roofing work so you can compare line items rather than lump-sum proposals. For more on what attic cleanup involves, see our ",
       "marks": []
      },
      {
@@ -30856,7 +30935,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Open soffit with visible entry and active noises",
        "High",
-       "Call for removal and exclusion within 24 to 48 hours"
+       "Call for removal and exclusion right away"
       ]
      },
      {
@@ -30864,7 +30943,7 @@ export const fallbackPosts: Post[] = [
       "cells": [
        "Sealed entry, no contamination, minor cosmetic damage",
        "Low to medium",
-       "Schedule repairs within 2 to 6 weeks"
+       "Schedule repairs in the coming weeks"
       ]
      },
      {
@@ -31209,7 +31288,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If contamination is suspected, do not run HVAC. Ask for attic sanitation and an insulation assessment; refer to our attic cleanup guide for pricing context at ",
+      "text": "If contamination is suspected, do not run HVAC. Ask for attic sanitation and an insulation assessment; our attic cleanup guide explains what affects the cost: ",
       "marks": []
      },
      {
@@ -31371,7 +31450,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Small soffit repairs can be completed in a day. If attic remediation or insulation replacement is needed, expect 1 to 5 days for full cleanup and repairs depending on scope and access. Complex roof decking or flashing work may add days to the schedule.",
+      "text": "It depends on scope and access. Small soffit repairs are the quickest; attic remediation, insulation replacement, and roof decking or flashing work take longer.",
       "marks": []
      }
     ],
@@ -32405,7 +32484,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Most professionals use one to two weeks of post-exclusion monitoring to confirm no re-entry. If young were present at the time of exclusion, your provider should follow legal and ethical guidelines for timing. A clear written warrant and monitoring plan gives you real assurance.",
+      "text": "Most professionals monitor for a while after exclusion to confirm no re-entry. If young were present at the time of exclusion, your provider should follow legal and ethical guidelines for timing. A clear written warranty and monitoring plan gives you real assurance.",
       "marks": []
      }
     ],
@@ -32762,7 +32841,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Real homeowner reports emphasize escalation: a localized infestation that is ignored can turn into a sanitation and insulation replacement job running into four figures. In one community case a homeowner moved from traps only to a full remediation package after continued activity; the final scope included insulation removal, sanitation, and ductwork inspection.",
+      "text": "Real homeowner reports emphasize escalation: a localized infestation that is ignored can turn into a sanitation and insulation replacement job that costs far more than early repairs. In one community case a homeowner moved from traps only to a full remediation package after continued activity; the final scope included insulation removal, sanitation, and ductwork inspection.",
       "marks": []
      }
     ],
@@ -33089,7 +33168,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Typical timeline: inspection (1 to 2 hours), exclusion and trapping (1 to 10 days for multi-visit trapping), followed by sanitation and any insulation or duct replacement once activity is confirmed clear. If wiring or HVAC is affected, electricians and HVAC contractors may add days for testing and repair.",
+      "text": "The usual order: inspection, then exclusion and trapping (often over several visits), followed by sanitation and any insulation or duct replacement once activity is confirmed clear. If wiring or HVAC is affected, electricians and HVAC contractors may need to test and repair before the job is finished.",
       "marks": []
      }
     ],
@@ -34194,7 +34273,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "When roof rats nest in insulation, you may need HEPA vacuuming, antimicrobial treatment, and replacement of insulation. If wiring is chewed, an electrician is required. Use our attic cleanup cost breakdown at ",
+      "text": "When roof rats nest in insulation, you may need HEPA vacuuming, antimicrobial treatment, and replacement of insulation. If wiring is chewed, an electrician is required. Our guide to what shapes cleanup costs, ",
       "marks": []
      },
      {
@@ -34206,7 +34285,7 @@ export const fallbackPosts: Post[] = [
      },
      {
       "_type": "span",
-      "text": " for sample estimates. The factors that move estimates higher are area of contaminated insulation, presence of secondary pests such as fleas, and roofline repairs to prevent re-entry. One homeowner report warned that sealing the wrong gap before all animals are out led to a trapped animal and additional drywall work. That highlights the need for a sequenced approach: remove animals, then repair and replace.",
+      "text": " explains what to expect. The factors that move estimates higher are area of contaminated insulation, presence of secondary pests such as fleas, and roofline repairs to prevent re-entry. One homeowner report warned that sealing the wrong gap before all animals are out led to a trapped animal and additional drywall work. That highlights the need for a sequenced approach: remove animals, then repair and replace.",
       "marks": []
      }
     ],
@@ -35679,14 +35758,6 @@ export const fallbackPosts: Post[] = [
      {
       "_type": "row",
       "cells": [
-       "Typical timeline",
-       "Single project, days to a week depending on repairs",
-       "Immediate to several weeks depending on species and baiting"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
        "Regulatory limits",
        "Generally permitted year round, but timing related to repairs",
        "Restricted for protected species and during juvenile seasons"
@@ -35708,7 +35779,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Costs, real numbers, and what homeowners actually report",
+      "text": "What drives exclusion and trapping costs",
       "marks": []
      }
     ],
@@ -36076,64 +36147,6 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Comparison: expected timeline and follow-up tasks",
-      "marks": []
-     }
-    ],
-    "markDefs": []
-   },
-   {
-    "_type": "table",
-    "hasHeader": true,
-    "rows": [
-     {
-      "_type": "row",
-      "cells": [
-       "Phase",
-       "Exclusion-only",
-       "Trapping then exclusion"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Inspection",
-       "1 visit, 45 to 90 minutes",
-       "1 visit, 60 to 120 minutes"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Active removal",
-       "Not required",
-       "1 to 14 days monitoring depending on species"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Exclusion work",
-       "1 to 5 days",
-       "1 to 7 days after removal"
-      ]
-     },
-     {
-      "_type": "row",
-      "cells": [
-       "Sanitation/repairs",
-       "As needed after inspection",
-       "Often required; varies 1 to 7 days"
-      ]
-     }
-    ]
-   },
-   {
-    "_type": "block",
-    "style": "h2",
-    "children": [
-     {
-      "_type": "span",
       "text": "Frequently Asked Questions",
       "marks": []
      }
@@ -36341,7 +36354,7 @@ export const fallbackPosts: Post[] = [
  {
   "slug": "wildlife-removal-inspection-what-to-expect-costs",
   "title": "Wildlife Removal Inspection: What to Expect & Costs",
-  "excerpt": "Below are typical inspection outcomes and the likely cost bands, drawn from contractor quotes and homeowner reports on public forums.",
+  "excerpt": "Below are typical inspection outcomes and the work they usually lead to, drawn from contractor quotes and homeowner reports on public forums.",
   "date": "2026-05-22T21:35:47+00:00",
   "modified": "2026-05-22T21:56:21+00:00",
   "author": "Pro Wildlife Removal",
@@ -37383,7 +37396,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "If insulation or ducts are contaminated, schedule remediation and replacement. Expect 1 to 3 days for a typical attic cleanup and 1 to 5 days for full replacement depending on access and scope.",
+      "text": "If insulation or ducts are contaminated, schedule remediation and replacement.",
       "marks": []
      }
     ],
@@ -38261,7 +38274,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "For droppings contamination, plan for professional sanitation and insulation assessment. Refer to our pricing discussion below and to our ",
+      "text": "For droppings contamination, plan for professional sanitation and insulation assessment. For what affects the cost, see our ",
       "marks": []
      },
      {
@@ -39053,7 +39066,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Cleanup options, pros, cons, and typical cost ranges",
+      "text": "Cleanup options, pros, and cons",
       "marks": []
      }
     ],
@@ -39065,7 +39078,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "Below is a practical comparison of common cleanup approaches reported by homeowners and industry sources. Exact pricing depends on region, attic size, and whether HVAC and structural materials are contaminated.",
+      "text": "Below is a practical comparison of common cleanup approaches reported by homeowners and industry sources. The right approach depends on region, attic size, and whether HVAC and structural materials are contaminated.",
       "marks": []
      }
     ],
@@ -50008,7 +50021,7 @@ export const fallbackPosts: Post[] = [
     "children": [
      {
       "_type": "span",
-      "text": "The time it takes to control a rodent infestation with bait stations can vary depending on the size of the infestation, the type of bait used, and the diligence of monitoring and bait replacement. It may take several days to several weeks to achieve complete control.",
+      "text": "The time it takes to control a rodent infestation with bait stations can vary depending on the size of the infestation, the type of bait used, and the diligence of monitoring and bait replacement.",
       "marks": []
      }
     ],
@@ -54589,4 +54602,6 @@ export const fallbackPosts: Post[] = [
  ratsInCarEngine,
  batsInBarrelTileRoof,
  ratsInTheWalls,
+ cleanUpRatDroppings,
+ homeownersInsuranceRatBatDamage,
 ];
