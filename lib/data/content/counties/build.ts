@@ -1,6 +1,6 @@
 import { images } from "../../images.ts";
-import type { AreasSection, Card, Faq, Location, Rich, Source } from "../../../types";
-import { p } from "../pt.ts";
+import type { AreasSection, Card, Faq, Location, Source } from "../../../types";
+import { h3, p, rich } from "../pt.ts";
 
 /*
  * County page layout (blueprint: hero with the call button, short answer, towns,
@@ -33,12 +33,17 @@ export type CountyInput = {
   townsHeading: string;
   townsIntro: string;
   towns: AreasSection["groups"];
-  /** Optional "Communities we serve" prose after the towns list: one h3 and a short part per community (Kia, Oct 26). */
-  communities?: { heading: string; intro?: string; body: Rich };
   townsNote?: string;
   localHeading: string;
   localIntro: string;
   local: Card[];
+  /**
+   * "Communities we serve" (county pages; Kia, Oct 26): Ads communities too small for their own page.
+   * One entry per community: 2 to 4 sourced sentences about rats, bats, squirrels or raccoons there, each written differently.
+   * Rendered after the local cards as an H3 per community; their sources go in this page's `sources`.
+   */
+  communities?: { name: string; text: string[] }[];
+  communitiesIntro?: string;
   /** "Who to call for what": county animal services, the county health department, FWC. Numbers from each agency's own page. */
   contacts?: Card[];
   contactsIntro?: string;
@@ -75,8 +80,10 @@ export function countyPage(c: CountyInput): Location {
     sections: [
       { _type: "answerSection", _key: "answer", heading: c.answerHeading, text: p(c.answer), points: c.points },
       { _type: "areasSection", _key: "towns", eyebrow: "Towns covered", heading: c.townsHeading, intro: p(c.townsIntro), groups: c.towns, ...(c.townsNote ? { note: c.townsNote } : {}) },
-      ...(c.communities ? [{ _type: "proseSection" as const, _key: "communities", eyebrow: "Communities", heading: c.communities.heading, ...(c.communities.intro ? { intro: p(c.communities.intro) } : {}), body: c.communities.body }] : []),
       { _type: "cardsSection", _key: "local", tone: "tint", eyebrow: "Common problems here", heading: c.localHeading, intro: p(c.localIntro), variant: "icon", columns: 3, cards: c.local },
+      ...(c.communities?.length
+        ? [{ _type: "proseSection" as const, _key: "communities", eyebrow: "Communities we serve", heading: `Communities we serve in ${c.name}`, ...(c.communitiesIntro ? { intro: p(c.communitiesIntro) } : {}), body: rich(...c.communities.flatMap((x) => [h3(x.name), p(...x.text)])) }]
+        : []),
       ...(c.contacts?.length
         ? [{ _type: "cardsSection" as const, _key: "contacts", eyebrow: "Who to call", heading: c.contactsHeading ?? `Who to call for what in ${c.name}`, intro: p(c.contactsIntro ?? ""), variant: "plain" as const, columns: 3, cards: c.contacts }]
         : []),

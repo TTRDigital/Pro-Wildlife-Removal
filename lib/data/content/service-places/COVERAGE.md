@@ -2,7 +2,7 @@
 
 Every target place x the four animals (rats and bats first). New places get their city or county page before their animal pages. Every Google Ads location gets its own page (Kia, Oct 26); a place that can't reach the town bar is held, not padded, and stays named (as plain text) on its county page and in areas.ts. A page known to fall short stays out of the preview until it clears; one only waiting on its first check can stay (Ben, Oct 26). Kept by Cole; updated on every merge into `claude/cole-pwr-content`. Ben assigns places.
 
-Key: **L** live in the bundle and fact-checked · **F** in the bundle, waiting on Ben's fact check · **E** existing rat-in-city page, keeps its URL (`existingPlacePages`) · **P** in the bundle, fixes pending after fact check · **H** held (reason in notes) · **S** skipped, nothing true and local · **N** not started
+Key: **L** live in the bundle and fact-checked · **F** in the bundle, waiting on Ben's fact check · **E** existing rat-in-city page, keeps its URL (`existingPlacePages`) · **P** in the bundle, fixes pending after fact check · **C** covered by a section on its county page (no own page or animal pages; Kia, Oct 26) · **H** held (reason in notes) · **S** skipped, nothing true and local · **N** not started
 
 Town pages need at least 6 sourced facts about the animal, at least 3 of them about the town itself (Ben, Oct 26).
 
@@ -34,21 +34,21 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | The Villages | Nia | E | N | N | N | city page rewritten in place (5bbc42d), in Ben's check; old rat page linked |
 | Marion County | Nia | N | N | N | N | county page back in the preview with Nia's four-animal fix (8d99e12), in Ben's check |
 | Ocala | Nia | N | N | N | N | city page recounted (8d99e12); out of the preview until Ben clears it |
-| Belleview | Nia | N | N | N | N | city page held by Nia: under the town bar |
+| Belleview | Nia | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Dunnellon | Nia | N | N | N | N | city page in the preview (38d4086), in Ben's check |
-| Lutz | Owen | N | N | N | N | city page first |
-| Westchase | Owen | N | N | N | N | city page first |
-| Carrollwood | Owen | N | N | N | N | city page reworked to the four-animals rule (9881253, 424ce1f); held from the preview until Ben clears it |
-| Citrus Park | Owen | N | N | N | N | city page first |
-| Town 'n' Country | Owen | N | N | N | N | city page held by Owen: 1 qualifying fact (DBPR rodents) under the four-animals rule |
-| Cheval | Owen | N | N | N | N | city page first (after Owen's five) |
-| Keystone | Owen | N | N | N | N | city page first (after Owen's five) |
-| Lake Magdalene | Owen | N | N | N | N | city page first (after Owen's five) |
-| Greater Northdale | Owen | N | N | N | N | city page first (after Owen's five) |
-| New Tampa | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
-| Temple Terrace | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
+| Lutz | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Westchase | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Carrollwood | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Citrus Park | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Town 'n' Country | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Cheval | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Keystone | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Lake Magdalene | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| Greater Northdale | Owen | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
+| New Tampa | Rhea | N | N | N | N | full page attempt first; falls back to a Hillsborough county section |
+| Temple Terrace | Rhea | N | N | N | N | full page attempt first; falls back to a Hillsborough county section |
 | Silver Springs | Nia | N | N | N | N | city page recounted (ef72856); out of the preview until Ben clears it |
-| Summerfield | Nia | N | N | N | N | city page held by Nia: under the town bar |
+| Summerfield | Nia | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 
 ## Counts
 
@@ -58,9 +58,10 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
 | fixes pending | 0 | 0 | 0 | 0 | 0 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
+| county section | 11 | 11 | 11 | 11 | 44 |
 | held | 1 | 1 | 3 | 3 | 8 |
 | skipped | 2 | 5 | 5 | 3 | 15 |
-| not started | 20 | 26 | 27 | 22 | 95 |
+| not started | 9 | 15 | 16 | 11 | 51 |
 | **all cells** | 41 | 41 | 41 | 41 | 164 |
 
 Targets follow the Google Ads locations (Kia, Oct 26): 8 counties with Marion added. Out of scope: the far-area pages (Orlando, Sarasota, Lady Lake) wait on the client and get no new pages; Pine Ridge and Lecanto (Citrus) have city pages but aren't on the target list; Winter Haven (Polk) has an old rat page only.

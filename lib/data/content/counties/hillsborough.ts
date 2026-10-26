@@ -1,5 +1,5 @@
 import { countyPage, S } from "./build.ts";
-import { faq, h3, p, rich } from "../pt.ts";
+import { faq, p } from "../pt.ts";
 
 export const hillsborough = countyPage({
   path: "about-us/service-area/wildlife-removal-hillsborough-county",
@@ -39,30 +39,18 @@ export const hillsborough = countyPage({
       items: [{ label: "Brandon" }, { label: "Riverview" }, { label: "Valrico" }, { label: "Plant City" }, { label: "Apollo Beach" }],
     },
   ],
-  communities: {
-    heading: "Communities we serve in northwest Hillsborough",
-    intro: "These unincorporated communities are part of the area we serve. Each part below sticks to what local records and news show about rats, bats, squirrels and raccoons there.",
-    body: rich(
-      h3("Wildlife removal in Carrollwood"),
-      p("Two rabid wildlife cases here made the news. In July 2020, DOH-Hillsborough said a woman out walking at night picked up a bat from a Carrollwood sidewalk and was bitten; the bat had rabies. In March 2018, a raccoon near Tannery Avenue fought a dog, tested positive and set off a 60-day rabies alert across northwest Hillsborough."),
-      h3("Wildlife removal in Town 'n' Country"),
-      p("Florida's restaurant inspectors closed seven Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025, by our count of the state's records, and three of those were on West Hillsborough Avenue. Homes along Channel A and the Upper Tampa Bay Trail are part of our service area."),
-      h3("Wildlife removal in Lutz"),
-      p("Patch reported that Hillsborough's first rabid raccoon of 2017 turned up in Lutz on April 21. Lutz is also home to Wright Ranch Rescue, whose founder told Bay News 9 in 2022 that she rehabilitates raccoons, bats and squirrels."),
-      h3("Wildlife removal in Lake Magdalene"),
-      p("In May 2017, DOH-Hillsborough placed a 60-day rabies alert on the Shady Pines Drive area after two raccoons tested positive. News stories said Lutz, but Shady Pines Drive lies inside the Lake Magdalene Census place, and Lake Magdalene Boulevard formed the alert's southern edge. State records also list four closures for rodent activity at two North Florida Avenue food businesses there in 2023 and 2024."),
-      h3("Wildlife removal in Westchase"),
-      p("Squirrels have chewed into community property here: at its March 2026 meeting, the Westchase Community Development District heard that its maintenance garage needed repairs for squirrel damage, the Westchase WOW reported."),
-      h3("Wildlife removal in Citrus Park"),
-      p("In August 2023, Hillsborough County Schools confirmed to FOX 13 that bats were living inside Northwest Elementary, whose Hutchison Road campus sits in the Citrus Park Census place. Citrus Park is part of the northwest Hillsborough area we serve."),
-      h3("Wildlife removal in Cheval"),
-      p("State inspectors twice closed a golf and country club in Cheval for rodent activity in May 2019. Part of Cheval also fell inside the 60-day raccoon rabies alert of March 2018, by our check of its boundaries against Census maps."),
-      h3("Wildlife removal in Keystone"),
-      p("Keystone holds the Brooker Creek Headwaters Nature Preserve, where a 2014 Tampa Bay Times feature listed raccoon tracks among the animal signs along its trails. A Crawley Road food business in Keystone was closed for rodent activity twice in 2022, state records show."),
-      h3("Wildlife removal in Greater Northdale"),
-      p("A squirrel that shorted out overhead equipment cut power to about 1,450 customers in the Northdale area in December 2014, Patch reported, citing TECO. In March 2023, the state closed a Northdale golf and tennis club for rodent and fly activity."),
-    ),
-  },
+  communitiesIntro: "These unincorporated communities are part of the area we serve. Each part below sticks to what local records and news show about rats, bats, squirrels and raccoons there.",
+  communities: [
+    { name: "Wildlife removal in Carrollwood", text: ["Two rabid wildlife cases here made the news. In July 2020, DOH-Hillsborough said a woman out walking at night picked up a bat from a Carrollwood sidewalk and was bitten; the bat had rabies. In March 2018, a raccoon near Tannery Avenue fought a dog, tested positive and set off a 60-day rabies alert across northwest Hillsborough."] },
+    { name: "Wildlife removal in Town 'n' Country", text: ["Florida's restaurant inspectors closed seven Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025, by our count of the state's records, and three of those were on West Hillsborough Avenue. Homes along Channel A and the Upper Tampa Bay Trail are part of our service area."] },
+    { name: "Wildlife removal in Lutz", text: ["Patch reported that Hillsborough's first rabid raccoon of 2017 turned up in Lutz on April 21. Lutz is also home to Wright Ranch Rescue, whose founder told Bay News 9 in 2022 that she rehabilitates raccoons, bats and squirrels."] },
+    { name: "Wildlife removal in Lake Magdalene", text: ["In May 2017, DOH-Hillsborough placed a 60-day rabies alert on the Shady Pines Drive area after two raccoons tested positive. News stories said Lutz, but Shady Pines Drive lies inside the Lake Magdalene Census place, and Lake Magdalene Boulevard formed the alert's southern edge. State records also list four closures for rodent activity at two North Florida Avenue food businesses there in 2023 and 2024."] },
+    { name: "Wildlife removal in Westchase", text: ["Squirrels have chewed into community property here: at its March 2026 meeting, the Westchase Community Development District heard that its maintenance garage needed repairs for squirrel damage, the Westchase WOW reported."] },
+    { name: "Wildlife removal in Citrus Park", text: ["In August 2023, Hillsborough County Schools confirmed to FOX 13 that bats were living inside Northwest Elementary, whose Hutchison Road campus sits in the Citrus Park Census place. Citrus Park is part of the northwest Hillsborough area we serve."] },
+    { name: "Wildlife removal in Cheval", text: ["State inspectors twice closed a golf and country club in Cheval for rodent activity in May 2019. Part of Cheval also fell inside the 60-day raccoon rabies alert of March 2018, by our check of its boundaries against Census maps."] },
+    { name: "Wildlife removal in Keystone", text: ["Keystone holds the Brooker Creek Headwaters Nature Preserve, where a 2014 Tampa Bay Times feature listed raccoon tracks among the animal signs along its trails. A Crawley Road food business in Keystone was closed for rodent activity twice in 2022, state records show."] },
+    { name: "Wildlife removal in Greater Northdale", text: ["A squirrel that shorted out overhead equipment cut power to about 1,450 customers in the Northdale area in December 2014, Patch reported, citing TECO. In March 2023, the state closed a Northdale golf and tennis club for rodent and fly activity."] },
+  ],
   localHeading: "What drives wildlife calls in Hillsborough",
   localIntro: "The 2020 Census counted 96% of Hillsborough residents as urban, yet about half of the county's 1,022 square miles of land is rural. That edge between city and country is where most conflicts start.",
   local: [
