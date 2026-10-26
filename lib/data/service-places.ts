@@ -1,3 +1,4 @@
+import { batRemovalMarionCounty } from "./content/service-places/bat-removal/marion-county-fl.ts";
 import type { PlacePage, ServicePlace } from "../types";
 import { raccoonRemovalTampa } from "./content/service-places/raccoon-removal/tampa-fl.ts";
 import { ratRemovalTampa } from "./content/service-places/rat-removal/tampa-fl.ts";
@@ -84,7 +85,9 @@ export const fallbackServicePlaces: ServicePlace[] = [
   batRemovalHernandoCounty,
   raccoonRemovalHernandoCounty,
   squirrelRemovalHernandoCounty,
-  // The Villages and Marion County bat (Nia): HELD by Ben, Oct 26, 2026, until they clear fact check
+  // Marion County (Nia)
+  batRemovalMarionCounty,
+  // The Villages bat (Nia): HELD by Ben, Oct 26, 2026, short of 6 facts
   // Pinellas County (Rhea)
   ratRemovalPinellasCounty,
   batRemovalPinellasCounty,
