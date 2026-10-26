@@ -32,7 +32,7 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
 | Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
 | The Villages | Nia | E | P | N | N | city page cleared (0c320c2); bat page failed fact check, out of the preview until Nia's fixes; old rat page linked |
-| Marion County | Nia | N | P | N | N | county page cleared (b77a606); communities section in Ben's check; bat page failed fact check, out of the preview until Nia's fixes |
+| Marion County | Nia | N | L | N | N | county page cleared (b77a606); communities section in Ben's check; bat page cleared (5958797) |
 | Ocala | Nia | N | N | N | N | city page cleared after Nia's fact-check fixes (b77a606) |
 | Belleview | Nia | C | C | C | C | county section (Kia, Oct 26): no own page, no animal pages |
 | Dunnellon | Nia | C | C | C | C | held: page out of the preview; covered in the Marion communities section (b77a606) |
@@ -54,9 +54,9 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 
 | Status | Rat | Bat | Squirrel | Raccoon | Total |
 |---|---|---|---|---|---|
-| live, fact-checked | 7 | 6 | 5 | 11 | 29 |
+| live, fact-checked | 7 | 7 | 5 | 11 | 30 |
 | in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
-| fixes pending | 0 | 2 | 0 | 0 | 2 |
+| fixes pending | 0 | 1 | 0 | 0 | 1 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
 | county section | 12 | 12 | 12 | 12 | 48 |
 | held | 1 | 1 | 3 | 3 | 8 |
