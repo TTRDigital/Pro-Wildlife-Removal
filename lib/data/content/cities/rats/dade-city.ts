@@ -18,7 +18,7 @@ export const dadeCityRats = countyPage({
   heroText: "Rats in a Dade City attic, barn or shed? We find the way in, close it and trap the rats inside. Call (727) 594-7705.",
   answerHeading: "Who handles rats in Dade City?",
   answer:
-    "Dade City doesn't remove rats from homes, so that's a job for a private company. The city does ask that garbage containers be animal proof with tight-fitting lids. Pro Wildlife Removal seals the gaps, traps the rats inside and cleans up. Call (727) 594-7705.",
+    "Dade City doesn't remove rats from homes, so that's a job for a private company. The city does ask that garbage containers be animal proof with tight-fitting lids. Pro Wildlife Removal seals the gaps and traps the rats that are still inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "City: animal-proof lids", "Code covers trash and debris"],
   townsHeading: "Rat removal near Dade City",
   townsIntro: "We take rat calls across east Pasco, and handle every other animal in Dade City too.",

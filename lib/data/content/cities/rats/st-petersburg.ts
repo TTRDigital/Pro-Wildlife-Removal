@@ -15,10 +15,10 @@ export const stPetersburgRats = countyPage({
   heading: "Rat Removal in St. Petersburg, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in St. Petersburg, FL: rats sealed out of attics and walls and trapped inside, plus the city's own yard and trash tips.",
-  heroText: "Rats in a St. Pete attic or wall? We shut the openings, trap the rats still inside and clean up after them. Call (727) 594-7705.",
+  heroText: "Rats in a St. Pete attic or wall? We shut the openings and trap the rats still inside. Call (727) 594-7705.",
   answerHeading: "Who handles rats in St. Petersburg?",
   answer:
-    "St. Petersburg's Sanitation Department helps with rats outdoors, but the city says to hire a private company for rodents inside a home, and owners or occupants of houses are responsible for their own pest control. Pro Wildlife Removal seals, traps and cleans up. Call (727) 594-7705.",
+    "St. Petersburg's Sanitation Department helps with rats outdoors, but the city says to hire a private company for rodents inside a home, and owners or occupants of houses are responsible for their own pest control. Pro Wildlife Removal seals the openings and traps the rats inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "City: outdoor rats only", "Owners handle pests inside"],
   townsHeading: "Rat removal near St. Petersburg",
   townsIntro: "We take rat calls across south and mid-Pinellas, and handle every other animal in St. Pete too.",

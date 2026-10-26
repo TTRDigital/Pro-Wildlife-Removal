@@ -16,10 +16,10 @@ export const clearwaterRats = countyPage({
   heading: "Rat Removal in Clearwater, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Clearwater, FL: roof rats sealed out and trapped, plus what Clearwater's code says about rat harborage.",
-  heroText: "Rats in a Clearwater attic, wall or garage? We seal the gaps, trap the rats inside and clean up. Call (727) 594-7705.",
+  heroText: "Rats in a Clearwater attic, wall or garage? We seal the gaps and trap the rats still inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Clearwater?",
   answer:
-    "In Clearwater, rats on private property are the owner's problem to solve, and the city's code makes letting garbage or debris feed or shelter rats a violation. Pro Wildlife Removal seals the openings, traps the rats inside and cleans up. Call (727) 594-7705.",
+    "In Clearwater, rats on private property are the owner's problem to solve, and the city's code makes letting garbage or debris feed or shelter rats a violation. Pro Wildlife Removal seals the openings and traps the rats still inside. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "City code bans rat harborage", "Trash pickup once a week"],
   townsHeading: "Rat removal near Clearwater",
   townsIntro: "We also handle rats in the towns around Clearwater, and every other animal in Clearwater itself.",
@@ -77,7 +77,7 @@ export const clearwaterRats = countyPage({
   seo: {
     title: "Rat Removal in Clearwater, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Clearwater, FL: roof rats sealed out, trapped and cleaned up, plus what Clearwater's code says about rat harborage. Call (727) 594-7705.",
+      "Rat removal in Clearwater, FL: roof rats sealed out and trapped inside the home, plus what Clearwater's code says about rat harborage. Call (727) 594-7705.",
   },
   sources: [
     { title: "City of Clearwater: Citizens Guide to Code Compliance (CO 24.27 & 32.283: garbage or debris so that rats may be afforded food or harborage; Clearwater Community Development Code Sec. 3-1503.B.5–B.8: debris likely to contain rodents, reptiles or other vermin; grass over 12 inches; Code Compliance (727) 562-4720)", url: GUIDE },

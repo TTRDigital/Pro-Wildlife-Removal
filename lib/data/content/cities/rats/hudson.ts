@@ -13,7 +13,7 @@ export const hudsonRats = countyPage({
   heading: "Rat Removal in Hudson, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Hudson, FL: rats sealed out of attics and walls and trapped inside, plus how garbage and code rules work in unincorporated Pasco.",
-  heroText: "Rats in a Hudson attic, garage or boathouse? We close the gaps, trap the rats inside and clean up. Call (727) 594-7705.",
+  heroText: "Rats in a Hudson attic, garage or boathouse? We close the gaps and trap the rats still inside. Call (727) 594-7705.",
   answerHeading: "Who handles rats in Hudson?",
   answer:
     "Hudson has no city government of its own. It's unincorporated Pasco County, which doesn't take rats out of homes. Garbage service is through a licensed hauler you sign up with yourself. For rats in the attic or walls, call a private company. We close off how they get in and trap the rest. Call (727) 594-7705.",

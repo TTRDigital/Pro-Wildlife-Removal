@@ -19,11 +19,11 @@ export const brooksvilleRats = countyPage({
   eyebrow: "RAT REMOVAL IN BROOKSVILLE",
   heading: "Rat Removal in Brooksville, FL",
   highlight: "Rat Removal",
-  summary: "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed, and droppings cleaned up.",
+  summary: "Rat removal in Brooksville, FL: roof rats out of attics and walls, and the entry points they use sealed.",
   heroText: "Scratching overhead after dark in Brooksville? It's usually roof rats. We find where they get in, seal it, and trap the ones left inside. Call (727) 594-7705.",
   answerHeading: "Who gets rid of rats in Brooksville?",
   answer:
-    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use, traps the rats still inside and cleans up after them. Call (727) 594-7705.",
+    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use and traps the rats still inside the house. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Roof rats in attics", "Seal first, then trap"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the Hernando County seat, a city of about 10,100 people. We take rat calls across the county.",
@@ -74,7 +74,7 @@ export const brooksvilleRats = countyPage({
     ),
     faq(
       "Can rat droppings make my family sick?",
-      "They can. CDC says rodents spread disease through their droppings, urine, saliva and bites. Don't sweep or vacuum droppings. Follow CDC's cleanup steps or have the attic cleaned.",
+      "They can. CDC says rodents spread disease through their droppings, urine, saliva and bites. Don't sweep or vacuum droppings. Follow CDC's cleanup steps before you touch them.",
     ),
     faq(
       "How quickly can you inspect a Brooksville attic for rats?",
@@ -87,7 +87,7 @@ export const brooksvilleRats = countyPage({
   seo: {
     title: "Rat Removal in Brooksville, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed, rats trapped and droppings cleaned up. Call us at (727) 594-7705.",
+      "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed and the rats trapped where they nest. Call us at (727) 594-7705.",
   },
   sources: [
     S.edr,
