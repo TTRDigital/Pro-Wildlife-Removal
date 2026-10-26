@@ -25,7 +25,7 @@ export const atticCleanupCost: Post = {
     ul(
       "**Removal.** Trapping, a one-way door, or removal by hand, depending on the animal and Florida's rules for it.",
       "**Sealing.** Closing the entry hole and the weak spots around it, so the next animal can't use them. This is often the biggest single item on houses with many gaps.",
-      "**Cleanup.** Droppings, urine, nesting and soiled insulation removed, the attic sanitized, and new insulation where the old had to go.",
+      "**Cleanup.** Droppings, urine, nesting and soiled insulation removed, and the attic sanitized.",
     ),
     h3("How the animal changes the job"),
     p("Each animal brings its own rules and its own mess. These differences, all from the agencies' own guidance, are what move the price."),
@@ -41,10 +41,10 @@ export const atticCleanupCost: Post = {
     table(
       ["Factor", "Why it matters"],
       ["How long the animal lived there", "Weeks leave a little mess on top of the insulation. Years can soak through it."],
-      ["Size of the attic", "More square footage of insulation to remove and replace."],
-      ["Type of insulation", "Loose blown-in insulation and batts are removed and replaced differently."],
+      ["Size of the attic", "More square footage of insulation to remove."],
+      ["Type of insulation", "Loose blown-in insulation and batts are removed differently."],
       ["Access", "A low, tight attic with little headroom takes longer to work in."],
-      ["Damage to repair", "Chewed wiring for an electrician, torn ductwork, rotted roof decking near the entry."],
+      ["Damage to repair", "Chewed wiring, torn ductwork or rotted roof decking near the entry, a separate job for an electrician or contractor."],
     ),
     h3("Can you clean the attic yourself?"),
     p(
@@ -65,7 +65,7 @@ export const atticCleanupCost: Post = {
     ul(
       "**Ask for removal, sealing and cleanup as separate lines,** so you can see where the money goes.",
       "**Ask whether every opening is included,** not just the one the animal used.",
-      "**Ask how much insulation will be replaced,** and how they decide.",
+      "**Ask how much insulation will be removed,** and how they decide.",
       "**Ask how they handle droppings safely.** The CDC's rule is never to sweep or vacuum rodent droppings dry.",
       "**Ask what happens if the animal comes back.**",
     ),
@@ -80,8 +80,8 @@ export const atticCleanupCost: Post = {
   ),
   faq: [
     faq("Does homeowners insurance cover attic cleanup after animals?", "It depends on your policy and on the animal. Ask your insurer before work starts, and keep the inspection report and photos."),
-    faq("How long does attic cleanup take?", "[PLACEHOLDER: ask the client: how long a typical attic cleanup takes, from removing insulation to re-insulating]"),
-    faq("Why is cleanup sometimes more than the removal?", "Because the mess builds up the longer the animal stays. A raccoon caught the week it moved in leaves little behind. A rat colony that lived in the attic for a year can mean replacing the insulation across the whole attic."),
+    faq("How long does attic cleanup take?", "[PLACEHOLDER: ask the client: how long a typical attic cleanup takes]"),
+    faq("Why is cleanup sometimes more than the removal?", "Because the mess builds up the longer the animal stays. A raccoon caught the week it moved in leaves little behind. A rat colony that lived in the attic for a year can mean removing the insulation across the whole attic."),
   ],
   seo: {
     title: "Attic Animal Removal and Cleanup Cost | Pro Wildlife Removal",

@@ -24,10 +24,10 @@ export const raccoonRemovalDunedin = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-dunedin",
   county: "Pinellas",
   order: 13,
-  heroText: "A raccoon in the attic or under the deck of your Dunedin home? We find where it's getting in, check for young, remove the raccoons and repair the gap. Call (727) 594-7705.",
+  heroText: "A raccoon in the attic or under the deck of your Dunedin home? We find where it's getting in, check for young, remove the raccoons and seal the gap. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from homes in Dunedin?",
   answer:
-    "A private wildlife company. Pinellas County Animal Services helps with sick or injured wildlife, but a raccoon living in a Dunedin attic or crawl space is the owner's to deal with. Pro Wildlife Removal removes raccoons from Dunedin homes, checks for young before sealing anything and repairs the entry. Call (727) 594-7705.",
+    "A private wildlife company. Pinellas County Animal Services helps with sick or injured wildlife, but a raccoon living in a Dunedin attic or crawl space is the owner's to deal with. Pro Wildlife Removal removes raccoons from Dunedin homes, checks for young first and then seals the entry. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Honeymoon Island: 103 removed", "Bag trash before the cart"],
   localHeading: "Raccoons in Dunedin",
   localIntro: "Dunedin's islands and causeway put it next to some of the most raccoon-heavy ground in Pinellas. The state's own park plans say so.",

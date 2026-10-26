@@ -27,7 +27,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   heroText: "A raccoon in a Marion County attic, barn or feed room, or into the garbage every night? We remove it, look for young before any opening is sealed, and fix the gap it used. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from homes in Marion County?",
   answer:
-    "A private wildlife company. Marion County Animal Services handles strays and bites to pets, and DOH-Marion handles human bites, but a raccoon living in a Marion home or barn is the owner's to have removed. Pro Wildlife Removal takes it out, checks for young and repairs the opening. Call (727) 594-7705.",
+    "A private wildlife company. Marion County Animal Services handles strays and bites to pets, and DOH-Marion handles human bites, but a raccoon living in a Marion home or barn is the owner's to have removed. Pro Wildlife Removal takes it out, checks for young and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Raccoon rabies notices every year", "Ocala to Reddick to Belleview"],
   localHeading: "What to know about raccoons in Marion County",
   localIntro: "Raccoons turn up again and again in Marion's rabies notices, from Fellowship and Blitchton to Belleview and Reddick. Here is what DOH-Marion and the state's records show.",
@@ -77,7 +77,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   seo: {
     title: "Raccoon Removal in Marion County, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Marion County, FL: raccoons out of homes and barns, young checked first and entry points repaired, plus DOH-Marion's rabies notices.",
+      "Raccoon removal in Marion County, FL: raccoons out of homes and barns, young checked first and all entry points sealed, plus DOH-Marion's rabies notices.",
   },
   sources: [
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2022 (Marion: 2 raccoons, 1 bat)", url: "https://www.floridahealth.gov/wp-content/uploads/2025/07/rabies-cases-county-animal-2022.pdf" },

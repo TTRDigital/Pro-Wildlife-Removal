@@ -129,7 +129,7 @@ export const ratsInAttic: Service = {
       cards: [
         { number: "1", title: "Close every gap", text: p("UF/IFAS says rat-proofing only works if it blocks every possible entry: roof returns, vents, plumbing stacks, A/C lines.") },
         { number: "2", title: "Trap those inside", text: p("The rats shut in by the sealing are trapped along their runways until the activity stops.") },
-        { number: "3", title: "Clean and restore", text: p("Droppings, nests and soiled insulation come out, the attic is disinfected, and insulation is replaced where needed.") },
+        { number: "3", title: "Clean up", text: p("Droppings, nests and soiled insulation come out, and the attic is disinfected.") },
       ],
     },
     {
@@ -143,7 +143,7 @@ export const ratsInAttic: Service = {
         { number: "1", title: "Inspection", text: p("The roof, attic and outside walls are checked for every gap and the extent of the droppings.") },
         { number: "2", title: "Sealing", text: p("Openings are closed with rodent-resistant materials, all of them, so no new rats get in.") },
         { number: "3", title: "Trapping and checks", text: p("Rats shut inside are trapped. UF/IFAS warns rats probe new seals in the first two weeks, so the work is checked often then.") },
-        { number: "4", title: "Cleanup", text: p("When the activity stops, the attic is cleaned and re-insulated.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, from inspection to cleanup]") },
+        { number: "4", title: "Cleanup", text: p("When the activity stops, the attic is cleaned.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, from inspection to cleanup]") },
       ],
     },
     {
@@ -153,15 +153,14 @@ export const ratsInAttic: Service = {
       eyebrow: "Attic cleanup",
       heading: "Cleaning an attic after rats",
       body: p(
-        "The CDC's steps for rodent droppings start with airing the space out for 30 minutes and putting on rubber or plastic gloves. Don't sweep or vacuum: soak the droppings and nesting in disinfectant or 1 part bleach to 9 parts water, wait five minutes, wipe up with paper towels, then disinfect the surfaces and wash your hands. That works for a garage shelf. An attic is a bigger job: heat, tight spaces and droppings spread through inches of insulation, which can't be wiped clean. Soiled insulation is bagged and removed, the attic floor and framing are cleaned and disinfected, and new insulation goes in once the space is sealed and clear.",
+        "The CDC's steps for rodent droppings start with airing the space out for 30 minutes and putting on rubber or plastic gloves. Don't sweep or vacuum: soak the droppings and nesting in disinfectant or 1 part bleach to 9 parts water, wait five minutes, wipe up with paper towels, then disinfect the surfaces and wash your hands. That works for a garage shelf. An attic is a bigger job: heat, tight spaces and droppings spread through inches of insulation, which can't be wiped clean. Soiled insulation is bagged and removed, and the attic floor and framing are cleaned and disinfected.",
       ),
       checklist: [
         "Soiled insulation bagged and removed",
         "Droppings and nests cleared from the attic floor and eaves",
         "Surfaces disinfected",
-        "New insulation installed where the old had to go",
         "Chewed wiring flagged for an electrician",
-        "[PLACEHOLDER: ask the client: what insulation you install after cleanup, and whether attic restoration is quoted separately]",
+        "[PLACEHOLDER: ask the client: whether attic cleanup is quoted separately]",
       ],
       imageSide: "left",
     },

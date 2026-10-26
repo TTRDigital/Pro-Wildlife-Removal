@@ -17,10 +17,10 @@ export const squirrelRemovalTampa = servicePlacePage({
   location: "about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl",
   county: "Hillsborough",
   order: 4,
-  heroText: "Squirrels chewing into a Tampa soffit or running across the attic in the morning? We check for babies, get them out the way Florida law allows and repair the chewed entry. Call (727) 594-7705.",
+  heroText: "Squirrels chewing into a Tampa soffit or running across the attic in the morning? We check for babies, get them out the way Florida law allows and seal the chewed entry. Call (727) 594-7705.",
   answerHeading: "Who removes squirrels from attics in Tampa?",
   answer:
-    "A private wildlife company. The City of Tampa sends wildlife on private property to private removal services. Pro Wildlife Removal finds where squirrels chewed in, checks for a nest of young, removes them the way Florida law allows and repairs the roofline. Call (727) 594-7705.",
+    "A private wildlife company. The City of Tampa sends wildlife on private property to private removal services. Pro Wildlife Removal finds where squirrels chewed in, checks for a nest of young, removes them the way Florida law allows and seals the roofline. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "42% of Tampa's canopy is on homes", "Big trees need a pruning permit"],
   localHeading: "What to know about squirrels in Tampa",
   localIntro: "Squirrels follow the trees, and Tampa has millions of them, many right over the roofs.",
@@ -69,7 +69,7 @@ export const squirrelRemovalTampa = servicePlacePage({
   seo: {
     title: "Squirrel Removal in Tampa, FL | Pro Wildlife Removal",
     description:
-      "Squirrel removal in Tampa, FL: squirrels out of attics and soffits, babies checked for, chewed entries repaired, and Tampa's tree rules. (727) 594-7705.",
+      "Squirrel removal in Tampa, FL: squirrels out of attics and soffits, babies checked for, chewed entries sealed, and Tampa's tree rules. (727) 594-7705.",
   },
   sources: [
     { title: "City of Tampa: Tree canopy analysis (10,401,421 trees; 114 tree and palm species; 86% native)", url: CANOPY },

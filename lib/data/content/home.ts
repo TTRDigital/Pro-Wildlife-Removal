@@ -72,7 +72,7 @@ export const home: PageContent = {
           number: "3",
           title: "Clean-Up Services",
           text: p(
-            "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments, ozone treatments, attic restorations, to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
+            "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments and ozone treatments to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
           ),
         },
       ],
@@ -98,11 +98,11 @@ export const home: PageContent = {
       ),
       checklist: [
         "A free inspection, and the price for your home before any work starts",
-        "[PLACEHOLDER: ask the client: confirm wildlife removal is all you do (no general pest control)]",
+        "Wildlife removal only, for all kinds of animals, with no general pest control",
         "Humane methods that follow Florida Fish and Wildlife Conservation Commission rules",
         "Entry points sealed and the mess cleaned up, not just the animal taken away",
         "Founded in 2016 by Josh Holmberg, with 15 years in wildlife removal",
-        "[PLACEHOLDER: ask the client: number of jobs done, or the current Google rating and review count to show here]",
+        "Rated 4.7 from 273 Google reviews",
       ],
       image: images.prowildlifeRemovalAgentHoldingAnIguanaa,
       imageSide: "right",

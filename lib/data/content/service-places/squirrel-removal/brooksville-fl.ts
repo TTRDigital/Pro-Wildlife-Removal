@@ -24,10 +24,10 @@ export const squirrelRemovalBrooksville = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   county: "Hernando",
   order: 41,
-  heroText: "Squirrels chewing into a Brooksville roofline or racing across the attic every morning? We find the hole, get them and any young out, and repair the entry. Call (727) 594-7705.",
+  heroText: "Squirrels chewing into a Brooksville roofline or racing across the attic every morning? We find the hole, get them and any young out, and seal the entry. Call (727) 594-7705.",
   answerHeading: "Who gets squirrels out of Brooksville attics?",
   answer:
-    "A private wildlife company. Brooksville sits among state forest and wildlife areas where FWC lists squirrels, and FWC says the gray squirrel will sometimes nest in an attic when it finds a way in. Pro Wildlife Removal looks for that way in, removes the squirrels and any nest, and repairs the opening. Call (727) 594-7705.",
+    "A private wildlife company. Brooksville sits among state forest and wildlife areas where FWC lists squirrels, and FWC says the gray squirrel will sometimes nest in an attic when it finds a way in. Pro Wildlife Removal looks for that way in, removes the squirrels and any nest, and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Fox squirrel country", "Gray squirrels sometimes nest in attics"],
   localHeading: "What to know about squirrels in Brooksville",
   localIntro: "State forest and wildlife areas surround Brooksville. Here is where FWC and the forest service say its squirrels live.",
@@ -72,7 +72,7 @@ export const squirrelRemovalBrooksville = servicePlacePage({
   seo: {
     title: "Squirrel Removal in Brooksville, FL | Pro Wildlife Removal",
     description:
-      "Squirrel removal in Brooksville, FL: gray squirrels out of attics, nests checked first, entry holes repaired, plus the fox squirrel areas all around town.",
+      "Squirrel removal in Brooksville, FL: gray squirrels out of attics, nests checked first, entry holes sealed, plus the fox squirrel areas all around town.",
   },
   sources: [
     { title: "FWC: Chinsegut Wildlife and Environmental Area (fox squirrels among the wildlife; Hernando County, six miles north of Brooksville)", url: CHIN },

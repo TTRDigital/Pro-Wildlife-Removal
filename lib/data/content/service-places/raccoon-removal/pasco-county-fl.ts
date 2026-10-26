@@ -25,7 +25,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   heroText: "Thumping overhead, a torn soffit or a raccoon raiding the hen house? We get raccoons out of Pasco homes, check for young and close the way in. Call (727) 594-7705.",
   answerHeading: "Who handles a raccoon in a Pasco County home?",
   answer:
-    "Pasco County Animal Services' emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and repairs the opening. Call (727) 594-7705.",
+    "Pasco County Animal Services' emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "A rabies alert and advisory in 2026", "Young often in spring"],
   localHeading: "What to know about raccoons in Pasco County",
   localIntro: "Raccoons lead Pasco's rabies records. These are the local facts and rules that matter before one is trapped or moved.",
@@ -75,7 +75,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   seo: {
     title: "Raccoon Removal in Pasco County, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Pasco County, FL: raccoons out of attics and crawl spaces, young found first, entry repaired, plus Pasco's 2026 rabies alerts and rules.",
+      "Raccoon removal in Pasco County, FL: raccoons out of attics and crawl spaces, young found first, entry sealed, plus Pasco's 2026 rabies alerts and rules.",
   },
   sources: [
     { title: "Pasco County: Rabies awareness (24 positive animals 2013-2023: 17 raccoons, 6 cats, 1 bat; avoid feeding or touching wildlife)", url: RABIES },

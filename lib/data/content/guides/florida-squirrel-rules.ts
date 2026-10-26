@@ -49,7 +49,7 @@ export const floridaSquirrelRules: Post = {
     ),
     h3("The part that actually fixes it"),
     p(
-      "Removing a squirrel without closing the hole it chewed just leaves room for the next one. Check for a nest of young before anything is sealed, and repair the roofline afterward. See [squirrels in the attic](/services/squirrels-in-attic/), [squirrel removal](/services/squirrel-removal/) and [why squirrels come back](/blog/why-squirrels-return-after-removal/), or call (727) 594-7705.",
+      "Removing a squirrel without closing the hole it chewed just leaves room for the next one. Check for a nest of young before anything is sealed, and close the roofline afterward. See [squirrels in the attic](/services/squirrels-in-attic/), [squirrel removal](/services/squirrel-removal/) and [why squirrels come back](/blog/why-squirrels-return-after-removal/), or call (727) 594-7705.",
     ),
   ),
   faq: [

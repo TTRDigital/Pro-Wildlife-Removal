@@ -23,10 +23,10 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-hernando-county-fl",
   order: 53,
-  heroText: "Squirrels in the soffit, chewed fascia or scurrying overhead during the day? We find where they got into your Hernando home, get them and any young out and repair the opening. Call (727) 594-7705.",
+  heroText: "Squirrels in the soffit, chewed fascia or scurrying overhead during the day? We find where they got into your Hernando home, get them and any young out and seal the opening. Call (727) 594-7705.",
   answerHeading: "Who removes squirrels from Hernando County homes?",
   answer:
-    "A private wildlife company. FWC says eastern gray squirrels will sometimes nest in attics or other structures when they can get in. Pro Wildlife Removal finds the entry, removes the squirrels and any nest of young, and repairs the opening it used. Call (727) 594-7705.",
+    "A private wildlife company. FWC says eastern gray squirrels will sometimes nest in attics or other structures when they can get in. Pro Wildlife Removal finds the entry, removes the squirrels and any nest of young, and seals the opening it used. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Fox squirrels on three FWC areas", "Litters up to twice a year"],
   localHeading: "What to know about squirrels in Hernando County",
   localIntro: "Hernando's state lands are home to both gray and fox squirrels. Here is where official pages say they live, and what that means for a homeowner.",
@@ -70,7 +70,7 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
   seo: {
     title: "Squirrel Removal Hernando County, FL | Pro Wildlife Removal",
     description:
-      "Squirrel removal in Hernando County, FL: gray squirrels out of attics, young checked for first, openings repaired, and where Hernando's fox squirrels live.",
+      "Squirrel removal in Hernando County, FL: gray squirrels out of attics, young checked for first, openings sealed, and where Hernando's fox squirrels live.",
   },
   sources: [
     { title: "FWC: Chinsegut Wildlife and Environmental Area (fox squirrels among the wildlife; Hernando County)", url: CHIN },

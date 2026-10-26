@@ -20,10 +20,10 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
   placeName: "Polk County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-polk-county",
-  heroText: "Running and chewing overhead in a Polk County attic? We find where the squirrels get in, get them out and repair the soffit, vent or roofline they used. Call (727) 594-7705.",
+  heroText: "Running and chewing overhead in a Polk County attic? We find where the squirrels get in, get them out and seal the soffit, vent or roofline gap they used. Call (727) 594-7705.",
   answerHeading: "Who removes squirrels from an attic in Polk County?",
   answer:
-    "A private wildlife company. Gray squirrels, which UF/IFAS says easily adapt to urban and residential areas, are listed from Tenoroc near Lakeland to the Upper Hillsborough area. Pro Wildlife Removal finds the opening a squirrel uses, gets it out of the attic and repairs the damage. Call (727) 594-7705.",
+    "A private wildlife company. Gray squirrels, which UF/IFAS says easily adapt to urban and residential areas, are listed from Tenoroc near Lakeland to the Upper Hillsborough area. Pro Wildlife Removal finds the opening a squirrel uses, gets it out of the attic and seals the way in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Gray squirrels common near Lakeland", "Fox squirrels in Polk preserves"],
   localHeading: "What to know about squirrels in Polk County",
   localIntro: "Two kinds of squirrel turn up on Polk's public lands. These facts come from FWC, the water management district, Polk County's park pages and the state health department.",

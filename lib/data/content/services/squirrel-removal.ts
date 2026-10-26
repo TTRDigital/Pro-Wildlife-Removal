@@ -19,16 +19,16 @@ export const squirrelRemoval: Service = {
   group: "removal",
   animal: "squirrel",
   order: 4,
-  summary: "Squirrels out of the attic, babies checked for first, the chewed entry repaired and the roofline sealed.",
+  summary: "Squirrels out of the attic, babies checked for first, the chewed entry and the roofline sealed.",
   cardImage: images.squirrelRemoval2,
   design: "new",
   hero: {
     eyebrow: "SQUIRREL REMOVAL",
     heading: "Squirrel Removal in Central Florida",
     highlight: "Squirrel Removal",
-    text: p("Running and gnawing in the attic in the morning? We get the squirrels out, repair the hole they chewed and close the roofline so they stay out."),
+    text: p("Running and gnawing in the attic in the morning? We get the squirrels out, seal the hole they chewed and close the roofline so they stay out."),
     image: images.squirrelRemoval2,
-    badges: ["Chewed entries repaired", "Babies checked for first"],
+    badges: ["Chewed entries sealed", "Babies checked for first"],
   },
   sections: [
     {
@@ -36,9 +36,9 @@ export const squirrelRemoval: Service = {
       _key: "answer",
       heading: "How do you get squirrels out of the attic in Florida?",
       text: p(
-        "Check for a nest of young first, then get the squirrels out with a one-way door or cage traps, and repair every gap along the roofline. Florida squirrels have litters in spring and autumn. A trapped squirrel can only be released on site or on approved land in the same county. Call (727) 594-7705.",
+        "Check for a nest of young first, then get the squirrels out with a one-way door or cage traps, and seal every gap along the roofline. Florida squirrels have litters in spring and autumn. A trapped squirrel can only be released on site or on approved land in the same county. Call (727) 594-7705.",
       ),
-      points: ["Daytime noise", "Litters spring and fall", "Gray and flying only", "Roofline repaired"],
+      points: ["Daytime noise", "Litters spring and fall", "Gray and flying only", "Roofline sealed"],
     },
     {
       _type: "cardsSection",
@@ -127,7 +127,7 @@ export const squirrelRemoval: Service = {
         {
           number: "3",
           title: "Seal every entry",
-          text: p("With the attic empty, chewed openings are rebuilt and covered with metal or other material squirrels can't gnaw, and branches touching the roof get flagged for trimming."),
+          text: p("With the attic empty, chewed openings are covered with metal or other material squirrels can't gnaw, and branches touching the roof get flagged for trimming."),
         },
         {
           number: "4",
@@ -156,18 +156,17 @@ export const squirrelRemoval: Service = {
     {
       _type: "splitSection",
       _key: "sealing",
-      eyebrow: "Repairs and cleanup",
+      eyebrow: "Sealing and cleanup",
       heading: "Closing the roof",
       body: p(
-        "Squirrels that lived in an attic know the way back, and a patch of wood is just something new to chew. The repair has to be stronger than the material they chewed through, and it has to cover the other weak spots too, or they'll open the next one.",
+        "Squirrels that lived in an attic know the way back, and a patch of wood is just something new to chew. The seal has to be stronger than the material they chewed through, and it has to cover the other weak spots too, or they'll open the next one.",
       ),
       checklist: [
-        "Chewed fascia, soffit and roof edges rebuilt",
+        "Chewed fascia, soffit and roof-edge holes sealed; rotted wood is a repair for the owner's contractor",
         "Openings covered with chew-resistant material [PLACEHOLDER: ask the client: what material you use]",
         "Attic vents and gable screens checked and reinforced",
         "Nest material and droppings removed from the attic",
-        "Insulation the squirrels flattened or soiled replaced where needed",
-        "[PLACEHOLDER: ask the client: is there a warranty on squirrel repairs, and how long?]",
+        "[PLACEHOLDER: ask the client: is there a warranty on squirrel sealing work, and how long?]",
       ],
       image: images.squirrelRemoval2,
       imageSide: "left",
@@ -178,14 +177,14 @@ export const squirrelRemoval: Service = {
       tone: "tint",
       eyebrow: "Cost",
       heading: "What squirrel removal costs depends on",
-      intro: p("The price is set after the inspection. Most of the difference between jobs is in the repairs."),
+      intro: p("The price is set after the inspection. Most of the difference between jobs is in the sealing."),
       variant: "plain",
       columns: 2,
       cards: [
         { title: "How many holes", text: p("One chewed corner, or a roof with several entries and weak vents.") },
-        { title: "The repair work", text: p("Patching a soffit corner versus rebuilding a run of rotted fascia.") },
+        { title: "The sealing work", text: p("Closing one soffit corner versus a long run of roof-edge gaps.") },
         { title: "Removal method", text: p("A one-way door, or traps that need return visits.") },
-        { title: "Attic cleanup", text: p("Removing nests and droppings, and replacing insulation if needed.") },
+        { title: "Attic cleanup", text: p("Removing nests and droppings.") },
       ],
       outro: p("Our squirrel inspection is free, and you see the price before anything is done."),
     },
@@ -228,7 +227,7 @@ export const squirrelRemoval: Service = {
         ),
         faq(
           "Why do squirrels keep coming back after removal?",
-          "Because the roof still has a way in. Squirrels chew through soft patches and find the next weak spot. The fix is a proper repair of every opening. Read [why squirrels return after removal](/blog/why-squirrels-return-after-removal/).",
+          "Because the roof still has a way in. Squirrels chew through soft patches and find the next weak spot. The fix is sealing every opening properly. Read [why squirrels return after removal](/blog/why-squirrels-return-after-removal/).",
         ),
         faq(
           "Will trimming my trees help?",
@@ -260,7 +259,7 @@ export const squirrelRemoval: Service = {
   seo: {
     title: "Squirrel Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Squirrels in the attic? We check for babies, remove squirrels the way Florida law allows and repair the chewed entry in Central Florida. (727) 594-7705.",
+      "Squirrels in the attic? We check for babies, remove squirrels the way Florida law allows and seal the chewed entries in Central Florida. (727) 594-7705.",
   },
   sources: [
     { title: "FWC: Living with Squirrels flyer, June 2026 (three native species; breed twice a year, spring and autumn; teeth grow constantly; common entry points; trim limbs; squirrel in the house; 68A-9.010 nuisance take of gray and flying squirrels; cage traps; 24-hour checks; release on site or 40+ acres same county with written permission, or euthanize; Big Cypress fox squirrel needs a permit; Dec 31, 2026 rule change)", url: FLYER },

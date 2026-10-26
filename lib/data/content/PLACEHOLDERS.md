@@ -1,24 +1,22 @@
 # Open client questions (placeholders) in the preview content
 
-Generated Oct 26, 2026 from the site data. Placeholders are hidden on the site until answered. 189 placeholders. Price placeholders were deleted (Kia, Oct 26: no prices for now).
+Regenerated Oct 26, 2026 after the client answers (scope: wildlife removal only, no general pest control; no building repairs, owners arrange those with a contractor; bees removed without a beekeeper; 4.7 from 273 Google reviews may be shown). Price placeholders were deleted (no prices for now). Placeholders are hidden on the site until answered. 185 placeholders.
+
+Still open with the client: response time, methods and job length, warranty, attic clean-up, Polk County, and the license number.
 
 ## Summary by theme
 
-Most placeholders repeat a handful of questions per page. Answering these once covers nearly all of them:
-
 - **Response time / how soon:** 75 placeholders
-- **Reviews, ratings and job photos:** 65 placeholders
+- **Reviews, ratings and job photos:** 64 placeholders
 - **Warranties and follow-up:** 4 placeholders
-- **Methods, traps and job length:** 15 placeholders
-- **Service scope (what you do / don't do):** 18 placeholders
-- **Other (page-specific):** 11
+- **Methods, traps and job length:** 25 placeholders
+- **Service scope:** 12 placeholders
+- **Other (page-specific):** 5
 
 ## Full list
 
 | Page | URL | What we need from the client |
 |---|---|---|
-| Page: home | / | confirm wildlife removal is all you do (no general pest control) |
-| Page: home | / | number of jobs done, or the current Google rating and review count to show here |
 | Page: home | / | typical response time for emergencies and for regular inspections |
 | Service: Bat Removal | /services/bat-removal/ | is there a warranty on bat exclusion work, and how long? |
 | Service: Bat Removal | /services/bat-removal/ | how long a typical bat job takes from first visit to final sealing |
@@ -27,11 +25,11 @@ Most placeholders repeat a handful of questions per page. Answering these once c
 | Service: Rat Removal | /services/rat-removal/ | how long a typical rat job takes |
 | Service: Raccoon Removal | /services/raccoon-removal/ | confirm how you handle a mother with kits (reuniting, use of a heated box, etc.) |
 | Service: Raccoon Removal | /services/raccoon-removal/ | what you do with trapped raccoons (release on site, release on permitted land, or euthanasia) |
-| Service: Raccoon Removal | /services/raccoon-removal/ | is there a warranty on raccoon repairs and sealing, and how long? |
+| Service: Raccoon Removal | /services/raccoon-removal/ | is there a warranty on raccoon sealing work, and how long? |
 | Service: Raccoon Removal | /services/raccoon-removal/ | night and weekend response for a raccoon loose in the living space |
 | Service: Squirrel Removal | /services/squirrel-removal/ | confirm your usual method (one-way doors, cage traps or both) and how often traps are checked |
 | Service: Squirrel Removal | /services/squirrel-removal/ | what material you use |
-| Service: Squirrel Removal | /services/squirrel-removal/ | is there a warranty on squirrel repairs, and how long? |
+| Service: Squirrel Removal | /services/squirrel-removal/ | is there a warranty on squirrel sealing work, and how long? |
 | Service: Snake Removal | /services/snake-removal/ | describe how you capture snakes, venomous and not |
 | Service: Snake Removal | /services/snake-removal/ | where you release snakes, and how you handle venomous ones |
 | Service: Snake Removal | /services/snake-removal/ | typical response time for a snake inside the home |
@@ -40,27 +38,25 @@ Most placeholders repeat a handful of questions per page. Answering these once c
 | Service: Armadillo Removal | /services/armadillo-removal/ | do you install exclusion fencing or wire along foundations? |
 | Service: Armadillo Removal | /services/armadillo-removal/ | confirm whether you install buried fencing or wire, so this cost factor can stay |
 | Service: Bee Removal | /services/bee-removal/ | which stinging insects you handle (honey bees, carpenter bees, bumble bees, wasps or yellow jackets) |
-| Service: Bee Removal | /services/bee-removal/ | how you handle bees (live removal by a registered beekeeper, eradication, or both) and who does the work; this decides what the page can say |
+| Service: Bee Removal | /services/bee-removal/ | how you handle bees and who does the work; this decides what the page can say |
 | Service: Bee Removal | /services/bee-removal/ | who removes the colony and comb, and how |
-| Service: Bee Removal | /services/bee-removal/ | do you seal and repair the opening after a bee job? |
-| Service: Bee Removal | /services/bee-removal/ | do you repair the wall or soffit you open, or does the owner arrange the repair? |
+| Service: Bee Removal | /services/bee-removal/ | do you seal the opening after a bee job? |
 | Service: Dead Animal Removal | /services/dead-animal-removal/ | do you remove dead animals from engine bays? |
-| Service: Dead Animal Removal | /services/dead-animal-removal/ | do you cut and patch drywall yourselves, or does the owner arrange the repair? |
 | Service: Dead Animal Removal | /services/dead-animal-removal/ | what odor treatment you use, and do you return if the smell lingers? |
 | Service: Dead Animal Removal | /services/dead-animal-removal/ | confirm the places you remove dead animals from (crawl spaces, under decks and sheds, attics, walls, vents, yards, engine bays) |
 | Service: Rats in the Attic | /services/rats-in-attic/ | how long a typical rat job takes, from inspection to cleanup |
-| Service: Rats in the Attic | /services/rats-in-attic/ | what insulation you install after cleanup, and whether attic restoration is quoted separately |
+| Service: Rats in the Attic | /services/rats-in-attic/ | whether attic cleanup is quoted separately |
 | Service: Bats in the Attic | /services/bats-in-attic/ | how long a typical bat job takes once the exclusion starts |
 | Service: Bats in the Attic | /services/bats-in-attic/ | confirm your protective gear for guano cleanup |
-| Service: Bats in the Attic | /services/bats-in-attic/ | how you handle guano cleanup and insulation replacement, and whether it's quoted separately |
+| Service: Bats in the Attic | /services/bats-in-attic/ | how you handle guano cleanup, and whether it's quoted separately |
 | Service: Bats in the Attic | /services/bats-in-attic/ | how you decide how much insulation to replace after bats |
 | Service: Raccoons in the Attic | /services/raccoons-in-attic/ | confirm how you remove a raccoon family |
 | Service: Raccoons in the Attic | /services/raccoons-in-attic/ | how long a typical raccoon job takes, start to finish |
 | Service: Raccoons in the Attic | /services/raccoons-in-attic/ | confirm your protective gear and latrine cleanup method |
-| Service: Raccoons in the Attic | /services/raccoons-in-attic/ | how you treat a raccoon latrine and replace insulation, and whether it's quoted separately |
+| Service: Raccoons in the Attic | /services/raccoons-in-attic/ | how you treat a raccoon latrine, and whether it's quoted separately |
 | Service: Squirrels in the Attic | /services/squirrels-in-attic/ | how long a typical squirrel job takes |
-| Service: Squirrels in the Attic | /services/squirrels-in-attic/ | what material you use to cover squirrel repairs |
-| Service: Squirrels in the Attic | /services/squirrels-in-attic/ | is attic cleanup after squirrels quoted separately from the removal and repairs? |
+| Service: Squirrels in the Attic | /services/squirrels-in-attic/ | what material you use to seal squirrel entry points |
+| Service: Squirrels in the Attic | /services/squirrels-in-attic/ | is attic cleanup after squirrels quoted separately from the removal and sealing? |
 | Service: Opossums in the Attic | /services/opossums-in-attic/ | how long a typical opossum job takes |
 | Service: Opossums in the Attic | /services/opossums-in-attic/ | is attic or crawl space cleanup after opossums quoted separately? |
 | Location: Citrus County (county) | /about-us/service-area/wildlife-removal-in-citrus-county-fl/ | typical response time in Citrus County |
@@ -205,4 +201,4 @@ Most placeholders repeat a handful of questions per page. Answering these once c
 | Place: raccoon-removal St. Petersburg | /services/raccoon-removal/st-petersburg-fl/ | typical response time for a raccoon call in St. Petersburg |
 | Place: raccoon-removal Dunedin | /services/raccoon-removal/dunedin-fl/ | a real Google review from a Dunedin raccoon job, quoted exactly as on Google (TTR-723) |
 | Place: raccoon-removal Dunedin | /services/raccoon-removal/dunedin-fl/ | typical response time for a raccoon call in Dunedin |
-| Post: Animal in the Attic: Removal and Cleanup Cost in Florida | /blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/ | how long a typical attic cleanup takes, from removing insulation to re-insulating |
+| Post: Animal in the Attic: Removal and Cleanup Cost in Florida | /blog/attic-wildlife-cleanup-cost-in-florida-prices-tips/ | how long a typical attic cleanup takes |

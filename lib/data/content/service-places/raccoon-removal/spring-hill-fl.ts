@@ -22,7 +22,7 @@ export const raccoonRemovalSpringHill = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-spring-hill-fl",
   county: "Hernando",
   order: 30,
-  heroText: "A raccoon denning under a Spring Hill house, in the attic or raiding the blue cart? We get it out, look for young first and repair how it got in. Call (727) 594-7705.",
+  heroText: "A raccoon denning under a Spring Hill house, in the attic or raiding the blue cart? We get it out, look for young first and seal how it got in. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from Spring Hill homes?",
   answer:
     "A private wildlife company. Hernando County Animal Services, part of the Sheriff's Office, lists pet services like surrenders, lost pets and dangerous dogs; wildlife isn't among them. For a raccoon in a Spring Hill attic or under the house, Pro Wildlife Removal takes it out, checks for young and closes the gap it used. Call (727) 594-7705.",

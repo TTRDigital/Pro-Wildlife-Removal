@@ -25,10 +25,10 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-safety-harbor",
   county: "Pinellas",
   order: 80,
-  heroText: "A raccoon in a Safety Harbor attic, under the porch or into the garbage barrel every night? We get it out, look for young first and repair the opening it used. Call (727) 594-7705.",
+  heroText: "A raccoon in a Safety Harbor attic, under the porch or into the garbage barrel every night? We get it out, look for young first and seal the opening it used. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from Safety Harbor homes?",
   answer:
-    "A private wildlife company. The City of Safety Harbor handles dead animals on its rights-of-way, not live raccoons in homes. Pro Wildlife Removal takes raccoons out of Safety Harbor attics, crawl spaces and sheds, checks for young before anything is sealed and repairs the way in. Call (727) 594-7705.",
+    "A private wildlife company. The City of Safety Harbor handles dead animals on its rights-of-way, not live raccoons in homes. Pro Wildlife Removal takes raccoons out of Safety Harbor attics, crawl spaces and sheds, checks for young first and then seals the way in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Barrel lids must close", "No releases in county parks"],
   localHeading: "What to know about raccoons in Safety Harbor",
   localIntro: "Safety Harbor has a raccoon story that ended up in court, and rules from the city and county that bear on raccoons. Here are the local facts.",
@@ -75,7 +75,7 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
   seo: {
     title: "Raccoon Removal in Safety Harbor, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Safety Harbor, FL: raccoons out of attics, crawl spaces and sheds, young checked first, entry repaired, plus city and county rules.",
+      "Raccoon removal in Safety Harbor, FL: raccoons out of attics, crawl spaces and sheds, young checked first, entry sealed, plus city and county rules.",
   },
   sources: [
     { title: "St. Petersburg Times, Nov. 18, 1993 (Tampa Bay Times archive): Safety Harbor man admits he killed raccoon (Rocky; Fifth Avenue N neighborhood; neighbors named and fed it for two years; got into somebody's garbage; 'tired of picking up garbage every day'; raccoons everywhere in his neighborhood; guilty plea to animal cruelty; year of house arrest, year of probation, $200 fine)", url: TIMES },

@@ -25,7 +25,7 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
   heroText: "Running and gnawing in the attic during the day? That's usually a gray squirrel. We find the hole, get the squirrels out and close the roofline behind them. Call (727) 594-7705.",
   answerHeading: "Who removes squirrels from attics in Pasco County?",
   answer:
-    "A private wildlife company. In Pasco County the squirrel in your attic is usually an eastern gray squirrel, which FWC says will sometimes nest in attics when it can get in. Pro Wildlife Removal finds the entry, gets the squirrels and any young out, and repairs the roofline where they got in. Call (727) 594-7705.",
+    "A private wildlife company. In Pasco County the squirrel in your attic is usually an eastern gray squirrel, which FWC says will sometimes nest in attics when it can get in. Pro Wildlife Removal finds the entry, gets the squirrels and any young out, and seals the roofline where they got in. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Gray squirrels sometimes nest in attics", "Fox squirrels: hands off"],
   localHeading: "What to know about squirrels in Pasco County",
   localIntro: "Pasco has both of Florida's tree squirrels, the common gray and the much rarer fox squirrel. Here is where they live and what the rules say.",
@@ -68,7 +68,7 @@ export const squirrelRemovalPascoCounty = servicePlacePage({
   seo: {
     title: "Squirrel Removal in Pasco County, FL | Pro Wildlife Removal",
     description:
-      "Squirrel removal in Pasco County, FL: gray squirrels out of attics, babies checked first, rooflines repaired, and where Pasco's rare fox squirrels live.",
+      "Squirrel removal in Pasco County, FL: gray squirrels out of attics, babies checked first, rooflines sealed, and where Pasco's rare fox squirrels live.",
   },
   sources: [
     { title: "FDACS Florida Forest Service: Withlacoochee State Forest (counties: Citrus, Hernando, Lake, Pasco, Sumter; fox squirrel and gray squirrel among wildlife seen)", url: WSF },

@@ -23,10 +23,10 @@ export const raccoonRemovalOcala = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-ocala-fl",
   county: "Marion",
   order: 93,
-  heroText: "A raccoon in an Ocala attic, under the deck or in the garbage every night? We get it out, check for young before anything is sealed and repair the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in an Ocala attic, under the deck or in the garbage every night? We get it out, check for young first, then seal the way in. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons from Ocala homes?",
   answer:
-    "A private wildlife company. DOH-Marion's alerts point Ocala residents to Marion County Animal Services for strays and bitten pets and to the health department for bites; neither is named for a raccoon in the attic. Pro Wildlife Removal gets the raccoon out of an Ocala home, checks for young and repairs the opening. Call (727) 594-7705.",
+    "A private wildlife company. DOH-Marion's alerts point Ocala residents to Marion County Animal Services for strays and bitten pets and to the health department for bites; neither is named for a raccoon in the attic. Pro Wildlife Removal gets the raccoon out of an Ocala home, checks for young and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "Three Ocala-area raccoon alerts since 2024", "Never handle a raccoon"],
   localHeading: "What to know about raccoons in Ocala",
   localIntro: "Rabid raccoons have set off three DOH-Marion alerts in and around Ocala since 2024, and more across the county. Here is what the records show.",
@@ -76,7 +76,7 @@ export const raccoonRemovalOcala = servicePlacePage({
   seo: {
     title: "Raccoon Removal in Ocala, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Ocala, FL: raccoons out of attics and crawl spaces, young checked first and entry points repaired, plus Ocala's recent rabies alerts.",
+      "Raccoon removal in Ocala, FL: raccoons out of attics and crawl spaces, young checked first and entry points sealed, plus Ocala's recent rabies alerts.",
   },
   sources: [
     { title: "DOH-Marion: Rabies alert, May 3, 2024 (two raccoons captured April 26, 2024; Rainbow Lakes Estates and southwest Ocala areas; 60 days; two sets of boundaries: SW 52nd St. to SW 80th St., SW 80th Ave. to SW 110th Ave.; and Pine Bluffs Blvd. to Tiger Lake Blvd./SW 59th Lane, Bluegill Road to Persimmon Lane)", url: A2024 },

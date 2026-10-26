@@ -25,10 +25,10 @@ export const raccoonRemovalTheVillages = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-the-villages",
   county: "Sumter",
   order: 94,
-  heroText: "A raccoon in the garage, under the lanai or tearing into trash bags in The Villages? We get it out, check for young before anything is closed and repair the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in the garage, under the lanai or tearing into trash bags in The Villages? We get it out, check for young before anything is closed and seal the way in. Call (727) 594-7705.",
   answerHeading: "Who removes raccoons in The Villages?",
   answer:
-    "A private trapper. Sumter County lists raccoons as nuisance wildlife, says its Animal Services generally deals only with domestic animals, and refers residents to private trappers. Pro Wildlife Removal gets raccoons out of homes in The Villages, checks for young and repairs the opening. Call (727) 594-7705.",
+    "A private trapper. Sumter County lists raccoons as nuisance wildlife, says its Animal Services generally deals only with domestic animals, and refers residents to private trappers. Pro Wildlife Removal gets raccoons out of homes in The Villages, checks for young and seals the opening. Call (727) 594-7705.",
   points: ["Call (727) 594-7705", "A 2019 rabies warning", "Lake, Sumter and Marion"],
   localHeading: "What to know about raccoons in The Villages",
   localIntro: "Raccoons in The Villages have made the news for rabies scares and nature-trail photos alike. Here is what the reports and the county records show.",
@@ -77,7 +77,7 @@ export const raccoonRemovalTheVillages = servicePlacePage({
   seo: {
     title: "Raccoon Removal in The Villages, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in The Villages, FL: raccoons out of garages, lanais and attics, young checked first, openings repaired, plus the 2019 rabies reports.",
+      "Raccoon removal in The Villages, FL: raccoons out of garages, lanais and attics, young checked first, openings sealed, plus the 2019 rabies reports.",
   },
   sources: [
     { title: "Villages-News, Dec. 4, 2019: Residents warned after raccoon found near The Villages tests positive for rabies (Marion and Sumter health departments; Summerfield/Oxford area and northwest portion of The Villages)", url: WARNING },

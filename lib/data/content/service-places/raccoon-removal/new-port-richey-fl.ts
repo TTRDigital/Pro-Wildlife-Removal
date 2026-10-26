@@ -22,7 +22,7 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-new-port-richey",
   county: "Pasco",
   order: 24,
-  heroText: "A raccoon in a New Port Richey attic, under a river house or tipping the trash cart? We get it out, look for young and repair the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in a New Port Richey attic, under a river house or tipping the trash cart? We get it out, look for young and seal the way in. Call (727) 594-7705.",
   answerHeading: "Who takes care of raccoons in New Port Richey?",
   answer:
     "New Port Richey sends all animal control matters to Pasco County, and the county's emergency service is for stray pets and dangerous animals. A raccoon living in your attic, chimney or crawl space is a job for a private company. Pro Wildlife Removal removes it, checks for kits and fixes the opening. Call (727) 594-7705.",
