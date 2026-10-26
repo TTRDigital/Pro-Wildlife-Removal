@@ -39,7 +39,7 @@ export const clearwaterRats = countyPage({
   localIntro: "Clearwater's code compliance guide and trash rules are unusually direct about rats. Here's what they say.",
   local: [
     { icon: "home", title: "Harborage is illegal", text: p("City ordinance makes it unlawful to let garbage, rubbish, dead animals or food waste build up on a property \"so that rats may be afforded food or harborage.\"") },
-    { icon: "search", title: "Debris that hides vermin", text: p("Under the Community Development Code, piles of debris are a violation when they contain, or are likely to contain, rodents, reptiles or other vermin. Grass and weeds over 12 inches are a violation too.") },
+    { icon: "search", title: "Debris that hides vermin", text: p("Under Clearwater's Community Development Code, piles of debris are a violation when they contain, or are likely to contain, rodents, reptiles or other vermin. Grass and weeds over 12 inches are a violation too.") },
     { icon: "critter", title: "One pickup a week", text: p("Clearwater collects household trash once a week. With a week between pickups, a closed lid matters. The city asks residents to put garbage in the container and close the lid.") },
     { icon: "wrench", title: "Curb timing", text: p("Carts go out no earlier than 7 p.m. the night before and come back in by 7 a.m. the day after. Yard waste and bulk debris shouldn't sit at the curb more than 24 hours before pickup.") },
   ],
@@ -60,7 +60,7 @@ export const clearwaterRats = countyPage({
     ),
     faq(
       "Does the City of Clearwater remove rats?",
-      "No. Clearwater doesn't offer rat removal. For rats inside your home, hire a private company. See [rats in the attic](/services/rats-in-attic/).",
+      "No. Clearwater doesn't list a rat removal service. For rats inside your home, hire a private company. See [rats in the attic](/services/rats-in-attic/).",
     ),
     faq(
       "How do I keep rats out of my Clearwater trash?",
@@ -80,7 +80,7 @@ export const clearwaterRats = countyPage({
       "Rat removal in Clearwater, FL: roof rats sealed out, trapped and cleaned up. What Clearwater's code says about rat harborage, plus trash rules. Call (727) 594-7705.",
   },
   sources: [
-    { title: "City of Clearwater: Citizens Guide to Code Compliance (CO 24.27 & 32.283: garbage or debris so that rats may be afforded food or harborage; CDC 3-1503.B: debris likely to contain rodents, reptiles or other vermin; grass over 12 inches; Code Compliance (727) 562-4720)", url: GUIDE },
+    { title: "City of Clearwater: Citizens Guide to Code Compliance (CO 24.27 & 32.283: garbage or debris so that rats may be afforded food or harborage; Clearwater Community Development Code Sec. 3-1503.B.5–B.8: debris likely to contain rodents, reptiles or other vermin; grass over 12 inches; Code Compliance (727) 562-4720)", url: GUIDE },
     { title: "City of Clearwater: Residential trash collection (once a week; close the lid; curb no earlier than 7 p.m. the night before, removed by 7 a.m. the day after; yard waste and bulk no more than 24 hours early)", url: TRASH },
   ],
   clientQuestions: ["Typical response time for rat calls in Clearwater?", "Clearwater rat job reviews (from TTR-723) and real rat job photos."],

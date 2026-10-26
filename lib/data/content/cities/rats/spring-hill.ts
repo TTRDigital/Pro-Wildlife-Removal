@@ -37,13 +37,13 @@ export const springHillRats = countyPage({
     { icon: "home", title: "Lids closed, trash bagged", text: p("Hernando says cart lids must be closed to prevent scavenging by animals, and all trash should be bagged before it goes in the cart. Only waste inside the cart with the lid closed gets collected.") },
     { icon: "critter", title: "Not out too early", text: p("Carts can go to the curb no earlier than 6 p.m. the night before pickup. Any loose trash scattered during collection is the homeowner's to clean up.") },
     { icon: "leaf", title: "Yard waste limits", text: p("Yard waste is picked up once a week, up to 15 items, with branches no thicker than 4 inches. Whole trees and trunks aren't taken curbside, and a brush pile left for weeks makes good rat cover.") },
-    { icon: "search", title: "Code limits", text: p("County code treats grass and weeds over 18 inches within 100 feet of a home, and piles of trash bags, rotting vegetation or old appliances, as violations.") },
+    { icon: "search", title: "Code limits", text: p("County code treats grass and weeds over 18 inches within 100 feet of improved property, and piles of trash bags, rotting vegetation or old appliances, as violations.") },
   ],
   contactsHeading: "Who to call about rats in Spring Hill",
   contactsIntro: "Who to call about rats and related problems in Spring Hill.",
   contacts: [
     { icon: "home", title: "Bulk pickup", text: p("Coastal Waste & Recycling, (352) 540-6457, schedules bulk pickups: six a year, up to 10 items each. Old furniture left outside is a rat shelter.") },
-    { icon: "users", title: "Code complaints", text: p("Hernando County's main line, (352) 754-4000, connects to Code Compliance for overgrowth and trash complaints.") },
+    { icon: "users", title: "Code complaints", text: p("Hernando County's main line, (352) 754-4000, is the contact on the county's code compliance page.") },
   ],
   servicesIntro: "Rats are the focus here, but we remove every animal below in Spring Hill.",
   servicesHeading: "Rats, and the other animals we remove in Spring Hill",
@@ -56,7 +56,7 @@ export const springHillRats = countyPage({
     ),
     faq(
       "Can my Spring Hill neighbor's junk pile attract rats?",
-      "It can, and county code treats piles of trash bags, decaying vegetation and exposed appliances or furniture as violations. Hernando County's main line is (352) 754-4000.",
+      "It can, and county code treats piles of trash bags, decaying vegetation and exposed appliances or furniture as violations. Hernando County's main line, (352) 754-4000, is the contact on the county's code compliance page.",
     ),
     faq(
       "Why does the county care if my cart lid is closed?",

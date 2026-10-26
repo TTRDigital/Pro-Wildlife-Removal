@@ -38,7 +38,7 @@ export const odessa = countyPage({
   local: [
     { icon: "map-pin", title: "Check which county you're in", text: p("The Census places the Odessa CDP entirely in Pasco, but the Odessa mailing area spills into Hillsborough. If your property tax bill says Hillsborough, call Hillsborough County Animal Control at (813) 744-5660 instead.") },
     { icon: "leaf", title: "Brooker Creek Preserve", text: p("Just west, Pinellas County's Brooker Creek Preserve covers about 8,700 acres in the county's northeast corner. FWC's Great Florida Birding Trail lists bald eagles, sandhill cranes, swallow-tailed kites and wood storks there.") },
-    { icon: "drop", title: "Lake country", text: p("The water district sets minimum levels for lakes around here, including Lake Calm, just over the line in Hillsborough. Lakefront yards bring more snakes, and FWC is the agency for alligators.") },
+    { icon: "drop", title: "Lake country", text: p("The water district has proposed minimum lake levels around here, including for Lake Calm, just over the line in Hillsborough. Lakefront yards bring more snakes, and FWC is the agency for alligators.") },
     { icon: "critter", title: "Big lots, more visitors", text: p("Barns, sheds, feed rooms and woodpiles give rats, raccoons and opossums plenty of places to settle. Store feed in sealed bins and keep woodpiles off the ground.") },
   ],
   contactsIntro: "Who to call for what in Odessa, depending on which side of the county line you live.",

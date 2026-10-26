@@ -14,12 +14,12 @@ export const safetyHarborRats = countyPage({
   eyebrow: "RAT REMOVAL IN SAFETY HARBOR",
   heading: "Rat Removal in Safety Harbor, FL",
   highlight: "Rat Removal",
-  summary: "Rat removal in Safety Harbor, FL: rats sealed out and trapped without poison, in line with the city's own advice on protecting wildlife.",
-  heroText: "Rats in a Safety Harbor attic or wall? We seal the gaps and trap the rats inside, without rat poison. Call (727) 594-7705.",
+  summary: "Rat removal in Safety Harbor, FL: rats sealed out and trapped, plus what the city says about rat poison and glue traps.",
+  heroText: "Rats in a Safety Harbor attic or wall? We seal the gaps and trap the rats inside. Call (727) 594-7705.",
   answerHeading: "How do you get rid of rats in Safety Harbor?",
   answer:
-    "Seal the gaps, remove what feeds them and trap the rats left inside. Safety Harbor's own wildlife page warns against rat poison and glue traps because they kill owls, pets and songbirds. Pro Wildlife Removal works this way across the city. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City: no safe rat poison", "No glue traps"],
+    "Seal the gaps, remove what feeds them and trap the rats left inside. Safety Harbor says no rat poison is truly safe, warns against anticoagulant baits and says never to use glue traps. Pro Wildlife Removal seals and traps across the city. Call (727) 594-7705.",
+  points: ["Call (727) 594-7705", "City: no poison is truly safe", "No glue traps"],
   townsHeading: "Rat removal near Safety Harbor",
   townsIntro: "We take rat calls across north Pinellas, and handle every other animal in Safety Harbor too.",
   towns: [
@@ -45,7 +45,7 @@ export const safetyHarborRats = countyPage({
   contactsIntro: "Who to call about rats and trash in Safety Harbor.",
   contacts: [
     { icon: "home", title: "Sanitation Division", text: p("727-724-1550, for barrels, missed pickups and dead animals on city roads.") },
-    { icon: "users", title: "Rats inside your home", text: p("A private company that doesn't rely on anticoagulant poison, as the city recommends. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats inside your home", text: p("The city asks residents who hire help to choose exterminators who don't use anticoagulant rodenticides. Call us at (727) 594-7705.", "[PLACEHOLDER: ask the client: which rodenticides, if any, do you use?]") },
   ],
   servicesIntro: "This page is about rats, but we remove every animal below in Safety Harbor.",
   servicesHeading: "Rats, and the other animals we remove in Safety Harbor",
@@ -54,7 +54,7 @@ export const safetyHarborRats = countyPage({
   faqs: [
     faq(
       "Does Safety Harbor allow rat poison?",
-      "The city doesn't ban it on this page, but it strongly advises against it. It says poison can increase rodent numbers over time by killing their predators, and asks residents to hire exterminators who don't use anticoagulant rodenticides.",
+      "The city doesn't ban it, but it says no rat poison is truly safe, warns against anticoagulant baits, and asks residents who hire help to choose exterminators who don't use anticoagulant rodenticides.",
     ),
     faq(
       "Do you use poison to get rid of rats?",
@@ -76,13 +76,14 @@ export const safetyHarborRats = countyPage({
   seo: {
     title: "Rat Removal in Safety Harbor, FL | Call (727) 594-7705 | Pro Wildlife Removal",
     description:
-      "Rat removal in Safety Harbor, FL: rats sealed out and trapped without poison or glue traps, as the city recommends to protect owls and pets. Call (727) 594-7705.",
+      "Rat removal in Safety Harbor, FL: rats sealed out and trapped, plus what the city says about rat poison, glue traps and owls. Call (727) 594-7705.",
   },
   sources: [
-    { title: "City of Safety Harbor: Protecting our wildlife (no safe rat poison; poison increases rodent population long term; kills dogs and cats and predators; never glue or sticky traps; snap traps or electronic zappers; owl nest box, 1,400 rodents a year; keep bins closed, remove pet food, birdseed, fallen fruit; hire exterminators who don't use anticoagulant rodenticides)", url: WILDLIFE },
+    { title: "City of Safety Harbor: Protecting our wildlife (no safe rat poison; poison increases rodent population long term; kills dogs and cats and predators; never glue or sticky traps; snap traps or electronic zappers; owl nest box, 1,400 rodents a year; keep bins closed, remove pet food, birdseed, fallen fruit; safer rodenticides and preventive measures)", url: WILDLIFE },
+    { title: "City of Safety Harbor: Are you poisoning wildlife and pets? (brochure; no such thing as a 'safe' rat poison; anticoagulant rodenticides; hire exterminators who do not use anticoagulant rodenticides)", url: "https://www.cityofsafetyharbor.com/DocumentCenter/View/16140/Are-You-Poisoning-Wildlife-and-Pets" },
     { title: "City of Safety Harbor: Sanitation Division (once a week; 90-gallon barrel; lid must close; 727-724-1550)", url: "https://www.cityofsafetyharbor.com/108/Sanitation-Division" },
     { title: "City of Safety Harbor: FAQ (dead animals on city rights-of-way, 724-1550)", url: "http://www.cityofsafetyharbor.com/m/faq" },
     { title: "UF/IFAS Extension Pinellas: Management of rodents, July 25, 2022 (great horned owls at Philippe Park died of rodenticide poisoning)", url: "https://blogs.ifas.ufl.edu/pinellasco/2022/07/25/management-of-rodents/" },
   ],
-  clientQuestions: ["Typical response time for rat calls in Safety Harbor?", "Do you use any rat bait, or traps only? (The page leans on the city's no-poison advice.)", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
+  clientQuestions: ["Typical response time for rat calls in Safety Harbor?", "Do you use any rat bait, and if so which kind (anticoagulant or not)? Or traps only?", "Safety Harbor rat job reviews (from TTR-723) and real rat job photos."],
 });

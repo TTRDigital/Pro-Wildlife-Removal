@@ -34,7 +34,7 @@ export const holiday = countyPage({
     },
   ],
   localHeading: "Life on the Anclote",
-  localIntro: "Holiday's coast is mostly the Anclote River and its mouth. Two county parks there show what lives along the water.",
+  localIntro: "Holiday's coast runs along the Gulf and the mouth of the Anclote River. Two county parks there show what lives along the water.",
   local: [
     { icon: "map-pin", title: "Anclote River Park", text: p("Pasco County's waterfront park on Baillies Bluff Road. FWC's Great Florida Birding Trail lists egrets, wood storks, pelicans, ospreys and bald eagles, plus sea turtles and dolphins passing by.") },
     { icon: "leaf", title: "Key Vista Nature Park", text: p("Just up Baillies Bluff Road, the Birding Trail lists Key Vista at 96 acres, with brown pelicans, ospreys, bald eagles, great horned owls and black skimmers.") },
