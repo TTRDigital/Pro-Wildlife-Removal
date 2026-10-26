@@ -1233,7 +1233,7 @@ const migratedPages = {
         "children": [
          {
           "_type": "span",
-          "text": "Yes! Wildlife in attics can cause serious damage. Our attic cleanup covers decontamination and odor removal. We don't do building repairs; the owner arranges those with a contractor.",
+          "text": "[PLACEHOLDER: ask the client: do you do attic cleanup after removal (droppings, insulation, sanitizing)?]",
           "marks": []
          }
         ],
