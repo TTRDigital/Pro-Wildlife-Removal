@@ -17,8 +17,8 @@ const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
 export const home: PageContent = {
   design: "new",
   hero: {
-    eyebrow: "WILDLIFE REMOVAL ACROSS TAMPA BAY",
-    heading: "Wildlife Removal in Tampa Bay",
+    eyebrow: "WILDLIFE REMOVAL ACROSS CENTRAL FLORIDA",
+    heading: "Wildlife Removal in Central Florida",
     highlight: "Wildlife Removal",
     text: p(
       "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and clean up what they left behind. Call (727) 594-7705.",
