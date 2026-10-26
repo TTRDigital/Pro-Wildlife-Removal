@@ -1,5 +1,6 @@
 import type { Img, Post } from "./types";
 import { images } from "./data/images";
+import { library } from "./data/library";
 
 /*
  * Blog topics: which animal a post is about, from its title and slug, with the site's real
@@ -19,21 +20,26 @@ export const topics: {
     label: "Raccoons",
     test: /raccoon/,
     images: [
-      images.raccoonRemoval,
-      images.proWildLifeRemovalTamparemediationCompany1,
-      images.raccoonOnRoof,
-      images.raccoonUnderRoofTiles,
-      images.babyRaccoonRescue,
-      images.babyRaccoonsInTowel,
-      images.raccoonLiveTrapGravel,
-      images.raccoonTrapDriveway,
-      images.raccoonTrapNight,
-      images.img1RaccoonRemovalTampaServices,
-      images.areRaccoonsInvadingYourHome,
-      images.areYouATampaHomeownerLookOutForPropertyDamageCau,
-      images.gmb3000x200021,
-      images.may142024RaccoonRemoval,
-      images.raccoons,
+      library["raccoon-under-roof-tiles-1"],
+      library["raccoon-on-a-roof-2"],
+      library["raccoon-held-by-a-technician-1"],
+      library["baby-raccoons-2"],
+      library["raccoon-on-a-roof-1"],
+      library["raccoon-caught-in-a-cage-trap-18"],
+      library["raccoon-caught-in-a-cage-trap-34"],
+      library["raccoon-caught-in-a-cage-trap-23"],
+      library["raccoon-caught-in-a-cage-trap-16"],
+      library["raccoon-caught-in-a-cage-trap-26"],
+      library["raccoon-caught-in-a-cage-trap-28"],
+      library["raccoons-caught-in-a-cage-trap-2"],
+      library["raccoon-caught-in-a-cage-trap-4"],
+      library["raccoon-inside-a-vehicle-1"],
+      library["raccoon-caught-in-a-cage-trap-12"],
+      library["raccoon-caught-in-a-cage-trap-17"],
+      library["raccoon-caught-in-a-cage-trap-22"],
+      library["raccoon-caught-in-a-cage-trap-31"],
+      library["raccoon-caught-in-a-cage-trap-15"],
+      library["raccoon-caught-in-a-cage-trap-19"],
     ],
   },
   {
@@ -41,9 +47,12 @@ export const topics: {
     label: "Squirrels",
     test: /squirrel/,
     images: [
+      library["squirrel-held-by-a-technician-1"],
+      library["squirrel-on-a-tile-roof-1"],
+      library["squirrel-in-a-cage-trap-1"],
+      library["squirrels-in-cage-traps-1"],
+      library["squirrel-in-the-attic-1"],
       images.squirrelRemoval2,
-      images.proWildlifeRemovalIsAtYourService,
-      images.squirrelOnTileRoof,
       images.squirrelRemoval3,
       images.squirrelRemoval644x6521,
     ],
@@ -53,19 +62,20 @@ export const topics: {
     label: "Opossums",
     test: /opossum|possum/,
     images: [
-      images.opossumRemoval4,
-      images.opossumHeldByTail,
-      images.opossumInTrap,
-      images.opossumTrapUnderDeck,
-      images.twoOpossumsTrapped,
-      images.opossumTrapLawn,
-      images.opossumTrapMulch,
-      images.img1TrustedLeaderInOpossumRemovalInTampaFl,
-      images.exclusion2,
-      images.gmb3000x200023,
-      images.needOpossumRemovalTampaServices,
-      images.prowildlifeOpossumImage,
-      images.wildlifeRemovalHillsboroughCounty,
+      library["opossum-caught-in-a-cage-trap-12"],
+      library["opossum-held-by-the-tail-1"],
+      library["opossum-caught-in-a-cage-trap-9"],
+      library["opossums-caught-in-cage-traps-1"],
+      library["opossum-caught-in-a-cage-trap-13"],
+      library["opossum-caught-in-a-cage-trap-18"],
+      library["opossum-caught-in-a-cage-trap-2"],
+      library["opossum-caught-in-a-cage-trap-4"],
+      library["opossum-caught-in-a-cage-trap-14"],
+      library["opossum-caught-in-a-cage-trap-6"],
+      library["opossum-caught-in-a-cage-trap-7"],
+      library["opossum-caught-in-a-cage-trap-20"],
+      library["opossum-caught-in-a-cage-trap-1"],
+      library["opossums-caught-in-cage-traps-2"],
     ],
   },
   {
@@ -73,19 +83,13 @@ export const topics: {
     label: "Snakes",
     test: /snake/,
     images: [
-      images.snakeRemoval3,
-      images.snakeOnLattice,
-      images.coralSnakeFound,
-      images.snakeOnCatchStick,
-      images.snakeHeldGlove,
-      images.alwaysCallOurSnakeRemovalExpertsInTampaFloridaFo,
-      images.callTheCertifiedAndLicensedSnakeRemovalTampaExpe,
-      images.coralSnake,
-      images.cottonmouthWaterMoccasin,
-      images.image28,
-      images.odessaSnakeHandlers,
-      images.snakeInYourHouseCallOurSnakeRemovalTampaExpertsR,
-      images.snakeRemoval,
+      library["rattlesnake-in-the-grass-1"],
+      library["snake-by-a-wall-1"],
+      library["snake-on-a-lattice-1"],
+      library["rattlesnake-held-by-a-technician-1"],
+      library["coral-snake-1"],
+      library["snake-held-on-a-stick-1"],
+      library["snake-on-pavement-1"],
     ],
   },
   {
@@ -93,14 +97,16 @@ export const topics: {
     label: "Armadillos",
     test: /armadillo/,
     images: [
-      images.armadilloRemoval2,
-      images.armadilloTrapGrass,
-      images.armadilloTrapYard,
-      images.armadilloBurrow,
-      images.img1ArmadilloRemovalTampaServices,
-      images.armadilloTrappers,
-      images.needArmadilloRemovalTampaServicesForYourHomeOrBu,
-      images.proWildlifeArmadillo,
+      library["armadillo-in-the-grass-1"],
+      library["armadillo-held-by-a-technician-1"],
+      library["armadillo-leaving-a-trap-1"],
+      library["armadillo-in-a-cage-trap-7"],
+      library["armadillo-in-a-cage-trap-6"],
+      library["armadillo-burrow-hole-1"],
+      library["armadillo-in-a-cage-trap-4"],
+      library["armadillo-in-a-cage-trap-8"],
+      library["armadillo-in-a-cage-trap-1"],
+      library["armadillo-in-a-cage-trap-2"],
     ],
   },
   {
@@ -108,16 +114,13 @@ export const topics: {
     label: "Bees",
     test: /\bbees?\b|honey|hive|wasp|hornet/,
     images: [
-      images.beeRemoval,
-      images.wildlifeRemovalOrlandoFlImage2,
-      images.beeSwarmBlocks,
-      images.beeColonyWall,
-      images.honeycombRemoved,
-      images.beeRemoval2,
-      images.beeRemovalTampaLocalsTrust,
-      images.expertInRemovingAllTypesOfTampasStingingInsects,
-      images.honeycombRemoval2,
-      images.whatToDoWhenYouFindABeesNestAtYourHome,
+      library["bee-swarm-on-a-porch-railing-1"],
+      library["bee-swarm-on-a-post-1"],
+      library["honey-bee-colony-in-a-wall-1"],
+      library["technician-in-a-bee-suit-at-a-wall-1"],
+      library["honeycomb-removed-from-a-hive-1"],
+      library["bee-swarm-in-a-garage-ceiling-1"],
+      library["bee-job-removed-comb-in-a-bucket-1"],
     ],
   },
   {
@@ -125,6 +128,9 @@ export const topics: {
     label: "Bats",
     test: /\bbats?\b|guano/,
     images: [
+      library["bat-colony-1"],
+      library["bat-colony-2"],
+      library["bat-caught-in-netting-1"],
       images.batRemoval2,
       images.batRemovalImage,
       images.batRemoval,
@@ -141,12 +147,12 @@ export const topics: {
     label: "Rats",
     test: /\brats?\b|rodent|\bmice\b|\bmouse\b/,
     images: [
+      library["rat-caught-in-a-trap-1"],
+      library["rat-caught-in-a-trap-2"],
+      library["rat-signs-inside-a-wall-1"],
+      library["rat-held-by-the-tail-at-the-truck-1"],
+      library["rats-huddled-together-pro-wildlife-watermark-1"],
       images.ratRemoval2,
-      images.ratsInAttic,
-      images.ratUnderAtticDuct,
-      images.ratCaughtTruck,
-      images.ratDroppingsAttic,
-      images.rodentDroppingsAtticBoard,
       images.brooksvilleRatImage,
       images.imageInfestation,
       images.imageRatCage,
@@ -165,13 +171,17 @@ export function postTopic(post: Pick<Post, "title" | "slug">) {
   return topics.find((t) => t.test.test(text));
 }
 
-/** The photo for a post without its own: one of its animal's photos, picked by its slug. */
-export function topicImage(post: Pick<Post, "title" | "slug">) {
+/** A post's animal photo: the nth of its animal's photos when a list numbers its posts (so no two cards match, Kia), else one picked by its slug. */
+export function topicImage(post: Pick<Post, "title" | "slug">, nth?: number) {
   const t = postTopic(post);
   if (!t) return undefined;
+  // The client's own photos when it has some (Ben); stock only for an animal with none.
+  const own = t.images.filter((i) => i.src.startsWith("/images/library/"));
+  const pool = own.length ? own : t.images;
+  if (nth !== undefined) return pool[nth % pool.length];
   let h = 0;
   for (const c of post.slug) h = (h * 31 + c.charCodeAt(0)) >>> 0;
-  return t.images[h % t.images.length];
+  return pool[h % pool.length];
 }
 
 /** The animal a service page is about, from its address (the service, its place pages and attic pages). */
@@ -198,4 +208,20 @@ export function animalSections<S extends { _type: string; heading?: string; imag
     const image = spare[n++];
     return s.image ? { ...s, image } : { ...s, image, imageSide: n % 2 ? "right" : "left" };
   });
+}
+
+/** A link's animal photo: the client's own first photo of the animal a service link is about (Ben: real photos over stock on every tile). */
+export function animalPhoto(href?: string) {
+  return href ? pageAnimal(href)?.images[0] : undefined;
+}
+
+/* The client's own photo of each kind of job, for cards about the work rather than an animal. */
+const jobPhotos: [RegExp, Img][] = [
+  [/attic|clean/i, library["technician-cleaning-an-attic-in-protective-gear-1"]],
+  [/honeycomb|hive/i, library["honeycomb-removed-from-a-hive-1"]],
+  [/exclusion|seal|repair/i, library["hole-in-a-roof-entry-point-2"]],
+  [/population|trapping/i, library["raccoons-caught-in-a-cage-trap-2"]],
+];
+export function jobPhoto(title?: string) {
+  return title ? jobPhotos.find(([test]) => test.test(title))?.[1] : undefined;
 }

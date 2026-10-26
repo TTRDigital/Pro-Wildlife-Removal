@@ -8,6 +8,8 @@ import { Photo } from "@/components/ui/Photo";
 import { StepRail } from "@/components/ui/StepRail";
 import { LoopVideo } from "@/components/ui/LoopVideo";
 import { animalVideos } from "@/lib/data/videos";
+import { animalPhoto, jobPhoto, pageAnimal } from "@/lib/topics";
+import { TileLife } from "@/components/ui/TileLife";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 /* Column widths for the card rows; the rows wrap and a short last row is centred. */
@@ -38,7 +40,8 @@ function cardIcon(title: string): IconName {
 
 function CardItem({ card, variant, index }: { card: Card; variant: Cards["variant"]; index: number }) {
   const accent = card.accent === "navy" ? "border-l-4 border-l-navy" : card.accent === "blue" ? "border-l-4 border-l-blue" : "";
-  const photo = variant === "photo" && card.image;
+  // The client's own photo of the card's animal or job before a stock one (Ben).
+  const photo = variant === "photo" && card.image ? (animalPhoto(card.href) ?? jobPhoto(card.title) ?? card.image) : undefined;
   const icon = card.icon ?? (photo ? undefined : cardIcon(card.title));
   // A photo card for an animal's service page plays that animal's clip over its photo.
   const animal = card.href?.match(/\/services\/([a-z]+)-removal\/?$/)?.[1];
@@ -49,8 +52,8 @@ function CardItem({ card, variant, index }: { card: Card; variant: Cards["varian
     <>
       {photo ? (
         <div className="photo-look relative -mx-6 -mt-6 mb-5 aspect-[4/3] overflow-hidden md:-mx-7 md:-mt-7">
-          <Photo image={card.image!} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
-          {video ? <LoopVideo src={video} /> : null}
+          <Photo image={photo} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]" />
+          {video ? <LoopVideo src={video} /> : animal && pageAnimal(card.href!) ? <TileLife animal={animal} photos={pageAnimal(card.href!)!.images} sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" /> : null}
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/10 to-transparent" />
           {whole || !card.href ? (
             <p aria-hidden="true" className="absolute right-4 bottom-3 left-4 font-display text-xl leading-tight font-extrabold text-white drop-shadow-[0_2px_8px_rgb(0_0_0/0.4)] md:text-[1.375rem]">
@@ -165,12 +168,13 @@ function FeatureRows({ cards }: { cards: Card[] }) {
     <ol className="grid gap-12 md:gap-20">
       {cards.map((c, i) => {
         const flip = i % 2 === 1;
+        const img = c.image ? (jobPhoto(c.title) ?? c.image) : undefined;
         return (
           <li key={`${c.title}-${i}`} className="grid items-center gap-7 md:grid-cols-2 md:gap-14" data-reveal>
             <div className={`relative ${flip ? "md:order-2" : ""}`}>
               <span aria-hidden="true" className={`absolute -bottom-4 h-full w-full rounded-[26px] bg-gradient-to-br from-blue/25 to-cta/20 ${flip ? "-left-4" : "-right-4"}`} />
               <div className="photo-look relative aspect-[4/3] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)]">
-                {c.image ? <Photo image={c.image} sizes="(min-width: 768px) 46vw, 100vw" /> : null}
+                {img ? <Photo image={img} sizes="(min-width: 768px) 46vw, 100vw" /> : null}
               </div>
             </div>
             <div className={flip ? "md:order-1" : ""}>
