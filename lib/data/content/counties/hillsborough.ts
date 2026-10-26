@@ -39,7 +39,7 @@ export const hillsborough = countyPage({
       items: [{ label: "Brandon" }, { label: "Riverview" }, { label: "Valrico" }, { label: "Plant City" }, { label: "Apollo Beach" }],
     },
   ],
-  communitiesIntro: "These unincorporated communities are part of the area we serve. Each part below sticks to what local records and news show about rats, bats, squirrels and raccoons there.",
+  communitiesIntro: "These unincorporated communities are part of the area we serve.",
   communities: [
     { name: "Wildlife removal in Carrollwood", text: ["Two rabid wildlife cases here made the news. In July 2020, DOH-Hillsborough said a woman out walking at night picked up a bat from a Carrollwood sidewalk and was bitten; the bat had rabies. In March 2018, a raccoon near Tannery Avenue fought a dog, tested positive and set off a 60-day rabies alert across northwest Hillsborough."] },
     { name: "Wildlife removal in Town 'n' Country", text: ["Florida's restaurant inspectors closed seven Town 'n' Country food businesses for conditions naming rodents from 2022 through 2025, by our count of the state's records, and three of those were on West Hillsborough Avenue. Homes along Channel A and the Upper Tampa Bay Trail are part of our service area."] },
