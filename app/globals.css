@@ -604,6 +604,21 @@
     transform: translateX(-100%);
     animation: pw-track-x 3.6s ease-in-out infinite;
   }
+  /* The running mouse: feet scurry in two alternating pairs, the body bobs; once caught it stops. */
+  .mouse-run svg {
+    animation: pw-scurry 0.16s ease-in-out infinite alternate;
+  }
+  .mouse-feet {
+    animation: pw-feet 0.16s linear infinite alternate;
+  }
+  .mouse-feet-2 {
+    animation: pw-feet 0.16s linear infinite alternate-reverse;
+  }
+  .mouse-caught svg,
+  .mouse-caught .mouse-feet,
+  .mouse-caught .mouse-feet-2 {
+    animation-duration: 0.09s;
+  }
   /* Photos that slowly drift, so the page feels alive. */
   .photo-live img {
     animation: pw-drift 18s ease-in-out infinite alternate;
@@ -915,6 +930,19 @@ a:focus-visible .logo-live .logo-lid {
 @keyframes pw-marquee {
   to {
     transform: translateX(-50%);
+  }
+}
+@keyframes pw-scurry {
+  to {
+    transform: translateY(-2px);
+  }
+}
+@keyframes pw-feet {
+  from {
+    transform: translateX(-2px);
+  }
+  to {
+    transform: translateX(2px);
   }
 }
 @keyframes pw-bob {

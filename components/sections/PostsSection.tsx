@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { postTopic, topicImage } from "@/lib/topics";
+import { animalVideos } from "@/lib/data/videos";
+import { LoopVideo } from "@/components/ui/LoopVideo";
 import { images } from "@/lib/data/images";
 import type { Post, PostsSection as Posts } from "@/lib/types";
 import { Photo } from "@/components/ui/Photo";
@@ -11,7 +13,8 @@ import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 /**
  * A post as a photo card. A post without its own photo shows its animal's real photo (see
  * lib/topics), or a navy logo tile when it is about no one animal. The topic shows as a small tag
- * on the photo. `featured` is the wide first card on the blog page: photo beside the text.
+ * on the photo, which slowly looks around; posts about an animal we have real footage of play
+ * that clip while in view. `featured` is the wide first card on the blog page: photo beside the text.
  */
 export function PostCard({
   post,
@@ -24,6 +27,8 @@ export function PostCard({
 }) {
   const topic = postTopic(post);
   const img = post.image ?? topicImage(post);
+  // A post about an animal we have real footage of plays it over the photo while in view.
+  const video = topic ? animalVideos[topic.key] : undefined;
   return (
     <Link
       href={`/blog/${post.slug}/`}
@@ -33,7 +38,7 @@ export function PostCard({
     >
       {img ? (
         <div
-          className={`relative overflow-hidden bg-tint ${featured ? "aspect-[16/9] md:aspect-auto md:min-h-[320px]" : "aspect-[16/9]"}`}
+          className={`photo-look relative overflow-hidden bg-tint ${featured ? "aspect-[16/9] md:aspect-auto md:min-h-[320px]" : "aspect-[16/9]"}`}
         >
           <Photo
             image={img}
@@ -44,6 +49,7 @@ export function PostCard({
             }
             className="transition-transform duration-700 ease-[var(--ease-out-expo)] group-hover:scale-[1.07]"
           />
+          {video ? <LoopVideo src={video} /> : null}
           {topic ? (
             <span className="absolute top-3 left-3 rounded-full bg-navy/85 px-3 py-1 font-display text-xs font-bold tracking-[0.5px] text-white uppercase backdrop-blur-sm">
               {topic.label}
