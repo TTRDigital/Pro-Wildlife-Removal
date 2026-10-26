@@ -30,6 +30,7 @@ Model page: `raccoon-removal/tampa-fl.ts`. Copy its shape, never its words.
 
 ## Facts: read the fine print
 
+- Every fact that counts toward the 6 must be about this page's animal (rats, bats, squirrels or raccoons), or a wildlife rule that names it (Ben, Oct 26). Bears, bobcats, snakes, macaques and other animals don't count and shouldn't be cards. A single FWC contact line for bears is fine. We don't handle bears.
 - DOH county rabies tables leave out bats found by surveillance testing; they're in the footnotes. Write
   "the county's table listed N" or count the footnote separately, never "N cases" for the table alone.
 - Always look for the latest DOH alert for the county (floridahealth.gov uploads, county DOH newsroom) and cite the newest.

@@ -1,6 +1,6 @@
 # Place-page coverage (TTR-738)
 
-Every target place x the four animals (rats and bats first). New places get their city or county page before their animal pages. Every Google Ads location gets its own page (Kia, Oct 26); a place that can't reach the town bar is held, not padded, and stays named on its county page and in areas.ts. Kept by Cole; updated on every merge into `claude/cole-pwr-content`. Ben assigns places.
+Every target place x the four animals (rats and bats first). New places get their city or county page before their animal pages. Every Google Ads location gets its own page (Kia, Oct 26); a place that can't reach the town bar is held, not padded, and stays named (as plain text) on its county page and in areas.ts. A page known to fall short stays out of the preview until it clears; one only waiting on its first check can stay (Ben, Oct 26). Kept by Cole; updated on every merge into `claude/cole-pwr-content`. Ben assigns places.
 
 Key: **L** live in the bundle and fact-checked · **F** in the bundle, waiting on Ben's fact check · **E** existing rat-in-city page, keeps its URL (`existingPlacePages`) · **P** in the bundle, fixes pending after fact check · **H** held (reason in notes) · **S** skipped, nothing true and local · **N** not started
 
@@ -29,34 +29,34 @@ Town pages need at least 6 sourced facts about the animal, at least 3 of them ab
 | Dade City | Nia | E | N | N | N |  |
 | Dunedin | Rhea | E | N | N | F |  |
 | Safety Harbor | Rhea | E | N | N | H | raccoon (Nia) held: only 4 real raccoon facts |
-| Palm Harbor | Owen | P | S | S | P | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
-| Pinellas Park | Owen | P | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
+| Palm Harbor | Owen | L | S | S | L | bat, squirrel skipped: under the town bar; new rat page replaces the redirected old one |
+| Pinellas Park | Owen | L | S | S | S | bat, squirrel, raccoon skipped: under the town bar |
 | The Villages | Nia | E | N | N | N | confirmed target (Kia, Oct 26); old rat page now linked; city page rewrite first |
-| Marion County | Nia | N | N | N | N | new county (Kia, Oct 26): county page in review (0a9adb9), animal pages next |
-| Ocala | Nia | N | N | N | N | city page first |
+| Marion County | Nia | N | N | N | N | county page held from the preview until Nia's fix lands (four-animals rule) |
+| Ocala | Nia | N | N | N | N | city page first; recount needed before it enters the preview |
 | Belleview | Nia | N | N | N | N | city page first |
 | Dunnellon | Nia | N | N | N | N | city page first |
 | Lutz | Owen | N | N | N | N | city page first |
 | Westchase | Owen | N | N | N | N | city page first |
-| Carrollwood | Owen | N | N | N | N | city page first |
+| Carrollwood | Owen | N | N | N | N | city page reworked to the four-animals rule (9881253, 424ce1f); held from the preview until Ben clears it |
 | Citrus Park | Owen | N | N | N | N | city page first |
-| Town 'n' Country | Owen | N | N | N | N | city page first |
+| Town 'n' Country | Owen | N | N | N | N | city page held by Owen: 1 qualifying fact (DBPR rodents) under the four-animals rule |
 | Cheval | Owen | N | N | N | N | city page first (after Owen's five) |
 | Keystone | Owen | N | N | N | N | city page first (after Owen's five) |
 | Lake Magdalene | Owen | N | N | N | N | city page first (after Owen's five) |
 | Greater Northdale | Owen | N | N | N | N | city page first (after Owen's five) |
 | New Tampa | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
 | Temple Terrace | Rhea | N | N | N | N | city page first (after her St. Pete and Dunedin raccoon fixes) |
-| Silver Springs | Nia | N | N | N | N | city page first (after Marion County) |
+| Silver Springs | Nia | N | N | N | N | city page first; recount needed before it enters the preview |
 | Summerfield | Nia | N | N | N | N | city page first (after Marion County) |
 
 ## Counts
 
 | Status | Rat | Bat | Squirrel | Raccoon | Total |
 |---|---|---|---|---|---|
-| live, fact-checked | 5 | 6 | 5 | 10 | 26 |
+| live, fact-checked | 7 | 6 | 5 | 11 | 29 |
 | in bundle, in fact check | 1 | 3 | 1 | 2 | 7 |
-| fixes pending | 2 | 0 | 0 | 1 | 3 |
+| fixes pending | 0 | 0 | 0 | 0 | 0 |
 | existing rat page | 10 | 0 | 0 | 0 | 10 |
 | held | 1 | 1 | 3 | 3 | 8 |
 | skipped | 2 | 5 | 5 | 3 | 15 |
