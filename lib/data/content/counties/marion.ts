@@ -41,7 +41,7 @@ export const marion = countyPage({
   localHeading: "What drives wildlife calls in Marion",
   localIntro: "Marion grew from 375,908 people in the 2020 Census to an estimated 433,765 in 2025. Its rabies records and bear range explain a lot of the wildlife calls here.",
   local: [
-    { icon: "critter", title: "Raccoons lead the rabies tables", text: p("The state's county tables listed 7 rabid raccoons and 3 rabid cats for Marion in 2024, and 6 raccoons plus a cat, a coyote and a fox in 2025. Marion's tables listed 2 raccoons in 2022 and 4 in 2023.") },
+    { icon: "critter", title: "Raccoons in Marion's rabies tables", text: p("The state's county tables listed 7 rabid raccoons and 3 rabid cats for Marion in 2024, and 6 raccoons plus a cat, a coyote and a fox in 2025. Marion's tables listed 2 raccoons in 2022 and 4 in 2023.") },
     { icon: "map-pin", title: "A rabid raccoon in Ocala", text: p("In May 2026, DOH-Marion put part of Ocala under a 60-day rabies alert after a raccoon killed off SE 8th Street on May 11 tested positive. The alert area runs between NE 8th Street, SE 22nd Road, SE 22nd Loop and SW 4th Avenue.") },
     { icon: "search", title: "Belleview, February 2026", text: p("DOH-Marion issued a rabies advisory after a raccoon killed off U.S. 441 and SE 132nd Street Road in the Belleview area on February 24, 2026 tested positive.") },
     { icon: "phone", title: "The newest notice", text: p("DOH-Marion's latest advisory, September 18, 2026, followed a rabid bobcat killed off State Road 40 and SW 140th Avenue in the Rainbow Park area. It again told residents not to attract wildlife with outdoor pet food or open garbage cans.") },
@@ -67,7 +67,7 @@ export const marion = countyPage({
     ),
     faq(
       "Are there bears in Marion County?",
-      "Yes. FWC's Central bear management unit includes Marion and the Ocala/St. Johns bear subpopulation. Bears aren't something we remove; secure garbage and call FWC's Ocala office, 352-732-1225, about bear problems.",
+      "Yes. FWC's Central bear management unit includes Marion and the Ocala/St. Johns bear subpopulation. FWC handles bear problems; secure garbage and call its Ocala office, 352-732-1225.",
     ),
     faq(
       "Which FWC office covers Marion County?",
