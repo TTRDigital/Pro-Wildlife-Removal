@@ -17,7 +17,7 @@ export const howFastDoRatsReproduce: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      `**The short answer:** fast. Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young in each, and those young become sexually active 2 to 3 months after birth ([Florida DOH](${DOH})). That's why a few rats in the attic can become a lot of rats within one season. Call (727) 594-7705 for an inspection.`,
+      `**The short answer:** fast. Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young in each, and those young become sexually active 2 to 3 months after birth ([Florida DOH](${DOH})). That's how a few attic rats become many in one season. Call (727) 594-7705 for an inspection.`,
     ),
     h3("The numbers, by source"),
     table(
