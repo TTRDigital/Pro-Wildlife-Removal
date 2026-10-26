@@ -2,7 +2,8 @@ import { faq, p } from "../../pt.ts";
 import { servicePlacePage } from "../build.ts";
 
 /*
- * Rat removal in Ocala (TTR-738, Nia). Facts come from Florida DBPR's 2022-2025
+ * HELD (Ben, Oct 26, 2026: 2 rat facts at most; unregistered). Rat removal in
+ * Ocala (TTR-738, Nia). Facts come from Florida DBPR's 2022-2025
  * emergency closure files (our count; restaurant inspection records, not home
  * reports, and no business named), DOH-Marion's rodent control and sanitary
  * nuisance pages, Ocala Ordinance 2025-41 and the city's 2026 solid waste study.
