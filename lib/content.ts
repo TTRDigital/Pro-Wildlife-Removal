@@ -88,7 +88,7 @@ function mergeList<T>(fallback: T[], cms: Partial<T>[] | null, key: (x: Partial<
 
 export const getServices = cache(async (): Promise<Service[]> => {
   const cms = await sanityFetch<Partial<Service>[]>(
-    `*[_type == "service" && defined(slug.current)] | order(order asc){ "slug": slug.current, title, group, animal, order, summary, "cardImage": cardImage${IMG}, ${PAGE} }`,
+    `*[_type == "service" && defined(slug.current)] | order(order asc){ "slug": slug.current, title, group, animal, order, summary, "cardImage": cardImage${IMG}, "cardVideo": cardVideo.asset->url, ${PAGE} }`,
     {},
     ["service"],
   );

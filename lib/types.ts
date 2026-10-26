@@ -145,6 +145,8 @@ export type Service = PageContent & {
   order: number;
   summary?: string;
   cardImage?: Img;
+  /** A short silent clip of the animal for its tile (e.g. /videos/bat.mp4); the card image is its poster. */
+  cardVideo?: string;
 };
 
 export type Location = PageContent & {

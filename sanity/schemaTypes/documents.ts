@@ -104,6 +104,7 @@ export const service = defineType({
     defineField({ name: "order", type: "number", group: "content" }),
     defineField({ name: "summary", title: "Card text", type: "text", rows: 2, group: "content" }),
     defineField({ name: "cardImage", title: "Card photo", type: "altImage", group: "content", description: "Leave empty to use the page header photo." }),
+    defineField({ name: "cardVideo", title: "Card video", type: "file", group: "content", options: { accept: "video/mp4,video/webm" }, description: "Optional: a short silent clip of the animal (3 to 6 seconds, under 2 MB, a real video, never AI). It loops on the services tiles; the card photo shows until it plays." }),
     designField,
     heroField,
     sectionsField,
