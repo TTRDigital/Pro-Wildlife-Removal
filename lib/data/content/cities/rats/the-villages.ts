@@ -17,16 +17,16 @@ export const theVillagesRatsInput = {
   name: "The Villages",
   county: "Sumter",
   order: 41,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "RAT REMOVAL IN THE VILLAGES",
   heading: "Rat Removal in The Villages, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in The Villages, FL: rat removal for villas and homes, with the local rat reports and the county and district rules behind them.",
-  heroText: "Rats in a villa attic or a garage in The Villages? We find how they get in, close it and trap the ones inside. Call (727) 594-7705.",
+  heroText: "Rats in a villa attic or a garage in The Villages? We find how they get in, close it and trap the ones inside. Call (844) 264-6254.",
   answerHeading: "Who do Villages residents call about rats?",
   answer:
-    "A private company. When rats turned up in the Village of Santiago in 2016, Sumter County told residents to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal closes the openings and traps the rats still inside the home. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County refers rats to private companies", "Trash goes out in sealed bags"],
+    "A private company. When rats turned up in the Village of Santiago in 2016, Sumter County told residents to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal closes the openings and traps the rats still inside the home. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "County refers rats to private companies", "Trash goes out in sealed bags"],
   townsHeading: "Rat removal around The Villages",
   townsIntro: "The Villages crosses Sumter, Lake and Marion counties. We take rat calls on every side, and handle the other animals too.",
   towns: [
@@ -75,15 +75,15 @@ export const theVillagesRatsInput = {
     ),
     faq(
       "How soon could someone check my Villages villa for rats?",
-      "For rats, same-day appointments are often available in The Villages. Call (727) 594-7705.",
+      "For rats, same-day appointments are often available in The Villages. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Villages home?",
-  ctaText: "Rats in a villa or courtyard home in The Villages? Call (727) 594-7705.",
+  ctaText: "Rats in a villa or courtyard home in The Villages? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in The Villages, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in The Villages, FL: rat removal for villas and homes, local rat reports from Santiago to Lynnhaven, and who handles what. (727) 594-7705.",
+      "Rat removal in The Villages, FL: rat removal for villas and homes, local rat reports from Santiago to Lynnhaven, and who handles what. (844) 264-6254.",
   },
   sources: [
     { title: "News 6 (ClickOrlando), May 2016: Squirrel-sized rats invade homes in The Villages (Villages of Santiago; caught in a possum and raccoon trap; bird feeder in the area until recently; about 400 acres of farmland nearby; Sumter County said residents should call a commercial company)", url: SANTIAGO },

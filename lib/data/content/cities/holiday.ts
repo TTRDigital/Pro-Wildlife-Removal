@@ -10,14 +10,14 @@ export const holiday = countyPage({
   name: "Holiday",
   county: "Pasco",
   order: 13,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN HOLIDAY",
   summary: "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums, snakes, armadillos, bats and more, on the Pasco coast.",
-  heroText: "Pasco's southern Gulf coast, on the Anclote River across from Tarpon Springs. Call (727) 594-7705.",
+  heroText: "Pasco's southern Gulf coast, on the Anclote River across from Tarpon Springs. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Holiday, FL?",
   answer:
-    "Holiday is unincorporated Pasco County, so county services apply. Pasco County Animal Services handles pets and strays, not animals living in your home. For raccoons, rats, squirrels or opossums, call a private company. Pro Wildlife Removal works across Holiday. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Unincorporated Pasco", "On the Anclote River"],
+    "Holiday is unincorporated Pasco County, so county services apply. Pasco County Animal Services handles pets and strays, not animals living in your home. For raccoons, rats, squirrels or opossums, call a private company. Pro Wildlife Removal works across Holiday. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Pasco", "On the Anclote River"],
   townsHeading: "Holiday and nearby",
   townsIntro: "Holiday had about 24,900 residents at the 2020 Census. It borders Tarpon Springs to the south.",
   towns: [
@@ -75,15 +75,15 @@ export const holiday = countyPage({
     ),
     faq(
       "How quickly can you reach Holiday?",
-      "Same-day appointments are often available in Holiday. Call (727) 594-7705.",
+      "Same-day appointments are often available in Holiday. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Holiday?",
-  ctaText: "Holiday homeowners can call (727) 594-7705.",
+  ctaText: "Holiday homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Holiday, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums and snakes on the Anclote River, and who to call for what in Holiday. (727) 594-7705.",
+      "Wildlife removal in Holiday, FL: raccoons, rats, squirrels, opossums and snakes on the Anclote River, and who to call for what in Holiday. (844) 264-6254.",
   },
   sources: [
     { title: "Florida DBPR, Division of Hotels and Restaurants: Emergency closures by calendar year, 2019-2025 (Business City Holiday, conditions naming rodents: 8 closures 2019-2025, 5 on US 19; 4 in 2022-2025 at 3 businesses, 3 on US 19 and 1 on Alt 19; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },

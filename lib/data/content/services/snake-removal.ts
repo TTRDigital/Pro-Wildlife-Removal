@@ -9,7 +9,7 @@ import { countyGroups } from "../areas.ts";
  * keeps the venomous species list, as the plan asks. Wade decides which URLs redirect here.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const FWC_SNAKES = "https://myfwc.com/conservation/you-conserve/wildlife/snakes/";
 const UW260 = "https://ask.ifas.ufl.edu/publication/UW260";
 
@@ -36,7 +36,7 @@ export const snakeRemoval: Service = {
       _key: "answer",
       heading: "What should I do about a snake in my house in Florida?",
       text: p(
-        "Keep children and pets away, watch where it goes from a safe distance, and don't try to catch or kill it. Only 6 of Florida's 50 snake species are venomous, but a bite from any snake hurts. Call (727) 594-7705 and we'll remove it and close the way in.",
+        "Keep children and pets away, watch where it goes from a safe distance, and don't try to catch or kill it. Only 6 of Florida's 50 snake species are venomous, but a bite from any snake hurts. Call (844) 264-6254 and we'll remove it and close the way in.",
       ),
       points: ["6 of 50 venomous", "Don't catch or kill", "Snakes follow rodents", "Repellents don't work"],
     },
@@ -230,14 +230,14 @@ export const snakeRemoval: Service = {
       _key: "cta",
       heading: "Snake in the house right now?",
       highlight: "right now?",
-      text: p("Close the door to that room and call (727) 594-7705."),
+      text: p("Close the door to that room and call (844) 264-6254."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Snake Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Snake in the house, garage or pool cage? Safe snake removal in Central Florida, sealing the way in, and how to spot venomous snakes. Call (727) 594-7705.",
+      "Snake in the house, garage or pool cage? Safe snake removal in Central Florida, sealing the way in, and how to spot venomous snakes. Call (844) 264-6254.",
   },
   sources: [
     { title: "FWC: Living with Snakes (6 of 50 species venomous; leave snakes alone; no good reason to kill except immediate danger; snakes near homes may mean rodents; clear debris and spilled seed; indigo snake protected; venomous reptiles possessed only under license)", url: FWC_SNAKES },

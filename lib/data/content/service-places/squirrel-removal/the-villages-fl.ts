@@ -27,11 +27,11 @@ export const squirrelRemovalTheVillages = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-the-villages",
   county: "Sumter",
   order: 98,
-  heroText: "Squirrels in a villa's attic, the lanai screen or the garage eaves in The Villages? We get them out, check for young before closing anything and seal the openings. Call (727) 594-7705.",
+  heroText: "Squirrels in a villa's attic, the lanai screen or the garage eaves in The Villages? We get them out, check for young before closing anything and seal the openings. Call (844) 264-6254.",
   answerHeading: "Who gets squirrels out of homes in The Villages?",
   answer:
-    "A private wildlife company. Gray squirrels in a villa or home in The Villages are the owner's to have removed, but fox squirrels, which Villagers photograph often, may not be taken under FWC rules. Pro Wildlife Removal gets gray squirrels out, checks for young and seals the openings. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Fox squirrels may not be taken", "Black fox squirrels, 2025 and 2026"],
+    "A private wildlife company. Gray squirrels in a villa or home in The Villages are the owner's to have removed, but fox squirrels, which Villagers photograph often, may not be taken under FWC rules. Pro Wildlife Removal gets gray squirrels out, checks for young and seals the openings. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Fox squirrels may not be taken", "Black fox squirrels, 2025 and 2026"],
   localHeading: "What to know about squirrels in The Villages",
   localIntro: "Villagers keep sending Villages-News photos of the squirrels around them, many of them fox squirrels. Here is what those reports show, and what FWC says.",
   local: [
@@ -46,7 +46,7 @@ export const squirrelRemovalTheVillages = servicePlacePage({
   contactsIntro: "Who handles what when squirrels are the problem in The Villages.",
   contacts: [
     { icon: "map-pin", title: "Fox squirrel questions", text: p("FWC's Northeast Region office in Ocala, 352-732-1225.") },
-    { icon: "users", title: "Squirrels in your villa", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Squirrels in your villa", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "squirrels-in-attic", label: "Squirrels in the attic" },
   extraLink: { label: "Squirrel poop vs rat poop", href: "/blog/squirrel-poop-vs-rat-poop-how-to-spot-the-difference/", text: "Droppings in the attic? How to tell a squirrel's from a rat's." },
@@ -70,11 +70,11 @@ export const squirrelRemovalTheVillages = servicePlacePage({
     ),
     faq(
       "How soon can you come out for squirrels in The Villages?",
-      "Same-day appointments for squirrels are often available in The Villages. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in The Villages. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Squirrels in your home in The Villages?",
-  ctaText: "Villagers with squirrels can call (727) 594-7705.",
+  ctaText: "Villagers with squirrels can call (844) 264-6254.",
   seo: {
     title: "Squirrel Removal in The Villages, FL | Pro Wildlife Removal",
     description:

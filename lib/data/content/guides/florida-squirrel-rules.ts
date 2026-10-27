@@ -21,7 +21,7 @@ export const floridaSquirrelRules: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** for a gray squirrel causing damage, yes, within limits. FWC lets property owners live-trap nuisance wildlife if they check traps every 24 hours, and the squirrel can only be released on their own property or permitted land. Fox squirrels can't be trapped or taken without FWC authorization. Call (727) 594-7705.",
+      "**The short answer:** for a gray squirrel causing damage, yes, within limits. FWC lets property owners live-trap nuisance wildlife if they check traps every 24 hours, and the squirrel can only be released on their own property or permitted land. Fox squirrels can't be trapped or taken without FWC authorization. Call (844) 264-6254.",
     ),
     h3("When a squirrel counts as nuisance wildlife"),
     p(
@@ -49,7 +49,7 @@ export const floridaSquirrelRules: Post = {
     ),
     h3("The part that actually fixes it"),
     p(
-      "Removing a squirrel without closing the hole it chewed just leaves room for the next one. Check for a nest of young before anything is sealed, and close the roofline afterward. See [squirrels in the attic](/services/squirrels-in-attic/), [squirrel removal](/services/squirrel-removal/) and [why squirrels come back](/blog/why-squirrels-return-after-removal/), or call (727) 594-7705.",
+      "Removing a squirrel without closing the hole it chewed just leaves room for the next one. Check for a nest of young before anything is sealed, and close the roofline afterward. See [squirrels in the attic](/services/squirrels-in-attic/), [squirrel removal](/services/squirrel-removal/) and [why squirrels come back](/blog/why-squirrels-return-after-removal/), or call (844) 264-6254.",
     ),
   ),
   faq: [

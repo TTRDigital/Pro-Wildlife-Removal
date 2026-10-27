@@ -10,14 +10,14 @@ export const silverSprings = countyPage({
   name: "Silver Springs",
   county: "Marion",
   order: 41,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN SILVER SPRINGS",
   summary: "Wildlife removal in Silver Springs, FL: raccoons, rats, squirrels, bats, opossums and more, east of Ocala in Marion County.",
-  heroText: "East of Ocala, around Silver Springs State Park, where the park's own plan lists raccoons, three kinds of squirrel and bats. Call (727) 594-7705.",
+  heroText: "East of Ocala, around Silver Springs State Park, where the park's own plan lists raccoons, three kinds of squirrel and bats. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Silver Springs, FL?",
   answer:
-    "In Silver Springs, as across Marion County, DOH-Marion's alerts send residents to Marion County Animal Services for strays and bites to pets, and to the health department for human bites. For raccoons, rats or squirrels living in your home, call Pro Wildlife Removal. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Raccoon rabies zone, 2023", "Squirrels and bats in the park"],
+    "In Silver Springs, as across Marion County, DOH-Marion's alerts send residents to Marion County Animal Services for strays and bites to pets, and to the health department for human bites. For raccoons, rats or squirrels living in your home, call Pro Wildlife Removal. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Raccoon rabies zone, 2023", "Squirrels and bats in the park"],
   townsHeading: "Silver Springs and nearby",
   townsIntro: "Silver Springs sits just east of Ocala. We cover it along with the rest of Marion County.",
   towns: [
@@ -76,11 +76,11 @@ export const silverSprings = countyPage({
     ),
     faq(
       "Do you come out to Silver Springs the same day?",
-      "Same-day appointments are often available in Silver Springs. Call (727) 594-7705.",
+      "Same-day appointments are often available in Silver Springs. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Silver Springs?",
-  ctaText: "Silver Springs homeowners can call (727) 594-7705.",
+  ctaText: "Silver Springs homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal Silver Springs, FL | Pro Wildlife Removal",
     description:

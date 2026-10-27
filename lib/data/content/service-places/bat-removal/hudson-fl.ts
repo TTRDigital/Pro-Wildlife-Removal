@@ -23,11 +23,11 @@ export const batRemovalHudson = servicePlacePage({
   location: "about-us/service-area/hudson-wildlife-removal",
   county: "Pasco",
   order: 25,
-  heroText: "Bats tucked under Hudson soffits, tiles or fascia, and droppings piling up below? We look for every opening, fit one-way doors when the law allows and seal up after them. Call (727) 594-7705.",
+  heroText: "Bats tucked under Hudson soffits, tiles or fascia, and droppings piling up below? We look for every opening, fit one-way doors when the law allows and seal up after them. Call (844) 264-6254.",
   answerHeading: "How are bats removed from a Hudson building?",
   answer:
-    "Bats in Hudson are let out, not trapped or killed: one-way devices at the entry points let them fly out and keep them from getting back in, and only from August 15 to April 15 under FWC rules. Pro Wildlife Removal checks for the gaps a colony uses, fits the devices and seals up after. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Hudson's fire station bats"],
+    "Bats in Hudson are let out, not trapped or killed: one-way devices at the entry points let them fly out and keep them from getting back in, and only from August 15 to April 15 under FWC rules. Pro Wildlife Removal checks for the gaps a colony uses, fits the devices and seals up after. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion Aug. 15 to April 15", "Hudson's fire station bats"],
   localHeading: "What to know about bats in Hudson",
   localIntro: "In 2017, a bat colony forced firefighters out of a Hudson fire station. What happened there shows how a bat colony can take over a building.",
   local: [
@@ -42,7 +42,7 @@ export const batRemovalHudson = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Pasco, 352-521-1450, option 4.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office covers Pasco: 863-648-3200.") },
-    { icon: "users", title: "Bats in your building", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Bats in your building", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "The parts of a bat job that set the price: inspection, exclusion and sealing." },
@@ -66,11 +66,11 @@ export const batRemovalHudson = servicePlacePage({
     ),
     faq(
       "Is a same-day bat visit possible in Hudson?",
-      "Same-day appointments for bats are often available in Hudson. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Hudson. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Hudson home?",
-  ctaText: "Bats under a Hudson roof? Call (727) 594-7705.",
+  ctaText: "Bats under a Hudson roof? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Hudson, FL | Pro Wildlife Removal",
     description:

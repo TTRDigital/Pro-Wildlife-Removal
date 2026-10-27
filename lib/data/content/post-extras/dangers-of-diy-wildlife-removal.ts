@@ -13,7 +13,7 @@ export const extra_dangersOfDiyWildlifeRemoval: PostExtra = {
   slug: "dangers-of-diy-wildlife-removal",
   seoDescription: "Why DIY wildlife removal in Florida is risky: bites and rabies, droppings and disease, poison rules, and FWC trapping changes that start Dec. 31, 2026.",
   more: p(
-    "Before you set a trap or start pulling insulation apart, it helps to know the rules and the risks. Our guide to [Florida's wildlife trapping rules](/blog/florida-wildlife-trapping-rules/) explains what a homeowner may do, [wildlife exclusion vs trapping](/blog/wildlife-exclusion-vs-trapping-differences-for-homeowners/) compares the two approaches, and [rat bait stations and safety](/blog/rat-bait-stations-and-safety-a-comprehensive-guide/) covers poison around kids and pets. You can also read about [raccoon removal](/services/raccoon-removal/) and [dead animal removal](/services/dead-animal-removal/) in Central Florida. Call (727) 594-7705.",
+    "Before you set a trap or start pulling insulation apart, it helps to know the rules and the risks. Our guide to [Florida's wildlife trapping rules](/blog/florida-wildlife-trapping-rules/) explains what a homeowner may do, [wildlife exclusion vs trapping](/blog/wildlife-exclusion-vs-trapping-differences-for-homeowners/) compares the two approaches, and [rat bait stations and safety](/blog/rat-bait-stations-and-safety-a-comprehensive-guide/) covers poison around kids and pets. You can also read about [raccoon removal](/services/raccoon-removal/) and [dead animal removal](/services/dead-animal-removal/) in Central Florida. Call (844) 264-6254.",
   ),
   faq: [
     faq(

@@ -25,11 +25,11 @@ export const raccoonRemovalTampa = servicePlacePage({
   location: "about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl",
   county: "Hillsborough",
   order: 1,
-  heroText: "A raccoon in a Tampa attic, soffit or chimney? We find how it got in, check for kits, get it out and seal the opening it used. Call (727) 594-7705.",
+  heroText: "A raccoon in a Tampa attic, soffit or chimney? We find how it got in, check for kits, get it out and seal the opening it used. Call (844) 264-6254.",
   answerHeading: "Who takes raccoons out of Tampa attics and walls?",
   answer:
-    "A private wildlife company. The City of Tampa says wildlife on private property needs a private removal service, and its Solid Waste Department picks up only small dead animals in city rights-of-way, not on private property. Pro Wildlife Removal takes raccoons out of Tampa attics, soffits and chimneys, checks for kits and seals the way in. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City: private removal for private property", "Spring means kits"],
+    "A private wildlife company. The City of Tampa says wildlife on private property needs a private removal service, and its Solid Waste Department picks up only small dead animals in city rights-of-way, not on private property. Pro Wildlife Removal takes raccoons out of Tampa attics, soffits and chimneys, checks for kits and seals the way in. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "City: private removal for private property", "Spring means kits"],
   localHeading: "What to know about raccoons in Tampa",
   localIntro: "Raccoons do well in cities, and Tampa sits on Tampa Bay with the Hillsborough River running to it. These are the local facts that shape a raccoon job here.",
   local: [
@@ -45,7 +45,7 @@ export const raccoonRemovalTampa = servicePlacePage({
   contacts: [
     { icon: "home", title: "Dead raccoon on a city road", text: p("City of Tampa customer service, (813) 274-8811, for small dead animals in city rights-of-way.") },
     { icon: "phone", title: "Bitten or scratched", text: p("Scrub the wound with soap and water, see a doctor, then report it to DOH-Hillsborough at 813-307-8059.") },
-    { icon: "users", title: "A raccoon in the house", text: p("A private wildlife company, per the city. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A raccoon in the house", text: p("A private wildlife company, per the city. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "Florida's trap, check and release rules, if you're thinking of doing it yourself." },
@@ -69,15 +69,15 @@ export const raccoonRemovalTampa = servicePlacePage({
     ),
     faq(
       "Can you look at a Tampa raccoon problem today?",
-      "Same-day appointments for raccoons are often available in Tampa. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Tampa. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Tampa home?",
-  ctaText: "Raccoons near the Hillsborough River or anywhere in Tampa? Call (727) 594-7705.",
+  ctaText: "Raccoons near the Hillsborough River or anywhere in Tampa? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Tampa, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Tampa, FL: raccoons out of attics, soffits and chimneys, kits found first, the way in sealed, plus Tampa's rules. Call (727) 594-7705.",
+      "Raccoon removal in Tampa, FL: raccoons out of attics, soffits and chimneys, kits found first, the way in sealed, plus Tampa's rules. Call (844) 264-6254.",
   },
   sources: [
     { title: "City of Tampa: Animal services, Hillsborough County (wildlife on private property: use private removal services)", url: "https://www.tampa.gov/service/animal-services-hillsborough-county" },

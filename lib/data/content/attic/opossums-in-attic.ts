@@ -8,7 +8,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
  * Links to the opossum removal service page in the first 150 words and back.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const FLYER = "https://myfwc.com/media/28161/livingwithopossums.pdf";
 const UW471 = "https://ask.ifas.ufl.edu/publication/UW471";
 
@@ -35,7 +35,7 @@ export const opossumsInAttic: Service = {
       _key: "answer",
       heading: "How do I get a possum out of my attic?",
       text: p(
-        "Make sure it's an opossum, wait until it leaves at night, then close the gap with sturdy wire mesh. If it won't leave, it can be live-trapped, checked every 24 hours, and released only on site or on 40+ acres in the same county with written permission. Details on [opossum removal](/services/opossum-removal/), or call (727) 594-7705.",
+        "Make sure it's an opossum, wait until it leaves at night, then close the gap with sturdy wire mesh. If it won't leave, it can be live-trapped, checked every 24 hours, and released only on site or on 40+ acres in the same county with written permission. Details on [opossum removal](/services/opossum-removal/), or call (844) 264-6254.",
       ),
       points: ["Mostly out at night", "Close gaps with mesh", "Daylight isn't illness", "Strict release rules"],
     },
@@ -231,14 +231,14 @@ export const opossumsInAttic: Service = {
       _key: "cta",
       heading: "Possum in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705, and tell us where you hear it."),
+      text: p("Call (844) 264-6254, and tell us where you hear it."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Opossums in the Attic: What to Do | Pro Wildlife Removal",
     description:
-      "Possum in the attic or crawl space? How to tell it from a raccoon, what not to do, Florida's release rules and keeping the next one out. (727) 594-7705.",
+      "Possum in the attic or crawl space? How to tell it from a raccoon, what not to do, Florida's release rules and keeping the next one out. (844) 264-6254.",
   },
   sources: [
     { title: "FWC: Living with Opossums (mostly nocturnal, daytime activity normal; gray fur, hairless prehensile tail, opposable thumbs; hiss, drool, growl, play dead, foul smell; don't pick up; scavenger, ticks, partly immune to venom; secure food; close openings once all are out; motion sprinkler; wire mesh; release rules; removing one doesn't stop others)", url: FLYER },

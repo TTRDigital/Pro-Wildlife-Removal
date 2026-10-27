@@ -14,14 +14,14 @@ export const ocala = countyPage({
   name: "Ocala",
   county: "Marion",
   order: 40,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN OCALA",
   summary: "Wildlife removal in Ocala, FL: raccoons, rats, squirrels, bats, opossums, snakes, armadillos and more, across the city and southwest Ocala.",
-  heroText: "The Marion County city with raccoon rabies alerts in 2024 and 2026 and a bat house at Heritage Nature Conservancy. Call (727) 594-7705.",
+  heroText: "The Marion County city with raccoon rabies alerts in 2024 and 2026 and a bat house at Heritage Nature Conservancy. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Ocala, FL?",
   answer:
-    "For wildlife living in your home, a private company. DOH-Marion's alerts send Ocala residents to Marion County Animal Services for strays and bites to pets, and to the health department for human bites. Pro Wildlife Removal handles raccoons, rats, squirrels and bats across Ocala. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Raccoon alerts in 2024 and 2026", "About 71,000 residents"],
+    "For wildlife living in your home, a private company. DOH-Marion's alerts send Ocala residents to Marion County Animal Services for strays and bites to pets, and to the health department for human bites. Pro Wildlife Removal handles raccoons, rats, squirrels and bats across Ocala. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Raccoon alerts in 2024 and 2026", "About 71,000 residents"],
   townsHeading: "Ocala and nearby",
   townsIntro: "Ocala had an estimated 71,017 residents in 2025, up from 63,591 at the 2020 Census. We also cover the Marion communities around it.",
   towns: [
@@ -76,15 +76,15 @@ export const ocala = countyPage({
     ),
     faq(
       "Can you be at my Ocala house today?",
-      "Same-day appointments are often available in Ocala. Call (727) 594-7705.",
+      "Same-day appointments are often available in Ocala. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Ocala?",
-  ctaText: "Ocala homeowners can call (727) 594-7705.",
+  ctaText: "Ocala homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Ocala, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Ocala, FL: raccoons, rats, squirrels and bats, plus Ocala's recent rabies alerts and who to call for strays and bites. (727) 594-7705.",
+      "Wildlife removal in Ocala, FL: raccoons, rats, squirrels and bats, plus Ocala's recent rabies alerts and who to call for strays and bites. (844) 264-6254.",
   },
   sources: [
     { title: "Florida EDR: April 1, 2025 population estimates (Ocala 71,017; 2020 Census 63,591)", url: EDR },

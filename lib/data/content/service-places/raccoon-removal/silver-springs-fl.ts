@@ -22,11 +22,11 @@ export const raccoonRemovalSilverSprings = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-silver-springs-fl",
   county: "Marion",
   order: 96,
-  heroText: "A raccoon under a Silver Springs house, in the shed or knocking over the trash? We take it out, make sure no young are left behind and close the opening. Call (727) 594-7705.",
+  heroText: "A raccoon under a Silver Springs house, in the shed or knocking over the trash? We take it out, make sure no young are left behind and close the opening. Call (844) 264-6254.",
   answerHeading: "Who removes raccoons in Silver Springs?",
   answer:
-    "A private wildlife company. In Silver Springs, as in the rest of Marion County, DOH-Marion takes human bite reports and Animal Services handles strays and pets, not a raccoon in the attic. Pro Wildlife Removal removes the raccoon, checks for young and closes the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "A 2023 raccoon rabies zone", "Raccoons in the park plans"],
+    "A private wildlife company. In Silver Springs, as in the rest of Marion County, DOH-Marion takes human bite reports and Animal Services handles strays and pets, not a raccoon in the attic. Pro Wildlife Removal removes the raccoon, checks for young and closes the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "A 2023 raccoon rabies zone", "Raccoons in the park plans"],
   localHeading: "What to know about raccoons in Silver Springs",
   localIntro: "Silver Springs has had a raccoon rabies zone of its own, and the state park's plans name raccoons as a nuisance risk. Here is what the records say.",
   local: [
@@ -41,7 +41,7 @@ export const raccoonRemovalSilverSprings = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care and report it to DOH-Marion, 352-629-0137.") },
     { icon: "home", title: "A pet bitten by wildlife", text: p("See a vet right away, then call Marion County Animal Services, 352-671-8727.") },
-    { icon: "users", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "Where Florida law lets a trapped raccoon go, and where it doesn't." },
@@ -65,11 +65,11 @@ export const raccoonRemovalSilverSprings = servicePlacePage({
     ),
     faq(
       "How soon can you come out for a raccoon in Silver Springs?",
-      "Same-day appointments for raccoons are often available in Silver Springs. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Silver Springs. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Silver Springs home?",
-  ctaText: "Silver Springs raccoon calls go to (727) 594-7705.",
+  ctaText: "Silver Springs raccoon calls go to (844) 264-6254.",
   seo: {
     title: "Raccoon Removal Silver Springs, FL | Pro Wildlife Removal",
     description:

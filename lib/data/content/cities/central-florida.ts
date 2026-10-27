@@ -18,16 +18,16 @@ export const centralFlorida = countyPage({
   name: "Central Florida",
   county: "",
   order: 1,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN CENTRAL FLORIDA",
   heading: "Wildlife Removal in Central Florida",
   highlight: "Central Florida",
   summary: "Wildlife removal across Central Florida: raccoons, rats, bats, squirrels, opossums, snakes, armadillos and bees, county by county.",
-  heroText: "From the Gulf coast to the Villages and Polk's lakes, one number covers our Central Florida service area. Call (727) 594-7705.",
+  heroText: "From the Gulf coast to the Villages and Polk's lakes, one number covers our Central Florida service area. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Central Florida?",
   answer:
-    "Usually a private company. County animal services here focus on pets and strays: Orange says it doesn't trap nuisance wildlife, Sumter generally handles only domestic animals, and the Citrus Sheriff refers residents to a trapper. Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes and other animals from homes, following FWC's rules, and seals the way in. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "One number, every county", "FWC rules on every job"],
+    "Usually a private company. County animal services here focus on pets and strays: Orange says it doesn't trap nuisance wildlife, Sumter generally handles only domestic animals, and the Citrus Sheriff refers residents to a trapper. Pro Wildlife Removal removes raccoons, rats, bats, squirrels, snakes and other animals from homes, following FWC's rules, and seals the way in. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "One number, every county", "FWC rules on every job"],
   townsHeading: "Counties and cities we serve",
   townsIntro: "Each county and city has its own page with its local rules, records and contacts. Pick yours.",
   towns: countyGroups,
@@ -47,7 +47,7 @@ export const centralFlorida = countyPage({
   faqs: [
     faq(
       "Which counties do you serve?",
-      "Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion, with pages for Orlando, Sarasota and Lady Lake too. One number covers all of it: (727) 594-7705.",
+      "Pinellas, Pasco, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion, with pages for Orlando, Sarasota and Lady Lake too. One number covers all of it: (844) 264-6254.",
     ),
     faq(
       "Can I release a trapped animal somewhere else in Florida?",
@@ -63,15 +63,15 @@ export const centralFlorida = countyPage({
     ),
     faq(
       "How soon can someone come out?",
-      "Same-day appointments are often available across Central Florida. Call (727) 594-7705.",
+      "Same-day appointments are often available across Central Florida. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem anywhere in Central Florida?",
-  ctaText: "One number for every county we serve: (727) 594-7705.",
+  ctaText: "One number for every county we serve: (844) 264-6254.",
   seo: {
     title: "Central Florida Service Area | Pro Wildlife Removal",
     description:
-      "Wildlife removal across Central Florida: raccoons, rats, bats and squirrels, the FWC rules every job follows, and a page for each county. (727) 594-7705.",
+      "Wildlife removal across Central Florida: raccoons, rats, bats and squirrels, the FWC rules every job follows, and a page for each county. (844) 264-6254.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026: Maternity season starts April 16 for Florida's bats (through Aug. 14; devices at least four nights; lows 50°F or higher)", url: FWC_BATS },

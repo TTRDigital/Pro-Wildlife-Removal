@@ -8,7 +8,7 @@ import { images } from "./images.ts";
  */
 export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   name: "Pro Wildlife Removal",
-  phone: "(727) 594-7705",
+  phone: "(844) 264-6254",
   tollFree: "1-844-ANIMAL4",
   email: "customerservice@prowildliferemoval.net",
   // The client: open 24/7, and no street address anywhere (Oct 25, 2026). The business is described by its service area.
@@ -32,12 +32,12 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   // The "Locations" menu in the live site's top bar: a phone line per county.
   // One phone number for the whole site (Kia, Oct 26, 2026): no county lines.
   countyLines: [],
-  headerCta: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  headerCta: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   // From the home page's closing section on the live site.
   defaultCta: {
     heading: "Need Help? Reach Out To Us.",
     highlight: "Reach Out To Us.",
-    text: "No matter what animal disturbance you may be dealing with, our professionals have a solution for you. Simply dial 727-594-7705 and we’ll be right there to provide the care and service you need.",
+    text: "No matter what animal disturbance you may be dealing with, our professionals have a solution for you. Simply dial 844-264-6254 and we’ll be right there to provide the care and service you need.",
   },
   logo: images.logo,
 };

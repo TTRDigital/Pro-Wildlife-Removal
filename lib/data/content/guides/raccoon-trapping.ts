@@ -72,7 +72,7 @@ export const raccoonTrapping: Post = {
       "If a raccoon bites or scratches anyone, wash the wound with soap and water, see a doctor and call the county health department. Our [Pasco](/service-areas/pasco-county/), [Hillsborough](/service-areas/hillsborough-county/) and [Pinellas](/service-areas/pinellas-county/) county pages list the numbers.",
     ),
     h3("When to call a professional"),
-    p("Call if the raccoon is in the attic, walls or chimney, if there may be kits, if you don't want to handle the release or euthanasia, or if the raccoon keeps beating the trap. Trapping is only part of the job: the entry has to be sealed too. See [raccoon removal](/services/raccoon-removal/) and [raccoons in the attic](/services/raccoons-in-attic/), or call (727) 594-7705."),
+    p("Call if the raccoon is in the attic, walls or chimney, if there may be kits, if you don't want to handle the release or euthanasia, or if the raccoon keeps beating the trap. Trapping is only part of the job: the entry has to be sealed too. See [raccoon removal](/services/raccoon-removal/) and [raccoons in the attic](/services/raccoons-in-attic/), or call (844) 264-6254."),
   ),
   faq: [
     faq("Can I relocate a raccoon in Florida?", "Only to land the rules allow: on the property where it was caught, or on 40 or more contiguous acres in the same county with the landowner's written permission. Parks and other public land are off limits without written permission. UF/IFAS recommends against relocating raccoons."),

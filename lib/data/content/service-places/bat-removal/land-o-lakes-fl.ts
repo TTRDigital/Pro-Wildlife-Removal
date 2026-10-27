@@ -22,11 +22,11 @@ export const batRemovalLandOLakes = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-land-o-lakes",
   county: "Pasco",
   order: 26,
-  heroText: "Bats slipping into a Land O' Lakes roofline or soffit at dusk? We look for the openings bats use, fit one-way exclusion doors in the legal season and seal the gaps once they're out. Call (727) 594-7705.",
+  heroText: "Bats slipping into a Land O' Lakes roofline or soffit at dusk? We look for the openings bats use, fit one-way exclusion doors in the legal season and seal the gaps once they're out. Call (844) 264-6254.",
   answerHeading: "What does bat removal look like in a Land O' Lakes house?",
   answer:
-    "The same way a Land O' Lakes high school did in 2014: one-way exclusion doors that let bats leave but not come back, fitted between August 15 and April 15. Bats can't legally be killed, poisoned or moved. Pro Wildlife Removal checks the home for the gaps a colony uses, fits the doors and seals up afterward. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Sunlake High's bats, 2014"],
+    "The same way a Land O' Lakes high school did in 2014: one-way exclusion doors that let bats leave but not come back, fitted between August 15 and April 15. Bats can't legally be killed, poisoned or moved. Pro Wildlife Removal checks the home for the gaps a colony uses, fits the doors and seals up afterward. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion Aug. 15 to April 15", "Sunlake High's bats, 2014"],
   localHeading: "Bats in Land O' Lakes, starting with Sunlake High",
   localIntro: "Land O' Lakes had a bat colony at Sunlake High School in 2014. Here is what happened, and what Pasco and FWC say about bats.",
   local: [
@@ -43,7 +43,7 @@ export const batRemovalLandOLakes = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Pasco, 352-521-1450, option 4.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office covers Pasco: 863-648-3200.") },
-    { icon: "users", title: "Bats in your home", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Bats in your home", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What changes the price of an exclusion: roof type, colony size, timing." },
@@ -67,11 +67,11 @@ export const batRemovalLandOLakes = servicePlacePage({
     ),
     faq(
       "How quickly can you reach a Land O' Lakes home with bats?",
-      "Same-day appointments for bats are often available in Land O' Lakes. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Land O' Lakes. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Land O' Lakes home?",
-  ctaText: "Bats near Sunlake or anywhere in Land O' Lakes? Call (727) 594-7705.",
+  ctaText: "Bats near Sunlake or anywhere in Land O' Lakes? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Land O' Lakes, FL | Pro Wildlife Removal",
     description:

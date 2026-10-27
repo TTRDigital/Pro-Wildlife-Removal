@@ -25,7 +25,7 @@ export const siteSettings = defineType({
   type: "document",
   fields: [
     defineField({ name: "name", title: "Business name", type: "string" }),
-    defineField({ name: "phone", type: "string", description: "As shown, e.g. (727) 594-7705. The call links follow it." }),
+    defineField({ name: "phone", type: "string", description: "As shown, e.g. (844) 264-6254. The call links follow it." }),
     defineField({ name: "tollFree", title: "Vanity / toll-free number", type: "string" }),
     defineField({ name: "email", type: "string" }),
     defineField({

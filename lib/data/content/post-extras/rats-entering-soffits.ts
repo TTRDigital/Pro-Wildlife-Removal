@@ -8,7 +8,7 @@ export const extra_ratsEnteringSoffits: PostExtra = {
   slug: "rats-entering-soffits",
   seoDescription: "Rats entering soffits can use gaps as small as 1/2 inch. Learn signs of soffit entry, what an inspection checks, and sealing options in Central Florida.",
   more: p(
-    "For more on roofline entry, read our guides to [soffit damage and wildlife intrusions](/blog/soffit-damage-and-wildlife-intrusions/), [rat entry points around the house](/blog/rat-entry-points/) and [telling Norway rats from roof rats](/blog/norway-rat-vs-roof-rat-florida/). Central Florida homeowners can also learn about [rat removal](/services/rat-removal/) and [rats in the attic](/services/rats-in-attic/). Call (727) 594-7705.",
+    "For more on roofline entry, read our guides to [soffit damage and wildlife intrusions](/blog/soffit-damage-and-wildlife-intrusions/), [rat entry points around the house](/blog/rat-entry-points/) and [telling Norway rats from roof rats](/blog/norway-rat-vs-roof-rat-florida/). Central Florida homeowners can also learn about [rat removal](/services/rat-removal/) and [rats in the attic](/services/rats-in-attic/). Call (844) 264-6254.",
   ),
   faq: [
     faq(

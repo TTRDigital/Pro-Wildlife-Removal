@@ -14,7 +14,7 @@ export const extra_effectiveRatControlTips: PostExtra = {
   slug: "effective-rat-control-tips",
   seoDescription: "Ten rat control tips for Central Florida homes: seal entry points, store food tight, cut back limbs, set snap traps by walls and keep poison bait outdoors.",
   more: p(
-    "Want to go deeper on any of these tips? Our guide to [rat entry points](/blog/rat-entry-points/) covers where to look and what to seal, [catching a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/) walks through trap setup, and [rat bait stations and safety](/blog/rat-bait-stations-and-safety-a-comprehensive-guide/) explains where poison does and doesn't belong. If the activity is overhead, read about [rats in the attic](/services/rats-in-attic/), or see our [rat removal](/services/rat-removal/) service for Central Florida homes. Call (727) 594-7705.",
+    "Want to go deeper on any of these tips? Our guide to [rat entry points](/blog/rat-entry-points/) covers where to look and what to seal, [catching a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/) walks through trap setup, and [rat bait stations and safety](/blog/rat-bait-stations-and-safety-a-comprehensive-guide/) explains where poison does and doesn't belong. If the activity is overhead, read about [rats in the attic](/services/rats-in-attic/), or see our [rat removal](/services/rat-removal/) service for Central Florida homes. Call (844) 264-6254.",
   ),
   faq: [
     faq(

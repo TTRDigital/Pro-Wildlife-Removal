@@ -18,7 +18,7 @@ export const cleanUpRatDroppings: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** air the space out, put on gloves, and soak droppings, urine and nesting material with disinfectant or a bleach mix before you touch them. Wipe them up with paper towels, bag the waste, then mop. Never sweep or vacuum. For a heavy infestation, full protective gear is needed. Call (727) 594-7705 for help.",
+      "**The short answer:** air the space out, put on gloves, and soak droppings, urine and nesting material with disinfectant or a bleach mix before you touch them. Wipe them up with paper towels, bag the waste, then mop. Never sweep or vacuum. For a heavy infestation, full protective gear is needed. Call (844) 264-6254 for help.",
     ),
     h3("Why you can't just sweep it up"),
     p(

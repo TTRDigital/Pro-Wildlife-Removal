@@ -12,7 +12,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "./notes.ts";
  * Facts about the company are [PLACEHOLDER: ask the client: ...] until confirmed.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 
 export const home: PageContent = {
   design: "new",
@@ -32,7 +32,7 @@ export const home: PageContent = {
       _key: "answer",
       heading: "Who we are and how it works",
       text: p(
-        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums (possums), armadillos, bees and dead animals from homes and businesses in eight counties across Central Florida. We inspect, remove the animals the way Florida law allows and seal the entry points. Call (727) 594-7705.",
+        "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums (possums), armadillos, bees and dead animals from homes and businesses in eight counties across Central Florida. We inspect, remove the animals the way Florida law allows and seal the entry points. Call (844) 264-6254.",
       ),
       points: ["8 counties", "Humane, legal methods", "Entry points sealed"],
     },
@@ -82,7 +82,7 @@ export const home: PageContent = {
       _key: "areas",
       eyebrow: "Service area",
       heading: "Wildlife removal in 8 Florida counties",
-      intro: p("One number covers all eight counties, from Tarpon Springs on the Gulf coast to Ocala and Winter Haven inland: (727) 594-7705."),
+      intro: p("One number covers all eight counties, from Tarpon Springs on the Gulf coast to Ocala and Winter Haven inland: (844) 264-6254."),
       groups: countyGroups,
       display: "map",
     },
@@ -205,14 +205,14 @@ export const home: PageContent = {
       _key: "cta",
       heading: "Hearing something in the attic right now?",
       highlight: "right now?",
-      text: p("Call (727) 594-7705, one number for all 8 counties."),
+      text: p("Call (844) 264-6254, one number for all 8 counties."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Wildlife Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel, snake and opossum removal across 8 Central Florida counties, with every entry point sealed. A free inspection: (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel, snake and opossum removal across 8 Central Florida counties, with every entry point sealed. A free inspection: (844) 264-6254.",
   },
   sources: [
     { title: "FWC news release: Bat maternity season begins April 16 (April 2026)", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

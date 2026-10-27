@@ -135,8 +135,8 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - was: then we seal the way they got in and clean up what they left behind.
   - now: then we seal the way they got in and show you what the inspection found.
 - `content/home.ts`
-  - was: We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (727) 594-7705.
-  - now: We inspect, remove the animals the way Florida law allows and seal the entry points. Call (727) 594-7705.
+  - was: We inspect, remove the animals the way Florida law allows, seal the entry points and clean up. Call (844) 264-6254.
+  - now: We inspect, remove the animals the way Florida law allows and seal the entry points. Call (844) 264-6254.
 - `content/home.ts`
   - was: title: "Clean-Up Services", text: p( "There is often damage and contamination left behind once an animal inhabits a crawlspace or attic. We offer a full range of clean-up services for virtually every animal mess. From antimicrobial treatments and ozone treatments to vacuum services and interior sanitizing, our team of experts has the cleaning solution for you.",
   - now: title: "Inspection Report", text: p( "Animals that live in a crawlspace or attic leave droppings, soiled insulation and chewed wiring behind. We show you what the inspection found, so you know what an electrician or contractor may need to look at.",
@@ -225,8 +225,8 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - was: We locate it, bag and remove it, clean and deodorize the spot, and find how the animal got in.
   - now: We locate it, bag and remove it, and find how the animal got in.
 - `content/services/dead-animal-removal.ts`
-  - was: We find and remove it, clean and deodorize, and find the way in. Central Florida: (727) 594-7705.
-  - now: We find it, bag it, remove it and find how it got in. Central Florida: (727) 594-7705.
+  - was: We find and remove it, clean and deodorize, and find the way in. Central Florida: (844) 264-6254.
+  - now: We find it, bag it, remove it and find how it got in. Central Florida: (844) 264-6254.
 - `content/counties/citrus.ts`
   - was: remove the animal legally, seal the opening and clean up. Call
   - now: remove the animal legally and seal the opening. Call
@@ -276,8 +276,8 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - was: what you can legally do this month, and how the guano gets cleaned up."
   - now: what you can legally do this month, and what to know about the guano."
 - `content/attic/bats-in-attic.ts`
-  - was: why you never seal bats in, and guano cleanup. (727) 594-7705.
-  - now: why you never seal bats in, and guano safety. (727) 594-7705.
+  - was: why you never seal bats in, and guano cleanup. (844) 264-6254.
+  - now: why you never seal bats in, and guano safety. (844) 264-6254.
 - `content/attic/bats-in-attic.ts`
   - was: badges: ["Dusk watch", "Legal dates", "Guano cleanup"],
   - now: badges: ["Dusk watch", "Legal dates", "Guano safety"],
@@ -423,8 +423,8 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - was: { title: "Cleanup", text: p("A small latrine, or an attic of soiled insulation.") },
   - now: { title: "Den size", text: p("A small den under a deck, or an attic the family has used for months.") },
 - `content/services/raccoon-removal.ts`
-  - was: plus sealing and latrine cleanup in Central Florida. (727) 594-7705.
-  - now: plus every entry sealed, anywhere in Central Florida. (727) 594-7705.
+  - was: plus sealing and latrine cleanup in Central Florida. (844) 264-6254.
+  - now: plus every entry sealed, anywhere in Central Florida. (844) 264-6254.
 - `content/services/bat-removal.ts`
   - was: eyebrow: "Sealing and cleanup", heading: "After the bats are out",
   - now: eyebrow: "Sealing", heading: "After the bats are out",
@@ -489,8 +489,8 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - was: { number: "4", title: "Cleanup", text: p("When the activity stops, the attic is cleaned.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, from inspection to cleanup]") },
   - now: { number: "4", title: "Final check", text: p("When the activity stops, the seals get a last look.", "[PLACEHOLDER: ask the client: how long a typical rat job takes, start to finish]") },
 - `content/attic/rats-in-attic.ts`
-  - was: what they damage, and how sealing, trapping and cleanup work. Call (727) 594-7705.
-  - now: what they damage, and how sealing and trapping get them out. Call (727) 594-7705.
+  - was: what they damage, and how sealing, trapping and cleanup work. Call (844) 264-6254.
+  - now: what they damage, and how sealing and trapping get them out. Call (844) 264-6254.
 - `content/attic/squirrels-in-attic.ts`
   - was: { number: "4", title: "Cleanup", text: p("Nests, droppings and soiled insulation out.",
   - now: { number: "4", title: "Walk-through", text: p("Nests, droppings and soiled insulation shown to you.",
@@ -525,8 +525,8 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - was: what not to do, and how the latrine gets cleaned."
   - now: what not to do, and what to know about the latrine."
 - `content/attic/raccoons-in-attic.ts`
-  - was: mistakes that make it worse, Florida's release rules and latrine cleanup. Call (727) 594-7705.
-  - now: mistakes that make it worse, Florida's release rules and latrine safety. Call (727) 594-7705.
+  - was: mistakes that make it worse, Florida's release rules and latrine cleanup. Call (844) 264-6254.
+  - now: mistakes that make it worse, Florida's release rules and latrine safety. Call (844) 264-6254.
 - `content/attic/raccoons-in-attic.ts`
   - was: badges: ["Evening thumping", "Spring babies", "Latrine cleanup"],
   - now: badges: ["Evening thumping", "Spring babies", "Latrine safety"],
@@ -540,11 +540,11 @@ The client hasn't confirmed attic clean-up (it's a question in Kia's email), so 
   - was: badges: ["8 counties", "Removal, sealing and cleanup"],
   - now: badges: ["8 counties", "Removal and sealing"],
 - `content/home.ts`
-  - was: across 8 Central Florida counties, with sealing and cleanup. A free inspection: (727) 594-7705.
-  - now: across 8 Central Florida counties, with every entry point sealed. A free inspection: (727) 594-7705.
+  - was: across 8 Central Florida counties, with sealing and cleanup. A free inspection: (844) 264-6254.
+  - now: across 8 Central Florida counties, with every entry point sealed. A free inspection: (844) 264-6254.
 - `content/page-extras.ts`
-  - was: inspection, trapping and removal, exclusion of entry points, and clean-up. Call (727) 594-7705 to talk it through.
-  - now: inspection, trapping and removal, and exclusion of entry points. Call (727) 594-7705 to talk it through, any day.
+  - was: inspection, trapping and removal, exclusion of entry points, and clean-up. Call (844) 264-6254 to talk it through.
+  - now: inspection, trapping and removal, and exclusion of entry points. Call (844) 264-6254 to talk it through, any day.
 - `content/page-extras.ts`
   - was: faq( "Do you clean up after the animals are gone?", `Yes: droppings, nesting and soiled insulation, with antimicrobial and ozone treatments where needed. The CDC warns against sweeping or vacuuming rodent droppings ([CDC](${CDC_CLEANUP})). See our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/).`, ),
   - now: faq( "What happens to the droppings the animals leave?", `We show you where they are during the inspection. The CDC warns against sweeping or vacuuming rodent droppings ([CDC](${CDC_CLEANUP})). See our guide to [cleaning up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/).`, ),

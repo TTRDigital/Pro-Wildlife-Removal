@@ -24,14 +24,14 @@ export const orlando = countyPage({
   name: "Orlando",
   county: "Orange",
   order: 20,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "ORLANDO WILDLIFE REMOVAL",
   summary: "Orlando wildlife removal: raccoons, squirrels, snakes, rats, bats, opossums and armadillos out of Orlando homes and businesses.",
-  heroText: "Rabid raccoons in east Orange and a snake that knocked out power in Baldwin Park are both on the record. Call (727) 594-7705.",
+  heroText: "Rabid raccoons in east Orange and a snake that knocked out power in Baldwin Park are both on the record. Call (844) 264-6254.",
   answerHeading: "Who handles animal removal in Orlando, FL?",
   answer:
-    "A private company. Orange County Animal Services covers Orlando, and its FAQ says it doesn't trap nuisance wildlife such as raccoons and opossums. For raccoons, squirrels, snakes or rats in an Orlando home, Pro Wildlife Removal finds how they get in, removes them as Florida law allows and seals the entry points. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County doesn't trap nuisance wildlife", "Rabies alerts in 2023"],
+    "A private company. Orange County Animal Services covers Orlando, and its FAQ says it doesn't trap nuisance wildlife such as raccoons and opossums. For raccoons, squirrels, snakes or rats in an Orlando home, Pro Wildlife Removal finds how they get in, removes them as Florida law allows and seals the entry points. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "County doesn't trap nuisance wildlife", "Rabies alerts in 2023"],
   townsHeading: "Orlando and nearby",
   townsIntro: "Florida's EDR puts Orlando at 340,681 people in April 2025, in an Orange County of about 1.54 million. We take calls in the city and the county around it.",
   towns: [
@@ -93,15 +93,15 @@ export const orlando = countyPage({
     ),
     faq(
       "How soon can someone reach an Orlando home?",
-      "Same-day appointments are often available in Orlando. Call (727) 594-7705.",
+      "Same-day appointments are often available in Orlando. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife in your Orlando home?",
-  ctaText: "Raccoons, squirrels or snakes anywhere in Orlando: call (727) 594-7705.",
+  ctaText: "Raccoons, squirrels or snakes anywhere in Orlando: call (844) 264-6254.",
   seo: {
     title: "Orlando Wildlife Removal | Pro Wildlife Removal",
     description:
-      "Orlando wildlife removal: raccoons, squirrels, snakes and rats, plus Orange County rabies alerts, Animal Services limits and city rules. (727) 594-7705.",
+      "Orlando wildlife removal: raccoons, squirrels, snakes and rats, plus Orange County rabies alerts, Animal Services limits and city rules. (844) 264-6254.",
   },
   sources: [
     { title: "Orange County Animal Services: FAQ (does not trap nuisance wildlife, e.g. opossums and raccoons; helps injured wildlife; consult a private trapper; report injured animals to 3-1-1)", url: OCAS_FAQ },

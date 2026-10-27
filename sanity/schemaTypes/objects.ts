@@ -45,7 +45,7 @@ export const cta = defineType({
   type: "object",
   fields: [
     defineField({ name: "label", type: "string", validation: (r) => r.required() }),
-    defineField({ name: "href", title: "Link", type: "string", description: "A page on this site like /contact-us/, a full URL, or tel:+17275947705.", validation: (r) => r.required() }),
+    defineField({ name: "href", title: "Link", type: "string", description: "A page on this site like /contact-us/, a full URL, or tel:+18442646254.", validation: (r) => r.required() }),
     defineField({ name: "style", type: "string", options: { list: ["primary", "outline"], layout: "radio" }, initialValue: "primary" }),
   ],
   preview: { select: { title: "label", subtitle: "href" } },

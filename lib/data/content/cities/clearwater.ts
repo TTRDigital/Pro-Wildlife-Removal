@@ -11,14 +11,14 @@ export const clearwater = countyPage({
   name: "Clearwater",
   county: "Pinellas",
   order: 10,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN CLEARWATER",
-  summary: "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes, opossums and more. Call (727) 594-7705.",
-  heroText: "The Pinellas County seat, between the Gulf and Old Tampa Bay, with nature parks and wetlands inside city limits. Call (727) 594-7705.",
+  summary: "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes, opossums and more. Call (844) 264-6254.",
+  heroText: "The Pinellas County seat, between the Gulf and Old Tampa Bay, with nature parks and wetlands inside city limits. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife problems in Clearwater?",
   answer:
-    "The City of Clearwater doesn't run animal control: Pinellas County handles strays and pets, and FWC handles alligators and wildlife emergencies. For an animal living in your attic, walls or yard, call a private company. Pro Wildlife Removal works across Clearwater. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County handles pets", "FWC handles wildlife issues"],
+    "The City of Clearwater doesn't run animal control: Pinellas County handles strays and pets, and FWC handles alligators and wildlife emergencies. For an animal living in your attic, walls or yard, call a private company. Pro Wildlife Removal works across Clearwater. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "County handles pets", "FWC handles wildlife issues"],
   townsHeading: "Clearwater and nearby",
   townsIntro: "Clearwater, home to about 118,300 people, is the Pinellas County seat. We cover the towns around it too.",
   towns: [
@@ -69,15 +69,15 @@ export const clearwater = countyPage({
     ),
     faq(
       "Can you get out to a Clearwater home today?",
-      "Same-day appointments are often available in Clearwater. Call (727) 594-7705.",
+      "Same-day appointments are often available in Clearwater. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Clearwater?",
-  ctaText: "Clearwater homeowners can reach us at (727) 594-7705.",
+  ctaText: "Clearwater homeowners can reach us at (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Clearwater, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes and opossums, who handles what in the city, and local rules. (727) 594-7705.",
+      "Wildlife removal in Clearwater, FL: rats, raccoons, bats, squirrels, snakes and opossums, who handles what in the city, and local rules. (844) 264-6254.",
   },
   sources: [
     S.edr,

@@ -7,7 +7,7 @@ import { faq, p, rich, table, ul } from "../pt.ts";
  * Links to the bat removal service page in the first 150 words and back.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const BROCHURE = "https://myfwc.com/media/nu2fvsvj/livingwithbats.pdf";
 const RELEASE = "https://myfwc.com/news/all-news/bat-maternity-0426/";
 
@@ -33,7 +33,7 @@ export const batsInAttic: Service = {
       _key: "answer",
       heading: "What do I do about bats in my attic in Florida?",
       text: p(
-        "Confirm it with a dusk watch, then plan an exclusion: one-way devices let the bats out and keep them out, and the gaps are sealed after. From April 16 to August 14 that waits, unless FWC issues a permit. Never seal bats in. Details on [bat removal](/services/bat-removal/), or call (727) 594-7705.",
+        "Confirm it with a dusk watch, then plan an exclusion: one-way devices let the bats out and keep them out, and the gaps are sealed after. From April 16 to August 14 that waits, unless FWC issues a permit. Never seal bats in. Details on [bat removal](/services/bat-removal/), or call (844) 264-6254.",
       ),
       points: ["Watch at dusk", "Exclude Aug 15 to April 15", "Never seal them in", "Guano safety"],
     },
@@ -204,14 +204,14 @@ export const batsInAttic: Service = {
       _key: "cta",
       heading: "Bats coming out of your roof?",
       highlight: "your roof?",
-      text: p("Call (727) 594-7705. We'll confirm the colony and tell you what this month's rules allow."),
+      text: p("Call (844) 264-6254. We'll confirm the colony and tell you what this month's rules allow."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Bats in the Attic: What to Do | Pro Wildlife Removal",
     description:
-      "Bats in the attic? How to confirm a colony, Florida's exclusion dates (Aug 15 to April 15), why you never seal bats in, and guano safety. (727) 594-7705.",
+      "Bats in the attic? How to confirm a colony, Florida's exclusion dates (Aug 15 to April 15), why you never seal bats in, and guano safety. (844) 264-6254.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026 (maternity season April 16 to Aug 14; exclusion Aug 15 to April 15; permits during the season; four nights; 50°F)", url: RELEASE },

@@ -12,7 +12,7 @@ export const extra_squirrelPoopVsRatPoopHowToSpotTheDifference: PostExtra = {
   slug: "squirrel-poop-vs-rat-poop-how-to-spot-the-difference",
   seoDescription: "Squirrel poop vs rat poop: compare size, shape, color and where droppings turn up, plus health risks and safe cleanup steps for a Central Florida home.",
   more: p(
-    "If you are still unsure what left the droppings, compare them with our guides to [what rat poop looks like](/blog/what-does-rat-poop-look-like-a-comprehensive-guide/), [cleaning up rat droppings in a Florida attic](/blog/how-to-clean-up-rat-droppings-florida-attic/) and [working out which animal is in your attic](/blog/what-animal-is-in-my-attic/). For help in Central Florida, read about [rat removal](/services/rat-removal/), [squirrel removal](/services/squirrel-removal/) and [squirrels in the attic](/services/squirrels-in-attic/), or call (727) 594-7705.",
+    "If you are still unsure what left the droppings, compare them with our guides to [what rat poop looks like](/blog/what-does-rat-poop-look-like-a-comprehensive-guide/), [cleaning up rat droppings in a Florida attic](/blog/how-to-clean-up-rat-droppings-florida-attic/) and [working out which animal is in your attic](/blog/what-animal-is-in-my-attic/). For help in Central Florida, read about [rat removal](/services/rat-removal/), [squirrel removal](/services/squirrel-removal/) and [squirrels in the attic](/services/squirrels-in-attic/), or call (844) 264-6254.",
   ),
   faq: [
     faq(

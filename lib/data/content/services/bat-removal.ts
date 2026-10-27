@@ -9,7 +9,7 @@ import { countyGroups } from "../areas.ts";
  * Wade decides which URLs redirect here.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 
 export const batRemoval: Service = {
   slug: "bat-removal",
@@ -34,7 +34,7 @@ export const batRemoval: Service = {
       _key: "answer",
       heading: "How do you get bats out of a house in Florida?",
       text: p(
-        "In Florida, bats are removed by exclusion: one-way devices on the exits let the bats fly out at night and stop them coming back, then the openings are sealed. It's legal from August 15 to April 15. Killing, trapping or poisoning bats is illegal. Call (727) 594-7705 for an inspection.",
+        "In Florida, bats are removed by exclusion: one-way devices on the exits let the bats fly out at night and stop them coming back, then the openings are sealed. It's legal from August 15 to April 15. Killing, trapping or poisoning bats is illegal. Call (844) 264-6254 for an inspection.",
       ),
       points: ["Exclusion only", "Aug 15 to April 15", "No poison or trapping", "Gaps sealed after"],
     },
@@ -200,7 +200,7 @@ export const batRemoval: Service = {
       _key: "areas",
       eyebrow: "Areas served",
       heading: "Bat removal across Central Florida",
-      intro: p("We exclude bats from homes, condos and businesses in all 8 counties, all on one number: (727) 594-7705."),
+      intro: p("We exclude bats from homes, condos and businesses in all 8 counties, all on one number: (844) 264-6254."),
       groups: countyGroups,
     },
     {
@@ -264,14 +264,14 @@ export const batRemoval: Service = {
       _key: "cta",
       heading: "Seeing bats leave your roof at dusk?",
       highlight: "at dusk?",
-      text: p("Call (727) 594-7705. We'll inspect, tell you what the law allows this month and plan the exclusion."),
+      text: p("Call (844) 264-6254. We'll inspect, tell you what the law allows this month and plan the exclusion."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Bat Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Bats in the attic? Legal bat exclusion with one-way doors and every gap sealed, across Central Florida, outside the bat maternity season. (727) 594-7705.",
+      "Bats in the attic? Legal bat exclusion with one-way doors and every gap sealed, across Central Florida, outside the bat maternity season. (844) 264-6254.",
   },
   sources: [
     { title: "FWC news release, April 6, 2026: bat maternity season April 16 to Aug. 14; April 15 last day without a permit; exclusion legal Aug. 15 to April 15; four nights; 50°F", url: "https://myfwc.com/news/all-news/bat-maternity-0426/" },

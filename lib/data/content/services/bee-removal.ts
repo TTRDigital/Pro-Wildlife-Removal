@@ -11,7 +11,7 @@ import { countyGroups } from "../areas.ts";
  * is a client question; the method text stays a placeholder until they answer.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const IN1205 = "https://ask.ifas.ufl.edu/publication/IN1205";
 const IN741 = "https://ask.ifas.ufl.edu/publication/in741";
 const IN778 = "https://ask.ifas.ufl.edu/publication/in778";
@@ -40,7 +40,7 @@ export const beeRemoval: Service = {
       _key: "answer",
       heading: "What should I do about bees in my wall in Florida?",
       text: p(
-        "Don't spray them and don't seal the hole: blocking it drives the bees deeper into the house. In Florida, a colony should be removed alive by a registered beekeeper or eradicated by a licensed pest control operator, and the comb taken out. Keep people and pets away and call (727) 594-7705.",
+        "Don't spray them and don't seal the hole: blocking it drives the bees deeper into the house. In Florida, a colony should be removed alive by a registered beekeeper or eradicated by a licensed pest control operator, and the comb taken out. Keep people and pets away and call (844) 264-6254.",
       ),
       points: ["Don't seal the hole", "Don't spray", "Comb must come out", "Swarms move on"],
     },
@@ -219,7 +219,7 @@ export const beeRemoval: Service = {
         ),
         faq(
           "Do you remove bees in Pasco and Hillsborough County?",
-          "Yes. We take bee swarm and beehive calls across Pasco and Hillsborough counties and the six other Central Florida counties we serve. Call (727) 594-7705.",
+          "Yes. We take bee swarm and beehive calls across Pasco and Hillsborough counties and the six other Central Florida counties we serve. Call (844) 264-6254.",
         ),
         faq(
           "Why does the honeycomb have to come out?",
@@ -245,14 +245,14 @@ export const beeRemoval: Service = {
       _key: "cta",
       heading: "Bees in a wall or soffit?",
       highlight: "wall or soffit?",
-      text: p("Keep everyone back and call (727) 594-7705."),
+      text: p("Keep everyone back and call (844) 264-6254."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Bee Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb must come out and what to do until help comes. Central Florida: (727) 594-7705.",
+      "Honey bees in a wall, soffit or shed? What Florida law allows, why the comb must come out and what to do until help comes. Central Florida: (844) 264-6254.",
   },
   sources: [
     { title: "UF/IFAS EDIS ENY-170 (IN1205): Living with the African Honey Bee (first found 2001 near the Port of Tampa; spread through southern half of Florida; hundreds or thousands of defenders, chase 400+ yards; nest sites; attack advice; who removes colonies; owner responsible; beekeepers can't use pesticides)", url: IN1205 },

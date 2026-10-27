@@ -20,11 +20,11 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
   placeName: "Hillsborough County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-hillsborough-county",
-  heroText: "Bats under the tiles or behind a soffit in Brandon, Riverview, Plant City or anywhere else in Hillsborough County? We find their way in, let them fly out when the law allows and close up behind them. Call (727) 594-7705.",
+  heroText: "Bats under the tiles or behind a soffit in Brandon, Riverview, Plant City or anywhere else in Hillsborough County? We find their way in, let them fly out when the law allows and close up behind them. Call (844) 264-6254.",
   answerHeading: "Who removes bats from homes in Hillsborough County?",
   answer:
-    "The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property needs private removal services. For bats, Pro Wildlife Removal finds every gap they use, fits one-way exits outside FWC's April 16 to August 14 maternity season, then seals the openings once the bats are gone. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County: private property is yours", "Four rabid bats in the 2025 table"],
+    "The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property needs private removal services. For bats, Pro Wildlife Removal finds every gap they use, fits one-way exits outside FWC's April 16 to August 14 maternity season, then seals the openings once the bats are gone. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "County: private property is yours", "Four rabid bats in the 2025 table"],
   localHeading: "Rabid bat records and cases in Hillsborough County",
   localIntro: "These facts about bats in Hillsborough come from the state health department, DOH-Hillsborough and news reports of local rabid bat cases, labeled as news.",
   local: [
@@ -41,7 +41,7 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Possible bat bite", text: p("Report it to DOH-Hillsborough at 813-307-8059, and get medical advice.") },
     { icon: "users", title: "County Animal Control", text: p("(813) 744-5660, serving the whole county, Tampa, Temple Terrace and Plant City included. The City of Tampa's listing for the county service says to use private removal services for wildlife on private property.") },
-    { icon: "home", title: "Bats roosting in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "home", title: "Bats roosting in the house", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "What bat removal costs", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "The parts of a Hillsborough bat job that shape the price." },
@@ -65,15 +65,15 @@ export const batRemovalHillsboroughCounty = servicePlacePage({
     ),
     faq(
       "How fast can you inspect a bat roost in Hillsborough County?",
-      "Same-day appointments for bats are often available in Hillsborough County. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Hillsborough County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Hillsborough County home?",
-  ctaText: "From Carrollwood to Sun City Center, Hillsborough bat calls go to (727) 594-7705.",
+  ctaText: "From Carrollwood to Sun City Center, Hillsborough bat calls go to (844) 264-6254.",
   seo: {
     title: "Bat Removal in Hillsborough County | Pro Wildlife Removal",
     description:
-      "Bat removal in Hillsborough County, FL: bats excluded from homes in Brandon, Riverview and Plant City, outside the maternity season. Call (727) 594-7705.",
+      "Bat removal in Hillsborough County, FL: bats excluded from homes in Brandon, Riverview and Plant City, outside the maternity season. Call (844) 264-6254.",
   },
   sources: [
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2022 (Hillsborough row: 3 cats; no bats)", url: `${DOH}2025/07/rabies-cases-county-animal-2022.pdf` },

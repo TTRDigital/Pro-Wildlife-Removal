@@ -15,16 +15,16 @@ export const brooksvilleRatsInput = {
   name: "Brooksville",
   county: "Hernando",
   order: 31,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "RAT REMOVAL IN BROOKSVILLE",
   heading: "Rat Removal in Brooksville, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Brooksville, FL: roof rats out of attics and walls, and the entry points they use sealed.",
-  heroText: "Scratching overhead after dark in Brooksville? It's usually roof rats. We find where they get in, seal it, and trap the ones left inside. Call (727) 594-7705.",
+  heroText: "Scratching overhead after dark in Brooksville? It's usually roof rats. We find where they get in, seal it, and trap the ones left inside. Call (844) 264-6254.",
   answerHeading: "Who gets rid of rats in Brooksville?",
   answer:
-    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use and traps the rats still inside the house. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Roof rats in attics", "Seal first, then trap"],
+    "Rats inside a Brooksville home are a job for a private company. The sheriff's Animal Services page covers pets, not rodents. Pro Wildlife Removal seals the openings roof rats use and traps the rats still inside the house. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Roof rats in attics", "Seal first, then trap"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the Hernando County seat, a city of about 10,100 people. We take rat calls across the county.",
   towns: [
@@ -78,15 +78,15 @@ export const brooksvilleRatsInput = {
     ),
     faq(
       "How quickly can you inspect a Brooksville attic for rats?",
-      "Same-day rat inspections are often available in Brooksville. Call (727) 594-7705.",
+      "Same-day rat inspections are often available in Brooksville. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Brooksville home?",
-  ctaText: "One call to (727) 594-7705 starts with an inspection of the roof and attic. ",
+  ctaText: "One call to (844) 264-6254 starts with an inspection of the roof and attic. ",
   seo: {
     title: "Rat Removal in Brooksville, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed and the rats trapped where they nest. Call us at (727) 594-7705.",
+      "Rat removal in Brooksville, FL: roof rats out of attics and walls, entry points sealed and the rats trapped where they nest. Call us at (844) 264-6254.",
   },
   sources: [
     S.edr,

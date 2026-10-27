@@ -11,16 +11,16 @@ export const clearwaterRatsInput = {
   name: "Clearwater",
   county: "Pinellas",
   order: 32,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "RAT REMOVAL IN CLEARWATER",
   heading: "Rat Removal in Clearwater, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Clearwater, FL: roof rats sealed out and trapped, plus what Clearwater's code says about rat harborage.",
-  heroText: "Rats in a Clearwater attic, wall or garage? We seal the gaps and trap the rats still inside. Call (727) 594-7705.",
+  heroText: "Rats in a Clearwater attic, wall or garage? We seal the gaps and trap the rats still inside. Call (844) 264-6254.",
   answerHeading: "Who gets rid of rats in Clearwater?",
   answer:
-    "In Clearwater, rats on private property are the owner's problem to solve, and the city's code makes letting garbage or debris feed or shelter rats a violation. Pro Wildlife Removal seals the openings and traps the rats still inside. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City code bans rat harborage", "Trash pickup once a week"],
+    "In Clearwater, rats on private property are the owner's problem to solve, and the city's code makes letting garbage or debris feed or shelter rats a violation. Pro Wildlife Removal seals the openings and traps the rats still inside. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "City code bans rat harborage", "Trash pickup once a week"],
   townsHeading: "Rat removal near Clearwater",
   townsIntro: "We also handle rats in the towns around Clearwater, and every other animal in Clearwater itself.",
   towns: [
@@ -47,7 +47,7 @@ export const clearwaterRatsInput = {
   contactsIntro: "Debris or overgrowth next door goes to the city. Rats already in your walls are a private job.",
   contacts: [
     { icon: "home", title: "Report harborage next door", text: p("Clearwater Code Compliance, (727) 562-4720, takes reports of debris, overgrowth and other code violations.") },
-    { icon: "users", title: "Rats inside your home", text: p("That's a job for a private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats inside your home", text: p("That's a job for a private company. Call us at (844) 264-6254.") },
   ],
   servicesIntro: "Rats are this page's focus, but we remove every animal below in Clearwater too.",
   servicesHeading: "Beyond rats: every Clearwater animal we handle",
@@ -68,15 +68,15 @@ export const clearwaterRatsInput = {
     ),
     faq(
       "Can someone check our Clearwater rat problem today?",
-      "Same-day rat inspections are often available in Clearwater. Call (727) 594-7705.",
+      "Same-day rat inspections are often available in Clearwater. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Clearwater home?",
-  ctaText: "Rats in a Clearwater attic, wall or garage? Call (727) 594-7705.",
+  ctaText: "Rats in a Clearwater attic, wall or garage? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Clearwater, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Clearwater, FL: roof rats sealed out and trapped inside the home, plus what Clearwater's code says about rat harborage. Call (727) 594-7705.",
+      "Rat removal in Clearwater, FL: roof rats sealed out and trapped inside the home, plus what Clearwater's code says about rat harborage. Call (844) 264-6254.",
   },
   sources: [
     { title: "City of Clearwater: Citizens Guide to Code Compliance (CO 24.27 & 32.283: garbage or debris so that rats may be afforded food or harborage; Clearwater Community Development Code Sec. 3-1503.B.5–B.8: debris likely to contain rodents, reptiles or other vermin; grass over 12 inches; Code Compliance (727) 562-4720)", url: GUIDE },

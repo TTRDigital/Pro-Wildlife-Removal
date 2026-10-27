@@ -19,7 +19,7 @@ export const doBatsCarryRabiesFlorida: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** some do. Florida DOH names raccoons and bats as the main wildlife sources of rabies in the state, and its tables list dozens of rabid bats a year. FWC says only a very small share of bats have it. Never handle a bat, and if one may have touched anyone, call your county health department. Call (727) 594-7705 for bats in the house.",
+      "**The short answer:** some do. Florida DOH names raccoons and bats as the main wildlife sources of rabies in the state, and its tables list dozens of rabid bats a year. FWC says only a very small share of bats have it. Never handle a bat, and if one may have touched anyone, call your county health department. Call (844) 264-6254 for bats in the house.",
     ),
     h3("What the state's tables show"),
     table(
@@ -43,7 +43,7 @@ export const doBatsCarryRabiesFlorida: Post = {
     ),
     h3("Bats living in the house"),
     p(
-      "A colony in the attic is a reason to keep bats and people apart, not to panic. It's illegal to kill bats in Florida, so FWC points to exclusion, and FWC says exclusion is illegal during maternity season, April 16 to August 14 ([FWC](${FWCB})). See [who to call about a bat](/blog/who-to-call-for-bat-removal/), [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat removal](/services/bat-removal/), or call (727) 594-7705.",
+      "A colony in the attic is a reason to keep bats and people apart, not to panic. It's illegal to kill bats in Florida, so FWC points to exclusion, and FWC says exclusion is illegal during maternity season, April 16 to August 14 ([FWC](${FWCB})). See [who to call about a bat](/blog/who-to-call-for-bat-removal/), [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat removal](/services/bat-removal/), or call (844) 264-6254.",
     ),
   ),
   faq: [

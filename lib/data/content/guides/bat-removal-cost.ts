@@ -22,7 +22,7 @@ export const batRemovalCost: Post = {
   image: images.batRemovalCostImageE1702083484199,
   body: rich(
     p(
-      "**The short answer:** bat removal in Florida is priced per house, not per bat. Cost depends on how many openings the colony uses, how hard they are to reach, how long the bats have been there and how much guano has to come out. It starts with an inspection: call (727) 594-7705.",
+      "**The short answer:** bat removal in Florida is priced per house, not per bat. Cost depends on how many openings the colony uses, how hard they are to reach, how long the bats have been there and how much guano has to come out. It starts with an inspection: call (844) 264-6254.",
     ),
     h3("What changes the cost to remove bats from an attic"),
     p("Bats can't be trapped or poisoned in Florida, so every colony in a building is removed by exclusion: one-way devices on the exits, then sealing. These are the things that make one exclusion cost more than another."),
@@ -77,7 +77,7 @@ export const batRemovalCost: Post = {
       "**Don't block the exits yourself.** Trapped bats mean dead bats in the walls and a second bill for [odor and dead animal removal](/services/dead-animal-removal/).",
       "**Put up a bat house before the exclusion.** FWC suggests one close to the roost, in the bats' flight path, on a pole or building. It doesn't replace exclusion, but gives the colony somewhere to go.",
     ),
-    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (727) 594-7705. We exclude bats across [Pinellas](/service-areas/pinellas-county/), [Hillsborough](/service-areas/hillsborough-county/) and seven more counties."),
+    p("Read more on our [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/) pages, see [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/) for the other animals, or call (844) 264-6254. We exclude bats across [Pinellas](/service-areas/pinellas-county/), [Hillsborough](/service-areas/hillsborough-county/) and seven more counties."),
   ),
   faq: [
     faq("Is bat removal cheaper in winter?", "Not necessarily cheaper, but easier to schedule. Exclusion is allowed from August 15 to April 15, as long as overnight lows are forecast at 50°F or warmer during the exclusion."),

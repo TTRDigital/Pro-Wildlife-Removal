@@ -22,11 +22,11 @@ export const batRemovalPascoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-pasco-county-fl",
   order: 21,
-  heroText: "Bats pouring out of a Pasco roofline at dusk? We look for every opening they use, fit one-way doors in the legal season and seal the roof once they're out. Call (727) 594-7705.",
+  heroText: "Bats pouring out of a Pasco roofline at dusk? We look for every opening they use, fit one-way doors in the legal season and seal the roof once they're out. Call (844) 264-6254.",
   answerHeading: "How does a bat colony come out of a Pasco County roof?",
   answer:
-    "Legally, bats in Pasco County come out through one-way exclusion doors, never by killing or poisoning them, and only from August 15 to April 15. Pro Wildlife Removal checks the roof and soffits for the gaps a colony uses, fits the doors, then seals the openings once the colony is gone. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "No poisons, by state rule"],
+    "Legally, bats in Pasco County come out through one-way exclusion doors, never by killing or poisoning them, and only from August 15 to April 15. Pro Wildlife Removal checks the roof and soffits for the gaps a colony uses, fits the doors, then seals the openings once the colony is gone. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion Aug. 15 to April 15", "No poisons, by state rule"],
   localHeading: "Bats in Pasco's buildings and records",
   localIntro: "Pasco has had big colonies in public buildings, and one rabid bat on a school campus. Here is what the county's records and FWC's rules say.",
   local: [
@@ -43,7 +43,7 @@ export const batRemovalPascoCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Pasco, 352-521-1450, option 4. Don't release the bat until you've talked with them.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office covers Pasco: 863-648-3200.") },
-    { icon: "users", title: "A colony in your roof", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A colony in your roof", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What a bat exclusion and roof sealing job costs, and why." },
@@ -67,11 +67,11 @@ export const batRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "How fast can you get to bats in a Pasco County home?",
-      "Same-day appointments for bats are often available in Pasco County. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Pasco County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Pasco County roof?",
-  ctaText: "Bats in a Pasco attic or soffit? Call (727) 594-7705.",
+  ctaText: "Bats in a Pasco attic or soffit? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Pasco County, FL | Pro Wildlife Removal",
     description:

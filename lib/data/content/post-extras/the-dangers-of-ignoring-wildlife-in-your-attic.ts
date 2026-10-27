@@ -11,7 +11,7 @@ export const extra_theDangersOfIgnoringWildlifeInYourAttic: PostExtra = {
   slug: "the-dangers-of-ignoring-wildlife-in-your-attic",
   seoDescription: "What happens when animals stay in a Florida attic: chewed wiring, soiled insulation, and health risks such as histoplasmosis and hantavirus from droppings.",
   more: p(
-    "Knowing which animal is up there is the first step. Our guide to [what animal is in my attic](/blog/what-animal-is-in-my-attic/) walks through the sounds and droppings, and we also cover [bat guano in the attic](/blog/bat-guano-in-the-attic-risks-cleanup-insulation/) and [cleaning up rat droppings in a Florida attic](/blog/how-to-clean-up-rat-droppings-florida-attic/). For help with a specific animal, read about [rats in the attic](/services/rats-in-attic/), [bats in the attic](/services/bats-in-attic/) or [rat removal](/services/rat-removal/) in Central Florida. Call (727) 594-7705.",
+    "Knowing which animal is up there is the first step. Our guide to [what animal is in my attic](/blog/what-animal-is-in-my-attic/) walks through the sounds and droppings, and we also cover [bat guano in the attic](/blog/bat-guano-in-the-attic-risks-cleanup-insulation/) and [cleaning up rat droppings in a Florida attic](/blog/how-to-clean-up-rat-droppings-florida-attic/). For help with a specific animal, read about [rats in the attic](/services/rats-in-attic/), [bats in the attic](/services/bats-in-attic/) or [rat removal](/services/rat-removal/) in Central Florida. Call (844) 264-6254.",
   ),
   faq: [
     faq(

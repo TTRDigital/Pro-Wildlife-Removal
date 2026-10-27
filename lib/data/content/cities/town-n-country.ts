@@ -18,14 +18,14 @@ export const townNCountry = countyPage({
   name: "Town 'n' Country",
   county: "Hillsborough",
   order: 51,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN TOWN 'N' COUNTRY",
   summary: "Wildlife removal in Town 'n' Country, FL: raccoons, rats, squirrels, bats, opossums and more, from Channel A to the upper bay.",
-  heroText: "Neighborhoods, canals and preserve land between the airport and upper Old Tampa Bay, in unincorporated Hillsborough. Call (727) 594-7705.",
+  heroText: "Neighborhoods, canals and preserve land between the airport and upper Old Tampa Bay, in unincorporated Hillsborough. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Town 'n' Country, FL?",
   answer:
-    "Town 'n' Country is unincorporated Hillsborough County, so county Animal Control covers stray pets, bites, and neglect and cruelty cases there. For wildlife in your home, the City of Tampa's listing for that county service says to use private removal services. Pro Wildlife Removal handles raccoons, rats, squirrels and bats here. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "85,951 residents, 2020 Census", "Trail along Channel A"],
+    "Town 'n' Country is unincorporated Hillsborough County, so county Animal Control covers stray pets, bites, and neglect and cruelty cases there. For wildlife in your home, the City of Tampa's listing for that county service says to use private removal services. Pro Wildlife Removal handles raccoons, rats, squirrels and bats here. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "85,951 residents, 2020 Census", "Trail along Channel A"],
   townsHeading: "Town 'n' Country and nearby",
   townsIntro: "Town 'n' Country had 85,951 residents at the 2020 Census, on about 22 square miles of land.",
   towns: [
@@ -84,11 +84,11 @@ export const townNCountry = countyPage({
     ),
     faq(
       "Could someone see my Town 'n' Country house today?",
-      "Same-day appointments are often available in Town 'n' Country. Call (727) 594-7705.",
+      "Same-day appointments are often available in Town 'n' Country. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Town 'n' Country?",
-  ctaText: "Anywhere in Town 'n' Country, call (727) 594-7705.",
+  ctaText: "Anywhere in Town 'n' Country, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal Town 'n' Country, FL | Pro Wildlife Removal",
     description:

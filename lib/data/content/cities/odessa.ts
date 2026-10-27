@@ -10,14 +10,14 @@ export const odessa = countyPage({
   name: "Odessa",
   county: "Pasco",
   order: 19,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN ODESSA",
   summary: "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes, opossums, armadillos, bats and more, where Pasco meets Hillsborough and Pinellas.",
-  heroText: "Lakes and large lots where Pasco, Hillsborough and Pinellas meet. Call (727) 594-7705.",
+  heroText: "Lakes and large lots where Pasco, Hillsborough and Pinellas meet. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife in Odessa, FL?",
   answer:
-    "Odessa isn't a city, so public services come from the county. Pasco's Animal Services handles pets and strays, and some Odessa addresses fall in Hillsborough instead. For raccoons, rats, squirrels or snakes in your home, call a private company. Pro Wildlife Removal works across Odessa. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Pasco, near two county lines", "Lakes and large lots"],
+    "Odessa isn't a city, so public services come from the county. Pasco's Animal Services handles pets and strays, and some Odessa addresses fall in Hillsborough instead. For raccoons, rats, squirrels or snakes in your home, call a private company. Pro Wildlife Removal works across Odessa. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Pasco, near two county lines", "Lakes and large lots"],
   townsHeading: "Odessa and nearby",
   townsIntro: "The Odessa census area, about 8,100 people in 2020, lies entirely in Pasco County. Some homes with an Odessa mailing address are across the line in Hillsborough.",
   towns: [
@@ -70,15 +70,15 @@ export const odessa = countyPage({
     ),
     faq(
       "How quickly do you reach Odessa, on either side of the county line?",
-      "Same-day appointments are often available in Odessa. Call (727) 594-7705.",
+      "Same-day appointments are often available in Odessa. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Odessa?",
-  ctaText: "Odessa homeowners can call (727) 594-7705.",
+  ctaText: "Odessa homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Odessa, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes and opossums on both sides of the Pasco and Hillsborough line. Call us at (727) 594-7705.",
+      "Wildlife removal in Odessa, FL: raccoons, rats, squirrels, snakes and opossums on both sides of the Pasco and Hillsborough line. Call us at (844) 264-6254.",
   },
   sources: [
     { title: "Florida DBPR, Division of Hotels and Restaurants: Emergency closures by calendar year, 2019-2025 (Business City Odessa, conditions naming rodents: 3 closures, all Hillsborough-licensed, placed in the Keystone CDP with the Census Geocoder; one business closed March and November 2022; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },

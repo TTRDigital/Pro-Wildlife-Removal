@@ -10,14 +10,14 @@ export const trinity = countyPage({
   name: "Trinity",
   county: "Pasco",
   order: 30,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN TRINITY",
   summary: "Wildlife removal in Trinity, FL: raccoons, rats, squirrels, snakes, opossums, armadillos, bats and more, in southwest Pasco.",
-  heroText: "Southwest Pasco neighborhoods on the doorstep of the Starkey wilderness, one of the largest undeveloped tracts in the county. Call (727) 594-7705.",
+  heroText: "Southwest Pasco neighborhoods on the doorstep of the Starkey wilderness, one of the largest undeveloped tracts in the county. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Trinity, FL?",
   answer:
-    "Trinity is unincorporated Pasco County, so there's no city animal control. County Animal Services handles pets and strays, and an animal living in your attic, walls or crawl space is a job for a private company. Pro Wildlife Removal works throughout Trinity. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Unincorporated Pasco", "Next to Starkey wilderness"],
+    "Trinity is unincorporated Pasco County, so there's no city animal control. County Animal Services handles pets and strays, and an animal living in your attic, walls or crawl space is a job for a private company. Pro Wildlife Removal works throughout Trinity. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Pasco", "Next to Starkey wilderness"],
   townsHeading: "Trinity and nearby",
   townsIntro: "Trinity had about 11,900 residents at the 2020 Census. It sits on Pasco's southern edge, bordering East Lake in Pinellas and Keystone in Hillsborough.",
   towns: [
@@ -66,15 +66,15 @@ export const trinity = countyPage({
     ),
     faq(
       "Is a same-day visit possible in Trinity?",
-      "Same-day appointments are often available in Trinity. Call (727) 594-7705.",
+      "Same-day appointments are often available in Trinity. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Trinity?",
-  ctaText: "Trinity homeowners can call (727) 594-7705.",
+  ctaText: "Trinity homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Trinity, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Trinity, FL: raccoons, rats, squirrels, snakes, opossums and armadillos by the Starkey wilderness, and who to call. (727) 594-7705.",
+      "Wildlife removal in Trinity, FL: raccoons, rats, squirrels, snakes, opossums and armadillos by the Starkey wilderness, and who to call. (844) 264-6254.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Trinity CDP, 11,924)", url: CENSUS },

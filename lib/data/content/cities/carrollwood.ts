@@ -17,14 +17,14 @@ export const carrollwood = countyPage({
   name: "Carrollwood",
   county: "Hillsborough",
   order: 50,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN CARROLLWOOD",
   summary: "Wildlife removal in Carrollwood, FL: raccoons, rats, squirrels, bats, opossums and more, around Lake Carroll and Carrollwood Village.",
-  heroText: "Lakeside neighborhoods built around spring-fed Lake Carroll, in unincorporated northwest Hillsborough. Call (727) 594-7705.",
+  heroText: "Lakeside neighborhoods built around spring-fed Lake Carroll, in unincorporated northwest Hillsborough. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Carrollwood, FL?",
   answer:
-    "Carrollwood is unincorporated Hillsborough County. County Animal Control handles stray pets, bites, and neglect and cruelty cases, and the City of Tampa's listing for that service sends wildlife on private property to private removal services. Pro Wildlife Removal handles raccoons, rats, squirrels and bats across Carrollwood. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid bat case, 2020", "Rabid raccoon alert, 2018"],
+    "Carrollwood is unincorporated Hillsborough County. County Animal Control handles stray pets, bites, and neglect and cruelty cases, and the City of Tampa's listing for that service sends wildlife on private property to private removal services. Pro Wildlife Removal handles raccoons, rats, squirrels and bats across Carrollwood. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid bat case, 2020", "Rabid raccoon alert, 2018"],
   townsHeading: "Carrollwood and nearby",
   townsIntro: "The Carrollwood Census place had 34,352 residents at the 2020 Census, and neighboring Northdale had 23,033.",
   towns: [
@@ -85,15 +85,15 @@ export const carrollwood = countyPage({
     ),
     faq(
       "Is today too soon for a Carrollwood visit?",
-      "Same-day appointments are often available in Carrollwood. Call (727) 594-7705.",
+      "Same-day appointments are often available in Carrollwood. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Carrollwood?",
-  ctaText: "Anywhere in Carrollwood or Carrollwood Village, call (727) 594-7705.",
+  ctaText: "Anywhere in Carrollwood or Carrollwood Village, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Carrollwood, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Carrollwood, FL: raccoons, rats, squirrels and bats out of homes near Lake Carroll and Carrollwood Village. Call (727) 594-7705 today.",
+      "Wildlife removal in Carrollwood, FL: raccoons, rats, squirrels and bats out of homes near Lake Carroll and Carrollwood Village. Call (844) 264-6254 today.",
   },
   sources: [
     { title: "Florida DBPR: Emergency closures by calendar year, 2015-2025, and 2026 weekly extracts through Oct. 25 (Tampa, Lutz and Odessa rodent rows placed in Carrollwood CDP with the Census Geocoder: 4 closures at 3 businesses, 2019, 2021, 2023, 2024; N Dale Mabry Hwy Sept. 25, 2019; Gunn Hwy Feb. 2, 2021; tally by our research helper, Oct 26, 2026)", url: "https://www2.myfloridalicense.com/hotels-restaurants/reports-statistics/reports-statistics-archive/" },

@@ -8,7 +8,7 @@ import { countyGroups } from "../areas.ts";
  * The old dead-animal-tampla-fl URL 301s here (lib/service-urls.ts).
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const CDC_DISPOSAL = "https://www.cdc.gov/natural-disasters/safety/safety-guidelines-disposing-dead-animals-after-a-disaster.html";
 const FL_DOH_RABIES = "https://www.floridahealth.gov/diseases-and-conditions/rabies/index.html";
 
@@ -35,7 +35,7 @@ export const deadAnimalRemoval: Service = {
       _key: "answer",
       heading: "How do you get rid of a dead animal smell in the house?",
       text: p(
-        "Find the animal and remove it. Air fresheners only cover the smell, and in Florida heat it gets worse fast. The source is usually in a wall, attic, crawl space or vent. We locate it, bag and remove it, and find how the animal got in. Call (727) 594-7705.",
+        "Find the animal and remove it. Air fresheners only cover the smell, and in Florida heat it gets worse fast. The source is usually in a wall, attic, crawl space or vent. We locate it, bag and remove it, and find how the animal got in. Call (844) 264-6254.",
       ),
       points: ["Find the source", "Gloves and bags", "Remove the animal", "Find the way in"],
     },
@@ -172,7 +172,7 @@ export const deadAnimalRemoval: Service = {
         ),
         faq(
           "How do I dispose of a dead cat or dog in my yard?",
-          "The CDC's disposal steps for dead animals apply: wear gloves, slip a plastic bag over your hand, pick the animal up, turn the bag inside out and seal it, and use a shovel for a larger animal. Its guidance also says to call animal control. Wash your hands afterwards. If the animal is somewhere you can't reach, call (727) 594-7705.",
+          "The CDC's disposal steps for dead animals apply: wear gloves, slip a plastic bag over your hand, pick the animal up, turn the bag inside out and seal it, and use a shovel for a larger animal. Its guidance also says to call animal control. Wash your hands afterwards. If the animal is somewhere you can't reach, call (844) 264-6254.",
         ),
         faq(
           "What if it's a bat?",
@@ -207,14 +207,14 @@ export const deadAnimalRemoval: Service = {
       _key: "cta",
       heading: "Smell something you can't find?",
       highlight: "can't find?",
-      text: p("Call (727) 594-7705. Our wildlife experts will find it and get it out."),
+      text: p("Call (844) 264-6254. Our wildlife experts will find it and get it out."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Dead Animal Removal, Central Florida | Pro Wildlife Removal",
     description:
-      "Dead animal smell in a wall, attic, crawl space or vent? We trace it, bag it, remove it and find how the animal got in. Central Florida: (727) 594-7705.",
+      "Dead animal smell in a wall, attic, crawl space or vent? We trace it, bag it, remove it and find how the animal got in. Central Florida: (844) 264-6254.",
   },
   sources: [
     { title: "CDC: Safety guidelines for disposing of dead animals (gloves; bag over hand, turn and seal; shovel for larger animals; call animal control; wash hands; risk from carcasses low with proper precautions)", url: CDC_DISPOSAL },

@@ -18,11 +18,11 @@ export const ratRemovalTampa = servicePlacePage({
   location: "about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl",
   county: "Hillsborough",
   order: 2,
-  heroText: "Scratching over the ceiling of a Tampa home at night? Our rat removal experts find the gaps roof rats use, seal them and trap the rats left inside. Call (727) 594-7705.",
+  heroText: "Scratching over the ceiling of a Tampa home at night? Our rat removal experts find the gaps roof rats use, seal them and trap the rats left inside. Call (844) 264-6254.",
   answerHeading: "Who clears rats out of a Tampa house?",
   answer:
-    "A private company. The City of Tampa sends wildlife on private property to private removal services, and its role with rats is the trash and code rules that keep them from settling in. Pro Wildlife Removal closes the openings and traps what's left in the attic. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rat lungworm found here", "Yearly S.W.E.E.P. pickup"],
+    "A private company. The City of Tampa sends wildlife on private property to private removal services, and its role with rats is the trash and code rules that keep them from settling in. Pro Wildlife Removal closes the openings and traps what's left in the attic. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rat lungworm found here", "Yearly S.W.E.E.P. pickup"],
   localHeading: "What to know about rats in Tampa",
   localIntro: "Tampa's trees, trash rules and code enforcement all shape a rat problem. Here's what the city and the University of Florida say.",
   local: [
@@ -37,7 +37,7 @@ export const ratRemovalTampa = servicePlacePage({
   contacts: [
     { icon: "wrench", title: "Junk and overgrowth", text: p("Tampa's Neighborhood Enhancement division handles code complaints about accumulated junk and overgrown lots.") },
     { icon: "home", title: "Bulk pickup and trash", text: p("City of Tampa Solid Waste customer service, (813) 274-8811, answers questions on S.W.E.E.P. and trash pickup.") },
-    { icon: "users", title: "Rats in the house", text: p("A private company, per the City of Tampa. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats in the house", text: p("A private company, per the City of Tampa. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
   extraLink: { label: "Norway rat vs roof rat", href: "/blog/norway-rat-vs-roof-rat-florida/", text: "Which rat you have changes where to look for the way in." },
@@ -65,15 +65,15 @@ export const ratRemovalTampa = servicePlacePage({
     ),
     faq(
       "How fast can a Tampa rat problem be looked at?",
-      "Same-day appointments for rat inspections are often available in Tampa. Call (727) 594-7705.",
+      "Same-day appointments for rat inspections are often available in Tampa. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Tampa home?",
-  ctaText: "Rats in a Tampa attic or the trees by your roof? Call (727) 594-7705.",
+  ctaText: "Rats in a Tampa attic or the trees by your roof? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Tampa, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Tampa, FL: roof rats sealed out and trapped inside, plus Tampa's bulk pickup, code rules and rat lungworm findings. Call (727) 594-7705.",
+      "Rat removal in Tampa, FL: roof rats sealed out and trapped inside, plus Tampa's bulk pickup, code rules and rat lungworm findings. Call (844) 264-6254.",
   },
   sources: [
     { title: "Florida Museum of Natural History (UF): Rat lungworm found throughout Florida, June 28, 2017 (rats and snails in Hillsborough tested positive; 18 counties sampled, rats from 6 of them; nearly 23 percent of rats examined positive; can cause meningitis; wash produce, teach children not to eat snails, wash hands after handling snails)", url: LUNGWORM },

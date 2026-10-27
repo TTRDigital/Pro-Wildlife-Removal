@@ -19,11 +19,11 @@ export const ratRemovalPalmHarbor = servicePlacePage({
   placeKind: "city",
   location: "about-us/service-area/wildlife-removal-palm-harbor",
   county: "Pinellas",
-  heroText: "Scratching in a Palm Harbor attic, or droppings in the garage or lanai? We find how the rats get in, close those openings and trap the ones inside. Call (727) 594-7705.",
+  heroText: "Scratching in a Palm Harbor attic, or droppings in the garage or lanai? We find how the rats get in, close those openings and trap the ones inside. Call (844) 264-6254.",
   answerHeading: "Who can clear rats out of a Palm Harbor house?",
   answer:
-    "Rats in a Palm Harbor home are a job for a private company, and in a rental, Pinellas County says the landlord must exterminate rats unless the lease says otherwise. Pro Wildlife Removal finds the gaps rats use around Palm Harbor homes, seals them and traps the rats inside. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rentals: landlords must exterminate rats", "State records: rodent closures on US 19"],
+    "Rats in a Palm Harbor home are a job for a private company, and in a rental, Pinellas County says the landlord must exterminate rats unless the lease says otherwise. Pro Wildlife Removal finds the gaps rats use around Palm Harbor homes, seals them and traps the rats inside. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rentals: landlords must exterminate rats", "State records: rodent closures on US 19"],
   localHeading: "Rodent records along Palm Harbor's US 19 and Alt 19",
   localIntro: "State restaurant inspection records supply the first Palm Harbor facts below. Pinellas County and UF/IFAS Extension Pinellas supply the rest.",
   local: [
@@ -38,7 +38,7 @@ export const ratRemovalPalmHarbor = servicePlacePage({
   contactsIntro: "Who to call about rats in Palm Harbor, from each agency's own page.",
   contacts: [
     { icon: "home", title: "Rats in a rental", text: p("Your landlord first. Pinellas County's landlord-tenant page lists exterminating rats among the landlord's duties.") },
-    { icon: "users", title: "Rats in your own home", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats in your own home", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Palm Harbor rat job, quoted exactly as on Google (TTR-723)]",
@@ -57,15 +57,15 @@ export const ratRemovalPalmHarbor = servicePlacePage({
     ),
     faq(
       "Could you check a Palm Harbor house for rats today?",
-      "Same-day appointments for rats are often available in Palm Harbor. Call (727) 594-7705.",
+      "Same-day appointments for rats are often available in Palm Harbor. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Palm Harbor home?",
-  ctaText: "Rats in a Palm Harbor home off US 19 or Alt 19? Call (727) 594-7705.",
+  ctaText: "Rats in a Palm Harbor home off US 19 or Alt 19? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Palm Harbor, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Palm Harbor, FL: entry gaps sealed and the rats trapped inside homes near US 19, Alt 19, East Lake and Lake Tarpon. Call (727) 594-7705.",
+      "Rat removal in Palm Harbor, FL: entry gaps sealed and the rats trapped inside homes near US 19, Alt 19, East Lake and Lake Tarpon. Call (844) 264-6254.",
   },
   sources: [
     { title: "Florida DBPR, Division of Hotels and Restaurants: emergency closure records, 2022, 2023, 2024 and 2025 (2022-EOS.zip to 2025-EOS.zip; our count of rows with Business City Palm Harbor and Conditions for Closure naming rodents: 21 closures at 12 businesses; 4, 5, 5 and 7 by year; 11 on US 19, 6 on Alt 19)", url: DBPR },

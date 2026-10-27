@@ -23,11 +23,11 @@ export const ratRemovalPascoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-pasco-county-fl",
   order: 20,
-  heroText: "Scratching in a Pasco attic at night, or chewed fruit under the orange tree? We find where rats get in, seal it and trap the ones left inside. Call (727) 594-7705.",
+  heroText: "Scratching in a Pasco attic at night, or chewed fruit under the orange tree? We find where rats get in, seal it and trap the ones left inside. Call (844) 264-6254.",
   answerHeading: "Who takes care of rats in a Pasco County house?",
   answer:
-    "A private wildlife company. Pasco County doesn't pick up household trash; homes sign up with a licensed hauler or haul it themselves. For rats in a Pasco attic, wall or garage, Pro Wildlife Removal finds the gaps they use, seals them and traps the rats still inside. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Feed in rat-proof bins", "Roof rats love citrus"],
+    "A private wildlife company. Pasco County doesn't pick up household trash; homes sign up with a licensed hauler or haul it themselves. For rats in a Pasco attic, wall or garage, Pro Wildlife Removal finds the gaps they use, seals them and traps the rats still inside. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Feed in rat-proof bins", "Roof rats love citrus"],
   localHeading: "Rats in Pasco, from the Gulf coast to the citrus groves",
   localIntro: "Pasco runs from Gulf shoreline to citrus country, and rats do well in both. These local rules and facts shape a rat job here.",
   local: [
@@ -43,7 +43,7 @@ export const ratRemovalPascoCounty = servicePlacePage({
   contacts: [
     { icon: "home", title: "Trash and missed pickups", text: p("Your own hauler. For county drop-off sites and questions, Pasco County Solid Waste: 727-847-2411.") },
     { icon: "search", title: "Junk piles and overgrown lots", text: p("Pasco Customer Service, 727-847-2411, to file a code compliance complaint.") },
-    { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
   extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What drives the price of a removal and exclusion job in Florida." },
@@ -67,11 +67,11 @@ export const ratRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "Can a Pasco County rat inspection happen the day I call?",
-      "Same-day appointments for rats are often available in Pasco County. Call (727) 594-7705.",
+      "Same-day appointments for rats are often available in Pasco County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Pasco County home?",
-  ctaText: "Rats in a Pasco home, on the coast or in citrus country? Call (727) 594-7705.",
+  ctaText: "Rats in a Pasco home, on the coast or in citrus country? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Pasco County, FL | Pro Wildlife Removal",
     description:

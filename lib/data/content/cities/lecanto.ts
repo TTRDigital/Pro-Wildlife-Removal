@@ -22,14 +22,14 @@ export const lecanto = countyPage({
   name: "Lecanto",
   county: "Citrus",
   order: 17,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN LECANTO",
   summary: "Wildlife removal in Lecanto, FL: raccoons, rats, bats, squirrels, opossums, snakes and armadillos, in the heart of Citrus County.",
-  heroText: "Home of Citrus County's government center, with private trash haulers and county nuisance rules that bear on wildlife. Call (727) 594-7705.",
+  heroText: "Home of Citrus County's government center, with private trash haulers and county nuisance rules that bear on wildlife. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Lecanto, FL?",
   answer:
-    "A private company. Lecanto is unincorporated, so the Citrus County Sheriff's Animal Control covers it, and it handles domestic animals and livestock and sends nuisance wildlife calls to a trapper. For raccoons, rats, bats or squirrels in a Lecanto home, Pro Wildlife Removal finds the way in, removes them legally and seals the entry points. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Unincorporated Citrus County", "Private trash haulers"],
+    "A private company. Lecanto is unincorporated, so the Citrus County Sheriff's Animal Control covers it, and it handles domestic animals and livestock and sends nuisance wildlife calls to a trapper. For raccoons, rats, bats or squirrels in a Lecanto home, Pro Wildlife Removal finds the way in, removes them legally and seals the entry points. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Citrus County", "Private trash haulers"],
   townsHeading: "Lecanto and nearby",
   townsIntro: "The 2020 Census counted 6,301 people in the Lecanto CDP, spread over about 27 square miles of land. We cover Lecanto and the rest of Citrus County.",
   towns: [
@@ -83,15 +83,15 @@ export const lecanto = countyPage({
     ),
     faq(
       "How fast can someone come to Lecanto?",
-      "Same-day appointments are often available in Lecanto. Call (727) 594-7705.",
+      "Same-day appointments are often available in Lecanto. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Lecanto?",
-  ctaText: "Anywhere in Lecanto, call (727) 594-7705.",
+  ctaText: "Anywhere in Lecanto, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Lecanto, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Lecanto, FL: raccoons, rats, bats and squirrels, plus Citrus County's garbage and nuisance rules and who to call. Call (727) 594-7705.",
+      "Wildlife removal in Lecanto, FL: raccoons, rats, bats and squirrels, plus Citrus County's garbage and nuisance rules and who to call. Call (844) 264-6254.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 Census redistricting data, Florida (Lecanto CDP: 6,301 people, 2,562 housing units)", url: CENSUS_PL },

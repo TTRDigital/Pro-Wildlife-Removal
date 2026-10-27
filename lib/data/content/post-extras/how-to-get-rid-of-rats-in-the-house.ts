@@ -12,7 +12,7 @@ const IFAS_SANTA_ROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/contr
 export const extra_howToGetRidOfRatsInTheHouse: PostExtra = {
   slug: "how-to-get-rid-of-rats-in-the-house",
   more: p(
-    "Knowing which rat you have changes where the traps go, so start with our [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/) guide. If you hear them behind drywall, read [rats in the walls](/blog/rats-in-the-walls-florida/), and before you clean up, see [how to clean up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/) safely. You can also learn about [rats in the attic](/services/rats-in-attic/), [dead animal removal](/services/dead-animal-removal/) when a smell turns up, and our Central Florida [rat removal](/services/rat-removal/) service. Call (727) 594-7705.",
+    "Knowing which rat you have changes where the traps go, so start with our [Norway rat vs roof rat](/blog/norway-rat-vs-roof-rat-florida/) guide. If you hear them behind drywall, read [rats in the walls](/blog/rats-in-the-walls-florida/), and before you clean up, see [how to clean up rat droppings](/blog/how-to-clean-up-rat-droppings-florida-attic/) safely. You can also learn about [rats in the attic](/services/rats-in-attic/), [dead animal removal](/services/dead-animal-removal/) when a smell turns up, and our Central Florida [rat removal](/services/rat-removal/) service. Call (844) 264-6254.",
   ),
   faq: [
     faq(

@@ -8,14 +8,14 @@ export const pinellasPark = countyPage({
   name: "Pinellas Park",
   county: "Pinellas",
   order: 23,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN PINELLAS PARK",
   summary: "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums, snakes, bats and more, in mid-Pinellas.",
-  heroText: "A mid-Pinellas city of neighborhood parks and ponds, with Sawgrass Lake Park nearby. Call (727) 594-7705.",
+  heroText: "A mid-Pinellas city of neighborhood parks and ponds, with Sawgrass Lake Park nearby. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife in Pinellas Park?",
   answer:
-    "Pinellas Park doesn't list its own animal control. Pinellas County Animal Services helps with strays and sick or injured wildlife, and animals living in your attic or walls are a job for a private company. Pro Wildlife Removal works across Pinellas Park. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County: strays, injured wildlife", "Garbage twice a week"],
+    "Pinellas Park doesn't list its own animal control. Pinellas County Animal Services helps with strays and sick or injured wildlife, and animals living in your attic or walls are a job for a private company. Pro Wildlife Removal works across Pinellas Park. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "County: strays, injured wildlife", "Garbage twice a week"],
   townsHeading: "Pinellas Park and nearby",
   townsIntro: "Pinellas Park, with about 55,100 residents, is in the middle of the county. We cover its neighbors too.",
   towns: [
@@ -65,15 +65,15 @@ export const pinellasPark = countyPage({
     ),
     faq(
       "Can someone come to Pinellas Park the same day?",
-      "Same-day appointments are often available in Pinellas Park. Call (727) 594-7705.",
+      "Same-day appointments are often available in Pinellas Park. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Pinellas Park?",
-  ctaText: "Pinellas Park homeowners can call (727) 594-7705.",
+  ctaText: "Pinellas Park homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Pinellas Park, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums and snakes, who to call for what, garbage days and local parks. (727) 594-7705.",
+      "Wildlife removal in Pinellas Park, FL: rats, raccoons, squirrels, opossums and snakes, who to call for what, garbage days and local parks. (844) 264-6254.",
   },
   sources: [
     { title: "Florida EDR/BEBR: April 1, 2025 estimates, Table 1 (Pinellas Park 55,055)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },

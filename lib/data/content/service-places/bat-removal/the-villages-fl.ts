@@ -23,11 +23,11 @@ export const batRemovalTheVillages = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-the-villages",
   county: "Sumter",
   order: 90,
-  heroText: "Bats under a villa's tile roof, in a lanai's eaves or a garage soffit in The Villages? We look for the openings bats use, fit one-way devices in the legal season and seal up behind them. Call (727) 594-7705.",
+  heroText: "Bats under a villa's tile roof, in a lanai's eaves or a garage soffit in The Villages? We look for the openings bats use, fit one-way devices in the legal season and seal up behind them. Call (844) 264-6254.",
   answerHeading: "How are bats removed from a home in The Villages?",
   answer:
-    "The way The Villages' own golf crews did it in 2025: one-way exclusion that lets bats leave and keeps them from coming back, done only from August 15 to April 15 under FWC rules. Bats can't legally be killed, poisoned or relocated. Pro Wildlife Removal looks for the gaps, fits the devices and seals up. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Hilltop's bats, 2025"],
+    "The way The Villages' own golf crews did it in 2025: one-way exclusion that lets bats leave and keeps them from coming back, done only from August 15 to April 15 under FWC rules. Bats can't legally be killed, poisoned or relocated. Pro Wildlife Removal looks for the gaps, fits the devices and seals up. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion Aug. 15 to April 15", "Hilltop's bats, 2025"],
   localHeading: "What to know about bats in The Villages",
   localIntro: "The Villages had a well-reported bat colony at a golf course in 2025, and a 2016 news report named bats in a villa. Here is what the records show.",
   local: [
@@ -44,7 +44,7 @@ export const batRemovalTheVillages = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or touched by a bat", text: p("DOH-Sumter, 352-569-3102. On the Marion side, DOH-Marion, 352-629-0137. On the Historic Side, DOH-Lake, 352-707-6104.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Northeast Region office in Ocala, 352-732-1225.") },
-    { icon: "users", title: "Bats in your villa", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Bats in your villa", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What a bat exclusion job involves and what drives its price." },
@@ -68,11 +68,11 @@ export const batRemovalTheVillages = servicePlacePage({
     ),
     faq(
       "How soon can you come out for bats in The Villages?",
-      "Same-day appointments for bats are often available in The Villages. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in The Villages. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your home in The Villages?",
-  ctaText: "Villagers with bats can call (727) 594-7705.",
+  ctaText: "Villagers with bats can call (844) 264-6254.",
   seo: {
     title: "Bat Removal in The Villages, FL | Pro Wildlife Removal",
     description:

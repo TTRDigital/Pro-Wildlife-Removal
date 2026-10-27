@@ -22,7 +22,7 @@ export const whatAnimalIsInMyAttic: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** start with when you hear it. Noise at night into early morning points to rats, and heavier thumps at night to a raccoon or opossum. Noise in the daytime is usually squirrels. Quiet attics with animals leaving at dusk are bats. Droppings then confirm it. Call (727) 594-7705 for an inspection.",
+      "**The short answer:** start with when you hear it. Noise at night into early morning points to rats, and heavier thumps at night to a raccoon or opossum. Noise in the daytime is usually squirrels. Quiet attics with animals leaving at dusk are bats. Droppings then confirm it. Call (844) 264-6254 for an inspection.",
     ),
     h3("Step 1: When do you hear it?"),
     p(

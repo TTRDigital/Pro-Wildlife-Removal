@@ -21,11 +21,11 @@ export const batRemovalMarionCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-marion-county-fl",
   order: 91,
-  heroText: "Bats in a Marion County attic, barn or soffit, or streaming out of the roofline at dusk? We look for the openings bats use, let them out with one-way devices in the legal season and seal up. Call (727) 594-7705.",
+  heroText: "Bats in a Marion County attic, barn or soffit, or streaming out of the roofline at dusk? We look for the openings bats use, let them out with one-way devices in the legal season and seal up. Call (844) 264-6254.",
   answerHeading: "What's the legal way to get bats out of a Marion County house?",
   answer:
-    "By exclusion: one-way devices at the entry points let the colony fly out and keep it from coming back, fitted only from August 15 to April 15 under FWC rules. Pro Wildlife Removal checks a Marion home for the gaps bats use, fits the devices and seals them after. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "A rabid bat on the 2022 table", "No palm pruning in pup season"],
+    "By exclusion: one-way devices at the entry points let the colony fly out and keep it from coming back, fitted only from August 15 to April 15 under FWC rules. Pro Wildlife Removal checks a Marion home for the gaps bats use, fits the devices and seals them after. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "A rabid bat on the 2022 table", "No palm pruning in pup season"],
   localHeading: "Marion County bats: palms, caves and rabies records",
   localIntro: "Marion has rabid bats on its record, Extension advice on bats in palms, a state park plan that lists its bats, and bat maternity caves. Here is what they say.",
   local: [
@@ -43,7 +43,7 @@ export const batRemovalMarionCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or touched by a bat", text: p("DOH-Marion, 352-629-0137.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Northeast Region office in Ocala, 352-732-1225, or UF/IFAS Extension Marion, 352-671-8400.") },
-    { icon: "users", title: "Bats in your home", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Bats in your home", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What goes into a bat exclusion and seal-up, and what changes the price." },
@@ -67,11 +67,11 @@ export const batRemovalMarionCounty = servicePlacePage({
     ),
     faq(
       "Can someone come look at bats in Marion County today?",
-      "Same-day appointments for bats are often available in Marion County. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Marion County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Marion County home?",
-  ctaText: "Bats in a Marion County attic? Call (727) 594-7705.",
+  ctaText: "Bats in a Marion County attic? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Marion County, FL | Pro Wildlife Removal",
     description:

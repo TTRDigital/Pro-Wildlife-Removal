@@ -21,14 +21,14 @@ export const sarasota = countyPage({
   name: "Sarasota",
   county: "Sarasota",
   order: 26,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN SARASOTA",
   summary: "Wildlife removal and wildlife control in Sarasota, FL: raccoons, rats, bats, squirrels, opossums, snakes and armadillos.",
-  heroText: "Two rabid raccoons in 18 months and 22 rats trapped in one rental kitchen: Sarasota's wildlife problems are on the record. Call (727) 594-7705.",
+  heroText: "Two rabid raccoons in 18 months and 22 rats trapped in one rental kitchen: Sarasota's wildlife problems are on the record. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife control in Sarasota, FL?",
   answer:
-    "For animals living in your home, a private company. The Sheriff's Animal Services responds to wildlife and pet incidents such as bites and injured animals. For raccoons, rats, bats or squirrels in a Sarasota attic, wall or garage, Pro Wildlife Removal finds the way in, removes them as Florida law allows and seals the entry points. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid raccoons, 2025 and 2026", "City carts: lids closed"],
+    "For animals living in your home, a private company. The Sheriff's Animal Services responds to wildlife and pet incidents such as bites and injured animals. For raccoons, rats, bats or squirrels in a Sarasota attic, wall or garage, Pro Wildlife Removal finds the way in, removes them as Florida law allows and seals the entry points. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid raccoons, 2025 and 2026", "City carts: lids closed"],
   townsHeading: "Sarasota and nearby",
   townsIntro: "Florida's EDR puts the City of Sarasota at 58,279 people in April 2025, in a county of 487,640. We take calls in the city and the unincorporated county around it.",
   towns: [
@@ -86,15 +86,15 @@ export const sarasota = countyPage({
     ),
     faq(
       "How fast can you reach a Sarasota home?",
-      "Same-day appointments are often available in Sarasota. Call (727) 594-7705.",
+      "Same-day appointments are often available in Sarasota. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Sarasota?",
-  ctaText: "Our local wildlife removal experts take calls across Sarasota at (727) 594-7705.",
+  ctaText: "Our local wildlife removal experts take calls across Sarasota at (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Sarasota, FL | Pro Wildlife Removal",
     description:
-      "Sarasota wildlife removal and wildlife control: raccoons, rats, bats and squirrels, plus the 2025 and 2026 rabies advisories and contacts. (727) 594-7705.",
+      "Sarasota wildlife removal and wildlife control: raccoons, rats, bats and squirrels, plus the 2025 and 2026 rabies advisories and contacts. (844) 264-6254.",
   },
   sources: [
     { title: "DOH-Sarasota: Rabies advisory, Jan. 30, 2025 (raccoon killed Jan. 25, 2025, in the Bee Ridge area tested positive; bites 941-861-2873; Animal Services 941-861-9501)", url: ADVISORY_2025 },

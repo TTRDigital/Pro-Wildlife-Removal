@@ -25,11 +25,11 @@ export const raccoonRemovalTheVillages = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-the-villages",
   county: "Sumter",
   order: 94,
-  heroText: "A raccoon in the garage, under the lanai or tearing into trash bags in The Villages? We get it out, check for young before anything is closed and seal the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in the garage, under the lanai or tearing into trash bags in The Villages? We get it out, check for young before anything is closed and seal the way in. Call (844) 264-6254.",
   answerHeading: "Who removes raccoons in The Villages?",
   answer:
-    "A private trapper. Sumter County lists raccoons as nuisance wildlife, says its Animal Services generally deals only with domestic animals, and refers residents to private trappers. Pro Wildlife Removal gets raccoons out of homes in The Villages, checks for young and seals the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "A 2019 rabies warning", "Lake, Sumter and Marion"],
+    "A private trapper. Sumter County lists raccoons as nuisance wildlife, says its Animal Services generally deals only with domestic animals, and refers residents to private trappers. Pro Wildlife Removal gets raccoons out of homes in The Villages, checks for young and seals the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "A 2019 rabies warning", "Lake, Sumter and Marion"],
   localHeading: "What to know about raccoons in The Villages",
   localIntro: "Raccoons in The Villages have made the news for rabies scares and nature-trail photos alike. Here is what the reports and the county records show.",
   local: [
@@ -44,7 +44,7 @@ export const raccoonRemovalTheVillages = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Sumter County Health Department, 352-569-3131.") },
     { icon: "map-pin", title: "Wildlife questions", text: p("FWC's office in Ocala, 352-732-1225, the number Sumter County gives.") },
-    { icon: "users", title: "A raccoon in your home", text: p("A private trapper. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A raccoon in your home", text: p("A private trapper. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "What Florida law allows once a raccoon is in a trap, and where it can go." },
@@ -68,11 +68,11 @@ export const raccoonRemovalTheVillages = servicePlacePage({
     ),
     faq(
       "How soon can you come out for a raccoon in The Villages?",
-      "Same-day appointments for raccoons are often available in The Villages. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in The Villages. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon at your home in The Villages?",
-  ctaText: "Villagers with a raccoon problem can call (727) 594-7705.",
+  ctaText: "Villagers with a raccoon problem can call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in The Villages, FL | Pro Wildlife Removal",
     description:

@@ -20,7 +20,7 @@ export const ratsInTheWalls: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** scratching or scurrying inside a wall at night, with droppings or gnawing nearby, usually means rats. In Florida it's often roof rats moving between the attic and food below. Seal the gaps they use, then trap the rats inside along their paths. Poison can leave a dead rat in the wall. Call (727) 594-7705.",
+      "**The short answer:** scratching or scurrying inside a wall at night, with droppings or gnawing nearby, usually means rats. In Florida it's often roof rats moving between the attic and food below. Seal the gaps they use, then trap the rats inside along their paths. Poison can leave a dead rat in the wall. Call (844) 264-6254.",
     ),
     h3("How to tell it's rats"),
     ul(
@@ -55,7 +55,7 @@ export const ratsInTheWalls: Post = {
       "**Trap** the rats left inside along their paths, and check the traps often.",
       "**Clean up** droppings with gloves and disinfectant, never by sweeping or vacuuming.",
     ),
-    p("See [rat removal](/services/rat-removal/), [rats in the attic](/services/rats-in-attic/) and [rat removal in Tampa](/services/rat-removal/tampa-fl/), or call (727) 594-7705."),
+    p("See [rat removal](/services/rat-removal/), [rats in the attic](/services/rats-in-attic/) and [rat removal in Tampa](/services/rat-removal/tampa-fl/), or call (844) 264-6254."),
   ),
   faq: [
     faq(

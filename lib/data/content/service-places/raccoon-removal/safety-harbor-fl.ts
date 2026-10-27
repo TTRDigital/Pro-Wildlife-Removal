@@ -25,11 +25,11 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-safety-harbor",
   county: "Pinellas",
   order: 80,
-  heroText: "A raccoon in a Safety Harbor attic, under the porch or into the garbage barrel every night? We get it out, look for young first and seal the opening it used. Call (727) 594-7705.",
+  heroText: "A raccoon in a Safety Harbor attic, under the porch or into the garbage barrel every night? We get it out, look for young first and seal the opening it used. Call (844) 264-6254.",
   answerHeading: "Who removes raccoons from Safety Harbor homes?",
   answer:
-    "A private wildlife company. The City of Safety Harbor handles dead animals on its rights-of-way, not live raccoons in homes. Pro Wildlife Removal takes raccoons out of Safety Harbor attics, crawl spaces and sheds, checks for young first and then seals the way in. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Barrel lids must close", "No releases in county parks"],
+    "A private wildlife company. The City of Safety Harbor handles dead animals on its rights-of-way, not live raccoons in homes. Pro Wildlife Removal takes raccoons out of Safety Harbor attics, crawl spaces and sheds, checks for young first and then seals the way in. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Barrel lids must close", "No releases in county parks"],
   localHeading: "What to know about raccoons in Safety Harbor",
   localIntro: "Safety Harbor has a raccoon story that ended up in court, and rules from the city and county that bear on raccoons. Here are the local facts.",
   local: [
@@ -42,7 +42,7 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
   contacts: [
     { icon: "home", title: "Dead animal on a city street", text: p("Safety Harbor Public Works, 727-724-1550.") },
     { icon: "users", title: "Stray animals", text: p("Pinellas County Animal Services, 727-582-2600.") },
-    { icon: "phone", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "phone", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "What Florida allows if you trap a raccoon yourself, and where it can legally go." },
@@ -66,11 +66,11 @@ export const raccoonRemovalSafetyHarbor = servicePlacePage({
     ),
     faq(
       "How soon can you come out for a raccoon in Safety Harbor?",
-      "Same-day appointments for raccoons are often available in Safety Harbor. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Safety Harbor. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Safety Harbor home?",
-  ctaText: "Safety Harbor raccoon calls go to (727) 594-7705.",
+  ctaText: "Safety Harbor raccoon calls go to (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Safety Harbor, FL | Pro Wildlife Removal",
     description:

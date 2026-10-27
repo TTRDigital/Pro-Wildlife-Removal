@@ -17,7 +17,7 @@ export const howFastDoRatsReproduce: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      `**The short answer:** fast. Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young in each, and those young become sexually active 2 to 3 months after birth ([Florida DOH](${DOH})). That's how a few attic rats become many in one season. Call (727) 594-7705 for an inspection.`,
+      `**The short answer:** fast. Florida DOH says a roof rat can have up to 8 litters a year with 6 to 8 young in each, and those young become sexually active 2 to 3 months after birth ([Florida DOH](${DOH})). That's how a few attic rats become many in one season. Call (844) 264-6254 for an inspection.`,
     ),
     h3("The numbers, by source"),
     table(
@@ -46,7 +46,7 @@ export const howFastDoRatsReproduce: Post = {
     p(
       `Because young rats grow up and breed so quickly, catching a few isn't enough if the way in is still open. UF/IFAS Extension says rodent-proofing has to block every possible entry point to work, and rats can get through gaps of about half an inch ([UF/IFAS](${SANTAROSA})). UF/IFAS lists rodent-proofing first, then sanitation, then trapping ([UF/IFAS](${SANTAROSA})).`,
     ),
-    p("See [rat removal](/services/rat-removal/), [rats in the attic](/services/rats-in-attic/) and [how to catch a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/), or call (727) 594-7705."),
+    p("See [rat removal](/services/rat-removal/), [rats in the attic](/services/rats-in-attic/) and [how to catch a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/), or call (844) 264-6254."),
   ),
   faq: [
     faq(

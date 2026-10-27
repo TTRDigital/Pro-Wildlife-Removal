@@ -25,11 +25,11 @@ export const batRemovalBrooksville = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   county: "Hernando",
   order: 40,
-  heroText: "Bats streaming out of a Brooksville soffit, barn or attic at dusk? We look for the openings bats use, fit one-way doors when state rules allow and seal up once they're out. Call (727) 594-7705.",
+  heroText: "Bats streaming out of a Brooksville soffit, barn or attic at dusk? We look for the openings bats use, fit one-way doors when state rules allow and seal up once they're out. Call (844) 264-6254.",
   answerHeading: "How does a bat colony get out of a Brooksville house?",
   answer:
-    "With one-way exclusion doors that let bats fly out but not back in, fitted only between August 15 and April 15 under FWC rules. Killing or poisoning bats is illegal in Florida. Pro Wildlife Removal checks a Brooksville home for the gaps a colony uses, fits the doors and seals the openings afterward. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Bat colony at Chinsegut"],
+    "With one-way exclusion doors that let bats fly out but not back in, fitted only between August 15 and April 15 under FWC rules. Killing or poisoning bats is illegal in Florida. Pro Wildlife Removal checks a Brooksville home for the gaps a colony uses, fits the doors and seals the openings afterward. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion Aug. 15 to April 15", "Bat colony at Chinsegut"],
   localHeading: "What to know about bats in Brooksville",
   localIntro: "Brooksville has a large bat colony just up the road, at Chinsegut. Here is what FWC and the health department say about bats around town.",
   local: [
@@ -46,7 +46,7 @@ export const batRemovalBrooksville = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("Report it to DOH-Hernando at 352-540-6812. The CDC says not to release a bat that may have bitten someone until you've talked with public health.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office covers Hernando: 863-648-3200.") },
-    { icon: "users", title: "A colony in your house", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A colony in your house", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What goes into the price of a bat exclusion and seal-up." },
@@ -70,11 +70,11 @@ export const batRemovalBrooksville = servicePlacePage({
     ),
     faq(
       "Can someone check our Brooksville roof for bats today?",
-      "Same-day appointments for bats are often available in Brooksville. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Brooksville. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Brooksville home?",
-  ctaText: "Bats in a Brooksville roof, close to Chinsegut or not? Call (727) 594-7705.",
+  ctaText: "Bats in a Brooksville roof, close to Chinsegut or not? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Brooksville, FL | Pro Wildlife Removal",
     description:

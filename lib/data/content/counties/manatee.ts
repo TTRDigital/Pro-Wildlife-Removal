@@ -8,13 +8,13 @@ export const manatee = countyPage({
   name: "Manatee County",
   county: "Manatee",
   order: 9,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   summary: "Wildlife removal in Manatee County: bats, rats, raccoons, squirrels, snakes and more, from the Bradenton area to the county's rural east.",
-  heroText: "Barrier-island beaches on the west, Bradenton and Palmetto in the middle, ranch land and preserves to the east. Call (727) 594-7705.",
+  heroText: "Barrier-island beaches on the west, Bradenton and Palmetto in the middle, ranch land and preserves to the east. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife removal in Manatee County?",
   answer:
-    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect the house, remove the animal the way Florida law allows and seal the entry points it used. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Bradenton is the county seat", "Entry points sealed"],
+    "Pro Wildlife Removal removes bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals in Manatee County. We inspect the house, remove the animal the way Florida law allows and seal the entry points it used. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Bradenton is the county seat", "Entry points sealed"],
   townsHeading: "Manatee County towns",
   townsIntro: "Bradenton is the county seat and largest city. About 83% of residents live outside city limits.",
   townsNote: "[PLACEHOLDER: ask the client: which Manatee towns you serve, and a Manatee phone number if there is one]",
@@ -42,7 +42,7 @@ export const manatee = countyPage({
   faqs: [
     faq(
       "Which number reaches you from Manatee County?",
-      "Call (727) 594-7705. Same-day appointments are often available in Manatee County.",
+      "Call (844) 264-6254. Same-day appointments are often available in Manatee County.",
     ),
     faq(
       "How do I keep rats out of the trash in Manatee County?",
@@ -62,11 +62,11 @@ export const manatee = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Manatee County?",
-  ctaText: "Manatee County homeowners can call (727) 594-7705.",
+  ctaText: "Manatee County homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Manatee County | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Manatee County, from Bradenton to the islands: bats, rats, raccoons, snakes and more, and who to call for bites. Call (727) 594-7705.",
+      "Wildlife removal in Manatee County, from Bradenton to the islands: bats, rats, raccoons, snakes and more, and who to call for bites. Call (844) 264-6254.",
   },
   sources: [
     S.censusPop,

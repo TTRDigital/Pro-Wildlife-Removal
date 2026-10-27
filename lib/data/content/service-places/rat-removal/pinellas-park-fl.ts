@@ -20,11 +20,11 @@ export const ratRemovalPinellasPark = servicePlacePage({
   placeKind: "city",
   location: "about-us/service-area/wildlife-removal-pinellas-park",
   county: "Pinellas",
-  heroText: "Rats running in a Pinellas Park attic, or droppings in the garage or shed? We find the openings they use, close them and trap the rats inside. Call (727) 594-7705.",
+  heroText: "Rats running in a Pinellas Park attic, or droppings in the garage or shed? We find the openings they use, close them and trap the rats inside. Call (844) 264-6254.",
   answerHeading: "Who gets rats out of Pinellas Park houses?",
   answer:
-    "A private company. In a Pinellas Park rental, Pinellas County's landlord-tenant page says the landlord must exterminate rats unless the lease says otherwise. In your own home, Pro Wildlife Removal finds where the rats get in, seals those gaps and traps the rats still inside. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "State records: 23 rodent closures, 2022-25", "8 on 49th St, 7 on 66th St"],
+    "A private company. In a Pinellas Park rental, Pinellas County's landlord-tenant page says the landlord must exterminate rats unless the lease says otherwise. In your own home, Pro Wildlife Removal finds where the rats get in, seals those gaps and traps the rats still inside. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "State records: 23 rodent closures, 2022-25", "8 on 49th St, 7 on 66th St"],
   localHeading: "Rodent closures and rat rules in Pinellas Park",
   localIntro: "Most Pinellas Park facts here come from state restaurant inspection records. The others come from the Sixth Judicial Circuit and Pinellas County.",
   local: [
@@ -39,7 +39,7 @@ export const ratRemovalPinellasPark = servicePlacePage({
   contactsIntro: "Who to call about rats in Pinellas Park, from the county's own page.",
   contacts: [
     { icon: "home", title: "Rats in a rental", text: p("Start with the landlord. Pinellas County lists rat extermination among a landlord's duties unless the lease says otherwise.") },
-    { icon: "users", title: "Rats in your own home", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats in your own home", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Pinellas Park rat job, quoted exactly as on Google (TTR-723)]",
@@ -58,15 +58,15 @@ export const ratRemovalPinellasPark = servicePlacePage({
     ),
     faq(
       "When can someone look at rats in our Pinellas Park home?",
-      "Same-day appointments for rats are often available in Pinellas Park. Call (727) 594-7705.",
+      "Same-day appointments for rats are often available in Pinellas Park. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Pinellas Park home?",
-  ctaText: "Rats in a Pinellas Park house or rental? Call (727) 594-7705.",
+  ctaText: "Rats in a Pinellas Park house or rental? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Pinellas Park, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Pinellas Park, FL: entry gaps sealed and the rats trapped inside homes near Park Blvd, 49th St, 66th St and US 19. Call (727) 594-7705.",
+      "Rat removal in Pinellas Park, FL: entry gaps sealed and the rats trapped inside homes near Park Blvd, 49th St, 66th St and US 19. Call (844) 264-6254.",
   },
   sources: [
     { title: "Florida DBPR, Division of Hotels and Restaurants: emergency closure records, 2022, 2023, 2024 and 2025 (2022-EOS.zip to 2025-EOS.zip; our count of rows listing Pinellas Park as the Business City and Conditions for Closure naming rodents: 23 closures at 14 businesses; 7, 7, 8 and 1 by year; 8 on 49th St, 7 on 66th St, 5 on US 19, 3 on Park Blvd)", url: DBPR },

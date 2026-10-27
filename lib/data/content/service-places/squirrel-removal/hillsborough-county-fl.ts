@@ -21,11 +21,11 @@ export const squirrelRemovalHillsboroughCounty = servicePlacePage({
   placeName: "Hillsborough County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-hillsborough-county",
-  heroText: "Squirrels chewing into a soffit or running in the attic in Brandon, Lithia, Riverview or anywhere else in Hillsborough County? We find the hole, get them out and seal it. Call (727) 594-7705.",
+  heroText: "Squirrels chewing into a soffit or running in the attic in Brandon, Lithia, Riverview or anywhere else in Hillsborough County? We find the hole, get them out and seal it. Call (844) 264-6254.",
   answerHeading: "Who removes squirrels from an attic in Hillsborough County?",
   answer:
-    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property calls for private removal services. In Hillsborough, gray squirrels show up on state park lists from Thonotosassa to Lithia. Pro Wildlife Removal finds where a squirrel gets in, removes it and seals the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Gray and fox squirrels on county lands", "2004 park plan: gray squirrel a problem species"],
+    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says wildlife on private property calls for private removal services. In Hillsborough, gray squirrels show up on state park lists from Thonotosassa to Lithia. Pro Wildlife Removal finds where a squirrel gets in, removes it and seals the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Gray and fox squirrels on county lands", "2004 park plan: gray squirrel a problem species"],
   localHeading: "What to know about squirrels in Hillsborough County",
   localIntro: "These facts about squirrels in Hillsborough come from state park plans, the county's nature preserve pages and FWC.",
   local: [
@@ -41,7 +41,7 @@ export const squirrelRemovalHillsboroughCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten by a squirrel", text: p("Report the bite to DOH-Hillsborough, 813-307-8059.") },
     { icon: "users", title: "County Animal Control", text: p("(813) 744-5660. It covers all of Hillsborough, Tampa, Temple Terrace and Plant City among them, and the City of Tampa's page on its services sends wildlife on private property to private removal services.") },
-    { icon: "home", title: "Squirrels in the attic", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "home", title: "Squirrels in the attic", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "squirrels-in-attic", label: "Squirrels in the attic" },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Hillsborough County squirrel job, quoted exactly as on Google (TTR-723)]",
@@ -64,11 +64,11 @@ export const squirrelRemovalHillsboroughCounty = servicePlacePage({
     ),
     faq(
       "How soon can you come out for squirrels in Hillsborough County?",
-      "Same-day appointments for squirrels are often available in Hillsborough County. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in Hillsborough County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Squirrels in your Hillsborough County attic?",
-  ctaText: "Squirrels anywhere in Hillsborough County? Call (727) 594-7705.",
+  ctaText: "Squirrels anywhere in Hillsborough County? Call (844) 264-6254.",
   seo: {
     title: "Squirrel Removal Hillsborough County | Pro Wildlife Removal",
     description:

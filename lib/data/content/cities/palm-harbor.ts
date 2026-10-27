@@ -10,14 +10,14 @@ export const palmHarbor = countyPage({
   name: "Palm Harbor",
   county: "Pinellas",
   order: 21,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN PALM HARBOR",
   summary: "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums, snakes, armadillos, bats and more, in north Pinellas.",
-  heroText: "An unincorporated north Pinellas community with Lake Tarpon on its eastern side. Call (727) 594-7705.",
+  heroText: "An unincorporated north Pinellas community with Lake Tarpon on its eastern side. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife in Palm Harbor?",
   answer:
-    "Palm Harbor isn't a city, so Pinellas County services apply. County Animal Services helps with strays and sick or injured wildlife, not animals living in your home. A raccoon in the attic or rats in the walls need a private company. Pro Wildlife Removal works throughout Palm Harbor. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Unincorporated Pinellas", "Next to Lake Tarpon"],
+    "Palm Harbor isn't a city, so Pinellas County services apply. County Animal Services helps with strays and sick or injured wildlife, not animals living in your home. A raccoon in the attic or rats in the walls need a private company. Pro Wildlife Removal works throughout Palm Harbor. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Pinellas", "Next to Lake Tarpon"],
   townsHeading: "Palm Harbor and nearby",
   townsIntro: "Palm Harbor counted about 61,400 people at the 2020 Census. Dunedin borders it to the south.",
   towns: [
@@ -66,15 +66,15 @@ export const palmHarbor = countyPage({
     ),
     faq(
       "Can you come to Palm Harbor on short notice?",
-      "Same-day appointments are often available in Palm Harbor. Call (727) 594-7705.",
+      "Same-day appointments are often available in Palm Harbor. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Palm Harbor?",
-  ctaText: "Palm Harbor homeowners can call (727) 594-7705.",
+  ctaText: "Palm Harbor homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Palm Harbor, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Lake Tarpon, and who to call for what locally. (727) 594-7705.",
+      "Wildlife removal in Palm Harbor, FL: raccoons, rats, squirrels, opossums and snakes near Lake Tarpon, and who to call for what locally. (844) 264-6254.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Palm Harbor CDP, 61,366)", url: CENSUS },
