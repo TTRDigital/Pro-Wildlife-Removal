@@ -16,7 +16,7 @@ import { PreviewBanner } from "@/components/layout/PreviewBanner";
 import { isPreview } from "@/lib/sanity/fetch";
 import { HydrationSignal } from "@/components/layout/HydrationSignal";
 
-/** One menu for desktop and phones: About (about, how we work, blog), Service Area (counties, then cities), Services (removal pages). */
+/** One menu for desktop and phones: About (about, how we work, blog), Service Area (counties only), Services (removal pages). */
 function buildNav(services: Service[], locations: Location[]): NavItem[] {
   // "attic" is the group of the "[animal] in the attic" pages (Cole's content branch adds it to ServiceGroup).
   const attic = services.filter((s) => (s.group as string) === "attic");
@@ -35,11 +35,8 @@ function buildNav(services: Service[], locations: Location[]): NavItem[] {
       label: "Service Area",
       href: "/service-areas/",
       children: [
+        // Counties only (client, Oct 27): the city pages stay on the site and the hub, but not in the menu until there are many more of them.
         ...locations.filter((l) => l.kind === "county" || l.kind === "region").map((l) => ({ label: l.name, href: `/${l.path}/`, group: "Counties" })),
-        ...locations
-          .filter((l) => l.kind === "city")
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map((l) => ({ label: l.name, href: `/${l.path}/`, group: "Cities" })),
         { label: "All service areas", href: "/service-areas/" },
       ],
     },
