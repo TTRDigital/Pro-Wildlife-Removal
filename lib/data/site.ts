@@ -8,7 +8,7 @@ import { images } from "./images.ts";
  */
 export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   name: "Pro Wildlife Removal",
-  phone: "(727) 594-7705",
+  phone: "(844) 264-6254",
   tollFree: "1-844-ANIMAL4",
   email: "customerservice@prowildliferemoval.net",
   address: { street: "1324 Seven Springs Blvd., Suite 178", city: "Trinity", region: "FL", postalCode: "34655" },
@@ -32,22 +32,22 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   ],
   // The "Locations" menu in the live site's top bar: a phone line per county.
   countyLines: [
-    { county: "Osceola County", phone: "727-594-7705" },
+    { county: "Osceola County", phone: "844-264-6254" },
     { county: "Pasco County", phone: "727-594-7722", href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/" },
-    { county: "Hillsborough County", phone: "727-594-7705", href: "/about-us/service-area/wildlife-removal-hillsborough-county/" },
+    { county: "Hillsborough County", phone: "844-264-6254", href: "/about-us/service-area/wildlife-removal-hillsborough-county/" },
     { county: "Hernando County", phone: "352-612-3336", href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/" },
     { county: "Pinellas County", phone: "727-496-7702", href: "/about-us/service-area/wildlife-removal-pinellas-county/" },
     { county: "Citrus County", phone: "352-618-2110", href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/" },
     { county: "Sumter County", phone: "863-431-9244", href: "/about-us/service-area/wildlife-removal-sumter-county-fl/" },
     { county: "Polk County", phone: "863-208-5050", href: "/about-us/service-area/wildlife-removal-polk-county/" },
-    { county: "Manatee County", phone: "727-594-7705" },
+    { county: "Manatee County", phone: "844-264-6254" },
   ],
   headerCta: { label: "Request an Inspection", href: "/contact-us/" },
   // From the home page's closing section on the live site.
   defaultCta: {
     heading: "Need Help? Reach Out To Us.",
     highlight: "Reach Out To Us.",
-    text: "No matter what animal disturbance you may be dealing with, our professionals have a solution for you. Simply dial 727-594-7705 and we’ll be right there to provide the care and service you need.",
+    text: "No matter what animal disturbance you may be dealing with, our professionals have a solution for you. Simply dial 844-264-6254 and we’ll be right there to provide the care and service you need.",
   },
   logo: images.logo,
 };

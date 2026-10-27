@@ -10,8 +10,8 @@ export const fallbackPages = {
    "image": images.certifiedWildlifeRemovalExpertsInTampaFl,
    "ctas": [
     {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
+     "label": "844-264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -431,8 +431,8 @@ export const fallbackPages = {
     "image": images.proWildlifeCrew,
     "ctas": [
      {
-      "label": "727-594-7705",
-      "href": "tel:+17275947705",
+      "label": "844-264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -581,7 +581,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": "727-594-7705",
+        "text": "844-264-6254",
         "marks": [
          "l0"
         ]
@@ -596,7 +596,7 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:727-594-7705"
+        "href": "tel:844-264-6254"
        }
       ]
      },
@@ -641,8 +641,8 @@ export const fallbackPages = {
    "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
-     "label": "(727) 594-7705",
-     "href": "tel:+17275947705",
+     "label": "(844) 264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -687,8 +687,8 @@ export const fallbackPages = {
     "image": images.ratRemovalImage2,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -733,8 +733,8 @@ export const fallbackPages = {
     "image": images.prowildremovalTeamImage,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -1470,13 +1470,13 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:7275947705"
+        "href": "tel:8442646254"
        }
       ],
       "children": [
        {
         "_type": "span",
-        "text": "Phone Number: (727) 594-7705",
+        "text": "Phone Number: (844) 264-6254",
         "marks": [
          "l0"
         ]
@@ -1518,7 +1518,7 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:(727)%20594-7705"
+        "href": "tel:(844)%20264-6254"
        }
       ],
       "children": [
@@ -1540,7 +1540,7 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:(727)%20594-7705"
+        "href": "tel:(844)%20264-6254"
        }
       ],
       "children": [
@@ -1557,8 +1557,8 @@ export const fallbackPages = {
     "image": images.tampaBayMap2,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -2025,8 +2025,8 @@ export const fallbackPages = {
    "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
-     "label": "(727) 594-7705",
-     "href": "tel:+17275947705",
+     "label": "(844) 264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -2059,8 +2059,8 @@ export const fallbackPages = {
     "image": images.ratRemovalImage2,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -2111,13 +2111,13 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:7275947705"
+        "href": "tel:8442646254"
        }
       ],
       "children": [
        {
         "_type": "span",
-        "text": "Phone Number: (727) 594-7705",
+        "text": "Phone Number: (844) 264-6254",
         "marks": [
          "l0"
         ]
@@ -2159,7 +2159,7 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:(727)%20594-7705"
+        "href": "tel:(844)%20264-6254"
        }
       ],
       "children": [
@@ -2181,7 +2181,7 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:(727)%20594-7705"
+        "href": "tel:(844)%20264-6254"
        }
       ],
       "children": [
@@ -3216,8 +3216,8 @@ export const fallbackPages = {
    "image": images.joshHoldingRaccon,
    "ctas": [
     {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
+     "label": "844-264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -3592,7 +3592,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": "727-594-7705 ",
+        "text": "844-264-6254 ",
         "marks": [
          "strong",
          "l1"
@@ -3613,7 +3613,7 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l1",
-        "href": "tel:7275947705"
+        "href": "tel:8442646254"
        }
       ]
      }
@@ -3659,8 +3659,8 @@ export const fallbackPages = {
    "image": images.proWildlifeRemovalServiceProcess,
    "ctas": [
     {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
+     "label": "844-264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -3917,7 +3917,7 @@ export const fallbackPages = {
        },
        {
         "_type": "span",
-        "text": " (727-594-7705",
+        "text": " (844-264-6254",
         "marks": [
          "strong",
          "l0"
@@ -3933,7 +3933,7 @@ export const fallbackPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:727-594-7705"
+        "href": "tel:844-264-6254"
        }
       ]
      }
@@ -3974,7 +3974,7 @@ export const fallbackPages = {
       },
       {
        "_type": "span",
-       "text": "844 ANIMAL 4 (727-594-7705)",
+       "text": "844 ANIMAL 4 (844-264-6254)",
        "marks": [
         "strong"
        ]
@@ -3986,8 +3986,8 @@ export const fallbackPages = {
    "image": images.needHelpReachOutToUs,
    "ctas": [
     {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
+     "label": "844-264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -4108,7 +4108,7 @@ export const fallbackPages = {
       "children": [
        {
         "_type": "span",
-        "text": "1324 Seven Springs Blvd., Suite 178, Trinity, FL 34655.\nFlorida, United States 727-594-7705",
+        "text": "1324 Seven Springs Blvd., Suite 178, Trinity, FL 34655.\nFlorida, United States 844-264-6254",
         "marks": []
        }
       ],
