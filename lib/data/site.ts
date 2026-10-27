@@ -20,7 +20,7 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   serviceCounties: ["Pasco", "Pinellas", "Hillsborough", "Hernando", "Citrus", "Sumter", "Polk", "Marion"],
   license: "[PLACEHOLDER: Florida license / FWC permit number]",
   googleRating: "4.7",
-  reviewCount: "273",
+  reviewCount: "503",
   reviewsUrl: "https://share.google/q9tYZo8yZJe1eSwMU",
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56272.28751586273!2d-82.73478085790528!3d28.17636895762875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2930c42d8d0c1%3A0x46e0937b102480e8!2sPro%20Wildlife%20Removal!5e0!3m2!1sen!2sph!4v1757356023636!5m2!1sen!2sph",

@@ -102,7 +102,7 @@ export const home: PageContent = {
         "Humane methods that follow Florida Fish and Wildlife Conservation Commission rules",
         "Entry points sealed, not just the animal taken away",
         "Founded in 2016 by Josh Holmberg, with 15 years in wildlife removal",
-        "Rated 4.7 from 273 Google reviews",
+        "Rated 4.7 from 503 Google reviews",
       ],
       image: images.prowildlifeRemovalAgentHoldingAnIguanaa,
       imageSide: "right",
