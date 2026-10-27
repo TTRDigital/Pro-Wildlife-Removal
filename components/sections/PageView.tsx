@@ -11,7 +11,6 @@ import { HomeHero, PageHero, heroSlides } from "./PageHero";
 import { animalSections, pageAnimal } from "@/lib/topics";
 import { MapSection, type MapPlace } from "./MapSection";
 import { CtaSection } from "./CtaSection";
-import { LazyBatCatch } from "@/components/ui/LazyBatCatch";
 import { TrustBar, defaultTrust } from "./TrustBar";
 import { Sections } from "./Sections";
 
@@ -92,7 +91,6 @@ export async function PageView({
         ) : (
           <Sections sections={page.sections} ids={ids} closing={closing} />
         )}
-        {path === "/" ? <LazyBatCatch /> : null}
       </>
     );
   }

@@ -630,29 +630,6 @@
     transform: translateX(-100%);
     animation: pw-track-x 3.6s ease-in-out infinite;
   }
-  /* The running mouse: feet scurry in two alternating pairs, the body bobs; once caught it stops. */
-  .mouse-run svg {
-    animation: pw-scurry 0.16s ease-in-out infinite alternate;
-  }
-  .mouse-feet {
-    animation: pw-feet 0.16s linear infinite alternate;
-  }
-  .mouse-feet-2 {
-    animation: pw-feet 0.16s linear infinite alternate-reverse;
-  }
-  .snake-wave {
-    animation: pw-slither 0.35s ease-in-out infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
-  }
-  .bee-buzz {
-    animation: pw-buzz 0.12s linear infinite alternate;
-  }
-  .mouse-caught svg,
-  .mouse-caught .mouse-feet,
-  .mouse-caught .mouse-feet-2 {
-    animation-duration: 0.09s;
-  }
   /* Animal tiles without a clip (TileLife): the client's photos take turns. */
   .tile-fade {
     opacity: 0;
@@ -1037,35 +1014,6 @@ a:focus-visible .logo-live .logo-lid {
     opacity: 0;
   }
 }
-@keyframes pw-scurry {
-  to {
-    transform: translateY(-2px);
-  }
-}
-@keyframes pw-slither {
-  from {
-    transform: skewX(-8deg) scaleY(0.9);
-  }
-  to {
-    transform: skewX(8deg) scaleY(1.1);
-  }
-}
-@keyframes pw-buzz {
-  from {
-    transform: translate(-1px, 1px);
-  }
-  to {
-    transform: translate(1px, -1px);
-  }
-}
-@keyframes pw-feet {
-  from {
-    transform: translateX(-2px);
-  }
-  to {
-    transform: translateX(2px);
-  }
-}
 @keyframes pw-bob {
   0%,
   100% {
@@ -1101,12 +1049,7 @@ a:focus-visible .logo-live .logo-lid {
   .map-ping,
   .phone-ring,
   .tag-nudge,
-  .snake-wave,
-  .bee-buzz,
   .tile-fade,
-  .mouse-run svg,
-  .mouse-feet,
-  .mouse-feet-2,
   .photo-live img,
   .hero-pan img,
   .icon-bob,
