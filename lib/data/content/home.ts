@@ -21,7 +21,7 @@ export const home: PageContent = {
     heading: "Wildlife Removal in Central Florida",
     highlight: "Wildlife Removal",
     text: p(
-      "Humane removal of the animals in your attic, walls, roof or yard, then we seal the way they got in and show you what the inspection found.",
+      "We humanely remove animals from your attic, walls, roof or yard, seal the openings they used to get in, and show you what our inspection found.",
     ),
     image: images.certifiedWildlifeRemovalExpertsInTampaFl,
     badges: ["8 counties", "Removal and sealing"],
