@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { getPage, getPosts } from "@/lib/content";
+import { getPage, getPosts, getSiteSettings } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { webPageSchema } from "@/lib/schema";
-import { formatDate } from "@/lib/text";
 import { absoluteUrl } from "@/lib/site";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
-import { Photo } from "@/components/ui/Photo";
+import { Button } from "@/components/ui/Button";
+import { PostCard } from "@/components/sections/PostsSection";
+import { CtaSection } from "@/components/sections/CtaSection";
+import { BlogTopics } from "@/components/ui/BlogTopics";
+import { postTopic, topics } from "@/lib/topics";
 
 const PATH = "/blog/";
 
@@ -15,9 +17,12 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata((await getPage("blog")).seo, PATH);
 }
 
-/** Blog index as on the live site: grey page, white two-column post cards with "Read more", author and date. All posts on one page. */
+/**
+ * Blog index in the service-page family: tint header with the title and the call button, then
+ * topic buttons (one per animal) over every post as a photo card, the newest one wide.
+ */
 export default async function BlogIndex() {
-  const [page, posts] = await Promise.all([getPage("blog"), getPosts()]);
+  const [page, posts, settings] = await Promise.all([getPage("blog"), getPosts(), getSiteSettings()]);
   return (
     <>
       <JsonLd data={webPageSchema(PATH, page.seo.title, page.seo.description, [])} />
@@ -28,36 +33,41 @@ export default async function BlogIndex() {
           itemListElement: posts.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: absoluteUrl(`/blog/${p.slug}/`), name: p.title })),
         }}
       />
-      <Breadcrumbs items={[{ label: "Blog", href: PATH }]} visible={false} />
-      <section className="bg-[#eee] py-14 md:py-20">
-        <div className="o-wrap">
-          <p className="text-center font-old text-[clamp(1.75rem,1.2rem+1.8vw,2.8rem)] font-semibold leading-[1.15] text-black">{page.seo.title}</p>
-          <h1 className="mt-8 text-center font-old text-[clamp(2.25rem,1.6rem+2vw,3.75rem)] font-semibold leading-none text-[#929292]">{page.hero.heading}</h1>
-          <ul className="mt-14 grid gap-8 md:grid-cols-2">
-            {posts.map((p, i) => (
-              <li key={p.slug} className="relative flex flex-col overflow-hidden rounded-[3px] bg-white shadow-[0_0_10px_rgb(0_0_0/0.15)]">
-                {p.image ? (
-                  <div className="relative aspect-[16/7] overflow-hidden">
-                    <Photo image={p.image} sizes="(min-width: 768px) 545px, 100vw" priority={i < 2} />
-                  </div>
-                ) : null}
-                <div className="flex flex-1 flex-col px-[30px] pt-7 pb-5">
-                  <h2 className="font-old text-[1.3125rem] font-semibold leading-[1.4] text-black">
-                    <Link href={`/blog/${p.slug}/`} className="hover:underline">
-                      {p.title}
-                    </Link>
-                  </h2>
-                  {p.excerpt ? <p className="mt-3 line-clamp-3 font-sans text-sm leading-[1.5] text-black">{p.excerpt}</p> : null}
-                  <Link href={`/blog/${p.slug}/`} className="mt-5 font-old text-xs font-medium uppercase text-blog-orange hover:underline">
-                    Read more<span className="sr-only">: {p.title}</span> »
-                  </Link>
-                </div>
-                <p className="border-t border-[#eaeaea] px-[30px] py-4 font-sans text-xs text-[#767676]">{[p.author, p.date ? formatDate(p.date) : ""].filter(Boolean).join(" • ")}</p>
-              </li>
-            ))}
-          </ul>
+      <section className="relative overflow-hidden bg-tint">
+        <div aria-hidden="true" className="pointer-events-none absolute -top-40 -right-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(closest-side,rgb(30_155_240/0.18),transparent)]" />
+        <div className="wrap relative pt-7 pb-12 md:pt-10 min-[900px]:pt-14 min-[900px]:pb-16">
+          <Breadcrumbs items={[{ label: "Blog", href: PATH }]} />
+          <h1 className="text-h1 font-extrabold tracking-[-0.03em]">{page.hero.heading}</h1>
+          <div className="mt-7">
+            <Button href={settings.phoneHref} className="w-full sm:w-auto">
+              Call {settings.phone}
+            </Button>
+          </div>
         </div>
       </section>
+      <section className="section bg-white" aria-labelledby="latest-guides">
+        <div className="wrap">
+          {/* The cards' titles are h3s: a heading for the list keeps the outline in order (Wade, accessibility). */}
+          <h2 id="latest-guides" className="sr-only">
+            Latest guides
+          </h2>
+          <BlogTopics topics={topics.map((t) => ({ key: t.key, label: t.label, count: posts.filter((p) => postTopic(p)?.key === t.key).length })).filter((t) => t.count > 0)}>
+            <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {posts.map((p, i) => {
+                const key = postTopic(p)?.key ?? "other";
+                // its place among the posts on the same animal, so each card gets its own photo
+                const nth = posts.slice(0, i).filter((q) => (postTopic(q)?.key ?? "other") === key).length;
+                return (
+                  <li key={p.slug} data-topic={key} className={i === 0 ? "blog-featured md:col-span-2 lg:col-span-3" : undefined}>
+                    <PostCard post={p} index={i} featured={i === 0} nth={nth} />
+                  </li>
+                );
+              })}
+            </ul>
+          </BlogTopics>
+        </div>
+      </section>
+      <CtaSection settings={settings} />
     </>
   );
 }

@@ -2,13 +2,17 @@ import "server-only";
 import { cache } from "react";
 import { sanityFetch } from "@/lib/sanity/fetch";
 import { merge } from "@/lib/merge";
+import { hidePlaceholders } from "@/lib/placeholders";
 import { fallbackSettings } from "@/lib/data/site";
 import { fallbackPages, type PageKey } from "@/lib/data/pages";
 import { fallbackServices } from "@/lib/data/services";
+import { movedServices } from "@/lib/service-urls";
+import { areaPath, foldedAreas, relinkAreas } from "@/lib/location-urls";
 import { fallbackLocations } from "@/lib/data/locations";
 import { fallbackPosts } from "@/lib/data/posts";
+import { existingPlacePages, fallbackServicePlaces } from "@/lib/data/service-places";
 import { fallbackTestimonials } from "@/lib/data/testimonials";
-import type { Location, PageContent, Post, Service, SiteSettings, Testimonial } from "@/lib/types";
+import type { Location, PageContent, PlacePage, Post, Service, ServicePlace, SiteSettings, Testimonial } from "@/lib/types";
 
 /* ==========================================================================
    Content layer
@@ -43,14 +47,16 @@ const PAGE = `design, ${HERO}, ${SECTIONS}, ${SEO}`;
 
 export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
   const cms = await sanityFetch<Partial<SiteSettings>>(
-    `*[_id == "siteSettings"][0]{ name, phone, tollFree, email, address, hours[]{ label, value }, announcement, serviceAreaText, license, googleRating, reviewCount, reviewsUrl, mapEmbedUrl,
+    `*[_id == "siteSettings"][0]{ name, phone, tollFree, email, hours[]{ label, value }, announcement, serviceAreaText, license, googleRating, reviewCount, reviewsUrl, mapEmbedUrl,
       social[]{ network, href }, countyLines[]{ county, phone, href }, headerCta{ label, href }, defaultCta{ heading, highlight, text }, "logo": logo${IMG} }`,
     {},
     ["siteSettings"],
   );
   const s = merge(fallbackSettings, cms);
+  // One phone number for the whole site (Kia, Oct 26, 2026): no county lines and no toll-free number,
+  // whatever the CMS holds, so every template shows and calls the main line only.
   // tel: link always follows the displayed phone number.
-  return { ...s, phoneHref: telHref(s.phone) };
+  return relink({ ...s, countyLines: [], tollFree: undefined, phoneHref: telHref(s.phone) });
 });
 
 export function telHref(phone: string) {
@@ -67,7 +73,7 @@ export const getTestimonials = cache(async (): Promise<Testimonial[]> => {
 
 export const getPage = cache(async (key: PageKey): Promise<PageContent> => {
   const cms = await sanityFetch<Partial<PageContent>>(`*[_id == $id][0]{ ${PAGE} }`, { id: `${key}Page` }, [`${key}Page`]);
-  return merge(fallbackPages[key] as PageContent, cms);
+  return relink(hidePlaceholders(merge(fallbackPages[key] as PageContent, cms)));
 });
 
 /* ---------- Collections ---------- */
@@ -81,14 +87,23 @@ function mergeList<T>(fallback: T[], cms: Partial<T>[] | null, key: (x: Partial<
   return [...merged, ...missing];
 }
 
+/** Every string in a piece of content with old service-area links swapped for the new URLs (no 301 hops on our own links). */
+function relink<T>(v: T): T {
+  if (typeof v === "string") return relinkAreas(v) as T;
+  if (Array.isArray(v)) return v.map(relink) as T;
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, relink(x)])) as T;
+  return v;
+}
+
 export const getServices = cache(async (): Promise<Service[]> => {
   const cms = await sanityFetch<Partial<Service>[]>(
-    `*[_type == "service" && defined(slug.current)] | order(order asc){ "slug": slug.current, title, group, animal, order, summary, "cardImage": cardImage${IMG}, ${PAGE} }`,
+    `*[_type == "service" && defined(slug.current)] | order(order asc){ "slug": slug.current, title, group, animal, order, summary, "cardImage": cardImage${IMG}, "cardVideo": cardVideo.asset->url, ${PAGE} }`,
     {},
     ["service"],
   );
   const list = mergeList(fallbackServices, cms, (s) => s.slug, (c): Service => ({ slug: c.slug ?? "", title: c.title ?? "", group: "removal", animal: "", order: 99, hero: { heading: c.title ?? "" }, sections: [], seo: { title: c.title ?? "", description: "" } }));
-  return list.sort((a, b) => a.order - b.order);
+  // One page per animal: retired copies stay out of the site, menus and sitemap (they 301, see next.config.ts).
+  return relink(hidePlaceholders(list.filter((s) => !(s.slug in movedServices)).sort((a, b) => a.order - b.order)));
 });
 
 export async function getService(slug: string) {
@@ -102,8 +117,30 @@ export const getLocations = cache(async (): Promise<Location[]> => {
     ["location"],
   );
   const list = mergeList(fallbackLocations, cms, (l) => l.path, (c): Location => ({ path: c.path ?? "", name: c.name ?? "", kind: "city", order: 999, hero: { heading: c.name ?? "" }, sections: [], seo: { title: c.name ?? "", description: "" } }));
-  return list.sort((a, b) => a.order - b.order);
+  // /service-areas/ (Ben, Oct 26, 2026): folded pages leave the site, the rest move to their new path (lib/location-urls.ts).
+  // A rat page that stays (Winter Haven) is now its city's page.
+  const live = list.filter((l) => !(l.path in foldedAreas)).map((l) => ({ ...l, path: areaPath(l.path), kind: l.kind === "rat" ? ("city" as const) : l.kind }));
+  return relink(hidePlaceholders(live.sort((a, b) => a.order - b.order)));
 });
+
+/** Animal-by-place pages (TTR-738), only those whose animal page is on the site. Built-in content for now; not in the CMS yet. */
+export const getServicePlaces = cache(async (): Promise<ServicePlace[]> => {
+  const services = new Set((await getServices()).map((s) => s.slug));
+  return relink(hidePlaceholders(fallbackServicePlaces.filter((p) => services.has(p.service)).map((p) => ({ ...p, location: p.location && areaPath(p.location) })).sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || a.placeName.localeCompare(b.placeName))));
+});
+
+/** Every place page to link to: the new ones plus the existing pages that serve as place pages (only those still on the site). */
+export const getPlacePages = cache(async (): Promise<PlacePage[]> => {
+  const [places, locations] = await Promise.all([getServicePlaces(), getLocations()]);
+  const live = new Set(locations.map((l) => l.path));
+  // Rats in the folded cities: the "Rats in <city>" section on the city page (Cole's anchor "rats").
+  const ratSections = existingPlacePages.map((p) => ({ ...p, path: areaPath(p.path), location: p.location && areaPath(p.location), anchor: "rats" }));
+  return [...places.map((p) => ({ ...p, path: `services/${p.service}/${p.place}` })), ...ratSections.filter((p) => live.has(p.path))];
+});
+
+export async function getServicePlace(service: string, place: string) {
+  return (await getServicePlaces()).find((p) => p.service === service && p.place === place) ?? null;
+}
 
 export async function getLocation(path: string) {
   const p = path.replace(/^\/|\/$/g, "");
@@ -112,12 +149,12 @@ export async function getLocation(path: string) {
 
 export const getPosts = cache(async (): Promise<Post[]> => {
   const cms = await sanityFetch<Partial<Post>[]>(
-    `*[_type == "post" && defined(slug.current)] | order(date desc){ "slug": slug.current, title, excerpt, date, modified, author, "image": image${IMG}, "body": body${RICH}, ${SEO} }`,
+    `*[_type == "post" && defined(slug.current)] | order(date desc){ "slug": slug.current, title, excerpt, date, modified, author, "image": image${IMG}, "body": body${RICH}, "faq": faq[]{ question, "answer": answer${RICH} }, ${SEO} }`,
     {},
     ["post"],
   );
   const list = mergeList(fallbackPosts, cms, (p) => p.slug, (c): Post => ({ slug: c.slug ?? "", title: c.title ?? "", body: [], seo: { title: c.title ?? "", description: "" } }));
-  return list.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+  return relink(hidePlaceholders(list.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""))));
 });
 
 export async function getPost(slug: string) {

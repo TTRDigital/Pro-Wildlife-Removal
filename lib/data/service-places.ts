@@ -1,0 +1,118 @@
+import type { PlacePage, ServicePlace } from "../types";
+import { raccoonRemovalTampa } from "./content/service-places/raccoon-removal/tampa-fl.ts";
+import { ratRemovalTampa } from "./content/service-places/rat-removal/tampa-fl.ts";
+import { batRemovalTampa } from "./content/service-places/bat-removal/tampa-fl.ts";
+import { squirrelRemovalTampa } from "./content/service-places/squirrel-removal/tampa-fl.ts";
+import { batRemovalPolkCounty } from "./content/service-places/bat-removal/polk-county-fl.ts";
+import { raccoonRemovalPolkCounty } from "./content/service-places/raccoon-removal/polk-county-fl.ts";
+import { ratRemovalPolkCounty } from "./content/service-places/rat-removal/polk-county-fl.ts";
+import { batRemovalHillsboroughCounty } from "./content/service-places/bat-removal/hillsborough-county-fl.ts";
+import { raccoonRemovalHillsboroughCounty } from "./content/service-places/raccoon-removal/hillsborough-county-fl.ts";
+import { ratRemovalHillsboroughCounty } from "./content/service-places/rat-removal/hillsborough-county-fl.ts";
+import { ratRemovalPalmHarbor } from "./content/service-places/rat-removal/palm-harbor-fl.ts";
+import { ratRemovalPinellasPark } from "./content/service-places/rat-removal/pinellas-park-fl.ts";
+import { ratRemovalPascoCounty } from "./content/service-places/rat-removal/pasco-county-fl.ts";
+import { batRemovalPascoCounty } from "./content/service-places/bat-removal/pasco-county-fl.ts";
+import { raccoonRemovalPascoCounty } from "./content/service-places/raccoon-removal/pasco-county-fl.ts";
+import { squirrelRemovalPascoCounty } from "./content/service-places/squirrel-removal/pasco-county-fl.ts";
+import { raccoonRemovalNewPortRichey } from "./content/service-places/raccoon-removal/new-port-richey-fl.ts";
+import { raccoonRemovalSpringHill } from "./content/service-places/raccoon-removal/spring-hill-fl.ts";
+import { raccoonRemovalBrooksville } from "./content/service-places/raccoon-removal/brooksville-fl.ts";
+import { batRemovalBrooksville } from "./content/service-places/bat-removal/brooksville-fl.ts";
+import { squirrelRemovalBrooksville } from "./content/service-places/squirrel-removal/brooksville-fl.ts";
+import { batRemovalLandOLakes } from "./content/service-places/bat-removal/land-o-lakes-fl.ts";
+import { batRemovalHudson } from "./content/service-places/bat-removal/hudson-fl.ts";
+import { raccoonRemovalLandOLakes } from "./content/service-places/raccoon-removal/land-o-lakes-fl.ts";
+import { raccoonRemovalHernandoCounty } from "./content/service-places/raccoon-removal/hernando-county-fl.ts";
+import { batRemovalHernandoCounty } from "./content/service-places/bat-removal/hernando-county-fl.ts";
+import { batRemovalMarionCounty } from "./content/service-places/bat-removal/marion-county-fl.ts";
+import { raccoonRemovalMarionCounty } from "./content/service-places/raccoon-removal/marion-county-fl.ts";
+import { raccoonRemovalOcala } from "./content/service-places/raccoon-removal/ocala-fl.ts";
+import { ratRemovalHernandoCounty } from "./content/service-places/rat-removal/hernando-county-fl.ts";
+import { squirrelRemovalHernandoCounty } from "./content/service-places/squirrel-removal/hernando-county-fl.ts";
+import { ratRemovalPinellasCounty } from "./content/service-places/rat-removal/pinellas-county-fl.ts";
+import { batRemovalPinellasCounty } from "./content/service-places/bat-removal/pinellas-county-fl.ts";
+import { raccoonRemovalPinellasCounty } from "./content/service-places/raccoon-removal/pinellas-county-fl.ts";
+import { raccoonRemovalStPetersburg } from "./content/service-places/raccoon-removal/st-petersburg-fl.ts";
+import { raccoonRemovalDunedin } from "./content/service-places/raccoon-removal/dunedin-fl.ts";
+
+/*
+ * Animal x place pages (TTR-738), served at /services/<service>/<place>/ by
+ * Wade's route. Writers add one import and one line per page; keep the list
+ * grouped by place. The 9 rat-in-city pages stay in locations.ts at their URLs.
+ */
+export const fallbackServicePlaces: ServicePlace[] = [
+  // Tampa (Cole)
+  ratRemovalTampa,
+  batRemovalTampa,
+  squirrelRemovalTampa,
+  raccoonRemovalTampa,
+  // Polk County (Owen)
+  ratRemovalPolkCounty,
+  batRemovalPolkCounty,
+  raccoonRemovalPolkCounty,
+  // HELD (Ben, Oct 26, local-problem rule): squirrelRemovalPolkCounty
+  // Hillsborough County (Owen)
+  ratRemovalHillsboroughCounty,
+  batRemovalHillsboroughCounty,
+  raccoonRemovalHillsboroughCounty,
+  // HELD (Ben, Oct 26, local-problem rule): squirrelRemovalHillsboroughCounty
+  // Palm Harbor (Owen)
+  ratRemovalPalmHarbor,
+  // HELD (Ben, Oct 26, local-problem rule): raccoonRemovalPalmHarbor
+  // Pinellas Park (Owen)
+  ratRemovalPinellasPark,
+  // Pasco (Nia)
+  ratRemovalPascoCounty,
+  batRemovalPascoCounty,
+  raccoonRemovalPascoCounty,
+  squirrelRemovalPascoCounty,
+  raccoonRemovalNewPortRichey,
+  // Spring Hill (Nia)
+  raccoonRemovalSpringHill,
+  // Brooksville (Nia)
+  batRemovalBrooksville,
+  squirrelRemovalBrooksville,
+  raccoonRemovalBrooksville,
+  // Hudson (Nia)
+  batRemovalHudson,
+  // Land O' Lakes (Nia)
+  batRemovalLandOLakes,
+  raccoonRemovalLandOLakes,
+  // Hernando County (Nia)
+  ratRemovalHernandoCounty,
+  batRemovalHernandoCounty,
+  raccoonRemovalHernandoCounty,
+  squirrelRemovalHernandoCounty,
+  // Marion County (Nia)
+  batRemovalMarionCounty,
+  raccoonRemovalMarionCounty,
+  // Ocala (Nia): raccoon cleared by Ben, Oct 26
+  raccoonRemovalOcala,
+  // The Villages bat (Nia): HELD by Ben, Oct 26, 2026, short of 6 facts
+  // Pinellas County (Rhea)
+  ratRemovalPinellasCounty,
+  batRemovalPinellasCounty,
+  raccoonRemovalPinellasCounty,
+  // St. Petersburg (Rhea)
+  raccoonRemovalStPetersburg,
+  // Dunedin (Rhea)
+  raccoonRemovalDunedin,
+];
+
+/**
+ * Rat removal in these cities (Ben, Oct 26, 2026): the old rat-removal-in-<city> pages now 301 to the city page, which
+ * carries a "Rats in <city>" section, so these entries point at the city page for the rat page's "By city" list.
+ */
+export const existingPlacePages: PlacePage[] = [
+  { service: "rat-removal", placeName: "Brooksville", placeKind: "city", county: "Hernando", path: "about-us/service-area/wildlife-removal-service-in-brooksville-fl", location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl" },
+  { service: "rat-removal", placeName: "Clearwater", placeKind: "city", county: "Pinellas", path: "about-us/service-area/wildlife-removal-clearwater-fl", location: "about-us/service-area/wildlife-removal-clearwater-fl" },
+  { service: "rat-removal", placeName: "Dade City", placeKind: "city", county: "Pasco", path: "about-us/service-area/wildlife-removal-dade-city", location: "about-us/service-area/wildlife-removal-dade-city" },
+  { service: "rat-removal", placeName: "Dunedin", placeKind: "city", county: "Pinellas", path: "about-us/service-area/wildlife-removal-dunedin", location: "about-us/service-area/wildlife-removal-dunedin" },
+  { service: "rat-removal", placeName: "Hudson", placeKind: "city", county: "Pasco", path: "about-us/service-area/hudson-wildlife-removal", location: "about-us/service-area/hudson-wildlife-removal" },
+  { service: "rat-removal", placeName: "New Port Richey", placeKind: "city", county: "Pasco", path: "about-us/service-area/wildlife-removal-new-port-richey", location: "about-us/service-area/wildlife-removal-new-port-richey" },
+  { service: "rat-removal", placeName: "Safety Harbor", placeKind: "city", county: "Pinellas", path: "about-us/service-area/wildlife-removal-safety-harbor", location: "about-us/service-area/wildlife-removal-safety-harbor" },
+  { service: "rat-removal", placeName: "Spring Hill", placeKind: "city", county: "Hernando", path: "about-us/service-area/wildlife-removal-spring-hill-fl", location: "about-us/service-area/wildlife-removal-spring-hill-fl" },
+  { service: "rat-removal", placeName: "The Villages", placeKind: "city", county: "Sumter", path: "about-us/service-area/wildlife-removal-the-villages", location: "about-us/service-area/wildlife-removal-the-villages" },
+  { service: "rat-removal", placeName: "St. Petersburg", placeKind: "city", county: "Pinellas", path: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl", location: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl" },
+];

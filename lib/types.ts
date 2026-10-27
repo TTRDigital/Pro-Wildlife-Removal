@@ -68,6 +68,8 @@ export type Faq = { question: string; answer: Rich };
 
 type SectionBase = {
   _key: string;
+  /** The section's id for links (e.g. "rats" for /service-areas/pinellas-county/clearwater/#rats). Default: from its heading. */
+  anchor?: string;
   style?: SectionStyle;
   tone?: Tone;
   eyebrow?: string;
@@ -89,17 +91,23 @@ export type CardsSection = SectionBase & {
 };
 export type ProseSection = SectionBase & { _type: "proseSection"; body?: Rich; align?: "left" | "center" };
 export type FaqSection = SectionBase & { _type: "faqSection"; items: Faq[] };
-export type ReviewsSection = SectionBase & { _type: "reviewsSection" };
+/** match: show reviews that mention this word first (e.g. "bat"), then the latest. */
+export type ReviewsSection = SectionBase & { _type: "reviewsSection"; match?: string };
 export type AreasSection = SectionBase & {
   _type: "areasSection";
   groups: { title?: string; href?: string; items: { label: string; href?: string }[] }[];
   note?: string;
+  /** "map": the counties on a map of Central Florida instead of the city list (the home page). */
+  display?: "cards" | "map";
 };
-export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string; showForm?: boolean };
-export type ContactSection = SectionBase & { _type: "contactSection"; map?: boolean; form?: boolean };
-export type ServicesSection = SectionBase & { _type: "servicesSection"; group?: "removal" | "control" | "tampa" | "all" };
+export type CtaSection = { _type: "ctaSection"; _key: string; style?: SectionStyle; ctas?: Cta[]; eyebrow?: string; heading?: string; highlight?: string; text?: Rich; image?: Img; area?: string };
+export type ContactSection = SectionBase & { _type: "contactSection" };
+/** The 40 to 60 word answer under the hero that AI search quotes: the question as heading, the answer, up to four short facts. */
+export type AnswerSection = SectionBase & { _type: "answerSection"; text: Rich; points?: string[] };
+export type ServicesSection = SectionBase & { _type: "servicesSection"; group?: "removal" | "attic" | "control" | "tampa" | "all" };
 export type LocationsSection = SectionBase & { _type: "locationsSection" };
-export type PostsSection = SectionBase & { _type: "postsSection"; limit?: number };
+/** match: only posts whose title or slug mention this word (e.g. "bat"), falling back to the latest. */
+export type PostsSection = SectionBase & { _type: "postsSection"; limit?: number; match?: string };
 
 export type Section =
   | TrustBarSection
@@ -111,13 +119,27 @@ export type Section =
   | AreasSection
   | CtaSection
   | ContactSection
+  | AnswerSection
   | ServicesSection
   | LocationsSection
   | PostsSection;
 
-export type PageContent = { design?: Design; hero: Hero; sections: Section[]; seo: Seo };
+/** A source a page's facts come from (FWC, CDC, UF/IFAS, Florida statutes). Kept with the page for fact checks; not shown unless a template chooses to. */
+export type Source = { title: string; url: string };
 
-export type ServiceGroup = "removal" | "control" | "tampa";
+export type PageContent = {
+  design?: Design;
+  hero: Hero;
+  sections: Section[];
+  seo: Seo;
+  /** Where the page's facts about animals, health, law and safety come from. Not rendered. */
+  sources?: Source[];
+  /** Questions only the client can answer; the matching text on the page is a [PLACEHOLDER: ask the client: ...]. Not rendered. */
+  clientQuestions?: string[];
+};
+
+/** "attic": the "[animal] in the attic" pages, listed apart from the animal removal grid. */
+export type ServiceGroup = "removal" | "attic" | "control" | "tampa";
 
 export type Service = PageContent & {
   slug: string;
@@ -127,16 +149,45 @@ export type Service = PageContent & {
   order: number;
   summary?: string;
   cardImage?: Img;
+  /** A short silent clip of the animal for its tile (e.g. /videos/bat.mp4); the card image is its poster. */
+  cardVideo?: string;
 };
 
 export type Location = PageContent & {
-  /** Path without slashes, e.g. "about-us/service-area/wildlife-removal-clearwater-fl" or "rat-removal-trinity". */
+  /** Path without slashes. Content keeps the old path as its ID (e.g. "about-us/service-area/wildlife-removal-clearwater-fl"); getLocations swaps in the live one, e.g. "service-areas/pinellas-county/clearwater" (lib/location-urls.ts). */
   path: string;
   name: string;
   kind: "region" | "county" | "city" | "rat";
   county?: string;
   order: number;
   summary?: string;
+};
+
+/**
+ * One animal in one place: /services/<service>/<place>/, e.g. /services/raccoon-removal/tampa-fl/ (TTR-738).
+ * Written in lib/data/content/service-places/<service>/<place>.ts and listed in lib/data/service-places.ts.
+ */
+export type ServicePlace = PageContent & {
+  /** The animal page's slug, e.g. "raccoon-removal". */
+  service: string;
+  /** URL segment, e.g. "tampa-fl" or "polk-county-fl". */
+  place: string;
+  /** "Tampa", "Polk County": breadcrumb, link lists and the schema's areaServed. */
+  placeName: string;
+  placeKind: "city" | "county";
+  /** Path of the matching city or county page, which lists this page under "Services here". */
+  location?: string;
+  /** For a city, its county (e.g. "Hillsborough"). */
+  county?: string;
+  order?: number;
+};
+
+/** A place page that already lives at its own URL (e.g. the rat-removal-in-<city> pages): listed with the place pages, no new route. */
+export type PlacePage = Pick<ServicePlace, "service" | "placeName" | "placeKind" | "location" | "county"> & {
+  /** Its existing path without slashes. */
+  path: string;
+  /** A section on that page to link straight to, e.g. "rats" on a city page. */
+  anchor?: string;
 };
 
 export type Post = {
@@ -148,7 +199,12 @@ export type Post = {
   author?: string;
   image?: Img;
   body: Rich;
+  /** Questions shown under the post as the FAQ block (with FAQPage structured data). */
+  faq?: Faq[];
   seo: Seo;
+  /** Fact sources and open client questions, as on PageContent. Not rendered. */
+  sources?: Source[];
+  clientQuestions?: string[];
 };
 
 export type Testimonial = { name: string; quote: string; rating: number; source?: string; date?: string };
@@ -162,10 +218,11 @@ export type SiteSettings = {
   phoneHref: string;
   tollFree?: string;
   email: string;
-  address: { street: string; city: string; region: string; postalCode: string };
   hours: Hours[];
   announcement: string;
   serviceAreaText: string;
+  /** The counties the business serves, by name: the structured data's areaServed, whether or not each has its own page yet. */
+  serviceCounties?: string[];
   license?: string;
   googleRating?: string;
   reviewCount?: string;

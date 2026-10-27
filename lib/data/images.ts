@@ -14,168 +14,6 @@ export const images = {
   "width": 1200,
   "height": 630
  },
- "post1776984146059": {
-  "src": "/images/blog/1776984146059.jpg",
-  "alt": "Technician cleaning contaminated insulation in an attic",
-  "width": 1536,
-  "height": 512
- },
- "post1776984844429": {
-  "src": "/images/blog/1776984844429.jpg",
-  "alt": "Technician inspecting an attic with a flashlight while a raccoon looks on",
-  "width": 1536,
-  "height": 512
- },
- "post1776985611145": {
-  "src": "/images/blog/1776985611145.jpg",
-  "alt": "Technician in a protective suit inspecting bat guano in an attic",
-  "width": 1536,
-  "height": 512
- },
- "post1776985968205": {
-  "src": "/images/blog/1776985968205.jpg",
-  "alt": "Illustration comparing raccoon and rat signs in an attic",
-  "width": 1536,
-  "height": 512
- },
- "post1779485745693": {
-  "src": "/images/blog/1779485745693.jpg",
-  "alt": "Technician inspecting an attic vent, titled Wildlife Removal Inspections",
-  "width": 1536,
-  "height": 512
- },
- "post1779487835099": {
-  "src": "/images/blog/1779487835099.jpg",
-  "alt": "Technician sealing a roofline beside a live trap, titled Exclusion vs Trapping",
-  "width": 1536,
-  "height": 512
- },
- "post1779488269368": {
-  "src": "/images/blog/1779488269368.jpg",
-  "alt": "Roofer sealing openings on a roof beside a chimney",
-  "width": 1536,
-  "height": 512
- },
- "post1781466197462": {
-  "src": "/images/blog/1781466197462.jpg",
-  "alt": "Rat in an attic at night",
-  "width": 1536,
-  "height": 512
- },
- "post1781539883809": {
-  "src": "/images/blog/1781539883809.jpg",
-  "alt": "Rats and droppings on attic insulation",
-  "width": 1536,
-  "height": 512
- },
- "post1781542206135": {
-  "src": "/images/blog/1781542206135.jpg",
-  "alt": "Rat looking out of a damaged soffit",
-  "width": 1536,
-  "height": 512
- },
- "post1781543192995": {
-  "src": "/images/blog/1781543192995.jpg",
-  "alt": "Raccoon peeking out of attic insulation",
-  "width": 1536,
-  "height": 512
- },
- "post1781545440357": {
-  "src": "/images/blog/1781545440357.jpg",
-  "alt": "Raccoon looking out of a torn-open soffit",
-  "width": 1536,
-  "height": 512
- },
- "post1781546038219": {
-  "src": "/images/blog/1781546038219.jpg",
-  "alt": "Inspector on a ladder documenting raccoon damage to a roof",
-  "width": 1536,
-  "height": 512
- },
- "post1781546233300": {
-  "src": "/images/blog/1781546233300.jpg",
-  "alt": "Flying squirrel gliding at dusk",
-  "width": 1536,
-  "height": 512
- },
- "post1781546555166": {
-  "src": "/images/blog/1781546555166.jpg",
-  "alt": "Squirrel chewing on electrical wires",
-  "width": 1536,
-  "height": 512
- },
- "post1781547123958": {
-  "src": "/images/blog/1781547123958.jpg",
-  "alt": "Squirrel in damaged attic insulation next to a clipboard",
-  "width": 1536,
-  "height": 512
- },
- "post1781548447320": {
-  "src": "/images/blog/1781548447320.jpg",
-  "alt": "Bats flying from a roofline at sunset",
-  "width": 1536,
-  "height": 512
- },
- "post1781549047873": {
-  "src": "/images/blog/1781549047873.jpg",
-  "alt": "Technician vacuuming bat guano in an attic",
-  "width": 1536,
-  "height": 512
- },
- "post1781549441802": {
-  "src": "/images/blog/1781549441802.jpg",
-  "alt": "Technician inspecting a bat house beside a home at dusk",
-  "width": 1536,
-  "height": 512
- },
- "post1781549804763": {
-  "src": "/images/blog/1781549804763.jpg",
-  "alt": "Opossum in a crawl space opening",
-  "width": 1536,
-  "height": 512
- },
- "post1785253416892": {
-  "src": "/images/blog/1785253416892.jpg",
-  "alt": "Illustration of a Norway rat and a roof rat",
-  "width": 1536,
-  "height": 512
- },
- "post1785267265673": {
-  "src": "/images/blog/1785267265673.jpg",
-  "alt": "Rat Entry Points: How to Find and Seal Holes Quickly",
-  "width": 1536,
-  "height": 512
- },
- "post1785267713006": {
-  "src": "/images/blog/1785267713006.jpg",
-  "alt": "Rats in an attic, titled How Fast Do Rats Reproduce",
-  "width": 1536,
-  "height": 512
- },
- "post1785268929177": {
-  "src": "/images/blog/1785268929177.jpg",
-  "alt": "Technician repairing chewed electrical wiring",
-  "width": 1536,
-  "height": 512
- },
- "post1786629365242": {
-  "src": "/images/blog/1786629365242.jpg",
-  "alt": "Technician installing a vent screen on a roof",
-  "width": 1536,
-  "height": 512
- },
- "post1786629892415": {
-  "src": "/images/blog/1786629892415.jpg",
-  "alt": "Technician on a ladder inspecting a Florida home with a flashlight",
-  "width": 1536,
-  "height": 512
- },
- "post1786630714319": {
-  "src": "/images/blog/1786630714319.jpg",
-  "alt": "Raccoon under a backyard deck",
-  "width": 1536,
-  "height": 512
- },
  "batHangingByRope": {
   "src": "/images/blog/bat-hanging-by-rope.jpg",
   "alt": "Bat hanging upside down",
@@ -205,96 +43,6 @@ export const images = {
   "alt": "Cat with a rat in its mouth",
   "width": 600,
   "height": 600
- },
- "featured1787317203749": {
-  "src": "/images/blog/featured-1787317203749.jpg",
-  "alt": "Bats flying toward a home's roofline at dusk",
-  "width": 1536,
-  "height": 512
- },
- "featured1787320804607": {
-  "src": "/images/blog/featured-1787320804607.jpg",
-  "alt": "Raccoon on a damaged roof at night",
-  "width": 1536,
-  "height": 512
- },
- "featured1787324402937": {
-  "src": "/images/blog/featured-1787324402937.jpg",
-  "alt": "Raccoon on a roof near a torn vent at dusk",
-  "width": 1536,
-  "height": 512
- },
- "featured1787590802042": {
-  "src": "/images/blog/featured-1787590802042.jpg",
-  "alt": "Raccoon mother and kits nesting by a shed while two inspectors take notes",
-  "width": 1536,
-  "height": 512
- },
- "featured1787592003862": {
-  "src": "/images/blog/featured-1787592003862.jpg",
-  "alt": "Raccoon tracks across attic flooring under a torn-open roof vent",
-  "width": 1536,
-  "height": 512
- },
- "featured1787593203612": {
-  "src": "/images/blog/featured-1787593203612.jpg",
-  "alt": "Inspector in an attic watching bats leave at dusk",
-  "width": 1536,
-  "height": 512
- },
- "featured1787594401761": {
-  "src": "/images/blog/featured-1787594401761.jpg",
-  "alt": "Technician inspecting a roofline with a flashlight",
-  "width": 1536,
-  "height": 512
- },
- "featured1787595602021": {
-  "src": "/images/blog/featured-1787595602021.jpg",
-  "alt": "Rat in attic insulation",
-  "width": 1536,
-  "height": 512
- },
- "featured1787596802943": {
-  "src": "/images/blog/featured-1787596802943.jpg",
-  "alt": "Technicians inspecting a home's attic and garage",
-  "width": 1536,
-  "height": 512
- },
- "featured1787598003308": {
-  "src": "/images/blog/featured-1787598003308.jpg",
-  "alt": "Damaged soffit opening on a roof edge",
-  "width": 1536,
-  "height": 512
- },
- "featured1787599203468": {
-  "src": "/images/blog/featured-1787599203468.jpg",
-  "alt": "Technician installing gutter guards",
-  "width": 1536,
-  "height": 512
- },
- "featured1787600403484": {
-  "src": "/images/blog/featured-1787600403484.jpg",
-  "alt": "Technician fitting mesh into a roof opening",
-  "width": 1536,
-  "height": 512
- },
- "featured1787601602003": {
-  "src": "/images/blog/featured-1787601602003.jpg",
-  "alt": "Damaged soffit with a ladder against a home",
-  "width": 1536,
-  "height": 512
- },
- "featured1787602801897": {
-  "src": "/images/blog/featured-1787602801897.jpg",
-  "alt": "Person watching bats leave a roofline vent at dusk",
-  "width": 1536,
-  "height": 512
- },
- "featured1787604003727": {
-  "src": "/images/blog/featured-1787604003727.jpg",
-  "alt": "Opossum in attic insulation while a technician inspects with a flashlight",
-  "width": 1536,
-  "height": 512
  },
  "glueTrapRat": {
   "src": "/images/blog/glue-trap-rat.jpg",
@@ -400,13 +148,13 @@ export const images = {
  },
  "img1ArmadilloRemovalTampaServices": {
   "src": "/images/photos/1-armadillo-removal-tampa-services.jpg",
-  "alt": "",
+  "alt": "Armadillo caught in a live cage trap",
   "width": 960,
   "height": 720
  },
  "img1RaccoonRemovalTampaServices": {
   "src": "/images/photos/1-raccoon-removal-tampa-services.jpg",
-  "alt": "",
+  "alt": "Raccoon peeking out from under a wooden deck",
   "width": 1200,
   "height": 553
  },
@@ -616,7 +364,7 @@ export const images = {
  },
  "bestWildlifeRemovalNewPortRicheyBanner": {
   "src": "/images/photos/best-wildlife-removal-new-port-richey-banner.jpg",
-  "alt": "",
+  "alt": "Aerial view of a waterfront neighborhood",
   "width": 1024,
   "height": 582
  },
@@ -675,14 +423,14 @@ export const images = {
   "height": 350
  },
  "certifiedWildlifeRemovalExpertsInTampaFl": {
-  "src": "/images/photos/certified-wildlife-removal-experts-in-tampa-fl.jpg",
-  "alt": "",
+  "src": "/images/photos/wildlife-removal-truck-tampa-bay.jpg",
+  "alt": "Pro Wildlife Removal trucks parked outside a two-story home with palm trees",
   "width": 1200,
   "height": 694
  },
  "chamberOfCommerceGreaterDadeCity": {
   "src": "/images/photos/chamber-of-commerce-greater-dade-city.jpg",
-  "alt": "",
+  "alt": "Greater Dade City Chamber of Commerce building",
   "width": 1600,
   "height": 533
  },
@@ -784,7 +532,7 @@ export const images = {
  },
  "expertBatRemovalTampaFlServicesAvailable247": {
   "src": "/images/photos/expert-bat-removal-tampa-fl-services-available-24-7.jpg",
-  "alt": "",
+  "alt": "Colony of bats hanging from a rock ceiling",
   "width": 1200,
   "height": 600
  },
@@ -910,7 +658,7 @@ export const images = {
  },
  "hudsonWildlifeRemoval": {
   "src": "/images/photos/hudson-wildlife-removal.jpg",
-  "alt": "",
+  "alt": "Calm water and a sandy shoreline with palm trees",
   "width": 1200,
   "height": 576
  },
@@ -1084,7 +832,7 @@ export const images = {
  },
  "licensedDeadAnimalRemovalTampaFl": {
   "src": "/images/photos/licensed-dead-animal-removal-tampa-fl.jpg",
-  "alt": "",
+  "alt": "Animal remains scattered among dead brush",
   "width": 1000,
   "height": 529
  },
@@ -1318,7 +1066,7 @@ export const images = {
  },
  "professionalBeeRemovalTampaFl": {
   "src": "/images/photos/professional-bee-removal-tampa-fl.jpg",
-  "alt": "",
+  "alt": "Wasps on a paper nest in a wooden corner",
   "width": 1000,
   "height": 667
  },
@@ -1348,7 +1096,7 @@ export const images = {
  },
  "prowildliferemovalBannerImage": {
   "src": "/images/photos/prowildliferemoval-banner-image.png",
-  "alt": "",
+  "alt": "Pro Wildlife Removal trucks parked outside a client's home",
   "width": 1440,
   "height": 768
  },
@@ -1606,7 +1354,7 @@ export const images = {
  },
  "springHillFloridaBanner": {
   "src": "/images/photos/spring-hill-florida-banner.jpg",
-  "alt": "",
+  "alt": "Single-story home with a large front lawn",
   "width": 1200,
   "height": 589
  },
@@ -1720,7 +1468,7 @@ export const images = {
  },
  "stPetersburgFl": {
   "src": "/images/photos/st-petersburg-fl.jpg",
-  "alt": "",
+  "alt": "Long historic building reflected in still water",
   "width": 1920,
   "height": 1236
  },
@@ -1762,13 +1510,13 @@ export const images = {
  },
  "topAuthorityInTampaSquirrelRemoval": {
   "src": "/images/photos/top-authority-in-tampa-squirrel-removal.jpg",
-  "alt": "",
+  "alt": "Pro Wildlife Removal service truck with its removal equipment",
   "width": 800,
   "height": 600
  },
  "topFullServiceWildlifeRemovalClearwaterFlBanner": {
   "src": "/images/photos/top-full-service-wildlife-removal-clearwater-fl-banner.jpg",
-  "alt": "",
+  "alt": "Palm trees and beachgoers on a white sand beach",
   "width": 1200,
   "height": 612
  },
@@ -1852,7 +1600,7 @@ export const images = {
  },
  "trinityWildlifeRemovalBanner": {
   "src": "/images/photos/trinity-wildlife-removal-banner.jpg",
-  "alt": "",
+  "alt": "Aerial view of homes beside a lake",
   "width": 1200,
   "height": 675
  },
@@ -1930,7 +1678,7 @@ export const images = {
  },
  "wildlifeRemovalHolidayFlBanner": {
   "src": "/images/photos/wildlife-removal-holiday-fl-banner.jpg",
-  "alt": "",
+  "alt": "City skyline reflected in a lake with palm trees",
   "width": 1200,
   "height": 548
  },
@@ -1972,7 +1720,7 @@ export const images = {
  },
  "wildlifeRemovalPalmHarbor": {
   "src": "/images/photos/wildlife-removal-palm-harbor.jpg",
-  "alt": "",
+  "alt": "Boats docked at a marina",
   "width": 1200,
   "height": 582
  },
@@ -1996,7 +1744,7 @@ export const images = {
  },
  "wildlifeRemovalSafetyHarborBanner": {
   "src": "/images/photos/wildlife-removal-safety-harbor-banner.jpg",
-  "alt": "",
+  "alt": "Aerial view of a waterfront with a fishing pier",
   "width": 1200,
   "height": 506
  },

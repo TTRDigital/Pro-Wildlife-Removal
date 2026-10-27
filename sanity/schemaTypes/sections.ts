@@ -92,7 +92,7 @@ export const reviewsSection = defineType({
   type: "object",
   icon: MessageSquareQuote,
   description: "Shows the first reviews from the Reviews list.",
-  fields: [...head, ctas],
+  fields: [...head, defineField({ name: "match", title: "Show reviews mentioning this word first", type: "string", description: "For example: bat" }), ctas],
   preview: titled("Reviews"),
 });
 
@@ -120,6 +120,7 @@ export const areasSection = defineType({
       ],
     }),
     defineField({ name: "note", type: "text", rows: 2 }),
+    defineField({ name: "display", type: "string", description: "Map: the counties on a map of Central Florida, without the city list.", options: { list: [{ title: "County cards with cities", value: "cards" }, { title: "Map", value: "map" }], layout: "radio" }, initialValue: "cards" }),
     ctas,
   ],
   preview: titled("Areas list"),
@@ -135,8 +136,7 @@ export const ctaSection = defineType({
     highlight,
     defineField({ name: "text", type: "richText" }),
     defineField({ name: "area", title: "Service area line", type: "string", description: "Leave empty to use the one from Site settings." }),
-    defineField({ name: "image", type: "altImage", description: "Without a photo, the inspection form is shown." }),
-    defineField({ name: "showForm", title: "Show the form instead of the photo", type: "boolean" }),
+    defineField({ name: "image", type: "altImage", description: "Without a photo, a call card is shown." }),
     ctas,
     style,
   ],
@@ -148,7 +148,7 @@ export const contactSection = defineType({
   title: "Contact details",
   type: "object",
   icon: PhoneCall,
-  fields: [...head, defineField({ name: "form", title: "Show the inspection form", type: "boolean" }), defineField({ name: "map", title: "Show the map", type: "boolean" }), ctas],
+  fields: [...head, ctas],
   preview: titled("Contact details"),
 });
 
@@ -157,7 +157,7 @@ export const servicesSection = defineType({
   title: "Services grid",
   type: "object",
   icon: Wrench,
-  fields: [...head, defineField({ name: "group", type: "string", options: { list: ["all", "removal", "control", "tampa"] }, initialValue: "all" }), ctas],
+  fields: [...head, defineField({ name: "group", type: "string", options: { list: ["all", "removal", "attic", "control", "tampa"] }, initialValue: "all" }), ctas],
   preview: titled("Services grid"),
 });
 
@@ -176,11 +176,25 @@ export const postsSection = defineType({
   title: "Latest blog posts",
   type: "object",
   icon: Newspaper,
-  fields: [...head, defineField({ name: "limit", type: "number", initialValue: 3 }), ctas],
+  fields: [...head, defineField({ name: "limit", type: "number", initialValue: 3 }), defineField({ name: "match", title: "Only posts about", type: "string", description: "A word in the post title, for example: bat" }), ctas],
   preview: titled("Latest blog posts"),
 });
 
-export const sectionTypes = [trustBar, splitSection, cardsSection, proseSection, faqSection, reviewsSection, areasSection, ctaSection, contactSection, servicesSection, locationsSection, postsSection];
+export const answerSection = defineType({
+  name: "answerSection",
+  title: "Short answer (for AI search)",
+  type: "object",
+  icon: MessageSquareQuote,
+  description: "40 to 60 words right under the page header: the question as the heading, then the answer.",
+  fields: [
+    ...head.filter((f) => f.name !== "intro"),
+    defineField({ name: "text", title: "Answer", type: "richText" }),
+    defineField({ name: "points", title: "Short facts", type: "array", of: [defineArrayMember({ type: "string" })], validation: (r) => r.max(4) }),
+  ],
+  preview: titled("Short answer"),
+});
+
+export const sectionTypes = [answerSection, trustBar, splitSection, cardsSection, proseSection, faqSection, reviewsSection, areasSection, ctaSection, contactSection, servicesSection, locationsSection, postsSection];
 
 export const sectionsField = defineField({
   name: "sections",

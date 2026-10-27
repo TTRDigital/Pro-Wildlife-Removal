@@ -1,25 +1,69 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, Phone, X } from "lucide-react";
-import type { CountyLine, Img } from "@/lib/types";
-import { SocialIcon } from "@/components/ui/SocialIcon";
+import type { Img } from "@/lib/types";
+import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
 
-export type NavItem = { label: string; href: string; children?: { label: string; href: string }[] };
+export type NavLink = { label: string; href: string; group?: string };
+export type NavItem = { label: string; href: string; children?: NavLink[] };
+
+/** Sub-links in their groups (e.g. Counties, Cities), in order; links without a group come last. */
+function groups(links: NavLink[]) {
+  const named = [...new Set(links.map((l) => l.group).filter((g): g is string => Boolean(g)))].map((g) => ({ title: g, links: links.filter((l) => l.group === g) }));
+  const rest = links.filter((l) => !l.group);
+  return { named, rest };
+}
+
+const panel = "rounded-2xl border border-line bg-white p-2 shadow-[0_24px_50px_-20px_rgb(14_42_71/0.35)]";
+const sublink = "block rounded-lg px-3 py-2.5 font-display text-[0.9375rem] leading-snug font-medium text-navy transition-colors hover:bg-tint hover:text-blue-deep";
 
 /**
- * The live site's header: navy top bar (social links, county phone lines,
- * phone) and the blue menu bar with the logo overlapping both. Both bars
- * stay at the top while scrolling. Phones get a menu button that opens the
- * menu under the bar.
+ * Site header, clean and light: a white bar with the logo, the menu and
+ * the orange call button. On phones: logo, a round call button and the
+ * menu button; the menu opens under it with a big call button. One phone
+ * number for the whole site (the client's wish). The header stays at the top while scrolling
+ * and gains a shadow once the page moves; the logo stays full size (the client's wish).
  */
-export function Header({ nav, phone, phoneHref, logo, social, countyLines }: { nav: NavItem[]; phone: string; phoneHref: string; logo: Img; social: { network: string; href: string }[]; countyLines: CountyLine[] }) {
+export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone: string; phoneHref: string; logo: Img }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [sub, setSub] = useState<string | null>(null);
+  const [scrolled, setScrolled] = useState(false);
+  // Desktop dropdowns: one open at a time. Hover or keyboard focus opens one (closing any other);
+  // leaving the menu, a click or tap outside it, Esc or moving to another page closes it.
+  // The open menu remembers the page it was opened on, so it counts as closed once the page changes.
+  const [opened, setOpened] = useState<{ label: string; on: string | null } | null>(null);
+  const menu = opened && opened.on === pathname ? opened.label : null;
+  const setMenu = (label: string | null) => setOpened(label ? { label, on: pathname } : null);
+  const navRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (!menu) return;
+    const key = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      setOpened(null);
+      if (navRef.current?.contains(document.activeElement)) (document.activeElement as HTMLElement).blur();
+    };
+    const away = (e: PointerEvent) => {
+      if (!navRef.current?.contains(e.target as Node)) setOpened(null);
+    };
+    document.addEventListener("keydown", key);
+    document.addEventListener("pointerdown", away);
+    return () => {
+      document.removeEventListener("keydown", key);
+      document.removeEventListener("pointerdown", away);
+    };
+  }, [menu]);
+
+  useEffect(() => {
+    const on = () => setScrolled(window.scrollY > 8);
+    on();
+    window.addEventListener("scroll", on, { passive: true });
+    return () => window.removeEventListener("scroll", on);
+  }, []);
 
   // The menu item whose link (or one of its sub-links) best matches the page.
   const links = nav.flatMap((item) => [item.href, ...(item.children?.map((c) => c.href) ?? [])].map((href) => ({ item: item.label, href })));
@@ -28,78 +72,60 @@ export function Header({ nav, phone, phoneHref, logo, social, countyLines }: { n
 
   return (
     <header className="sticky top-0 z-40">
-      {/* Top bar */}
-      <div className="bg-old-navy text-white">
-        <div className="mx-auto flex h-8 w-full max-w-[1240px] items-center px-5 justify-center gap-6 font-sans text-[0.9375rem] md:h-[62px] md:justify-between md:text-base">
-          <ul className="hidden items-center gap-3 md:flex">
-            {social.map((s) => (
-              <li key={s.network}>
-                <a href={s.href} target="_blank" rel="noopener" aria-label={`${s.network === "x" ? "X (Twitter)" : s.network[0].toUpperCase() + s.network.slice(1)}`} className="flex h-8 w-8 items-center justify-center hover:text-old-blue">
-                  <SocialIcon network={s.network} className="h-[18px] w-[18px]" />
-                </a>
-              </li>
-            ))}
-          </ul>
-          <div className="flex items-center gap-3 md:gap-4">
-            {countyLines.length ? (
-              <div className="group relative">
-                <button type="button" className="flex min-h-8 items-center uppercase hover:text-old-blue" aria-haspopup="true">
-                  Locations
-                </button>
-                <div className="invisible absolute top-full left-1/2 z-50 w-72 -translate-x-1/2 pt-2 opacity-0 transition-opacity duration-150 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100 md:right-0 md:left-auto md:translate-x-0">
-                  <ul className="bg-old-navy py-2 text-sm shadow-[0_6px_20px_rgb(0_0_0/0.3)]">
-                    {countyLines.map((c) => (
-                      <li key={c.county} className="flex items-center justify-between gap-3 px-4 py-1.5">
-                        {c.href ? (
-                          <Link href={c.href} className="uppercase hover:underline">
-                            {c.county}
-                          </Link>
-                        ) : (
-                          <span className="uppercase">{c.county}</span>
-                        )}
-                        <a href={`tel:+1${c.phone.replace(/\D/g, "")}`} data-track="click_to_call" className="font-semibold text-old-blue hover:underline">
-                          {c.phone}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            ) : null}
-            <span aria-hidden="true">|</span>
-            <a href={phoneHref} data-track="click_to_call" className="flex min-h-8 items-center gap-1.5 hover:text-old-blue">
-              <Phone className="h-4 w-4 fill-current" strokeWidth={0} aria-hidden="true" />
-              {phone}
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Menu bar */}
-      <div className="relative bg-old-blue shadow-[0_0_10px_rgb(0_0_0/0.5)]">
-        <div className="relative mx-auto flex h-[75px] w-full max-w-[1240px] px-5 items-center justify-between md:h-[74px]">
-          <Link href="/" className="relative z-10 block shrink-0 md:absolute md:-top-7 md:left-5" aria-label="Pro Wildlife Removal, home">
-            <Image src={logo.src} alt="Pro Wildlife Removal logo" width={logo.width ?? 480} height={logo.height ?? 442} priority className="h-[70px] w-auto md:h-[150px]" sizes="(min-width: 768px) 163px, 76px" />
+      {/* Main bar */}
+      <div className={`relative border-b bg-white/95 backdrop-blur-md transition-shadow duration-300 ${scrolled || open ? "border-line shadow-[0_10px_30px_-18px_rgb(14_42_71/0.4)]" : "border-transparent"}`}>
+        <div className="wrap flex h-[92px] items-center justify-between gap-4 lg:h-[124px]">
+          <Link href="/" className="flex shrink-0 items-center pt-2.5" aria-label="Pro Wildlife Removal, home">
+            <AnimatedLogo logo={logo} priority sizes="(min-width: 1024px) 130px, 90px" className="h-[80px] lg:h-[112px]" />
           </Link>
 
-          <nav aria-label="Main" className="ml-auto hidden lg:block">
-            <ul className="flex font-sans text-base tracking-[0.6px] uppercase">
+          <nav ref={navRef} aria-label="Main" className="hidden lg:block" onMouseLeave={() => setMenu(null)}>
+            <ul className="flex items-center gap-1">
               {nav.map((item) => (
-                <li key={item.label} className="group relative">
+                <li key={item.label} className="group relative" onMouseEnter={() => setMenu(item.children ? item.label : null)} onFocus={() => setMenu(item.children ? item.label : null)}>
                   <Link
                     href={item.href}
-                    className={`flex h-[74px] items-center gap-1.5 px-[15px] text-beige transition-colors hover:text-white ${active(item.label) ? "bg-old-navy text-white" : ""}`}
+                    className={`flex h-11 items-center gap-1 rounded-lg px-3 font-display text-[0.9375rem] font-semibold transition-colors xl:px-3.5 ${active(item.label) ? "bg-tint text-blue-deep" : "text-navy hover:bg-tint-2 hover:text-blue-deep"}`}
                     aria-current={pathname === item.href ? "page" : undefined}
                   >
                     {item.label}
-                    {item.children ? <ChevronDown className="h-4 w-4" strokeWidth={2.25} aria-hidden="true" /> : null}
+                    {item.children ? <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${menu === item.label ? "rotate-180" : ""}`} strokeWidth={2.25} aria-hidden="true" /> : null}
                   </Link>
-                  {item.children ? (
-                    <div className="invisible absolute top-full left-0 z-50 opacity-0 transition-opacity duration-150 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100">
-                      <ul className="w-[200px] bg-old-navy py-1 text-xs tracking-[0.6px]">
+                  {item.children?.some((c) => c.group) ? (
+                    <div className={`absolute top-full left-1/2 z-50 -translate-x-1/2 pt-3 transition-[opacity,transform] duration-200 ${menu === item.label ? "visible opacity-100" : "invisible opacity-0"}`}>
+                      {/* Two columns: the first group (counties), then the second (cities, in two short columns). */}
+                      <div className={`grid w-[640px] grid-cols-[210px_1fr] gap-2 ${panel}`}>
+                        {groups(item.children).named.map((g, gi) => (
+                          <div key={g.title} className={gi ? "border-l border-line pl-2" : ""}>
+                            <p className="px-3 pt-2 pb-1 font-display text-xs font-bold tracking-[1px] text-meta uppercase">{g.title}</p>
+                            <ul className={gi ? "columns-2 gap-0" : ""}>
+                              {g.links.map((c) => (
+                                <li key={c.href} className="break-inside-avoid">
+                                  <Link href={c.href} className={`${sublink} ${pathname === c.href ? "bg-tint" : ""}`}>
+                                    {c.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                        <ul className="col-span-2 border-t border-line pt-1">
+                          {groups(item.children).rest.map((c) => (
+                            <li key={c.href}>
+                              <Link href={c.href} className={`${sublink} font-semibold text-blue-deep`}>
+                                {c.label} →
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ) : item.children ? (
+                    <div className={`absolute top-full left-0 z-50 pt-3 transition-opacity duration-200 ${menu === item.label ? "visible opacity-100" : "invisible opacity-0"}`}>
+                      <ul className={`w-[240px] ${panel}`}>
                         {item.children.map((c) => (
                           <li key={c.href}>
-                            <Link href={c.href} className={`block px-[15px] py-3 leading-snug text-white hover:bg-white/10 ${pathname === c.href ? "bg-white/10" : ""}`}>
+                            <Link href={c.href} className={`${sublink} ${pathname === c.href ? "bg-tint" : ""}`}>
                               {c.label}
                             </Link>
                           </li>
@@ -112,53 +138,108 @@ export function Header({ nav, phone, phoneHref, logo, social, countyLines }: { n
             </ul>
           </nav>
 
-          <button
-            type="button"
-            onClick={() => setOpen(!open)}
-            aria-label={open ? "Close menu" : "Open menu"}
-            aria-expanded={open}
-            aria-controls="mobile-menu"
-            className="flex h-12 w-12 items-center justify-center text-white lg:hidden"
-          >
-            {open ? <X className="h-9 w-9" strokeWidth={2.5} aria-hidden="true" /> : <Menu className="h-9 w-9" strokeWidth={2.5} aria-hidden="true" />}
-          </button>
+          <div className="flex items-center gap-2">
+            {/* The call button: "Free Inspection" over the number, with a ringing phone and a shine that sweeps across. */}
+            <a
+              href={phoneHref}
+              data-track="click_to_call"
+              aria-label={`Call ${phone} for a free inspection`}
+              className="call-pulse group hidden min-h-[56px] items-center gap-3 rounded-2xl bg-cta py-2 pr-5 pl-2 text-white shadow-[0_14px_30px_-14px_rgb(180_90_0/0.9)] transition-[background-color,transform] duration-200 hover:-translate-y-0.5 hover:bg-cta-hover sm:inline-flex"
+            >
+              <span className="call-shine" aria-hidden="true" />
+              <span className="relative flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-white text-cta" aria-hidden="true">
+                <Phone className="phone-ring h-5 w-5" strokeWidth={2.5} />
+              </span>
+              <span className="relative flex flex-col items-start leading-none" aria-hidden="true">
+                <span className="tag-nudge mb-1 rounded-md bg-black/20 px-1.5 py-[3px] font-display text-[0.6875rem] font-extrabold tracking-[1px] uppercase">Free Inspection</span>
+                <span className="font-display text-[1.0625rem] font-extrabold tracking-[-0.01em] lg:text-[1.25rem]">{phone}</span>
+              </span>
+            </a>
+            {/* Phones: a compact pill with the same tag and a ringing phone. */}
+            <a
+              href={phoneHref}
+              data-track="click_to_call"
+              aria-label={`Call ${phone} for a free inspection`}
+              className="call-pulse flex min-h-11 items-center gap-2 rounded-full bg-cta py-1.5 pr-3.5 pl-1.5 text-white sm:hidden"
+            >
+              <span className="call-shine" aria-hidden="true" />
+              <span className="relative flex h-8 w-8 flex-none items-center justify-center rounded-full bg-white text-cta" aria-hidden="true">
+                <Phone className="phone-ring h-4 w-4" strokeWidth={2.5} />
+              </span>
+              <span className="relative flex flex-col items-start leading-none" aria-hidden="true">
+                <span className="tag-nudge font-display text-[0.625rem] font-extrabold tracking-[0.8px] uppercase">Free Inspection</span>
+                <span className="mt-0.5 font-display text-[0.9375rem] font-extrabold">Call Now</span>
+              </span>
+            </a>
+            <button
+              type="button"
+              onClick={() => setOpen(!open)}
+              aria-label={open ? "Close menu" : "Open menu"}
+              aria-expanded={open}
+              aria-controls="mobile-menu"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-line text-navy lg:hidden"
+            >
+              {open ? <X className="h-6 w-6" strokeWidth={2.25} aria-hidden="true" /> : <Menu className="h-6 w-6" strokeWidth={2.25} aria-hidden="true" />}
+            </button>
+          </div>
         </div>
 
         {/* Phone / tablet menu */}
-        <nav id="mobile-menu" aria-label="Mobile" hidden={!open} className="max-h-[calc(100vh-110px)] overflow-y-auto bg-old-navy lg:hidden">
-          <ul className="o-wrap py-2 font-sans text-base tracking-[0.6px] text-white uppercase">
+        <nav id="mobile-menu" aria-label="Mobile" hidden={!open} className="max-h-[calc(100dvh-92px)] overflow-y-auto border-t border-line bg-white lg:hidden">
+          <ul className="wrap py-3">
             {nav.map((item) => (
-              <li key={item.label} className="border-b border-white/10 last:border-b-0">
+              <li key={item.label} className="border-b border-line-2 last:border-b-0">
                 {item.children ? (
                   <>
                     <div className="flex items-center justify-between">
-                      <Link href={item.href} onClick={() => setOpen(false)} className="flex min-h-12 flex-1 items-center">
+                      <Link href={item.href} onClick={() => setOpen(false)} className="flex min-h-12 flex-1 items-center font-display text-lg font-semibold text-navy">
                         {item.label}
                       </Link>
-                      <button type="button" onClick={() => setSub(sub === item.label ? null : item.label)} aria-expanded={sub === item.label} aria-label={`${item.label} submenu`} className="flex h-12 w-12 items-center justify-center">
+                      <button
+                        type="button"
+                        onClick={() => setSub(sub === item.label ? null : item.label)}
+                        aria-expanded={sub === item.label}
+                        aria-label={`${item.label} submenu`}
+                        className={`flex h-11 w-11 items-center justify-center rounded-full transition-colors ${sub === item.label ? "bg-navy text-white" : "bg-tint text-navy"}`}
+                      >
                         <ChevronDown className={`h-5 w-5 transition-transform ${sub === item.label ? "rotate-180" : ""}`} strokeWidth={2.25} aria-hidden="true" />
                       </button>
                     </div>
                     {sub === item.label ? (
-                      <ul className="pb-2 pl-4 text-sm">
-                        {item.children.map((c) => (
-                          <li key={c.href}>
-                            <Link href={c.href} onClick={() => setOpen(false)} className="flex min-h-11 items-center">
-                              {c.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
+                      <div className="pb-3">
+                        {[...groups(item.children).named, { title: "", links: groups(item.children).rest }].map((g) =>
+                          g.links.length ? (
+                            <div key={g.title || "rest"}>
+                              {g.title ? <p className="pt-3 pb-1 font-display text-xs font-bold tracking-[1px] text-meta uppercase">{g.title}</p> : null}
+                              <ul className={g.title ? "grid grid-cols-2 gap-x-3" : ""}>
+                                {g.links.map((c) => (
+                                  <li key={c.href}>
+                                    <Link href={c.href} onClick={() => setOpen(false)} className={`flex min-h-11 items-center font-display text-[0.9375rem] font-medium ${pathname === c.href ? "text-blue-deep" : "text-body"}`}>
+                                      {c.label}
+                                    </Link>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          ) : null,
+                        )}
+                      </div>
                     ) : null}
                   </>
                 ) : (
-                  <Link href={item.href} onClick={() => setOpen(false)} className="flex min-h-12 items-center">
+                  <Link href={item.href} onClick={() => setOpen(false)} className="flex min-h-12 items-center font-display text-lg font-semibold text-navy">
                     {item.label}
                   </Link>
                 )}
               </li>
             ))}
           </ul>
+          <div className="wrap pb-6">
+            <a href={phoneHref} data-track="click_to_call" className="flex min-h-[3.25rem] items-center justify-center gap-2.5 rounded-xl bg-cta font-display text-[1.0625rem] font-bold text-white">
+              <Phone className="h-5 w-5" strokeWidth={2.25} aria-hidden="true" />
+              Call {phone}
+            </a>
+          </div>
         </nav>
       </div>
     </header>

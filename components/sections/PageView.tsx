@@ -1,22 +1,26 @@
 import type { Cta, Hero, PageContent, SiteSettings } from "@/lib/types";
 import { getLocations, getPosts, getServices, getTestimonials } from "@/lib/content";
+import { callCtas } from "@/lib/cta";
 import { webPageSchema } from "@/lib/schema";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { MobileCallBar } from "@/components/layout/MobileCallBar";
 import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@/components/old/Classic";
 import { RefreshHero, RefreshSections } from "@/components/old/Refresh";
 import { sectionIds, sectionName } from "@/components/old/theme";
-import { PageHero } from "./PageHero";
+import { HomeHero, PageHero, heroSlides } from "./PageHero";
+import { animalSections, pageAnimal } from "@/lib/topics";
+import { MapSection, type MapPlace } from "./MapSection";
+import { CtaSection } from "./CtaSection";
+import { TrustBar, defaultTrust } from "./TrustBar";
 import { Sections } from "./Sections";
 
 /** Hero buttons: the page's own non-phone button (or the header button) first, then the phone number (the page's own line if it has one). */
 export function heroCtas(hero: Hero, settings: SiteSettings, primary?: Cta): Cta[] {
   const own = hero.ctas ?? [];
   const main = primary ?? own.find((c) => !c.href.startsWith("tel:")) ?? settings.headerCta;
-  const tel = own.find((c) => c.href.startsWith("tel:"));
-  const phone = tel ? { label: /\d{3}.*\d{4}/.test(tel.label) ? tel.label : settings.phone, href: tel.href } : { label: settings.phone, href: settings.phoneHref };
-  return [main, phone];
+  // One number for the whole site (the client's wish, Oct 26): a page's own tel button (old county lines) calls the main line.
+  const phone = { label: `Call ${settings.phone}`, href: settings.phoneHref };
+  return callCtas([main.href.startsWith("tel:") ? phone : main, phone], settings.phone, settings.phoneHref);
 }
 
 async function oldDesignData(settings: SiteSettings): Promise<ClassicData> {
@@ -38,6 +42,7 @@ export async function PageView({
   crumbs,
   primary,
   closing = true,
+  map,
 }: {
   page: PageContent;
   settings: SiteSettings;
@@ -45,8 +50,15 @@ export async function PageView({
   crumbs?: Crumb[];
   primary?: Cta;
   closing?: boolean;
+  /** A county or city page: its map, just before the closing band (Kia). */
+  map?: MapPlace;
 }) {
-  const design = page.design ?? "new";
+  // Every page uses the new design now (Kia, Oct 26); the old ones stay only as code until they are removed.
+  const design = "new" as PageContent["design"];
+  const topic = pageAnimal(path);
+  const animal = topic?.images;
+  // An animal's page shows only that animal in its photos, none twice (Kia).
+  if (animal) page = { ...page, sections: animalSections(page.sections, animal, heroSlides(page.hero, animal)) };
   const ids = sectionIds(page.sections, ["top", "main"]);
   const parts = page.sections.flatMap((s, i) => {
     const name = sectionName(s);
@@ -54,14 +66,31 @@ export async function PageView({
   });
   const schema = <JsonLd data={webPageSchema(path, page.seo.title, page.seo.description, parts)} />;
 
+  // With a map: the page's own closing band (its last section, if a call band) comes after the map.
+  const last = page.sections.at(-1);
+  const band = map && last?._type === "ctaSection" ? [last] : [];
+  const beforeBand = band.length ? page.sections.slice(0, -1) : page.sections;
+
   if (design === "new") {
     return (
       <>
         {schema}
-        <p className="bg-navy py-2.5 text-center font-display text-xs font-medium tracking-[0.4px] text-white">{settings.announcement}</p>
-        <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} />
-        <Sections sections={page.sections} ids={ids} closing={closing} />
-        <MobileCallBar phone={settings.phone} phoneHref={settings.phoneHref} />
+        {path === "/" ? (
+          <HomeHero hero={page.hero} ctas={heroCtas(page.hero, settings, primary)} settings={settings} />
+        ) : (
+          <PageHero hero={page.hero} crumbs={crumbs} ctas={heroCtas(page.hero, settings, primary)} settings={settings} animal={animal} animalKey={topic?.key} />
+        )}
+        {page.sections.some((s) => s._type === "trustBar") ? null : <TrustBar section={defaultTrust(settings)} />}
+        {map ? (
+          // the map goes just before the closing call band
+          <>
+            <Sections sections={beforeBand} ids={ids} closing={false} reviews={!band.length} />
+            <MapSection place={map} settings={settings} />
+            {band.length ? <Sections sections={band} ids={ids.slice(beforeBand.length)} closing={false} reviews={false} /> : closing ? <CtaSection settings={settings} /> : null}
+          </>
+        ) : (
+          <Sections sections={page.sections} ids={ids} closing={closing} />
+        )}
       </>
     );
   }

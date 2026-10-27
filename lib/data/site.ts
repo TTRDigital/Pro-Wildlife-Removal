@@ -8,17 +8,16 @@ import { images } from "./images.ts";
  */
 export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   name: "Pro Wildlife Removal",
-  phone: "(727) 594-7705",
+  phone: "(844) 264-6254",
   tollFree: "1-844-ANIMAL4",
   email: "customerservice@prowildliferemoval.net",
-  address: { street: "1324 Seven Springs Blvd., Suite 178", city: "Trinity", region: "FL", postalCode: "34655" },
-  hours: [
-    { label: "Monday – Friday", value: "8AM – 7PM" },
-    { label: "Saturday", value: "8AM – 2PM" },
-    { label: "Sunday", value: "Closed" },
-  ],
-  announcement: "Serving Tampa Bay & West-Central Florida",
-  serviceAreaText: "Serving Tampa, Hillsborough County, Hernando County, Pasco County, Pinellas County and surrounding West-Central Florida communities.",
+  // The client: open 24/7, and no street address anywhere (Oct 25, 2026). The business is described by its service area.
+  // Not shown on the site (Kia, Oct 26, 2026); the structured data states 24 hours, every day, in lib/schema.ts.
+  hours: [{ label: "Open", value: "24 hours a day, 7 days a week" }],
+  announcement: "Serving Central Florida",
+  // The service region is "Central Florida" (Kia, Oct 26, 2026); the counties are the 8 the client targets (Marion added Oct 26, 2026).
+  serviceAreaText: "Serving Central Florida: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion counties.",
+  serviceCounties: ["Pasco", "Pinellas", "Hillsborough", "Hernando", "Citrus", "Sumter", "Polk", "Marion"],
   license: "[PLACEHOLDER: Florida license / FWC permit number]",
   googleRating: "4.7",
   reviewCount: "273",
@@ -31,23 +30,14 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
     { network: "google", href: "https://maps.app.goo.gl/rM6u6iWJ8Du1Lgnk7" },
   ],
   // The "Locations" menu in the live site's top bar: a phone line per county.
-  countyLines: [
-    { county: "Osceola County", phone: "727-594-7705" },
-    { county: "Pasco County", phone: "727-594-7722", href: "/about-us/service-area/wildlife-removal-in-pasco-county-fl/" },
-    { county: "Hillsborough County", phone: "727-594-7705", href: "/about-us/service-area/wildlife-removal-hillsborough-county/" },
-    { county: "Hernando County", phone: "352-612-3336", href: "/about-us/service-area/wildlife-removal-in-hernando-county-fl/" },
-    { county: "Pinellas County", phone: "727-496-7702", href: "/about-us/service-area/wildlife-removal-pinellas-county/" },
-    { county: "Citrus County", phone: "352-618-2110", href: "/about-us/service-area/wildlife-removal-in-citrus-county-fl/" },
-    { county: "Sumter County", phone: "863-431-9244", href: "/about-us/service-area/wildlife-removal-sumter-county-fl/" },
-    { county: "Polk County", phone: "863-208-5050", href: "/about-us/service-area/wildlife-removal-polk-county/" },
-    { county: "Manatee County", phone: "727-594-7705" },
-  ],
-  headerCta: { label: "Request an Inspection", href: "/contact-us/" },
+  // One phone number for the whole site (Kia, Oct 26, 2026): no county lines.
+  countyLines: [],
+  headerCta: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   // From the home page's closing section on the live site.
   defaultCta: {
     heading: "Need Help? Reach Out To Us.",
     highlight: "Reach Out To Us.",
-    text: "No matter what animal disturbance you may be dealing with, our professionals have a solution for you. Simply dial 727-594-7705 and we’ll be right there to provide the care and service you need.",
+    text: "No matter what animal disturbance you may be dealing with, our professionals have a solution for you. Simply dial 844-264-6254 and we’ll be right there to provide the care and service you need.",
   },
   logo: images.logo,
 };

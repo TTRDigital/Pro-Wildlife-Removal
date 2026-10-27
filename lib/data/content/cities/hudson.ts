@@ -1,0 +1,88 @@
+import { countyPage } from "../counties/build.ts";
+import { faq, p } from "../pt.ts";
+import { hudsonRatsInput } from "./rats/hudson.ts";
+
+/* Hudson page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
+const WEEKI_PLAN = "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/weekiwachee_preserve_management_plan_update_draft.pdf";
+
+export const hudson = countyPage({
+  kind: "city",
+  path: "about-us/service-area/hudson-wildlife-removal",
+  name: "Hudson",
+  county: "Pasco",
+  order: 14,
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
+  eyebrow: "WILDLIFE REMOVAL IN HUDSON",
+  summary: "Wildlife removal in Hudson, FL: raccoons, opossums, armadillos, squirrels, rats, snakes, bats and more.",
+  heroText: "A Gulf coast community at the southern tip of the Weekiwachee Preserve, where Pasco meets Hernando. Call (844) 264-6254.",
+  answerHeading: "Who handles wildlife problems in Hudson?",
+  answer:
+    "Hudson is unincorporated Pasco County, and county Animal Services focuses on pets and strays. Raccoons, opossums, rats or snakes in or under your home are a job for a private company, and bears are FWC's. Pro Wildlife Removal works across Hudson. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Pasco", "Rabid raccoons, 2001"],
+  townsHeading: "Hudson and nearby",
+  townsIntro: "Hudson is a coastal community of about 12,900 people, as of the 2020 Census, at the north end of Pasco's Gulf coast.",
+  towns: [
+    {
+      title: "North Pasco coast",
+      href: "/service-areas/pasco-county/",
+      items: [
+        { label: "Aripeka" },
+        { label: "Bayonet Point" },
+        { label: "Port Richey" },
+        { label: "New Port Richey", href: "/service-areas/pasco-county/new-port-richey/" },
+        { label: "Spring Hill (Hernando)", href: "/service-areas/hernando-county/spring-hill/" },
+      ],
+    },
+  ],
+  localHeading: "On the edge of the preserve",
+  localIntro: "The Weekiwachee Preserve runs up the coast from Hudson into Hernando County. The water district's management plan names Hudson among the communities next to it.",
+  local: [
+    { icon: "map-pin", title: "The preserve's southern line", text: p("The district's draft plan lists Old Dixie Highway and the town of Hudson as the preserve's southern boundary. Coastal neighborhoods sit right against protected land.") },
+    { icon: "leaf", title: "Aripeka Sandhills", text: p("The 209-acre Aripeka Sandhills tract, on Aripeka Road with a Hudson address, protects hardwood swamp and pine sandhill. It's open for hiking, birding and fishing, and hunting isn't allowed.") },
+    { icon: "phone", title: "Rabid raccoons, 2001", text: p("In late April 2001, rabid raccoons attacked two dogs in Hudson, one of them in the Parkwood Acres neighborhood, Pasco County Animal Control told the St. Petersburg Times. Both dogs had been exposed to rabies and had to be destroyed.") },
+    { icon: "critter", title: "Locked lids matter", text: p("Homes back right onto the preserve here. Secured garbage and pet food take away what draws raccoons and opossums from it into a yard.") },
+  ],
+  rats: { heading: hudsonRatsInput.localHeading, intro: hudsonRatsInput.localIntro, cards: [...hudsonRatsInput.local, ...(hudsonRatsInput.contacts ?? [])], link: { label: "rat removal across Pasco County", href: "/services/rat-removal/pasco-county-fl/" } },
+  contactsHeading: "Pasco Animal Services, DOH-Pasco and FWC for Hudson",
+  contactsIntro: "Hudson's bear calls go to FWC and strays to Pasco County. Here are the numbers, from each agency's page.",
+  contacts: [
+    { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212. Its evening and overnight standby, (727) 847-8102, option 7, covers emergencies like seriously injured strays or a loose animal that has bitten a person.") },
+    { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("352-521-1450, option 4. DOH-Pasco asks anyone bitten or scratched by a wild or domestic animal to get medical care and report it.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("FWC's Southwest Region office handles bear calls for Pasco: 863-648-3200. Nuisance alligator hotline: 866-FWC-GATOR.") },
+  ],
+  servicesIntro: "Hudson's Gulf coast homes get every service below. Tap an animal to see how we deal with it.",
+  servicesHeading: "Animals we remove in Hudson",
+  reviewsIntro: "[PLACEHOLDER: reviews from Hudson customers, matched from the client's Google reviews (TTR-723)]",
+  faqs: [
+    faq(
+      "Who removes a raccoon or opossum from under my Hudson home?",
+      "A private wildlife company. Pasco County Animal Services focuses on pets and strays. See [opossum removal](/services/opossum-removal/) and [raccoon removal](/services/raccoon-removal/).",
+    ),
+    faq(
+      "Can I hunt or trap in Aripeka Sandhills?",
+      "No hunting is allowed on the Aripeka Sandhills tract, per the district's plan. Its trails are for hiking only.",
+    ),
+    faq(
+      "Can you make it to Hudson today?",
+      "Same-day appointments are often available in Hudson. Call (844) 264-6254.",
+    ),
+  ],
+  ctaHeading: "Wildlife problem in Hudson?",
+  ctaText: "Hudson homeowners can call (844) 264-6254.",
+  seo: {
+    title: "Wildlife Removal in Hudson, FL | Pro Wildlife Removal",
+    description:
+      "Wildlife removal in Hudson, FL: raccoons, opossums, armadillos, rats and snakes beside the Weekiwachee Preserve, and who to call for what. (844) 264-6254.",
+  },
+  sources: [
+    { title: "U.S. Census Bureau: 2020 redistricting file (Hudson CDP, Pasco County, 12,944)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },
+    { title: "SWFWMD: Weekiwachee Preserve management plan update, draft (southern boundary Old Dixie Highway and the town of Hudson; Hudson among adjacent communities; small number of black bears; Chassahowitzka subpopulation from the Aripeka Sandhills tract to the Homosassa Tract; human-bear conflict in the urban interface; no hunting and hiking-only trails in Aripeka Sandhills)", url: WEEKI_PLAN },
+    { title: "SWFWMD: Weekiwachee Preserve and Aripeka Sandhills Preserve (Aripeka Sandhills 209 acres; 18000 Aripeka Road, Hudson; hardwood swamps and pine sandhills)", url: "https://www.swfwmd.state.fl.us/recreation/weekiwachee-preserve-aripeka-sandhills-preserve" },
+    { title: "St. Petersburg Times (now the Tampa Bay Times), May 12, 2001: Pet owners warned about rabid raccoons (two of three dog attacks in late April were in Hudson, in Parkwood Acres and near Terrace Drive; the dogs had to be destroyed)", url: "https://www.tampabay.com/archive/2001/05/12/pet-owners-warned-about-rabid-raccoons/" },
+    { title: "Pasco County: Animal Services (813-929-1212; after hours (727) 847-8102 option 7, qualifying emergencies)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
+    { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
+    { title: "FWC: Regional offices (Southwest 863-648-3200) and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+    ...hudsonRatsInput.sources,
+  ],
+  clientQuestions: ["Hudson reviews (from TTR-723) and real Hudson job photos."],
+});

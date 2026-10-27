@@ -13,6 +13,7 @@ import { ContactSection } from "./ContactSection";
 import { ServicesSection } from "./ServicesSection";
 import { LocationsSection } from "./LocationsSection";
 import { PostsSection } from "./PostsSection";
+import { AnswerSection } from "./AnswerSection";
 
 /**
  * Renders a page's sections in order. Every page ends with the navy CTA
@@ -21,7 +22,8 @@ import { PostsSection } from "./PostsSection";
  */
 export async function Sections({ sections, ids, closing = true, reviews = true }: { sections: Section[]; ids?: string[]; closing?: boolean; reviews?: boolean }) {
   const [settings, testimonials, services, locations, posts] = await Promise.all([getSiteSettings(), getTestimonials(), getServices(), getLocations(), getPosts()]);
-  const hasCta = sections.some((s) => s._type === "ctaSection");
+  // A page that already closes with the default "Need help?" text (the home page) does not get it twice.
+  const hasCta = sections.some((s) => s._type === "ctaSection" || ("heading" in s && s.heading === settings.defaultCta.heading));
   const hasReviews = sections.some((s) => s._type === "reviewsSection");
   const lastTone = [...sections].reverse().find((s) => "tone" in s && s.tone)?.["tone" as never] as string | undefined;
 
@@ -43,12 +45,14 @@ export async function Sections({ sections, ids, closing = true, reviews = true }
       {reviews && !hasReviews && !hasCta ? (
         <ReviewsSection section={{ _type: "reviewsSection", _key: "reviews", tone: lastTone === "tint" ? "white" : "tint" }} testimonials={testimonials} settings={settings} />
       ) : null}
-      {closing && !hasCta ? <CtaSection settings={settings} form /> : null}
+      {closing && !hasCta ? <CtaSection settings={settings} /> : null}
     </>
   );
 
   function section(s: Section, key: string) {
     switch (s._type) {
+      case "answerSection":
+        return <AnswerSection key={key} section={s} />;
       case "trustBar":
         return <TrustBar key={key} section={s} />;
       case "splitSection":

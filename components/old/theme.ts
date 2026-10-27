@@ -58,7 +58,8 @@ export function classicVars(style: SectionStyle | undefined, fallbackBg: BgKey =
     "--h": FG[s.heading ?? d.heading],
     "--t": FG[text],
     "--l": link ?? "inherit",
-    "--lu": link && link !== FG[text] ? "none" : "underline",
+    // Links in text are always underlined, not told apart by colour alone (WCAG 1.4.1).
+    "--lu": "underline",
     "--d": FG[s.divider ?? (bg === "blue" ? "beige" : d.divider)],
     "--f": FG[s.frame ?? d.frame],
   } as CSSProperties;
@@ -91,6 +92,7 @@ export function sectionIds(sections: Section[], reserved: string[] = []): string
   const used = new Set(reserved);
   return sections.map((s, i) => {
     const base =
+      ("anchor" in s && s.anchor) ||
       slugify(sectionName(s) ?? "")
         .slice(0, 60)
         .replace(/-+$/, "") || `section-${i + 1}`;

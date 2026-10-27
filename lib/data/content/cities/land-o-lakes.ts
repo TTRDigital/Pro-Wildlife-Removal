@@ -1,0 +1,89 @@
+import { countyPage } from "../counties/build.ts";
+import { faq, p } from "../pt.ts";
+import { TRAP_RULES_SOURCE } from "../notes.ts";
+
+/* Land O' Lakes page, rewritten in place at its existing URL (Ben, Oct 26). Checkable local facts only. */
+const CONNER_PLAN = "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/ConnerPreserve.pdf";
+const CYPRESS_PLAN = "https://www.swfwmd.state.fl.us/sites/default/files/medias/documents/CypressCreekPreserve.pdf";
+
+export const landOLakes = countyPage({
+  kind: "city",
+  path: "about-us/service-area/wildlife-removal-land-o-lakes",
+  name: "Land O' Lakes",
+  county: "Pasco",
+  order: 16,
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
+  eyebrow: "WILDLIFE REMOVAL IN LAND O' LAKES",
+  summary: "Wildlife removal in Land O' Lakes, FL: raccoons, rats, squirrels, snakes, armadillos, opossums, bats and more.",
+  heroText: "Central Pasco neighborhoods built between lakes, cypress swamps and two big water district preserves. Call (844) 264-6254.",
+  answerHeading: "Who removes wildlife in Land O' Lakes?",
+  answer:
+    "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal takes calls all over Land O' Lakes. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Pasco", "Between two big preserves"],
+  townsHeading: "Land O' Lakes and nearby",
+  townsIntro: "Land O' Lakes is an unincorporated community of about 35,900 people, as of the 2020 Census. We cover the central Pasco communities around it.",
+  towns: [
+    {
+      title: "Central Pasco",
+      href: "/service-areas/pasco-county/",
+      items: [
+        { label: "Odessa", href: "/service-areas/pasco-county/odessa/" },
+        { label: "Trinity", href: "/service-areas/pasco-county/trinity/" },
+        { label: "Wesley Chapel" },
+        { label: "Lutz (Hillsborough)" },
+        { label: "Dade City", href: "/service-areas/pasco-county/dade-city/" },
+      ],
+    },
+  ],
+  localHeading: "Preserves at the back fence",
+  localIntro: "Two Southwest Florida Water Management District preserves sit at the edge of Land O' Lakes neighborhoods. Their management plans say what lives there.",
+  local: [
+    { icon: "leaf", title: "Cypress Creek Preserve", text: p("This 7,400-acre preserve borders Land O' Lakes subdivisions on its west side. The water district's management plan says FWC designated it a Wildlife Refuge, where taking or possessing wildlife is prohibited. Gopher tortoises and wood storks live there.") },
+    { icon: "map-pin", title: "Conner Preserve", text: p("Off SR 52, Conner Preserve covers 3,486 acres of sandhill, marsh, cypress and pine flatwoods. The water district says deer, turkey and quail roam it, gopher tortoises forage on its ridges, sandhill cranes nest in its marshes and wood storks feed there.") },
+    { icon: "home", title: "Homes meet the woods", text: p("Conner's management plan expected the preserve to end up next to dense residential areas. Where homes back onto preserve land, raccoons, opossums and snakes have a short trip to a yard or crawl space.") },
+  ],
+  contactsHeading: "Pasco's shelter on Dogpatch Lane, and other Land O' Lakes contacts",
+  contactsIntro: "Pasco County Animal Services is right here in Land O' Lakes. These numbers come from the county's and agencies' own pages.",
+  contacts: [
+    { icon: "users", title: "Pasco County Animal Services", text: p("813-929-1212, on Dogpatch Lane in Land O' Lakes. After 5 pm, (727) 847-8102, option 7, for qualifying emergencies such as a loose animal that has bitten someone.") },
+    { icon: "phone", title: "Animal bites: DOH-Pasco", text: p("Report bites to the health department in Pasco at 352-521-1450, option 4.") },
+    { icon: "map-pin", title: "Bears and other state matters: FWC", text: p("Nuisance alligators: 866-FWC-GATOR. Bears: report conflicts to the FWC Southwest Region office at 863-648-3200.") },
+  ],
+  servicesIntro: "We offer every service in Land O' Lakes. Tap an animal to learn how we handle it.",
+  servicesHeading: "Animals we remove in Land O' Lakes",
+  reviewsIntro: "[PLACEHOLDER: reviews from Land O' Lakes customers, matched from the client's Google reviews (TTR-723)]",
+  faqs: [
+    faq(
+      "Does Pasco County Animal Services remove wildlife from Land O' Lakes homes?",
+      "Its shelter is in Land O' Lakes, but its pages cover pets and strays, and its emergency help is for cases like a loose animal that has bitten someone. For wildlife in your attic, walls or crawl space, call a wildlife removal company.",
+    ),
+    faq(
+      "Can I trap animals in Cypress Creek Preserve?",
+      "No. The water district's management plan says FWC designated Cypress Creek Preserve a Wildlife Refuge, where taking or possessing wildlife is prohibited. On your own property, Florida's nuisance wildlife rules apply. See our guide to [Florida's trapping rules](/blog/florida-wildlife-trapping-rules/).",
+    ),
+    faq(
+      "When can someone come out to Land O' Lakes?",
+      "Same-day appointments are often available in Land O' Lakes. Call (844) 264-6254.",
+    ),
+  ],
+  ctaHeading: "Wildlife problem in Land O' Lakes?",
+  ctaText: "For Land O' Lakes, call (844) 264-6254.",
+  seo: {
+    title: "Wildlife Removal in Land O' Lakes, FL | Pro Wildlife Removal",
+    description:
+      "Wildlife removal in Land O' Lakes, FL: raccoons, rats, snakes and armadillos near the Cypress Creek and Conner preserves, and who to call: (844) 264-6254.",
+  },
+  sources: [
+    { title: "U.S. Census Bureau: 2020 redistricting file (Land O' Lakes CDP, Pasco County, 35,929)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },
+    { title: "SWFWMD: Cypress Creek Preserve (7,400 acres; Land O' Lakes)", url: "https://www.swfwmd.state.fl.us/recreation/cypress-creek-preserve" },
+    { title: "SWFWMD: Cypress Creek Preserve land management plan (west boundary is Land O' Lakes residential development; FWC Wildlife Refuge, taking and possession prohibited; gopher tortoise, wood stork; feral hog the only exotic animal noted; hog trapping program)", url: CYPRESS_PLAN },
+    { title: "SWFWMD: Conner Preserve (3,486 acres; 22500 SR 52, Land O' Lakes; sandhill, marsh, cypress, pine flatwoods)", url: "https://www.swfwmd.state.fl.us/recreation/conner-preserve" },
+    { title: "SWFWMD: Conner Preserve land use and management plan, 2008 (deer, turkey, quail; gopher tortoises; wood storks, sandhill cranes; future dense residential areas adjacent; hog trapping)", url: CONNER_PLAN },
+    { title: "Pasco County: Animal Services (19640 Dogpatch Lane, Land O' Lakes; 813-929-1212; after hours (727) 847-8102 option 7, 5 pm to 8 am, qualifying emergencies)", url: "https://www.pascocountyfl.gov/services/animal_services/index.php" },
+    { title: "DOH-Pasco: Rabies advisory, July 30, 2026 (352-521-1450, option 4)", url: "https://pasco.floridahealth.gov/2026/07/30/doh-pasco-issues-rabies-advisory/" },
+    { title: "FWC: Wild hog (may be trapped and hunted year-round with landowner permission)", url: "https://myfwc.com/hunting/wild-hog/" },
+    TRAP_RULES_SOURCE,
+    { title: "FWC: Regional offices and Nuisance Alligator Program", url: "https://myfwc.com/contact/fwc-staff/regional-offices/" },
+  ],
+  clientQuestions: ["Land O' Lakes reviews (from TTR-723) and real Land O' Lakes job photos."],
+});

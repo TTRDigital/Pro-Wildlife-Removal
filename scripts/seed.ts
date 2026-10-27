@@ -1,6 +1,6 @@
 /**
  * Loads the built-in content (lib/data) and its photos into Sanity, so the
- * CMS starts full instead of empty: site settings, every page, 26 services,
+ * CMS starts full instead of empty: site settings, every page, 9 services (one per animal),
  * 43 service areas, 56 blog posts, reviews and the FAQ library.
  *
  *   npm run seed                 # create documents that don't exist yet
@@ -20,6 +20,7 @@ import type { Card, Cta, Hero, Img, PageContent, Rich, Section, SectionStyle, Se
 import { fallbackSettings } from "../lib/data/site.ts";
 import { fallbackPages } from "../lib/data/pages.ts";
 import { fallbackServices } from "../lib/data/services.ts";
+import { movedServices } from "../lib/service-urls.ts";
 import { fallbackLocations } from "../lib/data/locations.ts";
 import { fallbackPosts } from "../lib/data/posts.ts";
 import { fallbackTestimonials } from "../lib/data/testimonials.ts";
@@ -174,7 +175,6 @@ async function build() {
     phone: s.phone,
     tollFree: s.tollFree,
     email: s.email,
-    address: s.address,
     hours: s.hours.map((h) => ({ _type: "hoursRow", _key: key(), ...h })),
     announcement: s.announcement,
     serviceAreaText: s.serviceAreaText,
@@ -192,7 +192,7 @@ async function build() {
   for (const [k, p] of Object.entries(fallbackPages)) {
     docs.push({ _id: `${k}Page`, _type: `${k}Page`, ...(await pageFields(p as PageContent, k)) });
   }
-  for (const sv of fallbackServices) {
+  for (const sv of fallbackServices.filter((x) => !(x.slug in movedServices))) {
     docs.push({
       _id: `service-${sv.slug}`,
       _type: "service",

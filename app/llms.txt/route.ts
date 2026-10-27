@@ -15,7 +15,7 @@ export async function GET() {
   const [s, services, locations, posts] = await Promise.all([getSiteSettings(), getServices(), getLocations(), getPosts()]);
   const link = (title: string, path: string, note?: string) => `- [${clean(title)}](${absoluteUrl(path)})${note ? `: ${clean(note)}` : ""}`;
   const counties = locations.filter((l) => l.kind === "county" || l.kind === "region");
-  const area = (l: Location) => link(l.kind === "rat" ? `Rat removal in ${l.name}` : l.name, `/${l.path}/`);
+  const area = (l: Location) => link(l.name, `/${l.path}/`);
   /** First sentence of a service summary, as a short note. */
   const note = (t?: string) => t?.match(/^[^.!?]{20,200}[.!?]/)?.[0];
   const latest = [...posts].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")).slice(0, 15);
@@ -23,40 +23,28 @@ export async function GET() {
   const text = [
     `# ${s.name}`,
     "",
-    // No street address or licence claim until the client confirms them (the address may be a mailbox).
+    // No street address (the client's wish) and no licence claim: described by its service area.
     `> Wildlife removal and remediation company ${clean(s.serviceAreaText).replace(/^Serving/, "serving")}`,
     "",
     `- Phone: ${s.phone}${s.tollFree ? ` (toll free ${s.tollFree})` : ""}`,
     `- Email: ${s.email}`,
-    `- Hours: ${s.hours.map((h) => `${clean(h.label)} ${clean(h.value)}`).join("; ")}`,
     ...(s.googleRating && s.reviewCount ? [`- Google rating: ${s.googleRating} from ${s.reviewCount} reviews`] : []),
-    `- Free inspection requests: ${absoluteUrl("/contact-us/")}`,
+    `- Requests: by phone only, call ${s.phone} (${absoluteUrl("/contact-us/")})`,
     "",
     "## Services",
     "",
     link("All services", "/services/"),
     ...services.filter((x) => x.group === "removal").map((x) => link(x.title, `/services/${x.slug}/`, note(x.summary))),
-    "",
-    "## Prevention and control",
-    "",
-    ...services.filter((x) => x.group === "control").map((x) => link(x.title, `/services/${x.slug}/`)),
-    "",
-    "## Tampa",
-    "",
-    ...services.filter((x) => x.group === "tampa").map((x) => link(x.title, `/services/${x.slug}/`)),
+    ...services.filter((x) => x.group !== "removal").map((x) => link(x.title, `/services/${x.slug}/`)),
     "",
     "## Service areas",
     "",
-    link("All service areas", "/about-us/service-area/"),
+    link("All service areas", "/service-areas/"),
     ...counties.map(area),
     "",
     "## Cities",
     "",
     ...locations.filter((l) => l.kind === "city").map(area),
-    "",
-    "## Rat removal by city",
-    "",
-    ...locations.filter((l) => l.kind === "rat").map(area),
     "",
     "## About",
     "",

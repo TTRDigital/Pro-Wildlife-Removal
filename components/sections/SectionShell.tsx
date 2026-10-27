@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import { getSiteSettings } from "@/lib/content";
+import { callCtas } from "@/lib/cta";
 import type { Cta, Rich, Tone } from "@/lib/types";
 import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
@@ -13,18 +15,26 @@ export function SectionHeader({ eyebrow, heading, highlight, intro, align = "cen
   return (
     <div className={`mb-10 md:mb-12 ${center ? "mx-auto max-w-[1100px] text-center" : "max-w-[860px]"}`} data-reveal>
       {eyebrow ? <p className="eyebrow mb-3">{eyebrow}</p> : null}
-      {heading ? <Heading text={heading} highlight={highlight} className="text-h2 font-bold" /> : null}
+      {heading ? <Heading text={heading} highlight={highlight} className="text-h2 font-extrabold tracking-[-0.02em]" /> : null}
       {intro?.length ? <RichText value={intro} className={`mt-4 ${center ? "mx-auto max-w-[680px] [&_ul]:text-left [&_ol]:text-left" : ""}`} /> : null}
     </div>
   );
 }
 
-export function CtaRow({ ctas, align = "center", className = "mt-12" }: { ctas?: Cta[]; align?: "center" | "left"; className?: string }) {
-  if (!ctas?.length) return null;
+/** Orange is kept for calls: any other link in a button row is the quiet outline button. */
+export async function CtaRow({ ctas: given, align = "center", className = "mt-12" }: { ctas?: Cta[]; align?: "center" | "left"; className?: string }) {
+  const settings = await getSiteSettings();
+  // One number for the whole site: any tel button (an old county line) calls the main number.
+  const ctas = callCtas(
+    given?.map((c) => (c.href.startsWith("tel:") ? { ...c, label: `Call ${settings.phone}`, href: settings.phoneHref } : c)),
+    settings.phone,
+    settings.phoneHref,
+  );
+  if (!ctas.length) return null;
   return (
     <div className={`flex flex-col gap-4 sm:flex-row sm:flex-wrap ${align === "center" ? "sm:justify-center" : ""} ${className}`}>
       {ctas.map((c, i) => (
-        <Button key={`${c.href}-${i}`} href={c.href} variant={c.style === "outline" ? "outline" : "primary"} className="w-full sm:w-auto">
+        <Button key={`${c.href}-${i}`} href={c.href} variant={c.href.startsWith("tel:") ? "primary" : "outline"} className="w-full sm:w-auto">
           {c.label}
         </Button>
       ))}
