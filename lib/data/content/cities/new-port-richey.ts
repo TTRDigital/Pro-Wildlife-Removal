@@ -11,14 +11,14 @@ export const newPortRichey = countyPage({
   name: "New Port Richey",
   county: "Pasco",
   order: 18,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN NEW PORT RICHEY",
   summary: "Wildlife removal in New Port Richey, FL: raccoons, armadillos, opossums, squirrels, snakes, rats, bats and more.",
-  heroText: "A riverfront city on the Cotee, where the city's own planners list raccoons, armadillos, opossums, snakes and squirrels as everyday neighbors. Call (727) 594-7705.",
+  heroText: "A riverfront city on the Cotee, where the city's own planners list raccoons, armadillos, opossums, snakes and squirrels as everyday neighbors. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife in New Port Richey?",
   answer:
-    "The City of New Port Richey says Pasco County handles all animal control concerns. The county's own pages focus on pets and stray domestic animals. For raccoons, opossums, squirrels or rats in your home, call a private company. Pro Wildlife Removal works across New Port Richey. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County handles animal control", "On the Cotee River"],
+    "The City of New Port Richey says Pasco County handles all animal control concerns. The county's own pages focus on pets and stray domestic animals. For raccoons, opossums, squirrels or rats in your home, call a private company. Pro Wildlife Removal works across New Port Richey. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "County handles animal control", "On the Cotee River"],
   townsHeading: "New Port Richey and nearby",
   townsIntro: "New Port Richey has about 17,000 residents. The city's planning documents note Port Richey sits immediately to the north.",
   towns: [
@@ -67,15 +67,15 @@ export const newPortRichey = countyPage({
     ),
     faq(
       "How fast can you reach New Port Richey?",
-      "Same-day appointments are often available in New Port Richey. Call (727) 594-7705.",
+      "Same-day appointments are often available in New Port Richey. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in New Port Richey?",
-  ctaText: "New Port Richey homeowners can call (727) 594-7705.",
+  ctaText: "New Port Richey homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in New Port Richey | Pro Wildlife Removal",
     description:
-      "Wildlife removal in New Port Richey, FL: raccoons, armadillos, opossums, squirrels, snakes and rats, and who to call in the city. Call (727) 594-7705.",
+      "Wildlife removal in New Port Richey, FL: raccoons, armadillos, opossums, squirrels, snakes and rats, and who to call in the city. Call (844) 264-6254.",
   },
   sources: [
     S.edr,

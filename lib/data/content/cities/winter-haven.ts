@@ -25,14 +25,14 @@ export const winterHaven = countyPage({
   name: "Winter Haven",
   county: "Polk",
   order: 43,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN WINTER HAVEN",
   summary: "Wildlife removal in Winter Haven, FL: bats, rats, raccoons, squirrels, opossums, snakes and more, around the Chain of Lakes.",
-  heroText: "Polk's Chain of Lakes City, where rabid bats have turned up in yards and dogs' mouths more than once. Call (727) 594-7705.",
+  heroText: "Polk's Chain of Lakes City, where rabid bats have turned up in yards and dogs' mouths more than once. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Winter Haven, FL?",
   answer:
-    "A private company. Polk County Animal Control lists bites, dogs, cats, quarantines and adoptions among its duties, not removing nuisance wildlife from homes. For bats, rats, squirrels or raccoons in a Winter Haven attic, wall or garage, Pro Wildlife Removal finds how they get in, removes them as Florida law allows and seals the entry points. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid bat in Eloise, 2026", "City garbage: bagged and tied"],
+    "A private company. Polk County Animal Control lists bites, dogs, cats, quarantines and adoptions among its duties, not removing nuisance wildlife from homes. For bats, rats, squirrels or raccoons in a Winter Haven attic, wall or garage, Pro Wildlife Removal finds how they get in, removes them as Florida law allows and seals the entry points. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid bat in Eloise, 2026", "City garbage: bagged and tied"],
   townsHeading: "Winter Haven and nearby",
   townsIntro: "Florida's EDR puts Winter Haven at 60,837 people in April 2025, up from 49,219 at the 2020 Census. The city calls itself the Chain of Lakes City for its 18 lakes joined by navigable canals. We cover the city and the rest of Polk County.",
   towns: [
@@ -90,15 +90,15 @@ export const winterHaven = countyPage({
     ),
     faq(
       "Can someone come out to Winter Haven today?",
-      "Same-day appointments are often available in Winter Haven. Call (727) 594-7705.",
+      "Same-day appointments are often available in Winter Haven. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife in your Winter Haven home?",
-  ctaText: "Anywhere around the Chain of Lakes, call (727) 594-7705.",
+  ctaText: "Anywhere around the Chain of Lakes, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Winter Haven, FL | Pro Wildlife Removal",
     description:
-      "Winter Haven wildlife removal: bats, rats, raccoons and squirrels, plus the city's rabid bat cases, garbage rules and who to call. Call (727) 594-7705.",
+      "Winter Haven wildlife removal: bats, rats, raccoons and squirrels, plus the city's rabid bat cases, garbage rules and who to call. Call (844) 264-6254.",
   },
   sources: [
     { title: "FOX 13, Sept. 16, 2026: Winter Haven woman mistakes bat for mouse as Polk County records 6th rabies case (Eloise area; state lab confirmed rabies; PCSO Animal Control 863-577-1762)", url: FOX13 },

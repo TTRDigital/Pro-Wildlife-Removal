@@ -7,7 +7,7 @@ import { faq, p, rich, table, ul } from "../pt.ts";
  * Links to the rat removal service page in the first 150 words and back.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const ENY224 = "https://journals.flvc.org/edis/article/view/136514";
 const GADSDEN = "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/";
 const SANTAROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/";
@@ -36,7 +36,7 @@ export const ratsInAttic: Service = {
       _key: "answer",
       heading: "How do I know if I have rats in my attic?",
       text: p(
-        "Listen at night and look in the attic. Scratching and scurrying after dark, half-inch pointed droppings, greasy smudges on rafters and chewed wires mean rats, usually roof rats, which Florida DOH says like high places such as attics. The fix is sealing every gap, then trapping: see [rat removal](/services/rat-removal/). Call (727) 594-7705.",
+        "Listen at night and look in the attic. Scratching and scurrying after dark, half-inch pointed droppings, greasy smudges on rafters and chewed wires mean rats, usually roof rats, which Florida DOH says like high places such as attics. The fix is sealing every gap, then trapping: see [rat removal](/services/rat-removal/). Call (844) 264-6254.",
       ),
       points: ["Noise after dark", "Half-inch droppings", "Greasy rub marks", "Seal, then trap"],
     },
@@ -218,14 +218,14 @@ export const ratsInAttic: Service = {
       _key: "cta",
       heading: "Hearing rats overhead?",
       highlight: "overhead?",
-      text: p("Call (727) 594-7705. We'll find the gaps and get your attic back."),
+      text: p("Call (844) 264-6254. We'll find the gaps and get your attic back."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Rats in the Attic: Signs and Removal | Pro Wildlife Removal",
     description:
-      "Scratching in the ceiling at night? How to tell it's rats in the attic, what they damage, and how sealing and trapping get them out. Call (727) 594-7705.",
+      "Scratching in the ceiling at night? How to tell it's rats in the attic, what they damage, and how sealing and trapping get them out. Call (844) 264-6254.",
   },
   sources: [
     { title: "Florida DOH Gadsden: Rodent control (roof rats like high places such as attics, nest in trees and plants; most active one hour after sunset and one hour before dawn; up to 8 litters a year of 6-8 young; sexually active 2-3 months after birth; signs: gnawing, droppings, grease stains from fur; Norway rats out by day when numbers are high or food is threatened)", url: GADSDEN },

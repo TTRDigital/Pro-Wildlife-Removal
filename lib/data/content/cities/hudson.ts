@@ -11,14 +11,14 @@ export const hudson = countyPage({
   name: "Hudson",
   county: "Pasco",
   order: 14,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN HUDSON",
   summary: "Wildlife removal in Hudson, FL: raccoons, opossums, armadillos, squirrels, rats, snakes, bats and more.",
-  heroText: "A Gulf coast community at the southern tip of the Weekiwachee Preserve, where Pasco meets Hernando. Call (727) 594-7705.",
+  heroText: "A Gulf coast community at the southern tip of the Weekiwachee Preserve, where Pasco meets Hernando. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife problems in Hudson?",
   answer:
-    "Hudson is unincorporated Pasco County, and county Animal Services focuses on pets and strays. Raccoons, opossums, rats or snakes in or under your home are a job for a private company, and bears are FWC's. Pro Wildlife Removal works across Hudson. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Unincorporated Pasco", "Rabid raccoons, 2001"],
+    "Hudson is unincorporated Pasco County, and county Animal Services focuses on pets and strays. Raccoons, opossums, rats or snakes in or under your home are a job for a private company, and bears are FWC's. Pro Wildlife Removal works across Hudson. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Pasco", "Rabid raccoons, 2001"],
   townsHeading: "Hudson and nearby",
   townsIntro: "Hudson is a coastal community of about 12,900 people, as of the 2020 Census, at the north end of Pasco's Gulf coast.",
   towns: [
@@ -64,15 +64,15 @@ export const hudson = countyPage({
     ),
     faq(
       "Can you make it to Hudson today?",
-      "Same-day appointments are often available in Hudson. Call (727) 594-7705.",
+      "Same-day appointments are often available in Hudson. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Hudson?",
-  ctaText: "Hudson homeowners can call (727) 594-7705.",
+  ctaText: "Hudson homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Hudson, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Hudson, FL: raccoons, opossums, armadillos, rats and snakes beside the Weekiwachee Preserve, and who to call for what. (727) 594-7705.",
+      "Wildlife removal in Hudson, FL: raccoons, opossums, armadillos, rats and snakes beside the Weekiwachee Preserve, and who to call for what. (844) 264-6254.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Hudson CDP, Pasco County, 12,944)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },

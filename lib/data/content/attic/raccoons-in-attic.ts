@@ -8,7 +8,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
  * Links to the raccoon removal service page in the first 150 words and back.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const UW033 = "https://ask.ifas.ufl.edu/publication/UW033";
 
 export const raccoonsInAttic: Service = {
@@ -33,7 +33,7 @@ export const raccoonsInAttic: Service = {
       _key: "answer",
       heading: "How do I know if a raccoon is in my attic?",
       text: p(
-        "Heavy thumping from dusk through the night, a torn soffit or vent, and a pile of large droppings in one spot point to a raccoon. In March and April, assume a mother with kits. Don't seal the hole while it's inside. See [raccoon removal](/services/raccoon-removal/) or call (727) 594-7705.",
+        "Heavy thumping from dusk through the night, a torn soffit or vent, and a pile of large droppings in one spot point to a raccoon. In March and April, assume a mother with kits. Don't seal the hole while it's inside. See [raccoon removal](/services/raccoon-removal/) or call (844) 264-6254.",
       ),
       points: ["Heavy evening thumps", "Torn soffit or vent", "Babies in spring", "Don't seal it in"],
     },
@@ -216,14 +216,14 @@ export const raccoonsInAttic: Service = {
       _key: "cta",
       heading: "Something big in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705. In spring, ask about kits when you call."),
+      text: p("Call (844) 264-6254. In spring, ask about kits when you call."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Raccoons in the Attic: Next Steps | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic? How to tell, why spring means babies, mistakes that make it worse, Florida's release rules and latrine safety. Call (727) 594-7705.",
+      "Raccoon in the attic? How to tell, why spring means babies, mistakes that make it worse, Florida's release rules and latrine safety. Call (844) 264-6254.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (active mostly in the evening, leave dens soon after dusk; entry points: torn screens, soffits, open chimneys, broken windows; dog-sized droppings; latrines; births March-April; attics and crawl spaces where cavities are scarce; chasing out and sealing frequently causes more damage; one-way devices without young; urine-soaked cloth for a mother with kits)", url: UW033 },

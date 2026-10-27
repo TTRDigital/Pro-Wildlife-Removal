@@ -21,14 +21,14 @@ export const theVillages = countyPage({
   name: "The Villages",
   county: "Sumter",
   order: 29,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN THE VILLAGES",
   summary: "Wildlife removal in The Villages, FL: rats, bats, squirrels, raccoons, opossums, snakes, armadillos and more, on every side of The Villages.",
-  heroText: "Rats in villas, bats at a golf starter shack, raccoons and fox squirrels: The Villages has seen them all on the record. Call (727) 594-7705.",
+  heroText: "Rats in villas, bats at a golf starter shack, raccoons and fox squirrels: The Villages has seen them all on the record. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in The Villages, FL?",
   answer:
-    "A private company. In 2016, Sumter County told residents of The Villages with rats to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal handles rats, bats, squirrels and raccoons in homes across The Villages. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Lake, Sumter and Marion counties", "Bats at Hilltop, 2025"],
+    "A private company. In 2016, Sumter County told residents of The Villages with rats to call a commercial company, and the county says its Animal Services generally deals only with domestic animals. Pro Wildlife Removal handles rats, bats, squirrels and raccoons in homes across The Villages. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Lake, Sumter and Marion counties", "Bats at Hilltop, 2025"],
   townsHeading: "The Villages and nearby",
   townsIntro: "The Villages spreads across Lake, Sumter and Marion counties. The Census Bureau's The Villages CDP covers the Sumter and Marion parts; the oldest villages, such as Orange Blossom Gardens and La Zamora, are in Lake County, in and around Lady Lake. We cover every village, and the rest of Sumter County too: Bushnell is the county seat and Wildwood the largest city. The Census Bureau estimates Sumter grew from about 130,000 people in 2020 to about 158,000 in 2025, yet the 2020 Census still counted 89% of its land as rural.",
   towns: [
@@ -98,11 +98,11 @@ export const theVillages = countyPage({
     ),
     faq(
       "How quickly can someone reach a home in The Villages?",
-      "Same-day appointments are often available in The Villages. Call (727) 594-7705.",
+      "Same-day appointments are often available in The Villages. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in The Villages?",
-  ctaText: "Villagers can call (727) 594-7705.",
+  ctaText: "Villagers can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in The Villages, FL | Pro Wildlife Removal",
     description:

@@ -16,7 +16,7 @@ export const ratsDuringTheDay: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** sometimes, and it's worth noticing. Rats are mainly active at night, so UF/IFAS says rodents seen again and again in daylight are a sign of an established population. Florida DOH says Norway rats may come out by day when numbers are high, when they're disturbed, or when food is threatened. Call (727) 594-7705.",
+      "**The short answer:** sometimes, and it's worth noticing. Rats are mainly active at night, so UF/IFAS says rodents seen again and again in daylight are a sign of an established population. Florida DOH says Norway rats may come out by day when numbers are high, when they're disturbed, or when food is threatened. Call (844) 264-6254.",
     ),
     h3("When rats are normally active"),
     p(
@@ -38,7 +38,7 @@ export const ratsDuringTheDay: Post = {
     p("Our guides to [signs your house has rats](/blog/signs-that-your-house-has-rats/), [rats in the attic](/blog/rats-in-attic-signs/) and [what animal is in your attic](/blog/what-animal-is-in-my-attic/) help confirm it."),
     h3("What to do about it"),
     p(
-      `One daytime sighting doesn't prove an infestation, but repeated ones usually mean there are more rats than you're seeing. UF/IFAS Extension describes three steps: rodent-proofing that blocks all possible entry points, sanitation, then reducing the population with traps and baits ([UF/IFAS](${SANTAROSA})). Our guides on [how to catch a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/) and [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/) explain why waiting makes it harder. See [rat removal](/services/rat-removal/), or call (727) 594-7705.`,
+      `One daytime sighting doesn't prove an infestation, but repeated ones usually mean there are more rats than you're seeing. UF/IFAS Extension describes three steps: rodent-proofing that blocks all possible entry points, sanitation, then reducing the population with traps and baits ([UF/IFAS](${SANTAROSA})). Our guides on [how to catch a rat in the house](/blog/how-to-catch-a-rat-in-the-house-a-comprehensive-guide-for-florida-homeowners/) and [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/) explain why waiting makes it harder. See [rat removal](/services/rat-removal/), or call (844) 264-6254.`,
     ),
   ),
   faq: [

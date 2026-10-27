@@ -6,7 +6,7 @@ import { h3, p, rich } from "../pt.ts";
  * County page layout (blueprint: hero with the call button, short answer, towns,
  * common problems here, services, reviews, FAQ, call band). Only the layout is
  * shared: every county file writes its own words. The hero cta carries the
- * site's one number, (727) 594-7705 (Kia, Oct 26: no county lines).
+ * site's one number, (844) 264-6254 (Kia, Oct 26: no county lines).
  */
 
 export type CountyInput = {

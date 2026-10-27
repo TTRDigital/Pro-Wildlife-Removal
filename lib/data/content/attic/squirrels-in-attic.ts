@@ -8,7 +8,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
  * Links to the squirrel removal service page in the first 150 words and back.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const FLYER = "https://myfwc.com/media/tydhegay/livingwithsquirrels.pdf";
 
 export const squirrelsInAttic: Service = {
@@ -34,7 +34,7 @@ export const squirrelsInAttic: Service = {
       _key: "answer",
       heading: "How do I know if squirrels are in my attic?",
       text: p(
-        "Squirrels are noisy in the daytime, unlike rats. Listen for running in the ceiling after sunrise, look for a chewed opening at the soffit or roof edge, and watch for squirrels using the same spot on the roof. Litters come in spring and autumn. See [squirrel removal](/services/squirrel-removal/) or call (727) 594-7705.",
+        "Squirrels are noisy in the daytime, unlike rats. Listen for running in the ceiling after sunrise, look for a chewed opening at the soffit or roof edge, and watch for squirrels using the same spot on the roof. Litters come in spring and autumn. See [squirrel removal](/services/squirrel-removal/) or call (844) 264-6254.",
       ),
       points: ["Noise in daylight", "Chewed roof-edge hole", "Litters spring and fall", "Seal it to last"],
     },
@@ -216,14 +216,14 @@ export const squirrelsInAttic: Service = {
       _key: "cta",
       heading: "Squirrels in the ceiling?",
       highlight: "the ceiling?",
-      text: p("Call (727) 594-7705. Mention the season, so babies are part of the plan."),
+      text: p("Call (844) 264-6254. Mention the season, so babies are part of the plan."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Squirrels in the Attic: Signs, Fixes | Pro Wildlife Removal",
     description:
-      "Daytime noise in the ceiling? How to confirm squirrels in the attic, Florida's spring and fall litters, trapping rules and roof sealing. (727) 594-7705.",
+      "Daytime noise in the ceiling? How to confirm squirrels in the attic, Florida's spring and fall litters, trapping rules and roof sealing. (844) 264-6254.",
   },
   sources: [
     { title: "FWC: Living with Squirrels flyer, June 2026 (gray and flying squirrels as nuisance; breed twice a year, spring and autumn; teeth grow constantly; chewing wires; cover wires and PVC; trim limbs; squirrel in the house; cage traps, 24-hour checks, release rules; Dec 31, 2026 rule change)", url: FLYER },

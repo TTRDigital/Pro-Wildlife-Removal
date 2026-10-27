@@ -18,14 +18,14 @@ export const pineRidge = countyPage({
   name: "Pine Ridge",
   county: "Citrus",
   order: 22,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN PINE RIDGE",
   summary: "Wildlife removal in Pine Ridge, FL: raccoons, rats, bats, squirrels, opossums, snakes and armadillos, in Citrus County's horse country.",
-  heroText: "Horse trails, barns and wooded lots, with deed restrictions that cover trash and animals. Call (727) 594-7705.",
+  heroText: "Horse trails, barns and wooded lots, with deed restrictions that cover trash and animals. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Pine Ridge, FL?",
   answer:
-    "A private company. Pine Ridge is unincorporated Citrus County, and the Sheriff's Animal Control handles domestic animals and livestock and refers nuisance wildlife to a trapper. For raccoons, rats, bats or squirrels in a Pine Ridge home or barn, Pro Wildlife Removal finds the way in, removes them legally and seals the entry points. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "28+ miles of horse trails", "Deed rules on trash"],
+    "A private company. Pine Ridge is unincorporated Citrus County, and the Sheriff's Animal Control handles domestic animals and livestock and refers nuisance wildlife to a trapper. For raccoons, rats, bats or squirrels in a Pine Ridge home or barn, Pro Wildlife Removal finds the way in, removes them legally and seals the entry points. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "28+ miles of horse trails", "Deed rules on trash"],
   townsHeading: "Pine Ridge and nearby",
   townsIntro: "The 2020 Census counted 11,042 people in the Pine Ridge CDP, west of Beverly Hills. We take calls in Pine Ridge and across Citrus County.",
   towns: [
@@ -73,15 +73,15 @@ export const pineRidge = countyPage({
     ),
     faq(
       "Can someone reach Pine Ridge today?",
-      "Same-day appointments are often available in Pine Ridge. Call (727) 594-7705.",
+      "Same-day appointments are often available in Pine Ridge. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife in your Pine Ridge home or barn?",
-  ctaText: "Anywhere in Pine Ridge, call (727) 594-7705.",
+  ctaText: "Anywhere in Pine Ridge, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Pine Ridge, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Pine Ridge, FL: raccoons, rats, bats and squirrels in homes and barns, plus the community's trash rules and contacts. (727) 594-7705.",
+      "Wildlife removal in Pine Ridge, FL: raccoons, rats, bats and squirrels in homes and barns, plus the community's trash rules and contacts. (844) 264-6254.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 Census redistricting data, Florida (Pine Ridge CDP, Citrus County: 11,042 people)", url: CENSUS_PL },

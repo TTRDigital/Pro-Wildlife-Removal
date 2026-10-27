@@ -9,7 +9,7 @@ import { countyGroups } from "../areas.ts";
  * Wade decides which URLs redirect here.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const ENY224 = "https://journals.flvc.org/edis/article/view/136514";
 const GADSDEN = "https://gadsden.floridahealth.gov/programs-and-services/environmental-health/rodent-control/";
 const SANTAROSA = "https://blogs.ifas.ufl.edu/santarosaco/2016/01/29/controlling-rats-and-mice-around-the-farm/";
@@ -40,7 +40,7 @@ export const ratRemoval: Service = {
       _key: "answer",
       heading: "How do you get rid of rats in the attic in Florida?",
       text: p(
-        "Seal every gap a rat can use, then trap the rats left inside. Traps alone don't work while the openings stay open, because new rats keep coming in. In Florida it's usually roof rats, which climb trees and wires to reach the roof. Call (727) 594-7705 for an inspection.",
+        "Seal every gap a rat can use, then trap the rats left inside. Traps alone don't work while the openings stay open, because new rats keep coming in. In Florida it's usually roof rats, which climb trees and wires to reach the roof. Call (844) 264-6254 for an inspection.",
       ),
       points: ["Usually roof rats", "Seal, then trap", "Half-inch gaps matter", "No poison first"],
     },
@@ -197,7 +197,7 @@ export const ratRemoval: Service = {
       _key: "areas",
       eyebrow: "Areas served",
       heading: "Rat removal in all 8 counties",
-      intro: p("From coastal Pinellas to inland Polk, we rat-proof homes across central and west Florida on one number, (727) 594-7705."),
+      intro: p("From coastal Pinellas to inland Polk, we rat-proof homes across central and west Florida on one number, (844) 264-6254."),
       groups: countyGroups,
     },
     {
@@ -215,7 +215,7 @@ export const ratRemoval: Service = {
       items: [
         faq(
           "Looking for a rat exterminator near me?",
-          "Pro Wildlife Removal is a rat removal company rather than an exterminator, and there's no spraying. We find the openings the rats use, trap the ones inside and seal those entry points, so the house is closed to the next ones. Call (727) 594-7705.",
+          "Pro Wildlife Removal is a rat removal company rather than an exterminator, and there's no spraying. We find the openings the rats use, trap the ones inside and seal those entry points, so the house is closed to the next ones. Call (844) 264-6254.",
         ),
         faq(
           "Are they roof rats or Norway rats?",
@@ -265,14 +265,14 @@ export const ratRemoval: Service = {
       _key: "cta",
       heading: "Rats in the attic tonight?",
       highlight: "tonight?",
-      text: p("Call (727) 594-7705. We'll find how they're getting in and close it."),
+      text: p("Call (844) 264-6254. We'll find how they're getting in and close it."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Rat Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Roof rats in the attic or walls? We find and seal every entry point, then trap the rats left inside, in homes across Central Florida. Call (727) 594-7705.",
+      "Roof rats in the attic or walls? We find and seal every entry point, then trap the rats left inside, in homes across Central Florida. Call (844) 264-6254.",
   },
   sources: [
     { title: "Florida DOH Gadsden: Rodent control (roof rats up to 8 litters a year of 6-8 young, sexually active 2-3 months after birth; good climbers, nest in trees but like high places such as attics; tail longer than body; sometimes live with Norway rats but stay up high; hollow out citrus fruit; Norway rats burrow under buildings and concrete slabs, out by day when numbers are high, when disturbed or when food is threatened; teeth kept short by gnawing; grease stains from fur on pipes, wires and around entrance holes)", url: GADSDEN },

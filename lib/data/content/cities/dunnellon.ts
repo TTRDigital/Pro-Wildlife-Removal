@@ -11,14 +11,14 @@ export const dunnellon = countyPage({
   name: "Dunnellon",
   county: "Marion",
   order: 42,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN DUNNELLON",
   summary: "Wildlife removal in Dunnellon, FL: raccoons, rats, squirrels, bats, opossums and more, on the Rainbow River in southwest Marion County.",
-  heroText: "A small city on the Rainbow and Withlacoochee rivers, where the state's preserve plan documents raccoons and two kinds of squirrel. Call (727) 594-7705.",
+  heroText: "A small city on the Rainbow and Withlacoochee rivers, where the state's preserve plan documents raccoons and two kinds of squirrel. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Dunnellon, FL?",
   answer:
-    "Animals living in a Dunnellon home are a private company's job. DOH-Marion's alerts send Marion residents to Marion County Animal Services for strays and bites to pets, and to the health department for human bites. Pro Wildlife Removal handles raccoons, rats, squirrels and bats in Dunnellon. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "On the Rainbow River", "About 2,000 residents"],
+    "Animals living in a Dunnellon home are a private company's job. DOH-Marion's alerts send Marion residents to Marion County Animal Services for strays and bites to pets, and to the health department for human bites. Pro Wildlife Removal handles raccoons, rats, squirrels and bats in Dunnellon. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "On the Rainbow River", "About 2,000 residents"],
   townsHeading: "Dunnellon and nearby",
   townsIntro: "Dunnellon had an estimated 2,022 residents in 2025. We serve it along with Ocala, Silver Springs and the rest of Marion.",
   towns: [
@@ -78,11 +78,11 @@ export const dunnellon = countyPage({
     ),
     faq(
       "Do you get out to Dunnellon quickly?",
-      "Same-day appointments are often available in Dunnellon. Call (727) 594-7705.",
+      "Same-day appointments are often available in Dunnellon. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Dunnellon?",
-  ctaText: "Dunnellon homeowners can call (727) 594-7705.",
+  ctaText: "Dunnellon homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Dunnellon, FL | Pro Wildlife Removal",
     description:

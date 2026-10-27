@@ -75,7 +75,7 @@ export const floridaTrappingRules: Post = {
       "**6. Fix the reason it came:** seal the entry and remove food and shelter.",
     ),
     h3("Should you trap it yourself?"),
-    p("Trapping is legal, but it's the easy half. You still have to check the trap every day, deal with what you catch within the deadline, and close the hole the animal used, or the next one moves in. Many homeowners call a professional for exactly those reasons. See [raccoon trapping](/blog/raccoon-trapping-florida/) for a worked example, or call (727) 594-7705. Our county pages, such as [Pasco](/service-areas/pasco-county/) and [Pinellas](/service-areas/pinellas-county/), list the local agencies to call."),
+    p("Trapping is legal, but it's the easy half. You still have to check the trap every day, deal with what you catch within the deadline, and close the hole the animal used, or the next one moves in. Many homeowners call a professional for exactly those reasons. See [raccoon trapping](/blog/raccoon-trapping-florida/) for a worked example, or call (844) 264-6254. Our county pages, such as [Pasco](/service-areas/pasco-county/) and [Pinellas](/service-areas/pinellas-county/), list the local agencies to call."),
   ),
   faq: [
     faq("Do I need a permit to trap a raccoon on my property in Florida?", "Not for a live trap on your own property under today's rules. From December 31, 2026, FWC's new rules require registration and training for most trappers, with an exemption for a homeowner using one regular-size cage trap on their own property."),

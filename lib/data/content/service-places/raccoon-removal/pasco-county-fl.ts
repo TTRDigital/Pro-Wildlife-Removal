@@ -22,11 +22,11 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-pasco-county-fl",
   order: 22,
-  heroText: "Thumping overhead, a torn soffit or a raccoon raiding the hen house? We get raccoons out of Pasco homes, check for young and close the way in. Call (727) 594-7705.",
+  heroText: "Thumping overhead, a torn soffit or a raccoon raiding the hen house? We get raccoons out of Pasco homes, check for young and close the way in. Call (844) 264-6254.",
   answerHeading: "Who handles a raccoon in a Pasco County home?",
   answer:
-    "Pasco County Animal Services' emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and seals the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "A rabies alert and advisory in 2026", "Young often in spring"],
+    "Pasco County Animal Services' emergency service covers seriously injured stray pets and aggressive animals that threaten public safety, so a raccoon living in your attic or under your house calls for a private wildlife company. Pro Wildlife Removal gets it out, checks for babies first and seals the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "A rabies alert and advisory in 2026", "Young often in spring"],
   localHeading: "Pasco raccoon facts: rabies cases, coops and parks",
   localIntro: "Raccoons lead Pasco's rabies records. These are the local facts and rules that matter before one is trapped or moved.",
   local: [
@@ -43,7 +43,7 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care, then report it to DOH-Pasco: 352-521-1450, option 4.") },
     { icon: "users", title: "A raccoon bit your pet", text: p("Take the pet to a vet, then call Pasco County Animal Services at 813-929-1212, as DOH-Pasco asks.") },
-    { icon: "home", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "home", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "The trap, check and release rules if you're weighing a do-it-yourself trap." },
@@ -67,11 +67,11 @@ export const raccoonRemovalPascoCounty = servicePlacePage({
     ),
     faq(
       "Can you take a Pasco County raccoon call today?",
-      "Same-day appointments for raccoons are often available in Pasco County. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Pasco County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Pasco County home?",
-  ctaText: "Raccoons getting into a Pasco home? Call (727) 594-7705.",
+  ctaText: "Raccoons getting into a Pasco home? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Pasco County, FL | Pro Wildlife Removal",
     description:

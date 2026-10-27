@@ -21,11 +21,11 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
   placeName: "Hillsborough County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-hillsborough-county",
-  heroText: "A raccoon in the attic, under the deck or in the garage anywhere in Hillsborough County? We remove it the way Florida allows, look for young first and seal the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in the attic, under the deck or in the garage anywhere in Hillsborough County? We remove it the way Florida allows, look for young first and seal the way in. Call (844) 264-6254.",
   answerHeading: "Who gets a raccoon out of a home in Hillsborough County?",
   answer:
-    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says to use private removal services for wildlife on private property, and county Animal Control serves the whole county. Pro Wildlife Removal gets raccoons out of attics and crawl spaces, checks for young and seals the entry. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid raccoon in the 2025 table", "County: garbage feeds a boom"],
+    "A private wildlife company. The City of Tampa's listing for Hillsborough County Animal Services says to use private removal services for wildlife on private property, and county Animal Control serves the whole county. Pro Wildlife Removal gets raccoons out of attics and crawl spaces, checks for young and seals the entry. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid raccoon in the 2025 table", "County: garbage feeds a boom"],
   localHeading: "Hillsborough raccoon records, parks and news cases",
   localIntro: "These facts about raccoons in Hillsborough come from the state health department, DOH-Hillsborough, county conservation pages, a state park plan and news reports of rabid raccoon cases, labeled as news.",
   local: [
@@ -43,7 +43,7 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
   contacts: [
     { icon: "map-pin", title: "Dead raccoon on a county road", text: p("To report a dead animal in a county right-of-way, use the county's online case request or call (813) 274-6600.") },
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care and report the bite to DOH-Hillsborough, 813-307-8059.") },
-    { icon: "home", title: "A raccoon in the house", text: p("A private wildlife company, per the City of Tampa's listing for the county service. Call us at (727) 594-7705.") },
+    { icon: "home", title: "A raccoon in the house", text: p("A private wildlife company, per the City of Tampa's listing for the county service. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "If you plan to trap one in Hillsborough yourself, read the trap check and release rules first." },
@@ -71,15 +71,15 @@ export const raccoonRemovalHillsboroughCounty = servicePlacePage({
     ),
     faq(
       "Can you get to a Hillsborough County raccoon the same day?",
-      "Same-day appointments for raccoons are often available in Hillsborough County. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Hillsborough County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Hillsborough County home?",
-  ctaText: "A raccoon in a Hillsborough attic, from Riverview to Carrollwood? Call (727) 594-7705.",
+  ctaText: "A raccoon in a Hillsborough attic, from Riverview to Carrollwood? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal Hillsborough County | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Hillsborough County, FL: raccoons out of attics and crawl spaces in Brandon, Riverview and Plant City, young checked. (727) 594-7705.",
+      "Raccoon removal in Hillsborough County, FL: raccoons out of attics and crawl spaces in Brandon, Riverview and Plant City, young checked. (844) 264-6254.",
   },
   sources: [
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2022 (Hillsborough row: 3 cats; no raccoons)", url: `${DOH}2025/07/rabies-cases-county-animal-2022.pdf` },

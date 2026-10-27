@@ -25,11 +25,11 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-services-saint-petersburg-fl",
   county: "Pinellas",
   order: 12,
-  heroText: "Noise in the attic of your St. Pete bungalow, or a raccoon living under the porch? We find how it got in, look for babies, remove the raccoons and seal the entry. Call (727) 594-7705.",
+  heroText: "Noise in the attic of your St. Pete bungalow, or a raccoon living under the porch? We find how it got in, look for babies, remove the raccoons and seal the entry. Call (844) 264-6254.",
   answerHeading: "Does St. Petersburg remove raccoons from homes?",
   answer:
-    "No. The City of St. Petersburg says neither it nor Pinellas County runs a wild animal service, and raccoons on private property need a private wildlife trapper. Pro Wildlife Removal removes raccoons from St. Pete attics, porches and crawl spaces, checks for young and seals where they got in. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City: private trappers only", "Trash goes out by 7 a.m."],
+    "No. The City of St. Petersburg says neither it nor Pinellas County runs a wild animal service, and raccoons on private property need a private wildlife trapper. Pro Wildlife Removal removes raccoons from St. Pete attics, porches and crawl spaces, checks for young and seals where they got in. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "City: private trappers only", "Trash goes out by 7 a.m."],
   localHeading: "Raccoons in St. Petersburg",
   localIntro: "St. Pete wraps around 244 miles of shoreline and keeps 137 parks, so raccoons are never far from a backyard. These are the local facts.",
   local: [
@@ -45,7 +45,7 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
   contacts: [
     { icon: "building", title: "Broken cart lid", text: p("St. Petersburg Sanitation, 727-893-7398.") },
     { icon: "phone", title: "Bitten or scratched", text: p("Wash the wound, see a doctor and call DOH-Pinellas, 727-824-6932, which evaluates possible rabies exposures.") },
-    { icon: "home", title: "A raccoon in your home", text: p("A private wildlife company, per the city. Call us at (727) 594-7705.") },
+    { icon: "home", title: "A raccoon in your home", text: p("A private wildlife company, per the city. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "What Florida allows if you set a raccoon trap, and what happens after it's caught." },
@@ -69,15 +69,15 @@ export const raccoonRemovalStPetersburg = servicePlacePage({
     ),
     faq(
       "How soon can you get to a raccoon in St. Petersburg?",
-      "Same-day raccoon appointments are often available in St. Petersburg. Call (727) 594-7705.",
+      "Same-day raccoon appointments are often available in St. Petersburg. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your St. Pete home?",
-  ctaText: "St. Petersburg raccoon calls go to (727) 594-7705.",
+  ctaText: "St. Petersburg raccoon calls go to (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in St. Petersburg, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in St. Petersburg, FL: raccoons out of attics, porches and crawl spaces, young checked, entries fixed, plus trash rules. (727) 594-7705.",
+      "Raccoon removal in St. Petersburg, FL: raccoons out of attics, porches and crawl spaces, young checked, entries fixed, plus trash rules. (844) 264-6254.",
   },
   sources: [
     { title: "City of St. Petersburg reply on SeeClickFix St. Pete #23085918, Oct. 2026 (neither the city nor Pinellas County has an animal services department for wild animals; city addresses wildlife in natural habitat only if aggressive; nuisance wildlife on private property, including raccoons, needs privately licensed handlers, trappers or transporters; FWC trapper list)", url: SCF },

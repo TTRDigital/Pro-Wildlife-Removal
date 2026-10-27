@@ -10,7 +10,7 @@ export const extra_tampaWildlifeInfestationDangers: PostExtra = {
   slug: "tampa-wildlife-infestation-dangers",
   seoDescription: "How a wildlife problem grows in a Florida home: entry points, breeding, chewed wires and droppings, and diseases raccoon waste, urine and fleas can spread.",
   more: p(
-    "A small problem grows fastest when nobody finds the way in. To learn more, see [common wildlife entry points](/blog/common-wildlife-entry-points/), [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/) in Florida, and the [signs of wildlife damage that need repair](/blog/wildlife-damage-repair-12-signs-you-need-repairs-now/). For specific animals, read about [raccoons in the attic](/services/raccoons-in-attic/), [raccoon removal](/services/raccoon-removal/) and [rat removal](/services/rat-removal/) in Central Florida. Call (727) 594-7705.",
+    "A small problem grows fastest when nobody finds the way in. To learn more, see [common wildlife entry points](/blog/common-wildlife-entry-points/), [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/) in Florida, and the [signs of wildlife damage that need repair](/blog/wildlife-damage-repair-12-signs-you-need-repairs-now/). For specific animals, read about [raccoons in the attic](/services/raccoons-in-attic/), [raccoon removal](/services/raccoon-removal/) and [rat removal](/services/rat-removal/) in Central Florida. Call (844) 264-6254.",
   ),
   faq: [
     faq(

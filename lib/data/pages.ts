@@ -15,8 +15,8 @@ const migratedPages = {
    "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
-     "label": "(727) 594-7705",
-     "href": "tel:+17275947705",
+     "label": "(844) 264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -61,8 +61,8 @@ const migratedPages = {
     "image": images.ratRemovalImage2,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -107,8 +107,8 @@ const migratedPages = {
     "image": images.prowildremovalTeamImage,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -796,13 +796,13 @@ const migratedPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:7275947705"
+        "href": "tel:8442646254"
        }
       ],
       "children": [
        {
         "_type": "span",
-        "text": "Phone Number: (727) 594-7705",
+        "text": "Phone Number: (844) 264-6254",
         "marks": [
          "l0"
         ]
@@ -813,8 +813,8 @@ const migratedPages = {
     "image": images.tampaBayMap2,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -1281,8 +1281,8 @@ const migratedPages = {
    "image": images.prowildliferemovalBannerImage,
    "ctas": [
     {
-     "label": "(727) 594-7705",
-     "href": "tel:+17275947705",
+     "label": "(844) 264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -1315,8 +1315,8 @@ const migratedPages = {
     "image": images.ratRemovalImage2,
     "ctas": [
      {
-      "label": "(727) 594-7705",
-      "href": "tel:+17275947705",
+      "label": "(844) 264-6254",
+      "href": "tel:+18442646254",
       "style": "outline"
      }
     ],
@@ -1353,13 +1353,13 @@ const migratedPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:7275947705"
+        "href": "tel:8442646254"
        }
       ],
       "children": [
        {
         "_type": "span",
-        "text": "Phone Number: (727) 594-7705",
+        "text": "Phone Number: (844) 264-6254",
         "marks": [
          "l0"
         ]
@@ -2354,8 +2354,8 @@ const migratedPages = {
    "image": images.joshHoldingRaccon,
    "ctas": [
     {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
+     "label": "844-264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -2730,7 +2730,7 @@ const migratedPages = {
        },
        {
         "_type": "span",
-        "text": "727-594-7705 ",
+        "text": "844-264-6254 ",
         "marks": [
          "strong",
          "l1"
@@ -2751,7 +2751,7 @@ const migratedPages = {
        {
         "_type": "link",
         "_key": "l1",
-        "href": "tel:7275947705"
+        "href": "tel:8442646254"
        }
       ]
      }
@@ -2797,8 +2797,8 @@ const migratedPages = {
    "image": images.proWildlifeRemovalServiceProcess,
    "ctas": [
     {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
+     "label": "844-264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -3055,7 +3055,7 @@ const migratedPages = {
        },
        {
         "_type": "span",
-        "text": " (727-594-7705",
+        "text": " (844-264-6254",
         "marks": [
          "strong",
          "l0"
@@ -3071,7 +3071,7 @@ const migratedPages = {
        {
         "_type": "link",
         "_key": "l0",
-        "href": "tel:727-594-7705"
+        "href": "tel:844-264-6254"
        }
       ]
      }
@@ -3112,7 +3112,7 @@ const migratedPages = {
       },
       {
        "_type": "span",
-       "text": "(727) 594-7705",
+       "text": "(844) 264-6254",
        "marks": [
         "strong"
        ]
@@ -3124,8 +3124,8 @@ const migratedPages = {
    "image": images.needHelpReachOutToUs,
    "ctas": [
     {
-     "label": "727-594-7705",
-     "href": "tel:+17275947705",
+     "label": "844-264-6254",
+     "href": "tel:+18442646254",
      "style": "outline"
     }
    ],
@@ -3163,7 +3163,7 @@ const migratedPages = {
   ],
   "seo": {
    "title": "Contact Us | Wildlife Removal Support | Pro Wildlife Removal",
-   "description": "Contact Pro Wildlife Removal for wildlife control services across Central Florida. Call (727) 594-7705 or email us for safe, professional animal removal."
+   "description": "Contact Pro Wildlife Removal for wildlife control services across Central Florida. Call (844) 264-6254 or email us for safe, professional animal removal."
   }
  },
  "privacy": {
@@ -3201,7 +3201,7 @@ const migratedPages = {
       "children": [
        {
         "_type": "span",
-        "text": "727-594-7705",
+        "text": "844-264-6254",
         "marks": []
        }
       ],

@@ -12,14 +12,14 @@ export const landOLakes = countyPage({
   name: "Land O' Lakes",
   county: "Pasco",
   order: 16,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN LAND O' LAKES",
   summary: "Wildlife removal in Land O' Lakes, FL: raccoons, rats, squirrels, snakes, armadillos, opossums, bats and more.",
-  heroText: "Central Pasco neighborhoods built between lakes, cypress swamps and two big water district preserves. Call (727) 594-7705.",
+  heroText: "Central Pasco neighborhoods built between lakes, cypress swamps and two big water district preserves. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Land O' Lakes?",
   answer:
-    "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal takes calls all over Land O' Lakes. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Unincorporated Pasco", "Between two big preserves"],
+    "Land O' Lakes isn't a city, so county services apply, and Pasco County Animal Services is based here. Its pages cover pets and strays, not wildlife in your home. For raccoons, rats, squirrels or snakes, call a private company. Pro Wildlife Removal takes calls all over Land O' Lakes. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Unincorporated Pasco", "Between two big preserves"],
   townsHeading: "Land O' Lakes and nearby",
   townsIntro: "Land O' Lakes is an unincorporated community of about 35,900 people, as of the 2020 Census. We cover the central Pasco communities around it.",
   towns: [
@@ -63,15 +63,15 @@ export const landOLakes = countyPage({
     ),
     faq(
       "When can someone come out to Land O' Lakes?",
-      "Same-day appointments are often available in Land O' Lakes. Call (727) 594-7705.",
+      "Same-day appointments are often available in Land O' Lakes. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Land O' Lakes?",
-  ctaText: "For Land O' Lakes, call (727) 594-7705.",
+  ctaText: "For Land O' Lakes, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Land O' Lakes, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Land O' Lakes, FL: raccoons, rats, snakes and armadillos near the Cypress Creek and Conner preserves, and who to call: (727) 594-7705.",
+      "Wildlife removal in Land O' Lakes, FL: raccoons, rats, snakes and armadillos near the Cypress Creek and Conner preserves, and who to call: (844) 264-6254.",
   },
   sources: [
     { title: "U.S. Census Bureau: 2020 redistricting file (Land O' Lakes CDP, Pasco County, 35,929)", url: "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Florida/fl2020.pl.zip" },

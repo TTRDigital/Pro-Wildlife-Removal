@@ -10,16 +10,16 @@ export const dadeCityRatsInput = {
   name: "Dade City",
   county: "Pasco",
   order: 33,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "RAT REMOVAL IN DADE CITY",
   heading: "Rat Removal in Dade City, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Dade City, FL: rats sealed out and trapped, plus Dade City's animal-proof container rule and code enforcement.",
-  heroText: "Rats in a Dade City attic, barn or shed? We find the way in, close it and trap the rats inside. Call (727) 594-7705.",
+  heroText: "Rats in a Dade City attic, barn or shed? We find the way in, close it and trap the rats inside. Call (844) 264-6254.",
   answerHeading: "Who handles rats in Dade City?",
   answer:
-    "Dade City doesn't remove rats from homes, so that's a job for a private company. The city does ask that garbage containers be animal proof with tight-fitting lids. Pro Wildlife Removal seals the gaps and traps the rats that are still inside. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City: animal-proof lids", "Code covers trash and debris"],
+    "Dade City doesn't remove rats from homes, so that's a job for a private company. The city does ask that garbage containers be animal proof with tight-fitting lids. Pro Wildlife Removal seals the gaps and traps the rats that are still inside. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "City: animal-proof lids", "Code covers trash and debris"],
   townsHeading: "Rat removal near Dade City",
   townsIntro: "We take rat calls across east Pasco, and handle every other animal in Dade City too.",
   towns: [
@@ -66,15 +66,15 @@ export const dadeCityRatsInput = {
     ),
     faq(
       "Is a same-day rat visit possible in Dade City?",
-      "Same-day rat inspections are often available in Dade City. Call (727) 594-7705.",
+      "Same-day rat inspections are often available in Dade City. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Dade City home?",
-  ctaText: "Rats in an east Pasco barn, shed or attic around Dade City? Call (727) 594-7705.",
+  ctaText: "Rats in an east Pasco barn, shed or attic around Dade City? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Dade City, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Dade City, FL: rats sealed out of homes, barns and sheds and trapped inside, plus Dade City's animal-proof container rule. (727) 594-7705.",
+      "Rat removal in Dade City, FL: rats sealed out of homes, barns and sheds and trapped inside, plus Dade City's animal-proof container rule. (844) 264-6254.",
   },
   sources: [
     { title: "City of Dade City: Garbage and recycle services (Waste Pro collects within city limits; animal proof containers with tight fitting lids; 35 gallons and 50 pounds max; within 4 feet of the curb; recycling Wednesdays; limbs under 4 feet and 6 inches; Public Works (352) 523-5050; Waste Pro 352-523-5051)", url: TRASH },

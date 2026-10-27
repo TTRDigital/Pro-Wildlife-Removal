@@ -19,11 +19,11 @@ export const batRemovalTampa = servicePlacePage({
   location: "about-us/service-area/tampa/wildlife-removal-service-in-tampa-fl",
   county: "Hillsborough",
   order: 3,
-  heroText: "Bats under the tiles, in a soffit or in the attic of a Tampa home? We find every exit, set one-way doors when Florida law allows and seal the openings once the colony is out. Call (727) 594-7705.",
+  heroText: "Bats under the tiles, in a soffit or in the attic of a Tampa home? We find every exit, set one-way doors when Florida law allows and seal the openings once the colony is out. Call (844) 264-6254.",
   answerHeading: "How do bats get evicted from a Tampa house?",
   answer:
-    "By exclusion: one-way doors on the exits the colony uses, then sealing once every bat is out. In Tampa, as everywhere in Florida, that's legal without an FWC permit only from August 15 to April 15, and bats can't be captured, relocated or poisoned. Pro Wildlife Removal inspects first and plans around the season. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion only, Aug 15 to Apr 15", "Free-tails active all year"],
+    "By exclusion: one-way doors on the exits the colony uses, then sealing once every bat is out. In Tampa, as everywhere in Florida, that's legal without an FWC permit only from August 15 to April 15, and bats can't be captured, relocated or poisoned. Pro Wildlife Removal inspects first and plans around the season. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion only, Aug 15 to Apr 15", "Free-tails active all year"],
   localHeading: "What to know about bats in Tampa",
   localIntro: "The City of Tampa says bats live all over the city. Here's what the city and the health department say about them.",
   local: [
@@ -38,7 +38,7 @@ export const batRemovalTampa = servicePlacePage({
   contactsIntro: "Who to call about bats in Tampa, from the agencies' own pages.",
   contacts: [
     { icon: "phone", title: "Bat contact or a bite", text: p("If a bat may have touched anyone, or someone woke up with one in the room, call DOH-Hillsborough at 813-307-8059; the bat may need testing.") },
-    { icon: "users", title: "A colony in the house", text: p("The City of Tampa says wildlife on private property needs a private removal service. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A colony in the house", text: p("The City of Tampa says wildlife on private property needs a private removal service. Call us at (844) 264-6254.") },
     { icon: "map-pin", title: "Rules and permits", text: p("FWC sets the maternity season and issues the permits required for exclusion between April 16 and August 14.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
@@ -63,15 +63,15 @@ export const batRemovalTampa = servicePlacePage({
     ),
     faq(
       "How soon can you look at a bat problem in Tampa?",
-      "Same-day appointments for bat inspections are often available in Tampa. Call (727) 594-7705.",
+      "Same-day appointments for bat inspections are often available in Tampa. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Tampa home?",
-  ctaText: "Bats roosting in a Tampa home? Call (727) 594-7705.",
+  ctaText: "Bats roosting in a Tampa home? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Tampa, FL | Pro Wildlife Removal",
     description:
-      "Bat removal in Tampa, FL: legal exclusion with one-way doors from August 15 to April 15, then sealing, plus Tampa's bats and rabies data. (727) 594-7705.",
+      "Bat removal in Tampa, FL: legal exclusion with one-way doors from August 15 to April 15, then sealing, plus Tampa's bats and rabies data. (844) 264-6254.",
   },
   sources: [
     { title: "City of Tampa: Julian B. Lane Riverfront Park art (bat house built by biologist Steve Barlow, about 4,000 bats; bats throughout the City of Tampa; Brazilian free-tailed bats named, active year-round; rarely bite unless handled; don't handle a bat alone or on the ground)", url: PARK },

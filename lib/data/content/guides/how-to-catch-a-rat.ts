@@ -17,7 +17,7 @@ export const howToCatchARat: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** use snap traps. University of California experts recommend them as a safe, effective and economical way to trap rats. Set plenty of them where rats travel, bait each with a pea-sized amount of food, and keep them away from children and pets. Close the gaps rats use too, or new ones replace them. Call (727) 594-7705.",
+      "**The short answer:** use snap traps. University of California experts recommend them as a safe, effective and economical way to trap rats. Set plenty of them where rats travel, bait each with a pea-sized amount of food, and keep them away from children and pets. Close the gaps rats use too, or new ones replace them. Call (844) 264-6254.",
     ),
     h3("Which rat you have changes where traps go"),
     p(
@@ -45,7 +45,7 @@ export const howToCatchARat: Post = {
     p(
       `Rats breed quickly (see [how fast rats reproduce](/blog/how-fast-do-rats-reproduce/)), and new ones move in wherever the way is open. UF/IFAS Extension says rodent-proofing has to block every possible entry point, and rats get through gaps of about half an inch ([UF/IFAS](${SANTAROSA})). UC IPM advises sealing any opening larger than ¼ inch ([UC IPM](${UC})). If you're catching rats week after week, the openings are the real problem. Our guides to [rats in the walls](/blog/rats-in-the-walls-florida/) and [signs of rats in the attic](/blog/rats-in-attic-signs/) help find them.`,
     ),
-    p("See [rat removal](/services/rat-removal/) and [rats in the attic](/services/rats-in-attic/), or call (727) 594-7705."),
+    p("See [rat removal](/services/rat-removal/) and [rats in the attic](/services/rats-in-attic/), or call (844) 264-6254."),
   ),
   faq: [
     faq(

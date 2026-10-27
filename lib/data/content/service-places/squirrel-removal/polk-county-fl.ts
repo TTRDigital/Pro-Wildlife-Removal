@@ -20,11 +20,11 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
   placeName: "Polk County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-polk-county",
-  heroText: "Running and chewing overhead in a Polk County attic? We find where the squirrels get in, get them out and seal the soffit, vent or roofline gap they used. Call (727) 594-7705.",
+  heroText: "Running and chewing overhead in a Polk County attic? We find where the squirrels get in, get them out and seal the soffit, vent or roofline gap they used. Call (844) 264-6254.",
   answerHeading: "Who removes squirrels from an attic in Polk County?",
   answer:
-    "A private wildlife company. Gray squirrels, which UF/IFAS says easily adapt to urban and residential areas, are listed from Tenoroc near Lakeland to the Upper Hillsborough area. Pro Wildlife Removal finds the opening a squirrel uses, gets it out of the attic and seals the way in. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Gray squirrels common near Lakeland", "Fox squirrels in Polk preserves"],
+    "A private wildlife company. Gray squirrels, which UF/IFAS says easily adapt to urban and residential areas, are listed from Tenoroc near Lakeland to the Upper Hillsborough area. Pro Wildlife Removal finds the opening a squirrel uses, gets it out of the attic and seals the way in. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Gray squirrels common near Lakeland", "Fox squirrels in Polk preserves"],
   localHeading: "What to know about squirrels in Polk County",
   localIntro: "Two kinds of squirrel turn up on Polk's public lands. These facts come from FWC, the water management district, Polk County's park pages and the state health department.",
   local: [
@@ -58,15 +58,15 @@ export const squirrelRemovalPolkCounty = servicePlacePage({
     ),
     faq(
       "How soon can you come out for squirrels in Polk County?",
-      "Same-day appointments for squirrels are often available in Polk County. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in Polk County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Squirrels in your Polk County attic?",
-  ctaText: "Squirrels anywhere in Polk County? Call (727) 594-7705.",
+  ctaText: "Squirrels anywhere in Polk County? Call (844) 264-6254.",
   seo: {
     title: "Squirrel Removal in Polk County, FL | Pro Wildlife Removal",
     description:
-      "Squirrel removal in Polk County, FL: squirrels out of attics, soffits and walls in Lakeland, Winter Haven, Haines City and Lake Wales. Call (727) 594-7705.",
+      "Squirrel removal in Polk County, FL: squirrels out of attics, soffits and walls in Lakeland, Winter Haven, Haines City and Lake Wales. Call (844) 264-6254.",
   },
   sources: [
     { title: "FWC: A management plan for Tenoroc Public Use Area 2018 to 2028, Polk County (two miles northeast of Lakeland; common wildlife include gray squirrel; mammal list includes Sherman's fox squirrel)", url: TENOROC },

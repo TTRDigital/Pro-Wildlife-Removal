@@ -20,11 +20,11 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
   placeName: "Polk County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-polk-county",
-  heroText: "A raccoon in a Polk County attic, crawl space or garage? We get it out the way Florida allows, look for young before anything is closed, and seal the spot it used. Call (727) 594-7705.",
+  heroText: "A raccoon in a Polk County attic, crawl space or garage? We get it out the way Florida allows, look for young before anything is closed, and seal the spot it used. Call (844) 264-6254.",
   answerHeading: "Who gets a raccoon out of a house in Polk County?",
   answer:
-    "Polk County's Sheriff's Office says Animal Control won't take nuisance wildlife calls or collect trapped raccoons, so a raccoon in your attic or under the house is a job for a private company. Pro Wildlife Removal gets it out, checks for kits in spring, and closes the opening it used. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid raccoons: Frostproof, Lakeland", "Kits mostly March and April"],
+    "Polk County's Sheriff's Office says Animal Control won't take nuisance wildlife calls or collect trapped raccoons, so a raccoon in your attic or under the house is a job for a private company. Pro Wildlife Removal gets it out, checks for kits in spring, and closes the opening it used. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid raccoons: Frostproof, Lakeland", "Kits mostly March and April"],
   localHeading: "Polk's rabid raccoons, Davenport to Frostproof",
   localIntro: "These facts about raccoons in Polk come from the Sheriff's Office, the health department, FWC and UF/IFAS.",
   local: [
@@ -41,7 +41,7 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("See a doctor, then report it to DOH-Polk, 863-519-8300, option 4.") },
     { icon: "users", title: "A raccoon attacked a pet", text: p("PCSO Animal Control, 863-577-1762. It responds to wildlife bites and attacks on people or animals.") },
-    { icon: "home", title: "A raccoon in the attic", text: p("A private wildlife company, since Animal Control doesn't take nuisance calls. Call us at (727) 594-7705.") },
+    { icon: "home", title: "A raccoon in the attic", text: p("A private wildlife company, since Animal Control doesn't take nuisance calls. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Trapping a raccoon yourself", href: "/blog/raccoon-trapping-florida/", text: "Trap checks, release sites and the rule changes coming Dec 31, 2026." },
@@ -69,15 +69,15 @@ export const raccoonRemovalPolkCounty = servicePlacePage({
     ),
     faq(
       "How quickly can a Polk County raccoon be dealt with?",
-      "Same-day appointments for raccoons are often available in Polk County. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Polk County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Polk County home?",
-  ctaText: "Raccoon in a Lakeland, Davenport or Frostproof home? Call (727) 594-7705.",
+  ctaText: "Raccoon in a Lakeland, Davenport or Frostproof home? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Polk County, FL | Pro Wildlife Removal",
     description:
-      "Raccoon removal in Polk County, FL: raccoons out of attics and crawl spaces in Lakeland, Winter Haven and Bartow, kits checked first. Call (727) 594-7705.",
+      "Raccoon removal in Polk County, FL: raccoons out of attics and crawl spaces in Lakeland, Winter Haven and Bartow, kits checked first. Call (844) 264-6254.",
   },
   sources: [
     { title: "Polk County Sheriff's Office: Polk County has second confirmed case of rabies in 2024 (April 8, 2024; dog fought a raccoon, Frostproof)", url: `${PCSO}polk-county-news/2024/04/08/polk-county-has-second-confirmed-case-of-rabies-in-2024` },

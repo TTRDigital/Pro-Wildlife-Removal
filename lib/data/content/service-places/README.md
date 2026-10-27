@@ -16,7 +16,7 @@ Model page: `raccoon-removal/tampa-fl.ts`. Copy its shape, never its words.
 
 ## What every page needs
 
-- An answer of 40 to 60 words that answers the search and ends with (727) 594-7705.
+- An answer of 40 to 60 words that answers the search and ends with (844) 264-6254.
 - Six or more local cards. Each card is one true fact about this animal in this place, with its source in `sources`.
   Good sources: FL DOH rabies tables by county and species, county rabies alerts, FWC and SWFWMD land pages,
   county and city park pages, city or county rules on trash, feeding and dead animals on roads, UF/IFAS county
@@ -42,7 +42,7 @@ Model page: `raccoon-removal/tampa-fl.ts`. Copy its shape, never its words.
 
 ## Never
 
-- One company number only: (727) 594-7705. No second company number (no county or city lines). Agency numbers, such as DOH, animal services, code enforcement or a wildlife rehabber, are fine on contact cards.
+- One company number only: (844) 264-6254. No second company number (no county or city lines). Agency numbers, such as DOH, animal services, code enforcement or a wildlife rehabber, are fine on contact cards.
 - No prices or price ranges (Kia, Oct 26): use a "[PLACEHOLDER: ask the client: price range for ...]" block instead. The checker fails on "$" followed by a digit.
 - 24-hour calls (Kia, Oct 26): the company takes calls 24 hours a day, but say it quietly, at most once per page, and only inside the "how soon" FAQ answer, e.g. "Pro Wildlife Removal takes calls 24 hours a day; same-day appointments are often available in [place]." Never in the hero, headings, points, CTA, title or description. No "24/7", "round-the-clock" or "after-hours" anywhere.
 - No "best", "#1", "guaranteed", superlatives, license, insurance or certification claims, street addresses.

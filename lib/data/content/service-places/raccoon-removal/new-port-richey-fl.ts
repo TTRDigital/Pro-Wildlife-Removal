@@ -22,11 +22,11 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-new-port-richey",
   county: "Pasco",
   order: 24,
-  heroText: "A raccoon in a New Port Richey attic, under a river house or tipping the trash cart? We get it out, look for young and seal the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in a New Port Richey attic, under a river house or tipping the trash cart? We get it out, look for young and seal the way in. Call (844) 264-6254.",
   answerHeading: "Who takes care of raccoons in New Port Richey?",
   answer:
-    "New Port Richey sends all animal control matters to Pasco County, and the county's emergency service is for stray pets and dangerous animals. A raccoon living in your attic, chimney or crawl space is a job for a private company. Pro Wildlife Removal removes it, checks for kits and fixes the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Trash Mondays and Thursdays", "Rabid raccoons in 2015"],
+    "New Port Richey sends all animal control matters to Pasco County, and the county's emergency service is for stray pets and dangerous animals. A raccoon living in your attic, chimney or crawl space is a job for a private company. Pro Wildlife Removal removes it, checks for kits and fixes the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Trash Mondays and Thursdays", "Rabid raccoons in 2015"],
   localHeading: "Raccoon records and rules along the Cotee River",
   localIntro: "New Port Richey sits on the Cotee River a few miles from the Gulf. These are the local records and rules behind a raccoon call here.",
   local: [
@@ -42,7 +42,7 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
   contacts: [
     { icon: "home", title: "Missed trash pickup", text: p("J.D. Parker & Sons, (727) 841-4260.") },
     { icon: "users", title: "Aggressive or stray animal outside", text: p("Pasco County Animal Services, 813-929-1212, which handles animal control for the city.") },
-    { icon: "phone", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "phone", title: "A raccoon in your home", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "Before you rent a trap: what Florida law allows and where a raccoon can go." },
@@ -66,11 +66,11 @@ export const raccoonRemovalNewPortRichey = servicePlacePage({
     ),
     faq(
       "Can a New Port Richey raccoon call be seen today?",
-      "Same-day appointments for raccoons are often available in New Port Richey. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in New Port Richey. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your New Port Richey home?",
-  ctaText: "Raccoons in a New Port Richey attic or under a porch? Call (727) 594-7705.",
+  ctaText: "Raccoons in a New Port Richey attic or under a porch? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal New Port Richey, FL | Pro Wildlife Removal",
     description:

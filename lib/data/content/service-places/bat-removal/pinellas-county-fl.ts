@@ -24,11 +24,11 @@ export const batRemovalPinellasCounty = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-pinellas-county",
   order: 10,
   heading: "Bat Removal in Pinellas County, FL",
-  heroText: "Droppings under the eaves or bats leaving a Pinellas roofline at dusk? We find every gap they use and plan a legal exclusion around Florida's maternity season. Call (727) 594-7705.",
+  heroText: "Droppings under the eaves or bats leaving a Pinellas roofline at dusk? We find every gap they use and plan a legal exclusion around Florida's maternity season. Call (844) 264-6254.",
   answerHeading: "How do you get bats out of a house in Pinellas County?",
   answer:
-    "By exclusion: one-way devices let the bats out and keep them from coming back. In Pinellas County, as across Florida, that's only allowed from August 15 to April 15, outside the maternity season. Pro Wildlife Removal inspects Pinellas homes year-round and excludes bats when the law allows. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug 15 to Apr 15", "Rabid bats found 2023, 2024"],
+    "By exclusion: one-way devices let the bats out and keep them from coming back. In Pinellas County, as across Florida, that's only allowed from August 15 to April 15, outside the maternity season. Pro Wildlife Removal inspects Pinellas homes year-round and excludes bats when the law allows. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion Aug 15 to Apr 15", "Rabid bats found 2023, 2024"],
   localHeading: "Bats in Pinellas County",
   localIntro: "Bats are protected in Florida and useful in Pinellas, but the health department wants them out of living spaces. Here's what the local and state agencies say.",
   local: [
@@ -44,7 +44,7 @@ export const batRemovalPinellasCounty = servicePlacePage({
   contacts: [
     { icon: "critter", title: "Injured or grounded bat", text: p("Central Florida Bat Rescue, (727) 459-2472, from the county's rehabilitator list. Don't pick it up bare-handed.") },
     { icon: "phone", title: "Bite, scratch or a bat in the bedroom", text: p("DOH-Pinellas, 727-824-6932, evaluates possible rabies exposures.") },
-    { icon: "home", title: "Bats living in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "home", title: "Bats living in the house", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "Inspection, exclusion devices and sealing: what shapes the price of getting bats out." },
@@ -68,15 +68,15 @@ export const batRemovalPinellasCounty = servicePlacePage({
     ),
     faq(
       "How soon can you inspect for bats in Pinellas County?",
-      "Same-day bat inspections are often available in Pinellas County. Call (727) 594-7705.",
+      "Same-day bat inspections are often available in Pinellas County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Pinellas home?",
-  ctaText: "Bats in a Pinellas roof or wall? Call (727) 594-7705.",
+  ctaText: "Bats in a Pinellas roof or wall? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Pinellas County | Pro Wildlife Removal",
     description:
-      "Bat removal in Pinellas County, FL: legal exclusion outside the April 16 to August 14 maternity season, rabies records and who to call. (727) 594-7705.",
+      "Bat removal in Pinellas County, FL: legal exclusion outside the April 16 to August 14 maternity season, rabies records and who to call. (844) 264-6254.",
   },
   sources: [
     { title: "Florida DOH: Confirmed rabid animals by county and animal, 2023 (Pinellas: 1 bat; total 1)", url: DOH2023 },

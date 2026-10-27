@@ -16,7 +16,7 @@ export const deadAnimalSmell: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** a strong, sweet, rotten smell that's worst in one room usually means a rat, squirrel or other animal died inside a wall, ceiling or attic. Find where it's strongest, remove the carcass with gloves, double-bag it, disinfect the area, then find out how the animal got in. Call (727) 594-7705 if you can't reach it.",
+      "**The short answer:** a strong, sweet, rotten smell that's worst in one room usually means a rat, squirrel or other animal died inside a wall, ceiling or attic. Find where it's strongest, remove the carcass with gloves, double-bag it, disinfect the area, then find out how the animal got in. Call (844) 264-6254 if you can't reach it.",
     ),
     h3("Why it happens"),
     p(
@@ -50,7 +50,7 @@ export const deadAnimalSmell: Post = {
       "**Seal it the right way.** For rats, seal the gaps and then trap any left inside. For bats and other animals, seal only once they're out, so nothing is trapped inside.",
       "**Think twice about poison indoors.** Traps let you find and remove the animal; bait often doesn't.",
     ),
-    p("See [dead animal removal](/services/dead-animal-removal/), [rats in the attic](/services/rats-in-attic/) and [rat removal](/services/rat-removal/), or call (727) 594-7705."),
+    p("See [dead animal removal](/services/dead-animal-removal/), [rats in the attic](/services/rats-in-attic/) and [rat removal](/services/rat-removal/), or call (844) 264-6254."),
   ),
   faq: [
     faq(

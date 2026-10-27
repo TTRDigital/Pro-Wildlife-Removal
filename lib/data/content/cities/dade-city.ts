@@ -9,14 +9,14 @@ export const dadeCity = countyPage({
   name: "Dade City",
   county: "Pasco",
   order: 11,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN DADE CITY",
   summary: "Wildlife removal in Dade City, FL: raccoons, rats, squirrels, opossums, armadillos, snakes, bats and more, in east Pasco.",
-  heroText: "The Pasco County seat, in east Pasco near the Withlacoochee River and the Green Swamp. Call (727) 594-7705.",
+  heroText: "The Pasco County seat, in east Pasco near the Withlacoochee River and the Green Swamp. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife problems in Dade City?",
   answer:
-    "Dade City's own pages don't list an animal control service. Pasco County Animal Services handles pets and strays, and animals living in your home are a job for a private company. Pro Wildlife Removal works in Dade City and east Pasco. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Pasco County seat", "Near the Green Swamp"],
+    "Dade City's own pages don't list an animal control service. Pasco County Animal Services handles pets and strays, and animals living in your home are a job for a private company. Pro Wildlife Removal works in Dade City and east Pasco. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Pasco County seat", "Near the Green Swamp"],
   townsHeading: "Dade City and nearby",
   townsIntro: "Dade City is the Pasco County seat, with about 10,200 residents in 2025. We also cover the east Pasco communities around it.",
   towns: [
@@ -62,15 +62,15 @@ export const dadeCity = countyPage({
     ),
     faq(
       "Will you drive out to Dade City the same day?",
-      "Same-day appointments are often available in Dade City. Call (727) 594-7705.",
+      "Same-day appointments are often available in Dade City. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Dade City?",
-  ctaText: "Dade City homeowners can call (727) 594-7705.",
+  ctaText: "Dade City homeowners can call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Dade City, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Dade City, FL: raccoons, rats, squirrels, opossums and snakes near the Green Swamp, and who to call for what in town. (727) 594-7705.",
+      "Wildlife removal in Dade City, FL: raccoons, rats, squirrels, opossums and snakes near the Green Swamp, and who to call for what in town. (844) 264-6254.",
   },
   sources: [
     S.edr,

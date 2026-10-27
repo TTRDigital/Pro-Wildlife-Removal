@@ -14,7 +14,7 @@ const CDC_CLEANUP = "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.ht
 export const pageExtras: Record<string, Extra> = {
   about: {
     seoDescription:
-      "Pro Wildlife Removal handles bats, rats, raccoons, squirrels and other wildlife in homes across eight Central Florida counties. Call us: (727) 594-7705.",
+      "Pro Wildlife Removal handles bats, rats, raccoons, squirrels and other wildlife in homes across eight Central Florida counties. Call us: (844) 264-6254.",
     sections: [
       {
         _type: "proseSection",
@@ -42,7 +42,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "How do I set up an inspection?",
-            "Call (727) 594-7705, or see the [contact page](/contact-us/) for our email. Same-day appointments are often available.",
+            "Call (844) 264-6254, or see the [contact page](/contact-us/) for our email. Same-day appointments are often available.",
           ),
         ],
       },
@@ -50,7 +50,7 @@ export const pageExtras: Record<string, Extra> = {
   },
   howWeWork: {
     seoDescription:
-      "How Pro Wildlife Removal handles a job: inspection, trapping and removal, and exclusion of entry points. Call (727) 594-7705 to talk the job through.",
+      "How Pro Wildlife Removal handles a job: inspection, trapping and removal, and exclusion of entry points. Call (844) 264-6254 to talk the job through.",
     sections: [
       {
         _type: "faqSection",
@@ -60,7 +60,7 @@ export const pageExtras: Record<string, Extra> = {
         items: [
           faq(
             "What happens first?",
-            "An inspection. The specialist works out which animals are causing the problem and plans the job around them. Call (727) 594-7705 or use the [contact page](/contact-us/) to book one.",
+            "An inspection. The specialist works out which animals are causing the problem and plans the job around them. Call (844) 264-6254 or use the [contact page](/contact-us/) to book one.",
           ),
           faq(
             "How are the animals taken out?",
@@ -97,7 +97,7 @@ export const pageExtras: Record<string, Extra> = {
         items: [
           faq(
             "How soon can someone come out?",
-            "Same-day appointments are often available across our [service area](/service-areas/). Call (727) 594-7705.",
+            "Same-day appointments are often available across our [service area](/service-areas/). Call (844) 264-6254.",
           ),
           faq(
             "What should I tell you when I call?",
@@ -113,7 +113,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "Can I send a message instead of calling?",
-            "Yes. Email customerservice@prowildliferemoval.net with your town and what you've noticed, or call (727) 594-7705. For how a visit goes, see [how we work](/how-we-work/).",
+            "Yes. Email customerservice@prowildliferemoval.net with your town and what you've noticed, or call (844) 264-6254. For how a visit goes, see [how we work](/how-we-work/).",
           ),
         ],
       },

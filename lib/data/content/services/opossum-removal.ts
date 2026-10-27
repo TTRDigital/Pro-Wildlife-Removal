@@ -10,7 +10,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
  * opossum-removal-tampa); Wade decides which URLs redirect here.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const FLYER = "https://myfwc.com/media/28161/livingwithopossums.pdf";
 const UW471 = "https://ask.ifas.ufl.edu/publication/UW471";
 
@@ -37,7 +37,7 @@ export const opossumRemoval: Service = {
       _key: "answer",
       heading: "How do I get rid of an opossum under my house in Florida?",
       text: p(
-        "Remove what draws it (pet food, trash, fallen fruit), make sure the opossum is out, then close the opening with wire mesh. If it won't leave, it can be live-trapped and released only on site or on approved land in the same county. Removing one doesn't stop the next. Call (727) 594-7705.",
+        "Remove what draws it (pet food, trash, fallen fruit), make sure the opossum is out, then close the opening with wire mesh. If it won't leave, it can be live-trapped and released only on site or on approved land in the same county. Removing one doesn't stop the next. Call (844) 264-6254.",
       ),
       points: ["Nearly immune to rabies", "Remove food first", "Wire mesh on gaps", "Strict release rules"],
     },
@@ -175,7 +175,7 @@ export const opossumRemoval: Service = {
       items: [
         faq(
           "Do you handle possum control in Tampa?",
-          "Yes. Opossum control in Tampa works the same as anywhere else we cover: find where the possum gets in under the house, the deck or into the attic, get it out, young included, and close the opening with wire mesh. Call (727) 594-7705.",
+          "Yes. Opossum control in Tampa works the same as anywhere else we cover: find where the possum gets in under the house, the deck or into the attic, get it out, young included, and close the opening with wire mesh. Call (844) 264-6254.",
         ),
         faq(
           "Do opossums carry rabies?",
@@ -216,14 +216,14 @@ export const opossumRemoval: Service = {
       _key: "cta",
       heading: "Opossum under the house?",
       highlight: "under the house?",
-      text: p("Ring (727) 594-7705 whenever you find one. We'll get it out and close the gap."),
+      text: p("Ring (844) 264-6254 whenever you find one. We'll get it out and close the gap."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Opossum Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Opossum under the house, deck or in the attic? Humane removal with mother and young together and openings sealed, across Central Florida. (727) 594-7705.",
+      "Opossum under the house, deck or in the attic? Humane removal with mother and young together and openings sealed, across Central Florida. (844) 264-6254.",
   },
   sources: [
     { title: "FWC: Living with Opossums (only marsupial; mostly nocturnal, daytime activity normal; hiss, drool, growl, play dead with foul smell; don't pick up; scavengers, partly immune to snake venom, eat ticks; secure trash, pet food, seed, fruit, chickens; close access points, wire mesh, motion sprinkler; EPM in horses; 68A-9.010 nuisance take; 24-hour checks; release on site or 40+ acres same county with written permission, or humanely kill; steel trap permit; Gun and Light at Night Permit; removing one doesn't stop others)", url: FLYER },

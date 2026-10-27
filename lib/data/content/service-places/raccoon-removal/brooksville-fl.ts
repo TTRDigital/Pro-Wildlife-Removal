@@ -24,11 +24,11 @@ export const raccoonRemovalBrooksville = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   county: "Hernando",
   order: 42,
-  heroText: "A raccoon in a Brooksville attic, under the porch or in the chicken pen? We get it out, look for young before anything is closed and seal the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in a Brooksville attic, under the porch or in the chicken pen? We get it out, look for young before anything is closed and seal the way in. Call (844) 264-6254.",
   answerHeading: "Who removes raccoons in Brooksville?",
   answer:
-    "A private wildlife company. Hernando County Animal Services lists pet services, not wildlife, and a raccoon denning in a Brooksville attic or crawl space needs a private remover. Pro Wildlife Removal gets it out, checks for young first and seals the opening it used. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid raccoon off Ted Road, 2025", "City trash, city crews"],
+    "A private wildlife company. Hernando County Animal Services lists pet services, not wildlife, and a raccoon denning in a Brooksville attic or crawl space needs a private remover. Pro Wildlife Removal gets it out, checks for young first and seals the opening it used. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid raccoon off Ted Road, 2025", "City trash, city crews"],
   localHeading: "What to know about raccoons in Brooksville",
   localIntro: "DOH-Hernando reported a rabid raccoon in the Brooksville area in 2025. Here is what the records and local rules say.",
   local: [
@@ -45,7 +45,7 @@ export const raccoonRemovalBrooksville = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("See a doctor first, then call DOH-Hernando at 352-540-6812 to report it.") },
     { icon: "home", title: "City trash questions", text: p("City of Brooksville Utilities, 352-540-3860.") },
-    { icon: "users", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "What a homeowner can and can't do with a trapped raccoon under Florida law." },
@@ -69,11 +69,11 @@ export const raccoonRemovalBrooksville = servicePlacePage({
     ),
     faq(
       "Can a raccoon in a Brooksville house be handled today?",
-      "Same-day appointments for raccoons are often available in Brooksville. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Brooksville. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Brooksville home?",
-  ctaText: "Raccoon in a Brooksville attic or garage? Call (727) 594-7705.",
+  ctaText: "Raccoon in a Brooksville attic or garage? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Brooksville, FL | Pro Wildlife Removal",
     description:

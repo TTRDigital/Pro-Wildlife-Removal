@@ -24,11 +24,11 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-marion-county-fl",
   order: 95,
-  heroText: "A raccoon in a Marion County attic, barn or feed room, or into the garbage every night? We remove it, look for young before any opening is sealed, and fix the gap it used. Call (727) 594-7705.",
+  heroText: "A raccoon in a Marion County attic, barn or feed room, or into the garbage every night? We remove it, look for young before any opening is sealed, and fix the gap it used. Call (844) 264-6254.",
   answerHeading: "Who gets raccoons out of Marion County houses and barns?",
   answer:
-    "A private wildlife company. Marion County Animal Services handles strays and bites to pets, and DOH-Marion handles human bites, but a raccoon living in a Marion home or barn is the owner's to have removed. Pro Wildlife Removal takes it out, checks for young and seals the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Raccoon rabies notices every year", "Ocala to Reddick to Belleview"],
+    "A private wildlife company. Marion County Animal Services handles strays and bites to pets, and DOH-Marion handles human bites, but a raccoon living in a Marion home or barn is the owner's to have removed. Pro Wildlife Removal takes it out, checks for young and seals the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Raccoon rabies notices every year", "Ocala to Reddick to Belleview"],
   localHeading: "Marion's raccoon rabies notices, Fellowship to Reddick",
   localIntro: "Raccoons turn up again and again in Marion's rabies notices, from Fellowship and Blitchton to Belleview and Reddick. Here is what DOH-Marion and the state's records show.",
   local: [
@@ -45,7 +45,7 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("See a doctor, then report it to DOH-Marion at 352-629-0137.") },
     { icon: "home", title: "Pets, livestock and strays", text: p("Marion County Animal Services, 352-671-8727.") },
-    { icon: "users", title: "A raccoon in the house or barn", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A raccoon in the house or barn", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "Florida's rules for a raccoon once it's trapped, from release sites to rabies alerts." },
@@ -69,11 +69,11 @@ export const raccoonRemovalMarionCounty = servicePlacePage({
     ),
     faq(
       "Can someone come out today for a Marion County raccoon?",
-      "Same-day appointments for raccoons are often available in Marion County. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Marion County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Marion County home?",
-  ctaText: "A raccoon in a Marion house or barn? Call (727) 594-7705.",
+  ctaText: "A raccoon in a Marion house or barn? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Marion County, FL | Pro Wildlife Removal",
     description:

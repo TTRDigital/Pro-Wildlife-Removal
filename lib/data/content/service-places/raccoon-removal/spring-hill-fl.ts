@@ -22,11 +22,11 @@ export const raccoonRemovalSpringHill = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-spring-hill-fl",
   county: "Hernando",
   order: 30,
-  heroText: "A raccoon denning under a Spring Hill house, in the attic or raiding the blue cart? We get it out, look for young first and seal how it got in. Call (727) 594-7705.",
+  heroText: "A raccoon denning under a Spring Hill house, in the attic or raiding the blue cart? We get it out, look for young first and seal how it got in. Call (844) 264-6254.",
   answerHeading: "Who removes raccoons from Spring Hill homes?",
   answer:
-    "A private wildlife company. Hernando County Animal Services, part of the Sheriff's Office, lists pet services like surrenders, lost pets and dangerous dogs; wildlife isn't among them. For a raccoon in a Spring Hill attic or under the house, Pro Wildlife Removal takes it out, checks for young and closes the gap it used. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Spring Hill rabies alert, June 2026", "Lids closed, by county rule"],
+    "A private wildlife company. Hernando County Animal Services, part of the Sheriff's Office, lists pet services like surrenders, lost pets and dangerous dogs; wildlife isn't among them. For a raccoon in a Spring Hill attic or under the house, Pro Wildlife Removal takes it out, checks for young and closes the gap it used. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Spring Hill rabies alert, June 2026", "Lids closed, by county rule"],
   localHeading: "Raccoons, rabies and garbage rules in Spring Hill",
   localIntro: "Spring Hill had a raccoon-linked rabies alert in 2026, and Hernando's garbage rules are written with scavenging animals in mind. Here are the local facts.",
   local: [
@@ -43,7 +43,7 @@ export const raccoonRemovalSpringHill = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care, then report it to DOH-Hernando at 352-540-6812.") },
     { icon: "users", title: "A raccoon bit your pet", text: p("See a vet, then call Hernando County Animal Services at 352-796-5062, as DOH-Hernando asks.") },
-    { icon: "home", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "home", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "Florida's rules on trapping a raccoon yourself, and where it can and can't be let go." },
@@ -67,11 +67,11 @@ export const raccoonRemovalSpringHill = servicePlacePage({
     ),
     faq(
       "Can you come to a Spring Hill raccoon call today?",
-      "Same-day appointments for raccoons are often available in Spring Hill. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Spring Hill. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Spring Hill home?",
-  ctaText: "Raccoon in a Spring Hill attic or lanai? Call (727) 594-7705.",
+  ctaText: "Raccoon in a Spring Hill attic or lanai? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Spring Hill, FL | Pro Wildlife Removal",
     description:

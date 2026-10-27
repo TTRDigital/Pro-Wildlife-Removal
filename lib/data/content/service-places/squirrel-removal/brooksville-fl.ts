@@ -24,11 +24,11 @@ export const squirrelRemovalBrooksville = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-service-in-brooksville-fl",
   county: "Hernando",
   order: 41,
-  heroText: "Squirrels chewing into a Brooksville roofline or racing across the attic every morning? We find the hole, get them and any young out, and seal the entry. Call (727) 594-7705.",
+  heroText: "Squirrels chewing into a Brooksville roofline or racing across the attic every morning? We find the hole, get them and any young out, and seal the entry. Call (844) 264-6254.",
   answerHeading: "Who gets squirrels out of Brooksville attics?",
   answer:
-    "A private wildlife company. Brooksville sits among state forest and wildlife areas where FWC lists squirrels, and FWC says the gray squirrel will sometimes nest in an attic when it finds a way in. Pro Wildlife Removal looks for that way in, removes the squirrels and any nest, and seals the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Fox squirrel country", "Gray squirrels sometimes nest in attics"],
+    "A private wildlife company. Brooksville sits among state forest and wildlife areas where FWC lists squirrels, and FWC says the gray squirrel will sometimes nest in an attic when it finds a way in. Pro Wildlife Removal looks for that way in, removes the squirrels and any nest, and seals the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Fox squirrel country", "Gray squirrels sometimes nest in attics"],
   localHeading: "What to know about squirrels in Brooksville",
   localIntro: "State forest and wildlife areas surround Brooksville. Here is where FWC and the forest service say its squirrels live.",
   local: [
@@ -63,11 +63,11 @@ export const squirrelRemovalBrooksville = servicePlacePage({
     ),
     faq(
       "Can you check a Brooksville attic for squirrels today?",
-      "Same-day appointments for squirrels are often available in Brooksville. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in Brooksville. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Squirrels in your Brooksville attic?",
-  ctaText: "Squirrels chewing into a Brooksville attic? Call (727) 594-7705.",
+  ctaText: "Squirrels chewing into a Brooksville attic? Call (844) 264-6254.",
   seo: {
     title: "Squirrel Removal in Brooksville, FL | Pro Wildlife Removal",
     description:

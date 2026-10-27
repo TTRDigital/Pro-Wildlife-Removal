@@ -23,11 +23,11 @@ export const raccoonRemovalOcala = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-ocala-fl",
   county: "Marion",
   order: 93,
-  heroText: "A raccoon in an Ocala attic, under the deck or in the garbage every night? We get it out, check for young first, then seal the way in. Call (727) 594-7705.",
+  heroText: "A raccoon in an Ocala attic, under the deck or in the garbage every night? We get it out, check for young first, then seal the way in. Call (844) 264-6254.",
   answerHeading: "Who removes raccoons from Ocala homes?",
   answer:
-    "A private wildlife company. DOH-Marion's alerts point Ocala residents to Marion County Animal Services for strays and bitten pets and to the health department for bites; neither is named for a raccoon in the attic. Pro Wildlife Removal gets the raccoon out of an Ocala home, checks for young and seals the opening. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Three Ocala-area raccoon alerts since 2024", "Never handle a raccoon"],
+    "A private wildlife company. DOH-Marion's alerts point Ocala residents to Marion County Animal Services for strays and bitten pets and to the health department for bites; neither is named for a raccoon in the attic. Pro Wildlife Removal gets the raccoon out of an Ocala home, checks for young and seals the opening. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Three Ocala-area raccoon alerts since 2024", "Never handle a raccoon"],
   localHeading: "What to know about raccoons in Ocala",
   localIntro: "Rabid raccoons have set off three DOH-Marion alerts in and around Ocala since 2024, and more across the county. Here is what the records show.",
   local: [
@@ -43,7 +43,7 @@ export const raccoonRemovalOcala = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care, then report it to DOH-Marion at 352-629-0137.") },
     { icon: "home", title: "A pet bitten, or a stray", text: p("Marion County Animal Services, 352-671-8727.") },
-    { icon: "users", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A raccoon in the house", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "raccoons-in-attic", label: "Raccoons in the attic" },
   extraLink: { label: "Raccoon trapping in Florida", href: "/blog/raccoon-trapping-florida/", text: "What Florida law lets a homeowner do with a trapped raccoon, and what it doesn't." },
@@ -67,11 +67,11 @@ export const raccoonRemovalOcala = servicePlacePage({
     ),
     faq(
       "How fast can you respond to an Ocala raccoon call?",
-      "Same-day appointments for raccoons are often available in Ocala. Call (727) 594-7705.",
+      "Same-day appointments for raccoons are often available in Ocala. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Raccoon in your Ocala home?",
-  ctaText: "Raccoon in an Ocala attic or shed? Call (727) 594-7705.",
+  ctaText: "Raccoon in an Ocala attic or shed? Call (844) 264-6254.",
   seo: {
     title: "Raccoon Removal in Ocala, FL | Pro Wildlife Removal",
     description:

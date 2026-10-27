@@ -28,11 +28,11 @@ export const squirrelRemovalLandOLakes = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-land-o-lakes",
   county: "Pasco",
   order: 99,
-  heroText: "Squirrels on the roof, in the attic or raiding the bird feeder in Land O' Lakes? We get them out of the house, check for young before closing anything and seal the openings. Call (727) 594-7705.",
+  heroText: "Squirrels on the roof, in the attic or raiding the bird feeder in Land O' Lakes? We get them out of the house, check for young before closing anything and seal the openings. Call (844) 264-6254.",
   answerHeading: "Who gets squirrels out of homes in Land O' Lakes?",
   answer:
-    "A private wildlife company. Gray squirrels in a Land O' Lakes attic or soffit are the homeowner's to have removed; fox squirrels, which live in nearby preserves, may not be taken under FWC rules. Pro Wildlife Removal gets gray squirrels out, checks for young and seals the openings. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Fox squirrels at Cypress Creek", "Gray squirrels on rooftops"],
+    "A private wildlife company. Gray squirrels in a Land O' Lakes attic or soffit are the homeowner's to have removed; fox squirrels, which live in nearby preserves, may not be taken under FWC rules. Pro Wildlife Removal gets gray squirrels out, checks for young and seals the openings. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Fox squirrels at Cypress Creek", "Gray squirrels on rooftops"],
   localHeading: "What to know about squirrels in Land O' Lakes",
   localIntro: "Gray squirrels turn up on Land O' Lakes rooftops and feeders, and fox squirrels live in the preserves around town. Here is what the records show.",
   local: [
@@ -47,7 +47,7 @@ export const squirrelRemovalLandOLakes = servicePlacePage({
   contactsIntro: "Who handles what when squirrels are the problem in Land O' Lakes.",
   contacts: [
     { icon: "map-pin", title: "Fox squirrel questions", text: p("FWC's Southwest Region office, which covers Pasco, 863-648-3200.") },
-    { icon: "users", title: "Squirrels in your attic", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Squirrels in your attic", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "squirrels-in-attic", label: "Squirrels in the attic" },
   extraLink: { label: "Squirrel poop vs rat poop", href: "/blog/squirrel-poop-vs-rat-poop-how-to-spot-the-difference/", text: "Not sure what's in the attic? Start with what it left behind." },
@@ -71,11 +71,11 @@ export const squirrelRemovalLandOLakes = servicePlacePage({
     ),
     faq(
       "How soon can you come out for squirrels in Land O' Lakes?",
-      "Same-day appointments for squirrels are often available in Land O' Lakes. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in Land O' Lakes. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Squirrels in your Land O' Lakes attic?",
-  ctaText: "Land O' Lakes squirrel calls go to (727) 594-7705.",
+  ctaText: "Land O' Lakes squirrel calls go to (844) 264-6254.",
   seo: {
     title: "Squirrel Removal in Land O' Lakes, FL | Pro Wildlife Removal",
     description:

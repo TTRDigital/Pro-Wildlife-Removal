@@ -10,7 +10,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
  * raccoon-removal-tampa); Wade decides which URLs redirect here.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 
 export const raccoonRemoval: Service = {
   slug: "raccoon-removal",
@@ -35,7 +35,7 @@ export const raccoonRemoval: Service = {
       _key: "answer",
       heading: "How do you get a raccoon out of the attic in Florida?",
       text: p(
-        "Find out whether there are babies, remove the raccoons by live trap, one-way door or by hand, keeping mother and young together, then seal the entry. In spring, assume a mother with kits. A trapped raccoon may only be released on site or on 40+ contiguous acres in the same county with written permission. Call (727) 594-7705.",
+        "Find out whether there are babies, remove the raccoons by live trap, one-way door or by hand, keeping mother and young together, then seal the entry. In spring, assume a mother with kits. A trapped raccoon may only be released on site or on 40+ contiguous acres in the same county with written permission. Call (844) 264-6254.",
       ),
       points: ["Check for babies", "Births March to April", "Strict release rules", "Entry sealed"],
     },
@@ -194,7 +194,7 @@ export const raccoonRemoval: Service = {
       _key: "areas",
       eyebrow: "Areas served",
       heading: "Raccoon removal across Central Florida",
-      intro: p("Tampa, St. Petersburg, Clearwater and every town on the list below, in 8 counties. One number covers them all: (727) 594-7705."),
+      intro: p("Tampa, St. Petersburg, Clearwater and every town on the list below, in 8 counties. One number covers them all: (844) 264-6254."),
       groups: countyGroups,
     },
     {
@@ -258,14 +258,14 @@ export const raccoonRemoval: Service = {
       _key: "cta",
       heading: "Raccoon in the attic?",
       highlight: "attic?",
-      text: p("Call (727) 594-7705. We'll check for babies before anything else."),
+      text: p("Call (844) 264-6254. We'll check for babies before anything else."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Raccoon Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus every entry sealed, anywhere in Central Florida. (727) 594-7705.",
+      "Raccoon in the attic or soffit? Humane removal with mother and young kept together, plus every entry sealed, anywhere in Central Florida. (844) 264-6254.",
   },
   sources: [
     { title: "UF/IFAS EDIS WEC-34 (UW033): Northern Raccoon (births in Florida generally March and April; litters 3-4, up to 7; dens in attics, crawl spaces, under mobile homes and decks; open chimneys are common entry points; fewer than 1 in 200 wild raccoons exposed to rabies)", url: "https://ask.ifas.ufl.edu/publication/UW033" },

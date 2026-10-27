@@ -22,14 +22,14 @@ export const ladyLake = countyPage({
   name: "Lady Lake",
   county: "Lake",
   order: 15,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN LADY LAKE",
   summary: "Wildlife removal in Lady Lake and Lake County, FL: rodents, squirrels, raccoons, bats, opossums, snakes and armadillos.",
-  heroText: "A Lake County town on US 441, next door to The Villages, where the town's own rules on trash and stray-cat feeding bear on rodents and raccoons. Call (727) 594-7705.",
+  heroText: "A Lake County town on US 441, next door to The Villages, where the town's own rules on trash and stray-cat feeding bear on rodents and raccoons. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife in Lady Lake, FL?",
   answer:
-    "A private company. Lady Lake moved its animal control to the Lake County Sheriff's Office in 2024, and the town's page covers pets and strays, not wildlife. For rodents, squirrels, raccoons or bats in a Lady Lake home, Pro Wildlife Removal finds the way in, removes them as Florida law allows and seals the entry points. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Animal control: Lake County Sheriff", "Feeding stray cats is banned"],
+    "A private company. Lady Lake moved its animal control to the Lake County Sheriff's Office in 2024, and the town's page covers pets and strays, not wildlife. For rodents, squirrels, raccoons or bats in a Lady Lake home, Pro Wildlife Removal finds the way in, removes them as Florida law allows and seals the entry points. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Animal control: Lake County Sheriff", "Feeding stray cats is banned"],
   townsHeading: "Lady Lake and Lake County",
   townsIntro: "Florida's EDR puts Lady Lake at 16,978 people in April 2025, in a Lake County of 445,881. We take wildlife removal calls in Lady Lake and across Lake County.",
   towns: [
@@ -86,15 +86,15 @@ export const ladyLake = countyPage({
     ),
     faq(
       "How soon can someone reach Lady Lake?",
-      "Same-day appointments are often available in Lady Lake. Call (727) 594-7705.",
+      "Same-day appointments are often available in Lady Lake. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife in your Lady Lake home?",
-  ctaText: "Anywhere in Lady Lake or Lake County, call (727) 594-7705.",
+  ctaText: "Anywhere in Lady Lake or Lake County, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Lady Lake, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Lady Lake and Lake County, FL: rodents, squirrels, raccoons and bats, plus the town's trash and stray-cat rules. Call (727) 594-7705.",
+      "Wildlife removal in Lady Lake and Lake County, FL: rodents, squirrels, raccoons and bats, plus the town's trash and stray-cat rules. Call (844) 264-6254.",
   },
   sources: [
     { title: "Town of Lady Lake: Animal Control (animal services through the Lake County Sheriff's Office Animal Enforcement Unit, 352-343-2101 ext. 5; feeding stray cats against town ordinance; Community Caturday 352-343-9688)", url: ANIMAL_CONTROL },

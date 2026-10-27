@@ -6,13 +6,13 @@ export const hillsborough = countyPage({
   name: "Hillsborough County",
   county: "Hillsborough",
   order: 4,
-  phone: { label: "Call 727-594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call 844-264-6254", href: "tel:+18442646254" },
   summary: "Wildlife removal across Hillsborough County: Tampa, Brandon, Riverview, Plant City, Temple Terrace and the communities between.",
   heroText: "Tampa and its suburbs on one side, farms and preserve land on the other. Half the county's land is still rural, and the wildlife moves between the two.",
   answerHeading: "Who removes wildlife in Hillsborough County?",
   answer:
-    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows and seal it. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Tampa to Plant City", "Four rabid bats in 2025"],
+    "Pro Wildlife Removal handles bats, rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals throughout Hillsborough County, from Tampa and Temple Terrace to Brandon, Riverview and Plant City. We find the entry, remove the animal the way Florida law allows and seal it. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Tampa to Plant City", "Four rabid bats in 2025"],
   townsHeading: "Hillsborough towns we cover",
   townsIntro: "Tampa is the county seat and largest city. About 69% of county residents live outside city limits, in places like Brandon and Riverview.",
   towns: [
@@ -69,7 +69,7 @@ export const hillsborough = countyPage({
   faqs: [
     faq(
       "Who do I call for an animal in my Hillsborough County home?",
-      "Call (727) 594-7705. Same-day appointments are often available in Hillsborough County.",
+      "Call (844) 264-6254. Same-day appointments are often available in Hillsborough County.",
     ),
     faq(
       "Has rabies been found in Hillsborough County recently?",
@@ -89,11 +89,11 @@ export const hillsborough = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Hillsborough?",
-  ctaText: "Anywhere in Hillsborough, call (727) 594-7705.",
+  ctaText: "Anywhere in Hillsborough, call (844) 264-6254.",
   seo: {
     title: "Hillsborough County Wildlife Removal | Pro Wildlife Removal",
     description:
-      "Wildlife removal across Hillsborough County: Tampa, Brandon, Riverview, Plant City and Temple Terrace. Bats, rats, raccoons and snakes: (727) 594-7705.",
+      "Wildlife removal across Hillsborough County: Tampa, Brandon, Riverview, Plant City and Temple Terrace. Bats, rats, raccoons and snakes: (844) 264-6254.",
   },
   sources: [
     S.censusPop,

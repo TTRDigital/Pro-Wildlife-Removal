@@ -23,11 +23,11 @@ export const squirrelRemovalSilverSprings = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-silver-springs-fl",
   county: "Marion",
   order: 97,
-  heroText: "Squirrels running in a Silver Springs attic, chewing the fascia or nesting in the soffit? We get them out, check for young and seal the way in. Call (727) 594-7705.",
+  heroText: "Squirrels running in a Silver Springs attic, chewing the fascia or nesting in the soffit? We get them out, check for young and seal the way in. Call (844) 264-6254.",
   answerHeading: "Who gets squirrels out of a Silver Springs attic?",
   answer:
-    "A private wildlife company. In Silver Springs, a gray squirrel nesting in an attic or soffit is the homeowner's to have removed. Pro Wildlife Removal gets the squirrels out, checks for young before closing anything and seals the openings they used. Fox squirrels are a different case: FWC says they may not be taken. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Three squirrels in the park", "Fox squirrels protected"],
+    "A private wildlife company. In Silver Springs, a gray squirrel nesting in an attic or soffit is the homeowner's to have removed. Pro Wildlife Removal gets the squirrels out, checks for young before closing anything and seals the openings they used. Fox squirrels are a different case: FWC says they may not be taken. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Three squirrels in the park", "Fox squirrels protected"],
   localHeading: "What to know about squirrels in Silver Springs",
   localIntro: "Silver Springs State Park's plans keep a close eye on its squirrels, from nuisance gray squirrels to Sherman's fox squirrels. Here is what they say.",
   local: [
@@ -42,7 +42,7 @@ export const squirrelRemovalSilverSprings = servicePlacePage({
   contactsIntro: "Who handles what when squirrels are the problem in Silver Springs.",
   contacts: [
     { icon: "map-pin", title: "Fox squirrel questions", text: p("FWC's Northeast Region office in Ocala, 352-732-1225.") },
-    { icon: "users", title: "Squirrels in your attic", text: p("A private wildlife company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Squirrels in your attic", text: p("A private wildlife company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "squirrels-in-attic", label: "Squirrels in the attic" },
   extraLink: { label: "Squirrel poop vs rat poop", href: "/blog/squirrel-poop-vs-rat-poop-how-to-spot-the-difference/", text: "How to tell which animal left droppings on the insulation." },
@@ -66,11 +66,11 @@ export const squirrelRemovalSilverSprings = servicePlacePage({
     ),
     faq(
       "How soon can you come out for squirrels in Silver Springs?",
-      "Same-day appointments for squirrels are often available in Silver Springs. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in Silver Springs. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Squirrels in your Silver Springs attic?",
-  ctaText: "Silver Springs squirrel calls go to (727) 594-7705.",
+  ctaText: "Silver Springs squirrel calls go to (844) 264-6254.",
   seo: {
     title: "Squirrel Removal Silver Springs, FL | Pro Wildlife Removal",
     description:

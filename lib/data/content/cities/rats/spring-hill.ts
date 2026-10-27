@@ -8,16 +8,16 @@ export const springHillRatsInput = {
   name: "Spring Hill",
   county: "Hernando",
   order: 39,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "RAT REMOVAL IN SPRING HILL",
   heading: "Rat Removal in Spring Hill, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Spring Hill, FL: roof rats sealed out and trapped, plus Hernando County's garbage and yard rules that keep rats away.",
-  heroText: "Rats in a Spring Hill attic or garage? We seal the way in and trap the rats still inside. Call (727) 594-7705.",
+  heroText: "Rats in a Spring Hill attic or garage? We seal the way in and trap the rats still inside. Call (844) 264-6254.",
   answerHeading: "Will Hernando County remove rats from a Spring Hill house?",
   answer:
-    "Spring Hill is unincorporated Hernando County, and the county doesn't remove rats from homes. That's a job for a private company. Pro Wildlife Removal seals the openings rats use and traps the ones still inside. Hernando's garbage rules help keep them from coming back. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "County: lids closed", "Grass limit 18 inches"],
+    "Spring Hill is unincorporated Hernando County, and the county doesn't remove rats from homes. That's a job for a private company. Pro Wildlife Removal seals the openings rats use and traps the ones still inside. Hernando's garbage rules help keep them from coming back. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "County: lids closed", "Grass limit 18 inches"],
   townsHeading: "Rat removal near Spring Hill",
   townsIntro: "We take rat calls across Hernando County, and handle every other animal in Spring Hill too.",
   towns: [
@@ -64,15 +64,15 @@ export const springHillRatsInput = {
     ),
     faq(
       "Can you get to a Spring Hill rat problem the same day?",
-      "Same-day rat inspections are often available in Spring Hill. Call (727) 594-7705.",
+      "Same-day rat inspections are often available in Spring Hill. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Spring Hill home?",
-  ctaText: "Hearing rats overhead in Spring Hill? Call (727) 594-7705.",
+  ctaText: "Hearing rats overhead in Spring Hill? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Spring Hill, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Spring Hill, FL: roof rats sealed out and trapped inside homes, plus Hernando County's lid, yard waste and code rules. Call (727) 594-7705.",
+      "Rat removal in Spring Hill, FL: roof rats sealed out and trapped inside homes, plus Hernando County's lid, yard waste and code rules. Call (844) 264-6254.",
   },
   sources: [
     { title: "Hernando County: Garbage (cart lids must be closed to prevent scavenging of animals; bag all trash; curbside no earlier than 6 p.m. the day before; scattered loose trash is the customer's responsibility)", url: "https://www.hernandocounty.us/living-here/garbage-recycling/residential-collection/garbage/" },

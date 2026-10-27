@@ -8,13 +8,13 @@ export const tampa = countyPage({
   name: "Tampa",
   county: "Hillsborough",
   order: 28,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN TAMPA",
   summary: "Wildlife removal in Tampa: rats, bats, raccoons, squirrels, snakes, bees and more, from South Tampa to New Tampa.",
-  heroText: "Tampa sits on the bay and the Hillsborough River, with mangroves and preserves inside city limits and wildlife in plenty of attics. Call (727) 594-7705.",
+  heroText: "Tampa sits on the bay and the Hillsborough River, with mangroves and preserves inside city limits and wildlife in plenty of attics. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Tampa?",
   answer:
-    "In Tampa, wildlife on private property is a job for a private removal company: the city's own page says so. Pro Wildlife Removal handles rats, bats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across the city. Call (727) 594-7705.",
+    "In Tampa, wildlife on private property is a job for a private removal company: the city's own page says so. Pro Wildlife Removal handles rats, bats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across the city. Call (844) 264-6254.",
   points: ["Private property: call a company", "Hillsborough County", "Bees first found at Port of Tampa"],
   townsHeading: "Tampa and nearby",
   townsIntro: "Tampa is the Hillsborough County seat and, at about 412,700 people, its largest city. We also cover the communities around it.",
@@ -67,11 +67,11 @@ export const tampa = countyPage({
     ),
     faq(
       "How fast can you get to me in Tampa?",
-      "Same-day appointments are often available in Tampa. Call (727) 594-7705.",
+      "Same-day appointments are often available in Tampa. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Tampa?",
-  ctaText: "Tampa calls go to (727) 594-7705.",
+  ctaText: "Tampa calls go to (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Tampa, FL | Pro Wildlife Removal",
     description:

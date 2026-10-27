@@ -21,7 +21,7 @@ export const batsInBarrelTileRoof: Post = {
   image: images.batRemoval2,
   body: rich(
     p(
-      "**The short answer:** bats under barrel tiles are often Brazilian free-tailed bats, which UF/IFAS says live throughout Florida. Look for stains, droppings and bats leaving at dusk. Without a permit they can only be removed by exclusion, from August 15 to April 15, unless they're Florida bonneted bats, which can't be excluded at all. Call (727) 594-7705.",
+      "**The short answer:** bats under barrel tiles are often Brazilian free-tailed bats, which UF/IFAS says live throughout Florida. Look for stains, droppings and bats leaving at dusk. Without a permit they can only be removed by exclusion, from August 15 to April 15, unless they're Florida bonneted bats, which can't be excluded at all. Call (844) 264-6254.",
     ),
     h3("Why bats choose tile roofs"),
     p(

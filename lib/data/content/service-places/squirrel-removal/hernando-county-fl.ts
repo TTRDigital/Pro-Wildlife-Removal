@@ -23,11 +23,11 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-hernando-county-fl",
   order: 53,
-  heroText: "Squirrels in the soffit, chewed fascia or scurrying overhead during the day? We find where they got into your Hernando home, get them and any young out and seal the opening. Call (727) 594-7705.",
+  heroText: "Squirrels in the soffit, chewed fascia or scurrying overhead during the day? We find where they got into your Hernando home, get them and any young out and seal the opening. Call (844) 264-6254.",
   answerHeading: "Who removes squirrels from Hernando County homes?",
   answer:
-    "A private wildlife company. FWC says eastern gray squirrels will sometimes nest in attics or other structures when they can get in. Pro Wildlife Removal finds the entry, removes the squirrels and any nest of young, and seals the opening it used. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Fox squirrels on three FWC areas", "Litters up to twice a year"],
+    "A private wildlife company. FWC says eastern gray squirrels will sometimes nest in attics or other structures when they can get in. Pro Wildlife Removal finds the entry, removes the squirrels and any nest of young, and seals the opening it used. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Fox squirrels on three FWC areas", "Litters up to twice a year"],
   localHeading: "Gray and fox squirrels on Hernando's state lands",
   localIntro: "Hernando's state lands are home to both gray and fox squirrels. Here is where official pages say they live, and what that means for a homeowner.",
   local: [
@@ -61,11 +61,11 @@ export const squirrelRemovalHernandoCounty = servicePlacePage({
     ),
     faq(
       "How quickly can you get to squirrels in a Hernando County attic?",
-      "Same-day appointments for squirrels are often available in Hernando County. Call (727) 594-7705.",
+      "Same-day appointments for squirrels are often available in Hernando County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Squirrels in your Hernando County attic?",
-  ctaText: "Gray squirrels in a Hernando attic? Call (727) 594-7705.",
+  ctaText: "Gray squirrels in a Hernando attic? Call (844) 264-6254.",
   seo: {
     title: "Squirrel Removal Hernando County, FL | Pro Wildlife Removal",
     description:

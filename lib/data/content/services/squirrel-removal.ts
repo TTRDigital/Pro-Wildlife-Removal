@@ -10,7 +10,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
  * tampa-squirrel-removal); Wade decides which URLs redirect here.
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const FLYER = "https://myfwc.com/media/tydhegay/livingwithsquirrels.pdf";
 
 export const squirrelRemoval: Service = {
@@ -36,7 +36,7 @@ export const squirrelRemoval: Service = {
       _key: "answer",
       heading: "How do you get squirrels out of the attic in Florida?",
       text: p(
-        "Check for a nest of young first, then get the squirrels out with a one-way door or cage traps, and seal every gap along the roofline. Florida squirrels have litters in spring and autumn. A trapped squirrel can only be released on site or on approved land in the same county. Call (727) 594-7705.",
+        "Check for a nest of young first, then get the squirrels out with a one-way door or cage traps, and seal every gap along the roofline. Florida squirrels have litters in spring and autumn. A trapped squirrel can only be released on site or on approved land in the same county. Call (844) 264-6254.",
       ),
       points: ["Daytime noise", "Litters spring and fall", "Gray and flying only", "Roofline sealed"],
     },
@@ -251,14 +251,14 @@ export const squirrelRemoval: Service = {
       _key: "cta",
       heading: "Squirrels running in the attic?",
       highlight: "in the attic?",
-      text: p("Call (727) 594-7705. We'll find the hole and close it properly."),
+      text: p("Call (844) 264-6254. We'll find the hole and close it properly."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Squirrel Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Squirrels in the attic? We check for babies, remove squirrels the way Florida law allows and seal the chewed entries in Central Florida. (727) 594-7705.",
+      "Squirrels in the attic? We check for babies, remove squirrels the way Florida law allows and seal the chewed entries in Central Florida. (844) 264-6254.",
   },
   sources: [
     { title: "FWC: Living with Squirrels flyer, June 2026 (three native species; breed twice a year, spring and autumn; teeth grow constantly; common entry points; trim limbs; squirrel in the house; 68A-9.010 nuisance take of gray and flying squirrels; cage traps; 24-hour checks; release on site or 40+ acres same county with written permission, or euthanize; Big Cypress fox squirrel needs a permit; Dec 31, 2026 rule change)", url: FLYER },

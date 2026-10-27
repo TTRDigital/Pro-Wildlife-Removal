@@ -10,16 +10,16 @@ export const safetyHarborRatsInput = {
   name: "Safety Harbor",
   county: "Pinellas",
   order: 38,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "RAT REMOVAL IN SAFETY HARBOR",
   heading: "Rat Removal in Safety Harbor, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Safety Harbor, FL: rats sealed out and trapped, plus what the city says about rat poison and glue traps.",
-  heroText: "Rats in a Safety Harbor attic or wall? We seal the gaps and trap the rats inside. Call (727) 594-7705.",
+  heroText: "Rats in a Safety Harbor attic or wall? We seal the gaps and trap the rats inside. Call (844) 264-6254.",
   answerHeading: "How do you get rid of rats in Safety Harbor?",
   answer:
-    "Seal the gaps, remove what feeds them and trap the rats left inside. Safety Harbor says no rat poison is truly safe, warns against anticoagulant baits and says never to use glue traps. Pro Wildlife Removal seals and traps across the city. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City: no poison is truly safe", "No glue traps"],
+    "Seal the gaps, remove what feeds them and trap the rats left inside. Safety Harbor says no rat poison is truly safe, warns against anticoagulant baits and says never to use glue traps. Pro Wildlife Removal seals and traps across the city. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "City: no poison is truly safe", "No glue traps"],
   townsHeading: "Rat removal near Safety Harbor",
   townsIntro: "Safety Harbor's neighbors in north Pinellas can call us about rats too. In Safety Harbor itself, we handle every other animal as well.",
   towns: [
@@ -45,7 +45,7 @@ export const safetyHarborRatsInput = {
   contactsIntro: "The Sanitation Division covers barrels and dead animals on city roads. Rats in the house are a private hire.",
   contacts: [
     { icon: "home", title: "Sanitation Division", text: p("727-724-1550, for barrels, missed pickups and dead animals on city roads.") },
-    { icon: "users", title: "Rats inside your home", text: p("The city asks residents who hire help to choose exterminators who don't use anticoagulant rodenticides. Call us at (727) 594-7705.", "[PLACEHOLDER: ask the client: which rodenticides, if any, do you use?]") },
+    { icon: "users", title: "Rats inside your home", text: p("The city asks residents who hire help to choose exterminators who don't use anticoagulant rodenticides. Call us at (844) 264-6254.", "[PLACEHOLDER: ask the client: which rodenticides, if any, do you use?]") },
   ],
   servicesIntro: "Rats aside, here's every other animal we take out of Safety Harbor homes.",
   servicesHeading: "Safety Harbor animals we remove besides rats",
@@ -67,15 +67,15 @@ export const safetyHarborRatsInput = {
     ),
     faq(
       "Could you inspect for rats in Safety Harbor today?",
-      "Same-day rat inspections are often available in Safety Harbor. Call (727) 594-7705.",
+      "Same-day rat inspections are often available in Safety Harbor. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Safety Harbor home?",
-  ctaText: "Rats in a Safety Harbor attic, garage or shed? Call (727) 594-7705.",
+  ctaText: "Rats in a Safety Harbor attic, garage or shed? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Safety Harbor, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Safety Harbor, FL: rats sealed out and trapped inside, plus what the city says about rat poison, glue traps and owls. Call (727) 594-7705.",
+      "Rat removal in Safety Harbor, FL: rats sealed out and trapped inside, plus what the city says about rat poison, glue traps and owls. Call (844) 264-6254.",
   },
   sources: [
     { title: "City of Safety Harbor: Protecting our wildlife (no safe rat poison; poison increases rodent population long term; kills dogs and cats and predators; never glue or sticky traps; snap traps or electronic zappers; owl nest box, 1,400 rodents a year; keep bins closed, remove pet food, birdseed, fallen fruit; safer rodenticides and preventive measures)", url: WILDLIFE },

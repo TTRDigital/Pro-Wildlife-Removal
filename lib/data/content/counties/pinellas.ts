@@ -6,13 +6,13 @@ export const pinellas = countyPage({
   name: "Pinellas County",
   county: "Pinellas",
   order: 6,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   summary: "Wildlife removal across Pinellas County, from St. Petersburg to Tarpon Springs: bats, rats, raccoons, squirrels, snakes and more.",
-  heroText: "A densely built Florida county, with 588 miles of coastline and wildlife that has learned to live between the houses. Call (727) 594-7705.",
+  heroText: "A densely built Florida county, with 588 miles of coastline and wildlife that has learned to live between the houses. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Pinellas County?",
   answer:
-    "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Call (727) 594-7705. [PLACEHOLDER: ask the client: confirm every job includes inspection and sealing]",
-  points: ["Call (727) 594-7705", "St. Pete to Tarpon Springs", "Entry points sealed"],
+    "Pro Wildlife Removal handles bats, roof rats, raccoons, squirrels, snakes, opossums, armadillos, bees and dead animals across Pinellas County, from St. Petersburg and Clearwater to Palm Harbor and Dunedin. Call (844) 264-6254. [PLACEHOLDER: ask the client: confirm every job includes inspection and sealing]",
+  points: ["Call (844) 264-6254", "St. Pete to Tarpon Springs", "Entry points sealed"],
   townsHeading: "Pinellas towns we cover",
   townsIntro: "Clearwater is the county seat and St. Petersburg the largest city. Tap a town for its own page where there is one.",
   towns: [
@@ -51,7 +51,7 @@ export const pinellas = countyPage({
   faqs: [
     faq(
       "What's the number for wildlife removal in Pinellas County?",
-      "Call (727) 594-7705. Same-day appointments are often available in Pinellas County.",
+      "Call (844) 264-6254. Same-day appointments are often available in Pinellas County.",
     ),
     faq(
       "Who do I call about a stray dog or cat, or an animal bite in Pinellas?",
@@ -75,11 +75,11 @@ export const pinellas = countyPage({
     ),
   ],
   ctaHeading: "Wildlife problem in Pinellas?",
-  ctaText: "Anywhere in Pinellas, call (727) 594-7705.",
+  ctaText: "Anywhere in Pinellas, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Pinellas County | Pro Wildlife Removal",
     description:
-      "Bat, rat, raccoon, squirrel and snake removal in Pinellas County: St. Petersburg, Clearwater, Largo, Dunedin, Palm Harbor and more. Call (727) 594-7705.",
+      "Bat, rat, raccoon, squirrel and snake removal in Pinellas County: St. Petersburg, Clearwater, Largo, Dunedin, Palm Harbor and more. Call (844) 264-6254.",
   },
   sources: [
     { title: "Pinellas County: About Pinellas, facts (280 square miles; 588 miles of coastline; 3,425 people per square mile; Clearwater is the county seat; St. Petersburg largest city)", url: "https://pinellas.gov/about-pinellas-facts/" },

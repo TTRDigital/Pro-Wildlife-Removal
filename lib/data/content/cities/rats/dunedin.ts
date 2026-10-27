@@ -10,16 +10,16 @@ export const dunedinRatsInput = {
   name: "Dunedin",
   county: "Pinellas",
   order: 34,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "RAT REMOVAL IN DUNEDIN",
   heading: "Rat Removal in Dunedin, FL",
   highlight: "Rat Removal",
   summary: "Rat removal in Dunedin, FL: rats sealed out and trapped, plus Dunedin's own garbage advice for keeping rodents away.",
-  heroText: "Rats in a Dunedin attic or wall? We find how they get in, close it off and trap the ones inside. Call (727) 594-7705.",
+  heroText: "Rats in a Dunedin attic or wall? We find how they get in, close it off and trap the ones inside. Call (844) 264-6254.",
   answerHeading: "Who gets rid of rats in Dunedin?",
   answer:
-    "The City of Dunedin doesn't list a rat removal service, so rats inside a home are a job for a private company. The city's own trash rules are written with rodents in mind. We close up the entry points and trap the rats still inside the house. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "City: bag your garbage", "Pickup once a week"],
+    "The City of Dunedin doesn't list a rat removal service, so rats inside a home are a job for a private company. The city's own trash rules are written with rodents in mind. We close up the entry points and trap the rats still inside the house. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "City: bag your garbage", "Pickup once a week"],
   townsHeading: "Rat removal near Dunedin",
   townsIntro: "Rat calls from Dunedin's north Pinellas neighbors come to us as well, and so does every other animal in Dunedin.",
   towns: [
@@ -45,7 +45,7 @@ export const dunedinRatsInput = {
   contactsIntro: "Carts, bagging and bulk waste go through Dunedin Solid Waste; rats in the house come to us.",
   contacts: [
     { icon: "home", title: "Dunedin Solid Waste", text: p("(727) 298-3215, for missed pickups, carts and bulk waste.") },
-    { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats inside your home", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   servicesIntro: "Rats are one job. These are the other animals we take out of Dunedin homes.",
   servicesHeading: "More than rats: animals we remove around Dunedin",
@@ -66,15 +66,15 @@ export const dunedinRatsInput = {
     ),
     faq(
       "Can someone look at our Dunedin rat problem today?",
-      "Same-day rat inspections are often available in Dunedin. Call (727) 594-7705.",
+      "Same-day rat inspections are often available in Dunedin. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Dunedin home?",
-  ctaText: "Rats in a Dunedin attic or garage? Call (727) 594-7705.",
+  ctaText: "Rats in a Dunedin attic or garage? Call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Dunedin, FL | Pro Wildlife Removal",
     description:
-      "Rat removal in Dunedin, FL: rats sealed out of attics and walls and trapped inside, plus Dunedin's own garbage advice to keep rodents away. (727) 594-7705.",
+      "Rat removal in Dunedin, FL: rats sealed out of attics and walls and trapped inside, plus Dunedin's own garbage advice to keep rodents away. (844) 264-6254.",
   },
   sources: [
     { title: "City of Dunedin: Residential trash, yard and bulk waste (once a week; bag household garbage to avoid attracting bugs and rodents; carts off the curb by 7 a.m. the day after; Solid Waste (727) 298-3215)", url: TRASH },

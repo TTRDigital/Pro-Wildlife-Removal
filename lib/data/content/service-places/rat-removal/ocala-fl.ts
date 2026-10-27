@@ -24,11 +24,11 @@ export const ratRemovalOcala = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-ocala-fl",
   county: "Marion",
   order: 92,
-  heroText: "Scratching in the ceiling, droppings in the pantry, chewed wires in the garage? We find how rats are getting into Ocala homes, seal the gaps we find and trap the ones inside. Call (727) 594-7705.",
+  heroText: "Scratching in the ceiling, droppings in the pantry, chewed wires in the garage? We find how rats are getting into Ocala homes, seal the gaps we find and trap the ones inside. Call (844) 264-6254.",
   answerHeading: "Who gets rid of rats in an Ocala home?",
   answer:
-    "A private company. DOH-Marion handles sanitary nuisance complaints and gives rodent advice, but rats inside an Ocala house are the owner's to deal with. Pro Wildlife Removal looks for the openings rats use, seals them and traps the rats left inside. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Trash limit: seven days", "13 closures, 2022 to 2025"],
+    "A private company. DOH-Marion handles sanitary nuisance complaints and gives rodent advice, but rats inside an Ocala house are the owner's to deal with. Pro Wildlife Removal looks for the openings rats use, seals them and traps the rats left inside. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Trash limit: seven days", "13 closures, 2022 to 2025"],
   localHeading: "What to know about rats in Ocala",
   localIntro: "Ocala's restaurant inspection records show rodents turning up across the city, and the city and DOH-Marion both have rules and advice that bear on them. Here is what they say.",
   local: [
@@ -43,7 +43,7 @@ export const ratRemovalOcala = servicePlacePage({
   contactsIntro: "Who handles what when rats are the problem in Ocala, from DOH-Marion's own pages.",
   contacts: [
     { icon: "search", title: "Sanitary nuisance complaints", text: p("DOH-Marion Environmental Public Health, 352-622-7744, for garbage, dead animals and other conditions under Florida Statute 386.041.") },
-    { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats in your home", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
   extraLink: { label: "Wildlife removal costs", href: "/blog/how-much-does-wildlife-removal-cost/", text: "What changes the price of a rat job in Ocala: the number of openings and how hard they are to reach." },
@@ -67,11 +67,11 @@ export const ratRemovalOcala = servicePlacePage({
     ),
     faq(
       "How soon can you come out for rats in Ocala?",
-      "Same-day appointments for rats are often available in Ocala. Call (727) 594-7705.",
+      "Same-day appointments for rats are often available in Ocala. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Ocala home?",
-  ctaText: "For rats anywhere in Ocala, call (727) 594-7705.",
+  ctaText: "For rats anywhere in Ocala, call (844) 264-6254.",
   seo: {
     title: "Rat Removal in Ocala, FL | Pro Wildlife Removal",
     description:

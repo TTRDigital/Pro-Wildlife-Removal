@@ -16,7 +16,7 @@ export const doBatsHibernateInFlorida: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** not the way bats up north do. UF/IFAS says bats are active year-round in Florida. That's why fall and winter are the season to get them out of a house, as long as the nights are warm enough: FWC requires overnight lows of 50°F or warmer during an exclusion. Call (727) 594-7705.",
+      "**The short answer:** not the way bats up north do. UF/IFAS says bats are active year-round in Florida. That's why fall and winter are the season to get them out of a house, as long as the nights are warm enough: FWC requires overnight lows of 50°F or warmer during an exclusion. Call (844) 264-6254.",
     ),
     h3("Florida bats in winter"),
     p(

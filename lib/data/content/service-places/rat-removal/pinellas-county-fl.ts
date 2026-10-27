@@ -23,11 +23,11 @@ export const ratRemovalPinellasCounty = servicePlacePage({
   location: "about-us/service-area/wildlife-removal-pinellas-county",
   order: 10,
   heading: "Rat Removal in Pinellas County, FL",
-  heroText: "Scratching overhead in a Pinellas home, from St. Pete to Tarpon Springs? We find the gaps rats use, trap the ones already inside and seal the house. Call (727) 594-7705.",
+  heroText: "Scratching overhead in a Pinellas home, from St. Pete to Tarpon Springs? We find the gaps rats use, trap the ones already inside and seal the house. Call (844) 264-6254.",
   answerHeading: "Who removes rats from Pinellas County houses?",
   answer:
-    "In Pinellas County, rats inside a house are the occupant's or owner's job, and in most rentals Florida law puts extermination on the landlord. Cities like St. Petersburg help only outdoors. Pro Wildlife Removal finds how rats get into Pinellas homes, traps the ones inside and seals the openings. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Renters: the landlord's job", "Poison killed park owls"],
+    "In Pinellas County, rats inside a house are the occupant's or owner's job, and in most rentals Florida law puts extermination on the landlord. Cities like St. Petersburg help only outdoors. Pro Wildlife Removal finds how rats get into Pinellas homes, traps the ones inside and seals the openings. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Renters: the landlord's job", "Poison killed park owls"],
   localHeading: "What Pinellas County says about rats",
   localIntro: "The county Extension office, the county code and two Pinellas cities all weigh in on rats and the safest way to fight them.",
   local: [
@@ -44,7 +44,7 @@ export const ratRemovalPinellasCounty = servicePlacePage({
   contacts: [
     { icon: "building", title: "Trash piled on a neighbor's lot", text: p("Pinellas County Public Works, (727) 464-8900, routes garbage complaints on private property to County Code Enforcement.") },
     { icon: "map-pin", title: "Rats outdoors in St. Pete", text: p("St. Petersburg Sanitation, 727-893-7398, schedules the city's Rodent Control Technicians.") },
-    { icon: "users", title: "Rats inside your home", text: p("That's work for a private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "Rats inside your home", text: p("That's work for a private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "rats-in-attic", label: "Rats in the attic" },
   reviewsIntro: "[PLACEHOLDER: a real Google review from a Pinellas County rat job, quoted exactly as on Google (TTR-723)]",
@@ -67,15 +67,15 @@ export const ratRemovalPinellasCounty = servicePlacePage({
     ),
     faq(
       "How soon can you get to a rat problem in Pinellas County?",
-      "Same-day rat inspections are often available in Pinellas County. Call (727) 594-7705.",
+      "Same-day rat inspections are often available in Pinellas County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Rats in your Pinellas home?",
-  ctaText: "Anywhere in Pinellas County, rat calls go to (727) 594-7705.",
+  ctaText: "Anywhere in Pinellas County, rat calls go to (844) 264-6254.",
   seo: {
     title: "Rat Removal in Pinellas County | Pro Wildlife Removal",
     description:
-      "Rat removal in Pinellas County, FL: roof rats trapped and sealed out, county rules for renters, and why local experts warn against poison. (727) 594-7705.",
+      "Rat removal in Pinellas County, FL: roof rats trapped and sealed out, county rules for renters, and why local experts warn against poison. (844) 264-6254.",
   },
   sources: [
     { title: "UF/IFAS Extension Pinellas: Rodent management options in and around the home, July 25, 2022 (owls in local parks, including the great horned owls at Philippe Park, died of rodenticide poisoning per necropsy; \"bird-friendly\" rodenticides don't exist; SGARs commercial only and remain in tissue for months; rodent proofing; remove garbage, pet food, bird feed, fallen fruits)", url: RODENTS },

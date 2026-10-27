@@ -12,7 +12,7 @@ export const extra_whatKeepsRatsAway: PostExtra = {
   slug: "what-keeps-rats-away",
   seoDescription: "What keeps rats away from a Florida home? Sealed gaps, food in tight bins, trimmed limbs and fixed leaks, plus a look at peppermint and other remedies.",
   more: p(
-    "Keeping rats away mostly comes down to closing the gaps they use. To learn more, see [how big of a hole a rat needs](/blog/how-big-of-a-hole-does-a-rat-need/), how [rat exclusion](/blog/rat-exclusion-prevent-reinfestation-and-damage/) keeps them from moving back in, and how to recognize [Florida roof rats](/blog/florida-roof-rats-identification-control-costs/). If they have already settled in overhead, read about [rats in the attic](/services/rats-in-attic/) or our [rat removal](/services/rat-removal/) service in Central Florida. Call (727) 594-7705.",
+    "Keeping rats away mostly comes down to closing the gaps they use. To learn more, see [how big of a hole a rat needs](/blog/how-big-of-a-hole-does-a-rat-need/), how [rat exclusion](/blog/rat-exclusion-prevent-reinfestation-and-damage/) keeps them from moving back in, and how to recognize [Florida roof rats](/blog/florida-roof-rats-identification-control-costs/). If they have already settled in overhead, read about [rats in the attic](/services/rats-in-attic/) or our [rat removal](/services/rat-removal/) service in Central Florida. Call (844) 264-6254.",
   ),
   faq: [
     faq(

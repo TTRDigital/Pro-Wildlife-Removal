@@ -18,7 +18,7 @@ export const whoToCallForBatRemoval: Post = {
   image: images.batRemovalBlogImage,
   body: rich(
     p(
-      "**The short answer:** it depends. One bat flying in a room can usually be let out a window. If it may have touched anyone, call your county health department first. A hurt bat goes to a wildlife rehabilitator, and a colony in the attic has to be removed by exclusion, which a wildlife removal company can do: (727) 594-7705.",
+      "**The short answer:** it depends. One bat flying in a room can usually be let out a window. If it may have touched anyone, call your county health department first. A hurt bat goes to a wildlife rehabilitator, and a colony in the attic has to be removed by exclusion, which a wildlife removal company can do: (844) 264-6254.",
     ),
     h3("Who to call, by situation"),
     table(
@@ -51,7 +51,7 @@ export const whoToCallForBatRemoval: Post = {
     p(
       `Bats roosting in an attic, soffit or tile roof have to be excluded: one-way devices let them leave, and the openings are closed after. FWC allows exclusion only from August 15 to April 15, with devices up for at least four nights when lows are forecast at 50°F or warmer, and it doesn't allow poison, fumigants, or catching and relocating bats ([FWC](${FWC_BATS})). Our [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat maternity season](/blog/bat-maternity-season-guide/) guides explain the timing, and [bats under barrel tile roofs](/blog/bats-in-barrel-tile-roof-florida/) covers tile homes.`,
     ),
-    p("See [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/), or call (727) 594-7705."),
+    p("See [bat removal](/services/bat-removal/) and [bats in the attic](/services/bats-in-attic/), or call (844) 264-6254."),
   ),
   faq: [
     faq(

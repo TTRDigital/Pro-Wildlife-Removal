@@ -21,11 +21,11 @@ export const batRemovalHernandoCounty = servicePlacePage({
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-in-hernando-county-fl",
   order: 51,
-  heroText: "Bats roosting in a Hernando County attic, barn or soffit? We look for the gaps bats use, let them out through one-way devices when the season allows and seal the openings. Call (727) 594-7705.",
+  heroText: "Bats roosting in a Hernando County attic, barn or soffit? We look for the gaps bats use, let them out through one-way devices when the season allows and seal the openings. Call (844) 264-6254.",
   answerHeading: "How are bats removed from a home in Hernando County?",
   answer:
-    "Through exclusion: one-way devices at the entry points let the colony fly out and stop it from getting back in. FWC allows that without a permit only from August 15 to April 15, and bans killing, poisoning or relocating bats. Pro Wildlife Removal looks for the gaps in a Hernando home, fits the devices and seals up. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Exclusion Aug. 15 to April 15", "Several hundred bats at Chinsegut"],
+    "Through exclusion: one-way devices at the entry points let the colony fly out and stop it from getting back in. FWC allows that without a permit only from August 15 to April 15, and bans killing, poisoning or relocating bats. Pro Wildlife Removal looks for the gaps in a Hernando home, fits the devices and seals up. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Exclusion Aug. 15 to April 15", "Several hundred bats at Chinsegut"],
   localHeading: "Hernando County bats, from Chinsegut to the rabies tables",
   localIntro: "Hernando has a public bat colony at an FWC wildlife area, and none of the state's 2022 to 2025 county tables, or their surveillance footnotes, list a rabid bat from Hernando. These are the local facts.",
   local: [
@@ -43,7 +43,7 @@ export const batRemovalHernandoCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten, scratched or touched", text: p("DOH-Hernando, 352-540-6812, or 352-540-6863 for bite reports.") },
     { icon: "map-pin", title: "Exclusion questions", text: p("FWC's Southwest Region office, which covers Hernando: 863-648-3200.") },
-    { icon: "users", title: "A colony in your building", text: p("A private company. Call us at (727) 594-7705.") },
+    { icon: "users", title: "A colony in your building", text: p("A private company. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "Bat removal cost in Florida", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "How colony size, roof type and the season shape the cost of a bat job." },
@@ -67,11 +67,11 @@ export const batRemovalHernandoCounty = servicePlacePage({
     ),
     faq(
       "How quickly can a Hernando County bat colony be looked at?",
-      "Same-day appointments for bats are often available in Hernando County. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Hernando County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Hernando County home?",
-  ctaText: "Bats in a Hernando roof? Call (727) 594-7705.",
+  ctaText: "Bats in a Hernando roof? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Hernando County, FL | Pro Wildlife Removal",
     description:

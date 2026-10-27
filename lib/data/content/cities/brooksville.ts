@@ -22,14 +22,14 @@ export const brooksville = countyPage({
   name: "Brooksville",
   county: "Hernando",
   order: 9,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   eyebrow: "WILDLIFE REMOVAL IN BROOKSVILLE",
   summary: "Wildlife removal in Brooksville, FL: raccoons, rats, bats, squirrels, opossums, snakes and more, in Hernando County's only city.",
-  heroText: "Hernando's county seat, ringed by hills and pasture, with FWC land at Chinsegut to the north. Call (727) 594-7705.",
+  heroText: "Hernando's county seat, ringed by hills and pasture, with FWC land at Chinsegut to the north. Call (844) 264-6254.",
   answerHeading: "Who removes wildlife in Brooksville, FL?",
   answer:
-    "Usually a private company. HCSO Animal Services handles pets and strays, and the city runs its own garbage collection. For raccoons, rats, bats or squirrels in your attic, walls or garage, Pro Wildlife Removal finds the way in, removes the animals legally and seals the entry points. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid raccoon off Ted Road, 2025", "Bat colony at Chinsegut"],
+    "Usually a private company. HCSO Animal Services handles pets and strays, and the city runs its own garbage collection. For raccoons, rats, bats or squirrels in your attic, walls or garage, Pro Wildlife Removal finds the way in, removes the animals legally and seals the entry points. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid raccoon off Ted Road, 2025", "Bat colony at Chinsegut"],
   townsHeading: "Brooksville and nearby",
   townsIntro: "Brooksville is the only incorporated city in Hernando County. We cover the city, the country roads around it and the rest of the county.",
   towns: [
@@ -81,15 +81,15 @@ export const brooksville = countyPage({
     ),
     faq(
       "Can someone reach my Brooksville house today?",
-      "Same-day appointments are often available in Brooksville. Pro Wildlife Removal takes calls 24 hours a day at (727) 594-7705.",
+      "Same-day appointments are often available in Brooksville. Pro Wildlife Removal takes calls 24 hours a day at (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife in your Brooksville home?",
-  ctaText: "Anywhere in Brooksville, call (727) 594-7705.",
+  ctaText: "Anywhere in Brooksville, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Brooksville, FL | Pro Wildlife Removal",
     description:
-      "Brooksville wildlife removal: raccoons, rats, bats and squirrels, plus a Ted Road rabies advisory, Chinsegut's bat colony and who to call. (727) 594-7705.",
+      "Brooksville wildlife removal: raccoons, rats, bats and squirrels, plus a Ted Road rabies advisory, Chinsegut's bat colony and who to call. (844) 264-6254.",
   },
   sources: [
     { title: "DOH-Hernando: Rabies advisory, June 2, 2025 (rabid raccoon killed in the Brooksville area off Ted Road, May 28, 2025; rabies may be present in the wild animal population; do not handle or feed wild animals)", url: TED_ROAD },

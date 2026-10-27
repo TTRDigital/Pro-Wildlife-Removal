@@ -14,13 +14,13 @@ export const marion = countyPage({
   name: "Marion County",
   county: "Marion",
   order: 8,
-  phone: { label: "Call (727) 594-7705", href: "tel:+17275947705" },
+  phone: { label: "Call (844) 264-6254", href: "tel:+18442646254" },
   summary: "Wildlife removal in Marion County: Ocala, Belleview, Dunnellon, Silver Springs, Summerfield and the Marion side of The Villages.",
-  heroText: "Ocala, Belleview, Dunnellon and the country around them, where DOH-Marion has issued raccoon rabies notices from Reddick to Belleview in 2026. Call (727) 594-7705.",
+  heroText: "Ocala, Belleview, Dunnellon and the country around them, where DOH-Marion has issued raccoon rabies notices from Reddick to Belleview in 2026. Call (844) 264-6254.",
   answerHeading: "Who handles wildlife removal in Marion County?",
   answer:
-    "Marion County Animal Services handles pets, strays and animal bites to pets, and the health department handles human bites. Raccoons, rats, bats and squirrels living in a home are a job for a private company. Pro Wildlife Removal works across Marion County, from Ocala and Belleview to Dunnellon. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Six rabid raccoons in 2025", "Four 2026 raccoon notices"],
+    "Marion County Animal Services handles pets, strays and animal bites to pets, and the health department handles human bites. Raccoons, rats, bats and squirrels living in a home are a job for a private company. Pro Wildlife Removal works across Marion County, from Ocala and Belleview to Dunnellon. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Six rabid raccoons in 2025", "Four 2026 raccoon notices"],
   townsHeading: "Marion towns we cover",
   townsIntro: "Florida's population tables list Belleview, Dunnellon, McIntosh, Ocala and Reddick as Marion's municipalities. We also cover communities like Silver Springs and Summerfield, and the Marion side of The Villages.",
   towns: [
@@ -93,15 +93,15 @@ export const marion = countyPage({
     ),
     faq(
       "How fast can you reach a home in Marion County?",
-      "Same-day appointments are often available in Marion County. Call (727) 594-7705.",
+      "Same-day appointments are often available in Marion County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Wildlife problem in Marion County?",
-  ctaText: "Anywhere in Marion County, call (727) 594-7705.",
+  ctaText: "Anywhere in Marion County, call (844) 264-6254.",
   seo: {
     title: "Wildlife Removal in Marion County, FL | Pro Wildlife Removal",
     description:
-      "Wildlife removal in Marion County, FL: Ocala, Belleview, Dunnellon, Silver Springs and Summerfield. Raccoons, rats, bats and squirrels: (727) 594-7705.",
+      "Wildlife removal in Marion County, FL: Ocala, Belleview, Dunnellon, Silver Springs and Summerfield. Raccoons, rats, bats and squirrels: (844) 264-6254.",
   },
   sources: [
     { title: "Florida EDR: April 1, 2025 population estimates, Table 1 (Marion County 433,765; 2020 Census 375,908; municipalities Belleview, Dunnellon, McIntosh, Ocala, Reddick)", url: "https://www.edr.state.fl.us/Content/population-demographics/data/Estimates2025.pdf" },

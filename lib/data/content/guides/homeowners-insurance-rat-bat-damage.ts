@@ -21,7 +21,7 @@ export const homeownersInsuranceRatBatDamage: Post = {
   author: "Josh Holmberg",
   body: rich(
     p(
-      "**The short answer:** usually not. The national insurance regulators' group says damage from rats and other infestations isn't typically covered, and a widely used sample policy form (ISO's HO-3) lists vermin and rodents as an exclusion. But policies differ, so read yours and ask your insurer before you assume anything. Call (727) 594-7705 to have the animals removed.",
+      "**The short answer:** usually not. The national insurance regulators' group says damage from rats and other infestations isn't typically covered, and a widely used sample policy form (ISO's HO-3) lists vermin and rodents as an exclusion. But policies differ, so read yours and ask your insurer before you assume anything. Call (844) 264-6254 to have the animals removed.",
     ),
     h3("What the consumer guides say"),
     ul(

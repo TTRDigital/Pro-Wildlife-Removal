@@ -20,7 +20,7 @@ export const wildlifeRemovalCost: Post = {
   image: images.howMuchDoesWildlifeRemovalCostBlogImageE17020697,
   body: rich(
     p(
-      "**The short answer:** there's no single price for wildlife removal. What you pay depends on the animal and Florida's rules for it, how many openings the house has, how hard they are to reach and how much cleanup the animal left. Call (727) 594-7705 for a free inspection.",
+      "**The short answer:** there's no single price for wildlife removal. What you pay depends on the animal and Florida's rules for it, how many openings the house has, how hard they are to reach and how much cleanup the animal left. Call (844) 264-6254 for a free inspection.",
     ),
     h3("The four things that set the price"),
     table(
@@ -54,7 +54,7 @@ export const wildlifeRemovalCost: Post = {
     ),
     h3("How to compare quotes"),
     p("Ask every company the same questions: Is every opening included, or only the one the animal used? Is cleanup included or extra? How many return visits does trapping include? What happens if the animal gets back in? Two quotes that answer those differently aren't for the same job."),
-    p("Find your animal on our [services page](/services/), or call (727) 594-7705. County pages for [Pinellas](/service-areas/pinellas-county/), [Pasco](/service-areas/pasco-county/) and [Hernando](/service-areas/hernando-county/) list who handles what locally."),
+    p("Find your animal on our [services page](/services/), or call (844) 264-6254. County pages for [Pinellas](/service-areas/pinellas-county/), [Pasco](/service-areas/pasco-county/) and [Hernando](/service-areas/hernando-county/) list who handles what locally."),
   ),
   faq: [
     faq("Why can't you give me a price over the phone?", "Most companies need to see the roof and attic first, because the openings and the cleanup decide most of the price."),

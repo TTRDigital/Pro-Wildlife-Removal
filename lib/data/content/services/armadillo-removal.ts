@@ -10,7 +10,7 @@ import { TRAP_RULES_2026, TRAP_RULES_SOURCE } from "../notes.ts";
  * armadillo-removal-tampa); those 301 here (lib/service-urls.ts).
  */
 
-const CALL = { label: "Call (727) 594-7705", href: "tel:+17275947705" };
+const CALL = { label: "Call (844) 264-6254", href: "tel:+18442646254" };
 const FLYER = "https://myfwc.com/media/2hshpfdc/living-with-armadillos.pdf";
 
 export const armadilloRemoval: Service = {
@@ -36,7 +36,7 @@ export const armadilloRemoval: Service = {
       _key: "answer",
       heading: "How do I get rid of an armadillo in my yard in Florida?",
       text: p(
-        "Trap it at its active burrow, then make the yard less inviting. Poison baits are illegal, and no repellents or fumigants are registered for armadillos in Florida. A trapped armadillo must be released on site, on 40 or more contiguous acres in the same county with the landowner's written permission, or humanely put down. Call (727) 594-7705.",
+        "Trap it at its active burrow, then make the yard less inviting. Poison baits are illegal, and no repellents or fumigants are registered for armadillos in Florida. A trapped armadillo must be released on site, on 40 or more contiguous acres in the same county with the landowner's written permission, or humanely put down. Call (844) 264-6254.",
       ),
       points: ["Trap at the burrow", "Poison baits illegal", "No registered repellents", "Strict release rules"],
     },
@@ -207,14 +207,14 @@ export const armadilloRemoval: Service = {
       _key: "cta",
       heading: "Armadillo tearing up the yard?",
       highlight: "the yard?",
-      text: p("Call (727) 594-7705. We'll find the burrow and set traps where it walks."),
+      text: p("Call (844) 264-6254. We'll find the burrow and set traps where it walks."),
       ctas: [CALL],
     },
   ],
   seo: {
     title: "Armadillo Removal in Central Florida | Pro Wildlife Removal",
     description:
-      "Armadillo digging up the lawn or burrowing under a patio or shed? Armadillo trapping and Florida's rules for homeowners in Central Florida. (727) 594-7705.",
+      "Armadillo digging up the lawn or burrowing under a patio or shed? Armadillo trapping and Florida's rules for homeowners in Central Florida. (844) 264-6254.",
   },
   sources: [
     { title: "FWC: Living with Armadillos flyer, Dec 2025 (naturalized native; several burrows per acre; holes up to a foot across; mostly nocturnal, poor eyesight, eat grubs, spiders, cockroaches; less water and fertilizer, morning irrigation; fence 2 ft high, 18 in deep; fermenting fruit; light or radio at burrow; 68A-9.010; 24-hour checks; release on site or 40+ contiguous acres same county with written permission; removing one doesn't stop others)", url: FLYER },

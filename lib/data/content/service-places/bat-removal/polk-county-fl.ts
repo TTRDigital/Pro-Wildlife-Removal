@@ -20,11 +20,11 @@ export const batRemovalPolkCounty = servicePlacePage({
   placeName: "Polk County",
   placeKind: "county",
   location: "about-us/service-area/wildlife-removal-polk-county",
-  heroText: "Bats roosting in a Polk County roofline, attic or soffit? We find every gap they use, let them fly out through one-way devices when the law allows, and seal the house behind them. Call (727) 594-7705.",
+  heroText: "Bats roosting in a Polk County roofline, attic or soffit? We find every gap they use, let them fly out through one-way devices when the law allows, and seal the house behind them. Call (844) 264-6254.",
   answerHeading: "Who removes bats from a house in Polk County?",
   answer:
-    "Bats in a Polk County home need a private wildlife company: the Sheriff's Office says Animal Control doesn't take nuisance wildlife calls. Pro Wildlife Removal finds where bats enter, fits one-way exclusion devices outside FWC's April 16 to August 14 maternity season, then seals the gaps. Call (727) 594-7705.",
-  points: ["Call (727) 594-7705", "Rabid bats in Lakeland and Lake Wales", "No exclusions Apr 16 to Aug 14 without a permit"],
+    "Bats in a Polk County home need a private wildlife company: the Sheriff's Office says Animal Control doesn't take nuisance wildlife calls. Pro Wildlife Removal finds where bats enter, fits one-way exclusion devices outside FWC's April 16 to August 14 maternity season, then seals the gaps. Call (844) 264-6254.",
+  points: ["Call (844) 264-6254", "Rabid bats in Lakeland and Lake Wales", "No exclusions Apr 16 to Aug 14 without a permit"],
   localHeading: "Polk's rabid bats, from Lake Wales to Lakeland",
   localIntro: "These facts about bats in Polk come from the state health department, the Sheriff's Office and FWC.",
   local: [
@@ -41,7 +41,7 @@ export const batRemovalPolkCounty = servicePlacePage({
   contacts: [
     { icon: "phone", title: "Bitten or scratched", text: p("Get medical care, then report it to DOH-Polk at 863-519-8300, option 4.") },
     { icon: "users", title: "A pet or person touched a bat", text: p("PCSO Animal Control, 863-577-1762. The Sheriff's Office says it always takes bites involving a possible rabies carrier.") },
-    { icon: "home", title: "Bats living in the house", text: p("A private wildlife company. Animal Control doesn't handle nuisance wildlife. Call us at (727) 594-7705.") },
+    { icon: "home", title: "Bats living in the house", text: p("A private wildlife company. Animal Control doesn't handle nuisance wildlife. Call us at (844) 264-6254.") },
   ],
   attic: { slug: "bats-in-attic", label: "Bats in the attic" },
   extraLink: { label: "What bat removal costs", href: "/blog/how-much-does-bat-removal-cost-in-florida/", text: "What goes into the price of a bat exclusion in Florida." },
@@ -69,11 +69,11 @@ export const batRemovalPolkCounty = servicePlacePage({
     ),
     faq(
       "Can a Polk County bat problem be inspected the day I call?",
-      "Same-day appointments for bats are often available in Polk County. Call (727) 594-7705.",
+      "Same-day appointments for bats are often available in Polk County. Call (844) 264-6254.",
     ),
   ],
   ctaHeading: "Bats in your Polk County home?",
-  ctaText: "Bats in a Polk home, Lakeland to Lake Wales? Call (727) 594-7705.",
+  ctaText: "Bats in a Polk home, Lakeland to Lake Wales? Call (844) 264-6254.",
   seo: {
     title: "Bat Removal in Polk County, FL | Pro Wildlife Removal",
     description:
