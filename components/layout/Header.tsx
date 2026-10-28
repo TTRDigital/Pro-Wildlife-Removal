@@ -93,8 +93,8 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
                   </Link>
                   {item.children?.some((c) => c.group) ? (
                     <div className={`absolute top-full left-1/2 z-50 -translate-x-1/2 pt-3 transition-[opacity,transform] duration-200 ${menu === item.label ? "visible opacity-100" : "invisible opacity-0"}`}>
-                      {/* Two columns: the first group (counties), then the second (cities, in two short columns). */}
-                      <div className={`grid w-[640px] grid-cols-[210px_1fr] gap-2 ${panel}`}>
+                      {/* Two groups get two columns (the second in two short columns); one group (counties only) is a single narrow column. */}
+                      <div className={`grid gap-2 ${groups(item.children).named.length > 1 ? "w-[640px] grid-cols-[210px_1fr]" : "w-[260px] grid-cols-1"} ${panel}`}>
                         {groups(item.children).named.map((g, gi) => (
                           <div key={g.title} className={gi ? "border-l border-line pl-2" : ""}>
                             <p className="px-3 pt-2 pb-1 font-display text-xs font-bold tracking-[1px] text-meta uppercase">{g.title}</p>
@@ -109,7 +109,7 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
                             </ul>
                           </div>
                         ))}
-                        <ul className="col-span-2 border-t border-line pt-1">
+                        <ul className="col-span-full border-t border-line pt-1">
                           {groups(item.children).rest.map((c) => (
                             <li key={c.href}>
                               <Link href={c.href} className={`${sublink} font-semibold text-blue-deep`}>
