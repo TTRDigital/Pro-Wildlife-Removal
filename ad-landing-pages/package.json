@@ -1,0 +1,7 @@
+{
+  "name": "pro-wildlife-landing-pages",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node src/build.mjs" },
+  "engines": { "node": ">=18" }
+}

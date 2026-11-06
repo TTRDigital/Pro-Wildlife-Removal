@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node src/build.mjs",
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "rewrites": [
+    { "source": "/", "has": [{ "type": "host", "value": "rat.prowildliferemoval.net" }], "destination": "/rat/" },
+    { "source": "/", "has": [{ "type": "host", "value": "bat.prowildliferemoval.net" }], "destination": "/bat/" },
+    { "source": "/", "has": [{ "type": "host", "value": "squirrel.prowildliferemoval.net" }], "destination": "/squirrel/" },
+    { "source": "/", "has": [{ "type": "host", "value": "raccoon.prowildliferemoval.net" }], "destination": "/raccoon/" },
+    { "source": "/", "has": [{ "type": "host", "value": "wildlife.prowildliferemoval.net" }], "destination": "/wildlife/" }
+  ],
+  "headers": [
+    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
+  ]
+}
