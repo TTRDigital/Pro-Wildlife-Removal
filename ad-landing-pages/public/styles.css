@@ -97,7 +97,7 @@ a{color:inherit}
 /* animals */
 .animals{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:8px 0 34px}
 .animal{margin:0;border-radius:var(--r);overflow:hidden;background:var(--navy);box-shadow:0 8px 20px -10px rgba(15,39,66,.4)}
-.animal img{width:100%;aspect-ratio:244/172;object-fit:cover}
+.animal img{width:100%;aspect-ratio:312/284;object-fit:cover}
 .animal figcaption{color:#fff;font-weight:600;padding:12px 8px}
 
 /* faq */

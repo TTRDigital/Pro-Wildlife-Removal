@@ -193,7 +193,7 @@ export const pages = [
     variant: 'light',
     title: 'Wildlife Removal Central Florida | Free Inspection | Pro Wildlife Removal',
     description: 'Raccoons, rats, squirrels, bats & more — removed fast, sealed out for good. Get your free inspection today.',
-    tel: 'tel:7278556766',
+    tel: 'tel:+17278556766',
     topbar: 'Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties',
     headerLabel: 'Free Inspection',
     hero: { badge: 'Fully Licensed & Insured', h1: ['Same-Day Emergency', 'Wildlife Removal'], sub: 'Fast removal. Sealed for good.', chips: [['clock', 'Same Day Service'], ['check', 'Free Inspection']], img: 'wildlife-hero.jpg', alt: 'Pro Wildlife Removal Trucks' },
