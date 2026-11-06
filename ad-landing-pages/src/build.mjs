@@ -43,8 +43,8 @@ function render(pg) {
   const light = pg.variant === 'light';
   const s = [];
 
-  s.push(`<div class="topbar">${esc(pg.topbar)}</div>
-<header class="hdr${light ? ' hdr-light' : ''}"><div class="wrap hdr-in">
+  s.push(`<div class="topbar"><div class="wrap topbar-in"><span>${esc(pg.topbar)}</span><a href="${tel}" class="topbar-tel">${icon('phone')}${esc(site.phone)}</a></div></div>
+<header class="hdr"><div class="wrap hdr-in">
 <img src="/img/logo.png" alt="Pro Wildlife Removal Logo" class="logo" width="88" height="80">
 <div class="hdr-r"><span class="hdr-label">${esc(pg.headerLabel)}</span>${callBtn(site.phone, 'btn btn-hdr')}</div>
 </div></header>`);
@@ -52,7 +52,7 @@ function render(pg) {
   const h = pg.hero;
   s.push(`<section class="hero${light ? ' hero-light' : ''}"><div class="wrap hero-in">
 <div class="hero-copy">
-<span class="pill${light ? ' pill-dark' : ''}">${light ? icon('shield') : '<i class="dot"></i>'}${esc(h.badge)}</span>
+<span class="eyebrow">${esc(h.badge)}</span>
 <h1>${esc(h.h1[0])} <span class="hl">${esc(h.h1[1])}</span></h1>
 <p class="lead">${esc(h.sub)}</p>
 <div class="hero-cta">${callBtn(site.phone, 'btn btn-lg')}${h.note ? `<p class="note">${esc(h.note)}</p>` : ''}</div>
@@ -131,13 +131,13 @@ ${callBtn()}</div></section>`);
 <meta property="og:description" content="${esc(pg.description)}">
 <meta property="og:image" content="/img/${pg.hero.img}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0f2742">
+<meta name="theme-color" content="#0E2A47">
 <link rel="icon" href="/img/logo.png">
 <!-- Google Tag Manager (same container as the live GHL pages) -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${site.gtm}');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap">
 <link rel="preload" as="image" href="/img/${pg.hero.img}" fetchpriority="high">
 <link rel="stylesheet" href="/styles.css">
 </head>
