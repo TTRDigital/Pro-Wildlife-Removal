@@ -155,6 +155,8 @@ for (const pg of pages) {
   console.log('built', pg.slug);
 }
 
-// Simple index for preview deployments: links to each page.
-writeFileSync(join(root, 'public', 'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Pro Wildlife Removal landing pages</title><link rel="stylesheet" href="/styles.css"></head><body><main class="wrap sec"><h2>Pro Wildlife Removal landing pages</h2><ul class="idx">${pages.map((p) => `<li><a href="/${p.slug}/">${p.slug}</a> → ${p.host}</li>`).join('')}</ul></main></body></html>\n`);
+// Simple index for preview deployments: links to each page. Lives at /pages-index/ so that
+// "/" has no static file and the host rewrites in vercel.json decide what "/" shows.
+mkdirSync(join(root, 'public', 'pages-index'), { recursive: true });
+writeFileSync(join(root, 'public', 'pages-index', 'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Pro Wildlife Removal landing pages</title><link rel="stylesheet" href="/styles.css"></head><body><main class="wrap sec"><h2>Pro Wildlife Removal landing pages</h2><ul class="idx">${pages.map((p) => `<li><a href="/${p.slug}/">${p.slug}</a> → ${p.host}</li>`).join('')}</ul></main></body></html>\n`);
 console.log('built index');
