@@ -43,22 +43,21 @@ function render(pg) {
   const light = pg.variant === 'light';
   const s = [];
 
-  s.push(`<div class="topbar"><div class="wrap topbar-in"><span>${esc(pg.topbar)}</span><a href="${tel}" class="topbar-tel">${icon('phone')}${esc(site.phone)}</a></div></div>
-<header class="hdr"><div class="wrap hdr-in">
+  s.push(`<header class="hdr"><div class="wrap hdr-in">
 <img src="/img/logo.png" alt="Pro Wildlife Removal Logo" class="logo" width="88" height="80">
-<div class="hdr-r"><span class="hdr-label">${esc(pg.headerLabel)}</span>${callBtn(site.phone, 'btn btn-hdr')}</div>
+<span class="hdr-label">${esc(pg.topbar)}</span>
+<a class="tel-pill" href="${tel}"><span class="tel-ic">${icon('phone')}</span><span class="tel-tx"><small>${esc(pg.headerLabel)}</small><b>${esc(site.phone)}</b></span></a>
 </div></header>`);
 
   const h = pg.hero;
-  s.push(`<section class="hero${light ? ' hero-light' : ''}"><div class="wrap hero-in">
+  s.push(`<section class="hero" style="background-image:url(/img/${h.img})" role="img" aria-label="${esc(h.alt)}"><div class="wrap hero-in">
 <div class="hero-copy">
 <span class="eyebrow">${esc(h.badge)}</span>
-<h1>${esc(h.h1[0])} <span class="hl">${esc(h.h1[1])}</span></h1>
+<h1><span class="hl">${esc(h.h1[0])}</span> ${esc(h.h1[1])}</h1>
 <p class="lead">${esc(h.sub)}</p>
 <div class="hero-cta">${callBtn(site.phone, 'btn btn-lg')}${h.note ? `<p class="note">${esc(h.note)}</p>` : ''}</div>
 ${h.chips ? `<div class="chips">${h.chips.map(([i, t]) => `<span>${icon(i)}${esc(t)}</span>`).join('')}</div>` : ''}
 </div>
-<div class="hero-img${light ? ' framed' : ''}">${img(h.img, h.alt, '', true)}</div>
 </div></section>`);
 
   s.push(`<section class="trust"><div class="wrap trust-in n${pg.trust.length}">${pg.trust.map((t) => `<div class="trust-i">${icon(t.icon, 'ic ' + (t.icon === 'star' ? 'gold' : 'blue'))}<strong>${esc(t.t)}</strong>${t.stars ? '<small class="gold">★★★★★</small>' : t.s ? `<small>${esc(t.s)}</small>` : ''}</div>`).join('')}</div></section>`);
