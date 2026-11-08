@@ -107,7 +107,7 @@
 
   function params() {
     var q = new URLSearchParams(window.location.search);
-    return { gclid: q.get('gclid') || '', campaign: q.get('campaign') || q.get('campaignid') || '', adgroup: q.get('adgroup') || q.get('adgroupid') || '' };
+    return { gclid: q.get('gclid') || '', campaign: q.get('campaign_id') || q.get('campaign') || q.get('campaignid') || '', adgroup: q.get('ad_group_id') || q.get('adgroup') || q.get('adgroupid') || '' };
   }
 
   function request(p) {
