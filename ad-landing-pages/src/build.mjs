@@ -143,6 +143,7 @@ ${callBtn()}</div></section>`);
 <body class="pg-${pg.slug}">
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${site.gtm}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ${s.join('\n')}
+<script src="/number.js" defer></script>
 </body>
 </html>
 `;
