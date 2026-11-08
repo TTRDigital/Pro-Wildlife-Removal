@@ -27,3 +27,7 @@ No framework, no npm installs. Content lives in `src/content.mjs`; `node src/bui
 ## Before switching
 - Images were captured from the live pages by screenshot (the originals' file URLs couldn't be read). Swap in the original files from GHL media if available; same filenames in `public/img/`.
 - Check in GTM that the Google Ads conversion/call tags fire on the new host, and that any call tracking is inside GTM (couldn't confirm nothing loads outside it on the live pages).
+
+## Dynamic number swap (preview branch)
+`src/number.js` is inlined into every page by `build.mjs`. With `?gclid=` in the URL it POSTs to `https://ttr-portal.vercel.app/api/site/number` (1.5 s limit) and swaps every `[data-ttr-num]` text and every `tel:` link together. The number is kept in localStorage for the returned `hold` (default 30 min), refreshed on activity. Any failure keeps (727) 855-6766.
+The TTR OS site key is read at build time from the Vercel env var `TTR_SITE_KEY`. If it is not set, the swap stays off.

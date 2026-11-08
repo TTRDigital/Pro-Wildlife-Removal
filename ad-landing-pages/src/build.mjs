@@ -1,12 +1,17 @@
 // Builds static landing pages into public/<slug>/index.html. No dependencies.
 // Run: node src/build.mjs
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { pages, site } from './content.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// Dynamic number swap: wrap the default number so the script can swap text and tel: links together.
+const NUM_JS = readFileSync(join(root, 'src', 'number.js'), 'utf8');
+const NUM_KEY = process.env.TTR_SITE_KEY || ''; // public TTR OS site key for Pro Wildlife (empty = swap off)
+const numHtml = (s) => esc(s).split(esc(site.phone)).join(`<span data-ttr-num>${esc(site.phone)}</span>`);
 
 const P = {
   phone: '<path fill="currentColor" stroke="none" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>',
@@ -39,14 +44,14 @@ const img = (src, alt, cls = '', eager = false, w, h) =>
 
 function render(pg) {
   const tel = pg.tel;
-  const callBtn = (label = site.phone, cls = 'btn') => `<a class="${cls}" href="${tel}">${icon('phone')}<span>${esc(label)}</span></a>`;
+  const callBtn = (label = site.phone, cls = 'btn') => `<a class="${cls}" href="${tel}">${icon('phone')}<span>${numHtml(label)}</span></a>`;
   const light = pg.variant === 'light';
   const s = [];
 
   s.push(`<header class="hdr"><div class="wrap hdr-in">
 <img src="/img/logo.png" alt="Pro Wildlife Removal Logo" class="logo" width="88" height="80">
 <span class="hdr-label">${esc(pg.topbar)}</span>
-<a class="tel-pill" href="${tel}"><span class="tel-ic">${icon('phone')}</span><span class="tel-tx"><small>${esc(pg.headerLabel)}</small><b>${esc(site.phone)}</b></span></a>
+<a class="tel-pill" href="${tel}"><span class="tel-ic">${icon('phone')}</span><span class="tel-tx"><small>${esc(pg.headerLabel)}</small><b>${numHtml(site.phone)}</b></span></a>
 </div></header>`);
 
   const h = pg.hero;
@@ -110,7 +115,7 @@ ${callBtn()}</div></section>`);
   const c = pg.contact;
   s.push(`<section class="sec alt"><div class="wrap contact-in">
 <div class="card contact-card"><h2>Need Help? <span class="hl">Reach Out to Us!</span></h2><p>${esc(c.p)}</p>
-<a class="call-row" href="${tel}"><span class="call-ic">${icon('phone')}</span><span><small>${esc(c.label)}</small><b>${esc(site.phone)}</b></span></a>
+<a class="call-row" href="${tel}"><span class="call-ic">${icon('phone')}</span><span><small>${esc(c.label)}</small><b>${numHtml(site.phone)}</b></span></a>
 <div class="areas"><small>${esc(c.areasHeading || 'Service Areas')}</small><p>${esc(c.areas)}</p></div></div>
 <div class="contact-img">${img(c.img, c.alt)}</div>
 </div></section>
@@ -143,6 +148,8 @@ ${callBtn()}</div></section>`);
 <body class="pg-${pg.slug}">
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${site.gtm}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ${s.join('\n')}
+<script>window.__TTR_NUM=${JSON.stringify({ key: NUM_KEY })};</script>
+<script>${NUM_JS}</script>
 </body>
 </html>
 `;
