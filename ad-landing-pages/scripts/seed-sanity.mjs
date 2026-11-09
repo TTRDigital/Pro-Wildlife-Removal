@@ -1,5 +1,6 @@
 // Seeds the five ad landing pages into the client's Sanity project as landingPage documents.
 //   node scripts/seed-sanity.mjs            DRY RUN (default): reads Sanity, prints what it would create, writes nothing, needs no token
+//   node scripts/seed-sanity.mjs --export [file]   writes the documents to a JSON file (default sanity-export/landing-pages.json); touches no network, no token
 //   node scripts/seed-sanity.mjs --write    creates the missing documents; needs SANITY_WRITE_TOKEN (Editor) in the environment
 // Never overwrites: a document that already exists (published or as an editor's draft) is skipped, and the write uses
 // createIfNotExists, so even a race cannot replace an editor's work. Images stay as files in public/img (named in the document).
@@ -7,6 +8,18 @@ import { pages } from '../src/content.mjs';
 import { toDoc, docId, PROJECT_ID, DATASET, API_VERSION } from '../src/sanity.mjs';
 
 const write = process.argv.includes('--write');
+const ei = process.argv.indexOf('--export');
+if (ei > -1) {
+  const { writeFileSync, mkdirSync } = await import('node:fs');
+  const { dirname, resolve } = await import('node:path');
+  const next = process.argv[ei + 1];
+  const file = resolve(next && !next.startsWith('--') ? next : new URL('../sanity-export/landing-pages.json', import.meta.url).pathname);
+  const docs = pages.map(toDoc);
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, JSON.stringify(docs, null, 2) + '\n');
+  console.log(`Exported ${docs.length} landingPage documents (${docs.map((d) => d._id).join(', ')}) to ${file}`);
+  process.exit(0);
+}
 const token = process.env.SANITY_WRITE_TOKEN;
 if (write && !token) { console.error('--write needs SANITY_WRITE_TOKEN in the environment (an Editor token from sanity.io/manage > API > Tokens). Nothing written.'); process.exit(1); }
 

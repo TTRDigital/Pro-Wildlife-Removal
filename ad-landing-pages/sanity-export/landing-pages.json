@@ -1,0 +1,854 @@
+[
+  {
+    "_id": "landingPage-rat",
+    "_type": "landingPage",
+    "slug": "rat",
+    "host": "rat.prowildliferemoval.net",
+    "title": "Rat Removal Tampa FL | Same-Day Service | Pro Wildlife Removal",
+    "description": "Same-day rat removal in Tampa Bay & West Central Florida. Free inspection, professional trapping, and custom sealing. Licensed & insured. Call (727) 855-6766.",
+    "noindex": true,
+    "tel": "tel:+17278556766",
+    "variant": "dark",
+    "topbar": "Serving Tampa Bay & West Central Florida — Same-Day Rat Removal",
+    "headerLabel": "24/7 Emergency Rat Removal",
+    "hero": {
+      "badge": "Fully Licensed & Insured",
+      "h1Line1": "Same-Day Emergency",
+      "h1Line2": "Rat Removal",
+      "sub": "Free inspection. Professional, permanent rat removal.",
+      "image": "rat-hero.jpg",
+      "alt": "Rats"
+    },
+    "trust": [
+      {
+        "_key": "k0",
+        "icon": "star",
+        "title": "4.7 Google Rating"
+      },
+      {
+        "_key": "k1",
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "sub": "Florida Certified"
+      },
+      {
+        "_key": "k2",
+        "icon": "clock",
+        "title": "Same-Day Service",
+        "sub": "Fast Response"
+      },
+      {
+        "_key": "k3",
+        "icon": "alert",
+        "title": "Permanent Solution",
+        "sub": "Sealed For Good"
+      }
+    ],
+    "inspect": {
+      "kicker": "Professional Inspection",
+      "h2": "Your Comprehensive Rat Inspection",
+      "p": "We provide a complete inspection to find out exactly where rats are getting in and solve your rodent problem permanently.",
+      "items": [
+        "Full attic, crawlspace & wall inspection",
+        "Rodent entry-point identification",
+        "Droppings & damage assessment",
+        "Detailed property assessment"
+      ],
+      "cta": "Call for FREE Inspection",
+      "images": [
+        {
+          "_key": "k4",
+          "file": "rat-inspect-1.jpg",
+          "alt": "Attic inspection"
+        },
+        {
+          "_key": "k5",
+          "file": "rat-inspect-2.jpg",
+          "alt": "Rat trapped"
+        }
+      ]
+    },
+    "signs": {
+      "h2": "Signs You Have a Rat Problem",
+      "p": "If you notice any of these, don't wait — rats never leave on their own.",
+      "items": [
+        {
+          "_key": "k6",
+          "icon": "volume",
+          "text": "Scratching in walls or ceilings at night"
+        },
+        {
+          "_key": "k7",
+          "icon": "circle",
+          "text": "Droppings in the attic, pantry, or garage"
+        },
+        {
+          "_key": "k8",
+          "icon": "zap",
+          "text": "Gnawed wires, wood, or food packaging"
+        },
+        {
+          "_key": "k9",
+          "icon": "waves",
+          "text": "Grease rub marks along walls and beams"
+        },
+        {
+          "_key": "ka",
+          "icon": "layers",
+          "text": "Nests of shredded insulation or paper"
+        },
+        {
+          "_key": "kb",
+          "icon": "wind",
+          "text": "A musty, ammonia-like smell"
+        }
+      ]
+    },
+    "solution": {
+      "h2": "Our Complete Rat Removal Solution",
+      "steps": [
+        {
+          "_key": "kc",
+          "label": "01",
+          "title": "Trapping & Removal",
+          "text": "Targeted, professional-grade trapping that removes every rat in the structure — safely and thoroughly."
+        },
+        {
+          "_key": "kd",
+          "label": "02",
+          "title": "Exclusion (Seal-Up)",
+          "text": "A rat only needs a hole the size of a quarter. We seal every entry point with rodent-proof materials — once they're out, they stay out."
+        },
+        {
+          "_key": "ke",
+          "label": "03",
+          "title": "Clean-Up & Restoration",
+          "text": "Droppings removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas."
+        }
+      ]
+    },
+    "why": {
+      "h2": "Why a Rat Problem Can't Wait",
+      "items": [
+        {
+          "_key": "kf",
+          "title": "Fire hazard",
+          "text": "Rats gnaw electrical wiring inside walls and attics."
+        },
+        {
+          "_key": "kg",
+          "title": "Health risk",
+          "text": "Droppings and urine contaminate insulation and air."
+        },
+        {
+          "_key": "kh",
+          "title": "They multiply fast",
+          "text": "One pair can become dozens in a few months."
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "_key": "ki",
+        "quote": "Pro Wildlife Removal did an amazing job! We had rats in our attic and they came out the same day. The technician was very knowledgeable and sealed all the entry points. Highly recommend!",
+        "name": "John D."
+      },
+      {
+        "_key": "kj",
+        "quote": "Trustworthy and reliable. They stand by their work and their communication is a huge plus compared to other companies I've dealt with.",
+        "name": "Robert B."
+      },
+      {
+        "_key": "kk",
+        "quote": "Very professional service. The team was exactly as promised with no hidden surprises. They did a full inspection and fixed it permanently.",
+        "name": "Melissa R."
+      },
+      {
+        "_key": "kl",
+        "quote": "Excellent experience from start to finish. They did a full inspection, found where they were getting in, and fixed it permanently. The cleanup was thorough too.",
+        "name": "Amanda T."
+      }
+    ],
+    "urgency": {
+      "h2": "Rat Damage Gets Worse Every Day It's Ignored",
+      "p": "Book your free inspection today.",
+      "cta": "Call (727) 855-6766 Now"
+    },
+    "contact": {
+      "p": "Professional rat removal is only a phone call away.",
+      "label": "Call Us 24/7",
+      "areas": "Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties.",
+      "image": "rat-contact.jpg",
+      "alt": "Rat Removal Service"
+    }
+  },
+  {
+    "_id": "landingPage-bat",
+    "_type": "landingPage",
+    "slug": "bat",
+    "host": "bat.prowildliferemoval.net",
+    "title": "Same-Day Emergency Bat Removal | Pro Wildlife Removal",
+    "description": "Same-day emergency bat removal in Tampa Bay & West Central Florida. Licensed & insured. Free inspection, permanent seal-up & guano clean-up. Call (727) 855-6766.",
+    "noindex": true,
+    "tel": "tel:+17278556766",
+    "variant": "dark",
+    "topbar": "Serving Tampa Bay & West Central Florida — Same-Day Bat Removal",
+    "headerLabel": "24/7 Emergency Bat Removal",
+    "hero": {
+      "badge": "Fully Licensed & Insured",
+      "h1Line1": "Same-Day Emergency",
+      "h1Line2": "Bat Removal",
+      "sub": "Free inspection. Professional, permanent bat removal — humane one-way valve exclusion.",
+      "image": "bat-hero.jpg",
+      "alt": "Bats roosting on brick"
+    },
+    "trust": [
+      {
+        "_key": "km",
+        "icon": "star",
+        "title": "4.7 Google Rating"
+      },
+      {
+        "_key": "kn",
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "sub": "Florida Certified"
+      },
+      {
+        "_key": "ko",
+        "icon": "clock",
+        "title": "Same-Day Service",
+        "sub": "Fast Response"
+      },
+      {
+        "_key": "kp",
+        "icon": "alert",
+        "title": "Permanent Solution",
+        "sub": "Sealed For Good"
+      }
+    ],
+    "inspect": {
+      "kicker": "Professional Inspection",
+      "h2": "Your Comprehensive Bat Inspection",
+      "p": "We provide a complete inspection to find out exactly where bats are getting in and solve your bat problem permanently with humane one-way valve exclusion.",
+      "items": [
+        "Full attic, crawlspace & wall inspection",
+        "Bat entry-point identification",
+        "Guano & damage assessment",
+        "Detailed property assessment"
+      ],
+      "cta": "Call for FREE Inspection",
+      "images": [
+        {
+          "_key": "kq",
+          "file": "bat-inspect-1.jpg",
+          "alt": "Bat inspection"
+        }
+      ]
+    },
+    "signs": {
+      "h2": "Signs You Have a Bat Problem",
+      "p": "If you notice any of these, don't wait — bats never leave on their own.",
+      "items": [
+        {
+          "_key": "kr",
+          "icon": "volume",
+          "text": "Scratching, squeaking, or chirping in walls or attic at night"
+        },
+        {
+          "_key": "ks",
+          "icon": "circle",
+          "text": "Guano (bat droppings) in the attic, on walls, or floors"
+        },
+        {
+          "_key": "kt",
+          "icon": "droplet",
+          "text": "Stains and grease marks near roosting areas"
+        },
+        {
+          "_key": "ku",
+          "icon": "moon",
+          "text": "Bats flying in and out of your home at night"
+        }
+      ]
+    },
+    "solution": {
+      "h2": "Our Complete Bat Removal Solution",
+      "steps": [
+        {
+          "_key": "kv",
+          "label": "01",
+          "title": "One-Way Valve Removal",
+          "text": "We install one-way exclusion valves over every active entry point. Bats exit on their own at night to feed — but the valve prevents them from re-entering. No trapping, no handling, completely humane."
+        },
+        {
+          "_key": "kw",
+          "label": "02",
+          "title": "Exclusion (Seal-Up)",
+          "text": "Once all bats have exited through the valves, we remove the devices and permanently seal every entry point with bat-proof materials — so they can never return."
+        },
+        {
+          "_key": "kx",
+          "label": "03",
+          "title": "Clean-Up & Restoration",
+          "text": "Guano removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas."
+        }
+      ]
+    },
+    "why": {
+      "h2": "Why a Bat Problem Can't Wait",
+      "items": [
+        {
+          "_key": "ky",
+          "title": "Health risk",
+          "text": "Bat guano and urine contaminate insulation and air, and can cause histoplasmosis."
+        },
+        {
+          "_key": "kz",
+          "title": "Strong odor",
+          "text": "Guano, urine, and oils produce a strong, musty odor that spreads through the home."
+        },
+        {
+          "_key": "k10",
+          "title": "Colonies grow fast",
+          "text": "A few bats can become a large colony roosting in your attic within months."
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "_key": "k11",
+        "quote": "Pro Wildlife Removal did an amazing job! We had rats in our attic and they came out the same day. The technician was very knowledgeable and sealed all the entry points. Highly recommend!",
+        "name": "John D."
+      },
+      {
+        "_key": "k12",
+        "quote": "Trustworthy and reliable. They stand by their work and their communication is a huge plus compared to other companies I've dealt with.",
+        "name": "Robert B."
+      },
+      {
+        "_key": "k13",
+        "quote": "Very professional service. The team was exactly as promised with no hidden surprises. They did a full inspection and fixed it permanently.",
+        "name": "Melissa R."
+      },
+      {
+        "_key": "k14",
+        "quote": "Excellent experience from start to finish. They did a full inspection, found where they were getting in, and fixed it permanently. The cleanup was thorough too.",
+        "name": "Amanda T."
+      }
+    ],
+    "contact": {
+      "p": "Professional bat removal is only a phone call away.",
+      "label": "Call Us 24/7",
+      "areas": "Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties.",
+      "image": "bat-contact.jpg",
+      "alt": "Bats roosting in attic"
+    }
+  },
+  {
+    "_id": "landingPage-squirrel",
+    "_type": "landingPage",
+    "slug": "squirrel",
+    "host": "squirrel.prowildliferemoval.net",
+    "title": "Same-Day Emergency Squirrel Removal | Pro Wildlife Removal",
+    "description": "Same-day emergency squirrel removal in Tampa Bay & West Central Florida. Licensed & insured. Free inspection, permanent seal-up & clean-up. Call (727) 855-6766.",
+    "noindex": true,
+    "tel": "tel:+17278556766",
+    "variant": "dark",
+    "topbar": "Serving Tampa Bay & West Central Florida — Same-Day Squirrel Removal",
+    "headerLabel": "24/7 Emergency Squirrel Removal",
+    "hero": {
+      "badge": "Fully Licensed & Insured",
+      "h1Line1": "Same-Day Emergency",
+      "h1Line2": "Squirrel Removal",
+      "sub": "Free inspection. Professional, permanent squirrel removal — humane one-way door exclusion.",
+      "image": "squirrel-hero.jpg",
+      "alt": "Squirrel in hand"
+    },
+    "trust": [
+      {
+        "_key": "k15",
+        "icon": "star",
+        "title": "4.7 Google Rating"
+      },
+      {
+        "_key": "k16",
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "sub": "Florida Certified"
+      },
+      {
+        "_key": "k17",
+        "icon": "clock",
+        "title": "Same-Day Service",
+        "sub": "Fast Response"
+      },
+      {
+        "_key": "k18",
+        "icon": "alert",
+        "title": "Permanent Solution",
+        "sub": "Sealed For Good"
+      }
+    ],
+    "inspect": {
+      "kicker": "Professional Inspection",
+      "h2": "Your Comprehensive Squirrel Inspection",
+      "p": "We provide a complete inspection to find out exactly where squirrels are getting in and solve your squirrel problem permanently with humane one-way door exclusion.",
+      "items": [
+        "Full attic, crawlspace & wall inspection",
+        "Squirrel entry-point identification",
+        "Droppings & damage assessment",
+        "Detailed property assessment"
+      ],
+      "cta": "Call for FREE Inspection",
+      "images": [
+        {
+          "_key": "k19",
+          "file": "squirrel-inspect-1.jpg",
+          "alt": "Squirrel exclusion"
+        },
+        {
+          "_key": "k1a",
+          "file": "squirrel-inspect-2.jpg",
+          "alt": "Squirrel inspection"
+        }
+      ]
+    },
+    "signs": {
+      "h2": "Signs You Have a Squirrel Problem",
+      "p": "If you notice any of these, don't wait — squirrels never leave on their own.",
+      "items": [
+        {
+          "_key": "k1b",
+          "icon": "volume",
+          "text": "Scratching in walls or ceilings during the day"
+        },
+        {
+          "_key": "k1c",
+          "icon": "circle",
+          "text": "Droppings in the attic, chimney, or garage"
+        },
+        {
+          "_key": "k1d",
+          "icon": "zap",
+          "text": "Gnaw marks on wood, wiring & insulation"
+        },
+        {
+          "_key": "k1e",
+          "icon": "layers",
+          "text": "Nests made of twigs and leaves in the attic"
+        }
+      ]
+    },
+    "solution": {
+      "h2": "Our Complete Squirrel Removal Solution",
+      "steps": [
+        {
+          "_key": "k1f",
+          "label": "01",
+          "title": "One-Way Door Removal",
+          "text": "We install one-way exclusion doors over every active entry point. Squirrels exit on their own to forage — but the door prevents them from getting back in. No trapping, no stress to the animal, completely humane."
+        },
+        {
+          "_key": "k1g",
+          "label": "02",
+          "title": "Exclusion (Seal-Up)",
+          "text": "Once all squirrels have exited through the one-way doors, we remove the devices and permanently seal every entry point with rodent-proof materials — so another squirrel never moves in."
+        },
+        {
+          "_key": "k1h",
+          "label": "03",
+          "title": "Clean-Up & Restoration",
+          "text": "Droppings removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas."
+        }
+      ]
+    },
+    "why": {
+      "h2": "Why a Squirrel Problem Can't Wait",
+      "items": [
+        {
+          "_key": "k1i",
+          "title": "Fire hazard",
+          "text": "Squirrels gnaw electrical wiring inside walls and attics."
+        },
+        {
+          "_key": "k1j",
+          "title": "Health risk",
+          "text": "Droppings and urine contaminate insulation and air."
+        },
+        {
+          "_key": "k1k",
+          "title": "They multiply fast",
+          "text": "Squirrels breed twice a year — a small problem becomes a big one quickly."
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "_key": "k1l",
+        "quote": "Pro Wildlife Removal did an amazing job! We had rats in our attic and they came out the same day. The technician was very knowledgeable and sealed all the entry points. Highly recommend!",
+        "name": "John D."
+      },
+      {
+        "_key": "k1m",
+        "quote": "Trustworthy and reliable. They stand by their work and their communication is a huge plus compared to other companies I've dealt with.",
+        "name": "Robert B."
+      },
+      {
+        "_key": "k1n",
+        "quote": "Very professional service. The team was exactly as promised with no hidden surprises. They did a full inspection and fixed it permanently.",
+        "name": "Melissa R."
+      },
+      {
+        "_key": "k1o",
+        "quote": "Excellent experience from start to finish. They did a full inspection, found where they were getting in, and fixed it permanently. The cleanup was thorough too.",
+        "name": "Amanda T."
+      }
+    ],
+    "urgency": {
+      "h2": "Squirrel Damage Gets Worse Every Day It's Ignored",
+      "p": "Book your free inspection today.",
+      "cta": "Call (727) 855-6766 Now"
+    },
+    "contact": {
+      "p": "Professional squirrel removal is only a phone call away.",
+      "label": "Call Us 24/7",
+      "areas": "Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties.",
+      "image": "squirrel-contact.jpg",
+      "alt": "Squirrel on roof"
+    }
+  },
+  {
+    "_id": "landingPage-raccoon",
+    "_type": "landingPage",
+    "slug": "raccoon",
+    "host": "raccoon.prowildliferemoval.net",
+    "title": "Raccoon Removal Tampa FL | Pro Wildlife Removal | (727) 855-6766",
+    "description": "Suspect a raccoon in your attic? Pro Wildlife Removal assesses raccoon activity, attic entry points, and removal options for your property. Call (727) 855-6766.",
+    "noindex": true,
+    "tel": "tel:+17278556766",
+    "variant": "dark",
+    "topbar": "Serving Tampa Bay & West Central Florida — Raccoon Removal",
+    "headerLabel": "Raccoon Removal Service",
+    "hero": {
+      "badge": "Pro Wildlife Removal",
+      "h1Line1": "Raccoon in Your Attic?",
+      "h1Line2": "Call Pro Wildlife Removal",
+      "sub": "Get help with raccoon activity, attic entry points, and removal options for your property.",
+      "note": "Call to confirm service availability in your area.",
+      "image": "raccoon-hero.jpg",
+      "alt": "Raccoon safely secured in a humane trap on a residential property walkway"
+    },
+    "trust": [
+      {
+        "_key": "k1p",
+        "icon": "pin",
+        "title": "Local Raccoon Removal",
+        "sub": "Tampa Bay Area"
+      },
+      {
+        "_key": "k1q",
+        "icon": "phone",
+        "title": "Call to Schedule",
+        "sub": "Confirm Availability"
+      },
+      {
+        "_key": "k1r",
+        "icon": "search",
+        "title": "Inspection First",
+        "sub": "Identify the Animal"
+      }
+    ],
+    "inspect": {
+      "kicker": "Property Assessment",
+      "h2": "Assessing Raccoon Activity in Your Attic",
+      "p": "We take a close look at your attic and property to assess raccoon activity, identify possible entry points, and review any visible damage. Sounds alone don't confirm raccoons, so an inspection helps determine the animal involved and the options for your property.",
+      "items": [
+        "Assessment of attic activity and signs of raccoon presence",
+        "Review of possible entry points around the roof and structure",
+        "Inspection of visible damage near vents, soffits, and openings",
+        "Check for dependent young before any sealing is considered"
+      ],
+      "cta": "Call to Schedule an Inspection",
+      "images": [
+        {
+          "_key": "k1s",
+          "file": "raccoon-inspect-1.jpg",
+          "alt": "Close-up of raccoon safely secured in humane trap"
+        },
+        {
+          "_key": "k1t",
+          "file": "raccoon-inspect-2.jpg",
+          "alt": "Two raccoons safely contained in a humane trap during removal"
+        }
+      ]
+    },
+    "signs": {
+      "h2": "Signs You May Have a Raccoon",
+      "p": "These signs can point to raccoon activity, but an inspection helps confirm the animal — since sounds alone don't confirm raccoons.",
+      "items": [
+        {
+          "_key": "k1u",
+          "icon": "volume",
+          "text": "Heavy movement or thumping in the attic at night"
+        },
+        {
+          "_key": "k1v",
+          "icon": "layers",
+          "text": "Disturbed, matted, or displaced insulation"
+        },
+        {
+          "_key": "k1w",
+          "icon": "home",
+          "text": "Visible damage near roof vents, soffits, or openings"
+        },
+        {
+          "_key": "k1x",
+          "icon": "alert",
+          "text": "Torn screens, chewed fascia, or pulled-back vents"
+        }
+      ]
+    },
+    "solution": {
+      "h2": "Raccoon Removal & Exclusion Options",
+      "p": "Removal and exclusion are assessed as options for your property based on what the inspection finds.",
+      "steps": [
+        {
+          "_key": "k1y",
+          "label": "01",
+          "title": "Assessment",
+          "text": "We assess the attic for raccoon activity, identify possible entry points, and review visible damage to understand what's happening on the property."
+        },
+        {
+          "_key": "k1z",
+          "label": "02",
+          "title": "Removal Options",
+          "text": "Removal is approached based on the animal and situation found. We check for dependent young before any removal or sealing is planned."
+        },
+        {
+          "_key": "k20",
+          "label": "03",
+          "title": "Exclusion Options",
+          "text": "Sealing entry points is considered only after animals and any dependent young are confirmed out, helping reduce the chance of re-entry."
+        }
+      ]
+    },
+    "why": {
+      "h2": "Why an Inspection Matters",
+      "p": "Sounds in the attic can come from several animals. An inspection helps identify the animal and the right next steps.",
+      "items": [
+        {
+          "_key": "k21",
+          "title": "Sounds aren't conclusive",
+          "text": "Raccoons, squirrels, rats, and opossums can all make noise in an attic. An inspection helps identify the actual animal.",
+          "icon": "volume"
+        },
+        {
+          "_key": "k22",
+          "title": "Check for dependent young",
+          "text": "Before sealing any entry points, it's important to confirm no dependent young are left inside the structure.",
+          "icon": "heart"
+        },
+        {
+          "_key": "k23",
+          "title": "Entry points vary",
+          "text": "Roof vents, soffits, and gaps near the roofline are common access points. An inspection locates the specific openings.",
+          "icon": "home"
+        }
+      ]
+    },
+    "faq": {
+      "h2": "Raccoon Removal FAQs",
+      "p": "Common questions about suspected raccoons and how removal is assessed.",
+      "items": [
+        {
+          "_key": "k24",
+          "question": "How do I know if it's a raccoon in my attic?",
+          "answer": "Sounds alone don't confirm raccoons — squirrels, rats, and opossums can make similar noise. An on-site inspection helps identify the animal responsible based on entry points, tracks, droppings, and the type of damage present."
+        },
+        {
+          "_key": "k25",
+          "question": "How is raccoon removal assessed?",
+          "answer": "We assess the attic for activity, locate possible entry points, and review visible damage. Removal and exclusion are then recommended as options for the property based on what we find during the inspection."
+        },
+        {
+          "_key": "k26",
+          "question": "What does raccoon removal cost?",
+          "answer": "Cost depends on the inspection findings and the scope of the work involved. After the assessment, we can walk you through the options and any associated pricing before anything is done."
+        },
+        {
+          "_key": "k27",
+          "question": "How do you prevent raccoons from coming back?",
+          "answer": "Exclusion focuses on sealing entry points — but only after confirming the animals and any dependent young are out. Sealing too early can trap young inside, so checking for babies is an important step before any repairs are made."
+        }
+      ]
+    },
+    "urgency": {
+      "h2": "Think You Have a Raccoon in Your Attic?",
+      "p": "Call to schedule an inspection and review your options.",
+      "cta": "Call (727) 855-6766 Now"
+    },
+    "contact": {
+      "p": "Local raccoon removal is only a phone call away. Call to confirm service availability in your area.",
+      "label": "Call Us",
+      "areas": "Call to confirm whether raccoon removal service is available in your area.",
+      "image": "raccoon-contact.jpg",
+      "alt": "Humane raccoon removal assessment in West Central Florida"
+    }
+  },
+  {
+    "_id": "landingPage-wildlife",
+    "_type": "landingPage",
+    "slug": "wildlife",
+    "host": "wildlife.prowildliferemoval.net",
+    "title": "Wildlife Removal Central Florida | Free Inspection | Pro Wildlife Removal",
+    "description": "Raccoons, rats, squirrels, bats & more — removed fast, sealed out for good. Get your free inspection today.",
+    "noindex": true,
+    "tel": "tel:+17278556766",
+    "variant": "light",
+    "topbar": "Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties",
+    "headerLabel": "Free Inspection",
+    "hero": {
+      "badge": "Fully Licensed & Insured",
+      "h1Line1": "Same-Day Emergency",
+      "h1Line2": "Wildlife Removal",
+      "sub": "Fast removal. Sealed for good.",
+      "image": "wildlife-hero.jpg",
+      "alt": "Pro Wildlife Removal Trucks",
+      "chips": [
+        {
+          "_key": "k28",
+          "icon": "clock",
+          "text": "Same Day Service"
+        },
+        {
+          "_key": "k29",
+          "icon": "check",
+          "text": "Free Inspection"
+        }
+      ]
+    },
+    "trust": [
+      {
+        "_key": "k2a",
+        "icon": "star",
+        "title": "4.7 Google Rating",
+        "stars": true
+      },
+      {
+        "_key": "k2b",
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "sub": "Florida Certified"
+      },
+      {
+        "_key": "k2c",
+        "icon": "clock",
+        "title": "Same Day Service",
+        "sub": "Fast Response"
+      },
+      {
+        "_key": "k2d",
+        "icon": "award",
+        "title": "Guaranteed Results",
+        "sub": "Complete Solution"
+      }
+    ],
+    "inspect": {
+      "kicker": "Starting Free",
+      "h2": "Your Comprehensive Inspection — 100% Free",
+      "p": "With our free inspection, we provide a complete and thorough evaluation of your property to find out exactly what's in your home.",
+      "items": [
+        "Full property & attic inspection",
+        "Animal & entry point ID",
+        "Damage assessment",
+        "Clear plan of action"
+      ],
+      "cta": "Get My FREE Inspection",
+      "images": [
+        {
+          "_key": "k2e",
+          "file": "wildlife-inspect.jpg",
+          "alt": "Technician Inspecting Attic"
+        }
+      ]
+    },
+    "animals": {
+      "h2Line1": "We Remove Every Kind of",
+      "h2Line2": "Florida Wildlife",
+      "list": [
+        "Raccoon",
+        "Squirrel",
+        "Snake",
+        "Bat",
+        "Armadillo",
+        "Opossum",
+        "Rat"
+      ]
+    },
+    "solution": {
+      "h2": "Our Complete Solution",
+      "iconCards": true,
+      "steps": [
+        {
+          "_key": "k2f",
+          "label": "search",
+          "title": "Trapping & Removal",
+          "text": "Safe, humane, and thorough removal of all nuisance wildlife from your property."
+        },
+        {
+          "_key": "k2g",
+          "label": "lock",
+          "title": "Exclusion (Seal-Up)",
+          "text": "We seal every entry point so once they are out, they stay out for good."
+        },
+        {
+          "_key": "k2h",
+          "label": "sparkles",
+          "title": "Clean-Up & Restoration",
+          "text": "Antimicrobial treatment, attic restoration, and full sanitizing."
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "_key": "k2i",
+        "quote": "Pro Wildlife Removal did an amazing job! We had rats in our attic and they came out the same day. The technician was very knowledgeable and sealed all the entry points. Highly recommend!",
+        "name": "John D."
+      },
+      {
+        "_key": "k2j",
+        "quote": "Very professional service. They removed a family of raccoons from under our deck humanely. The service was exactly as promised and completely stress-free.",
+        "name": "Melissa R."
+      },
+      {
+        "_key": "k2k",
+        "quote": "I called them for a snake in my garage and they arrived within an hour. Fast, efficient, and the service was excellent. Great local company.",
+        "name": "Michael S."
+      },
+      {
+        "_key": "k2l",
+        "quote": "Excellent experience from start to finish. They did a full inspection, found where the squirrels were getting in, and fixed it permanently. The cleanup was thorough too.",
+        "name": "Amanda T."
+      },
+      {
+        "_key": "k2m",
+        "quote": "Trustworthy and reliable. They stand by their work and their dependable service is a huge plus compared to other companies.",
+        "name": "Robert B."
+      }
+    ],
+    "urgency": {
+      "h2": "Wildlife Damage Gets Worse Every Day It's Ignored",
+      "p": "Book your free inspection today.",
+      "cta": "Get My FREE Inspection"
+    },
+    "contact": {
+      "p": "Professional wildlife removal is only a phone call away.",
+      "label": "Call Us 24/7",
+      "areasHeading": "Service Areas:",
+      "areas": "Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties",
+      "image": "wildlife-contact.jpg",
+      "alt": "Friendly Technician"
+    }
+  }
+]
