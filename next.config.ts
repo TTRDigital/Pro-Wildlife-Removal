@@ -80,6 +80,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...oldUrls.map(([source, destination]) => ({ source, destination, statusCode: 301 as const })),
+      // Live Google Ads still use /rat-removal-ads/ as a final URL. Temporary (307) on purpose; the query string (gclid, campaign_id, ad_group_id, utm_*) is carried over by Next.
+      { source: "/rat-removal-ads", destination: "https://rat.prowildliferemoval.net/", statusCode: 307 as const },
     ];
   },
   async headers() {
