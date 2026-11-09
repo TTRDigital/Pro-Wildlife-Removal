@@ -83,6 +83,9 @@ function mergeList<T>(fallback: T[], cms: Partial<T>[] | null, key: (x: Partial<
   if (!cms?.length) return fallback;
   const byKey = new Map(fallback.map((f) => [key(f), f]));
   const merged = cms.filter((c) => key(c)).map((c) => merge(byKey.get(key(c)) ?? blank(c), c));
+  // Items with the same sort value (same order number or date) keep the built-in order, not Sanity's id order.
+  const place = new Map(fallback.map((f, i) => [key(f), i]));
+  merged.sort((a, b) => (place.get(key(a)) ?? Infinity) - (place.get(key(b)) ?? Infinity));
   const missing = fallback.filter((f) => !cms.some((c) => key(c) === key(f)));
   return [...merged, ...missing];
 }
