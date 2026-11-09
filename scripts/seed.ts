@@ -4,6 +4,12 @@
  *   npm run seed            # DRY RUN (default): reports what would be created, writes nothing
  *   npm run seed -- --write # creates only the documents that do not exist yet
  *
+ *   npm run seed -- --export seed-export/docs.json
+ *                           # EXPORT: no token, no network. Writes every document the seed would create
+ *                           #   to seed-export/docs-01.json, docs-02.json ... (each under 1.8 MB, one JSON
+ *                           #   array of documents with _id and _type), plus manifest.json (counts by type
+ *                           #   and the photo list). For loading from TTR OS. See seed-export/README.md.
+ *
  * It never deletes and never overwrites: a document that already exists in Sanity
  * (draft or published) is left exactly as it is. Writes to project 5prlo93h / production
  * unless NEXT_PUBLIC_SANITY_PROJECT_ID / NEXT_PUBLIC_SANITY_DATASET say otherwise.
@@ -25,6 +31,19 @@ if (existsSync(join(root, ".env.local"))) {
   }
 }
 const { dataset, projectId } = await import("../sanity/env.ts");
+
+const exportAt = process.argv.indexOf("--export");
+if (exportAt > 0) {
+  const target = process.argv[exportAt + 1];
+  if (!target || target.startsWith("--")) {
+    console.error("Usage: npm run seed -- --export seed-export/docs.json");
+    process.exit(1);
+  }
+  const { exportSeed } = await import("../lib/seed/export.ts");
+  const out = await exportSeed(join(root, target));
+  console.log(JSON.stringify(out, null, 2));
+  process.exit(0);
+}
 
 if (process.argv.includes("--force")) {
   console.error("--force was removed: the seed never overwrites existing documents.");
