@@ -7,6 +7,10 @@
   "trailingSlash": true,
   "rewrites": [
     {
+      "source": "/api/seed/",
+      "destination": "/api/seed"
+    },
+    {
       "source": "/",
       "has": [
         {

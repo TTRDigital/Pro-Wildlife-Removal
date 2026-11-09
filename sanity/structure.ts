@@ -44,6 +44,7 @@ export const structure: StructureResolver = (S) =>
             ]),
         ),
       S.listItem().title("Service areas").icon(MapPin).child(S.documentTypeList("location").title("Service areas").defaultOrdering([{ field: "order", direction: "asc" }])),
+      S.listItem().title("Ad landing pages").icon(FileText).child(S.documentTypeList("landingPage").title("Ad landing pages")),
       S.listItem().title("Blog posts").icon(Newspaper).child(S.documentTypeList("post").title("Blog posts").defaultOrdering([{ field: "date", direction: "desc" }])),
       S.divider(),
       S.listItem().title("Reviews").icon(MessageSquareQuote).child(S.documentTypeList("testimonial").title("Reviews").defaultOrdering([{ field: "order", direction: "asc" }])),

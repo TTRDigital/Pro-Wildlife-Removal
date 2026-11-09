@@ -1,5 +1,6 @@
 import { defineArrayMember, defineField, defineType } from "sanity";
 import { sectionsField } from "./sections";
+import { landingPage } from "./landingPage";
 
 const groups = [
   { name: "content", title: "Content", default: true },
@@ -194,4 +195,4 @@ export const faq = defineType({
 });
 
 export const singletonNames = ["siteSettings", ...pageSingletons.map((p) => p.name)];
-export const documentTypes = [siteSettings, ...pageSingletons, service, location, post, testimonial, faq];
+export const documentTypes = [siteSettings, ...pageSingletons, service, location, post, testimonial, faq, landingPage];

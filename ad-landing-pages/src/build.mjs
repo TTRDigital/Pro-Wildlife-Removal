@@ -3,7 +3,11 @@
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { pages, site } from './content.mjs';
+import { pages as fallbackPages, site } from './content.mjs';
+import { loadPages } from './sanity.mjs';
+
+// Content: Sanity landingPage documents when there are any, built-in content.mjs for everything else.
+const pages = process.env.SKIP_SANITY ? fallbackPages : await loadPages(fallbackPages);
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -124,7 +128,7 @@ ${callBtn()}</div></section>`);
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(pg.title)}</title>
 <meta name="description" content="${esc(pg.description)}">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="${pg.noindex === false ? 'index, follow' : 'noindex, nofollow'}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(pg.title)}">
 <meta property="og:description" content="${esc(pg.description)}">

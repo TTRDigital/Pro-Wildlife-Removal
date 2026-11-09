@@ -27,3 +27,15 @@ No framework, no npm installs. Content lives in `src/content.mjs`; `node src/bui
 ## Before switching
 - Images were captured from the live pages by screenshot (the originals' file URLs couldn't be read). Swap in the original files from GHL media if available; same filenames in `public/img/`.
 - Check in GTM that the Google Ads conversion/call tags fire on the new host, and that any call tracking is inside GTM (couldn't confirm nothing loads outside it on the live pages).
+
+## Dynamic call number (`public/number.js`)
+Generic: the page's default number is the first `tel:` link on the page (nothing hard coded). A visitor with `?gclid` gets a pool number from TTR OS; only links and text showing the default number are swapped. Any other page (for example the main site's `/rat-removal-ads/`) only needs `<script src="/number.js" defer></script>` and a copy of the file.
+
+## Content in Sanity (project 5prlo93h, document type `landingPage`)
+- Schema: `sanity/schemaTypes/landingPage.ts` (deploy the Studio so editors see it). Document id `landingPage-<slug>`.
+- `node src/build.mjs` reads published `landingPage` documents at build time (`SANITY_READ_TOKEN` only if the dataset is private). Anything missing, or any error, falls back to `src/content.mjs`, so the build never breaks. `SKIP_SANITY=1` forces built-in content.
+- Seed: `node scripts/seed-sanity.mjs` is a dry run. `--write` needs `SANITY_WRITE_TOKEN`, creates only missing documents (`createIfNotExists`), never overwrites.
+- Images stay in `public/img` (documents hold file names). `noindex` defaults on; the `X-Robots-Tag` header in `vercel.json` is separate.
+
+## Protected seed function (`api/seed.ts`)
+`POST /api/seed` (dry run) and `POST /api/seed?apply=1` (create missing documents only). Send `Authorization: Bearer <TTR OS key>`; only an owner or build_lead key passes (checked against `GET https://ttr-portal.vercel.app/api/v1/me`). `SANITY_WRITE_TOKEN` is a server environment variable on the Vercel project, never in code.
