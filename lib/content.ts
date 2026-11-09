@@ -23,7 +23,7 @@ import type { Location, PageContent, PlacePage, Post, Service, ServicePlace, Sit
 
 /* ---------- GROQ fragments ---------- */
 
-const IMG = `{ "src": asset->url, alt, "width": asset->metadata.dimensions.width, "height": asset->metadata.dimensions.height }`;
+const IMG = `{ "src": asset->url, alt, "width": asset->metadata.dimensions.width, "height": asset->metadata.dimensions.height, "name": asset->originalFilename }`;
 /** Portable Text with images resolved to { src, alt }. */
 const RICH = `[]{ _type == "altImage" => { "_type": "altImage", _key, caption, "image": ${IMG} }, _type != "altImage" => @ }`;
 const SEO = `seo{ title, description, noIndex, "image": ogImage${IMG} }`;
