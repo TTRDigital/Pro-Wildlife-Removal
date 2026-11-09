@@ -3,7 +3,11 @@ import type { IconName } from "./icons";
 
 /* Shared content types. The built-in data in lib/data and Sanity results both map to these. */
 
-export type Img = { src: string; alt: string; width?: number; height?: number };
+/** `name`: the photo's file name in Sanity, so the same picture is recognised whether it comes from Sanity or lib/data (see imgKey). */
+export type Img = { src: string; alt: string; width?: number; height?: number; name?: string };
+
+/** One key per picture: its file name, from Sanity (`name`) or from the built-in path. */
+export const imgKey = (img?: Img) => (img ? (img.name ?? img.src.split("/").pop() ?? img.src) : "");
 export type Cta = { label: string; href: string; style?: "primary" | "outline" };
 export type Seo = { title: string; description: string; image?: Img; noIndex?: boolean };
 
