@@ -96,7 +96,7 @@ async function sections(list: Section[], category: string) {
   for (const s of list) {
     const x = s as Any;
     const base: Any = { _type: s._type, _key: key() };
-    for (const f of ["tone", "eyebrow", "heading", "highlight", "variant", "columns", "imageSide", "align", "note", "area", "showForm", "form", "map", "group", "limit", "checklist"]) {
+    for (const f of ["tone", "eyebrow", "heading", "highlight", "variant", "columns", "imageSide", "align", "note", "area", "showForm", "form", "map", "group", "limit", "checklist", "anchor", "match", "display", "points"]) {
       if (x[f] !== undefined) base[f] = x[f];
     }
     for (const f of ["intro", "body", "outro", "text"]) {
@@ -187,6 +187,7 @@ export async function build() {
       excerpt: p.excerpt,
       image: await altImage(p.image),
       body: await rich(p.body),
+      faq: p.faq?.length ? await Promise.all(p.faq.map(async (f) => ({ _type: "postFaq", _key: key(), question: f.question, answer: await rich(f.answer) }))) : undefined,
       seo: seo(p.seo),
     });
   }
