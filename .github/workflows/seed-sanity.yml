@@ -16,9 +16,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "dry-run: check only, write nothing. add-missing: only create what is not in Sanity yet. overwrite: replace the CMS with the built-in content."
+        description: "dry-run: check only, write nothing. add-missing: only create what is not in Sanity yet (never deletes or overwrites)."
         type: choice
-        options: [dry-run, add-missing, overwrite]
+        options: [dry-run, add-missing]
         default: dry-run
 
 permissions:
@@ -50,9 +50,8 @@ jobs:
             exit 1
           fi
           case "$MODE" in
-            overwrite) npm run seed -- --force ;;
-            add-missing) npm run seed ;;
-            *) npm run seed -- --dry-run ;;
+            add-missing) npm run seed -- --write ;;
+            *) npm run seed ;;
           esac
 
       - name: Reminder

@@ -20,6 +20,8 @@ function filled(v: unknown): boolean {
 export function clean<T>(v: T): T {
   if (Array.isArray(v)) return v.filter((x) => x !== null && x !== undefined).map(clean) as T;
   if (isObj(v)) {
+    // A text span may be just a space (between a word and a link): keep it as it is.
+    if (v._type === "span") return v;
     const out: Obj = {};
     for (const [k, x] of Object.entries(v)) {
       if (!filled(x)) continue;
