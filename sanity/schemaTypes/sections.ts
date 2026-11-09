@@ -16,7 +16,8 @@ const highlight = defineField({ name: "highlight", title: "Words of the heading 
 const intro = defineField({ name: "intro", title: "Intro", type: "richText" });
 const ctas = defineField({ name: "ctas", title: "Buttons", type: "array", of: [defineArrayMember({ type: "cta" })], validation: (r) => r.max(2) });
 const style = defineField({ name: "style", title: "Look (colours and background)", type: "sectionStyle" });
-const head = [tone, eyebrow, heading, highlight, intro, style];
+const anchor = defineField({ name: "anchor", title: "Link ID (anchor)", type: "string", description: "The id after # for links to this section, e.g. rats. Leave empty to use the heading." });
+const head = [tone, eyebrow, heading, highlight, intro, style, anchor];
 const titled = (fallback: string) => ({ select: { title: "heading", subtitle: "eyebrow" }, prepare: ({ title, subtitle }: { title?: string; subtitle?: string }) => ({ title: title || fallback, subtitle: [fallback, subtitle].filter(Boolean).join(" · ") }) });
 
 export const trustBar = defineType({

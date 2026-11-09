@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import type { Cta, Hero, Img, SiteSettings } from "@/lib/types";
+import { imgKey, type Cta, type Hero, type Img, type SiteSettings } from "@/lib/types";
 import { images } from "@/lib/data/images";
 import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
@@ -45,7 +45,8 @@ const sameShot: Record<string, string> = {
   "/images/photos/prowildliferemoval-banner-image.png": images.certifiedWildlifeRemovalExpertsInTampaFl.src,
   "/images/photos/image-1.jpg": images.prowildlifeRemovalAgentHoldingAnIguanaa.src,
 };
-const shot = (img?: Img) => (img ? (sameShot[img.src] ?? img.src) : "");
+const sameShotByName = Object.fromEntries(Object.entries(sameShot).map(([from, to]) => [from.split("/").pop(), to.split("/").pop()]));
+const shot = (img?: Img) => (img ? (sameShotByName[imgKey(img)] ?? imgKey(img)) : "");
 
 /** From the client-approved Google Ads landing pages. */
 export const perks = ["Same-Day Service", "Free Inspection"];

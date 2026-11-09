@@ -35,10 +35,11 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 3. **Load the content into Sanity (once, after the content PRs are merged):** all in the browser, nothing to install.
    1. sanity.io/manage > 5prlo93h > API > Tokens > Add API token, permission **Editor**.
    2. GitHub: Settings > Secrets and variables > Actions > New repository secret, name `SANITY_WRITE_TOKEN`.
-   3. Actions > "Load content into Sanity" > Run workflow: **dry-run** first (checks, writes nothing), then **add-missing**. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 23 reviews and the FAQ library. **overwrite** replaces the CMS with the built-in content. The log shows counts only.
-   4. **Right after:** delete the token in Sanity **and** delete the GitHub secret. Secrets live in Vercel or TTR OS; this one may only exist for the few minutes of the run.
+   3. Actions > "Load content into Sanity" > Run workflow: **dry-run** first (checks, writes nothing), then **add-missing**. It never deletes or overwrites. It uploads the photos and writes site settings, 10 pages, 26 services, 43 service areas, 59 posts, 23 reviews and the FAQ library. The log shows counts only.
+   4. **Or without a token on any machine:** the temporary route `POST /api/seed` (removed after seeding) runs the same seed on Vercel. The Editor token is read only from the server env var `SANITY_WRITE_TOKEN` (404 without it); the caller needs a TTR OS owner or build_lead key as `Authorization: Bearer <key>`, checked against `/api/v1/me`. `POST /api/seed/` is the dry run, `POST /api/seed/?apply=1` creates the missing documents (run again if it reports `remaining`).
+   5. **Right after:** delete the token in Sanity **and** delete the GitHub secret. Secrets live in Vercel or TTR OS; this one may only exist for the few minutes of the run.
 
-   Once Sanity has content, the site shows the CMS copy instead of `lib/data`, so changes to `lib/data` after the seed only show after an **overwrite** run (or an edit in /cms).
+   Once Sanity has content, the site shows the CMS copy instead of `lib/data`, so changes to `lib/data` after the seed only show after an edit in /cms (the seed never overwrites existing documents).
 4. **Run:** `npm run dev`, then open http://localhost:3000 and http://localhost:3000/cms.
 
 ## Hosting on Vercel

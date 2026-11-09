@@ -1,4 +1,4 @@
-import type { Img, Post } from "./types";
+import { imgKey, type Img, type Post } from "./types";
 import { images } from "./data/images";
 import { library } from "./data/library";
 
@@ -198,13 +198,13 @@ export function pageAnimal(path: string) {
  * alternating sides. Words are untouched.
  */
 export function animalSections<S extends { _type: string; heading?: string; image?: Img; imageSide?: "left" | "right" }>(sections: S[], pool: Img[], hero: Img[]): S[] {
-  const ours = new Set(pool.map((p) => p.src));
-  const shown = new Set(hero.map((p) => p.src));
-  const spare = pool.filter((p) => !shown.has(p.src) && !sections.some((s) => s.image?.src === p.src));
+  const ours = new Set(pool.map(imgKey));
+  const shown = new Set(hero.map(imgKey));
+  const spare = pool.filter((p) => !shown.has(imgKey(p)) && !sections.some((s) => s.image && imgKey(s.image) === imgKey(p)));
   let n = 0;
   return sections.map((s) => {
     if (s._type !== "splitSection" || n >= spare.length) return s;
-    if (s.image && ours.has(s.image.src) && !shown.has(s.image.src)) return s;
+    if (s.image && ours.has(imgKey(s.image)) && !shown.has(imgKey(s.image))) return s;
     if (!s.image && !s.heading) return s;
     const image = spare[n++];
     return s.image ? { ...s, image } : { ...s, image, imageSide: n % 2 ? "right" : "left" };

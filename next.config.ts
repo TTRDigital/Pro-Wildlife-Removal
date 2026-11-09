@@ -112,6 +112,8 @@ function cityTarget(source: string, fallback: string) {
 const nextConfig: NextConfig = {
   // /about-us/ with the slash, like the old WordPress URLs.
   trailingSlash: true,
+  // The temporary /api/seed route reads the original photos from public/images.
+  outputFileTracingIncludes: { "/api/seed": ["./public/images/**"] },
   poweredByHeader: false,
   images: {
     loader: "custom",
