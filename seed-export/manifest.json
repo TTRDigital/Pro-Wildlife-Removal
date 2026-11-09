@@ -1,0 +1,263 @@
+{
+ "project": "5prlo93h",
+ "dataset": "production",
+ "documents": 437,
+ "countsByType": {
+  "siteSettings": 1,
+  "homePage": 1,
+  "servicesPage": 1,
+  "serviceAreaPage": 1,
+  "aboutPage": 1,
+  "howWeWorkPage": 1,
+  "contactPage": 1,
+  "privacyPage": 1,
+  "termsPage": 1,
+  "sitemapPage": 1,
+  "blogPage": 1,
+  "service": 14,
+  "location": 33,
+  "post": 72,
+  "testimonial": 20,
+  "faq": 287
+ },
+ "files": [
+  {
+   "file": "docs-01.json",
+   "documents": 412,
+   "bytes": 1772471
+  },
+  {
+   "file": "docs-02.json",
+   "documents": 25,
+   "bytes": 371541
+  }
+ ],
+ "photoPlaceholders": 56,
+ "photos": [
+  {
+   "placeholder": "image-dry-0",
+   "file": "public/images/photos/wildlife-removal-truck-tampa-bay.jpg"
+  },
+  {
+   "placeholder": "image-dry-1",
+   "file": "public/images/photos/prowildlife-removal-agent-holding-an-iguanaa.jpg"
+  },
+  {
+   "placeholder": "image-dry-2",
+   "file": "public/images/photos/prowildliferemoval-banner-image.png"
+  },
+  {
+   "placeholder": "image-dry-3",
+   "file": "public/images/photos/rat-removal-image-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-4",
+   "file": "public/images/photos/prowildremoval-team-image.png"
+  },
+  {
+   "placeholder": "image-dry-5",
+   "file": "public/images/photos/squirrels-image.png"
+  },
+  {
+   "placeholder": "image-dry-6",
+   "file": "public/images/photos/rats-image.png"
+  },
+  {
+   "placeholder": "image-dry-7",
+   "file": "public/images/photos/armadilos-image.png"
+  },
+  {
+   "placeholder": "image-dry-8",
+   "file": "public/images/photos/raccoons-image.png"
+  },
+  {
+   "placeholder": "image-dry-9",
+   "file": "public/images/photos/opossums-image.png"
+  },
+  {
+   "placeholder": "image-dry-10",
+   "file": "public/images/photos/bees-image.png"
+  },
+  {
+   "placeholder": "image-dry-11",
+   "file": "public/images/photos/bats-image.png"
+  },
+  {
+   "placeholder": "image-dry-12",
+   "file": "public/images/photos/snakes-image.png"
+  },
+  {
+   "placeholder": "image-dry-13",
+   "file": "public/images/photos/tampa-bay-map-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-14",
+   "file": "public/images/photos/tampa-bay-fl-map-large-1.jpg"
+  },
+  {
+   "placeholder": "image-dry-15",
+   "file": "public/images/photos/josh-holding-raccon.jpg"
+  },
+  {
+   "placeholder": "image-dry-16",
+   "file": "public/images/photos/our-inspection-process.jpg"
+  },
+  {
+   "placeholder": "image-dry-17",
+   "file": "public/images/photos/pro-wildlife-removal-service-process.jpg"
+  },
+  {
+   "placeholder": "image-dry-18",
+   "file": "public/images/photos/attic-restoration-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-19",
+   "file": "public/images/photos/honeycomb-removal.jpg"
+  },
+  {
+   "placeholder": "image-dry-20",
+   "file": "public/images/photos/exclusion.jpg"
+  },
+  {
+   "placeholder": "image-dry-21",
+   "file": "public/images/photos/home-repairs.jpg"
+  },
+  {
+   "placeholder": "image-dry-22",
+   "file": "public/images/photos/need-help-reach-out-to-us.jpg"
+  },
+  {
+   "placeholder": "image-dry-23",
+   "file": "public/images/photos/bat-removal-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-24",
+   "file": "public/images/photos/rat-removal-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-25",
+   "file": "public/images/photos/raccoon-removal.jpg"
+  },
+  {
+   "placeholder": "image-dry-26",
+   "file": "public/images/photos/squirrel-removal-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-27",
+   "file": "public/images/photos/snake-removal-3.jpg"
+  },
+  {
+   "placeholder": "image-dry-28",
+   "file": "public/images/photos/opossum-removal-4.jpg"
+  },
+  {
+   "placeholder": "image-dry-29",
+   "file": "public/images/photos/armadillo-removal-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-30",
+   "file": "public/images/photos/bee-removal.jpg"
+  },
+  {
+   "placeholder": "image-dry-31",
+   "file": "public/images/photos/dead-animal-removal.jpg"
+  },
+  {
+   "placeholder": "image-dry-32",
+   "file": "public/images/blog/racoon-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-33",
+   "file": "public/images/photos/raccoons.jpg"
+  },
+  {
+   "placeholder": "image-dry-34",
+   "file": "public/images/blog/prowildlife-blog-banner-image-1-1024x576-1.jpg"
+  },
+  {
+   "placeholder": "image-dry-35",
+   "file": "public/images/blog/rat-remova-image-2-e1727897306247.jpg"
+  },
+  {
+   "placeholder": "image-dry-36",
+   "file": "public/images/photos/rat-removal-banner.jpg"
+  },
+  {
+   "placeholder": "image-dry-37",
+   "file": "public/images/photos/rat-removal-new-port-richey.jpg"
+  },
+  {
+   "placeholder": "image-dry-38",
+   "file": "public/images/blog/how-to-get-rid-of-rats-in-the-house-image.jpg"
+  },
+  {
+   "placeholder": "image-dry-39",
+   "file": "public/images/blog/rat-removal-tips-image.jpg"
+  },
+  {
+   "placeholder": "image-dry-40",
+   "file": "public/images/photos/brooksville-rat-image.jpg"
+  },
+  {
+   "placeholder": "image-dry-41",
+   "file": "public/images/photos/lady-lake-wildlife-removal.jpg"
+  },
+  {
+   "placeholder": "image-dry-42",
+   "file": "public/images/photos/may14-2024-raccoon-removal.jpg"
+  },
+  {
+   "placeholder": "image-dry-43",
+   "file": "public/images/blog/bat-removal-blog-image.jpg"
+  },
+  {
+   "placeholder": "image-dry-44",
+   "file": "public/images/blog/rat-bait-station-safety-image.jpg"
+  },
+  {
+   "placeholder": "image-dry-45",
+   "file": "public/images/blog/rat-bait-safety-box.jpg"
+  },
+  {
+   "placeholder": "image-dry-46",
+   "file": "public/images/blog/bat-removal-cost-image-e1702083484199.jpg"
+  },
+  {
+   "placeholder": "image-dry-47",
+   "file": "public/images/blog/rat-poop-on-table-e1702079396922.jpg"
+  },
+  {
+   "placeholder": "image-dry-48",
+   "file": "public/images/blog/rat-on-utensil.jpg"
+  },
+  {
+   "placeholder": "image-dry-49",
+   "file": "public/images/blog/squirrel-on-roof.jpg"
+  },
+  {
+   "placeholder": "image-dry-50",
+   "file": "public/images/blog/rat-making-hole-on-wall-e1702072045552.jpg"
+  },
+  {
+   "placeholder": "image-dry-51",
+   "file": "public/images/blog/rat-blog-image.jpg"
+  },
+  {
+   "placeholder": "image-dry-52",
+   "file": "public/images/blog/how-much-does-wildlife-removal-cost-blog-image-e1702069798341.jpg"
+  },
+  {
+   "placeholder": "image-dry-53",
+   "file": "public/images/photos/prowildlife-blog-graphic-image-2.jpg"
+  },
+  {
+   "placeholder": "image-dry-54",
+   "file": "public/images/photos/rat-image.jpg"
+  },
+  {
+   "placeholder": "image-dry-55",
+   "file": "public/images/blog/rat-in-house-image.jpg"
+  }
+ ],
+ "rules": "createIfNotExists only. Upload each photo once, replace every asset _ref that equals a placeholder with the uploaded asset _id. Never delete or overwrite."
+}
