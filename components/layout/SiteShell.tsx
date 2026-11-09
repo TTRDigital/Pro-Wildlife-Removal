@@ -14,6 +14,7 @@ import { Analytics } from "@/components/layout/Analytics";
 import { ReviewBar } from "@/components/layout/ReviewBar";
 import { PreviewBanner } from "@/components/layout/PreviewBanner";
 import { isPreview } from "@/lib/sanity/fetch";
+import { CallNumber } from "@/components/layout/CallNumber";
 import { HydrationSignal } from "@/components/layout/HydrationSignal";
 
 /** One menu for desktop and phones: About (about, how we work, blog), Service Area (counties only), Services (removal pages). */
@@ -74,6 +75,7 @@ export async function SiteShell({ children }: { children: ReactNode }) {
       <BackToTop />
       <ChatWidget />
       <HydrationSignal />
+      <CallNumber phone={settings.phone} />
       <Analytics preview={preview} />
       {preview ? <PreviewBanner /> : null}
       <ReviewBar />
