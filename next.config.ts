@@ -125,6 +125,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...oldUrls.map(([source, destination]) => ({ source, destination: cityTarget(source, destination), statusCode: 301 as const })),
+      // Live Google Ads once used /rat-removal-ads/ as a final URL. Temporary (307) on purpose; Next carries the query string over.
+      { source: "/rat-removal-ads", destination: "https://rat.prowildliferemoval.net/", statusCode: 307 as const },
       // One page per animal: retired service pages go straight to the page that replaced them.
       ...Object.entries(movedServices).map(([from, to]) => ({ source: `/services/${from}`, destination: cityTarget(`/services/${from}`, `/services/${to}/`), statusCode: 301 as const })),
       ...Object.entries(movedLocations).map(([from, to]) => ({ source: `/${from}`, destination: cityTarget(`/${from}`, `/${areaPath(to)}/`), statusCode: 301 as const })),
