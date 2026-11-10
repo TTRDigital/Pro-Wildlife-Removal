@@ -1,14 +1,12 @@
 import Link from "next/link";
-import { SiteShell } from "@/components/layout/SiteShell";
 import { getSiteSettings } from "@/lib/content";
 import { Button } from "@/components/ui/Button";
-import "./globals.css";
 
 /** 404 in the site's design: tint band, the heading, the same words as before and the call button. */
-export default async function NotFound() {
+export async function NotFoundContent() {
   const settings = await getSiteSettings();
   return (
-    <SiteShell>
+    <>
       <section className="relative overflow-hidden bg-tint">
         <div aria-hidden="true" className="pointer-events-none absolute -top-40 -right-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(closest-side,rgb(30_155_240/0.18),transparent)]" />
         <div className="wrap relative max-w-[860px] py-16 md:py-24">
@@ -27,6 +25,6 @@ export default async function NotFound() {
           </div>
         </div>
       </section>
-    </SiteShell>
+    </>
   );
 }
