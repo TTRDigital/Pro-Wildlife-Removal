@@ -115,6 +115,8 @@ const nextConfig: NextConfig = {
   // The temporary /api/seed route reads the original photos from public/images.
   outputFileTracingIncludes: { "/api/seed": ["./public/images/**"] },
   poweredByHeader: false,
+  // The 404 for unmatched addresses has its own page (app/global-not-found.tsx), so the site shell is not repeated in every page.
+  experimental: { globalNotFound: true },
   images: {
     loader: "custom",
     loaderFile: "./lib/image-loader.ts",
