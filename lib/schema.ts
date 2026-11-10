@@ -131,3 +131,20 @@ export function webPageSchema(path: string, name: string, description: string | 
     ...(sections.length ? { hasPart: sections.map((s) => ({ "@type": "WebPageElement", name: s.name, url: `${url}#${s.id}` })) } : {}),
   };
 }
+
+/**
+ * The page's own JSON-LD from the CMS (seo.schema, a JSON text), or null when it is empty or not valid:
+ * the generated schema stays in that case. Accepts one object or a list of objects that each have an @type.
+ */
+export function customSchema(seo: { schema?: string } | undefined): Record<string, unknown> | Record<string, unknown>[] | null {
+  const text = seo?.schema?.trim();
+  if (!text) return null;
+  try {
+    const v: unknown = JSON.parse(text);
+    const ok = (x: unknown): x is Record<string, unknown> => !!x && typeof x === "object" && !Array.isArray(x) && "@type" in x;
+    if (Array.isArray(v)) return v.length && v.every(ok) ? v : null;
+    return ok(v) ? v : null;
+  } catch {
+    return null;
+  }
+}

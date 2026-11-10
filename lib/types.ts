@@ -9,7 +9,7 @@ export type Img = { src: string; alt: string; width?: number; height?: number; n
 /** One key per picture: its file name, from Sanity (`name`) or from the built-in path. */
 export const imgKey = (img?: Img) => (img ? (img.name ?? img.src.split("/").pop() ?? img.src) : "");
 export type Cta = { label: string; href: string; style?: "primary" | "outline" };
-export type Seo = { title: string; description: string; image?: Img; noIndex?: boolean };
+export type Seo = { title: string; description: string; image?: Img; noIndex?: boolean; /** JSON-LD text from the CMS; replaces the generated page schema when it is valid JSON. */ schema?: string };
 
 /** Portable Text: paragraphs, h3/h4, lists, links, images and tables. */
 export type RichImage = { _type: "altImage"; _key?: string; image: Img; caption?: string };

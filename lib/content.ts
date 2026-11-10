@@ -26,7 +26,7 @@ import type { Location, PageContent, PlacePage, Post, Service, ServicePlace, Sit
 const IMG = `{ "src": asset->url, alt, "width": asset->metadata.dimensions.width, "height": asset->metadata.dimensions.height, "name": asset->originalFilename }`;
 /** Portable Text with images resolved to { src, alt }. */
 const RICH = `[]{ _type == "altImage" => { "_type": "altImage", _key, caption, "image": ${IMG} }, _type != "altImage" => @ }`;
-const SEO = `seo{ title, description, noIndex, "image": ogImage${IMG} }`;
+const SEO = `seo{ title, description, noIndex, schema, "image": ogImage${IMG} }`;
 /** Look of a section on the old designs (colours, background photo). */
 const STYLE = `style{ ..., "image": image${IMG} }`;
 const HERO = `hero{ eyebrow, heading, highlight, "text": text${RICH}, "image": image${IMG}, badges, ctas[]{ label, href, style }, rotator, rotatorSuffix, "style": ${STYLE} }`;

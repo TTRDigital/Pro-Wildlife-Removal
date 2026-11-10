@@ -1,5 +1,5 @@
 /** Renders a JSON-LD block, escaped so content can never close the tag. */
-export function JsonLd({ data }: { data: Record<string, unknown> }) {
+export function JsonLd({ data }: { data: Record<string, unknown> | Record<string, unknown>[] }) {
   return (
     <script
       type="application/ld+json"

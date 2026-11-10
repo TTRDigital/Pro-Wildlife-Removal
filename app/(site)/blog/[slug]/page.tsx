@@ -4,7 +4,7 @@ import { CalendarDays, Check, ChevronDown, Tag, UserRound } from "lucide-react";
 import { getPost, getPosts, getServices, getSiteSettings } from "@/lib/content";
 import { relatedLinks } from "@/lib/post-links";
 import { pageMetadata } from "@/lib/seo";
-import { articleSchema, webPageSchema } from "@/lib/schema";
+import { articleSchema, customSchema, webPageSchema } from "@/lib/schema";
 import { formatDate, slugify } from "@/lib/text";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -59,8 +59,14 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
   const parts = headings(post).map((name) => ({ name, id: slugify(name) }));
   return (
     <>
-      <JsonLd data={articleSchema(post, path)} />
-      <JsonLd data={webPageSchema(path, post.seo.title, post.seo.description, parts)} />
+      {customSchema(post.seo) ? (
+        <JsonLd data={customSchema(post.seo)!} />
+      ) : (
+        <>
+          <JsonLd data={articleSchema(post, path)} />
+          <JsonLd data={webPageSchema(path, post.seo.title, post.seo.description, parts)} />
+        </>
+      )}
       <ReadProgress target="post-body" />
       <article>
         <header className="relative overflow-hidden bg-tint">

@@ -6,6 +6,9 @@ const groups = [
   { name: "seo", title: "SEO" },
 ];
 const seoField = defineField({ name: "seo", title: "SEO", type: "seo", group: "seo" });
+/** The page's address on the site (with slashes, e.g. /about-us/). Lets TTR OS find the page. Filled in by scripts/backfill-paths.ts. */
+const pathField = (description = "The page's address on the site, with slashes, e.g. /about-us/. Used by TTR OS to find the page. Do not change it.") =>
+  defineField({ name: "path", title: "Page address", type: "string", group: "seo", description, validation: (r) => r.regex(/^\/(?:[a-z0-9-]+\/)*$/, { name: "address" }).warning("Start and end with a slash, e.g. /about-us/.") });
 const heroField = defineField({ name: "hero", title: "Page header", type: "pageHero", group: "content" });
 const designField = defineField({
   name: "design",
@@ -72,7 +75,7 @@ const pageDoc = (name: string, title: string) =>
     title,
     type: "document",
     groups,
-    fields: [designField, heroField, sectionsField, seoField],
+    fields: [designField, heroField, sectionsField, pathField(), seoField],
     preview: { prepare: () => ({ title }) },
   });
 
@@ -108,6 +111,7 @@ export const service = defineType({
     designField,
     heroField,
     sectionsField,
+    pathField("The page's address on the site, e.g. /services/<url>/. Used by TTR OS to find the page. Do not change it."),
     seoField,
   ],
   orderings: [{ title: "Order", name: "order", by: [{ field: "order", direction: "asc" }] }],
@@ -136,6 +140,7 @@ export const location = defineType({
     designField,
     heroField,
     sectionsField,
+    defineField({ name: "urlPath", title: "Page address", type: "string", group: "seo", description: "The page's address on the site, with slashes, e.g. /service-areas/pasco-county/. Used by TTR OS to find the page (the URL path field above is the old ID). Do not change it." }),
     seoField,
   ],
   orderings: [{ title: "Order", name: "order", by: [{ field: "order", direction: "asc" }] }],
@@ -163,6 +168,7 @@ export const post = defineType({
       group: "content",
       of: [defineArrayMember({ name: "postFaq", type: "object", fields: [defineField({ name: "question", type: "string" }), defineField({ name: "answer", type: "richText" })], preview: { select: { title: "question" } } })],
     }),
+    pathField("The post's address on the site, e.g. /blog/<url>/. Used by TTR OS to find the page. Do not change it."),
     seoField,
   ],
   orderings: [{ title: "Newest", name: "date", by: [{ field: "date", direction: "desc" }] }],
