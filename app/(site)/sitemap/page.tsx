@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocations, getPage, getPosts, getServices } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
-import { webPageSchema } from "@/lib/schema";
+import { customSchema, webPageSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { groupLabels } from "@/components/sections/ServicesSection";
@@ -47,7 +47,7 @@ export default async function SitemapPage() {
   ];
   return (
     <>
-      <JsonLd data={webPageSchema(PATH, page.seo.title, page.seo.description, [])} />
+      <JsonLd data={customSchema(page.seo) ?? webPageSchema(PATH, page.seo.title, page.seo.description, [])} />
       <section className="relative overflow-hidden bg-tint">
         <div aria-hidden="true" className="pointer-events-none absolute -top-40 -right-40 h-[520px] w-[520px] rounded-full bg-[radial-gradient(closest-side,rgb(30_155_240/0.18),transparent)]" />
         <div className="wrap relative pt-7 pb-12 md:pt-10 min-[900px]:pt-14 min-[900px]:pb-16">

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getPage, getPosts, getSiteSettings } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
-import { webPageSchema } from "@/lib/schema";
+import { customSchema, webPageSchema } from "@/lib/schema";
 import { absoluteUrl } from "@/lib/site";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -25,7 +25,7 @@ export default async function BlogIndex() {
   const [page, posts, settings] = await Promise.all([getPage("blog"), getPosts(), getSiteSettings()]);
   return (
     <>
-      <JsonLd data={webPageSchema(PATH, page.seo.title, page.seo.description, [])} />
+      <JsonLd data={customSchema(page.seo) ?? webPageSchema(PATH, page.seo.title, page.seo.description, [])} />
       <JsonLd
         data={{
           "@context": "https://schema.org",

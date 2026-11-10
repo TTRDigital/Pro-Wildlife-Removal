@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getPlacePages, getService, getServices, getSiteSettings } from "@/lib/content";
 import { withPlacesOf } from "@/lib/place-links";
 import { pageMetadata } from "@/lib/seo";
-import { serviceSchema } from "@/lib/schema";
+import { customSchema, serviceSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { PageView } from "@/components/sections/PageView";
 import { groupLabels } from "@/components/sections/ServicesSection";
@@ -30,7 +30,7 @@ export default async function ServicePage(props: PageProps<"/services/[slug]">) 
   const path = `/services/${slug}/`;
   return (
     <>
-      <JsonLd data={serviceSchema(service, path)} />
+      {customSchema(service.seo) ? null : <JsonLd data={serviceSchema(service, path)} />}
       <PageView
         page={service}
         settings={settings}

@@ -1,7 +1,7 @@
 import type { Location, SiteSettings } from "@/lib/types";
 import { getLocations, getPlacePages, getServices } from "@/lib/content";
 import { withPlaceLinks, withServicesHere } from "@/lib/place-links";
-import { locationSchema } from "@/lib/schema";
+import { customSchema, locationSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { PageView } from "./PageView";
 
@@ -17,7 +17,7 @@ export async function LocationView({ location: base, settings }: { location: Loc
   const parent = location.kind === "city" ? locations.find((l) => l.kind === "county" && location.path.startsWith(`${l.path}/`)) : undefined;
   return (
     <>
-      <JsonLd data={locationSchema(location, path)} />
+      {customSchema(location.seo) ? null : <JsonLd data={locationSchema(location, path)} />}
       <PageView
         page={location}
         settings={settings}

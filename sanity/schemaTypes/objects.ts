@@ -12,6 +12,23 @@ export const seo = defineType({
     defineField({ name: "description", title: "Meta description", type: "text", rows: 3, description: "Aim for under 160 characters.", validation: (r) => r.max(170).warning("Over 160 characters may be cut off in Google.") }),
     defineField({ name: "ogImage", title: "Social share image", type: "image", description: "1200 x 630. Leave empty to use the page's main photo." }),
     defineField({ name: "noIndex", title: "Hide from search engines", type: "boolean", initialValue: false }),
+    defineField({
+      name: "schema",
+      title: "Structured data (JSON-LD)",
+      type: "text",
+      rows: 8,
+      description: "Optional. One JSON-LD object (or a list of them), each with an @type. Used instead of the generated page schema when it is valid JSON; leave empty to keep the generated one.",
+      validation: (r) =>
+        r.custom((v?: string) => {
+          if (!v?.trim()) return true;
+          try {
+            JSON.parse(v);
+            return true;
+          } catch {
+            return "Not valid JSON: the site ignores it and keeps the generated schema.";
+          }
+        }),
+    }),
   ],
 });
 

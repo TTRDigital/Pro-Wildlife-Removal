@@ -1,7 +1,7 @@
 import type { Cta, Hero, PageContent, SiteSettings } from "@/lib/types";
 import { getLocations, getPosts, getServices, getTestimonials } from "@/lib/content";
 import { callCtas } from "@/lib/cta";
-import { webPageSchema } from "@/lib/schema";
+import { customSchema, webPageSchema } from "@/lib/schema";
 import { Breadcrumbs, type Crumb } from "@/components/ui/Breadcrumbs";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { ClassicHero, ClassicSections, classicHeroBg, type ClassicData } from "@/components/old/Classic";
@@ -64,7 +64,7 @@ export async function PageView({
     const name = sectionName(s);
     return name ? [{ name, id: ids[i] }] : [];
   });
-  const schema = <JsonLd data={webPageSchema(path, page.seo.title, page.seo.description, parts)} />;
+  const schema = <JsonLd data={customSchema(page.seo) ?? webPageSchema(path, page.seo.title, page.seo.description, parts)} />;
 
   // With a map: the page's own closing band (its last section, if a call band) comes after the map.
   const last = page.sections.at(-1);
