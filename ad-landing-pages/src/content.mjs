@@ -12,8 +12,7 @@ const REVIEWS_STD = [
 ];
 
 const TRUST_STD = [
-  { icon: 'star', t: '4.7 Google Rating', star: true },
-  { icon: 'shield', t: 'Licensed & Insured', s: 'Florida Certified' },
+  { icon: 'shield', t: 'Licensed & Insured' },
   { icon: 'clock', t: 'Same-Day Service', s: 'Fast Response' },
   { icon: 'alert', t: 'Permanent Solution', s: 'Sealed For Good' },
 ];
@@ -198,14 +197,13 @@ export const pages = [
     headerLabel: 'Free Inspection',
     hero: { badge: 'Fully Licensed & Insured', h1: ['Same-Day Emergency', 'Wildlife Removal'], sub: 'Fast removal. Sealed for good.', chips: [['clock', 'Same Day Service'], ['check', 'Free Inspection']], img: 'wildlife-hero.jpg', alt: 'Pro Wildlife Removal Trucks' },
     trust: [
-      { icon: 'star', t: '4.7 Google Rating', stars: true },
-      { icon: 'shield', t: 'Licensed & Insured', s: 'Florida Certified' },
+      { icon: 'shield', t: 'Licensed & Insured' },
       { icon: 'clock', t: 'Same Day Service', s: 'Fast Response' },
-      { icon: 'award', t: 'Guaranteed Results', s: 'Complete Solution' },
+      { icon: 'award', t: 'Complete Solution', s: 'Removal & Seal-Up' },
     ],
     inspect: {
       imgs: [['wildlife-inspect.jpg', 'Technician Inspecting Attic']],
-      kicker: 'Starting Free', h2: 'Your Comprehensive Inspection — 100% Free',
+      kicker: 'Free Inspection', h2: 'Your Comprehensive Inspection — 100% Free',
       p: "With our free inspection, we provide a complete and thorough evaluation of your property to find out exactly what's in your home.",
       items: ['Full property & attic inspection', 'Animal & entry point ID', 'Damage assessment', 'Clear plan of action'],
       cta: 'Get My FREE Inspection',

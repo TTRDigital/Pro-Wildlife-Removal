@@ -98,7 +98,7 @@ ${callBtn()}</div></section>`);
 
   if (pg.reviews) {
     s.push(`<section class="sec dark"><div class="wrap reviews-in">
-<div class="reviews-head"><h2>Excellence Proven by Our Clients</h2><div class="rating"><b>4.7</b>${stars()}<span>Google Rating</span></div></div>
+<div class="reviews-head"><h2>What Our Clients Say</h2></div>
 <div class="reviews">${pg.reviews.map((r) => `<figure class="review">${stars()}<blockquote>"${esc(r.q)}"</blockquote><figcaption><i>${esc(r.n[0])}</i>${esc(r.n)}</figcaption></figure>`).join('')}</div>
 </div></section>`);
   }
@@ -115,7 +115,7 @@ ${callBtn()}</div></section>`);
 <div class="contact-img">${img(c.img, c.alt)}</div>
 </div></section>
 <footer class="ftr"><div class="wrap center"><img src="/img/logo.png" alt="Pro Wildlife Removal Logo" class="logo" width="66" height="60" loading="lazy">
-<p class="ftr-name">Pro Wildlife Removal</p><p>${esc(site.address)}</p><hr><p class="copy">© 2026 Pro Wildlife Removal. All Rights Reserved.</p></div></footer>`);
+<p class="ftr-name">Pro Wildlife Removal</p><p>${esc(site.address)}</p><p>${esc(site.phone)}</p><p><a href="/privacy/">Privacy Policy</a></p><hr><p class="copy">© 2026 Pro Wildlife Removal. All Rights Reserved.</p></div></footer>`);
 
   return `<!doctype html>
 <html lang="en">
@@ -155,6 +155,56 @@ for (const pg of pages) {
   writeFileSync(out, render(pg));
   console.log('built', pg.slug);
 }
+
+// Privacy policy (Google Ads asks for one on landing pages; Kia approved Nov 11 2026). Plain words, no tracking on this page.
+const privacy = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | Pro Wildlife Removal</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/img/logo.png">
+<link rel="stylesheet" href="/styles.css">
+<style>.pp{max-width:760px;margin:0 auto;padding:32px 20px 48px;font:16px/1.65 'Open Sans',Arial,sans-serif;color:#1b2430}.pp h1{font:800 30px/1.2 Inter,Arial,sans-serif;margin:8px 0 6px}.pp h2{font:700 19px/1.3 Inter,Arial,sans-serif;margin:28px 0 6px}.pp small{color:#5a6573}.pp a{color:#0E2A47}</style>
+</head>
+<body>
+<main class="pp">
+<p><a href="javascript:history.back()">&larr; Back</a></p>
+<h1>Privacy Policy</h1>
+<p><small>Pro Wildlife Removal &middot; Last updated November 11, 2026</small></p>
+<p>This page explains what information Pro Wildlife Removal ("we", "us") collects when you visit our website or call us, and what we do with it. It applies to this website and to the phone number shown on it.</p>
+<h2>Who we are</h2>
+<p>Pro Wildlife Removal, ${esc(site.address)}. Phone: ${esc(site.phone)}.</p>
+<h2>What we collect</h2>
+<ul>
+<li><b>When you call us:</b> your phone number, the date and time of the call, how long it lasted, and what you tell us so we can book and perform the work. Calls to the number on this website may be recorded and transcribed for quality, training and to keep an accurate record of the job. You will hear a notice at the start of the call.</li>
+<li><b>When you visit this website:</b> basic technical information such as the pages you view, your device and browser type, the approximate area you are in, and the ad or search that brought you here. We collect this with cookies and similar tools from Google (Google Tag Manager and Google Ads).</li>
+</ul>
+<p>This website does not have a contact form, and we do not ask for payment details here.</p>
+<h2>How we use it</h2>
+<ul>
+<li>To answer your call, schedule an inspection, give you a quote and do the work.</li>
+<li>To keep records of our jobs and follow up about your service.</li>
+<li>To measure whether our advertising works and to improve our website and service.</li>
+</ul>
+<h2>Who we share it with</h2>
+<p>We do not sell your personal information. We share it only with companies that help us run the business, such as our phone and call-recording provider, our customer-records and scheduling tools, and Google for advertising measurement. They may use it only to provide those services to us. We may also share it if the law requires.</p>
+<h2>Cookies and advertising</h2>
+<p>Cookies are small files your browser stores. We use them to measure visits and ad results. You can block or delete cookies in your browser settings, and you can control how Google uses data for ads at <a href="https://adssettings.google.com">adssettings.google.com</a>.</p>
+<h2>How long we keep it</h2>
+<p>We keep call and job records for as long as we need them to serve you and to keep our business records, and then delete or anonymize them.</p>
+<h2>Your choices</h2>
+<p>You can ask us what information we hold about you, ask us to correct it, or ask us to delete it, by calling ${esc(site.phone)} or writing to the address above. This website is not meant for children under 13 and we do not knowingly collect their information.</p>
+<h2>Changes</h2>
+<p>If we change this policy we will post the new version on this page and update the date at the top.</p>
+</main>
+<footer class="ftr"><div class="wrap center"><p class="ftr-name">Pro Wildlife Removal</p><p>${esc(site.address)}</p><p>${esc(site.phone)}</p><hr><p class="copy">© 2026 Pro Wildlife Removal. All Rights Reserved.</p></div></footer>
+</body>
+</html>`;
+mkdirSync(join(root, 'public', 'privacy'), { recursive: true });
+writeFileSync(join(root, 'public', 'privacy', 'index.html'), privacy);
+console.log('built privacy');
 
 // Simple index for preview deployments: links to each page. Lives at /pages-index/ so that
 // "/" has no static file and the host rewrites in vercel.json decide what "/" shows.
