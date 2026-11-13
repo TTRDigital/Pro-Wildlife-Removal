@@ -47,7 +47,7 @@ export const siteSettings = defineType({
     defineField({
       name: "social",
       type: "array",
-      of: [defineArrayMember({ name: "socialLink", type: "object", fields: [defineField({ name: "network", type: "string", options: { list: ["facebook", "x", "google", "instagram", "youtube", "yelp"] } }), defineField({ name: "href", title: "Link", type: "url" })], preview: { select: { title: "network", subtitle: "href" } } })],
+      of: [defineArrayMember({ name: "socialLink", type: "object", fields: [defineField({ name: "network", type: "string", options: { list: ["facebook", "google", "instagram", "youtube", "yelp"] } }), defineField({ name: "href", title: "Link", type: "url" })], preview: { select: { title: "network", subtitle: "href" } } })],
     }),
     defineField({
       name: "countyLines",

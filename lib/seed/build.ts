@@ -130,7 +130,6 @@ export async function build() {
     name: s.name,
     phone: s.phone,
     tollFree: s.tollFree,
-    email: s.email,
     hours: s.hours.map((h) => ({ _type: "hoursRow", _key: key(), ...h })),
     announcement: s.announcement,
     serviceAreaText: s.serviceAreaText,

@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "seed": "node --experimental-strip-types --no-warnings scripts/seed.ts",
-    "backfill-paths": "node --experimental-strip-types --no-warnings scripts/backfill-paths.ts"
+    "backfill-paths": "node --experimental-strip-types --no-warnings scripts/backfill-paths.ts",
+    "clean-contact-links": "node --experimental-strip-types --no-warnings scripts/clean-contact-links.ts"
   },
   "dependencies": {
     "@portabletext/react": "^8.0.1",

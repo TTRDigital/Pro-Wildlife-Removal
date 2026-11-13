@@ -27,7 +27,6 @@ export async function GET() {
     `> Wildlife removal and remediation company ${clean(s.serviceAreaText).replace(/^Serving/, "serving")}`,
     "",
     `- Phone: ${s.phone}${s.tollFree ? ` (toll free ${s.tollFree})` : ""}`,
-    `- Email: ${s.email}`,
     ...(s.googleRating && s.reviewCount ? [`- Google rating: ${s.googleRating} from ${s.reviewCount} reviews`] : []),
     `- Requests: by phone only, call ${s.phone} (${absoluteUrl("/contact-us/")})`,
     "",

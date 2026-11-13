@@ -442,11 +442,6 @@ function Contact({ s, id, bg, join, settings }: { s: ContactSection; id: string;
             </a>
             {settings.tollFree ? <span className="block text-base">{settings.tollFree}</span> : null}
           </p>
-          <p>
-            <a href={`mailto:${settings.email}`} className="break-all">
-              {settings.email}
-            </a>
-          </p>
           {license ? <p className="text-base">{license}</p> : null}
           {settings.countyLines.length ? (
             <>

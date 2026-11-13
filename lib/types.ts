@@ -221,7 +221,8 @@ export type SiteSettings = {
   phone: string;
   phoneHref: string;
   tollFree?: string;
-  email: string;
+  /** Not shown or published any more (TTR-1939); kept optional so old CMS data still fits. */
+  email?: string;
   hours: Hours[];
   announcement: string;
   serviceAreaText: string;

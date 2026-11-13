@@ -39,7 +39,6 @@ export function businessSchema(s: SiteSettings, locations: Location[] = []) {
     name: s.name,
     url: `${siteUrl}/`,
     telephone: s.phone,
-    email: s.email,
     logo: absoluteUrl(images.logo.src),
     image: absoluteUrl(images.prowildlifeRemovalAgentHoldingAnIguanaa.src),
     priceRange: "$$",

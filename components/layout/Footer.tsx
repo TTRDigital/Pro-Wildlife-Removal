@@ -80,7 +80,7 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
                   href={s.href}
                   target="_blank"
                   rel="noopener"
-                  aria-label={s.network === "x" ? "X (Twitter)" : s.network[0].toUpperCase() + s.network.slice(1)}
+                  aria-label={s.network[0].toUpperCase() + s.network.slice(1)}
                   className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-white/80 transition-colors hover:bg-white/15 hover:text-white"
                 >
                   <SocialIcon network={s.network} className="h-4 w-4" />
