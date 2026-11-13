@@ -361,10 +361,6 @@ function Contact({ s, id, settings }: { s: ContactSection; id: string; settings:
             <a href={settings.phoneHref} data-track="click_to_call">
               {settings.phone}
             </a>
-            {" · "}
-            <a href={`mailto:${settings.email}`} className="break-all">
-              {settings.email}
-            </a>
           </address>
           <div className="mt-8">
             <PillButton cta={{ label: settings.phone, href: settings.phoneHref }} />

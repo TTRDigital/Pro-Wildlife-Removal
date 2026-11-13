@@ -42,7 +42,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "How do I set up an inspection?",
-            "Call (844) 264-6254, or see the [contact page](/contact-us/) for our email. Same-day appointments are often available.",
+            "Call (844) 264-6254, or see the [contact page](/contact-us/). Same-day appointments are often available.",
           ),
         ],
       },
@@ -113,7 +113,7 @@ export const pageExtras: Record<string, Extra> = {
           ),
           faq(
             "Can I send a message instead of calling?",
-            "Yes. Email customerservice@prowildliferemoval.net with your town and what you've noticed, or call (844) 264-6254. For how a visit goes, see [how we work](/how-we-work/).",
+            "Yes. Call (844) 264-6254 and tell us your town and what you've noticed. For how a visit goes, see [how we work](/how-we-work/).",
           ),
         ],
       },

@@ -3,7 +3,7 @@ import { cache } from "react";
 import { sanityFetch } from "@/lib/sanity/fetch";
 import { merge } from "@/lib/merge";
 import { hidePlaceholders } from "@/lib/placeholders";
-import { fallbackSettings } from "@/lib/data/site";
+import { fallbackSettings, FACEBOOK_URL } from "@/lib/data/site";
 import { fallbackPages, type PageKey } from "@/lib/data/pages";
 import { fallbackServices } from "@/lib/data/services";
 import { movedServices } from "@/lib/service-urls";
@@ -56,7 +56,9 @@ export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
   // One phone number for the whole site (Kia, Oct 26, 2026): no county lines and no toll-free number,
   // whatever the CMS holds, so every template shows and calls the main line only.
   // tel: link always follows the displayed phone number.
-  return relink({ ...s, countyLines: [], tollFree: undefined, phoneHref: telHref(s.phone) });
+  // TTR-1939: no email anywhere, no Twitter/X, and the Facebook page is the profile link, whatever the CMS still holds.
+  const social = s.social.filter((x) => !["x", "twitter"].includes(x.network.toLowerCase())).map((x) => (x.network.toLowerCase() === "facebook" ? { ...x, href: FACEBOOK_URL } : x));
+  return relink({ ...s, countyLines: [], tollFree: undefined, email: undefined, social, phoneHref: telHref(s.phone) });
 });
 
 export function telHref(phone: string) {
@@ -90,9 +92,14 @@ function mergeList<T>(fallback: T[], cms: Partial<T>[] | null, key: (x: Partial<
   return [...merged, ...missing];
 }
 
+/** TTR-1939: no email on the site. The FAQ answer still held in Sanity says "Email ... or call"; this reads "Call ..." until Sanity is cleaned (scripts/clean-contact-links.ts). */
+function scrubEmail(text: string) {
+  return text.includes("customerservice@") ? text.replace("Email customerservice@prowildliferemoval.net with your town and what you've noticed, or call (844) 264-6254.", "Call (844) 264-6254 and tell us your town and what you've noticed.").replace("customerservice@prowildliferemoval.net", "") : text;
+}
+
 /** Every string in a piece of content with old service-area links swapped for the new URLs (no 301 hops on our own links). */
 function relink<T>(v: T): T {
-  if (typeof v === "string") return relinkAreas(v) as T;
+  if (typeof v === "string") return scrubEmail(relinkAreas(v)) as T;
   if (Array.isArray(v)) return v.map(relink) as T;
   if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, relink(x)])) as T;
   return v;
