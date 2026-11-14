@@ -1,12 +1,12 @@
 import type { MetadataRoute } from "next";
-import { getLocations, getPosts, getServicePlaces, getServices } from "@/lib/content";
+import { getCustomPages, getLocations, getPosts, getServicePlaces, getServices } from "@/lib/content";
 import { placePath } from "@/lib/place-links";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [services, locations, posts, places] = await Promise.all([getServices(), getLocations(), getPosts(), getServicePlaces()]);
+  const [services, locations, posts, places, custom] = await Promise.all([getServices(), getLocations(), getPosts(), getServicePlaces(), getCustomPages()]);
   const entry = (path: string, priority: number, lastModified?: string) => ({ url: absoluteUrl(path), priority, ...(lastModified ? { lastModified } : {}) });
   return [
     entry("/", 1),
@@ -20,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     entry("/contact-us/", 0.7),
     entry("/blog/", 0.6),
     ...posts.map((p) => entry(`/blog/${p.slug}/`, 0.5, p.modified ?? p.date)),
+    ...custom.filter((p) => !p.seo.noIndex).map((p) => entry(`/${p.slug}/`, 0.6)),
     entry("/sitemap/", 0.2),
     entry("/privacy-policy/", 0.1),
     entry("/terms-of-service/", 0.1),

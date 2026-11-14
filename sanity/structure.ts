@@ -1,5 +1,5 @@
 import type { StructureResolver } from "sanity/structure";
-import { BookOpen, CircleHelp, Cog, FileText, Home, Info, Layers, Map, MapPin, MessageSquareQuote, Newspaper, Phone, Scale, Wrench } from "lucide-react";
+import { BookOpen, CircleHelp, File, Cog, FileText, Home, Info, Layers, Map, MapPin, MessageSquareQuote, Newspaper, Phone, Scale, Wrench } from "lucide-react";
 
 const singleton = (S: Parameters<StructureResolver>[0], type: string, title: string, icon: React.ComponentType) =>
   S.listItem().title(title).id(type).icon(icon).child(S.document().schemaType(type).documentId(type).title(title));
@@ -27,6 +27,7 @@ export const structure: StructureResolver = (S) =>
               singleton(S, "privacyPage", "Privacy policy", Scale),
               singleton(S, "termsPage", "Terms of service", Scale),
               singleton(S, "sitemapPage", "Sitemap", FileText),
+              S.listItem().title("Other pages (one address)").icon(File).child(S.documentTypeList("page").title("Other pages")),
             ]),
         ),
       S.listItem()

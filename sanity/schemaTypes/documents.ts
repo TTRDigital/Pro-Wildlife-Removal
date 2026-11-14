@@ -175,6 +175,33 @@ export const post = defineType({
   preview: { select: { title: "title", subtitle: "date", media: "image" } },
 });
 
+/**
+ * A plain page at one address (e.g. /reviews/): title, address, text and optional sections. For pages that are not a
+ * service, a service area or a post (those have their own types). One-segment addresses only; the built-in pages
+ * (about-us, services, blog ...) keep their own documents.
+ */
+export const page = defineType({
+  name: "page",
+  title: "Page",
+  type: "document",
+  groups,
+  fields: [
+    defineField({ name: "title", title: "Title", type: "string", group: "content", description: "Shown as the page heading.", validation: (r) => r.required() }),
+    defineField({
+      name: "path",
+      title: "Page address",
+      type: "string",
+      group: "content",
+      description: "One segment with slashes, e.g. /reviews/. The page lives there. Do not change it after launch.",
+      validation: (r) => r.required().regex(/^\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/, { name: "address" }).error("Use one segment with slashes, like /reviews/."),
+    }),
+    defineField({ name: "body", title: "Text", type: "richText", group: "content" }),
+    sectionsField,
+    seoField,
+  ],
+  preview: { select: { title: "title", subtitle: "path" } },
+});
+
 export const testimonial = defineType({
   name: "testimonial",
   title: "Review",
@@ -203,4 +230,4 @@ export const faq = defineType({
 });
 
 export const singletonNames = ["siteSettings", ...pageSingletons.map((p) => p.name)];
-export const documentTypes = [siteSettings, ...pageSingletons, service, location, post, testimonial, faq];
+export const documentTypes = [siteSettings, ...pageSingletons, service, location, post, page, testimonial, faq];

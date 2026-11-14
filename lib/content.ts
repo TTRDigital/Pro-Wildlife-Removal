@@ -76,6 +76,40 @@ export const getPage = cache(async (key: PageKey): Promise<PageContent> => {
   return relink(hidePlaceholders(merge(fallbackPages[key] as PageContent, cms)));
 });
 
+/* ---------- Plain pages (Sanity type "page") ---------- */
+
+/** Addresses the site's own pages and files use; a CMS page never takes one of these. */
+const reservedPages = new Set(["about-us", "blog", "contact-us", "credits", "how-we-work", "privacy-policy", "service-areas", "services", "sitemap", "terms-of-service", "api", "cms", "llms.txt", "robots.txt", "sitemap.xml"]);
+
+export type CustomPage = PageContent & { slug: string; title: string };
+
+/** Pages made in the CMS at one address like /reviews/: title, text, optional sections. Nothing is built in; no pages until the CMS has some. */
+export const getCustomPages = cache(async (): Promise<CustomPage[]> => {
+  const cms = await sanityFetch<{ title?: string; path?: string; body?: PageContent["sections"][number][] | unknown[]; sections?: PageContent["sections"]; seo?: Partial<PageContent["seo"]> }[]>(
+    `*[_type == "page" && defined(path)]{ title, path, "body": body${RICH}, "sections": sections[]{ ..., "image": image${IMG}, "style": ${STYLE}, "intro": intro${RICH}, "body": body${RICH}, "outro": outro${RICH}, "text": text${RICH}, cards[]{ ..., "image": image${IMG}, "text": text${RICH} }, "items": select(_type == "faqSection" => items[]->{ question, "answer": answer${RICH} }, items) }, ${SEO} }`,
+    {},
+    ["page"],
+  );
+  const pages: CustomPage[] = [];
+  for (const d of cms ?? []) {
+    const slug = (d.path ?? "").match(/^\/([a-z0-9]+(?:-[a-z0-9]+)*)\/$/)?.[1];
+    if (!slug || !d.title || reservedPages.has(slug) || pages.some((p) => p.slug === slug)) continue;
+    const text = Array.isArray(d.body) && d.body.length ? [{ _type: "proseSection" as const, _key: "text", body: d.body as never }] : [];
+    pages.push({
+      slug,
+      title: d.title,
+      hero: { heading: d.title },
+      sections: [...text, ...(d.sections ?? [])],
+      seo: { title: d.seo?.title || `${d.title} | Pro Wildlife Removal`, description: d.seo?.description ?? "", noIndex: d.seo?.noIndex, image: d.seo?.image, schema: d.seo?.schema },
+    });
+  }
+  return relink(hidePlaceholders(pages));
+});
+
+export async function getCustomPage(slug: string) {
+  return (await getCustomPages()).find((p) => p.slug === slug) ?? null;
+}
+
 /* ---------- Collections ---------- */
 
 /** CMS documents merge over the built-in item with the same key; CMS-only items are added; built-in items missing from the CMS stay. */
