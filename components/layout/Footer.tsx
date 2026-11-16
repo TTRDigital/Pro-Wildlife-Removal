@@ -6,7 +6,7 @@ import { SocialIcon } from "@/components/ui/SocialIcon";
 
 const linkCls = "inline-flex min-h-11 items-center py-0.5 text-white/75 transition-colors hover:text-white md:min-h-9";
 
-/** Footer: deep navy, the logo with the service area (no street address, the client's wish), the call block, link columns and the legal line. */
+/** Footer: deep navy, the logo with the service area and the business address (Kia, Nov 16, 2026: Google Ads needs a visible business address), the call block, link columns and the legal line. */
 export function Footer({ settings, services }: { settings: SiteSettings; services: Service[] }) {
   const removal = services.filter((s) => s.group === "removal");
   const company = [
@@ -32,6 +32,11 @@ export function Footer({ settings, services }: { settings: SiteSettings; service
             <span className="font-display text-lg font-bold text-white">{settings.name}</span>
           </Link>
           <p className="mt-5 max-w-[420px] leading-relaxed">{settings.serviceAreaText}</p>
+          {settings.address ? (
+            <address className="mt-3 not-italic leading-relaxed text-white/85">
+              {settings.name}, {settings.address.street}, {settings.address.city}, {settings.address.region} {settings.address.postalCode}
+            </address>
+          ) : null}
           <div className="mt-6 inline-flex flex-col gap-1 rounded-2xl border border-white/10 bg-white/5 p-4">
             <a href={settings.phoneHref} data-track="click_to_call" className="inline-flex min-h-11 items-center gap-2.5 text-2xl font-extrabold tracking-[-0.5px] text-white hover:text-blue-light">
               <Phone className="h-5 w-5 text-cta" strokeWidth={2.5} aria-hidden="true" />

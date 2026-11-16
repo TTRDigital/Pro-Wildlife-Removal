@@ -228,6 +228,8 @@ export type SiteSettings = {
   /** The counties the business serves, by name: the structured data's areaServed, whether or not each has its own page yet. */
   serviceCounties?: string[];
   license?: string;
+  /** The business address, shown in the footer of every page (Kia, Nov 16, 2026: Google Ads needs a visible business address). */
+  address?: { street: string; city: string; region: string; postalCode: string };
   googleRating?: string;
   reviewCount?: string;
   reviewsUrl?: string;

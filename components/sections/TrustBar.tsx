@@ -8,9 +8,9 @@ export function defaultTrust(settings: SiteSettings): TrustBarSection {
     _key: "trust",
     items: [
       ...(settings.googleRating ? [{ icon: "star" as const, label: `${settings.googleRating} Google Rating` }] : []),
-      { icon: "clock", label: "Same-Day Service" },
+      { icon: "clock", label: "Prompt Scheduling", text: "Same-day appointments often available" },
       { icon: "search", label: "Free Inspection" },
-      { icon: "shield-check", label: "Sealed for Good" },
+      { icon: "shield-check", label: "Entry Points Sealed" },
     ],
   };
 }

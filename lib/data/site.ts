@@ -18,6 +18,8 @@ export const fallbackSettings: Omit<SiteSettings, "phoneHref"> = {
   // The service region is "Central Florida" (Kia, Oct 26, 2026); the counties are the 8 the client targets (Marion added Oct 26, 2026).
   serviceAreaText: "Serving Central Florida: Pasco, Pinellas, Hillsborough, Hernando, Citrus, Sumter, Polk and Marion counties.",
   serviceCounties: ["Pasco", "Pinellas", "Hillsborough", "Hernando", "Citrus", "Sumter", "Polk", "Marion"],
+  // Kia, Nov 16, 2026: the business address is shown in every footer (Google Ads Misrepresentation fix). It is the address on the ad landing pages.
+  address: { street: "1324 Seven Springs Blvd., Suite 178", city: "Trinity", region: "FL", postalCode: "34655" },
   license: "[PLACEHOLDER: Florida license / FWC permit number]",
   googleRating: "4.7",
   reviewCount: "503",

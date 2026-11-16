@@ -56,7 +56,9 @@ export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
   // One phone number for the whole site (Kia, Oct 26, 2026): no county lines and no toll-free number,
   // whatever the CMS holds, so every template shows and calls the main line only.
   // tel: link always follows the displayed phone number.
-  return relink({ ...s, countyLines: [], tollFree: undefined, phoneHref: telHref(s.phone) });
+  // Google Ads Misrepresentation fix (Kia, Nov 16, 2026, TTR-2185): no rating, no review count and no licence line anywhere on the site, whatever the CMS holds,
+  // because none of them can be verified against the real Google Business Profile or a real licence number today.
+  return relink({ ...s, countyLines: [], tollFree: undefined, googleRating: undefined, reviewCount: undefined, license: undefined, phoneHref: telHref(s.phone) });
 });
 
 export function telHref(phone: string) {
