@@ -7,8 +7,6 @@ const AREAS = 'Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumt
 const REVIEWS_STD = [
   { q: 'Pro Wildlife Removal did an amazing job! We had rats in our attic and they came out the same day. The technician was very knowledgeable and sealed all the entry points. Highly recommend!', n: 'John D.' },
   { q: "Trustworthy and reliable. They stand by their work and their communication is a huge plus compared to other companies I've dealt with.", n: 'Robert B.' },
-  { q: 'Very professional service. The team was exactly as promised with no hidden surprises. They did a full inspection and fixed it permanently.', n: 'Melissa R.' },
-  { q: 'Excellent experience from start to finish. They did a full inspection, found where they were getting in, and fixed it permanently. The cleanup was thorough too.', n: 'Amanda T.' },
 ];
 
 const TRUST_STD = [
@@ -221,7 +219,6 @@ export const pages = [
       REVIEWS_STD[0],
       { q: 'Very professional service. They removed a family of raccoons from under our deck humanely. The service was exactly as promised and completely stress-free.', n: 'Melissa R.' },
       { q: 'I called them for a snake in my garage and they arrived within an hour. Fast, efficient, and the service was excellent. Great local company.', n: 'Michael S.' },
-      { q: 'Excellent experience from start to finish. They did a full inspection, found where the squirrels were getting in, and fixed it permanently. The cleanup was thorough too.', n: 'Amanda T.' },
       { q: 'Trustworthy and reliable. They stand by their work and their dependable service is a huge plus compared to other companies.', n: 'Robert B.' },
     ],
     urgency: { h2: "Wildlife Damage Gets Worse Every Day It's Ignored", p: 'Book your free inspection today.', cta: 'Get My FREE Inspection' },
