@@ -45,7 +45,7 @@ export const pages = [
       h2: 'Our Complete Rat Removal Solution',
       steps: [
         ['01', 'Trapping & Removal', 'Targeted, professional-grade trapping that removes every rat in the structure — safely and thoroughly.'],
-        ['02', 'Exclusion (Seal-Up)', "A rat only needs a hole the size of a quarter. We seal every entry point with rodent-proof materials — once they're out, they stay out."],
+        ['02', 'Exclusion (Seal-Up)', "A rat only needs a hole the size of a quarter. We seal every entry point with rodent-proof materials."],
         ['03', 'Clean-Up & Restoration', 'Droppings removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
     },
@@ -83,7 +83,7 @@ export const pages = [
       h2: 'Our Complete Bat Removal Solution',
       steps: [
         ['01', 'One-Way Valve Removal', 'We install one-way exclusion valves over every active entry point. Bats exit on their own at night to feed — but the valve prevents them from re-entering. No trapping, no handling, completely humane.'],
-        ['02', 'Exclusion (Seal-Up)', 'Once all bats have exited through the valves, we remove the devices and seal every entry point with bat-proof materials — so they can never return.'],
+        ['02', 'Exclusion (Seal-Up)', 'Once all bats have exited through the valves, we remove the devices and seal every entry point with bat-proof materials.'],
         ['03', 'Clean-Up & Restoration', 'Guano removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
     },
@@ -213,7 +213,7 @@ export const pages = [
       h2: 'Our Complete Solution', iconCards: true,
       steps: [
         ['search', 'Trapping & Removal', 'Safe, humane, and thorough removal of all nuisance wildlife from your property.'],
-        ['lock', 'Exclusion (Seal-Up)', 'We seal every entry point so once they are out, they stay out for good.'],
+        ['lock', 'Exclusion (Seal-Up)', 'We seal every entry point once the animals are out.'],
         ['sparkles', 'Clean-Up & Restoration', 'Antimicrobial treatment, attic restoration, and full sanitizing.'],
       ],
     },
