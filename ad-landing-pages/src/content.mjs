@@ -12,9 +12,9 @@ const REVIEWS_STD = [
 ];
 
 const TRUST_STD = [
-  { icon: 'shield', t: 'Licensed & Insured' },
-  { icon: 'clock', t: 'Same-Day Service', s: 'Fast Response' },
-  { icon: 'alert', t: 'Permanent Solution', s: 'Sealed For Good' },
+  { icon: 'shield', t: 'Insured' },
+  { icon: 'clock', t: 'Prompt Scheduling', s: 'Same-day appointments often available' },
+  { icon: 'alert', t: 'Exclusion Work', s: 'Entry Points Sealed' },
 ];
 
 const WHY_EMOJI = ['🔥', '⚕', '📈'];
@@ -23,17 +23,17 @@ export const pages = [
   {
     slug: 'rat',
     host: 'rat.prowildliferemoval.net',
-    title: 'Rat Removal Tampa FL | Same-Day Service | Pro Wildlife Removal',
-    description: 'Same-day rat removal in Tampa Bay & West Central Florida. Free inspection, professional trapping, and custom sealing. Licensed & insured. Call (727) 855-6766.',
+    title: 'Rat Removal Tampa FL | Free Inspection | Pro Wildlife Removal',
+    description: 'Rat removal in Tampa Bay & West Central Florida. Free inspection, professional trapping, and custom sealing. Insured. Call (727) 855-6766.',
     tel: 'tel:+17278556766',
-    topbar: 'Serving Tampa Bay & West Central Florida — Same-Day Rat Removal',
+    topbar: 'Serving Tampa Bay & West Central Florida — Rat Removal',
     headerLabel: '24/7 Emergency Rat Removal',
-    hero: { badge: 'Fully Licensed & Insured', h1: ['Same-Day Emergency', 'Rat Removal'], sub: 'Free inspection. Professional, permanent rat removal.', img: 'rat-hero.jpg', alt: 'Rats' },
+    hero: { badge: 'Insured', h1: ['Local', 'Rat Removal'], sub: 'Free inspection. Professional rat removal.', img: 'rat-hero.jpg', alt: 'Rats' },
     trust: TRUST_STD,
     inspect: {
       imgs: [['rat-inspect-1.jpg', 'Attic inspection'], ['rat-inspect-2.jpg', 'Rat trapped']],
       kicker: 'Professional Inspection', h2: 'Your Comprehensive Rat Inspection',
-      p: 'We provide a complete inspection to find out exactly where rats are getting in and solve your rodent problem permanently.',
+      p: 'We provide a complete inspection to find out exactly where rats are getting in and address your rodent problem.',
       items: ['Full attic, crawlspace & wall inspection', 'Rodent entry-point identification', 'Droppings & damage assessment', 'Detailed property assessment'],
       cta: 'Call for FREE Inspection',
     },
@@ -61,17 +61,17 @@ export const pages = [
   {
     slug: 'bat',
     host: 'bat.prowildliferemoval.net',
-    title: 'Same-Day Emergency Bat Removal | Pro Wildlife Removal',
-    description: 'Same-day emergency bat removal in Tampa Bay & West Central Florida. Licensed & insured. Free inspection, permanent seal-up & guano clean-up. Call (727) 855-6766.',
+    title: 'Bat Removal Tampa Bay | Free Inspection | Pro Wildlife Removal',
+    description: 'Bat removal in Tampa Bay & West Central Florida. Insured. Free inspection, seal-up & guano clean-up. Call (727) 855-6766.',
     tel: 'tel:+17278556766',
-    topbar: 'Serving Tampa Bay & West Central Florida — Same-Day Bat Removal',
+    topbar: 'Serving Tampa Bay & West Central Florida — Bat Removal',
     headerLabel: '24/7 Emergency Bat Removal',
-    hero: { badge: 'Fully Licensed & Insured', h1: ['Same-Day Emergency', 'Bat Removal'], sub: 'Free inspection. Professional, permanent bat removal — humane one-way valve exclusion.', img: 'bat-hero.jpg', alt: 'Bats roosting on brick' },
+    hero: { badge: 'Insured', h1: ['Local', 'Bat Removal'], sub: 'Free inspection. Professional bat removal — humane one-way valve exclusion.', img: 'bat-hero.jpg', alt: 'Bats roosting on brick' },
     trust: TRUST_STD,
     inspect: {
       imgs: [['bat-inspect-1.jpg', 'Bat inspection']],
       kicker: 'Professional Inspection', h2: 'Your Comprehensive Bat Inspection',
-      p: 'We provide a complete inspection to find out exactly where bats are getting in and solve your bat problem permanently with humane one-way valve exclusion.',
+      p: 'We provide a complete inspection to find out exactly where bats are getting in and address your bat problem with humane one-way valve exclusion.',
       items: ['Full attic, crawlspace & wall inspection', 'Bat entry-point identification', 'Guano & damage assessment', 'Detailed property assessment'],
       cta: 'Call for FREE Inspection',
     },
@@ -83,7 +83,7 @@ export const pages = [
       h2: 'Our Complete Bat Removal Solution',
       steps: [
         ['01', 'One-Way Valve Removal', 'We install one-way exclusion valves over every active entry point. Bats exit on their own at night to feed — but the valve prevents them from re-entering. No trapping, no handling, completely humane.'],
-        ['02', 'Exclusion (Seal-Up)', 'Once all bats have exited through the valves, we remove the devices and permanently seal every entry point with bat-proof materials — so they can never return.'],
+        ['02', 'Exclusion (Seal-Up)', 'Once all bats have exited through the valves, we remove the devices and seal every entry point with bat-proof materials — so they can never return.'],
         ['03', 'Clean-Up & Restoration', 'Guano removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
     },
@@ -99,17 +99,17 @@ export const pages = [
   {
     slug: 'squirrel',
     host: 'squirrel.prowildliferemoval.net',
-    title: 'Same-Day Emergency Squirrel Removal | Pro Wildlife Removal',
-    description: 'Same-day emergency squirrel removal in Tampa Bay & West Central Florida. Licensed & insured. Free inspection, permanent seal-up & clean-up. Call (727) 855-6766.',
+    title: 'Squirrel Removal Tampa Bay | Free Inspection | Pro Wildlife Removal',
+    description: 'Squirrel removal in Tampa Bay & West Central Florida. Insured. Free inspection, seal-up & clean-up. Call (727) 855-6766.',
     tel: 'tel:+17278556766',
-    topbar: 'Serving Tampa Bay & West Central Florida — Same-Day Squirrel Removal',
+    topbar: 'Serving Tampa Bay & West Central Florida — Squirrel Removal',
     headerLabel: '24/7 Emergency Squirrel Removal',
-    hero: { badge: 'Fully Licensed & Insured', h1: ['Same-Day Emergency', 'Squirrel Removal'], sub: 'Free inspection. Professional, permanent squirrel removal — humane one-way door exclusion.', img: 'squirrel-hero.jpg', alt: 'Squirrel in hand' },
+    hero: { badge: 'Insured', h1: ['Local', 'Squirrel Removal'], sub: 'Free inspection. Professional squirrel removal — humane one-way door exclusion.', img: 'squirrel-hero.jpg', alt: 'Squirrel in hand' },
     trust: TRUST_STD,
     inspect: {
       imgs: [['squirrel-inspect-1.jpg', 'Squirrel exclusion'], ['squirrel-inspect-2.jpg', 'Squirrel inspection']],
       kicker: 'Professional Inspection', h2: 'Your Comprehensive Squirrel Inspection',
-      p: 'We provide a complete inspection to find out exactly where squirrels are getting in and solve your squirrel problem permanently with humane one-way door exclusion.',
+      p: 'We provide a complete inspection to find out exactly where squirrels are getting in and address your squirrel problem with humane one-way door exclusion.',
       items: ['Full attic, crawlspace & wall inspection', 'Squirrel entry-point identification', 'Droppings & damage assessment', 'Detailed property assessment'],
       cta: 'Call for FREE Inspection',
     },
@@ -121,7 +121,7 @@ export const pages = [
       h2: 'Our Complete Squirrel Removal Solution',
       steps: [
         ['01', 'One-Way Door Removal', 'We install one-way exclusion doors over every active entry point. Squirrels exit on their own to forage — but the door prevents them from getting back in. No trapping, no stress to the animal, completely humane.'],
-        ['02', 'Exclusion (Seal-Up)', 'Once all squirrels have exited through the one-way doors, we remove the devices and permanently seal every entry point with rodent-proof materials — so another squirrel never moves in.'],
+        ['02', 'Exclusion (Seal-Up)', 'Once all squirrels have exited through the one-way doors, we remove the devices and seal every entry point with rodent-proof materials — so another squirrel never moves in.'],
         ['03', 'Clean-Up & Restoration', 'Droppings removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
     },
@@ -191,14 +191,14 @@ export const pages = [
     host: 'wildlife.prowildliferemoval.net',
     variant: 'light',
     title: 'Wildlife Removal Central Florida | Free Inspection | Pro Wildlife Removal',
-    description: 'Raccoons, rats, squirrels, bats & more — removed fast, sealed out for good. Get your free inspection today.',
+    description: 'Raccoons, rats, squirrels, bats & more — removed, with entry points sealed. Get your free inspection today.',
     tel: 'tel:+17278556766',
     topbar: 'Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties',
     headerLabel: 'Free Inspection',
-    hero: { badge: 'Fully Licensed & Insured', h1: ['Same-Day Emergency', 'Wildlife Removal'], sub: 'Fast removal. Sealed for good.', chips: [['clock', 'Same Day Service'], ['check', 'Free Inspection']], img: 'wildlife-hero.jpg', alt: 'Pro Wildlife Removal Trucks' },
+    hero: { badge: 'Insured', h1: ['Local', 'Wildlife Removal'], sub: 'Free inspection. Entry points sealed.', chips: [['clock', 'Prompt Scheduling'], ['check', 'Free Inspection']], img: 'wildlife-hero.jpg', alt: 'Pro Wildlife Removal Trucks' },
     trust: [
-      { icon: 'shield', t: 'Licensed & Insured' },
-      { icon: 'clock', t: 'Same Day Service', s: 'Fast Response' },
+      { icon: 'shield', t: 'Insured' },
+      { icon: 'clock', t: 'Prompt Scheduling', s: 'Same-day appointments often available' },
       { icon: 'award', t: 'Complete Solution', s: 'Removal & Seal-Up' },
     ],
     inspect: {
