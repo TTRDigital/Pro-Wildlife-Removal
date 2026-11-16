@@ -49,11 +49,11 @@ const sameShotByName = Object.fromEntries(Object.entries(sameShot).map(([from, t
 const shot = (img?: Img) => (img ? (sameShotByName[imgKey(img)] ?? imgKey(img)) : "");
 
 /** From the client-approved Google Ads landing pages. */
-export const perks = ["Same-Day Service", "Free Inspection"];
+export const perks = ["Prompt Scheduling", "Free Inspection"];
 
 /**
  * Page header in the service-page layout: soft tint with a light glow, the H1 with its blue phrase, a short lede, the call
- * button with "Same-Day Service" and "Free Inspection", and the Google rating.
+ * button with "Prompt Scheduling" and "Free Inspection", and the Google rating.
  * The photos on the right cross-fade every few seconds (below the copy on phones).
  */
 /** The hero's photos: its own and the team's, or on an animal's page only that animal's (Kia). */

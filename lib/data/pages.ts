@@ -1735,7 +1735,7 @@ const migratedPages = {
          },
          {
           "_type": "span",
-          "text": " include trapping, removal, and sealing entry points to keep rats out for good.",
+          "text": " include trapping, removal, and sealing entry points to help keep rats out.",
           "marks": []
          }
         ],
