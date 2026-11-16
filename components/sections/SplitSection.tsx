@@ -10,9 +10,11 @@ import { TextColumns } from "./ProseSection";
 export function SplitSection({ section: s }: { section: Split }) {
   const left = s.imageSide !== "right";
   // A long check list: the photo stays in view beside it while it ticks off.
-  const long = (s.checklist?.length ?? 0) > 3;
-  const checks = s.checklist?.length ? (
-    <ScrollChecklist items={s.checklist} />
+  // Unverifiable review claims never show (Google Ads, Nov 16, TTR-2184).
+  const items = (s.checklist ?? []).filter((c) => !/Google reviews|\d\.\d from \d+/i.test(c));
+  const long = items.length > 3;
+  const checks = items.length ? (
+    <ScrollChecklist items={items} />
   ) : null;
   // Without a photo, the text gets the two-column text layout instead of half a row.
   if (!s.image)
