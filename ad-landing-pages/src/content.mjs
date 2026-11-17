@@ -79,7 +79,7 @@ export const pages = [
     solution: {
       h2: 'Our Complete Bat Removal Solution',
       steps: [
-        ['01', 'One-Way Valve Removal', 'We install one-way exclusion valves over every active entry point. Bats exit on their own at night to feed — but the valve prevents them from re-entering. No trapping, no handling, completely humane.'],
+        ['01', 'One-Way Valve Removal', 'We install one-way exclusion valves over every active entry point. Bats exit on their own at night to feed — but the valve prevents them from re-entering. No trapping and no handling.'],
         ['02', 'Exclusion (Seal-Up)', 'Once all bats have exited through the valves, we remove the devices and seal every entry point with bat-proof materials.'],
         ['03', 'Clean-Up & Restoration', 'Guano removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
@@ -117,7 +117,7 @@ export const pages = [
     solution: {
       h2: 'Our Complete Squirrel Removal Solution',
       steps: [
-        ['01', 'One-Way Door Removal', 'We install one-way exclusion doors over every active entry point. Squirrels exit on their own to forage — but the door prevents them from getting back in. No trapping, no stress to the animal, completely humane.'],
+        ['01', 'One-Way Door Removal', 'We install one-way exclusion doors over every active entry point. Squirrels exit on their own to forage — but the door prevents them from getting back in. No trapping and no handling.'],
         ['02', 'Exclusion (Seal-Up)', 'Once all squirrels have exited through the one-way doors, we remove the devices and seal every entry point with rodent-proof materials — so another squirrel never moves in.'],
         ['03', 'Clean-Up & Restoration', 'Droppings removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
@@ -139,7 +139,7 @@ export const pages = [
     tel: 'tel:+17278556766',
     topbar: 'Serving Tampa Bay & West Central Florida — Raccoon Removal',
     headerLabel: 'Raccoon Removal Service',
-    hero: { badge: 'Pro Wildlife Removal', h1: ['Raccoon in Your Attic?', 'Call Pro Wildlife Removal'], sub: 'Get help with raccoon activity, attic entry points, and removal options for your property.', note: 'Call to confirm service availability in your area.', img: 'raccoon-hero.jpg', alt: 'Raccoon safely secured in a humane trap on a residential property walkway' },
+    hero: { badge: 'Pro Wildlife Removal', h1: ['Raccoon in Your Attic?', 'Call Pro Wildlife Removal'], sub: 'Get help with raccoon activity, attic entry points, and removal options for your property.', note: 'Call to confirm service availability in your area.', img: 'raccoon-hero.jpg', alt: 'Raccoon secured in a trap on a residential property walkway' },
     trust: [
       { icon: 'pin', t: 'Local Raccoon Removal', s: 'Tampa Bay Area' },
       { icon: 'phone', t: 'Call to Schedule', s: 'Confirm Availability' },
@@ -180,7 +180,7 @@ export const pages = [
     },
     reviews: null, // live raccoon page has no reviews block
     urgency: { h2: 'Think You Have a Raccoon in Your Attic?', p: 'Call to schedule an inspection and review your options.', cta: `Call ${PHONE} Now` },
-    contact: { p: 'Local raccoon removal is only a phone call away. Call to confirm service availability in your area.', label: 'Call Us', areas: 'Call to confirm whether raccoon removal service is available in your area.', img: 'raccoon-contact.jpg', alt: 'Humane raccoon removal assessment in West Central Florida' },
+    contact: { p: 'Local raccoon removal is only a phone call away. Call to confirm service availability in your area.', label: 'Call Us', areas: 'Call to confirm whether raccoon removal service is available in your area.', img: 'raccoon-contact.jpg', alt: 'Raccoon removal assessment in West Central Florida' },
   },
 
   {
