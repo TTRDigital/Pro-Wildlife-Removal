@@ -50,7 +50,7 @@ export const pages = [
       h2: "Why a Rat Problem Can't Wait",
       items: [['Fire hazard', 'Rats gnaw electrical wiring inside walls and attics.'], ['Health risk', 'Droppings and urine contaminate insulation and air.'], ['They multiply fast', 'One pair can become dozens in a few months.']],
     },
-    reviews: REVIEWS_STD,
+    reviews: null,
     urgency: { h2: "Rat Damage Gets Worse Every Day It's Ignored", p: 'Book your free inspection today.', cta: `Call ${PHONE} Now` },
     contact: { p: 'Professional rat removal is only a phone call away.', label: 'Call Us Today', areas: AREAS, img: 'rat-contact.jpg', alt: 'Rat Removal Service' },
   },
@@ -63,12 +63,12 @@ export const pages = [
     tel: 'tel:+17278556766',
     topbar: 'Serving Tampa Bay & West Central Florida — Bat Removal',
     headerLabel: 'Bat Removal',
-    hero: { badge: 'Insured', h1: ['Local', 'Bat Removal'], sub: 'Free inspection. Professional bat removal — humane one-way valve exclusion.', img: 'bat-hero.jpg', alt: 'Bats roosting on brick' },
+    hero: { badge: 'Insured', h1: ['Local', 'Bat Removal'], sub: 'Free inspection. Professional bat removal — one-way valve exclusion.', img: 'bat-hero.jpg', alt: 'Bats roosting on brick' },
     trust: TRUST_STD,
     inspect: {
       imgs: [['bat-inspect-1.jpg', 'Bat inspection']],
       kicker: 'Professional Inspection', h2: 'Your Comprehensive Bat Inspection',
-      p: 'We provide a complete inspection to find out exactly where bats are getting in and address your bat problem with humane one-way valve exclusion.',
+      p: 'We provide a complete inspection to find out exactly where bats are getting in and address your bat problem with one-way valve exclusion.',
       items: ['Full attic, crawlspace & wall inspection', 'Bat entry-point identification', 'Guano & damage assessment', 'Detailed property assessment'],
       cta: 'Call for FREE Inspection',
     },
@@ -79,7 +79,7 @@ export const pages = [
     solution: {
       h2: 'Our Complete Bat Removal Solution',
       steps: [
-        ['01', 'One-Way Valve Removal', 'We install one-way exclusion valves over every active entry point. Bats exit on their own at night to feed — but the valve prevents them from re-entering. No trapping, no handling, completely humane.'],
+        ['01', 'One-Way Valve Removal', 'We install one-way exclusion valves over every active entry point. Bats exit on their own at night to feed — but the valve prevents them from re-entering. No trapping and no handling.'],
         ['02', 'Exclusion (Seal-Up)', 'Once all bats have exited through the valves, we remove the devices and seal every entry point with bat-proof materials.'],
         ['03', 'Clean-Up & Restoration', 'Guano removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
@@ -88,7 +88,7 @@ export const pages = [
       h2: "Why a Bat Problem Can't Wait",
       items: [['Health risk', 'Bat guano and urine contaminate insulation and air, and can cause histoplasmosis.'], ['Strong odor', 'Guano, urine, and oils produce a strong, musty odor that spreads through the home.'], ['Colonies grow fast', 'A few bats can become a large colony roosting in your attic within months.']],
     },
-    reviews: REVIEWS_STD,
+    reviews: null,
     urgency: null, // live bat page has no urgency band
     contact: { p: 'Professional bat removal is only a phone call away.', label: 'Call Us Today', areas: AREAS, img: 'bat-contact.jpg', alt: 'Bats roosting in attic' },
   },
@@ -101,12 +101,12 @@ export const pages = [
     tel: 'tel:+17278556766',
     topbar: 'Serving Tampa Bay & West Central Florida — Squirrel Removal',
     headerLabel: 'Squirrel Removal',
-    hero: { badge: 'Insured', h1: ['Local', 'Squirrel Removal'], sub: 'Free inspection. Professional squirrel removal — humane one-way door exclusion.', img: 'squirrel-hero.jpg', alt: 'Squirrel in hand' },
+    hero: { badge: 'Insured', h1: ['Local', 'Squirrel Removal'], sub: 'Free inspection. Professional squirrel removal — one-way door exclusion.', img: 'squirrel-hero.jpg', alt: 'Squirrel in hand' },
     trust: TRUST_STD,
     inspect: {
       imgs: [['squirrel-inspect-1.jpg', 'Squirrel exclusion'], ['squirrel-inspect-2.jpg', 'Squirrel inspection']],
       kicker: 'Professional Inspection', h2: 'Your Comprehensive Squirrel Inspection',
-      p: 'We provide a complete inspection to find out exactly where squirrels are getting in and address your squirrel problem with humane one-way door exclusion.',
+      p: 'We provide a complete inspection to find out exactly where squirrels are getting in and address your squirrel problem with one-way door exclusion.',
       items: ['Full attic, crawlspace & wall inspection', 'Squirrel entry-point identification', 'Droppings & damage assessment', 'Detailed property assessment'],
       cta: 'Call for FREE Inspection',
     },
@@ -117,7 +117,7 @@ export const pages = [
     solution: {
       h2: 'Our Complete Squirrel Removal Solution',
       steps: [
-        ['01', 'One-Way Door Removal', 'We install one-way exclusion doors over every active entry point. Squirrels exit on their own to forage — but the door prevents them from getting back in. No trapping, no stress to the animal, completely humane.'],
+        ['01', 'One-Way Door Removal', 'We install one-way exclusion doors over every active entry point. Squirrels exit on their own to forage — but the door prevents them from getting back in. No trapping and no handling.'],
         ['02', 'Exclusion (Seal-Up)', 'Once all squirrels have exited through the one-way doors, we remove the devices and seal every entry point with rodent-proof materials — so another squirrel never moves in.'],
         ['03', 'Clean-Up & Restoration', 'Droppings removal, antimicrobial treatment, contaminated insulation replacement, and full sanitizing of affected areas.'],
       ],
@@ -126,7 +126,7 @@ export const pages = [
       h2: "Why a Squirrel Problem Can't Wait",
       items: [['Fire hazard', 'Squirrels gnaw electrical wiring inside walls and attics.'], ['Health risk', 'Droppings and urine contaminate insulation and air.'], ['They multiply fast', 'Squirrels breed twice a year — a small problem becomes a big one quickly.']],
     },
-    reviews: REVIEWS_STD,
+    reviews: null,
     urgency: { h2: "Squirrel Damage Gets Worse Every Day It's Ignored", p: 'Book your free inspection today.', cta: `Call ${PHONE} Now` },
     contact: { p: 'Professional squirrel removal is only a phone call away.', label: 'Call Us Today', areas: AREAS, img: 'squirrel-contact.jpg', alt: 'Squirrel on roof' },
   },
@@ -139,14 +139,14 @@ export const pages = [
     tel: 'tel:+17278556766',
     topbar: 'Serving Tampa Bay & West Central Florida — Raccoon Removal',
     headerLabel: 'Raccoon Removal Service',
-    hero: { badge: 'Pro Wildlife Removal', h1: ['Raccoon in Your Attic?', 'Call Pro Wildlife Removal'], sub: 'Get help with raccoon activity, attic entry points, and removal options for your property.', note: 'Call to confirm service availability in your area.', img: 'raccoon-hero.jpg', alt: 'Raccoon safely secured in a humane trap on a residential property walkway' },
+    hero: { badge: 'Pro Wildlife Removal', h1: ['Raccoon in Your Attic?', 'Call Pro Wildlife Removal'], sub: 'Get help with raccoon activity, attic entry points, and removal options for your property.', note: 'Call to confirm service availability in your area.', img: 'raccoon-hero.jpg', alt: 'Raccoon secured in a trap on a residential property walkway' },
     trust: [
       { icon: 'pin', t: 'Local Raccoon Removal', s: 'Tampa Bay Area' },
       { icon: 'phone', t: 'Call to Schedule', s: 'Confirm Availability' },
       { icon: 'search', t: 'Inspection First', s: 'Identify the Animal' },
     ],
     inspect: {
-      imgs: [['raccoon-inspect-1.jpg', 'Close-up of raccoon safely secured in humane trap'], ['raccoon-inspect-2.jpg', 'Two raccoons safely contained in a humane trap during removal']],
+      imgs: [['raccoon-inspect-1.jpg', 'Close-up of raccoon safely secured in a trap'], ['raccoon-inspect-2.jpg', 'Two raccoons safely contained in a trap during removal']],
       kicker: 'Property Assessment', h2: 'Assessing Raccoon Activity in Your Attic',
       p: "We take a close look at your attic and property to assess raccoon activity, identify possible entry points, and review any visible damage. Sounds alone don't confirm raccoons, so an inspection helps determine the animal involved and the options for your property.",
       items: ['Assessment of attic activity and signs of raccoon presence', 'Review of possible entry points around the roof and structure', 'Inspection of visible damage near vents, soffits, and openings', 'Check for dependent young before any sealing is considered'],
@@ -180,7 +180,7 @@ export const pages = [
     },
     reviews: null, // live raccoon page has no reviews block
     urgency: { h2: 'Think You Have a Raccoon in Your Attic?', p: 'Call to schedule an inspection and review your options.', cta: `Call ${PHONE} Now` },
-    contact: { p: 'Local raccoon removal is only a phone call away. Call to confirm service availability in your area.', label: 'Call Us', areas: 'Call to confirm whether raccoon removal service is available in your area.', img: 'raccoon-contact.jpg', alt: 'Humane raccoon removal assessment in West Central Florida' },
+    contact: { p: 'Local raccoon removal is only a phone call away. Call to confirm service availability in your area.', label: 'Call Us', areas: 'Call to confirm whether raccoon removal service is available in your area.', img: 'raccoon-contact.jpg', alt: 'Raccoon removal assessment in West Central Florida' },
   },
 
   {
@@ -209,15 +209,12 @@ export const pages = [
     solution: {
       h2: 'Our Complete Solution', iconCards: true,
       steps: [
-        ['search', 'Trapping & Removal', 'Safe, humane, and thorough removal of all nuisance wildlife from your property.'],
+        ['search', 'Trapping & Removal', 'Safe and thorough removal of all nuisance wildlife from your property.'],
         ['lock', 'Exclusion (Seal-Up)', 'We seal every entry point once the animals are out.'],
         ['sparkles', 'Clean-Up & Restoration', 'Antimicrobial treatment, attic restoration, and full sanitizing.'],
       ],
     },
-    reviews: [
-      { q: 'Very professional service. They removed a family of raccoons from under our deck humanely. The service was exactly as promised and completely stress-free.', n: 'Melissa R.' },
-      { q: 'Trustworthy and reliable. They stand by their work and their dependable service is a huge plus compared to other companies.', n: 'Robert B.' },
-    ],
+    reviews: null,
     urgency: { h2: "Wildlife Damage Gets Worse Every Day It's Ignored", p: 'Book your free inspection today.', cta: 'Get My FREE Inspection' },
     contact: { p: 'Professional wildlife removal is only a phone call away.', label: 'Call Us Today', areasHeading: 'Service Areas:', areas: 'Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties', img: 'wildlife-contact.jpg', alt: 'Friendly Technician' },
   },
