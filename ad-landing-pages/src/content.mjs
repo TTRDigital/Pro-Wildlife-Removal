@@ -5,7 +5,6 @@ const PHONE = '(727) 855-6766';
 const AREAS = 'Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties.';
 
 const REVIEWS_STD = [
-  { q: 'Pro Wildlife Removal did an amazing job! We had rats in our attic and they came out the same day. The technician was very knowledgeable and sealed all the entry points. Highly recommend!', n: 'John D.' },
   { q: "Trustworthy and reliable. They stand by their work and their communication is a huge plus compared to other companies I've dealt with.", n: 'Robert B.' },
 ];
 
@@ -25,7 +24,7 @@ export const pages = [
     description: 'Rat removal in Tampa Bay & West Central Florida. Free inspection, professional trapping, and custom sealing. Insured. Call (727) 855-6766.',
     tel: 'tel:+17278556766',
     topbar: 'Serving Tampa Bay & West Central Florida — Rat Removal',
-    headerLabel: '24/7 Emergency Rat Removal',
+    headerLabel: 'Rat Removal',
     hero: { badge: 'Insured', h1: ['Local', 'Rat Removal'], sub: 'Free inspection. Professional rat removal.', img: 'rat-hero.jpg', alt: 'Rats' },
     trust: TRUST_STD,
     inspect: {
@@ -53,7 +52,7 @@ export const pages = [
     },
     reviews: REVIEWS_STD,
     urgency: { h2: "Rat Damage Gets Worse Every Day It's Ignored", p: 'Book your free inspection today.', cta: `Call ${PHONE} Now` },
-    contact: { p: 'Professional rat removal is only a phone call away.', label: 'Call Us 24/7', areas: AREAS, img: 'rat-contact.jpg', alt: 'Rat Removal Service' },
+    contact: { p: 'Professional rat removal is only a phone call away.', label: 'Call Us Today', areas: AREAS, img: 'rat-contact.jpg', alt: 'Rat Removal Service' },
   },
 
   {
@@ -63,7 +62,7 @@ export const pages = [
     description: 'Bat removal in Tampa Bay & West Central Florida. Insured. Free inspection, seal-up & guano clean-up. Call (727) 855-6766.',
     tel: 'tel:+17278556766',
     topbar: 'Serving Tampa Bay & West Central Florida — Bat Removal',
-    headerLabel: '24/7 Emergency Bat Removal',
+    headerLabel: 'Bat Removal',
     hero: { badge: 'Insured', h1: ['Local', 'Bat Removal'], sub: 'Free inspection. Professional bat removal — humane one-way valve exclusion.', img: 'bat-hero.jpg', alt: 'Bats roosting on brick' },
     trust: TRUST_STD,
     inspect: {
@@ -91,7 +90,7 @@ export const pages = [
     },
     reviews: REVIEWS_STD,
     urgency: null, // live bat page has no urgency band
-    contact: { p: 'Professional bat removal is only a phone call away.', label: 'Call Us 24/7', areas: AREAS, img: 'bat-contact.jpg', alt: 'Bats roosting in attic' },
+    contact: { p: 'Professional bat removal is only a phone call away.', label: 'Call Us Today', areas: AREAS, img: 'bat-contact.jpg', alt: 'Bats roosting in attic' },
   },
 
   {
@@ -101,7 +100,7 @@ export const pages = [
     description: 'Squirrel removal in Tampa Bay & West Central Florida. Insured. Free inspection, seal-up & clean-up. Call (727) 855-6766.',
     tel: 'tel:+17278556766',
     topbar: 'Serving Tampa Bay & West Central Florida — Squirrel Removal',
-    headerLabel: '24/7 Emergency Squirrel Removal',
+    headerLabel: 'Squirrel Removal',
     hero: { badge: 'Insured', h1: ['Local', 'Squirrel Removal'], sub: 'Free inspection. Professional squirrel removal — humane one-way door exclusion.', img: 'squirrel-hero.jpg', alt: 'Squirrel in hand' },
     trust: TRUST_STD,
     inspect: {
@@ -129,7 +128,7 @@ export const pages = [
     },
     reviews: REVIEWS_STD,
     urgency: { h2: "Squirrel Damage Gets Worse Every Day It's Ignored", p: 'Book your free inspection today.', cta: `Call ${PHONE} Now` },
-    contact: { p: 'Professional squirrel removal is only a phone call away.', label: 'Call Us 24/7', areas: AREAS, img: 'squirrel-contact.jpg', alt: 'Squirrel on roof' },
+    contact: { p: 'Professional squirrel removal is only a phone call away.', label: 'Call Us Today', areas: AREAS, img: 'squirrel-contact.jpg', alt: 'Squirrel on roof' },
   },
 
   {
@@ -216,13 +215,11 @@ export const pages = [
       ],
     },
     reviews: [
-      REVIEWS_STD[0],
       { q: 'Very professional service. They removed a family of raccoons from under our deck humanely. The service was exactly as promised and completely stress-free.', n: 'Melissa R.' },
-      { q: 'I called them for a snake in my garage and they arrived within an hour. Fast, efficient, and the service was excellent. Great local company.', n: 'Michael S.' },
       { q: 'Trustworthy and reliable. They stand by their work and their dependable service is a huge plus compared to other companies.', n: 'Robert B.' },
     ],
     urgency: { h2: "Wildlife Damage Gets Worse Every Day It's Ignored", p: 'Book your free inspection today.', cta: 'Get My FREE Inspection' },
-    contact: { p: 'Professional wildlife removal is only a phone call away.', label: 'Call Us 24/7', areasHeading: 'Service Areas:', areas: 'Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties', img: 'wildlife-contact.jpg', alt: 'Friendly Technician' },
+    contact: { p: 'Professional wildlife removal is only a phone call away.', label: 'Call Us Today', areasHeading: 'Service Areas:', areas: 'Serving Pasco, Pinellas, Hernando, Hillsborough, Citrus, and Sumter counties', img: 'wildlife-contact.jpg', alt: 'Friendly Technician' },
   },
 ];
 
