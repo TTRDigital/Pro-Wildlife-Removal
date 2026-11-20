@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
 import { ArrowRight, Check, CircleAlert, LoaderCircle, Phone } from "lucide-react";
 import { ATTRIBUTION_STORAGE_KEY, attributionKeys, propertyOptions, serviceOptions } from "@/lib/lead-options";
+import { preloadRecaptcha, recaptchaToken } from "@/lib/spam-guard";
 
 type Field = "name" | "phone" | "email" | "zip" | "address" | "property" | "service" | "message";
 type Values = Record<Field, string>;
@@ -55,6 +56,7 @@ export function LeadForm({
 
   useEffect(() => {
     startedAt.current = Date.now();
+    preloadRecaptcha();
   }, []);
 
   const fields: Field[] = compact ? ["name", "phone", "email", "zip", "service", "message"] : ["name", "phone", "email", "zip", "address", "property", "service", "message"];
@@ -95,6 +97,8 @@ export function LeadForm({
       /* ignore */
     }
     const honeypot = (formRef.current?.elements.namedItem("hp_pw") as HTMLInputElement | null)?.value ?? "";
+    const elapsed = Date.now() - startedAt.current;
+    const token = await recaptchaToken("lead");
 
     try {
       const res = await fetch("/api/lead/", {
@@ -104,7 +108,8 @@ export function LeadForm({
           ...values,
           consent: true,
           hp_pw: honeypot,
-          elapsed_ms: Date.now() - startedAt.current,
+          elapsed_ms: elapsed,
+          recaptcha_token: token,
           page_url: window.location.href,
           landing_page: attribution.landing_page ?? "",
           referrer: attribution.referrer ?? document.referrer,
