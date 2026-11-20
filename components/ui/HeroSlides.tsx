@@ -36,7 +36,7 @@ export function HeroSlides({ images, interval = 4500, sizes, moving = false }: {
     <div className="absolute inset-0" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} onFocus={() => setPaused(true)} onBlur={() => setPaused(false)}>
       {images.map((img, k) => (
         <div key={img.src} aria-hidden={k !== i} className={`${moving ? `post-shot post-shot-${k % 4} overflow-hidden` : "photo-live"} absolute inset-0 transition-opacity duration-1000 ease-in-out ${k === i ? "opacity-100" : "opacity-0"}`}>
-          {k === 0 || rest ? <Photo image={img} priority={k === 0} sizes={sizes} /> : null}
+          {k === 0 || rest ? <Photo image={img} priority={k === 0} low={k !== 0} sizes={sizes} /> : null}
         </div>
       ))}
       <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-navy/35 via-transparent to-transparent" />
