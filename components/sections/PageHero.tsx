@@ -102,7 +102,8 @@ export function PageHero({ hero, crumbs, ctas, settings, animal, animalKey }: { 
           <RatingChip settings={settings} className="mt-1" />
         </div>
         <div className="relative h-[250px] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)] ring-1 ring-navy/5 sm:h-[340px] min-[900px]:h-[460px]">
-          <HeroSlides images={slides} sizes="(min-width: 900px) 46vw, 100vw" moving={Boolean(animalKey)} />
+          {/* sizes = the frame's real width (24px page margins, 41% of the screen from 900px, at most 526px), so phones get the file they need (TTR-2516). */}
+          <HeroSlides images={slides} sizes="(min-width: 1280px) 526px, (min-width: 900px) 41vw, calc(100vw - 48px)" moving={Boolean(animalKey)} />
           {/* On an animal's page the banner is live (Kia): its real footage plays over the photos where we have some.
               The raccoon clip was filmed in a zoo, so it stays off the raccoon page's banner, where it could read as a job (Ben). */}
           {animalKey && animalKey !== "raccoon" && animalVideos[animalKey] ? <LoopVideo src={animalVideos[animalKey]} /> : null}
