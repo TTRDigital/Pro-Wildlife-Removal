@@ -5,22 +5,25 @@ import type { Img } from "@/lib/types";
  * next/image wrapper for local and Sanity photos. Fills its (positioned) parent unless fill is off.
  * `priority` marks the page's LCP photo (the hero). Next 16 deprecates the old `priority` prop; its
  * docs advise loading it eagerly at high fetch priority instead of a preload, so it isn't queued
- * behind the fonts.
+ * behind the fonts. `low` marks a photo that is in view but hidden (the other hero slides), so Chrome
+ * doesn't raise it to high priority next to the hero (TTR-2516).
  */
 export function Photo({
   image,
   sizes = "(min-width: 1024px) 50vw, 100vw",
   className = "",
   priority = false,
+  low = false,
   fill = true,
 }: {
   image: Img;
   sizes?: string;
   className?: string;
   priority?: boolean;
+  low?: boolean;
   fill?: boolean;
 }) {
-  const load = priority ? ({ loading: "eager", fetchPriority: "high" } as const) : {};
+  const load = priority ? ({ loading: "eager", fetchPriority: "high" } as const) : low ? ({ fetchPriority: "low" } as const) : {};
   if (fill || !image.width || !image.height) {
     // Tall photos (mostly people) keep their top in a wide frame, so heads are never cut off.
     const tall = image.width && image.height && image.height > image.width * 1.05;
