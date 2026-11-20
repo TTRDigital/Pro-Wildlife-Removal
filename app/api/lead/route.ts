@@ -1,4 +1,5 @@
 import { MIN_FILL_MS, propertyOptions, serviceOptions } from "@/lib/lead-options";
+import { clientIp, guardLead, rateLimited, SPAM_LABEL } from "@/lib/spam-guard";
 
 /*
  * Inspection form handler (Vercel function). Validates the lead like the
@@ -12,15 +13,6 @@ export const dynamic = "force-dynamic";
 const reply = (status: number, body: Record<string, unknown>) =>
   Response.json(body, { status, headers: { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" } });
 
-/* Best-effort per-IP rate limit (per function instance): 10 leads per 10 minutes. */
-const recent = new Map<string, number[]>();
-function limited(ip: string) {
-  const now = Date.now();
-  const list = (recent.get(ip) ?? []).filter((t) => now - t < 600_000);
-  list.push(now);
-  recent.set(ip, list);
-  return list.length > 10;
-}
 
 const text = (v: unknown, max: number) => (typeof v === "string" ? v.trim().slice(0, max) : "");
 
@@ -42,8 +34,8 @@ export async function POST(request: Request) {
     if (originHost !== host) return reply(403, { ok: false, error: "Forbidden." });
   }
 
-  const ip = (request.headers.get("x-forwarded-for") ?? "unknown").split(",")[0].trim();
-  if (limited(ip)) return reply(429, { ok: false, error: "Too many requests. Please call us instead." });
+  const ip = clientIp(request);
+  if (rateLimited(ip)) return reply(429, { ok: false, error: "Too many requests. Please call us instead." });
 
   let input: Record<string, unknown>;
   try {
@@ -76,13 +68,13 @@ export async function POST(request: Request) {
   if (input.consent !== true) errors.consent = "Please agree so we can contact you.";
   if (Object.keys(errors).length) return reply(422, { ok: false, error: "Please check the form.", fields: errors });
 
-  // Spam: drop only when both signals agree (hidden field filled AND sent faster than a
-  // person can type). One signal alone is delivered with a "suspected-spam" tag.
-  const trapFilled = text(input.hp_pw, 200) !== "";
-  const elapsed = typeof input.elapsed_ms === "number" ? input.elapsed_ms : null;
-  const tooFast = elapsed !== null && elapsed < MIN_FILL_MS;
-  if (trapFilled && tooFast) return reply(200, { ok: true });
-  const spamCheck = trapFilled ? "suspect: hidden field filled" : tooFast ? `suspect: sent in ${elapsed} ms` : "ok";
+  // Spam (lib/spam-guard.ts): a bot gets the usual ok answer and nothing is sent; a doubtful lead is still sent, marked "Possible spam".
+  const verdict = await guardLead({
+    trap: input.hp_pw, elapsedMs: input.elapsed_ms, minFillMs: MIN_FILL_MS,
+    texts: [lead.name, lead.email, lead.address, lead.message], recaptchaToken: input.recaptcha_token, ip,
+  });
+  if (verdict.action === "drop") return reply(200, { ok: true });
+  const spamCheck = verdict.note;
 
   const webhook = (process.env.GHL_WEBHOOK_URL ?? "").trim();
   if (!webhook) {
@@ -100,10 +92,10 @@ export async function POST(request: Request) {
   const phone = digits.length === 10 ? `+1${digits}` : digits.length === 11 && digits[0] === "1" ? `+${digits}` : `${lead.phone.startsWith("+") ? "+" : ""}${digits}`;
   const parts = lead.name.split(/\s+/);
   const slug = lead.service.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  const tags = ["website-lead", `service-${slug}`, ...(spamCheck !== "ok" ? ["suspected-spam"] : [])];
+  const tags = [...(verdict.possibleSpam ? [SPAM_LABEL, "suspected-spam"] : []), "website-lead", `service-${slug}`];
 
   const payload: Record<string, unknown> = {
-    source: "Website form",
+    source: verdict.possibleSpam ? `${SPAM_LABEL}: Website form` : "Website form",
     submitted_at: new Date().toISOString(),
     name: lead.name,
     first_name: parts[0],
