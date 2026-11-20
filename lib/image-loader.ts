@@ -2,13 +2,15 @@
  * next/image loader: pre-made WebP copies instead of an image server.
  * - Local photos: WebP copies at fixed widths, made before the build by
  *   scripts/optimize-images.mjs (public/images/x.jpg -> /_img/images/x-640.webp).
- * - Sanity photos: Sanity's own image CDN resizes them.
+ * - Sanity photos: Sanity's own image CDN resizes them and sends WebP.
  * - SVGs are served as they are.
  */
 export default function imageLoader({ src, width, quality }: { src: string; width: number; quality?: number }) {
   if (src.startsWith("https://cdn.sanity.io/")) {
     const sep = src.includes("?") ? "&" : "?";
-    return `${src}${sep}w=${width}&q=${quality || 75}&fit=max&auto=format`;
+    // fm=webp, not auto=format: auto=format follows the request's Accept header, and the Nov 20 sweep saw
+    // full-size PNGs (up to 1.7 MB) come back. Every browser Next.js 16 supports shows WebP (TTR-2516).
+    return `${src}${sep}w=${width}&q=${quality || 75}&fit=max&fm=webp`;
   }
   if (!src.startsWith("/images/") || src.endsWith(".svg")) return src;
   return `/_img${src.replace(/\.(jpe?g|png|webp)$/i, "")}-${width}.webp`;

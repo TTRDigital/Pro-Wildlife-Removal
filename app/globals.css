@@ -221,6 +221,19 @@
     font-size: 1.0625rem;
     font-weight: 600;
   }
+  /* Headings moved up one level in the markup only (posts with no h2, components/ui/RichText.tsx): same look as before. */
+  .prose-pw .as-h3 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  .prose-pw .as-h4 {
+    margin-top: 1.5rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: inherit;
+  }
   .prose-pw h2 + *,
   .prose-pw h3 + *,
   .prose-pw h4 + * {

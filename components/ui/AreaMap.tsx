@@ -48,7 +48,7 @@ export function AreaMap({ groups }: { groups: Group[] }) {
                 className={`flex h-7 w-7 flex-none items-center justify-center rounded-lg text-xs ${on === g.name ? "bg-white/20 text-white" : "bg-tint text-blue-deep"}`}
               >
                 {i + 1}
-              </span>
+              </span>{" "}
               {g.name}
             </>
           );
@@ -63,7 +63,7 @@ export function AreaMap({ groups }: { groups: Group[] }) {
               {g.href ? (
                 <Link
                   href={g.href}
-                  aria-label={g.title}
+                  aria-label={`${i + 1} ${g.title}`}
                   className={cls}
                   {...hover}
                 >

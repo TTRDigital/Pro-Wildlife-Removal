@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { afterPaint } from "@/lib/after-paint";
 
 /** A thin bar along the top of the screen that fills as the reader moves through the article. */
 export function ReadProgress({ target }: { target: string }) {
@@ -20,12 +21,13 @@ export function ReadProgress({ target }: { target: string }) {
     const on = () => {
       if (!raf) raf = requestAnimationFrame(update);
     };
-    update();
+    const cancel = afterPaint(update);
     window.addEventListener("scroll", on, { passive: true });
     window.addEventListener("resize", on);
     return () => {
       window.removeEventListener("scroll", on);
       window.removeEventListener("resize", on);
+      cancel();
       if (raf) cancelAnimationFrame(raf);
     };
   }, [target]);

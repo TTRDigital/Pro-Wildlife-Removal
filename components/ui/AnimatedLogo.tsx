@@ -57,7 +57,7 @@ export function AnimatedLogo({ logo, className = "", sizes, priority = false }: 
   const own = logo.src === BASE;
   return (
     <span className={`logo-live inline-block ${/\babsolute\b/.test(className) ? "" : "relative"} ${className}`} style={{ aspectRatio: `${w} / ${h}` }}>
-      <Image src={own ? "/images/brand/logo-live.png" : logo.src} alt={logo.alt || "Pro Wildlife Removal logo"} width={w} height={h} sizes={sizes} priority={priority} className="h-full w-full" />
+      <Image src={own ? "/images/brand/logo-live.png" : logo.src} alt={logo.alt || "Pro Wildlife Removal logo"} width={w} height={h} sizes={sizes} loading={priority ? "eager" : undefined} className="h-full w-full" />
       <svg aria-hidden="true" viewBox={`0 0 ${w} ${h}`} className="pointer-events-none absolute inset-0 h-full w-full overflow-visible">
         <defs>
           {EYES.map((e, i) => (
