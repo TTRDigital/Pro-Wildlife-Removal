@@ -107,7 +107,7 @@ export default async function PostPage(props: PageProps<"/blog/[slug]">) {
             </div>
             {post.image ? (
               <div className="photo-live relative aspect-[16/10] overflow-hidden rounded-[22px] shadow-[0_30px_60px_-30px_rgb(14_42_71/0.55)] ring-1 ring-navy/5">
-                <Photo image={post.image} priority sizes="(min-width: 900px) 46vw, 100vw" />
+                <Photo image={post.image} priority sizes="(min-width: 1280px) 526px, (min-width: 900px) 41vw, calc(100vw - 48px)" />
               </div>
             ) : null}
           </div>
