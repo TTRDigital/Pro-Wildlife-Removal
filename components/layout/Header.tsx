@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, Phone, X } from "lucide-react";
 import type { Img } from "@/lib/types";
 import { AnimatedLogo } from "@/components/ui/AnimatedLogo";
+import { afterPaint } from "@/lib/after-paint";
 
 export type NavLink = { label: string; href: string; group?: string };
 export type NavItem = { label: string; href: string; children?: NavLink[] };
@@ -60,9 +61,12 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
 
   useEffect(() => {
     const on = () => setScrolled(window.scrollY > 8);
-    on();
+    const cancel = afterPaint(on);
     window.addEventListener("scroll", on, { passive: true });
-    return () => window.removeEventListener("scroll", on);
+    return () => {
+      cancel();
+      window.removeEventListener("scroll", on);
+    };
   }, []);
 
   // The menu item whose link (or one of its sub-links) best matches the page.
@@ -143,15 +147,16 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
             <a
               href={phoneHref}
               data-track="click_to_call"
-              aria-label={`Call ${phone} for a free inspection`}
+              aria-label={`Free Inspection ${phone}, call now`}
               className="call-pulse group hidden min-h-[56px] items-center gap-3 rounded-2xl bg-cta py-2 pr-5 pl-2 text-white shadow-[0_14px_30px_-14px_rgb(180_90_0/0.9)] transition-[background-color,transform] duration-200 hover:-translate-y-0.5 hover:bg-cta-hover sm:inline-flex"
             >
               <span className="call-shine" aria-hidden="true" />
               <span className="relative flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-white text-cta" aria-hidden="true">
                 <Phone className="phone-ring h-5 w-5" strokeWidth={2.5} />
               </span>
+              {/* The {" "} spaces between the words are for screen readers and checkers; a flex box never shows them. */}
               <span className="relative flex flex-col items-start leading-none" aria-hidden="true">
-                <span className="tag-nudge mb-1 rounded-md bg-black/20 px-1.5 py-[3px] font-display text-[0.6875rem] font-extrabold tracking-[1px] uppercase">Free Inspection</span>
+                <span className="tag-nudge mb-1 rounded-md bg-black/20 px-1.5 py-[3px] font-display text-[0.6875rem] font-extrabold tracking-[1px] uppercase">Free Inspection</span>{" "}
                 <span className="font-display text-[1.0625rem] font-extrabold tracking-[-0.01em] lg:text-[1.25rem]">{phone}</span>
               </span>
             </a>
@@ -159,7 +164,7 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
             <a
               href={phoneHref}
               data-track="click_to_call"
-              aria-label={`Call ${phone} for a free inspection`}
+              aria-label={`Free Inspection, Call Now: ${phone}`}
               className="call-pulse flex min-h-11 items-center gap-2 rounded-full bg-cta py-1.5 pr-3.5 pl-1.5 text-white sm:hidden"
             >
               <span className="call-shine" aria-hidden="true" />
@@ -167,7 +172,7 @@ export function Header({ nav, phone, phoneHref, logo }: { nav: NavItem[]; phone:
                 <Phone className="phone-ring h-4 w-4" strokeWidth={2.5} />
               </span>
               <span className="relative flex flex-col items-start leading-none" aria-hidden="true">
-                <span className="tag-nudge font-display text-[0.625rem] font-extrabold tracking-[0.8px] uppercase">Free Inspection</span>
+                <span className="tag-nudge font-display text-[0.625rem] font-extrabold tracking-[0.8px] uppercase">Free Inspection</span>{" "}
                 <span className="mt-0.5 font-display text-[0.9375rem] font-extrabold">Call Now</span>
               </span>
             </a>

@@ -3,15 +3,19 @@
 import { useEffect, useState } from "react";
 import { ChevronUp } from "lucide-react";
 import { chatWidgetId } from "@/lib/chat";
+import { afterPaint } from "@/lib/after-paint";
 
 /** Grey square back-to-top button of the old site, shown after scrolling one screen. Sits left of the chat widget. */
 export function BackToTop() {
   const [show, setShow] = useState(false);
   useEffect(() => {
     const onScroll = () => setShow(window.scrollY > window.innerHeight);
-    onScroll();
+    const cancel = afterPaint(onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    return () => {
+      cancel();
+      window.removeEventListener("scroll", onScroll);
+    };
   }, []);
   return (
     <button

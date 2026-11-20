@@ -128,12 +128,28 @@ const articleComponents: PortableTextComponents = {
   },
 };
 
+/**
+ * Posts whose body has no h2 (the guides open with h3 headings straight under the h1 title): the
+ * markup moves up one level so the outline has no gap (h1, h2, h3), while the class keeps each
+ * heading's look exactly as before (.prose-pw .as-h3 / .as-h4 in globals.css).
+ */
+const liftedComponents: PortableTextComponents = {
+  ...components,
+  block: {
+    h3: ({ children }) => <h2 className="as-h3">{children}</h2>,
+    h4: ({ children }) => <h3 className="as-h4">{children}</h3>,
+  },
+};
+
+const hasH2 = (value: Rich) => value.some((b) => (b as { _type?: string; style?: string })._type === "block" && (b as { style?: string }).style === "h2");
+
 /** Portable Text from the CMS or the built-in content. `base` is the text style: prose-pw (bat-removal design), o-rich (old theme) or r-rich (2025 template). */
 export function RichText({ value, className = "", base = "prose-pw", article = false }: { value?: Rich; className?: string; base?: "prose-pw" | "o-rich" | "r-rich"; article?: boolean }) {
   if (!value?.length) return null;
+  const set = !article ? components : hasH2(value) ? articleComponents : liftedComponents;
   return (
     <div className={`${base} ${className}`}>
-      <PortableText value={value as never} components={article ? articleComponents : components} />
+      <PortableText value={value as never} components={set} />
     </div>
   );
 }

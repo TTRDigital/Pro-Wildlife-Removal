@@ -43,7 +43,7 @@ export const doBatsCarryRabiesFlorida: Post = {
     ),
     h3("Bats living in the house"),
     p(
-      "A colony in the attic is a reason to keep bats and people apart, not to panic. It's illegal to kill bats in Florida, so FWC points to exclusion, and FWC says exclusion is illegal during maternity season, April 16 to August 14 ([FWC](${FWCB})). See [who to call about a bat](/blog/who-to-call-for-bat-removal/), [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat removal](/services/bat-removal/), or call (844) 264-6254.",
+      `A colony in the attic is a reason to keep bats and people apart, not to panic. It's illegal to kill bats in Florida, so FWC points to exclusion, and FWC says exclusion is illegal during maternity season, April 16 to August 14 ([FWC](${FWCB})). See [who to call about a bat](/blog/who-to-call-for-bat-removal/), [Florida bat laws](/blog/florida-bat-laws-homeowner-guide/) and [bat removal](/services/bat-removal/), or call (844) 264-6254.`,
     ),
   ),
   faq: [

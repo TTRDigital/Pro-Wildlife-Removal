@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { afterPaint } from "@/lib/after-paint";
 
 /**
  * A check list that ticks itself off as the reader scrolls: a line down the left fills blue,
@@ -32,7 +33,7 @@ export function ScrollChecklist({ items }: { items: string[] }) {
       if (!raf) raf = requestAnimationFrame(update);
     };
     // Ticking is on from here; before this every row shows ticked (server HTML, no JS).
-    requestAnimationFrame(() => {
+    const cancel = afterPaint(() => {
       setReady(true);
       update();
     });
@@ -41,6 +42,7 @@ export function ScrollChecklist({ items }: { items: string[] }) {
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
+      cancel();
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);

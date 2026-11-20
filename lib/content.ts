@@ -92,9 +92,18 @@ function mergeList<T>(fallback: T[], cms: Partial<T>[] | null, key: (x: Partial<
   return [...merged, ...missing];
 }
 
+/**
+ * Link targets that reached Sanity as unfilled template placeholders (the seed copied the text before the
+ * value was filled in), mapped to the URL they were meant to be. Only exact matches are swapped, so the
+ * link wording never changes. TTR-2516: "${FWCB}" on /blog/do-bats-carry-rabies-florida/ led to a 404.
+ */
+const unfilledLinks: Record<string, string> = {
+  "${FWCB}": "https://myfwc.com/conservation/you-conserve/wildlife/bats/bats-in-buildings/",
+};
+
 /** Every string in a piece of content with old service-area links swapped for the new URLs (no 301 hops on our own links). */
 function relink<T>(v: T): T {
-  if (typeof v === "string") return relinkAreas(v) as T;
+  if (typeof v === "string") return relinkAreas(Object.hasOwn(unfilledLinks, v) ? unfilledLinks[v] : v) as T;
   if (Array.isArray(v)) return v.map(relink) as T;
   if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, relink(x)])) as T;
   return v;
