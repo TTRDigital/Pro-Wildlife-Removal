@@ -18,7 +18,7 @@ export async function GET() {
   const area = (l: Location) => link(l.name, `/${l.path}/`);
   /** First sentence of a service summary, as a short note. */
   const note = (t?: string) => t?.match(/^[^.!?]{20,200}[.!?]/)?.[0];
-  const latest = [...posts].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")).slice(0, 15);
+  const latest = posts.filter((p) => !p.seo.noIndex).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")).slice(0, 15);
 
   const text = [
     `# ${s.name}`,

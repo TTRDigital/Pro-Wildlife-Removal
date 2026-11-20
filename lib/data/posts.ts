@@ -20,6 +20,10 @@ import { foundABabyRaccoon } from "./content/guides/found-a-baby-raccoon-florida
 import { floridaSquirrelRules } from "./content/guides/florida-squirrel-rules.ts";
 import { ratsDuringTheDay } from "./content/guides/rats-during-the-day.ts";
 import { doBatsCarryRabiesFlorida } from "./content/guides/do-bats-carry-rabies-florida.ts";
+import { ratsInPalmTrees } from "./content/guides/rats-in-palm-trees-florida.ts";
+import { batInPatioUmbrella } from "./content/guides/bat-in-patio-umbrella-florida.ts";
+import { ratsInWinter } from "./content/guides/do-rats-go-away-in-winter-florida.ts";
+import { squirrelInTheHouse } from "./content/guides/squirrel-in-the-house-what-to-do.ts";
 import { withExtras } from "./content/post-extras/index.ts";
 
 const migratedPosts: Post[] = [
@@ -50752,6 +50756,11 @@ const migratedPosts: Post[] = [
  floridaSquirrelRules,
  ratsDuringTheDay,
  doBatsCarryRabiesFlorida,
+ // Friday content day (Rory, Nov 21, 2026, TTR-2505): noindex until Kia and the client approve
+ ratsInPalmTrees,
+ batInPatioUmbrella,
+ ratsInWinter,
+ squirrelInTheHouse,
 ];
 
 export const fallbackPosts: Post[] = migratedPosts.map(withExtras);

@@ -19,7 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     entry("/how-we-work/", 0.6),
     entry("/contact-us/", 0.7),
     entry("/blog/", 0.6),
-    ...posts.map((p) => entry(`/blog/${p.slug}/`, 0.5, p.modified ?? p.date)),
+    ...posts.filter((p) => !p.seo.noIndex).map((p) => entry(`/blog/${p.slug}/`, 0.5, p.modified ?? p.date)),
     entry("/sitemap/", 0.2),
     entry("/privacy-policy/", 0.1),
     entry("/terms-of-service/", 0.1),
