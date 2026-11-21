@@ -8,7 +8,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { Header, type NavItem } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MobileCallBar } from "@/components/layout/MobileCallBar";
-import { BackToTop } from "@/components/layout/BackToTop";
+import { BackToTop } from "@/components/lazy";
 import { ChatWidget } from "@/components/layout/ChatWidget";
 import { Analytics } from "@/components/layout/Analytics";
 import { ReviewBar } from "@/components/layout/ReviewBar";

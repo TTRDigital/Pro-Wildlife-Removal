@@ -2,7 +2,7 @@ import type { SplitSection as Split } from "@/lib/types";
 import { Heading } from "@/components/ui/HighlightText";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
-import { ScrollChecklist } from "@/components/ui/ScrollChecklist";
+import { ScrollChecklist } from "@/components/lazy";
 import { CtaRow, SectionShell } from "./SectionShell";
 import { TextColumns } from "./ProseSection";
 

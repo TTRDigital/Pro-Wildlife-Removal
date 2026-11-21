@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { MapPin } from "lucide-react";
 import type { AreasSection as Areas } from "@/lib/types";
-import { AreaMap } from "@/components/ui/AreaMap";
-import { CityMarquee } from "@/components/ui/CityMarquee";
+import { AreaMap, CityMarquee } from "@/components/lazy";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 type Item = Areas["groups"][number]["items"][number];
