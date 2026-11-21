@@ -110,6 +110,8 @@ function cityTarget(source: string, fallback: string) {
 }
 
 const nextConfig: NextConfig = {
+  // app/global-not-found.tsx serves unmatched URLs, so the 404 page's header and footer aren't embedded in every page (TTR-2516).
+  experimental: { globalNotFound: true },
   // /about-us/ with the slash, like the old WordPress URLs.
   trailingSlash: true,
   // The temporary /api/seed route reads the original photos from public/images.
@@ -119,7 +121,7 @@ const nextConfig: NextConfig = {
     loader: "custom",
     loaderFile: "./lib/image-loader.ts",
     // Keep in sync with WIDTHS in scripts/optimize-images.mjs.
-    deviceSizes: [640, 828, 1200, 1920],
+    deviceSizes: [640, 750, 828, 1200, 1920],
     imageSizes: [96, 256, 384],
   },
   async redirects() {
