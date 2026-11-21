@@ -52,6 +52,7 @@ Next.js 16 (App Router, every page prerendered at build time) + Sanity Studio em
 | `NEXT_PUBLIC_SITE_URL` | `https://prowildliferemoval.net` |
 | `PREVIEW_SECRET` | shared secret for TTR OS draft-preview links (same value in TTR OS's SEO setup). Without it, previews are refused. |
 | `SANITY_READ_TOKEN` | Sanity Viewer token, used only by draft previews to read unpublished drafts. |
+| `SANITY_REVALIDATE_SECRET` | signs refresh calls to `POST /api/revalidate/` from TTR OS (or a Sanity webhook), so a publish shows without a rebuild. Without it, refresh calls get 503. |
 | `NEXT_PUBLIC_GHL_CHAT_WIDGET_ID` | optional: GoHighLevel chat widget ID. Without it the chat stays hidden. |
 | `NEXT_PUBLIC_TTR_SITE_KEY` | optional: overrides the built-in TTR OS site key (public). `off` turns the tracker and lead sending off. |
 | `NEXT_PUBLIC_GTM_ID` | optional: Google Tag Manager container (the old site used `GTM-K458279`) |
@@ -83,6 +84,6 @@ If your shell has another project's `NEXT_PUBLIC_SANITY_PROJECT_ID`, unset it fo
 
 - `lib/data/*`: built-in content (fallbacks and seed source), generated from the live site. `lib/data/images.ts` lists every photo with its alt text.
 - `lib/content.ts`: GROQ queries plus the merge over the built-in content (fetched at build time).
-- `next.config.ts`: redirects of old URLs, security headers and CSP. `app/api/preview`: draft preview for TTR OS.
+- `next.config.ts`: redirects of old URLs, security headers and CSP. `app/api/preview`: draft preview for TTR OS. `app/api/revalidate`: signed refresh after a Sanity publish.
 - `components/sections/PageView.tsx` draws a page in its design: `components/old/Classic.tsx` (old site), `components/old/Refresh.tsx` (2025 template) or `components/sections/*` (bat-removal design).
 - `sanity/schemaTypes`: CMS schema.
