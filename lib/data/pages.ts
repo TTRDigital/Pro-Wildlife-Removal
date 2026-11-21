@@ -1270,7 +1270,7 @@ const migratedPages = {
    }
   ],
   "seo": {
-   "title": "Professional Wildlife Removal Services | Pro Wildlife Removal",
+   "title": "Professional Wildlife Removal Services | Pro Wildlife",
    "description": "Pro Wildlife Removal provides professional and expert wildlife removal services in Central Florida. Safely remove nuisance animals from your home or business."
   }
  },

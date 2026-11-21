@@ -5,12 +5,11 @@ import { Icon } from "@/components/ui/Icon";
 import type { IconName } from "@/lib/icons";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
-import { StepRail } from "@/components/ui/StepRail";
+import { SoundButton, StepRail } from "@/components/lazy";
 import { LoopVideo } from "@/components/ui/LoopVideo";
 import { animalVideos } from "@/lib/data/videos";
 import { animalPhoto, jobPhoto, pageAnimal } from "@/lib/topics";
 import { TileLife } from "@/components/ui/TileLife";
-import { SoundButton } from "@/components/ui/SoundButton";
 import { signSounds } from "@/lib/data/sounds";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 

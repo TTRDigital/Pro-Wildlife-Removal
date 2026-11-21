@@ -73,9 +73,19 @@ export const getTestimonials = cache(async (): Promise<Testimonial[]> => {
 
 /* ---------- Page singletons ---------- */
 
+/**
+ * Page titles still stored in Sanity at their old wording, mapped to the shortened title. Exact matches only, so
+ * an editor's new title always wins. TTR-2516: /services/ was 61 characters (target 50 to 60).
+ */
+const retitled: Record<string, string> = {
+  "Professional Wildlife Removal Services | Pro Wildlife Removal": "Professional Wildlife Removal Services | Pro Wildlife",
+};
+
 export const getPage = cache(async (key: PageKey): Promise<PageContent> => {
   const cms = await sanityFetch<Partial<PageContent>>(`*[_id == $id][0]{ ${PAGE} }`, { id: `${key}Page` }, [`${key}Page`]);
-  return relink(hidePlaceholders(merge(fallbackPages[key] as PageContent, cms)));
+  const page = relink(hidePlaceholders(merge(fallbackPages[key] as PageContent, cms)));
+  const title = page.seo?.title;
+  return title && Object.hasOwn(retitled, title) ? { ...page, seo: { ...page.seo, title: retitled[title] } } : page;
 });
 
 /* ---------- Collections ---------- */

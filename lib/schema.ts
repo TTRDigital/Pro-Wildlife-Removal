@@ -3,7 +3,6 @@ import { absoluteUrl, siteUrl } from "@/lib/site";
 import { images } from "@/lib/data/images";
 import { real } from "@/lib/placeholders";
 
-/** PestControl (a LocalBusiness) for the whole site. */
 /** Counties are administrative areas, cities are cities, and regions like "Central Florida" are plain places. */
 const areaType = (l: Location) => (l.kind === "county" ? "AdministrativeArea" : l.kind === "region" ? "Place" : "City");
 
@@ -11,10 +10,31 @@ const areaType = (l: Location) => (l.kind === "county" ? "AdministrativeArea" : 
  * The rating and the reviews a page actually shows, attached to the business by its @id. Output by the
  * reviews section only, so a page without visible reviews carries no review markup (Ben, Oct 26).
  */
+/**
+ * schema.org type for the business. Never PestControl: Pro Wildlife is never called pest control (Kia, Oct 26).
+ * LocalBusiness rather than HomeAndConstructionBusiness, which is for builders and trades (TTR-2516).
+ */
+const BUSINESS_TYPE = "LocalBusiness";
+
+/** Any PestControl type in CMS-written JSON-LD becomes LocalBusiness too, so the rule holds whatever is stored. */
+function noPestControl(v: unknown): unknown {
+  if (Array.isArray(v)) return v.map(noPestControl);
+  if (v && typeof v === "object") {
+    const swap = (t: unknown) => (t === "PestControl" ? BUSINESS_TYPE : t);
+    return Object.fromEntries(
+      Object.entries(v).map(([k, x]) => {
+        if (k !== "@type") return [k, noPestControl(x)];
+        return [k, Array.isArray(x) ? [...new Set(x.map(swap))] : swap(x)];
+      }),
+    );
+  }
+  return v;
+}
+
 export function reviewsSchema(s: SiteSettings, shown: Testimonial[]) {
   return {
     "@context": "https://schema.org",
-    "@type": "PestControl",
+    "@type": BUSINESS_TYPE,
     "@id": `${siteUrl}/#business`,
     name: s.name,
     ...(s.googleRating && s.reviewCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: s.googleRating, reviewCount: s.reviewCount, bestRating: "5" } } : {}),
@@ -34,7 +54,7 @@ export function businessSchema(s: SiteSettings, locations: Location[] = []) {
   const license = real(s.license);
   return {
     "@context": "https://schema.org",
-    "@type": "PestControl",
+    "@type": BUSINESS_TYPE,
     "@id": `${siteUrl}/#business`,
     name: s.name,
     url: `${siteUrl}/`,
@@ -142,8 +162,8 @@ export function customSchema(seo: { schema?: string } | undefined): Record<strin
   try {
     const v: unknown = JSON.parse(text);
     const ok = (x: unknown): x is Record<string, unknown> => !!x && typeof x === "object" && !Array.isArray(x) && "@type" in x;
-    if (Array.isArray(v)) return v.length && v.every(ok) ? v : null;
-    return ok(v) ? v : null;
+    if (Array.isArray(v)) return v.length && v.every(ok) ? (noPestControl(v) as Record<string, unknown>[]) : null;
+    return ok(v) ? (noPestControl(v) as Record<string, unknown>) : null;
   } catch {
     return null;
   }

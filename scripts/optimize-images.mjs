@@ -9,7 +9,8 @@ import path from "node:path";
 import sharp from "sharp";
 
 // deviceSizes + imageSizes from next.config.ts.
-const WIDTHS = [96, 256, 384, 640, 828, 1200, 1920];
+// 750: a 412px phone at 1.75x (Lighthouse's mobile device) needs 721px for a full-width hero; 828 was 15% wider (TTR-2516).
+const WIDTHS = [96, 256, 384, 640, 750, 828, 1200, 1920];
 const SRC = path.resolve("public/images");
 const OUT = path.resolve("public/_img/images");
 
