@@ -2,6 +2,7 @@ import "server-only";
 
 import { draftMode } from "next/headers";
 import { apiVersion, dataset, projectId } from "@/sanity/env";
+import { SANITY_TAG } from "@/lib/revalidate";
 
 /** True inside a draft preview request (app/api/preview). False at build time and outside a request. */
 export async function isPreview() {
@@ -15,7 +16,8 @@ export async function isPreview() {
 /**
  * Fetch published content from Sanity's API CDN.
  *
- * - Runs at build time: publishing in Sanity starts a rebuild (Vercel deploy hook).
+ * - Runs at build time: publishing in Sanity starts a rebuild (Vercel deploy hook). Published reads are
+ *   also tagged, so a signed POST /api/revalidate/ refreshes pages without a rebuild.
  * - In draft preview (TTR OS preview links) it reads drafts over published content
  *   from the live API with SANITY_READ_TOKEN, uncached.
  * - Never throws: returns null on any failure so pages fall back to
@@ -36,7 +38,11 @@ export async function sanityFetch<T>(
   const url = `https://${projectId}.${token ? "api" : "apicdn"}.sanity.io/v${apiVersion}/data/query/${dataset}?${search}`;
 
   try {
-    const res = await fetch(url, token ? { cache: "no-store", headers: { Authorization: `Bearer ${token}` } } : { cache: "force-cache" });
+    // Published reads are tagged so POST /api/revalidate/ can refresh them after a publish (lib/revalidate.ts).
+    const res = await fetch(
+      url,
+      token ? { cache: "no-store", headers: { Authorization: `Bearer ${token}` } } : { cache: "force-cache", next: { tags: [SANITY_TAG, ...tags] } },
+    );
     if (!res.ok) {
       console.warn(`[sanity] ${res.status} for query tags=${tags.join(",")}`);
       return null;
