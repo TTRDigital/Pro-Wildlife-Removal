@@ -10,7 +10,12 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { RichText } from "@/components/ui/RichText";
 import { Photo } from "@/components/ui/Photo";
 
-export const dynamicParams = false;
+/*
+ * Posts are prerendered from generateStaticParams. A slug that is not there (a
+ * draft TTR OS previews, lib/preview.ts) renders on request; getPost then finds
+ * it only in draft mode, and any other unknown slug is still a 404.
+ */
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   return (await getPosts()).map((p) => ({ slug: p.slug }));
