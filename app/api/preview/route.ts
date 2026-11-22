@@ -1,12 +1,14 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { draftMode } from "next/headers";
+import { canReadDrafts } from "@/lib/sanity/fetch";
 
 /*
  * Draft preview for TTR OS (lib/connectors/sanity.ts previewUrl in ttr-portal):
  *   /api/preview?path=/blog/new-post/&exp=<unix seconds>&sig=<hex>
  * sig = HMAC-SHA256(PREVIEW_SECRET, `${path}\n${exp}`). A valid, unexpired link turns on Next draft mode
  * (pages then read Sanity drafts with SANITY_READ_TOKEN) and redirects to the path on this site.
- * PREVIEW_SECRET and SANITY_READ_TOKEN are env vars set in Vercel; without PREVIEW_SECRET every link is refused.
+ * PREVIEW_SECRET and SANITY_READ_TOKEN are env vars set in Vercel; without PREVIEW_SECRET every link is refused,
+ * and when SANITY_READ_TOKEN is missing or Sanity refuses it, a signed link answers 503 instead of a page.
  */
 
 export const dynamic = "force-dynamic";
@@ -37,6 +39,9 @@ export async function GET(request: Request) {
 
   const target = new URL(path, url.origin);
   if (target.origin !== url.origin) return refuse(400, "Invalid path.");
+
+  // Without a working read token the page would show built-in content and answer 404 for a draft: say so instead.
+  if (!(await canReadDrafts())) return refuse(503, "Preview could not read Sanity (check SANITY_READ_TOKEN).");
 
   (await draftMode()).enable();
   return new Response(null, { status: 307, headers: { Location: target.pathname + target.search + target.hash, "Cache-Control": "no-store" } });

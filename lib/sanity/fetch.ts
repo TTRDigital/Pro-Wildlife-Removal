@@ -14,6 +14,28 @@ export async function isPreview() {
 }
 
 /**
+ * Whether draft preview can read Sanity: one small read of drafts from the live API with
+ * SANITY_READ_TOKEN. Checked by app/api/preview before draft mode is turned on, because pages
+ * fall back to the built-in content when a read fails, and a draft post would then answer 404.
+ */
+export async function canReadDrafts(): Promise<boolean> {
+  const token = (process.env.SANITY_READ_TOKEN ?? "").trim();
+  if (!projectId || !token) return false;
+  const search = new URLSearchParams({ query: `count(*[_type == "post"])`, perspective: "drafts" });
+  try {
+    const res = await fetch(`https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?${search}`, {
+      cache: "no-store",
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    if (!res.ok) console.warn(`[sanity] preview read refused: ${res.status}`);
+    return res.ok;
+  } catch (error) {
+    console.warn("[sanity] preview read failed", error);
+    return false;
+  }
+}
+
+/**
  * Fetch published content from Sanity's API CDN.
  *
  * - Runs at build time: publishing in Sanity starts a rebuild (Vercel deploy hook). Published reads are
