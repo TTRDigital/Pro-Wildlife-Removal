@@ -1,4 +1,4 @@
-import type { Location, Post, Service, ServicePlace, SiteSettings, Testimonial } from "@/lib/types";
+import type { Location, Post, Service, ServicePlace, SiteSettings } from "@/lib/types";
 import { absoluteUrl, siteUrl } from "@/lib/site";
 import { images } from "@/lib/data/images";
 import { real } from "@/lib/placeholders";
@@ -6,10 +6,6 @@ import { real } from "@/lib/placeholders";
 /** Counties are administrative areas, cities are cities, and regions like "Central Florida" are plain places. */
 const areaType = (l: Location) => (l.kind === "county" ? "AdministrativeArea" : l.kind === "region" ? "Place" : "City");
 
-/**
- * The rating and the reviews a page actually shows, attached to the business by its @id. Output by the
- * reviews section only, so a page without visible reviews carries no review markup (Ben, Oct 26).
- */
 /**
  * schema.org type for the business. Never PestControl: Pro Wildlife is never called pest control (Kia, Oct 26).
  * LocalBusiness rather than HomeAndConstructionBusiness, which is for builders and trades (TTR-2516).
@@ -31,25 +27,39 @@ function noPestControl(v: unknown): unknown {
   return v;
 }
 
-export function reviewsSchema(s: SiteSettings, shown: Testimonial[]) {
-  return {
-    "@context": "https://schema.org",
-    "@type": BUSINESS_TYPE,
-    "@id": `${siteUrl}/#business`,
-    name: s.name,
-    ...(s.googleRating && s.reviewCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: s.googleRating, reviewCount: s.reviewCount, bestRating: "5" } } : {}),
-    review: shown.map((t) => ({
-      "@type": "Review",
-      author: { "@type": "Person", name: t.name },
-      ...(t.date ? { datePublished: t.date } : {}),
-      reviewRating: { "@type": "Rating", ratingValue: t.rating, bestRating: 5 },
-      reviewBody: t.quote,
-      ...(t.source ? { publisher: { "@type": "Organization", name: t.source } } : {}),
-    })),
-  };
+/** schema.org types that are reviews or ratings: Review, CriticReview, Rating, AggregateRating and the like. */
+const REVIEW_TYPE = /(Review|Rating)$/;
+/** Properties that carry reviews or ratings on any type. */
+const REVIEW_KEYS = new Set(["review", "reviews", "aggregateRating", "reviewRating", "contentRating"]);
+const isReviewNode = (v: unknown) => {
+  const t = v && typeof v === "object" && !Array.isArray(v) ? (v as Record<string, unknown>)["@type"] : undefined;
+  return (Array.isArray(t) ? t : [t]).some((x) => typeof x === "string" && REVIEW_TYPE.test(x));
+};
+
+/**
+ * No Review, Rating or AggregateRating in structured data on any client site (Kia; TTR-2510). The site's own
+ * testimonials still show on the page, they are just never marked up. Applied to every JSON-LD block the site
+ * prints (components/ui/JsonLd.tsx), so it holds for the CMS-written schema too, whatever is stored there.
+ */
+export function noReviews(v: unknown): unknown {
+  if (Array.isArray(v)) return v.filter((x) => !isReviewNode(x)).map(noReviews);
+  if (v && typeof v === "object") {
+    return Object.fromEntries(
+      Object.entries(v)
+        .filter(([k, x]) => !REVIEW_KEYS.has(k) && !isReviewNode(x))
+        .map(([k, x]) => [k, noReviews(x)]),
+    );
+  }
+  return v;
 }
 
-/** The business itself, on every page. Its rating and reviews come from reviewsSchema, only where they are shown. */
+/** What every JSON-LD block goes through before it is printed: no reviews or ratings, never PestControl. */
+export function cleanSchema<T extends Record<string, unknown> | Record<string, unknown>[]>(data: T): T {
+  const v = Array.isArray(data) ? data.filter((x) => !isReviewNode(x)) : data;
+  return noPestControl(noReviews(v)) as T;
+}
+
+/** The business itself, on every page. No rating and no reviews (TTR-2510). */
 export function businessSchema(s: SiteSettings, locations: Location[] = []) {
   const license = real(s.license);
   return {
