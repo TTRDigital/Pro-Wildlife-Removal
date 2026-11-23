@@ -2,8 +2,6 @@ import type { ReviewsSection as Reviews, SiteSettings, Testimonial } from "@/lib
 import { Stars } from "@/components/ui/Stars";
 import { formatDate, initials } from "@/lib/text";
 import { RatingChip } from "./PageHero";
-import { JsonLd } from "@/components/ui/JsonLd";
-import { reviewsSchema } from "@/lib/schema";
 import { CtaRow, SectionHeader, SectionShell } from "./SectionShell";
 
 /** Reviews mentioning the word first (e.g. "bat" on the bat page), then the rest in their usual order. */
@@ -14,7 +12,10 @@ function pick(testimonials: Testimonial[], match: string | undefined, limit: num
   return [...hits, ...testimonials.filter((t) => !hits.includes(t))].slice(0, limit);
 }
 
-/** Review cards: Google rating on top, then quote cards that swipe sideways on phones and sit in a grid on desktop. */
+/**
+ * Review cards: Google rating on top, then quote cards that swipe sideways on phones and sit in a grid on desktop.
+ * Shown only, never marked up: no Review or Rating structured data on client sites (TTR-2510).
+ */
 export function ReviewsSection({ section: s, testimonials, settings, limit = 3 }: { section: Reviews; testimonials: Testimonial[]; settings: SiteSettings; limit?: number }) {
   const items = pick(testimonials, s.match, limit);
   if (!items.length) return null;
@@ -57,7 +58,6 @@ export function ReviewsSection({ section: s, testimonials, settings, limit = 3 }
         </p>
       ) : null}
       <CtaRow ctas={ctas} />
-      <JsonLd data={reviewsSchema(settings, items)} />
     </SectionShell>
   );
 }

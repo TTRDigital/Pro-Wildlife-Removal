@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/optimize-images.mjs && next build",
+    "build": "node scripts/optimize-images.mjs && next build && node scripts/check-schema.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "seed": "node --experimental-strip-types --no-warnings scripts/seed.ts",
