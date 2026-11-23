@@ -1,4 +1,4 @@
-import type { Location, Post, Service, SiteSettings, Testimonial } from "@/lib/types";
+import type { Location, Post, Service, SiteSettings } from "@/lib/types";
 import { absoluteUrl, siteUrl } from "@/lib/site";
 import { images } from "@/lib/data/images";
 import { real } from "@/lib/placeholders";
@@ -18,8 +18,12 @@ function to24h(t: string) {
   return `${String(h).padStart(2, "0")}:${m[2] ?? "00"}`;
 }
 
-/** PestControl (a LocalBusiness) for the whole site. */
-export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = [], locations: Location[] = []) {
+/**
+ * One LocalBusiness for the whole site. Not PestControl: this business is not pest control (Ben, Nov 21; TTR OS rules
+ * out that type for this client). No ratings or reviews: a business's own reviews in its own markup break Google's rules
+ * and can cost the stars (TTR OS schema rules).
+ */
+export function businessSchema(s: SiteSettings, locations: Location[] = []) {
   const hours = s.hours
     .map((h) => {
       const days = DAYS[h.label.toLowerCase()];
@@ -30,7 +34,7 @@ export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = []
   const license = real(s.license);
   return {
     "@context": "https://schema.org",
-    "@type": "PestControl",
+    "@type": "LocalBusiness",
     "@id": `${siteUrl}/#business`,
     name: s.name,
     url: `${siteUrl}/`,
@@ -44,13 +48,6 @@ export function businessSchema(s: SiteSettings, testimonials: Testimonial[] = []
     areaServed: locations.filter((l) => l.kind !== "rat").map((l) => ({ "@type": l.kind === "county" ? "AdministrativeArea" : "City", name: `${l.name}, FL` })),
     sameAs: s.social.map((x) => x.href),
     ...(license ? { hasCredential: license } : {}),
-    ...(s.googleRating && s.reviewCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: s.googleRating, reviewCount: s.reviewCount, bestRating: "5" } } : {}),
-    review: testimonials.slice(0, 5).map((t) => ({
-      "@type": "Review",
-      author: { "@type": "Person", name: t.name },
-      reviewRating: { "@type": "Rating", ratingValue: t.rating, bestRating: 5 },
-      reviewBody: t.quote,
-    })),
   };
 }
 
