@@ -1,5 +1,6 @@
 // Structured-data guard, run after `next build` (TTR-2510).
-// usage: node scripts/check-schema.mjs [dir]   (default: .next/server/app)
+// usage: node scripts/check-schema.mjs [dir]   (default: .next/server)
+// Pages are in .next/server/app on a plain build, and in .next/server/route-cache on Vercel (its build adapter).
 // Reads the JSON-LD of every prerendered page and exits 1 if any block has a Review, Rating or
 // AggregateRating (any type ending in Review or Rating), a review/aggregateRating/reviewRating property,
 // or a PestControl type. Kia's rule: no review or rating markup on any client site; Pro Wildlife is never
@@ -7,7 +8,7 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 
-const root = path.resolve(process.argv[2] || ".next/server/app");
+const root = path.resolve(process.argv[2] || ".next/server");
 const BAD_TYPE = /(Review|Rating)$|^PestControl$/;
 const BAD_KEYS = new Set(["review", "reviews", "aggregateRating", "reviewRating"]);
 
